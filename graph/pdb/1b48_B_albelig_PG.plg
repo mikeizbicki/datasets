@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b48, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CRYSTAL STRUCTURE, GLUTATHIONE S-TRANSFERASE, GST, SUBUNITCOOPERATIVITY
+> pdb_mol_name > PROTEIN (GLUTATHIONE S-TRANSFERASE)
+> graphtype > albelig
+> resolution > 2.6
+> date > 06-JAN-99
+> header > TRANSFERASE
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF MGSTA4-4 IN COMPLEX WITH GSH CONJUGATEOF 4-HYDROXYNONENAL IN ONE SUBUNIT AND GSH IN THE OTHER:EVIDENCE OF SIGNALING ACROSS DIMER INTERFACE IN MGSTA4-4
+> format_version > 2
+> pdbid > 1b48
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b48 | B | albelig | 1 | 1 | E | 227 | 229 | B-6-  | B-8-  | KLY 
+| 1b48 | B | albelig | 2 | 2 | H | 235 | 246 | B-14-  | B-25-  | GRMESIRWLLAA 
+| 1b48 | B | albelig | 3 | 3 | H | 259 | 269 | B-38-  | B-48-  | REQYEKMQKDG 
+| 1b48 | B | albelig | 4 | 4 | E | 278 | 281 | B-57-  | B-60-  | LVEI 
+| 1b48 | B | albelig | 5 | 5 | E | 284 | 286 | B-63-  | B-65-  | MML 
+| 1b48 | B | albelig | 6 | 6 | H | 289 | 299 | B-68-  | B-78-  | TRAILSYLAAK 
+| 1b48 | B | albelig | 7 | 7 | H | 307 | 332 | B-86-  | B-111-  | LKERVRIDMYADGTQDLMMMIAVAPF 
+| 1b48 | B | albelig | 8 | 8 | H | 335 | 353 | B-114-  | B-132-  | PKEKEESYDLILSRAKTRY 
+| 1b48 | B | albelig | 9 | 9 | H | 354 | 364 | B-133-  | B-143-  | FPVFEKILKDH 
+| 1b48 | B | albelig | 10 | 10 | H | 376 | 389 | B-155-  | B-168-  | WADIQLLEAILMVE 
+| 1b48 | B | albelig | 11 | 11 | H | 393 | 398 | B-172-  | B-177-  | APVLSD 
+| 1b48 | B | albelig | 12 | 12 | H | 400 | 410 | B-179-  | B-189-  | PLLQAFKTRIS 
+| 1b48 | B | albelig | 13 | 13 | H | 413 | 419 | B-192-  | B-198-  | PTIKKFL 
+| 1b48 | B | albelig | 14 | 14 | H | 431 | 440 | B-210-  | B-219-  | GPYVEVVRIV 
+| 1b48 | B | albelig | 15 | 15 | L | 445 | 445 | B-223-  | B-223-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = p = 6
+= 2 = m = 10
+= 2 = m = 13
+= 2 = l = 15
+= 3 = m = 14
+= 3 = l = 15
+= 4 = a = 5
+= 6 = l = 15
+= 7 = a = 8
+= 7 = p = 10
+= 8 = m = 9
+= 9 = m = 12
+= 10 = m = 12
+# Listed 14 contacts. EOF.

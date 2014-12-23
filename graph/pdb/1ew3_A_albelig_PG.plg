@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ew3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPOCALIN, BETA BARREL, ALLERGEN
+> pdb_mol_name > ALLERGEN EQU C 1
+> graphtype > albelig
+> resolution > 2.3
+> date > 21-APR-00
+> header > ALLERGEN
+> pdb_org_common > HORSE
+> title > CRYSTAL STRUCTURE OF THE MAJOR HORSE ALLERGEN EQU C 1
+> format_version > 2
+> pdbid > 1ew3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > EQUUS CABALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ew3 | A | albelig | 1 | 1 | E | 3 | 5 | A-25-  | A-27-  | IRN 
+| 1ew3 | A | albelig | 2 | 2 | H | 8 | 10 | A-30-  | A-32-  | ISK 
+| 1ew3 | A | albelig | 3 | 3 | E | 16 | 22 | A-38-  | A-44-  | YSIFLAS 
+| 1ew3 | A | albelig | 4 | 4 | H | 25 | 27 | A-47-  | A-49-  | KEK 
+| 1ew3 | A | albelig | 5 | 5 | E | 36 | 43 | A-58-  | A-65-  | VFVDVIRA 
+| 1ew3 | A | albelig | 6 | 6 | E | 49 | 57 | A-71-  | A-79-  | LYAEYQTKV 
+| 1ew3 | A | albelig | 7 | 7 | E | 60 | 70 | A-82-  | A-92-  | EATEFPMVFDK 
+| 1ew3 | A | albelig | 8 | 8 | E | 76 | 80 | A-98-  | A-102-  | VYSLN 
+| 1ew3 | A | albelig | 9 | 9 | E | 84 | 92 | A-106-  | A-114-  | YNVFRISEF 
+| 1ew3 | A | albelig | 10 | 10 | E | 97 | 104 | A-119-  | A-126-  | HIILYLVN 
+| 1ew3 | A | albelig | 11 | 11 | E | 111 | 118 | A-133-  | A-140-  | FQLFEFYA 
+| 1ew3 | A | albelig | 12 | 12 | H | 125 | 137 | A-147-  | A-159-  | PEIKEEFVKIVQK 
+| 1ew3 | A | albelig | 13 | 13 | H | 142 | 144 | A-164-  | A-166-  | KEN 
+| 1ew3 | A | albelig | 14 | 14 | E | 145 | 147 | A-167-  | A-169-  | IID 
+| 1ew3 | A | albelig | 15 | 15 | H | 148 | 150 | A-170-  | A-172-  | LTK 
+| 1ew3 | A | albelig | 16 | 16 | H | 155 | 157 | A-177-  | A-179-  | FQL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 9
+= 3 = a = 5
+= 3 = a = 11
+= 3 = m = 13
+= 3 = a = 14
+= 3 = m = 15
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 7 = m = 16
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 13 = m = 14
+= 14 = m = 15
+# Listed 15 contacts. EOF.

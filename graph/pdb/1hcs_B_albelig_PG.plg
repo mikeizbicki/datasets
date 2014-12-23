@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hcs, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMAN PP60C-SRC SH2 DOMAIN, COMPLEX (SIGNALTRANSDUCTION/PEPTIDE) COMPLEX
+> pdb_mol_name > HUMAN SRC
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-SEP-94
+> header > COMPLEX (SIGNAL TRANSDUCTION/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > NMR STRUCTURE OF THE HUMAN SRC SH2 DOMAIN COMPLEX
+> format_version > 2
+> pdbid > 1hcs
+> experiment > SOLUTION NMR
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hcs | B | albelig | 1 | 1 | H | 10 | 12 | B-143-  | B-145-  | IQA 
+| 1hcs | B | albelig | 2 | 2 | E | 16 | 18 | B-149-  | B-151-  | YFG 
+| 1hcs | B | albelig | 3 | 3 | H | 22 | 29 | B-155-  | B-162-  | RRESERLL 
+| 1hcs | B | albelig | 4 | 4 | E | 38 | 43 | B-171-  | B-176-  | TFLVRE 
+| 1hcs | B | albelig | 5 | 5 | E | 51 | 58 | B-184-  | B-191-  | YCLSVSDF 
+| 1hcs | B | albelig | 6 | 6 | E | 64 | 74 | B-197-  | B-207-  | LNVKHYKIRKL 
+| 1hcs | B | albelig | 7 | 7 | E | 78 | 80 | B-211-  | B-213-  | GFY 
+| 1hcs | B | albelig | 8 | 8 | H | 90 | 99 | B-223-  | B-232-  | LQQLVAYYSK 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+# Listed 4 contacts. EOF.

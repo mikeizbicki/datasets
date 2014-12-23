@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ccw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUTAMATE MUTASE, COENZYME B12, RADICAL REACTION, TIM-BARREL,ROSSMAN-FOLD, ISOMERASE
+> pdb_mol_name > PROTEIN (GLUTAMATE MUTASE)
+> graphtype > albelig
+> resolution > 1.6
+> date > 01-MAR-99
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE COENZYME B12 DEPENDENT ENZYME GLUTAMATE MUTASE FROMCLOSTRIDIUM COCHLEARIUM
+> format_version > 2
+> pdbid > 1ccw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM COCHLEARIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ccw | A | albelig | 1 | 1 | E | 5 | 11 | A-5-  | A-11-  | TIVLGVI 
+| 1ccw | A | albelig | 2 | 2 | H | 18 | 29 | A-18-  | A-29-  | VGNKILDHAFTN 
+| 1ccw | A | albelig | 3 | 3 | E | 33 | 41 | A-33-  | A-41-  | NVVNIGVLS 
+| 1ccw | A | albelig | 4 | 4 | H | 43 | 53 | A-43-  | A-53-  | QELFIKAAIET 
+| 1ccw | A | albelig | 5 | 5 | E | 57 | 62 | A-57-  | A-62-  | AILVSS 
+| 1ccw | A | albelig | 6 | 6 | H | 67 | 71 | A-67-  | A-71-  | GEIDC 
+| 1ccw | A | albelig | 7 | 7 | H | 74 | 80 | A-74-  | A-80-  | LRQKCDE 
+| 1ccw | A | albelig | 8 | 8 | E | 87 | 92 | A-87-  | A-92-  | LLYVGG 
+| 1ccw | A | albelig | 9 | 9 | H | 101 | 110 | A-101-  | A-110-  | WPDVEKRFKD 
+| 1ccw | A | albelig | 10 | 10 | H | 123 | 134 | A-123-  | A-134-  | PEVGIADLKKDL 
+| 1ccw | A | albelig | 11 | 11 | L | 1244 | 1244 | A-800-  | A-800-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 4
+= 1 = p = 5
+= 2 = m = 3
+= 2 = m = 10
+= 2 = l = 11
+= 3 = a = 4
+= 4 = m = 7
+= 5 = p = 8
+= 5 = l = 11
+= 8 = m = 10
+= 8 = l = 11
+= 10 = l = 11
+# Listed 13 contacts. EOF.

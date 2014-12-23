@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cg5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > PROTEIN (HEMOGLOBIN)
+> graphtype > albelig
+> resolution > 1.6
+> date > 26-MAR-99
+> header > OXYGEN TRANSPORT
+> pdb_org_common > RED STINGRAY
+> title > DEOXY FORM HEMOGLOBIN FROM DASYATIS AKAJEI
+> format_version > 2
+> pdbid > 1cg5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DASYATIS AKAJEI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cg5 | A | albelig | 1 | 1 | H | 4 | 19 | A-4-  | A-19-  | SQNKKAIEELGNLIKA 
+| 1cg5 | A | albelig | 2 | 2 | H | 21 | 35 | A-21-  | A-35-  | AEAWGADALARLFEL 
+| 1cg5 | A | albelig | 3 | 3 | H | 37 | 43 | A-37-  | A-43-  | PQTKTYF 
+| 1cg5 | A | albelig | 4 | 4 | H | 54 | 70 | A-54-  | A-70-  | EQVKKHGKRVMNALADA 
+| 1cg5 | A | albelig | 5 | 5 | H | 77 | 92 | A-77-  | A-92-  | LHLHLEDLARKHGENL 
+| 1cg5 | A | albelig | 6 | 6 | H | 97 | 113 | A-97-  | A-113-  | HNFHLFADCIVVTLAVN 
+| 1cg5 | A | albelig | 7 | 7 | H | 119 | 136 | A-119-  | A-136-  | PVTHCAVDKFLELVAYEL 
+| 1cg5 | A | albelig | 8 | 8 | L | 284 | 284 | A-142-  | A-142-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 4
+= 2 = m = 6
+= 2 = l = 8
+= 3 = l = 8
+= 4 = l = 8
+= 5 = m = 7
+= 5 = l = 8
+= 6 = l = 8
+= 7 = l = 8
+# Listed 10 contacts. EOF.

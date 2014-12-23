@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bu3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM BINDING
+> pdb_mol_name > CALCIUM-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 1.65
+> date > 30-AUG-98
+> header > CALCIUM BINDING
+> pdb_org_common > SILVER HAKE
+> title > REFINED CRYSTAL STRUCTURE OF CALCIUM-BOUND SILVER HAKE (PI4.2) PARVALBUMIN AT 1.65 A.
+> format_version > 2
+> pdbid > 1bu3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MERLUCCIUS BILINEARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bu3 | A | albelig | 1 | 1 | H | 8 | 17 | A-8-  | A-17-  | DADVAAALKA 
+| 1bu3 | A | albelig | 2 | 2 | H | 26 | 33 | A-26-  | A-33-  | YKAFFAKV 
+| 1bu3 | A | albelig | 3 | 3 | H | 35 | 37 | A-35-  | A-37-  | LTA 
+| 1bu3 | A | albelig | 4 | 4 | H | 40 | 50 | A-40-  | A-50-  | ADDIKKAFFVI 
+| 1bu3 | A | albelig | 5 | 5 | H | 60 | 64 | A-60-  | A-64-  | EDELK 
+| 1bu3 | A | albelig | 6 | 6 | H | 66 | 70 | A-66-  | A-70-  | FLQVF 
+| 1bu3 | A | albelig | 7 | 7 | H | 79 | 89 | A-79-  | A-89-  | DAETKAFLKAG 
+| 1bu3 | A | albelig | 8 | 8 | H | 99 | 106 | A-99-  | A-106-  | VDEWAALV 
+| 1bu3 | A | albelig | 9 | 9 | L | 109 | 109 | A-0-  | A-0-  | J 
+| 1bu3 | A | albelig | 10 | 10 | L | 110 | 110 | A-109-  | A-109-  | J 
+| 1bu3 | A | albelig | 11 | 11 | L | 111 | 111 | A-110-  | A-110-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 6
+= 4 = m = 8
+= 5 = m = 7
+= 5 = l = 10
+= 8 = l = 11
+# Listed 6 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ihb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL CYCLE INHIBITOR, P18-INK4C(INK6), ANKYRIN REPEAT, CDK4/6 INHIBITOR
+> pdb_mol_name > CYCLIN-DEPENDENT KINASE 6 INHIBITOR
+> graphtype > albelig
+> resolution > 1.95
+> date > 25-OCT-97
+> header > CELL CYCLE INHIBITOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF P18-INK4C(INK6)
+> format_version > 2
+> pdbid > 1ihb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ihb | A | albelig | 1 | 1 | H | 2 | 11 | A-6-  | A-15-  | GNELASAAAR 
+| 1ihb | A | albelig | 2 | 2 | H | 14 | 20 | A-18-  | A-24-  | LEQLTSL 
+| 1ihb | A | albelig | 3 | 3 | H | 37 | 40 | A-41-  | A-44-  | ALQV 
+| 1ihb | A | albelig | 4 | 4 | H | 46 | 54 | A-50-  | A-58-  | PEIARRLLL 
+| 1ihb | A | albelig | 5 | 5 | H | 69 | 76 | A-73-  | A-80-  | VIHDAARA 
+| 1ihb | A | albelig | 6 | 6 | H | 79 | 87 | A-83-  | A-91-  | LDTLQTLLE 
+| 1ihb | A | albelig | 7 | 7 | H | 102 | 108 | A-106-  | A-112-  | PLHLAAK 
+| 1ihb | A | albelig | 8 | 8 | H | 112 | 121 | A-116-  | A-125-  | LRVVEFLVKH 
+| 1ihb | A | albelig | 9 | 9 | H | 136 | 142 | A-140-  | A-146-  | ACDLARL 
+| 1ihb | A | albelig | 10 | 10 | H | 146 | 154 | A-150-  | A-158-  | NEVVSLMQA 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 4
+= 4 = m = 6
+= 5 = m = 7
+= 6 = m = 8
+= 7 = m = 8
+= 8 = m = 10
+= 9 = m = 10
+# Listed 8 contacts. EOF.

@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgy, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEVELOPMENTAL PROTEIN, TRANSFERASE/TRANSFERASE RECEPTORCOMPLEX
+> pdb_mol_name > EPHRIN-B2
+> graphtype > albelig
+> resolution > 2.7
+> date > 28-NOV-01
+> header > TRANSFERASE/TRANSFERASE RECEPTOR
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE EPHB2-EPHRINB2 COMPLEX
+> format_version > 2
+> pdbid > 1kgy
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgy | F | albelig | 1 | 1 | E | 897 | 902 | F-1260-  | F-1265-  | KLDIIK 
+| 1kgy | F | albelig | 2 | 2 | E | 916 | 921 | F-1279-  | F-1284-  | YKVYMV 
+| 1kgy | F | albelig | 3 | 3 | H | 923 | 927 | F-1286-  | F-1290-  | KDQAD 
+| 1kgy | F | albelig | 4 | 4 | E | 936 | 941 | F-1299-  | F-1304-  | TPLLNK 
+| 1kgy | F | albelig | 5 | 5 | E | 948 | 953 | F-1311-  | F-1316-  | VKFTIK 
+| 1kgy | F | albelig | 6 | 6 | E | 971 | 976 | F-1334-  | F-1339-  | DYYIIS 
+| 1kgy | F | albelig | 7 | 7 | H | 982 | 984 | F-1345-  | F-1347-  | LEG 
+| 1kgy | F | albelig | 8 | 8 | H | 992 | 995 | F-1355-  | F-1358-  | VLQT 
+| 1kgy | F | albelig | 9 | 9 | E | 999 | 1003 | F-1362-  | F-1366-  | KILMK 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = a = 5
+= 2 = m = 3
+= 2 = a = 4
+= 2 = a = 6
+= 4 = a = 5
+= 6 = a = 9
+# Listed 7 contacts. EOF.

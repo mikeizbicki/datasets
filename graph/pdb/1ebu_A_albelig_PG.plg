@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ebu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOMOSERINE, DEHYDROGENASE, DINUCLEOTIDE, TERNARY, ANALOGUE,OXIDOREDUCTASE
+> pdb_mol_name > HOMOSERINE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 24-JAN-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > BAKER'S YEAST
+> title > HOMOSERINE DEHYDROGENASE COMPLEX WITH NAD ANALOGUE AND L-HOMOSERINE
+> format_version > 2
+> pdbid > 1ebu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ebu | A | albelig | 1 | 1 | E | 4 | 10 | A-5-  | A-11-  | VVNVAVI 
+| 1ebu | A | albelig | 2 | 2 | H | 14 | 24 | A-15-  | A-25-  | VVGSAFLDQLL 
+| 1ebu | A | albelig | 3 | 3 | E | 31 | 38 | A-32-  | A-39-  | TYNLVLLA 
+| 1ebu | A | albelig | 4 | 4 | E | 43 | 45 | A-44-  | A-46-  | SLI 
+| 1ebu | A | albelig | 5 | 5 | H | 58 | 64 | A-59-  | A-65-  | WKAALAA 
+| 1ebu | A | albelig | 6 | 6 | H | 72 | 79 | A-73-  | A-80-  | LDDLIAHL 
+| 1ebu | A | albelig | 7 | 7 | E | 86 | 90 | A-87-  | A-91-  | VILVD 
+| 1ebu | A | albelig | 8 | 8 | H | 95 | 98 | A-96-  | A-99-  | AYIA 
+| 1ebu | A | albelig | 9 | 9 | H | 101 | 106 | A-102-  | A-107-  | YTKFVE 
+| 1ebu | A | albelig | 10 | 10 | E | 110 | 112 | A-111-  | A-113-  | SIA 
+| 1ebu | A | albelig | 11 | 11 | H | 124 | 129 | A-125-  | A-130-  | ATWKAL 
+| 1ebu | A | albelig | 12 | 12 | H | 142 | 144 | A-143-  | A-145-  | EAT 
+| 1ebu | A | albelig | 13 | 13 | H | 152 | 161 | A-153-  | A-162-  | ISFLREIIQT 
+| 1ebu | A | albelig | 14 | 14 | E | 165 | 171 | A-166-  | A-172-  | VEKIEGI 
+| 1ebu | A | albelig | 15 | 15 | H | 174 | 183 | A-175-  | A-184-  | GTLSYIFNEF 
+| 1ebu | A | albelig | 16 | 16 | H | 193 | 202 | A-194-  | A-203-  | FSDVVKVAKK 
+| 1ebu | A | albelig | 17 | 17 | H | 211 | 214 | A-212-  | A-215-  | RDDL 
+| 1ebu | A | albelig | 18 | 18 | H | 217 | 230 | A-218-  | A-231-  | LDVARKVTIVGRIS 
+| 1ebu | A | albelig | 19 | 19 | H | 250 | 252 | A-251-  | A-253-  | LES 
+| 1ebu | A | albelig | 20 | 20 | H | 258 | 266 | A-259-  | A-267-  | EFLEKLSDY 
+| 1ebu | A | albelig | 21 | 21 | H | 267 | 279 | A-268-  | A-280-  | DKDLTQLKKEAAT 
+| 1ebu | A | albelig | 22 | 22 | E | 282 | 291 | A-283-  | A-292-  | KVLRFIGKVD 
+| 1ebu | A | albelig | 23 | 23 | E | 296 | 305 | A-297-  | A-306-  | SVSVGIEKYD 
+| 1ebu | A | albelig | 24 | 24 | H | 309 | 312 | A-310-  | A-313-  | PFAS 
+| 1ebu | A | albelig | 25 | 25 | E | 318 | 324 | A-319-  | A-325-  | NVISIKT 
+| 1ebu | A | albelig | 26 | 26 | E | 331 | 335 | A-332-  | A-336-  | VVIQG 
+| 1ebu | A | albelig | 27 | 27 | H | 340 | 356 | A-341-  | A-357-  | AAVTAAGVLGDVIKIAQ 
+| 1ebu | A | albelig | 28 | 28 | L | 1436 | 1436 | A-901-  | A-901-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = m = 5
+= 2 = m = 27
+= 3 = a = 4
+= 4 = m = 5
+= 7 = p = 10
+= 10 = m = 27
+= 11 = m = 18
+= 12 = l = 28
+= 13 = l = 28
+= 14 = a = 22
+= 14 = a = 25
+= 15 = m = 21
+= 16 = m = 20
+= 19 = m = 20
+= 21 = m = 22
+= 22 = a = 23
+= 25 = a = 26
+# Listed 19 contacts. EOF.

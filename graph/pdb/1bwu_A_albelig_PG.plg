@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bwu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BULB LECTIN, MANNOSE, PLANT PROTEIN
+> pdb_mol_name > PROTEIN (AGGLUTININ)
+> graphtype > albelig
+> resolution > 2.8
+> date > 28-SEP-98
+> header > PLANT PROTEIN
+> pdb_org_common > GARLIC
+> title > MANNOSE-SPECIFIC AGGLUTININ (LECTIN) FROM GARLIC (ALLIUM SATIVUM)BULBS COMPLEXED WITH ALPHA-D-MANNOSE
+> format_version > 2
+> pdbid > 1bwu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ALLIUM SATIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bwu | A | albelig | 1 | 1 | E | 3 | 5 | A-3-  | A-5-  | ILR 
+| 1bwu | A | albelig | 2 | 2 | E | 9 | 11 | A-9-  | A-11-  | GLY 
+| 1bwu | A | albelig | 3 | 3 | E | 15 | 17 | A-15-  | A-17-  | SLD 
+| 1bwu | A | albelig | 4 | 4 | E | 22 | 25 | A-22-  | A-25-  | HFIM 
+| 1bwu | A | albelig | 5 | 5 | E | 31 | 35 | A-31-  | A-35-  | LVLYD 
+| 1bwu | A | albelig | 6 | 6 | E | 38 | 42 | A-38-  | A-42-  | TSVWA 
+| 1bwu | A | albelig | 7 | 7 | E | 54 | 57 | A-54-  | A-57-  | RAVL 
+| 1bwu | A | albelig | 8 | 8 | E | 63 | 66 | A-63-  | A-66-  | FVVY 
+| 1bwu | A | albelig | 9 | 9 | E | 72 | 75 | A-72-  | A-75-  | SLWA 
+| 1bwu | A | albelig | 10 | 10 | E | 86 | 90 | A-86-  | A-90-  | VLVLQ 
+| 1bwu | A | albelig | 11 | 11 | E | 94 | 104 | A-94-  | A-104-  | NVVIYRSDIWS 
+| 1bwu | A | albelig | 12 | 12 | L | 434 | 434 | A-301-  | A-301-  | J 
+| 1bwu | A | albelig | 13 | 13 | L | 435 | 435 | A-302-  | A-302-  | J 
+| 1bwu | A | albelig | 14 | 14 | L | 436 | 436 | A-303-  | A-303-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 10
+= 2 = a = 4
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+= 5 = l = 13
+= 5 = l = 14
+= 6 = l = 13
+= 6 = l = 14
+= 7 = a = 8
+= 8 = a = 9
+= 8 = l = 12
+= 9 = l = 12
+= 10 = a = 11
+= 11 = l = 14
+# Listed 16 contacts. EOF.

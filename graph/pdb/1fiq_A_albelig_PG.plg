@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fiq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > XANTHINE OXIDASE, OXIDOREDUCTASE
+> pdb_mol_name > XANTHINE OXIDASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 04-AUG-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF XANTHINE OXIDASE FROM BOVINE MILK
+> format_version > 2
+> pdbid > 1fiq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fiq | A | albelig | 1 | 1 | E | 5 | 9 | A-6-  | A-10-  | LVFFV 
+| 1fiq | A | albelig | 2 | 2 | E | 12 | 16 | A-13-  | A-17-  | KKVVE 
+| 1fiq | A | albelig | 3 | 3 | H | 25 | 32 | A-26-  | A-33-  | LLAYLRRK 
+| 1fiq | A | albelig | 4 | 4 | E | 51 | 58 | A-52-  | A-59-  | TVMLSKYD 
+| 1fiq | A | albelig | 5 | 5 | E | 62 | 70 | A-63-  | A-71-  | DKIIHFSAN 
+| 1fiq | A | albelig | 6 | 6 | H | 76 | 78 | A-77-  | A-79-  | ICT 
+| 1fiq | A | albelig | 7 | 7 | E | 83 | 85 | A-84-  | A-86-  | AVT 
+| 1fiq | A | albelig | 8 | 8 | H | 87 | 89 | A-88-  | A-90-  | VEG 
+| 1fiq | A | albelig | 9 | 9 | H | 99 | 106 | A-100-  | A-107-  | PVQERIAK 
+| 1fiq | A | albelig | 10 | 10 | H | 116 | 129 | A-117-  | A-130-  | TPGIVMSMYTLLRN 
+| 1fiq | A | albelig | 11 | 11 | H | 135 | 140 | A-136-  | A-141-  | VEEIED 
+| 1fiq | A | albelig | 12 | 12 | H | 153 | 162 | A-154-  | A-163-  | RPILQGFRTF 
+| 1fiq | A | albelig | 13 | 13 | L | 1217 | 1217 | A-601-  | A-601-  | J 
+| 1fiq | A | albelig | 14 | 14 | L | 1218 | 1218 | A-602-  | A-602-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 7
+= 4 = a = 5
+= 4 = a = 7
+= 4 = m = 10
+= 5 = l = 14
+= 9 = m = 10
+= 10 = l = 13
+# Listed 8 contacts. EOF.

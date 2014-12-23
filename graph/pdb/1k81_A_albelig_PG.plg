@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k81, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSLATION INITIATION FACTOR, ZINC RIBBON
+> pdb_mol_name > PROBABLE TRANSLATION INITIATION FACTOR 2 BETA
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-OCT-01
+> header > TRANSLATION
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF THE ZINC-RIBBON DOMAIN WITHIN TRANSLATIONINITIATION FACTOR 2 SUBUNIT BETA
+> format_version > 2
+> pdbid > 1k81
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > METHANOCALDOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k81 | A | albelig | 1 | 1 | E | 10 | 16 | A-117-  | A-123-  | DTKIIKE 
+| 1k81 | A | albelig | 2 | 2 | E | 19 | 25 | A-126-  | A-132-  | VHLLKCM 
+| 1k81 | A | albelig | 3 | 3 | E | 29 | 33 | A-136-  | A-140-  | AIRPI 
+| 1k81 | A | albelig | 4 | 4 | L | 37 | 37 | A-144-  | A-144-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = l = 4
+# Listed 3 contacts. EOF.

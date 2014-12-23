@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cto, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BINDING PROTEIN, CYTOKINE RECEPTOR
+> pdb_mol_name > GRANULOCYTE COLONY-STIMULATING FACTOR RECEPTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 25-SEP-96
+> header > BINDING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > NMR STRUCTURE OF THE C-TERMINAL DOMAIN OF THE LIGAND-BINDING REGION OF MURINE GRANULOCYTE COLONY-STIMULATINGFACTOR RECEPTOR, MINIMIZED AVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1cto
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cto | A | albelig | 1 | 1 | E | 8 | 11 | A-8-  | A-11-  | MLQA 
+| 1cto | A | albelig | 2 | 2 | E | 25 | 31 | A-25-  | A-31-  | ALWLSWK 
+| 1cto | A | albelig | 3 | 3 | E | 43 | 50 | A-43-  | A-50-  | NELRYQPQ 
+| 1cto | A | albelig | 4 | 4 | E | 57 | 62 | A-57-  | A-62-  | TLVFHL 
+| 1cto | A | albelig | 5 | 5 | E | 69 | 72 | A-69-  | A-72-  | FELA 
+| 1cto | A | albelig | 6 | 6 | E | 79 | 86 | A-79-  | A-86-  | VYTLQMRN 
+| 1cto | A | albelig | 7 | 7 | E | 99 | 104 | A-99-  | A-104-  | SPGLQL 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 6
+= 6 = a = 7
+# Listed 5 contacts. EOF.

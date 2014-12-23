@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iku, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM-MYRISTOYL SWITCH, CALCUIM-BINDING PROTEIN, CALCIUM-BINDING PROTEIN
+> pdb_mol_name > RECOVERIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-JAN-96
+> header > CALCIUM-BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > MYRISTOYLATED RECOVERIN IN THE CALCIUM-FREE STATE, NMR, 22STRUCTURES
+> format_version > 2
+> pdbid > 1iku
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iku | A | albelig | 1 | 1 | H | 3 | 16 | A-4-  | A-17-  | SKSGALSKEILEEL 
+| 1iku | A | albelig | 2 | 2 | H | 24 | 37 | A-25-  | A-38-  | EEELSSWYQSFLKE 
+| 1iku | A | albelig | 3 | 3 | H | 45 | 55 | A-46-  | A-56-  | RQEFQTIYSKF 
+| 1iku | A | albelig | 4 | 4 | H | 66 | 72 | A-67-  | A-73-  | QHVFRSF 
+| 1iku | A | albelig | 5 | 5 | H | 82 | 90 | A-83-  | A-91-  | FKEYVIALH 
+| 1iku | A | albelig | 6 | 6 | H | 98 | 108 | A-99-  | A-109-  | NQKLEWAFSLY 
+| 1iku | A | albelig | 7 | 7 | H | 118 | 131 | A-119-  | A-132-  | KNEVLEIVTAIFKM 
+| 1iku | A | albelig | 8 | 8 | H | 136 | 138 | A-137-  | A-139-  | DTK 
+| 1iku | A | albelig | 9 | 9 | H | 147 | 159 | A-148-  | A-160-  | PEKRAEKIWGFFG 
+| 1iku | A | albelig | 10 | 10 | H | 168 | 177 | A-169-  | A-178-  | EKEFIEGTLA 
+| 1iku | A | albelig | 11 | 11 | H | 179 | 185 | A-180-  | A-186-  | KEILRLI 
+| 1iku | A | albelig | 12 | 12 | L | 189 | 189 | A-1-  | A-1-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = a = 6
+= 1 = l = 12
+= 2 = m = 3
+= 2 = m = 5
+= 2 = l = 12
+= 3 = l = 12
+= 4 = m = 5
+= 5 = m = 6
+= 5 = l = 12
+= 6 = m = 10
+= 6 = l = 12
+= 7 = a = 9
+= 9 = m = 11
+# Listed 14 contacts. EOF.

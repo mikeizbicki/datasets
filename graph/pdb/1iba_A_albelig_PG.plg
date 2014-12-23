@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iba, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOTRANSFERASE SYSTEM, SUGAR TRANSPORT, TRANSFERASE,PHOSPHORYLATION, TRANSMEMBRANE, INNER MEMBRANE,PHOSHPHOTRANSFERASE
+> pdb_mol_name > GLUCOSE PERMEASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 23-MAR-96
+> header > PHOSHPHOTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > GLUCOSE PERMEASE (DOMAIN IIB), NMR, 11 STRUCTURES
+> format_version > 2
+> pdbid > 1iba
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iba | A | albelig | 1 | 1 | H | 2 | 5 | A-16-  | A-19-  | APAL 
+| 1iba | A | albelig | 2 | 2 | H | 7 | 10 | A-21-  | A-24-  | AAFG 
+| 1iba | A | albelig | 3 | 3 | E | 24 | 26 | A-38-  | A-40-  | RLR 
+| 1iba | A | albelig | 4 | 4 | H | 37 | 44 | A-51-  | A-58-  | QAGLKKLG 
+| 1iba | A | albelig | 5 | 5 | E | 48 | 51 | A-62-  | A-65-  | VVVA 
+| 1iba | A | albelig | 6 | 6 | E | 54 | 58 | A-68-  | A-72-  | GVQAI 
+| 1iba | A | albelig | 7 | 7 | H | 63 | 76 | A-77-  | A-90-  | SDNLKTEMDEYIRN 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 3 = a = 6
+= 4 = m = 7
+= 5 = a = 6
+# Listed 4 contacts. EOF.

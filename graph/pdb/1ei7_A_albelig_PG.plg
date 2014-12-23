@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ei7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DISORDERED LOOPS, VIRAL PROTEIN
+> pdb_mol_name > COAT PROTEIN
+> graphtype > albelig
+> resolution > 2.45
+> date > 24-FEB-00
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > TMV COAT PROTEIN REFINED FROM THE 4-LAYER AGGREGATE
+> format_version > 2
+> pdbid > 1ei7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TOBACCO MOSAIC VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ei7 | A | albelig | 1 | 1 | H | 7 | 11 | A-7-  | A-11-  | PSQFV 
+| 1ei7 | A | albelig | 2 | 2 | H | 20 | 30 | A-20-  | A-30-  | PIELINLCTNA 
+| 1ei7 | A | albelig | 3 | 3 | H | 38 | 50 | A-38-  | A-50-  | QQARTVVQRQFSE 
+| 1ei7 | A | albelig | 4 | 4 | E | 68 | 70 | A-68-  | A-70-  | KVY 
+| 1ei7 | A | albelig | 5 | 5 | H | 76 | 86 | A-76-  | A-86-  | LDPLVTALLGA 
+| 1ei7 | A | albelig | 6 | 6 | H | 106 | 134 | A-106-  | A-134-  | ETLDATRRVDDATVAIRSAINNLIVELIR 
+| 1ei7 | A | albelig | 7 | 7 | H | 141 | 148 | A-141-  | A-148-  | RSSFESSS 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = a = 6
+# Listed 1 contacts. EOF.

@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kht, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE, PHOSPHOTRANSFERASE, SIGNALING PROTEIN, TRANSFERASE
+> pdb_mol_name > ADENYLATE KINASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 30-NOV-01
+> header > SIGNALING PROTEIN, TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > ADENYLATE KINASE FROM METHANOCOCCUS VOLTAE
+> format_version > 2
+> pdbid > 1kht
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > METHANOCOCCUS VOLTAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kht | B | albelig | 1 | 1 | E | 195 | 199 | B-5-  | B-9-  | VVVVT 
+| 1kht | B | albelig | 2 | 2 | H | 206 | 218 | B-16-  | B-28-  | STTSSQLAMDNLR 
+| 1kht | B | albelig | 3 | 3 | E | 225 | 228 | B-35-  | B-38-  | KMVS 
+| 1kht | B | albelig | 4 | 4 | H | 229 | 239 | B-39-  | B-49-  | FGSVMFEVAKE 
+| 1kht | B | albelig | 5 | 5 | H | 246 | 251 | B-56-  | B-61-  | RDQMRK 
+| 1kht | B | albelig | 6 | 6 | H | 254 | 271 | B-64-  | B-81-  | PETQKRIQKMAGRKIAEM 
+| 1kht | B | albelig | 7 | 7 | E | 277 | 281 | B-87-  | B-91-  | VAVDT 
+| 1kht | B | albelig | 8 | 8 | E | 284 | 287 | B-94-  | B-97-  | TVST 
+| 1kht | B | albelig | 9 | 9 | E | 290 | 293 | B-100-  | B-103-  | GYLP 
+| 1kht | B | albelig | 10 | 10 | H | 297 | 303 | B-107-  | B-113-  | SWVLNEL 
+| 1kht | B | albelig | 11 | 11 | E | 307 | 312 | B-117-  | B-122-  | LIIVVE 
+| 1kht | B | albelig | 12 | 12 | H | 315 | 324 | B-125-  | B-134-  | GDEILMRRMS 
+| 1kht | B | albelig | 13 | 13 | H | 335 | 356 | B-145-  | B-166-  | ASTIEQHQFMNRCAAMSYGVLT 
+| 1kht | B | albelig | 14 | 14 | E | 359 | 364 | B-169-  | B-174-  | TVKIVQ 
+| 1kht | B | albelig | 15 | 15 | H | 370 | 381 | B-180-  | B-191-  | LDQAVEELTNVL 
+| 1kht | B | albelig | 16 | 16 | L | 575 | 575 | B-2193-  | B-2193-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 1 = p = 11
+= 2 = p = 15
+= 3 = m = 4
+= 3 = p = 7
+= 3 = l = 16
+= 4 = m = 5
+= 4 = m = 6
+= 4 = m = 7
+= 4 = l = 16
+= 5 = l = 16
+= 6 = m = 10
+= 6 = l = 16
+= 7 = l = 16
+= 8 = a = 9
+= 8 = m = 13
+= 8 = l = 16
+= 9 = l = 16
+= 11 = p = 14
+= 11 = m = 15
+= 12 = m = 13
+= 14 = a = 15
+# Listed 22 contacts. EOF.

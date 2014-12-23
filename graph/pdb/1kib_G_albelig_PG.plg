@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kib, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME OLIGOMER, ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME C6
+> graphtype > albelig
+> resolution > 3.5
+> date > 03-DEC-01
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CYTOCHROME C6 FROM ARTHROSPIRA MAXIMA: AN ASSEMBLY OF 24SUBUNITS IN THE FORM OF AN OBLATE SHELL
+> format_version > 2
+> pdbid > 1kib
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > ARTHROSPIRA MAXIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kib | G | albelig | 1 | 1 | H | 542 | 553 | G-2-  | G-13-  | DVAAGASVFSAN 
+| 1kib | G | albelig | 2 | 2 | H | 555 | 561 | G-15-  | G-21-  | AACHMGG 
+| 1kib | G | albelig | 3 | 3 | H | 573 | 579 | G-33-  | G-39-  | KSDLAKY 
+| 1kib | G | albelig | 4 | 4 | H | 587 | 597 | G-47-  | G-57-  | AVAAVAYQVTN 
+| 1kib | G | albelig | 5 | 5 | H | 611 | 627 | G-71-  | G-87-  | PKQIEDVAAYVVDQAEK 
+| 1kib | G | albelig | 6 | 6 | L | 726 | 726 | G-90-  | G-90-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = l = 6
+= 2 = l = 6
+= 3 = l = 6
+= 4 = a = 5
+= 4 = l = 6
+= 5 = l = 6
+# Listed 7 contacts. EOF.

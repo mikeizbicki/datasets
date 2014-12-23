@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqz, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOSOME, NUCLEOSOME CORE PARTICLE, HISTONE, MICROGRAVITY HISTONEOCTAMER, DNA PALINDROME, DNA PROTEIN COMPLEX, CHROMATIN, CHROMOSOMALPROTEIN, HISTONE FOLD, BENT DNA, STRUCTURAL PROTEIN-DNA COMPLEX
+> pdb_mol_name > PROTEIN (HISTONE H2B)
+> graphtype > albelig
+> resolution > 2.5
+> date > 06-APR-00
+> header > STRUCTURAL PROTEIN/DNA
+> pdb_org_common > CHICKEN
+> title > X-RAY STRUCTURE OF THE NUCLEOSOME CORE PARTICLE AT 2.5 A RESOLUTION
+> format_version > 2
+> pdbid > 1eqz
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqz | F | albelig | 1 | 1 | H | 581 | 591 | F-38-  | F-48-  | SIYVYKVLKQV 
+| 1eqz | F | albelig | 2 | 2 | H | 599 | 626 | F-56-  | F-83-  | SKAMGIMNSFVNDIFERIAGEASRLAHY 
+| 1eqz | F | albelig | 3 | 3 | H | 634 | 644 | F-91-  | F-101-  | SREIQTAVRLL 
+| 1eqz | F | albelig | 4 | 4 | H | 647 | 665 | F-104-  | F-122-  | GELAKHAVSEGTKAVTKYT 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+# Listed 1 contacts. EOF.

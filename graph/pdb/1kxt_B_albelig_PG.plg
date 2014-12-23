@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxt, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+> pdb_mol_name > IMMUNOGLOBULIN VHH FRAGMENT
+> graphtype > albelig
+> resolution > 2.0
+> date > 01-FEB-02
+> header > HYDROLASE, IMMUNE SYSTEM
+> pdb_org_common > ARABIAN CAMEL
+> title > CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATICALPHA-AMYLASE
+> format_version > 2
+> pdbid > 1kxt
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CAMELUS DROMEDARIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxt | B | albelig | 1 | 1 | E | 501 | 504 | B-4-  | B-7-  | LVAS 
+| 1kxt | B | albelig | 2 | 2 | E | 515 | 521 | B-18-  | B-24-  | LRLSFAA 
+| 1kxt | B | albelig | 3 | 3 | E | 530 | 535 | B-34-  | B-39-  | MGWYRQ 
+| 1kxt | B | albelig | 4 | 4 | E | 541 | 547 | B-45-  | B-51-  | CELSARI 
+| 1kxt | B | albelig | 5 | 5 | E | 553 | 555 | B-57-  | B-59-  | ANY 
+| 1kxt | B | albelig | 6 | 6 | E | 563 | 567 | B-67-  | B-71-  | FTISR 
+| 1kxt | B | albelig | 7 | 7 | E | 573 | 578 | B-77-  | B-82-  | TAYLQM 
+| 1kxt | B | albelig | 8 | 8 | H | 583 | 585 | B-84-  | B-86-  | PED 
+| 1kxt | B | albelig | 9 | 9 | E | 587 | 593 | B-88-  | B-94-  | AVYYFAA 
+| 1kxt | B | albelig | 10 | 10 | E | 598 | 602 | B-99-  | B-100-C | GKLVV 
+| 1kxt | B | albelig | 11 | 11 | E | 605 | 609 | B-100-F | B-100-J | RTCYG 
+| 1kxt | B | albelig | 12 | 12 | E | 617 | 620 | B-107-  | B-110-  | TQVT 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 7
+= 2 = p = 9
+= 3 = a = 4
+= 3 = a = 7
+= 3 = a = 9
+= 4 = a = 5
+= 4 = p = 6
+= 5 = a = 6
+= 6 = a = 7
+= 9 = a = 12
+= 10 = a = 11
+# Listed 12 contacts. EOF.

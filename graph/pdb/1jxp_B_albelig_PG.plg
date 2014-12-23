@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jxp, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (VIRAL NONSTRUCTURAL PROTEINS), HYDROLASE, SERINE PROTEINASE,VIRAL PROTEIN COMPLEX
+> pdb_mol_name > NS3 SERINE PROTEASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 21-AUG-97
+> header > VIRAL PROTEIN COMPLEX
+> pdb_org_common > UNKNOWN
+> title > BK STRAIN HEPATITIS C VIRUS (HCV) NS3-NS4A
+> format_version > 2
+> pdbid > 1jxp
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HEPATITIS C VIRUS (ISOLATE BK)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jxp | B | albelig | 1 | 1 | E | 194 | 198 | B-5-  | B-9-  | AYSQQ 
+| 1jxp | B | albelig | 2 | 2 | H | 202 | 210 | B-13-  | B-21-  | LLGCIITSL 
+| 1jxp | B | albelig | 3 | 3 | E | 222 | 226 | B-33-  | B-37-  | VQVVS 
+| 1jxp | B | albelig | 4 | 4 | E | 231 | 237 | B-42-  | B-48-  | SFLATCV 
+| 1jxp | B | albelig | 5 | 5 | E | 240 | 244 | B-51-  | B-55-  | VCWTV 
+| 1jxp | B | albelig | 6 | 6 | H | 245 | 248 | B-56-  | B-59-  | YHGA 
+| 1jxp | B | albelig | 7 | 7 | H | 267 | 269 | B-78-  | B-80-  | VDQ 
+| 1jxp | B | albelig | 8 | 8 | E | 271 | 275 | B-82-  | B-86-  | LVGWQ 
+| 1jxp | B | albelig | 9 | 9 | E | 292 | 296 | B-103-  | B-107-  | DLYLV 
+| 1jxp | B | albelig | 10 | 10 | E | 302 | 307 | B-113-  | B-118-  | VIPVRR 
+| 1jxp | B | albelig | 11 | 11 | E | 312 | 320 | B-123-  | B-131-  | RGSLLSPRP 
+| 1jxp | B | albelig | 12 | 12 | E | 331 | 333 | B-142-  | B-144-  | PLL 
+| 1jxp | B | albelig | 13 | 13 | E | 339 | 349 | B-150-  | B-160-  | AVGIFRAAVCT 
+| 1jxp | B | albelig | 14 | 14 | E | 352 | 360 | B-163-  | B-171-  | VAKAVDFVP 
+| 1jxp | B | albelig | 15 | 15 | H | 361 | 366 | B-172-  | B-177-  | VESMET 
+| 1jxp | B | albelig | 16 | 16 | L | 383 | 383 | B-490-  | B-490-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 6
+= 5 = a = 8
+= 7 = m = 8
+= 9 = a = 10
+= 9 = a = 12
+= 10 = a = 11
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+# Listed 13 contacts. EOF.

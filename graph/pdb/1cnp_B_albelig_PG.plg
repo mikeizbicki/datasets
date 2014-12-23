@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cnp, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EF-HAND, CALCIUM-BINDING PROTEIN, S-100 PROTEIN
+> pdb_mol_name > CALCYCLIN (RABBIT, APO)
+> graphtype > albelig
+> resolution > -1.0
+> date > 31-AUG-95
+> header > CALCIUM-BINDING PROTEIN
+> pdb_org_common > RABBIT
+> title > THE STRUCTURE OF CALCYCLIN REVEALS A NOVEL HOMODIMERIC FOLDFOR S100 CA2+-BINDING PROTEINS, NMR, 22 STRUCTURES
+> format_version > 2
+> pdbid > 1cnp
+> experiment > SOLUTION NMR
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ORYCTOLAGUS CUNICULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cnp | B | albelig | 1 | 1 | H | 95 | 109 | B-4-  | B-18-  | PLDQAIGLLIGIFHK 
+| 1cnp | B | albelig | 2 | 2 | H | 112 | 114 | B-21-  | B-23-  | GKE 
+| 1cnp | B | albelig | 3 | 3 | H | 123 | 129 | B-32-  | B-38-  | KELKELI 
+| 1cnp | B | albelig | 4 | 4 | H | 143 | 155 | B-52-  | B-64-  | EIVKLMDDLDRNK 
+| 1cnp | B | albelig | 5 | 5 | H | 161 | 175 | B-70-  | B-84-  | FQEYITFLGALAMIY 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 2 = m = 3
+= 4 = a = 5
+# Listed 3 contacts. EOF.

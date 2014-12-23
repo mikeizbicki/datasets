@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b6d, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, KAPPA LIGHT-CHAIN DIMER
+> pdb_mol_name > IMMUNOGLOBULIN
+> graphtype > albelig
+> resolution > 2.74
+> date > 13-JAN-99
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HUMAN
+> title > BENCE JONES PROTEIN DEL: AN ENTIRE IMMUNOGLOBULIN KAPPALIGHT-CHAIN DIMER
+> format_version > 2
+> pdbid > 1b6d
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b6d | A | albelig | 1 | 1 | E | 4 | 7 | A-4-  | A-7-  | MTQS 
+| 1b6d | A | albelig | 2 | 2 | E | 10 | 14 | A-10-  | A-14-  | SLSAS 
+| 1b6d | A | albelig | 3 | 3 | E | 19 | 25 | A-19-  | A-25-  | VTITAQA 
+| 1b6d | A | albelig | 4 | 4 | E | 33 | 38 | A-33-  | A-38-  | LNWYQQ 
+| 1b6d | A | albelig | 5 | 5 | E | 45 | 49 | A-45-  | A-49-  | KLLIH 
+| 1b6d | A | albelig | 6 | 6 | E | 62 | 67 | A-62-  | A-67-  | FSGSGS 
+| 1b6d | A | albelig | 7 | 7 | E | 70 | 75 | A-70-  | A-75-  | DFSFTI 
+| 1b6d | A | albelig | 8 | 8 | H | 80 | 82 | A-80-  | A-82-  | PED 
+| 1b6d | A | albelig | 9 | 9 | E | 84 | 90 | A-84-  | A-90-  | ATYYAQQ 
+| 1b6d | A | albelig | 10 | 10 | E | 102 | 107 | A-102-  | A-107-  | TKVEIK 
+| 1b6d | A | albelig | 11 | 11 | E | 114 | 118 | A-114-  | A-118-  | SVFIF 
+| 1b6d | A | albelig | 12 | 12 | H | 122 | 125 | A-122-  | A-125-  | DEQL 
+| 1b6d | A | albelig | 13 | 13 | E | 129 | 139 | A-129-  | A-139-  | TASVVNLLNNF 
+| 1b6d | A | albelig | 14 | 14 | E | 144 | 150 | A-144-  | A-150-  | AKVQWKV 
+| 1b6d | A | albelig | 15 | 15 | E | 159 | 163 | A-159-  | A-163-  | SQESV 
+| 1b6d | A | albelig | 16 | 16 | E | 173 | 182 | A-173-  | A-182-  | YSLSSTLTLS 
+| 1b6d | A | albelig | 17 | 17 | H | 183 | 187 | A-183-  | A-187-  | KADYE 
+| 1b6d | A | albelig | 18 | 18 | E | 191 | 198 | A-191-  | A-198-  | VYANEVTH 
+| 1b6d | A | albelig | 19 | 19 | E | 205 | 210 | A-205-  | A-210-  | VTKSFN 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 11 = p = 19
+= 12 = m = 13
+= 13 = a = 14
+= 13 = a = 16
+= 13 = p = 18
+= 14 = p = 16
+= 14 = a = 18
+= 15 = a = 16
+= 16 = m = 17
+= 18 = a = 19
+# Listed 21 contacts. EOF.

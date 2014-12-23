@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gqw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TAURINE, SULPHUR METABOLISM, OXYGENASE,ALPHA-KETOGLUTARATE, TAUD, TFDA, OXIDOREDUCTASE,DIOXYGENASE
+> pdb_mol_name > ALPHA-KETOGLUTARATE-DEPENDENT TAURINE
+> graphtype > albelig
+> resolution > 3.0
+> date > 05-DEC-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > TAURINE/ALPHA-KETOGLUTARATE DIOXYGENASE FROM ESCHERICHIACOLI
+> format_version > 2
+> pdbid > 1gqw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gqw | A | albelig | 1 | 1 | E | 3 | 6 | A-6-  | A-9-  | SITP 
+| 1gqw | A | albelig | 2 | 2 | E | 13 | 16 | A-16-  | A-19-  | AQIS 
+| 1gqw | A | albelig | 3 | 3 | H | 25 | 37 | A-29-  | A-41-  | DNQFEQLYHAVLR 
+| 1gqw | A | albelig | 4 | 4 | E | 40 | 43 | A-44-  | A-47-  | VVFL 
+| 1gqw | A | albelig | 5 | 5 | H | 50 | 58 | A-54-  | A-62-  | PQQQRALAQ 
+| 1gqw | A | albelig | 6 | 6 | E | 75 | 83 | A-79-  | A-87-  | VDEIIVLDT 
+| 1gqw | A | albelig | 7 | 7 | E | 107 | 114 | A-111-  | A-118-  | GAILAAKE 
+| 1gqw | A | albelig | 8 | 8 | E | 122 | 126 | A-126-  | A-130-  | TLWTS 
+| 1gqw | A | albelig | 9 | 9 | H | 127 | 132 | A-131-  | A-136-  | GIAAYE 
+| 1gqw | A | albelig | 10 | 10 | H | 136 | 142 | A-140-  | A-146-  | VPFRQLL 
+| 1gqw | A | albelig | 11 | 11 | E | 146 | 149 | A-150-  | A-153-  | RAEH 
+| 1gqw | A | albelig | 12 | 12 | H | 151 | 154 | A-155-  | A-158-  | FRKS 
+| 1gqw | A | albelig | 13 | 13 | H | 158 | 160 | A-162-  | A-164-  | YKY 
+| 1gqw | A | albelig | 14 | 14 | H | 164 | 175 | A-168-  | A-179-  | EEEHQRWREAVA 
+| 1gqw | A | albelig | 15 | 15 | E | 180 | 183 | A-184-  | A-187-  | LLHP 
+| 1gqw | A | albelig | 16 | 16 | E | 185 | 187 | A-189-  | A-191-  | VRT 
+| 1gqw | A | albelig | 17 | 17 | E | 194 | 196 | A-198-  | A-200-  | QAL 
+| 1gqw | A | albelig | 18 | 18 | E | 203 | 206 | A-207-  | A-210-  | TTRI 
+| 1gqw | A | albelig | 19 | 19 | H | 211 | 224 | A-215-  | A-228-  | EKESEALLSFLFAH 
+| 1gqw | A | albelig | 20 | 20 | H | 228 | 230 | A-232-  | A-234-  | PEF 
+| 1gqw | A | albelig | 21 | 21 | E | 231 | 234 | A-235-  | A-238-  | QVRW 
+| 1gqw | A | albelig | 22 | 22 | E | 241 | 244 | A-245-  | A-248-  | IAIW 
+| 1gqw | A | albelig | 23 | 23 | E | 249 | 253 | A-253-  | A-257-  | TQHYA 
+| 1gqw | A | albelig | 24 | 24 | E | 262 | 269 | A-266-  | A-273-  | RIMHRATI 
+| 1gqw | A | albelig | 25 | 25 | L | 555 | 555 | A-301-  | A-301-  | J 
+| 1gqw | A | albelig | 26 | 26 | L | 556 | 556 | A-351-  | A-351-  | J 
+| 1gqw | A | albelig | 27 | 27 | L | 557 | 557 | A-352-  | A-352-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = p = 4
+= 4 = a = 22
+= 5 = m = 6
+= 5 = m = 24
+= 6 = a = 24
+= 6 = l = 27
+= 7 = a = 22
+= 7 = a = 24
+= 7 = l = 27
+= 8 = m = 9
+= 8 = m = 20
+= 8 = a = 21
+= 8 = a = 23
+= 8 = l = 27
+= 9 = m = 17
+= 11 = a = 15
+= 11 = a = 18
+= 12 = l = 26
+= 16 = a = 17
+= 18 = m = 19
+= 20 = m = 21
+= 22 = l = 27
+= 23 = l = 25
+= 23 = l = 27
+= 24 = l = 25
+= 24 = l = 26
+= 24 = l = 27
+= 25 = l = 26
+= 25 = l = 27
+= 26 = l = 27
+# Listed 31 contacts. EOF.

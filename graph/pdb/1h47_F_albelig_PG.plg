@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h47, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SYNTHASE, ISOPRENOID, LYASE, ISOPRENE BIOSYNTHESIS
+> pdb_mol_name > 2C-METHYL-D-ERYTHRITOL-2,4-CYCLODIPHOSPHATE
+> graphtype > albelig
+> resolution > 2.0
+> date > 24-FEB-03
+> header > SYNTHASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURES OF MECP SYNTHASE IN COMPLEX WITH (I) CMP AND(II) CMP AND PRODUCT
+> format_version > 2
+> pdbid > 1h47
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h47 | F | albelig | 1 | 1 | E | 794 | 807 | F-2-  | F-15-  | RIGHGFDVHAFGGE 
+| 1h47 | F | albelig | 2 | 2 | E | 810 | 812 | F-18-  | F-20-  | III 
+| 1h47 | F | albelig | 3 | 3 | E | 815 | 817 | F-23-  | F-25-  | VRI 
+| 1h47 | F | albelig | 4 | 4 | E | 821 | 824 | F-29-  | F-32-  | KGLL 
+| 1h47 | F | albelig | 5 | 5 | H | 831 | 843 | F-39-  | F-51-  | VALHALTDALLGA 
+| 1h47 | F | albelig | 6 | 6 | H | 849 | 852 | F-57-  | F-60-  | IGKL 
+| 1h47 | F | albelig | 7 | 7 | H | 865 | 878 | F-73-  | F-86-  | SRELLREAWRRIQA 
+| 1h47 | F | albelig | 8 | 8 | E | 883 | 891 | F-91-  | F-99-  | LGNVDVTII 
+| 1h47 | F | albelig | 9 | 9 | H | 898 | 912 | F-106-  | F-120-  | LPHIPQMRVFIAEDL 
+| 1h47 | F | albelig | 10 | 10 | H | 916 | 918 | F-124-  | F-126-  | MDD 
+| 1h47 | F | albelig | 11 | 11 | E | 919 | 924 | F-127-  | F-132-  | VNVKAT 
+| 1h47 | F | albelig | 12 | 12 | H | 930 | 933 | F-138-  | F-141-  | GFTG 
+| 1h47 | F | albelig | 13 | 13 | E | 937 | 946 | F-145-  | F-154-  | GIACEAVALL 
+| 1h47 | F | albelig | 14 | 14 | L | 960 | 960 | F-1157-  | F-1157-  | J 
+| 1h47 | F | albelig | 15 | 15 | L | 961 | 961 | F-1158-  | F-1158-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 5
+= 1 = a = 13
+= 1 = l = 15
+= 2 = a = 3
+= 2 = a = 4
+= 5 = p = 7
+= 5 = p = 13
+= 5 = l = 15
+= 7 = m = 9
+= 8 = m = 10
+= 8 = p = 11
+= 8 = a = 13
+= 9 = m = 10
+= 9 = l = 14
+= 10 = m = 11
+= 11 = l = 14
+= 12 = m = 13
+# Listed 18 contacts. EOF.

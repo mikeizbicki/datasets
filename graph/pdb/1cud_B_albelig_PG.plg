@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cud, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, SERINE ESTERASE, GLYCOPROTEIN, HYDROLASE (SERINEESTERASE)
+> pdb_mol_name > CUTINASE
+> graphtype > albelig
+> resolution > 2.7
+> date > 16-NOV-95
+> header > HYDROLASE (SERINE ESTERASE)
+> pdb_org_common > UNKNOWN
+> title > CUTINASE, N172K, R196D MUTANT, MONOCLINIC CRYSTAL FORM WITHTHREE MOLECULES PER ASYMMETRIC UNIT
+> format_version > 2
+> pdbid > 1cud
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > NECTRIA HAEMATOCOCCA MPVI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cud | B | albelig | 1 | 1 | H | 210 | 212 | B-28-  | B-30-  | SAS 
+| 1cud | B | albelig | 2 | 2 | E | 216 | 221 | B-34-  | B-39-  | VIFIYA 
+| 1cud | B | albelig | 3 | 3 | H | 233 | 245 | B-51-  | B-63-  | LGPSIASNLESAF 
+| 1cud | B | albelig | 4 | 4 | E | 250 | 254 | B-68-  | B-72-  | VWIQG 
+| 1cud | B | albelig | 5 | 5 | H | 263 | 267 | B-81-  | B-85-  | LGDNA 
+| 1cud | B | albelig | 6 | 6 | H | 274 | 290 | B-92-  | B-108-  | SAAIREMLGLFQQANTK 
+| 1cud | B | albelig | 7 | 7 | E | 295 | 301 | B-113-  | B-119-  | TLIAGGY 
+| 1cud | B | albelig | 8 | 8 | H | 303 | 312 | B-121-  | B-130-  | QGAALAAASI 
+| 1cud | B | albelig | 9 | 9 | H | 317 | 320 | B-135-  | B-138-  | SAIR 
+| 1cud | B | albelig | 10 | 10 | E | 323 | 329 | B-141-  | B-147-  | IAGTVLF 
+| 1cud | B | albelig | 11 | 11 | E | 349 | 352 | B-167-  | B-170-  | TKVF 
+| 1cud | B | albelig | 12 | 12 | H | 368 | 371 | B-186-  | B-189-  | APHL 
+| 1cud | B | albelig | 13 | 13 | H | 375 | 378 | B-193-  | B-196-  | PDAE 
+| 1cud | B | albelig | 14 | 14 | H | 380 | 393 | B-198-  | B-211-  | PAPEFLIEKVRAVR 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 4
+= 2 = a = 6
+= 2 = p = 7
+= 3 = m = 13
+= 3 = m = 14
+= 6 = m = 8
+= 7 = m = 8
+= 7 = p = 10
+= 8 = a = 10
+= 9 = m = 10
+= 10 = p = 11
+= 10 = a = 14
+= 11 = m = 14
+= 13 = m = 14
+# Listed 15 contacts. EOF.

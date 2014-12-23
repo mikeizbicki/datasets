@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ki0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KRINGLE DOMAINS, HYDROLASE
+> pdb_mol_name > ANGIOSTATIN
+> graphtype > albelig
+> resolution > 1.75
+> date > 02-DEC-01
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > THE X-RAY STRUCTURE OF HUMAN ANGIOSTATIN
+> format_version > 2
+> pdbid > 1ki0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ki0 | A | albelig | 1 | 1 | E | 64 | 66 | A-144-  | A-146-  | WNY 
+| 1ki0 | A | albelig | 2 | 2 | E | 74 | 76 | A-154-  | A-156-  | YDY 
+| 1ki0 | A | albelig | 3 | 3 | E | 145 | 147 | A-225-  | A-227-  | WFF 
+| 1ki0 | A | albelig | 4 | 4 | E | 155 | 157 | A-235-  | A-237-  | WEL 
+| 1ki0 | A | albelig | 5 | 5 | H | 216 | 218 | A-296-  | A-298-  | PEK 
+| 1ki0 | A | albelig | 6 | 6 | E | 235 | 237 | A-315-  | A-317-  | WIH 
+| 1ki0 | A | albelig | 7 | 7 | E | 245 | 247 | A-325-  | A-327-  | WEY 
+| 1ki0 | A | albelig | 8 | 8 | L | 254 | 254 | A-335-  | A-335-  | J 
+| 1ki0 | A | albelig | 9 | 9 | L | 255 | 255 | A-336-  | A-336-  | J 
+| 1ki0 | A | albelig | 10 | 10 | L | 256 | 256 | A-337-  | A-337-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 9
+= 2 = l = 9
+= 3 = a = 4
+= 3 = l = 8
+= 4 = l = 8
+= 6 = a = 7
+= 6 = l = 10
+= 7 = l = 10
+# Listed 9 contacts. EOF.

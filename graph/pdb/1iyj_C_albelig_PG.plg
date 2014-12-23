@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iyj, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TUMOR SUPPRESSOR, BREAST CANCER SUSCEPTIBILITY, DNA-BINDING,GENE REGULATION/ANTITUMOR PROTEIN COMPLEX
+> pdb_mol_name > DELETED IN SPLIT HAND/SPLIT FOOT PROTEIN 1
+> graphtype > albelig
+> resolution > 3.4
+> date > 28-AUG-02
+> header > GENE REGULATION/ANTITUMOR PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF A BRCA2-DSS1 COMPLEX
+> format_version > 2
+> pdbid > 1iyj
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iyj | C | albelig | 1 | 1 | H | 674 | 676 | C-50-  | C-52-  | DDF 
+| 1iyj | C | albelig | 2 | 2 | H | 682 | 685 | C-58-  | C-61-  | AELE 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

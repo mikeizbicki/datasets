@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgy, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEVELOPMENTAL PROTEIN, TRANSFERASE/TRANSFERASE RECEPTORCOMPLEX
+> pdb_mol_name > EPHRIN TYPE-B RECEPTOR 2
+> graphtype > albelig
+> resolution > 2.7
+> date > 28-NOV-01
+> header > TRANSFERASE/TRANSFERASE RECEPTOR
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE EPHB2-EPHRINB2 COMPLEX
+> format_version > 2
+> pdbid > 1kgy
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgy | D | albelig | 1 | 1 | E | 548 | 552 | D-628-  | D-632-  | EETLM 
+| 1kgy | D | albelig | 2 | 2 | E | 572 | 577 | D-652-  | D-657-  | EEVSGY 
+| 1kgy | D | albelig | 3 | 3 | E | 583 | 590 | D-663-  | D-670-  | TIRTYQVG 
+| 1kgy | D | albelig | 4 | 4 | E | 599 | 602 | D-679-  | D-682-  | NWLR 
+| 1kgy | D | albelig | 5 | 5 | E | 614 | 623 | D-694-  | D-703-  | IHVEMKFSVR 
+| 1kgy | D | albelig | 6 | 6 | E | 638 | 646 | D-718-  | D-726-  | TFNLYYYEA 
+| 1kgy | D | albelig | 7 | 7 | E | 664 | 670 | D-744-  | D-750-  | VKVDTIA 
+| 1kgy | D | albelig | 8 | 8 | H | 684 | 686 | D-764-  | D-766-  | VMK 
+| 1kgy | D | albelig | 9 | 9 | E | 688 | 694 | D-768-  | D-774-  | NTEVRSF 
+| 1kgy | D | albelig | 10 | 10 | E | 701 | 708 | D-781-  | D-788-  | GFYLAFQD 
+| 1kgy | D | albelig | 11 | 11 | E | 712 | 723 | D-792-  | D-803-  | GMSLIAVRVFYR 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 2 = a = 3
+= 3 = a = 11
+= 4 = a = 10
+= 5 = a = 9
+= 5 = a = 11
+= 6 = a = 7
+= 6 = a = 10
+= 7 = a = 9
+# Listed 9 contacts. EOF.

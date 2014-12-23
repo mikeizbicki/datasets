@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fft, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CYTOCHROME OXIDASE, MEMBRANE PROTEIN,OXIDOREDUCTASE
+> pdb_mol_name > UBIQUINOL OXIDASE
+> graphtype > albelig
+> resolution > 3.5
+> date > 26-JUL-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF UBIQUINOL OXIDASE FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1fft
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fft | H | albelig | 1 | 1 | H | 1822 | 1825 | H-24-  | H-27-  | TKIF 
+| 1fft | H | albelig | 2 | 2 | H | 1831 | 1834 | H-33-  | H-36-  | LMSD 
+| 1fft | H | albelig | 3 | 3 | H | 1837 | 1845 | H-39-  | H-47-  | LFSILFATY 
+| 1fft | H | albelig | 4 | 4 | H | 1864 | 1877 | H-66-  | H-79-  | LPFVLVETFLLLFS 
+| 1fft | H | albelig | 5 | 5 | H | 1884 | 1886 | H-86-  | H-88-  | AAI 
+| 1fft | H | albelig | 6 | 6 | H | 1893 | 1896 | H-95-  | H-98-  | KSQV 
+| 1fft | H | albelig | 7 | 7 | H | 1898 | 1923 | H-100-  | H-125-  | SWLALTWLFGAGFIGMEIYEFHHLIV 
+| 1fft | H | albelig | 8 | 8 | H | 1937 | 1944 | H-139-  | H-146-  | FFALVGTH 
+| 1fft | H | albelig | 9 | 9 | H | 1947 | 1950 | H-149-  | H-152-  | HVTS 
+| 1fft | H | albelig | 10 | 10 | H | 1953 | 1964 | H-155-  | H-166-  | IWMAVLMVQIAR 
+| 1fft | H | albelig | 11 | 11 | H | 1974 | 2000 | H-176-  | H-202-  | RIMCLSLFWHFLDVVWICVFTVVYLMG 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 8
+= 4 = a = 7
+= 4 = a = 11
+= 7 = m = 8
+= 7 = m = 10
+= 8 = a = 11
+= 10 = a = 11
+# Listed 7 contacts. EOF.

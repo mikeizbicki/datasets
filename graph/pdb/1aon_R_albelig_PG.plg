@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aon, chain R.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (GROEL/GROES), CHAPERONIN ASSISTED PROTEIN FOLDING
+> pdb_mol_name > GROEL/GROES COMPLEX
+> graphtype > albelig
+> resolution > 3.0
+> date > 08-JUL-97
+> header > COMPLEX (GROEL/GROES)
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE ASYMMETRIC CHAPERONIN COMPLEXGROEL/GROES/(ADP)7
+> format_version > 2
+> pdbid > 1aon
+> experiment > X-RAY DIFFRACTION
+> chainid > R
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aon | R | albelig | 1 | 1 | E | 7653 | 7656 | R-9-  | R-12-  | RVIV 
+| 1aon | R | albelig | 2 | 2 | E | 7681 | 7683 | R-37-  | R-39-  | RGE 
+| 1aon | R | albelig | 3 | 3 | E | 7708 | 7711 | R-64-  | R-67-  | IVIF 
+| 1aon | R | albelig | 4 | 4 | E | 7718 | 7721 | R-74-  | R-77-  | KSEK 
+| 1aon | R | albelig | 5 | 5 | E | 7726 | 7731 | R-82-  | R-87-  | EVLIMS 
+| 1aon | R | albelig | 6 | 6 | H | 7732 | 7734 | R-88-  | R-90-  | ESD 
+| 1aon | R | albelig | 7 | 7 | E | 7735 | 7739 | R-91-  | R-95-  | ILAIV 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 5
+= 5 = m = 6
+= 6 = m = 7
+# Listed 6 contacts. EOF.

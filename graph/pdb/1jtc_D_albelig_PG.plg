@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jtc, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-TREFOIL, HORMONE/GROWTH FACTOR COMPLEX
+> pdb_mol_name > ACIDIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > 1.7
+> date > 20-AUG-01
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > HUMAN ACIDIC FIBROBLAST GROWTH FACTOR. 141 AMINO ACID FORMWITH AMINO TERMINAL HIS TAG AND LEU 44 REPLACED BY PHE(L44F)
+> format_version > 2
+> pdbid > 1jtc
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jtc | D | albelig | 1 | 1 | E | 442 | 446 | D-12-  | D-16-  | KLLYC 
+| 1jtc | D | albelig | 2 | 2 | E | 451 | 455 | D-21-  | D-25-  | HFLRI 
+| 1jtc | D | albelig | 3 | 3 | E | 461 | 464 | D-31-  | D-34-  | VDGT 
+| 1jtc | D | albelig | 4 | 4 | E | 474 | 478 | D-44-  | D-48-  | FQLSA 
+| 1jtc | D | albelig | 5 | 5 | E | 483 | 488 | D-53-  | D-58-  | EVYIKS 
+| 1jtc | D | albelig | 6 | 6 | E | 494 | 497 | D-64-  | D-67-  | YLAM 
+| 1jtc | D | albelig | 7 | 7 | E | 503 | 506 | D-73-  | D-76-  | LYGS 
+| 1jtc | D | albelig | 8 | 8 | H | 511 | 513 | D-81-  | D-83-  | EEC 
+| 1jtc | D | albelig | 9 | 9 | E | 515 | 520 | D-85-  | D-90-  | FLERLE 
+| 1jtc | D | albelig | 10 | 10 | E | 524 | 529 | D-94-  | D-99-  | YNTYIS 
+| 1jtc | D | albelig | 11 | 11 | H | 533 | 535 | D-103-  | D-105-  | AEK 
+| 1jtc | D | albelig | 12 | 12 | H | 550 | 552 | D-120-  | D-122-  | GPR 
+| 1jtc | D | albelig | 13 | 13 | E | 562 | 566 | D-132-  | D-136-  | FLPLP 
+| 1jtc | D | albelig | 14 | 14 | L | 574 | 574 | D-166-  | D-166-  | J 
+| 1jtc | D | albelig | 15 | 15 | L | 575 | 575 | D-167-  | D-167-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 13
+= 2 = a = 3
+= 4 = a = 5
+= 5 = a = 6
+= 5 = p = 9
+= 6 = a = 7
+= 6 = m = 8
+= 6 = a = 9
+= 9 = a = 10
+= 9 = l = 14
+= 10 = p = 13
+= 11 = l = 14
+# Listed 13 contacts. EOF.

@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j83, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CARBOHYDRATE BINDING MODULE, HYDROLASE
+> pdb_mol_name > ENDO-1,4-BETA GLUCANASE ENGF
+> graphtype > albelig
+> resolution > 1.7
+> date > 20-MAY-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF FAM17 CARBOHYDRATE BINDING MODULE FROMCLOSTRIDIUM CELLULOVORANS
+> format_version > 2
+> pdbid > 1j83
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM CELLULOVORANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j83 | A | albelig | 1 | 1 | E | 35 | 39 | A-1061-  | A-1065-  | NVENA 
+| 1j83 | A | albelig | 2 | 2 | E | 42 | 46 | A-1068-  | A-1072-  | ALKIS 
+| 1j83 | A | albelig | 3 | 3 | H | 61 | 63 | A-1087-  | A-1089-  | FWA 
+| 1j83 | A | albelig | 4 | 4 | E | 65 | 68 | A-1091-  | A-1094-  | VRIS 
+| 1j83 | A | albelig | 5 | 5 | E | 83 | 90 | A-1109-  | A-1116-  | KLTXDVIA 
+| 1j83 | A | albelig | 6 | 6 | E | 96 | 104 | A-1122-  | A-1130-  | VSIAAIPQS 
+| 1j83 | A | albelig | 7 | 7 | E | 116 | 118 | A-1142-  | A-1144-  | IRV 
+| 1j83 | A | albelig | 8 | 8 | H | 120 | 122 | A-1146-  | A-1148-  | TNN 
+| 1j83 | A | albelig | 9 | 9 | E | 131 | 138 | A-1157-  | A-1164-  | YKATLTIS 
+| 1j83 | A | albelig | 10 | 10 | H | 143 | 149 | A-1169-  | A-1175-  | PNFNTIA 
+| 1j83 | A | albelig | 11 | 11 | E | 156 | 166 | A-1182-  | A-1192-  | VVTNXILFVGS 
+| 1j83 | A | albelig | 12 | 12 | E | 170 | 179 | A-1196-  | A-1205-  | NISLDNIKFT 
+| 1j83 | A | albelig | 13 | 13 | L | 366 | 366 | A-4001-  | A-4001-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 12
+= 2 = l = 13
+= 4 = a = 11
+= 5 = a = 9
+= 5 = a = 12
+= 6 = a = 7
+= 6 = m = 10
+= 6 = a = 11
+= 7 = a = 9
+= 12 = l = 13
+# Listed 11 contacts. EOF.

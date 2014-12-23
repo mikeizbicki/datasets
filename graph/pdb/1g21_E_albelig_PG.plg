@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g21, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NITROGEN-FIXATION, FE PROTEIN, MOEFE PROTEIN, P-CLUSTER,FEMO COFACTOR, 4FE-4S, OXIDOREDUCTASE
+> pdb_mol_name > NITROGENASE IRON PROTEIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 16-OCT-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > MGATP-BOUND AND NUCLEOTIDE-FREE STRUCTURES OF A NITROGENASEPROTEIN COMPLEX BETWEEN LEU127DEL-FE PROTEIN AND THE MOFEPROTEIN
+> format_version > 2
+> pdbid > 1g21
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > AZOTOBACTER VINELANDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g21 | E | albelig | 1 | 1 | E | 2002 | 2007 | E-3-  | E-8-  | RQCAIY 
+| 1g21 | E | albelig | 2 | 2 | H | 2014 | 2027 | E-15-  | E-28-  | KSTTTQNLVAALAE 
+| 1g21 | E | albelig | 3 | 3 | E | 2032 | 2037 | E-33-  | E-38-  | VMIVGC 
+| 1g21 | E | albelig | 4 | 4 | H | 2045 | 2048 | E-46-  | E-49-  | RLIL 
+| 1g21 | E | albelig | 5 | 5 | H | 2056 | 2062 | E-57-  | E-63-  | IMEMAAE 
+| 1g21 | E | albelig | 6 | 6 | H | 2066 | 2068 | E-67-  | E-69-  | VED 
+| 1g21 | E | albelig | 7 | 7 | H | 2071 | 2074 | E-72-  | E-75-  | LEDV 
+| 1g21 | E | albelig | 8 | 8 | H | 2079 | 2081 | E-80-  | E-82-  | YGG 
+| 1g21 | E | albelig | 9 | 9 | E | 2083 | 2086 | E-84-  | E-87-  | KCVE 
+| 1g21 | E | albelig | 10 | 10 | H | 2097 | 2110 | E-98-  | E-111-  | AGRGVITAINFLEE 
+| 1g21 | E | albelig | 11 | 11 | E | 2120 | 2125 | E-121-  | E-126-  | FVFYDV 
+| 1g21 | E | albelig | 12 | 12 | H | 2131 | 2137 | E-133-  | E-139-  | GGFAMPI 
+| 1g21 | E | albelig | 13 | 13 | E | 2144 | 2149 | E-146-  | E-151-  | EIYIVC 
+| 1g21 | E | albelig | 14 | 14 | H | 2153 | 2172 | E-155-  | E-174-  | MMAMYAANNISKGIVKYANS 
+| 1g21 | E | albelig | 15 | 15 | E | 2176 | 2183 | E-178-  | E-185-  | RLGGLICN 
+| 1g21 | E | albelig | 16 | 16 | H | 2190 | 2201 | E-192-  | E-203-  | EDELIIALANKL 
+| 1g21 | E | albelig | 17 | 17 | E | 2205 | 2209 | E-207-  | E-211-  | MIHFV 
+| 1g21 | E | albelig | 18 | 18 | H | 2214 | 2219 | E-216-  | E-221-  | VVQRAE 
+| 1g21 | E | albelig | 19 | 19 | H | 2225 | 2228 | E-227-  | E-230-  | VIEY 
+| 1g21 | E | albelig | 20 | 20 | H | 2233 | 2247 | E-235-  | E-249-  | KQADEYRALARKVVD 
+| 1g21 | E | albelig | 21 | 21 | H | 2259 | 2267 | E-261-  | E-269-  | MDELEELLM 
+| 1g21 | E | albelig | 22 | 22 | L | 3075 | 3075 | E-293-  | E-293-  | J 
+| 1g21 | E | albelig | 23 | 23 | L | 3083 | 3083 | E-5292-  | E-5292-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 11
+= 1 = p = 13
+= 2 = m = 4
+= 2 = a = 11
+= 2 = m = 19
+= 2 = m = 20
+= 2 = l = 22
+= 2 = l = 23
+= 3 = p = 9
+= 3 = p = 11
+= 4 = l = 23
+= 10 = m = 12
+= 11 = l = 22
+= 11 = l = 23
+= 13 = m = 14
+= 13 = p = 15
+= 14 = p = 16
+= 14 = m = 21
+= 15 = p = 17
+= 15 = l = 23
+= 16 = m = 17
+= 16 = m = 21
+= 17 = m = 20
+= 17 = l = 23
+= 18 = m = 19
+= 18 = l = 23
+= 20 = l = 23
+= 22 = l = 23
+# Listed 28 contacts. EOF.

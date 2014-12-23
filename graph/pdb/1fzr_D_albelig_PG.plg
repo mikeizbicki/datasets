@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fzr, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOLLIDAY JUNCTION RESOLVASE, HOMODIMER, DOMAIN SWAPPED,COMPOSITE ACTIVE SITE, HYDROLASE
+> pdb_mol_name > ENDONUCLEASE I
+> graphtype > albelig
+> resolution > 2.1
+> date > 04-OCT-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF BACTERIOPHAGE T7 ENDONUCLEASE I
+> format_version > 2
+> pdbid > 1fzr
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T7
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fzr | D | albelig | 1 | 1 | H | 392 | 403 | D-18-  | D-29-  | GLEDKVSKQLES 
+| 1fzr | D | albelig | 2 | 2 | E | 413 | 419 | D-39-  | D-45-  | WKVPYVI 
+| 1fzr | D | albelig | 3 | 3 | E | 422 | 426 | D-48-  | D-52-  | SNHTY 
+| 1fzr | D | albelig | 4 | 4 | E | 437 | 441 | D-63-  | D-67-  | FVKTK 
+| 1fzr | D | albelig | 5 | 5 | H | 446 | 458 | D-72-  | D-84-  | SDDRKKHLLIREQ 
+| 1fzr | D | albelig | 6 | 6 | E | 464 | 468 | D-90-  | D-94-  | IRIVF 
+| 1fzr | D | albelig | 7 | 7 | H | 483 | 489 | D-109-  | D-115-  | YGEFCEK 
+| 1fzr | D | albelig | 8 | 8 | E | 494 | 496 | D-120-  | D-122-  | FAD 
+| 1fzr | D | albelig | 9 | 9 | H | 501 | 504 | D-127-  | D-130-  | AEWI 
+| 1fzr | D | albelig | 10 | 10 | H | 513 | 515 | D-139-  | D-141-  | FDR 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = p = 6
+= 6 = p = 8
+# Listed 2 contacts. EOF.

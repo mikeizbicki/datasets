@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g5z, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SURFACE PROTEIN, ALPHA HELIX PROTEIN, IMMUNE SYSTEM
+> pdb_mol_name > OUTER SURFACE PROTEIN C
+> graphtype > albelig
+> resolution > 2.51
+> date > 02-NOV-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > LYME DISEASE SPIROCHETE
+> title > CRYSTAL STRUCTURE OF LYME DISEASE ANTIGEN OUTER SURFACE PROTEIN C(OSPC) FROM BORRELIA BURGDORFERI STRAIN N40
+> format_version > 2
+> pdbid > 1g5z
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BORRELIA BURGDORFERI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g5z | A | albelig | 1 | 1 | H | 2 | 4 | A-41-  | A-43-  | NLT 
+| 1g5z | A | albelig | 2 | 2 | H | 6 | 37 | A-45-  | A-76-  | ISKKITESNAVVLAVKEVETLLASIDELATKA 
+| 1g5z | A | albelig | 3 | 3 | E | 40 | 43 | A-79-  | A-82-  | KKIG 
+| 1g5z | A | albelig | 4 | 4 | E | 46 | 49 | A-85-  | A-88-  | GLEA 
+| 1g5z | A | albelig | 5 | 5 | H | 55 | 73 | A-94-  | A-112-  | TSLLSGAYAISDLIAEKLN 
+| 1g5z | A | albelig | 6 | 6 | H | 81 | 100 | A-120-  | A-139-  | KEKIDTAKQCSTEFTNKLKS 
+| 1g5z | A | albelig | 7 | 7 | H | 102 | 105 | A-141-  | A-144-  | HAVL 
+| 1g5z | A | albelig | 8 | 8 | H | 112 | 119 | A-151-  | A-158-  | DDNAQRAI 
+| 1g5z | A | albelig | 9 | 9 | H | 130 | 156 | A-169-  | A-195-  | AAELEKLFKAVENLSKAAQDTLKNAVK 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 5
+= 2 = a = 9
+= 3 = a = 4
+= 5 = a = 6
+= 6 = a = 9
+# Listed 5 contacts. EOF.

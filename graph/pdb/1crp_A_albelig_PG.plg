@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1crp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ONCOGENE PROTEIN
+> pdb_mol_name > C-H-RAS P21 PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 24-NOV-93
+> header > ONCOGENE PROTEIN
+> pdb_org_common > HUMAN
+> title > THE SOLUTION STRUCTURE AND DYNAMICS OF RAS P21. GDPDETERMINED BY HETERONUCLEAR THREE AND FOUR DIMENSIONAL NMRSPECTROSCOPY
+> format_version > 2
+> pdbid > 1crp
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1crp | A | albelig | 1 | 1 | E | 2 | 9 | A-2-  | A-9-  | TEYKLVVV 
+| 1crp | A | albelig | 2 | 2 | H | 16 | 24 | A-16-  | A-24-  | KSALTIQLI 
+| 1crp | A | albelig | 3 | 3 | E | 39 | 42 | A-39-  | A-42-  | SYRK 
+| 1crp | A | albelig | 4 | 4 | E | 51 | 56 | A-51-  | A-56-  | CLLDIL 
+| 1crp | A | albelig | 5 | 5 | H | 68 | 74 | A-68-  | A-74-  | RDQYMRT 
+| 1crp | A | albelig | 6 | 6 | E | 78 | 81 | A-78-  | A-81-  | FLCV 
+| 1crp | A | albelig | 7 | 7 | H | 88 | 104 | A-88-  | A-104-  | KSFEDIHQYREQIKRVK 
+| 1crp | A | albelig | 8 | 8 | E | 111 | 114 | A-111-  | A-114-  | MVLV 
+| 1crp | A | albelig | 9 | 9 | H | 129 | 136 | A-129-  | A-136-  | QAQDLARS 
+| 1crp | A | albelig | 10 | 10 | H | 152 | 165 | A-152-  | A-165-  | VEDAFYTLVREIRQ 
+| 1crp | A | albelig | 11 | 11 | L | 167 | 167 | A-201-  | A-201-  | J 
+| 1crp | A | albelig | 12 | 12 | L | 168 | 168 | A-200-  | A-200-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = l = 11
+= 2 = l = 12
+= 3 = a = 4
+= 5 = m = 7
+= 6 = m = 7
+= 6 = p = 8
+= 7 = m = 8
+= 11 = l = 12
+# Listed 10 contacts. EOF.

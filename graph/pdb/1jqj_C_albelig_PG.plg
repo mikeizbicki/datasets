@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jqj, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA POLYMERASE, PROCESSIVITY CLAMP, CLAMP LOADER, DNAREPLICATION, AAA+ ATPASE, TRANSFERASE
+> pdb_mol_name > DNA POLYMERASE III, DELTA SUBUNIT
+> graphtype > albelig
+> resolution > 2.9
+> date > 07-AUG-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > MECHANISM OF PROCESSIVITY CLAMP OPENING BY THE DELTASUBUNIT WRENCH OF THE CLAMP LOADER COMPLEX OF E. COLI DNAPOLYMERASE III: STRUCTURE OF THE BETA-DELTA COMPLEX
+> format_version > 2
+> pdbid > 1jqj
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jqj | C | albelig | 1 | 1 | E | 736 | 738 | C-2-  | C-4-  | IRL 
+| 1jqj | C | albelig | 2 | 2 | H | 740 | 743 | C-6-  | C-9-  | PEQL 
+| 1jqj | C | albelig | 3 | 3 | H | 745 | 747 | C-11-  | C-13-  | AQL 
+| 1jqj | C | albelig | 4 | 4 | E | 754 | 758 | C-20-  | C-24-  | AYLLL 
+| 1jqj | C | albelig | 5 | 5 | H | 762 | 777 | C-28-  | C-43-  | PLLLQESQDAVRQVAA 
+| 1jqj | C | albelig | 6 | 6 | E | 781 | 788 | C-47-  | C-54-  | FEEHHTFS 
+| 1jqj | C | albelig | 7 | 7 | H | 795 | 802 | C-61-  | C-68-  | WNAIFSLC 
+| 1jqj | C | albelig | 8 | 8 | E | 811 | 817 | C-77-  | C-83-  | RQTLLLL 
+| 1jqj | C | albelig | 9 | 9 | H | 827 | 834 | C-93-  | C-100-  | INEQLLTL 
+| 1jqj | C | albelig | 10 | 10 | E | 842 | 848 | C-108-  | C-114-  | LLLIVRG 
+| 1jqj | C | albelig | 11 | 11 | H | 855 | 857 | C-121-  | C-123-  | QEN 
+| 1jqj | C | albelig | 12 | 12 | H | 859 | 864 | C-125-  | C-130-  | AWFTAL 
+| 1jqj | C | albelig | 13 | 13 | E | 869 | 872 | C-135-  | C-138-  | VQVT 
+| 1jqj | C | albelig | 14 | 14 | H | 880 | 890 | C-146-  | C-156-  | QLPRWVAARAK 
+| 1jqj | C | albelig | 15 | 15 | H | 898 | 908 | C-164-  | C-174-  | DAANQVLCYCY 
+| 1jqj | C | albelig | 16 | 16 | H | 912 | 925 | C-178-  | C-191-  | LLALAQALERLSLL 
+| 1jqj | C | albelig | 17 | 17 | H | 933 | 940 | C-199-  | C-206-  | LPRVEQAV 
+| 1jqj | C | albelig | 18 | 18 | H | 948 | 956 | C-214-  | C-222-  | PFHWVDALL 
+| 1jqj | C | albelig | 19 | 19 | H | 960 | 969 | C-226-  | C-235-  | SKRALHILQQ 
+| 1jqj | C | albelig | 20 | 20 | H | 980 | 995 | C-246-  | C-261-  | LLRTLQRELLLLVNLK 
+| 1jqj | C | albelig | 21 | 21 | H | 1016 | 1025 | C-283-  | C-292-  | RGMMGEALNR 
+| 1jqj | C | albelig | 22 | 22 | H | 1028 | 1047 | C-295-  | C-314-  | QTQLRQAVQLLTRTELTLKQ 
+| 1jqj | C | albelig | 23 | 23 | H | 1056 | 1062 | C-325-  | C-331-  | EGLSLLL 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 13
+= 4 = p = 10
+= 4 = p = 13
+= 5 = a = 6
+= 5 = a = 10
+= 6 = p = 8
+= 7 = m = 9
+= 8 = p = 10
+= 14 = m = 15
+= 15 = p = 17
+= 18 = m = 19
+= 18 = p = 20
+= 20 = m = 21
+= 20 = a = 22
+= 22 = m = 23
+# Listed 15 contacts. EOF.

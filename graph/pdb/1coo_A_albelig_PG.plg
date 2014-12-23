@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1coo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION REGULATION, NUCLEOTIDYL TRANSFERASE
+> pdb_mol_name > RNA POLYMERASE ALPHA SUBUNIT
+> graphtype > albelig
+> resolution > -1.0
+> date > 09-OCT-95
+> header > NUCLEOTIDYL TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > THE COOH-TERMINAL DOMAIN OF RNA POLYMERASE ALPHA SUBUNIT
+> format_version > 2
+> pdbid > 1coo
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1coo | A | albelig | 1 | 1 | H | 3 | 6 | A-251-  | A-254-  | PILL 
+| 1coo | A | albelig | 2 | 2 | H | 9 | 12 | A-257-  | A-260-  | VDDL 
+| 1coo | A | albelig | 3 | 3 | H | 16 | 23 | A-264-  | A-271-  | VRSANCLK 
+| 1coo | A | albelig | 4 | 4 | H | 30 | 34 | A-278-  | A-282-  | IGDLV 
+| 1coo | A | albelig | 5 | 5 | H | 38 | 41 | A-286-  | A-289-  | EVEL 
+| 1coo | A | albelig | 6 | 6 | H | 49 | 61 | A-297-  | A-309-  | KKSLTEIKDVLAS 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = m = 3
+# Listed 2 contacts. EOF.

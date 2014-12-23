@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bm9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA-BINDING PROTEIN, CONTRAHELICASE
+> pdb_mol_name > REPLICATION TERMINATOR PROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 29-JUL-98
+> header > DNA-BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > REPLICATION TERMINATOR PROTEIN FROM BACILLUS SUBTILIS
+> format_version > 2
+> pdbid > 1bm9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bm9 | A | albelig | 1 | 1 | H | 13 | 26 | A-15-  | A-28-  | QRAFLKLYMITMTE 
+| 1bm9 | A | albelig | 2 | 2 | H | 35 | 43 | A-37-  | A-45-  | LLEVLRSEF 
+| 1bm9 | A | albelig | 3 | 3 | H | 52 | 64 | A-54-  | A-66-  | HTEVYRSLHELLD 
+| 1bm9 | A | albelig | 4 | 4 | E | 68 | 74 | A-70-  | A-76-  | LKQIKVK 
+| 1bm9 | A | albelig | 5 | 5 | E | 82 | 88 | A-84-  | A-90-  | EVVLYQF 
+| 1bm9 | A | albelig | 6 | 6 | H | 91 | 119 | A-93-  | A-121-  | YEAAKLYKKQLKVELDRCKKLIEKALSDN 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 5
+= 1 = a = 6
+= 2 = m = 3
+= 4 = a = 5
+# Listed 5 contacts. EOF.

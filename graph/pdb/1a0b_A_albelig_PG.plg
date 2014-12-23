@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a0b, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTIDINE KINASE, PHOSPHOTRANSFER, TWO-COMPONENT SYSTEM,FOUR-HELIX BUNDLE
+> pdb_mol_name > AEROBIC RESPIRATION CONTROL SENSOR PROTEIN ARCB
+> graphtype > albelig
+> resolution > 2.06
+> date > 27-NOV-97
+> header > HISTIDINE KINASE
+> pdb_org_common > UNKNOWN
+> title > HISTIDINE-CONTAINING PHOSPHOTRANSFER DOMAIN OF ARCB FROMESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1a0b
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a0b | A | albelig | 1 | 1 | H | 2 | 5 | A-659-  | A-662-  | SEAL 
+| 1a0b | A | albelig | 2 | 2 | H | 8 | 17 | A-665-  | A-674-  | IPMLEQYLEL 
+| 1a0b | A | albelig | 3 | 3 | H | 20 | 46 | A-677-  | A-703-  | PKLITDGLAVFEKMMPGYVSVLESNLT 
+| 1a0b | A | albelig | 4 | 4 | H | 50 | 66 | A-707-  | A-723-  | KKGIVEEGHKIKGAAGS 
+| 1a0b | A | albelig | 5 | 5 | H | 70 | 79 | A-727-  | A-736-  | RHLQQLGQQI 
+| 1a0b | A | albelig | 6 | 6 | H | 87 | 116 | A-744-  | A-773-  | WEDNVGEWIEEMKEEWRHDVEVLKAWVAKA 
+| 1a0b | A | albelig | 7 | 7 | L | 118 | 118 | A-800-  | A-800-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = a = 6
+= 4 = a = 5
+= 4 = p = 6
+= 5 = a = 6
+= 5 = l = 7
+= 6 = l = 7
+# Listed 7 contacts. EOF.

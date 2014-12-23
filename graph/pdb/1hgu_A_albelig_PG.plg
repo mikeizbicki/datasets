@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hgu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HORMONE
+> pdb_mol_name > HUMAN GROWTH HORMONE
+> graphtype > albelig
+> resolution > 2.5
+> date > 11-MAY-95
+> header > HORMONE
+> pdb_org_common > HUMAN
+> title > HUMAN GROWTH HORMONE
+> format_version > 2
+> pdbid > 1hgu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hgu | A | albelig | 1 | 1 | H | 6 | 32 | A-7-  | A-33-  | SRLFQNAMLRAHRLHQLAFDTYEEFEE 
+| 1hgu | A | albelig | 2 | 2 | H | 38 | 40 | A-41-  | A-43-  | KYS 
+| 1hgu | A | albelig | 3 | 3 | H | 44 | 46 | A-47-  | A-49-  | APQ 
+| 1hgu | A | albelig | 4 | 4 | H | 69 | 83 | A-72-  | A-86-  | NLQLLRISLLLIQSW 
+| 1hgu | A | albelig | 5 | 5 | H | 92 | 95 | A-95-  | A-98-  | SVFA 
+| 1hgu | A | albelig | 6 | 6 | H | 108 | 117 | A-111-  | A-120-  | YDLLKDLEEG 
+| 1hgu | A | albelig | 7 | 7 | H | 152 | 165 | A-155-  | A-168-  | ALLKNYGLLYAFRK 
+| 1hgu | A | albelig | 8 | 8 | H | 168 | 178 | A-171-  | A-181-  | DKVETFLRIVQ 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = a = 7
+= 1 = a = 8
+# Listed 3 contacts. EOF.

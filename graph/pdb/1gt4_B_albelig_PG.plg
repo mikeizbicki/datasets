@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gt4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPOCALIN, ODORANT-BINDING PROTEIN
+> pdb_mol_name > ODORANT-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 10-JAN-02
+> header > ODORANT-BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > COMPLEX OF BOVINE ODORANT BINDING PROTEIN WITH UNDECANAL
+> format_version > 2
+> pdbid > 1gt4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gt4 | B | albelig | 1 | 1 | H | 169 | 171 | B-11-  | B-13-  | SEL 
+| 1gt4 | B | albelig | 2 | 2 | E | 173 | 182 | B-15-  | B-24-  | GPWRTVYIGS 
+| 1gt4 | B | albelig | 3 | 3 | H | 185 | 188 | B-27-  | B-30-  | PEKI 
+| 1gt4 | B | albelig | 4 | 4 | E | 197 | 204 | B-39-  | B-46-  | YFRELVFD 
+| 1gt4 | B | albelig | 5 | 5 | E | 209 | 218 | B-51-  | B-60-  | TVDFYFSVKR 
+| 1gt4 | B | albelig | 6 | 6 | E | 221 | 231 | B-63-  | B-73-  | KWKNVHVKATK 
+| 1gt4 | B | albelig | 7 | 7 | E | 237 | 240 | B-79-  | B-82-  | YVAD 
+| 1gt4 | B | albelig | 8 | 8 | E | 244 | 252 | B-86-  | B-94-  | QNVFKIVSL 
+| 1gt4 | B | albelig | 9 | 9 | E | 256 | 264 | B-98-  | B-106-  | HLVAHNINV 
+| 1gt4 | B | albelig | 10 | 10 | E | 270 | 279 | B-112-  | B-121-  | TTELTELFVK 
+| 1gt4 | B | albelig | 11 | 11 | H | 284 | 296 | B-126-  | B-138-  | DEDLEKFWKLTED 
+| 1gt4 | B | albelig | 12 | 12 | H | 301 | 303 | B-143-  | B-145-  | KKN 
+| 1gt4 | B | albelig | 13 | 13 | E | 304 | 306 | B-146-  | B-148-  | VVN 
+| 1gt4 | B | albelig | 14 | 14 | H | 307 | 312 | B-149-  | B-154-  | FLENEN 
+| 1gt4 | B | albelig | 15 | 15 | L | 317 | 317 | B-1158-  | B-1158-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = a = 10
+= 2 = m = 14
+= 4 = a = 5
+= 4 = l = 15
+= 5 = a = 6
+= 5 = l = 15
+= 6 = a = 7
+= 6 = l = 15
+= 7 = a = 8
+= 7 = l = 15
+= 8 = a = 9
+= 8 = l = 15
+= 9 = a = 10
+= 9 = l = 15
+= 10 = l = 15
+= 12 = m = 13
+= 13 = m = 14
+# Listed 18 contacts. EOF.

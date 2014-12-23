@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f9f, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIMERIC BETA BARREL, ACTIVATOR, DNA-BINDING, TRANS-ACTINGFACTOR, TRANSCRIPTION
+> pdb_mol_name > REGULATORY PROTEIN E2
+> graphtype > albelig
+> resolution > 1.9
+> date > 10-JUL-00
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE HPV-18 E2 DNA-BINDING DOMAIN
+> format_version > 2
+> pdbid > 1f9f
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HUMAN PAPILLOMAVIRUS TYPE 18
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f9f | D | albelig | 1 | 1 | E | 238 | 246 | D-286-  | D-294-  | MTPIIHLKG 
+| 1f9f | D | albelig | 2 | 2 | H | 248 | 261 | D-296-  | D-309-  | RNSLKCLRYRLRKH 
+| 1f9f | D | albelig | 3 | 3 | E | 283 | 288 | D-331-  | D-336-  | GILTVT 
+| 1f9f | D | albelig | 4 | 4 | H | 292 | 301 | D-340-  | D-349-  | ETQRTKFLNT 
+| 1f9f | D | albelig | 5 | 5 | E | 309 | 316 | D-357-  | D-364-  | QILVGYMT 
+| 1f9f | D | albelig | 6 | 6 | L | 319 | 319 | D-901-  | D-901-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 5
+= 2 = m = 3
+= 2 = l = 6
+# Listed 4 contacts. EOF.

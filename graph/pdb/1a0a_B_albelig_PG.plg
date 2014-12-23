@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a0a, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION FACTOR, BASIC HELIX LOOP HELIX, COMPLEX(TRANSCRIPTION FACTOR/DNA), TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > PROTEIN (PHOSPHATE SYSTEM POSITIVE REGULATORY
+> graphtype > albelig
+> resolution > 2.8
+> date > 27-NOV-97
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > BAKER'S YEAST
+> title > PHOSPHATE SYSTEM POSITIVE REGULATORY PROTEIN PHO4/DNACOMPLEX
+> format_version > 2
+> pdbid > 1a0a
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a0a | B | albelig | 1 | 1 | H | 67 | 89 | B-2-  | B-24-  | RESHKHAEQARRNRLAVALHELA 
+| 1a0a | B | albelig | 2 | 2 | H | 95 | 97 | B-30-  | B-32-  | EWK 
+| 1a0a | B | albelig | 3 | 3 | H | 108 | 121 | B-43-  | B-56-  | ATTVEAACRYIRHL 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

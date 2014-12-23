@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cbw, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, INHIBITOR, PROTEASE-SUBSTRATE INTERACTIONS,COMPLEX (SERINE PROTEASE/INHIBITOR)
+> pdb_mol_name > BOVINE CHYMOTRYPSIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 22-DEC-96
+> header > COMPLEX (SERINE PROTEASE/INHIBITOR)
+> pdb_org_common > CATTLE
+> title > BOVINE CHYMOTRYPSIN COMPLEXED TO BPTI
+> format_version > 2
+> pdbid > 1cbw
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cbw | H | albelig | 1 | 1 | E | 453 | 458 | H-156-  | H-161-  | QQASLP 
+| 1cbw | H | albelig | 2 | 2 | H | 462 | 466 | H-165-  | H-169-  | NTNLK 
+| 1cbw | H | albelig | 3 | 3 | H | 470 | 472 | H-173-  | H-175-  | GTK 
+| 1cbw | H | albelig | 4 | 4 | E | 477 | 481 | H-180-  | H-184-  | MILAG 
+| 1cbw | H | albelig | 5 | 5 | E | 496 | 499 | H-199-  | H-202-  | LVKK 
+| 1cbw | H | albelig | 6 | 6 | E | 504 | 512 | H-207-  | H-215-  | WTLVGIVSW 
+| 1cbw | H | albelig | 7 | 7 | E | 522 | 527 | H-225-  | H-230-  | PGVYAR 
+| 1cbw | H | albelig | 8 | 8 | H | 528 | 539 | H-231-  | H-242-  | VTALVNWVQQTL 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 4 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 6 = m = 8
+= 7 = m = 8
+# Listed 6 contacts. EOF.

@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ir2, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > N-METHYLMETHIONINE, 4-HYDROXYPROLINE, S-METHYLCYSTEINE, ALPHA/BETABARREL, LYASE
+> pdb_mol_name > SMALL SUBUNIT OF RUBISCO
+> graphtype > albelig
+> resolution > 1.84
+> date > 03-SEP-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ACTIVATED RIBULOSE-1,5-BISPHOSPHATECARBOXYLASE/OXYGENASE (RUBISCO) FROM GREEN ALGA, CHLAMYDOMONASREINHARDTII COMPLEXED WITH 2-CARBOXYARABINITOL-1,5-BISPHOSPHATE (2-CABP)
+> format_version > 2
+> pdbid > 1ir2
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > CHLAMYDOMONAS REINHARDTII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ir2 | N | albelig | 1 | 1 | H | 3532 | 3544 | N-23-  | N-35-  | DEQIAAQVDYIVA 
+| 1ir2 | N | albelig | 2 | 2 | E | 3548 | 3554 | N-39-  | N-45-  | IPCLEFA 
+| 1ir2 | N | albelig | 3 | 3 | H | 3556 | 3558 | N-47-  | N-49-  | SDK 
+| 1ir2 | N | albelig | 4 | 4 | H | 3564 | 3568 | N-55-  | N-59-  | ESAIR 
+| 1ir2 | N | albelig | 5 | 5 | E | 3583 | 3585 | N-74-  | N-76-  | TMW 
+| 1ir2 | N | albelig | 6 | 6 | H | 3595 | 3608 | N-86-  | N-99-  | PMQVLREIVACTKA 
+| 1ir2 | N | albelig | 7 | 7 | E | 3613 | 3620 | N-104-  | N-111-  | YVRLVAFD 
+| 1ir2 | N | albelig | 8 | 8 | E | 3625 | 3633 | N-116-  | N-124-  | VQIMGFLVQ 
+| 1ir2 | N | albelig | 9 | 9 | H | 3644 | 3646 | N-135-  | N-137-  | ANK 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 5
+= 2 = a = 7
+= 5 = m = 6
+= 7 = a = 8
+# Listed 5 contacts. EOF.

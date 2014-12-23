@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hy1, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EYE LENS PROTEIN, DELTA 2 CRYSTALLIN, ARGININOSUCCINATELYASE
+> pdb_mol_name > DELTA CRYSTALLIN II
+> graphtype > albelig
+> resolution > 2.3
+> date > 17-JAN-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF WILD TYPE DUCK DELTA 2 CRYSTALLIN (EYELENS PROTEIN)
+> format_version > 2
+> pdbid > 1hy1
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ANAS PLATYRHYNCHOS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hy1 | D | albelig | 1 | 1 | H | 1351 | 1357 | D-19-  | D-25-  | PIMEKLN 
+| 1hy1 | D | albelig | 2 | 2 | H | 1363 | 1384 | D-31-  | D-52-  | DQRLSEVDIQGSMAYAKALEKA 
+| 1hy1 | D | albelig | 3 | 3 | H | 1389 | 1408 | D-57-  | D-76-  | KTELEKILSGLEKISEEWSK 
+| 1hy1 | D | albelig | 4 | 4 | H | 1420 | 1432 | D-88-  | D-100-  | IHTANERRLKELI 
+| 1hy1 | D | albelig | 5 | 5 | H | 1434 | 1440 | D-102-  | D-108-  | DIAGKLH 
+| 1hy1 | D | albelig | 6 | 6 | H | 1445 | 1481 | D-113-  | D-149-  | RNDQVVTDLKLFMKNSLSIISTHLLQLIKTLVERAAI 
+| 1hy1 | D | albelig | 7 | 7 | E | 1486 | 1491 | D-154-  | D-159-  | ILPGYT 
+| 1hy1 | D | albelig | 8 | 8 | E | 1494 | 1500 | D-162-  | D-168-  | QKAQPIR 
+| 1hy1 | D | albelig | 9 | 9 | H | 1501 | 1526 | D-169-  | D-194-  | WSQFLLSHAVALTRDSERLGEVKKRI 
+| 1hy1 | D | albelig | 10 | 10 | H | 1545 | 1551 | D-213-  | D-219-  | REMLRSE 
+| 1hy1 | D | albelig | 11 | 11 | H | 1561 | 1566 | D-229-  | D-234-  | SMDAIS 
+| 1hy1 | D | albelig | 12 | 12 | H | 1569 | 1595 | D-237-  | D-263-  | DFVVEFLSFATLLMIHLSKMAEDLIIY 
+| 1hy1 | D | albelig | 13 | 13 | H | 1607 | 1609 | D-275-  | D-277-  | DAF 
+| 1hy1 | D | albelig | 14 | 14 | H | 1623 | 1646 | D-291-  | D-314-  | DSLELIRSKAGRVFGRLASILMVL 
+| 1hy1 | D | albelig | 15 | 15 | H | 1655 | 1684 | D-323-  | D-352-  | KDLQEDKEAVFDVVDTLTAVLQVATGVIST 
+| 1hy1 | D | albelig | 16 | 16 | H | 1689 | 1694 | D-357-  | D-362-  | KENMEK 
+| 1hy1 | D | albelig | 17 | 17 | H | 1698 | 1711 | D-366-  | D-379-  | PEMLATDLALYLVR 
+| 1hy1 | D | albelig | 18 | 18 | H | 1716 | 1732 | D-384-  | D-400-  | FRQAHTASGKAVHLAET 
+| 1hy1 | D | albelig | 19 | 19 | H | 1737 | 1739 | D-405-  | D-407-  | INK 
+| 1hy1 | D | albelig | 20 | 20 | H | 1742 | 1746 | D-410-  | D-414-  | LEDLK 
+| 1hy1 | D | albelig | 21 | 21 | H | 1754 | 1759 | D-422-  | D-427-  | SDVSQV 
+| 1hy1 | D | albelig | 22 | 22 | H | 1762 | 1766 | D-430-  | D-434-  | FVNSV 
+| 1hy1 | D | albelig | 23 | 23 | H | 1777 | 1795 | D-445-  | D-463-  | KSSVTTQIEQLRELMKKQK 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 4
+= 2 = m = 5
+= 2 = m = 6
+= 2 = m = 10
+= 3 = a = 4
+= 4 = a = 5
+= 4 = m = 6
+= 6 = a = 9
+= 6 = m = 11
+= 6 = p = 12
+= 6 = p = 15
+= 6 = a = 23
+= 7 = a = 8
+= 7 = m = 16
+= 8 = m = 9
+= 9 = a = 12
+= 9 = p = 23
+= 12 = a = 14
+= 12 = p = 15
+= 14 = a = 15
+= 17 = a = 18
+= 17 = m = 21
+# Listed 23 contacts. EOF.

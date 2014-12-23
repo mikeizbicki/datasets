@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ej3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR EF-HAND CALCIUM-BINDING PROTEIN, PROTEIN-COELENTERAZINE PEROXIDE COMPLEX, OXIDOREDUCTASE
+> pdb_mol_name > AEQUORIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 29-FEB-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AEQUORIN
+> format_version > 2
+> pdbid > 1ej3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AEQUOREA AEQUOREA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ej3 | A | albelig | 1 | 1 | H | 8 | 21 | A-10-  | A-23-  | PRWIGRHKHMFNFL 
+| 1ej3 | A | albelig | 2 | 2 | H | 31 | 44 | A-33-  | A-46-  | LDEMVYKASDIVIN 
+| 1ej3 | A | albelig | 3 | 3 | H | 50 | 66 | A-52-  | A-68-  | PEQAKRHKDAVEAFFGG 
+| 1ej3 | A | albelig | 4 | 4 | H | 77 | 96 | A-79-  | A-98-  | WPAYIEGWKKLATDELEKYA 
+| 1ej3 | A | albelig | 5 | 5 | H | 102 | 114 | A-104-  | A-116-  | LIRIWGDALFDIV 
+| 1ej3 | A | albelig | 6 | 6 | H | 124 | 134 | A-126-  | A-136-  | LDEWKAYTKAA 
+| 1ej3 | A | albelig | 7 | 7 | H | 140 | 150 | A-142-  | A-152-  | SEDCEETFRVC 
+| 1ej3 | A | albelig | 8 | 8 | H | 160 | 173 | A-162-  | A-175-  | VDEMTRQHLGFWYT 
+| 1ej3 | A | albelig | 9 | 9 | H | 176 | 178 | A-178-  | A-180-  | PAC 
+| 1ej3 | A | albelig | 10 | 10 | L | 376 | 376 | A-201-  | A-201-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 8
+= 1 = l = 10
+= 2 = a = 3
+= 2 = l = 10
+= 3 = a = 5
+= 3 = l = 10
+= 4 = l = 10
+= 5 = a = 8
+= 5 = l = 10
+= 6 = a = 7
+= 6 = l = 10
+= 8 = m = 9
+= 8 = l = 10
+# Listed 14 contacts. EOF.

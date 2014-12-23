@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bsx, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR RECEPTORS, COACTIVATORS, GRIP1, SPECIFICITYINTERACTION SITE, HORMONE/GROWTH FACTOR COMPLEX
+> pdb_mol_name > PROTEIN (THYROID HORMONE RECEPTOR BETA)
+> graphtype > albelig
+> resolution > 3.7
+> date > 31-AUG-98
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE AND SPECIFICITY OF NUCLEAR RECEPTOR-COACTIVATORINTERACTIONS
+> format_version > 2
+> pdbid > 1bsx
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bsx | B | albelig | 1 | 1 | H | 264 | 279 | B-216-  | B-231-  | DEEWELIKTVTEAHVA 
+| 1bsx | B | albelig | 2 | 2 | H | 307 | 314 | B-266-  | B-273-  | LEAFSHFT 
+| 1bsx | B | albelig | 3 | 3 | H | 317 | 329 | B-276-  | B-288-  | ITPAITRVVDFAK 
+| 1bsx | B | albelig | 4 | 4 | H | 332 | 335 | B-291-  | B-294-  | PMFC 
+| 1bsx | B | albelig | 5 | 5 | H | 339 | 359 | B-298-  | B-318-  | CEDQIILLKGCCMEIMSLRAA 
+| 1bsx | B | albelig | 6 | 6 | E | 369 | 371 | B-328-  | B-330-  | LTL 
+| 1bsx | B | albelig | 7 | 7 | E | 375 | 377 | B-334-  | B-336-  | MAV 
+| 1bsx | B | albelig | 8 | 8 | H | 379 | 387 | B-338-  | B-346-  | RGQLKNGGL 
+| 1bsx | B | albelig | 9 | 9 | H | 389 | 401 | B-348-  | B-360-  | VVSDAIFDLGMSL 
+| 1bsx | B | albelig | 10 | 10 | H | 408 | 419 | B-367-  | B-378-  | DTEVALLQAVLL 
+| 1bsx | B | albelig | 11 | 11 | H | 430 | 451 | B-389-  | B-410-  | VERIEKYQDSFLLAFEHYINYR 
+| 1bsx | B | albelig | 12 | 12 | H | 459 | 486 | B-418-  | B-445-  | WPKLLMKVTDLRMIGACHASRFLHMKVE 
+| 1bsx | B | albelig | 13 | 13 | H | 494 | 500 | B-453-  | B-459-  | PLFLEVF 
+| 1bsx | B | albelig | 14 | 14 | L | 517 | 517 | B-2-  | B-2-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 10
+= 1 = m = 11
+= 2 = m = 8
+= 2 = l = 14
+= 3 = m = 5
+= 3 = l = 14
+= 5 = a = 10
+= 5 = m = 12
+= 5 = m = 13
+= 5 = l = 14
+= 6 = a = 7
+= 6 = l = 14
+= 8 = m = 9
+= 8 = l = 14
+= 9 = a = 12
+= 9 = l = 14
+= 10 = a = 11
+= 11 = a = 12
+= 12 = m = 13
+= 12 = l = 14
+= 13 = l = 14
+# Listed 21 contacts. EOF.

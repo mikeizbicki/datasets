@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1am4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (GTPASE-ACTIVATING/GTP-BINDING), GTPASE ACTIVATION
+> pdb_mol_name > P50-RHOGAP
+> graphtype > albelig
+> resolution > 2.7
+> date > 22-JUN-97
+> header > COMPLEX (GTPASE-ACTIVATING/GTP-BINDING)
+> pdb_org_common > HUMAN
+> title > COMPLEX BETWEEN CDC42HS.GMPPNP AND P50 RHOGAP (H. SAPIENS)
+> format_version > 2
+> pdbid > 1am4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1am4 | A | albelig | 1 | 1 | H | 14 | 17 | A-49-  | A-52-  | LQHL 
+| 1am4 | A | albelig | 2 | 2 | H | 29 | 40 | A-64-  | A-75-  | IVLRETVAYLQA 
+| 1am4 | A | albelig | 3 | 3 | H | 55 | 64 | A-90-  | A-99-  | TQVVREVQQK 
+| 1am4 | A | albelig | 4 | 4 | H | 81 | 91 | A-116-  | A-126-  | LPAVILKTFLR 
+| 1am4 | A | albelig | 5 | 5 | H | 100 | 107 | A-135-  | A-142-  | FDLYPHVV 
+| 1am4 | A | albelig | 6 | 6 | H | 109 | 111 | A-144-  | A-146-  | FLN 
+| 1am4 | A | albelig | 7 | 7 | H | 117 | 126 | A-152-  | A-161-  | RVPATLQVLQ 
+| 1am4 | A | albelig | 8 | 8 | H | 130 | 147 | A-165-  | A-182-  | EENYQVLRFLTAFLVQIS 
+| 1am4 | A | albelig | 9 | 9 | H | 150 | 153 | A-185-  | A-188-  | SDQN 
+| 1am4 | A | albelig | 10 | 10 | H | 157 | 168 | A-192-  | A-203-  | NTNLAVVFGPNL 
+| 1am4 | A | albelig | 11 | 11 | H | 183 | 193 | A-218-  | A-228-  | PINTFTKFLLD 
+| 1am4 | A | albelig | 12 | 12 | H | 195 | 198 | A-230-  | A-233-  | QGEL 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = m = 8
+= 3 = m = 4
+= 5 = m = 7
+= 5 = m = 11
+= 7 = m = 12
+= 8 = m = 11
+= 8 = m = 12
+= 10 = m = 11
+# Listed 9 contacts. EOF.

@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxm, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, PECTATE, MECHANISM, ELIMINATION
+> pdb_mol_name > PECTATE LYASE
+> graphtype > albelig
+> resolution > 1.32
+> date > 08-APR-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > FAMILY 10 POLYSACCHARIDE LYASE FROM CELLVIBRIO CELLULOSA
+> format_version > 2
+> pdbid > 1gxm
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CELLVIBRIO CELLULOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxm | B | albelig | 1 | 1 | H | 345 | 353 | B-337-  | B-345-  | PAANWLNNA 
+| 1gxm | B | albelig | 2 | 2 | H | 359 | 367 | B-351-  | B-359-  | ASRADVVLS 
+| 1gxm | B | albelig | 3 | 3 | H | 397 | 399 | B-389-  | B-391-  | DNG 
+| 1gxm | B | albelig | 4 | 4 | H | 402 | 415 | B-394-  | B-407-  | ITEMVFLAEVYKSG 
+| 1gxm | B | albelig | 5 | 5 | H | 418 | 434 | B-410-  | B-426-  | TKYRDAVRKAANFLVNS 
+| 1gxm | B | albelig | 6 | 6 | H | 450 | 453 | B-442-  | B-445-  | GYSD 
+| 1gxm | B | albelig | 7 | 7 | H | 458 | 473 | B-450-  | B-465-  | NDNGMAYALTVLDFAA 
+| 1gxm | B | albelig | 8 | 8 | H | 486 | 506 | B-478-  | B-498-  | DNDRTRFKTAVTKGTDYILKA 
+| 1gxm | B | albelig | 9 | 9 | H | 544 | 552 | B-536-  | B-544-  | SVGVLAFLM 
+| 1gxm | B | albelig | 10 | 10 | H | 558 | 571 | B-550-  | B-563-  | AEIEQAVRAGVAWF 
+| 1gxm | B | albelig | 11 | 11 | E | 578 | 583 | B-570-  | B-575-  | LEGYTY 
+| 1gxm | B | albelig | 12 | 12 | H | 585 | 587 | B-577-  | B-579-  | SSL 
+| 1gxm | B | albelig | 13 | 13 | E | 593 | 603 | B-585-  | B-595-  | IVPRAGSKMWY 
+| 1gxm | B | albelig | 14 | 14 | H | 626 | 628 | B-618-  | B-620-  | ITQ 
+| 1gxm | B | albelig | 15 | 15 | H | 631 | 636 | B-623-  | B-628-  | LERRTG 
+| 1gxm | B | albelig | 16 | 16 | H | 643 | 653 | B-635-  | B-645-  | YGTSIINFAQK 
+| 1gxm | B | albelig | 17 | 17 | L | 661 | 661 | B-1650-  | B-1650-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 7
+= 2 = m = 4
+= 2 = m = 5
+= 3 = l = 17
+= 4 = a = 5
+= 4 = l = 17
+= 7 = a = 8
+= 7 = m = 9
+= 8 = m = 9
+= 9 = a = 10
+= 9 = m = 16
+= 11 = a = 13
+= 13 = m = 16
+# Listed 14 contacts. EOF.

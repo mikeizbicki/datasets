@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PRION PROTEIN, PRION, BRAIN, GLYCOPROTEIN, GPI-ANCHOR,REPEAT, SIGNAL
+> pdb_mol_name > MAJOR PRION PROTEIN PRECURSOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 27-FEB-03
+> header > PRION PROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN PRION PROTEIN AT PH 7.0
+> format_version > 2
+> pdbid > 1hjm
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjm | A | albelig | 1 | 1 | H | 20 | 28 | A-144-  | A-152-  | DYEDRYYRE 
+| 1hjm | A | albelig | 2 | 2 | H | 30 | 32 | A-154-  | A-156-  | MHR 
+| 1hjm | A | albelig | 3 | 3 | H | 50 | 70 | A-174-  | A-194-  | NFVHDAVNITIKQHTVTTTTK 
+| 1hjm | A | albelig | 4 | 4 | H | 76 | 101 | A-200-  | A-225-  | ETDVKMMERVVEQMAITQYERESQAY 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+# Listed 1 contacts. EOF.

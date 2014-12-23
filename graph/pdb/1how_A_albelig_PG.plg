@@ -1,0 +1,84 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1how, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE, TRANSFERASE
+> pdb_mol_name > SERINE/THREONINE-PROTEIN KINASE YMR216C
+> graphtype > albelig
+> resolution > 2.1
+> date > 11-DEC-00
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > THE X-RAY CRYSTAL STRUCTURE OF SKY1P, AN SR PROTEIN KINASEIN YEAST
+> format_version > 2
+> pdbid > 1how
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1how | A | albelig | 1 | 1 | E | 15 | 23 | A-158-  | A-166-  | YILVRKLGW 
+| 1how | A | albelig | 2 | 2 | E | 27 | 34 | A-170-  | A-177-  | STVWLAKD 
+| 1how | A | albelig | 3 | 3 | E | 39 | 46 | A-182-  | A-189-  | THVAMKIV 
+| 1how | A | albelig | 4 | 4 | H | 50 | 68 | A-193-  | A-211-  | KVYTEAAEDEIKLLQRVND 
+| 1how | A | albelig | 5 | 5 | H | 73 | 79 | A-216-  | A-222-  | KEDSMGA 
+| 1how | A | albelig | 6 | 6 | E | 87 | 92 | A-230-  | A-235-  | DHFNHK 
+| 1how | A | albelig | 7 | 7 | E | 97 | 103 | A-240-  | A-246-  | VHVVMVF 
+| 1how | A | albelig | 8 | 8 | H | 110 | 116 | A-253-  | A-259-  | LLALIKK 
+| 1how | A | albelig | 9 | 9 | H | 124 | 145 | A-267-  | A-288-  | LIYVKQISKQLLLGLDYMHRRC 
+| 1how | A | albelig | 10 | 10 | H | 154 | 156 | A-297-  | A-299-  | PEN 
+| 1how | A | albelig | 11 | 11 | E | 157 | 163 | A-300-  | A-304-B | VLMEIVD 
+| 1how | A | albelig | 12 | 12 | E | 168 | 173 | A-543-  | A-548-  | LIQIKI 
+| 1how | A | albelig | 13 | 13 | H | 176 | 178 | A-551-  | A-553-  | LGN 
+| 1how | A | albelig | 14 | 14 | H | 193 | 195 | A-568-  | A-570-  | REY 
+| 1how | A | albelig | 15 | 15 | H | 198 | 202 | A-573-  | A-577-  | PEVLL 
+| 1how | A | albelig | 16 | 16 | H | 209 | 224 | A-584-  | A-599-  | GADIWSTACLIFELIT 
+| 1how | A | albelig | 17 | 17 | H | 235 | 245 | A-616-  | A-626-  | DDHIAQIIELL 
+| 1how | A | albelig | 18 | 18 | H | 250 | 254 | A-631-  | A-635-  | SYLLR 
+| 1how | A | albelig | 19 | 19 | H | 272 | 279 | A-661-  | A-668-  | LEDVLTEK 
+| 1how | A | albelig | 20 | 20 | H | 284 | 294 | A-673-  | A-683-  | KDEAKEISDFL 
+| 1how | A | albelig | 21 | 21 | H | 308 | 312 | A-697-  | A-701-  | AGGLV 
+| 1how | A | albelig | 22 | 22 | H | 315 | 317 | A-704-  | A-706-  | PWL 
+| 1how | A | albelig | 23 | 23 | L | 349 | 349 | A-743-  | A-743-  | J 
+| 1how | A | albelig | 24 | 24 | L | 350 | 350 | A-744-  | A-744-  | J 
+| 1how | A | albelig | 25 | 25 | L | 351 | 351 | A-745-  | A-745-  | J 
+| 1how | A | albelig | 26 | 26 | L | 352 | 352 | A-746-  | A-746-  | J 
+| 1how | A | albelig | 27 | 27 | L | 353 | 353 | A-747-  | A-747-  | J 
+| 1how | A | albelig | 28 | 28 | L | 354 | 354 | A-748-  | A-748-  | J 
+| 1how | A | albelig | 29 | 29 | L | 355 | 355 | A-749-  | A-749-  | J 
+| 1how | A | albelig | 30 | 30 | L | 356 | 356 | A-750-  | A-750-  | J 
+# Printed info on 30 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 26
+= 2 = a = 3
+= 2 = l = 25
+= 2 = l = 26
+= 2 = l = 27
+= 3 = a = 7
+= 3 = l = 25
+= 3 = l = 26
+= 3 = l = 27
+= 3 = l = 30
+= 4 = p = 7
+= 4 = m = 9
+= 4 = l = 27
+= 6 = a = 7
+= 6 = l = 23
+= 7 = l = 27
+= 8 = l = 29
+= 9 = p = 12
+= 9 = a = 16
+= 9 = m = 21
+= 9 = m = 22
+= 10 = m = 11
+= 11 = a = 12
+= 11 = l = 30
+= 13 = l = 27
+= 14 = m = 16
+= 14 = l = 28
+= 16 = l = 29
+= 18 = l = 24
+= 19 = m = 20
+= 20 = m = 22
+= 25 = l = 27
+# Listed 33 contacts. EOF.

@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ifk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS, HELICAL VIRUS
+> pdb_mol_name > INOVIRUS
+> graphtype > albelig
+> resolution > 5.0
+> date > 31-JAN-94
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > MOLECULAR MODELS AND STRUCTURAL COMPARISONS OF NATIVE ANDMUTANT CLASS I FILAMENTOUS BACTERIOPHAGES FF (FD, F1, M13),IF1 AND IKE
+> format_version > 2
+> pdbid > 1ifk
+> experiment > FIBER DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE IF1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ifk | A | albelig | 1 | 1 | H | 2 | 50 | A-2-  | A-50-  | DDATSQAKAAFDSLTAQATEMSGYAWALVVLVVGATVGIKLFKKFVSRA 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

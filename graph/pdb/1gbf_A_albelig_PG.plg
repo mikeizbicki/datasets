@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gbf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIVE-SITE MUTATION, SERINE PROTEINASE, HYDROLASE-HYDROLASEINHIBITOR COMPLEX
+> pdb_mol_name > ALPHA-LYTIC PROTEASE
+> graphtype > albelig
+> resolution > 2.15
+> date > 06-SEP-95
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > ALPHA-LYTIC PROTEASE WITH MET 190 REPLACED BY ALA AND GLY 216 REPLACEDBY LEU COMPLEX WITH METHOXYSUCCINYL-ALA-ALA-PRO-ALANINE BORONIC ACID
+> format_version > 2
+> pdbid > 1gbf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LYSOBACTER ENZYMOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gbf | A | albelig | 1 | 1 | E | 2 | 5 | A-15-B | A-18-  | NIVG 
+| 1gbf | A | albelig | 2 | 2 | E | 8 | 11 | A-32-  | A-35-  | EYSI 
+| 1gbf | A | albelig | 3 | 3 | E | 15 | 18 | A-40-  | A-43-  | SLAS 
+| 1gbf | A | albelig | 4 | 4 | E | 21 | 25 | A-45-  | A-48-A | FSVTR 
+| 1gbf | A | albelig | 5 | 5 | E | 28 | 33 | A-49-  | A-54-  | TKGFVT 
+| 1gbf | A | albelig | 6 | 6 | H | 35 | 37 | A-56-  | A-58-  | GHA 
+| 1gbf | A | albelig | 7 | 7 | E | 43 | 46 | A-62-  | A-66-  | TARI 
+| 1gbf | A | albelig | 8 | 8 | E | 49 | 58 | A-82-  | A-91-  | AVVGTFAARV 
+| 1gbf | A | albelig | 9 | 9 | E | 64 | 69 | A-103-  | A-108-  | RAWVSL 
+| 1gbf | A | albelig | 10 | 10 | E | 74 | 81 | A-113-  | A-120-D | TLLPRVAN 
+| 1gbf | A | albelig | 11 | 11 | E | 84 | 87 | A-120-H | A-120-K | SFVT 
+| 1gbf | A | albelig | 12 | 12 | E | 99 | 104 | A-135-  | A-140-  | AVNRSG 
+| 1gbf | A | albelig | 13 | 13 | E | 108 | 123 | A-156-  | A-171-  | GYQNGTITAKNVTANY 
+| 1gbf | A | albelig | 14 | 14 | E | 126 | 134 | A-175-  | A-183-  | GAVRGLTQG 
+| 1gbf | A | albelig | 15 | 15 | E | 146 | 148 | A-198-  | A-200-  | SWI 
+| 1gbf | A | albelig | 16 | 16 | E | 154 | 161 | A-209-  | A-216-  | AQGVMSGL 
+| 1gbf | A | albelig | 17 | 17 | H | 174 | 176 | A-222-B | A-223-  | ASQ 
+| 1gbf | A | albelig | 18 | 18 | E | 179 | 183 | A-226-  | A-230-  | SLFER 
+| 1gbf | A | albelig | 19 | 19 | H | 184 | 191 | A-231-  | A-238-  | LQPILSQY 
+| 1gbf | A | albelig | 20 | 20 | L | 204 | 204 | A-1-  | A-1-  | J 
+| 1gbf | A | albelig | 21 | 21 | L | 205 | 205 | A-2-  | A-2-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 10
+= 2 = a = 3
+= 2 = a = 7
+= 4 = a = 5
+= 4 = a = 10
+= 5 = a = 9
+= 6 = m = 9
+= 7 = a = 8
+= 8 = a = 9
+= 9 = m = 19
+= 10 = a = 11
+= 10 = a = 13
+= 12 = a = 13
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 18
+= 15 = a = 16
+= 16 = a = 18
+= 16 = m = 19
+= 18 = m = 19
+= 18 = l = 21
+= 19 = l = 21
+# Listed 22 contacts. EOF.

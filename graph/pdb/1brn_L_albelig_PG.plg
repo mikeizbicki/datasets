@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1brn, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, HYDROLASE/DNA COMPLEX
+> pdb_mol_name > PROTEIN (BARNASE (E.C.3.1.27.-))
+> graphtype > albelig
+> resolution > 1.76
+> date > 17-NOV-93
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > SUBSITE BINDING IN AN RNASE: STRUCTURE OF A BARNASE-TETRANUCLEOTIDE COMPLEX AT 1.76 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1brn
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1brn | L | albelig | 1 | 1 | H | 5 | 15 | L-7-  | L-17-  | FDGVADYLQTY 
+| 1brn | L | albelig | 2 | 2 | H | 25 | 30 | L-27-  | L-32-  | KSEAQA 
+| 1brn | L | albelig | 3 | 3 | H | 35 | 37 | L-37-  | L-39-  | ASK 
+| 1brn | L | albelig | 4 | 4 | H | 40 | 43 | L-42-  | L-45-  | LADV 
+| 1brn | L | albelig | 5 | 5 | E | 48 | 54 | L-50-  | L-56-  | SIGGDIF 
+| 1brn | L | albelig | 6 | 6 | E | 69 | 73 | L-71-  | L-75-  | WREAD 
+| 1brn | L | albelig | 7 | 7 | E | 85 | 89 | L-87-  | L-91-  | RILYS 
+| 1brn | L | albelig | 8 | 8 | E | 94 | 97 | L-96-  | L-99-  | IYKT 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+# Listed 3 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fak, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX(SERINE PROTEASE/COFACTOR/LIGAND), BLOOD COAGULATION,SERINE PROTEASE, COMPLEX, CO-FACTOR, RECEPTOR ENZYME,INHIBITOR, GLA, EGF, COMPLEX (SERINEPROTEASE/COFACTOR/LIGAND), BLOOD CLOTTING
+> pdb_mol_name > PROTEIN (BLOOD COAGULATION FACTOR VIIA)
+> graphtype > albelig
+> resolution > 2.1
+> date > 28-DEC-98
+> header > BLOOD CLOTTING
+> pdb_org_common > HUMAN
+> title > HUMAN TISSUE FACTOR COMPLEXED WITH COAGULATION FACTOR VIIAINHIBITED WITH A BPTI-MUTANT
+> format_version > 2
+> pdbid > 1fak
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fak | H | albelig | 1 | 1 | E | 124 | 129 | H-30-  | H-35-  | QVLLLV 
+| 1fak | H | albelig | 2 | 2 | E | 132 | 139 | H-39-  | H-46-  | AQLIGGTL 
+| 1fak | H | albelig | 3 | 3 | E | 144 | 147 | H-51-  | H-54-  | WVVS 
+| 1fak | H | albelig | 4 | 4 | H | 149 | 152 | H-56-  | H-59-  | AHIF 
+| 1fak | H | albelig | 5 | 5 | E | 161 | 165 | H-64-  | H-68-  | LIAVL 
+| 1fak | H | albelig | 6 | 6 | E | 178 | 188 | H-81-  | H-91-  | QSRRVAQVIIP 
+| 1fak | H | albelig | 7 | 7 | E | 201 | 205 | H-104-  | H-108-  | ALLRL 
+| 1fak | H | albelig | 8 | 8 | H | 225 | 232 | H-128-  | H-129-F | FSERTLAF 
+| 1fak | H | albelig | 9 | 9 | E | 235 | 240 | H-135-  | H-140-  | FSLVSG 
+| 1fak | H | albelig | 10 | 10 | E | 255 | 262 | H-156-  | H-163-  | MVLNVPRL 
+| 1fak | H | albelig | 11 | 11 | H | 264 | 270 | H-165-  | H-170-A | TQDJLQQ 
+| 1fak | H | albelig | 12 | 12 | E | 282 | 285 | H-180-  | H-183-  | MFJA 
+| 1fak | H | albelig | 13 | 13 | E | 302 | 307 | H-198-  | H-203-  | PHATHY 
+| 1fak | H | albelig | 14 | 14 | E | 310 | 319 | H-206-  | H-215-  | TWYLTGIVSW 
+| 1fak | H | albelig | 15 | 15 | E | 330 | 334 | H-226-  | H-230-  | GVYTR 
+| 1fak | H | albelig | 16 | 16 | H | 335 | 337 | H-231-  | H-233-  | VSQ 
+| 1fak | H | albelig | 17 | 17 | H | 339 | 347 | H-235-  | H-243-  | IEWLQKLMR 
+| 1fak | H | albelig | 18 | 18 | E | 355 | 358 | H-251-  | H-254-  | LLRA 
+| 1fak | H | albelig | 19 | 19 | L | 609 | 609 | H-258-  | H-258-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 6 = p = 18
+= 8 = m = 14
+= 9 = a = 10
+= 9 = a = 13
+= 10 = a = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 15 = m = 16
+# Listed 15 contacts. EOF.

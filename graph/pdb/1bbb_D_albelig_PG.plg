@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bbb, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN A (CARBONMONOXY) (BETA CHAIN)
+> graphtype > albelig
+> resolution > 1.7
+> date > 29-APR-92
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > A THIRD QUATERNARY STRUCTURE OF HUMAN HEMOGLOBIN A AT 1.7-ANGSTROMSRESOLUTION
+> format_version > 2
+> pdbid > 1bbb
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bbb | D | albelig | 1 | 1 | H | 436 | 446 | D-5-  | D-15-  | PEEKSAVTALW 
+| 1bbb | D | albelig | 2 | 2 | H | 454 | 465 | D-23-  | D-34-  | VGGEALGRLLVV 
+| 1bbb | D | albelig | 3 | 3 | H | 467 | 476 | D-36-  | D-45-  | PWTQRFFESF 
+| 1bbb | D | albelig | 4 | 4 | H | 482 | 486 | D-51-  | D-55-  | PDAVM 
+| 1bbb | D | albelig | 5 | 5 | H | 489 | 507 | D-58-  | D-76-  | PKVKAHGKKVLGAFSDGLA 
+| 1bbb | D | albelig | 6 | 6 | H | 512 | 526 | D-81-  | D-95-  | LKGTFATLSELHCDK 
+| 1bbb | D | albelig | 7 | 7 | H | 532 | 552 | D-101-  | D-121-  | ENFRLLGNVLVCVLAHHFGKE 
+| 1bbb | D | albelig | 8 | 8 | H | 555 | 572 | D-124-  | D-141-  | PPVQAAYQKVVAGVANAL 
+| 1bbb | D | albelig | 9 | 9 | H | 574 | 576 | D-143-  | D-145-  | HKY 
+| 1bbb | D | albelig | 10 | 10 | L | 584 | 584 | D-147-  | D-147-  | J 
+| 1bbb | D | albelig | 11 | 11 | L | 585 | 585 | D-148-  | D-148-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 8
+= 2 = m = 3
+= 2 = m = 4
+= 2 = m = 5
+= 2 = a = 7
+= 2 = l = 10
+= 2 = l = 11
+= 3 = m = 5
+= 3 = l = 10
+= 3 = l = 11
+= 5 = l = 10
+= 5 = l = 11
+= 6 = m = 8
+= 6 = m = 9
+= 6 = l = 10
+= 6 = l = 11
+= 7 = a = 8
+= 7 = l = 10
+= 7 = l = 11
+= 8 = l = 10
+= 10 = l = 11
+# Listed 22 contacts. EOF.

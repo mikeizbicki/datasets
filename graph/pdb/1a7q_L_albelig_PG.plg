@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a7q, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, VARIANT
+> pdb_mol_name > IGG1-KAPPA D1.3 FV (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 2.0
+> date > 16-MAR-98
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > FV FRAGMENT OF MOUSE MONOCLONAL ANTIBODY D1.3 (BALB/C, IGG1,K) HIGH AFFINITY EXPRESSED VARIANT CONTAINING SER26L->GLY,ILE29L->THR, GLU81L->ASP, THR97L->SER, PRO240H->LEU,ASP258H->ALA, LYS281H->GLU, ASN283H->ASP AND LEU312H->VAL
+> format_version > 2
+> pdbid > 1a7q
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a7q | L | albelig | 1 | 1 | E | 4 | 7 | L-4-  | L-7-  | LTQS 
+| 1a7q | L | albelig | 2 | 2 | E | 10 | 12 | L-10-  | L-12-  | SLS 
+| 1a7q | L | albelig | 3 | 3 | E | 19 | 25 | L-19-  | L-25-  | VTITARA 
+| 1a7q | L | albelig | 4 | 4 | E | 33 | 38 | L-33-  | L-38-  | LAWYQQ 
+| 1a7q | L | albelig | 5 | 5 | E | 45 | 49 | L-45-  | L-49-  | QLLVY 
+| 1a7q | L | albelig | 6 | 6 | E | 62 | 67 | L-62-  | L-67-  | FSGSGS 
+| 1a7q | L | albelig | 7 | 7 | E | 70 | 75 | L-70-  | L-75-  | QYSLKI 
+| 1a7q | L | albelig | 8 | 8 | H | 80 | 82 | L-80-  | L-82-  | PDD 
+| 1a7q | L | albelig | 9 | 9 | E | 84 | 90 | L-84-  | L-90-  | GSYYAQH 
+| 1a7q | L | albelig | 10 | 10 | E | 102 | 105 | L-102-  | L-105-  | TKLE 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+# Listed 10 contacts. EOF.

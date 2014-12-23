@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1evw, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA BINDING B-SHEETS; C-TERMINAL EXCHANGED DIMER INTERFACE;BENT DNA, HYDROLASE/DNA COMPLEX
+> pdb_mol_name > I-PPOI HOMING ENDONUCLEASE
+> graphtype > albelig
+> resolution > 3.1
+> date > 20-APR-00
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > L116A MUTANT OF THE HOMING ENDONUCLEASE I-PPOI COMPLEXED TOHOMING SITE DNA.
+> format_version > 2
+> pdbid > 1evw
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PHYSARUM POLYCEPHALUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1evw | C | albelig | 1 | 1 | H | 330 | 345 | C-5-  | C-20-  | NAQILAVIDSWEETVG 
+| 1evw | C | albelig | 2 | 2 | E | 349 | 357 | C-24-  | C-32-  | VITHHVPLG 
+| 1evw | C | albelig | 3 | 3 | E | 360 | 367 | C-35-  | C-42-  | LQGTLHCY 
+| 1evw | C | albelig | 4 | 4 | E | 379 | 383 | C-54-  | C-58-  | FAKNG 
+| 1evw | C | albelig | 5 | 5 | E | 386 | 392 | C-61-  | C-67-  | RWQYKRT 
+| 1evw | C | albelig | 6 | 6 | E | 397 | 401 | C-72-  | C-76-  | VHRWG 
+| 1evw | C | albelig | 7 | 7 | H | 405 | 407 | C-80-  | C-82-  | VPF 
+| 1evw | C | albelig | 8 | 8 | E | 417 | 421 | C-92-  | C-96-  | KTCTA 
+| 1evw | C | albelig | 9 | 9 | H | 433 | 435 | C-108-  | C-110-  | PLH 
+| 1evw | C | albelig | 10 | 10 | E | 438 | 440 | C-113-  | C-115-  | WES 
+| 1evw | C | albelig | 11 | 11 | H | 441 | 449 | C-116-  | C-124-  | ADDNKGRNW 
+| 1evw | C | albelig | 12 | 12 | L | 656 | 656 | C-505-  | C-505-  | J 
+| 1evw | C | albelig | 13 | 13 | L | 657 | 657 | C-506-  | C-506-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 7
+= 2 = a = 3
+= 3 = l = 13
+= 4 = a = 5
+= 5 = a = 6
+= 8 = a = 10
+= 9 = l = 13
+= 10 = m = 11
+= 11 = l = 12
+# Listed 10 contacts. EOF.

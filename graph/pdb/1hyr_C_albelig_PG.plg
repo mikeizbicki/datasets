@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hyr, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIVATING NK CELL RECEPTOR, NKG2D, C-TYPE-LECTIN LIKE, MIC-A, MHC-I, COMPLEX, IMMUNE SYSTEM
+> pdb_mol_name > MHC CLASS I CHAIN-RELATED PROTEIN A
+> graphtype > albelig
+> resolution > 2.7
+> date > 21-JAN-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN MICA IN COMPLEX WITH NATURALKILLER CELL RECEPTOR NKG2D
+> format_version > 2
+> pdbid > 1hyr
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hyr | C | albelig | 1 | 1 | E | 258 | 269 | C-3-  | C-14-  | HSLRYNLTVLSW 
+| 1hyr | C | albelig | 2 | 2 | E | 272 | 283 | C-17-  | C-28-  | SVQSGFLTEVHL 
+| 1hyr | C | albelig | 3 | 3 | E | 286 | 291 | C-31-  | C-36-  | QPFLRI 
+| 1hyr | C | albelig | 4 | 4 | E | 296 | 298 | C-41-  | C-43-  | IRA 
+| 1hyr | C | albelig | 5 | 5 | H | 311 | 333 | C-56-  | C-78-  | NKTWDRETRDLTGNGKDLRMTLA 
+| 1hyr | C | albelig | 6 | 6 | E | 342 | 353 | C-87-  | C-98-  | LHSLQEIRVJEI 
+| 1hyr | C | albelig | 7 | 7 | E | 359 | 367 | C-104-  | C-112-  | TRSSQHFYY 
+| 1hyr | C | albelig | 8 | 8 | E | 370 | 376 | C-115-  | C-121-  | ELFLSQN 
+| 1hyr | C | albelig | 9 | 9 | E | 381 | 383 | C-126-  | C-128-  | EWT 
+| 1hyr | C | albelig | 10 | 10 | H | 388 | 404 | C-133-  | C-149-  | SRAQTLAMNVRNFLKED 
+| 1hyr | C | albelig | 11 | 11 | H | 409 | 428 | C-154-  | C-173-  | KTHYHAMHADJLQELRRYLK 
+| 1hyr | C | albelig | 12 | 12 | E | 440 | 445 | C-185-  | C-190-  | MVNVTR 
+| 1hyr | C | albelig | 13 | 13 | E | 452 | 462 | C-197-  | C-207-  | NITVTKRASGF 
+| 1hyr | C | albelig | 14 | 14 | E | 468 | 473 | C-213-  | C-218-  | TLSWRQ 
+| 1hyr | C | albelig | 15 | 15 | E | 496 | 505 | C-241-  | C-250-  | YQTWVATRIC 
+| 1hyr | C | albelig | 16 | 16 | H | 509 | 511 | C-254-  | C-256-  | EQR 
+| 1hyr | C | albelig | 17 | 17 | E | 512 | 518 | C-257-  | C-263-  | FTKYMEH 
+| 1hyr | C | albelig | 18 | 18 | E | 521 | 526 | C-266-  | C-271-  | NHSTHP 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 1 = a = 6
+= 1 = m = 11
+= 2 = a = 3
+= 2 = a = 5
+= 3 = a = 4
+= 3 = m = 5
+= 4 = m = 5
+= 5 = a = 6
+= 6 = a = 7
+= 6 = p = 11
+= 7 = a = 8
+= 7 = a = 11
+= 8 = a = 9
+= 8 = m = 10
+= 12 = a = 13
+= 13 = a = 14
+= 13 = a = 15
+= 13 = p = 17
+= 14 = m = 16
+= 14 = a = 17
+= 16 = m = 17
+= 17 = a = 18
+# Listed 24 contacts. EOF.

@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k2e, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUDIX/MUTT-LIKE FOLD, MIXED ALPHA/BETA, DIMER, PUTATIVE NUDIXHYDROLASE, STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_mol_name > NUDIX HOMOLOG
+> graphtype > albelig
+> resolution > 1.8
+> date > 26-SEP-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A NUDIX PROTEIN FROM PYROBACULUM AEROPHILUM
+> format_version > 2
+> pdbid > 1k2e
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PYROBACULUM AEROPHILUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k2e | A | albelig | 1 | 1 | E | 2 | 7 | A-2-  | A-7-  | IVTSGV 
+| 1k2e | A | albelig | 2 | 2 | E | 13 | 18 | A-13-  | A-18-  | KVLLVK 
+| 1k2e | A | albelig | 3 | 3 | E | 29 | 31 | A-29-  | A-31-  | GGH 
+| 1k2e | A | albelig | 4 | 4 | H | 38 | 50 | A-38-  | A-50-  | PIEAVKREFEEET 
+| 1k2e | A | albelig | 5 | 5 | E | 52 | 56 | A-52-  | A-56-  | IVVEP 
+| 1k2e | A | albelig | 6 | 6 | E | 68 | 70 | A-68-  | A-70-  | AVE 
+| 1k2e | A | albelig | 7 | 7 | E | 76 | 83 | A-76-  | A-83-  | VILEEVVK 
+| 1k2e | A | albelig | 8 | 8 | E | 88 | 103 | A-88-  | A-103-  | THIHFDLIYLVKRVGG 
+| 1k2e | A | albelig | 9 | 9 | E | 109 | 112 | A-109-  | A-112-  | EWID 
+| 1k2e | A | albelig | 10 | 10 | H | 113 | 118 | A-113-  | A-118-  | VREIDR 
+| 1k2e | A | albelig | 11 | 11 | H | 125 | 149 | A-125-  | A-149-  | VRKVVSLALSTLYRLGKISKLAAAL 
+| 1k2e | A | albelig | 12 | 12 | L | 304 | 304 | A-201-  | A-201-  | J 
+| 1k2e | A | albelig | 13 | 13 | L | 305 | 305 | A-211-  | A-211-  | J 
+| 1k2e | A | albelig | 14 | 14 | L | 306 | 306 | A-203-  | A-203-  | J 
+| 1k2e | A | albelig | 15 | 15 | L | 307 | 307 | A-204-  | A-204-  | J 
+| 1k2e | A | albelig | 16 | 16 | L | 308 | 308 | A-206-  | A-206-  | J 
+| 1k2e | A | albelig | 17 | 17 | L | 309 | 309 | A-210-  | A-210-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 4
+= 1 = p = 8
+= 1 = l = 14
+= 2 = a = 9
+= 2 = l = 15
+= 3 = m = 4
+= 3 = l = 13
+= 3 = l = 14
+= 3 = l = 15
+= 4 = a = 5
+= 4 = l = 15
+= 5 = a = 8
+= 7 = a = 8
+= 7 = l = 14
+= 7 = l = 17
+= 8 = l = 13
+= 8 = l = 14
+= 9 = m = 10
+= 11 = l = 12
+= 11 = l = 16
+= 13 = l = 14
+= 13 = l = 15
+= 14 = l = 15
+# Listed 24 contacts. EOF.

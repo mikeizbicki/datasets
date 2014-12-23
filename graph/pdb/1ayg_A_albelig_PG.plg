@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ayg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME C, ELECTRON TRANSPORT, PORPHYRIN, FERROUS IRON
+> pdb_mol_name > CYTOCHROME C-552
+> graphtype > albelig
+> resolution > -1.0
+> date > 04-NOV-97
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF CYTOCHROME C-552, NMR, 20 STRUCTURES
+> format_version > 2
+> pdbid > 1ayg
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HYDROGENOBACTER THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ayg | A | albelig | 1 | 1 | H | 11 | 13 | A-11-  | A-13-  | MAC 
+| 1ayg | A | albelig | 2 | 2 | H | 25 | 31 | A-25-  | A-31-  | YADVAKK 
+| 1ayg | A | albelig | 3 | 3 | H | 38 | 47 | A-38-  | A-47-  | AVDYLAGKIK 
+| 1ayg | A | albelig | 4 | 4 | H | 66 | 78 | A-66-  | A-78-  | DAEAKQLAQWILS 
+| 1ayg | A | albelig | 5 | 5 | L | 81 | 81 | A-81-  | A-81-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 5
+= 2 = l = 5
+= 3 = a = 4
+= 3 = l = 5
+= 4 = l = 5
+# Listed 5 contacts. EOF.

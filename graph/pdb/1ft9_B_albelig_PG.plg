@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ft9, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CARBON MONOXIDE, HEME SENSOR, CATABOLITE GENE ACTIVATORPROTEIN, TRANSCRIPTION
+> pdb_mol_name > CARBON MONOXIDE OXIDATION SYSTEM TRANSCRIPTION
+> graphtype > albelig
+> resolution > 2.6
+> date > 12-SEP-00
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE REDUCED (FEII) CO-SENSING PROTEIN FROM R.RUBRUM
+> format_version > 2
+> pdbid > 1ft9
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RHODOSPIRILLUM RUBRUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ft9 | B | albelig | 1 | 1 | H | 218 | 222 | B-7-  | B-11-  | IANVL 
+| 1ft9 | B | albelig | 2 | 2 | E | 235 | 239 | B-24-  | B-28-  | RSKIH 
+| 1ft9 | B | albelig | 3 | 3 | E | 244 | 246 | B-33-  | B-35-  | LVC 
+| 1ft9 | B | albelig | 4 | 4 | E | 255 | 268 | B-44-  | B-57-  | VFVVVDGRLRVYLV 
+| 1ft9 | B | albelig | 5 | 5 | E | 273 | 280 | B-62-  | B-69-  | EISLFYLT 
+| 1ft9 | B | albelig | 6 | 6 | E | 284 | 286 | B-73-  | B-75-  | MFC 
+| 1ft9 | B | albelig | 7 | 7 | E | 292 | 304 | B-81-  | B-93-  | LVEATERTEVRFA 
+| 1ft9 | B | albelig | 8 | 8 | H | 306 | 315 | B-95-  | B-104-  | IRTFEQKLQT 
+| 1ft9 | B | albelig | 9 | 9 | H | 317 | 355 | B-106-  | B-144-  | PSMAWGLIAILGRALTSCMRTIEDLMFHDIKQRIAGFFI 
+| 1ft9 | B | albelig | 10 | 10 | H | 372 | 379 | B-166-  | B-173-  | VEEIANLI 
+| 1ft9 | B | albelig | 11 | 11 | H | 383 | 395 | B-177-  | B-189-  | RQTTSTALNSLIK 
+| 1ft9 | B | albelig | 12 | 12 | H | 412 | 418 | B-206-  | B-212-  | LVRLKAA 
+| 1ft9 | B | albelig | 13 | 13 | L | 421 | 421 | B-300-  | B-300-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = a = 7
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 6
+= 4 = a = 7
+= 4 = l = 13
+= 5 = a = 9
+= 6 = m = 9
+= 6 = l = 13
+= 8 = m = 9
+= 8 = l = 13
+= 9 = m = 10
+= 9 = m = 11
+= 9 = a = 12
+= 9 = l = 13
+= 10 = m = 11
+# Listed 17 contacts. EOF.

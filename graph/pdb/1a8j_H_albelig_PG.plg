@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a8j, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ASPARTAME, LIGAND BINDING, IMMUNOTHERAPEUTIC AGENT,SURROGATE RECEPTOR, MCG(HUMAN) BENCE-JONES DIMER,IMMUNOGLOBULIN
+> pdb_mol_name > IMMUNOGLOBULIN LAMBDA LIGHT CHAIN DIMER (MCG)
+> graphtype > albelig
+> resolution > 2.7
+> date > 26-MAR-98
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HUMAN
+> title > IMMUNOGLOBULIN LAMBDA LIGHT CHAIN DIMER (MCG) COMPLEX WITHASPARTAME
+> format_version > 2
+> pdbid > 1a8j
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a8j | H | albelig | 1 | 1 | E | 281 | 286 | H-64-  | H-69-  | FSGSKS 
+| 1a8j | H | albelig | 2 | 2 | E | 289 | 294 | H-72-  | H-77-  | TASLTV 
+| 1a8j | H | albelig | 3 | 3 | H | 299 | 301 | H-82-  | H-84-  | AED 
+| 1a8j | H | albelig | 4 | 4 | E | 335 | 339 | H-118-  | H-122-  | TVTLF 
+| 1a8j | H | albelig | 5 | 5 | H | 343 | 346 | H-126-  | H-129-  | SEEL 
+| 1a8j | H | albelig | 6 | 6 | E | 351 | 360 | H-134-  | H-143-  | ATLVELISDF 
+| 1a8j | H | albelig | 7 | 7 | E | 366 | 371 | H-149-  | H-154-  | TVAWKA 
+| 1a8j | H | albelig | 8 | 8 | E | 380 | 382 | H-163-  | H-165-  | VET 
+| 1a8j | H | albelig | 9 | 9 | E | 393 | 401 | H-176-  | H-184-  | YAASSYLSL 
+| 1a8j | H | albelig | 10 | 10 | H | 403 | 407 | H-186-  | H-190-  | PEQWK 
+| 1a8j | H | albelig | 11 | 11 | E | 412 | 417 | H-195-  | H-200-  | YSEQVT 
+| 1a8j | H | albelig | 12 | 12 | E | 424 | 427 | H-207-  | H-210-  | EKTV 
+| 1a8j | H | albelig | 13 | 13 | L | 436 | 436 | H-217-  | H-217-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 4 = a = 6
+= 4 = p = 12
+= 6 = a = 9
+= 7 = a = 11
+= 8 = a = 9
+= 9 = m = 10
+= 11 = a = 12
+# Listed 8 contacts. EOF.

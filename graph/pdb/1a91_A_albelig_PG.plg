@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a91, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MEMBRANE PROTEIN, HYDROGEN ION TRANSPORT
+> pdb_mol_name > F1FO ATPASE SUBUNIT C
+> graphtype > albelig
+> resolution > -1.0
+> date > 15-APR-98
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SUBUNIT C OF THE F1FO ATP SYNTHASE OF ESCHERICHIA COLI; NMR,10 STRUCTURES
+> format_version > 2
+> pdbid > 1a91
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a91 | A | albelig | 1 | 1 | H | 2 | 39 | A-2-  | A-39-  | ENLNMDLLYMAAAVMMGLAAIGAAIGIGILGGKFLEGA 
+| 1a91 | A | albelig | 2 | 2 | H | 47 | 78 | A-47-  | A-78-  | PLLRTQFFIVMGLVDAIPMIAVGLGLYVMFAV 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

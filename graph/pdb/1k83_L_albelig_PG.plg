@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k83, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION-TOXIN COMPLEX, ALPHA AMANITIN, TOXIN, INHIBITOR,POLYMERASE, TRANSFERASE, DNA BINDING, ZINC-FINGER, PHOSPHOPROTEIN,TRANSCRIPTION, UBL TRANSCRIPTION-TOXIN COMPLEX
+> pdb_mol_name > DNA-DIRECTED RNA POLYMERASE II 7.7KD POLYPEPTIDE
+> graphtype > albelig
+> resolution > 2.8
+> date > 22-OCT-01
+> header > TRANSCRIPTION/TOXIN
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF YEAST RNA POLYMERASE II COMPLEXED WITH THEINHIBITOR ALPHA AMANITIN
+> format_version > 2
+> pdbid > 1k83
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k83 | L | albelig | 1 | 1 | E | 3512 | 3515 | L-65-  | L-68-  | VQFE 
+| 1k83 | L | albelig | 2 | 2 | L | 3539 | 3539 | L-3005-  | L-3005-  | J 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

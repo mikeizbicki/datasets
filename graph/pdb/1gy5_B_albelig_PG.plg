@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gy5, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR TRANSPORT
+> pdb_mol_name > NUCLEAR TRANSPORT FACTOR 2
+> graphtype > albelig
+> resolution > 2.3
+> date > 21-APR-02
+> header > NUCLEAR TRANSPORT
+> pdb_org_common > HUMAN
+> title > D92N,D94N DOUBLE POINT MUTANT OF HUMAN NUCLEAR TRANSPORTFACTOR 2 (NTF2)
+> format_version > 2
+> pdbid > 1gy5
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gy5 | B | albelig | 1 | 1 | H | 127 | 153 | B-6-  | B-32-  | IWEQIGSSFIQHYYQLFDNDRTQLGAI 
+| 1gy5 | B | albelig | 2 | 2 | E | 154 | 162 | B-33-  | B-41-  | YIDASCLTW 
+| 1gy5 | B | albelig | 3 | 3 | E | 165 | 168 | B-44-  | B-47-  | QQFQ 
+| 1gy5 | B | albelig | 4 | 4 | H | 170 | 179 | B-49-  | B-58-  | KAAIVEKLSS 
+| 1gy5 | B | albelig | 5 | 5 | E | 185 | 196 | B-64-  | B-75-  | IQHSITAQDHQP 
+| 1gy5 | B | albelig | 6 | 6 | E | 202 | 212 | B-81-  | B-91-  | IISMVVGQLKA 
+| 1gy5 | B | albelig | 7 | 7 | E | 218 | 228 | B-97-  | B-107-  | MGFHQMFLLKN 
+| 1gy5 | B | albelig | 8 | 8 | E | 233 | 242 | B-112-  | B-121-  | WVCTNDMFRL 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 1 = a = 5
+= 1 = a = 7
+= 1 = m = 8
+= 2 = a = 3
+= 2 = m = 4
+= 2 = p = 8
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+# Listed 11 contacts. EOF.

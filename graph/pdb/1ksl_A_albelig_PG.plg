@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ksl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CRYSTAL STRUCTURE, PSEUDOURIDINE SYNTHASE, RSUA, MONTREAL-KINGSTON BACTERIAL STRUCTURAL GENOMICS INITIATIVE, BSGI,STRUCTURAL GENOMICS, LYASE
+> pdb_mol_name > RIBOSOMAL SMALL SUBUNIT PSEUDOURIDINE SYNTHASE A
+> graphtype > albelig
+> resolution > 2.1
+> date > 13-JAN-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF RSUA
+> format_version > 2
+> pdbid > 1ksl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ksl | A | albelig | 1 | 1 | H | 6 | 14 | A-3-  | A-11-  | LDKFIAQQL 
+| 1ksl | A | albelig | 2 | 2 | H | 18 | 25 | A-15-  | A-22-  | RAIAGREI 
+| 1ksl | A | albelig | 3 | 3 | E | 30 | 32 | A-27-  | A-29-  | VTV 
+| 1ksl | A | albelig | 4 | 4 | E | 50 | 52 | A-47-  | A-49-  | VAY 
+| 1ksl | A | albelig | 5 | 5 | E | 65 | 70 | A-62-  | A-67-  | YFXLNK 
+| 1ksl | A | albelig | 6 | 6 | H | 86 | 89 | A-83-  | A-86-  | VLYF 
+| 1ksl | A | albelig | 7 | 7 | H | 95 | 97 | A-92-  | A-94-  | AWK 
+| 1ksl | A | albelig | 8 | 8 | E | 109 | 115 | A-106-  | A-112-  | TGLVLXT 
+| 1ksl | A | albelig | 9 | 9 | H | 118 | 125 | A-115-  | A-122-  | GQWSHRIT 
+| 1ksl | A | albelig | 10 | 10 | E | 133 | 139 | A-130-  | A-136-  | KTYLVTL 
+| 1ksl | A | albelig | 11 | 11 | H | 147 | 153 | A-144-  | A-150-  | TAEQFAK 
+| 1ksl | A | albelig | 12 | 12 | E | 168 | 173 | A-165-  | A-170-  | VLEVIT 
+| 1ksl | A | albelig | 13 | 13 | E | 176 | 181 | A-173-  | A-178-  | QVRLTI 
+| 1ksl | A | albelig | 14 | 14 | H | 188 | 195 | A-185-  | A-192-  | QVKRXFAA 
+| 1ksl | A | albelig | 15 | 15 | E | 200 | 208 | A-197-  | A-205-  | VVELHRERI 
+| 1ksl | A | albelig | 16 | 16 | E | 222 | 224 | A-219-  | A-221-  | YRP 
+| 1ksl | A | albelig | 17 | 17 | H | 227 | 231 | A-224-  | A-228-  | EEEIA 
+| 1ksl | A | albelig | 18 | 18 | L | 239 | 239 | A-232-  | A-232-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = a = 4
+= 5 = a = 8
+= 5 = a = 16
+= 8 = p = 15
+= 10 = a = 13
+= 10 = m = 14
+= 10 = a = 15
+= 10 = l = 18
+= 12 = a = 13
+= 13 = l = 18
+= 14 = l = 18
+= 15 = l = 18
+# Listed 13 contacts. EOF.

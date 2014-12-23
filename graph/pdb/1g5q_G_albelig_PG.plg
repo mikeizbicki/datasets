@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g5q, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA, BETA PROTEIN, ROSSMAN LIKE FOLD, OXIDOREDUCTASE
+> pdb_mol_name > EPIDERMIN MODIFYING ENZYME EPID
+> graphtype > albelig
+> resolution > 2.57
+> date > 02-NOV-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > EPID H67N COMPLEXED WITH SUBSTRATE PEPTIDE DSYTC
+> format_version > 2
+> pdbid > 1g5q
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS EPIDERMIDIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g5q | G | albelig | 1 | 1 | E | 367 | 371 | G-5-  | G-9-  | LLICA 
+| 1g5q | G | albelig | 2 | 2 | H | 375 | 387 | G-13-  | G-25-  | INVININHYIVEL 
+| 1g5q | G | albelig | 3 | 3 | E | 394 | 398 | G-32-  | G-36-  | VNILF 
+| 1g5q | G | albelig | 4 | 4 | H | 400 | 404 | G-38-  | G-42-  | PSSKN 
+| 1g5q | G | albelig | 5 | 5 | H | 408 | 413 | G-46-  | G-51-  | TDVLKL 
+| 1g5q | G | albelig | 6 | 6 | H | 429 | 434 | G-67-  | G-72-  | NINIVE 
+| 1g5q | G | albelig | 7 | 7 | E | 438 | 444 | G-76-  | G-82-  | YILVLPA 
+| 1g5q | G | albelig | 8 | 8 | H | 446 | 453 | G-84-  | G-91-  | ANTINKIA 
+| 1g5q | G | albelig | 9 | 9 | H | 460 | 467 | G-98-  | G-105-  | LLTTVCLT 
+| 1g5q | G | albelig | 10 | 10 | H | 469 | 471 | G-107-  | G-109-  | YQK 
+| 1g5q | G | albelig | 11 | 11 | E | 472 | 476 | G-110-  | G-114-  | LFIFP 
+| 1g5q | G | albelig | 12 | 12 | H | 480 | 483 | G-118-  | G-121-  | IRMW 
+| 1g5q | G | albelig | 13 | 13 | H | 486 | 496 | G-124-  | G-134-  | PFLQKNIDLLK 
+| 1g5q | G | albelig | 14 | 14 | E | 506 | 512 | G-144-  | G-150-  | DMNKSFE 
+| 1g5q | G | albelig | 15 | 15 | E | 517 | 523 | G-155-  | G-161-  | RYKNNIT 
+| 1g5q | G | albelig | 16 | 16 | H | 527 | 535 | G-165-  | G-173-  | IENVLNFVL 
+| 1g5q | G | albelig | 17 | 17 | L | 727 | 727 | G-302-  | G-302-  | J 
+| 1g5q | G | albelig | 18 | 18 | L | 728 | 728 | G-401-  | G-401-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = l = 17
+= 4 = l = 17
+= 6 = m = 9
+= 7 = m = 10
+= 7 = p = 11
+= 7 = l = 17
+= 8 = m = 13
+= 8 = l = 17
+= 8 = l = 18
+= 10 = m = 11
+= 11 = m = 16
+= 12 = l = 17
+= 14 = a = 15
+# Listed 15 contacts. EOF.

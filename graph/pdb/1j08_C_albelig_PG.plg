@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j08, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA, ISOMERASE
+> pdb_mol_name > GLUTAREDOXIN-LIKE PROTEIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 11-NOV-02
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF GLUTAREDOXIN-LIKE PROTEIN FROMPYROCOCCUS HORIKOSHII
+> format_version > 2
+> pdbid > 1j08
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS HORIKOSHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j08 | C | albelig | 1 | 1 | H | 457 | 466 | C-6-  | C-15-  | EEDKRIIKEE 
+| 1j08 | C | albelig | 2 | 2 | H | 468 | 470 | C-17-  | C-19-  | FSK 
+| 1j08 | C | albelig | 3 | 3 | E | 475 | 481 | C-24-  | C-30-  | VKLIVFI 
+| 1j08 | C | albelig | 4 | 4 | H | 489 | 500 | C-38-  | C-49-  | EDQLKQLVQELS 
+| 1j08 | C | albelig | 5 | 5 | E | 506 | 512 | C-55-  | C-61-  | LSYEIVD 
+| 1j08 | C | albelig | 6 | 6 | H | 516 | 524 | C-65-  | C-73-  | PEGKELAEK 
+| 1j08 | C | albelig | 7 | 7 | E | 532 | 537 | C-81-  | C-86-  | ATTITQ 
+| 1j08 | C | albelig | 8 | 8 | E | 544 | 547 | C-93-  | C-96-  | VRYF 
+| 1j08 | C | albelig | 9 | 9 | H | 554 | 567 | C-103-  | C-116-  | EFAAFLEDIVDVSK 
+| 1j08 | C | albelig | 10 | 10 | H | 574 | 582 | C-123-  | C-131-  | QDSKEEVSK 
+| 1j08 | C | albelig | 11 | 11 | E | 587 | 593 | C-136-  | C-142-  | VRILIFV 
+| 1j08 | C | albelig | 12 | 12 | H | 600 | 616 | C-149-  | C-165-  | FPLAVRMAHKFAIENTK 
+| 1j08 | C | albelig | 13 | 13 | E | 622 | 628 | C-171-  | C-177-  | ILGDMVE 
+| 1j08 | C | albelig | 14 | 14 | H | 633 | 638 | C-182-  | C-187-  | PEWADQ 
+| 1j08 | C | albelig | 15 | 15 | E | 646 | 651 | C-195-  | C-200-  | KIVIQV 
+| 1j08 | C | albelig | 16 | 16 | E | 654 | 660 | C-203-  | C-209-  | EDKVQFE 
+| 1j08 | C | albelig | 17 | 17 | H | 665 | 675 | C-214-  | C-224-  | EKMFLEKLLSA 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 5
+= 3 = a = 7
+= 4 = a = 5
+= 4 = m = 9
+= 7 = a = 8
+= 7 = m = 9
+= 8 = m = 9
+= 8 = m = 12
+= 8 = p = 13
+= 9 = p = 12
+= 10 = m = 17
+= 11 = a = 12
+= 11 = p = 13
+= 11 = a = 15
+= 12 = a = 13
+= 12 = m = 17
+= 15 = a = 16
+= 16 = m = 17
+# Listed 18 contacts. EOF.

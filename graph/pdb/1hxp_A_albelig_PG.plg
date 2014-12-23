@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hxp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METALLOENZYME, GALACTOSEMIA, NUCLEOTIDYL TRANSFERASE,COMPLEX (SERINE PROTEASE/INHIBITOR)
+> pdb_mol_name > HEXOSE-1-PHOSPHATE URIDYLYLTRANSFERASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 09-JUN-95
+> header > NUCLEOTIDYL TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > NUCLEOTIDE TRANSFERASE
+> format_version > 2
+> pdbid > 1hxp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hxp | A | albelig | 1 | 1 | E | 10 | 14 | A-11-  | A-15-  | HRRYN 
+| 1hxp | A | albelig | 2 | 2 | E | 19 | 23 | A-20-  | A-24-  | QWILV 
+| 1hxp | A | albelig | 3 | 3 | E | 66 | 69 | A-73-  | A-76-  | YVFT 
+| 1hxp | A | albelig | 4 | 4 | E | 92 | 94 | A-99-  | A-101-  | CQS 
+| 1hxp | A | albelig | 5 | 5 | E | 97 | 103 | A-104-  | A-110-  | GTSRVIC 
+| 1hxp | A | albelig | 6 | 6 | H | 112 | 114 | A-119-  | A-121-  | LPE 
+| 1hxp | A | albelig | 7 | 7 | H | 117 | 135 | A-124-  | A-142-  | VAALTEIVKTWQEQTAELG 
+| 1hxp | A | albelig | 8 | 8 | E | 140 | 147 | A-147-  | A-154-  | WVQVFENK 
+| 1hxp | A | albelig | 9 | 9 | H | 149 | 151 | A-156-  | A-158-  | AAM 
+| 1hxp | A | albelig | 10 | 10 | E | 159 | 165 | A-166-  | A-172-  | HGQIWAN 
+| 1hxp | A | albelig | 11 | 11 | H | 170 | 186 | A-177-  | A-193-  | NEAEREDRLQKEYFAEQ 
+| 1hxp | A | albelig | 12 | 12 | H | 190 | 201 | A-197-  | A-208-  | MLVDYVQRELAD 
+| 1hxp | A | albelig | 13 | 13 | E | 205 | 208 | A-212-  | A-215-  | TVVE 
+| 1hxp | A | albelig | 14 | 14 | E | 212 | 215 | A-219-  | A-222-  | WLAV 
+| 1hxp | A | albelig | 15 | 15 | E | 226 | 230 | A-233-  | A-237-  | TLLLP 
+| 1hxp | A | albelig | 16 | 16 | H | 237 | 239 | A-244-  | A-246-  | ITD 
+| 1hxp | A | albelig | 17 | 17 | H | 242 | 263 | A-249-  | A-270-  | DAQRSDLALALKKLTSRYDNLF 
+| 1hxp | A | albelig | 18 | 18 | E | 269 | 274 | A-276-  | A-281-  | YSMGWH 
+| 1hxp | A | albelig | 19 | 19 | E | 289 | 293 | A-296-  | A-300-  | HAHFY 
+| 1hxp | A | albelig | 20 | 20 | H | 309 | 312 | A-316-  | A-319-  | YEML 
+| 1hxp | A | albelig | 21 | 21 | H | 321 | 330 | A-328-  | A-337-  | AEQAAERLRA 
+| 1hxp | A | albelig | 22 | 22 | L | 673 | 673 | A-350-  | A-350-  | J 
+| 1hxp | A | albelig | 23 | 23 | L | 674 | 674 | A-351-  | A-351-  | J 
+| 1hxp | A | albelig | 24 | 24 | L | 675 | 675 | A-352-  | A-352-  | J 
+| 1hxp | A | albelig | 25 | 25 | L | 676 | 676 | A-353-  | A-353-  | J 
+| 1hxp | A | albelig | 26 | 26 | L | 677 | 677 | A-354-  | A-354-  | J 
+| 1hxp | A | albelig | 27 | 27 | L | 678 | 678 | A-355-  | A-355-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = a = 5
+= 3 = l = 27
+= 4 = l = 24
+= 5 = m = 7
+= 5 = a = 10
+= 5 = l = 27
+= 6 = m = 17
+= 7 = m = 17
+= 8 = a = 10
+= 8 = a = 18
+= 8 = l = 25
+= 9 = l = 25
+= 10 = l = 25
+= 10 = l = 27
+= 11 = m = 12
+= 11 = l = 23
+= 13 = a = 14
+= 14 = a = 15
+= 14 = m = 17
+= 15 = m = 17
+= 15 = a = 19
+= 18 = a = 19
+= 18 = l = 23
+= 19 = l = 23
+= 25 = l = 27
+# Listed 26 contacts. EOF.

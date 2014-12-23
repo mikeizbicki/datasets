@@ -1,0 +1,21 @@
+This documentation is part of *VPLG* (Visualization of Protein Ligand Graphs).
+
+
+HOW TO BUILD THE VPLG PROGRAMS FROM SOURCE
+===========================================
+
+The *plcc*, *vpg* and *splitpdb* programs are all written in Java and their source code directories contain the NetBeans project files, so building them is very easy if you have the NetBeans IDE. (NetBeans is free software and you can get it at http://netbeans.org/.)
+
+To build the programs from source:
+
+  1) Extract the source code from the ZIP archives in the 'src' directory.
+  2) Start NetBeans and open the respective project file (File => Open Project...) of the program you want to build.
+  2) In the 'Projects' tab, right-click on the project to open the context menu and click 'Build'.
+
+That's it, the resulting JAR file should be under the 'dist' directory.
+
+You should also be able to build without NetBeans using the 'ant' command line tool.
+
+--
+ts
+

@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ihm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-BARREL, EF-TU-LIKE DOMAIN CALICIVIRIDAE, T=3 ICOSAHEDRAL CAPSID,ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > CAPSID PROTEIN
+> graphtype > albelig
+> resolution > 3.4
+> date > 19-APR-01
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF NORWALK VIRUS CAPSID
+> format_version > 2
+> pdbid > 1ihm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NORWALK VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ihm | A | albelig | 1 | 1 | H | 14 | 16 | A-1042-  | A-1044-  | AVA 
+| 1ihm | A | albelig | 2 | 2 | E | 33 | 42 | A-1061-  | A-1070-  | VQAPQGEFTI 
+| 1ihm | A | albelig | 3 | 3 | E | 51 | 56 | A-1079-  | A-1084-  | VLFDLS 
+| 1ihm | A | albelig | 4 | 4 | H | 59 | 61 | A-1087-  | A-1089-  | PHL 
+| 1ihm | A | albelig | 5 | 5 | H | 63 | 69 | A-1091-  | A-1097-  | PFLLHLS 
+| 1ihm | A | albelig | 6 | 6 | E | 74 | 76 | A-1102-  | A-1104-  | GWV 
+| 1ihm | A | albelig | 7 | 7 | E | 79 | 86 | A-1107-  | A-1114-  | MRVRIMLA 
+| 1ihm | A | albelig | 8 | 8 | E | 94 | 100 | A-1122-  | A-1128-  | KIIVSCI 
+| 1ihm | A | albelig | 9 | 9 | H | 111 | 114 | A-1139-  | A-1142-  | IAQA 
+| 1ihm | A | albelig | 10 | 10 | E | 119 | 123 | A-1147-  | A-1151-  | HVIAD 
+| 1ihm | A | albelig | 11 | 11 | E | 130 | 134 | A-1158-  | A-1162-  | IEVPL 
+| 1ihm | A | albelig | 12 | 12 | E | 153 | 158 | A-1181-  | A-1186-  | RLVCML 
+| 1ihm | A | albelig | 13 | 13 | E | 174 | 182 | A-1202-  | A-1210-  | VAGRVMTCP 
+| 1ihm | A | albelig | 14 | 14 | H | 210 | 212 | A-1238-  | A-1240-  | LSS 
+| 1ihm | A | albelig | 15 | 15 | E | 224 | 227 | A-1252-  | A-1255-  | SMGI 
+| 1ihm | A | albelig | 16 | 16 | H | 256 | 258 | A-1284-  | A-1286-  | LSH 
+| 1ihm | A | albelig | 17 | 17 | E | 261 | 267 | A-1289-  | A-1295-  | KIRGTSN 
+| 1ihm | A | albelig | 18 | 18 | E | 270 | 274 | A-1298-  | A-1302-  | VINLT 
+| 1ihm | A | albelig | 19 | 19 | E | 299 | 305 | A-1327-  | A-1333-  | DWHINMT 
+| 1ihm | A | albelig | 20 | 20 | E | 313 | 316 | A-1341-  | A-1344-  | TQYD 
+| 1ihm | A | albelig | 21 | 21 | H | 326 | 328 | A-1354-  | A-1356-  | PHL 
+| 1ihm | A | albelig | 22 | 22 | E | 330 | 332 | A-1358-  | A-1360-  | SIQ 
+| 1ihm | A | albelig | 23 | 23 | E | 338 | 349 | A-1366-  | A-1377-  | SGNYVGVLSWIS 
+| 1ihm | A | albelig | 24 | 24 | E | 389 | 397 | A-1417-  | A-1425-  | VLVFFMSKM 
+| 1ihm | A | albelig | 25 | 25 | E | 403 | 407 | A-1431-  | A-1435-  | YNLPC 
+| 1ihm | A | albelig | 26 | 26 | H | 411 | 419 | A-1439-  | A-1447-  | QEYISHLAS 
+| 1ihm | A | albelig | 27 | 27 | E | 428 | 434 | A-1456-  | A-1462-  | AALLHYV 
+| 1ihm | A | albelig | 28 | 28 | E | 441 | 448 | A-1469-  | A-1476-  | NLGEFKAY 
+| 1ihm | A | albelig | 29 | 29 | E | 452 | 455 | A-1480-  | A-1483-  | FLTC 
+| 1ihm | A | albelig | 30 | 30 | H | 464 | 466 | A-1492-  | A-1494-  | PQQ 
+| 1ihm | A | albelig | 31 | 31 | E | 472 | 479 | A-1500-  | A-1507-  | VFVFVSWV 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 13
+= 2 = a = 31
+= 3 = a = 12
+= 7 = a = 11
+= 7 = a = 13
+= 8 = a = 10
+= 8 = a = 12
+= 15 = a = 24
+= 15 = m = 30
+= 17 = a = 18
+= 17 = a = 23
+= 18 = a = 22
+= 19 = a = 20
+= 19 = a = 23
+= 21 = m = 22
+= 24 = a = 25
+= 24 = a = 29
+= 27 = a = 28
+= 27 = a = 31
+= 28 = a = 29
+# Listed 20 contacts. EOF.

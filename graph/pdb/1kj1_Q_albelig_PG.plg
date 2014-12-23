@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kj1, chain Q.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BULB LECTIN, MANNOSE, PLANT PROTEIN
+> pdb_mol_name > LECTIN II
+> graphtype > albelig
+> resolution > 2.2
+> date > 04-DEC-01
+> header > PLANT PROTEIN
+> pdb_org_common > GARLIC
+> title > MANNOSE-SPECIFIC AGGLUTININ (LECTIN) FROM GARLIC (ALLIUMSATIVUM) BULBS COMPLEXED WITH ALPHA-D-MANNOSE
+> format_version > 2
+> pdbid > 1kj1
+> experiment > X-RAY DIFFRACTION
+> chainid > Q
+> graphclass > protein graph
+> pdb_org_sci > ALLIUM SATIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kj1 | Q | albelig | 1 | 1 | E | 333 | 335 | Q-3-  | Q-5-  | ILM 
+| 1kj1 | Q | albelig | 2 | 2 | E | 339 | 341 | Q-9-  | Q-11-  | GLY 
+| 1kj1 | Q | albelig | 3 | 3 | E | 345 | 348 | Q-15-  | Q-18-  | SLDV 
+| 1kj1 | Q | albelig | 4 | 4 | E | 351 | 355 | Q-21-  | Q-25-  | YHLIM 
+| 1kj1 | Q | albelig | 5 | 5 | E | 361 | 365 | Q-31-  | Q-35-  | LVLYD 
+| 1kj1 | Q | albelig | 6 | 6 | E | 368 | 372 | Q-38-  | Q-42-  | TAVWT 
+| 1kj1 | Q | albelig | 7 | 7 | E | 384 | 387 | Q-54-  | Q-57-  | KAVL 
+| 1kj1 | Q | albelig | 8 | 8 | E | 393 | 396 | Q-63-  | Q-66-  | FVVY 
+| 1kj1 | Q | albelig | 9 | 9 | E | 402 | 405 | Q-72-  | Q-75-  | SLWA 
+| 1kj1 | Q | albelig | 10 | 10 | E | 415 | 419 | Q-85-  | Q-89-  | YVLVL 
+| 1kj1 | Q | albelig | 11 | 11 | E | 425 | 429 | Q-95-  | Q-99-  | VVIYG 
+| 1kj1 | Q | albelig | 12 | 12 | E | 431 | 434 | Q-101-  | Q-104-  | DIWS 
+| 1kj1 | Q | albelig | 13 | 13 | L | 451 | 451 | Q-311-  | Q-311-  | J 
+| 1kj1 | Q | albelig | 14 | 14 | L | 452 | 452 | Q-312-  | Q-312-  | J 
+| 1kj1 | Q | albelig | 15 | 15 | L | 453 | 453 | Q-313-  | Q-313-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 10
+= 2 = a = 4
+= 2 = a = 7
+= 3 = a = 4
+= 3 = a = 10
+= 4 = a = 5
+= 5 = a = 6
+= 5 = l = 15
+= 6 = l = 15
+= 7 = a = 8
+= 8 = a = 9
+= 8 = l = 14
+= 9 = l = 14
+= 10 = a = 11
+= 11 = l = 13
+# Listed 15 contacts. EOF.

@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bdo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BCCPSC, CARBOXYL TRANSFERASE, FATTY ACID BIOSYNTHESIS, HAMMERHEADSTRUCTURE, SELENOMETHIONINE, LIGASE, TRANSFERASE
+> pdb_mol_name > ACETYL-COA CARBOXYLASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 21-NOV-95
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE BIOTINYL DOMAIN OF ACETYL-COENZYME A CARBOXYLASEDETERMINED BY MAD PHASING
+> format_version > 2
+> pdbid > 1bdo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bdo | A | albelig | 1 | 1 | E | 5 | 8 | A-81-  | A-84-  | HIVR 
+| 1bdo | A | albelig | 2 | 2 | E | 13 | 16 | A-89-  | A-92-  | GTFY 
+| 1bdo | A | albelig | 3 | 3 | E | 38 | 44 | A-114-  | A-120-  | TLCIVEA 
+| 1bdo | A | albelig | 4 | 4 | E | 47 | 52 | A-123-  | A-128-  | MMNQIE 
+| 1bdo | A | albelig | 5 | 5 | E | 57 | 62 | A-133-  | A-138-  | GTVKAI 
+| 1bdo | A | albelig | 6 | 6 | E | 75 | 79 | A-151-  | A-155-  | PLVVI 
+| 1bdo | A | albelig | 7 | 7 | L | 81 | 81 | A-157-  | A-157-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 2 = a = 3
+= 2 = l = 7
+= 3 = a = 4
+= 3 = l = 7
+= 4 = l = 7
+= 5 = a = 6
+# Listed 7 contacts. EOF.

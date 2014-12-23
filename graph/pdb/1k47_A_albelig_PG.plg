@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k47, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA SINGLE DOMAIN BELONGING TO THE GHMP KINASESUPERFAMILY, MVAK2, STRUCTURAL GENOMICS, PSI, PROTEINSTRUCTURE INITIATIVE, NEW YORK SGX RESEARCH CENTER FORSTRUCTURAL GENOMICS, NYSGXRC, TRANSFERASE
+> pdb_mol_name > PHOSPHOMEVALONATE KINASE
+> graphtype > albelig
+> resolution > 2.42
+> date > 05-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE STREPTOCOCCUS PNEUMONIAEPHOSPHOMEVALONATE KINASE (PMK)
+> format_version > 2
+> pdbid > 1k47
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PNEUMONIAE R6
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k47 | A | albelig | 1 | 1 | E | 4 | 15 | A-2-  | A-13-  | IAVKTCGKLYWA 
+| 1k47 | A | albelig | 2 | 2 | H | 19 | 21 | A-17-  | A-19-  | AIL 
+| 1k47 | A | albelig | 3 | 3 | E | 26 | 42 | A-24-  | A-40-  | LALIKDIPIYXRAEIAF 
+| 1k47 | A | albelig | 4 | 4 | E | 47 | 51 | A-45-  | A-49-  | RIYSD 
+| 1k47 | A | albelig | 5 | 5 | H | 57 | 73 | A-63-  | A-79-  | YSLIQETIALXGDFLAV 
+| 1k47 | A | albelig | 6 | 6 | E | 81 | 86 | A-87-  | A-92-  | FSLAIY 
+| 1k47 | A | albelig | 7 | 7 | H | 88 | 91 | A-94-  | A-97-  | KXER 
+| 1k47 | A | albelig | 8 | 8 | H | 100 | 115 | A-106-  | A-121-  | SSGSVVVLVVKALLAL 
+| 1k47 | A | albelig | 9 | 9 | H | 122 | 135 | A-128-  | A-141-  | QNLLFKLTSAVLLK 
+| 1k47 | A | albelig | 10 | 10 | H | 143 | 150 | A-149-  | A-156-  | GDLACIAA 
+| 1k47 | A | albelig | 11 | 11 | E | 154 | 157 | A-160-  | A-163-  | VLYQ 
+| 1k47 | A | albelig | 12 | 12 | H | 161 | 170 | A-167-  | A-176-  | RQKVAAWLEE 
+| 1k47 | A | albelig | 13 | 13 | H | 173 | 178 | A-179-  | A-184-  | LATVLE 
+| 1k47 | A | albelig | 14 | 14 | E | 184 | 187 | A-190-  | A-193-  | SISQ 
+| 1k47 | A | albelig | 15 | 15 | E | 195 | 200 | A-201-  | A-206-  | DFLVGW 
+| 1k47 | A | albelig | 16 | 16 | H | 208 | 215 | A-214-  | A-221-  | SHXVQQIK 
+| 1k47 | A | albelig | 17 | 17 | H | 220 | 239 | A-226-  | A-245-  | QNFLTSSKETVVSLVEALEQ 
+| 1k47 | A | albelig | 18 | 18 | H | 242 | 259 | A-248-  | A-265-  | SEKIIEQVEVASKLLEGL 
+| 1k47 | A | albelig | 19 | 19 | H | 266 | 273 | A-272-  | A-279-  | PLLRQLKE 
+| 1k47 | A | albelig | 20 | 20 | E | 280 | 284 | A-286-  | A-290-  | AVAKS 
+| 1k47 | A | albelig | 21 | 21 | E | 292 | 297 | A-298-  | A-303-  | CGIALS 
+| 1k47 | A | albelig | 22 | 22 | H | 300 | 312 | A-306-  | A-318-  | AQSTKTLKNRWAD 
+| 1k47 | A | albelig | 23 | 23 | E | 316 | 322 | A-322-  | A-328-  | ELLYQER 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 1 = a = 10
+= 3 = a = 6
+= 3 = m = 7
+= 3 = p = 8
+= 3 = m = 10
+= 3 = a = 11
+= 4 = p = 6
+= 5 = p = 8
+= 5 = m = 9
+= 8 = m = 10
+= 9 = a = 10
+= 9 = m = 12
+= 10 = m = 11
+= 11 = a = 14
+= 15 = a = 21
+= 15 = p = 22
+= 15 = a = 23
+= 17 = a = 18
+= 19 = m = 20
+= 20 = a = 21
+= 21 = m = 22
+# Listed 23 contacts. EOF.

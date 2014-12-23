@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqq, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, PROTEIN-DNA COMPLEX, REPLICATION/RNA COMPLEX
+> pdb_mol_name > SINGLE STRANDED DNA BINDING PROTEIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 06-APR-00
+> header > REPLICATION/RNA
+> pdb_org_common > UNKNOWN
+> title > SINGLE STRANDED DNA BINDING PROTEIN AND SSDNA COMPLEX
+> format_version > 2
+> pdbid > 1eqq
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqq | D | albelig | 1 | 1 | E | 356 | 365 | D-605-  | D-614-  | VNKVILVGNL 
+| 1eqq | D | albelig | 2 | 2 | E | 384 | 386 | D-633-  | D-635-  | TLA 
+| 1eqq | D | albelig | 3 | 3 | E | 389 | 391 | D-638-  | D-640-  | ESW 
+| 1eqq | D | albelig | 4 | 4 | E | 400 | 402 | D-649-  | D-651-  | KEQ 
+| 1eqq | D | albelig | 5 | 5 | E | 405 | 409 | D-654-  | D-658-  | WHRVV 
+| 1eqq | D | albelig | 6 | 6 | H | 412 | 421 | D-661-  | D-670-  | GKLAEVASEY 
+| 1eqq | D | albelig | 7 | 7 | E | 427 | 430 | D-676-  | D-679-  | QVYI 
+| 1eqq | D | albelig | 8 | 8 | E | 433 | 440 | D-682-  | D-689-  | QLRTRKWT 
+| 1eqq | D | albelig | 9 | 9 | E | 445 | 452 | D-694-  | D-701-  | QDRYTTEV 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 1 = a = 8
+= 2 = a = 5
+= 3 = a = 4
+= 5 = p = 9
+= 8 = a = 9
+# Listed 7 contacts. EOF.

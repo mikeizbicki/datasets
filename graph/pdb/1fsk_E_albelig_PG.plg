@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fsk, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BET V 1, BV16 FAB FRAGMENT, ANTIBODY ALLERGEN COMPLEX,IMMUNE SYSTEM
+> pdb_mol_name > IMMUNOGLOBULIN KAPPA LIGHT CHAIN
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-SEP-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > COMPLEX FORMATION BETWEEN A FAB FRAGMENT OF A MONOCLONALIGG ANTIBODY AND THE MAJOR ALLERGEN FROM BIRCH POLLEN BETV 1
+> format_version > 2
+> pdbid > 1fsk
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fsk | E | albelig | 1 | 1 | E | 760 | 763 | E-4-  | E-7-  | LTQS 
+| 1fsk | E | albelig | 2 | 2 | E | 766 | 770 | E-10-  | E-14-  | SMSVS 
+| 1fsk | E | albelig | 3 | 3 | E | 775 | 781 | E-19-  | E-25-  | VTLSEKA 
+| 1fsk | E | albelig | 4 | 4 | E | 789 | 794 | E-33-  | E-38-  | VFWFQQ 
+| 1fsk | E | albelig | 5 | 5 | E | 802 | 804 | E-46-  | E-48-  | LLL 
+| 1fsk | E | albelig | 6 | 6 | E | 818 | 823 | E-62-  | E-67-  | FTGSGS 
+| 1fsk | E | albelig | 7 | 7 | E | 826 | 831 | E-70-  | E-75-  | DFTLTI 
+| 1fsk | E | albelig | 8 | 8 | E | 840 | 846 | E-84-  | E-90-  | ADYHEGQ 
+| 1fsk | E | albelig | 9 | 9 | E | 858 | 863 | E-102-  | E-107-  | TKLEIK 
+| 1fsk | E | albelig | 10 | 10 | E | 871 | 874 | E-115-  | E-118-  | VSIF 
+| 1fsk | E | albelig | 11 | 11 | H | 878 | 881 | E-122-  | E-125-  | SEQL 
+| 1fsk | E | albelig | 12 | 12 | E | 885 | 895 | E-129-  | E-139-  | GASVVFFLNNF 
+| 1fsk | E | albelig | 13 | 13 | E | 901 | 906 | E-145-  | E-150-  | NVKWKI 
+| 1fsk | E | albelig | 14 | 14 | E | 909 | 911 | E-153-  | E-155-  | SER 
+| 1fsk | E | albelig | 15 | 15 | E | 929 | 938 | E-173-  | E-182-  | YSMSSTLTLT 
+| 1fsk | E | albelig | 16 | 16 | H | 939 | 943 | E-183-  | E-187-  | KDEYE 
+| 1fsk | E | albelig | 17 | 17 | E | 947 | 953 | E-191-  | E-197-  | SYTFEAT 
+| 1fsk | E | albelig | 18 | 18 | E | 961 | 966 | E-205-  | E-210-  | IVKSFN 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 2 = p = 9
+= 3 = a = 7
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+= 10 = a = 12
+= 10 = p = 18
+= 11 = m = 12
+= 12 = a = 13
+= 12 = a = 15
+= 12 = p = 17
+= 13 = a = 14
+= 13 = p = 15
+= 13 = a = 17
+= 15 = m = 16
+= 17 = a = 18
+# Listed 20 contacts. EOF.

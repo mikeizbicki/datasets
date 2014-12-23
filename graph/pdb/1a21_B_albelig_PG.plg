@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a21, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLOOD COAGULATION FACTOR, FVIIA ACTIVATION, CYTOKINERECEPTOR SUPERFAMILY, EXTRACELLULAR DOMAIN, GLYCOPROTEIN
+> pdb_mol_name > TISSUE FACTOR
+> graphtype > albelig
+> resolution > 2.35
+> date > 14-JAN-98
+> header > GLYCOPROTEIN
+> pdb_org_common > RABBIT
+> title > TISSUE FACTOR (TF) FROM RABBIT
+> format_version > 2
+> pdbid > 1a21
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ORYCTOLAGUS CUNICULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a21 | B | albelig | 1 | 1 | E | 203 | 210 | B-8-  | B-15-  | YNLTWKST 
+| 1a21 | B | albelig | 2 | 2 | E | 213 | 219 | B-18-  | B-24-  | KTILEWE 
+| 1a21 | B | albelig | 3 | 3 | E | 225 | 232 | B-30-  | B-37-  | HVYTVQIS 
+| 1a21 | B | albelig | 4 | 4 | E | 239 | 245 | B-44-  | B-50-  | KSKCFLT 
+| 1a21 | B | albelig | 5 | 5 | E | 249 | 251 | B-54-  | B-56-  | ECD 
+| 1a21 | B | albelig | 6 | 6 | H | 253 | 256 | B-58-  | B-61-  | TDEV 
+| 1a21 | B | albelig | 7 | 7 | E | 265 | 272 | B-70-  | B-77-  | MARVLSYP 
+| 1a21 | B | albelig | 8 | 8 | H | 293 | 296 | B-100-  | B-103-  | PYLD 
+| 1a21 | B | albelig | 9 | 9 | E | 304 | 310 | B-111-  | B-117-  | IQSFEQV 
+| 1a21 | B | albelig | 10 | 10 | E | 313 | 318 | B-120-  | B-125-  | KLNVTV 
+| 1a21 | B | albelig | 11 | 11 | E | 322 | 326 | B-129-  | B-133-  | RTLVR 
+| 1a21 | B | albelig | 12 | 12 | E | 331 | 333 | B-138-  | B-140-  | FLS 
+| 1a21 | B | albelig | 13 | 13 | H | 334 | 341 | B-141-  | B-148-  | LRAVFGKD 
+| 1a21 | B | albelig | 14 | 14 | E | 343 | 349 | B-150-  | B-156-  | NYTLYYW 
+| 1a21 | B | albelig | 15 | 15 | E | 353 | 357 | B-164-  | B-168-  | KTATT 
+| 1a21 | B | albelig | 16 | 16 | E | 361 | 365 | B-172-  | B-176-  | EFLID 
+| 1a21 | B | albelig | 17 | 17 | E | 373 | 379 | B-184-  | B-190-  | DFSVQAV 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 7
+= 9 = a = 10
+= 10 = a = 16
+= 11 = a = 12
+= 12 = m = 13
+= 14 = a = 15
+= 14 = p = 16
+= 14 = a = 17
+# Listed 11 contacts. EOF.

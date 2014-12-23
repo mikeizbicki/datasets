@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kx5, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOSOME, CHROMATIN, HISTONE, PROTEIN-DNA INTERACTION,NUCLEOPROTEIN, SUPERCOILED DNA, NUCLEOSOME CORE, PROTEIN-DNA COMPLEX, DNA BENDING, DNA CURVATURE, DNA-CATION BINDING,DNA-METAL BINDING, DNA SOLVATION, STRUCTURAL PROTEIN/DNACOMPLEX
+> pdb_mol_name > HISTONE H4
+> graphtype > albelig
+> resolution > 1.94
+> date > 31-JAN-02
+> header > STRUCTURAL PROTEIN/DNA
+> pdb_org_common > AFRICAN CLAWED FROG
+> title > X-RAY STRUCTURE OF THE NUCLEOSOME CORE PARTICLE, NCP147, AT1.9 A RESOLUTION
+> format_version > 2
+> pdbid > 1kx5
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > XENOPUS LAEVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kx5 | F | albelig | 1 | 1 | H | 652 | 655 | F-25-  | F-28-  | NIQG 
+| 1kx5 | F | albelig | 2 | 2 | H | 658 | 667 | F-31-  | F-40-  | KPAIRRLARR 
+| 1kx5 | F | albelig | 3 | 3 | H | 677 | 702 | F-50-  | F-75-  | IYEETRGVLKVFLENVIRDAVTYTEH 
+| 1kx5 | F | albelig | 4 | 4 | H | 710 | 719 | F-83-  | F-92-  | AMDVVYALKR 
+| 1kx5 | F | albelig | 5 | 5 | E | 723 | 725 | F-96-  | F-98-  | TLY 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 3 = m = 4
+# Listed 2 contacts. EOF.

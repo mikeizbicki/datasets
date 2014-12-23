@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kpf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN KINASE INHIBITOR, PKCI-1, HIT PROTEIN FAMILY, HISTIDINE TRIADPROTEIN FAMILY, NUCLEOTIDYL HYDROLASE, NUCLEOTIDYL TRANSFERASE
+> pdb_mol_name > PROTEIN KINASE C INTERACTING PROTEIN
+> graphtype > albelig
+> resolution > 1.5
+> date > 25-SEP-97
+> header > PROTEIN KINASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > PKCI-SUBSTRATE ANALOG
+> format_version > 2
+> pdbid > 1kpf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kpf | A | albelig | 1 | 1 | H | 3 | 8 | A-18-  | A-23-  | IFGKII 
+| 1kpf | A | albelig | 2 | 2 | E | 16 | 19 | A-31-  | A-34-  | IIFE 
+| 1kpf | A | albelig | 3 | 3 | E | 23 | 27 | A-38-  | A-42-  | CLAFH 
+| 1kpf | A | albelig | 4 | 4 | E | 35 | 41 | A-50-  | A-56-  | THFLVIP 
+| 1kpf | A | albelig | 5 | 5 | H | 48 | 50 | A-63-  | A-65-  | ISV 
+| 1kpf | A | albelig | 6 | 6 | H | 53 | 72 | A-68-  | A-87-  | DDDESLLGHLMIVGKKCAAD 
+| 1kpf | A | albelig | 7 | 7 | E | 79 | 82 | A-94-  | A-97-  | YRMV 
+| 1kpf | A | albelig | 8 | 8 | H | 86 | 89 | A-101-  | A-104-  | GSDG 
+| 1kpf | A | albelig | 9 | 9 | E | 98 | 102 | A-113-  | A-117-  | LHVLG 
+| 1kpf | A | albelig | 10 | 10 | L | 112 | 112 | A-200-  | A-200-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 10
+= 2 = a = 3
+= 3 = a = 4
+= 3 = l = 10
+= 4 = a = 6
+= 4 = a = 9
+= 4 = l = 10
+= 6 = m = 7
+= 7 = a = 9
+= 9 = l = 10
+# Listed 10 contacts. EOF.

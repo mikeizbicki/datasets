@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ctl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIM DOMAIN CONTAINING PROTEINS, METAL-BINDING PROTEIN
+> pdb_mol_name > AVIAN CYSTEINE RICH PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 06-JAN-95
+> header > METAL-BINDING PROTEIN
+> pdb_org_common > CHICKEN
+> title > STRUCTURE OF THE CARBOXY-TERMINAL LIM DOMAIN FROM THECYSTEINE RICH PROTEIN CRP
+> format_version > 2
+> pdbid > 1ctl
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ctl | A | albelig | 1 | 1 | E | 23 | 26 | A-23-  | A-26-  | KVIG 
+| 1ctl | A | albelig | 2 | 2 | E | 29 | 32 | A-29-  | A-32-  | KSWH 
+| 1ctl | A | albelig | 3 | 3 | E | 50 | 53 | A-50-  | A-53-  | LADK 
+| 1ctl | A | albelig | 4 | 4 | E | 56 | 59 | A-56-  | A-59-  | EIYC 
+| 1ctl | A | albelig | 5 | 5 | H | 60 | 65 | A-60-  | A-65-  | KGCYAK 
+| 1ctl | A | albelig | 6 | 6 | L | 86 | 86 | A-86-  | A-86-  | J 
+| 1ctl | A | albelig | 7 | 7 | L | 87 | 87 | A-87-  | A-87-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = l = 6
+= 3 = a = 4
+= 4 = m = 5
+= 4 = l = 7
+= 5 = l = 7
+# Listed 6 contacts. EOF.

@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ict, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALBUMIN, TRANSPORT, AMYLOID, THYROID HORMONE, LIVER, PLASMA,POLYNEUROPATHY, THYROXINE, PREALBUMIN, GREEK KEY BETABARREL, TRANSPORT PROTEIN
+> pdb_mol_name > TRANSTHYRETIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 02-APR-01
+> header > TRANSPORT PROTEIN
+> pdb_org_common > HUMAN
+> title > MONOCLINIC FORM OF HUMAN TRANSTHYRETIN COMPLEXED WITHTHYROXINE (T4)
+> format_version > 2
+> pdbid > 1ict
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ict | E | albelig | 1 | 1 | E | 471 | 477 | E-12-  | E-18-  | LMVKVLD 
+| 1ict | E | albelig | 2 | 2 | E | 488 | 494 | E-29-  | E-35-  | AVHVFRK 
+| 1ict | E | albelig | 3 | 3 | E | 500 | 507 | E-41-  | E-48-  | WEPFASGK 
+| 1ict | E | albelig | 4 | 4 | E | 513 | 515 | E-54-  | E-56-  | ELH 
+| 1ict | E | albelig | 5 | 5 | E | 526 | 532 | E-67-  | E-73-  | GIYKVEI 
+| 1ict | E | albelig | 6 | 6 | H | 534 | 539 | E-75-  | E-80-  | TKSYWK 
+| 1ict | E | albelig | 7 | 7 | E | 550 | 556 | E-91-  | E-97-  | AEVVFTA 
+| 1ict | E | albelig | 8 | 8 | E | 563 | 571 | E-104-  | E-112-  | RYTIAALLS 
+| 1ict | E | albelig | 9 | 9 | E | 574 | 582 | E-115-  | E-123-  | SYSTTAVVT 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = p = 8
+= 2 = a = 3
+= 2 = a = 5
+= 5 = a = 7
+= 8 = a = 9
+# Listed 6 contacts. EOF.

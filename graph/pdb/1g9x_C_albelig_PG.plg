@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g9x, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEMIHEDRAL TWINNING STRUCTURE, ATP-BINDING CASSETTE, ABCTRANSPORTER, STRUCTURAL GENOMICS
+> pdb_mol_name > HIGH-AFFINITY BRANCHED-CHAIN AMINO ACID
+> graphtype > albelig
+> resolution > 2.6
+> date > 28-NOV-00
+> header > STRUCTURAL GENOMICS
+> pdb_org_common > UNKNOWN
+> title > CHARACTERIZATION OF THE TWINNING STRUCTURE OF MJ1267, ANATP-BINDING CASSETTE OF AN ABC TRANSPORTER
+> format_version > 2
+> pdbid > 1g9x
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > METHANOCALDOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g9x | C | albelig | 1 | 1 | E | 515 | 523 | C-2008-  | C-2016-  | LRTENIVKY 
+| 1g9x | C | albelig | 2 | 2 | E | 528 | 533 | C-2021-  | C-2026-  | KALDGV 
+| 1g9x | C | albelig | 3 | 3 | E | 543 | 547 | C-2035-  | C-2039-  | VTLII 
+| 1g9x | C | albelig | 4 | 4 | H | 554 | 561 | C-2046-  | C-2053-  | KSTLINVI 
+| 1g9x | C | albelig | 5 | 5 | E | 569 | 572 | C-2061-  | C-2064-  | EGRV 
+| 1g9x | C | albelig | 6 | 6 | H | 584 | 587 | C-2076-  | C-2079-  | PAEL 
+| 1g9x | C | albelig | 7 | 7 | H | 601 | 604 | C-2093-  | C-2096-  | PLKE 
+| 1g9x | C | albelig | 8 | 8 | H | 609 | 612 | C-2101-  | C-2104-  | ENLL 
+| 1g9x | C | albelig | 9 | 9 | H | 624 | 627 | C-2116-  | C-2119-  | NSLF 
+| 1g9x | C | albelig | 10 | 10 | H | 643 | 648 | C-2135-  | C-2140-  | FKILEF 
+| 1g9x | C | albelig | 11 | 11 | H | 651 | 653 | C-2143-  | C-2145-  | LSH 
+| 1g9x | C | albelig | 12 | 12 | H | 664 | 677 | C-2156-  | C-2169-  | GGQMKLVEIGRALM 
+| 1g9x | C | albelig | 13 | 13 | E | 682 | 686 | C-2174-  | C-2178-  | MIVMD 
+| 1g9x | C | albelig | 14 | 14 | H | 694 | 708 | C-2186-  | C-2200-  | PGLAHDIFNHVLELK 
+| 1g9x | C | albelig | 15 | 15 | E | 713 | 717 | C-2205-  | C-2209-  | TFLII 
+| 1g9x | C | albelig | 16 | 16 | E | 730 | 734 | C-2222-  | C-2226-  | HLYVM 
+| 1g9x | C | albelig | 17 | 17 | E | 739 | 744 | C-2231-  | C-2236-  | IIAEGR 
+| 1g9x | C | albelig | 18 | 18 | H | 746 | 754 | C-2238-  | C-2246-  | EEEIKNVLS 
+| 1g9x | C | albelig | 19 | 19 | H | 756 | 759 | C-2248-  | C-2251-  | PKVV 
+| 1g9x | C | albelig | 20 | 20 | L | 771 | 771 | C-2301-  | C-2301-  | J 
+| 1g9x | C | albelig | 21 | 21 | L | 772 | 772 | C-2302-  | C-2302-  | J 
+| 1g9x | C | albelig | 22 | 22 | L | 773 | 773 | C-2300-  | C-2300-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 3 = p = 15
+= 3 = p = 16
+= 4 = l = 20
+= 4 = l = 22
+= 8 = m = 12
+= 10 = m = 14
+= 13 = p = 15
+= 13 = l = 20
+= 16 = a = 17
+= 17 = m = 18
+= 18 = m = 19
+= 20 = l = 22
+# Listed 14 contacts. EOF.

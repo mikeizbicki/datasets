@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bwu, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BULB LECTIN, MANNOSE, PLANT PROTEIN
+> pdb_mol_name > PROTEIN (AGGLUTININ)
+> graphtype > albelig
+> resolution > 2.8
+> date > 28-SEP-98
+> header > PLANT PROTEIN
+> pdb_org_common > GARLIC
+> title > MANNOSE-SPECIFIC AGGLUTININ (LECTIN) FROM GARLIC (ALLIUM SATIVUM)BULBS COMPLEXED WITH ALPHA-D-MANNOSE
+> format_version > 2
+> pdbid > 1bwu
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > ALLIUM SATIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bwu | P | albelig | 1 | 1 | E | 220 | 222 | P-3-  | P-5-  | ILT 
+| 1bwu | P | albelig | 2 | 2 | E | 226 | 228 | P-9-  | P-11-  | GLY 
+| 1bwu | P | albelig | 3 | 3 | E | 232 | 235 | P-15-  | P-18-  | SLDV 
+| 1bwu | P | albelig | 4 | 4 | E | 238 | 242 | P-21-  | P-25-  | YHFIM 
+| 1bwu | P | albelig | 5 | 5 | E | 248 | 252 | P-31-  | P-35-  | LVLYD 
+| 1bwu | P | albelig | 6 | 6 | E | 255 | 259 | P-38-  | P-42-  | TSVWA 
+| 1bwu | P | albelig | 7 | 7 | E | 271 | 274 | P-54-  | P-57-  | KAVL 
+| 1bwu | P | albelig | 8 | 8 | E | 280 | 283 | P-63-  | P-66-  | FVVY 
+| 1bwu | P | albelig | 9 | 9 | E | 289 | 292 | P-72-  | P-75-  | SLWA 
+| 1bwu | P | albelig | 10 | 10 | E | 302 | 306 | P-85-  | P-89-  | YVLVL 
+| 1bwu | P | albelig | 11 | 11 | E | 312 | 316 | P-95-  | P-99-  | VVIYG 
+| 1bwu | P | albelig | 12 | 12 | E | 318 | 321 | P-101-  | P-104-  | DIWS 
+| 1bwu | P | albelig | 13 | 13 | L | 441 | 441 | P-307-  | P-307-  | J 
+| 1bwu | P | albelig | 14 | 14 | L | 442 | 442 | P-308-  | P-308-  | J 
+| 1bwu | P | albelig | 15 | 15 | L | 443 | 443 | P-309-  | P-309-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 10
+= 2 = a = 7
+= 3 = a = 4
+= 3 = p = 10
+= 4 = a = 5
+= 5 = a = 6
+= 5 = l = 15
+= 6 = l = 15
+= 7 = a = 8
+= 8 = a = 9
+= 8 = l = 14
+= 9 = l = 14
+= 10 = a = 11
+= 11 = l = 13
+# Listed 14 contacts. EOF.

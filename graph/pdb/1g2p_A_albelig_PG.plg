@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g2p, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIMER, CATALYTIC LOOP, TRANSFERASE
+> pdb_mol_name > ADENINE PHOSPHORIBOSYLTRANSFERASE 1
+> graphtype > albelig
+> resolution > 1.75
+> date > 20-OCT-00
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF ADENINE PHOSPHORIBOSYLTRANSFERASE
+> format_version > 2
+> pdbid > 1g2p
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g2p | A | albelig | 1 | 1 | H | 2 | 9 | A-6-  | A-13-  | YAQELKLA 
+| 1g2p | A | albelig | 2 | 2 | E | 11 | 13 | A-15-  | A-17-  | HQY 
+| 1g2p | A | albelig | 3 | 3 | E | 23 | 25 | A-27-  | A-29-  | FED 
+| 1g2p | A | albelig | 4 | 4 | H | 27 | 31 | A-31-  | A-35-  | LPIFR 
+| 1g2p | A | albelig | 5 | 5 | H | 33 | 50 | A-37-  | A-54-  | PGLFQKLIDAFKLHLEEA 
+| 1g2p | A | albelig | 6 | 6 | E | 58 | 62 | A-62-  | A-66-  | YIVGL 
+| 1g2p | A | albelig | 7 | 7 | H | 66 | 77 | A-70-  | A-81-  | GFLFGPTLALAL 
+| 1g2p | A | albelig | 8 | 8 | E | 80 | 86 | A-84-  | A-90-  | GFVPVRK 
+| 1g2p | A | albelig | 9 | 9 | E | 94 | 99 | A-98-  | A-103-  | CFKATY 
+| 1g2p | A | albelig | 10 | 10 | E | 103 | 108 | A-110-  | A-115-  | DLFEIQ 
+| 1g2p | A | albelig | 11 | 11 | E | 117 | 125 | A-124-  | A-132-  | NVIIVDDII 
+| 1g2p | A | albelig | 12 | 12 | H | 129 | 140 | A-136-  | A-147-  | GSAAAAGELVEQ 
+| 1g2p | A | albelig | 13 | 13 | E | 144 | 153 | A-151-  | A-160-  | NLLEYNFVME 
+| 1g2p | A | albelig | 14 | 14 | H | 155 | 157 | A-162-  | A-164-  | DFL 
+| 1g2p | A | albelig | 15 | 15 | H | 159 | 162 | A-166-  | A-169-  | GRSK 
+| 1g2p | A | albelig | 16 | 16 | E | 167 | 169 | A-174-  | A-176-  | VFT 
+| 1g2p | A | albelig | 17 | 17 | L | 172 | 172 | A-301-  | A-301-  | J 
+| 1g2p | A | albelig | 18 | 18 | L | 173 | 173 | A-302-  | A-302-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 2 = a = 3
+= 5 = p = 7
+= 5 = m = 13
+= 6 = a = 7
+= 6 = p = 8
+= 6 = p = 11
+= 7 = a = 8
+= 7 = m = 11
+= 8 = a = 10
+= 8 = l = 18
+= 9 = a = 10
+= 9 = a = 12
+= 9 = l = 17
+= 10 = m = 12
+= 11 = p = 13
+= 11 = l = 17
+= 12 = l = 17
+= 13 = p = 16
+# Listed 19 contacts. EOF.

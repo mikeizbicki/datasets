@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c3a, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C-TYPE LECTIN-LIKE DOMAINS, MEMBRANE PROTEIN
+> pdb_mol_name > FLAVOCETIN-A: BETA SUBUNIT
+> graphtype > albelig
+> resolution > 2.5
+> date > 27-JUL-99
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF FLAVOCETIN-A FROM THE HABU SNAKE VENOM, A NOVELCYCLIC TETRAMER OF C-TYPE LECTIN-LIKE HETERODIMERS
+> format_version > 2
+> pdbid > 1c3a
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > TRIMERESURUS FLAVOVIRIDIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c3a | B | albelig | 1 | 1 | E | 145 | 147 | B-209-  | B-211-  | SSY 
+| 1c3a | B | albelig | 2 | 2 | E | 150 | 159 | B-214-  | B-223-  | HFYQVFQQKM 
+| 1c3a | B | albelig | 3 | 3 | H | 161 | 171 | B-225-  | B-235-  | WEDAEKFGTQQ 
+| 1c3a | B | albelig | 4 | 4 | H | 183 | 197 | B-247-  | B-261-  | SEEVDFVTSKTFPIL 
+| 1c3a | B | albelig | 5 | 5 | E | 201 | 203 | B-265-  | B-267-  | FVW 
+| 1c3a | B | albelig | 6 | 6 | E | 215 | 217 | B-279-  | B-281-  | KEW 
+| 1c3a | B | albelig | 7 | 7 | E | 233 | 238 | B-297-  | B-302-  | DHIVSK 
+| 1c3a | B | albelig | 8 | 8 | E | 244 | 248 | B-308-  | B-312-  | WLSMD 
+| 1c3a | B | albelig | 9 | 9 | E | 253 | 260 | B-317-  | B-324-  | YYVVGKFQ 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = m = 3
+= 2 = p = 4
+= 2 = a = 9
+= 4 = a = 9
+= 5 = a = 7
+= 5 = a = 9
+= 7 = a = 8
+# Listed 9 contacts. EOF.

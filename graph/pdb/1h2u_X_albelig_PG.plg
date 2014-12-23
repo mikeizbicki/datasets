@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h2u, chain X.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > M7GCAP, CAP-BINDING-COMPLEX, RNP DOMAIN, MIF4G DOMAIN, RNAMATURATION, RNA EXPORT, NUCLEAR PROTEIN, RNA-BINDING
+> pdb_mol_name > 20 KDA NUCLEAR CAP BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 16-AUG-02
+> header > NUCLEAR PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE HUMAN NUCLEAR CAP-BINDING-COMPLEX (CBC) INCOMPLEX WITH A CAP ANALOGUE M7GPPPG
+> format_version > 2
+> pdbid > 1h2u
+> experiment > X-RAY DIFFRACTION
+> chainid > X
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h2u | X | albelig | 1 | 1 | H | 1418 | 1421 | X-7-  | X-10-  | KALR 
+| 1h2u | X | albelig | 2 | 2 | H | 1424 | 1426 | X-13-  | X-15-  | SYV 
+| 1h2u | X | albelig | 3 | 3 | H | 1440 | 1447 | X-29-  | X-36-  | NEEQEKLL 
+| 1h2u | X | albelig | 4 | 4 | E | 1452 | 1456 | X-41-  | X-45-  | TLYVG 
+| 1h2u | X | albelig | 5 | 5 | H | 1464 | 1474 | X-53-  | X-63-  | EEQIYELFSKS 
+| 1h2u | X | albelig | 6 | 6 | E | 1477 | 1484 | X-66-  | X-73-  | IKKIIMGL 
+| 1h2u | X | albelig | 7 | 7 | E | 1491 | 1499 | X-80-  | X-88-  | ACGFCFVEY 
+| 1h2u | X | albelig | 8 | 8 | H | 1502 | 1511 | X-91-  | X-100-  | RADAENAMRY 
+| 1h2u | X | albelig | 9 | 9 | E | 1523 | 1526 | X-112-  | X-115-  | RTDW 
+| 1h2u | X | albelig | 10 | 10 | H | 1545 | 1548 | X-134-  | X-137-  | VRDE 
+| 1h2u | X | albelig | 11 | 11 | H | 1555 | 1557 | X-144-  | X-146-  | AGR 
+| 1h2u | X | albelig | 12 | 12 | L | 1710 | 1710 | X-1153-  | X-1153-  | J 
+| 1h2u | X | albelig | 13 | 13 | L | 1711 | 1711 | X-1154-  | X-1154-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 8
+= 4 = a = 7
+= 4 = a = 9
+= 4 = l = 13
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = l = 13
+= 8 = m = 9
+= 9 = l = 13
+= 10 = l = 12
+= 10 = l = 13
+= 12 = l = 13
+# Listed 13 contacts. EOF.

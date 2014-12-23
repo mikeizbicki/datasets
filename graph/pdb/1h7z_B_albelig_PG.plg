@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h7z, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL RECEPTOR RECOGNITION, ADENOVIRUS, AD3, FIBRE, RECEPTOR
+> pdb_mol_name > ADENOVIRUS FIBRE PROTEIN
+> graphtype > albelig
+> resolution > 1.6
+> date > 21-JAN-01
+> header > CELL RECEPTOR RECOGNITION
+> pdb_org_common > UNKNOWN
+> title > ADENOVIRUS AD3 FIBRE HEAD
+> format_version > 2
+> pdbid > 1h7z
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN ADENOVIRUS TYPE 3
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h7z | B | albelig | 1 | 1 | E | 196 | 198 | B-132-  | B-134-  | TLW 
+| 1h7z | B | albelig | 2 | 2 | E | 218 | 227 | B-154-  | B-163-  | SKLTLILVKN 
+| 1h7z | B | albelig | 3 | 3 | E | 230 | 239 | B-166-  | B-175-  | IVNGYVTLMG 
+| 1h7z | B | albelig | 4 | 4 | H | 244 | 249 | B-180-  | B-185-  | VNTLFK 
+| 1h7z | B | albelig | 5 | 5 | E | 252 | 261 | B-188-  | B-197-  | NVSINVELYF 
+| 1h7z | B | albelig | 6 | 6 | H | 291 | 293 | B-227-  | B-229-  | RGF 
+| 1h7z | B | albelig | 7 | 7 | E | 314 | 322 | B-250-  | B-258-  | YIFGQCYYK 
+| 1h7z | B | albelig | 8 | 8 | E | 328 | 337 | B-264-  | B-273-  | LFPLEVTVML 
+| 1h7z | B | albelig | 9 | 9 | E | 348 | 357 | B-284-  | B-293-  | YVMTFLWSLN 
+| 1h7z | B | albelig | 10 | 10 | E | 374 | 379 | B-310-  | B-315-  | FTFSYI 
+| 1h7z | B | albelig | 11 | 11 | L | 578 | 578 | B-1320-  | B-1320-  | J 
+| 1h7z | B | albelig | 12 | 12 | L | 579 | 579 | B-1321-  | B-1321-  | J 
+| 1h7z | B | albelig | 13 | 13 | L | 580 | 580 | B-1322-  | B-1322-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 10
+= 5 = a = 9
+= 7 = a = 8
+= 7 = a = 10
+= 8 = a = 9
+= 12 = l = 13
+# Listed 8 contacts. EOF.

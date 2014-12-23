@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bja, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIVATION DOMAIN, PHAGE T4, MIDDLE MODE TRANSCRIPTION,ALPHA HELICAL STRUCTURE, TRANSCRIPTION REGULATION
+> pdb_mol_name > TRANSCRIPTION REGULATORY PROTEIN MOTA
+> graphtype > albelig
+> resolution > 2.19
+> date > 23-JUN-98
+> header > ACTIVATION DOMAIN
+> pdb_org_common > UNKNOWN
+> title > ACTIVATION DOMAIN OF THE PHAGE T4 TRANSCRIPTION FACTOR MOTA
+> format_version > 2
+> pdbid > 1bja
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bja | A | albelig | 1 | 1 | H | 3 | 9 | A-4-  | A-10-  | VTYIIKA 
+| 1bja | A | albelig | 2 | 2 | H | 16 | 27 | A-17-  | A-28-  | EKTATILITIAK 
+| 1bja | A | albelig | 3 | 3 | H | 33 | 38 | A-34-  | A-39-  | AAEVRE 
+| 1bja | A | albelig | 4 | 4 | H | 45 | 56 | A-46-  | A-57-  | NAVVNSNIGVLI 
+| 1bja | A | albelig | 5 | 5 | E | 61 | 64 | A-62-  | A-65-  | VEKS 
+| 1bja | A | albelig | 6 | 6 | E | 67 | 70 | A-68-  | A-71-  | GLII 
+| 1bja | A | albelig | 7 | 7 | H | 72 | 88 | A-73-  | A-89-  | GEAQDIISNAATLYAQE 
+| 1bja | A | albelig | 8 | 8 | H | 90 | 93 | A-91-  | A-94-  | APEL 
+| 1bja | A | albelig | 9 | 9 | L | 192 | 192 | A-1-  | A-1-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 7
+= 2 = l = 9
+= 4 = m = 5
+= 4 = l = 9
+= 5 = a = 6
+# Listed 6 contacts. EOF.

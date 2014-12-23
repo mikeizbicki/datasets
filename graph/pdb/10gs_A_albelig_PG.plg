@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 10gs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DETOXIFYING ENZYME, TER117, TLK117, RP298, TELINTRA, EZATIOSTAT HCL,MYELODYSPLASTIC SYNDROME, TRANSFERASE-TRANSFERASE INHIBITOR COMPLEX
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE P1-1
+> graphtype > albelig
+> resolution > 2.2
+> date > 14-AUG-97
+> header > TRANSFERASE/TRANSFERASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > HUMAN GLUTATHIONE S-TRANSFERASE P1-1, COMPLEX WITH TER117
+> format_version > 2
+> pdbid > 10gs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 10gs | A | albelig | 1 | 1 | E | 2 | 6 | A-3-  | A-7-  | YTVVY 
+| 10gs | A | albelig | 2 | 2 | H | 11 | 22 | A-12-  | A-23-  | GRCAALRMLLAD 
+| 10gs | A | albelig | 3 | 3 | E | 27 | 31 | A-28-  | A-32-  | WKEEV 
+| 10gs | A | albelig | 4 | 4 | H | 34 | 38 | A-35-  | A-39-  | VETWQ 
+| 10gs | A | albelig | 5 | 5 | H | 41 | 45 | A-42-  | A-46-  | SLKAS 
+| 10gs | A | albelig | 6 | 6 | E | 53 | 56 | A-54-  | A-57-  | KFQD 
+| 10gs | A | albelig | 7 | 7 | E | 59 | 62 | A-60-  | A-63-  | LTLY 
+| 10gs | A | albelig | 8 | 8 | H | 64 | 75 | A-65-  | A-76-  | SNTILRHLGRTL 
+| 10gs | A | albelig | 9 | 9 | H | 82 | 108 | A-83-  | A-109-  | QQEAALVDMVNDGVEDLRCKYISLIYT 
+| 10gs | A | albelig | 10 | 10 | H | 110 | 133 | A-111-  | A-134-  | YEAGKDDYVKALPGQLKPFETLLS 
+| 10gs | A | albelig | 11 | 11 | H | 136 | 138 | A-137-  | A-139-  | QGG 
+| 10gs | A | albelig | 12 | 12 | H | 149 | 164 | A-150-  | A-165-  | FADYNLLDLLLIHEVL 
+| 10gs | A | albelig | 13 | 13 | H | 173 | 183 | A-174-  | A-184-  | PLLSAYVGRLS 
+| 10gs | A | albelig | 14 | 14 | H | 186 | 193 | A-187-  | A-194-  | PKLKAFLA 
+| 10gs | A | albelig | 15 | 15 | H | 195 | 198 | A-196-  | A-199-  | PEYV 
+| 10gs | A | albelig | 16 | 16 | L | 418 | 418 | A-210-  | A-210-  | J 
+| 10gs | A | albelig | 17 | 17 | L | 419 | 419 | A-211-  | A-211-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = a = 6
+= 1 = l = 16
+= 2 = p = 8
+= 2 = m = 12
+= 2 = m = 14
+= 2 = l = 16
+= 2 = l = 17
+= 3 = l = 17
+= 4 = l = 16
+= 5 = l = 16
+= 6 = a = 7
+= 8 = m = 9
+= 8 = l = 16
+= 9 = a = 10
+= 9 = p = 12
+= 9 = l = 16
+= 10 = a = 12
+= 10 = m = 13
+= 12 = m = 13
+= 14 = l = 17
+= 15 = l = 17
+# Listed 23 contacts. EOF.

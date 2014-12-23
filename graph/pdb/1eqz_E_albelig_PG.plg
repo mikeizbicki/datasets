@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqz, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOSOME, NUCLEOSOME CORE PARTICLE, HISTONE, MICROGRAVITY HISTONEOCTAMER, DNA PALINDROME, DNA PROTEIN COMPLEX, CHROMATIN, CHROMOSOMALPROTEIN, HISTONE FOLD, BENT DNA, STRUCTURAL PROTEIN-DNA COMPLEX
+> pdb_mol_name > PROTEIN (HISTONE H2A)
+> graphtype > albelig
+> resolution > 2.5
+> date > 06-APR-00
+> header > STRUCTURAL PROTEIN/DNA
+> pdb_org_common > CHICKEN
+> title > X-RAY STRUCTURE OF THE NUCLEOSOME CORE PARTICLE AT 2.5 A RESOLUTION
+> format_version > 2
+> pdbid > 1eqz
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqz | E | albelig | 1 | 1 | H | 449 | 453 | E-17-  | E-21-  | RSSRA 
+| 1eqz | E | albelig | 2 | 2 | H | 459 | 468 | E-27-  | E-36-  | VGRVHRLLRK 
+| 1eqz | E | albelig | 3 | 3 | H | 478 | 504 | E-46-  | E-72-  | GAPVYLAAVLEYLTAEILELAGNAARD 
+| 1eqz | E | albelig | 4 | 4 | H | 512 | 520 | E-80-  | E-88-  | PRHLQLAIR 
+| 1eqz | E | albelig | 5 | 5 | H | 523 | 528 | E-91-  | E-96-  | EELNKL 
+| 1eqz | E | albelig | 6 | 6 | E | 532 | 534 | E-100-  | E-102-  | VTI 
+| 1eqz | E | albelig | 7 | 7 | H | 545 | 547 | E-113-  | E-115-  | AVL 
+| 1eqz | E | albelig | 8 | 8 | L | 909 | 909 | E-450-  | E-450-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = l = 8
+# Listed 2 contacts. EOF.

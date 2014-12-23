@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1im3, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA SHEET, BETA SANDWHICH, IMMUNOGLOBULIN (IG) FOLD,IMMUNOGLOBULIN (IG)-LIKE DOMAIN, PROTEIN COMPLEX, ALPHAHELIX, VIRAL PROTEIN/IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > HLA CLASS I HISTOCOMPATIBILITY ANTIGEN, A-2
+> graphtype > albelig
+> resolution > 2.2
+> date > 09-MAY-01
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE HUMAN CYTOMEGALOVIRUS PROTEIN US2BOUND TO THE MHC CLASS I MOLECULE HLA-A2/TAX
+> format_version > 2
+> pdbid > 1im3
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1im3 | E | albelig | 1 | 1 | E | 486 | 495 | E-3-  | E-12-  | HSMRYFFTSV 
+| 1im3 | E | albelig | 2 | 2 | E | 504 | 511 | E-21-  | E-28-  | RFIAVGYV 
+| 1im3 | E | albelig | 3 | 3 | E | 514 | 520 | E-31-  | E-37-  | TQFVRFD 
+| 1im3 | E | albelig | 4 | 4 | H | 533 | 535 | E-50-  | E-52-  | PWI 
+| 1im3 | E | albelig | 5 | 5 | H | 540 | 567 | E-57-  | E-84-  | PEYWDGETRKVKAHSQTHRVDLGTLRGY 
+| 1im3 | E | albelig | 6 | 6 | E | 577 | 586 | E-94-  | E-103-  | TVQRMYGEDV 
+| 1im3 | E | albelig | 7 | 7 | E | 592 | 601 | E-109-  | E-118-  | FLRGYHQYAY 
+| 1im3 | E | albelig | 8 | 8 | E | 604 | 609 | E-121-  | E-126-  | KDYIAL 
+| 1im3 | E | albelig | 9 | 9 | E | 616 | 618 | E-133-  | E-135-  | WTA 
+| 1im3 | E | albelig | 10 | 10 | H | 621 | 632 | E-138-  | E-149-  | MAAQTTKHKWEA 
+| 1im3 | E | albelig | 11 | 11 | H | 635 | 646 | E-152-  | E-163-  | VAEQLRAYLEGT 
+| 1im3 | E | albelig | 12 | 12 | H | 647 | 657 | E-164-  | E-174-  | EVEWLRRYLEN 
+| 1im3 | E | albelig | 13 | 13 | H | 659 | 662 | E-176-  | E-179-  | KETL 
+| 1im3 | E | albelig | 14 | 14 | E | 669 | 676 | E-186-  | E-193-  | KTHMTHHA 
+| 1im3 | E | albelig | 15 | 15 | E | 681 | 691 | E-198-  | E-208-  | EATLRFWALSF 
+| 1im3 | E | albelig | 16 | 16 | E | 697 | 702 | E-214-  | E-219-  | TLTWQR 
+| 1im3 | E | albelig | 17 | 17 | E | 705 | 707 | E-222-  | E-224-  | EDQ 
+| 1im3 | E | albelig | 18 | 18 | E | 711 | 713 | E-228-  | E-230-  | TEL 
+| 1im3 | E | albelig | 19 | 19 | E | 724 | 733 | E-241-  | E-250-  | FQKWAAVVVP 
+| 1im3 | E | albelig | 20 | 20 | H | 737 | 739 | E-254-  | E-256-  | EQR 
+| 1im3 | E | albelig | 21 | 21 | E | 740 | 745 | E-257-  | E-262-  | YTFHVQ 
+| 1im3 | E | albelig | 22 | 22 | E | 753 | 756 | E-270-  | E-273-  | LTLR 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 2 = m = 5
+= 5 = a = 6
+= 6 = a = 7
+= 6 = m = 12
+= 7 = a = 8
+= 7 = a = 11
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+= 14 = a = 15
+= 14 = p = 22
+= 15 = a = 19
+= 16 = a = 17
+= 16 = p = 19
+= 16 = m = 20
+= 16 = a = 21
+= 18 = a = 19
+= 20 = m = 21
+= 21 = a = 22
+# Listed 23 contacts. EOF.

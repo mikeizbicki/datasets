@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bqh, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > T-CELL, CORECEPTOR, GLYCOPROTEIN, COMPLEX, IMMUNOLOGY, ANTIGEN,IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (H-2 CLASS I HISTOCOMPATIBILITY ANTIGEN)
+> graphtype > albelig
+> resolution > 2.8
+> date > 16-AUG-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > MURINE CD8AA ECTODOMAIN FRAGMENT IN COMPLEX WITH H-2KB/VSV8
+> format_version > 2
+> pdbid > 1bqh
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bqh | D | albelig | 1 | 1 | E | 389 | 396 | D-5-  | D-12-  | LRYFVTAV 
+| 1bqh | D | albelig | 2 | 2 | E | 405 | 412 | D-21-  | D-28-  | RYMEVGYV 
+| 1bqh | D | albelig | 3 | 3 | E | 415 | 421 | D-31-  | D-37-  | TEFVRFD 
+| 1bqh | D | albelig | 4 | 4 | E | 429 | 431 | D-45-  | D-47-  | YEP 
+| 1bqh | D | albelig | 5 | 5 | H | 434 | 436 | D-50-  | D-52-  | RWM 
+| 1bqh | D | albelig | 6 | 6 | H | 441 | 468 | D-57-  | D-84-  | PEYWERETQKAKGNEQSFRVDLRTLLGY 
+| 1bqh | D | albelig | 7 | 7 | E | 478 | 486 | D-94-  | D-102-  | TIQVISGDE 
+| 1bqh | D | albelig | 8 | 8 | E | 495 | 502 | D-111-  | D-118-  | RGYQQYAY 
+| 1bqh | D | albelig | 9 | 9 | E | 505 | 510 | D-121-  | D-126-  | CDYIAL 
+| 1bqh | D | albelig | 10 | 10 | E | 517 | 519 | D-133-  | D-135-  | WTA 
+| 1bqh | D | albelig | 11 | 11 | H | 522 | 532 | D-138-  | D-148-  | MAALITKHKWE 
+| 1bqh | D | albelig | 12 | 12 | H | 536 | 547 | D-152-  | D-163-  | EAERLRAYLEGT 
+| 1bqh | D | albelig | 13 | 13 | H | 548 | 563 | D-164-  | D-179-  | DVEWLRRYLKNGNATL 
+| 1bqh | D | albelig | 14 | 14 | E | 570 | 578 | D-186-  | D-194-  | KAHVTHHSR 
+| 1bqh | D | albelig | 15 | 15 | E | 582 | 592 | D-198-  | D-208-  | KVTLREWALGF 
+| 1bqh | D | albelig | 16 | 16 | E | 597 | 603 | D-213-  | D-219-  | ITLTWQL 
+| 1bqh | D | albelig | 17 | 17 | E | 612 | 614 | D-228-  | D-230-  | MEL 
+| 1bqh | D | albelig | 18 | 18 | E | 625 | 634 | D-241-  | D-250-  | FQKWASVVVP 
+| 1bqh | D | albelig | 19 | 19 | H | 638 | 640 | D-254-  | D-256-  | EQY 
+| 1bqh | D | albelig | 20 | 20 | E | 641 | 647 | D-257-  | D-263-  | YTEHVYH 
+| 1bqh | D | albelig | 21 | 21 | E | 654 | 656 | D-270-  | D-272-  | LTL 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 2 = a = 3
+= 2 = m = 6
+= 3 = a = 4
+= 4 = m = 6
+= 5 = m = 13
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 10 = m = 11
+= 12 = m = 13
+= 14 = a = 15
+= 15 = a = 16
+= 15 = a = 18
+= 16 = p = 18
+= 16 = m = 19
+= 16 = a = 20
+= 17 = a = 18
+= 19 = m = 20
+= 20 = a = 21
+# Listed 21 contacts. EOF.

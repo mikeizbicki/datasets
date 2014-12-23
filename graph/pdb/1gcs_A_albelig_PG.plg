@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gcs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EYE LENS PROTEIN
+> pdb_mol_name > GAMMA-B CRYSTALLIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 27-JAN-94
+> header > EYE LENS PROTEIN
+> pdb_org_common > CATTLE
+> title > STRUCTURE OF THE BOVINE GAMMA-B CRYSTALLIN AT 150K
+> format_version > 2
+> pdbid > 1gcs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gcs | A | albelig | 1 | 1 | E | 2 | 6 | A-2-  | A-6-  | KITFY 
+| 1gcs | A | albelig | 2 | 2 | E | 15 | 18 | A-15-  | A-18-  | CYEC 
+| 1gcs | A | albelig | 3 | 3 | E | 34 | 39 | A-34-  | A-39-  | SIRVDS 
+| 1gcs | A | albelig | 4 | 4 | E | 42 | 47 | A-42-  | A-47-  | WMLYER 
+| 1gcs | A | albelig | 5 | 5 | E | 51 | 57 | A-51-  | A-57-  | QGHQYFL 
+| 1gcs | A | albelig | 6 | 6 | E | 60 | 62 | A-60-  | A-62-  | GDY 
+| 1gcs | A | albelig | 7 | 7 | H | 65 | 67 | A-65-  | A-67-  | YQQ 
+| 1gcs | A | albelig | 8 | 8 | E | 77 | 80 | A-77-  | A-80-  | SCRL 
+| 1gcs | A | albelig | 9 | 9 | E | 89 | 95 | A-89-  | A-95-  | RMRIYER 
+| 1gcs | A | albelig | 10 | 10 | E | 99 | 105 | A-99-  | A-105-  | RGQMSEI 
+| 1gcs | A | albelig | 11 | 11 | H | 112 | 116 | A-112-  | A-116-  | LQDRF 
+| 1gcs | A | albelig | 12 | 12 | E | 123 | 128 | A-123-  | A-128-  | SLNVLE 
+| 1gcs | A | albelig | 13 | 13 | E | 131 | 136 | A-131-  | A-136-  | WVLYEM 
+| 1gcs | A | albelig | 14 | 14 | E | 140 | 146 | A-140-  | A-146-  | RGRQYLL 
+| 1gcs | A | albelig | 15 | 15 | E | 149 | 151 | A-149-  | A-151-  | GEY 
+| 1gcs | A | albelig | 16 | 16 | E | 166 | 169 | A-166-  | A-169-  | SLRR 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 3 = a = 6
+= 4 = a = 5
+= 4 = a = 8
+= 4 = p = 14
+= 5 = p = 14
+= 9 = a = 10
+= 9 = a = 12
+= 12 = a = 15
+= 13 = a = 14
+= 13 = a = 16
+# Listed 12 contacts. EOF.

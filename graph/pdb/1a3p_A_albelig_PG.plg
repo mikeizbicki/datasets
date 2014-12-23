@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a3p, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR, MURINE EPIDERMAL GROWTH FACTOR, DISULFIDECONNECTIVITIES, EGF-LIKE DOMAIN, REPEAT
+> pdb_mol_name > EPIDERMAL GROWTH FACTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-JAN-98
+> header > GROWTH FACTOR
+> pdb_org_common > HOUSE MOUSE
+> title > ROLE OF THE 6-20 DISULFIDE BRIDGE IN THE STRUCTURE ANDACTIVITY OF EPIDERMAL GROWTH FACTOR, NMR, 20 STRUCTURES
+> format_version > 2
+> pdbid > 1a3p
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a3p | A | albelig | 1 | 1 | E | 16 | 19 | A-19-  | A-22-  | VXMH 
+| 1a3p | A | albelig | 2 | 2 | E | 26 | 29 | A-29-  | A-32-  | YTAN 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

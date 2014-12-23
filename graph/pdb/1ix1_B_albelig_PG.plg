@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ix1, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, HYDROLASE
+> pdb_mol_name > PEPTIDE DEFORMYLASE
+> graphtype > albelig
+> resolution > 1.85
+> date > 07-JUN-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF P.AERUGINOSA PEPTIDE DEFORMYLASECOMPLEXED WITH ANTIBIOTIC ACTINONIN
+> format_version > 2
+> pdbid > 1ix1
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ix1 | B | albelig | 1 | 1 | H | 181 | 184 | B-12-  | B-15-  | PRLR 
+| 1ix1 | B | albelig | 2 | 2 | H | 195 | 210 | B-26-  | B-41-  | DAVRQLIDDMFETMYE 
+| 1ix1 | B | albelig | 3 | 3 | E | 215 | 217 | B-46-  | B-48-  | GLA 
+| 1ix1 | B | albelig | 4 | 4 | H | 218 | 221 | B-49-  | B-52-  | ATQV 
+| 1ix1 | B | albelig | 5 | 5 | E | 227 | 230 | B-58-  | B-61-  | IVVM 
+| 1ix1 | B | albelig | 6 | 6 | E | 240 | 249 | B-71-  | B-80-  | RVFINPEFEP 
+| 1ix1 | B | albelig | 7 | 7 | E | 254 | 261 | B-85-  | B-92-  | MDQYQEGC 
+| 1ix1 | B | albelig | 8 | 8 | E | 264 | 274 | B-95-  | B-105-  | VPGFYENVDRP 
+| 1ix1 | B | albelig | 9 | 9 | E | 276 | 282 | B-107-  | B-113-  | KVRIKAL 
+| 1ix1 | B | albelig | 10 | 10 | E | 288 | 294 | B-119-  | B-125-  | PFEEVAE 
+| 1ix1 | B | albelig | 11 | 11 | H | 295 | 308 | B-126-  | B-139-  | GLLAVCIQHECDHL 
+| 1ix1 | B | albelig | 12 | 12 | H | 313 | 316 | B-144-  | B-147-  | FVDY 
+| 1ix1 | B | albelig | 13 | 13 | H | 319 | 337 | B-150-  | B-168-  | TLKRDRIRKKLEKQHRQQA 
+| 1ix1 | B | albelig | 14 | 14 | L | 343 | 343 | B-201-  | B-201-  | J 
+| 1ix1 | B | albelig | 15 | 15 | L | 344 | 344 | B-2301-  | B-2301-  | J 
+| 1ix1 | B | albelig | 16 | 16 | L | 345 | 345 | B-1401-  | B-1401-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = p = 5
+= 3 = m = 4
+= 3 = a = 5
+= 3 = m = 11
+= 3 = l = 15
+= 4 = l = 14
+= 4 = l = 15
+= 5 = a = 6
+= 5 = m = 11
+= 6 = a = 9
+= 6 = l = 16
+= 7 = a = 8
+= 7 = p = 11
+= 7 = l = 14
+= 7 = l = 15
+= 8 = m = 11
+= 8 = m = 12
+= 8 = a = 13
+= 8 = l = 15
+= 9 = a = 10
+= 10 = m = 11
+= 10 = l = 16
+= 11 = l = 14
+= 11 = l = 15
+= 14 = l = 15
+# Listed 26 contacts. EOF.

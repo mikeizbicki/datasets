@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffx, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-TUBULIN, BETA-TUBULIN, STATHMIN, MICROTUBULE, TUBULIN,STRUCTURAL PROTEIN
+> pdb_mol_name > PROTEIN (STATHMIN-LIKE DOMAIN OF RB3)
+> graphtype > albelig
+> resolution > 3.95
+> date > 26-JUL-00
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > TUBULIN:STATHMIN-LIKE DOMAIN COMPLEX
+> format_version > 2
+> pdbid > 1ffx
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffx | E | albelig | 1 | 1 | H | 1678 | 1684 | E-4-  | E-10-  | XXXXXXX 
+| 1ffx | E | albelig | 2 | 2 | H | 1693 | 1702 | E-19-  | E-28-  | XXXXXXXXXX 
+| 1ffx | E | albelig | 3 | 3 | H | 1706 | 1715 | E-32-  | E-41-  | XXXXXXXXXX 
+| 1ffx | E | albelig | 4 | 4 | H | 1720 | 1723 | E-46-  | E-49-  | XXXX 
+| 1ffx | E | albelig | 5 | 5 | H | 1728 | 1738 | E-54-  | E-64-  | XXXXXXXXXXX 
+| 1ffx | E | albelig | 6 | 6 | H | 1741 | 1750 | E-67-  | E-76-  | XXXXXXXXXX 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

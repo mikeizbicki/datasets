@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k93, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EDEMA FACTOR, CALMODULIN, ADENYLYL CYCLASE, ANTHRAX, TOXIN,LYASE/METAL BINDING PROTEIN COMPLEX
+> pdb_mol_name > CALMODULIN
+> graphtype > albelig
+> resolution > 2.95
+> date > 26-OCT-01
+> header > TOXIN,LYASE/METAL BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE ADENYLYL CYCLASE DOMAIN OF ANTHRAXEDEMA FACTOR (EF) IN COMPLEX WITH CALMODULIN
+> format_version > 2
+> pdbid > 1k93
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k93 | D | albelig | 1 | 1 | H | 1465 | 1474 | D-6-  | D-15-  | EEQIAEFKEA 
+| 1k93 | D | albelig | 2 | 2 | E | 1485 | 1487 | D-26-  | D-28-  | TIT 
+| 1k93 | D | albelig | 3 | 3 | H | 1488 | 1497 | D-29-  | D-38-  | TKELGTVMRS 
+| 1k93 | D | albelig | 4 | 4 | H | 1506 | 1513 | D-47-  | D-54-  | ELQDMINE 
+| 1k93 | D | albelig | 5 | 5 | E | 1521 | 1523 | D-62-  | D-64-  | TID 
+| 1k93 | D | albelig | 6 | 6 | H | 1524 | 1534 | D-65-  | D-75-  | FPEFLTMMARK 
+| 1k93 | D | albelig | 7 | 7 | H | 1538 | 1551 | D-79-  | D-92-  | TDSEEEIREAFRVF 
+| 1k93 | D | albelig | 8 | 8 | H | 1561 | 1570 | D-102-  | D-111-  | AAELRHVMTN 
+| 1k93 | D | albelig | 9 | 9 | H | 1577 | 1587 | D-118-  | D-128-  | DEEVDEMIREA 
+| 1k93 | D | albelig | 10 | 10 | H | 1597 | 1604 | D-138-  | D-145-  | YEEFVQMM 
+| 1k93 | D | albelig | 11 | 11 | L | 1897 | 1897 | D-801-  | D-801-  | J 
+| 1k93 | D | albelig | 12 | 12 | L | 1898 | 1898 | D-802-  | D-802-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 5
+= 3 = m = 6
+= 5 = m = 6
+= 7 = m = 10
+= 8 = m = 9
+= 8 = l = 12
+= 10 = l = 11
+# Listed 8 contacts. EOF.

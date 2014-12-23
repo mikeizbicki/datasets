@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g11, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AROMATIC HYDROCARBON CATABOLISM, OXIDOREDUCTASE,MONOOXYGENASE, TOLUENE OXIDATION
+> pdb_mol_name > TOLUENE-4-MONOOXYGENASE CATALYTIC EFFECTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 10-OCT-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > TOLUENE-4-MONOOXYGENASE CATALYTIC EFFECTOR PROTEIN NMRSTRUCTURE
+> format_version > 2
+> pdbid > 1g11
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS MENDOCINA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g11 | A | albelig | 1 | 1 | E | 16 | 18 | A-16-  | A-18-  | IIR 
+| 1g11 | A | albelig | 2 | 2 | H | 23 | 32 | A-23-  | A-32-  | VEPVIETAEI 
+| 1g11 | A | albelig | 3 | 3 | E | 40 | 43 | A-40-  | A-43-  | TVED 
+| 1g11 | A | albelig | 4 | 4 | E | 47 | 51 | A-47-  | A-51-  | YVRIA 
+| 1g11 | A | albelig | 5 | 5 | E | 56 | 58 | A-56-  | A-58-  | LIL 
+| 1g11 | A | albelig | 6 | 6 | H | 61 | 66 | A-61-  | A-66-  | KTLEEQ 
+| 1g11 | A | albelig | 7 | 7 | H | 74 | 78 | A-74-  | A-78-  | QELEI 
+| 1g11 | A | albelig | 8 | 8 | E | 86 | 90 | A-86-  | A-90-  | QIQAD 
+| 1g11 | A | albelig | 9 | 9 | E | 93 | 97 | A-93-  | A-97-  | QIRFY 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 3 = a = 4
+= 5 = a = 9
+= 8 = a = 9
+# Listed 4 contacts. EOF.

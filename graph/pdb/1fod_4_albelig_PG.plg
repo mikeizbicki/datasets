@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fod, chain 4.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS, ICOSAHEDRAL VIRUS
+> pdb_mol_name > FOOT AND MOUTH DISEASE VIRUS
+> graphtype > albelig
+> resolution > 2.6
+> date > 27-OCT-93
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF A MAJOR IMMUNOGENIC SITE ON FOOT-AND-MOUTHDISEASE VIRUS
+> format_version > 2
+> pdbid > 1fod
+> experiment > X-RAY DIFFRACTION
+> chainid > 4
+> graphclass > protein graph
+> pdb_org_sci > FOOT-AND-MOUTH DISEASE VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fod | 4 | albelig | 1 | 1 | H | 661 | 664 | 4-28-  | 4-31-  | QQYQ 
+| 1fod | 4 | albelig | 2 | 2 | H | 675 | 682 | 4-66-  | 4-73-  | DWFSKLAS 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

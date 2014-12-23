@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cgq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN HORMONE, CYTOKINE, ENZYME
+> pdb_mol_name > PROTEIN (MACROPHAGE MIGRATION INHIBITORY FACTOR)
+> graphtype > albelig
+> resolution > 2.0
+> date > 25-MAR-99
+> header > PROTEIN HORMONE
+> pdb_org_common > HUMAN
+> title > MACROPHAGE MIGRATION INHIBITORY FACTOR (MIF) WITH ALANINEINSERTED BETWEEN PRO-1 AND MET-2
+> format_version > 2
+> pdbid > 1cgq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cgq | A | albelig | 1 | 1 | E | 2 | 8 | A-1-  | A-7-  | AMFIVNT 
+| 1cgq | A | albelig | 2 | 2 | H | 12 | 14 | A-11-  | A-13-  | RAS 
+| 1cgq | A | albelig | 3 | 3 | H | 19 | 31 | A-18-  | A-30-  | FLSELTQQLAQAT 
+| 1cgq | A | albelig | 4 | 4 | H | 35 | 37 | A-34-  | A-36-  | PQY 
+| 1cgq | A | albelig | 5 | 5 | E | 38 | 43 | A-37-  | A-42-  | IAVHVV 
+| 1cgq | A | albelig | 6 | 6 | E | 47 | 50 | A-46-  | A-49-  | LMAF 
+| 1cgq | A | albelig | 7 | 7 | E | 58 | 64 | A-57-  | A-63-  | ALCSLHS 
+| 1cgq | A | albelig | 8 | 8 | H | 70 | 88 | A-69-  | A-87-  | GAQNRSYSKLLCGLLAERL 
+| 1cgq | A | albelig | 9 | 9 | H | 92 | 94 | A-91-  | A-93-  | PDR 
+| 1cgq | A | albelig | 10 | 10 | E | 95 | 101 | A-94-  | A-100-  | VYINYYD 
+| 1cgq | A | albelig | 11 | 11 | H | 104 | 106 | A-103-  | A-105-  | AAN 
+| 1cgq | A | albelig | 12 | 12 | E | 107 | 109 | A-106-  | A-108-  | VGW 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = a = 7
+= 3 = a = 5
+= 3 = a = 8
+= 4 = m = 5
+= 7 = p = 10
+= 8 = a = 10
+= 9 = m = 10
+= 11 = m = 12
+# Listed 9 contacts. EOF.

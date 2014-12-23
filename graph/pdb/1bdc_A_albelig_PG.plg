@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bdc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN-BINDING PROTEIN, REPEAT, TRANSMEMBRANE, CELLWALL, SIGNAL, IMMUNOGLOBULIN BINDING DOMAIN
+> pdb_mol_name > STAPHYLOCOCCUS AUREUS PROTEIN A
+> graphtype > albelig
+> resolution > -1.0
+> date > 28-JUN-96
+> header > IMMUNOGLOBULIN-BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STAPHYLOCOCCUS AUREUS PROTEIN A, IMMUNOGLOBULIN-BINDING BDOMAIN, NMR, 10 STRUCTURES
+> format_version > 2
+> pdbid > 1bdc
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bdc | A | albelig | 1 | 1 | H | 11 | 17 | A-11-  | A-17-  | QNAFYEI 
+| 1bdc | A | albelig | 2 | 2 | H | 25 | 37 | A-25-  | A-37-  | EEQRNGFIQSLKD 
+| 1bdc | A | albelig | 3 | 3 | H | 42 | 54 | A-42-  | A-54-  | SANLLAEAKKLND 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+# Listed 2 contacts. EOF.

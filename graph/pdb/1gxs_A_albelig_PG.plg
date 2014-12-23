@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, INHIBITOR COMPLEX, CYANOGENESIS MECHANISM
+> pdb_mol_name > P-(S)-HYDROXYMANDELONITRILE LYASE CHAIN A
+> graphtype > albelig
+> resolution > 2.3
+> date > 11-APR-02
+> header > LYASE
+> pdb_org_common > SORGHUM
+> title > CRYSTAL STRUCTURE OF HYDROXYNITRILE LYASE FROM SORGHUMBICOLOR IN COMPLEX WITH INHIBITOR BENZOIC ACID: A NOVELCYANOGENIC ENZYME
+> format_version > 2
+> pdbid > 1gxs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SORGHUM BICOLOR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxs | A | albelig | 1 | 1 | H | 2 | 5 | A-5-  | A-8-  | QEDD 
+| 1gxs | A | albelig | 2 | 2 | E | 21 | 29 | A-24-  | A-32-  | MYGGYVTID 
+| 1gxs | A | albelig | 3 | 3 | E | 34 | 41 | A-37-  | A-44-  | RALYYWFQ 
+| 1gxs | A | albelig | 4 | 4 | H | 48 | 50 | A-51-  | A-53-  | PAA 
+| 1gxs | A | albelig | 5 | 5 | E | 53 | 58 | A-56-  | A-61-  | LVLWLN 
+| 1gxs | A | albelig | 6 | 6 | H | 66 | 74 | A-69-  | A-77-  | IGLGAMQEL 
+| 1gxs | A | albelig | 7 | 7 | E | 77 | 79 | A-80-  | A-82-  | FRV 
+| 1gxs | A | albelig | 8 | 8 | E | 86 | 88 | A-89-  | A-91-  | LLL 
+| 1gxs | A | albelig | 9 | 9 | H | 93 | 95 | A-96-  | A-98-  | WNK 
+| 1gxs | A | albelig | 10 | 10 | E | 98 | 102 | A-101-  | A-105-  | NILFA 
+| 1gxs | A | albelig | 11 | 11 | H | 116 | 119 | A-119-  | A-122-  | SSDL 
+| 1gxs | A | albelig | 12 | 12 | H | 123 | 140 | A-126-  | A-143-  | DDKMAQDTYTFLVKWFER 
+| 1gxs | A | albelig | 13 | 13 | H | 142 | 144 | A-145-  | A-147-  | PHY 
+| 1gxs | A | albelig | 14 | 14 | E | 148 | 154 | A-151-  | A-157-  | EFYIAGE 
+| 1gxs | A | albelig | 15 | 15 | H | 158 | 168 | A-161-  | A-171-  | FIPQLSQVVYR 
+| 1gxs | A | albelig | 16 | 16 | E | 177 | 184 | A-180-  | A-187-  | NFQGLLVS 
+| 1gxs | A | albelig | 17 | 17 | H | 190 | 203 | A-193-  | A-206-  | DHEDMIGMFESWWH 
+| 1gxs | A | albelig | 18 | 18 | H | 209 | 218 | A-212-  | A-221-  | DETRDSGLKV 
+| 1gxs | A | albelig | 19 | 19 | H | 229 | 241 | A-232-  | A-244-  | PENTEVWNKALAE 
+| 1gxs | A | albelig | 20 | 20 | L | 854 | 854 | A-601-  | A-601-  | J 
+| 1gxs | A | albelig | 21 | 21 | L | 855 | 855 | A-701-  | A-701-  | J 
+| 1gxs | A | albelig | 22 | 22 | L | 856 | 856 | A-1117-  | A-1117-  | J 
+| 1gxs | A | albelig | 23 | 23 | L | 857 | 857 | A-1118-  | A-1118-  | J 
+| 1gxs | A | albelig | 24 | 24 | L | 858 | 858 | A-1119-  | A-1119-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 2 = m = 12
+= 2 = l = 22
+= 3 = a = 10
+= 3 = l = 22
+= 5 = p = 10
+= 5 = p = 14
+= 5 = l = 21
+= 6 = m = 7
+= 6 = l = 21
+= 7 = a = 8
+= 12 = m = 15
+= 12 = l = 20
+= 14 = p = 16
+= 14 = l = 20
+= 14 = l = 21
+= 15 = a = 16
+= 15 = l = 20
+= 17 = a = 18
+= 18 = a = 19
+= 20 = l = 21
+= 22 = l = 23
+= 22 = l = 24
+= 23 = l = 24
+# Listed 25 contacts. EOF.

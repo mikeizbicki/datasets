@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a73, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (HOMING ENDONUCLEASE/DNA), INTRON, ZINC, DNABINDING, PROTEIN FOLDING, HYDROLASE/DNA COMPLEX
+> pdb_mol_name > INTRON 3 (I-PPO) ENCODED ENDONUCLEASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 19-MAR-98
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > INTRON-ENCODED ENDONUCLEASE I-PPOI COMPLEXED WITH DNA
+> format_version > 2
+> pdbid > 1a73
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PHYSARUM POLYCEPHALUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a73 | B | albelig | 1 | 1 | H | 167 | 181 | B-5-  | B-19-  | NAQILAVIDSWEETV 
+| 1a73 | B | albelig | 2 | 2 | E | 186 | 194 | B-24-  | B-32-  | VITHHVPLG 
+| 1a73 | B | albelig | 3 | 3 | E | 197 | 204 | B-35-  | B-42-  | LQGTLHCY 
+| 1a73 | B | albelig | 4 | 4 | E | 216 | 220 | B-54-  | B-58-  | FAKNG 
+| 1a73 | B | albelig | 5 | 5 | E | 223 | 229 | B-61-  | B-67-  | RWQYKRT 
+| 1a73 | B | albelig | 6 | 6 | E | 234 | 238 | B-72-  | B-76-  | VHRWG 
+| 1a73 | B | albelig | 7 | 7 | H | 242 | 244 | B-80-  | B-82-  | VPF 
+| 1a73 | B | albelig | 8 | 8 | E | 254 | 260 | B-92-  | B-98-  | KTCTASH 
+| 1a73 | B | albelig | 9 | 9 | H | 270 | 272 | B-108-  | B-110-  | PLH 
+| 1a73 | B | albelig | 10 | 10 | E | 273 | 277 | B-111-  | B-115-  | LCWES 
+| 1a73 | B | albelig | 11 | 11 | H | 278 | 286 | B-116-  | B-124-  | LDDNKGRNW 
+| 1a73 | B | albelig | 12 | 12 | L | 329 | 329 | B-203-  | B-203-  | J 
+| 1a73 | B | albelig | 13 | 13 | L | 330 | 330 | B-204-  | B-204-  | J 
+| 1a73 | B | albelig | 14 | 14 | L | 331 | 331 | B-206-  | B-206-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 2 = a = 3
+= 3 = l = 13
+= 4 = a = 5
+= 5 = a = 6
+= 7 = m = 10
+= 8 = m = 9
+= 8 = a = 10
+= 8 = p = 11
+= 8 = l = 14
+= 9 = m = 10
+= 9 = l = 13
+= 10 = m = 11
+= 11 = l = 12
+= 11 = l = 14
+# Listed 15 contacts. EOF.

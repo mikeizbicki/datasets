@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ayy, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOAMIDASE, SIGNAL, HYDROLASE
+> pdb_mol_name > GLYCOSYLASPARAGINASE
+> graphtype > albelig
+> resolution > 2.32
+> date > 12-NOV-97
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > GLYCOSYLASPARAGINASE
+> format_version > 2
+> pdbid > 1ayy
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ELIZABETHKINGIA MENINGOSEPTICA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ayy | C | albelig | 1 | 1 | E | 288 | 292 | C-6-  | C-10-  | IVLST 
+| 1ayy | C | albelig | 2 | 2 | H | 296 | 307 | C-14-  | C-25-  | GLHANVEAWKVL 
+| 1ayy | C | albelig | 3 | 3 | H | 313 | 326 | C-31-  | C-44-  | ALDAVEKGVRLVED 
+| 1ayy | C | albelig | 4 | 4 | E | 347 | 352 | C-65-  | C-70-  | LDACIM 
+| 1ayy | C | albelig | 5 | 5 | E | 358 | 364 | C-76-  | C-82-  | IGSVACM 
+| 1ayy | C | albelig | 6 | 6 | H | 370 | 380 | C-88-  | C-98-  | PISVARAVMEK 
+| 1ayy | C | albelig | 7 | 7 | E | 385 | 387 | C-103-  | C-105-  | MLV 
+| 1ayy | C | albelig | 8 | 8 | H | 388 | 397 | C-106-  | C-115-  | GDGALEFALS 
+| 1ayy | C | albelig | 9 | 9 | H | 408 | 421 | C-126-  | C-139-  | AESEKEWKEWLKTS 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = a = 6
+= 4 = a = 5
+= 4 = m = 6
+= 5 = a = 6
+= 5 = p = 7
+= 5 = m = 8
+= 7 = m = 8
+# Listed 8 contacts. EOF.

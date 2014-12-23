@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1igj, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG2A-KAPPA 26-10 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.5
+> date > 19-FEB-93
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > 26-10 FAB:DIGOXIN COMPLEX-AFFINITY AND SPECIFICITY DUE TOSURFACE COMPLEMENTARITY
+> format_version > 2
+> pdbid > 1igj
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1igj | D | albelig | 1 | 1 | E | 654 | 657 | D-3-  | D-6-  | QLQQ 
+| 1igj | D | albelig | 2 | 2 | E | 661 | 663 | D-10-  | D-12-  | ELV 
+| 1igj | D | albelig | 3 | 3 | E | 668 | 676 | D-17-  | D-25-  | SVRMSGKSS 
+| 1igj | D | albelig | 4 | 4 | E | 683 | 690 | D-32-  | D-39-  | FYMNWVRQ 
+| 1igj | D | albelig | 5 | 5 | E | 696 | 702 | D-45-  | D-51-  | LDYIGYI 
+| 1igj | D | albelig | 6 | 6 | E | 709 | 711 | D-57-  | D-59-  | TGY 
+| 1igj | D | albelig | 7 | 7 | H | 713 | 715 | D-61-  | D-63-  | QKF 
+| 1igj | D | albelig | 8 | 8 | E | 719 | 724 | D-67-  | D-72-  | ATLTVD 
+| 1igj | D | albelig | 9 | 9 | E | 729 | 735 | D-77-  | D-82-A | TAYMELR 
+| 1igj | D | albelig | 10 | 10 | H | 739 | 741 | D-84-  | D-86-  | SED 
+| 1igj | D | albelig | 11 | 11 | E | 743 | 751 | D-88-  | D-96-  | AVYYGAGSS 
+| 1igj | D | albelig | 12 | 12 | H | 752 | 754 | D-97-  | D-99-  | GNK 
+| 1igj | D | albelig | 13 | 13 | E | 764 | 768 | D-107-  | D-111-  | ASVTV 
+| 1igj | D | albelig | 14 | 14 | E | 777 | 781 | D-120-  | D-124-  | SVYPL 
+| 1igj | D | albelig | 15 | 15 | E | 792 | 802 | D-137-  | D-147-  | SVTLGHLVKGY 
+| 1igj | D | albelig | 16 | 16 | E | 808 | 811 | D-153-  | D-157-  | TLTW 
+| 1igj | D | albelig | 17 | 17 | H | 812 | 814 | D-162-  | D-164-  | NSG 
+| 1igj | D | albelig | 18 | 18 | E | 832 | 841 | D-185-  | D-194-  | YTLSSSVTVT 
+| 1igj | D | albelig | 19 | 19 | H | 842 | 844 | D-195-  | D-198-  | SST 
+| 1igj | D | albelig | 20 | 20 | E | 851 | 856 | D-206-  | D-212-  | THNVAH 
+| 1igj | D | albelig | 21 | 21 | H | 857 | 859 | D-213-  | D-215-  | PAS 
+| 1igj | D | albelig | 22 | 22 | E | 861 | 866 | D-217-  | D-222-  | TKVDKK 
+| 1igj | D | albelig | 23 | 23 | L | 871 | 871 | D-228-  | D-228-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 11
+= 2 = p = 13
+= 3 = a = 4
+= 3 = a = 9
+= 4 = a = 5
+= 4 = a = 11
+= 4 = l = 23
+= 5 = a = 6
+= 5 = p = 8
+= 5 = l = 23
+= 6 = a = 8
+= 8 = a = 9
+= 11 = m = 12
+= 11 = a = 13
+= 11 = l = 23
+= 14 = a = 15
+= 15 = a = 18
+= 15 = p = 20
+= 16 = m = 17
+= 16 = p = 18
+= 16 = a = 20
+= 18 = m = 19
+= 20 = m = 21
+= 20 = a = 22
+# Listed 25 contacts. EOF.

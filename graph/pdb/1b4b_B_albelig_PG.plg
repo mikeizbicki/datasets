@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b4b, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > REPRESSOR, ARGININE, CORE, OLIGOMERIZATION DOMAIN, HELIX TURN HELIX
+> pdb_mol_name > ARGININE REPRESSOR
+> graphtype > albelig
+> resolution > 2.2
+> date > 18-DEC-98
+> header > REPRESSOR
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE OLIGOMERIZATION DOMAIN OF THE ARGININE REPRESSOR FROMBACILLUS STEAROTHERMOPHILUS
+> format_version > 2
+> pdbid > 1b4b
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GEOBACILLUS STEAROTHERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b4b | B | albelig | 1 | 1 | H | 74 | 77 | B-80-  | B-83-  | LVDV 
+| 1b4b | B | albelig | 2 | 2 | E | 78 | 84 | B-84-  | B-90-  | FIKLDGT 
+| 1b4b | B | albelig | 3 | 3 | E | 87 | 92 | B-93-  | B-98-  | LLVLRT 
+| 1b4b | B | albelig | 4 | 4 | H | 97 | 107 | B-103-  | B-113-  | AHAIGVLLDNL 
+| 1b4b | B | albelig | 5 | 5 | E | 112 | 117 | B-118-  | B-123-  | IVGTIC 
+| 1b4b | B | albelig | 6 | 6 | E | 121 | 126 | B-127-  | B-132-  | TCLIIC 
+| 1b4b | B | albelig | 7 | 7 | H | 129 | 140 | B-135-  | B-146-  | PKDAKKVSNQLL 
+| 1b4b | B | albelig | 8 | 8 | L | 217 | 217 | B-1-  | B-1-  | J 
+| 1b4b | B | albelig | 9 | 9 | L | 218 | 218 | B-150-  | B-150-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 3 = a = 6
+= 3 = l = 9
+= 4 = m = 5
+= 4 = l = 8
+= 5 = a = 6
+= 5 = l = 8
+= 6 = l = 9
+# Listed 9 contacts. EOF.

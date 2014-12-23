@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hoz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROSSMANN-FOLD-LIKE MOTIF, HYDROLASE
+> pdb_mol_name > INOSINE-ADENOSINE-GUANOSINE-PREFERRING NUCLEOSIDE
+> graphtype > albelig
+> resolution > 1.6
+> date > 12-DEC-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN INOSINE-ADENOSINE-GUANOSINE-PREFERRINGNUCLEOSIDE HYDROLASE FROM TRYPANOSOMA VIVAX
+> format_version > 2
+> pdbid > 1hoz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > TRYPANOSOMA VIVAX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hoz | B | albelig | 1 | 1 | E | 321 | 327 | B-3-  | B-9-  | KNVVLDH 
+| 1hoz | B | albelig | 2 | 2 | H | 331 | 342 | B-13-  | B-24-  | LDDFVAMVLLAS 
+| 1hoz | B | albelig | 3 | 3 | E | 347 | 354 | B-29-  | B-36-  | VRLIGALC 
+| 1hoz | B | albelig | 4 | 4 | H | 361 | 379 | B-43-  | B-61-  | VENGFNVTGKIMCLMHNNM 
+| 1hoz | B | albelig | 5 | 5 | E | 386 | 388 | B-68-  | B-70-  | IGK 
+| 1hoz | B | albelig | 6 | 6 | H | 405 | 408 | B-87-  | B-90-  | AKNM 
+| 1hoz | B | albelig | 7 | 7 | H | 412 | 414 | B-94-  | B-96-  | PIL 
+| 1hoz | B | albelig | 8 | 8 | H | 417 | 430 | B-99-  | B-112-  | PENVELWDKIKAEN 
+| 1hoz | B | albelig | 9 | 9 | H | 435 | 445 | B-117-  | B-127-  | GQQLLADLVMN 
+| 1hoz | B | albelig | 10 | 10 | E | 450 | 454 | B-132-  | B-136-  | VTICV 
+| 1hoz | B | albelig | 11 | 11 | H | 459 | 468 | B-141-  | B-150-  | SNVAWCIDKY 
+| 1hoz | B | albelig | 12 | 12 | H | 470 | 473 | B-152-  | B-155-  | EKFT 
+| 1hoz | B | albelig | 13 | 13 | E | 476 | 482 | B-158-  | B-164-  | VEECVIM 
+| 1hoz | B | albelig | 14 | 14 | H | 503 | 507 | B-185-  | B-189-  | WNIYW 
+| 1hoz | B | albelig | 15 | 15 | H | 509 | 517 | B-191-  | B-199-  | PASAKTVFG 
+| 1hoz | B | albelig | 16 | 16 | E | 523 | 526 | B-205-  | B-208-  | RIMF 
+| 1hoz | B | albelig | 17 | 17 | H | 528 | 531 | B-210-  | B-213-  | LDST 
+| 1hoz | B | albelig | 18 | 18 | H | 538 | 547 | B-220-  | B-229-  | SPYVQRFGEQ 
+| 1hoz | B | albelig | 19 | 19 | H | 551 | 561 | B-233-  | B-243-  | LLSILVGTMWA 
+| 1hoz | B | albelig | 20 | 20 | H | 567 | 576 | B-260-  | B-269-  | WDALTAAYVV 
+| 1hoz | B | albelig | 21 | 21 | H | 578 | 580 | B-271-  | B-273-  | QKV 
+| 1hoz | B | albelig | 22 | 22 | E | 582 | 590 | B-275-  | B-283-  | NVDPVPIDV 
+| 1hoz | B | albelig | 23 | 23 | E | 601 | 603 | B-294-  | B-296-  | TVR 
+| 1hoz | B | albelig | 24 | 24 | E | 611 | 616 | B-304-  | B-309-  | LTFVAR 
+| 1hoz | B | albelig | 25 | 25 | H | 620 | 630 | B-313-  | B-323-  | AEFFLDMLLRS 
+| 1hoz | B | albelig | 26 | 26 | L | 642 | 642 | B-328-  | B-328-  | J 
+| 1hoz | B | albelig | 27 | 27 | L | 643 | 643 | B-1269-  | B-1269-  | J 
+| 1hoz | B | albelig | 28 | 28 | L | 644 | 644 | B-1270-  | B-1270-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 10
+= 2 = p = 4
+= 2 = p = 20
+= 2 = m = 25
+= 2 = l = 26
+= 3 = p = 5
+= 3 = m = 9
+= 4 = m = 5
+= 4 = a = 8
+= 4 = l = 28
+= 5 = m = 9
+= 5 = l = 28
+= 8 = l = 28
+= 9 = m = 11
+= 10 = p = 13
+= 11 = m = 15
+= 12 = m = 13
+= 13 = p = 16
+= 13 = m = 20
+= 14 = m = 15
+= 14 = l = 26
+= 15 = m = 22
+= 16 = p = 24
+= 16 = l = 27
+= 18 = a = 19
+= 18 = m = 25
+= 20 = m = 25
+= 20 = l = 26
+= 22 = a = 23
+= 22 = a = 24
+= 24 = l = 27
+# Listed 32 contacts. EOF.

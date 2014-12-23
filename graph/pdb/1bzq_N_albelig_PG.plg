@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bzq, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLUBULIN, ANTIBODY COMPLEX, RIBONUCLEASE,HYDROLASE/IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > PROTEIN (ANTIBODY CAB-RN05)
+> graphtype > albelig
+> resolution > 2.8
+> date > 03-NOV-98
+> header > HYDROLASE/IMMUNE SYSTEM
+> pdb_org_common > ARABIAN CAMEL
+> title > COMPLEX OF A DROMEDARY SINGLE-DOMAIN VHH ANTIBODY FRAGMENTWITH RNASE A
+> format_version > 2
+> pdbid > 1bzq
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > CAMELUS DROMEDARIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bzq | N | albelig | 1 | 1 | E | 878 | 882 | N-1403-  | N-1407-  | QLVES 
+| 1bzq | N | albelig | 2 | 2 | E | 885 | 888 | N-1410-  | N-1413-  | GLVQ 
+| 1bzq | N | albelig | 3 | 3 | E | 893 | 900 | N-1418-  | N-1425-  | LRLSTAAS 
+| 1bzq | N | albelig | 4 | 4 | E | 908 | 914 | N-1433-  | N-1439-  | YMGWFRQ 
+| 1bzq | N | albelig | 5 | 5 | E | 921 | 927 | N-1446-  | N-1452-  | EGVAAMD 
+| 1bzq | N | albelig | 6 | 6 | E | 943 | 946 | N-1468-  | N-1471-  | FTIS 
+| 1bzq | N | albelig | 7 | 7 | E | 953 | 958 | N-1478-  | N-1483-  | TVYLQM 
+| 1bzq | N | albelig | 8 | 8 | H | 963 | 965 | N-1488-  | N-1490-  | PED 
+| 1bzq | N | albelig | 9 | 9 | E | 967 | 973 | N-1492-  | N-1498-  | ATYYTAA 
+| 1bzq | N | albelig | 10 | 10 | H | 980 | 982 | N-1505-  | N-1507-  | DRT 
+| 1bzq | N | albelig | 11 | 11 | E | 990 | 995 | N-1515-  | N-1520-  | TQVTVS 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 11
+= 3 = a = 4
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 5 = p = 6
+= 6 = a = 7
+= 9 = a = 11
+# Listed 12 contacts. EOF.

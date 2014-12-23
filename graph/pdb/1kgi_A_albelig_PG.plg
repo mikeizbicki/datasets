@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PREALBUMIN, TRANSPORT, TETRAIODOTHYROACETIC ACID, THYROIDHO, TRANSPORT PROTEIN
+> pdb_mol_name > TRANSTHYRETIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 27-NOV-01
+> header > TRANSPORT PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > RAT TRANSTHYRETIN (ALSO CALLED PREALBUMIN) COMPLEX WITH 3,3',5,5'-TETRAIODOTHYROACETIC ACID (T4AC)
+> format_version > 2
+> pdbid > 1kgi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgi | A | albelig | 1 | 1 | E | 5 | 11 | A-12-  | A-18-  | LMVKVLD 
+| 1kgi | A | albelig | 2 | 2 | E | 22 | 28 | A-29-  | A-35-  | AVKVFKK 
+| 1kgi | A | albelig | 3 | 3 | E | 34 | 41 | A-41-  | A-48-  | WEPFASGK 
+| 1kgi | A | albelig | 4 | 4 | E | 60 | 66 | A-67-  | A-73-  | GVYRVEL 
+| 1kgi | A | albelig | 5 | 5 | H | 68 | 74 | A-75-  | A-81-  | TKSYWKA 
+| 1kgi | A | albelig | 6 | 6 | E | 81 | 90 | A-88-  | A-97-  | HEYAEVVFTA 
+| 1kgi | A | albelig | 7 | 7 | E | 97 | 105 | A-104-  | A-112-  | HYTIAALLS 
+| 1kgi | A | albelig | 8 | 8 | E | 108 | 116 | A-115-  | A-123-  | SYSTTAVVS 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 2 = a = 3
+= 2 = a = 4
+= 3 = a = 4
+= 4 = a = 6
+= 5 = m = 6
+= 7 = a = 8
+# Listed 7 contacts. EOF.

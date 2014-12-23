@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j84, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CARBOHYDRATE BINDING MODULE, HYDROLASE
+> pdb_mol_name > ENDO-1,4-BETA GLUCANASE ENGF
+> graphtype > albelig
+> resolution > 2.02
+> date > 20-MAY-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF FAM17 CARBOHYDRATE BINDING MODULE FROMCLOSTRIDIUM CELLULOVORANS WITH BOUND CELLOTETRAOSE
+> format_version > 2
+> pdbid > 1j84
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM CELLULOVORANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j84 | A | albelig | 1 | 1 | E | 35 | 38 | A-61-  | A-64-  | NVEN 
+| 1j84 | A | albelig | 2 | 2 | E | 43 | 46 | A-69-  | A-72-  | LKIS 
+| 1j84 | A | albelig | 3 | 3 | H | 61 | 63 | A-87-  | A-89-  | FWA 
+| 1j84 | A | albelig | 4 | 4 | E | 65 | 68 | A-91-  | A-94-  | VRIS 
+| 1j84 | A | albelig | 5 | 5 | E | 83 | 90 | A-109-  | A-116-  | KLTMDVIA 
+| 1j84 | A | albelig | 6 | 6 | E | 96 | 103 | A-122-  | A-129-  | VSIAAIPQ 
+| 1j84 | A | albelig | 7 | 7 | E | 116 | 118 | A-142-  | A-144-  | IRV 
+| 1j84 | A | albelig | 8 | 8 | H | 120 | 122 | A-146-  | A-148-  | TNN 
+| 1j84 | A | albelig | 9 | 9 | E | 131 | 138 | A-157-  | A-164-  | YKATLTIS 
+| 1j84 | A | albelig | 10 | 10 | H | 143 | 149 | A-169-  | A-175-  | PNFNTIA 
+| 1j84 | A | albelig | 11 | 11 | E | 159 | 166 | A-185-  | A-192-  | NMILFVGS 
+| 1j84 | A | albelig | 12 | 12 | E | 170 | 178 | A-196-  | A-204-  | NISLDNIKF 
+| 1j84 | A | albelig | 13 | 13 | L | 180 | 180 | A-401-  | A-401-  | J 
+| 1j84 | A | albelig | 14 | 14 | L | 181 | 181 | A-402-  | A-402-  | J 
+| 1j84 | A | albelig | 15 | 15 | L | 182 | 182 | A-403-  | A-403-  | J 
+| 1j84 | A | albelig | 16 | 16 | L | 183 | 183 | A-404-  | A-404-  | J 
+| 1j84 | A | albelig | 17 | 17 | L | 184 | 184 | A-366-  | A-366-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 12
+= 3 = l = 13
+= 4 = a = 11
+= 4 = l = 13
+= 4 = l = 14
+= 5 = a = 9
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 9
+= 6 = m = 10
+= 6 = a = 11
+= 6 = l = 15
+= 6 = l = 16
+= 7 = a = 9
+= 11 = l = 15
+= 11 = l = 16
+= 12 = l = 17
+= 13 = l = 14
+= 14 = l = 15
+= 15 = l = 16
+# Listed 21 contacts. EOF.

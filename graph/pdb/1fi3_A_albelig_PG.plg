@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fi3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C-551 FAMILY, ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME C-551
+> graphtype > albelig
+> resolution > -1.0
+> date > 03-AUG-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE M61H MUTANT OF PSEUDOMONASSTUTZERI SUBSTRAIN ZOBELL FERROCYTOCHROME C-551
+> format_version > 2
+> pdbid > 1fi3
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS STUTZERI ZOBELL
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fi3 | A | albelig | 1 | 1 | H | 2 | 9 | A-2-  | A-9-  | DGEALFKS 
+| 1fi3 | A | albelig | 2 | 2 | H | 12 | 15 | A-12-  | A-15-  | CAAC 
+| 1fi3 | A | albelig | 3 | 3 | H | 27 | 33 | A-27-  | A-33-  | LKEVAAK 
+| 1fi3 | A | albelig | 4 | 4 | H | 40 | 48 | A-40-  | A-48-  | AADTLALHI 
+| 1fi3 | A | albelig | 5 | 5 | H | 68 | 80 | A-68-  | A-80-  | EEEAKILAEWVLS 
+| 1fi3 | A | albelig | 6 | 6 | L | 83 | 83 | A-83-  | A-83-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 2 = l = 6
+= 3 = l = 6
+= 4 = l = 6
+# Listed 4 contacts. EOF.

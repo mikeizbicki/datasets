@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a4r, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, GTPASE, SIGNAL TRANSDUCTION
+> pdb_mol_name > G25K GTP-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 02-FEB-98
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > G12V MUTANT OF HUMAN PLACENTAL CDC42 GTPASE IN THE GDP FORM
+> format_version > 2
+> pdbid > 1a4r
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a4r | B | albelig | 1 | 1 | E | 193 | 201 | B-202-  | B-210-  | QTIKCVVVG 
+| 1a4r | B | albelig | 2 | 2 | H | 207 | 216 | B-216-  | B-225-  | KTCLLISYTT 
+| 1a4r | B | albelig | 3 | 3 | E | 230 | 237 | B-239-  | B-246-  | NYAVTVMI 
+| 1a4r | B | albelig | 4 | 4 | E | 240 | 247 | B-249-  | B-256-  | EPYTLGLF 
+| 1a4r | B | albelig | 5 | 5 | H | 253 | 255 | B-262-  | B-264-  | EDY 
+| 1a4r | B | albelig | 6 | 6 | H | 259 | 261 | B-268-  | B-270-  | RPL 
+| 1a4r | B | albelig | 7 | 7 | E | 268 | 274 | B-277-  | B-283-  | VFLVCFS 
+| 1a4r | B | albelig | 8 | 8 | H | 278 | 288 | B-287-  | B-297-  | PSSFENVKEKW 
+| 1a4r | B | albelig | 9 | 9 | H | 289 | 295 | B-298-  | B-304-  | VPEITHH 
+| 1a4r | B | albelig | 10 | 10 | E | 301 | 306 | B-310-  | B-315-  | FLLVGT 
+| 1a4r | B | albelig | 11 | 11 | H | 308 | 310 | B-317-  | B-319-  | IDL 
+| 1a4r | B | albelig | 12 | 12 | H | 314 | 320 | B-323-  | B-329-  | PSTIEKL 
+| 1a4r | B | albelig | 13 | 13 | H | 330 | 340 | B-339-  | B-349-  | PETAEKLARDL 
+| 1a4r | B | albelig | 14 | 14 | E | 345 | 347 | B-354-  | B-356-  | YVE 
+| 1a4r | B | albelig | 15 | 15 | H | 356 | 367 | B-365-  | B-376-  | LKNVFDEAILAA 
+| 1a4r | B | albelig | 16 | 16 | H | 372 | 374 | B-381-  | B-383-  | EPK 
+| 1a4r | B | albelig | 17 | 17 | L | 384 | 384 | B-400-  | B-400-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 2 = m = 3
+= 2 = m = 15
+= 2 = l = 17
+= 3 = a = 4
+= 7 = m = 8
+= 7 = p = 10
+= 8 = m = 9
+= 8 = p = 13
+= 10 = p = 14
+= 10 = m = 15
+= 10 = l = 17
+= 11 = l = 17
+# Listed 14 contacts. EOF.

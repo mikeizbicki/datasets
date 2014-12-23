@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hfn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHEMOKINE, CXCR4, ANATAGONIST, VMIP-II
+> pdb_mol_name > VIRAL MACROPHAGE INFLAMMATORY PROTEIN-II
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-DEC-00
+> header > CHEMOKINE
+> pdb_org_common > UNKNOWN
+> title > NMR SOLUTION STRUCTURES OF VMIP-II 1-71 FROMKAPOSI'S SARCOMA-ASSOCIATED HERPESVIRUS.
+> format_version > 2
+> pdbid > 1hfn
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN HERPESVIRUS 8
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hfn | A | albelig | 1 | 1 | E | 27 | 30 | A-27-  | A-30-  | SWYP 
+| 1hfn | A | albelig | 2 | 2 | E | 40 | 43 | A-40-  | A-43-  | VIFL 
+| 1hfn | A | albelig | 3 | 3 | E | 49 | 52 | A-49-  | A-52-  | QVNA 
+| 1hfn | A | albelig | 4 | 4 | H | 58 | 65 | A-58-  | A-65-  | WVKKLMQQ 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+# Listed 2 contacts. EOF.

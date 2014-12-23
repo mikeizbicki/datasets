@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eir, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR REPETITIONS OF BETA-ALPHA-BETA-BETA-BETA MOTIFS, OXIDOREDUCTASE
+> pdb_mol_name > 2,3-DIHYDROXYBIPHENYL-1,2-DIOXYGENASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 28-FEB-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > 2,3-DIHYDROXYBIPHENYL-1,2-DIOXYGENASE
+> format_version > 2
+> pdbid > 1eir
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eir | A | albelig | 1 | 1 | E | 4 | 12 | A-4-  | A-12-  | RLGYLGFAV 
+| 1eir | A | albelig | 2 | 2 | H | 15 | 25 | A-15-  | A-25-  | VPAWDHFLTKS 
+| 1eir | A | albelig | 3 | 3 | E | 29 | 34 | A-29-  | A-34-  | MAAGSA 
+| 1eir | A | albelig | 4 | 4 | E | 37 | 41 | A-37-  | A-41-  | AALYR 
+| 1eir | A | albelig | 5 | 5 | E | 49 | 53 | A-49-  | A-53-  | IAVQP 
+| 1eir | A | albelig | 6 | 6 | E | 58 | 65 | A-58-  | A-65-  | DLAYAGLE 
+| 1eir | A | albelig | 7 | 7 | H | 69 | 82 | A-69-  | A-82-  | AAALERMADKLRQA 
+| 1eir | A | albelig | 8 | 8 | E | 86 | 88 | A-86-  | A-88-  | FTR 
+| 1eir | A | albelig | 9 | 9 | H | 91 | 97 | A-91-  | A-97-  | EALMQQR 
+| 1eir | A | albelig | 10 | 10 | E | 101 | 106 | A-101-  | A-106-  | GLLCLQ 
+| 1eir | A | albelig | 11 | 11 | E | 112 | 117 | A-112-  | A-117-  | PLEIYY 
+| 1eir | A | albelig | 12 | 12 | H | 139 | 141 | A-139-  | A-141-  | GDQ 
+| 1eir | A | albelig | 13 | 13 | E | 145 | 149 | A-145-  | A-149-  | HFVRC 
+| 1eir | A | albelig | 14 | 14 | H | 153 | 163 | A-153-  | A-163-  | TAKAMAFYTEV 
+| 1eir | A | albelig | 15 | 15 | E | 167 | 175 | A-167-  | A-175-  | VLSDIIDIQ 
+| 1eir | A | albelig | 16 | 16 | E | 181 | 188 | A-181-  | A-188-  | SVPAHFLH 
+| 1eir | A | albelig | 17 | 17 | E | 196 | 199 | A-196-  | A-199-  | IALA 
+| 1eir | A | albelig | 18 | 18 | E | 207 | 213 | A-207-  | A-213-  | IHHFMLQ 
+| 1eir | A | albelig | 19 | 19 | H | 217 | 229 | A-217-  | A-229-  | IDDVGYAFDRLDA 
+| 1eir | A | albelig | 20 | 20 | E | 238 | 240 | A-238-  | A-240-  | GRH 
+| 1eir | A | albelig | 21 | 21 | E | 246 | 251 | A-246-  | A-251-  | LSFYAD 
+| 1eir | A | albelig | 22 | 22 | E | 258 | 263 | A-258-  | A-263-  | EVEFGW 
+| 1eir | A | albelig | 23 | 23 | E | 275 | 277 | A-275-  | A-277-  | ARH 
+| 1eir | A | albelig | 24 | 24 | E | 281 | 284 | A-281-  | A-284-  | AMWG 
+| 1eir | A | albelig | 25 | 25 | L | 290 | 290 | A-300-  | A-300-  | J 
+| 1eir | A | albelig | 26 | 26 | L | 291 | 291 | A-301-  | A-301-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = a = 6
+= 3 = a = 4
+= 4 = a = 5
+= 6 = p = 11
+= 7 = m = 8
+= 7 = p = 10
+= 8 = a = 10
+= 10 = a = 11
+= 13 = p = 17
+= 13 = a = 18
+= 13 = l = 25
+= 13 = l = 26
+= 15 = a = 16
+= 15 = p = 23
+= 15 = l = 26
+= 16 = a = 17
+= 16 = l = 26
+= 18 = p = 22
+= 18 = l = 25
+= 18 = l = 26
+= 19 = m = 21
+= 19 = m = 22
+= 20 = p = 21
+= 20 = a = 24
+= 20 = l = 25
+= 20 = l = 26
+= 21 = a = 22
+= 21 = l = 25
+= 21 = l = 26
+= 22 = l = 25
+= 22 = l = 26
+= 25 = l = 26
+# Listed 33 contacts. EOF.

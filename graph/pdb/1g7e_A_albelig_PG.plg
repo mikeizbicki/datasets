@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g7e, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALFA-BETA STRUCTURE, THIOREDOXIN FOLD, CHAPERONE
+> pdb_mol_name > ENDOPLASMIC RETICULUM PROTEIN ERP29
+> graphtype > albelig
+> resolution > -1.0
+> date > 10-NOV-00
+> header > CHAPERONE
+> pdb_org_common > NORWAY RAT
+> title > NMR STRUCTURE OF N-DOMAIN OF ERP29 PROTEIN
+> format_version > 2
+> pdbid > 1g7e
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g7e | A | albelig | 1 | 1 | H | 11 | 20 | A-43-  | A-52-  | TVTFYKVIPK 
+| 1g7e | A | albelig | 2 | 2 | E | 23 | 29 | A-55-  | A-61-  | FVLVKFD 
+| 1g7e | A | albelig | 3 | 3 | H | 39 | 50 | A-71-  | A-82-  | DEFKRLAENSAS 
+| 1g7e | A | albelig | 4 | 4 | E | 54 | 60 | A-86-  | A-92-  | LLVAEVG 
+| 1g7e | A | albelig | 5 | 5 | H | 68 | 77 | A-100-  | A-109-  | LNMELSEKYK 
+| 1g7e | A | albelig | 6 | 6 | E | 84 | 90 | A-116-  | A-122-  | PVFYLFR 
+| 1g7e | A | albelig | 7 | 7 | E | 98 | 101 | A-130-  | A-133-  | VPYS 
+| 1g7e | A | albelig | 8 | 8 | H | 106 | 114 | A-138-  | A-146-  | VGAIQRWLK 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = p = 4
+= 2 = a = 6
+= 3 = m = 4
+= 3 = m = 8
+= 6 = a = 7
+= 7 = m = 8
+# Listed 7 contacts. EOF.

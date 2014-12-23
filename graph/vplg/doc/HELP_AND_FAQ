@@ -1,0 +1,56 @@
+The VPLG FAQ
+=============
+
+This file contains tips for getting VPLG running in FAQ format.
+
+
+Q: I want to make VPLG use the database, what do I need to do?
+A: Follow these steps: 
+        1) Install and configure the postgresql database server (Package system under Linux, from the PostgreSQL website under Windows).
+        2) Create the database role (user) and the database you want VPLG to use. As the postgres user:
+ 
+	myuser@srv> su postgres           
+	postgres@srv> psql
+	  psql> CREATE ROLE cellprofiler WITH LOGIN;
+	  psql> CREATE DATABASE cellprofiler OWNER cellprofiler;
+	  psql> \q
+	postgres@srv>
+
+        3) Configure the database server, port, username and database name in the PLCC settings file in your userhome.
+        4) Run PLCC with the '--recreate-tables' command line option to make it create the proper database structure.
+   That's it, you can now make PLCC use the database by adding the '--use-database' option to the PLCC command line.
+
+Q: Where do I get PDB files?
+A: At the RCSB Protein Data Bank website, at http://www.rcsb.org/.
+
+Q: Where do I get DSSP files?
+A: At several serves listed at the DSSP website, http://swift.cmbi.ru.nl/gv/dssp/.
+
+Q: I have downloaded a new version of VPLG. When I run it, I see INFO messages that tell me a certain setting is not defined in the config file. What's up?
+A: The new version introduces a new settings that is not in your old config file. You have several options now: 1.) You ignore this. This means that the internal default value of the setting will be used and the INFO message will keep appearing. 2.) You edit your config file and add the setting and a sane value to it. This way, the messages will disappear and you will keep any changes you made to the default config file. 3.) You delete your config file. The plcc program will create a new config file the next time you run it, and this config file will have the setting listed with its default value. You will loose any changes you made to the old config file, of course.
+
+Q: I need a list of all settings available in the config file and their defaults.
+A: The list should be in the file doc/plcc_settings.txt of your plcc distribution. If not, you can generate it by running 'java -jar plcc.jar --debug 1', it will then be saved to the file '/.plcc_example_settings'. (Note that this file is NEVER parsed by plcc, so changing it has no effects.)
+
+Q: When using -u or -r, the database connection fails and I am 100% sure that the DB address (host, port, dbname) and credentials (user, password) are ok. What's wrong?
+A: You may need to get a newer JDBC driver for your JVM and PostgreSQL server version from http://jdbc.postgresql.org/. It should be a jar file and you need to copy/rename it to '/lib/postgresql-jdbc.jar', overwriting the current file. The current file is for Java 1.6 and Postgresql 8.4. The JDBC driver for Java 1.6 and PostgreSQL 9.0 is in that dir as well, all you have to do is rename it as described above. Also note that, if you are NOT using a password for your DB user and have set authentication to TRUST in pg_hba.conf for your user, the line for your user has to appear before the 'all' line!
+
+Q: I want to analyze protein-protein interactions. Is plcc the correct tool for this? 
+A: No, plcc works on the chain level and does only consider contacts between protein residues (and SSEs) of a chain and ligand contacts to this chain. Contact between different macromolecular structures (quaternary protein structure, protein-protein interactions) are ignored.
+
+Q: Which molecules (PDB records) are considered to be a ligand by plcc? 
+A: All molecules that have HETATM records, with the exception of the following solvents: water (HOH), deuterated water (DOD), methanol (MOH).
+
+Q: I want to analyze interactions between DNA/RNA and proteins. Is plcc the correct tool for this? 
+A: No, these molecules have no HETATM records (see above).
+
+Q: I have a PDB file that cannot be processed by plcc properly. The program aborts or crashes. What should I do? 
+A: If the file contains only DNA/RNA or has very few protein residues (<30), DSSP and/or plcc cannot handle the file because they were made to analyze protein secondary structure. If this is not the case for the file you can contact the author and send the file. Note that some PDB files contain funky stuff, like residues without atoms in the default location (i.e., all atoms are listed to be as 'alternate location', like the current version of 1o07.pdb, residue 400 of chain A). It may not be possible to support all exceptions and possibilities of the PDB format because my time is limited, but I'll try to support as many as possible.
+
+Q: How can I tell which version of plcc I am running? 
+A: The version is always printed when you run plcc, so running the software without any command line arguments will do.
+
+
+
+--
+ts

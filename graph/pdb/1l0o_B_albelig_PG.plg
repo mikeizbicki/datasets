@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0o, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BERGERAT FOLD, HELIX-TURN-HELIX, PROTEIN BINDING
+> pdb_mol_name > ANTI-SIGMA F FACTOR
+> graphtype > albelig
+> resolution > 2.9
+> date > 12-FEB-02
+> header > PROTEIN BINDING
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE BACILLUS STEAROTHERMOPHILUS ANTI-SIGMA FACTOR SPOIIAB WITH THE SPORULATION SIGMA FACTORSIGMAF
+> format_version > 2
+> pdbid > 1l0o
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GEOBACILLUS STEAROTHERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0o | B | albelig | 1 | 1 | E | 145 | 151 | B-3-  | B-9-  | NEMHLQF 
+| 1l0o | B | albelig | 2 | 2 | H | 158 | 172 | B-16-  | B-30-  | ESFARVTVAAFVAQL 
+| 1l0o | B | albelig | 3 | 3 | H | 176 | 197 | B-34-  | B-55-  | MDELTEIKTVVSEAVTNAIIHG 
+| 1l0o | B | albelig | 4 | 4 | E | 206 | 212 | B-64-  | B-70-  | VSISVII 
+| 1l0o | B | albelig | 5 | 5 | E | 216 | 218 | B-74-  | B-76-  | VVH 
+| 1l0o | B | albelig | 6 | 6 | E | 221 | 223 | B-79-  | B-81-  | VRD 
+| 1l0o | B | albelig | 7 | 7 | H | 231 | 234 | B-89-  | B-92-  | IEEA 
+| 1l0o | B | albelig | 8 | 8 | H | 252 | 258 | B-110-  | B-116-  | FTIMENF 
+| 1l0o | B | albelig | 9 | 9 | E | 271 | 274 | B-129-  | B-132-  | GTTV 
+| 1l0o | B | albelig | 10 | 10 | E | 277 | 279 | B-135-  | B-137-  | KKH 
+| 1l0o | B | albelig | 11 | 11 | L | 344 | 344 | B-702-  | B-702-  | J 
+| 1l0o | B | albelig | 12 | 12 | L | 345 | 345 | B-701-  | B-701-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = a = 3
+= 2 = p = 4
+= 3 = m = 6
+= 3 = a = 8
+= 3 = l = 11
+= 3 = l = 12
+= 4 = a = 5
+= 4 = p = 6
+= 5 = a = 10
+= 6 = a = 9
+= 6 = l = 12
+= 7 = l = 12
+= 8 = l = 12
+= 9 = l = 12
+= 11 = l = 12
+# Listed 17 contacts. EOF.

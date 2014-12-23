@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fdl, chain Y.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ANTIBODY-ANTIGEN)
+> pdb_mol_name > HEN EGG WHITE LYSOZYME
+> graphtype > albelig
+> resolution > 2.5
+> date > 27-AUG-90
+> header > COMPLEX (ANTIBODY-ANTIGEN)
+> pdb_org_common > CHICKEN
+> title > CRYSTALLOGRAPHIC REFINEMENT OF THE THREE-DIMENSIONALSTRUCTURE OF THE FAB D1.3-LYSOZYME COMPLEX AT 2.5-ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1fdl
+> experiment > X-RAY DIFFRACTION
+> chainid > Y
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fdl | Y | albelig | 1 | 1 | H | 439 | 448 | Y-5-  | Y-14-  | RFELAAAMKR 
+| 1fdl | Y | albelig | 2 | 2 | H | 460 | 470 | Y-26-  | Y-36-  | GNWVGAAKFES 
+| 1fdl | Y | albelig | 3 | 3 | E | 477 | 480 | Y-43-  | Y-46-  | TNRN 
+| 1fdl | Y | albelig | 4 | 4 | E | 484 | 487 | Y-50-  | Y-53-  | STDY 
+| 1fdl | Y | albelig | 5 | 5 | H | 514 | 518 | Y-80-  | Y-84-  | HSALL 
+| 1fdl | Y | albelig | 6 | 6 | H | 523 | 534 | Y-89-  | Y-100-  | TASVNIAKKIVS 
+| 1fdl | Y | albelig | 7 | 7 | H | 538 | 541 | Y-104-  | Y-107-  | GMNA 
+| 1fdl | Y | albelig | 8 | 8 | H | 545 | 548 | Y-111-  | Y-114-  | WRNR 
+| 1fdl | Y | albelig | 9 | 9 | H | 554 | 558 | Y-120-  | Y-124-  | VQAWI 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = m = 9
+= 3 = a = 4
+# Listed 3 contacts. EOF.

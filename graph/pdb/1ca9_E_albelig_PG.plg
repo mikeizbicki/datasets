@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ca9, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TNF SIGNALING, TRAF, ADAPTER PROTEIN, CELL SURVIVAL
+> pdb_mol_name > PROTEIN (TNF RECEPTOR ASSOCIATED FACTOR 2)
+> graphtype > albelig
+> resolution > 2.3
+> date > 25-FEB-99
+> header > TNF SIGNALING
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF TNF RECEPTOR ASSOCIATED FACTOR 2 IN COMPLEXWITH A PEPTIDE FROM TNF-R2
+> format_version > 2
+> pdbid > 1ca9
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ca9 | E | albelig | 1 | 1 | H | 765 | 795 | E-317-  | E-347-  | LSSKVQQLERSIGLKDLAMADLEQKVLEMEA 
+| 1ca9 | E | albelig | 2 | 2 | E | 801 | 807 | E-353-  | E-359-  | VFIWKIS 
+| 1ca9 | E | albelig | 3 | 3 | H | 809 | 817 | E-361-  | E-369-  | FARKRQEAV 
+| 1ca9 | E | albelig | 4 | 4 | E | 823 | 825 | E-375-  | E-377-  | AIF 
+| 1ca9 | E | albelig | 5 | 5 | E | 837 | 843 | E-389-  | E-395-  | KMCLRIY 
+| 1ca9 | E | albelig | 6 | 6 | H | 848 | 850 | E-400-  | E-402-  | GTG 
+| 1ca9 | E | albelig | 7 | 7 | E | 854 | 862 | E-406-  | E-414-  | HLSLFFVVM 
+| 1ca9 | E | albelig | 8 | 8 | H | 867 | 869 | E-419-  | E-421-  | DAL 
+| 1ca9 | E | albelig | 9 | 9 | E | 878 | 882 | E-430-  | E-434-  | VTLML 
+| 1ca9 | E | albelig | 10 | 10 | E | 891 | 895 | E-443-  | E-447-  | VIDAF 
+| 1ca9 | E | albelig | 11 | 11 | E | 915 | 922 | E-467-  | E-474-  | SGCPLFCP 
+| 1ca9 | E | albelig | 12 | 12 | H | 923 | 925 | E-475-  | E-477-  | VSK 
+| 1ca9 | E | albelig | 13 | 13 | E | 937 | 944 | E-489-  | E-496-  | AIFIKAIV 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 13
+= 4 = a = 5
+= 5 = a = 7
+= 7 = a = 11
+= 9 = a = 10
+= 9 = a = 11
+= 9 = a = 13
+= 11 = m = 12
+# Listed 8 contacts. EOF.

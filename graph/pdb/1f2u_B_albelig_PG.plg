@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f2u, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA DOUBLE-STRAND BREAK REPAIR, ABC-ATPASE, REPLICATION
+> pdb_mol_name > RAD50 ABC-ATPASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 29-MAY-00
+> header > REPLICATION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF RAD50 ABC-ATPASE
+> format_version > 2
+> pdbid > 1f2u
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS FURIOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f2u | B | albelig | 1 | 1 | H | 152 | 172 | B-739-  | B-759-  | LAREAALSKIGELASEIFAEF 
+| 1f2u | B | albelig | 2 | 2 | E | 179 | 184 | B-766-  | B-771-  | EVVVRA 
+| 1f2u | B | albelig | 3 | 3 | E | 189 | 195 | B-776-  | B-782-  | VRLFVVW 
+| 1f2u | B | albelig | 4 | 4 | E | 198 | 201 | B-785-  | B-788-  | KERP 
+| 1f2u | B | albelig | 5 | 5 | H | 202 | 204 | B-789-  | B-791-  | LTF 
+| 1f2u | B | albelig | 6 | 6 | H | 207 | 224 | B-794-  | B-811-  | GGERIALGLAFRLAMSLY 
+| 1f2u | B | albelig | 7 | 7 | E | 231 | 235 | B-818-  | B-822-  | LLILD 
+| 1f2u | B | albelig | 8 | 8 | H | 243 | 259 | B-830-  | B-846-  | EERRRKLITIMERYLKK 
+| 1f2u | B | albelig | 9 | 9 | E | 262 | 267 | B-849-  | B-854-  | QVILVS 
+| 1f2u | B | albelig | 10 | 10 | H | 270 | 273 | B-857-  | B-860-  | EELK 
+| 1f2u | B | albelig | 11 | 11 | E | 278 | 285 | B-865-  | B-872-  | HVIRISLE 
+| 1f2u | B | albelig | 12 | 12 | E | 288 | 293 | B-875-  | B-880-  | SSKVEV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 6
+= 1 = m = 8
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+= 6 = p = 8
+= 7 = p = 9
+= 11 = a = 12
+# Listed 9 contacts. EOF.

@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f05, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA BARREL, TRANSFERASE
+> pdb_mol_name > TRANSALDOLASE
+> graphtype > albelig
+> resolution > 2.45
+> date > 14-MAY-00
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN TRANSALDOLASE
+> format_version > 2
+> pdbid > 1f05
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f05 | A | albelig | 1 | 1 | H | 4 | 11 | A-14-  | A-21-  | ALDQLKQF 
+| 1f05 | A | albelig | 2 | 2 | E | 13 | 17 | A-23-  | A-27-  | TVVAD 
+| 1f05 | A | albelig | 3 | 3 | H | 25 | 27 | A-35-  | A-37-  | DEY 
+| 1f05 | A | albelig | 4 | 4 | E | 31 | 33 | A-41-  | A-43-  | DAT 
+| 1f05 | A | albelig | 5 | 5 | H | 36 | 43 | A-46-  | A-53-  | PSLILAAA 
+| 1f05 | A | albelig | 6 | 6 | H | 46 | 62 | A-56-  | A-72-  | PAYQELVEEAIAYGRKL 
+| 1f05 | A | albelig | 7 | 7 | H | 66 | 88 | A-76-  | A-98-  | QEDQIKNAIDKLFVLFGAEILKK 
+| 1f05 | A | albelig | 8 | 8 | E | 93 | 96 | A-103-  | A-106-  | VSTE 
+| 1f05 | A | albelig | 9 | 9 | H | 99 | 101 | A-109-  | A-111-  | ARL 
+| 1f05 | A | albelig | 10 | 10 | H | 105 | 121 | A-115-  | A-131-  | KDAMVARARRLIELYKE 
+| 1f05 | A | albelig | 11 | 11 | H | 126 | 128 | A-136-  | A-138-  | KDR 
+| 1f05 | A | albelig | 12 | 12 | E | 129 | 134 | A-139-  | A-144-  | ILIKLS 
+| 1f05 | A | albelig | 13 | 13 | H | 137 | 150 | A-147-  | A-160-  | WEGIQAGKELEEQH 
+| 1f05 | A | albelig | 14 | 14 | E | 154 | 159 | A-164-  | A-169-  | CNMTLL 
+| 1f05 | A | albelig | 15 | 15 | H | 162 | 170 | A-172-  | A-180-  | FAQAVACAE 
+| 1f05 | A | albelig | 16 | 16 | E | 175 | 178 | A-185-  | A-188-  | LISP 
+| 1f05 | A | albelig | 17 | 17 | H | 181 | 190 | A-191-  | A-200-  | GRILDWHVAN 
+| 1f05 | A | albelig | 18 | 18 | H | 198 | 200 | A-208-  | A-210-  | PLE 
+| 1f05 | A | albelig | 19 | 19 | H | 202 | 216 | A-212-  | A-226-  | PGVKSVTKIYNYYKK 
+| 1f05 | A | albelig | 20 | 20 | E | 222 | 225 | A-232-  | A-235-  | IVMG 
+| 1f05 | A | albelig | 21 | 21 | H | 231 | 235 | A-241-  | A-245-  | TGEIK 
+| 1f05 | A | albelig | 22 | 22 | E | 242 | 245 | A-252-  | A-255-  | FLTI 
+| 1f05 | A | albelig | 23 | 23 | H | 247 | 255 | A-257-  | A-265-  | PKLLGELLQ 
+| 1f05 | A | albelig | 24 | 24 | H | 266 | 271 | A-276-  | A-281-  | AKAAQA 
+| 1f05 | A | albelig | 25 | 25 | H | 281 | 289 | A-291-  | A-299-  | EKSFRWLHN 
+| 1f05 | A | albelig | 26 | 26 | H | 292 | 320 | A-302-  | A-330-  | QMAVEKLSDGIRKFAADAVKLERMLTERM 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 22
+= 4 = p = 8
+= 5 = m = 26
+= 6 = a = 7
+= 6 = m = 10
+= 6 = m = 26
+= 7 = m = 8
+= 7 = p = 10
+= 7 = a = 26
+= 8 = p = 12
+= 10 = p = 13
+= 11 = m = 12
+= 12 = p = 14
+= 13 = m = 14
+= 13 = m = 25
+= 14 = m = 15
+= 14 = p = 16
+= 15 = m = 19
+= 15 = m = 25
+= 16 = p = 20
+= 17 = m = 19
+= 17 = m = 26
+= 18 = m = 19
+= 20 = p = 22
+= 21 = m = 23
+= 25 = m = 26
+# Listed 27 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ixr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HETEROOLIGOMERIC COMPLEX, OCTAMERIC RUVA, AAA-ATPASE DOMAIN,COMPLEX WITH NUCLEOTIDE, HYDROLASE
+> pdb_mol_name > HOLLIDAY JUNCTION DNA HELICASE RUVA
+> graphtype > albelig
+> resolution > 3.3
+> date > 04-JUL-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > RUVA-RUVB COMPLEX
+> format_version > 2
+> pdbid > 1ixr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ixr | A | albelig | 1 | 1 | E | 4 | 12 | A-4-  | A-12-  | YLRGLVLKK 
+| 1ixr | A | albelig | 2 | 2 | E | 16 | 20 | A-16-  | A-20-  | GFVLL 
+| 1ixr | A | albelig | 3 | 3 | E | 24 | 29 | A-24-  | A-29-  | VGFFLQ 
+| 1ixr | A | albelig | 4 | 4 | H | 32 | 37 | A-32-  | A-37-  | TPFLQA 
+| 1ixr | A | albelig | 5 | 5 | E | 43 | 48 | A-43-  | A-48-  | EVGVHT 
+| 1ixr | A | albelig | 6 | 6 | E | 59 | 62 | A-59-  | A-62-  | LYGF 
+| 1ixr | A | albelig | 7 | 7 | H | 65 | 75 | A-65-  | A-75-  | EENLALFELLL 
+| 1ixr | A | albelig | 8 | 8 | H | 82 | 91 | A-82-  | A-91-  | PKVALALLSA 
+| 1ixr | A | albelig | 9 | 9 | H | 94 | 102 | A-94-  | A-102-  | PRLLARALL 
+| 1ixr | A | albelig | 10 | 10 | H | 106 | 109 | A-106-  | A-109-  | ARLL 
+| 1ixr | A | albelig | 11 | 11 | H | 117 | 127 | A-117-  | A-127-  | RRLAERIALEL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = p = 6
+= 5 = a = 6
+= 6 = m = 7
+= 7 = a = 8
+# Listed 7 contacts. EOF.

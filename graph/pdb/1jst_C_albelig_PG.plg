@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jst, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (PROTEIN KINASE-CYCLIN), CYCLIN, CDK, PHOSPHORYLATION,COMPLEX (PROTEIN KINASE-CYCLIN) COMPLEX
+> pdb_mol_name > CYCLIN-DEPENDENT KINASE-2
+> graphtype > albelig
+> resolution > 2.6
+> date > 03-JUL-96
+> header > COMPLEX (PROTEIN KINASE/CYCLIN)
+> pdb_org_common > HUMAN
+> title > PHOSPHORYLATED CYCLIN-DEPENDENT KINASE-2 BOUND TO CYCLIN A
+> format_version > 2
+> pdbid > 1jst
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jst | C | albelig | 1 | 1 | E | 562 | 567 | C-4-  | C-9-  | FQKVEK 
+| 1jst | C | albelig | 2 | 2 | E | 577 | 581 | C-19-  | C-23-  | YKARN 
+| 1jst | C | albelig | 3 | 3 | E | 587 | 594 | C-29-  | C-36-  | VVALKKIR 
+| 1jst | C | albelig | 4 | 4 | H | 604 | 613 | C-46-  | C-55-  | STAIREISLL 
+| 1jst | C | albelig | 5 | 5 | E | 624 | 629 | C-66-  | C-71-  | LLDVIH 
+| 1jst | C | albelig | 6 | 6 | E | 633 | 639 | C-75-  | C-81-  | KLYLVFE 
+| 1jst | C | albelig | 7 | 7 | H | 645 | 651 | C-87-  | C-93-  | LKKFMDA 
+| 1jst | C | albelig | 8 | 8 | H | 659 | 677 | C-101-  | C-119-  | LPLIKSYLFQLLQGLAFCH 
+| 1jst | C | albelig | 9 | 9 | H | 688 | 690 | C-130-  | C-132-  | PQN 
+| 1jst | C | albelig | 10 | 10 | E | 691 | 693 | C-133-  | C-135-  | LLI 
+| 1jst | C | albelig | 11 | 11 | E | 699 | 701 | C-141-  | C-143-  | IKL 
+| 1jst | C | albelig | 12 | 12 | H | 724 | 726 | C-166-  | C-168-  | LWY 
+| 1jst | C | albelig | 13 | 13 | H | 729 | 732 | C-171-  | C-174-  | PEIL 
+| 1jst | C | albelig | 14 | 14 | H | 741 | 755 | C-183-  | C-197-  | AVDIWSLGCIFAEMV 
+| 1jst | C | albelig | 15 | 15 | H | 766 | 777 | C-208-  | C-219-  | EIDQLFRIFRTL 
+| 1jst | C | albelig | 16 | 16 | H | 788 | 790 | C-230-  | C-232-  | VTS 
+| 1jst | C | albelig | 17 | 17 | H | 806 | 809 | C-248-  | C-251-  | FSKV 
+| 1jst | C | albelig | 18 | 18 | H | 815 | 824 | C-257-  | C-266-  | EDGRSLLSQM 
+| 1jst | C | albelig | 19 | 19 | H | 829 | 831 | C-271-  | C-273-  | PNK 
+| 1jst | C | albelig | 20 | 20 | H | 835 | 840 | C-277-  | C-282-  | AKAALA 
+| 1jst | C | albelig | 21 | 21 | H | 842 | 846 | C-284-  | C-288-  | PFFQD 
+| 1jst | C | albelig | 22 | 22 | L | 1120 | 1120 | C-299-  | C-299-  | J 
+| 1jst | C | albelig | 23 | 23 | L | 1121 | 1121 | C-300-  | C-300-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 6
+= 3 = l = 23
+= 4 = m = 6
+= 4 = l = 23
+= 5 = a = 6
+= 6 = l = 23
+= 7 = l = 23
+= 8 = m = 11
+= 8 = a = 14
+= 8 = m = 20
+= 8 = m = 21
+= 9 = m = 10
+= 9 = l = 22
+= 9 = l = 23
+= 10 = a = 11
+= 10 = l = 23
+= 12 = m = 14
+= 14 = a = 18
+= 18 = m = 21
+= 22 = l = 23
+# Listed 22 contacts. EOF.

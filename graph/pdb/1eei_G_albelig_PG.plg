@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eei, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN,ENTEROTOXIN
+> pdb_mol_name > PROTEIN (CHOLERA TOXIN B)
+> graphtype > albelig
+> resolution > 2.0
+> date > 31-JAN-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > CHOLERA TOXIN B-PENTAMER COMPLEXED WITH METANITROPHENYL-ALPHA-D-GALACTOSE
+> format_version > 2
+> pdbid > 1eei
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > VIBRIO CHOLERAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eei | G | albelig | 1 | 1 | H | 317 | 321 | G-5-  | G-9-  | ITDLD 
+| 1eei | G | albelig | 2 | 2 | E | 327 | 334 | G-15-  | G-22-  | TQIHTLND 
+| 1eei | G | albelig | 3 | 3 | E | 338 | 342 | G-26-  | G-30-  | SYTES 
+| 1eei | G | albelig | 4 | 4 | E | 350 | 353 | G-38-  | G-41-  | AIIT 
+| 1eei | G | albelig | 5 | 5 | E | 359 | 362 | G-47-  | G-50-  | TFQV 
+| 1eei | G | albelig | 6 | 6 | H | 371 | 390 | G-59-  | G-78-  | DSQKKAIERMKDTLRIAYLT 
+| 1eei | G | albelig | 7 | 7 | E | 394 | 400 | G-82-  | G-88-  | VEKLDVW 
+| 1eei | G | albelig | 8 | 8 | E | 406 | 414 | G-94-  | G-102-  | HAIAAISMA 
+| 1eei | G | albelig | 9 | 9 | L | 523 | 523 | G-507-  | G-507-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 7
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = p = 8
+= 6 = m = 8
+= 6 = l = 9
+= 7 = a = 8
+= 7 = l = 9
+# Listed 10 contacts. EOF.

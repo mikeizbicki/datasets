@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c3g, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA SHEETS, SHORT HELICES, CHAPERONE
+> pdb_mol_name > HEAT SHOCK PROTEIN 40
+> graphtype > albelig
+> resolution > 2.7
+> date > 27-JUL-99
+> header > CHAPERONE
+> pdb_org_common > BAKER'S YEAST
+> title > S. CEREVISIAE HEAT SHOCK PROTEIN 40 SIS1
+> format_version > 2
+> pdbid > 1c3g
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c3g | A | albelig | 1 | 1 | E | 2 | 9 | A-181-  | A-188-  | TVQVNLPV 
+| 1c3g | A | albelig | 2 | 2 | H | 11 | 16 | A-190-  | A-195-  | LEDLFV 
+| 1c3g | A | albelig | 3 | 3 | E | 19 | 28 | A-198-  | A-207-  | KKSFKIGRKG 
+| 1c3g | A | albelig | 4 | 4 | E | 32 | 41 | A-211-  | A-220-  | ASEKTQIDIQ 
+| 1c3g | A | albelig | 5 | 5 | E | 51 | 54 | A-230-  | A-233-  | KITY 
+| 1c3g | A | albelig | 6 | 6 | E | 69 | 76 | A-248-  | A-255-  | TLQFVIQE 
+| 1c3g | A | albelig | 7 | 7 | E | 82 | 85 | A-261-  | A-264-  | FKRD 
+| 1c3g | A | albelig | 8 | 8 | E | 88 | 93 | A-267-  | A-272-  | DLIYTL 
+| 1c3g | A | albelig | 9 | 9 | H | 97 | 102 | A-276-  | A-281-  | FKESLL 
+| 1c3g | A | albelig | 10 | 10 | E | 104 | 109 | A-283-  | A-288-  | FSKTIQ 
+| 1c3g | A | albelig | 11 | 11 | E | 115 | 120 | A-294-  | A-299-  | TLPLSR 
+| 1c3g | A | albelig | 12 | 12 | E | 129 | 131 | A-308-  | A-310-  | TST 
+| 1c3g | A | albelig | 13 | 13 | E | 149 | 153 | A-328-  | A-332-  | LIVKY 
+| 1c3g | A | albelig | 14 | 14 | H | 165 | 168 | A-344-  | A-347-  | QKRA 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 6
+= 3 = a = 4
+= 5 = a = 6
+= 7 = a = 8
+= 8 = p = 13
+= 10 = a = 11
+= 12 = a = 13
+# Listed 7 contacts. EOF.

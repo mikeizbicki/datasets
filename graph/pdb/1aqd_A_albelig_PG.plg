@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aqd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (MHC PROTEIN/ANTIGEN), HISTOCOMPATIBILITY ANTIGEN
+> pdb_mol_name > HLA-DR1 CLASS II HISTOCOMPATIBILITY PROTEIN
+> graphtype > albelig
+> resolution > 2.45
+> date > 28-JUL-97
+> header > COMPLEX (MHC PROTEIN/ANTIGEN)
+> pdb_org_common > HUMAN
+> title > HLA-DR1 (DRA, DRB1 0101) HUMAN CLASS II HISTOCOMPATIBILITYPROTEIN (EXTRACELLULAR DOMAIN) COMPLEXED WITH ENDOGENOUSPEPTIDE
+> format_version > 2
+> pdbid > 1aqd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aqd | A | albelig | 1 | 1 | E | 3 | 13 | A-5-  | A-15-  | HVIIQAEFYLN 
+| 1aqd | A | albelig | 2 | 2 | E | 17 | 24 | A-19-  | A-26-  | SGEFMFDF 
+| 1aqd | A | albelig | 3 | 3 | E | 27 | 33 | A-29-  | A-35-  | DEIFHVD 
+| 1aqd | A | albelig | 4 | 4 | E | 38 | 41 | A-40-  | A-43-  | ETVW 
+| 1aqd | A | albelig | 5 | 5 | H | 44 | 46 | A-46-  | A-48-  | EEF 
+| 1aqd | A | albelig | 6 | 6 | H | 55 | 74 | A-57-  | A-76-  | QGALANIAVDKANLEIMTKR 
+| 1aqd | A | albelig | 7 | 7 | E | 86 | 91 | A-88-  | A-93-  | EVTVLT 
+| 1aqd | A | albelig | 8 | 8 | E | 101 | 110 | A-103-  | A-112-  | NVLIAFIDKF 
+| 1aqd | A | albelig | 9 | 9 | E | 116 | 121 | A-118-  | A-123-  | NVTWLR 
+| 1aqd | A | albelig | 10 | 10 | E | 124 | 126 | A-126-  | A-128-  | KPV 
+| 1aqd | A | albelig | 11 | 11 | E | 143 | 151 | A-145-  | A-153-  | FRKFHYLPF 
+| 1aqd | A | albelig | 12 | 12 | E | 159 | 164 | A-161-  | A-166-  | YDARVE 
+| 1aqd | A | albelig | 13 | 13 | E | 172 | 176 | A-174-  | A-178-  | LLKHW 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = a = 3
+= 3 = a = 4
+= 7 = a = 8
+= 7 = p = 13
+= 8 = a = 9
+= 8 = a = 11
+= 8 = p = 12
+= 9 = a = 10
+= 9 = p = 11
+= 9 = a = 12
+= 12 = a = 13
+# Listed 13 contacts. EOF.

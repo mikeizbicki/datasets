@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cm3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOTRANSFERASE, TRANSFERASE
+> pdb_mol_name > HISTIDINE-CONTAINING PROTEIN
+> graphtype > albelig
+> resolution > 1.6
+> date > 13-MAY-99
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > HIS15ASP HPR FROM E. COLI
+> format_version > 2
+> pdbid > 1cm3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cm3 | A | albelig | 1 | 1 | E | 2 | 7 | A-2-  | A-7-  | FQQEVT 
+| 1cm3 | A | albelig | 2 | 2 | H | 16 | 27 | A-16-  | A-27-  | TRPAAQFVKEAK 
+| 1cm3 | A | albelig | 3 | 3 | E | 32 | 37 | A-32-  | A-37-  | EITVTS 
+| 1cm3 | A | albelig | 4 | 4 | E | 40 | 43 | A-40-  | A-43-  | KSAS 
+| 1cm3 | A | albelig | 5 | 5 | H | 47 | 50 | A-47-  | A-50-  | LFKL 
+| 1cm3 | A | albelig | 6 | 6 | E | 60 | 66 | A-60-  | A-66-  | VVTISAE 
+| 1cm3 | A | albelig | 7 | 7 | H | 70 | 83 | A-70-  | A-83-  | EQKAVEHLVKLMAE 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = p = 7
+= 2 = m = 7
+= 3 = a = 4
+= 3 = a = 6
+= 6 = a = 7
+# Listed 6 contacts. EOF.

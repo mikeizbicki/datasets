@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i4d, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COILED COIL, G-PROTEIN, COMPLEX, SIGNALING PROTEIN
+> pdb_mol_name > ARFAPTIN 2
+> graphtype > albelig
+> resolution > 2.5
+> date > 20-FEB-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF RAC1-GDP COMPLEXED WITHARFAPTIN (P21)
+> format_version > 2
+> pdbid > 1i4d
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i4d | A | albelig | 1 | 1 | H | 6 | 55 | A-28-  | A-77-  | LELELQIELLRETKRKYESVLQLGRALTAHLYSLLQTQHALGDAFADLSQ 
+| 1i4d | A | albelig | 2 | 2 | H | 58 | 97 | A-80-  | A-119-  | PELQEEFGYNAETQKLLCKNGETLLGAVNFFVSSINTLVT 
+| 1i4d | A | albelig | 3 | 3 | H | 99 | 127 | A-121-  | A-149-  | TMEDTLMTVKQYEAARLEYDAYRTDLEEL 
+| 1i4d | A | albelig | 4 | 4 | H | 131 | 187 | A-164-  | A-220-  | SAQATFQAHRDKYEKLRGDVAIKLKFLEENKIKVMHKQLLLFHNAVSAYFAGNQKQL 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = p = 4
+= 2 = a = 4
+= 3 = a = 4
+# Listed 5 contacts. EOF.

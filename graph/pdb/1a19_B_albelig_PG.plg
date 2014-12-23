@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a19, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BARSTAR, C82A, DIMER, UNCOMPLEXED, RIBONUCLEASE INHIBITOR
+> pdb_mol_name > BARSTAR
+> graphtype > albelig
+> resolution > 2.76
+> date > 25-DEC-97
+> header > RIBONUCLEASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > BARSTAR (FREE), C82A MUTANT
+> format_version > 2
+> pdbid > 1a19
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a19 | B | albelig | 1 | 1 | E | 92 | 96 | B-2-  | B-6-  | KAVIN 
+| 1a19 | B | albelig | 2 | 2 | H | 103 | 113 | B-13-  | B-23-  | ISDLHQTLKKE 
+| 1a19 | B | albelig | 3 | 3 | H | 124 | 131 | B-34-  | B-41-  | LDALWDCL 
+| 1a19 | B | albelig | 4 | 4 | E | 139 | 144 | B-49-  | B-54-  | LVLEWR 
+| 1a19 | B | albelig | 5 | 5 | H | 146 | 151 | B-56-  | B-61-  | FEQSKQ 
+| 1a19 | B | albelig | 6 | 6 | H | 157 | 170 | B-67-  | B-80-  | AESVLQVFREAKAE 
+| 1a19 | B | albelig | 7 | 7 | E | 174 | 178 | B-84-  | B-88-  | ITIIL 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 3 = m = 6
+= 4 = p = 7
+# Listed 3 contacts. EOF.

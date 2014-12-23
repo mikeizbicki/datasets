@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j8h, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PROTEIN COMPLEX, IMMUNOGLOBULIN FOLD, IMMUNE SYSTEM
+> pdb_mol_name > T-CELL RECEPTOR BETA CHAIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 21-MAY-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A COMPLEX OF A HUMAN ALPHA/BETA-T CELL RECEPTOR,INFLUENZA HA ANTIGEN PEPTIDE, AND MHC CLASS II MOLECULE, HLA-DR4
+> format_version > 2
+> pdbid > 1j8h
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j8h | E | albelig | 1 | 1 | E | 580 | 582 | E-4-  | E-6-  | VTQ 
+| 1j8h | E | albelig | 2 | 2 | E | 586 | 590 | E-10-  | E-14-  | YLVKR 
+| 1j8h | E | albelig | 3 | 3 | E | 595 | 597 | E-19-  | E-21-  | VFL 
+| 1j8h | E | albelig | 4 | 4 | E | 599 | 601 | E-23-  | E-25-  | FVQ 
+| 1j8h | E | albelig | 5 | 5 | E | 607 | 614 | E-31-  | E-38-  | NMFWYRQD 
+| 1j8h | E | albelig | 6 | 6 | E | 618 | 625 | E-42-  | E-49-  | GLRLIYFS 
+| 1j8h | E | albelig | 7 | 7 | E | 640 | 643 | E-65-  | E-68-  | YSVS 
+| 1j8h | E | albelig | 8 | 8 | E | 651 | 654 | E-76-  | E-79-  | SLIL 
+| 1j8h | E | albelig | 9 | 9 | H | 659 | 661 | E-84-  | E-86-  | TNQ 
+| 1j8h | E | albelig | 10 | 10 | E | 663 | 670 | E-88-  | E-95-  | SMYLFASS 
+| 1j8h | E | albelig | 11 | 11 | E | 684 | 689 | E-112-  | E-117-  | TRLTVV 
+| 1j8h | E | albelig | 12 | 12 | H | 692 | 694 | E-120-  | E-122-  | LNK 
+| 1j8h | E | albelig | 13 | 13 | E | 699 | 703 | E-127-  | E-131-  | EVAVF 
+| 1j8h | E | albelig | 14 | 14 | H | 707 | 713 | E-135-  | E-141-  | EAEISHT 
+| 1j8h | E | albelig | 15 | 15 | E | 715 | 725 | E-143-  | E-153-  | KATLVGLATGF 
+| 1j8h | E | albelig | 16 | 16 | E | 730 | 736 | E-158-  | E-164-  | VELSWWV 
+| 1j8h | E | albelig | 17 | 17 | E | 739 | 741 | E-167-  | E-169-  | KEV 
+| 1j8h | E | albelig | 18 | 18 | E | 745 | 747 | E-173-  | E-175-  | VST 
+| 1j8h | E | albelig | 19 | 19 | E | 763 | 772 | E-191-  | E-200-  | YSLSSRLRVS 
+| 1j8h | E | albelig | 20 | 20 | H | 773 | 776 | E-201-  | E-204-  | ATFW 
+| 1j8h | E | albelig | 21 | 21 | E | 782 | 789 | E-210-  | E-217-  | HFRGQVQF 
+| 1j8h | E | albelig | 22 | 22 | E | 808 | 815 | E-236-  | E-243-  | QIVSAEAW 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 10
+= 2 = p = 11
+= 3 = a = 8
+= 4 = p = 10
+= 5 = a = 6
+= 5 = a = 10
+= 6 = p = 7
+= 7 = a = 8
+= 10 = a = 11
+= 13 = a = 15
+= 13 = p = 22
+= 14 = m = 15
+= 15 = a = 19
+= 15 = m = 20
+= 15 = p = 21
+= 16 = a = 17
+= 16 = p = 19
+= 16 = a = 21
+= 18 = a = 19
+= 19 = m = 20
+= 21 = a = 22
+# Listed 22 contacts. EOF.

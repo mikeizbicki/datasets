@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA AND BETA PROTEINS, CYSTATIN-LIKE FOLD,CYSTATIN/MONELLIN SUPERFAMILY, PHYTOCYSTATIN FAMILY,HYDROLASE INHIBITOR
+> pdb_mol_name > ORYZACYSTATIN-I
+> graphtype > albelig
+> resolution > -1.0
+> date > 05-APR-00
+> header > HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF ORYZACYSTATIN-I, A CYSTEINEPROTEINASE INHIBITOR OF THE RICE, ORYZA SATIVA L. JAPONICA
+> format_version > 2
+> pdbid > 1eqk
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ORYZA SATIVA JAPONICA GROUP
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqk | A | albelig | 1 | 1 | E | 13 | 15 | A-13-  | A-15-  | EPV 
+| 1eqk | A | albelig | 2 | 2 | H | 21 | 37 | A-21-  | A-37-  | LHLVDLARFAVTEHNKK 
+| 1eqk | A | albelig | 3 | 3 | E | 42 | 54 | A-42-  | A-54-  | LEFEKLVSVKQQV 
+| 1eqk | A | albelig | 4 | 4 | E | 58 | 68 | A-58-  | A-68-  | TLYYFTIEVKE 
+| 1eqk | A | albelig | 5 | 5 | E | 73 | 81 | A-73-  | A-81-  | KLYEAKVWE 
+| 1eqk | A | albelig | 6 | 6 | E | 90 | 94 | A-90-  | A-94-  | LQEFK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 5
+= 2 = m = 6
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+# Listed 6 contacts. EOF.

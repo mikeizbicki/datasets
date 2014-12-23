@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jyi, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, SUGAR BINDING PROTEIN
+> pdb_mol_name > CONCANAVALIN A
+> graphtype > albelig
+> resolution > 2.75
+> date > 12-SEP-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > JACK BEAN
+> title > CONCANAVALIN A/12-MER PEPTIDE COMPLEX
+> format_version > 2
+> pdbid > 1jyi
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jyi | C | albelig | 1 | 1 | E | 480 | 486 | C-4-  | C-10-  | IVAVELD 
+| 1jyi | C | albelig | 2 | 2 | H | 491 | 493 | C-15-  | C-17-  | TDI 
+| 1jyi | C | albelig | 3 | 3 | E | 500 | 505 | C-24-  | C-29-  | HIGIDI 
+| 1jyi | C | albelig | 4 | 4 | E | 512 | 515 | C-36-  | C-39-  | KTAK 
+| 1jyi | C | albelig | 5 | 5 | E | 523 | 531 | C-47-  | C-55-  | VGTAHIIYN 
+| 1jyi | C | albelig | 6 | 6 | E | 536 | 542 | C-60-  | C-66-  | RLSAVVS 
+| 1jyi | C | albelig | 7 | 7 | E | 548 | 554 | C-72-  | C-78-  | SATVSYD 
+| 1jyi | C | albelig | 8 | 8 | H | 557 | 559 | C-81-  | C-83-  | LDN 
+| 1jyi | C | albelig | 9 | 9 | E | 564 | 573 | C-88-  | C-97-  | WVRVGLSAST 
+| 1jyi | C | albelig | 10 | 10 | E | 581 | 593 | C-105-  | C-117-  | TILSWSFTSKLKS 
+| 1jyi | C | albelig | 11 | 11 | E | 600 | 606 | C-124-  | C-130-  | NALHFMF 
+| 1jyi | C | albelig | 12 | 12 | E | 616 | 620 | C-140-  | C-144-  | LILQG 
+| 1jyi | C | albelig | 13 | 13 | E | 645 | 651 | C-169-  | C-175-  | SVGRALF 
+| 1jyi | C | albelig | 14 | 14 | E | 662 | 674 | C-186-  | C-198-  | AVVASFEATFTFL 
+| 1jyi | C | albelig | 15 | 15 | E | 685 | 691 | C-209-  | C-215-  | GIAFFIS 
+| 1jyi | C | albelig | 16 | 16 | H | 703 | 705 | C-227-  | C-229-  | GRL 
+| 1jyi | C | albelig | 17 | 17 | L | 1008 | 1008 | C-405-  | C-405-  | J 
+| 1jyi | C | albelig | 18 | 18 | L | 1009 | 1009 | C-406-  | C-406-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 15
+= 1 = l = 17
+= 1 = l = 18
+= 3 = a = 4
+= 3 = p = 7
+= 3 = l = 17
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 14
+= 6 = a = 7
+= 9 = a = 13
+= 9 = a = 15
+= 9 = m = 16
+= 10 = a = 11
+= 10 = a = 14
+= 12 = a = 13
+= 14 = a = 15
+= 16 = l = 18
+= 17 = l = 18
+# Listed 20 contacts. EOF.

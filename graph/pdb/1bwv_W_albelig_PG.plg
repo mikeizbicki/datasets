@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bwv, chain W.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CARBON DIOXIDE FIXATION, COMPLEX (RUBISCO-REACTION INTERMEDIATE),HIGH SPECIFICITY FACTOR, LYASE
+> pdb_mol_name > PROTEIN (RIBULOSE BISPHOSPHATE CARBOXYLASE)
+> graphtype > albelig
+> resolution > 2.4
+> date > 29-SEP-98
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > ACTIVATED RIBULOSE 1,5-BISPHOSPHATE CARBOXYLASE/OXYGENASE (RUBISCO)COMPLEXED WITH THE REACTION INTERMEDIATE ANALOGUE 2-CARBOXYARABINITOL1,5-BISPHOSPHATE
+> format_version > 2
+> pdbid > 1bwv
+> experiment > X-RAY DIFFRACTION
+> chainid > W
+> graphclass > protein graph
+> pdb_org_sci > GALDIERIA PARTITA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bwv | W | albelig | 1 | 1 | H | 1713 | 1725 | W-23-  | W-35-  | DEQIKKQIDYMIS 
+| 1bwv | W | albelig | 2 | 2 | E | 1729 | 1735 | W-39-  | W-45-  | AIGIEYT 
+| 1bwv | W | albelig | 3 | 3 | H | 1758 | 1771 | W-80-  | W-93-  | PAAVLFEINACRKA 
+| 1bwv | W | albelig | 4 | 4 | E | 1776 | 1783 | W-98-  | W-105-  | YIKVVGFS 
+| 1bwv | W | albelig | 5 | 5 | E | 1790 | 1798 | W-110-  | W-118-  | STIISFIVN 
+| 1bwv | W | albelig | 6 | 6 | E | 1806 | 1812 | W-126-  | W-132-  | FNLMRQE 
+| 1bwv | W | albelig | 7 | 7 | E | 1818 | 1824 | W-138-  | W-144-  | IKYTIHS 
+| 1bwv | W | albelig | 8 | 8 | H | 1825 | 1828 | W-145-  | W-148-  | YESY 
+| 1bwv | W | albelig | 9 | 9 | H | 1831 | 1833 | W-151-  | W-153-  | EDE 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 5
+= 2 = a = 4
+= 4 = a = 5
+= 6 = a = 7
+= 7 = m = 8
+# Listed 6 contacts. EOF.

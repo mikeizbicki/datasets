@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kh8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNASE A, RIBONUCLEASE A, PROLINE, CIS, TRANS, CESIUM,HYDROLASE
+> pdb_mol_name > PANCREATIC RIBONUCLEASE A
+> graphtype > albelig
+> resolution > 2.0
+> date > 29-NOV-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > STRUCTURE OF A CIS-PROLINE (P114) TO GLYCINE VARIANT OFRIBONUCLEASE A
+> format_version > 2
+> pdbid > 1kh8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kh8 | A | albelig | 1 | 1 | H | 5 | 13 | A-4-  | A-12-  | AAAKFERQH 
+| 1kh8 | A | albelig | 2 | 2 | H | 26 | 33 | A-25-  | A-32-  | YANQMMKS 
+| 1kh8 | A | albelig | 3 | 3 | E | 44 | 48 | A-43-  | A-47-  | VNTFV 
+| 1kh8 | A | albelig | 4 | 4 | H | 52 | 60 | A-51-  | A-59-  | LADVQAVCS 
+| 1kh8 | A | albelig | 5 | 5 | E | 62 | 64 | A-61-  | A-63-  | KNV 
+| 1kh8 | A | albelig | 6 | 6 | E | 73 | 75 | A-72-  | A-74-  | DYQ 
+| 1kh8 | A | albelig | 7 | 7 | E | 80 | 87 | A-79-  | A-86-  | MSITDARE 
+| 1kh8 | A | albelig | 8 | 8 | E | 98 | 105 | A-97-  | A-104-  | YKTTQANK 
+| 1kh8 | A | albelig | 9 | 9 | E | 107 | 111 | A-106-  | A-110-  | IIVAC 
+| 1kh8 | A | albelig | 10 | 10 | H | 112 | 114 | A-111-  | A-113-  | EGN 
+| 1kh8 | A | albelig | 11 | 11 | E | 118 | 124 | A-117-  | A-123-  | PVHFDAS 
+| 1kh8 | A | albelig | 12 | 12 | L | 126 | 126 | A-125-  | A-125-  | J 
+| 1kh8 | A | albelig | 13 | 13 | L | 127 | 127 | A-126-  | A-126-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 11
+= 1 = l = 12
+= 2 = m = 7
+= 2 = m = 8
+= 3 = a = 7
+= 3 = l = 12
+= 4 = m = 6
+= 4 = l = 13
+= 5 = a = 6
+= 6 = a = 9
+= 6 = l = 13
+= 7 = a = 8
+= 9 = m = 10
+= 9 = a = 11
+= 10 = l = 13
+= 11 = l = 12
+# Listed 17 contacts. EOF.

@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hdm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTOCOMPATIBILITY PROTEIN, IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (CLASS II HISTOCOMPATIBILITY ANTIGEN, M
+> graphtype > albelig
+> resolution > 2.5
+> date > 09-SEP-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > HISTOCOMPATIBILITY ANTIGEN HLA-DM
+> format_version > 2
+> pdbid > 1hdm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hdm | A | albelig | 1 | 1 | E | 3 | 13 | A-15-  | A-25-  | NHTFLHTVYAQ 
+| 1hdm | A | albelig | 2 | 2 | E | 19 | 25 | A-31-  | A-37-  | VGLSEAY 
+| 1hdm | A | albelig | 3 | 3 | E | 28 | 34 | A-40-  | A-46-  | DQLFFFD 
+| 1hdm | A | albelig | 4 | 4 | E | 39 | 42 | A-51-  | A-54-  | TRVP 
+| 1hdm | A | albelig | 5 | 5 | H | 45 | 50 | A-57-  | A-62-  | PEFADW 
+| 1hdm | A | albelig | 6 | 6 | H | 59 | 72 | A-70-  | A-83-  | ILFDKEFAEWMIQQ 
+| 1hdm | A | albelig | 7 | 7 | E | 89 | 94 | A-99-  | A-104-  | IAEVFT 
+| 1hdm | A | albelig | 8 | 8 | E | 104 | 113 | A-114-  | A-123-  | NTLVNFVSNL 
+| 1hdm | A | albelig | 9 | 9 | E | 118 | 124 | A-128-  | A-134-  | LTVNWHD 
+| 1hdm | A | albelig | 10 | 10 | E | 135 | 140 | A-145-  | A-150-  | TFVSAV 
+| 1hdm | A | albelig | 11 | 11 | E | 144 | 153 | A-154-  | A-163-  | SFQAFSYLNF 
+| 1hdm | A | albelig | 12 | 12 | E | 161 | 167 | A-171-  | A-177-  | FSNIVTH 
+| 1hdm | A | albelig | 13 | 13 | E | 172 | 178 | A-182-  | A-188-  | YTAIAYW 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 6
+= 2 = a = 3
+= 3 = a = 4
+= 3 = a = 10
+= 4 = m = 5
+= 7 = a = 8
+= 8 = a = 9
+= 8 = a = 11
+= 8 = p = 12
+= 9 = a = 12
+= 10 = a = 11
+= 12 = a = 13
+# Listed 13 contacts. EOF.

@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b39, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN KINASE, TRANSFERASE, SERINE/THREONINE PROTEINKINASE, ATP-BINDING, CELL CYCLE, CELL DIVISION, MITOSIS,PHOSPHORYLATION
+> pdb_mol_name > PROTEIN (CELL DIVISION PROTEIN KINASE 2)
+> graphtype > albelig
+> resolution > 2.1
+> date > 17-DEC-98
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > HUMAN CYCLIN-DEPENDENT KINASE 2 PHOSPHORYLATED ON THR 160
+> format_version > 2
+> pdbid > 1b39
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b39 | A | albelig | 1 | 1 | E | 4 | 12 | A-4-  | A-12-  | FQKVEKIGE 
+| 1b39 | A | albelig | 2 | 2 | E | 17 | 23 | A-17-  | A-23-  | VVYKARN 
+| 1b39 | A | albelig | 3 | 3 | E | 29 | 34 | A-29-  | A-34-  | VVALKK 
+| 1b39 | A | albelig | 4 | 4 | H | 39 | 48 | A-46-  | A-55-  | STAIREISLL 
+| 1b39 | A | albelig | 5 | 5 | E | 59 | 65 | A-66-  | A-72-  | LLDVIHT 
+| 1b39 | A | albelig | 6 | 6 | E | 68 | 74 | A-75-  | A-81-  | KLYLVFE 
+| 1b39 | A | albelig | 7 | 7 | H | 80 | 86 | A-87-  | A-93-  | LKKFMDA 
+| 1b39 | A | albelig | 8 | 8 | H | 94 | 113 | A-101-  | A-120-  | LPLIKSYLFQLLQGLAFCHS 
+| 1b39 | A | albelig | 9 | 9 | H | 123 | 125 | A-130-  | A-132-  | PQN 
+| 1b39 | A | albelig | 10 | 10 | E | 126 | 128 | A-133-  | A-135-  | LLI 
+| 1b39 | A | albelig | 11 | 11 | E | 134 | 136 | A-141-  | A-143-  | IKL 
+| 1b39 | A | albelig | 12 | 12 | H | 141 | 145 | A-148-  | A-152-  | LARAF 
+| 1b39 | A | albelig | 13 | 13 | H | 164 | 167 | A-171-  | A-174-  | PEIL 
+| 1b39 | A | albelig | 14 | 14 | H | 176 | 191 | A-183-  | A-198-  | AVDIWSLGCIFAEMVT 
+| 1b39 | A | albelig | 15 | 15 | H | 201 | 212 | A-208-  | A-219-  | EIDQLFRIFRTL 
+| 1b39 | A | albelig | 16 | 16 | H | 223 | 225 | A-230-  | A-232-  | VTS 
+| 1b39 | A | albelig | 17 | 17 | H | 241 | 244 | A-248-  | A-251-  | FSKV 
+| 1b39 | A | albelig | 18 | 18 | H | 250 | 259 | A-257-  | A-266-  | EDGRSLLSQM 
+| 1b39 | A | albelig | 19 | 19 | H | 270 | 274 | A-277-  | A-281-  | AKAAL 
+| 1b39 | A | albelig | 20 | 20 | H | 277 | 281 | A-284-  | A-288-  | PFFQD 
+| 1b39 | A | albelig | 21 | 21 | L | 292 | 292 | A-0-  | A-0-  | J 
+| 1b39 | A | albelig | 22 | 22 | L | 293 | 293 | A-382-  | A-382-  | J 
+| 1b39 | A | albelig | 23 | 23 | L | 294 | 294 | A-381-  | A-381-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 21
+= 1 = l = 23
+= 2 = a = 3
+= 2 = l = 23
+= 3 = a = 6
+= 3 = l = 22
+= 3 = l = 23
+= 4 = m = 12
+= 5 = a = 6
+= 5 = l = 21
+= 6 = l = 23
+= 7 = l = 23
+= 8 = m = 11
+= 8 = a = 14
+= 8 = m = 19
+= 8 = m = 20
+= 9 = m = 10
+= 9 = m = 11
+= 9 = l = 22
+= 9 = l = 23
+= 10 = a = 11
+= 10 = l = 23
+= 14 = a = 18
+= 22 = l = 23
+# Listed 25 contacts. EOF.

@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cet, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, TRICARBOXYLIC ACID CYCLE, INHIBITOR
+> pdb_mol_name > PROTEIN (L-LACTATE DEHYDROGENASE)
+> graphtype > albelig
+> resolution > 2.05
+> date > 10-MAR-99
+> header > OXIDOREDUCTASE
+> pdb_org_common > MALARIA PARASITE P. FALCIPARUM
+> title > CHLOROQUINE BINDS IN THE COFACTOR BINDING SITE OF PLASMODIUMFALCIPARUM LACTATE DEHYDROGENASE.
+> format_version > 2
+> pdbid > 1cet
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PLASMODIUM FALCIPARUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cet | A | albelig | 1 | 1 | E | 5 | 9 | A-22-  | A-26-  | KIVLV 
+| 1cet | A | albelig | 2 | 2 | H | 13 | 24 | A-30-  | A-42-  | MIGGVMATLIVQ 
+| 1cet | A | albelig | 3 | 3 | E | 29 | 33 | A-47-  | A-52-  | DVVLF 
+| 1cet | A | albelig | 4 | 4 | H | 39 | 48 | A-58-  | A-67-  | MPHGKALDTS 
+| 1cet | A | albelig | 5 | 5 | H | 50 | 54 | A-69-  | A-73-A | TNVMA 
+| 1cet | A | albelig | 6 | 6 | E | 60 | 63 | A-78-  | A-81-  | VSGS 
+| 1cet | A | albelig | 7 | 7 | H | 66 | 69 | A-85-  | A-88-  | YDDL 
+| 1cet | A | albelig | 8 | 8 | E | 74 | 77 | A-93-  | A-96-  | VVIV 
+| 1cet | A | albelig | 9 | 9 | H | 85 | 106 | A-109-  | A-130-  | RLDLLPLNNKIMIEIGGHIKKN 
+| 1cet | A | albelig | 10 | 10 | E | 111 | 114 | A-134-  | A-137-  | FIIV 
+| 1cet | A | albelig | 11 | 11 | H | 119 | 130 | A-142-  | A-153-  | VDVMVQLLHQHS 
+| 1cet | A | albelig | 12 | 12 | H | 134 | 136 | A-157-  | A-159-  | KNK 
+| 1cet | A | albelig | 13 | 13 | E | 137 | 139 | A-160-  | A-162-  | IIG 
+| 1cet | A | albelig | 14 | 14 | H | 142 | 157 | A-165-  | A-180-  | GVLDTSRLKYYISQKL 
+| 1cet | A | albelig | 15 | 15 | H | 161 | 163 | A-184-  | A-186-  | PRD 
+| 1cet | A | albelig | 16 | 16 | H | 180 | 182 | A-203-  | A-205-  | KRY 
+| 1cet | A | albelig | 17 | 17 | H | 190 | 195 | A-210-A | A-214-  | LQEFIN 
+| 1cet | A | albelig | 18 | 18 | H | 201 | 212 | A-221-  | A-233-  | DAELEAIFDRTV 
+| 1cet | A | albelig | 19 | 19 | H | 214 | 220 | A-235-  | A-241-  | TALEIVN 
+| 1cet | A | albelig | 20 | 20 | H | 227 | 241 | A-248-  | A-262-  | VAPAAAIIEMAESYL 
+| 1cet | A | albelig | 21 | 21 | E | 246 | 255 | A-267-  | A-276-  | KVLICSTLLE 
+| 1cet | A | albelig | 22 | 22 | H | 257 | 259 | A-278-  | A-280-  | QYG 
+| 1cet | A | albelig | 23 | 23 | E | 261 | 272 | A-282-  | A-294-  | SDIFGGTPVVLG 
+| 1cet | A | albelig | 24 | 24 | E | 275 | 279 | A-297-  | A-302-  | GVEQV 
+| 1cet | A | albelig | 25 | 25 | H | 286 | 304 | A-309-  | A-327-  | SEEKAKFDEAIAETKRMKA 
+| 1cet | A | albelig | 26 | 26 | L | 307 | 307 | A-1001-  | A-1001-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 1 = l = 26
+= 2 = m = 20
+= 3 = p = 6
+= 3 = l = 26
+= 4 = m = 6
+= 7 = m = 9
+= 7 = l = 26
+= 8 = p = 10
+= 9 = p = 11
+= 9 = l = 26
+= 10 = m = 12
+= 10 = p = 13
+= 11 = m = 13
+= 11 = m = 23
+= 11 = m = 25
+= 12 = m = 13
+= 12 = m = 24
+= 13 = a = 21
+= 14 = a = 18
+= 14 = m = 21
+= 20 = m = 21
+= 20 = m = 23
+= 21 = a = 23
+= 23 = a = 24
+# Listed 26 contacts. EOF.

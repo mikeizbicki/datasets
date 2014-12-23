@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0n, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME BC1, MEMBRANE PROTEIN, HEME PROTEIN, IRON SULFUR PROTEIN,CYTOCHROME B, CYTOCHROME C1, MITOCHONDRIAL PROCESSING PROTEASE, MPP,OXIDOREDUCTASE
+> pdb_mol_name > UBIQUINOL-CYTOCHROME C REDUCTASE COMPLEX UBIQUINONE-BINDIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 11-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > CATTLE
+> title > NATIVE STRUCTURE OF BOVINE MITOCHONDRIAL CYTOCHROME BC1 COMPLEX
+> format_version > 2
+> pdbid > 1l0n
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0n | G | albelig | 1 | 1 | E | 1805 | 1812 | G-11-  | G-18-  | RHVITYSL 
+| 1l0n | G | albelig | 2 | 2 | H | 1814 | 1816 | G-20-  | G-22-  | PFE 
+| 1l0n | G | albelig | 3 | 3 | H | 1827 | 1863 | G-33-  | G-69-  | GIPNVLRRTRACILRVAPPFVAFYLVYTWGTQEFEKS 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

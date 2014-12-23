@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1krw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TWO COMPONENT SIGNAL TRANSDUCTION, RECEIVER DOMAIN, BEF3,PHOSPHORYLATION, BACTERIAL NITROGEN REGULATORY PROTEIN,SIGNALING PROTEIN
+> pdb_mol_name > NITROGEN REGULATION PROTEIN NR(I)
+> graphtype > albelig
+> resolution > -1.0
+> date > 10-JAN-02
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE AND BACKBONE DYNAMICS OF BERYLLOFLUORIDE-ACTIVATED NTRC RECEIVER DOMAIN
+> format_version > 2
+> pdbid > 1krw
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SALMONELLA TYPHIMURIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1krw | A | albelig | 1 | 1 | E | 5 | 9 | A-5-  | A-9-  | IVWVV 
+| 1krw | A | albelig | 2 | 2 | H | 13 | 25 | A-13-  | A-25-  | SSIRWVLERALAG 
+| 1krw | A | albelig | 3 | 3 | E | 29 | 33 | A-29-  | A-33-  | TCTTF 
+| 1krw | A | albelig | 4 | 4 | H | 37 | 43 | A-37-  | A-43-  | NEVLAAL 
+| 1krw | A | albelig | 5 | 5 | E | 50 | 53 | A-50-  | A-53-  | VLLS 
+| 1krw | A | albelig | 6 | 6 | H | 63 | 72 | A-63-  | A-72-  | LALLKQIKQR 
+| 1krw | A | albelig | 7 | 7 | E | 78 | 80 | A-78-  | A-80-  | VII 
+| 1krw | A | albelig | 8 | 8 | H | 87 | 96 | A-87-  | A-96-  | LDAAVSAYQQ 
+| 1krw | A | albelig | 9 | 9 | E | 98 | 101 | A-98-  | A-101-  | AFDY 
+| 1krw | A | albelig | 10 | 10 | H | 107 | 122 | A-107-  | A-122-  | DIDEAVALVERAISHY 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 3 = m = 4
+= 5 = a = 7
+= 6 = p = 8
+= 7 = p = 9
+= 8 = m = 9
+# Listed 8 contacts. EOF.

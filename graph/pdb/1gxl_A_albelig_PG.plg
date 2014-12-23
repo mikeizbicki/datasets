@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHROMOSOME SEGREGATION, SMC DIMERISATION DOMAIN, ANTIPARALLEL COILED COIL, SMC PROTEINS
+> pdb_mol_name > CHROMOSOME SEGREGATION SMC PROTEIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 07-APR-02
+> header > CHROMOSOME SEGREGATION
+> pdb_org_common > UNKNOWN
+> title > SMC HINGE DOMAIN FROM T. MARITIMA WITH COILED COIL
+> format_version > 2
+> pdbid > 1gxl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxl | A | albelig | 1 | 1 | H | 4 | 20 | A-478-  | A-494-  | RLREIQFEKEMIERDMR 
+| 1gxl | A | albelig | 2 | 2 | H | 27 | 33 | A-501-  | A-507-  | RAVRAVF 
+| 1gxl | A | albelig | 3 | 3 | E | 42 | 45 | A-516-  | A-519-  | LVDV 
+| 1gxl | A | albelig | 4 | 4 | H | 46 | 48 | A-520-  | A-522-  | VSN 
+| 1gxl | A | albelig | 5 | 5 | H | 54 | 69 | A-528-  | A-543-  | EKYSLAVSVLLGGTAQ 
+| 1gxl | A | albelig | 6 | 6 | E | 71 | 73 | A-545-  | A-547-  | IVV 
+| 1gxl | A | albelig | 7 | 7 | H | 76 | 89 | A-550-  | A-563-  | VDTAKAIVEFLKQN 
+| 1gxl | A | albelig | 8 | 8 | E | 92 | 98 | A-566-  | A-572-  | GRVTILP 
+| 1gxl | A | albelig | 9 | 9 | H | 112 | 114 | A-586-  | A-588-  | LEN 
+| 1gxl | A | albelig | 10 | 10 | E | 118 | 121 | A-592-  | A-595-  | FVGY 
+| 1gxl | A | albelig | 11 | 11 | H | 122 | 125 | A-596-  | A-599-  | AVDL 
+| 1gxl | A | albelig | 12 | 12 | H | 133 | 139 | A-607-  | A-613-  | EVLGGFL 
+| 1gxl | A | albelig | 13 | 13 | E | 143 | 146 | A-617-  | A-620-  | SVVV 
+| 1gxl | A | albelig | 14 | 14 | H | 149 | 158 | A-623-  | A-632-  | LDDAIRMKKK 
+| 1gxl | A | albelig | 15 | 15 | E | 164 | 166 | A-638-  | A-640-  | RIA 
+| 1gxl | A | albelig | 16 | 16 | E | 179 | 181 | A-653-  | A-655-  | ITG 
+| 1gxl | A | albelig | 17 | 17 | H | 192 | 204 | A-666-  | A-678-  | ERRIKLKHLEQEM 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 17
+= 2 = m = 8
+= 3 = m = 4
+= 3 = a = 6
+= 6 = p = 8
+= 9 = m = 10
+= 10 = m = 11
+= 10 = a = 13
+= 13 = p = 15
+# Listed 9 contacts. EOF.

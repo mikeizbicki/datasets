@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gwq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR RECEPTOR, TRANSCRIPTION FACTOR, TRANSACTIVATION,AGONIST, AF2 COACTIVATOR , RECEPTOR, ACTIVATOR,TRANSCRIPTI REGULATION, DNA-BINDING, NUCLEAR PROTEIN, ZINCFINGER, STER BINDING, PHOSPHORYLATION, POLYMORPHISM,ALTERNATIVE SPLICIN
+> pdb_mol_name > OESTROGEN RECEPTOR
+> graphtype > albelig
+> resolution > 2.45
+> date > 22-MAR-02
+> header > NUCLEAR RECEPTOR
+> pdb_org_common > HUMAN
+> title > HUMAN OESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN INCOMPLEX WITH RALOXIFENE CORE AND TIF2 NRBOX2 PEPTIDE
+> format_version > 2
+> pdbid > 1gwq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gwq | B | albelig | 1 | 1 | H | 251 | 253 | B-306-  | B-308-  | LAL 
+| 1gwq | B | albelig | 2 | 2 | H | 257 | 266 | B-312-  | B-321-  | ADQMVSALLD 
+| 1gwq | B | albelig | 3 | 3 | H | 279 | 302 | B-339-  | B-362-  | EASMMGLLTNLADRELVHMINWAK 
+| 1gwq | B | albelig | 4 | 4 | H | 312 | 335 | B-372-  | B-395-  | LHDQVHLLECAWLEILMIGLVWRS 
+| 1gwq | B | albelig | 5 | 5 | E | 341 | 345 | B-401-  | B-405-  | KLLFA 
+| 1gwq | B | albelig | 6 | 6 | E | 348 | 351 | B-408-  | B-411-  | LLLD 
+| 1gwq | B | albelig | 7 | 7 | H | 352 | 355 | B-412-  | B-415-  | RNQG 
+| 1gwq | B | albelig | 8 | 8 | H | 361 | 378 | B-421-  | B-438-  | MVEIFDMLLATSSRFRMM 
+| 1gwq | B | albelig | 9 | 9 | H | 382 | 395 | B-442-  | B-455-  | GEEFVCLKSIILLN 
+| 1gwq | B | albelig | 10 | 10 | H | 398 | 400 | B-458-  | B-460-  | VYT 
+| 1gwq | B | albelig | 11 | 11 | H | 406 | 432 | B-466-  | B-492-  | LKSLEEKDHIHRVLDKITDTLIHLMAK 
+| 1gwq | B | albelig | 12 | 12 | H | 437 | 470 | B-497-  | B-530-  | LQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKC 
+| 1gwq | B | albelig | 13 | 13 | H | 478 | 487 | B-538-  | B-547-  | DLLLEMLDAH 
+| 1gwq | B | albelig | 14 | 14 | L | 510 | 510 | B-600-  | B-600-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 11
+= 2 = m = 11
+= 3 = a = 4
+= 3 = m = 13
+= 3 = l = 14
+= 4 = m = 5
+= 4 = m = 8
+= 4 = a = 9
+= 4 = a = 12
+= 4 = m = 13
+= 4 = l = 14
+= 5 = a = 6
+= 5 = l = 14
+= 6 = m = 7
+= 8 = a = 12
+= 8 = l = 14
+= 9 = a = 11
+= 9 = p = 12
+= 11 = m = 12
+= 12 = m = 13
+= 12 = l = 14
+# Listed 21 contacts. EOF.

@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hv4, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALLOSTERIC MECHANISM, OXYGEN TRANSPORT, HEME, RESPIRATORYPROTEIN, OXYGEN STORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN ALPHA-A CHAIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 07-JAN-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > BAR-HEADED GOOSE
+> title > CRYSTAL STRUCTURE ANALYSIS OF BAR-HEAD GOOSE HEMOGLOBIN(DEOXY FORM)
+> format_version > 2
+> pdbid > 1hv4
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > ANSER INDICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hv4 | E | albelig | 1 | 1 | H | 582 | 595 | E-4-  | E-17-  | AADKTNVKGVFSKI 
+| 1hv4 | E | albelig | 2 | 2 | H | 599 | 613 | E-21-  | E-35-  | AEEYGAETLERMFTA 
+| 1hv4 | E | albelig | 3 | 3 | H | 615 | 620 | E-37-  | E-42-  | PQTKTY 
+| 1hv4 | E | albelig | 4 | 4 | H | 631 | 649 | E-53-  | E-71-  | AQIKAHGKKVVAALVEAVN 
+| 1hv4 | E | albelig | 5 | 5 | H | 654 | 668 | E-76-  | E-90-  | IAGALSKLSDLHAQK 
+| 1hv4 | E | albelig | 6 | 6 | H | 674 | 690 | E-96-  | E-112-  | VNFKFLGHCFLVVVAIH 
+| 1hv4 | E | albelig | 7 | 7 | H | 697 | 718 | E-119-  | E-140-  | AEVHASLDKFLCAVGTVLTAKY 
+| 1hv4 | E | albelig | 8 | 8 | L | 1160 | 1160 | E-155-  | E-155-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 2 = m = 4
+= 2 = a = 6
+= 2 = l = 8
+= 3 = m = 6
+= 3 = l = 8
+= 4 = l = 8
+= 5 = p = 7
+= 5 = l = 8
+= 6 = l = 8
+= 7 = l = 8
+# Listed 11 contacts. EOF.

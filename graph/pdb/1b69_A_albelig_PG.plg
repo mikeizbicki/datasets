@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b69, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTEGRASE, DNA BINDING, TRANSPOSITION, COMPLEX, BETA-SHEETRECOGNITION, INTEGRASE/DNA COMPLEX
+> pdb_mol_name > PROTEIN (INTEGRASE)
+> graphtype > albelig
+> resolution > -1.0
+> date > 21-JAN-99
+> header > INTEGRASE/DNA
+> pdb_org_common > UNKNOWN
+> title > THE SOLUTION STRUCTURE OF TN916 INTEGRASE N-TERMINALDOMAIN/DNA COMPLEX
+> format_version > 2
+> pdbid > 1b69
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROCOCCUS FAECALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b69 | A | albelig | 1 | 1 | E | 15 | 17 | A-17-  | A-19-  | ESQ 
+| 1b69 | A | albelig | 2 | 2 | E | 23 | 28 | A-25-  | A-30-  | YLYKYI 
+| 1b69 | A | albelig | 3 | 3 | E | 34 | 39 | A-36-  | A-41-  | PQFVYS 
+| 1b69 | A | albelig | 4 | 4 | H | 58 | 66 | A-60-  | A-68-  | LREKIAELQ 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = m = 4
+# Listed 3 contacts. EOF.

@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jtn, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SEQUENCE DUPLICATION, CONTEXT DEPENDENT FOLDING, SEQUENCEREPEAT, HYDROLASE
+> pdb_mol_name > LYSOZYME
+> graphtype > albelig
+> resolution > 2.3
+> date > 21-AUG-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > ALTERNATIVE STRUCTURES OF A SEQUENCE EXTENDED T4 LYSOZYMESHOW THAT THE HIGHLY CONSERVED BETA-SHEET REGION HAS WEAKINTRINSIC FOLDING PROPENSITY
+> format_version > 2
+> pdbid > 1jtn
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jtn | B | albelig | 1 | 1 | H | 181 | 189 | B-3-  | B-11-  | IFEMLRIDE 
+| 1jtn | B | albelig | 2 | 2 | E | 192 | 196 | B-14-  | B-18-  | RLKIY 
+| 1jtn | B | albelig | 3 | 3 | E | 203 | 206 | B-25-  | B-28-  | YTIG 
+| 1jtn | B | albelig | 4 | 4 | E | 209 | 212 | B-31-  | B-34-  | HLLT 
+| 1jtn | B | albelig | 5 | 5 | H | 217 | 228 | B-39-  | B-50-  | LNAAKSELDKAI 
+| 1jtn | B | albelig | 6 | 6 | H | 238 | 258 | B-60-  | B-80-  | KDEAEKLFNQDVDAAVRGILR 
+| 1jtn | B | albelig | 7 | 7 | H | 262 | 268 | B-84-  | B-90-  | LKPVYDS 
+| 1jtn | B | albelig | 8 | 8 | H | 271 | 290 | B-93-  | B-112-  | AVRRAALINMVFQMGETGVA 
+| 1jtn | B | albelig | 9 | 9 | H | 293 | 300 | B-115-  | B-122-  | TNSLRMLQ 
+| 1jtn | B | albelig | 10 | 10 | H | 304 | 313 | B-126-  | B-135-  | WDEAAVNLAK 
+| 1jtn | B | albelig | 11 | 11 | H | 315 | 319 | B-137-  | B-141-  | RWYNQ 
+| 1jtn | B | albelig | 12 | 12 | H | 321 | 331 | B-143-  | B-153-  | PNRAKRVITTF 
+| 1jtn | B | albelig | 13 | 13 | H | 340 | 344 | B-162-  | B-166-  | KNLET 
+| 1jtn | B | albelig | 14 | 14 | L | 354 | 354 | B-502-  | B-502-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 1 = m = 12
+= 2 = a = 3
+= 3 = a = 4
+= 6 = m = 8
+= 7 = a = 8
+= 7 = m = 9
+= 8 = a = 12
+= 9 = m = 10
+= 11 = m = 12
+= 11 = l = 14
+= 12 = l = 14
+# Listed 12 contacts. EOF.

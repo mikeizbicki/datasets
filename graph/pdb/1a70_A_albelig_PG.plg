@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a70, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IRON-SULFUR PROTEIN, PHOTOSYNTHESIS, ELECTRON TRANSPORT
+> pdb_mol_name > FERREDOXIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 19-MAR-98
+> header > IRON-SULFUR PROTEIN
+> pdb_org_common > SPINACH
+> title > SPINACH FERREDOXIN
+> format_version > 2
+> pdbid > 1a70
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SPINACIA OLERACEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a70 | A | albelig | 1 | 1 | E | 2 | 9 | A-2-  | A-9-  | AYKVTLVT 
+| 1a70 | A | albelig | 2 | 2 | E | 12 | 19 | A-12-  | A-19-  | GNVEFQCP 
+| 1a70 | A | albelig | 3 | 3 | H | 24 | 30 | A-24-  | A-30-  | ILDAAEE 
+| 1a70 | A | albelig | 4 | 4 | E | 48 | 53 | A-48-  | A-53-  | AGKLKT 
+| 1a70 | A | albelig | 5 | 5 | H | 66 | 71 | A-66-  | A-71-  | DDQIDE 
+| 1a70 | A | albelig | 6 | 6 | E | 73 | 75 | A-73-  | A-75-  | WVL 
+| 1a70 | A | albelig | 7 | 7 | H | 76 | 78 | A-76-  | A-78-  | TCA 
+| 1a70 | A | albelig | 8 | 8 | E | 85 | 88 | A-85-  | A-88-  | VTIE 
+| 1a70 | A | albelig | 9 | 9 | H | 92 | 94 | A-92-  | A-94-  | KEE 
+| 1a70 | A | albelig | 10 | 10 | L | 98 | 98 | A-1602-  | A-1602-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 8
+= 4 = a = 6
+= 4 = a = 8
+= 5 = m = 6
+= 6 = m = 7
+= 6 = l = 10
+= 7 = l = 10
+# Listed 8 contacts. EOF.

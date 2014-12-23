@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h8b, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL PROTEIN, Z-DISK STRUCTURAL COMPLEX
+> pdb_mol_name > TITIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 01-FEB-01
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > RABBIT
+> title > EF-HANDS 3,4 FROM ALPHA-ACTININ / Z-REPEAT 7 FROM TITIN
+> format_version > 2
+> pdbid > 1h8b
+> experiment > SOLUTION NMR
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ORYCTOLAGUS CUNICULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h8b | B | albelig | 1 | 1 | H | 76 | 92 | B-8-  | B-24-  | KKAEAVATVVAAVDQAR 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

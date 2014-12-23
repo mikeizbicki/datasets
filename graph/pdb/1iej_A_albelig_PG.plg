@@ -1,0 +1,83 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iej, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERRIN, IRON, OVOTRANSFERRIN, METAL BINDING PROTEIN
+> pdb_mol_name > OVOTRANSFERRIN
+> graphtype > albelig
+> resolution > 1.65
+> date > 10-APR-01
+> header > METAL BINDING PROTEIN
+> pdb_org_common > CHICKEN
+> title > OVOTRANSFERRIN, N-TERMINAL LOBE, HOLO FORM, AT 1.65 ARESOLUTION
+> format_version > 2
+> pdbid > 1iej
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iej | A | albelig | 1 | 1 | E | 2 | 8 | A-5-  | A-11-  | SVIRWAT 
+| 1iej | A | albelig | 2 | 2 | H | 11 | 23 | A-14-  | A-26-  | SPEEKKNNNLRDL 
+| 1iej | A | albelig | 3 | 3 | E | 29 | 35 | A-32-  | A-38-  | ISLTNVQ 
+| 1iej | A | albelig | 4 | 4 | H | 39 | 47 | A-42-  | A-50-  | YLDAIKAIA 
+| 1iej | A | albelig | 5 | 5 | E | 54 | 56 | A-57-  | A-59-  | ITL 
+| 1iej | A | albelig | 6 | 6 | H | 58 | 64 | A-61-  | A-67-  | GGQVFEA 
+| 1iej | A | albelig | 7 | 7 | E | 72 | 80 | A-75-  | A-83-  | KPIAAEVYE 
+| 1iej | A | albelig | 8 | 8 | E | 88 | 96 | A-91-  | A-99-  | SYYAVAVVK 
+| 1iej | A | albelig | 9 | 9 | H | 103 | 105 | A-106-  | A-108-  | VND 
+| 1iej | A | albelig | 10 | 10 | E | 110 | 113 | A-113-  | A-116-  | TSCH 
+| 1iej | A | albelig | 11 | 11 | H | 119 | 131 | A-122-  | A-134-  | SAGWNIPIGTLLH 
+| 1iej | A | albelig | 12 | 12 | H | 140 | 142 | A-143-  | A-145-  | IES 
+| 1iej | A | albelig | 13 | 13 | H | 145 | 152 | A-148-  | A-155-  | VEQAVAKF 
+| 1iej | A | albelig | 14 | 14 | E | 155 | 157 | A-158-  | A-160-  | ASD 
+| 1iej | A | albelig | 15 | 15 | H | 165 | 168 | A-168-  | A-171-  | QKLE 
+| 1iej | A | albelig | 16 | 16 | H | 187 | 196 | A-190-  | A-199-  | GYSGAFHCLK 
+| 1iej | A | albelig | 17 | 17 | E | 202 | 206 | A-205-  | A-209-  | VAFVK 
+| 1iej | A | albelig | 18 | 18 | H | 209 | 213 | A-212-  | A-216-  | TVNEN 
+| 1iej | A | albelig | 19 | 19 | H | 218 | 220 | A-221-  | A-223-  | KDE 
+| 1iej | A | albelig | 20 | 20 | E | 221 | 224 | A-224-  | A-227-  | YELL 
+| 1iej | A | albelig | 21 | 21 | E | 230 | 232 | A-233-  | A-235-  | RQP 
+| 1iej | A | albelig | 22 | 22 | H | 233 | 235 | A-236-  | A-238-  | VDN 
+| 1iej | A | albelig | 23 | 23 | E | 242 | 245 | A-245-  | A-248-  | ARVA 
+| 1iej | A | albelig | 24 | 24 | E | 248 | 251 | A-251-  | A-254-  | AVVA 
+| 1iej | A | albelig | 25 | 25 | H | 257 | 271 | A-260-  | A-274-  | VEDIWSFLSKAQSDF 
+| 1iej | A | albelig | 26 | 26 | H | 290 | 292 | A-293-  | A-295-  | PVL 
+| 1iej | A | albelig | 27 | 27 | E | 301 | 306 | A-304-  | A-309-  | AIMLKR 
+| 1iej | A | albelig | 28 | 28 | H | 313 | 317 | A-316-  | A-320-  | SQLYL 
+| 1iej | A | albelig | 29 | 29 | H | 319 | 328 | A-322-  | A-331-  | FEYYSAIQSM 
+| 1iej | A | albelig | 30 | 30 | L | 330 | 330 | A-333-  | A-333-  | J 
+| 1iej | A | albelig | 31 | 31 | L | 331 | 331 | A-334-  | A-334-  | J 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 2 = a = 3
+= 3 = m = 25
+= 5 = m = 6
+= 5 = a = 24
+= 7 = a = 24
+= 7 = a = 27
+= 8 = a = 17
+= 8 = a = 20
+= 8 = a = 23
+= 8 = l = 30
+= 8 = l = 31
+= 10 = p = 14
+= 10 = m = 16
+= 10 = p = 17
+= 11 = m = 17
+= 11 = m = 29
+= 11 = l = 30
+= 11 = l = 31
+= 14 = m = 15
+= 16 = a = 17
+= 16 = m = 18
+= 16 = l = 30
+= 16 = l = 31
+= 17 = m = 18
+= 19 = m = 20
+= 20 = a = 21
+= 21 = m = 22
+= 25 = m = 27
+= 30 = l = 31
+# Listed 31 contacts. EOF.

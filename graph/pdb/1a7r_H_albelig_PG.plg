@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a7r, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, VARIANT
+> pdb_mol_name > IGG1-KAPPA D1.3 FV (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.01
+> date > 16-MAR-98
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > FV FRAGMENT OF MOUSE MONOCLONAL ANTIBODY D1.3 (BALB/C, IGG1,K) VARIANT CHAIN L GLU81->ASP
+> format_version > 2
+> pdbid > 1a7r
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a7r | H | albelig | 1 | 1 | E | 111 | 115 | H-203-  | H-207-  | QLQES 
+| 1a7r | H | albelig | 2 | 2 | E | 126 | 133 | H-218-  | H-225-  | LSITNTVS 
+| 1a7r | H | albelig | 3 | 3 | E | 141 | 147 | H-233-  | H-239-  | GVNWVRQ 
+| 1a7r | H | albelig | 4 | 4 | E | 154 | 159 | H-246-  | H-251-  | EWLGMI 
+| 1a7r | H | albelig | 5 | 5 | E | 165 | 167 | H-257-  | H-259-  | TDY 
+| 1a7r | H | albelig | 6 | 6 | H | 172 | 174 | H-264-  | H-266-  | KSR 
+| 1a7r | H | albelig | 7 | 7 | E | 175 | 180 | H-267-  | H-272-  | LSISKD 
+| 1a7r | H | albelig | 8 | 8 | E | 185 | 190 | H-277-  | H-282-  | QVFLKM 
+| 1a7r | H | albelig | 9 | 9 | H | 195 | 197 | H-287-  | H-289-  | TDD 
+| 1a7r | H | albelig | 10 | 10 | E | 199 | 206 | H-291-  | H-298-  | ARYYNARE 
+| 1a7r | H | albelig | 11 | 11 | E | 211 | 214 | H-303-  | H-306-  | LDYW 
+| 1a7r | H | albelig | 12 | 12 | E | 218 | 222 | H-310-  | H-314-  | TTLTV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 8
+= 2 = p = 10
+= 3 = a = 4
+= 3 = p = 8
+= 3 = a = 10
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 6 = m = 7
+= 6 = m = 8
+= 7 = a = 8
+= 10 = a = 11
+= 10 = a = 12
+# Listed 15 contacts. EOF.

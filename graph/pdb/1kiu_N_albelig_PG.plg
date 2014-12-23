@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kiu, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADHESIN-CHAPERONE COMPLEX, MANNOSE-BOUND, CHAPERONE/CELLADHESION COMPLEX
+> pdb_mol_name > FIMH PROTEIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 03-DEC-01
+> header > CHAPERONE/CELL ADHESION
+> pdb_org_common > UNKNOWN
+> title > FIMH ADHESIN Q133N MUTANT-FIMC CHAPERONE COMPLEX WITHMETHYL-ALPHA-D-MANNOSE
+> format_version > 2
+> pdbid > 1kiu
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kiu | N | albelig | 1 | 1 | E | 3124 | 3127 | N-2-  | N-5-  | AMKT 
+| 1kiu | N | albelig | 2 | 2 | E | 3138 | 3144 | N-16-  | N-22-  | GSANVYV 
+| 1kiu | N | albelig | 3 | 3 | E | 3164 | 3167 | N-42-  | N-45-  | IFMH 
+| 1kiu | N | albelig | 4 | 4 | E | 3176 | 3180 | N-54-  | N-58-  | DYVTL 
+| 1kiu | N | albelig | 5 | 5 | H | 3189 | 3192 | N-67-  | N-70-  | VLSN 
+| 1kiu | N | albelig | 6 | 6 | E | 3196 | 3199 | N-74-  | N-77-  | TVKY 
+| 1kiu | N | albelig | 7 | 7 | E | 3202 | 3205 | N-80-  | N-83-  | SSYP 
+| 1kiu | N | albelig | 8 | 8 | E | 3215 | 3217 | N-93-  | N-95-  | VVY 
+| 1kiu | N | albelig | 9 | 9 | E | 3227 | 3230 | N-105-  | N-108-  | VALY 
+| 1kiu | N | albelig | 10 | 10 | E | 3247 | 3257 | N-125-  | N-135-  | LIAVLILRNTN 
+| 1kiu | N | albelig | 11 | 11 | E | 3266 | 3272 | N-144-  | N-150-  | FVWNIYA 
+| 1kiu | N | albelig | 12 | 12 | E | 3284 | 3287 | N-162-  | N-165-  | DVSA 
+| 1kiu | N | albelig | 13 | 13 | E | 3305 | 3308 | N-183-  | N-186-  | LTVY 
+| 1kiu | N | albelig | 14 | 14 | E | 3313 | 3318 | N-191-  | N-196-  | QNLGYY 
+| 1kiu | N | albelig | 15 | 15 | E | 3360 | 3365 | N-238-  | N-243-  | VSLGAV 
+| 1kiu | N | albelig | 16 | 16 | E | 3397 | 3400 | N-275-  | N-278-  | TFVY 
+| 1kiu | N | albelig | 17 | 17 | L | 3894 | 3894 | N-506-  | N-506-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 11
+= 2 = p = 11
+= 3 = l = 17
+= 4 = a = 8
+= 4 = a = 10
+= 4 = l = 17
+= 6 = a = 7
+= 6 = a = 9
+= 10 = a = 11
+= 10 = l = 17
+= 12 = a = 13
+= 14 = a = 15
+= 14 = a = 16
+# Listed 14 contacts. EOF.

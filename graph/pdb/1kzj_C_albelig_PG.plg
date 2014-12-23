@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kzj, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME SUBSTRATE COFACTOR ANALOG COMPLEX, TRANSFERASE
+> pdb_mol_name > THYMIDYLATE SYNTHASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 06-FEB-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ECTS W80G/DUMP/CB3717 COMPLEX
+> format_version > 2
+> pdbid > 1kzj
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kzj | C | albelig | 1 | 1 | H | 532 | 543 | C-2-  | C-13-  | KQYLELMQKVLD 
+| 1kzj | C | albelig | 2 | 2 | E | 546 | 548 | C-16-  | C-18-  | TQK 
+| 1kzj | C | albelig | 3 | 3 | E | 556 | 567 | C-26-  | C-37-  | TLSIFGHQMRFN 
+| 1kzj | C | albelig | 4 | 4 | H | 568 | 570 | C-38-  | C-40-  | LQD 
+| 1kzj | C | albelig | 5 | 5 | H | 582 | 594 | C-52-  | C-64-  | LRSIIHELLWFLQ 
+| 1kzj | C | albelig | 6 | 6 | H | 600 | 603 | C-70-  | C-73-  | AYLH 
+| 1kzj | C | albelig | 7 | 7 | H | 624 | 630 | C-94-  | C-100-  | YGKQWRA 
+| 1kzj | C | albelig | 8 | 8 | H | 641 | 651 | C-111-  | C-121-  | QITTVLNQLKN 
+| 1kzj | C | albelig | 9 | 9 | E | 659 | 661 | C-129-  | C-131-  | IVS 
+| 1kzj | C | albelig | 10 | 10 | H | 665 | 670 | C-135-  | C-140-  | VGELDK 
+| 1kzj | C | albelig | 11 | 11 | E | 677 | 685 | C-147-  | C-155-  | HAFFQFYVA 
+| 1kzj | C | albelig | 12 | 12 | E | 688 | 699 | C-158-  | C-169-  | KLSCQLYQRSCD 
+| 1kzj | C | albelig | 13 | 13 | H | 704 | 721 | C-174-  | C-191-  | LPFNIASYALLVHMMAQQ 
+| 1kzj | C | albelig | 14 | 14 | E | 725 | 739 | C-195-  | C-209-  | EVGDFVWTGGDTHLY 
+| 1kzj | C | albelig | 15 | 15 | H | 740 | 749 | C-210-  | C-219-  | SNHMDQTHLQ 
+| 1kzj | C | albelig | 16 | 16 | E | 759 | 762 | C-229-  | C-232-  | KLII 
+| 1kzj | C | albelig | 17 | 17 | H | 774 | 776 | C-244-  | C-246-  | FED 
+| 1kzj | C | albelig | 18 | 18 | E | 777 | 780 | C-247-  | C-250-  | FEIE 
+| 1kzj | C | albelig | 19 | 19 | L | 1597 | 1597 | C-304-  | C-304-  | J 
+| 1kzj | C | albelig | 20 | 20 | L | 1598 | 1598 | C-305-  | C-305-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 3
+= 3 = m = 4
+= 3 = a = 14
+= 4 = m = 14
+= 5 = m = 6
+= 5 = m = 7
+= 5 = p = 13
+= 5 = l = 20
+= 7 = m = 8
+= 7 = l = 19
+= 8 = m = 9
+= 9 = a = 11
+= 11 = a = 12
+= 11 = p = 13
+= 11 = l = 19
+= 12 = a = 13
+= 12 = p = 14
+= 12 = l = 19
+= 12 = l = 20
+= 13 = l = 19
+= 13 = l = 20
+= 14 = m = 15
+= 14 = l = 19
+= 14 = l = 20
+= 16 = m = 17
+= 16 = a = 18
+= 17 = m = 18
+= 19 = l = 20
+# Listed 29 contacts. EOF.

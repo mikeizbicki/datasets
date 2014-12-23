@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1boo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TYPE II DNA-(CYTOSINE N4) METHYLTRANSFERASE, AMINOMETHYLATION, SELENOMETHIONINE, MULTIWAVELENGTH ANOMALOUSDIFFRACTION
+> pdb_mol_name > PROTEIN (N-4 CYTOSINE-SPECIFIC METHYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 31-JUL-98
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > PVUII DNA METHYLTRANSFERASE (CYTOSINE-N4-SPECIFIC)
+> format_version > 2
+> pdbid > 1boo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PROTEUS VULGARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1boo | A | albelig | 1 | 1 | E | 13 | 17 | A-28-  | A-32-  | GSMYI 
+| 1boo | A | albelig | 2 | 2 | H | 20 | 26 | A-35-  | A-41-  | SLELLES 
+| 1boo | A | albelig | 3 | 3 | E | 32 | 37 | A-47-  | A-52-  | ISLVMT 
+| 1boo | A | albelig | 4 | 4 | H | 53 | 71 | A-68-  | A-86-  | EQHEYVDWFLSFAKVVNKK 
+| 1boo | A | albelig | 5 | 5 | E | 72 | 82 | A-87-  | A-97-  | LKPDGSFVVDF 
+| 1boo | A | albelig | 6 | 6 | E | 90 | 93 | A-105-  | A-108-  | VPAR 
+| 1boo | A | albelig | 7 | 7 | H | 96 | 108 | A-111-  | A-123-  | YNFRVLIRMIDEV 
+| 1boo | A | albelig | 8 | 8 | E | 111 | 119 | A-126-  | A-134-  | FLAEDFYWF 
+| 1boo | A | albelig | 9 | 9 | H | 129 | 133 | A-144-  | A-148-  | EWVNK 
+| 1boo | A | albelig | 10 | 10 | E | 142 | 149 | A-157-  | A-164-  | VNTVWWFS 
+| 1boo | A | albelig | 11 | 11 | H | 158 | 160 | A-173-  | A-175-  | ITK 
+| 1boo | A | albelig | 12 | 12 | E | 170 | 172 | A-222-  | A-224-  | LLQ 
+| 1boo | A | albelig | 13 | 13 | H | 180 | 188 | A-232-  | A-240-  | GQYLANCKL 
+| 1boo | A | albelig | 14 | 14 | H | 201 | 210 | A-253-  | A-262-  | KLPEFFIRML 
+| 1boo | A | albelig | 15 | 15 | E | 216 | 219 | A-268-  | A-271-  | LVVD 
+| 1boo | A | albelig | 16 | 16 | H | 226 | 233 | A-278-  | A-285-  | TTGLVAER 
+| 1boo | A | albelig | 17 | 17 | E | 237 | 242 | A-289-  | A-294-  | KWISFE 
+| 1boo | A | albelig | 18 | 18 | H | 245 | 255 | A-297-  | A-307-  | PEYVAASAFRF 
+| 1boo | A | albelig | 19 | 19 | H | 262 | 273 | A-314-  | A-325-  | EEKITDIYNRIL 
+| 1boo | A | albelig | 20 | 20 | L | 284 | 284 | A-401-  | A-401-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 17
+= 1 = m = 18
+= 2 = m = 4
+= 2 = l = 20
+= 3 = p = 5
+= 3 = p = 15
+= 4 = a = 5
+= 4 = p = 7
+= 4 = l = 20
+= 5 = a = 10
+= 7 = p = 10
+= 8 = a = 10
+= 8 = p = 12
+= 13 = m = 18
+= 14 = m = 16
+= 15 = p = 17
+= 15 = l = 20
+= 16 = l = 20
+= 17 = l = 20
+= 18 = a = 19
+= 18 = l = 20
+# Listed 21 contacts. EOF.

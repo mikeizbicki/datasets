@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f81, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ZINC FINGER, TAZ2, CBP, TRANSCRIPTION
+> pdb_mol_name > CREB-BINDING PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 28-JUN-00
+> header > TRANSCRIPTION
+> pdb_org_common > HOUSE MOUSE
+> title > SOLUTION STRUCTURE OF THE TAZ2 DOMAIN OF THETRANSCRIPTIONAL ADAPTOR PROTEIN CBP
+> format_version > 2
+> pdbid > 1f81
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f81 | A | albelig | 1 | 1 | H | 2 | 22 | A-2-  | A-22-  | PQESRRLSIQRCIQSLVHACQ 
+| 1f81 | A | albelig | 2 | 2 | H | 31 | 45 | A-31-  | A-45-  | PSCQKMKRVVQHTKG 
+| 1f81 | A | albelig | 3 | 3 | H | 49 | 53 | A-49-  | A-53-  | KTNGG 
+| 1f81 | A | albelig | 4 | 4 | H | 55 | 70 | A-55-  | A-70-  | PVCKQLIALCCYHAKH 
+| 1f81 | A | albelig | 5 | 5 | H | 81 | 86 | A-81-  | A-86-  | CLNIKH 
+| 1f81 | A | albelig | 6 | 6 | L | 88 | 88 | A-88-  | A-88-  | J 
+| 1f81 | A | albelig | 7 | 7 | L | 89 | 89 | A-89-  | A-89-  | J 
+| 1f81 | A | albelig | 8 | 8 | L | 90 | 90 | A-90-  | A-90-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 1 = l = 6
+= 2 = m = 4
+= 2 = l = 6
+= 2 = l = 7
+= 3 = l = 7
+= 4 = m = 5
+= 4 = l = 7
+= 4 = l = 8
+= 5 = l = 8
+# Listed 11 contacts. EOF.

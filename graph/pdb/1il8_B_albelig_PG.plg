@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1il8, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE
+> pdb_mol_name > INTERLEUKIN-8
+> graphtype > albelig
+> resolution > -1.0
+> date > 08-MAR-90
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > THREE-DIMENSIONAL STRUCTURE OF INTERLEUKIN 8 IN SOLUTION
+> format_version > 2
+> pdbid > 1il8
+> experiment > SOLUTION NMR
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1il8 | B | albelig | 1 | 1 | H | 90 | 92 | B-19-  | B-21-  | PKF 
+| 1il8 | B | albelig | 2 | 2 | E | 93 | 99 | B-22-  | B-28-  | IKELRVI 
+| 1il8 | B | albelig | 3 | 3 | E | 109 | 114 | B-38-  | B-43-  | EIIVKL 
+| 1il8 | B | albelig | 4 | 4 | E | 118 | 122 | B-47-  | B-51-  | RELDL 
+| 1il8 | B | albelig | 5 | 5 | H | 127 | 142 | B-56-  | B-71-  | NWVQRVVEKFLKRAEN 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 3 = a = 4
+# Listed 3 contacts. EOF.

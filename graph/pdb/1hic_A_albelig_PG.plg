@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hic, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HIRUDIN
+> pdb_mol_name > HIRUDIN VARIANT
+> graphtype > albelig
+> resolution > -1.0
+> date > 30-APR-92
+> header > HIRUDIN
+> pdb_org_common > MEDICINAL LEECH
+> title > THE NMR SOLUTION STRUCTURE OF HIRUDIN(1-51) AND COMPARISONWITH CORRESPONDING THREE-DIMENSIONAL STRUCTURES DETERMINEDUSING THE COMPLETE 65-RESIDUE HIRUDIN POLYPEPTIDE CHAIN
+> format_version > 2
+> pdbid > 1hic
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HIRUDO MEDICINALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hic | A | albelig | 1 | 1 | E | 15 | 17 | A-15-  | A-17-  | LNE 
+| 1hic | A | albelig | 2 | 2 | E | 26 | 29 | A-26-  | A-29-  | NKNI 
+| 1hic | A | albelig | 3 | 3 | E | 38 | 41 | A-38-  | A-41-  | QCVT 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+# Listed 1 contacts. EOF.

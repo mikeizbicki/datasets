@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxs, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, INHIBITOR COMPLEX, CYANOGENESIS MECHANISM
+> pdb_mol_name > P-(S)-HYDROXYMANDELONITRILE LYASE CHAIN B
+> graphtype > albelig
+> resolution > 2.3
+> date > 11-APR-02
+> header > LYASE
+> pdb_org_common > SORGHUM
+> title > CRYSTAL STRUCTURE OF HYDROXYNITRILE LYASE FROM SORGHUMBICOLOR IN COMPLEX WITH INHIBITOR BENZOIC ACID: A NOVELCYANOGENIC ENZYME
+> format_version > 2
+> pdbid > 1gxs
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SORGHUM BICOLOR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxs | D | albelig | 1 | 1 | H | 704 | 711 | D-291-  | D-298-  | VFNSINYL 
+| 1gxs | D | albelig | 2 | 2 | H | 714 | 720 | D-301-  | D-307-  | PEVQTAL 
+| 1gxs | D | albelig | 3 | 3 | H | 724 | 726 | D-311-  | D-313-  | VSG 
+| 1gxs | D | albelig | 4 | 4 | H | 737 | 741 | D-324-  | D-328-  | NTIFD 
+| 1gxs | D | albelig | 5 | 5 | H | 751 | 759 | D-338-  | D-346-  | LPVYRELIQ 
+| 1gxs | D | albelig | 6 | 6 | E | 763 | 769 | D-350-  | D-356-  | RVWVYSG 
+| 1gxs | D | albelig | 7 | 7 | H | 777 | 785 | D-364-  | D-372-  | VSSTRRSLA 
+| 1gxs | D | albelig | 8 | 8 | E | 791 | 798 | D-378-  | D-385-  | VKTSWYPW 
+| 1gxs | D | albelig | 9 | 9 | E | 809 | 814 | D-396-  | D-401-  | GWSVQY 
+| 1gxs | D | albelig | 10 | 10 | E | 818 | 822 | D-405-  | D-409-  | TYVTV 
+| 1gxs | D | albelig | 11 | 11 | H | 829 | 832 | D-416-  | D-419-  | VPVH 
+| 1gxs | D | albelig | 12 | 12 | H | 834 | 846 | D-421-  | D-433-  | PAQAFLLFKQFLK 
+| 1gxs | D | albelig | 13 | 13 | L | 865 | 865 | D-1310-  | D-1310-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 13
+= 3 = l = 13
+= 6 = p = 10
+= 6 = a = 12
+= 7 = m = 10
+= 8 = a = 9
+= 9 = a = 10
+# Listed 7 contacts. EOF.

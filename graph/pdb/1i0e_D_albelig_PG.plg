@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i0e, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOUBLE HELIX, DIMER, TRANSFERASE
+> pdb_mol_name > CREATINE KINASE,M CHAIN
+> graphtype > albelig
+> resolution > 3.5
+> date > 29-JAN-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF CREATINE KINASE FROM HUMAN MUSCLE
+> format_version > 2
+> pdbid > 1i0e
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i0e | D | albelig | 1 | 1 | H | 1110 | 1113 | D-16-  | D-19-  | PEEE 
+| 1i0e | D | albelig | 2 | 2 | H | 1123 | 1127 | D-29-  | D-33-  | HMAKV 
+| 1i0e | D | albelig | 3 | 3 | H | 1130 | 1136 | D-36-  | D-42-  | LELYKKL 
+| 1i0e | D | albelig | 4 | 4 | H | 1147 | 1156 | D-53-  | D-62-  | VDDVIQTGVD 
+| 1i0e | D | albelig | 5 | 5 | H | 1174 | 1178 | D-80-  | D-84-  | ESYEV 
+| 1i0e | D | albelig | 6 | 6 | H | 1180 | 1190 | D-86-  | D-96-  | KELFDPIISDR 
+| 1i0e | D | albelig | 7 | 7 | E | 1220 | 1227 | D-126-  | D-133-  | VLSSRVRT 
+| 1i0e | D | albelig | 8 | 8 | H | 1242 | 1258 | D-148-  | D-164-  | RGERRAVEKLSVEALNS 
+| 1i0e | D | albelig | 9 | 9 | H | 1261 | 1263 | D-167-  | D-169-  | GEF 
+| 1i0e | D | albelig | 10 | 10 | E | 1265 | 1269 | D-171-  | D-175-  | GKYYP 
+| 1i0e | D | albelig | 11 | 11 | H | 1278 | 1283 | D-184-  | D-189-  | QQQLID 
+| 1i0e | D | albelig | 12 | 12 | E | 1310 | 1314 | D-216-  | D-220-  | GIWHN 
+| 1i0e | D | albelig | 13 | 13 | E | 1320 | 1323 | D-226-  | D-229-  | LVWV 
+| 1i0e | D | albelig | 14 | 14 | E | 1329 | 1336 | D-235-  | D-242-  | LRVISMEK 
+| 1i0e | D | albelig | 15 | 15 | H | 1340 | 1360 | D-246-  | D-266-  | MKEVFRRFCVGLQKIEEIFKK 
+| 1i0e | D | albelig | 16 | 16 | H | 1378 | 1380 | D-284-  | D-286-  | PSN 
+| 1i0e | D | albelig | 17 | 17 | E | 1385 | 1392 | D-291-  | D-298-  | LRGGVHVK 
+| 1i0e | D | albelig | 18 | 18 | H | 1402 | 1409 | D-308-  | D-315-  | FEEILTRL 
+| 1i0e | D | albelig | 19 | 19 | E | 1419 | 1424 | D-333-  | D-338-  | VFDVSN 
+| 1i0e | D | albelig | 20 | 20 | H | 1432 | 1454 | D-346-  | D-368-  | EVEQVQLVVDGVKLMVEMEKKLE 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 6
+= 7 = a = 14
+= 7 = m = 15
+= 7 = a = 17
+= 8 = m = 15
+= 10 = a = 12
+= 12 = a = 13
+= 13 = a = 14
+= 14 = a = 15
+= 17 = a = 19
+= 17 = p = 20
+= 18 = m = 20
+# Listed 12 contacts. EOF.

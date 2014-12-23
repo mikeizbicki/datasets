@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jwo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIPARALLEL BETA SHEET, TRANSFERASE
+> pdb_mol_name > CSK HOMOLOGOUS KINASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 04-SEP-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE SH2 DOMAIN OF THE CSKHOMOLOGOUS KINASE CHK
+> format_version > 2
+> pdbid > 1jwo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jwo | A | albelig | 1 | 1 | E | 7 | 9 | A-123-  | A-125-  | FHG 
+| 1jwo | A | albelig | 2 | 2 | H | 13 | 19 | A-129-  | A-135-  | GQEAVQQ 
+| 1jwo | A | albelig | 3 | 3 | E | 28 | 32 | A-144-  | A-148-  | FLVRE 
+| 1jwo | A | albelig | 4 | 4 | E | 40 | 46 | A-156-  | A-162-  | YVLCVSF 
+| 1jwo | A | albelig | 5 | 5 | E | 49 | 57 | A-165-  | A-173-  | DVIHYRVLH 
+| 1jwo | A | albelig | 6 | 6 | H | 73 | 82 | A-189-  | A-198-  | LMDMVEHYSK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 3 = a = 4
+= 4 = a = 5
+# Listed 3 contacts. EOF.

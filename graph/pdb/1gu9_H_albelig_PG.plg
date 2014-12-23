@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gu9, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, ALKYLHYDROPEROXIDASE, TUBERCULOSIS
+> pdb_mol_name > ALKYLHYDROPEROXIDASE D
+> graphtype > albelig
+> resolution > 1.9
+> date > 24-JAN-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF MYCOBACTERIUM TUBERCULOSISALKYLPEROXIDASE AHPD
+> format_version > 2
+> pdbid > 1gu9
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gu9 | H | albelig | 1 | 1 | H | 1204 | 1207 | H-6-  | H-9-  | LKAA 
+| 1gu9 | H | albelig | 2 | 2 | H | 1213 | 1223 | H-15-  | H-25-  | KDIKLNLSSIT 
+| 1gu9 | H | albelig | 3 | 3 | H | 1230 | 1244 | H-32-  | H-46-  | QEQLWGTLLASAAAT 
+| 1gu9 | H | albelig | 4 | 4 | H | 1247 | 1258 | H-49-  | H-60-  | PQVLADIGAEAT 
+| 1gu9 | H | albelig | 5 | 5 | H | 1263 | 1288 | H-65-  | H-90-  | AAARHAALGAAAIXGXNNVFYRGRGF 
+| 1gu9 | H | albelig | 6 | 6 | H | 1303 | 1306 | H-105-  | H-108-  | NIIA 
+| 1gu9 | H | albelig | 7 | 7 | H | 1312 | 1326 | H-114-  | H-128-  | KANFELWSFAVSAIN 
+| 1gu9 | H | albelig | 8 | 8 | H | 1329 | 1341 | H-131-  | H-143-  | SHCLVAHEHTLRT 
+| 1gu9 | H | albelig | 9 | 9 | H | 1346 | 1371 | H-148-  | H-173-  | REAIFEALKAAAIVSGVAQALATIEA 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 9
+= 3 = a = 4
+= 3 = p = 7
+= 3 = p = 9
+= 5 = m = 6
+= 5 = p = 7
+= 5 = a = 8
+= 6 = m = 7
+= 7 = a = 8
+= 7 = p = 9
+# Listed 10 contacts. EOF.

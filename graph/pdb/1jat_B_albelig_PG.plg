@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jat, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUITIN, UBIQUITIN-CONJUGATING ENZYME, E2, UEV, LIGASE
+> pdb_mol_name > UBIQUITIN-CONJUGATING ENZYME VARIANT MMS2
+> graphtype > albelig
+> resolution > 1.6
+> date > 31-MAY-01
+> header > LIGASE
+> pdb_org_common > BAKER'S YEAST
+> title > MMS2/UBC13 UBIQUITIN CONJUGATING ENZYME COMPLEX
+> format_version > 2
+> pdbid > 1jat
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jat | B | albelig | 1 | 1 | H | 158 | 170 | B-6-  | B-18-  | RNFRLLEELEKGE 
+| 1jat | B | albelig | 2 | 2 | E | 175 | 179 | B-26-  | B-30-  | CSYGL 
+| 1jat | B | albelig | 3 | 3 | E | 189 | 195 | B-40-  | B-46-  | KWNGTIL 
+| 1jat | B | albelig | 4 | 4 | E | 206 | 212 | B-57-  | B-63-  | IYSLSID 
+| 1jat | B | albelig | 5 | 5 | E | 223 | 226 | B-74-  | B-77-  | KVTF 
+| 1jat | B | albelig | 6 | 6 | H | 247 | 250 | B-98-  | B-101-  | HTLR 
+| 1jat | B | albelig | 7 | 7 | H | 258 | 269 | B-109-  | B-120-  | METLLLDLRKEM 
+| 1jat | B | albelig | 8 | 8 | H | 272 | 275 | B-123-  | B-126-  | PANK 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 4
+= 3 = p = 7
+= 4 = a = 5
+= 6 = m = 7
+# Listed 5 contacts. EOF.

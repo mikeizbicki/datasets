@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b77, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SLIDING CLAMP, GP45, REPLISOME
+> pdb_mol_name > PROTEIN (SLIDING CLAMP)
+> graphtype > albelig
+> resolution > 2.1
+> date > 27-JAN-99
+> header > SLIDING CLAMP
+> pdb_org_common > UNKNOWN
+> title > BUILDING A REPLISOME STRUCTURE FROM INTERACTING PIECES: ASLIDING CLAMP COMPLEXED WITH AN INTERACTION PEPTIDE FROMDNA POLYMERASE
+> format_version > 2
+> pdbid > 1b77
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE RB69
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b77 | A | albelig | 1 | 1 | H | 5 | 15 | A-5-  | A-15-  | KDTIAILKNFA 
+| 1b77 | A | albelig | 2 | 2 | E | 21 | 23 | A-21-  | A-23-  | ILL 
+| 1b77 | A | albelig | 3 | 3 | E | 26 | 32 | A-26-  | A-32-  | GKFIMTR 
+| 1b77 | A | albelig | 4 | 4 | E | 38 | 48 | A-38-  | A-48-  | TYAEANISDEI 
+| 1b77 | A | albelig | 5 | 5 | E | 52 | 54 | A-52-  | A-54-  | VAL 
+| 1b77 | A | albelig | 6 | 6 | H | 57 | 64 | A-57-  | A-64-  | LNSFLSIL 
+| 1b77 | A | albelig | 7 | 7 | E | 72 | 75 | A-72-  | A-75-  | EISM 
+| 1b77 | A | albelig | 8 | 8 | E | 81 | 84 | A-81-  | A-84-  | IKIA 
+| 1b77 | A | albelig | 9 | 9 | E | 88 | 92 | A-88-  | A-92-  | STVYW 
+| 1b77 | A | albelig | 10 | 10 | H | 97 | 99 | A-97-  | A-99-  | KST 
+| 1b77 | A | albelig | 11 | 11 | E | 114 | 118 | A-114-  | A-118-  | VITEI 
+| 1b77 | A | albelig | 12 | 12 | H | 120 | 132 | A-120-  | A-132-  | AEDLQQLLRVSRG 
+| 1b77 | A | albelig | 13 | 13 | E | 137 | 143 | A-137-  | A-143-  | TIAITNK 
+| 1b77 | A | albelig | 14 | 14 | E | 146 | 152 | A-146-  | A-152-  | KIVINGY 
+| 1b77 | A | albelig | 15 | 15 | E | 165 | 171 | A-165-  | A-171-  | YSLTLTD 
+| 1b77 | A | albelig | 16 | 16 | E | 178 | 183 | A-178-  | A-183-  | FNFVIN 
+| 1b77 | A | albelig | 17 | 17 | H | 184 | 186 | A-184-  | A-186-  | MAN 
+| 1b77 | A | albelig | 18 | 18 | E | 194 | 201 | A-194-  | A-201-  | YKVMLWGA 
+| 1b77 | A | albelig | 19 | 19 | E | 204 | 210 | A-204-  | A-210-  | KVAAKFE 
+| 1b77 | A | albelig | 20 | 20 | E | 215 | 219 | A-215-  | A-219-  | SYVIA 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = a = 4
+= 1 = m = 6
+= 2 = a = 5
+= 3 = a = 4
+= 4 = a = 20
+= 7 = a = 8
+= 8 = a = 9
+= 11 = a = 15
+= 11 = a = 18
+= 13 = a = 14
+= 13 = a = 16
+= 14 = a = 15
+= 16 = m = 17
+= 18 = a = 19
+= 19 = a = 20
+# Listed 16 contacts. EOF.

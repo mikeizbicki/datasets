@@ -1,0 +1,87 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eq2, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > N-TERMINAL DOMAIN ROSSMANN FOLD, C-TERMINAL MIXEDALPHA/BETA DOMAIN, SHORT-CHAIN DEHYDROGENASE/REDUCTASE FOLD,ISOMERASE
+> pdb_mol_name > ADP-L-GLYCERO-D-MANNOHEPTOSE 6-EPIMERASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 31-MAR-00
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF ADP-L-GLYCERO-D-MANNOHEPTOSE 6-EPIMERASE
+> format_version > 2
+> pdbid > 1eq2
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eq2 | H | albelig | 1 | 1 | E | 2081 | 2084 | H-2-  | H-5-  | IIVT 
+| 1eq2 | H | albelig | 2 | 2 | H | 2089 | 2099 | H-10-  | H-20-  | FIGSNIVKALN 
+| 1eq2 | H | albelig | 3 | 3 | E | 2106 | 2110 | H-27-  | H-31-  | ILVVD 
+| 1eq2 | H | albelig | 4 | 4 | H | 2115 | 2120 | H-36-  | H-41-  | GTKFVN 
+| 1eq2 | H | albelig | 5 | 5 | E | 2128 | 2131 | H-49-  | H-52-  | DYMD 
+| 1eq2 | H | albelig | 6 | 6 | H | 2132 | 2140 | H-53-  | H-61-  | KEDFLIQIM 
+| 1eq2 | H | albelig | 7 | 7 | E | 2150 | 2153 | H-71-  | H-74-  | AIFH 
+| 1eq2 | H | albelig | 8 | 8 | H | 2165 | 2174 | H-86-  | H-95-  | GKYMMDNNYQ 
+| 1eq2 | H | albelig | 9 | 9 | H | 2175 | 2186 | H-96-  | H-107-  | YSKELLHYCLER 
+| 1eq2 | H | albelig | 10 | 10 | E | 2190 | 2195 | H-111-  | H-116-  | FLYASS 
+| 1eq2 | H | albelig | 11 | 11 | H | 2196 | 2199 | H-117-  | H-120-  | AATY 
+| 1eq2 | H | albelig | 12 | 12 | H | 2210 | 2212 | H-131-  | H-133-  | REY 
+| 1eq2 | H | albelig | 13 | 13 | H | 2218 | 2236 | H-139-  | H-157-  | VYGYSKFLFDEYVRQILPE 
+| 1eq2 | H | albelig | 14 | 14 | E | 2241 | 2246 | H-162-  | H-167-  | IVGFRY 
+| 1eq2 | H | albelig | 15 | 15 | E | 2248 | 2250 | H-169-  | H-171-  | NVY 
+| 1eq2 | H | albelig | 16 | 16 | H | 2255 | 2260 | H-176-  | H-181-  | GHKGSM 
+| 1eq2 | H | albelig | 17 | 17 | H | 2263 | 2272 | H-184-  | H-193-  | VAFHLNTQLN 
+| 1eq2 | H | albelig | 18 | 18 | H | 2283 | 2285 | H-204-  | H-206-  | SEN 
+| 1eq2 | H | albelig | 19 | 19 | E | 2290 | 2292 | H-211-  | H-213-  | FVY 
+| 1eq2 | H | albelig | 20 | 20 | H | 2293 | 2306 | H-214-  | H-227-  | VGDVADVNLWFLEN 
+| 1eq2 | H | albelig | 21 | 21 | E | 2310 | 2314 | H-231-  | H-235-  | GIFNL 
+| 1eq2 | H | albelig | 22 | 22 | H | 2322 | 2333 | H-243-  | H-254-  | FQAVADATLAYH 
+| 1eq2 | H | albelig | 23 | 23 | H | 2351 | 2355 | H-281-  | H-285-  | TNLRA 
+| 1eq2 | H | albelig | 24 | 24 | H | 2365 | 2376 | H-295-  | H-306-  | VAEGVTEYMAWL 
+| 1eq2 | H | albelig | 25 | 25 | L | 3012 | 3012 | H-2407-  | H-2407-  | J 
+| 1eq2 | H | albelig | 26 | 26 | L | 3013 | 3013 | H-2507-  | H-2507-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 1 = l = 25
+= 2 = p = 20
+= 2 = l = 25
+= 3 = p = 5
+= 3 = l = 25
+= 4 = l = 25
+= 5 = m = 6
+= 6 = p = 9
+= 6 = l = 25
+= 7 = m = 9
+= 7 = p = 10
+= 7 = l = 25
+= 8 = p = 13
+= 8 = l = 25
+= 9 = p = 13
+= 9 = l = 25
+= 10 = m = 11
+= 10 = a = 13
+= 10 = p = 14
+= 10 = l = 25
+= 11 = m = 13
+= 11 = l = 25
+= 13 = l = 25
+= 14 = a = 20
+= 14 = p = 21
+= 14 = l = 25
+= 15 = p = 19
+= 15 = l = 25
+= 15 = l = 26
+= 16 = l = 25
+= 16 = l = 26
+= 17 = p = 22
+= 17 = m = 24
+= 17 = l = 26
+= 18 = l = 26
+= 19 = m = 20
+= 22 = p = 24
+= 22 = l = 26
+# Listed 40 contacts. EOF.

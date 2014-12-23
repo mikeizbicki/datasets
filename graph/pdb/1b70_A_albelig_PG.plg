@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b70, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME, TRNA SYNTHETASE, DIMER OF ALPHA/BETA HETERODIMERS, LIGASE
+> pdb_mol_name > PHENYLALANYL-TRNA SYNTHETASE
+> graphtype > albelig
+> resolution > 2.7
+> date > 26-JAN-99
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > PHENYLALANYL TRNA SYNTHETASE COMPLEXED WITH PHENYLALANINE
+> format_version > 2
+> pdbid > 1b70
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b70 | A | albelig | 1 | 1 | H | 17 | 30 | A-102-  | A-115-  | PITLMERELVEIFR 
+| 1b70 | A | albelig | 2 | 2 | E | 42 | 44 | A-127-  | A-129-  | VES 
+| 1b70 | A | albelig | 3 | 3 | H | 46 | 50 | A-131-  | A-135-  | FFNFD 
+| 1b70 | A | albelig | 4 | 4 | H | 61 | 63 | A-146-  | A-148-  | RDM 
+| 1b70 | A | albelig | 5 | 5 | E | 88 | 90 | A-173-  | A-175-  | LLL 
+| 1b70 | A | albelig | 6 | 6 | H | 96 | 104 | A-181-  | A-189-  | PMQVRYMVA 
+| 1b70 | A | albelig | 7 | 7 | E | 109 | 118 | A-194-  | A-203-  | FRIVVPGRVF 
+| 1b70 | A | albelig | 8 | 8 | E | 130 | 140 | A-215-  | A-225-  | VFHQLEGLVVG 
+| 1b70 | A | albelig | 9 | 9 | H | 145 | 159 | A-230-  | A-244-  | MAHLKGAIYELAQAL 
+| 1b70 | A | albelig | 10 | 10 | E | 166 | 170 | A-251-  | A-255-  | VRFQP 
+| 1b70 | A | albelig | 11 | 11 | E | 176 | 186 | A-261-  | A-271-  | VEPGAQFAVWW 
+| 1b70 | A | albelig | 12 | 12 | E | 191 | 201 | A-276-  | A-286-  | KWLELGGAGMV 
+| 1b70 | A | albelig | 13 | 13 | H | 203 | 215 | A-288-  | A-300-  | PKVFQAVDAYRER 
+| 1b70 | A | albelig | 14 | 14 | E | 226 | 233 | A-311-  | A-318-  | TGFAFGLG 
+| 1b70 | A | albelig | 15 | 15 | H | 234 | 242 | A-319-  | A-327-  | VERLAMLRY 
+| 1b70 | A | albelig | 16 | 16 | H | 247 | 251 | A-332-  | A-336-  | IRYFF 
+| 1b70 | A | albelig | 17 | 17 | H | 255 | 261 | A-340-  | A-346-  | LKFLEQF 
+| 1b70 | A | albelig | 18 | 18 | L | 1042 | 1042 | A-351-  | A-351-  | J 
+| 1b70 | A | albelig | 19 | 19 | L | 1043 | 1043 | A-352-  | A-352-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 15
+= 2 = m = 3
+= 2 = a = 5
+= 6 = a = 7
+= 6 = m = 13
+= 6 = l = 19
+= 7 = a = 8
+= 8 = a = 14
+= 8 = m = 15
+= 8 = l = 19
+= 9 = m = 10
+= 9 = m = 12
+= 10 = a = 11
+= 10 = p = 12
+= 11 = a = 12
+= 11 = l = 18
+= 11 = l = 19
+= 12 = a = 14
+= 12 = l = 19
+= 14 = m = 15
+= 14 = l = 19
+# Listed 21 contacts. EOF.

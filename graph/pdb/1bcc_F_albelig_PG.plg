@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcc, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUINONE, OXIDOREDUCTASE, REDOX ENZYME, MEMBRANE PROTEIN,RESPIRATORY CHAIN, ELECTRON TRANSPORT
+> pdb_mol_name > UBIQUINOL CYTOCHROME C OXIDOREDUCTASE
+> graphtype > albelig
+> resolution > 3.16
+> date > 23-MAR-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > CHICKEN
+> title > CYTOCHROME BC1 COMPLEX FROM CHICKEN
+> format_version > 2
+> pdbid > 1bcc
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcc | F | albelig | 1 | 1 | H | 1673 | 1684 | F-13-  | F-24-  | LEGIRKWYYNAA 
+| 1bcc | F | albelig | 2 | 2 | H | 1693 | 1695 | F-33-  | F-35-  | RDD 
+| 1bcc | F | albelig | 3 | 3 | H | 1701 | 1709 | F-41-  | F-49-  | DDVKEAIRR 
+| 1bcc | F | albelig | 4 | 4 | H | 1712 | 1731 | F-52-  | F-71-  | ENLYDDRMFRIKRALDLNMR 
+| 1bcc | F | albelig | 5 | 5 | H | 1737 | 1739 | F-77-  | F-79-  | KEQ 
+| 1bcc | F | albelig | 6 | 6 | H | 1743 | 1745 | F-83-  | F-85-  | YEE 
+| 1bcc | F | albelig | 7 | 7 | H | 1751 | 1767 | F-91-  | F-107-  | EPYLKEVIRERKEREEW 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 7
+# Listed 1 contacts. EOF.

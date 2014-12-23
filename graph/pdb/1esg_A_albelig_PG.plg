@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1esg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NON-SPECIFIC DNA-PROTEIN COMPLEX., HYDROLASE/DNA COMPLEX
+> pdb_mol_name > TYPE II RESTRICTION ENZYME BAMHI
+> graphtype > albelig
+> resolution > 1.9
+> date > 09-APR-00
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > RESTRICTION ENDONUCLEASE BAMHI BOUND TO A NON-SPECIFIC DNA.
+> format_version > 2
+> pdbid > 1esg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1esg | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | EVEKEFI 
+| 1esg | A | albelig | 2 | 2 | H | 10 | 18 | A-10-  | A-18-  | DEAKELLSK 
+| 1esg | A | albelig | 3 | 3 | H | 20 | 34 | A-20-  | A-34-  | KLIQQAYNEVKTSIC 
+| 1esg | A | albelig | 4 | 4 | E | 46 | 48 | A-46-  | A-48-  | TIN 
+| 1esg | A | albelig | 5 | 5 | H | 58 | 72 | A-58-  | A-72-  | VPIKELCYTLLEDTY 
+| 1esg | A | albelig | 6 | 6 | H | 79 | 84 | A-79-  | A-84-  | PLDILK 
+| 1esg | A | albelig | 7 | 7 | E | 95 | 100 | A-95-  | A-100-  | VYKEFI 
+| 1esg | A | albelig | 8 | 8 | E | 105 | 112 | A-105-  | A-112-  | LKRVGMEF 
+| 1esg | A | albelig | 9 | 9 | H | 117 | 132 | A-117-  | A-132-  | ISSAHRSMNKLLLGLK 
+| 1esg | A | albelig | 10 | 10 | E | 138 | 144 | A-138-  | A-144-  | LAIILMP 
+| 1esg | A | albelig | 11 | 11 | H | 146 | 149 | A-146-  | A-149-  | KQLA 
+| 1esg | A | albelig | 12 | 12 | H | 159 | 169 | A-159-  | A-169-  | FEELEPYFELT 
+| 1esg | A | albelig | 13 | 13 | E | 174 | 180 | A-174-  | A-180-  | FIFIGFN 
+| 1esg | A | albelig | 14 | 14 | E | 183 | 185 | A-183-  | A-185-  | AYN 
+| 1esg | A | albelig | 15 | 15 | H | 200 | 205 | A-200-  | A-205-  | KRSIKK 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 12
+= 1 = a = 13
+= 3 = m = 5
+= 4 = p = 14
+= 5 = m = 8
+= 7 = a = 8
+= 8 = p = 10
+= 9 = m = 10
+= 9 = m = 13
+= 10 = m = 12
+= 10 = p = 13
+= 12 = m = 13
+# Listed 12 contacts. EOF.

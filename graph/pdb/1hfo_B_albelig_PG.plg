@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hfo, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TAUTOMERASE
+> pdb_mol_name > MIGRATION INHIBITORY FACTOR
+> graphtype > albelig
+> resolution > 1.65
+> date > 07-DEC-00
+> header > TAUTOMERASE
+> pdb_org_common > TRICHINA
+> title > THE STRUCTURE OF THE MACROPHAGE MIGRATION INHIBITORY FACTORFROM TRICHINELLA SPIRALIS.
+> format_version > 2
+> pdbid > 1hfo
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > TRICHINELLA SPIRALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hfo | B | albelig | 1 | 1 | E | 116 | 121 | B-2-  | B-7-  | IFTLNT 
+| 1hfo | B | albelig | 2 | 2 | H | 125 | 127 | B-11-  | B-13-  | ATD 
+| 1hfo | B | albelig | 3 | 3 | H | 132 | 144 | B-18-  | B-30-  | FLSSTSALVGNIL 
+| 1hfo | B | albelig | 4 | 4 | H | 148 | 150 | B-34-  | B-36-  | GSY 
+| 1hfo | B | albelig | 5 | 5 | E | 152 | 156 | B-38-  | B-42-  | AVHIN 
+| 1hfo | B | albelig | 6 | 6 | E | 160 | 163 | B-46-  | B-49-  | QLSF 
+| 1hfo | B | albelig | 7 | 7 | E | 171 | 178 | B-57-  | B-64-  | AFGTLMSI 
+| 1hfo | B | albelig | 8 | 8 | H | 186 | 201 | B-72-  | B-87-  | NRDHSAKLFDHLNTKL 
+| 1hfo | B | albelig | 9 | 9 | H | 205 | 207 | B-91-  | B-93-  | KNR 
+| 1hfo | B | albelig | 10 | 10 | E | 208 | 215 | B-94-  | B-101-  | MYIHFVNL 
+| 1hfo | B | albelig | 11 | 11 | H | 217 | 219 | B-103-  | B-105-  | GDD 
+| 1hfo | B | albelig | 12 | 12 | E | 220 | 222 | B-106-  | B-108-  | VGW 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = a = 7
+= 3 = a = 8
+= 7 = p = 10
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+# Listed 7 contacts. EOF.

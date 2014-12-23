@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h64, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SM-LIKE PROTEIN, SM FOLD, SPLICEOSOME, SNRNP CORE
+> pdb_mol_name > UNKNOWN
+> graphtype > albelig
+> resolution > 1.9
+> date > 05-JUN-01
+> header > SM-LIKE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE SM-RELATED PROTEIN OF P. ABYSSITHE BIOLOGICAL UNIT IS A HEPTAMER
+> format_version > 2
+> pdbid > 1h64
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h64 | 2 | albelig | 1 | 1 | H | 75 | 81 | 2-5-  | 2-11-  | PLDVIHR 
+| 1h64 | 2 | albelig | 2 | 2 | E | 86 | 91 | 2-16-  | 2-21-  | DVLVIL 
+| 1h64 | 2 | albelig | 3 | 3 | E | 96 | 104 | 2-26-  | 2-34-  | EFRGRLIGY 
+| 1h64 | 2 | albelig | 4 | 4 | E | 110 | 119 | 2-40-  | 2-49-  | VVLADAEMIQ 
+| 1h64 | 2 | albelig | 5 | 5 | E | 122 | 132 | 2-52-  | 2-62-  | EVVKRYGKIVI 
+| 1h64 | 2 | albelig | 6 | 6 | H | 134 | 136 | 2-64-  | 2-66-  | GDN 
+| 1h64 | 2 | albelig | 7 | 7 | E | 137 | 142 | 2-67-  | 2-72-  | VLAISP 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 6 = m = 7
+# Listed 5 contacts. EOF.

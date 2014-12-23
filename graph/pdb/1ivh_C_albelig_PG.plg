@@ -1,0 +1,89 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ivh, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, ACYL-COA DEHYDROGENASE, FLAVOPROTEIN,ISOVALERYL-COA, ISOVALERIC ACIDEMIA
+> pdb_mol_name > ISOVALERYL-COA DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 15-MAY-97
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF HUMAN ISOVALERYL-COA DEHYDROGENASE AT 2.6ANGSTROMS RESOLUTION: STRUCTURAL BASIS FOR SUBSTRATESPECIFICITY
+> format_version > 2
+> pdbid > 1ivh
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ivh | C | albelig | 1 | 1 | H | 786 | 802 | C-15-  | C-31-  | EEQRQLRQTMAKFLQEH 
+| 1ivh | C | albelig | 2 | 2 | H | 804 | 813 | C-33-  | C-42-  | APKAQEIDRS 
+| 1ivh | C | albelig | 3 | 3 | H | 819 | 829 | C-48-  | C-58-  | LREFWKQLGNL 
+| 1ivh | C | albelig | 4 | 4 | H | 838 | 840 | C-67-  | C-69-  | VQY 
+| 1ivh | C | albelig | 5 | 5 | H | 847 | 860 | C-76-  | C-89-  | YLEHVLVMEEISRA 
+| 1ivh | C | albelig | 6 | 6 | H | 862 | 877 | C-91-  | C-106-  | GAVGLSYGAHSNLCIN 
+| 1ivh | C | albelig | 7 | 7 | H | 878 | 882 | C-107-  | C-111-  | QLVRN 
+| 1ivh | C | albelig | 8 | 8 | H | 885 | 897 | C-114-  | C-126-  | EAQKEKYLPKLIS 
+| 1ivh | C | albelig | 9 | 9 | E | 902 | 905 | C-131-  | C-134-  | GALA 
+| 1ivh | C | albelig | 10 | 10 | H | 915 | 917 | C-144-  | C-146-  | VVS 
+| 1ivh | C | albelig | 11 | 11 | E | 921 | 925 | C-150-  | C-154-  | KAEKK 
+| 1ivh | C | albelig | 12 | 12 | E | 928 | 939 | C-157-  | C-168-  | HYILNGNKFWIT 
+| 1ivh | C | albelig | 13 | 13 | E | 946 | 952 | C-175-  | C-181-  | VLIVYAK 
+| 1ivh | C | albelig | 14 | 14 | H | 960 | 963 | C-189-  | C-192-  | ASRG 
+| 1ivh | C | albelig | 15 | 15 | E | 964 | 970 | C-193-  | C-199-  | ITAFIVE 
+| 1ivh | C | albelig | 16 | 16 | E | 976 | 978 | C-205-  | C-207-  | FST 
+| 1ivh | C | albelig | 17 | 17 | E | 992 | 1003 | C-221-  | C-232-  | TCELIFEDCKIP 
+| 1ivh | C | albelig | 18 | 18 | H | 1004 | 1006 | C-233-  | C-235-  | AAN 
+| 1ivh | C | albelig | 19 | 19 | H | 1015 | 1029 | C-244-  | C-258-  | VYVLMSGLDLERLVL 
+| 1ivh | C | albelig | 20 | 20 | H | 1031 | 1048 | C-260-  | C-277-  | GGPLGLMQAVLDHTIPYL 
+| 1ivh | C | albelig | 21 | 21 | H | 1058 | 1060 | C-287-  | C-289-  | IGH 
+| 1ivh | C | albelig | 22 | 22 | H | 1062 | 1090 | C-291-  | C-319-  | QLMQGKMADMYTRLMACRQYVYNVAKACD 
+| 1ivh | C | albelig | 23 | 23 | H | 1096 | 1126 | C-325-  | C-355-  | AKDCAGVILYSAECATQVALDGIQCFGGNGY 
+| 1ivh | C | albelig | 24 | 24 | H | 1132 | 1143 | C-361-  | C-372-  | MGRFLRDAKLYE 
+| 1ivh | C | albelig | 25 | 25 | H | 1149 | 1162 | C-378-  | C-391-  | SEVRRLVIGRAFNA 
+| 1ivh | C | albelig | 26 | 26 | L | 1556 | 1556 | C-399-  | C-399-  | J 
+| 1ivh | C | albelig | 27 | 27 | L | 1557 | 1557 | C-400-  | C-400-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = p = 5
+= 4 = m = 8
+= 5 = a = 6
+= 5 = m = 20
+= 5 = a = 22
+= 6 = m = 7
+= 6 = m = 9
+= 6 = l = 26
+= 6 = l = 27
+= 7 = m = 19
+= 8 = m = 15
+= 9 = a = 12
+= 9 = p = 13
+= 9 = l = 26
+= 10 = l = 27
+= 11 = a = 12
+= 11 = a = 13
+= 12 = a = 17
+= 12 = l = 26
+= 13 = m = 14
+= 13 = a = 15
+= 14 = m = 15
+= 14 = l = 27
+= 15 = m = 18
+= 16 = a = 17
+= 17 = m = 18
+= 17 = l = 26
+= 19 = p = 23
+= 19 = l = 27
+= 20 = a = 22
+= 20 = p = 23
+= 20 = a = 24
+= 22 = a = 23
+= 23 = a = 24
+= 23 = a = 25
+= 23 = l = 27
+= 24 = l = 26
+= 25 = l = 26
+= 25 = l = 27
+= 26 = l = 27
+# Listed 41 contacts. EOF.

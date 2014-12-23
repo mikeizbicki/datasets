@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hii, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ASPARTATE PROTEASE, INHIBITED, HIV, HYDROLASE (ASPARTICPROTEINASE)
+> pdb_mol_name > HIV-2 PROTEASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 31-MAR-95
+> header > HYDROLASE (ASPARTIC PROTEINASE)
+> pdb_org_common > UNKNOWN
+> title > COMPARATIVE ANALYSIS OF THE X-RAY STRUCTURES OF HIV-1 ANDHIV-2 PROTEASES IN COMPLEX WITH CGP 53820, A NOVELPSEUDOSYMMETRIC INHIBITOR
+> format_version > 2
+> pdbid > 1hii
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 2
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hii | B | albelig | 1 | 1 | E | 110 | 115 | B-10-  | B-15-  | VVTAYI 
+| 1hii | B | albelig | 2 | 2 | E | 118 | 124 | B-18-  | B-24-  | QPVEVLL 
+| 1hii | B | albelig | 3 | 3 | E | 143 | 149 | B-43-  | B-49-  | SPKIVGG 
+| 1hii | B | albelig | 4 | 4 | E | 152 | 166 | B-52-  | B-66-  | GFINTKEYKNVEIEV 
+| 1hii | B | albelig | 5 | 5 | E | 169 | 177 | B-69-  | B-77-  | KKVRATIMT 
+| 1hii | B | albelig | 6 | 6 | H | 187 | 193 | B-87-  | B-93-  | RNILTAL 
+| 1hii | B | albelig | 7 | 7 | E | 196 | 198 | B-96-  | B-98-  | SLN 
+| 1hii | B | albelig | 8 | 8 | L | 201 | 201 | B-100-  | B-100-  | J 
+| 1hii | B | albelig | 9 | 9 | L | 202 | 202 | B-101-  | B-101-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = l = 9
+= 3 = a = 4
+= 3 = l = 9
+= 4 = a = 5
+= 5 = a = 6
+= 8 = l = 9
+# Listed 8 contacts. EOF.

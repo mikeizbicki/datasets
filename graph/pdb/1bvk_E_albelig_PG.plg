@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvk, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMANIZED ANTIBODY, ANTIBODY COMPLEX, FV, ANTI-LYSOZYME,COMPLEX (HUMANIZED ANTIBODY/HYDROLASE)
+> pdb_mol_name > HULYS11
+> graphtype > albelig
+> resolution > 2.7
+> date > 16-SEP-98
+> header > COMPLEX (HUMANIZED ANTIBODY/HYDROLASE)
+> pdb_org_common > HUMAN
+> title > HUMANIZED ANTI-LYSOZYME FV COMPLEXED WITH LYSOZYME
+> format_version > 2
+> pdbid > 1bvk
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvk | E | albelig | 1 | 1 | E | 468 | 472 | E-3-  | E-7-  | QLQES 
+| 1bvk | E | albelig | 2 | 2 | E | 483 | 490 | E-18-  | E-25-  | LSLTHTVS 
+| 1bvk | E | albelig | 3 | 3 | E | 498 | 504 | E-33-  | E-39-  | GVNWVRQ 
+| 1bvk | E | albelig | 4 | 4 | E | 511 | 516 | E-46-  | E-51-  | EWIGMI 
+| 1bvk | E | albelig | 5 | 5 | E | 522 | 524 | E-57-  | E-59-  | TDY 
+| 1bvk | E | albelig | 6 | 6 | H | 527 | 531 | E-62-  | E-66-  | ALKSR 
+| 1bvk | E | albelig | 7 | 7 | E | 534 | 537 | E-69-  | E-72-  | MLKD 
+| 1bvk | E | albelig | 8 | 8 | E | 542 | 547 | E-77-  | E-82-  | QFSLRL 
+| 1bvk | E | albelig | 9 | 9 | E | 556 | 563 | E-91-  | E-98-  | AVYYHARE 
+| 1bvk | E | albelig | 10 | 10 | E | 568 | 571 | E-103-  | E-106-  | LDYW 
+| 1bvk | E | albelig | 11 | 11 | E | 575 | 579 | E-110-  | E-114-  | SLVTV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 8
+= 2 = p = 9
+= 3 = a = 4
+= 3 = a = 9
+= 4 = a = 5
+= 4 = p = 7
+= 6 = m = 8
+= 7 = a = 8
+= 9 = a = 10
+= 9 = a = 11
+# Listed 12 contacts. EOF.

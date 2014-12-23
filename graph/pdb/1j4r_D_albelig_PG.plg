@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j4r, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROTAMASE, INHIBITOR, ISOMERASE
+> pdb_mol_name > FK506-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 29-OCT-01
+> header > ISOMERASE
+> pdb_org_common > HUMAN
+> title > FK506 BINDING PROTEIN COMPLEXED WITH FKB-001
+> format_version > 2
+> pdbid > 1j4r
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j4r | D | albelig | 1 | 1 | E | 218 | 224 | D-2-  | D-8-  | VQVETIS 
+| 1j4r | D | albelig | 2 | 2 | E | 237 | 246 | D-21-  | D-30-  | TCVVHYTGML 
+| 1j4r | D | albelig | 3 | 3 | E | 251 | 254 | D-35-  | D-38-  | KFDS 
+| 1j4r | D | albelig | 4 | 4 | H | 255 | 258 | D-39-  | D-42-  | SRDR 
+| 1j4r | D | albelig | 5 | 5 | E | 262 | 265 | D-46-  | D-49-  | FKFM 
+| 1j4r | D | albelig | 6 | 6 | H | 273 | 281 | D-57-  | D-65-  | RGWEEGVAQ 
+| 1j4r | D | albelig | 7 | 7 | E | 287 | 292 | D-71-  | D-76-  | RAKLTI 
+| 1j4r | D | albelig | 8 | 8 | H | 294 | 296 | D-78-  | D-80-  | PDY 
+| 1j4r | D | albelig | 9 | 9 | E | 313 | 322 | D-97-  | D-106-  | LVFDVELLKL 
+| 1j4r | D | albelig | 10 | 10 | L | 328 | 328 | D-108-  | D-108-  | J 
+| 1j4r | D | albelig | 11 | 11 | L | 329 | 329 | D-109-  | D-109-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = a = 7
+= 2 = a = 3
+= 2 = m = 4
+= 2 = a = 5
+= 2 = a = 9
+= 2 = l = 11
+= 3 = m = 4
+= 3 = l = 11
+= 4 = l = 11
+= 5 = l = 11
+= 6 = l = 11
+= 7 = a = 9
+= 7 = l = 10
+= 9 = l = 11
+# Listed 15 contacts. EOF.

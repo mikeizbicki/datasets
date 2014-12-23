@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fht, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBONUCLEOPROTEIN, RNP DOMAIN, SPLICEOSOME
+> pdb_mol_name > U1 SMALL NUCLEAR RIBONUCLEOPROTEIN A
+> graphtype > albelig
+> resolution > -1.0
+> date > 21-FEB-96
+> header > RIBONUCLEOPROTEIN
+> pdb_org_common > HUMAN
+> title > RNA-BINDING DOMAIN OF THE U1A SPLICEOSOMAL PROTEIN U1A117,NMR, 43 STRUCTURES
+> format_version > 2
+> pdbid > 1fht
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fht | A | albelig | 1 | 1 | E | 10 | 13 | A-10-  | A-13-  | TIYI 
+| 1fht | A | albelig | 2 | 2 | H | 25 | 36 | A-25-  | A-36-  | LKKSLYAIFSQF 
+| 1fht | A | albelig | 3 | 3 | E | 39 | 44 | A-39-  | A-44-  | ILDILV 
+| 1fht | A | albelig | 4 | 4 | E | 54 | 58 | A-54-  | A-58-  | AFVIF 
+| 1fht | A | albelig | 5 | 5 | H | 61 | 68 | A-61-  | A-68-  | VSSATNAL 
+| 1fht | A | albelig | 6 | 6 | E | 74 | 76 | A-74-  | A-76-  | FPF 
+| 1fht | A | albelig | 7 | 7 | E | 79 | 81 | A-79-  | A-81-  | KPM 
+| 1fht | A | albelig | 8 | 8 | H | 89 | 95 | A-89-  | A-95-  | DSDIIAK 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = a = 3
+= 2 = m = 5
+= 3 = a = 4
+= 4 = m = 8
+= 6 = a = 7
+# Listed 6 contacts. EOF.

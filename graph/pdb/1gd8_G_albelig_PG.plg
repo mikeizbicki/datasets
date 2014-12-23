@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gd8, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TWO DOMAINS, RIBOSOMAL PROTEIN S8-LIKE DOMAIN, TRPREPRESSOR-LIKE DOMAIN, HELIX-TURN-HELIX MOTIF, TWO TYPES OFDIMERS, FOUR DIMERS OF EACH TYPE., RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,RIBOSOME
+> pdb_mol_name > 50S RIBOSOMAL PROTEIN L17
+> graphtype > albelig
+> resolution > 2.3
+> date > 22-SEP-00
+> header > RIBOSOME
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF BACTERIA-SPECIFIC L17 RIBOSOMALPROTEIN.
+> format_version > 2
+> pdbid > 1gd8
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gd8 | G | albelig | 1 | 1 | H | 638 | 654 | G-15-  | G-31-  | SHRLALYRNQAKSLLTH 
+| 1gd8 | G | albelig | 2 | 2 | E | 656 | 660 | G-33-  | G-37-  | RITTT 
+| 1gd8 | G | albelig | 3 | 3 | H | 661 | 680 | G-38-  | G-57-  | VPKAKELRGFVDHLIHLAKR 
+| 1gd8 | G | albelig | 4 | 4 | H | 683 | 692 | G-60-  | G-69-  | LHARRLVLRD 
+| 1gd8 | G | albelig | 5 | 5 | H | 696 | 706 | G-73-  | G-83-  | VKLVRKLFDEI 
+| 1gd8 | G | albelig | 6 | 6 | H | 707 | 709 | G-84-  | G-86-  | APR 
+| 1gd8 | G | albelig | 7 | 7 | E | 718 | 726 | G-95-  | G-103-  | TRVLKLAER 
+| 1gd8 | G | albelig | 8 | 8 | E | 733 | 739 | G-110-  | G-116-  | PLALVEL 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 2 = m = 3
+= 2 = a = 8
+= 3 = a = 7
+= 3 = p = 8
+= 4 = m = 5
+= 5 = m = 6
+= 7 = a = 8
+# Listed 9 contacts. EOF.

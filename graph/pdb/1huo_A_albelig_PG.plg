@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1huo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, TRANSFERASE/DNA COMPLEX
+> pdb_mol_name > DNA POLYMERASE BETA
+> graphtype > albelig
+> resolution > 2.6
+> date > 04-JAN-01
+> header > TRANSFERASE/DNA
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF DNA POLYMERASE BETA COMPLEXED WITH DNAAND CR-TMPPCP
+> format_version > 2
+> pdbid > 1huo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1huo | A | albelig | 1 | 1 | H | 4 | 20 | A-13-  | A-29-  | GGITDMLVELANFEKNV 
+| 1huo | A | albelig | 2 | 2 | H | 25 | 39 | A-34-  | A-48-  | HKYNAYRKAASVIAK 
+| 1huo | A | albelig | 3 | 3 | H | 47 | 51 | A-56-  | A-60-  | GAEAK 
+| 1huo | A | albelig | 4 | 4 | H | 58 | 69 | A-67-  | A-78-  | TKIAEKIDEFLA 
+| 1huo | A | albelig | 5 | 5 | H | 74 | 81 | A-83-  | A-90-  | RKLEKIRQ 
+| 1huo | A | albelig | 6 | 6 | H | 83 | 92 | A-92-  | A-101-  | DTSSSINFLT 
+| 1huo | A | albelig | 7 | 7 | H | 99 | 107 | A-108-  | A-116-  | PSAARKLVD 
+| 1huo | A | albelig | 8 | 8 | H | 113 | 116 | A-122-  | A-125-  | LEDL 
+| 1huo | A | albelig | 9 | 9 | H | 125 | 132 | A-134-  | A-141-  | HHQRIGLK 
+| 1huo | A | albelig | 10 | 10 | H | 143 | 160 | A-152-  | A-169-  | REEMLQMQDIVLNEVKKL 
+| 1huo | A | albelig | 11 | 11 | E | 165 | 167 | A-174-  | A-176-  | IAT 
+| 1huo | A | albelig | 12 | 12 | H | 170 | 173 | A-179-  | A-182-  | GSFR 
+| 1huo | A | albelig | 13 | 13 | E | 181 | 187 | A-190-  | A-196-  | DMDVLLT 
+| 1huo | A | albelig | 14 | 14 | H | 200 | 211 | A-209-  | A-220-  | KLLHRVVEQLQK 
+| 1huo | A | albelig | 15 | 15 | E | 215 | 221 | A-224-  | A-230-  | ITDTLSK 
+| 1huo | A | albelig | 16 | 16 | E | 225 | 230 | A-234-  | A-239-  | KFMGVC 
+| 1huo | A | albelig | 17 | 17 | E | 244 | 250 | A-253-  | A-259-  | RRIDIRL 
+| 1huo | A | albelig | 18 | 18 | H | 253 | 264 | A-262-  | A-273-  | KDQYYCGVLYFT 
+| 1huo | A | albelig | 19 | 19 | H | 267 | 279 | A-276-  | A-288-  | DIFNKNMRAHALE 
+| 1huo | A | albelig | 20 | 20 | E | 282 | 284 | A-291-  | A-293-  | FTI 
+| 1huo | A | albelig | 21 | 21 | E | 289 | 291 | A-298-  | A-300-  | IRP 
+| 1huo | A | albelig | 22 | 22 | H | 307 | 313 | A-316-  | A-322-  | EQDIFDY 
+| 1huo | A | albelig | 23 | 23 | L | 652 | 652 | A-999-  | A-999-  | J 
+| 1huo | A | albelig | 24 | 24 | L | 653 | 653 | A-338-  | A-338-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 1 = m = 5
+= 1 = m = 6
+= 6 = m = 7
+= 10 = m = 12
+= 11 = a = 13
+= 12 = l = 23
+= 12 = l = 24
+= 13 = p = 17
+= 13 = a = 18
+= 13 = l = 23
+= 13 = l = 24
+= 14 = m = 15
+= 15 = a = 16
+= 16 = a = 17
+= 18 = l = 24
+= 19 = m = 20
+= 19 = l = 24
+= 20 = a = 21
+= 23 = l = 24
+# Listed 21 contacts. EOF.

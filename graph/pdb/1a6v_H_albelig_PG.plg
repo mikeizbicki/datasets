@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a6v, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, HAPTEN, IMMUNE SYSTEM
+> pdb_mol_name > B1-8 FV (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 1.8
+> date > 03-MAR-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > B1-8 FV FRAGMENT COMPLEXED WITH A (4-HYDROXY-3-NITROPHENYL) ACETATECOMPOUND
+> format_version > 2
+> pdbid > 1a6v
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a6v | H | albelig | 1 | 1 | E | 114 | 116 | H-303-  | H-305-  | QLQ 
+| 1a6v | H | albelig | 2 | 2 | E | 120 | 122 | H-309-  | H-311-  | AEL 
+| 1a6v | H | albelig | 3 | 3 | E | 129 | 136 | H-318-  | H-325-  | VKLSNKAS 
+| 1a6v | H | albelig | 4 | 4 | H | 140 | 142 | H-329-  | H-331-  | FTS 
+| 1a6v | H | albelig | 5 | 5 | E | 144 | 150 | H-333-  | H-339-  | WMHWVKQ 
+| 1a6v | H | albelig | 6 | 6 | E | 157 | 162 | H-346-  | H-351-  | EWIGRI 
+| 1a6v | H | albelig | 7 | 7 | E | 169 | 171 | H-358-  | H-360-  | TKY 
+| 1a6v | H | albelig | 8 | 8 | H | 173 | 175 | H-362-  | H-364-  | EKF 
+| 1a6v | H | albelig | 9 | 9 | E | 179 | 184 | H-368-  | H-373-  | ATLTVD 
+| 1a6v | H | albelig | 10 | 10 | E | 189 | 194 | H-378-  | H-383-  | TAYMQL 
+| 1a6v | H | albelig | 11 | 11 | E | 203 | 210 | H-392-  | H-399-  | AVYYNARY 
+| 1a6v | H | albelig | 12 | 12 | E | 225 | 228 | H-414-  | H-417-  | TTVT 
+| 1a6v | H | albelig | 13 | 13 | L | 691 | 691 | H-430-  | H-430-  | J 
+| 1a6v | H | albelig | 14 | 14 | L | 692 | 692 | H-432-  | H-432-  | J 
+| 1a6v | H | albelig | 15 | 15 | L | 693 | 693 | H-433-  | H-433-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 11
+= 2 = p = 12
+= 3 = a = 10
+= 3 = p = 11
+= 5 = a = 6
+= 5 = p = 10
+= 5 = a = 11
+= 5 = l = 13
+= 6 = a = 7
+= 6 = p = 9
+= 6 = l = 13
+= 7 = a = 9
+= 7 = l = 13
+= 9 = a = 10
+= 11 = a = 12
+= 11 = l = 13
+# Listed 17 contacts. EOF.

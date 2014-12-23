@@ -1,0 +1,82 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, ALTERNATIVE 2-OXOACIDS, CEPHEM ANTIBIOTICBIOSYNTHESIS, CHEMICAL COSUBSTRATE RESCUE, CO-SUBSTRATESELECTIVITY, 2- OXOGLUTARATE-DEPENDENT OXYGENASE
+> pdb_mol_name > DEACETOXYCEPHALOSPORIN C SYNTHASE
+> graphtype > albelig
+> resolution > 1.5
+> date > 15-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > ALTERATION OF THE CO-SUBSTRATE SELECTIVITY OFDEACETOXYCEPHALOSPORIN C SYNTHASE: THE ROLE OF ARGININE-258
+> format_version > 2
+> pdbid > 1hjg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES CLAVULIGERUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjg | A | albelig | 1 | 1 | E | 7 | 9 | A-7-  | A-9-  | TFS 
+| 1hjg | A | albelig | 2 | 2 | H | 10 | 14 | A-10-  | A-14-  | LAELQ 
+| 1hjg | A | albelig | 3 | 3 | H | 19 | 28 | A-19-  | A-28-  | QDEFRRCLRD 
+| 1hjg | A | albelig | 4 | 4 | E | 31 | 35 | A-31-  | A-35-  | LFYLT 
+| 1hjg | A | albelig | 5 | 5 | H | 41 | 57 | A-41-  | A-57-  | DTELKSAKDIVIDFFEH 
+| 1hjg | A | albelig | 6 | 6 | H | 60 | 64 | A-60-  | A-64-  | EAEKR 
+| 1hjg | A | albelig | 7 | 7 | E | 76 | 79 | A-76-  | A-79-  | GFTG 
+| 1hjg | A | albelig | 8 | 8 | E | 83 | 87 | A-99-  | A-103-  | MCYSM 
+| 1hjg | A | albelig | 9 | 9 | H | 97 | 124 | A-113-  | A-140-  | GDFERIWTQYFDRQYTASRAVAREVLRA 
+| 1hjg | A | albelig | 10 | 10 | H | 133 | 137 | A-149-  | A-153-  | VEAFL 
+| 1hjg | A | albelig | 11 | 11 | E | 142 | 148 | A-158-  | A-164-  | LLRFRYF 
+| 1hjg | A | albelig | 12 | 12 | E | 153 | 158 | A-180-  | A-185-  | MAPHYD 
+| 1hjg | A | albelig | 13 | 13 | E | 162 | 165 | A-189-  | A-192-  | VTLI 
+| 1hjg | A | albelig | 14 | 14 | E | 173 | 177 | A-204-  | A-208-  | LQAEV 
+| 1hjg | A | albelig | 15 | 15 | E | 180 | 183 | A-211-  | A-214-  | AFTD 
+| 1hjg | A | albelig | 16 | 16 | E | 191 | 195 | A-222-  | A-226-  | VLVFC 
+| 1hjg | A | albelig | 17 | 17 | H | 197 | 202 | A-228-  | A-233-  | AIATLV 
+| 1hjg | A | albelig | 18 | 18 | E | 212 | 214 | A-243-  | A-245-  | HHV 
+| 1hjg | A | albelig | 19 | 19 | E | 219 | 226 | A-258-  | A-265-  | QTSSVFFL 
+| 1hjg | A | albelig | 20 | 20 | E | 233 | 235 | A-272-  | A-274-  | TFS 
+| 1hjg | A | albelig | 21 | 21 | H | 236 | 241 | A-275-  | A-280-  | VPLARE 
+| 1hjg | A | albelig | 22 | 22 | E | 252 | 254 | A-291-  | A-293-  | TAT 
+| 1hjg | A | albelig | 23 | 23 | H | 255 | 259 | A-294-  | A-298-  | FQDWI 
+| 1hjg | A | albelig | 24 | 24 | L | 269 | 269 | A-1307-  | A-1307-  | J 
+| 1hjg | A | albelig | 25 | 25 | L | 270 | 270 | A-1308-  | A-1308-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 2 = m = 9
+= 3 = m = 9
+= 4 = a = 16
+= 5 = m = 6
+= 5 = m = 8
+= 5 = a = 9
+= 5 = m = 11
+= 7 = a = 8
+= 8 = m = 9
+= 8 = a = 11
+= 9 = m = 10
+= 9 = m = 11
+= 9 = p = 19
+= 11 = a = 19
+= 11 = l = 25
+= 12 = a = 18
+= 12 = l = 24
+= 12 = l = 25
+= 13 = a = 16
+= 13 = a = 19
+= 13 = l = 25
+= 14 = a = 15
+= 14 = a = 18
+= 14 = l = 25
+= 16 = l = 24
+= 16 = l = 25
+= 18 = l = 24
+= 18 = l = 25
+= 19 = l = 24
+= 19 = l = 25
+= 20 = m = 21
+= 20 = a = 22
+= 22 = m = 23
+= 24 = l = 25
+# Listed 36 contacts. EOF.

@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kmi, chain Z.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR-HELIX BUNDLE, SIGNALING PROTEIN
+> pdb_mol_name > CHEMOTAXIS PROTEIN CHEZ
+> graphtype > albelig
+> resolution > 2.9
+> date > 16-DEC-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN E.COLI CHEMOTAXIS PROTEIN, CHEZ
+> format_version > 2
+> pdbid > 1kmi
+> experiment > X-RAY DIFFRACTION
+> chainid > Z
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kmi | Z | albelig | 1 | 1 | H | 139 | 160 | Z-14-  | Z-35-  | AGDIIARIGSLTRMLRDSLREL 
+| 1kmi | Z | albelig | 2 | 2 | H | 162 | 168 | Z-37-  | Z-43-  | LDQAIAE 
+| 1kmi | Z | albelig | 3 | 3 | H | 173 | 179 | Z-48-  | Z-54-  | IPDARDR 
+| 1kmi | Z | albelig | 4 | 4 | H | 183 | 189 | Z-58-  | Z-64-  | VVQMTAQ 
+| 1kmi | Z | albelig | 5 | 5 | H | 193 | 222 | Z-68-  | Z-97-  | RALNSVEASQPHQDQMEKSAKALTQRWDDW 
+| 1kmi | Z | albelig | 6 | 6 | H | 229 | 263 | Z-104-  | Z-138-  | LADARELVTDTRQFLADVPAHTSFTNAQLLKIMMA 
+| 1kmi | Z | albelig | 7 | 7 | H | 266 | 286 | Z-141-  | Z-161-  | FQDLTGQVIKRMMDVIQEIER 
+| 1kmi | Z | albelig | 8 | 8 | H | 298 | 306 | Z-204-  | Z-212-  | QVDDLLDSL 
+| 1kmi | Z | albelig | 9 | 9 | L | 310 | 310 | Z-215-  | Z-215-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 9
+= 3 = a = 7
+= 4 = m = 7
+= 5 = a = 6
+# Listed 4 contacts. EOF.

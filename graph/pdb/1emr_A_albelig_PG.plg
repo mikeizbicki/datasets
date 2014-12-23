@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1emr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 4-HELIX BUNDLE, GENE REGULATION
+> pdb_mol_name > LEUKEMIA INHIBITORY FACTOR
+> graphtype > albelig
+> resolution > 3.5
+> date > 17-MAR-00
+> header > GENE REGULATION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN LEUKEMIA INHIBITORY FACTOR (LIF)
+> format_version > 2
+> pdbid > 1emr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1emr | A | albelig | 1 | 1 | H | 4 | 27 | A-26-  | A-49-  | QIRSQLAQLNGSANALFILYYTAQ 
+| 1emr | A | albelig | 2 | 2 | H | 35 | 38 | A-57-  | A-60-  | LEKL 
+| 1emr | A | albelig | 3 | 3 | H | 55 | 83 | A-77-  | A-105-  | EKAKLVELYRIVVYLGTSLGNITRDQKIL 
+| 1emr | A | albelig | 4 | 4 | H | 88 | 113 | A-110-  | A-135-  | LSLHSKLNATADILRGLLSNVLCRLC 
+| 1emr | A | albelig | 5 | 5 | H | 134 | 158 | A-156-  | A-180-  | VFQKKKLGAQLLGKYKQVISVLAQA 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 4
+= 1 = a = 5
+= 3 = a = 4
+= 3 = a = 5
+# Listed 5 contacts. EOF.

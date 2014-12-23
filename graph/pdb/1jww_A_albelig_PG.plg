@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jww, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA-BETA-BETA-ALPHA-BETA, HYDROLASE
+> pdb_mol_name > POTENTIAL COPPER-TRANSPORTING ATPASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 05-SEP-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > NMR CHARACTERIZATION OF THE N-TERMINAL DOMAIN OF APOTENTIAL COPPER-TRANSLOCATING P-TYPE ATPASE FROM BACILLUSSUBTILIS
+> format_version > 2
+> pdbid > 1jww
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jww | A | albelig | 1 | 1 | E | 3 | 10 | A-3-  | A-10-  | EKAEFDIE 
+| 1jww | A | albelig | 2 | 2 | H | 15 | 26 | A-15-  | A-26-  | AACANRIEKRLN 
+| 1jww | A | albelig | 3 | 3 | E | 31 | 33 | A-31-  | A-33-  | VAN 
+| 1jww | A | albelig | 4 | 4 | E | 42 | 47 | A-42-  | A-47-  | TVTVEY 
+| 1jww | A | albelig | 5 | 5 | H | 54 | 64 | A-54-  | A-64-  | VSDLKEAVDKL 
+| 1jww | A | albelig | 6 | 6 | E | 67 | 70 | A-67-  | A-70-  | KLKL 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 2 = m = 5
+= 3 = a = 4
+= 5 = a = 6
+# Listed 5 contacts. EOF.

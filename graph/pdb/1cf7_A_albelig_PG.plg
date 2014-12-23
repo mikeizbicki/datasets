@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cf7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > E2F, DP, WINGED-HELIX, DNA-BINDING DOMAIN, TRANSCRIPTIONFACTOR, CELL CYCLE, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > PROTEIN (TRANSCRIPTION FACTOR E2F-4)
+> graphtype > albelig
+> resolution > 2.6
+> date > 24-MAR-99
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HUMAN
+> title > STRUCTURAL BASIS OF DNA RECOGNITION BY THE HETERODIMERICCELL CYCLE TRANSCRIPTION FACTOR E2F-DP
+> format_version > 2
+> pdbid > 1cf7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cf7 | A | albelig | 1 | 1 | H | 7 | 20 | A-22-  | A-35-  | LGLLTTKFVSLLQE 
+| 1cf7 | A | albelig | 2 | 2 | E | 25 | 27 | A-40-  | A-42-  | VLD 
+| 1cf7 | A | albelig | 3 | 3 | H | 28 | 34 | A-43-  | A-49-  | LKLAADT 
+| 1cf7 | A | albelig | 4 | 4 | H | 41 | 53 | A-56-  | A-68-  | RRIYDITNVLEGI 
+| 1cf7 | A | albelig | 5 | 5 | E | 56 | 60 | A-71-  | A-75-  | IEKKS 
+| 1cf7 | A | albelig | 6 | 6 | E | 63 | 66 | A-78-  | A-81-  | SIQW 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = m = 3
+= 2 = a = 6
+= 5 = a = 6
+# Listed 4 contacts. EOF.

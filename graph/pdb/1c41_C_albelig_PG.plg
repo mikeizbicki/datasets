@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c41, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOFLAVIN BIOSYNTHESIS, TRANSFERASE
+> pdb_mol_name > LUMAZINE SYNTHASE
+> graphtype > albelig
+> resolution > 3.1
+> date > 03-AUG-99
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF A PENTAMERIC FUNGAL AND AN ICOSAHEDRAL PLANTLUMAZINE SYNTHASE REVEALS THE STRUCTURAL BASIS FOR DIFFERENCES INASSEMBLY
+> format_version > 2
+> pdbid > 1c41
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MAGNAPORTHE GRISEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c41 | C | albelig | 1 | 1 | E | 348 | 353 | C-18-  | C-23-  | IGIVHA 
+| 1c41 | C | albelig | 2 | 2 | H | 357 | 373 | C-27-  | C-43-  | ETIIEPLLAGTKAKLLA 
+| 1c41 | C | albelig | 3 | 3 | H | 378 | 380 | C-48-  | C-50-  | ESN 
+| 1c41 | C | albelig | 4 | 4 | E | 381 | 386 | C-51-  | C-56-  | IVVQSV 
+| 1c41 | C | albelig | 5 | 5 | H | 391 | 405 | C-61-  | C-75-  | ELPIAVQRLYSASQL 
+| 1c41 | C | albelig | 6 | 6 | E | 414 | 422 | C-113-  | C-121-  | ALIAIGVLI 
+| 1c41 | C | albelig | 7 | 7 | H | 428 | 447 | C-127-  | C-146-  | HFEYIADSVSHGLMRVQLDT 
+| 1c41 | C | albelig | 8 | 8 | E | 451 | 458 | C-150-  | C-157-  | VIFGVLTV 
+| 1c41 | C | albelig | 9 | 9 | H | 461 | 467 | C-160-  | C-166-  | DDQAKAR 
+| 1c41 | C | albelig | 10 | 10 | H | 477 | 496 | C-176-  | C-195-  | HGEDWGLAAVEMGVRRRDWA 
+| 1c41 | C | albelig | 11 | 11 | L | 1676 | 1676 | C-303-  | C-303-  | J 
+| 1c41 | C | albelig | 12 | 12 | L | 1677 | 1677 | C-402-  | C-402-  | J 
+| 1c41 | C | albelig | 13 | 13 | L | 1678 | 1678 | C-410-  | C-410-  | J 
+| 1c41 | C | albelig | 14 | 14 | L | 1679 | 1679 | C-203-  | C-203-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 1 = m = 5
+= 1 = p = 6
+= 1 = l = 14
+= 2 = m = 4
+= 2 = m = 6
+= 2 = m = 10
+= 3 = m = 4
+= 5 = a = 6
+= 5 = l = 14
+= 6 = p = 8
+= 6 = m = 10
+= 6 = l = 14
+= 7 = a = 8
+= 7 = l = 11
+= 7 = l = 13
+= 7 = l = 14
+= 8 = m = 9
+= 8 = m = 10
+= 10 = l = 12
+= 11 = l = 14
+# Listed 22 contacts. EOF.

@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j4v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYANOVIRIN-N, HIV-INACTIVATING, DOMAIN-SWAPPED DIMER, NMR,DIPOLAR COUPLINGS / CONJOINED RIGID BODY-TORSION ANGLEDYNAMICS, IMMUNE SYSTEM
+> pdb_mol_name > CYANOVIRIN-N
+> graphtype > albelig
+> resolution > -1.0
+> date > 21-NOV-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > UNKNOWN
+> title > CYANOVIRIN-N
+> format_version > 2
+> pdbid > 1j4v
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NOSTOC ELLIPSOSPORUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j4v | A | albelig | 1 | 1 | H | 4 | 7 | A-4-  | A-7-  | FSQT 
+| 1j4v | A | albelig | 2 | 2 | E | 8 | 14 | A-8-  | A-14-  | AYNSAIQ 
+| 1j4v | A | albelig | 3 | 3 | E | 17 | 23 | A-17-  | A-23-  | VLTSTAE 
+| 1j4v | A | albelig | 4 | 4 | E | 29 | 35 | A-29-  | A-35-  | YNTSSID 
+| 1j4v | A | albelig | 5 | 5 | H | 36 | 38 | A-36-  | A-38-  | LNS 
+| 1j4v | A | albelig | 6 | 6 | E | 40 | 43 | A-40-  | A-43-  | IENV 
+| 1j4v | A | albelig | 7 | 7 | E | 46 | 49 | A-46-  | A-49-  | SLKW 
+| 1j4v | A | albelig | 8 | 8 | E | 58 | 64 | A-58-  | A-64-  | NRNTQLA 
+| 1j4v | A | albelig | 9 | 9 | E | 68 | 74 | A-68-  | A-74-  | ELAAENK 
+| 1j4v | A | albelig | 10 | 10 | E | 80 | 86 | A-80-  | A-86-  | FVSTKIN 
+| 1j4v | A | albelig | 11 | 11 | H | 87 | 89 | A-87-  | A-89-  | LDD 
+| 1j4v | A | albelig | 12 | 12 | E | 92 | 94 | A-92-  | A-94-  | ANI 
+| 1j4v | A | albelig | 13 | 13 | E | 97 | 99 | A-97-  | A-99-  | TLK 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+= 5 = m = 6
+= 6 = a = 7
+= 8 = a = 9
+= 9 = a = 10
+= 10 = m = 11
+= 12 = a = 13
+# Listed 11 contacts. EOF.

@@ -1,0 +1,86 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hw9, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, OXIDOREDUCTASE
+> pdb_mol_name > HMG-COA REDUCTASE
+> graphtype > albelig
+> resolution > 2.33
+> date > 09-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > COMPLEX OF THE CATALYTIC PORTION OF HUMAN HMG-COA REDUCTASE WITHSIMVASTATIN
+> format_version > 2
+> pdbid > 1hw9
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hw9 | C | albelig | 1 | 1 | H | 811 | 814 | C-464-  | C-467-  | DAEI 
+| 1hw9 | C | albelig | 2 | 2 | H | 827 | 839 | C-488-  | C-500-  | HERGVSIRRQLLS 
+| 1hw9 | C | albelig | 3 | 3 | H | 845 | 850 | C-506-  | C-511-  | PSSLQY 
+| 1hw9 | C | albelig | 4 | 4 | H | 858 | 861 | C-519-  | C-522-  | YSLV 
+| 1hw9 | C | albelig | 5 | 5 | E | 869 | 885 | C-530-  | C-546-  | VIGYMPIPVGVAGPLCL 
+| 1hw9 | C | albelig | 6 | 6 | E | 888 | 895 | C-549-  | C-556-  | KEFQVPMA 
+| 1hw9 | C | albelig | 7 | 7 | H | 901 | 913 | C-562-  | C-574-  | LVASTNRGCRAIG 
+| 1hw9 | C | albelig | 8 | 8 | E | 919 | 929 | C-580-  | C-590-  | SSRVLADGMTR 
+| 1hw9 | C | albelig | 9 | 9 | E | 932 | 934 | C-593-  | C-595-  | VVR 
+| 1hw9 | C | albelig | 10 | 10 | H | 938 | 948 | C-599-  | C-609-  | ACDSAEVKAWL 
+| 1hw9 | C | albelig | 11 | 11 | H | 951 | 962 | C-612-  | C-623-  | SEGFAVIKEAFD 
+| 1hw9 | C | albelig | 12 | 12 | E | 969 | 978 | C-630-  | C-639-  | RLQKLHTSIA 
+| 1hw9 | C | albelig | 13 | 13 | E | 981 | 989 | C-642-  | C-650-  | NLYIRFQSR 
+| 1hw9 | C | albelig | 14 | 14 | H | 996 | 1013 | C-657-  | C-674-  | MNMISKGTEKALSKLHEY 
+| 1hw9 | C | albelig | 15 | 15 | E | 1018 | 1021 | C-679-  | C-682-  | QILA 
+| 1hw9 | C | albelig | 16 | 16 | H | 1034 | 1039 | C-695-  | C-700-  | AINWIE 
+| 1hw9 | C | albelig | 17 | 17 | E | 1042 | 1051 | C-703-  | C-712-  | GKSVVCEAVI 
+| 1hw9 | C | albelig | 18 | 18 | H | 1053 | 1058 | C-714-  | C-719-  | AKVVRE 
+| 1hw9 | C | albelig | 19 | 19 | H | 1064 | 1076 | C-725-  | C-737-  | TEAMIEVNINKNL 
+| 1hw9 | C | albelig | 20 | 20 | H | 1077 | 1081 | C-738-  | C-742-  | VGSAM 
+| 1hw9 | C | albelig | 21 | 21 | H | 1092 | 1102 | C-753-  | C-763-  | AANIVTAIYIA 
+| 1hw9 | C | albelig | 22 | 22 | H | 1107 | 1113 | C-768-  | C-774-  | AAQNVGS 
+| 1hw9 | C | albelig | 23 | 23 | E | 1116 | 1123 | C-777-  | C-784-  | CITLMEAS 
+| 1hw9 | C | albelig | 24 | 24 | E | 1129 | 1139 | C-790-  | C-800-  | DLYISCTMPSI 
+| 1hw9 | C | albelig | 25 | 25 | H | 1146 | 1149 | C-807-  | C-810-  | GGTN 
+| 1hw9 | C | albelig | 26 | 26 | H | 1151 | 1159 | C-812-  | C-820-  | LPQQACLQM 
+| 1hw9 | C | albelig | 27 | 27 | H | 1172 | 1198 | C-833-  | C-859-  | ENARQLARIVCGTVMAGELSLMAALAA 
+| 1hw9 | C | albelig | 28 | 28 | L | 1595 | 1595 | C-103-  | C-103-  | J 
+| 1hw9 | C | albelig | 29 | 29 | L | 1596 | 1596 | C-1-  | C-1-  | J 
+| 1hw9 | C | albelig | 30 | 30 | L | 1597 | 1597 | C-2-  | C-2-  | J 
+# Printed info on 30 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 2 = m = 5
+= 5 = a = 6
+= 5 = p = 7
+= 5 = m = 27
+= 6 = m = 21
+= 6 = m = 26
+= 6 = p = 27
+= 7 = m = 27
+= 7 = l = 30
+= 8 = a = 13
+= 8 = m = 14
+= 8 = a = 17
+= 8 = l = 29
+= 9 = a = 13
+= 9 = a = 15
+= 11 = m = 12
+= 11 = m = 14
+= 12 = a = 13
+= 13 = a = 14
+= 14 = l = 29
+= 16 = m = 24
+= 17 = a = 24
+= 17 = p = 27
+= 19 = m = 23
+= 19 = m = 27
+= 19 = l = 30
+= 21 = m = 27
+= 21 = l = 30
+= 22 = m = 24
+= 23 = a = 24
+= 24 = a = 27
+= 25 = m = 26
+= 27 = l = 30
+# Listed 35 contacts. EOF.

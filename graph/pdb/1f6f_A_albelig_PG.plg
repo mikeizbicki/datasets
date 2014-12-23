@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f6f, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 4-HELICAL BUNDLE, ALPHA HELICAL BUNDLE, TERNARY COMPLEX, FNIII DOMAINS, BETA SHEET DOMAINS, CYTOKINE-RECEPTOR COMPLEX,HORMONE/GROWTH FACTOR/HORMONE RECEPTOR COMPLEX
+> pdb_mol_name > PLACENTAL LACTOGEN
+> graphtype > albelig
+> resolution > 2.3
+> date > 21-JUN-00
+> header > HORMONE/GROWTH FACTOR/HORMONE RECEPTOR
+> pdb_org_common > SHEEP
+> title > CRYSTAL STRUCTURE OF THE TERNARY COMPLEX BETWEEN OVINEPLACENTAL LACTOGEN AND THE EXTRACELLULAR DOMAIN OF THE RATPROLACTIN RECEPTOR
+> format_version > 2
+> pdbid > 1f6f
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > OVIS ARIES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f6f | A | albelig | 1 | 1 | H | 5 | 7 | A-5-  | A-7-  | PYA 
+| 1f6f | A | albelig | 2 | 2 | H | 18 | 44 | A-18-  | A-44-  | LQSLFDRATTVANYNSKLAGEMVNRFD 
+| 1f6f | A | albelig | 3 | 3 | H | 53 | 56 | A-61-  | A-64-  | HTSS 
+| 1f6f | A | albelig | 4 | 4 | H | 63 | 68 | A-71-  | A-76-  | KAEAIN 
+| 1f6f | A | albelig | 5 | 5 | H | 71 | 83 | A-79-  | A-91-  | DKILFKLVISLLH 
+| 1f6f | A | albelig | 6 | 6 | H | 86 | 97 | A-94-  | A-105-  | DEPLHHAVTELA 
+| 1f6f | A | albelig | 7 | 7 | H | 101 | 127 | A-113-  | A-139-  | ALLTKAQEIKEKAKVLVDGVEVIQKRI 
+| 1f6f | A | albelig | 8 | 8 | H | 140 | 146 | A-152-  | A-158-  | SEQSSLT 
+| 1f6f | A | albelig | 9 | 9 | H | 150 | 182 | A-162-  | A-194-  | ENVRRVAFYRLFHNLHRDSSKIYTYLRILKCRL 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 7
+= 2 = a = 9
+= 5 = a = 7
+= 5 = a = 9
+= 6 = a = 7
+= 6 = m = 8
+= 8 = m = 9
+# Listed 7 contacts. EOF.

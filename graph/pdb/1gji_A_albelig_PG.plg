@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gji, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NF-KB/DNA COMPLEX, TRANSCRIPTION FACTOR, C-REL HOMODIMER,TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > C-REL PROTO-ONCOGENE PROTEIN
+> graphtype > albelig
+> resolution > 2.85
+> date > 30-MAY-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > CHICKEN
+> title > CRYSTAL STRUCTURE OF C-REL BOUND TO DNA
+> format_version > 2
+> pdbid > 1gji
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gji | A | albelig | 1 | 1 | E | 2 | 7 | A-8-  | A-13-  | YIEIFE 
+| 1gji | A | albelig | 2 | 2 | H | 19 | 21 | A-25-  | A-27-  | KCE 
+| 1gji | A | albelig | 3 | 3 | E | 42 | 46 | A-48-  | A-52-  | SIQIL 
+| 1gji | A | albelig | 4 | 4 | E | 52 | 59 | A-58-  | A-65-  | VKIRTTLV 
+| 1gji | A | albelig | 5 | 5 | E | 71 | 73 | A-77-  | A-79-  | DLV 
+| 1gji | A | albelig | 6 | 6 | E | 81 | 86 | A-87-  | A-92-  | YYEAEF 
+| 1gji | A | albelig | 7 | 7 | E | 99 | 102 | A-105-  | A-108-  | GIQC 
+| 1gji | A | albelig | 8 | 8 | H | 108 | 116 | A-114-  | A-122-  | LKESISLRI 
+| 1gji | A | albelig | 9 | 9 | H | 127 | 131 | A-133-  | A-137-  | EEQLH 
+| 1gji | A | albelig | 10 | 10 | E | 140 | 150 | A-146-  | A-156-  | VVRLCFQAFLP 
+| 1gji | A | albelig | 11 | 11 | E | 156 | 159 | A-162-  | A-165-  | YTLA 
+| 1gji | A | albelig | 12 | 12 | E | 181 | 184 | A-187-  | A-190-  | ICRV 
+| 1gji | A | albelig | 13 | 13 | E | 188 | 190 | A-194-  | A-196-  | CGS 
+| 1gji | A | albelig | 14 | 14 | E | 196 | 201 | A-202-  | A-207-  | EIFILC 
+| 1gji | A | albelig | 15 | 15 | H | 206 | 208 | A-212-  | A-214-  | KDD 
+| 1gji | A | albelig | 16 | 16 | E | 210 | 215 | A-216-  | A-221-  | EVRFVL 
+| 1gji | A | albelig | 17 | 17 | E | 218 | 221 | A-224-  | A-227-  | WEAK 
+| 1gji | A | albelig | 18 | 18 | H | 226 | 228 | A-232-  | A-234-  | QAD 
+| 1gji | A | albelig | 19 | 19 | E | 234 | 238 | A-240-  | A-244-  | AIVFR 
+| 1gji | A | albelig | 20 | 20 | E | 250 | 258 | A-256-  | A-264-  | ITVKMQLRR 
+| 1gji | A | albelig | 21 | 21 | H | 259 | 261 | A-265-  | A-267-  | PSD 
+| 1gji | A | albelig | 22 | 22 | E | 268 | 273 | A-274-  | A-279-  | MDFRYL 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 4 = a = 5
+= 4 = a = 6
+= 4 = a = 10
+= 5 = a = 7
+= 8 = m = 9
+= 10 = a = 11
+= 12 = a = 14
+= 13 = p = 22
+= 14 = a = 19
+= 16 = a = 17
+= 16 = a = 20
+= 18 = m = 19
+= 20 = m = 21
+= 20 = a = 22
+# Listed 15 contacts. EOF.

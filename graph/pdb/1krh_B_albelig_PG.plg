@@ -1,0 +1,85 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1krh, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA, FAD-BINDING, FERREDOXIN, NADH-BINDING,OXIDOREDUCTASE
+> pdb_mol_name > BENZOATE 1,2-DIOXYGENASE REDUCTASE
+> graphtype > albelig
+> resolution > 1.5
+> date > 09-JAN-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY STUCTURE OF BENZOATE DIOXYGENASE REDUCTASE
+> format_version > 2
+> pdbid > 1krh
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ACINETOBACTER SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1krh | B | albelig | 1 | 1 | E | 341 | 346 | B-4-  | B-9-  | HQVALQ 
+| 1krh | B | albelig | 2 | 2 | E | 352 | 357 | B-15-  | B-20-  | TRFICI 
+| 1krh | B | albelig | 3 | 3 | H | 363 | 369 | B-26-  | B-32-  | LSDAAYR 
+| 1krh | B | albelig | 4 | 4 | E | 387 | 392 | B-50-  | B-55-  | RAFCES 
+| 1krh | B | albelig | 5 | 5 | H | 399 | 401 | B-62-  | B-64-  | EDN 
+| 1krh | B | albelig | 6 | 6 | H | 409 | 414 | B-72-  | B-77-  | PEEAQQ 
+| 1krh | B | albelig | 7 | 7 | E | 416 | 418 | B-79-  | B-81-  | YVL 
+| 1krh | B | albelig | 8 | 8 | E | 428 | 432 | B-91-  | B-95-  | AVFQI 
+| 1krh | B | albelig | 9 | 9 | H | 438 | 440 | B-101-  | B-103-  | VCK 
+| 1krh | B | albelig | 10 | 10 | E | 444 | 455 | B-107-  | B-118-  | HHFEGTLARVEN 
+| 1krh | B | albelig | 11 | 11 | E | 460 | 467 | B-123-  | B-130-  | TITFDIQL 
+| 1krh | B | albelig | 12 | 12 | E | 481 | 485 | B-144-  | B-148-  | YVNVT 
+| 1krh | B | albelig | 13 | 13 | E | 492 | 496 | B-155-  | B-159-  | TRSYS 
+| 1krh | B | albelig | 14 | 14 | E | 505 | 511 | B-168-  | B-174-  | LTGFVVR 
+| 1krh | B | albelig | 15 | 15 | H | 517 | 525 | B-180-  | B-188-  | KMSEYLSVQ 
+| 1krh | B | albelig | 16 | 16 | E | 531 | 538 | B-194-  | B-201-  | KMSFTGPF 
+| 1krh | B | albelig | 17 | 17 | E | 550 | 555 | B-213-  | B-218-  | VLMLAG 
+| 1krh | B | albelig | 18 | 18 | H | 556 | 572 | B-219-  | B-235-  | GTGIAPFLSMLQVLEQK 
+| 1krh | B | albelig | 19 | 19 | E | 578 | 586 | B-241-  | B-249-  | VRLVFGVTQ 
+| 1krh | B | albelig | 20 | 20 | H | 587 | 589 | B-250-  | B-252-  | DCD 
+| 1krh | B | albelig | 21 | 21 | H | 593 | 602 | B-256-  | B-265-  | LEQLDALQQK 
+| 1krh | B | albelig | 22 | 22 | E | 606 | 614 | B-269-  | B-277-  | FEYRTVVAH 
+| 1krh | B | albelig | 23 | 23 | H | 625 | 627 | B-288-  | B-290-  | VTG 
+| 1krh | B | albelig | 24 | 24 | H | 631 | 633 | B-294-  | B-296-  | YDW 
+| 1krh | B | albelig | 25 | 25 | H | 635 | 637 | B-298-  | B-300-  | NGG 
+| 1krh | B | albelig | 26 | 26 | E | 640 | 646 | B-303-  | B-309-  | DVYLCGP 
+| 1krh | B | albelig | 27 | 27 | H | 647 | 660 | B-310-  | B-323-  | VPMVEAVRSWLDTQ 
+| 1krh | B | albelig | 28 | 28 | E | 666 | 672 | B-329-  | B-335-  | NFLFEKF 
+| 1krh | B | albelig | 29 | 29 | L | 681 | 681 | B-403-  | B-403-  | J 
+| 1krh | B | albelig | 30 | 30 | L | 682 | 682 | B-404-  | B-404-  | J 
+| 1krh | B | albelig | 31 | 31 | L | 683 | 683 | B-600-  | B-600-  | J 
+| 1krh | B | albelig | 32 | 32 | L | 684 | 684 | B-601-  | B-601-  | J 
+# Printed info on 32 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 8
+= 4 = a = 7
+= 4 = a = 8
+= 6 = m = 7
+= 7 = l = 31
+= 10 = a = 11
+= 10 = a = 16
+= 11 = a = 14
+= 12 = a = 13
+= 12 = a = 16
+= 12 = l = 32
+= 13 = a = 14
+= 13 = l = 32
+= 14 = m = 18
+= 14 = l = 32
+= 15 = l = 32
+= 17 = m = 18
+= 17 = p = 19
+= 17 = p = 26
+= 18 = p = 21
+= 18 = l = 32
+= 19 = m = 20
+= 19 = p = 22
+= 19 = m = 24
+= 21 = m = 22
+= 26 = m = 27
+= 26 = p = 28
+= 26 = l = 30
+= 27 = a = 28
+= 28 = l = 30
+= 28 = l = 32
+# Listed 32 contacts. EOF.

@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cd1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CD1, IMMUNOLOGY, MHC, TCR, GLYCOPROTEIN, SIGNAL,IMMUNOGLOBULIN FOLD, T-CELL
+> pdb_mol_name > CD1
+> graphtype > albelig
+> resolution > 2.67
+> date > 02-APR-97
+> header > CD1
+> pdb_org_common > HOUSE MOUSE
+> title > CD1(MOUSE) ANTIGEN PRESENTING MOLECULE
+> format_version > 2
+> pdbid > 1cd1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cd1 | A | albelig | 1 | 1 | E | 2 | 14 | A-8-  | A-20-  | YTFRCLQMSSFAN 
+| 1cd1 | A | albelig | 2 | 2 | E | 17 | 26 | A-23-  | A-32-  | WSRTDSVVWL 
+| 1cd1 | A | albelig | 3 | 3 | E | 29 | 34 | A-35-  | A-40-  | LQTHRW 
+| 1cd1 | A | albelig | 4 | 4 | H | 54 | 80 | A-60-  | A-86-  | NQQWEKLQHMFQVYRVSFTRDIQELVK 
+| 1cd1 | A | albelig | 5 | 5 | E | 90 | 100 | A-96-  | A-106-  | IEIQLSAGAEM 
+| 1cd1 | A | albelig | 6 | 6 | E | 106 | 114 | A-112-  | A-120-  | SESFLHVAF 
+| 1cd1 | A | albelig | 7 | 7 | E | 117 | 123 | A-123-  | A-129-  | KYVVRFW 
+| 1cd1 | A | albelig | 8 | 8 | E | 126 | 129 | A-132-  | A-135-  | SWQT 
+| 1cd1 | A | albelig | 9 | 9 | H | 135 | 144 | A-141-  | A-150-  | SWLDLPIKVL 
+| 1cd1 | A | albelig | 10 | 10 | H | 148 | 161 | A-154-  | A-167-  | QGTSATVQMLLNDT 
+| 1cd1 | A | albelig | 11 | 11 | H | 162 | 177 | A-168-  | A-183-  | APLFVRGLLEAGKSDL 
+| 1cd1 | A | albelig | 12 | 12 | E | 184 | 191 | A-190-  | A-197-  | VAWLSSVP 
+| 1cd1 | A | albelig | 13 | 13 | E | 198 | 207 | A-204-  | A-213-  | RQLVNHVSGF 
+| 1cd1 | A | albelig | 14 | 14 | E | 212 | 218 | A-218-  | A-224-  | VWVMWMR 
+| 1cd1 | A | albelig | 15 | 15 | E | 239 | 246 | A-245-  | A-252-  | WYLQATLD 
+| 1cd1 | A | albelig | 16 | 16 | E | 255 | 261 | A-261-  | A-267-  | LANRVKH 
+| 1cd1 | A | albelig | 17 | 17 | E | 269 | 271 | A-275-  | A-277-  | IIL 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 1 = a = 5
+= 1 = m = 11
+= 2 = a = 3
+= 5 = a = 6
+= 5 = m = 11
+= 6 = a = 7
+= 7 = a = 8
+= 7 = m = 10
+= 12 = a = 13
+= 12 = a = 17
+= 13 = a = 14
+= 13 = a = 15
+= 13 = p = 16
+= 14 = p = 15
+= 14 = a = 16
+= 16 = a = 17
+# Listed 18 contacts. EOF.

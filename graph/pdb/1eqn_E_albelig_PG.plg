@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqn, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOPRIM DOMAIN, ROSSMANN FOLD, TRANSFERASE
+> pdb_mol_name > DNA PRIMASE
+> graphtype > albelig
+> resolution > 2.9
+> date > 05-APR-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > E.COLI PRIMASE CATALYTIC CORE
+> format_version > 2
+> pdbid > 1eqn
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqn | E | albelig | 1 | 1 | H | 1263 | 1277 | E-116-  | E-130-  | LYQLXDGLNTFYQQS 
+| 1eqn | E | albelig | 2 | 2 | H | 1281 | 1292 | E-134-  | E-145-  | PVATSARQYLEK 
+| 1eqn | E | albelig | 3 | 3 | H | 1297 | 1302 | E-150-  | E-155-  | HEVIAR 
+| 1eqn | E | albelig | 4 | 4 | E | 1306 | 1308 | E-159-  | E-161-  | GFA 
+| 1eqn | E | albelig | 5 | 5 | H | 1314 | 1318 | E-167-  | E-171-  | NVLKR 
+| 1eqn | E | albelig | 6 | 6 | H | 1323 | 1329 | E-176-  | E-182-  | PENRQSL 
+| 1eqn | E | albelig | 7 | 7 | E | 1335 | 1338 | E-188-  | E-191-  | LVTN 
+| 1eqn | E | albelig | 8 | 8 | E | 1342 | 1345 | E-195-  | E-198-  | RSYD 
+| 1eqn | E | albelig | 9 | 9 | E | 1350 | 1356 | E-203-  | E-209-  | RVXFPIR 
+| 1eqn | E | albelig | 10 | 10 | E | 1362 | 1369 | E-215-  | E-222-  | VIGFGGRV 
+| 1eqn | E | albelig | 11 | 11 | E | 1377 | 1379 | E-230-  | E-232-  | YLN 
+| 1eqn | E | albelig | 12 | 12 | H | 1388 | 1390 | E-241-  | E-243-  | KGR 
+| 1eqn | E | albelig | 13 | 13 | H | 1395 | 1401 | E-248-  | E-254-  | LYEAQQD 
+| 1eqn | E | albelig | 14 | 14 | E | 1408 | 1411 | E-261-  | E-264-  | LLVV 
+| 1eqn | E | albelig | 15 | 15 | H | 1414 | 1422 | E-267-  | E-275-  | YXDVVALAQ 
+| 1eqn | E | albelig | 16 | 16 | E | 1428 | 1430 | E-281-  | E-283-  | AVA 
+| 1eqn | E | albelig | 17 | 17 | H | 1438 | 1445 | E-291-  | E-298-  | ADHIQLLF 
+| 1eqn | E | albelig | 18 | 18 | E | 1450 | 1456 | E-303-  | E-309-  | NVICCYD 
+| 1eqn | E | albelig | 19 | 19 | H | 1459 | 1475 | E-312-  | E-328-  | RAGRDAAWRALETALPY 
+| 1eqn | E | albelig | 20 | 20 | E | 1481 | 1487 | E-334-  | E-340-  | QLRFXFL 
+| 1eqn | E | albelig | 21 | 21 | H | 1493 | 1510 | E-346-  | E-363-  | PDTLVRKEGKEAFEARXE 
+| 1eqn | E | albelig | 22 | 22 | H | 1515 | 1526 | E-368-  | E-379-  | LSAFLFNSLXPQ 
+| 1eqn | E | albelig | 23 | 23 | H | 1532 | 1546 | E-385-  | E-399-  | PDGRARLSTLALPLI 
+| 1eqn | E | albelig | 24 | 24 | H | 1552 | 1565 | E-405-  | E-418-  | ETLRIYLRQELGNK 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 5
+= 1 = m = 10
+= 4 = a = 9
+= 7 = a = 8
+= 9 = a = 10
+= 10 = a = 11
+= 12 = m = 17
+= 14 = p = 16
+= 14 = p = 18
+= 15 = m = 16
+= 18 = m = 19
+= 18 = p = 20
+= 19 = a = 20
+= 19 = m = 22
+= 22 = p = 24
+= 23 = m = 24
+# Listed 17 contacts. EOF.

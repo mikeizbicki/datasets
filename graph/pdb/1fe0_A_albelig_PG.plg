@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fe0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA-BETA-BETA-ALPHA-BETA, METAL TRANSPORT
+> pdb_mol_name > COPPER TRANSPORT PROTEIN ATOX1
+> graphtype > albelig
+> resolution > 1.75
+> date > 20-JUL-00
+> header > METAL TRANSPORT
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF CADMIUM-HAH1
+> format_version > 2
+> pdbid > 1fe0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fe0 | A | albelig | 1 | 1 | E | 2 | 7 | A-3-  | A-8-  | KHEFSV 
+| 1fe0 | A | albelig | 2 | 2 | H | 12 | 25 | A-13-  | A-26-  | GGCAEAVSRVLNKL 
+| 1fe0 | A | albelig | 3 | 3 | E | 28 | 33 | A-29-  | A-34-  | VKYDID 
+| 1fe0 | A | albelig | 4 | 4 | E | 38 | 43 | A-39-  | A-44-  | KVCIES 
+| 1fe0 | A | albelig | 5 | 5 | H | 47 | 55 | A-48-  | A-56-  | MDTLLATLK 
+| 1fe0 | A | albelig | 6 | 6 | E | 61 | 65 | A-62-  | A-66-  | VSYLG 
+| 1fe0 | A | albelig | 7 | 7 | L | 136 | 136 | A-205-  | A-205-  | J 
+| 1fe0 | A | albelig | 8 | 8 | L | 137 | 137 | A-206-  | A-206-  | J 
+| 1fe0 | A | albelig | 9 | 9 | L | 138 | 138 | A-208-  | A-208-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = m = 5
+= 1 = a = 6
+= 2 = m = 3
+= 2 = m = 5
+= 2 = l = 9
+= 3 = a = 4
+= 5 = l = 8
+# Listed 8 contacts. EOF.

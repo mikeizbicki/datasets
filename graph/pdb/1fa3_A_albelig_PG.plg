@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fa3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 5 STRANDED BETA SHEET 1 HELIX, STRUCTURAL PROTEIN
+> pdb_mol_name > MNEI SWEET PROTEIN RELATED TO MONELLIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 12-JUL-00
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > SERENDIPITY BERRY
+> title > SOLUTION STRUCTURE OF MNEI, A SWEET PROTEIN
+> format_version > 2
+> pdbid > 1fa3
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DIOSCOREOPHYLLUM CUMMINSII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fa3 | A | albelig | 1 | 1 | H | 10 | 26 | A-10-  | A-26-  | PFTQNLGKFAVDEENKI 
+| 1fa3 | A | albelig | 2 | 2 | E | 34 | 48 | A-34-  | A-48-  | FNKVIRPCMKKTIYE 
+| 1fa3 | A | albelig | 3 | 3 | E | 54 | 66 | A-54-  | A-66-  | EIKGYEYQLYVYA 
+| 1fa3 | A | albelig | 4 | 4 | E | 69 | 78 | A-69-  | A-78-  | KLFRADISED 
+| 1fa3 | A | albelig | 5 | 5 | E | 83 | 90 | A-83-  | A-90-  | GRKLLRFN 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 5
+# Listed 4 contacts. EOF.

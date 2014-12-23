@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k90, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OEDEMA FACTOR ADENYLYL CYCLASE ANTHRAX CALMODULIN, TOXIN,LYASE-METALBINDING PROTEIN COMPLEX
+> pdb_mol_name > CALMODULIN
+> graphtype > albelig
+> resolution > 2.75
+> date > 26-OCT-01
+> header > TOXIN,LYASE/METAL BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE ADENYLYL CYCLASE DOMAIN OF ANTHRAX EDEMAFACTOR (EF) IN COMPLEX WITH CALMODULIN AND 3' DEOXY-ATP
+> format_version > 2
+> pdbid > 1k90
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k90 | E | albelig | 1 | 1 | H | 1129 | 1133 | E-32-  | E-36-  | LGTVM 
+| 1k90 | E | albelig | 2 | 2 | H | 1143 | 1146 | E-46-  | E-49-  | AELQ 
+| 1k90 | E | albelig | 3 | 3 | H | 1162 | 1168 | E-65-  | E-71-  | FPEFLTM 
+| 1k90 | E | albelig | 4 | 4 | H | 1175 | 1177 | E-78-  | E-80-  | DTD 
+| 1k90 | E | albelig | 5 | 5 | H | 1179 | 1189 | E-82-  | E-92-  | EEEIREAFRVF 
+| 1k90 | E | albelig | 6 | 6 | H | 1199 | 1206 | E-102-  | E-109-  | AAELRHVM 
+| 1k90 | E | albelig | 7 | 7 | H | 1217 | 1225 | E-120-  | E-128-  | EVDEMIREA 
+| 1k90 | E | albelig | 8 | 8 | H | 1235 | 1243 | E-138-  | E-146-  | YEEFVQMMT 
+| 1k90 | E | albelig | 9 | 9 | L | 1900 | 1900 | E-802-  | E-802-  | J 
+| 1k90 | E | albelig | 10 | 10 | L | 1901 | 1901 | E-803-  | E-803-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = m = 8
+= 6 = m = 7
+= 6 = l = 10
+= 8 = l = 9
+# Listed 4 contacts. EOF.

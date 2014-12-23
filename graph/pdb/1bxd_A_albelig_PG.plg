@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bxd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTIDINE KINASE, OSMOSENSOR, HIS-ASP PHOSPHORELAY SYSTEM,SIGNAL TRANSDUCTION, TRANSFERASE
+> pdb_mol_name > PROTEIN (OSMOLARITY SENSOR PROTEIN (ENVZ))
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-OCT-98
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF THE HISTIDINE KINASE DOMAIN OF THE E. COLIOSMOSENSOR ENVZ
+> format_version > 2
+> pdbid > 1bxd
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI BL21(DE3)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bxd | A | albelig | 1 | 1 | E | 8 | 10 | A-297-  | A-299-  | EMA 
+| 1bxd | A | albelig | 2 | 2 | H | 12 | 23 | A-301-  | A-312-  | LNAVLGEVIAAE 
+| 1bxd | A | albelig | 3 | 3 | E | 30 | 33 | A-319-  | A-322-  | IETA 
+| 1bxd | A | albelig | 4 | 4 | E | 41 | 43 | A-330-  | A-332-  | VKM 
+| 1bxd | A | albelig | 5 | 5 | H | 45 | 60 | A-334-  | A-349-  | PLSIKRAVANMVVNAA 
+| 1bxd | A | albelig | 6 | 6 | E | 67 | 74 | A-356-  | A-363-  | IKVSSGTE 
+| 1bxd | A | albelig | 7 | 7 | E | 77 | 85 | A-366-  | A-374-  | RAWFQVEDD 
+| 1bxd | A | albelig | 8 | 8 | H | 93 | 95 | A-382-  | A-384-  | QRK 
+| 1bxd | A | albelig | 9 | 9 | H | 121 | 127 | A-410-  | A-416-  | QRIVDNH 
+| 1bxd | A | albelig | 10 | 10 | E | 130 | 136 | A-419-  | A-425-  | MLELGTS 
+| 1bxd | A | albelig | 11 | 11 | E | 140 | 147 | A-429-  | A-436-  | GLSIRAWL 
+| 1bxd | A | albelig | 12 | 12 | L | 162 | 162 | A-451-  | A-451-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = p = 5
+= 3 = p = 6
+= 5 = l = 12
+= 6 = a = 7
+= 7 = a = 11
+= 7 = l = 12
+= 8 = l = 12
+= 10 = a = 11
+= 10 = l = 12
+= 11 = l = 12
+# Listed 11 contacts. EOF.

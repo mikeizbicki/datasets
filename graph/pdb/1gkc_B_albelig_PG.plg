@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gkc, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MATRIX METALLOPROTEASE, HYDROLASE, GLYCOPROTEIN, HYDROLASE-HYDROLASEINHIBITOR COMPLEX
+> pdb_mol_name > 92 KDA TYPE IV COLLAGENASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 10-AUG-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > MMP9-INHIBITOR COMPLEX
+> format_version > 2
+> pdbid > 1gkc
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gkc | B | albelig | 1 | 1 | E | 168 | 173 | B-120-  | B-125-  | NITYWI 
+| 1gkc | B | albelig | 2 | 2 | H | 182 | 197 | B-134-  | B-149-  | RAVIDDAFARAFALWS 
+| 1gkc | B | albelig | 3 | 3 | E | 203 | 206 | B-155-  | B-158-  | TFTR 
+| 1gkc | B | albelig | 4 | 4 | E | 214 | 219 | B-166-  | B-171-  | IVIQFG 
+| 1gkc | B | albelig | 5 | 5 | E | 237 | 239 | B-189-  | B-191-  | AHA 
+| 1gkc | B | albelig | 6 | 6 | E | 250 | 253 | B-202-  | B-205-  | AHFD 
+| 1gkc | B | albelig | 7 | 7 | H | 268 | 279 | B-395-  | B-406-  | LFLVAAHEFGHA 
+| 1gkc | B | albelig | 8 | 8 | H | 306 | 315 | B-433-  | B-442-  | KDDVNGIRHL 
+| 1gkc | B | albelig | 9 | 9 | L | 325 | 325 | B-1444-  | B-1444-  | J 
+| 1gkc | B | albelig | 10 | 10 | L | 326 | 326 | B-1445-  | B-1445-  | J 
+| 1gkc | B | albelig | 11 | 11 | L | 327 | 327 | B-1446-  | B-1446-  | J 
+| 1gkc | B | albelig | 12 | 12 | L | 328 | 328 | B-1447-  | B-1447-  | J 
+| 1gkc | B | albelig | 13 | 13 | L | 329 | 329 | B-1448-  | B-1448-  | J 
+| 1gkc | B | albelig | 14 | 14 | L | 330 | 330 | B-1449-  | B-1449-  | J 
+| 1gkc | B | albelig | 15 | 15 | L | 331 | 331 | B-1451-  | B-1451-  | J 
+| 1gkc | B | albelig | 16 | 16 | L | 332 | 332 | B-1452-  | B-1452-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 4
+= 2 = m = 7
+= 2 = l = 13
+= 4 = p = 6
+= 4 = l = 10
+= 5 = a = 6
+= 5 = m = 7
+= 5 = l = 14
+= 5 = l = 16
+= 6 = l = 9
+= 6 = l = 16
+= 7 = l = 14
+= 7 = l = 15
+= 14 = l = 15
+# Listed 15 contacts. EOF.

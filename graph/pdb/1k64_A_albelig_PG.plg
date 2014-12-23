@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k64, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OMEGA-SHAPED CONTAINING A-HELIX, TOXIN
+> pdb_mol_name > ALPHA-CONOTOXIN EI
+> graphtype > albelig
+> resolution > -1.0
+> date > 15-OCT-01
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTUE OF ALPHA-CONOTOXIN EI
+> format_version > 2
+> pdbid > 1k64
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k64 | A | albelig | 1 | 1 | H | 3 | 6 | A-3-  | A-6-  | XANY 
+| 1k64 | A | albelig | 2 | 2 | H | 9 | 12 | A-9-  | A-12-  | TANM 
+| 1k64 | A | albelig | 3 | 3 | H | 15 | 17 | A-15-  | A-17-  | PQI 
+| 1k64 | A | albelig | 4 | 4 | L | 20 | 20 | A-19-  | A-19-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = l = 4
+= 3 = l = 4
+# Listed 3 contacts. EOF.

@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ank, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE(PHOSPHOTRANSFERASE)
+> pdb_mol_name > ADENYLATE KINASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 28-FEB-94
+> header > TRANSFERASE(PHOSPHOTRANSFERASE)
+> pdb_org_common > UNKNOWN
+> title > THE CLOSED CONFORMATION OF A HIGHLY FLEXIBLE PROTEIN: THESTRUCTURE OF E. COLI ADENYLATE KINASE WITH BOUND AMP ANDAMPPNP
+> format_version > 2
+> pdbid > 1ank
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ank | A | albelig | 1 | 1 | E | 3 | 7 | A-3-  | A-7-  | IILLG 
+| 1ank | A | albelig | 2 | 2 | H | 13 | 24 | A-13-  | A-24-  | KGTQAQFIMEKY 
+| 1ank | A | albelig | 3 | 3 | H | 31 | 41 | A-31-  | A-41-  | TGDMLRAAVKS 
+| 1ank | A | albelig | 4 | 4 | H | 50 | 55 | A-50-  | A-55-  | KDIMDA 
+| 1ank | A | albelig | 5 | 5 | H | 61 | 71 | A-61-  | A-71-  | DELVIALVKER 
+| 1ank | A | albelig | 6 | 6 | E | 82 | 84 | A-82-  | A-84-  | LLD 
+| 1ank | A | albelig | 7 | 7 | H | 90 | 95 | A-90-  | A-95-  | IPQADA 
+| 1ank | A | albelig | 8 | 8 | E | 105 | 110 | A-105-  | A-110-  | YVLEFD 
+| 1ank | A | albelig | 9 | 9 | H | 113 | 121 | A-113-  | A-121-  | DELIVDRIV 
+| 1ank | A | albelig | 10 | 10 | E | 123 | 126 | A-123-  | A-126-  | RRVH 
+| 1ank | A | albelig | 11 | 11 | E | 131 | 134 | A-131-  | A-134-  | RVYH 
+| 1ank | A | albelig | 12 | 12 | H | 161 | 175 | A-161-  | A-175-  | EETVRKRLVEYHQMT 
+| 1ank | A | albelig | 13 | 13 | H | 177 | 188 | A-177-  | A-188-  | PLIGYYSKEAEA 
+| 1ank | A | albelig | 14 | 14 | E | 192 | 197 | A-192-  | A-197-  | KYAKVD 
+| 1ank | A | albelig | 15 | 15 | H | 202 | 212 | A-202-  | A-212-  | VAEVRADLEKI 
+| 1ank | A | albelig | 16 | 16 | L | 430 | 430 | A-215-  | A-215-  | J 
+| 1ank | A | albelig | 17 | 17 | L | 431 | 431 | A-216-  | A-216-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = p = 8
+= 2 = m = 6
+= 2 = p = 15
+= 2 = l = 17
+= 3 = l = 16
+= 4 = l = 16
+= 5 = m = 7
+= 5 = l = 16
+= 6 = l = 17
+= 7 = l = 16
+= 8 = p = 14
+= 9 = m = 10
+= 9 = m = 12
+= 9 = l = 17
+= 10 = a = 11
+= 10 = l = 16
+= 10 = l = 17
+= 11 = l = 17
+= 12 = m = 13
+= 12 = l = 16
+= 12 = l = 17
+= 15 = l = 17
+= 16 = l = 17
+# Listed 24 contacts. EOF.

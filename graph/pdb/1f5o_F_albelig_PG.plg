@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f5o, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEMOGLOBIN, HEME, LAMPREY, OXYGEN STORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN V
+> graphtype > albelig
+> resolution > 2.9
+> date > 15-JUN-00
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > SEA LAMPREY
+> title > 2.9 ANGSTROM CRYSTAL STRUCTURE OF DEOXYGENATED LAMPREYHEMOGLOBIN V IN THE SPACE GROUP P2(1)2(1)2(1)
+> format_version > 2
+> pdbid > 1f5o
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > PETROMYZON MARINUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f5o | F | albelig | 1 | 1 | H | 763 | 778 | F-13-  | F-28-  | AAEKTKIRSAWAPVYS 
+| 1f5o | F | albelig | 2 | 2 | H | 780 | 794 | F-30-  | F-44-  | YETSGVDILVKFFTS 
+| 1f5o | F | albelig | 3 | 3 | H | 796 | 801 | F-46-  | F-51-  | PAAQEF 
+| 1f5o | F | albelig | 4 | 4 | H | 803 | 805 | F-53-  | F-55-  | PKF 
+| 1f5o | F | albelig | 5 | 5 | H | 811 | 816 | F-61-  | F-66-  | ADQLKK 
+| 1f5o | F | albelig | 6 | 6 | H | 818 | 836 | F-68-  | F-86-  | ADVRWHAERIINAVNDAVA 
+| 1f5o | F | albelig | 7 | 7 | H | 841 | 859 | F-91-  | F-109-  | TEKMSMKLRDLSGKHAKSF 
+| 1f5o | F | albelig | 8 | 8 | H | 863 | 878 | F-113-  | F-128-  | PQYFKVLAAVIADTVA 
+| 1f5o | F | albelig | 9 | 9 | H | 882 | 895 | F-132-  | F-145-  | AGFEKLMSMICILL 
+| 1f5o | F | albelig | 10 | 10 | L | 905 | 905 | F-150-  | F-150-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 6
+= 2 = m = 3
+= 2 = m = 5
+= 2 = a = 6
+= 2 = a = 8
+= 2 = l = 10
+= 3 = l = 10
+= 4 = l = 10
+= 6 = l = 10
+= 7 = p = 9
+= 7 = l = 10
+= 8 = a = 9
+= 8 = l = 10
+= 9 = l = 10
+# Listed 15 contacts. EOF.

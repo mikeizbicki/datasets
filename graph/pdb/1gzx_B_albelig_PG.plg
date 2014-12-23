@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gzx, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT, HAEM PROTEIN, OXYGEN BINDING, TRANSPORT,COOPERATIVITY
+> pdb_mol_name > HEMOGLOBIN BETA CHAIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 07-JUN-02
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > OXY T STATE HAEMOGLOBIN: OXYGEN BOUND AT ALL FOUR HAEMS
+> format_version > 2
+> pdbid > 1gzx
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gzx | B | albelig | 1 | 1 | H | 147 | 158 | B-148-  | B-159-  | PEEKSAVTALWG 
+| 1gzx | B | albelig | 2 | 2 | H | 162 | 176 | B-163-  | B-177-  | VDEVGGEALGRLLVV 
+| 1gzx | B | albelig | 3 | 3 | H | 178 | 183 | B-179-  | B-184-  | PWTQRF 
+| 1gzx | B | albelig | 4 | 4 | H | 185 | 187 | B-186-  | B-188-  | ESF 
+| 1gzx | B | albelig | 5 | 5 | H | 193 | 198 | B-194-  | B-199-  | PDAVMG 
+| 1gzx | B | albelig | 6 | 6 | H | 200 | 216 | B-201-  | B-217-  | PKVKAHGKKVLGAFSDG 
+| 1gzx | B | albelig | 7 | 7 | H | 223 | 226 | B-224-  | B-227-  | LKGT 
+| 1gzx | B | albelig | 8 | 8 | H | 228 | 238 | B-229-  | B-239-  | ATLSELHCDKL 
+| 1gzx | B | albelig | 9 | 9 | H | 243 | 263 | B-244-  | B-264-  | ENFRLLGNVLVCVLAHHFGKE 
+| 1gzx | B | albelig | 10 | 10 | H | 266 | 284 | B-267-  | B-285-  | PPVQAAYQKVVAGVANALA 
+| 1gzx | B | albelig | 11 | 11 | L | 580 | 580 | B-1290-  | B-1290-  | J 
+| 1gzx | B | albelig | 12 | 12 | L | 581 | 581 | B-1291-  | B-1291-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 10
+= 2 = m = 3
+= 2 = m = 5
+= 2 = a = 6
+= 2 = m = 9
+= 2 = l = 11
+= 2 = l = 12
+= 3 = l = 11
+= 4 = m = 6
+= 4 = l = 11
+= 5 = m = 6
+= 6 = l = 11
+= 6 = l = 12
+= 8 = m = 10
+= 8 = l = 11
+= 8 = l = 12
+= 9 = l = 11
+= 10 = l = 11
+= 11 = l = 12
+# Listed 19 contacts. EOF.

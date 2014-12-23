@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h0g, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, CHITIN DEGRADATION, ARGADIN, HYDROLASE-HYDROLASEINHIBITOR COMPLEX
+> pdb_mol_name > ARGADIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 19-JUN-02
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > COMPLEX OF A CHITINASE WITH THE NATURAL PRODUCT CYCLOPENTAPEPTIDEARGADIN FROM CLONOSTACHYS
+> format_version > 2
+> pdbid > 1h0g
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CLONOSTACHYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h0g | C | albelig | 1 | 1 | L | 1008 | 1008 | C-5-  | C-5-  | J 
+| 1h0g | C | albelig | 2 | 2 | L | 1016 | 1016 | C-1502-  | C-1502-  | J 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+# Listed 1 contacts. EOF.

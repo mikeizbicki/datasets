@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gg3, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLOOD, 4.1R, MEMBRANE, 30KD, N-TERMINAL DOMAIN, CALMODULIN,MEMBRANE PROTEIN
+> pdb_mol_name > ERYTHROID MEMBRANE PROTEIN 4.1R
+> graphtype > albelig
+> resolution > 2.8
+> date > 11-JUL-00
+> header > MEMBRANE PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE PROTEIN 4.1R MEMBRANE BINDINGDOMAIN
+> format_version > 2
+> pdbid > 1gg3
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gg3 | C | albelig | 1 | 1 | E | 562 | 566 | C-2-  | C-6-  | HCKVS 
+| 1gg3 | C | albelig | 2 | 2 | E | 572 | 576 | C-12-  | C-16-  | VYECV 
+| 1gg3 | C | albelig | 3 | 3 | H | 585 | 595 | C-25-  | C-35-  | DLLKRVCEHLN 
+| 1gg3 | C | albelig | 4 | 4 | E | 605 | 608 | C-45-  | C-48-  | AIWD 
+| 1gg3 | C | albelig | 5 | 5 | H | 623 | 626 | C-63-  | C-66-  | KKQV 
+| 1gg3 | C | albelig | 6 | 6 | E | 632 | 636 | C-72-  | C-76-  | NFTFN 
+| 1gg3 | C | albelig | 7 | 7 | H | 644 | 646 | C-84-  | C-86-  | PAQ 
+| 1gg3 | C | albelig | 8 | 8 | H | 650 | 666 | C-90-  | C-106-  | DITRYYLCLQLRQDIVA 
+| 1gg3 | C | albelig | 9 | 9 | H | 675 | 688 | C-115-  | C-128-  | TLALLGSYTIQSEL 
+| 1gg3 | C | albelig | 10 | 10 | H | 700 | 703 | C-140-  | C-143-  | YVSD 
+| 1gg3 | C | albelig | 11 | 11 | H | 712 | 723 | C-152-  | C-163-  | KELEEKVMELHK 
+| 1gg3 | C | albelig | 12 | 12 | H | 730 | 742 | C-170-  | C-182-  | PAQADLEFLENAK 
+| 1gg3 | C | albelig | 13 | 13 | E | 750 | 753 | C-190-  | C-193-  | DLHK 
+| 1gg3 | C | albelig | 14 | 14 | E | 763 | 766 | C-203-  | C-206-  | ILGV 
+| 1gg3 | C | albelig | 15 | 15 | E | 770 | 774 | C-210-  | C-214-  | GLLVY 
+| 1gg3 | C | albelig | 16 | 16 | E | 782 | 784 | C-222-  | C-224-  | RFP 
+| 1gg3 | C | albelig | 17 | 17 | E | 791 | 794 | C-231-  | C-234-  | ISYK 
+| 1gg3 | C | albelig | 18 | 18 | E | 797 | 801 | C-237-  | C-241-  | SFFIK 
+| 1gg3 | C | albelig | 19 | 19 | E | 813 | 817 | C-253-  | C-257-  | TIGFK 
+| 1gg3 | C | albelig | 20 | 20 | H | 821 | 837 | C-261-  | C-277-  | YRAAKKLWKVCVEHHTF 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = m = 3
+= 4 = a = 6
+= 8 = m = 9
+= 8 = p = 12
+= 9 = p = 11
+= 9 = a = 12
+= 10 = m = 11
+= 13 = a = 14
+= 14 = a = 15
+= 15 = a = 16
+= 17 = a = 18
+= 17 = m = 20
+= 18 = a = 19
+# Listed 15 contacts. EOF.

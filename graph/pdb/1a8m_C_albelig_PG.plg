@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a8m, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYMPHOKINE, CYTOKINE, CYTOTOXIN
+> pdb_mol_name > TUMOR NECROSIS FACTOR ALPHA
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-MAR-98
+> header > LYMPHOKINE
+> pdb_org_common > HUMAN
+> title > TUMOR NECROSIS FACTOR ALPHA, R31D MUTANT
+> format_version > 2
+> pdbid > 1a8m
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a8m | C | albelig | 1 | 1 | E | 314 | 319 | C-13-  | C-18-  | VAHVVA 
+| 1a8m | C | albelig | 2 | 2 | E | 337 | 339 | C-36-  | C-38-  | LLA 
+| 1a8m | C | albelig | 3 | 3 | E | 348 | 350 | C-47-  | C-49-  | QLV 
+| 1a8m | C | albelig | 4 | 4 | E | 355 | 368 | C-54-  | C-67-  | GLYLIYSQVLFKGQ 
+| 1a8m | C | albelig | 5 | 5 | E | 377 | 384 | C-76-  | C-83-  | LTHTISRI 
+| 1a8m | C | albelig | 6 | 6 | E | 391 | 399 | C-90-  | C-98-  | KVNLLSAIK 
+| 1a8m | C | albelig | 7 | 7 | E | 414 | 427 | C-113-  | C-126-  | PWYEPIYLGGVFQL 
+| 1a8m | C | albelig | 8 | 8 | E | 432 | 437 | C-131-  | C-136-  | RLSAEI 
+| 1a8m | C | albelig | 9 | 9 | E | 452 | 457 | C-151-  | C-156-  | YFGIIA 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 3 = a = 8
+= 4 = a = 5
+= 4 = a = 7
+= 4 = a = 9
+= 5 = a = 6
+= 5 = p = 7
+= 5 = a = 8
+= 6 = a = 7
+# Listed 10 contacts. EOF.

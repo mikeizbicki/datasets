@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hle, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE INHIBITOR(SERINE PROTEINASE)
+> pdb_mol_name > HORSE LEUKOCYTE ELASTASE INHIBITOR
+> graphtype > albelig
+> resolution > 1.95
+> date > 13-APR-92
+> header > HYDROLASE INHIBITOR(SERINE PROTEINASE)
+> pdb_org_common > HORSE
+> title > CRYSTAL STRUCTURE OF CLEAVED EQUINE LEUCOCYTE ELASTASEINHIBITOR DETERMINED AT 1.95 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1hle
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > EQUUS CABALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hle | B | albelig | 1 | 1 | E | 347 | 350 | B-362-  | B-365-  | ENFN 
+| 1hle | B | albelig | 2 | 2 | E | 355 | 361 | B-370-  | B-376-  | FIFFIRH 
+| 1hle | B | albelig | 3 | 3 | E | 366 | 373 | B-381-  | B-388-  | NILFLGRF 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+# Listed 1 contacts. EOF.

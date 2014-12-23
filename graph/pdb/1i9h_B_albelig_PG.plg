@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i9h, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CLASSICAL BETA BARREL, PROTEIN-LIGAND COMPLEX, UNKNOWNFUNCTION
+> pdb_mol_name > STREPTAVIDIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 20-MAR-01
+> header > UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > CORE STREPTAVIDIN-BNA COMPLEX
+> format_version > 2
+> pdbid > 1i9h
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES AVIDINII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i9h | B | albelig | 1 | 1 | E | 129 | 133 | B-219-  | B-223-  | GTWYN 
+| 1i9h | B | albelig | 2 | 2 | E | 138 | 143 | B-228-  | B-233-  | TFIVTA 
+| 1i9h | B | albelig | 3 | 3 | E | 148 | 154 | B-238-  | B-244-  | ALTGTYE 
+| 1i9h | B | albelig | 4 | 4 | E | 164 | 170 | B-254-  | B-260-  | YVLTGRY 
+| 1i9h | B | albelig | 5 | 5 | E | 181 | 190 | B-271-  | B-280-  | TALGWTVAWK 
+| 1i9h | B | albelig | 6 | 6 | E | 195 | 207 | B-285-  | B-297-  | NAHSATTWSGQYV 
+| 1i9h | B | albelig | 7 | 7 | E | 213 | 222 | B-303-  | B-312-  | RINTQWLLTS 
+| 1i9h | B | albelig | 8 | 8 | H | 226 | 231 | B-316-  | B-321-  | EANAWK 
+| 1i9h | B | albelig | 9 | 9 | E | 233 | 241 | B-323-  | B-331-  | TLVGHDTFT 
+| 1i9h | B | albelig | 10 | 10 | L | 247 | 247 | B-502-  | B-502-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 1 = l = 10
+= 2 = a = 3
+= 3 = a = 4
+= 3 = l = 10
+= 4 = a = 5
+= 5 = a = 6
+= 5 = l = 10
+= 6 = a = 7
+= 6 = l = 10
+= 7 = a = 9
+= 7 = l = 10
+= 9 = l = 10
+# Listed 14 contacts. EOF.

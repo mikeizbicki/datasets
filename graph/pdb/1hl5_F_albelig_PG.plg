@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hl5, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, HUMAN CU, ZN SUPEROXIDE DISMUTASE, ANTIOXIDANT,METAL-BINDING, AMYOTROPHIC LATERAL SCLEROSIS, DISEASE MUTATION
+> pdb_mol_name > SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 13-MAR-03
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > THE STRUCTURE OF HOLO TYPE HUMAN CU, ZN SUPEROXIDEDISMUTASE
+> format_version > 2
+> pdbid > 1hl5
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hl5 | F | albelig | 1 | 1 | E | 771 | 775 | F-5-  | F-9-  | VCVLK 
+| 1hl5 | F | albelig | 2 | 2 | E | 781 | 785 | F-15-  | F-19-  | QGIIN 
+| 1hl5 | F | albelig | 3 | 3 | E | 789 | 796 | F-29-  | F-36-  | VKVWGSIK 
+| 1hl5 | F | albelig | 4 | 4 | E | 801 | 808 | F-41-  | F-48-  | GLHGFHVH 
+| 1hl5 | F | albelig | 5 | 5 | H | 816 | 820 | F-56-  | F-60-  | GFTSA 
+| 1hl5 | F | albelig | 6 | 6 | E | 843 | 849 | F-83-  | F-89-  | DLGNVTA 
+| 1hl5 | F | albelig | 7 | 7 | E | 855 | 861 | F-95-  | F-101-  | ADVSIED 
+| 1hl5 | F | albelig | 8 | 8 | E | 876 | 880 | F-116-  | F-120-  | TLVVH 
+| 1hl5 | F | albelig | 9 | 9 | H | 894 | 897 | F-134-  | F-137-  | STKT 
+| 1hl5 | F | albelig | 10 | 10 | E | 903 | 910 | F-143-  | F-150-  | RLAFGVIG 
+| 1hl5 | F | albelig | 11 | 11 | L | 2771 | 2771 | F-154-  | F-154-  | J 
+| 1hl5 | F | albelig | 12 | 12 | L | 2772 | 2772 | F-155-  | F-155-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 6
+= 4 = a = 8
+= 4 = l = 11
+= 5 = m = 10
+= 6 = a = 7
+= 6 = l = 12
+= 8 = a = 10
+= 8 = l = 11
+= 9 = l = 12
+# Listed 13 contacts. EOF.

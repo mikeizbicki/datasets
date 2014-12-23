@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffs, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOUBLY WOUND (BETA/ALPHA)5 FOLD, TRANSFERASE/SIGNALINGPROTEIN COMPLEX
+> pdb_mol_name > CHEMOTAXIS PROTEIN CHEA
+> graphtype > albelig
+> resolution > 2.4
+> date > 26-JUL-00
+> header > TRANSFERASE/SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CHEY-BINDING DOMAIN OF CHEA IN COMPLEX WITH CHEY FROMCRYSTALS SOAKED IN ACETYL PHOSPHATE
+> format_version > 2
+> pdbid > 1ffs
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffs | D | albelig | 1 | 1 | E | 329 | 334 | D-160-  | D-165-  | RRIILS 
+| 1ffs | D | albelig | 2 | 2 | H | 340 | 351 | D-171-  | D-182-  | EVDLLEEELGHL 
+| 1ffs | D | albelig | 3 | 3 | E | 355 | 359 | D-186-  | D-190-  | TDVVK 
+| 1ffs | D | albelig | 4 | 4 | E | 363 | 368 | D-194-  | D-199-  | SLSAIL 
+| 1ffs | D | albelig | 5 | 5 | H | 374 | 381 | D-205-  | D-212-  | EDDITAVL 
+| 1ffs | D | albelig | 6 | 6 | H | 387 | 389 | D-218-  | D-220-  | ADQ 
+| 1ffs | D | albelig | 7 | 7 | E | 390 | 394 | D-221-  | D-225-  | ITFET 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = m = 6
+= 1 = a = 7
+= 2 = m = 3
+= 3 = a = 4
+= 6 = m = 7
+# Listed 6 contacts. EOF.

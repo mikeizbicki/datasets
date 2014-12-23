@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h24, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, CELL CYCLE, PROTEIN KINASE, CYCLIN, CDK2,RECRUITMENT, PEPTIDE SPECIFICITY, SERINE/THREONINE-PROTEINKINASE, ATP- BINDING, CELL DIVISION, MITOSIS,PHOSPHORYLATION
+> pdb_mol_name > CELL DIVISION PROTEIN KINASE 2
+> graphtype > albelig
+> resolution > 2.5
+> date > 31-JUL-02
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CDK2/CYCLIN A IN COMPLEX WITH A 9 RESIDUE RECRUITMENTPEPTIDE FROM E2F
+> format_version > 2
+> pdbid > 1h24
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h24 | C | albelig | 1 | 1 | H | 556 | 558 | C-1-  | C-3-  | MEN 
+| 1h24 | C | albelig | 2 | 2 | E | 559 | 567 | C-4-  | C-12-  | FQKVEKIGE 
+| 1h24 | C | albelig | 3 | 3 | E | 572 | 578 | C-17-  | C-23-  | VVYKARN 
+| 1h24 | C | albelig | 4 | 4 | E | 584 | 591 | C-29-  | C-36-  | VVALKKIR 
+| 1h24 | C | albelig | 5 | 5 | H | 601 | 611 | C-46-  | C-56-  | STAIREISLLK 
+| 1h24 | C | albelig | 6 | 6 | E | 621 | 625 | C-66-  | C-70-  | LLDVI 
+| 1h24 | C | albelig | 7 | 7 | E | 630 | 636 | C-75-  | C-81-  | KLYLVFE 
+| 1h24 | C | albelig | 8 | 8 | H | 642 | 648 | C-87-  | C-93-  | LKKFMDA 
+| 1h24 | C | albelig | 9 | 9 | H | 656 | 674 | C-101-  | C-119-  | LPLIKSYLFQLLQGLAFCH 
+| 1h24 | C | albelig | 10 | 10 | H | 685 | 687 | C-130-  | C-132-  | PQN 
+| 1h24 | C | albelig | 11 | 11 | E | 688 | 690 | C-133-  | C-135-  | LLI 
+| 1h24 | C | albelig | 12 | 12 | E | 696 | 698 | C-141-  | C-143-  | IKL 
+| 1h24 | C | albelig | 13 | 13 | H | 721 | 723 | C-166-  | C-168-  | LWY 
+| 1h24 | C | albelig | 14 | 14 | H | 726 | 729 | C-171-  | C-174-  | PEIL 
+| 1h24 | C | albelig | 15 | 15 | H | 737 | 753 | C-182-  | C-198-  | TAVDIWSLGCIFAEMVT 
+| 1h24 | C | albelig | 16 | 16 | H | 763 | 774 | C-208-  | C-219-  | EIDQLFRIFRTL 
+| 1h24 | C | albelig | 17 | 17 | H | 803 | 806 | C-248-  | C-251-  | FSKV 
+| 1h24 | C | albelig | 18 | 18 | H | 812 | 821 | C-257-  | C-266-  | EDGRSLLSQM 
+| 1h24 | C | albelig | 19 | 19 | H | 832 | 837 | C-277-  | C-282-  | AKAALA 
+| 1h24 | C | albelig | 20 | 20 | H | 839 | 841 | C-284-  | C-286-  | PFF 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 7
+= 6 = a = 7
+= 9 = m = 12
+= 9 = a = 15
+= 9 = m = 19
+= 9 = m = 20
+= 10 = m = 11
+= 11 = a = 12
+= 15 = a = 18
+# Listed 13 contacts. EOF.

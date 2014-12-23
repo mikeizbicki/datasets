@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f7z, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, TRYPSIN PRECURSOR, HYDROLASE/HYDROLASEINHIBITOR COMPLEX
+> pdb_mol_name > PANCREATIC TRYPSIN INHIBITOR
+> graphtype > albelig
+> resolution > 1.55
+> date > 28-JUN-00
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > RAT TRYPSINOGEN K15A COMPLEXED WITH BOVINE PANCREATICTRYPSIN INHIBITOR
+> format_version > 2
+> pdbid > 1f7z
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f7z | I | albelig | 1 | 1 | H | 218 | 221 | I-3-  | I-6-  | DFGL 
+| 1f7z | I | albelig | 2 | 2 | E | 233 | 239 | I-18-  | I-24-  | IIRYFYN 
+| 1f7z | I | albelig | 3 | 3 | E | 244 | 250 | I-29-  | I-35-  | LIQTFVY 
+| 1f7z | I | albelig | 4 | 4 | H | 263 | 270 | I-48-  | I-55-  | AEDIMRTG 
+| 1f7z | I | albelig | 5 | 5 | L | 273 | 273 | I-990-  | I-990-  | J 
+| 1f7z | I | albelig | 6 | 6 | L | 274 | 274 | I-991-  | I-991-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 5
+= 2 = a = 3
+= 2 = m = 4
+= 2 = l = 6
+= 3 = m = 4
+= 3 = l = 6
+# Listed 6 contacts. EOF.

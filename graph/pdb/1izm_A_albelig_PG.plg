@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1izm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, HYPOTHETICAL PROTEIN, HI0817, YGFB,STRUCTURE 2 FUNCTION PROJECT, S2F, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL PROTEIN HI0817
+> graphtype > albelig
+> resolution > 1.95
+> date > 09-OCT-02
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF YGFB FROM HAEMOPHILUS INFLUENZAE (HI0817), ACONSERVED HYPOTHETICAL PROTEIN
+> format_version > 2
+> pdbid > 1izm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1izm | A | albelig | 1 | 1 | H | 4 | 13 | A-5-  | A-14-  | HSDXNQQLKS 
+| 1izm | A | albelig | 2 | 2 | H | 20 | 32 | A-21-  | A-33-  | ATELHGFLSGLLC 
+| 1izm | A | albelig | 3 | 3 | H | 40 | 48 | A-41-  | A-49-  | WLPLLYQFS 
+| 1izm | A | albelig | 4 | 4 | H | 59 | 73 | A-60-  | A-74-  | VQPVTELYEQISQTL 
+| 1izm | A | albelig | 5 | 5 | H | 91 | 112 | A-92-  | A-113-  | VFTQADSLSDWANQFLLGIGLA 
+| 1izm | A | albelig | 6 | 6 | H | 116 | 118 | A-117-  | A-119-  | LAK 
+| 1izm | A | albelig | 7 | 7 | H | 121 | 133 | A-122-  | A-134-  | GEIGEAVDDLQDI 
+| 1izm | A | albelig | 8 | 8 | H | 145 | 169 | A-146-  | A-170-  | EELAEALEEIIEYVRTIAXLFYSHF 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 2 = p = 4
+= 2 = p = 5
+= 3 = a = 4
+= 5 = m = 7
+= 5 = p = 8
+= 7 = a = 8
+# Listed 8 contacts. EOF.

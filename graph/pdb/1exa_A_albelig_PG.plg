@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1exa, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENANTIOMER DISCRIMINATION, RETINOID LIGAND COMPLEXES,ANTIPARALLEL ALPHA-HELICAL SANDWICH FOLD, STRUCTURALPROTEOMICS IN EUROPE, SPINE, STRUCTURAL GENOMICS, GENEREGULATION
+> pdb_mol_name > RETINOIC ACID RECEPTOR GAMMA-2
+> graphtype > albelig
+> resolution > 1.59
+> date > 02-MAY-00
+> header > GENE REGULATION
+> pdb_org_common > HUMAN
+> title > ENANTIOMER DISCRIMINATION ILLUSTRATED BY CRYSTAL STRUCTURESOF THE HUMAN RETINOIC ACID RECEPTOR HRARGAMMA LIGANDBINDING DOMAIN: THE COMPLEX WITH THE ACTIVE R-ENANTIOMERBMS270394.
+> format_version > 2
+> pdbid > 1exa
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1exa | A | albelig | 1 | 1 | H | 3 | 19 | A-184-  | A-200-  | PQLEELITKVSKAHQET 
+| 1exa | A | albelig | 2 | 2 | H | 23 | 25 | A-204-  | A-206-  | LCQ 
+| 1exa | A | albelig | 3 | 3 | H | 43 | 65 | A-224-  | A-246-  | LGLWDKFSELATKCIIKIVEFAK 
+| 1exa | A | albelig | 4 | 4 | H | 70 | 72 | A-251-  | A-253-  | FTG 
+| 1exa | A | albelig | 5 | 5 | H | 75 | 96 | A-256-  | A-277-  | IADQITLLKAACLDILMLRICT 
+| 1exa | A | albelig | 6 | 6 | E | 104 | 106 | A-285-  | A-287-  | TMT 
+| 1exa | A | albelig | 7 | 7 | E | 112 | 114 | A-293-  | A-295-  | TLN 
+| 1exa | A | albelig | 8 | 8 | H | 115 | 123 | A-296-  | A-304-  | RTQMHNAGF 
+| 1exa | A | albelig | 9 | 9 | H | 124 | 137 | A-305-  | A-318-  | GPLTDLVFAFAGQL 
+| 1exa | A | albelig | 10 | 10 | H | 138 | 140 | A-319-  | A-321-  | LPL 
+| 1exa | A | albelig | 11 | 11 | H | 144 | 155 | A-325-  | A-336-  | DTETGLLSAICL 
+| 1exa | A | albelig | 12 | 12 | H | 166 | 187 | A-347-  | A-368-  | PEKVDKLQEPLLEALRLYARRR 
+| 1exa | A | albelig | 13 | 13 | H | 194 | 220 | A-375-  | A-401-  | MFPRMLMKITDLRGISTKGAERAITLK 
+| 1exa | A | albelig | 14 | 14 | H | 229 | 235 | A-410-  | A-416-  | PLIREML 
+| 1exa | A | albelig | 15 | 15 | L | 237 | 237 | A-450-  | A-450-  | J 
+| 1exa | A | albelig | 16 | 16 | L | 238 | 238 | A-451-  | A-451-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 11
+= 1 = m = 12
+= 3 = a = 5
+= 3 = m = 8
+= 3 = l = 15
+= 3 = l = 16
+= 5 = a = 11
+= 5 = m = 13
+= 5 = l = 15
+= 5 = l = 16
+= 6 = a = 7
+= 7 = m = 8
+= 8 = m = 9
+= 8 = l = 15
+= 9 = m = 10
+= 9 = a = 13
+= 9 = l = 15
+= 11 = a = 12
+= 11 = p = 13
+= 12 = m = 13
+= 13 = l = 15
+= 14 = l = 15
+= 14 = l = 16
+# Listed 24 contacts. EOF.

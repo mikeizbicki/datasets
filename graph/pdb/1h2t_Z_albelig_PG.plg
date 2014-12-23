@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h2t, chain Z.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > M7GCAP, CAP-BINDING-COMPLEX, RNP DOMAIN, MIF4G DOMAIN, RNAMATURATION, RNA EXPORT, NUCLEAR PROTEIN, RNA-BINDING
+> pdb_mol_name > 20 KDA NUCLEAR CAP BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.15
+> date > 16-AUG-02
+> header > NUCLEAR PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE HUMAN NUCLEAR CAP-BINDING-COMPLEX (CBC) INCOMPLEX WITH A CAP ANALOGUE M7GPPPG
+> format_version > 2
+> pdbid > 1h2t
+> experiment > X-RAY DIFFRACTION
+> chainid > Z
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h2t | Z | albelig | 1 | 1 | H | 708 | 711 | Z-7-  | Z-10-  | KALR 
+| 1h2t | Z | albelig | 2 | 2 | H | 714 | 716 | Z-13-  | Z-15-  | SYV 
+| 1h2t | Z | albelig | 3 | 3 | H | 730 | 737 | Z-29-  | Z-36-  | NEEQEKLL 
+| 1h2t | Z | albelig | 4 | 4 | E | 742 | 746 | Z-41-  | Z-45-  | TLYVG 
+| 1h2t | Z | albelig | 5 | 5 | H | 754 | 764 | Z-53-  | Z-63-  | EEQIYELFSKS 
+| 1h2t | Z | albelig | 6 | 6 | E | 767 | 774 | Z-66-  | Z-73-  | IKKIIMGL 
+| 1h2t | Z | albelig | 7 | 7 | E | 781 | 789 | Z-80-  | Z-88-  | ACGFCFVEY 
+| 1h2t | Z | albelig | 8 | 8 | H | 792 | 801 | Z-91-  | Z-100-  | RADAENAMRY 
+| 1h2t | Z | albelig | 9 | 9 | E | 813 | 816 | Z-112-  | Z-115-  | RTDW 
+| 1h2t | Z | albelig | 10 | 10 | H | 835 | 838 | Z-134-  | Z-137-  | VRDE 
+| 1h2t | Z | albelig | 11 | 11 | H | 845 | 847 | Z-144-  | Z-146-  | AGR 
+| 1h2t | Z | albelig | 12 | 12 | L | 851 | 851 | Z-1151-  | Z-1151-  | J 
+| 1h2t | Z | albelig | 13 | 13 | L | 852 | 852 | Z-1152-  | Z-1152-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = a = 7
+= 4 = a = 9
+= 4 = l = 13
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = l = 13
+= 8 = m = 9
+= 9 = l = 13
+= 10 = l = 12
+= 10 = l = 13
+= 12 = l = 13
+# Listed 12 contacts. EOF.

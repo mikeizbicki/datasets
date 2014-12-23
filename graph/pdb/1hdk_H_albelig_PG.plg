@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hdk, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GALECTIN-10, SERINE ESTERASE, EOSINOPHIL LYSOPHOSPHOLIPASE
+> pdb_mol_name > UNKNOWN
+> graphtype > albelig
+> resolution > 1.8
+> date > 16-NOV-00
+> header > SERINE ESTERASE
+> pdb_org_common > UNKNOWN
+> title > CHARCOT-LEYDEN CRYSTAL PROTEIN - PCMBS COMPLEX
+> format_version > 2
+> pdbid > 1hdk
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hdk | H | albelig | 1 | 1 | L | 140 | 140 | H-929-  | H-929-  | J 
+| 1hdk | H | albelig | 2 | 2 | L | 141 | 141 | H-957-  | H-957-  | J 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hfr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, ONE-CARBON METABOLISM
+> pdb_mol_name > DIHYDROFOLATE REDUCTASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 04-NOV-97
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > COMPARISON OF TERNARY CRYSTAL COMPLEXES OF HUMAN DIHYDROFOLATEREDUCTASE WITH NADPH AND A CLASSICAL ANTITUMOR FUROPYRIMDINE
+> format_version > 2
+> pdbid > 1hfr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hfr | A | albelig | 1 | 1 | E | 4 | 11 | A-4-  | A-11-  | LNCIVAVS 
+| 1hfr | A | albelig | 2 | 2 | E | 15 | 17 | A-15-  | A-17-  | GIG 
+| 1hfr | A | albelig | 3 | 3 | H | 28 | 39 | A-28-  | A-39-  | RNEFRYFQRMTT 
+| 1hfr | A | albelig | 4 | 4 | E | 47 | 53 | A-47-  | A-53-  | QNLVIMG 
+| 1hfr | A | albelig | 5 | 5 | H | 54 | 58 | A-54-  | A-58-  | KKTWF 
+| 1hfr | A | albelig | 6 | 6 | H | 62 | 64 | A-62-  | A-64-  | EKN 
+| 1hfr | A | albelig | 7 | 7 | E | 71 | 75 | A-71-  | A-75-  | INLVL 
+| 1hfr | A | albelig | 8 | 8 | E | 88 | 90 | A-88-  | A-90-  | FLS 
+| 1hfr | A | albelig | 9 | 9 | H | 93 | 101 | A-93-  | A-101-  | LDDALKLTE 
+| 1hfr | A | albelig | 10 | 10 | H | 103 | 106 | A-103-  | A-106-  | PELA 
+| 1hfr | A | albelig | 11 | 11 | E | 109 | 114 | A-109-  | A-114-  | VDMVWI 
+| 1hfr | A | albelig | 12 | 12 | H | 118 | 126 | A-118-  | A-126-  | SSVYKEAMN 
+| 1hfr | A | albelig | 13 | 13 | E | 130 | 138 | A-130-  | A-138-  | HLKLFVTRI 
+| 1hfr | A | albelig | 14 | 14 | E | 170 | 172 | A-170-  | A-172-  | QEE 
+| 1hfr | A | albelig | 15 | 15 | E | 175 | 185 | A-175-  | A-185-  | IKYKFEVYEKN 
+| 1hfr | A | albelig | 16 | 16 | L | 187 | 187 | A-187-  | A-187-  | J 
+| 1hfr | A | albelig | 17 | 17 | L | 188 | 188 | A-188-  | A-188-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 11
+= 1 = p = 13
+= 1 = l = 16
+= 1 = l = 17
+= 2 = l = 16
+= 3 = l = 17
+= 4 = m = 5
+= 4 = p = 7
+= 4 = p = 11
+= 4 = l = 16
+= 5 = l = 16
+= 5 = l = 17
+= 6 = l = 17
+= 7 = p = 8
+= 7 = l = 16
+= 9 = l = 16
+= 12 = l = 16
+= 12 = l = 17
+= 13 = a = 15
+= 13 = l = 17
+= 14 = a = 15
+= 16 = l = 17
+# Listed 23 contacts. EOF.

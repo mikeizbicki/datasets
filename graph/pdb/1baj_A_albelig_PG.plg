@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1baj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CAPSID, HIV-1 ASSEMBLY PROTEIN, VIRAL PROTEIN
+> pdb_mol_name > GAG POLYPROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 17-APR-98
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > HIV-1 CAPSID PROTEIN C-TERMINAL FRAGMENT PLUS GAG P2 DOMAIN
+> format_version > 2
+> pdbid > 1baj
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1baj | A | albelig | 1 | 1 | H | 2 | 5 | A-149-  | A-152-  | SILD 
+| 1baj | A | albelig | 2 | 2 | H | 14 | 27 | A-161-  | A-174-  | FRDYVDRFYKTLRA 
+| 1baj | A | albelig | 3 | 3 | H | 32 | 40 | A-179-  | A-187-  | QEVKNWMTE 
+| 1baj | A | albelig | 4 | 4 | H | 42 | 45 | A-189-  | A-192-  | LLVQ 
+| 1baj | A | albelig | 5 | 5 | H | 49 | 58 | A-196-  | A-205-  | PDAKTILKAL 
+| 1baj | A | albelig | 6 | 6 | H | 64 | 70 | A-211-  | A-217-  | LEEMMTA 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 4
+= 5 = m = 6
+# Listed 2 contacts. EOF.

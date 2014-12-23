@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffw, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOUBLY WOUND (BETA/ALPHA)5 FOLD, TRANSFERASE/SIGNALINGPROTEIN COMPLEX
+> pdb_mol_name > CHEMOTAXIS PROTEIN CHEY
+> graphtype > albelig
+> resolution > 2.7
+> date > 26-JUL-00
+> header > TRANSFERASE/SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CHEY-BINDING DOMAIN OF CHEA IN COMPLEX WITH CHEY WITH ABOUND IMIDO DIPHOSPHATE
+> format_version > 2
+> pdbid > 1ffw
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ORGANISM_SCIENTIFIC: ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffw | C | albelig | 1 | 1 | E | 204 | 208 | C-7-  | C-11-  | KFLVV 
+| 1ffw | C | albelig | 2 | 2 | H | 212 | 224 | C-15-  | C-27-  | STMRRIVRNLLKE 
+| 1ffw | C | albelig | 3 | 3 | E | 230 | 233 | C-33-  | C-36-  | VEEA 
+| 1ffw | C | albelig | 4 | 4 | H | 236 | 244 | C-39-  | C-47-  | GVDALNKLQ 
+| 1ffw | C | albelig | 5 | 5 | E | 248 | 254 | C-51-  | C-57-  | YGFVISD 
+| 1ffw | C | albelig | 6 | 6 | H | 262 | 270 | C-65-  | C-73-  | GLELLKTIR 
+| 1ffw | C | albelig | 7 | 7 | E | 280 | 284 | C-83-  | C-87-  | VLMVT 
+| 1ffw | C | albelig | 8 | 8 | H | 289 | 298 | C-92-  | C-101-  | KENIIAAAQA 
+| 1ffw | C | albelig | 9 | 9 | E | 302 | 305 | C-105-  | C-108-  | GYVV 
+| 1ffw | C | albelig | 10 | 10 | H | 310 | 324 | C-113-  | C-127-  | AATLEEKLNKIFEKL 
+| 1ffw | C | albelig | 11 | 11 | L | 398 | 398 | C-130-  | C-130-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 5 = p = 7
+= 5 = l = 11
+= 6 = m = 8
+= 7 = p = 9
+# Listed 8 contacts. EOF.

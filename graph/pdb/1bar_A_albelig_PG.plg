@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bar, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR
+> pdb_mol_name > ACIDIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > 2.7
+> date > 29-SEP-92
+> header > GROWTH FACTOR
+> pdb_org_common > CATTLE
+> title > THREE-DIMENSIONAL STRUCTURES OF ACIDIC AND BASIC FIBROBLASTGROWTH FACTORS
+> format_version > 2
+> pdbid > 1bar
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bar | A | albelig | 1 | 1 | E | 2 | 6 | A-12-  | A-16-  | KLLYC 
+| 1bar | A | albelig | 2 | 2 | E | 12 | 15 | A-22-  | A-25-  | FLRI 
+| 1bar | A | albelig | 3 | 3 | E | 21 | 24 | A-31-  | A-34-  | VDGT 
+| 1bar | A | albelig | 4 | 4 | E | 34 | 37 | A-44-  | A-47-  | LQLA 
+| 1bar | A | albelig | 5 | 5 | E | 43 | 48 | A-53-  | A-58-  | EVYIKS 
+| 1bar | A | albelig | 6 | 6 | E | 54 | 57 | A-64-  | A-67-  | FLAM 
+| 1bar | A | albelig | 7 | 7 | E | 63 | 66 | A-73-  | A-76-  | LYGS 
+| 1bar | A | albelig | 8 | 8 | H | 71 | 73 | A-81-  | A-83-  | EEC 
+| 1bar | A | albelig | 9 | 9 | E | 74 | 79 | A-84-  | A-89-  | LFLERL 
+| 1bar | A | albelig | 10 | 10 | E | 85 | 89 | A-95-  | A-99-  | NTYIS 
+| 1bar | A | albelig | 11 | 11 | H | 90 | 95 | A-100-  | A-105-  | KKHAEK 
+| 1bar | A | albelig | 12 | 12 | H | 110 | 112 | A-120-  | A-122-  | GPR 
+| 1bar | A | albelig | 13 | 13 | H | 118 | 120 | A-128-  | A-130-  | KAI 
+| 1bar | A | albelig | 14 | 14 | E | 122 | 126 | A-132-  | A-136-  | FLPLP 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 14
+= 2 = a = 3
+= 4 = a = 5
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 7
+= 6 = m = 8
+= 8 = m = 9
+= 9 = a = 10
+= 10 = m = 11
+= 10 = m = 13
+# Listed 12 contacts. EOF.

@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bfo, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY, FAB, CAMPATH-1G, CD52
+> pdb_mol_name > CAMPATH-1G ANTIBODY
+> graphtype > albelig
+> resolution > 2.6
+> date > 20-MAY-98
+> header > ANTIBODY
+> pdb_org_common > BLACK RAT
+> title > CAMPATH-1G IGG2B RAT MONOCLONAL FAB
+> format_version > 2
+> pdbid > 1bfo
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RATTUS RATTUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bfo | C | albelig | 1 | 1 | E | 437 | 439 | C-5-  | C-7-  | TQS 
+| 1bfo | C | albelig | 2 | 2 | E | 442 | 446 | C-10-  | C-14-  | FLSAS 
+| 1bfo | C | albelig | 3 | 3 | E | 451 | 456 | C-19-  | C-24-  | VTLNEK 
+| 1bfo | C | albelig | 4 | 4 | E | 465 | 470 | C-33-  | C-38-  | LNWYQQ 
+| 1bfo | C | albelig | 5 | 5 | E | 477 | 481 | C-45-  | C-49-  | KLLIY 
+| 1bfo | C | albelig | 6 | 6 | E | 494 | 499 | C-62-  | C-67-  | FSGSGS 
+| 1bfo | C | albelig | 7 | 7 | E | 502 | 507 | C-70-  | C-75-  | DFTLTI 
+| 1bfo | C | albelig | 8 | 8 | H | 512 | 514 | C-80-  | C-82-  | PED 
+| 1bfo | C | albelig | 9 | 9 | E | 516 | 522 | C-84-  | C-90-  | ATYFELQ 
+| 1bfo | C | albelig | 10 | 10 | E | 534 | 539 | C-102-  | C-107-  | TKLELK 
+| 1bfo | C | albelig | 11 | 11 | E | 546 | 550 | C-114-  | C-118-  | TVSIF 
+| 1bfo | C | albelig | 12 | 12 | H | 554 | 557 | C-122-  | C-125-  | TEQL 
+| 1bfo | C | albelig | 13 | 13 | E | 561 | 571 | C-129-  | C-139-  | GASVVFLMNKF 
+| 1bfo | C | albelig | 14 | 14 | E | 577 | 582 | C-145-  | C-150-  | SVKWKI 
+| 1bfo | C | albelig | 15 | 15 | E | 590 | 594 | C-158-  | C-162-  | VLNSV 
+| 1bfo | C | albelig | 16 | 16 | E | 604 | 613 | C-172-  | C-181-  | YSMSSTLSLT 
+| 1bfo | C | albelig | 17 | 17 | H | 614 | 618 | C-182-  | C-186-  | KADYQ 
+| 1bfo | C | albelig | 18 | 18 | E | 622 | 628 | C-190-  | C-196-  | LYTFQVV 
+| 1bfo | C | albelig | 19 | 19 | E | 637 | 642 | C-205-  | C-210-  | VAKNFN 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 12 = m = 13
+= 13 = a = 14
+= 13 = a = 16
+= 14 = p = 16
+= 14 = a = 18
+= 15 = a = 16
+= 16 = m = 17
+= 18 = a = 19
+# Listed 18 contacts. EOF.

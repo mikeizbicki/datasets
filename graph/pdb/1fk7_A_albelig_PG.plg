@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fk7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-LIPID COMPLEX, LIPID TRANSPORT
+> pdb_mol_name > NON-SPECIFIC LIPID TRANSFER PROTEIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 09-AUG-00
+> header > LIPID TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL BASIS OF NON-SPECIFIC LIPID BINDING IN MAIZELIPID-TRANSFER PROTEIN COMPLEXES WITH RICINOLEIC ACIDREVEALED BY HIGH-RESOLUTION X-RAY CRYSTALLOGRAPHY
+> format_version > 2
+> pdbid > 1fk7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ZEA MAYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fk7 | A | albelig | 1 | 1 | H | 4 | 14 | A-4-  | A-14-  | AGQVASAIAPN 
+| 1fk7 | A | albelig | 2 | 2 | H | 15 | 18 | A-15-  | A-18-  | ISYA 
+| 1fk7 | A | albelig | 3 | 3 | H | 27 | 39 | A-27-  | A-39-  | AGNCSGVRSLNNA 
+| 1fk7 | A | albelig | 4 | 4 | H | 43 | 58 | A-43-  | A-58-  | TADRRAADNALKNAAA 
+| 1fk7 | A | albelig | 5 | 5 | H | 65 | 74 | A-65-  | A-74-  | AGNAASIPSK 
+| 1fk7 | A | albelig | 6 | 6 | H | 89 | 91 | A-89-  | A-91-  | DSR 
+| 1fk7 | A | albelig | 7 | 7 | L | 94 | 94 | A-201-  | A-201-  | J 
+| 1fk7 | A | albelig | 8 | 8 | L | 95 | 95 | A-304-  | A-304-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 4
+= 1 = l = 7
+= 2 = m = 5
+= 2 = l = 7
+= 3 = l = 7
+= 4 = m = 6
+= 4 = l = 7
+= 5 = l = 7
+= 6 = l = 8
+# Listed 10 contacts. EOF.

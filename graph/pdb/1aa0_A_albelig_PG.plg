@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aa0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIOPHAGE T4, FIBRITIN, STRUCTURAL PROTEIN, BACTERIOPHAGEASSEMBLY, ATTACHMENT PROTEIN
+> pdb_mol_name > FIBRITIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 18-JAN-97
+> header > ATTACHMENT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > FIBRITIN DELETION MUTANT E (BACTERIOPHAGE T4)
+> format_version > 2
+> pdbid > 1aa0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aa0 | A | albelig | 1 | 1 | H | 2 | 15 | A-372-  | A-385-  | SGLNNAVQNLQVEI 
+| 1aa0 | A | albelig | 2 | 2 | H | 22 | 34 | A-392-  | A-404-  | IKGQVVALNTLVN 
+| 1aa0 | A | albelig | 3 | 3 | H | 43 | 46 | A-413-  | A-416-  | VEER 
+| 1aa0 | A | albelig | 4 | 4 | H | 48 | 84 | A-418-  | A-454-  | LTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQ 
+| 1aa0 | A | albelig | 5 | 5 | E | 99 | 102 | A-469-  | A-472-  | YVRK 
+| 1aa0 | A | albelig | 6 | 6 | E | 105 | 108 | A-475-  | A-478-  | EWVL 
+| 1aa0 | A | albelig | 7 | 7 | H | 109 | 111 | A-479-  | A-481-  | LST 
+| 1aa0 | A | albelig | 8 | 8 | L | 114 | 114 | A-484-  | A-484-  | J 
+| 1aa0 | A | albelig | 9 | 9 | L | 115 | 115 | A-565-  | A-565-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = l = 8
+= 5 = a = 6
+= 6 = m = 7
+= 6 = l = 9
+# Listed 4 contacts. EOF.

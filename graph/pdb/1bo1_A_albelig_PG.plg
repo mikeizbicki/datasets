@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bo1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPID SIGNALING, TRANSFERASE
+> pdb_mol_name > PROTEIN (PHOSPHATIDYLINOSITOL PHOSPHATE KINASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 02-AUG-98
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > PHOSPHATIDYLINOSITOL PHOSPHATE KINASE TYPE II BETA
+> format_version > 2
+> pdbid > 1bo1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bo1 | A | albelig | 1 | 1 | H | 8 | 24 | A-41-  | A-57-  | PILSVLMWGVNHTINEL 
+| 1bo1 | A | albelig | 2 | 2 | H | 35 | 38 | A-68-  | A-71-  | PDDF 
+| 1bo1 | A | albelig | 3 | 3 | E | 41 | 47 | A-74-  | A-80-  | YSKIKVD 
+| 1bo1 | A | albelig | 4 | 4 | E | 59 | 65 | A-92-  | A-98-  | RFKFKEY 
+| 1bo1 | A | albelig | 5 | 5 | H | 67 | 76 | A-100-  | A-109-  | PMVFRNLRER 
+| 1bo1 | A | albelig | 6 | 6 | H | 81 | 89 | A-114-  | A-122-  | DQDYQNSVT 
+| 1bo1 | A | albelig | 7 | 7 | E | 103 | 105 | A-139-  | A-141-  | FLT 
+| 1bo1 | A | albelig | 8 | 8 | E | 111 | 114 | A-147-  | A-150-  | FVIK 
+| 1bo1 | A | albelig | 9 | 9 | H | 118 | 136 | A-154-  | A-172-  | SEDVAEMHNILKKYHQFIV 
+| 1bo1 | A | albelig | 10 | 10 | E | 147 | 155 | A-183-  | A-191-  | FLGMYRLTV 
+| 1bo1 | A | albelig | 11 | 11 | E | 158 | 166 | A-194-  | A-202-  | VETYMVVTR 
+| 1bo1 | A | albelig | 12 | 12 | E | 177 | 181 | A-213-  | A-217-  | RKYDL 
+| 1bo1 | A | albelig | 13 | 13 | H | 193 | 195 | A-229-  | A-231-  | KEK 
+| 1bo1 | A | albelig | 14 | 14 | H | 204 | 209 | A-240-  | A-245-  | DNDFLN 
+| 1bo1 | A | albelig | 15 | 15 | H | 220 | 238 | A-256-  | A-274-  | SKKNFLEKLKRDVEFLAQL 
+| 1bo1 | A | albelig | 16 | 16 | E | 245 | 251 | A-281-  | A-287-  | LLVGIHD 
+| 1bo1 | A | albelig | 17 | 17 | H | 252 | 265 | A-288-  | A-301-  | VDRAEQEEMEVEER 
+| 1bo1 | A | albelig | 18 | 18 | E | 283 | 285 | A-353-  | A-355-  | SHE 
+| 1bo1 | A | albelig | 19 | 19 | E | 291 | 297 | A-361-  | A-367-  | EVYFMAI 
+| 1bo1 | A | albelig | 20 | 20 | H | 313 | 327 | A-400-  | A-414-  | PEQYSKRFNEFMSNI 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = a = 6
+= 3 = a = 4
+= 4 = m = 5
+= 4 = a = 10
+= 5 = p = 9
+= 5 = m = 10
+= 7 = a = 8
+= 8 = a = 11
+= 9 = a = 10
+= 9 = a = 15
+= 10 = a = 11
+= 12 = m = 14
+= 12 = a = 16
+= 15 = a = 20
+= 16 = m = 17
+= 16 = a = 19
+= 18 = a = 19
+# Listed 18 contacts. EOF.

@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bos, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN, RECEPTOR BINDING, PROTEIN-CARBOHYDRATE RECOGNITION,OB-FOLD
+> pdb_mol_name > SHIGA-LIKE TOXIN I B SUBUNIT
+> graphtype > albelig
+> resolution > 2.8
+> date > 13-JAN-98
+> header > TOXIN
+> pdb_org_common > ,
+> title > SHIGA-LIKE TOXIN COMPLEXED WITH ITS RECEPTOR
+> format_version > 2
+> pdbid > 1bos
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > PHAGE H30, ENTEROBACTERIA PHAGE H-19B
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bos | M | albelig | 1 | 1 | E | 843 | 854 | M-3303-  | M-3314-  | DMVTGKVEYTKY 
+| 1bos | M | albelig | 2 | 2 | E | 860 | 864 | M-3320-  | M-3324-  | FTVKV 
+| 1bos | M | albelig | 3 | 3 | E | 867 | 871 | M-3327-  | M-3331-  | KELFT 
+| 1bos | M | albelig | 4 | 4 | H | 876 | 885 | M-3336-  | M-3345-  | LQSLLLSAQI 
+| 1bos | M | albelig | 5 | 5 | E | 889 | 893 | M-3349-  | M-3353-  | TVTIK 
+| 1bos | M | albelig | 6 | 6 | E | 905 | 908 | M-3365-  | M-3368-  | EVIF 
+| 1bos | M | albelig | 7 | 7 | L | 1484 | 1484 | M-3390-  | M-3390-  | J 
+| 1bos | M | albelig | 8 | 8 | L | 1485 | 1485 | M-3391-  | M-3391-  | J 
+| 1bos | M | albelig | 9 | 9 | L | 1486 | 1486 | M-3392-  | M-3392-  | J 
+| 1bos | M | albelig | 10 | 10 | L | 1487 | 1487 | M-3380-  | M-3380-  | J 
+| 1bos | M | albelig | 11 | 11 | L | 1488 | 1488 | M-3381-  | M-3381-  | J 
+| 1bos | M | albelig | 12 | 12 | L | 1489 | 1489 | M-3370-  | M-3370-  | J 
+| 1bos | M | albelig | 13 | 13 | L | 1490 | 1490 | M-3371-  | M-3371-  | J 
+| 1bos | M | albelig | 14 | 14 | L | 1491 | 1491 | M-3372-  | M-3372-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = a = 5
+= 1 = l = 12
+= 2 = a = 3
+= 2 = l = 12
+= 3 = l = 7
+= 3 = l = 12
+= 3 = l = 13
+= 4 = l = 10
+= 5 = a = 6
+= 7 = l = 8
+= 7 = l = 9
+= 8 = l = 9
+= 10 = l = 11
+= 12 = l = 13
+= 12 = l = 14
+= 13 = l = 14
+# Listed 18 contacts. EOF.

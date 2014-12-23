@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1avp, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THIOL HYDROLASE, VIRAL PROTEINASE, PEPTIDE COFACTOR
+> pdb_mol_name > ADENOVIRAL PROTEINASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 04-APR-96
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF HUMAN ADENOVIRUS 2 PROTEINASE WITH ITS 11AMINO ACID COFACTOR
+> format_version > 2
+> pdbid > 1avp
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN ADENOVIRUS 2
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1avp | B | albelig | 1 | 1 | E | 209 | 215 | B-208-  | B-214-  | SLKRRRA 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

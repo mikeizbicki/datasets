@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a7g, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION REGULATION, E2, PAPILLOMAVIRUS, CERVICAL CANCER
+> pdb_mol_name > REGULATORY PROTEIN E2
+> graphtype > albelig
+> resolution > 2.4
+> date > 13-MAR-98
+> header > TRANSCRIPTION REGULATION
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF THE E2 DNA-BINDING DOMAIN FROM HUMANPAPILLOMAVIRUS AT 2.4 ANGSTROMS
+> format_version > 2
+> pdbid > 1a7g
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HUMAN PAPILLOMAVIRUS TYPE 31
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a7g | E | albelig | 1 | 1 | E | 2 | 10 | E-292-  | E-300-  | TTPIIHLKG 
+| 1a7g | E | albelig | 2 | 2 | H | 12 | 24 | E-302-  | E-314-  | ANILKCLRYRLSK 
+| 1a7g | E | albelig | 3 | 3 | H | 26 | 28 | E-316-  | E-318-  | KQL 
+| 1a7g | E | albelig | 4 | 4 | E | 48 | 53 | E-338-  | E-343-  | AIVTLT 
+| 1a7g | E | albelig | 5 | 5 | H | 57 | 66 | E-347-  | E-356-  | TSQRDDFLNT 
+| 1a7g | E | albelig | 6 | 6 | E | 74 | 81 | E-364-  | E-371-  | SVSTGYMT 
+| 1a7g | E | albelig | 7 | 7 | L | 83 | 83 | E-1-  | E-1-  | J 
+| 1a7g | E | albelig | 8 | 8 | L | 84 | 84 | E-2-  | E-2-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 1 = l = 8
+= 2 = l = 7
+= 3 = m = 5
+= 4 = l = 8
+# Listed 6 contacts. EOF.

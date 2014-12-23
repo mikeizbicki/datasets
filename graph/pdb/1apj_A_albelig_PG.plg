@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1apj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FIBRILLIN FRAGMENT, MICROFIBRIL, TB MODULE, MARFAN SYNDROME,CONNECTIVE TISSUE, NOVEL FOLD, EXTRACELLULAR MATRIX
+> pdb_mol_name > FIBRILLIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-JUL-97
+> header > EXTRACELLULAR MATRIX
+> pdb_org_common > HUMAN
+> title > NMR STUDY OF THE TRANSFORMING GROWTH FACTOR BETA BINDINGPROTEIN-LIKE DOMAIN (TB MODULE/8-CYS DOMAIN), NMR, 21STRUCTURES
+> format_version > 2
+> pdbid > 1apj
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1apj | A | albelig | 1 | 1 | H | 3 | 5 | A-2054-  | A-2056-  | QDL 
+| 1apj | A | albelig | 2 | 2 | E | 7 | 14 | A-2058-  | A-2065-  | MSYAYAKF 
+| 1apj | A | albelig | 3 | 3 | E | 19 | 28 | A-2070-  | A-2079-  | NSSPKSRNHS 
+| 1apj | A | albelig | 4 | 4 | H | 29 | 33 | A-2080-  | A-2084-  | KQEAC 
+| 1apj | A | albelig | 5 | 5 | H | 54 | 59 | A-2105-  | A-2110-  | EAFRQI 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = m = 4
+= 4 = m = 5
+# Listed 3 contacts. EOF.

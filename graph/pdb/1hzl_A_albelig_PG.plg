@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hzl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHROMOPROTEIN, C-1027, APOPROTEIN, AROMATIZED CHROMOPHORE,ANTIBIOTIC
+> pdb_mol_name > C-1027 APOPROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 25-JAN-01
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURES OF C-1027 APOPROTEIN AND ITS COMPLEXWITH THE AROMATIZED CHROMOPHORE
+> format_version > 2
+> pdbid > 1hzl
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES GLOBISPORUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hzl | A | albelig | 1 | 1 | E | 3 | 6 | A-3-  | A-6-  | AFSV 
+| 1hzl | A | albelig | 2 | 2 | E | 17 | 23 | A-17-  | A-23-  | SVSVSVS 
+| 1hzl | A | albelig | 3 | 3 | E | 30 | 38 | A-30-  | A-38-  | TYYIAQAAP 
+| 1hzl | A | albelig | 4 | 4 | E | 43 | 54 | A-43-  | A-54-  | DAANPATATSFT 
+| 1hzl | A | albelig | 5 | 5 | E | 61 | 66 | A-61-  | A-66-  | ASFSFV 
+| 1hzl | A | albelig | 6 | 6 | E | 70 | 75 | A-70-  | A-75-  | SYTGST 
+| 1hzl | A | albelig | 7 | 7 | E | 79 | 85 | A-79-  | A-85-  | TPVGSVD 
+| 1hzl | A | albelig | 8 | 8 | E | 92 | 96 | A-92-  | A-96-  | NLGAG 
+| 1hzl | A | albelig | 9 | 9 | E | 101 | 106 | A-101-  | A-106-  | DLGHVA 
+| 1hzl | A | albelig | 10 | 10 | L | 111 | 111 | A-111-  | A-111-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 9
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 8
+= 3 = l = 10
+= 4 = a = 6
+= 4 = l = 10
+= 6 = a = 7
+= 6 = l = 10
+= 8 = a = 9
+= 8 = l = 10
+= 9 = l = 10
+# Listed 13 contacts. EOF.

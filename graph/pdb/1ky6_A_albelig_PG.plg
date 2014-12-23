@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ky6, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PEPTIDE COMPLEX, ENDOCYTOSIS,ENDOCYTOSIS/EXOCYTOSIS COMPLEX
+> pdb_mol_name > ALPHA-ADAPTIN C
+> graphtype > albelig
+> resolution > 2.0
+> date > 03-FEB-02
+> header > ENDOCYTOSIS/EXOCYTOSIS
+> pdb_org_common > HOUSE MOUSE
+> title > AP-2 CLATHRIN ADAPTOR ALPHA-APPENDAGE IN COMPLEX WITH EPSINDPW PEPTIDE
+> format_version > 2
+> pdbid > 1ky6
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ky6 | A | albelig | 1 | 1 | H | 14 | 17 | A-705-  | A-708-  | FARF 
+| 1ky6 | A | albelig | 2 | 2 | E | 23 | 27 | A-714-  | A-718-  | GVLFE 
+| 1ky6 | A | albelig | 3 | 3 | E | 31 | 40 | A-722-  | A-731-  | LQIGLKSEFR 
+| 1ky6 | A | albelig | 4 | 4 | E | 43 | 52 | A-734-  | A-743-  | LGRMFIFYGN 
+| 1ky6 | A | albelig | 5 | 5 | E | 59 | 66 | A-750-  | A-757-  | LNFTPTLI 
+| 1ky6 | A | albelig | 6 | 6 | H | 69 | 74 | A-760-  | A-765-  | DDLQTN 
+| 1ky6 | A | albelig | 7 | 7 | E | 75 | 79 | A-766-  | A-770-  | LNLQT 
+| 1ky6 | A | albelig | 8 | 8 | E | 91 | 100 | A-782-  | A-791-  | QVQQVVNIEC 
+| 1ky6 | A | albelig | 9 | 9 | E | 109 | 116 | A-800-  | A-807-  | VLNIQFRY 
+| 1ky6 | A | albelig | 10 | 10 | E | 119 | 126 | A-810-  | A-817-  | TFQNVSVK 
+| 1ky6 | A | albelig | 11 | 11 | H | 131 | 134 | A-822-  | A-825-  | LNKF 
+| 1ky6 | A | albelig | 12 | 12 | E | 135 | 137 | A-826-  | A-828-  | FQP 
+| 1ky6 | A | albelig | 13 | 13 | H | 142 | 149 | A-833-  | A-840-  | SQDFFQRW 
+| 1ky6 | A | albelig | 14 | 14 | H | 155 | 157 | A-846-  | A-848-  | PQQ 
+| 1ky6 | A | albelig | 15 | 15 | E | 158 | 164 | A-849-  | A-855-  | EVQNIFK 
+| 1ky6 | A | albelig | 16 | 16 | H | 171 | 181 | A-862-  | A-872-  | TEITKAKIIGF 
+| 1ky6 | A | albelig | 17 | 17 | E | 196 | 203 | A-887-  | A-894-  | FVGAGIIH 
+| 1ky6 | A | albelig | 18 | 18 | E | 208 | 218 | A-899-  | A-909-  | QIGCLLRLEPN 
+| 1ky6 | A | albelig | 19 | 19 | E | 223 | 230 | A-914-  | A-921-  | MYRLTLRT 
+| 1ky6 | A | albelig | 20 | 20 | H | 233 | 244 | A-924-  | A-935-  | DTVSQRLCELLS 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 8
+= 5 = a = 9
+= 6 = m = 7
+= 7 = a = 8
+= 9 = a = 10
+= 11 = m = 12
+= 11 = m = 17
+= 12 = p = 17
+= 13 = m = 18
+= 14 = m = 15
+= 14 = m = 19
+= 15 = a = 19
+= 15 = p = 20
+= 16 = m = 20
+= 17 = a = 18
+= 18 = a = 19
+= 19 = a = 20
+# Listed 19 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a28, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROGESTERONE RECEPTOR, STEROID RECEPTOR, NUCLEAR RECEPTOR,TRANSCRIPTION REGULATION
+> pdb_mol_name > PROGESTERONE RECEPTOR
+> graphtype > albelig
+> resolution > 1.8
+> date > 19-JAN-98
+> header > PROGESTERONE RECEPTOR
+> pdb_org_common > HUMAN
+> title > HORMONE-BOUND HUMAN PROGESTERONE RECEPTOR LIGAND-BINDINGDOMAIN
+> format_version > 2
+> pdbid > 1a28
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a28 | B | albelig | 1 | 1 | H | 256 | 263 | B-686-  | B-693-  | PLINLLMS 
+| 1a28 | B | albelig | 2 | 2 | H | 281 | 305 | B-711-  | B-735-  | SSSLLTSLNQLGERQLLSVVKWSKS 
+| 1a28 | B | albelig | 3 | 3 | H | 309 | 311 | B-739-  | B-741-  | FRN 
+| 1a28 | B | albelig | 4 | 4 | H | 314 | 340 | B-744-  | B-770-  | IDDQITLIQYSWMSLMVFGLGWRSYKH 
+| 1a28 | B | albelig | 5 | 5 | E | 345 | 349 | B-775-  | B-779-  | MLYFA 
+| 1a28 | B | albelig | 6 | 6 | E | 352 | 355 | B-782-  | B-785-  | LILN 
+| 1a28 | B | albelig | 7 | 7 | H | 356 | 360 | B-786-  | B-790-  | EQRMK 
+| 1a28 | B | albelig | 8 | 8 | H | 365 | 381 | B-795-  | B-811-  | YSLCLTMWQIPQEFVKL 
+| 1a28 | B | albelig | 9 | 9 | H | 385 | 396 | B-815-  | B-826-  | QEEFLCMKVLLL 
+| 1a28 | B | albelig | 10 | 10 | H | 408 | 427 | B-838-  | B-857-  | QTQFEEMRSSYIRELIKAIG 
+| 1a28 | B | albelig | 11 | 11 | H | 433 | 466 | B-863-  | B-896-  | VVSSSQRFYQLTKLLDNLHDLVKQLHLYCLNTFI 
+| 1a28 | B | albelig | 12 | 12 | H | 468 | 471 | B-898-  | B-901-  | SRAL 
+| 1a28 | B | albelig | 13 | 13 | H | 477 | 491 | B-907-  | B-921-  | EMMSEVIAAQLPKIL 
+| 1a28 | B | albelig | 14 | 14 | L | 503 | 503 | B-2-  | B-2-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = m = 13
+= 2 = l = 14
+= 4 = m = 5
+= 4 = m = 8
+= 4 = a = 9
+= 4 = a = 11
+= 4 = m = 13
+= 4 = l = 14
+= 5 = a = 6
+= 5 = l = 14
+= 6 = m = 7
+= 7 = m = 8
+= 8 = a = 11
+= 8 = l = 14
+= 9 = a = 10
+= 9 = p = 11
+= 11 = a = 13
+= 11 = l = 14
+= 13 = l = 14
+# Listed 20 contacts. EOF.

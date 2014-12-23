@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1evt, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN (IG) LIKE DOMAINS BELONGING TO THE I-SETSUBGROUP WITHIN IG-LIKE DOMAINS, B-TREFOIL FOLD, GROWTHFACTOR/GROWTH FACTOR RECEPTOR COMPLEX
+> pdb_mol_name > PROTEIN (FIBROBLAST GROWTH FACTOR 1)
+> graphtype > albelig
+> resolution > 2.8
+> date > 20-APR-00
+> header > GROWTH FACTOR/GROWTH FACTOR RECEPTOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF FGF1 IN COMPLEX WITH THE EXTRACELLULARLIGAND BINDING DOMAIN OF FGF RECEPTOR 1 (FGFR1)
+> format_version > 2
+> pdbid > 1evt
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1evt | B | albelig | 1 | 1 | E | 137 | 141 | B-12-  | B-16-  | KLLYC 
+| 1evt | B | albelig | 2 | 2 | E | 146 | 150 | B-21-  | B-25-  | HFLRI 
+| 1evt | B | albelig | 3 | 3 | E | 156 | 159 | B-31-  | B-34-  | VDGT 
+| 1evt | B | albelig | 4 | 4 | E | 169 | 175 | B-44-  | B-50-  | LQLSAES 
+| 1evt | B | albelig | 5 | 5 | E | 178 | 183 | B-53-  | B-58-  | EVYIKS 
+| 1evt | B | albelig | 6 | 6 | E | 189 | 192 | B-64-  | B-67-  | YLAM 
+| 1evt | B | albelig | 7 | 7 | E | 198 | 201 | B-73-  | B-76-  | LYGS 
+| 1evt | B | albelig | 8 | 8 | E | 210 | 214 | B-85-  | B-89-  | FLERL 
+| 1evt | B | albelig | 9 | 9 | E | 220 | 224 | B-95-  | B-99-  | NTYIS 
+| 1evt | B | albelig | 10 | 10 | H | 245 | 247 | B-120-  | B-122-  | GPR 
+| 1evt | B | albelig | 11 | 11 | E | 257 | 261 | B-132-  | B-136-  | FLPLP 
+| 1evt | B | albelig | 12 | 12 | L | 653 | 653 | B-4000-  | B-4000-  | J 
+| 1evt | B | albelig | 13 | 13 | L | 654 | 654 | B-4001-  | B-4001-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 5
+= 5 = a = 6
+= 5 = p = 8
+= 6 = a = 7
+= 6 = a = 8
+= 8 = a = 9
+= 10 = l = 13
+= 12 = l = 13
+# Listed 12 contacts. EOF.

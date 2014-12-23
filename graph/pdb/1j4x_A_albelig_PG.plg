@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j4x, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, PROTEIN DUAL-SPECIFICITY PHOSPHATASE
+> pdb_mol_name > DUAL SPECIFICITY PROTEIN PHOSPHATASE 3
+> graphtype > albelig
+> resolution > 2.75
+> date > 13-DEC-01
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > HUMAN VH1-RELATED DUAL-SPECIFICITY PHOSPHATASE C124S MUTANT-PEPTIDE COMPLEX
+> format_version > 2
+> pdbid > 1j4x
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j4x | A | albelig | 1 | 1 | H | 2 | 9 | A-9-  | A-16-  | VQDLNDLL 
+| 1j4x | A | albelig | 2 | 2 | E | 23 | 27 | A-30-  | A-34-  | CNEVT 
+| 1j4x | A | albelig | 3 | 3 | E | 30 | 33 | A-37-  | A-40-  | IYVG 
+| 1j4x | A | albelig | 4 | 4 | H | 35 | 38 | A-42-  | A-45-  | ASVA 
+| 1j4x | A | albelig | 5 | 5 | H | 41 | 46 | A-48-  | A-53-  | IPKLQK 
+| 1j4x | A | albelig | 6 | 6 | E | 51 | 54 | A-58-  | A-61-  | HVLN 
+| 1j4x | A | albelig | 7 | 7 | H | 68 | 71 | A-75-  | A-78-  | ANFY 
+| 1j4x | A | albelig | 8 | 8 | E | 77 | 80 | A-84-  | A-87-  | TYLG 
+| 1j4x | A | albelig | 9 | 9 | H | 91 | 93 | A-98-  | A-100-  | LSA 
+| 1j4x | A | albelig | 10 | 10 | H | 95 | 107 | A-102-  | A-114-  | FERAADFIDQALA 
+| 1j4x | A | albelig | 11 | 11 | E | 113 | 116 | A-120-  | A-123-  | VLVH 
+| 1j4x | A | albelig | 12 | 12 | H | 123 | 135 | A-130-  | A-142-  | RSPTLVIAYLMMR 
+| 1j4x | A | albelig | 13 | 13 | H | 140 | 150 | A-147-  | A-157-  | VKSALSIVRQN 
+| 1j4x | A | albelig | 14 | 14 | H | 157 | 172 | A-164-  | A-179-  | DGFLAQLCQLNDRLAK 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 13
+= 1 = m = 14
+= 2 = a = 3
+= 2 = m = 13
+= 3 = p = 11
+= 6 = p = 8
+= 6 = p = 11
+= 10 = m = 12
+= 11 = m = 12
+= 12 = m = 13
+= 12 = p = 14
+# Listed 11 contacts. EOF.

@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fxi, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSFER (IRON-SULFUR PROTEIN)
+> pdb_mol_name > FERREDOXIN I
+> graphtype > albelig
+> resolution > 2.2
+> date > 28-AUG-90
+> header > ELECTRON TRANSFER (IRON-SULFUR PROTEIN)
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE [2FE-2S] FERREDOXIN I FROM THE BLUE-GREENALGA APHANOTHECE SACRUM AT 2.2 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1fxi
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > APHANOTHECE SACRUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fxi | D | albelig | 1 | 1 | E | 294 | 299 | D-3-  | D-8-  | YKVTLK 
+| 1fxi | D | albelig | 2 | 2 | E | 304 | 309 | D-13-  | D-18-  | DNVITV 
+| 1fxi | D | albelig | 3 | 3 | H | 315 | 322 | D-24-  | D-31-  | ILDVAEEE 
+| 1fxi | D | albelig | 4 | 4 | E | 339 | 344 | D-48-  | D-53-  | AGKLVS 
+| 1fxi | D | albelig | 5 | 5 | E | 364 | 366 | D-73-  | D-75-  | YIL 
+| 1fxi | D | albelig | 6 | 6 | H | 367 | 369 | D-76-  | D-78-  | TCV 
+| 1fxi | D | albelig | 7 | 7 | E | 376 | 379 | D-85-  | D-88-  | CVIE 
+| 1fxi | D | albelig | 8 | 8 | L | 391 | 391 | D-97-  | D-97-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 7
+= 4 = a = 5
+= 4 = a = 7
+= 5 = m = 6
+= 5 = l = 8
+= 6 = l = 8
+# Listed 7 contacts. EOF.

@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1afc, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR
+> pdb_mol_name > ACIDIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > 2.7
+> date > 13-JUL-93
+> header > GROWTH FACTOR
+> pdb_org_common > CATTLE
+> title > STRUCTURAL STUDIES OF THE BINDING OF THE ANTI-ULCER DRUGSUCROSE OCTASULFATE TO ACIDIC FIBROBLAST GROWTH FACTOR
+> format_version > 2
+> pdbid > 1afc
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1afc | F | albelig | 1 | 1 | E | 644 | 647 | F-13-  | F-16-  | LLYC 
+| 1afc | F | albelig | 2 | 2 | E | 653 | 656 | F-22-  | F-25-  | FLRI 
+| 1afc | F | albelig | 3 | 3 | E | 662 | 665 | F-31-  | F-34-  | VDGT 
+| 1afc | F | albelig | 4 | 4 | H | 671 | 673 | F-40-  | F-42-  | QHI 
+| 1afc | F | albelig | 5 | 5 | E | 695 | 698 | F-64-  | F-67-  | FLAM 
+| 1afc | F | albelig | 6 | 6 | E | 704 | 707 | F-73-  | F-76-  | LYGS 
+| 1afc | F | albelig | 7 | 7 | H | 712 | 714 | F-81-  | F-83-  | EEC 
+| 1afc | F | albelig | 8 | 8 | E | 716 | 718 | F-85-  | F-87-  | FLE 
+| 1afc | F | albelig | 9 | 9 | E | 728 | 730 | F-97-  | F-99-  | YIS 
+| 1afc | F | albelig | 10 | 10 | H | 751 | 753 | F-120-  | F-122-  | GPR 
+| 1afc | F | albelig | 11 | 11 | E | 763 | 766 | F-132-  | F-135-  | FLPL 
+| 1afc | F | albelig | 12 | 12 | L | 1029 | 1029 | F-141-  | F-141-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 2
+= 1 = a = 11
+= 2 = a = 3
+= 2 = m = 4
+= 3 = a = 6
+= 5 = a = 6
+= 5 = m = 7
+= 5 = a = 8
+= 8 = a = 9
+= 10 = l = 12
+# Listed 10 contacts. EOF.

@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g6h, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-CORE DOMAIN, ABC SPECIFIC-BETA-STRAND DOMAIN ALPHA-HELIX DOMAIN, TRANSPORT PROTEIN
+> pdb_mol_name > HIGH-AFFINITY BRANCHED-CHAIN AMINO ACID
+> graphtype > albelig
+> resolution > 1.6
+> date > 06-NOV-00
+> header > TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE ADP CONFORMATION OF MJ1267, AN ATP-BINDING CASSETTE OF AN ABC TRANSPORTER
+> format_version > 2
+> pdbid > 1g6h
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > METHANOCALDOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g6h | A | albelig | 1 | 1 | E | 3 | 14 | A-6-  | A-17-  | EILRTENIVKYF 
+| 1g6h | A | albelig | 2 | 2 | E | 17 | 23 | A-20-  | A-26-  | FKALDGV 
+| 1g6h | A | albelig | 3 | 3 | E | 26 | 28 | A-29-  | A-31-  | SVN 
+| 1g6h | A | albelig | 4 | 4 | E | 32 | 36 | A-35-  | A-39-  | VTLII 
+| 1g6h | A | albelig | 5 | 5 | H | 43 | 50 | A-46-  | A-53-  | KSTLINVI 
+| 1g6h | A | albelig | 6 | 6 | E | 58 | 63 | A-61-  | A-66-  | EGRVYF 
+| 1g6h | A | albelig | 7 | 7 | H | 73 | 79 | A-76-  | A-82-  | PAELYHY 
+| 1g6h | A | albelig | 8 | 8 | E | 81 | 83 | A-84-  | A-86-  | IVR 
+| 1g6h | A | albelig | 9 | 9 | H | 89 | 93 | A-92-  | A-96-  | QPLKE 
+| 1g6h | A | albelig | 10 | 10 | H | 96 | 104 | A-99-  | A-107-  | VLENLLIGE 
+| 1g6h | A | albelig | 11 | 11 | H | 111 | 117 | A-114-  | A-120-  | PLNSLFY 
+| 1g6h | A | albelig | 12 | 12 | H | 125 | 137 | A-128-  | A-140-  | EEMVEKAFKILEF 
+| 1g6h | A | albelig | 13 | 13 | H | 141 | 143 | A-144-  | A-146-  | SHL 
+| 1g6h | A | albelig | 14 | 14 | H | 148 | 150 | A-151-  | A-153-  | AGE 
+| 1g6h | A | albelig | 15 | 15 | H | 153 | 166 | A-156-  | A-169-  | GGQMKLVEIGRALM 
+| 1g6h | A | albelig | 16 | 16 | E | 171 | 175 | A-174-  | A-178-  | MIVMD 
+| 1g6h | A | albelig | 17 | 17 | H | 183 | 198 | A-186-  | A-201-  | PGLAHDIFNHVLELKA 
+| 1g6h | A | albelig | 18 | 18 | E | 202 | 206 | A-205-  | A-209-  | TFLII 
+| 1g6h | A | albelig | 19 | 19 | H | 214 | 216 | A-217-  | A-219-  | LNY 
+| 1g6h | A | albelig | 20 | 20 | E | 219 | 224 | A-222-  | A-227-  | HLYVMF 
+| 1g6h | A | albelig | 21 | 21 | E | 227 | 233 | A-230-  | A-236-  | QIIAEGR 
+| 1g6h | A | albelig | 22 | 22 | H | 235 | 243 | A-238-  | A-246-  | EEEIKNVLS 
+| 1g6h | A | albelig | 23 | 23 | H | 245 | 249 | A-248-  | A-252-  | PKVVE 
+| 1g6h | A | albelig | 24 | 24 | L | 255 | 255 | A-301-  | A-301-  | J 
+| 1g6h | A | albelig | 25 | 25 | L | 256 | 256 | A-900-  | A-900-  | J 
+| 1g6h | A | albelig | 26 | 26 | L | 257 | 257 | A-300-  | A-300-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = a = 6
+= 1 = l = 26
+= 2 = l = 26
+= 4 = p = 18
+= 4 = p = 20
+= 5 = l = 24
+= 5 = l = 26
+= 7 = m = 8
+= 7 = l = 25
+= 8 = p = 16
+= 10 = a = 12
+= 10 = m = 15
+= 11 = l = 25
+= 12 = m = 15
+= 15 = p = 17
+= 16 = p = 18
+= 16 = l = 24
+= 17 = m = 19
+= 19 = m = 22
+= 20 = a = 21
+= 20 = m = 22
+= 21 = m = 22
+= 24 = l = 26
+# Listed 25 contacts. EOF.

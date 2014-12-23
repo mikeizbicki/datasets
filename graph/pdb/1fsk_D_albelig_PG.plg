@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fsk, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BET V 1, BV16 FAB FRAGMENT, ANTIBODY ALLERGEN COMPLEX,IMMUNE SYSTEM
+> pdb_mol_name > MAJOR POLLEN ALLERGEN BET V 1-A
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-SEP-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > EUROPEAN WHITE BIRCH
+> title > COMPLEX FORMATION BETWEEN A FAB FRAGMENT OF A MONOCLONALIGG ANTIBODY AND THE MAJOR ALLERGEN FROM BIRCH POLLEN BETV 1
+> format_version > 2
+> pdbid > 1fsk
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BETULA PENDULA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fsk | D | albelig | 1 | 1 | H | 611 | 621 | D-15-  | D-25-  | AARLFKAFILD 
+| 1fsk | D | albelig | 2 | 2 | H | 622 | 629 | D-26-  | D-33-  | GDNLFPKV 
+| 1fsk | D | albelig | 3 | 3 | E | 636 | 641 | D-40-  | D-45-  | SVENIE 
+| 1fsk | D | albelig | 4 | 4 | E | 649 | 653 | D-53-  | D-57-  | IKKIS 
+| 1fsk | D | albelig | 5 | 5 | E | 662 | 671 | D-66-  | D-75-  | YVKDRVDEVD 
+| 1fsk | D | albelig | 6 | 6 | E | 676 | 683 | D-80-  | D-87-  | KYNYSVIE 
+| 1fsk | D | albelig | 7 | 7 | E | 691 | 702 | D-95-  | D-106-  | LEKISNEIKIVA 
+| 1fsk | D | albelig | 8 | 8 | E | 708 | 713 | D-112-  | D-117-  | SILKIS 
+| 1fsk | D | albelig | 9 | 9 | E | 716 | 718 | D-120-  | D-122-  | YHT 
+| 1fsk | D | albelig | 10 | 10 | H | 726 | 749 | D-130-  | D-153-  | AEQVKASKEMGETLLRAVESYLLA 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 1 = m = 10
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 7 = p = 9
+# Listed 8 contacts. EOF.

@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j48, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC, DNA-BINDING
+> pdb_mol_name > APOPROTEIN OF C1027
+> graphtype > albelig
+> resolution > 1.8
+> date > 30-JUL-01
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF APO-C1027
+> format_version > 2
+> pdbid > 1j48
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES GLOBISPORUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j48 | B | albelig | 1 | 1 | E | 113 | 117 | B-3-  | B-7-  | AFSVS 
+| 1j48 | B | albelig | 2 | 2 | E | 127 | 133 | B-17-  | B-23-  | SVSVSVS 
+| 1j48 | B | albelig | 3 | 3 | E | 140 | 148 | B-28-  | B-36-  | TYYIAQCAP 
+| 1j48 | B | albelig | 4 | 4 | E | 153 | 155 | B-41-  | B-43-  | DAC 
+| 1j48 | B | albelig | 5 | 5 | E | 161 | 164 | B-49-  | B-52-  | TSFT 
+| 1j48 | B | albelig | 6 | 6 | E | 171 | 176 | B-59-  | B-63-A | ASFSFV 
+| 1j48 | B | albelig | 7 | 7 | E | 180 | 184 | B-67-  | B-71-  | SYTGS 
+| 1j48 | B | albelig | 8 | 8 | E | 190 | 195 | B-77-  | B-82-  | PVGSVD 
+| 1j48 | B | albelig | 9 | 9 | E | 202 | 206 | B-89-  | B-93-  | NLGAG 
+| 1j48 | B | albelig | 10 | 10 | E | 211 | 216 | B-98-  | B-103-  | DLGHVA 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 10
+= 2 = a = 6
+= 3 = a = 4
+= 3 = a = 5
+= 3 = a = 7
+= 3 = a = 9
+= 4 = a = 7
+= 7 = a = 8
+= 9 = a = 10
+# Listed 10 contacts. EOF.

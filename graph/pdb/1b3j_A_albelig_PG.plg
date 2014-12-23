@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b3j, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HC I HOMOLOG, HUMAN MICA, MICA, IMMUNOLOGY, MHC, GAMMA-DELTA-TCR,GLYCOPROTEIN, SIGNA IMMUNOGLOBULIN FOLD, T-CELL, IMMUNE SYSTEM
+> pdb_mol_name > MHC CLASS I HOMOLOG MIC-A
+> graphtype > albelig
+> resolution > 3.0
+> date > 11-DEC-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE MHC CLASS I HOMOLOG MIC-A, A GAMMADELTA T CELL LIGAND
+> format_version > 2
+> pdbid > 1b3j
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b3j | A | albelig | 1 | 1 | E | 3 | 14 | A-3-  | A-14-  | HSLRYNLTVLSW 
+| 1b3j | A | albelig | 2 | 2 | E | 17 | 28 | A-17-  | A-28-  | SVQSGFLTEVHL 
+| 1b3j | A | albelig | 3 | 3 | E | 31 | 36 | A-31-  | A-36-  | QPFLRA 
+| 1b3j | A | albelig | 4 | 4 | E | 41 | 43 | A-41-  | A-43-  | ARA 
+| 1b3j | A | albelig | 5 | 5 | H | 45 | 54 | A-45-  | A-54-  | PQGQWAEDVL 
+| 1b3j | A | albelig | 6 | 6 | H | 60 | 79 | A-60-  | A-79-  | DRETRDLTGNGKDLRMTLAH 
+| 1b3j | A | albelig | 7 | 7 | E | 87 | 98 | A-87-  | A-98-  | LHSLQEIRVNEI 
+| 1b3j | A | albelig | 8 | 8 | E | 104 | 112 | A-104-  | A-112-  | TRSSQHFYY 
+| 1b3j | A | albelig | 9 | 9 | E | 115 | 121 | A-115-  | A-121-  | ELFLSQN 
+| 1b3j | A | albelig | 10 | 10 | E | 126 | 128 | A-126-  | A-128-  | EWT 
+| 1b3j | A | albelig | 11 | 11 | H | 136 | 150 | A-136-  | A-150-  | QTLAMNVRNFLKEDA 
+| 1b3j | A | albelig | 12 | 12 | H | 154 | 164 | A-163-  | A-173-  | DNLQELRRYLK 
+| 1b3j | A | albelig | 13 | 13 | E | 176 | 181 | A-185-  | A-190-  | MVNVTR 
+| 1b3j | A | albelig | 14 | 14 | E | 190 | 198 | A-199-  | A-207-  | TVTCRASGF 
+| 1b3j | A | albelig | 15 | 15 | E | 203 | 209 | A-212-  | A-218-  | ITLSWRQ 
+| 1b3j | A | albelig | 16 | 16 | E | 219 | 221 | A-228-  | A-230-  | QQW 
+| 1b3j | A | albelig | 17 | 17 | H | 228 | 230 | A-237-  | A-239-  | GNG 
+| 1b3j | A | albelig | 18 | 18 | E | 232 | 239 | A-241-  | A-248-  | YQTWVATR 
+| 1b3j | A | albelig | 19 | 19 | H | 245 | 247 | A-254-  | A-256-  | EQR 
+| 1b3j | A | albelig | 20 | 20 | E | 248 | 254 | A-257-  | A-263-  | FTCYMEH 
+| 1b3j | A | albelig | 21 | 21 | E | 257 | 262 | A-266-  | A-271-  | NHSTHP 
+| 1b3j | A | albelig | 22 | 22 | L | 266 | 266 | A-301-  | A-301-  | J 
+| 1b3j | A | albelig | 23 | 23 | L | 267 | 267 | A-302-  | A-302-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 1 = a = 7
+= 1 = m = 12
+= 1 = l = 22
+= 1 = l = 23
+= 2 = a = 3
+= 2 = a = 6
+= 2 = l = 22
+= 3 = a = 4
+= 3 = m = 5
+= 3 = l = 22
+= 4 = m = 5
+= 7 = a = 8
+= 7 = l = 22
+= 7 = l = 23
+= 8 = a = 9
+= 8 = l = 22
+= 9 = a = 10
+= 13 = a = 14
+= 13 = p = 21
+= 14 = a = 15
+= 14 = a = 18
+= 15 = a = 16
+= 15 = p = 18
+= 15 = m = 19
+= 15 = a = 20
+= 16 = a = 18
+= 19 = m = 20
+= 20 = a = 21
+= 22 = l = 23
+# Listed 31 contacts. EOF.

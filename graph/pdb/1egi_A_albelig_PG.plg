@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1egi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C-TYPE LECTIN, MANNOSE RECEPTOR, SUGAR BINDING PROTEIN
+> pdb_mol_name > MACROPHAGE MANNOSE RECEPTOR
+> graphtype > albelig
+> resolution > 2.3
+> date > 15-FEB-00
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF A C-TYPE CARBOHYDRATE-RECOGNITION DOMAIN (CRD-4) FROM THE MACROPHAGE MANNOSE RECEPTOR
+> format_version > 2
+> pdbid > 1egi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1egi | A | albelig | 1 | 1 | E | 13 | 17 | A-641-  | A-645-  | AFKLY 
+| 1egi | A | albelig | 2 | 2 | H | 27 | 35 | A-655-  | A-663-  | WFESRDFNR 
+| 1egi | A | albelig | 3 | 3 | H | 47 | 60 | A-675-  | A-688-  | KEEQQTIWRLITAS 
+| 1egi | A | albelig | 4 | 4 | E | 66 | 72 | A-694-  | A-700-  | LFWLGLT 
+| 1egi | A | albelig | 5 | 5 | H | 97 | 99 | A-728-  | A-730-  | NYQ 
+| 1egi | A | albelig | 6 | 6 | E | 103 | 108 | A-734-  | A-739-  | YCGELK 
+| 1egi | A | albelig | 7 | 7 | E | 115 | 119 | A-746-  | A-750-  | WNDIN 
+| 1egi | A | albelig | 8 | 8 | E | 125 | 130 | A-756-  | A-761-  | NWINQI 
+| 1egi | A | albelig | 9 | 9 | L | 276 | 276 | A-801-  | A-801-  | J 
+| 1egi | A | albelig | 10 | 10 | L | 277 | 277 | A-803-  | A-803-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = a = 8
+= 2 = m = 4
+= 2 = m = 8
+= 4 = a = 6
+= 4 = p = 8
+= 6 = a = 7
+= 7 = l = 9
+= 7 = l = 10
+= 9 = l = 10
+# Listed 10 contacts. EOF.

@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ief, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COAT PROTEIN, HYDROLASE, SERINE PROTEASE, CATALYTIC TRIAD, VIRALPROTEASE
+> pdb_mol_name > CAPSID PROTEIN P40: ASSEMBLIN PROTEASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 09-APR-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE CATALYTIC SITE MUTANT S134A OF THE HUMANCYTOMEGALOVIRUS PROTEASE
+> format_version > 2
+> pdbid > 1ief
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN HERPESVIRUS 5
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ief | B | albelig | 1 | 1 | H | 214 | 219 | B-305-  | B-310-  | EQQSQA 
+| 1ief | B | albelig | 2 | 2 | E | 223 | 231 | B-314-  | B-322-  | VYVGGFLAR 
+| 1ief | B | albelig | 3 | 3 | H | 239 | 241 | B-330-  | B-332-  | AEL 
+| 1ief | B | albelig | 4 | 4 | H | 245 | 251 | B-336-  | B-342-  | RDVVEHW 
+| 1ief | B | albelig | 5 | 5 | E | 257 | 260 | B-358-  | B-361-  | PLNI 
+| 1ief | B | albelig | 6 | 6 | E | 267 | 277 | B-368-  | B-378-  | VVGHVAAMQSV 
+| 1ief | B | albelig | 7 | 7 | E | 280 | 287 | B-381-  | B-388-  | GLFCLGCV 
+| 1ief | B | albelig | 8 | 8 | H | 290 | 300 | B-391-  | B-401-  | PRFLEIVRRAS 
+| 1ief | B | albelig | 9 | 9 | H | 304 | 308 | B-405-  | B-409-  | ELVSR 
+| 1ief | B | albelig | 10 | 10 | H | 318 | 326 | B-419-  | B-427-  | KVVEFLSGS 
+| 1ief | B | albelig | 11 | 11 | E | 329 | 333 | B-430-  | B-434-  | GLSLA 
+| 1ief | B | albelig | 12 | 12 | E | 339 | 343 | B-457-  | B-461-  | HVALC 
+| 1ief | B | albelig | 13 | 13 | E | 354 | 356 | B-472-  | B-474-  | VYG 
+| 1ief | B | albelig | 14 | 14 | H | 359 | 363 | B-477-  | B-481-  | PEWVT 
+| 1ief | B | albelig | 15 | 15 | H | 371 | 381 | B-489-  | B-499-  | AADRDGLRAQW 
+| 1ief | B | albelig | 16 | 16 | H | 398 | 408 | B-518-  | B-528-  | SYGLLGNSVDA 
+| 1ief | B | albelig | 17 | 17 | H | 414 | 424 | B-534-  | B-544-  | RLPKLRYDKQL 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 7
+= 2 = a = 13
+= 5 = a = 6
+= 5 = p = 12
+= 6 = a = 7
+= 6 = a = 15
+= 8 = m = 10
+= 10 = m = 13
+= 11 = a = 12
+= 13 = m = 14
+# Listed 10 contacts. EOF.

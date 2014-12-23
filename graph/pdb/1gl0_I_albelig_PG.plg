@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gl0, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE/INHIBITOR, COMPLEX (PROTEASE/INHIBITOR),HYDROLASE, SERINE PROTEASE, SERINE PROTEASE INHIBITOR
+> pdb_mol_name > PROTEASE INHIBITOR LCMI I
+> graphtype > albelig
+> resolution > 3.0
+> date > 22-AUG-01
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > MIGRATORY LOCUST
+> title > STRUCTURE OF THE COMPLEX BETWEEN BOVINE ALPHA-CHYMOTRYPSINAND PMP-D2V, AN INHIBITOR FROM THE INSECT LOCUSTAMIGRATORIA
+> format_version > 2
+> pdbid > 1gl0
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > LOCUSTA MIGRATORIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gl0 | I | albelig | 1 | 1 | E | 250 | 252 | I-9-  | I-11-  | VKQ 
+| 1gl0 | I | albelig | 2 | 2 | E | 257 | 260 | I-16-  | I-19-  | THTF 
+| 1gl0 | I | albelig | 3 | 3 | E | 266 | 269 | I-25-  | I-28-  | WGHT 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+# Listed 2 contacts. EOF.

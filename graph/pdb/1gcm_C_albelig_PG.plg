@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gcm, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROPHOBIC CORE MUTANT, TRANSCRIPTION REGULATION
+> pdb_mol_name > GCN4P-II
+> graphtype > albelig
+> resolution > 1.8
+> date > 25-APR-95
+> header > TRANSCRIPTION REGULATION
+> pdb_org_common > BAKER'S YEAST
+> title > GCN4 LEUCINE ZIPPER CORE MUTANT P-LI
+> format_version > 2
+> pdbid > 1gcm
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gcm | C | albelig | 1 | 1 | H | 67 | 94 | C-2-  | C-29-  | MKQIEDKIEEILSKIYHIENEIARIKKL 
+| 1gcm | C | albelig | 2 | 2 | L | 101 | 101 | C-0-  | C-0-  | J 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+# Listed 1 contacts. EOF.

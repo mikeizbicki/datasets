@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gml, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, CHAPERONIN, ACTIN, TUBULIN
+> pdb_mol_name > T-COMPLEX PROTEIN 1 SUBUNIT GAMMA
+> graphtype > albelig
+> resolution > 2.2
+> date > 17-SEP-01
+> header > CHAPERONE
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE OF THE MOUSE CCT GAMMA APICAL DOMAIN(TRICLINIC)
+> format_version > 2
+> pdbid > 1gml
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gml | D | albelig | 1 | 1 | E | 469 | 475 | D-214-  | D-220-  | VLRGVMI 
+| 1gml | D | albelig | 2 | 2 | E | 487 | 489 | D-232-  | D-234-  | YIK 
+| 1gml | D | albelig | 3 | 3 | E | 493 | 496 | D-238-  | D-241-  | IVLL 
+| 1gml | D | albelig | 4 | 4 | H | 506 | 520 | D-269-  | D-283-  | QMEEEYIHQLCEDII 
+| 1gml | D | albelig | 5 | 5 | E | 526 | 529 | D-289-  | D-292-  | VVIT 
+| 1gml | D | albelig | 6 | 6 | H | 535 | 543 | D-298-  | D-306-  | DLAQHYLMR 
+| 1gml | D | albelig | 7 | 7 | E | 547 | 549 | D-310-  | D-312-  | TAI 
+| 1gml | D | albelig | 8 | 8 | H | 554 | 564 | D-317-  | D-327-  | KTDNNRIARAC 
+| 1gml | D | albelig | 9 | 9 | H | 572 | 574 | D-335-  | D-337-  | PEE 
+| 1gml | D | albelig | 10 | 10 | H | 577 | 579 | D-340-  | D-342-  | EDD 
+| 1gml | D | albelig | 11 | 11 | E | 584 | 592 | D-347-  | D-355-  | AGLLEIKKI 
+| 1gml | D | albelig | 12 | 12 | E | 595 | 603 | D-358-  | D-366-  | EYFTFITDD 
+| 1gml | D | albelig | 13 | 13 | H | 606 | 608 | D-369-  | D-371-  | PKA 
+| 1gml | D | albelig | 14 | 14 | E | 611 | 614 | D-374-  | D-377-  | ILLR 
+| 1gml | D | albelig | 15 | 15 | L | 619 | 619 | D-1379-  | D-1379-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 1 = a = 14
+= 1 = l = 15
+= 2 = a = 11
+= 3 = p = 5
+= 4 = m = 6
+= 5 = p = 7
+= 11 = a = 12
+= 11 = l = 15
+= 12 = l = 15
+# Listed 10 contacts. EOF.

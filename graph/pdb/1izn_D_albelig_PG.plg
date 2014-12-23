@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1izn, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HETERODIMER, CAPPING PROTEIN, ACTIN FILAMENT BARBED ENDCAPPING, PROTEIN BINDING
+> pdb_mol_name > CAPZ BETA-1 SUBUNIT
+> graphtype > albelig
+> resolution > 2.1
+> date > 10-OCT-02
+> header > PROTEIN BINDING
+> pdb_org_common > CHICKEN
+> title > CRYSTAL STRUCTURE OF ACTIN FILAMENT CAPPING PROTEIN CAPZ
+> format_version > 2
+> pdbid > 1izn
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1izn | D | albelig | 1 | 1 | H | 823 | 833 | D-3-  | D-13-  | DQQLDCALDLM 
+| 1izn | D | albelig | 2 | 2 | H | 838 | 851 | D-18-  | D-31-  | PQQIEKNLSDLIDL 
+| 1izn | D | albelig | 3 | 3 | H | 853 | 862 | D-33-  | D-42-  | PSLCEDLLSS 
+| 1izn | D | albelig | 4 | 4 | E | 868 | 872 | D-48-  | D-52-  | KIARD 
+| 1izn | D | albelig | 5 | 5 | E | 877 | 881 | D-57-  | D-61-  | KDYLL 
+| 1izn | D | albelig | 6 | 6 | H | 883 | 885 | D-63-  | D-65-  | DYN 
+| 1izn | D | albelig | 7 | 7 | E | 890 | 892 | D-70-  | D-72-  | SYR 
+| 1izn | D | albelig | 8 | 8 | H | 911 | 932 | D-91-  | D-112-  | ARLRKLEVEANNAFDQYRDLYF 
+| 1izn | D | albelig | 9 | 9 | E | 936 | 944 | D-116-  | D-124-  | VSSVYLWDL 
+| 1izn | D | albelig | 10 | 10 | E | 947 | 957 | D-127-  | D-137-  | GFAGVILIKKA 
+| 1izn | D | albelig | 11 | 11 | E | 964 | 978 | D-144-  | D-158-  | IKGCWDSIHVVEVQE 
+| 1izn | D | albelig | 12 | 12 | E | 984 | 1001 | D-164-  | D-181-  | TAHYKLTSTVMLWLQTNK 
+| 1izn | D | albelig | 13 | 13 | E | 1005 | 1022 | D-185-  | D-202-  | GTMNLGGSLTRQMEKDET 
+| 1izn | D | albelig | 14 | 14 | H | 1029 | 1055 | D-209-  | D-235-  | HIANIGRLVEDMENKIRSTLNEIYFGK 
+| 1izn | D | albelig | 15 | 15 | H | 1056 | 1063 | D-236-  | D-243-  | TKDIVNGL 
+| 1izn | D | albelig | 16 | 16 | H | 1074 | 1087 | D-254-  | D-267-  | KYKQLQRELSQVLT 
+| 1izn | D | albelig | 17 | 17 | L | 1094 | 1094 | D-1001-  | D-1001-  | J 
+| 1izn | D | albelig | 18 | 18 | L | 1095 | 1095 | D-1004-  | D-1004-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 13
+= 3 = l = 18
+= 4 = a = 5
+= 5 = a = 7
+= 5 = p = 9
+= 5 = a = 10
+= 5 = l = 18
+= 6 = m = 7
+= 6 = l = 18
+= 7 = l = 18
+= 8 = a = 9
+= 8 = p = 14
+= 8 = l = 17
+= 9 = a = 10
+= 10 = a = 11
+= 11 = a = 12
+= 11 = a = 14
+= 12 = a = 13
+= 12 = p = 14
+= 13 = a = 14
+= 14 = m = 15
+= 14 = l = 17
+# Listed 23 contacts. EOF.

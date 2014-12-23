@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1grm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC, GRAMICIDIN, ANTIFUNGAL, ANTIBACTERIAL, MEMBRANE IONCHANNEL, LINEAR GRAMICIDIN
+> pdb_mol_name > GRAMICIDIN A
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-OCT-93
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > REFINEMENT OF THE SPATIAL STRUCTURE OF THE GRAMICIDIN A TRANSMEMBRANEION-CHANNEL (RUSSIAN)
+> format_version > 2
+> pdbid > 1grm
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BREVIBACILLUS BREVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1grm | A | albelig | 1 | 1 | E | 2 | 14 | A-2-  | A-14-  | GAXAXVXWXWXWX 
+| 1grm | A | albelig | 2 | 2 | L | 39 | 39 | A-16-  | A-16-  | J 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+# Listed 1 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1an8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIAL SUPERANTIGEN, TOXIN
+> pdb_mol_name > STREPTOCOCCAL PYROGENIC EXOTOXIN C
+> graphtype > albelig
+> resolution > 2.4
+> date > 27-JUN-97
+> header > BACTERIAL SUPERANTIGEN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE STREPTOCOCCAL SUPERANTIGEN SPE-C
+> format_version > 2
+> pdbid > 1an8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1an8 | A | albelig | 1 | 1 | H | 4 | 15 | A-6-  | A-17-  | ISNVKSDLLYAY 
+| 1an8 | A | albelig | 2 | 2 | E | 20 | 30 | A-22-  | A-32-  | YDYKDCRVNFS 
+| 1an8 | A | albelig | 3 | 3 | E | 34 | 38 | A-36-  | A-40-  | TLNID 
+| 1an8 | A | albelig | 4 | 4 | H | 40 | 43 | A-42-  | A-45-  | QKYR 
+| 1an8 | A | albelig | 5 | 5 | E | 48 | 52 | A-50-  | A-54-  | YISSE 
+| 1an8 | A | albelig | 6 | 6 | H | 55 | 58 | A-57-  | A-60-  | YEAS 
+| 1an8 | A | albelig | 7 | 7 | E | 66 | 71 | A-68-  | A-73-  | HVDVFG 
+| 1an8 | A | albelig | 8 | 8 | E | 81 | 85 | A-83-  | A-87-  | GEYIY 
+| 1an8 | A | albelig | 9 | 9 | E | 88 | 90 | A-90-  | A-92-  | ITP 
+| 1an8 | A | albelig | 10 | 10 | E | 102 | 106 | A-104-  | A-108-  | GNLFI 
+| 1an8 | A | albelig | 11 | 11 | E | 124 | 126 | A-126-  | A-128-  | IVT 
+| 1an8 | A | albelig | 12 | 12 | H | 127 | 142 | A-129-  | A-144-  | FQEIDFKIRKYLMDNY 
+| 1an8 | A | albelig | 13 | 13 | E | 153 | 160 | A-155-  | A-162-  | SGRIEIGT 
+| 1an8 | A | albelig | 14 | 14 | E | 165 | 169 | A-167-  | A-171-  | HEQID 
+| 1an8 | A | albelig | 15 | 15 | H | 179 | 188 | A-181-  | A-190-  | RSDIFAKYKD 
+| 1an8 | A | albelig | 16 | 16 | E | 191 | 193 | A-193-  | A-195-  | IIN 
+| 1an8 | A | albelig | 17 | 17 | H | 194 | 196 | A-196-  | A-198-  | MKN 
+| 1an8 | A | albelig | 18 | 18 | E | 197 | 205 | A-199-  | A-207-  | FSHFDIYLE 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 15
+= 2 = a = 3
+= 2 = m = 4
+= 2 = a = 7
+= 3 = a = 5
+= 5 = p = 8
+= 7 = a = 9
+= 7 = m = 12
+= 8 = m = 15
+= 10 = p = 18
+= 11 = m = 12
+= 11 = a = 16
+= 13 = a = 14
+= 13 = a = 18
+= 16 = m = 17
+= 17 = m = 18
+# Listed 16 contacts. EOF.

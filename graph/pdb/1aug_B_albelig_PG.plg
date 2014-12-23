@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aug, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PYROGLUTAMYL PEPTIDASE, CYSTEINE PROTEINASE, BACILLUSAMYLOLIQUEFACIENS, HYDROLASE, THIOL PROTEASE
+> pdb_mol_name > PYROGLUTAMYL PEPTIDASE-1
+> graphtype > albelig
+> resolution > 2.0
+> date > 26-AUG-97
+> header > THIOL PROTEASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE PYROGLUTAMYL PEPTIDASE I FROMBACILLUS AMYLOLIQUEFACIENS
+> format_version > 2
+> pdbid > 1aug
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aug | B | albelig | 1 | 1 | E | 214 | 221 | B-213-  | B-220-  | KKVLLTGF 
+| 1aug | B | albelig | 2 | 2 | H | 231 | 237 | B-230-  | B-236-  | PSWEAVK 
+| 1aug | B | albelig | 3 | 3 | E | 247 | 254 | B-246-  | B-253-  | ASIVSEQV 
+| 1aug | B | albelig | 4 | 4 | H | 260 | 272 | B-259-  | B-271-  | KSLAVLREAIKKH 
+| 1aug | B | albelig | 5 | 5 | E | 276 | 282 | B-275-  | B-281-  | IIICVGQ 
+| 1aug | B | albelig | 6 | 6 | E | 294 | 296 | B-293-  | B-295-  | VAI 
+| 1aug | B | albelig | 7 | 7 | E | 323 | 325 | B-322-  | B-324-  | AYW 
+| 1aug | B | albelig | 8 | 8 | H | 330 | 339 | B-329-  | B-338-  | IKRIVEEIKK 
+| 1aug | B | albelig | 9 | 9 | H | 354 | 369 | B-353-  | B-368-  | VCNHLFYGLMDEISRH 
+| 1aug | B | albelig | 10 | 10 | E | 374 | 380 | B-373-  | B-379-  | RGGFIHI 
+| 1aug | B | albelig | 11 | 11 | H | 384 | 386 | B-383-  | B-385-  | PEQ 
+| 1aug | B | albelig | 12 | 12 | H | 397 | 413 | B-396-  | B-412-  | LDHITKALKIAAVTAAV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 5
+= 2 = m = 12
+= 4 = p = 9
+= 5 = p = 10
+= 6 = a = 7
+= 6 = m = 9
+= 7 = m = 9
+= 8 = m = 12
+= 9 = a = 10
+# Listed 12 contacts. EOF.

@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bos, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN, RECEPTOR BINDING, PROTEIN-CARBOHYDRATE RECOGNITION,OB-FOLD
+> pdb_mol_name > SHIGA-LIKE TOXIN I B SUBUNIT
+> graphtype > albelig
+> resolution > 2.8
+> date > 13-JAN-98
+> header > TOXIN
+> pdb_org_common > ,
+> title > SHIGA-LIKE TOXIN COMPLEXED WITH ITS RECEPTOR
+> format_version > 2
+> pdbid > 1bos
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > PHAGE H30, ENTEROBACTERIA PHAGE H-19B
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bos | G | albelig | 1 | 1 | E | 423 | 427 | G-2203-  | G-2207-  | DGVTG 
+| 1bos | G | albelig | 2 | 2 | E | 429 | 434 | G-2209-  | G-2214-  | VEYTKY 
+| 1bos | G | albelig | 3 | 3 | E | 440 | 444 | G-2220-  | G-2224-  | FTVKV 
+| 1bos | G | albelig | 4 | 4 | E | 447 | 451 | G-2227-  | G-2231-  | KELFT 
+| 1bos | G | albelig | 5 | 5 | H | 456 | 465 | G-2236-  | G-2245-  | LQSLLLSAQI 
+| 1bos | G | albelig | 6 | 6 | E | 470 | 473 | G-2250-  | G-2253-  | VTIK 
+| 1bos | G | albelig | 7 | 7 | E | 485 | 488 | G-2265-  | G-2268-  | EVIF 
+| 1bos | G | albelig | 8 | 8 | L | 1445 | 1445 | G-2290-  | G-2290-  | J 
+| 1bos | G | albelig | 9 | 9 | L | 1446 | 1446 | G-2291-  | G-2291-  | J 
+| 1bos | G | albelig | 10 | 10 | L | 1447 | 1447 | G-2292-  | G-2292-  | J 
+| 1bos | G | albelig | 11 | 11 | L | 1448 | 1448 | G-2280-  | G-2280-  | J 
+| 1bos | G | albelig | 12 | 12 | L | 1449 | 1449 | G-2281-  | G-2281-  | J 
+| 1bos | G | albelig | 13 | 13 | L | 1450 | 1450 | G-2270-  | G-2270-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 6
+= 2 = a = 3
+= 2 = a = 5
+= 2 = l = 13
+= 3 = a = 4
+= 3 = l = 13
+= 4 = l = 8
+= 4 = l = 9
+= 4 = l = 13
+= 6 = a = 7
+= 8 = l = 9
+= 8 = l = 10
+= 9 = l = 10
+= 11 = l = 12
+# Listed 15 contacts. EOF.

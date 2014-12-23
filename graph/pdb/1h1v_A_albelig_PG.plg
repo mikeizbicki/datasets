@@ -1,0 +1,88 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h1v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN-BINDING, SEVERING, CAPPING, CALCIUM, AMYLOID, MUSCLECONTRACTION
+> pdb_mol_name > ACTIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 23-JUL-02
+> header > ACTIN-BINDING
+> pdb_org_common > RABBIT
+> title > GELSOLIN G4-G6/ACTIN COMPLEX
+> format_version > 2
+> pdbid > 1h1v
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ORYCTOLAGUS CUNICULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h1v | A | albelig | 1 | 1 | E | 4 | 8 | A-8-  | A-12-  | LVCDN 
+| 1h1v | A | albelig | 2 | 2 | E | 12 | 17 | A-16-  | A-21-  | LVKAGF 
+| 1h1v | A | albelig | 3 | 3 | E | 25 | 28 | A-29-  | A-32-  | AVFP 
+| 1h1v | A | albelig | 4 | 4 | H | 50 | 53 | A-56-  | A-59-  | DEAQ 
+| 1h1v | A | albelig | 5 | 5 | H | 73 | 87 | A-79-  | A-93-  | WDDMEKIWHHTFYNE 
+| 1h1v | A | albelig | 6 | 6 | H | 92 | 94 | A-98-  | A-100-  | PEE 
+| 1h1v | A | albelig | 7 | 7 | E | 97 | 101 | A-103-  | A-107-  | TLLTE 
+| 1h1v | A | albelig | 8 | 8 | H | 107 | 120 | A-113-  | A-126-  | KANREKMTQIMFET 
+| 1h1v | A | albelig | 9 | 9 | E | 125 | 130 | A-131-  | A-136-  | AMYVAI 
+| 1h1v | A | albelig | 10 | 10 | H | 131 | 139 | A-137-  | A-145-  | QAVLSLYAS 
+| 1h1v | A | albelig | 11 | 11 | E | 144 | 149 | A-150-  | A-155-  | GIVLDS 
+| 1h1v | A | albelig | 12 | 12 | E | 154 | 160 | A-160-  | A-166-  | THNVPIY 
+| 1h1v | A | albelig | 13 | 13 | H | 166 | 168 | A-172-  | A-174-  | PHA 
+| 1h1v | A | albelig | 14 | 14 | E | 170 | 172 | A-176-  | A-178-  | MRL 
+| 1h1v | A | albelig | 15 | 15 | H | 176 | 190 | A-182-  | A-196-  | GRDLTDYLMKILTER 
+| 1h1v | A | albelig | 16 | 16 | H | 197 | 210 | A-203-  | A-216-  | TAEREIVRDIKEKL 
+| 1h1v | A | albelig | 17 | 17 | H | 217 | 226 | A-223-  | A-232-  | FENEMATAAS 
+| 1h1v | A | albelig | 18 | 18 | E | 232 | 235 | A-238-  | A-241-  | KSYE 
+| 1h1v | A | albelig | 19 | 19 | E | 241 | 244 | A-247-  | A-250-  | VITI 
+| 1h1v | A | albelig | 20 | 20 | H | 247 | 256 | A-253-  | A-262-  | ERFRCPETLF 
+| 1h1v | A | albelig | 21 | 21 | H | 258 | 261 | A-264-  | A-267-  | PSFI 
+| 1h1v | A | albelig | 22 | 22 | H | 268 | 276 | A-274-  | A-282-  | IHETTYNSI 
+| 1h1v | A | albelig | 23 | 23 | H | 284 | 289 | A-290-  | A-295-  | RKDLYA 
+| 1h1v | A | albelig | 24 | 24 | E | 291 | 294 | A-297-  | A-300-  | NVMS 
+| 1h1v | A | albelig | 25 | 25 | H | 296 | 298 | A-302-  | A-304-  | GTT 
+| 1h1v | A | albelig | 26 | 26 | H | 303 | 312 | A-309-  | A-318-  | IADRMQKEIT 
+| 1h1v | A | albelig | 27 | 27 | H | 332 | 342 | A-338-  | A-348-  | SVWIGGSILAS 
+| 1h1v | A | albelig | 28 | 28 | H | 346 | 349 | A-352-  | A-355-  | FQQM 
+| 1h1v | A | albelig | 29 | 29 | H | 353 | 359 | A-359-  | A-365-  | KQEYDEA 
+| 1h1v | A | albelig | 30 | 30 | H | 363 | 367 | A-369-  | A-373-  | IVHRK 
+| 1h1v | A | albelig | 31 | 31 | L | 699 | 699 | A-1376-  | A-1376-  | J 
+| 1h1v | A | albelig | 32 | 32 | L | 700 | 700 | A-1377-  | A-1377-  | J 
+# Printed info on 32 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 1 = p = 7
+= 1 = m = 27
+= 1 = l = 31
+= 2 = a = 3
+= 2 = m = 27
+= 2 = l = 31
+= 2 = l = 32
+= 5 = p = 8
+= 7 = p = 9
+= 8 = m = 29
+= 8 = m = 30
+= 9 = m = 10
+= 10 = m = 12
+= 10 = m = 27
+= 10 = l = 31
+= 10 = l = 32
+= 11 = a = 12
+= 11 = p = 24
+= 11 = m = 25
+= 11 = l = 31
+= 11 = l = 32
+= 12 = a = 14
+= 15 = m = 16
+= 15 = a = 20
+= 15 = l = 32
+= 16 = l = 32
+= 17 = m = 20
+= 18 = a = 19
+= 20 = m = 26
+= 22 = m = 26
+= 23 = m = 24
+= 25 = l = 32
+= 31 = l = 32
+# Listed 35 contacts. EOF.

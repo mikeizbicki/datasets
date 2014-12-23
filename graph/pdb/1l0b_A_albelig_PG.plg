@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0b, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TANDEM-BRCT, THREE-HELIX BUNDLE, UNKNOWN FUNCTION
+> pdb_mol_name > BRCA1
+> graphtype > albelig
+> resolution > 2.3
+> date > 08-FEB-02
+> header > UNKNOWN FUNCTION
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT BRCA1 TANDEM-BRCT REGION
+> format_version > 2
+> pdbid > 1l0b
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0b | A | albelig | 1 | 1 | E | 7 | 11 | A-1597-  | A-1601-  | SMVVS 
+| 1l0b | A | albelig | 2 | 2 | H | 15 | 27 | A-1605-  | A-1617-  | PKEVMIVQKFAEK 
+| 1l0b | A | albelig | 3 | 3 | E | 42 | 45 | A-1632-  | A-1635-  | HVII 
+| 1l0b | A | albelig | 4 | 4 | H | 57 | 64 | A-1647-  | A-1654-  | LKYFLGIA 
+| 1l0b | A | albelig | 5 | 5 | E | 68 | 71 | A-1658-  | A-1661-  | WIVS 
+| 1l0b | A | albelig | 6 | 6 | H | 73 | 79 | A-1663-  | A-1669-  | SWVIKSI 
+| 1l0b | A | albelig | 7 | 7 | H | 88 | 90 | A-1678-  | A-1680-  | HEF 
+| 1l0b | A | albelig | 8 | 8 | H | 104 | 111 | A-1694-  | A-1701-  | GPRRSRES 
+| 1l0b | A | albelig | 9 | 9 | E | 119 | 122 | A-1710-  | A-1713-  | QIYC 
+| 1l0b | A | albelig | 10 | 10 | H | 131 | 140 | A-1722-  | A-1731-  | KDELERMLQL 
+| 1l0b | A | albelig | 11 | 11 | E | 144 | 146 | A-1735-  | A-1737-  | SVV 
+| 1l0b | A | albelig | 12 | 12 | H | 152 | 154 | A-1743-  | A-1745-  | LTR 
+| 1l0b | A | albelig | 13 | 13 | E | 161 | 164 | A-1752-  | A-1755-  | IVLV 
+| 1l0b | A | albelig | 14 | 14 | E | 168 | 170 | A-1777-  | A-1779-  | LVM 
+| 1l0b | A | albelig | 15 | 15 | H | 172 | 179 | A-1781-  | A-1788-  | DWVLDSIS 
+| 1l0b | A | albelig | 16 | 16 | H | 186 | 189 | A-1795-  | A-1798-  | LDAY 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = m = 6
+= 3 = p = 5
+= 4 = p = 10
+= 4 = m = 15
+= 5 = m = 6
+= 5 = m = 7
+= 9 = m = 10
+= 9 = p = 11
+= 9 = p = 13
+= 13 = a = 14
+= 14 = m = 15
+= 14 = m = 16
+# Listed 13 contacts. EOF.

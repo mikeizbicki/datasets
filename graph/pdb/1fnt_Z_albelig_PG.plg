@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnt, chain Z.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTICATALYTIC PROTEINASE, 20S PROTEASOME, PROTEINDEGRADATION, ANTIGEN PROCESSING, PROTEASE, PROTEASOMEACTIVATOR, CELL ADHESION, INTERFERON INDUCTION,HYDROLASE/HYDROLASE ACTIVATOR COMPLEX
+> pdb_mol_name > PROTEASOME COMPONENT PRE2
+> graphtype > albelig
+> resolution > 3.2
+> date > 23-AUG-00
+> header > HYDROLASE/HYDROLASE ACTIVATOR
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF THE 20S PROTEASOME FROM YEAST INCOMPLEX WITH THE PROTEASOME ACTIVATOR PA26 FROMTRYPANOSOME BRUCEI AT 3.2 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1fnt
+> experiment > X-RAY DIFFRACTION
+> chainid > Z
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnt | Z | albelig | 1 | 1 | E | 5698 | 5704 | Z-2-  | Z-8-  | TTLAFRF 
+| 1fnt | Z | albelig | 2 | 2 | E | 5707 | 5712 | Z-11-  | Z-16-  | GIIVAV 
+| 1fnt | Z | albelig | 3 | 3 | E | 5716 | 5718 | Z-20-  | Z-22-  | ATA 
+| 1fnt | Z | albelig | 4 | 4 | E | 5721 | 5724 | Z-25-  | Z-28-  | WVAS 
+| 1fnt | Z | albelig | 5 | 5 | E | 5731 | 5734 | Z-35-  | Z-38-  | IEIN 
+| 1fnt | Z | albelig | 6 | 6 | E | 5737 | 5739 | Z-41-  | Z-43-  | LLG 
+| 1fnt | Z | albelig | 7 | 7 | H | 5745 | 5766 | Z-49-  | Z-70-  | AADCQFWETWLGSQCRLHELRE 
+| 1fnt | Z | albelig | 8 | 8 | H | 5772 | 5785 | Z-76-  | Z-89-  | VAAASKILSNLVYQ 
+| 1fnt | Z | albelig | 9 | 9 | E | 5794 | 5801 | Z-98-  | Z-105-  | GTMICGYT 
+| 1fnt | Z | albelig | 10 | 10 | E | 5805 | 5812 | Z-109-  | Z-116-  | GPTIYYVD 
+| 1fnt | Z | albelig | 11 | 11 | E | 5817 | 5820 | Z-121-  | Z-124-  | RLKG 
+| 1fnt | Z | albelig | 12 | 12 | E | 5822 | 5826 | Z-126-  | Z-130-  | IFCVG 
+| 1fnt | Z | albelig | 13 | 13 | H | 5829 | 5839 | Z-133-  | Z-143-  | QTFAYGVLDSN 
+| 1fnt | Z | albelig | 14 | 14 | H | 5846 | 5863 | Z-150-  | Z-167-  | VEDALYLGKRSILAAAHR 
+| 1fnt | Z | albelig | 15 | 15 | E | 5870 | 5877 | Z-174-  | Z-181-  | SVNLYHVT 
+| 1fnt | Z | albelig | 16 | 16 | E | 5880 | 5888 | Z-184-  | Z-192-  | GWIYHGNHD 
+| 1fnt | Z | albelig | 17 | 17 | H | 5889 | 5899 | Z-193-  | Z-203-  | VGELFWKVKEE 
+| 1fnt | Z | albelig | 18 | 18 | L | 9175 | 9175 | Z-1010-  | Z-1010-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 9
+= 1 = a = 10
+= 1 = a = 12
+= 1 = a = 14
+= 2 = a = 15
+= 3 = a = 4
+= 5 = a = 6
+= 5 = m = 7
+= 6 = a = 9
+= 8 = p = 10
+= 9 = a = 10
+= 10 = a = 11
+= 12 = m = 13
+= 13 = a = 14
+= 14 = l = 18
+= 15 = a = 16
+= 16 = m = 17
+# Listed 18 contacts. EOF.

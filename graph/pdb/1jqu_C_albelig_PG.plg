@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jqu, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCINE HELIX TERMINII, SCHELLMAN MOTIF, ALPHA-L MOTIF, HYDROLASE
+> pdb_mol_name > LYSOZYME
+> graphtype > albelig
+> resolution > 2.6
+> date > 08-AUG-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > ARE CARBOXY TERMINII OF HELICES CODED BY THE LOCAL SEQUENCE OR BYTERTIARY STRUCTURE CONTACTS
+> format_version > 2
+> pdbid > 1jqu
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jqu | C | albelig | 1 | 1 | H | 333 | 340 | C-3-  | C-10-  | IFEMLRID 
+| 1jqu | C | albelig | 2 | 2 | E | 343 | 349 | C-13-  | C-19-  | LRLKIYK 
+| 1jqu | C | albelig | 3 | 3 | E | 355 | 359 | C-25-  | C-29-  | YTIGI 
+| 1jqu | C | albelig | 4 | 4 | E | 361 | 364 | C-31-  | C-34-  | HLLT 
+| 1jqu | C | albelig | 5 | 5 | H | 369 | 381 | C-39-  | C-51-  | LNAAKSELDKAIG 
+| 1jqu | C | albelig | 6 | 6 | H | 392 | 409 | C-62-  | C-79-  | EAEKLFNQDVDAAVRGIL 
+| 1jqu | C | albelig | 7 | 7 | H | 414 | 419 | C-84-  | C-89-  | LKPVYD 
+| 1jqu | C | albelig | 8 | 8 | H | 423 | 442 | C-93-  | C-112-  | AVRRAALINMVFQMGETGVA 
+| 1jqu | C | albelig | 9 | 9 | H | 447 | 452 | C-117-  | C-122-  | SLRMLQ 
+| 1jqu | C | albelig | 10 | 10 | H | 456 | 464 | C-126-  | C-134-  | WDEAAVNLA 
+| 1jqu | C | albelig | 11 | 11 | H | 468 | 470 | C-138-  | C-140-  | WYN 
+| 1jqu | C | albelig | 12 | 12 | H | 473 | 485 | C-143-  | C-155-  | PNRAKRVITTFRT 
+| 1jqu | C | albelig | 13 | 13 | H | 489 | 491 | C-159-  | C-161-  | DAY 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 8
+= 1 = m = 12
+= 2 = a = 3
+= 3 = a = 4
+= 6 = m = 7
+= 6 = m = 8
+= 7 = a = 8
+= 7 = m = 9
+= 8 = a = 12
+= 9 = a = 10
+= 11 = m = 12
+# Listed 12 contacts. EOF.

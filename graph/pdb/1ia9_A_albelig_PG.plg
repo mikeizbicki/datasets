@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ia9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA, PROTEIN KINASE LIKE FOLD, ATP-GRASP FOLD,TRANSFERASE
+> pdb_mol_name > TRANSIENT RECEPTOR POTENTIAL-RELATED PROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 22-MAR-01
+> header > TRANSFERASE
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE ATYPICAL PROTEIN KINASE DOMAIN OFA TRP CA-CHANNEL, CHAK (AMPPNP COMPLEX)
+> format_version > 2
+> pdbid > 1ia9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ia9 | A | albelig | 1 | 1 | H | 5 | 15 | A-1555-  | A-1565-  | AVERNNLMRLS 
+| 1ia9 | A | albelig | 2 | 2 | E | 28 | 33 | A-1578-  | A-1583-  | EPVTVY 
+| 1ia9 | A | albelig | 3 | 3 | E | 35 | 37 | A-1585-  | A-1587-  | LEE 
+| 1ia9 | A | albelig | 4 | 4 | H | 40 | 45 | A-1590-  | A-1595-  | PSILNN 
+| 1ia9 | A | albelig | 5 | 5 | E | 48 | 50 | A-1598-  | A-1600-  | SSW 
+| 1ia9 | A | albelig | 6 | 6 | E | 55 | 63 | A-1605-  | A-1613-  | LCAKIEFLS 
+| 1ia9 | A | albelig | 7 | 7 | E | 71 | 81 | A-1622-  | A-1632-  | RRAVKVLCTWS 
+| 1ia9 | A | albelig | 8 | 8 | H | 82 | 84 | A-1633-  | A-1635-  | EHD 
+| 1ia9 | A | albelig | 9 | 9 | E | 90 | 97 | A-1641-  | A-1648-  | HLYIIKSF 
+| 1ia9 | A | albelig | 10 | 10 | H | 99 | 104 | A-1650-  | A-1655-  | PEVINT 
+| 1ia9 | A | albelig | 11 | 11 | H | 113 | 138 | A-1664-  | A-1689-  | TVLHLCLREIQQQRAAQKLTFAFNQM 
+| 1ia9 | A | albelig | 12 | 12 | E | 153 | 157 | A-1704-  | A-1708-  | FLLYC 
+| 1ia9 | A | albelig | 13 | 13 | E | 162 | 168 | A-1713-  | A-1719-  | QWFAVEE 
+| 1ia9 | A | albelig | 14 | 14 | H | 190 | 205 | A-1741-  | A-1756-  | TLEEIMLAFSHWTYEY 
+| 1ia9 | A | albelig | 15 | 15 | E | 210 | 213 | A-1761-  | A-1764-  | LLVL 
+| 1ia9 | A | albelig | 16 | 16 | E | 216 | 218 | A-1767-  | A-1769-  | QGV 
+| 1ia9 | A | albelig | 17 | 17 | E | 226 | 229 | A-1777-  | A-1780-  | SVIK 
+| 1ia9 | A | albelig | 18 | 18 | H | 235 | 237 | A-1786-  | A-1788-  | SCD 
+| 1ia9 | A | albelig | 19 | 19 | H | 249 | 256 | A-1800-  | A-1807-  | AIKNFRAK 
+| 1ia9 | A | albelig | 20 | 20 | H | 261 | 265 | A-1812-  | A-1816-  | SCCRK 
+| 1ia9 | A | albelig | 21 | 21 | L | 559 | 559 | A-2001-  | A-2001-  | J 
+| 1ia9 | A | albelig | 22 | 22 | L | 560 | 560 | A-2002-  | A-2002-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 6
+= 2 = a = 12
+= 3 = a = 5
+= 4 = m = 11
+= 5 = m = 11
+= 6 = a = 7
+= 6 = m = 8
+= 7 = m = 8
+= 7 = a = 9
+= 7 = l = 22
+= 9 = a = 13
+= 9 = l = 22
+= 11 = m = 13
+= 11 = m = 14
+= 12 = a = 13
+= 13 = l = 22
+= 14 = m = 15
+= 14 = m = 20
+= 14 = l = 21
+= 15 = a = 17
+= 16 = l = 22
+= 20 = l = 21
+# Listed 22 contacts. EOF.

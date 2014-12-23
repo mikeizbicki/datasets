@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a93, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LEUCINE ZIPPER, 2D NMR, SOLUTION STRUCTURE, H-BONDS, BURIEDSALT BRIDGE, PROTO-ONCOGENE, NUCLEAR PROTEIN
+> pdb_mol_name > MYC PROTO-ONCOGENE PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 15-APR-98
+> header > LEUCINE ZIPPER
+> pdb_org_common > HUMAN
+> title > NMR SOLUTION STRUCTURE OF THE C-MYC-MAX HETERODIMERICLEUCINE ZIPPER, NMR, MINIMIZED AVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1a93
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a93 | A | albelig | 1 | 1 | H | 4 | 31 | A-6-  | A-33-  | VQAEEQKLISEEDLLRKRREQLKHKLEQ 
+| 1a93 | A | albelig | 2 | 2 | L | 66 | 66 | A-2-  | A-2-  | J 
+| 1a93 | A | albelig | 3 | 3 | L | 67 | 67 | A-35-  | A-35-  | J 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 3
+# Listed 1 contacts. EOF.

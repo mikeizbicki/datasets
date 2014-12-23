@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kjl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LACNAC COMPLEX, SUGAR BINDING PROTEIN
+> pdb_mol_name > GALECTIN-3
+> graphtype > albelig
+> resolution > 1.4
+> date > 04-DEC-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > HIGH RESOLUTION X-RAY STRUCTURE OF HUMAN GALECTIN-3 IN COMPLEX WITHLACNAC
+> format_version > 2
+> pdbid > 1kjl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kjl | A | albelig | 1 | 1 | E | 6 | 9 | A-118-  | A-121-  | YNLP 
+| 1kjl | A | albelig | 2 | 2 | E | 18 | 26 | A-130-  | A-138-  | MLITILGTV 
+| 1kjl | A | albelig | 3 | 3 | E | 33 | 39 | A-145-  | A-151-  | IALDFQR 
+| 1kjl | A | albelig | 4 | 4 | E | 42 | 53 | A-154-  | A-165-  | DVAFHFNPRFNE 
+| 1kjl | A | albelig | 5 | 5 | E | 56 | 65 | A-168-  | A-177-  | RRVIVCNTKL 
+| 1kjl | A | albelig | 6 | 6 | E | 73 | 75 | A-185-  | A-187-  | ERQ 
+| 1kjl | A | albelig | 7 | 7 | E | 85 | 92 | A-197-  | A-204-  | PFKIQVLV 
+| 1kjl | A | albelig | 8 | 8 | E | 96 | 101 | A-208-  | A-213-  | HFKVAV 
+| 1kjl | A | albelig | 9 | 9 | E | 104 | 110 | A-216-  | A-222-  | AHLLQYN 
+| 1kjl | A | albelig | 10 | 10 | H | 116 | 118 | A-228-  | A-230-  | LNE 
+| 1kjl | A | albelig | 11 | 11 | E | 121 | 126 | A-233-  | A-238-  | KLGISG 
+| 1kjl | A | albelig | 12 | 12 | E | 128 | 137 | A-240-  | A-249-  | IDLTSASYTM 
+| 1kjl | A | albelig | 13 | 13 | L | 139 | 139 | A-501-  | A-501-  | J 
+| 1kjl | A | albelig | 14 | 14 | L | 140 | 140 | A-502-  | A-502-  | J 
+| 1kjl | A | albelig | 15 | 15 | L | 141 | 141 | A-300-  | A-300-  | J 
+| 1kjl | A | albelig | 16 | 16 | L | 142 | 142 | A-301-  | A-301-  | J 
+| 1kjl | A | albelig | 17 | 17 | L | 143 | 143 | A-302-  | A-302-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 1 = p = 12
+= 2 = a = 7
+= 2 = a = 12
+= 3 = a = 4
+= 3 = m = 10
+= 3 = a = 11
+= 3 = l = 15
+= 4 = a = 5
+= 4 = l = 13
+= 4 = l = 14
+= 5 = a = 6
+= 5 = p = 9
+= 5 = l = 13
+= 5 = l = 14
+= 5 = l = 16
+= 6 = l = 14
+= 7 = a = 8
+= 8 = a = 9
+= 11 = l = 17
+= 13 = l = 14
+# Listed 21 contacts. EOF.

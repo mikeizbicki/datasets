@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c52, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT PROTEIN, CYTOCHROME-C552, MAD,THERMOSTABILITY
+> pdb_mol_name > CYTOCHROME-C552
+> graphtype > albelig
+> resolution > 1.28
+> date > 23-JUN-97
+> header > ELECTRON TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THERMUS THERMOPHILUS CYTOCHROME-C552: A NEW HIGHLYTHERMOSTABLE CYTOCHROME-C STRUCTURE OBTAINED BY MAD PHASING
+> format_version > 2
+> pdbid > 1c52
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c52 | A | albelig | 1 | 1 | H | 4 | 7 | A-4-  | A-7-  | GAKI 
+| 1c52 | A | albelig | 2 | 2 | H | 9 | 15 | A-9-  | A-15-  | AQCAGCH 
+| 1c52 | A | albelig | 3 | 3 | H | 32 | 37 | A-32-  | A-37-  | HVAEIL 
+| 1c52 | A | albelig | 4 | 4 | H | 42 | 52 | A-42-  | A-52-  | GREYLILVLLY 
+| 1c52 | A | albelig | 5 | 5 | E | 54 | 60 | A-54-  | A-60-  | LQGQIEV 
+| 1c52 | A | albelig | 6 | 6 | E | 63 | 69 | A-63-  | A-69-  | MKYNGVM 
+| 1c52 | A | albelig | 7 | 7 | H | 77 | 89 | A-77-  | A-89-  | DEEIAAVLNHIAT 
+| 1c52 | A | albelig | 8 | 8 | H | 94 | 96 | A-94-  | A-96-  | AKK 
+| 1c52 | A | albelig | 9 | 9 | H | 105 | 111 | A-105-  | A-111-  | AEEVKKL 
+| 1c52 | A | albelig | 10 | 10 | H | 118 | 126 | A-118-  | A-126-  | PQQVLAERK 
+| 1c52 | A | albelig | 11 | 11 | L | 132 | 132 | A-200-  | A-200-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 2 = l = 11
+= 3 = l = 11
+= 4 = m = 9
+= 4 = m = 10
+= 4 = l = 11
+= 5 = a = 6
+= 5 = p = 10
+= 5 = l = 11
+= 6 = l = 11
+= 7 = m = 9
+= 7 = l = 11
+= 10 = l = 11
+# Listed 13 contacts. EOF.

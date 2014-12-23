@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hj1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR RECEPTOR, TRANSCRIPTION FACTOR, OESTROGEN,ANTAGONIST
+> pdb_mol_name > OESTROGEN RECEPTOR BETA
+> graphtype > albelig
+> resolution > 2.3
+> date > 08-JAN-01
+> header > NUCLEAR RECEPTOR
+> pdb_org_common > NORWAY RAT
+> title > RAT OESTROGEN RECEPTOR BETA LIGAND-BINDING DOMAIN INCOMPLEX WITH PURE ANTIOESTROGEN ICI164,384
+> format_version > 2
+> pdbid > 1hj1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hj1 | A | albelig | 1 | 1 | H | 3 | 13 | A-220-  | A-230-  | PEQLVLTLLEA 
+| 1hj1 | A | albelig | 2 | 2 | H | 29 | 52 | A-246-  | A-269-  | EASMMMSLTKLADKELVHMIGWAK 
+| 1hj1 | A | albelig | 3 | 3 | H | 62 | 84 | A-279-  | A-301-  | LLDQVRLLESCWMEVLMVGLMWR 
+| 1hj1 | A | albelig | 4 | 4 | E | 91 | 95 | A-308-  | A-312-  | KLIFA 
+| 1hj1 | A | albelig | 5 | 5 | E | 98 | 101 | A-315-  | A-318-  | LVLD 
+| 1hj1 | A | albelig | 6 | 6 | H | 102 | 107 | A-319-  | A-324-  | RDEGKC 
+| 1hj1 | A | albelig | 7 | 7 | H | 111 | 127 | A-328-  | A-344-  | ILEIFDMLLATTSRFRE 
+| 1hj1 | A | albelig | 8 | 8 | H | 132 | 144 | A-349-  | A-361-  | HKEYLCVKAMILL 
+| 1hj1 | A | albelig | 9 | 9 | H | 149 | 167 | A-379-  | A-397-  | RKLTHLLNAVTDALVWVIA 
+| 1hj1 | A | albelig | 10 | 10 | H | 173 | 204 | A-403-  | A-434-  | SQQQSVRLANLLMLLSHVRHISNKGMEHLLSM 
+| 1hj1 | A | albelig | 11 | 11 | L | 206 | 206 | A-1436-  | A-1436-  | J 
+| 1hj1 | A | albelig | 12 | 12 | L | 207 | 207 | A-1437-  | A-1437-  | J 
+| 1hj1 | A | albelig | 13 | 13 | L | 208 | 208 | A-1438-  | A-1438-  | J 
+| 1hj1 | A | albelig | 14 | 14 | L | 209 | 209 | A-1439-  | A-1439-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = a = 3
+= 2 = l = 11
+= 2 = l = 13
+= 3 = m = 4
+= 3 = m = 7
+= 3 = a = 8
+= 3 = m = 10
+= 3 = l = 11
+= 3 = l = 12
+= 3 = l = 14
+= 4 = a = 5
+= 4 = l = 11
+= 5 = m = 6
+= 6 = m = 7
+= 7 = a = 10
+= 7 = l = 11
+= 8 = a = 9
+= 8 = p = 10
+= 9 = m = 10
+= 10 = l = 11
+= 10 = l = 12
+# Listed 22 contacts. EOF.

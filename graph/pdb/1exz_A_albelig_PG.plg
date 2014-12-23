@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1exz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SCF, HORMONE/GROWTH FACTOR COMPLEX
+> pdb_mol_name > STEM CELL FACTOR
+> graphtype > albelig
+> resolution > 2.3
+> date > 05-MAY-00
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF STEM CELL FACTOR
+> format_version > 2
+> pdbid > 1exz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1exz | A | albelig | 1 | 1 | H | 9 | 17 | A-12-  | A-20-  | VKDVTKLVA 
+| 1exz | A | albelig | 2 | 2 | E | 25 | 29 | A-28-  | A-32-  | ITLKY 
+| 1exz | A | albelig | 3 | 3 | H | 38 | 40 | A-41-  | A-43-  | SHN 
+| 1exz | A | albelig | 4 | 4 | H | 42 | 57 | A-45-  | A-60-  | ISEMVVQLSDSLTDLL 
+| 1exz | A | albelig | 5 | 5 | H | 69 | 89 | A-72-  | A-92-  | NYSIIDKLVNIVDDLVEAVKE 
+| 1exz | A | albelig | 6 | 6 | E | 103 | 107 | A-106-  | A-110-  | EPRLF 
+| 1exz | A | albelig | 7 | 7 | H | 109 | 124 | A-112-  | A-127-  | PEEFFRIFNRSIDAFK 
+| 1exz | A | albelig | 8 | 8 | L | 534 | 534 | A-806-  | A-806-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 7
+= 2 = m = 4
+= 2 = a = 6
+= 4 = a = 5
+= 4 = a = 7
+= 4 = l = 8
+= 5 = p = 7
+= 6 = m = 7
+# Listed 9 contacts. EOF.

@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ggv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA HYDROLASE FOLD, DIENELACTONE HYDROLASE, PMSF,PSEUDOMONAS PUTIDA (PAC27)
+> pdb_mol_name > DIENELACTONE HYDROLASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 27-SEP-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE C123S MUTANT OF DIENELACTONEHYDROLASE (DLH) BOUND WITH THE PMS MOIETY OF THE PROTEASEINHIBITOR, PHENYLMETHYLSULFONYL FLUORIDE (PMSF)
+> format_version > 2
+> pdbid > 1ggv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS PUTIDA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ggv | A | albelig | 1 | 1 | E | 18 | 21 | A-18-  | A-21-  | ALVG 
+| 1ggv | A | albelig | 2 | 2 | E | 28 | 34 | A-28-  | A-34-  | APVIVIA 
+| 1ggv | A | albelig | 3 | 3 | H | 42 | 53 | A-42-  | A-53-  | AFMRETVSWLVD 
+| 1ggv | A | albelig | 4 | 4 | E | 57 | 61 | A-57-  | A-61-  | AAVCP 
+| 1ggv | A | albelig | 5 | 5 | H | 63 | 66 | A-63-  | A-66-  | LYAR 
+| 1ggv | A | albelig | 6 | 6 | H | 78 | 90 | A-78-  | A-90-  | EAQREQAYKLWQA 
+| 1ggv | A | albelig | 7 | 7 | H | 93 | 108 | A-93-  | A-108-  | MEAGVGDLEAAIRYAR 
+| 1ggv | A | albelig | 8 | 8 | E | 113 | 122 | A-113-  | A-122-  | SNGKVGLVGY 
+| 1ggv | A | albelig | 9 | 9 | H | 124 | 135 | A-124-  | A-135-  | LGGALAFLVAAK 
+| 1ggv | A | albelig | 10 | 10 | E | 140 | 144 | A-140-  | A-144-  | RAVGY 
+| 1ggv | A | albelig | 11 | 11 | H | 149 | 158 | A-149-  | A-158-  | LEKQLNKVPE 
+| 1ggv | A | albelig | 12 | 12 | E | 163 | 168 | A-163-  | A-168-  | ALFHMG 
+| 1ggv | A | albelig | 13 | 13 | H | 176 | 188 | A-176-  | A-188-  | APSRQLITEGFGA 
+| 1ggv | A | albelig | 14 | 14 | E | 192 | 197 | A-192-  | A-197-  | LQVHWY 
+| 1ggv | A | albelig | 15 | 15 | H | 214 | 231 | A-214-  | A-231-  | ASAAALANERTLDFLAPL 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = p = 4
+= 2 = p = 8
+= 7 = m = 8
+= 7 = p = 9
+= 8 = a = 9
+= 8 = p = 10
+= 9 = m = 10
+= 10 = p = 12
+= 10 = a = 15
+= 11 = p = 13
+= 12 = p = 14
+= 12 = m = 15
+# Listed 13 contacts. EOF.

@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fbx, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, ALLOSTERIC ENZYME
+> pdb_mol_name > GTP CYCLOHYDROLASE I
+> graphtype > albelig
+> resolution > 2.8
+> date > 17-JUL-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ZINC-CONTAINING E.COLI GTPCYCLOHYDROLASE I
+> format_version > 2
+> pdbid > 1fbx
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fbx | M | albelig | 1 | 1 | H | 2669 | 2680 | M-5-  | M-16-  | KEAALVHEALVA 
+| 1fbx | M | albelig | 2 | 2 | H | 2696 | 2713 | M-32-  | M-49-  | NETRKSLIAGHMTEIMQL 
+| 1fbx | M | albelig | 3 | 3 | H | 2726 | 2738 | M-62-  | M-74-  | TPHRIAKMYVDEI 
+| 1fbx | M | albelig | 4 | 4 | H | 2740 | 2742 | M-76-  | M-78-  | SGL 
+| 1fbx | M | albelig | 5 | 5 | H | 2744 | 2746 | M-80-  | M-82-  | YAN 
+| 1fbx | M | albelig | 6 | 6 | E | 2752 | 2754 | M-88-  | M-90-  | LIE 
+| 1fbx | M | albelig | 7 | 7 | E | 2763 | 2774 | M-99-  | M-110-  | VTVRDITLTSTC 
+| 1fbx | M | albelig | 8 | 8 | E | 2779 | 2789 | M-115-  | M-125-  | VTIDGKATVAY 
+| 1fbx | M | albelig | 9 | 9 | E | 2794 | 2796 | M-130-  | M-132-  | SVI 
+| 1fbx | M | albelig | 10 | 10 | H | 2798 | 2809 | M-134-  | M-145-  | LSKINRIVQFFA 
+| 1fbx | M | albelig | 11 | 11 | H | 2815 | 2830 | M-151-  | M-166-  | QERLTQQILIALQTLL 
+| 1fbx | M | albelig | 12 | 12 | E | 2835 | 2843 | M-171-  | M-179-  | VAVSIDAVH 
+| 1fbx | M | albelig | 13 | 13 | H | 2844 | 2847 | M-180-  | M-183-  | YCVK 
+| 1fbx | M | albelig | 14 | 14 | E | 2857 | 2863 | M-193-  | M-199-  | ATTTTSL 
+| 1fbx | M | albelig | 15 | 15 | H | 2865 | 2869 | M-201-  | M-205-  | GLFKS 
+| 1fbx | M | albelig | 16 | 16 | H | 2871 | 2879 | M-207-  | M-215-  | QNTRHEFLR 
+| 1fbx | M | albelig | 17 | 17 | L | 3354 | 3354 | M-3357-  | M-3357-  | J 
+| 1fbx | M | albelig | 18 | 18 | L | 3355 | 3355 | M-3328-  | M-3328-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 2 = a = 3
+= 6 = a = 9
+= 7 = a = 8
+= 7 = p = 10
+= 7 = l = 18
+= 8 = a = 12
+= 10 = a = 11
+= 10 = l = 17
+= 11 = a = 12
+= 11 = p = 14
+= 12 = m = 13
+= 12 = a = 14
+= 13 = l = 18
+= 14 = m = 15
+# Listed 15 contacts. EOF.

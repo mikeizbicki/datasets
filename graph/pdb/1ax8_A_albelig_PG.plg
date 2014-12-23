@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ax8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HELICAL CYTOKINE, HEMATOPOIETIC FACTOR, DIABETES, OBESITY, CYTOKINE
+> pdb_mol_name > OBESITY PROTEIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 31-OCT-97
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > HUMAN OBESITY PROTEIN, LEPTIN
+> format_version > 2
+> pdbid > 1ax8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ax8 | A | albelig | 1 | 1 | H | 2 | 21 | A-4-  | A-23-  | QKVQDDTKTLIKTIVTRIND 
+| 1ax8 | A | albelig | 2 | 2 | H | 36 | 51 | A-51-  | A-66-  | LSKMDQTLAVYQQILT 
+| 1ax8 | A | albelig | 3 | 3 | H | 56 | 78 | A-71-  | A-93-  | RNVIQISNDLENLRDLLHVLAFS 
+| 1ax8 | A | albelig | 4 | 4 | H | 92 | 99 | A-107-  | A-114-  | LDSLGGVL 
+| 1ax8 | A | albelig | 5 | 5 | H | 106 | 127 | A-121-  | A-142-  | TEVVALSRLQGSLQDMLWQLDL 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 5
+= 2 = a = 3
+= 2 = a = 5
+= 4 = m = 5
+# Listed 5 contacts. EOF.

@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cdl, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM-BINDING PROTEIN
+> pdb_mol_name > CALMODULIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-OCT-93
+> header > CALCIUM-BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > TARGET ENZYME RECOGNITION BY CALMODULIN: 2.4 ANGSTROMSSTRUCTURE OF A CALMODULIN-PEPTIDE COMPLEX
+> format_version > 2
+> pdbid > 1cdl
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cdl | C | albelig | 1 | 1 | H | 328 | 341 | C-6-  | C-19-  | EEQIAEFKEAFSLF 
+| 1cdl | C | albelig | 2 | 2 | H | 351 | 360 | C-29-  | C-38-  | TKELGTVMRS 
+| 1cdl | C | albelig | 3 | 3 | H | 367 | 375 | C-45-  | C-53-  | EAELQDMIN 
+| 1cdl | C | albelig | 4 | 4 | H | 387 | 395 | C-65-  | C-73-  | FPEFLTMMA 
+| 1cdl | C | albelig | 5 | 5 | H | 400 | 414 | C-78-  | C-92-  | DTDSEEEIREAFRVF 
+| 1cdl | C | albelig | 6 | 6 | H | 424 | 434 | C-102-  | C-112-  | AAELRHVMTNL 
+| 1cdl | C | albelig | 7 | 7 | H | 440 | 450 | C-118-  | C-128-  | DEEVDEMIREA 
+| 1cdl | C | albelig | 8 | 8 | H | 460 | 466 | C-138-  | C-144-  | YEEFVQM 
+| 1cdl | C | albelig | 9 | 9 | L | 659 | 659 | C-148-  | C-148-  | J 
+| 1cdl | C | albelig | 10 | 10 | L | 660 | 660 | C-149-  | C-149-  | J 
+| 1cdl | C | albelig | 11 | 11 | L | 661 | 661 | C-150-  | C-150-  | J 
+| 1cdl | C | albelig | 12 | 12 | L | 662 | 662 | C-151-  | C-151-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = m = 3
+= 2 = l = 9
+= 4 = l = 10
+= 5 = m = 8
+= 6 = l = 11
+= 8 = l = 12
+# Listed 7 contacts. EOF.

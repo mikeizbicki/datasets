@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i5h, chain W.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NEDD4, WW DOMAINS, ENAC, PY MOTIF, LIDDLE SYNDROME, NMR,PROLINE-RICH, LIGASE
+> pdb_mol_name > UBIQUITIN LIGASE NEDD4
+> graphtype > albelig
+> resolution > -1.0
+> date > 27-FEB-01
+> header > LIGASE
+> pdb_org_common > NORWAY RAT
+> title > SOLUTION STRUCTURE OF THE RNEDD4 WWIII DOMAIN-RENAC BP2PEPTIDE COMPLEX
+> format_version > 2
+> pdbid > 1i5h
+> experiment > SOLUTION NMR
+> chainid > W
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i5h | W | albelig | 1 | 1 | E | 16 | 20 | W-465-  | W-469-  | WEERT 
+| 1i5h | W | albelig | 2 | 2 | E | 26 | 30 | W-475-  | W-479-  | VFFIN 
+| 1i5h | W | albelig | 3 | 3 | E | 35 | 37 | W-484-  | W-486-  | KTQ 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+# Listed 2 contacts. EOF.

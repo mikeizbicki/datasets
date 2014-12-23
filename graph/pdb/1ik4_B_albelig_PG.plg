@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ik4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOLYTIC BYPASS, METHYLGLYOXAL, LYASE
+> pdb_mol_name > METHYLGLYOXAL SYNTHASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 02-MAY-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY STRUCTURE OF METHYLGLYOXAL SYNTHASE FROM E. COLICOMPLEXED WITH PHOSPHOGLYCOLOHYDROXAMIC ACID
+> format_version > 2
+> pdbid > 1ik4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ik4 | B | albelig | 1 | 1 | E | 156 | 161 | B-3-  | B-8-  | LTTRTL 
+| 1ik4 | B | albelig | 2 | 2 | E | 166 | 171 | B-13-  | B-18-  | HIALVA 
+| 1ik4 | B | albelig | 3 | 3 | H | 173 | 185 | B-20-  | B-32-  | DHCKQMLMSWVER 
+| 1ik4 | B | albelig | 4 | 4 | H | 187 | 190 | B-34-  | B-37-  | QPLL 
+| 1ik4 | B | albelig | 5 | 5 | E | 194 | 197 | B-41-  | B-44-  | VLYA 
+| 1ik4 | B | albelig | 6 | 6 | H | 199 | 209 | B-46-  | B-56-  | GTTGNLISRAT 
+| 1ik4 | B | albelig | 7 | 7 | E | 213 | 215 | B-60-  | B-62-  | VNA 
+| 1ik4 | B | albelig | 8 | 8 | H | 219 | 232 | B-66-  | B-79-  | GPMGGDQQVGALIS 
+| 1ik4 | B | albelig | 9 | 9 | E | 238 | 242 | B-85-  | B-89-  | VLIFF 
+| 1ik4 | B | albelig | 10 | 10 | H | 252 | 264 | B-99-  | B-111-  | DPDVKALLRLATV 
+| 1ik4 | B | albelig | 11 | 11 | H | 273 | 280 | B-120-  | B-127-  | VATADFII 
+| 1ik4 | B | albelig | 12 | 12 | H | 283 | 285 | B-130-  | B-132-  | PHF 
+| 1ik4 | B | albelig | 13 | 13 | E | 289 | 294 | B-136-  | B-141-  | VDILIP 
+| 1ik4 | B | albelig | 14 | 14 | H | 296 | 303 | B-143-  | B-150-  | YQRYLADR 
+| 1ik4 | B | albelig | 15 | 15 | L | 917 | 917 | B-153-  | B-153-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 13
+= 2 = m = 3
+= 2 = p = 5
+= 2 = p = 9
+= 2 = l = 15
+= 3 = m = 6
+= 3 = m = 11
+= 3 = l = 15
+= 5 = p = 7
+= 6 = l = 15
+= 8 = l = 15
+= 9 = l = 15
+= 10 = l = 15
+# Listed 13 contacts. EOF.

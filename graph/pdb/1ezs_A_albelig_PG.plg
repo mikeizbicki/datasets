@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ezs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PROTEIN INTERACTIONS, MACROMOLECULAR COMPLEX,PROTEASE INHIBITOR, HYDROLASE/INHIBITOR COMPLEX
+> pdb_mol_name > ECOTIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 11-MAY-00
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ECOTIN MUTANT M84R, W67A, G68A, Y69A,D70A BOUND TO RAT ANIONIC TRYPSIN II
+> format_version > 2
+> pdbid > 1ezs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ezs | A | albelig | 1 | 1 | E | 9 | 14 | A-20-  | A-25-  | MKRQVI 
+| 1ezs | A | albelig | 2 | 2 | H | 22 | 24 | A-33-  | A-35-  | EST 
+| 1ezs | A | albelig | 3 | 3 | E | 25 | 37 | A-36-  | A-48-  | LKVELLIGQTLEV 
+| 1ezs | A | albelig | 4 | 4 | E | 47 | 50 | A-58-  | A-61-  | KLEN 
+| 1ezs | A | albelig | 5 | 5 | E | 56 | 59 | A-72-  | A-75-  | YVFD 
+| 1ezs | A | albelig | 6 | 6 | E | 65 | 67 | A-81-  | A-83-  | VST 
+| 1ezs | A | albelig | 7 | 7 | E | 77 | 82 | A-93-  | A-98-  | EKKFVT 
+| 1ezs | A | albelig | 8 | 8 | H | 86 | 89 | A-102-  | A-105-  | GDAG 
+| 1ezs | A | albelig | 9 | 9 | E | 90 | 92 | A-106-  | A-108-  | MLR 
+| 1ezs | A | albelig | 10 | 10 | E | 99 | 104 | A-115-  | A-120-  | IVVYTP 
+| 1ezs | A | albelig | 11 | 11 | E | 108 | 116 | A-124-  | A-132-  | DVKYRVWKA 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 10
+= 2 = m = 3
+= 2 = m = 11
+= 3 = a = 7
+= 3 = m = 8
+= 3 = a = 9
+= 3 = a = 11
+= 4 = a = 5
+= 5 = p = 10
+= 8 = m = 9
+# Listed 10 contacts. EOF.

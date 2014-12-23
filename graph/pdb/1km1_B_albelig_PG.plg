@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1km1, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TIM BARREL, LYASE
+> pdb_mol_name > OROTIDINE 5'-PHOSPHATE DECARBOXYLASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 13-DEC-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > OROTIDINE MONOPHOSPHATE DECARBOXYLASE MUTANT S127A CRYSTALSTRUCTURE
+> format_version > 2
+> pdbid > 1km1
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1km1 | B | albelig | 1 | 1 | H | 215 | 217 | B-12-  | B-14-  | MNR 
+| 1km1 | B | albelig | 2 | 2 | E | 218 | 222 | B-15-  | B-19-  | LILAM 
+| 1km1 | B | albelig | 3 | 3 | H | 227 | 237 | B-24-  | B-34-  | RDDALRVTGEV 
+| 1km1 | B | albelig | 4 | 4 | E | 243 | 247 | B-40-  | B-44-  | TVKIG 
+| 1km1 | B | albelig | 5 | 5 | H | 248 | 254 | B-45-  | B-51-  | YPLVLSE 
+| 1km1 | B | albelig | 6 | 6 | H | 257 | 266 | B-54-  | B-63-  | DIIAEFRKRF 
+| 1km1 | B | albelig | 7 | 7 | E | 269 | 276 | B-66-  | B-73-  | RIIADFKV 
+| 1km1 | B | albelig | 8 | 8 | H | 280 | 292 | B-77-  | B-89-  | PETNEKICRATFK 
+| 1km1 | B | albelig | 9 | 9 | E | 297 | 301 | B-94-  | B-98-  | AIIVH 
+| 1km1 | B | albelig | 10 | 10 | H | 306 | 319 | B-103-  | B-116-  | ADSVRACLNVAEEM 
+| 1km1 | B | albelig | 11 | 11 | E | 322 | 326 | B-119-  | B-123-  | EVFLL 
+| 1km1 | B | albelig | 12 | 12 | H | 332 | 335 | B-129-  | B-132-  | PGAE 
+| 1km1 | B | albelig | 13 | 13 | H | 338 | 352 | B-135-  | B-149-  | IQGAADEIARMGVDL 
+| 1km1 | B | albelig | 14 | 14 | E | 356 | 358 | B-153-  | B-155-  | NYV 
+| 1km1 | B | albelig | 15 | 15 | H | 364 | 374 | B-161-  | B-171-  | PERLSRLREII 
+| 1km1 | B | albelig | 16 | 16 | E | 379 | 382 | B-176-  | B-179-  | FLIS 
+| 1km1 | B | albelig | 17 | 17 | H | 392 | 395 | B-189-  | B-192-  | PGET 
+| 1km1 | B | albelig | 18 | 18 | E | 401 | 404 | B-198-  | B-201-  | AIIV 
+| 1km1 | B | albelig | 19 | 19 | H | 406 | 409 | B-203-  | B-206-  | RSIY 
+| 1km1 | B | albelig | 20 | 20 | H | 414 | 423 | B-211-  | B-220-  | PAAAAAGIIE 
+| 1km1 | B | albelig | 21 | 21 | L | 426 | 426 | B-5002-  | B-5002-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 18
+= 2 = m = 3
+= 2 = p = 4
+= 2 = p = 18
+= 2 = l = 21
+= 3 = p = 6
+= 4 = m = 5
+= 4 = p = 7
+= 4 = l = 21
+= 7 = p = 9
+= 7 = l = 21
+= 8 = p = 10
+= 9 = p = 11
+= 10 = m = 11
+= 10 = m = 13
+= 11 = p = 14
+= 13 = p = 15
+= 14 = p = 16
+= 16 = p = 18
+= 18 = l = 21
+= 19 = l = 21
+# Listed 22 contacts. EOF.

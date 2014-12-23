@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 12as, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGASE, ASPARAGINE SYNTHETASE, NITROGEN FIXATION
+> pdb_mol_name > ASPARAGINE SYNTHETASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 02-DEC-97
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > ASPARAGINE SYNTHETASE MUTANT C51A, C315A COMPLEXED WITH L-ASPARAGINE AND AMP
+> format_version > 2
+> pdbid > 12as
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI K12
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 12as | A | albelig | 1 | 1 | H | 2 | 24 | A-5-  | A-27-  | YIAKQRQISFVKSHFSRQLEERL 
+| 12as | A | albelig | 2 | 2 | E | 26 | 28 | A-29-  | A-31-  | LIE 
+| 12as | A | albelig | 3 | 3 | E | 34 | 36 | A-37-  | A-39-  | LSR 
+| 12as | A | albelig | 4 | 4 | E | 64 | 66 | A-67-  | A-69-  | FEV 
+| 12as | A | albelig | 5 | 5 | H | 73 | 80 | A-76-  | A-83-  | WKRQTLGQ 
+| 12as | A | albelig | 6 | 6 | E | 88 | 96 | A-91-  | A-99-  | GLYTHMKAL 
+| 12as | A | albelig | 7 | 7 | E | 110 | 119 | A-113-  | A-122-  | YVDQWDWERV 
+| 12as | A | albelig | 8 | 8 | H | 127 | 151 | A-130-  | A-154-  | FSTLKSTVEAIWAGIKATEAAVSEE 
+| 12as | A | albelig | 9 | 9 | E | 163 | 166 | A-166-  | A-169-  | HFVH 
+| 12as | A | albelig | 10 | 10 | H | 167 | 173 | A-170-  | A-176-  | SQELLSR 
+| 12as | A | albelig | 11 | 11 | H | 179 | 190 | A-182-  | A-193-  | AKGRERAIAKDL 
+| 12as | A | albelig | 12 | 12 | E | 192 | 196 | A-195-  | A-199-  | AVFLV 
+| 12as | A | albelig | 13 | 13 | E | 230 | 237 | A-233-  | A-240-  | NGDILVWN 
+| 12as | A | albelig | 14 | 14 | E | 242 | 251 | A-245-  | A-254-  | DAFELSSMGI 
+| 12as | A | albelig | 15 | 15 | H | 255 | 265 | A-258-  | A-268-  | ADTLKHQLALT 
+| 12as | A | albelig | 16 | 16 | H | 270 | 272 | A-273-  | A-275-  | RLE 
+| 12as | A | albelig | 17 | 17 | H | 274 | 280 | A-277-  | A-283-  | EWHQALL 
+| 12as | A | albelig | 18 | 18 | E | 287 | 293 | A-290-  | A-296-  | TIGGGIG 
+| 12as | A | albelig | 19 | 19 | H | 294 | 302 | A-297-  | A-305-  | QSRLTMLLL 
+| 12as | A | albelig | 20 | 20 | H | 307 | 309 | A-310-  | A-312-  | IGQ 
+| 12as | A | albelig | 21 | 21 | H | 317 | 322 | A-320-  | A-325-  | AAVRES 
+| 12as | A | albelig | 22 | 22 | L | 656 | 656 | A-331-  | A-331-  | J 
+| 12as | A | albelig | 23 | 23 | L | 657 | 657 | A-332-  | A-332-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 7
+= 1 = a = 8
+= 1 = m = 19
+= 2 = p = 6
+= 3 = a = 4
+= 5 = m = 7
+= 5 = l = 22
+= 6 = a = 7
+= 7 = a = 18
+= 7 = m = 19
+= 7 = l = 22
+= 7 = l = 23
+= 9 = m = 10
+= 9 = p = 12
+= 10 = m = 11
+= 11 = m = 14
+= 12 = a = 13
+= 13 = a = 14
+= 14 = a = 18
+= 14 = l = 22
+= 14 = l = 23
+= 18 = m = 19
+= 18 = l = 22
+= 18 = l = 23
+= 19 = l = 23
+= 20 = l = 23
+= 22 = l = 23
+# Listed 28 contacts. EOF.

@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LEFT-HANDED PARALLEL BETA HELIX, TRANSFERASE
+> pdb_mol_name > 2,3,4,5-TETRAHYDROPYRIDINE-2-CARBOXYLATE N-
+> graphtype > albelig
+> resolution > 2.0
+> date > 28-NOV-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF TETRAHYDRODIPICOLINATE N-SUCCINYLTRANSFERASE INCOMPLEX WITH L-2-AMINOPIMELATE AND SUCCINAMIDE-COA
+> format_version > 2
+> pdbid > 1kgq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM BOVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgq | A | albelig | 1 | 1 | H | 2 | 13 | A-2-  | A-13-  | QQLQNVIESAFE 
+| 1kgq | A | albelig | 2 | 2 | H | 15 | 17 | A-15-  | A-17-  | RAD 
+| 1kgq | A | albelig | 3 | 3 | H | 25 | 40 | A-25-  | A-40-  | TVTREAVNQVIGLLDS 
+| 1kgq | A | albelig | 4 | 4 | E | 46 | 49 | A-46-  | A-49-  | AEKI 
+| 1kgq | A | albelig | 5 | 5 | E | 52 | 55 | A-52-  | A-55-  | QWVT 
+| 1kgq | A | albelig | 6 | 6 | H | 57 | 69 | A-57-  | A-69-  | QWLKKAVLLSFRI 
+| 1kgq | A | albelig | 7 | 7 | E | 73 | 76 | A-73-  | A-76-  | KVMD 
+| 1kgq | A | albelig | 8 | 8 | E | 81 | 84 | A-81-  | A-84-  | RYYD 
+| 1kgq | A | albelig | 9 | 9 | H | 89 | 92 | A-89-  | A-92-  | KFAD 
+| 1kgq | A | albelig | 10 | 10 | H | 95 | 101 | A-95-  | A-101-  | EARFQKE 
+| 1kgq | A | albelig | 11 | 11 | E | 126 | 128 | A-126-  | A-128-  | SYV 
+| 1kgq | A | albelig | 12 | 12 | E | 144 | 146 | A-144-  | A-146-  | ATV 
+| 1kgq | A | albelig | 13 | 13 | E | 214 | 216 | A-214-  | A-216-  | IYD 
+| 1kgq | A | albelig | 14 | 14 | E | 231 | 239 | A-231-  | A-239-  | SVVVSGNLP 
+| 1kgq | A | albelig | 15 | 15 | E | 246 | 255 | A-246-  | A-255-  | SLYCAVIVKK 
+| 1kgq | A | albelig | 16 | 16 | H | 258 | 264 | A-258-  | A-264-  | AKTRGKV 
+| 1kgq | A | albelig | 17 | 17 | H | 268 | 270 | A-268-  | A-270-  | ELL 
+| 1kgq | A | albelig | 18 | 18 | L | 275 | 275 | A-301-  | A-301-  | J 
+| 1kgq | A | albelig | 19 | 19 | L | 276 | 276 | A-302-  | A-302-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 6
+= 3 = a = 6
+= 4 = a = 5
+= 7 = a = 8
+= 11 = p = 12
+= 13 = a = 15
+= 14 = a = 15
+= 14 = l = 19
+= 15 = l = 19
+= 16 = l = 19
+= 17 = l = 18
+= 18 = l = 19
+# Listed 13 contacts. EOF.

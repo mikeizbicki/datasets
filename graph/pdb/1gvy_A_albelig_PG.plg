@@ -1,0 +1,88 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gvy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, GLYCOSIDE HYDROLASE, GLYCOSIDASE, MANNANASE,MANNAN, FAMILY 26
+> pdb_mol_name > MANNAN ENDO-1,4-BETA-MANNOSIDASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 28-FEB-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > SUBSTRATE DISTORSION BY BETA-MANNANASE FROM PSEUDOMONASCELLULOSA
+> format_version > 2
+> pdbid > 1gvy
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS CELLULOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gvy | A | albelig | 1 | 1 | H | 14 | 26 | A-56-  | A-68-  | METRSLFAFMQEQ 
+| 1gvy | A | albelig | 2 | 2 | E | 31 | 36 | A-73-  | A-78-  | IMFGHQ 
+| 1gvy | A | albelig | 3 | 3 | H | 54 | 59 | A-96-  | A-101-  | DTFNAV 
+| 1gvy | A | albelig | 4 | 4 | E | 65 | 69 | A-107-  | A-111-  | VYGWD 
+| 1gvy | A | albelig | 5 | 5 | H | 70 | 72 | A-112-  | A-114-  | TLS 
+| 1gvy | A | albelig | 6 | 6 | H | 83 | 91 | A-125-  | A-133-  | VAQVKKAYA 
+| 1gvy | A | albelig | 7 | 7 | E | 95 | 99 | A-137-  | A-141-  | IITVS 
+| 1gvy | A | albelig | 8 | 8 | H | 108 | 110 | A-150-  | A-152-  | DTQ 
+| 1gvy | A | albelig | 9 | 9 | H | 136 | 151 | A-178-  | A-193-  | NPVLNGYLDQVAEWAN 
+| 1gvy | A | albelig | 10 | 10 | E | 163 | 166 | A-205-  | A-208-  | VIFR 
+| 1gvy | A | albelig | 11 | 11 | H | 185 | 202 | A-227-  | A-244-  | PEQYKQLFRYSVEYLRDV 
+| 1gvy | A | albelig | 12 | 12 | E | 208 | 212 | A-250-  | A-254-  | FLYAY 
+| 1gvy | A | albelig | 13 | 13 | H | 222 | 226 | A-264-  | A-268-  | EANYL 
+| 1gvy | A | albelig | 14 | 14 | E | 241 | 244 | A-283-  | A-286-  | DTYG 
+| 1gvy | A | albelig | 15 | 15 | H | 250 | 270 | A-292-  | A-312-  | ADWFRNVVANAALVARMAEAR 
+| 1gvy | A | albelig | 16 | 16 | E | 278 | 281 | A-320-  | A-323-  | EIGI 
+| 1gvy | A | albelig | 17 | 17 | H | 283 | 287 | A-325-  | A-329-  | APDIE 
+| 1gvy | A | albelig | 18 | 18 | H | 295 | 305 | A-337-  | A-347-  | WYRKLISGLKA 
+| 1gvy | A | albelig | 19 | 19 | H | 309 | 311 | A-351-  | A-353-  | ARE 
+| 1gvy | A | albelig | 20 | 20 | E | 314 | 317 | A-356-  | A-359-  | FLLV 
+| 1gvy | A | albelig | 21 | 21 | H | 341 | 345 | A-385-  | A-389-  | PENIN 
+| 1gvy | A | albelig | 22 | 22 | H | 348 | 357 | A-392-  | A-401-  | TLEDFQAFYA 
+| 1gvy | A | albelig | 23 | 23 | H | 364 | 366 | A-408-  | A-410-  | NRD 
+| 1gvy | A | albelig | 24 | 24 | L | 378 | 378 | A-1422-  | A-1422-  | J 
+| 1gvy | A | albelig | 25 | 25 | L | 379 | 379 | A-1423-  | A-1423-  | J 
+| 1gvy | A | albelig | 26 | 26 | L | 380 | 380 | A-1424-  | A-1424-  | J 
+| 1gvy | A | albelig | 27 | 27 | L | 381 | 381 | A-1425-  | A-1425-  | J 
+| 1gvy | A | albelig | 28 | 28 | L | 382 | 382 | A-1426-  | A-1426-  | J 
+| 1gvy | A | albelig | 29 | 29 | L | 383 | 383 | A-1427-  | A-1427-  | J 
+| 1gvy | A | albelig | 30 | 30 | L | 384 | 384 | A-1428-  | A-1428-  | J 
+| 1gvy | A | albelig | 31 | 31 | L | 385 | 385 | A-1429-  | A-1429-  | J 
+| 1gvy | A | albelig | 32 | 32 | L | 386 | 386 | A-1430-  | A-1430-  | J 
+# Printed info on 32 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 25
+= 1 = l = 26
+= 1 = l = 31
+= 2 = p = 4
+= 2 = p = 20
+= 2 = l = 26
+= 3 = m = 22
+= 4 = m = 5
+= 4 = p = 7
+= 5 = l = 29
+= 5 = l = 30
+= 7 = p = 10
+= 9 = p = 11
+= 10 = p = 12
+= 10 = l = 27
+= 13 = m = 15
+= 14 = p = 16
+= 14 = l = 24
+= 14 = l = 27
+= 14 = l = 28
+= 15 = p = 18
+= 16 = p = 20
+= 16 = l = 27
+= 16 = l = 28
+= 17 = l = 28
+= 18 = m = 22
+= 19 = l = 26
+= 22 = l = 32
+= 23 = l = 32
+= 24 = l = 28
+= 24 = l = 29
+= 25 = l = 31
+= 27 = l = 28
+= 28 = l = 29
+= 29 = l = 30
+# Listed 35 contacts. EOF.

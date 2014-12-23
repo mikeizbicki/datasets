@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1azz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (SERINE PROTEASE/INHIBITOR), SERINE PROTEASE,INHIBITOR, COMPLEX, PROTEASE-SUBSTRATE INTERACTIONS,COLLAGEN
+> pdb_mol_name > COLLAGENASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 24-NOV-97
+> header > COMPLEX (SERINE PROTEASE/INHIBITOR)
+> pdb_org_common > ATLANTIC SAND FIDDLER CRAB
+> title > FIDDLER CRAB COLLAGENASE COMPLEXED TO ECOTIN
+> format_version > 2
+> pdbid > 1azz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CELUCA PUGILATOR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1azz | B | albelig | 1 | 1 | E | 242 | 247 | B-30-  | B-35-  | QAALFI 
+| 1azz | B | albelig | 2 | 2 | E | 251 | 259 | B-40-  | B-48-  | YFDGGSLIS 
+| 1azz | B | albelig | 3 | 3 | E | 262 | 265 | B-51-  | B-54-  | WILT 
+| 1azz | B | albelig | 4 | 4 | H | 267 | 270 | B-56-  | B-59-  | AHDM 
+| 1azz | B | albelig | 5 | 5 | E | 276 | 280 | B-63-  | B-68-  | VDVVL 
+| 1azz | B | albelig | 6 | 6 | E | 293 | 297 | B-81-  | B-85-  | VTIQS 
+| 1azz | B | albelig | 7 | 7 | E | 299 | 302 | B-87-  | B-90-  | DFTV 
+| 1azz | B | albelig | 8 | 8 | E | 316 | 319 | B-104-  | B-107-  | AVIR 
+| 1azz | B | albelig | 9 | 9 | E | 345 | 350 | B-135-  | B-140-  | VVTPTG 
+| 1azz | B | albelig | 10 | 10 | E | 370 | 373 | B-160-  | B-163-  | VPIM 
+| 1azz | B | albelig | 11 | 11 | H | 375 | 382 | B-165-  | B-172-  | NADEDAVY 
+| 1azz | B | albelig | 12 | 12 | E | 389 | 392 | B-180-  | B-183-  | NIEI 
+| 1azz | B | albelig | 13 | 13 | E | 408 | 411 | B-198-  | B-201-  | PLNY 
+| 1azz | B | albelig | 14 | 14 | E | 414 | 423 | B-204-  | B-217-  | LTYGITSFGA 
+| 1azz | B | albelig | 15 | 15 | E | 433 | 437 | B-226-  | B-230-  | DAFTR 
+| 1azz | B | albelig | 16 | 16 | H | 438 | 449 | B-231-  | B-242-  | VTYFLDWIQTQT 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 8
+= 5 = a = 6
+= 7 = a = 8
+= 9 = a = 10
+= 9 = a = 13
+= 10 = a = 12
+= 11 = m = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 15 = m = 16
+# Listed 14 contacts. EOF.

@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kj3, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC CLASS I, H-2KB, PMHC COMPLEX, ALLOGENEIC, IMMUNE SYSTEM
+> pdb_mol_name > BETA-2 MICROGLOBULIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 04-DEC-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > MHC CLASS I H-2KB MOLECULE COMPLEXED WITH PKB1 PEPTIDE
+> format_version > 2
+> pdbid > 1kj3
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kj3 | L | albelig | 1 | 1 | E | 295 | 300 | L-6-  | L-11-  | QIQVYS 
+| 1kj3 | L | albelig | 2 | 2 | E | 310 | 319 | L-21-  | L-30-  | NILNCYVTQF 
+| 1kj3 | L | albelig | 3 | 3 | E | 325 | 330 | L-36-  | L-41-  | EIQMLK 
+| 1kj3 | L | albelig | 4 | 4 | E | 351 | 359 | L-62-  | L-70-  | FYILAHTEF 
+| 1kj3 | L | albelig | 5 | 5 | E | 367 | 372 | L-78-  | L-83-  | YACRVK 
+| 1kj3 | L | albelig | 6 | 6 | E | 380 | 383 | L-91-  | L-94-  | KTVY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 4
+= 2 = p = 5
+= 3 = a = 5
+= 5 = a = 6
+# Listed 6 contacts. EOF.

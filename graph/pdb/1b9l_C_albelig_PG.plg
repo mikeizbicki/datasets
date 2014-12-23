@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b9l, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EPIMERASE, ISOMERASE
+> pdb_mol_name > PROTEIN (EPIMERASE)
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-FEB-99
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > 7,8-DIHYDRONEOPTERIN TRIPHOSPHATE EPIMERASE
+> format_version > 2
+> pdbid > 1b9l
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b9l | C | albelig | 1 | 1 | E | 245 | 258 | C-6-  | C-19-  | AIIRIKNLRLRTFI 
+| 1b9l | C | albelig | 2 | 2 | H | 262 | 266 | C-23-  | C-27-  | EEEIN 
+| 1b9l | C | albelig | 3 | 3 | E | 269 | 279 | C-30-  | C-40-  | QDIVINVTIHY 
+| 1b9l | C | albelig | 4 | 4 | H | 281 | 284 | C-42-  | C-45-  | ADKA 
+| 1b9l | C | albelig | 5 | 5 | H | 296 | 308 | C-57-  | C-69-  | YRTVTKNIIQHVE 
+| 1b9l | C | albelig | 6 | 6 | H | 315 | 327 | C-76-  | C-88-  | LEKLTQDVLDIAR 
+| 1b9l | C | albelig | 7 | 7 | E | 334 | 342 | C-95-  | C-103-  | YAEVEIDKL 
+| 1b9l | C | albelig | 8 | 8 | E | 348 | 358 | C-109-  | C-119-  | ADSVSMTLSWQ 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 3 = a = 7
+= 5 = m = 6
+= 6 = a = 7
+= 6 = p = 8
+= 7 = a = 8
+# Listed 6 contacts. EOF.

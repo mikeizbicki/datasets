@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvi, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, ENDORIBONUCLEASE, RIBONUCLEASE, ENDONUCLEASE
+> pdb_mol_name > PROTEIN (RIBONUCLEASE T1)
+> graphtype > albelig
+> resolution > 1.9
+> date > 15-SEP-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > RIBONUCLEASE T1 (WILDTYPE) COMPLEXED WITH 2'GMP
+> format_version > 2
+> pdbid > 1bvi
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ASPERGILLUS ORYZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvi | C | albelig | 1 | 1 | E | 214 | 216 | C-4-  | C-6-  | YTG 
+| 1bvi | C | albelig | 2 | 2 | E | 219 | 221 | C-9-  | C-11-  | NCY 
+| 1bvi | C | albelig | 3 | 3 | H | 223 | 239 | C-13-  | C-29-  | SSDVSTAQAAGYKLHED 
+| 1bvi | C | albelig | 4 | 4 | E | 250 | 252 | C-40-  | C-42-  | HKY 
+| 1bvi | C | albelig | 5 | 5 | E | 266 | 270 | C-56-  | C-60-  | YYEWP 
+| 1bvi | C | albelig | 6 | 6 | E | 286 | 291 | C-76-  | C-81-  | DRVVFN 
+| 1bvi | C | albelig | 7 | 7 | E | 296 | 301 | C-86-  | C-91-  | LAGVIT 
+| 1bvi | C | albelig | 8 | 8 | H | 306 | 308 | C-96-  | C-98-  | SGN 
+| 1bvi | C | albelig | 9 | 9 | L | 422 | 422 | C-250-  | C-250-  | J 
+| 1bvi | C | albelig | 10 | 10 | L | 423 | 423 | C-254-  | C-254-  | J 
+| 1bvi | C | albelig | 11 | 11 | L | 424 | 424 | C-255-  | C-255-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 4 = a = 5
+= 4 = l = 10
+= 4 = l = 11
+= 5 = a = 6
+= 5 = l = 10
+= 5 = l = 11
+= 6 = a = 7
+= 6 = l = 11
+= 8 = l = 10
+= 8 = l = 11
+= 10 = l = 11
+# Listed 12 contacts. EOF.

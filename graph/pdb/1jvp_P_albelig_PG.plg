@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jvp, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN KINASE, CELL DIVISION, CELL CYCLE, ENZYMEINHIBITORS, DRUG DESIGN, TRANSFERASE
+> pdb_mol_name > CELL DIVISION PROTEIN KINASE 2
+> graphtype > albelig
+> resolution > 1.53
+> date > 31-AUG-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN CDK2 (UNPHOSPHORYLATED) INCOMPLEX WITH PKF049-365
+> format_version > 2
+> pdbid > 1jvp
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jvp | P | albelig | 1 | 1 | E | 4 | 12 | P-4-  | P-12-  | FQKVEKIGE 
+| 1jvp | P | albelig | 2 | 2 | E | 16 | 23 | P-16-  | P-23-  | GVVYKARN 
+| 1jvp | P | albelig | 3 | 3 | E | 29 | 35 | P-29-  | P-35-  | VVALKKI 
+| 1jvp | P | albelig | 4 | 4 | H | 40 | 49 | P-46-  | P-55-  | STAIREISLL 
+| 1jvp | P | albelig | 5 | 5 | E | 62 | 66 | P-68-  | P-72-  | DVIHT 
+| 1jvp | P | albelig | 6 | 6 | E | 69 | 73 | P-75-  | P-79-  | KLYLV 
+| 1jvp | P | albelig | 7 | 7 | H | 77 | 83 | P-87-  | P-93-  | LKKFMDA 
+| 1jvp | P | albelig | 8 | 8 | H | 91 | 109 | P-101-  | P-119-  | LPLIKSYLFQLLQGLAFCH 
+| 1jvp | P | albelig | 9 | 9 | H | 120 | 122 | P-130-  | P-132-  | PQN 
+| 1jvp | P | albelig | 10 | 10 | E | 123 | 125 | P-133-  | P-135-  | LLI 
+| 1jvp | P | albelig | 11 | 11 | E | 131 | 133 | P-141-  | P-143-  | IKL 
+| 1jvp | P | albelig | 12 | 12 | H | 149 | 152 | P-171-  | P-174-  | PEIL 
+| 1jvp | P | albelig | 13 | 13 | H | 161 | 176 | P-183-  | P-198-  | AVDIWSLGCIFAEMVT 
+| 1jvp | P | albelig | 14 | 14 | H | 186 | 197 | P-208-  | P-219-  | EIDQLFRIFRTL 
+| 1jvp | P | albelig | 15 | 15 | H | 208 | 210 | P-230-  | P-232-  | VTS 
+| 1jvp | P | albelig | 16 | 16 | H | 232 | 241 | P-257-  | P-266-  | EDGRSLLSQM 
+| 1jvp | P | albelig | 17 | 17 | H | 252 | 256 | P-277-  | P-281-  | AKAAL 
+| 1jvp | P | albelig | 18 | 18 | H | 259 | 263 | P-284-  | P-288-  | PFFQD 
+| 1jvp | P | albelig | 19 | 19 | L | 274 | 274 | P-301-  | P-301-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 19
+= 2 = a = 3
+= 2 = l = 19
+= 3 = a = 6
+= 3 = l = 19
+= 5 = a = 6
+= 8 = m = 11
+= 8 = a = 13
+= 8 = m = 17
+= 8 = m = 18
+= 9 = m = 10
+= 9 = m = 11
+= 10 = a = 11
+= 10 = l = 19
+= 13 = a = 16
+# Listed 16 contacts. EOF.

@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1haa, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN/PEPTIDE, COMPLEX (TOXIN/PEPTIDE), ACETYLCHOLINERECEPTOR MIMITOPE, ALPHA-BUNGAROTOXIN, PROTEIN-PEPTIDECOMPLEX, TOXIN, BETA-HAIRPIN
+> pdb_mol_name > ALPHA-BUNGAROTOXIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 05-APR-01
+> header > TOXIN/PEPTIDE
+> pdb_org_common > MANY-BANDED KRAIT
+> title > A BETA-HAIRPIN STRUCTURE IN A 13-MER PEPTIDE THAT BINDSA-BUNGAROTOXIN WITH HIGH AFFINITY AND NEUTRALIZES ITSTOXICITY
+> format_version > 2
+> pdbid > 1haa
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BUNGARUS MULTICINCTUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1haa | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | VAHT 
+| 1haa | A | albelig | 2 | 2 | E | 12 | 15 | A-12-  | A-15-  | SAVT 
+| 1haa | A | albelig | 3 | 3 | E | 22 | 30 | A-22-  | A-30-  | LAYRKMWCD 
+| 1haa | A | albelig | 4 | 4 | E | 37 | 45 | A-37-  | A-45-  | GKVVELGNA 
+| 1haa | A | albelig | 5 | 5 | E | 56 | 60 | A-56-  | A-60-  | EVTDE 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = a = 4
+= 3 = a = 4
+= 3 = a = 5
+# Listed 5 contacts. EOF.

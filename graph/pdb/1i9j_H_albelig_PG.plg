@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i9j, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAB FRAGMENT, ANTI-TESTOSTERONE, RECOMBINANT, MONOCLONAL,TESTOSTERONE, IMMUNE SYSTEM
+> pdb_mol_name > RECOMBINANT MONOCLONAL ANTI-TESTOSTERONE FAB
+> graphtype > albelig
+> resolution > 2.6
+> date > 20-MAR-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > TESTOSTERONE COMPLEX STRUCTURE OF THE RECOMBINANTMONOCLONAL WILD TYPE ANTI-TESTOSTERONE FAB FRAGMENT
+> format_version > 2
+> pdbid > 1i9j
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i9j | H | albelig | 1 | 1 | E | 223 | 227 | H-3-  | H-7-  | KLVES 
+| 1i9j | H | albelig | 2 | 2 | E | 238 | 245 | H-18-  | H-25-  | LKLSDAAS 
+| 1i9j | H | albelig | 3 | 3 | H | 249 | 251 | H-29-  | H-31-  | FST 
+| 1i9j | H | albelig | 4 | 4 | E | 254 | 259 | H-34-  | H-39-  | LSWVRQ 
+| 1i9j | H | albelig | 5 | 5 | E | 265 | 271 | H-45-  | H-51-  | LEWVASI 
+| 1i9j | H | albelig | 6 | 6 | E | 277 | 279 | H-57-  | H-59-  | TYY 
+| 1i9j | H | albelig | 7 | 7 | E | 287 | 292 | H-67-  | H-72-  | FTISRD 
+| 1i9j | H | albelig | 8 | 8 | E | 297 | 302 | H-77-  | H-82-  | ILYLQM 
+| 1i9j | H | albelig | 9 | 9 | H | 307 | 309 | H-87-  | H-89-  | SED 
+| 1i9j | H | albelig | 10 | 10 | E | 311 | 320 | H-91-  | H-100-  | AMYYDAREYY 
+| 1i9j | H | albelig | 11 | 11 | E | 323 | 328 | H-103-  | H-108-  | VGLAYW 
+| 1i9j | H | albelig | 12 | 12 | E | 332 | 336 | H-112-  | H-116-  | TLVTV 
+| 1i9j | H | albelig | 13 | 13 | E | 345 | 349 | H-125-  | H-129-  | SVYPL 
+| 1i9j | H | albelig | 14 | 14 | E | 360 | 370 | H-140-  | H-150-  | MVTLGELVKGY 
+| 1i9j | H | albelig | 15 | 15 | E | 376 | 379 | H-156-  | H-159-  | TVTW 
+| 1i9j | H | albelig | 16 | 16 | H | 380 | 382 | H-160-  | H-162-  | NSG 
+| 1i9j | H | albelig | 17 | 17 | E | 388 | 390 | H-168-  | H-170-  | VHT 
+| 1i9j | H | albelig | 18 | 18 | E | 400 | 409 | H-180-  | H-189-  | YTLSSSVTVP 
+| 1i9j | H | albelig | 19 | 19 | E | 419 | 424 | H-199-  | H-204-  | TENVAH 
+| 1i9j | H | albelig | 20 | 20 | H | 425 | 427 | H-205-  | H-207-  | PAS 
+| 1i9j | H | albelig | 21 | 21 | E | 429 | 434 | H-209-  | H-214-  | TKVDKK 
+| 1i9j | H | albelig | 22 | 22 | L | 441 | 441 | H-1010-  | H-1010-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 8
+= 2 = p = 10
+= 4 = a = 5
+= 4 = p = 8
+= 4 = a = 10
+= 4 = l = 22
+= 5 = a = 6
+= 5 = l = 22
+= 6 = a = 7
+= 6 = l = 22
+= 7 = a = 8
+= 10 = a = 11
+= 10 = a = 12
+= 10 = l = 22
+= 11 = l = 22
+= 13 = a = 14
+= 14 = a = 18
+= 15 = m = 16
+= 15 = p = 18
+= 15 = a = 19
+= 17 = a = 18
+= 19 = m = 20
+= 19 = a = 21
+# Listed 25 contacts. EOF.

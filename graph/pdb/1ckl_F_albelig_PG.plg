@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ckl, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS RECEPTOR, COMPLEMENT COFACTOR, SHORT CONSENSUS REPEAT, SCR,MEASLES VIRUS, GLYCOPROTEIN
+> pdb_mol_name > PROTEIN (CD46)
+> graphtype > albelig
+> resolution > 3.1
+> date > 22-APR-99
+> header > GLYCOPROTEIN
+> pdb_org_common > HUMAN
+> title > N-TERMINAL TWO DOMAINS OF HUMAN CD46 (MEMBRANE COFACTOR PROTEIN, MCP)
+> format_version > 2
+> pdbid > 1ckl
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ckl | F | albelig | 1 | 1 | E | 645 | 647 | F-10-  | F-12-  | MEL 
+| 1ckl | F | albelig | 2 | 2 | E | 660 | 665 | F-25-  | F-30-  | RVDYKV 
+| 1ckl | F | albelig | 3 | 3 | E | 669 | 671 | F-34-  | F-36-  | YFY 
+| 1ckl | F | albelig | 4 | 4 | E | 678 | 680 | F-43-  | F-45-  | HTI 
+| 1ckl | F | albelig | 5 | 5 | H | 692 | 694 | F-57-  | F-59-  | DDA 
+| 1ckl | F | albelig | 6 | 6 | E | 695 | 697 | F-60-  | F-62-  | VYR 
+| 1ckl | F | albelig | 7 | 7 | E | 709 | 712 | F-74-  | F-77-  | GQAV 
+| 1ckl | F | albelig | 8 | 8 | H | 714 | 716 | F-79-  | F-81-  | ANG 
+| 1ckl | F | albelig | 9 | 9 | E | 723 | 728 | F-88-  | F-93-  | QMHFIX 
+| 1ckl | F | albelig | 10 | 10 | E | 733 | 735 | F-98-  | F-100-  | YLI 
+| 1ckl | F | albelig | 11 | 11 | E | 739 | 745 | F-104-  | F-110-  | ILYWELK 
+| 1ckl | F | albelig | 12 | 12 | E | 748 | 751 | F-113-  | F-116-  | VAIW 
+| 1ckl | F | albelig | 13 | 13 | E | 757 | 759 | F-122-  | F-124-  | IXE 
+| 1ckl | F | albelig | 14 | 14 | L | 811 | 811 | F-1049-  | F-1049-  | J 
+| 1ckl | F | albelig | 15 | 15 | L | 812 | 812 | F-2049-  | F-2049-  | J 
+| 1ckl | F | albelig | 16 | 16 | L | 813 | 813 | F-3049-  | F-3049-  | J 
+| 1ckl | F | albelig | 17 | 17 | L | 814 | 814 | F-4149-  | F-4149-  | J 
+| 1ckl | F | albelig | 18 | 18 | L | 815 | 815 | F-5149-  | F-5149-  | J 
+| 1ckl | F | albelig | 19 | 19 | L | 816 | 816 | F-5249-  | F-5249-  | J 
+| 1ckl | F | albelig | 20 | 20 | L | 817 | 817 | F-1080-  | F-1080-  | J 
+| 1ckl | F | albelig | 21 | 21 | L | 818 | 818 | F-2080-  | F-2080-  | J 
+| 1ckl | F | albelig | 22 | 22 | L | 819 | 819 | F-3080-  | F-3080-  | J 
+| 1ckl | F | albelig | 23 | 23 | L | 820 | 820 | F-4080-  | F-4080-  | J 
+| 1ckl | F | albelig | 24 | 24 | L | 821 | 821 | F-4180-  | F-4180-  | J 
+| 1ckl | F | albelig | 25 | 25 | L | 822 | 822 | F-6057-  | F-6057-  | J 
+| 1ckl | F | albelig | 26 | 26 | L | 823 | 823 | F-6042-  | F-6042-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = l = 26
+= 3 = m = 5
+= 3 = a = 6
+= 4 = l = 26
+= 5 = m = 6
+= 5 = l = 25
+= 6 = l = 25
+= 7 = a = 9
+= 8 = l = 20
+= 9 = a = 10
+= 9 = a = 11
+= 9 = l = 20
+= 9 = l = 21
+= 10 = a = 13
+= 11 = a = 12
+= 11 = l = 21
+= 14 = l = 15
+= 14 = l = 16
+= 15 = l = 16
+= 15 = l = 17
+= 16 = l = 17
+= 16 = l = 18
+= 16 = l = 19
+= 17 = l = 18
+= 17 = l = 19
+= 18 = l = 19
+= 20 = l = 21
+= 21 = l = 22
+= 21 = l = 23
+= 21 = l = 24
+= 22 = l = 23
+= 22 = l = 24
+# Listed 34 contacts. EOF.

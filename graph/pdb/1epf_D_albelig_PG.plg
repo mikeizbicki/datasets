@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1epf, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NCAM, IMMUNOGLOBULIN FOLD, GLYCOPROTEIN, CELL ADHESION
+> pdb_mol_name > PROTEIN (NEURAL CELL ADHESION MOLECULE)
+> graphtype > albelig
+> resolution > 1.85
+> date > 29-MAR-00
+> header > CELL ADHESION
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF THE TWO N-TERMINAL IMMUNOGLOBULINDOMAINS OF THE NEURAL CELL ADHESION MOLECULE (NCAM)
+> format_version > 2
+> pdbid > 1epf
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1epf | D | albelig | 1 | 1 | E | 578 | 581 | D-3-  | D-6-  | VDIV 
+| 1epf | D | albelig | 2 | 2 | E | 584 | 588 | D-9-  | D-13-  | QGEIS 
+| 1epf | D | albelig | 3 | 3 | E | 593 | 599 | D-18-  | D-24-  | KFFLGQV 
+| 1epf | D | albelig | 4 | 4 | E | 607 | 611 | D-32-  | D-36-  | DISWF 
+| 1epf | D | albelig | 5 | 5 | E | 625 | 631 | D-50-  | D-56-  | ISVVWND 
+| 1epf | D | albelig | 6 | 6 | E | 634 | 639 | D-59-  | D-64-  | SSTLTI 
+| 1epf | D | albelig | 7 | 7 | H | 644 | 646 | D-69-  | D-71-  | IDD 
+| 1epf | D | albelig | 8 | 8 | E | 648 | 655 | D-73-  | D-80-  | GIYKGVVT 
+| 1epf | D | albelig | 9 | 9 | E | 661 | 671 | D-86-  | D-96-  | QSEATVNVKIF 
+| 1epf | D | albelig | 10 | 10 | E | 675 | 678 | D-100-  | D-103-  | MFKN 
+| 1epf | D | albelig | 11 | 11 | E | 691 | 693 | D-116-  | D-118-  | AVI 
+| 1epf | D | albelig | 12 | 12 | E | 696 | 698 | D-121-  | D-123-  | DVV 
+| 1epf | D | albelig | 13 | 13 | E | 704 | 709 | D-129-  | D-134-  | TIIWKH 
+| 1epf | D | albelig | 14 | 14 | H | 714 | 717 | D-139-  | D-142-  | VILK 
+| 1epf | D | albelig | 15 | 15 | E | 722 | 724 | D-147-  | D-149-  | FIV 
+| 1epf | D | albelig | 16 | 16 | E | 730 | 732 | D-155-  | D-157-  | LQI 
+| 1epf | D | albelig | 17 | 17 | H | 737 | 739 | D-162-  | D-164-  | KTD 
+| 1epf | D | albelig | 18 | 18 | E | 741 | 749 | D-166-  | D-174-  | GTYRHEGRI 
+| 1epf | D | albelig | 19 | 19 | H | 750 | 752 | D-175-  | D-177-  | LAR 
+| 1epf | D | albelig | 20 | 20 | E | 754 | 763 | D-179-  | D-188-  | EINFKDIQVI 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 9
+= 2 = p = 9
+= 3 = a = 6
+= 4 = p = 6
+= 4 = a = 8
+= 5 = a = 6
+= 8 = a = 9
+= 10 = a = 12
+= 10 = a = 20
+= 11 = a = 16
+= 13 = a = 18
+= 15 = a = 16
+= 18 = m = 19
+= 18 = a = 20
+# Listed 15 contacts. EOF.

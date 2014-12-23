@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fft, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CYTOCHROME OXIDASE, MEMBRANE PROTEIN,OXIDOREDUCTASE
+> pdb_mol_name > UBIQUINOL OXIDASE
+> graphtype > albelig
+> resolution > 3.5
+> date > 26-JUL-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF UBIQUINOL OXIDASE FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1fft
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fft | B | albelig | 1 | 1 | H | 513 | 520 | B-37-  | B-44-  | GLEQRSLI 
+| 1fft | B | albelig | 2 | 2 | H | 521 | 526 | B-45-  | B-50-  | LTAFGL 
+| 1fft | B | albelig | 3 | 3 | H | 533 | 539 | B-57-  | B-63-  | PAILMAV 
+| 1fft | B | albelig | 4 | 4 | H | 563 | 567 | B-87-  | B-91-  | KVEAV 
+| 1fft | B | albelig | 5 | 5 | H | 570 | 586 | B-94-  | B-110-  | TVPILIIIFLAVLTWKT 
+| 1fft | B | albelig | 6 | 6 | E | 604 | 608 | B-128-  | B-132-  | TIEVV 
+| 1fft | B | albelig | 7 | 7 | E | 615 | 617 | B-139-  | B-141-  | FFI 
+| 1fft | B | albelig | 8 | 8 | E | 624 | 626 | B-148-  | B-150-  | ATV 
+| 1fft | B | albelig | 9 | 9 | E | 636 | 641 | B-160-  | B-165-  | PVYFKV 
+| 1fft | B | albelig | 10 | 10 | E | 648 | 652 | B-172-  | B-176-  | NSFFI 
+| 1fft | B | albelig | 11 | 11 | H | 653 | 655 | B-177-  | B-179-  | PRL 
+| 1fft | B | albelig | 12 | 12 | E | 657 | 661 | B-181-  | B-185-  | SQIYA 
+| 1fft | B | albelig | 13 | 13 | E | 667 | 672 | B-191-  | B-196-  | TRLHLI 
+| 1fft | B | albelig | 14 | 14 | H | 705 | 716 | B-229-  | B-240-  | AAFDQWVAKAKQ 
+| 1fft | B | albelig | 15 | 15 | H | 724 | 730 | B-248-  | B-254-  | MAAFEKL 
+| 1fft | B | albelig | 16 | 16 | E | 740 | 742 | B-264-  | B-266-  | EYF 
+| 1fft | B | albelig | 17 | 17 | H | 749 | 756 | B-273-  | B-280-  | LFADVINK 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 6 = a = 7
+= 6 = p = 9
+= 7 = a = 8
+= 8 = a = 16
+= 9 = a = 13
+= 10 = m = 11
+= 10 = a = 12
+= 12 = a = 13
+= 15 = m = 17
+# Listed 9 contacts. EOF.

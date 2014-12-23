@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hfe, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FE-ONLY HYDROGENASE, HYDROGENE METABOLISM, PERIPLASM,HYDROGENASE
+> pdb_mol_name > PROTEIN (FE-ONLY HYDROGENASE (E.C.1.18.99.1)
+> graphtype > albelig
+> resolution > 1.6
+> date > 11-NOV-98
+> header > HYDROGENASE
+> pdb_org_common > UNKNOWN
+> title > 1.6 A RESOLUTION STRUCTURE OF THE FE-ONLY HYDROGENASE FROMDESULFOVIBRIO DESULFURICANS
+> format_version > 2
+> pdbid > 1hfe
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > DESULFOVIBRIO VULGARIS SUBSP. VULGARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hfe | S | albelig | 1 | 1 | H | 4 | 21 | S-39-  | S-56-  | IKDYMLDRINGVYGADAK 
+| 1hfe | S | albelig | 2 | 2 | H | 27 | 29 | S-62-  | S-64-  | SQD 
+| 1hfe | S | albelig | 3 | 3 | H | 31 | 41 | S-66-  | S-76-  | TQVKALYKSYL 
+| 1hfe | S | albelig | 4 | 4 | H | 47 | 53 | S-82-  | S-88-  | HKSHDLL 
+| 1hfe | S | albelig | 5 | 5 | H | 62 | 69 | S-97-  | S-104-  | KGVKELTT 
+| 1hfe | S | albelig | 6 | 6 | H | 78 | 81 | S-113-  | S-116-  | ASEF 
+| 1hfe | S | albelig | 7 | 7 | L | 972 | 972 | S-500-  | S-500-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = l = 7
+# Listed 1 contacts. EOF.

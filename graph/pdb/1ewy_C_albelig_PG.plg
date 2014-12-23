@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ewy, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSFER COMPLEX, PHOTOSYNTHESIS, PROTEIN-PROTEININTERACTION, FERREDOXIN, REDUCTASE, OXIDOREDUCTASE
+> pdb_mol_name > FERREDOXIN I
+> graphtype > albelig
+> resolution > 2.38
+> date > 28-APR-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > ANABAENA PCC7119 FERREDOXIN:FERREDOXIN-NADP+-REDUCTASECOMPLEX
+> format_version > 2
+> pdbid > 1ewy
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > NOSTOC SP. PCC 7119
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ewy | C | albelig | 1 | 1 | E | 610 | 617 | C-2-  | C-9-  | TFKVTLIN 
+| 1ewy | C | albelig | 2 | 2 | E | 622 | 629 | C-14-  | C-21-  | TKHEIEVP 
+| 1ewy | C | albelig | 3 | 3 | H | 634 | 639 | C-26-  | C-31-  | ILDAAE 
+| 1ewy | C | albelig | 4 | 4 | E | 658 | 661 | C-50-  | C-53-  | AGKL 
+| 1ewy | C | albelig | 5 | 5 | H | 676 | 679 | C-68-  | C-71-  | DDQI 
+| 1ewy | C | albelig | 6 | 6 | E | 683 | 685 | C-75-  | C-77-  | YVL 
+| 1ewy | C | albelig | 7 | 7 | H | 686 | 688 | C-78-  | C-80-  | TCV 
+| 1ewy | C | albelig | 8 | 8 | L | 709 | 709 | C-99-  | C-99-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 4 = a = 6
+= 6 = m = 7
+= 6 = l = 8
+= 7 = l = 8
+# Listed 5 contacts. EOF.

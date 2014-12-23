@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jas, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NMR STRUCTURE, UBIQUITIN CONJUGATION, UBIQUITIN CONJUGATINGENZYME, LIGASE
+> pdb_mol_name > UBIQUITIN-CONJUGATING ENZYME E2-17 KDA
+> graphtype > albelig
+> resolution > -1.0
+> date > 31-MAY-01
+> header > LIGASE
+> pdb_org_common > HUMAN
+> title > HSUBC2B
+> format_version > 2
+> pdbid > 1jas
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jas | A | albelig | 1 | 1 | H | 4 | 18 | A-4-  | A-18-  | PARRRLMRDFKRLQE 
+| 1jas | A | albelig | 2 | 2 | E | 24 | 28 | A-24-  | A-28-  | VSGAP 
+| 1jas | A | albelig | 3 | 3 | E | 35 | 41 | A-35-  | A-41-  | QWNAVIF 
+| 1jas | A | albelig | 4 | 4 | E | 52 | 58 | A-52-  | A-58-  | TFKLVIE 
+| 1jas | A | albelig | 5 | 5 | E | 69 | 72 | A-69-  | A-72-  | TVRF 
+| 1jas | A | albelig | 6 | 6 | H | 90 | 92 | A-90-  | A-92-  | DIL 
+| 1jas | A | albelig | 7 | 7 | H | 102 | 114 | A-102-  | A-114-  | VSSILTSIQSLLD 
+| 1jas | A | albelig | 8 | 8 | H | 124 | 131 | A-124-  | A-131-  | SQAAQLYQ 
+| 1jas | A | albelig | 9 | 9 | H | 134 | 150 | A-134-  | A-150-  | KREYEKRVSAIVEQSWN 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 7
+= 3 = a = 4
+= 3 = p = 7
+= 4 = a = 5
+# Listed 5 contacts. EOF.

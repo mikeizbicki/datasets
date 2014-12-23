@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hdf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL PROTEIN, CRYSTALLINS, EYE LENS, DOMAININTERACTIONS, SPHERULIN 3A, TYROSINE CORNER
+> pdb_mol_name > SPHERULIN 3A
+> graphtype > albelig
+> resolution > 2.35
+> date > 13-NOV-00
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > EVOLUTION OF THE EYE LENS BETA-GAMMA-CRYSTALLIN DOMAIN FOLD
+> format_version > 2
+> pdbid > 1hdf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PHYSARUM POLYCEPHALUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hdf | A | albelig | 1 | 1 | E | 2 | 4 | A-2-  | A-4-  | VAK 
+| 1hdf | A | albelig | 2 | 2 | E | 15 | 20 | A-15-  | A-20-  | VFLYKH 
+| 1hdf | A | albelig | 3 | 3 | H | 21 | 23 | A-21-  | A-23-  | VNF 
+| 1hdf | A | albelig | 4 | 4 | E | 24 | 30 | A-24-  | A-30-  | QGDSWKV 
+| 1hdf | A | albelig | 5 | 5 | H | 37 | 39 | A-37-  | A-39-  | FRS 
+| 1hdf | A | albelig | 6 | 6 | E | 49 | 52 | A-49-  | A-52-  | SVKV 
+| 1hdf | A | albelig | 7 | 7 | E | 56 | 61 | A-56-  | A-61-  | TKAFIF 
+| 1hdf | A | albelig | 8 | 8 | H | 64 | 66 | A-64-  | A-66-  | DRF 
+| 1hdf | A | albelig | 9 | 9 | E | 70 | 73 | A-70-  | A-73-  | FIRL 
+| 1hdf | A | albelig | 10 | 10 | E | 77 | 79 | A-77-  | A-79-  | SQV 
+| 1hdf | A | albelig | 11 | 11 | H | 82 | 85 | A-82-  | A-85-  | LTTR 
+| 1hdf | A | albelig | 12 | 12 | E | 93 | 98 | A-93-  | A-98-  | SXIVAT 
+| 1hdf | A | albelig | 13 | 13 | L | 204 | 204 | A-1101-  | A-1101-  | J 
+| 1hdf | A | albelig | 14 | 14 | L | 205 | 205 | A-1102-  | A-1102-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = m = 3
+= 2 = a = 4
+= 2 = a = 6
+= 2 = l = 13
+= 3 = m = 4
+= 3 = m = 6
+= 6 = a = 10
+= 7 = a = 9
+= 7 = a = 12
+= 8 = m = 12
+# Listed 11 contacts. EOF.

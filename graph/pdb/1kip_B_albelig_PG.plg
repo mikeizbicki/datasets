@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kip, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN V REGION, SIGNAL, HYDROLASE, GLYCOSIDASE,BACTERIOLYTIC ENZYME, EGG WHITE, COMPLEX(IMMUNOGLOBULIN/HYDROLASE)
+> pdb_mol_name > MONOCLONAL ANTIBODY D1.3
+> graphtype > albelig
+> resolution > 2.1
+> date > 23-OCT-96
+> header > COMPLEX (IMMUNOGLOBULIN/HYDROLASE)
+> pdb_org_common > HOUSE MOUSE
+> title > FV MUTANT Y(B 32)A (VH DOMAIN) OF MOUSE MONOCLONAL ANTIBODYD1.3 COMPLEXED WITH HEN EGG WHITE LYSOZYME
+> format_version > 2
+> pdbid > 1kip
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kip | B | albelig | 1 | 1 | E | 111 | 115 | B-3-  | B-7-  | QLQES 
+| 1kip | B | albelig | 2 | 2 | E | 126 | 133 | B-18-  | B-25-  | LSITNTVS 
+| 1kip | B | albelig | 3 | 3 | E | 141 | 147 | B-33-  | B-39-  | GVNWVRQ 
+| 1kip | B | albelig | 4 | 4 | E | 154 | 159 | B-46-  | B-51-  | EWLGMI 
+| 1kip | B | albelig | 5 | 5 | E | 165 | 167 | B-57-  | B-59-  | TDY 
+| 1kip | B | albelig | 6 | 6 | H | 172 | 174 | B-64-  | B-66-  | KSR 
+| 1kip | B | albelig | 7 | 7 | E | 175 | 180 | B-67-  | B-72-  | LSISKD 
+| 1kip | B | albelig | 8 | 8 | E | 185 | 190 | B-77-  | B-82-  | QVFLKM 
+| 1kip | B | albelig | 9 | 9 | H | 195 | 197 | B-87-  | B-89-  | TDD 
+| 1kip | B | albelig | 10 | 10 | E | 199 | 206 | B-91-  | B-98-  | ARYYNARE 
+| 1kip | B | albelig | 11 | 11 | E | 211 | 214 | B-103-  | B-106-  | LDYW 
+| 1kip | B | albelig | 12 | 12 | E | 218 | 222 | B-110-  | B-114-  | TTLTV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 8
+= 2 = p = 10
+= 3 = a = 4
+= 3 = p = 8
+= 3 = a = 10
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 6 = m = 7
+= 6 = m = 8
+= 7 = a = 8
+= 10 = a = 11
+= 10 = a = 12
+# Listed 15 contacts. EOF.

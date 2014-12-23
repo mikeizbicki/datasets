@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iuh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THERMUS THERMOPHILUS, LIGASE, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS
+> pdb_mol_name > 2'-5' RNA LIGASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 05-MAR-02
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF TT0787 OF THERMUS THERMOPHILUS HB8
+> format_version > 2
+> pdbid > 1iuh
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iuh | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | RLFYAVF 
+| 1iuh | A | albelig | 2 | 2 | H | 11 | 24 | A-11-  | A-24-  | EEVRAALVEAQTKV 
+| 1iuh | A | albelig | 3 | 3 | E | 30 | 32 | A-30-  | A-32-  | WKP 
+| 1iuh | A | albelig | 4 | 4 | H | 35 | 37 | A-35-  | A-37-  | PHQ 
+| 1iuh | A | albelig | 5 | 5 | E | 39 | 47 | A-39-  | A-47-  | HLTLLFLGE 
+| 1iuh | A | albelig | 6 | 6 | H | 50 | 66 | A-50-  | A-66-  | EEELPDYLALGHRLARL 
+| 1iuh | A | albelig | 7 | 7 | E | 70 | 80 | A-70-  | A-80-  | FRARLRGTGYF 
+| 1iuh | A | albelig | 8 | 8 | E | 88 | 94 | A-88-  | A-94-  | VWFAKAE 
+| 1iuh | A | albelig | 9 | 9 | H | 96 | 119 | A-96-  | A-119-  | EGFLRLAEGLRAGVEELLGEEAVR 
+| 1iuh | A | albelig | 10 | 10 | E | 130 | 136 | A-130-  | A-136-  | HITLARR 
+| 1iuh | A | albelig | 11 | 11 | E | 150 | 154 | A-150-  | A-154-  | LEWPV 
+| 1iuh | A | albelig | 12 | 12 | E | 156 | 164 | A-156-  | A-164-  | GFALVRSEL 
+| 1iuh | A | albelig | 13 | 13 | E | 169 | 178 | A-169-  | A-178-  | PVYTVLEKFS 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 12
+= 3 = a = 10
+= 5 = m = 9
+= 5 = a = 10
+= 6 = a = 9
+= 6 = m = 13
+= 7 = a = 8
+= 7 = a = 11
+= 8 = a = 10
+= 12 = a = 13
+# Listed 11 contacts. EOF.

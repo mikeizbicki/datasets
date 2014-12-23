@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eyg, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX; OB FOLD; SE-MET; MAD PHASING; SSB;BINDING MODE, REPLICATION/DNA COMPLEX
+> pdb_mol_name > SINGLE-STRAND DNA-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 06-MAY-00
+> header > REPLICATION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CHYMOTRYPTIC FRAGMENT OF E. COLI SSBBOUND TO TWO 35-MER SINGLE STRAND DNAS
+> format_version > 2
+> pdbid > 1eyg
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eyg | C | albelig | 1 | 1 | E | 224 | 233 | C-3005-  | C-3014-  | VNKVILVGNL 
+| 1eyg | C | albelig | 2 | 2 | E | 238 | 240 | C-3019-  | C-3021-  | EVR 
+| 1eyg | C | albelig | 3 | 3 | E | 248 | 257 | C-3029-  | C-3038-  | VANITLATSE 
+| 1eyg | C | albelig | 4 | 4 | E | 270 | 279 | C-3051-  | C-3060-  | QTEWHRVVLF 
+| 1eyg | C | albelig | 5 | 5 | H | 280 | 289 | C-3061-  | C-3070-  | GKLAEVASEY 
+| 1eyg | C | albelig | 6 | 6 | E | 295 | 308 | C-3076-  | C-3089-  | QVYIEGQLRTRKWT 
+| 1eyg | C | albelig | 7 | 7 | E | 314 | 322 | C-3095-  | C-3103-  | DRYTTEVVV 
+| 1eyg | C | albelig | 8 | 8 | E | 327 | 330 | C-3108-  | C-3111-  | TMQM 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 3 = m = 5
+= 4 = m = 5
+= 4 = p = 7
+= 6 = a = 7
+= 6 = a = 8
+# Listed 9 contacts. EOF.

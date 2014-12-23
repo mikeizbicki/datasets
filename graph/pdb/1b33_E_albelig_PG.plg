@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b33, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGHT-HARVESTING PROTEIN, CYANOBACTERIA, ALLOPHYCOCYANIN,LINKER POLYPEPTIDES, COMPLEX STRUCTURE, PHOTOSYNTHESIS
+> pdb_mol_name > ALLOPHYCOCYANIN, ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 15-DEC-98
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF LIGHT HARVESTING COMPLEX OF ALLOPHYCOCYANINALPHA AND BETA CHAINS/CORE-LINKER COMPLEX AP*LC7.8
+> format_version > 2
+> pdbid > 1b33
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MASTIGOCLADUS LAMINOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b33 | E | albelig | 1 | 1 | H | 648 | 658 | E-2-  | E-12-  | IVTKSIVNADA 
+| 1b33 | E | albelig | 2 | 2 | H | 665 | 676 | E-19-  | E-30-  | PGELDRIKSFVS 
+| 1b33 | E | albelig | 3 | 3 | H | 678 | 690 | E-32-  | E-44-  | GEKRLRIAQILTD 
+| 1b33 | E | albelig | 4 | 4 | H | 692 | 706 | E-46-  | E-60-  | RERIVKQAGDQLFQK 
+| 1b33 | E | albelig | 5 | 5 | H | 708 | 711 | E-62-  | E-65-  | PDVV 
+| 1b33 | E | albelig | 6 | 6 | H | 720 | 743 | E-74-  | E-97-  | QEMTATCLRDLDYYLRLITYGIVA 
+| 1b33 | E | albelig | 7 | 7 | H | 747 | 754 | E-101-  | E-108-  | TPIEEIGI 
+| 1b33 | E | albelig | 8 | 8 | H | 757 | 764 | E-111-  | E-118-  | VREMYKSL 
+| 1b33 | E | albelig | 9 | 9 | H | 768 | 783 | E-122-  | E-137-  | IDAVAAGVSAMKNVAS 
+| 1b33 | E | albelig | 10 | 10 | H | 788 | 804 | E-142-  | E-158-  | AEDAAEAGAYFDYVAGA 
+| 1b33 | E | albelig | 11 | 11 | L | 2085 | 2085 | E-205-  | E-205-  | J 
+| 1b33 | E | albelig | 12 | 12 | L | 2086 | 2086 | E-2004-  | E-2004-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 12
+= 3 = a = 6
+= 3 = m = 10
+= 4 = a = 6
+= 4 = a = 9
+= 4 = l = 11
+= 5 = l = 11
+= 6 = a = 7
+= 6 = a = 10
+= 6 = l = 11
+= 7 = l = 11
+= 8 = l = 11
+= 9 = m = 10
+= 9 = l = 11
+# Listed 14 contacts. EOF.

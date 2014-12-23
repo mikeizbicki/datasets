@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a9c, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, GTP, PURINE HYDROLYSIS, PTERINE SYNTHESIS,TETRAHYDROBIOPTERIN
+> pdb_mol_name > GTP CYCLOHYDROLASE I
+> graphtype > albelig
+> resolution > 2.9
+> date > 04-APR-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > GTP CYCLOHYDROLASE I (C110S MUTANT) IN COMPLEX WITH GTP
+> format_version > 2
+> pdbid > 1a9c
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a9c | L | albelig | 1 | 1 | H | 2447 | 2459 | L-5-  | L-17-  | KEAALVHEALVAR 
+| 1a9c | L | albelig | 2 | 2 | H | 2474 | 2491 | L-32-  | L-49-  | NETRKSLIAGHMTEIMQL 
+| 1a9c | L | albelig | 3 | 3 | H | 2501 | 2514 | L-59-  | L-72-  | LMETPHRIAKMYVD 
+| 1a9c | L | albelig | 4 | 4 | H | 2518 | 2520 | L-76-  | L-78-  | SGL 
+| 1a9c | L | albelig | 5 | 5 | H | 2522 | 2524 | L-80-  | L-82-  | YAN 
+| 1a9c | L | albelig | 6 | 6 | E | 2530 | 2532 | L-88-  | L-90-  | LIE 
+| 1a9c | L | albelig | 7 | 7 | E | 2541 | 2552 | L-99-  | L-110-  | VTVRDITLTSTS 
+| 1a9c | L | albelig | 8 | 8 | E | 2558 | 2567 | L-116-  | L-125-  | TIDGKATVAY 
+| 1a9c | L | albelig | 9 | 9 | E | 2572 | 2574 | L-130-  | L-132-  | SVI 
+| 1a9c | L | albelig | 10 | 10 | H | 2576 | 2587 | L-134-  | L-145-  | LSKINRIVQFFA 
+| 1a9c | L | albelig | 11 | 11 | H | 2593 | 2608 | L-151-  | L-166-  | QERLTQQILIALQTLL 
+| 1a9c | L | albelig | 12 | 12 | E | 2613 | 2621 | L-171-  | L-179-  | VAVSIDAVH 
+| 1a9c | L | albelig | 13 | 13 | H | 2622 | 2625 | L-180-  | L-183-  | YCVK 
+| 1a9c | L | albelig | 14 | 14 | E | 2635 | 2641 | L-193-  | L-199-  | ATTTTSL 
+| 1a9c | L | albelig | 15 | 15 | H | 2644 | 2647 | L-202-  | L-205-  | LFKS 
+| 1a9c | L | albelig | 16 | 16 | H | 2649 | 2658 | L-207-  | L-216-  | QNTRHEFLRA 
+| 1a9c | L | albelig | 17 | 17 | L | 3341 | 3341 | L-412-  | L-412-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 2 = a = 3
+= 6 = a = 9
+= 7 = a = 8
+= 7 = p = 10
+= 7 = l = 17
+= 8 = a = 12
+= 8 = l = 17
+= 10 = a = 11
+= 11 = a = 12
+= 11 = p = 14
+= 11 = l = 17
+= 12 = m = 13
+= 12 = a = 14
+= 12 = l = 17
+= 13 = l = 17
+= 15 = m = 16
+# Listed 17 contacts. EOF.

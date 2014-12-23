@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ixd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, TUMOUR SUPPRESSOR, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, ANTITUMOR PROTEIN
+> pdb_mol_name > CYLINDROMATOSIS TUMOUR-SUPPRESSOR CYLD
+> graphtype > albelig
+> resolution > -1.0
+> date > 19-JUN-02
+> header > ANTITUMOR PROTEIN
+> pdb_org_common > HUMAN
+> title > SOLUTION STRUCTURE OF THE CAP-GLY DOMAIN FROM HUMANCYLINDROMATOSIS TOMOUR-SUPPRESSOR CYLD
+> format_version > 2
+> pdbid > 1ixd
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ixd | A | albelig | 1 | 1 | E | 23 | 26 | A-23-  | A-26-  | LAEV 
+| 1ixd | A | albelig | 2 | 2 | E | 34 | 40 | A-34-  | A-40-  | GVIRWIG 
+| 1ixd | A | albelig | 3 | 3 | E | 49 | 54 | A-49-  | A-54-  | LAGLEL 
+| 1ixd | A | albelig | 4 | 4 | E | 80 | 83 | A-80-  | A-83-  | LFVK 
+| 1ixd | A | albelig | 5 | 5 | H | 84 | 86 | A-84-  | A-86-  | LKS 
+| 1ixd | A | albelig | 6 | 6 | E | 87 | 89 | A-87-  | A-89-  | CRP 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+= 5 = m = 6
+# Listed 6 contacts. EOF.

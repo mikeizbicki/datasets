@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kzu, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTENNA COMPLEX, LIGHT-HARVESTING PROTEIN, LH2 COMPLEX,BACTERIOCHLOROPHYLL, PURPLE BACTERIA
+> pdb_mol_name > LIGHT HARVESTING PROTEIN B-800/850
+> graphtype > albelig
+> resolution > 2.5
+> date > 31-AUG-96
+> header > LIGHT-HARVESTING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > INTEGRAL MEMBRANE PERIPHERAL LIGHT HARVESTING COMPLEX FROMRHODOPSEUDOMONAS ACIDOPHILA STRAIN 10050
+> format_version > 2
+> pdbid > 1kzu
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RHODOBLASTUS ACIDOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kzu | D | albelig | 1 | 1 | H | 96 | 100 | D-4-  | D-8-  | GKIWT 
+| 1kzu | D | albelig | 2 | 2 | H | 104 | 128 | D-12-  | D-36-  | PAIGIPALLGSVTVIAILVHLAILS 
+| 1kzu | D | albelig | 3 | 3 | H | 132 | 138 | D-40-  | D-46-  | WFPAYWQ 
+| 1kzu | D | albelig | 4 | 4 | L | 284 | 284 | D-54-  | D-54-  | J 
+| 1kzu | D | albelig | 5 | 5 | L | 285 | 285 | D-55-  | D-55-  | J 
+| 1kzu | D | albelig | 6 | 6 | L | 286 | 286 | D-56-  | D-56-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 6
+= 2 = l = 5
+= 3 = l = 4
+= 3 = l = 5
+= 4 = l = 5
+# Listed 5 contacts. EOF.

@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1acm, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE (CARBAMOYL-P,ASPARTATE)
+> pdb_mol_name > ASPARTATE CARBAMOYLTRANSFERASE REGULATORY CHAIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 08-JUL-92
+> header > TRANSFERASE (CARBAMOYL-P,ASPARTATE)
+> pdb_org_common > UNKNOWN
+> title > ARGININE 54 IN THE ACTIVE SITE OF ESCHERICHIA COLI ASPARTATETRANSCARBAMOYLASE IS CRITICAL FOR CATALYSIS: A SITE-SPECIFICMUTAGENESIS, NMR AND X-RAY CRYSTALLOGRAPHY STUDY
+> format_version > 2
+> pdbid > 1acm
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1acm | B | albelig | 1 | 1 | E | 319 | 326 | B-15-  | B-22-  | GTVIDHIP 
+| 1acm | B | albelig | 2 | 2 | H | 330 | 336 | B-26-  | B-32-  | GFKLLSL 
+| 1acm | B | albelig | 3 | 3 | E | 346 | 350 | B-42-  | B-46-  | ITIGL 
+| 1acm | B | albelig | 4 | 4 | E | 353 | 355 | B-49-  | B-51-  | PSG 
+| 1acm | B | albelig | 5 | 5 | E | 358 | 366 | B-54-  | B-62-  | GRKDLIKIE 
+| 1acm | B | albelig | 6 | 6 | H | 372 | 380 | B-68-  | B-76-  | EDQVDQLAL 
+| 1acm | B | albelig | 7 | 7 | E | 387 | 391 | B-83-  | B-87-  | VNRID 
+| 1acm | B | albelig | 8 | 8 | E | 394 | 399 | B-90-  | B-95-  | EVVGKS 
+| 1acm | B | albelig | 9 | 9 | H | 419 | 421 | B-115-  | B-117-  | ISH 
+| 1acm | B | albelig | 10 | 10 | E | 429 | 433 | B-125-  | B-129-  | FAVRK 
+| 1acm | B | albelig | 11 | 11 | E | 438 | 442 | B-134-  | B-138-  | IALKC 
+| 1acm | B | albelig | 12 | 12 | E | 448 | 450 | B-144-  | B-146-  | EFS 
+| 1acm | B | albelig | 13 | 13 | H | 451 | 454 | B-147-  | B-150-  | HNVV 
+| 1acm | B | albelig | 14 | 14 | L | 917 | 917 | B-154-  | B-154-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 7
+= 3 = a = 5
+= 4 = a = 5
+= 7 = a = 8
+= 9 = l = 14
+= 10 = a = 11
+= 11 = a = 12
+= 11 = l = 14
+= 12 = m = 13
+= 12 = l = 14
+# Listed 11 contacts. EOF.

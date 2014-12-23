@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f66, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOSOME, CHROMATIN, HISTONE, HISTONE VARIANT, PROTEINDNA INTERACTION, NUCLEOPROTEIN, SUPERCOILED DNA, COMPLEX(NUCLEOSOME CORE/DNA), STRUCTURAL PROTEIN/DNA COMPLEX
+> pdb_mol_name > HISTONE H2A.Z
+> graphtype > albelig
+> resolution > 2.6
+> date > 20-JUN-00
+> header > STRUCTURAL PROTEIN/DNA
+> pdb_org_common > HUMAN
+> title > 2.6 A CRYSTAL STRUCTURE OF A NUCLEOSOME CORE PARTICLECONTAINING THE VARIANT HISTONE H2A.Z
+> format_version > 2
+> pdbid > 1f66
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f66 | C | albelig | 1 | 1 | H | 186 | 190 | C-819-  | C-823-  | RSQRA 
+| 1f66 | C | albelig | 2 | 2 | H | 196 | 205 | C-829-  | C-838-  | VGRIHRHLKS 
+| 1f66 | C | albelig | 3 | 3 | H | 217 | 241 | C-850-  | C-874-  | AAVYSAAILEYLTAEVLELAGNASK 
+| 1f66 | C | albelig | 4 | 4 | H | 250 | 259 | C-883-  | C-892-  | PRHLQLAIRG 
+| 1f66 | C | albelig | 5 | 5 | H | 261 | 266 | C-894-  | C-899-  | EELDSL 
+| 1f66 | C | albelig | 6 | 6 | H | 282 | 284 | C-915-  | C-917-  | KSL 
+| 1f66 | C | albelig | 7 | 7 | L | 789 | 789 | C-1014-  | C-1014-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 6 = l = 7
+# Listed 2 contacts. EOF.

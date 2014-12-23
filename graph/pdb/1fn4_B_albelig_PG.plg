@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fn4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAB198, IMMUNE SYSTEM
+> pdb_mol_name > MONOCLONAL ANTIBODY AGAINST ACETYLCHOLINE RECEPTOR
+> graphtype > albelig
+> resolution > 2.8
+> date > 21-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF FAB198, AN EFFICIENT PROTECTOR OF ACETYLCHOLINERECEPTOR AGAINST MYASTHENOGENIC ANTIBODIES
+> format_version > 2
+> pdbid > 1fn4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fn4 | B | albelig | 1 | 1 | E | 220 | 222 | B-5-  | B-7-  | LES 
+| 1fn4 | B | albelig | 2 | 2 | E | 236 | 238 | B-21-  | B-23-  | TDT 
+| 1fn4 | B | albelig | 3 | 3 | E | 248 | 255 | B-33-  | B-40-  | SVSWVRHP 
+| 1fn4 | B | albelig | 4 | 4 | E | 261 | 266 | B-46-  | B-51-  | EWMGRM 
+| 1fn4 | B | albelig | 5 | 5 | E | 272 | 274 | B-57-  | B-59-  | TAY 
+| 1fn4 | B | albelig | 6 | 6 | H | 276 | 279 | B-61-  | B-64-  | SALK 
+| 1fn4 | B | albelig | 7 | 7 | E | 285 | 287 | B-70-  | B-72-  | SRD 
+| 1fn4 | B | albelig | 8 | 8 | H | 288 | 290 | B-73-  | B-75-  | TSK 
+| 1fn4 | B | albelig | 9 | 9 | E | 292 | 294 | B-77-  | B-79-  | QVF 
+| 1fn4 | B | albelig | 10 | 10 | E | 307 | 314 | B-88-  | B-95-  | GTYYDTRD 
+| 1fn4 | B | albelig | 11 | 11 | E | 339 | 343 | B-113-  | B-117-  | SVFPL 
+| 1fn4 | B | albelig | 12 | 12 | E | 357 | 362 | B-131-  | B-136-  | LGELVK 
+| 1fn4 | B | albelig | 13 | 13 | H | 374 | 376 | B-148-  | B-150-  | NSG 
+| 1fn4 | B | albelig | 14 | 14 | E | 398 | 400 | B-172-  | B-174-  | SSV 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 9
+= 3 = a = 4
+= 3 = p = 9
+= 3 = a = 10
+= 4 = a = 5
+= 5 = m = 6
+= 7 = m = 8
+= 7 = a = 9
+= 11 = a = 12
+= 12 = a = 14
+# Listed 12 contacts. EOF.

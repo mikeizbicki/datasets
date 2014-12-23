@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ble, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOTRANSFERASE, SUGAR TRANSPORT
+> pdb_mol_name > FRUCTOSE PERMEASE
+> graphtype > albelig
+> resolution > 2.9
+> date > 15-MAY-97
+> header > PHOSPHOTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > PHOSPHOENOLPYRUVATE-DEPENDENT PHOSPHOTRANSFERASE SYSTEM
+> format_version > 2
+> pdbid > 1ble
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ble | A | albelig | 1 | 1 | E | 2 | 9 | A-3-  | A-10-  | NIVLARID 
+| 1ble | A | albelig | 2 | 2 | H | 17 | 25 | A-18-  | A-26-  | ILTRWIKVH 
+| 1ble | A | albelig | 3 | 3 | E | 29 | 33 | A-30-  | A-34-  | RIIVV 
+| 1ble | A | albelig | 4 | 4 | H | 35 | 39 | A-36-  | A-40-  | DDIAQ 
+| 1ble | A | albelig | 5 | 5 | H | 41 | 48 | A-42-  | A-49-  | EMRKTLIL 
+| 1ble | A | albelig | 6 | 6 | E | 56 | 60 | A-57-  | A-61-  | KASAV 
+| 1ble | A | albelig | 7 | 7 | H | 62 | 70 | A-63-  | A-71-  | VSKMAKAFH 
+| 1ble | A | albelig | 8 | 8 | E | 78 | 83 | A-79-  | A-84-  | TAMLLF 
+| 1ble | A | albelig | 9 | 9 | H | 87 | 93 | A-88-  | A-94-  | SDIVSLI 
+| 1ble | A | albelig | 10 | 10 | E | 101 | 106 | A-102-  | A-107-  | TVNVGG 
+| 1ble | A | albelig | 11 | 11 | H | 124 | 135 | A-125-  | A-136-  | EQDIKAFETLSD 
+| 1ble | A | albelig | 12 | 12 | E | 139 | 142 | A-140-  | A-143-  | KLEL 
+| 1ble | A | albelig | 13 | 13 | H | 153 | 158 | A-154-  | A-159-  | FVQILR 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 1 = p = 10
+= 3 = p = 6
+= 3 = p = 8
+= 7 = m = 9
+= 10 = p = 12
+# Listed 6 contacts. EOF.

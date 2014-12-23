@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aoa, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN-BINDING PROTEIN, CALCIUM-BINDING, PHOSPHORYLATION
+> pdb_mol_name > T-FIMBRIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 30-JUN-97
+> header > ACTIN-BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > N-TERMINAL ACTIN-CROSSLINKING DOMAIN FROM HUMAN FIMBRIN
+> format_version > 2
+> pdbid > 1aoa
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aoa | A | albelig | 1 | 1 | H | 3 | 16 | A-123-  | A-136-  | EEEKYAFVNWINKA 
+| 1aoa | A | albelig | 2 | 2 | H | 35 | 42 | A-155-  | A-162-  | DLFKAVGD 
+| 1aoa | A | albelig | 3 | 3 | H | 44 | 53 | A-164-  | A-173-  | IVLCKMINLS 
+| 1aoa | A | albelig | 4 | 4 | H | 60 | 62 | A-180-  | A-182-  | ERA 
+| 1aoa | A | albelig | 5 | 5 | H | 70 | 86 | A-190-  | A-206-  | PFIIQENLNLALNSASA 
+| 1aoa | A | albelig | 6 | 6 | H | 96 | 100 | A-216-  | A-220-  | AEDLR 
+| 1aoa | A | albelig | 7 | 7 | H | 104 | 124 | A-224-  | A-244-  | PHLVLGLLWQIIKIGLFADIE 
+| 1aoa | A | albelig | 8 | 8 | H | 134 | 138 | A-261-  | A-265-  | LEELM 
+| 1aoa | A | albelig | 9 | 9 | H | 142 | 156 | A-269-  | A-283-  | PEELLLRWANFHLEN 
+| 1aoa | A | albelig | 10 | 10 | H | 173 | 182 | A-300-  | A-309-  | KAYFHLLNQI 
+| 1aoa | A | albelig | 11 | 11 | H | 206 | 217 | A-333-  | A-344-  | DLKRAESMLQQA 
+| 1aoa | A | albelig | 12 | 12 | H | 228 | 232 | A-355-  | A-359-  | PADVV 
+| 1aoa | A | albelig | 13 | 13 | H | 236 | 247 | A-363-  | A-374-  | PKLNLAFVANLF 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 7
+= 5 = m = 6
+= 7 = m = 9
+= 7 = p = 13
+= 9 = m = 10
+= 9 = m = 13
+= 10 = m = 11
+= 10 = m = 13
+= 11 = m = 12
+# Listed 9 contacts. EOF.

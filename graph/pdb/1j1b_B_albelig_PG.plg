@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j1b, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX, TAU, KINASE, AMPPNP, TRANSFERASE
+> pdb_mol_name > GLYCOGEN SYNTHASE KINASE-3 BETA
+> graphtype > albelig
+> resolution > 1.8
+> date > 03-DEC-02
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > BINARY COMPLEX STRUCTURE OF HUMAN TAU PROTEIN KINASE I WITHAMPPNP
+> format_version > 2
+> pdbid > 1j1b
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j1b | B | albelig | 1 | 1 | E | 359 | 363 | B-526-  | B-530-  | MKVSR 
+| 1j1b | B | albelig | 2 | 2 | E | 369 | 377 | B-536-  | B-544-  | KVTTVVATP 
+| 1j1b | B | albelig | 3 | 3 | E | 385 | 397 | B-552-  | B-564-  | QEVSYTDTKVIGN 
+| 1j1b | B | albelig | 4 | 4 | E | 401 | 408 | B-568-  | B-575-  | GVVYQAKL 
+| 1j1b | B | albelig | 5 | 5 | E | 414 | 422 | B-581-  | B-589-  | LVAIKKVLQ 
+| 1j1b | B | albelig | 6 | 6 | H | 429 | 436 | B-596-  | B-603-  | RELQIMRK 
+| 1j1b | B | albelig | 7 | 7 | E | 445 | 452 | B-612-  | B-619-  | LRYFFYSS 
+| 1j1b | B | albelig | 8 | 8 | E | 459 | 466 | B-626-  | B-633-  | VYLNLVLD 
+| 1j1b | B | albelig | 9 | 9 | H | 472 | 481 | B-639-  | B-648-  | VYRVARHYSR 
+| 1j1b | B | albelig | 10 | 10 | H | 488 | 506 | B-655-  | B-673-  | VIYVKLYMYQLFRSLAYIH 
+| 1j1b | B | albelig | 11 | 11 | H | 517 | 519 | B-684-  | B-686-  | PQN 
+| 1j1b | B | albelig | 12 | 12 | E | 520 | 523 | B-687-  | B-690-  | LLLD 
+| 1j1b | B | albelig | 13 | 13 | E | 528 | 531 | B-695-  | B-698-  | VLKL 
+| 1j1b | B | albelig | 14 | 14 | H | 558 | 561 | B-725-  | B-728-  | PELI 
+| 1j1b | B | albelig | 15 | 15 | H | 570 | 585 | B-737-  | B-752-  | SIDVWSAGCVLAELLL 
+| 1j1b | B | albelig | 16 | 16 | H | 595 | 606 | B-762-  | B-773-  | GVDQLVEIIKVL 
+| 1j1b | B | albelig | 17 | 17 | H | 611 | 617 | B-778-  | B-784-  | REQIREM 
+| 1j1b | B | albelig | 18 | 18 | H | 634 | 637 | B-801-  | B-804-  | WTKV 
+| 1j1b | B | albelig | 19 | 19 | H | 644 | 653 | B-811-  | B-820-  | PEAIALCSRL 
+| 1j1b | B | albelig | 20 | 20 | H | 658 | 660 | B-825-  | B-827-  | PTA 
+| 1j1b | B | albelig | 21 | 21 | H | 664 | 668 | B-831-  | B-835-  | PLEAC 
+| 1j1b | B | albelig | 22 | 22 | H | 671 | 677 | B-838-  | B-844-  | SFFDELR 
+| 1j1b | B | albelig | 23 | 23 | H | 697 | 700 | B-864-  | B-867-  | TQEL 
+| 1j1b | B | albelig | 24 | 24 | H | 704 | 710 | B-871-  | B-877-  | PPLATIL 
+| 1j1b | B | albelig | 25 | 25 | H | 713 | 716 | B-880-  | B-883-  | PHAR 
+| 1j1b | B | albelig | 26 | 26 | L | 721 | 721 | B-930-  | B-930-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 3 = l = 26
+= 4 = a = 5
+= 4 = l = 26
+= 5 = a = 8
+= 5 = l = 26
+= 6 = m = 7
+= 6 = l = 26
+= 7 = a = 8
+= 8 = l = 26
+= 10 = m = 13
+= 10 = a = 15
+= 10 = m = 21
+= 10 = m = 22
+= 11 = m = 12
+= 11 = l = 26
+= 12 = a = 13
+= 12 = l = 26
+# Listed 21 contacts. EOF.

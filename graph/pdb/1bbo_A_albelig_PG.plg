@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bbo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA-BINDING PROTEIN
+> pdb_mol_name > HUMAN ENHANCER-BINDING PROTEIN MBP-1
+> graphtype > albelig
+> resolution > -1.0
+> date > 01-MAY-92
+> header > DNA-BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > HIGH-RESOLUTION SOLUTION STRUCTURE OF THE DOUBLE CYS2*HIS2ZINC FINGER FROM THE HUMAN ENHANCER BINDING PROTEIN MBP-1
+> format_version > 2
+> pdbid > 1bbo
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bbo | A | albelig | 1 | 1 | H | 14 | 23 | A-14-  | A-23-  | PSMLKKHIRT 
+| 1bbo | A | albelig | 2 | 2 | H | 42 | 50 | A-42-  | A-50-  | KGNLTKHMK 
+| 1bbo | A | albelig | 3 | 3 | L | 59 | 59 | A-60-  | A-60-  | J 
+| 1bbo | A | albelig | 4 | 4 | L | 60 | 60 | A-61-  | A-61-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 3
+= 2 = l = 4
+# Listed 2 contacts. EOF.

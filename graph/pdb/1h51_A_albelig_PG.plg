@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h51, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, FLAVOENZYME, EXPLOSIVE DEGRADATION, STEROID BINDING
+> pdb_mol_name > PENTAERYTHRITOL TETRANITRATE REDUCTASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 17-MAY-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > OXIDISED PENTAERYTHRITOL TETRANITRATE REDUCTASE (SCN COMPLEX)
+> format_version > 2
+> pdbid > 1h51
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTER CLOACAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h51 | A | albelig | 1 | 1 | E | 7 | 9 | A-9-  | A-11-  | LKV 
+| 1h51 | A | albelig | 2 | 2 | E | 12 | 14 | A-14-  | A-16-  | VTA 
+| 1h51 | A | albelig | 3 | 3 | E | 18 | 20 | A-20-  | A-22-  | VFM 
+| 1h51 | A | albelig | 4 | 4 | H | 37 | 45 | A-39-  | A-47-  | PLMGEYYRQ 
+| 1h51 | A | albelig | 5 | 5 | E | 52 | 58 | A-54-  | A-60-  | IISEATQ 
+| 1h51 | A | albelig | 6 | 6 | H | 75 | 90 | A-77-  | A-92-  | PEQIAAWKKITAGVHA 
+| 1h51 | A | albelig | 7 | 7 | E | 95 | 100 | A-97-  | A-102-  | IAVQLW 
+| 1h51 | A | albelig | 8 | 8 | H | 108 | 110 | A-110-  | A-112-  | SSI 
+| 1h51 | A | albelig | 9 | 9 | H | 112 | 114 | A-114-  | A-116-  | PGG 
+| 1h51 | A | albelig | 10 | 10 | E | 128 | 132 | A-130-  | A-134-  | RTSLR 
+| 1h51 | A | albelig | 11 | 11 | E | 138 | 142 | A-140-  | A-144-  | AIRVD 
+| 1h51 | A | albelig | 12 | 12 | H | 151 | 170 | A-153-  | A-172-  | LDEIPGIVNDFRQAVANARE 
+| 1h51 | A | albelig | 13 | 13 | E | 175 | 180 | A-177-  | A-182-  | LVELHS 
+| 1h51 | A | albelig | 14 | 14 | H | 185 | 190 | A-187-  | A-192-  | LLHQFL 
+| 1h51 | A | albelig | 15 | 15 | H | 205 | 222 | A-207-  | A-224-  | VENRARLVLEVVDAVCNE 
+| 1h51 | A | albelig | 16 | 16 | H | 225 | 227 | A-227-  | A-229-  | ADR 
+| 1h51 | A | albelig | 17 | 17 | E | 228 | 232 | A-230-  | A-234-  | IGIRV 
+| 1h51 | A | albelig | 18 | 18 | H | 247 | 259 | A-249-  | A-261-  | EEADALYLIEELA 
+| 1h51 | A | albelig | 19 | 19 | E | 265 | 269 | A-267-  | A-271-  | YLHMS 
+| 1h51 | A | albelig | 20 | 20 | H | 281 | 288 | A-283-  | A-290-  | EAFRQKVR 
+| 1h51 | A | albelig | 21 | 21 | E | 294 | 298 | A-296-  | A-300-  | VIIGA 
+| 1h51 | A | albelig | 22 | 22 | H | 303 | 311 | A-305-  | A-313-  | AEKAEDLIG 
+| 1h51 | A | albelig | 23 | 23 | E | 317 | 320 | A-319-  | A-322-  | AVAF 
+| 1h51 | A | albelig | 24 | 24 | H | 322 | 326 | A-324-  | A-328-  | RDYIA 
+| 1h51 | A | albelig | 25 | 25 | H | 330 | 336 | A-332-  | A-338-  | LVARLQK 
+| 1h51 | A | albelig | 26 | 26 | H | 345 | 347 | A-347-  | A-349-  | PES 
+| 1h51 | A | albelig | 27 | 27 | L | 363 | 363 | A-1365-  | A-1365-  | J 
+| 1h51 | A | albelig | 28 | 28 | L | 364 | 364 | A-1366-  | A-1366-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = a = 5
+= 3 = a = 23
+= 3 = m = 24
+= 4 = m = 6
+= 5 = p = 7
+= 5 = l = 27
+= 7 = p = 13
+= 7 = l = 27
+= 7 = l = 28
+= 10 = a = 11
+= 12 = p = 15
+= 13 = m = 14
+= 13 = m = 16
+= 13 = p = 17
+= 13 = l = 27
+= 13 = l = 28
+= 14 = m = 15
+= 15 = p = 18
+= 16 = m = 17
+= 17 = p = 19
+= 17 = l = 27
+= 18 = m = 20
+= 19 = p = 21
+= 19 = l = 27
+= 21 = p = 23
+= 21 = l = 27
+= 23 = l = 27
+= 24 = l = 27
+= 27 = l = 28
+# Listed 30 contacts. EOF.

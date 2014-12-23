@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1huc, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THIOL PROTEASE
+> pdb_mol_name > CATHEPSIN B
+> graphtype > albelig
+> resolution > 2.1
+> date > 21-APR-93
+> header > THIOL PROTEASE
+> pdb_org_common > HUMAN
+> title > THE REFINED 2.15 ANGSTROMS X-RAY CRYSTAL STRUCTURE OF HUMANLIVER CATHEPSIN B: THE STRUCTURAL BASIS FOR ITS SPECIFICITY
+> format_version > 2
+> pdbid > 1huc
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1huc | D | albelig | 1 | 1 | H | 309 | 320 | D-56-  | D-67-  | AEDLLTIJGSMJ 
+| 1huc | D | albelig | 2 | 2 | H | 329 | 338 | D-76-  | D-85-  | PAEAWNFWTR 
+| 1huc | D | albelig | 3 | 3 | H | 393 | 396 | D-140-  | D-143-  | YKQD 
+| 1huc | D | albelig | 4 | 4 | H | 410 | 420 | D-157-  | D-167-  | EKDIMAEIYKN 
+| 1huc | D | albelig | 5 | 5 | E | 423 | 430 | D-170-  | D-177-  | VEGAFSVY 
+| 1huc | D | albelig | 6 | 6 | H | 433 | 435 | D-180-  | D-182-  | FLL 
+| 1huc | D | albelig | 7 | 7 | E | 448 | 462 | D-195-  | D-209-  | MMGGHAIRILGWGVE 
+| 1huc | D | albelig | 8 | 8 | E | 465 | 471 | D-212-  | D-218-  | TPYWLVA 
+| 1huc | D | albelig | 9 | 9 | E | 483 | 487 | D-230-  | D-234-  | FFKIL 
+| 1huc | D | albelig | 10 | 10 | H | 492 | 494 | D-239-  | D-241-  | HCG 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 5 = m = 6
+= 5 = a = 7
+= 5 = m = 10
+= 7 = a = 8
+= 8 = a = 9
+# Listed 6 contacts. EOF.

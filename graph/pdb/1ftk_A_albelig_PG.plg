@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ftk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUR2, S1S2, LIGAND BINDING DOMAIN, KAINATE, PARTIALAGONIST, IONOTROPIC GLUTAMATE RECEPTOR, MEMBRANE PROTEIN
+> pdb_mol_name > GLUTAMATE RECEPTOR SUBUNIT 2
+> graphtype > albelig
+> resolution > 1.6
+> date > 12-SEP-00
+> header > MEMBRANE PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF THE GLUR2 LIGAND BINDING CORE (S1S2I)IN COMPLEX WITH KAINATE AT 1.6 A RESOLUTION
+> format_version > 2
+> pdbid > 1ftk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ftk | A | albelig | 1 | 1 | E | 2 | 7 | A-17-  | A-22-  | TVVVTT 
+| 1ftk | A | albelig | 2 | 2 | H | 23 | 26 | A-40-  | A-43-  | GNER 
+| 1ftk | A | albelig | 3 | 3 | H | 30 | 42 | A-47-  | A-59-  | YCVDLAAEIAKHC 
+| 1ftk | A | albelig | 4 | 4 | E | 45 | 50 | A-62-  | A-67-  | KYKLTI 
+| 1ftk | A | albelig | 5 | 5 | H | 68 | 74 | A-85-  | A-91-  | GMVGELV 
+| 1ftk | A | albelig | 6 | 6 | H | 89 | 92 | A-106-  | A-109-  | LVRE 
+| 1ftk | A | albelig | 7 | 7 | E | 95 | 97 | A-112-  | A-114-  | IDF 
+| 1ftk | A | albelig | 8 | 8 | E | 102 | 104 | A-119-  | A-121-  | MSL 
+| 1ftk | A | albelig | 9 | 9 | E | 106 | 110 | A-123-  | A-127-  | ISIMI 
+| 1ftk | A | albelig | 10 | 10 | H | 115 | 120 | A-140-  | A-145-  | AEDLSK 
+| 1ftk | A | albelig | 11 | 11 | E | 125 | 127 | A-150-  | A-152-  | AYG 
+| 1ftk | A | albelig | 12 | 12 | H | 133 | 140 | A-158-  | A-165-  | STKEFFRR 
+| 1ftk | A | albelig | 13 | 13 | H | 144 | 155 | A-169-  | A-180-  | AVFDKMWTYMRS 
+| 1ftk | A | albelig | 14 | 14 | H | 165 | 173 | A-190-  | A-198-  | TAEGVARVR 
+| 1ftk | A | albelig | 15 | 15 | E | 179 | 184 | A-204-  | A-209-  | YAYLLE 
+| 1ftk | A | albelig | 16 | 16 | H | 185 | 192 | A-210-  | A-217-  | STMNEYIE 
+| 1ftk | A | albelig | 17 | 17 | E | 200 | 202 | A-225-  | A-227-  | MKV 
+| 1ftk | A | albelig | 18 | 18 | E | 209 | 211 | A-234-  | A-236-  | KGY 
+| 1ftk | A | albelig | 19 | 19 | E | 214 | 216 | A-239-  | A-241-  | ATP 
+| 1ftk | A | albelig | 20 | 20 | H | 221 | 234 | A-246-  | A-259-  | LGNAVNLAVLKLNE 
+| 1ftk | A | albelig | 21 | 21 | H | 237 | 248 | A-262-  | A-273-  | LLDKLKNKWWYD 
+| 1ftk | A | albelig | 22 | 22 | L | 252 | 252 | A-999-  | A-999-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 3 = a = 20
+= 3 = m = 21
+= 6 = m = 7
+= 6 = l = 22
+= 7 = p = 19
+= 8 = a = 18
+= 9 = a = 15
+= 9 = m = 16
+= 9 = a = 17
+= 10 = m = 13
+= 11 = m = 13
+= 11 = p = 15
+= 12 = m = 13
+= 12 = l = 22
+= 14 = m = 15
+= 14 = l = 22
+= 15 = m = 16
+= 15 = l = 22
+= 16 = m = 17
+= 16 = l = 22
+= 18 = l = 22
+= 20 = m = 21
+# Listed 23 contacts. EOF.

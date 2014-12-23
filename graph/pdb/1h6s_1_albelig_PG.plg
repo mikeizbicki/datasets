@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h6s, chain 1.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MEMBRANE PROTEIN, INTEGRAL MEMBRANE PROTEIN PORIN
+> pdb_mol_name > PORIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 22-JUN-01
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > ASYMMETRIC CONDUCTIVITY OF ENGINEERED PROTEINS
+> format_version > 2
+> pdbid > 1h6s
+> experiment > X-RAY DIFFRACTION
+> chainid > 1
+> graphclass > protein graph
+> pdb_org_sci > RHODOPSEUDOMONAS BLASTICA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h6s | 1 | albelig | 1 | 1 | E | 2 | 15 | 1-2-  | 1-15-  | ISLNGYGRFGLQYV 
+| 1h6s | 1 | albelig | 2 | 2 | E | 25 | 40 | 1-25-  | 1-40-  | TIISSRLRINIVGTTE 
+| 1h6s | 1 | albelig | 3 | 3 | E | 46 | 56 | 1-46-  | 1-56-  | TFGAKLRMQWD 
+| 1h6s | 1 | albelig | 4 | 4 | H | 60 | 62 | 1-60-  | 1-62-  | AFA 
+| 1h6s | 1 | albelig | 5 | 5 | E | 70 | 75 | 1-70-  | 1-75-  | QFWTSY 
+| 1h6s | 1 | albelig | 6 | 6 | E | 78 | 83 | 1-78-  | 1-83-  | VTVSVG 
+| 1h6s | 1 | albelig | 7 | 7 | H | 88 | 91 | 1-88-  | 1-91-  | AFDS 
+| 1h6s | 1 | albelig | 8 | 8 | E | 131 | 139 | 1-131-  | 1-139-  | NGIAVTYSI 
+| 1h6s | 1 | albelig | 9 | 9 | E | 142 | 150 | 1-142-  | 1-150-  | VNLYLSYVD 
+| 1h6s | 1 | albelig | 10 | 10 | H | 157 | 159 | 1-157-  | 1-159-  | SSL 
+| 1h6s | 1 | albelig | 11 | 11 | E | 163 | 171 | 1-163-  | 1-171-  | EFGIAADWS 
+| 1h6s | 1 | albelig | 12 | 12 | E | 175 | 183 | 1-175-  | 1-183-  | ISLAAAYTT 
+| 1h6s | 1 | albelig | 13 | 13 | H | 185 | 187 | 1-185-  | 1-187-  | AGG 
+| 1h6s | 1 | albelig | 14 | 14 | E | 193 | 200 | 1-193-  | 1-200-  | IAFVGAAY 
+| 1h6s | 1 | albelig | 15 | 15 | E | 206 | 214 | 1-206-  | 1-214-  | GTVGLNWYD 
+| 1h6s | 1 | albelig | 16 | 16 | E | 222 | 232 | 1-222-  | 1-232-  | DQVTLYGNYAF 
+| 1h6s | 1 | albelig | 17 | 17 | E | 235 | 244 | 1-235-  | 1-244-  | TTVRAYVSDI 
+| 1h6s | 1 | albelig | 18 | 18 | E | 252 | 262 | 1-252-  | 1-262-  | AYGIGADYQFA 
+| 1h6s | 1 | albelig | 19 | 19 | E | 265 | 273 | 1-265-  | 1-273-  | VKVSGSVQS 
+| 1h6s | 1 | albelig | 20 | 20 | E | 279 | 288 | 1-279-  | 1-288-  | TVADVGVRFD 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 20
+= 2 = a = 3
+= 3 = a = 5
+= 5 = a = 6
+= 6 = a = 8
+= 7 = m = 9
+= 7 = m = 11
+= 8 = a = 9
+= 9 = a = 11
+= 11 = a = 12
+= 12 = a = 14
+= 14 = a = 15
+= 15 = a = 16
+= 16 = a = 17
+= 17 = a = 18
+= 18 = a = 19
+= 19 = a = 20
+# Listed 18 contacts. EOF.

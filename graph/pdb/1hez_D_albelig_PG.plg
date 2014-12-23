@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hez, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY, SUPERANTIGEN
+> pdb_mol_name > HEAVY CHAIN OF IG
+> graphtype > albelig
+> resolution > 2.7
+> date > 27-NOV-00
+> header > ANTIBODY
+> pdb_org_common > HUMAN
+> title > ANTIBODY-ANTIGEN COMPLEX
+> format_version > 2
+> pdbid > 1hez
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hez | D | albelig | 1 | 1 | E | 643 | 647 | D-3-  | D-7-  | QLVES 
+| 1hez | D | albelig | 2 | 2 | E | 658 | 665 | D-18-  | D-25-  | LRLSIAAS 
+| 1hez | D | albelig | 3 | 3 | H | 669 | 671 | D-29-  | D-31-  | FSG 
+| 1hez | D | albelig | 4 | 4 | E | 674 | 679 | D-34-  | D-39-  | MHWVRQ 
+| 1hez | D | albelig | 5 | 5 | E | 685 | 691 | D-45-  | D-51-  | LEWVALI 
+| 1hez | D | albelig | 6 | 6 | E | 698 | 700 | D-58-  | D-60-  | KYY 
+| 1hez | D | albelig | 7 | 7 | E | 708 | 713 | D-68-  | D-73-  | FTISRD 
+| 1hez | D | albelig | 8 | 8 | H | 714 | 716 | D-74-  | D-76-  | NSK 
+| 1hez | D | albelig | 9 | 9 | E | 718 | 723 | D-78-  | D-83-  | TLYLQM 
+| 1hez | D | albelig | 10 | 10 | H | 728 | 730 | D-88-  | D-90-  | AED 
+| 1hez | D | albelig | 11 | 11 | E | 732 | 739 | D-92-  | D-99-  | AVYYIAKV 
+| 1hez | D | albelig | 12 | 12 | E | 748 | 751 | D-108-  | D-111-  | NDYW 
+| 1hez | D | albelig | 13 | 13 | E | 755 | 759 | D-115-  | D-119-  | TLVTV 
+| 1hez | D | albelig | 14 | 14 | E | 768 | 772 | D-128-  | D-132-  | TLFPL 
+| 1hez | D | albelig | 15 | 15 | E | 782 | 790 | D-145-  | D-153-  | AVGJLAQDF 
+| 1hez | D | albelig | 16 | 16 | E | 796 | 800 | D-159-  | D-163-  | TFSWK 
+| 1hez | D | albelig | 17 | 17 | E | 822 | 829 | D-185-  | D-192-  | YAATSQVL 
+| 1hez | D | albelig | 18 | 18 | E | 836 | 842 | D-205-  | D-211-  | HVVJKVQ 
+| 1hez | D | albelig | 19 | 19 | E | 848 | 853 | D-217-  | D-222-  | KEKDVP 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 1 = a = 13
+= 2 = a = 9
+= 2 = p = 11
+= 4 = a = 5
+= 4 = p = 9
+= 4 = a = 11
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = m = 8
+= 7 = a = 9
+= 11 = a = 12
+= 11 = a = 13
+= 14 = a = 15
+= 14 = p = 19
+= 15 = a = 16
+= 15 = a = 17
+= 15 = a = 19
+= 16 = p = 17
+= 16 = a = 18
+= 18 = a = 19
+# Listed 23 contacts. EOF.

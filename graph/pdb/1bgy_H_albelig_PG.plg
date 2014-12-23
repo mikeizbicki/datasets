@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bgy, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CYTOCHROME, MEMBRANE PROTEIN
+> pdb_mol_name > CYTOCHROME BC1 COMPLEX
+> graphtype > albelig
+> resolution > 3.0
+> date > 02-JUN-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > CATTLE
+> title > CYTOCHROME BC1 COMPLEX FROM BOVINE
+> format_version > 2
+> pdbid > 1bgy
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bgy | H | albelig | 1 | 1 | H | 1756 | 1764 | H-16-  | H-24-  | PLTTVREQA 
+| 1bgy | H | albelig | 2 | 2 | H | 1768 | 1786 | H-28-  | H-46-  | EKCVKARERLELNDERVSS 
+| 1bgy | H | albelig | 3 | 3 | H | 1794 | 1815 | H-54-  | H-75-  | NTEELLDFLHARDHAVAHKLFN 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 3
+# Listed 2 contacts. EOF.

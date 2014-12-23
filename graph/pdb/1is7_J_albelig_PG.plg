@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1is7, chain J.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-REGULATORY PROTEIN COMPLEX, HYDROLASE/PROTEINBINDING COMPLEX
+> pdb_mol_name > GTP CYCLOHYDROLASE I
+> graphtype > albelig
+> resolution > 2.8
+> date > 18-NOV-01
+> header > HYDROLASE/PROTEIN BINDING
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT GTPCHI/GFRP STIMULATORY COMPLEX
+> format_version > 2
+> pdbid > 1is7
+> experiment > X-RAY DIFFRACTION
+> chainid > J
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1is7 | J | albelig | 1 | 1 | H | 1760 | 1781 | J-52-  | J-73-  | EEDNELNLPNLAAAYSSILRSL 
+| 1is7 | J | albelig | 2 | 2 | H | 1793 | 1803 | J-85-  | J-95-  | TPWRAATAMQF 
+| 1is7 | J | albelig | 3 | 3 | H | 1806 | 1809 | J-98-  | J-101-  | KGYQ 
+| 1is7 | J | albelig | 4 | 4 | H | 1812 | 1819 | J-104-  | J-111-  | ISDVLNDA 
+| 1is7 | J | albelig | 5 | 5 | E | 1820 | 1825 | J-112-  | J-117-  | IFDEDH 
+| 1is7 | J | albelig | 6 | 6 | E | 1829 | 1840 | J-121-  | J-132-  | VIVKDIDMFSMC 
+| 1is7 | J | albelig | 7 | 7 | E | 1846 | 1856 | J-138-  | J-148-  | PFVGRVHIGYL 
+| 1is7 | J | albelig | 8 | 8 | E | 1859 | 1862 | J-151-  | J-154-  | KQVL 
+| 1is7 | J | albelig | 9 | 9 | H | 1864 | 1875 | J-156-  | J-167-  | LSKLARIVEIYS 
+| 1is7 | J | albelig | 10 | 10 | H | 1881 | 1894 | J-173-  | J-186-  | QERLTKQIAVAITE 
+| 1is7 | J | albelig | 11 | 11 | E | 1900 | 1909 | J-192-  | J-201-  | GVGVVIEATH 
+| 1is7 | J | albelig | 12 | 12 | H | 1910 | 1913 | J-202-  | J-205-  | MCMV 
+| 1is7 | J | albelig | 13 | 13 | E | 1923 | 1931 | J-215-  | J-223-  | KTVTSTMLG 
+| 1is7 | J | albelig | 14 | 14 | H | 1932 | 1935 | J-224-  | J-227-  | VFRE 
+| 1is7 | J | albelig | 15 | 15 | H | 1937 | 1948 | J-229-  | J-240-  | PKTREEFLTLIR 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 4 = m = 5
+= 4 = m = 9
+= 5 = a = 8
+= 6 = a = 7
+= 6 = p = 9
+= 7 = a = 11
+= 9 = a = 10
+= 10 = a = 11
+= 10 = p = 13
+= 11 = m = 12
+= 11 = a = 13
+= 11 = m = 14
+= 13 = m = 14
+= 14 = m = 15
+# Listed 15 contacts. EOF.

@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gyg, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ZINC PHOSPHOLIPASE C, GANGRENE DETERMINANT, C2 DOMAIN, CAAND MEMBRANE BINDING, HYDROLASE
+> pdb_mol_name > PHOSPHOLIPASE C
+> graphtype > albelig
+> resolution > 1.9
+> date > 23-APR-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > R32 CLOSED FORM OF ALPHA-TOXIN FROM CLOSTRIDIUM PERFRINGENSSTRAIN CER89L43
+> format_version > 2
+> pdbid > 1gyg
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM PERFRINGENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gyg | B | albelig | 1 | 1 | H | 382 | 397 | B-10-  | B-25-  | THAMIVTQGVSILEND 
+| 1gyg | B | albelig | 2 | 2 | H | 404 | 415 | B-32-  | B-43-  | ESVRKNLEILKE 
+| 1gyg | B | albelig | 3 | 3 | H | 417 | 428 | B-45-  | B-56-  | MHELQLGSTYPD 
+| 1gyg | B | albelig | 4 | 4 | H | 447 | 452 | B-74-  | B-79-  | TDNNFS 
+| 1gyg | B | albelig | 5 | 5 | H | 467 | 483 | B-94-  | B-110-  | GESQIRKFSALARYEWQ 
+| 1gyg | B | albelig | 6 | 6 | H | 487 | 504 | B-114-  | B-131-  | YKQATFYLGEAMHYFGDI 
+| 1gyg | B | albelig | 7 | 7 | H | 523 | 530 | B-150-  | B-157-  | KFETFAEE 
+| 1gyg | B | albelig | 8 | 8 | H | 532 | 535 | B-159-  | B-162-  | KEQY 
+| 1gyg | B | albelig | 9 | 9 | H | 547 | 554 | B-174-  | B-181-  | DFYADILK 
+| 1gyg | B | albelig | 10 | 10 | H | 558 | 581 | B-185-  | B-208-  | FNAWSKEYARGFAKTGKSIYYSHA 
+| 1gyg | B | albelig | 11 | 11 | H | 587 | 618 | B-214-  | B-245-  | WDDWDYAAKVTLANSQKGTAGYIYRFLHDVSE 
+| 1gyg | B | albelig | 12 | 12 | E | 630 | 637 | B-257-  | B-264-  | ELVAYIST 
+| 1gyg | B | albelig | 13 | 13 | E | 648 | 655 | B-275-  | B-282-  | YMYFGIKT 
+| 1gyg | B | albelig | 14 | 14 | E | 660 | 664 | B-287-  | B-291-  | TQEWE 
+| 1gyg | B | albelig | 15 | 15 | E | 677 | 683 | B-304-  | B-310-  | KDTYTFK 
+| 1gyg | B | albelig | 16 | 16 | H | 691 | 693 | B-318-  | B-320-  | IDD 
+| 1gyg | B | albelig | 17 | 17 | E | 694 | 702 | B-321-  | B-329-  | IQNMWIRKR 
+| 1gyg | B | albelig | 18 | 18 | E | 713 | 720 | B-340-  | B-347-  | PENIKVIA 
+| 1gyg | B | albelig | 19 | 19 | E | 723 | 729 | B-350-  | B-356-  | KVVVDKD 
+| 1gyg | B | albelig | 20 | 20 | E | 739 | 741 | B-366-  | B-368-  | TYN 
+| 1gyg | B | albelig | 21 | 21 | L | 746 | 746 | B-1371-  | B-1371-  | J 
+| 1gyg | B | albelig | 22 | 22 | L | 747 | 747 | B-1372-  | B-1372-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 11
+= 1 = l = 21
+= 1 = l = 22
+= 2 = a = 11
+= 3 = p = 6
+= 3 = l = 21
+= 3 = l = 22
+= 5 = a = 6
+= 5 = a = 10
+= 5 = p = 11
+= 6 = a = 11
+= 6 = l = 21
+= 6 = l = 22
+= 7 = m = 11
+= 7 = l = 22
+= 8 = m = 11
+= 9 = p = 11
+= 10 = a = 11
+= 12 = a = 15
+= 12 = a = 18
+= 13 = a = 14
+= 13 = a = 17
+= 14 = a = 15
+= 16 = m = 17
+= 17 = a = 20
+= 18 = a = 19
+= 21 = l = 22
+# Listed 28 contacts. EOF.

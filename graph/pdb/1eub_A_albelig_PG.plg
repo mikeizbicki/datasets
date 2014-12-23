@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eub, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA HELIX, BETA SHEET, PROTEIN-INHIBITOR COMPLEX,HYDROLASE/HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > COLLAGENASE 3
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-APR-00
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > SOLUTION STRUCTURE OF THE CATALYTIC DOMAIN OF HUMANCOLLAGENASE-3 (MMP-13) COMPLEXED TO A POTENT NON-PEPTIDICSULFONAMIDE INHIBITOR
+> format_version > 2
+> pdbid > 1eub
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eub | A | albelig | 1 | 1 | E | 14 | 20 | A-117-  | A-123-  | NLTYRIV 
+| 1eub | A | albelig | 2 | 2 | H | 28 | 37 | A-131-  | A-140-  | HSEVEKAFKK 
+| 1eub | A | albelig | 3 | 3 | H | 38 | 45 | A-141-  | A-148-  | AFKVWSDV 
+| 1eub | A | albelig | 4 | 4 | E | 49 | 51 | A-152-  | A-154-  | NFT 
+| 1eub | A | albelig | 5 | 5 | E | 60 | 65 | A-163-  | A-168-  | IMISFG 
+| 1eub | A | albelig | 6 | 6 | E | 95 | 99 | A-198-  | A-202-  | DAHFD 
+| 1eub | A | albelig | 7 | 7 | H | 115 | 126 | A-218-  | A-229-  | LVAAHEFGHSLG 
+| 1eub | A | albelig | 8 | 8 | H | 153 | 162 | A-256-  | A-265-  | DDDVQGIQSL 
+| 1eub | A | albelig | 9 | 9 | L | 172 | 172 | A-275-  | A-275-  | J 
+| 1eub | A | albelig | 10 | 10 | L | 173 | 173 | A-276-  | A-276-  | J 
+| 1eub | A | albelig | 11 | 11 | L | 174 | 174 | A-277-  | A-277-  | J 
+| 1eub | A | albelig | 12 | 12 | L | 175 | 175 | A-278-  | A-278-  | J 
+| 1eub | A | albelig | 13 | 13 | L | 176 | 176 | A-1-  | A-1-  | J 
+| 1eub | A | albelig | 14 | 14 | L | 177 | 177 | A-2-  | A-2-  | J 
+| 1eub | A | albelig | 15 | 15 | L | 178 | 178 | A-3-  | A-3-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 5
+= 3 = m = 8
+= 5 = p = 6
+= 5 = m = 7
+= 5 = l = 9
+= 5 = l = 11
+= 6 = m = 7
+= 6 = l = 9
+= 6 = l = 11
+= 6 = l = 12
+= 7 = l = 10
+= 7 = l = 13
+= 7 = l = 14
+= 7 = l = 15
+= 10 = l = 13
+= 10 = l = 14
+= 10 = l = 15
+= 13 = l = 14
+= 13 = l = 15
+= 14 = l = 15
+# Listed 21 contacts. EOF.

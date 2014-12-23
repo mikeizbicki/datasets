@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a1e, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (TRANSFERASE/PEPTIDE)
+> pdb_mol_name > C-SRC TYROSINE KINASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 10-DEC-97
+> header > COMPLEX (TRANSFERASE/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > C-SRC (SH2 DOMAIN) COMPLEXED WITH ACE-PHOSPHOTYR-GLU-(3-BUTYLPIPERIDINE)
+> format_version > 2
+> pdbid > 1a1e
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a1e | A | albelig | 1 | 1 | H | 13 | 20 | A-158-  | A-165-  | RRESERLL 
+| 1a1e | A | albelig | 2 | 2 | E | 30 | 34 | A-175-  | A-179-  | FLVRE 
+| 1a1e | A | albelig | 3 | 3 | E | 42 | 50 | A-187-  | A-195-  | YCLSVSDFD 
+| 1a1e | A | albelig | 4 | 4 | E | 54 | 64 | A-199-  | A-209-  | GLNVKHYKIRK 
+| 1a1e | A | albelig | 5 | 5 | H | 81 | 90 | A-226-  | A-235-  | LQQLVAYYSK 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = a = 3
+= 3 = a = 4
+# Listed 3 contacts. EOF.

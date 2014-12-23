@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jum, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTIDRUG BINDING, BERBERINE, PLANT ALKALOID, NATURAL DRUG,QACR, MULTIDRUG RECOGNITION, S. AUREUS, TRANSCRIPTION
+> pdb_mol_name > HYPOTHETICAL TRANSCRIPTIONAL REGULATOR IN QACA
+> graphtype > albelig
+> resolution > 2.98
+> date > 24-AUG-01
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE MULTIDRUG BINDING TRANSCRIPTIONALREPRESSOR QACR BOUND TO THE NATURAL DRUG BERBERINE
+> format_version > 2
+> pdbid > 1jum
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jum | A | albelig | 1 | 1 | H | 376 | 391 | A-3-  | A-18-  | LKDKILGVAKELFIKN 
+| 1jum | A | albelig | 2 | 2 | H | 398 | 404 | A-25-  | A-31-  | TGEIVKL 
+| 1jum | A | albelig | 3 | 3 | H | 409 | 416 | A-36-  | A-43-  | KGNLYYHF 
+| 1jum | A | albelig | 4 | 4 | H | 419 | 444 | A-46-  | A-71-  | KENLFLEILNIEESKWQEQWKKEQIK 
+| 1jum | A | albelig | 5 | 5 | H | 448 | 464 | A-75-  | A-91-  | NREKFYLYNELSLTTEY 
+| 1jum | A | albelig | 6 | 6 | H | 469 | 476 | A-96-  | A-103-  | QNAIIEFY 
+| 1jum | A | albelig | 7 | 7 | H | 483 | 509 | A-110-  | A-136-  | NSINEKMNKLENKYIDAYHVIFKEGNL 
+| 1jum | A | albelig | 8 | 8 | H | 518 | 534 | A-145-  | A-161-  | VNAVSKIAANAVNGIVT 
+| 1jum | A | albelig | 9 | 9 | H | 541 | 557 | A-168-  | A-184-  | INERIKLMNKFSQIFLN 
+| 1jum | A | albelig | 10 | 10 | L | 757 | 757 | A-299-  | A-299-  | J 
+| 1jum | A | albelig | 11 | 11 | L | 758 | 758 | A-699-  | A-699-  | J 
+| 1jum | A | albelig | 12 | 12 | L | 759 | 759 | A-799-  | A-799-  | J 
+| 1jum | A | albelig | 13 | 13 | L | 760 | 760 | A-800-  | A-800-  | J 
+| 1jum | A | albelig | 14 | 14 | L | 761 | 761 | A-801-  | A-801-  | J 
+| 1jum | A | albelig | 15 | 15 | L | 762 | 762 | A-802-  | A-802-  | J 
+| 1jum | A | albelig | 16 | 16 | L | 763 | 763 | A-803-  | A-803-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 4
+= 1 = l = 10
+= 1 = l = 15
+= 2 = l = 11
+= 2 = l = 13
+= 3 = l = 10
+= 3 = l = 11
+= 3 = l = 12
+= 3 = l = 15
+= 4 = a = 5
+= 4 = p = 7
+= 4 = l = 13
+= 4 = l = 16
+= 5 = a = 7
+= 5 = a = 9
+= 5 = l = 16
+= 7 = a = 8
+= 7 = l = 14
+= 7 = l = 16
+= 8 = l = 16
+= 10 = l = 15
+= 11 = l = 12
+# Listed 23 contacts. EOF.

@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1exc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > B.SUBTILIS MAF PROTEIN COMPLEXED WITH DUTP, STRUCTURALGENOMICS, PSI, PROTEIN STRUCTURE INITIATIVE, MIDWEST CENTERFOR STRUCTURAL GENOMICS, MCSG
+> pdb_mol_name > PROTEIN MAF
+> graphtype > albelig
+> resolution > 2.7
+> date > 02-MAY-00
+> header > STRUCTURAL GENOMICS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF B. SUBTILIS MAF PROTEIN COMPLEXED WITHD-(UTP)
+> format_version > 2
+> pdbid > 1exc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1exc | A | albelig | 1 | 1 | E | 5 | 7 | A-5-  | A-7-  | LIL 
+| 1exc | A | albelig | 2 | 2 | H | 12 | 20 | A-12-  | A-20-  | PRRKELLDL 
+| 1exc | A | albelig | 3 | 3 | E | 25 | 27 | A-25-  | A-27-  | YSI 
+| 1exc | A | albelig | 4 | 4 | H | 42 | 58 | A-42-  | A-58-  | PEENVQWLAKQKAKAVA 
+| 1exc | A | albelig | 5 | 5 | E | 65 | 75 | A-65-  | A-75-  | IVIGADTMVAL 
+| 1exc | A | albelig | 6 | 6 | E | 78 | 80 | A-78-  | A-80-  | EAL 
+| 1exc | A | albelig | 7 | 7 | H | 86 | 96 | A-86-  | A-96-  | QEEAASMLRRL 
+| 1exc | A | albelig | 8 | 8 | E | 100 | 110 | A-100-  | A-110-  | SHSVITAVSIQ 
+| 1exc | A | albelig | 9 | 9 | E | 114 | 126 | A-114-  | A-126-  | HSETFYDKTEVAF 
+| 1exc | A | albelig | 10 | 10 | H | 131 | 139 | A-131-  | A-139-  | EEEIWTYIE 
+| 1exc | A | albelig | 11 | 11 | H | 143 | 145 | A-143-  | A-145-  | PMD 
+| 1exc | A | albelig | 12 | 12 | H | 154 | 158 | A-154-  | A-158-  | GRGAL 
+| 1exc | A | albelig | 13 | 13 | E | 160 | 164 | A-160-  | A-164-  | VKKID 
+| 1exc | A | albelig | 14 | 14 | H | 167 | 170 | A-167-  | A-170-  | YYSV 
+| 1exc | A | albelig | 15 | 15 | H | 175 | 182 | A-175-  | A-182-  | ISKTMRAL 
+| 1exc | A | albelig | 16 | 16 | L | 372 | 372 | A-205-  | A-205-  | J 
+| 1exc | A | albelig | 17 | 17 | L | 373 | 373 | A-201-  | A-201-  | J 
+| 1exc | A | albelig | 18 | 18 | L | 374 | 374 | A-204-  | A-204-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = l = 17
+= 4 = a = 5
+= 4 = p = 8
+= 4 = a = 9
+= 4 = l = 17
+= 4 = l = 18
+= 5 = a = 6
+= 5 = a = 8
+= 5 = l = 17
+= 7 = m = 10
+= 8 = a = 9
+= 9 = a = 13
+= 9 = l = 16
+= 12 = m = 13
+= 15 = l = 16
+# Listed 17 contacts. EOF.

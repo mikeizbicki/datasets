@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hw8, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, OXIDOREDUCTASE
+> pdb_mol_name > HMG-COA REDUCTASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 09-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > COMPLEX OF THE CATALYTIC PORTION OF HUMAN HMG-COA REDUCTASE WITHCOMPACTIN (ALSO KNOWN AS MEVASTATIN)
+> format_version > 2
+> pdbid > 1hw8
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hw8 | D | albelig | 1 | 1 | H | 1195 | 1207 | D-489-  | D-501-  | ERGVSIRRQLLSK 
+| 1hw8 | D | albelig | 2 | 2 | H | 1212 | 1217 | D-506-  | D-511-  | PSSLQY 
+| 1hw8 | D | albelig | 3 | 3 | E | 1236 | 1252 | D-530-  | D-546-  | VIGYMPIPVGVAGPLCL 
+| 1hw8 | D | albelig | 4 | 4 | E | 1255 | 1262 | D-549-  | D-556-  | KEFQVPMA 
+| 1hw8 | D | albelig | 5 | 5 | H | 1268 | 1281 | D-562-  | D-575-  | LVASTNRGCRAIGL 
+| 1hw8 | D | albelig | 6 | 6 | E | 1286 | 1296 | D-580-  | D-590-  | SSRVLADGMTR 
+| 1hw8 | D | albelig | 7 | 7 | E | 1299 | 1301 | D-593-  | D-595-  | VVR 
+| 1hw8 | D | albelig | 8 | 8 | H | 1305 | 1315 | D-599-  | D-609-  | ACDSAEVKAWL 
+| 1hw8 | D | albelig | 9 | 9 | H | 1318 | 1329 | D-612-  | D-623-  | SEGFAVIKEAFD 
+| 1hw8 | D | albelig | 10 | 10 | E | 1336 | 1345 | D-630-  | D-639-  | RLQKLHTSIA 
+| 1hw8 | D | albelig | 11 | 11 | E | 1348 | 1356 | D-642-  | D-650-  | NLYIRFQSR 
+| 1hw8 | D | albelig | 12 | 12 | H | 1363 | 1380 | D-657-  | D-674-  | MNMISKGTEKALSKLHEY 
+| 1hw8 | D | albelig | 13 | 13 | E | 1385 | 1388 | D-679-  | D-682-  | QILA 
+| 1hw8 | D | albelig | 14 | 14 | H | 1401 | 1406 | D-695-  | D-700-  | AINWIE 
+| 1hw8 | D | albelig | 15 | 15 | E | 1409 | 1418 | D-703-  | D-712-  | GKSVVCEAVI 
+| 1hw8 | D | albelig | 16 | 16 | H | 1420 | 1425 | D-714-  | D-719-  | AKVVRE 
+| 1hw8 | D | albelig | 17 | 17 | H | 1431 | 1445 | D-725-  | D-739-  | TEAMIEVNINKNLVG 
+| 1hw8 | D | albelig | 18 | 18 | H | 1446 | 1448 | D-740-  | D-742-  | SAM 
+| 1hw8 | D | albelig | 19 | 19 | H | 1459 | 1469 | D-753-  | D-763-  | AANIVTAIYIA 
+| 1hw8 | D | albelig | 20 | 20 | H | 1474 | 1480 | D-768-  | D-774-  | AAQNVGS 
+| 1hw8 | D | albelig | 21 | 21 | E | 1483 | 1490 | D-777-  | D-784-  | CITLMEAS 
+| 1hw8 | D | albelig | 22 | 22 | E | 1496 | 1506 | D-790-  | D-800-  | DLYISCTMPSI 
+| 1hw8 | D | albelig | 23 | 23 | H | 1513 | 1516 | D-807-  | D-810-  | GGTN 
+| 1hw8 | D | albelig | 24 | 24 | H | 1518 | 1526 | D-812-  | D-820-  | LPQQACLQM 
+| 1hw8 | D | albelig | 25 | 25 | H | 1539 | 1564 | D-833-  | D-858-  | ENARQLARIVCGTVMAGELSLMAALA 
+| 1hw8 | D | albelig | 26 | 26 | L | 1570 | 1570 | D-3-  | D-3-  | J 
+| 1hw8 | D | albelig | 27 | 27 | L | 1571 | 1571 | D-102-  | D-102-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 3 = a = 4
+= 3 = p = 5
+= 3 = m = 25
+= 4 = m = 19
+= 4 = m = 24
+= 4 = p = 25
+= 5 = m = 25
+= 6 = a = 11
+= 6 = m = 12
+= 6 = a = 15
+= 6 = l = 26
+= 7 = a = 11
+= 7 = a = 13
+= 9 = m = 10
+= 9 = a = 12
+= 10 = a = 11
+= 12 = l = 26
+= 12 = l = 27
+= 14 = m = 22
+= 15 = a = 22
+= 15 = p = 25
+= 17 = m = 21
+= 17 = m = 25
+= 19 = m = 20
+= 19 = a = 25
+= 20 = m = 22
+= 21 = a = 22
+= 22 = a = 25
+= 23 = m = 24
+= 23 = l = 27
+# Listed 31 contacts. EOF.

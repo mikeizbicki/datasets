@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cqt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > POU DOMAIN, PROTEIN-DNA COMPLEX, OCT1, OCA-B, PROTEIN-DNAINTERFACE, GENE REGULATION/DNA
+> pdb_mol_name > POU DOMAIN, CLASS 2, TRANSCRIPTION FACTOR 1
+> graphtype > albelig
+> resolution > 3.2
+> date > 11-AUG-99
+> header > GENE REGULATION/DNA
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A TERNARY COMPLEX CONTAINING AN OCA-BPEPTIDE, THE OCT-1 POU DOMAIN, AND AN OCTAMER ELEMENT
+> format_version > 2
+> pdbid > 1cqt
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cqt | A | albelig | 1 | 1 | H | 5 | 21 | A-6-  | A-22-  | LEELEQFAKTFKQRRIK 
+| 1cqt | A | albelig | 2 | 2 | H | 26 | 32 | A-27-  | A-33-  | QGDVGLA 
+| 1cqt | A | albelig | 3 | 3 | H | 34 | 37 | A-35-  | A-38-  | GKLY 
+| 1cqt | A | albelig | 4 | 4 | H | 43 | 50 | A-44-  | A-51-  | QTTISRFE 
+| 1cqt | A | albelig | 5 | 5 | H | 56 | 60 | A-57-  | A-61-  | FKNMC 
+| 1cqt | A | albelig | 6 | 6 | H | 63 | 71 | A-64-  | A-72-  | KPLLEKWLN 
+| 1cqt | A | albelig | 7 | 7 | H | 84 | 94 | A-110-  | A-120-  | TNIRVALEKSF 
+| 1cqt | A | albelig | 8 | 8 | H | 102 | 112 | A-128-  | A-138-  | SEEITMIADQL 
+| 1cqt | A | albelig | 9 | 9 | H | 116 | 133 | A-142-  | A-159-  | KEVIRVWFCNRRQKEKRI 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 6
+= 3 = m = 6
+= 7 = m = 9
+= 8 = m = 9
+# Listed 4 contacts. EOF.

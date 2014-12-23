@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALL-BETA SHEET PROTEIN, MEMBRANE PERTURBATION, TOXIN
+> pdb_mol_name > CYTOTOXIN 2
+> graphtype > albelig
+> resolution > -1.0
+> date > 25-JUL-00
+> header > TOXIN
+> pdb_org_common > CENTRAL ASIAN COBRA
+> title > NMR STRUCTURE OF CARDIOTOXIN IN DPC-MICELLE
+> format_version > 2
+> pdbid > 1ffj
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NAJA OXIANA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffj | A | albelig | 1 | 1 | E | 2 | 4 | A-2-  | A-4-  | KAK 
+| 1ffj | A | albelig | 2 | 2 | E | 11 | 13 | A-11-  | A-13-  | SKT 
+| 1ffj | A | albelig | 3 | 3 | E | 20 | 26 | A-20-  | A-26-  | LAYKMFM 
+| 1ffj | A | albelig | 4 | 4 | E | 33 | 39 | A-33-  | A-39-  | PVKRGNI 
+| 1ffj | A | albelig | 5 | 5 | E | 49 | 54 | A-49-  | A-54-  | VKYVCD 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = a = 4
+= 3 = a = 5
+# Listed 3 contacts. EOF.

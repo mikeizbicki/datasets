@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k5m, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENGINEERED RHINOVIRUS, HIV-1 V3 LOOP, BETA TURNS,ICOSAHEDRAL VIRUS
+> pdb_mol_name > COAT PROTEIN VP3 (P1C)
+> graphtype > albelig
+> resolution > 2.7
+> date > 11-OCT-01
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A HUMAN RHINOVIRUS TYPE 14:HUMANIMMUNODEFICIENCY VIRUS TYPE 1 V3 LOOP CHIMERIC VIRUS MN-III-2
+> format_version > 2
+> pdbid > 1k5m
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HUMAN RHINOVIRUS 14
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k5m | C | albelig | 1 | 1 | H | 598 | 601 | C-1643-  | C-1646-  | LLEI 
+| 1k5m | C | albelig | 2 | 2 | H | 619 | 622 | C-1664-  | C-1667-  | VNSY 
+| 1k5m | C | albelig | 3 | 3 | E | 624 | 626 | C-1669-  | C-1671-  | IPL 
+| 1k5m | C | albelig | 4 | 4 | E | 634 | 639 | C-1679-  | C-1684-  | QVFGTN 
+| 1k5m | C | albelig | 5 | 5 | H | 645 | 647 | C-1690-  | C-1692-  | GVF 
+| 1k5m | C | albelig | 6 | 6 | H | 651 | 656 | C-1696-  | C-1701-  | LLGEIV 
+| 1k5m | C | albelig | 7 | 7 | E | 659 | 663 | C-1704-  | C-1708-  | YTHWS 
+| 1k5m | C | albelig | 8 | 8 | E | 666 | 672 | C-1711-  | C-1717-  | LRFSLMY 
+| 1k5m | C | albelig | 9 | 9 | E | 681 | 687 | C-1726-  | C-1732-  | KLILAYT 
+| 1k5m | C | albelig | 10 | 10 | H | 697 | 701 | C-1742-  | C-1746-  | RREAM 
+| 1k5m | C | albelig | 11 | 11 | E | 704 | 709 | C-1749-  | C-1754-  | THVVWD 
+| 1k5m | C | albelig | 12 | 12 | E | 715 | 720 | C-1760-  | C-1765-  | TIVMTI 
+| 1k5m | C | albelig | 13 | 13 | E | 741 | 746 | C-1786-  | C-1791-  | FLSCWY 
+| 1k5m | C | albelig | 14 | 14 | E | 760 | 768 | C-1805-  | C-1813-  | VYLLSFISA 
+| 1k5m | C | albelig | 15 | 15 | E | 773 | 777 | C-1818-  | C-1822-  | KLRLM 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 14
+= 4 = a = 13
+= 6 = m = 7
+= 7 = a = 15
+= 8 = a = 12
+= 8 = a = 14
+= 9 = a = 11
+= 9 = a = 13
+= 10 = m = 13
+= 11 = a = 12
+# Listed 10 contacts. EOF.

@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1koo, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MRNA EXPORT FACTOR, CONSTITUTIVE TRANSPORT ELEMENT (CTE),RIBONUCLEOPROTEIN (RNP) AND LEUCINE RICH REPEAT (LRR)DOMAINS, RNA BINDING PROTEIN
+> pdb_mol_name > TIP ASSOCIATING PROTEIN
+> graphtype > albelig
+> resolution > 3.8
+> date > 21-DEC-01
+> header > RNA BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > THE CRYSTAL STRUCTURE AND MUTATIONAL ANALYSIS OF A NOVELRNA-BINDING DOMAIN FOUND IN THE HUMAN TAP NUCLEAR MRNAEXPORT FACTOR
+> format_version > 2
+> pdbid > 1koo
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1koo | D | albelig | 1 | 1 | H | 691 | 704 | D-206-  | D-219-  | PEQVEQLKLIMSKR 
+| 1koo | D | albelig | 2 | 2 | E | 711 | 713 | D-226-  | D-228-  | ALD 
+| 1koo | D | albelig | 3 | 3 | H | 735 | 748 | D-250-  | D-263-  | RSSMAATLRIIEEN 
+| 1koo | D | albelig | 4 | 4 | E | 754 | 756 | D-269-  | D-271-  | SLN 
+| 1koo | D | albelig | 5 | 5 | H | 766 | 771 | D-281-  | D-286-  | DDMSSI 
+| 1koo | D | albelig | 6 | 6 | E | 780 | 782 | D-295-  | D-297-  | ILN 
+| 1koo | D | albelig | 7 | 7 | H | 793 | 797 | D-308-  | D-312-  | ELDKI 
+| 1koo | D | albelig | 8 | 8 | E | 804 | 806 | D-319-  | D-321-  | ELW 
+| 1koo | D | albelig | 9 | 9 | H | 821 | 824 | D-336-  | D-339-  | TYIS 
+| 1koo | D | albelig | 10 | 10 | H | 826 | 829 | D-341-  | D-344-  | IRER 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = p = 4
+= 3 = m = 5
+= 4 = p = 6
+= 6 = p = 8
+# Listed 5 contacts. EOF.

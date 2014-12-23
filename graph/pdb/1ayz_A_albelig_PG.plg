@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ayz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUITIN CONJUGATION, UBIQUITIN-CONJUGATING ENZYME
+> pdb_mol_name > UBIQUITIN-CONJUGATING ENZYME RAD6
+> graphtype > albelig
+> resolution > 2.6
+> date > 12-NOV-97
+> header > UBIQUITIN CONJUGATION
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF THE SACCHAROMYCES CEREVISIAE UBIQUITIN-CONJUGATING ENZYME RAD6 (UBC2) AT 2.6A RESOLUTION
+> format_version > 2
+> pdbid > 1ayz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ayz | A | albelig | 1 | 1 | H | 3 | 17 | A-4-  | A-18-  | PARRRLMRDFKRMKE 
+| 1ayz | A | albelig | 2 | 2 | E | 23 | 28 | A-24-  | A-29-  | VSASPL 
+| 1ayz | A | albelig | 3 | 3 | E | 31 | 40 | A-32-  | A-41-  | NVMVWNAMII 
+| 1ayz | A | albelig | 4 | 4 | E | 51 | 57 | A-52-  | A-58-  | TFRLLLE 
+| 1ayz | A | albelig | 5 | 5 | E | 68 | 71 | A-69-  | A-72-  | HVKF 
+| 1ayz | A | albelig | 6 | 6 | H | 89 | 91 | A-90-  | A-92-  | DIL 
+| 1ayz | A | albelig | 7 | 7 | H | 101 | 112 | A-102-  | A-113-  | VASILTSIQSLF 
+| 1ayz | A | albelig | 8 | 8 | H | 123 | 131 | A-124-  | A-132-  | VEAATLFKD 
+| 1ayz | A | albelig | 9 | 9 | H | 133 | 151 | A-134-  | A-152-  | KSQYVKRVKETVEKSWEDD 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = m = 7
+= 2 = a = 3
+= 3 = a = 4
+= 3 = p = 7
+= 4 = a = 5
+= 4 = m = 9
+# Listed 7 contacts. EOF.

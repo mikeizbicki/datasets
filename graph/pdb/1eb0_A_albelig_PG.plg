@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eb0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, UREASE ACCESSORY PROTEIN, PUTATIVE NI-CHAPERONE
+> pdb_mol_name > UREASE ACCESSORY PROTEIN UREE
+> graphtype > albelig
+> resolution > 1.85
+> date > 17-JUL-01
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF BACILLUS PASTEURII UREE AT 1.85 A,PHASED BY SIRAS. TYPE I CRYSTAL FORM.
+> format_version > 2
+> pdbid > 1eb0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS PASTEURII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eb0 | A | albelig | 1 | 1 | H | 13 | 15 | A-13-  | A-15-  | LSH 
+| 1eb0 | A | albelig | 2 | 2 | E | 19 | 25 | A-19-  | A-25-  | KVDWLEV 
+| 1eb0 | A | albelig | 3 | 3 | H | 27 | 29 | A-27-  | A-29-  | WED 
+| 1eb0 | A | albelig | 4 | 4 | E | 34 | 38 | A-34-  | A-38-  | ILRKE 
+| 1eb0 | A | albelig | 5 | 5 | E | 44 | 48 | A-44-  | A-48-  | DIAIK 
+| 1eb0 | A | albelig | 6 | 6 | E | 59 | 63 | A-59-  | A-63-  | DVLYE 
+| 1eb0 | A | albelig | 7 | 7 | E | 67 | 73 | A-67-  | A-73-  | TLIAIRT 
+| 1eb0 | A | albelig | 8 | 8 | E | 76 | 82 | A-76-  | A-82-  | EKVYVIK 
+| 1eb0 | A | albelig | 9 | 9 | H | 86 | 98 | A-86-  | A-98-  | MQEMGKMAFEIGN 
+| 1eb0 | A | albelig | 10 | 10 | E | 104 | 106 | A-104-  | A-106-  | IIE 
+| 1eb0 | A | albelig | 11 | 11 | E | 109 | 113 | A-109-  | A-113-  | EILVR 
+| 1eb0 | A | albelig | 12 | 12 | H | 116 | 125 | A-116-  | A-125-  | KTLEKLIDEV 
+| 1eb0 | A | albelig | 13 | 13 | E | 128 | 134 | A-128-  | A-134-  | SYEQSER 
+| 1eb0 | A | albelig | 14 | 14 | L | 144 | 144 | A-1144-  | A-1144-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = p = 7
+= 4 = a = 5
+= 6 = a = 7
+= 8 = a = 11
+= 8 = a = 13
+= 10 = a = 11
+# Listed 7 contacts. EOF.

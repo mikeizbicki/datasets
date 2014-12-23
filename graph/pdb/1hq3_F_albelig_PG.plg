@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hq3, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTONE-CORE OCTAMER, NUCLEOSOME, CHROMATIN, STRUCTURALELEMENTS, HISTONE-TAIL GUIDE HELICES, TETHER STRUCTURES, CLAND PHOSPHATE IONS, WATERS, DNA BINDING PROTEIN
+> pdb_mol_name > HISTONE H2B
+> graphtype > albelig
+> resolution > 2.15
+> date > 14-DEC-00
+> header > DNA BINDING PROTEIN
+> pdb_org_common > CHICKEN
+> title > CRYSTAL STRUCTURE OF THE HISTONE-CORE-OCTAMER INKCL/PHOSPHATE
+> format_version > 2
+> pdbid > 1hq3
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hq3 | F | albelig | 1 | 1 | H | 491 | 501 | F-38-  | F-48-  | SIYVYKVLKQV 
+| 1hq3 | F | albelig | 2 | 2 | H | 509 | 536 | F-56-  | F-83-  | SKAMGIMNSFVNDIFERIAGEASRLAHY 
+| 1hq3 | F | albelig | 3 | 3 | H | 544 | 554 | F-91-  | F-101-  | SREIQTAVRLL 
+| 1hq3 | F | albelig | 4 | 4 | H | 557 | 576 | F-104-  | F-123-  | GELAKHAVSEGTKAVTKYTS 
+| 1hq3 | F | albelig | 5 | 5 | L | 782 | 782 | F-616-  | F-616-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 4 = l = 5
+# Listed 2 contacts. EOF.

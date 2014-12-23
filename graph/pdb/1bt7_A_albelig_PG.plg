@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bt7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, VIRAL NON-STRUCTURAL PROTEIN, SERINE PROTEASE
+> pdb_mol_name > NS3 SERINE PROTEASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 01-SEP-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > THE SOLUTION NMR STRUCTURE OF THE N-TERMINAL PROTEASEDOMAIN OF THE HEPATITIS C VIRUS (HCV) NS3-PROTEIN, FROM BKSTRAIN, 20 STRUCTURES
+> format_version > 2
+> pdbid > 1bt7
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HEPATITIS C VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bt7 | A | albelig | 1 | 1 | E | 12 | 14 | A-33-  | A-35-  | VQV 
+| 1bt7 | A | albelig | 2 | 2 | E | 23 | 27 | A-44-  | A-48-  | LATCV 
+| 1bt7 | A | albelig | 3 | 3 | E | 30 | 33 | A-51-  | A-54-  | VCWT 
+| 1bt7 | A | albelig | 4 | 4 | E | 61 | 65 | A-82-  | A-86-  | LVGWQ 
+| 1bt7 | A | albelig | 5 | 5 | E | 82 | 86 | A-103-  | A-107-  | DLYLV 
+| 1bt7 | A | albelig | 6 | 6 | E | 92 | 99 | A-113-  | A-120-  | VIPVRRRG 
+| 1bt7 | A | albelig | 7 | 7 | E | 102 | 110 | A-123-  | A-131-  | RGSLLSPRP 
+| 1bt7 | A | albelig | 8 | 8 | H | 111 | 114 | A-132-  | A-135-  | VSYL 
+| 1bt7 | A | albelig | 9 | 9 | E | 129 | 135 | A-150-  | A-156-  | AVGIFRA 
+| 1bt7 | A | albelig | 10 | 10 | E | 142 | 150 | A-163-  | A-171-  | VAKAVDFVP 
+| 1bt7 | A | albelig | 11 | 11 | H | 153 | 160 | A-174-  | A-181-  | SMETTMRA 
+| 1bt7 | A | albelig | 12 | 12 | L | 166 | 166 | A-301-  | A-301-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 4
+= 5 = a = 6
+= 5 = l = 12
+= 6 = a = 7
+= 7 = m = 8
+= 7 = a = 10
+= 9 = a = 10
+= 9 = l = 12
+= 10 = m = 11
+# Listed 11 contacts. EOF.

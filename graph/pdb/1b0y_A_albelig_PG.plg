@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b0y, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSFER PROTEIN, ATOMIC RESOLUTION, DIRECTMETHODS IRON-SULPHUR CLUSTER, METALLOPROTEIN, ELECTRONTRANSPORT
+> pdb_mol_name > PROTEIN (HIPIP)
+> graphtype > albelig
+> resolution > 0.93
+> date > 15-NOV-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > MUTANT H42Q OF HIPIP FROM CHROMATIUM VINOSUM AT 0.93A
+> format_version > 2
+> pdbid > 1b0y
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ALLOCHROMATIUM VINOSUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b0y | A | albelig | 1 | 1 | H | 12 | 17 | A-12-  | A-17-  | ATAIAL 
+| 1b0y | A | albelig | 2 | 2 | H | 23 | 25 | A-23-  | A-25-  | ATK 
+| 1b0y | A | albelig | 3 | 3 | H | 28 | 31 | A-28-  | A-31-  | RVAA 
+| 1b0y | A | albelig | 4 | 4 | H | 38 | 40 | A-38-  | A-40-  | PEE 
+| 1b0y | A | albelig | 5 | 5 | H | 43 | 45 | A-43-  | A-45-  | CAN 
+| 1b0y | A | albelig | 6 | 6 | E | 60 | 63 | A-60-  | A-63-  | WKGC 
+| 1b0y | A | albelig | 7 | 7 | E | 70 | 72 | A-70-  | A-72-  | LIN 
+| 1b0y | A | albelig | 8 | 8 | L | 86 | 86 | A-87-  | A-87-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = l = 8
+= 6 = a = 7
+= 6 = l = 8
+= 7 = l = 8
+# Listed 4 contacts. EOF.

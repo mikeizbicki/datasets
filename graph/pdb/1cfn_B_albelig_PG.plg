@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cfn, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > POLYSPECIFICITY, CROSS REACTIVITY, FAB-FRAGMENT, PEPTIDE,HIV-1
+> pdb_mol_name > PROTEIN (IGG2A-KAPPA ANTIBODY CB41 (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.65
+> date > 19-MAR-99
+> header > POLYSPECIFICITY
+> pdb_org_common > HOUSE MOUSE
+> title > ANTI-P24 (HIV-1) FAB FRAGMENT CB41 COMPLEXED WITH ANEPITOPE-RELATED PEPTIDE
+> format_version > 2
+> pdbid > 1cfn
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cfn | B | albelig | 1 | 1 | E | 218 | 221 | B-3-  | B-6-  | QLQQ 
+| 1cfn | B | albelig | 2 | 2 | E | 225 | 227 | B-10-  | B-12-  | ELV 
+| 1cfn | B | albelig | 3 | 3 | E | 233 | 240 | B-18-  | B-25-  | VKLSCKAL 
+| 1cfn | B | albelig | 4 | 4 | H | 244 | 246 | B-29-  | B-31-  | FTD 
+| 1cfn | B | albelig | 5 | 5 | E | 249 | 255 | B-34-  | B-40-  | IHWVKQT 
+| 1cfn | B | albelig | 6 | 6 | E | 259 | 266 | B-44-  | B-51-  | GLEWIGGI 
+| 1cfn | B | albelig | 7 | 7 | E | 273 | 275 | B-58-  | B-60-  | TAY 
+| 1cfn | B | albelig | 8 | 8 | E | 283 | 288 | B-68-  | B-73-  | ATLTAD 
+| 1cfn | B | albelig | 9 | 9 | H | 289 | 291 | B-74-  | B-76-  | KSS 
+| 1cfn | B | albelig | 10 | 10 | E | 293 | 298 | B-78-  | B-83-  | TAFMEL 
+| 1cfn | B | albelig | 11 | 11 | H | 303 | 305 | B-88-  | B-90-  | SED 
+| 1cfn | B | albelig | 12 | 12 | E | 307 | 312 | B-92-  | B-97-  | AVYYCT 
+| 1cfn | B | albelig | 13 | 13 | E | 321 | 325 | B-106-  | B-110-  | TLVTV 
+| 1cfn | B | albelig | 14 | 14 | E | 334 | 338 | B-119-  | B-123-  | SVYPL 
+| 1cfn | B | albelig | 15 | 15 | E | 349 | 359 | B-134-  | B-144-  | SVTLGDLVKGY 
+| 1cfn | B | albelig | 16 | 16 | E | 365 | 368 | B-150-  | B-153-  | TLTW 
+| 1cfn | B | albelig | 17 | 17 | H | 369 | 371 | B-154-  | B-156-  | NSG 
+| 1cfn | B | albelig | 18 | 18 | E | 377 | 385 | B-162-  | B-170-  | VHTFPALLQ 
+| 1cfn | B | albelig | 19 | 19 | E | 388 | 398 | B-173-  | B-183-  | LYTLSSSVTVT 
+| 1cfn | B | albelig | 20 | 20 | H | 401 | 404 | B-186-  | B-189-  | TWPS 
+| 1cfn | B | albelig | 21 | 21 | E | 408 | 413 | B-193-  | B-198-  | TDNVAH 
+| 1cfn | B | albelig | 22 | 22 | H | 414 | 416 | B-199-  | B-201-  | PAS 
+| 1cfn | B | albelig | 23 | 23 | E | 418 | 423 | B-203-  | B-208-  | TKVDKK 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 2 = p = 13
+= 3 = a = 10
+= 3 = p = 12
+= 5 = a = 6
+= 5 = p = 10
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 8
+= 7 = a = 8
+= 8 = m = 9
+= 8 = a = 10
+= 12 = a = 13
+= 14 = a = 15
+= 15 = a = 19
+= 15 = p = 21
+= 16 = m = 17
+= 16 = a = 21
+= 18 = a = 19
+= 19 = m = 20
+= 21 = m = 22
+= 21 = a = 23
+# Listed 23 contacts. EOF.

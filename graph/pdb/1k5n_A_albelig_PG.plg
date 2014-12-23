@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k5n, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC(MAJOR HISTOCOMPATIBILITY COMPLEX), HLA(HUMAN LEUKOCYTE ANTIGEN),IMMUNE SYSTEM
+> pdb_mol_name > MAJOR HISTOCOMPATIBILITY COMPLEX MOLECULE HLA-B*2709
+> graphtype > albelig
+> resolution > 1.09
+> date > 11-OCT-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > HLA-B*2709 BOUND TO NONA-PEPTIDE M9
+> format_version > 2
+> pdbid > 1k5n
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k5n | A | albelig | 1 | 1 | E | 3 | 12 | A-3-  | A-12-  | HSMRYFHTSV 
+| 1k5n | A | albelig | 2 | 2 | E | 21 | 28 | A-21-  | A-28-  | RFITVGYV 
+| 1k5n | A | albelig | 3 | 3 | E | 31 | 37 | A-31-  | A-37-  | TLFVRFD 
+| 1k5n | A | albelig | 4 | 4 | H | 50 | 52 | A-50-  | A-52-  | PWI 
+| 1k5n | A | albelig | 5 | 5 | H | 57 | 84 | A-57-  | A-84-  | PEYWDRETQICKAKAQTDREDLRTLLRY 
+| 1k5n | A | albelig | 6 | 6 | E | 94 | 103 | A-94-  | A-103-  | TLQNMYGADV 
+| 1k5n | A | albelig | 7 | 7 | E | 109 | 118 | A-109-  | A-118-  | LLRGYHQHAY 
+| 1k5n | A | albelig | 8 | 8 | E | 121 | 126 | A-121-  | A-126-  | KDYIAL 
+| 1k5n | A | albelig | 9 | 9 | E | 133 | 135 | A-133-  | A-135-  | WTA 
+| 1k5n | A | albelig | 10 | 10 | H | 138 | 149 | A-138-  | A-149-  | TAAQITQRKWEA 
+| 1k5n | A | albelig | 11 | 11 | H | 152 | 161 | A-152-  | A-161-  | VAEQLRAYLE 
+| 1k5n | A | albelig | 12 | 12 | H | 163 | 174 | A-163-  | A-174-  | EAVEWLRRYLEN 
+| 1k5n | A | albelig | 13 | 13 | E | 186 | 195 | A-186-  | A-195-  | KTHVTHHPIS 
+| 1k5n | A | albelig | 14 | 14 | E | 198 | 208 | A-198-  | A-208-  | EATLRNWALGF 
+| 1k5n | A | albelig | 15 | 15 | E | 214 | 219 | A-214-  | A-219-  | TLTWQR 
+| 1k5n | A | albelig | 16 | 16 | H | 225 | 227 | A-225-  | A-227-  | TQD 
+| 1k5n | A | albelig | 17 | 17 | E | 241 | 250 | A-241-  | A-250-  | FQKWAAVVVP 
+| 1k5n | A | albelig | 18 | 18 | H | 254 | 256 | A-254-  | A-256-  | EQR 
+| 1k5n | A | albelig | 19 | 19 | E | 257 | 262 | A-257-  | A-262-  | YTNHVQ 
+| 1k5n | A | albelig | 20 | 20 | E | 270 | 272 | A-270-  | A-272-  | LTL 
+| 1k5n | A | albelig | 21 | 21 | L | 388 | 388 | A-1001-  | A-1001-  | J 
+| 1k5n | A | albelig | 22 | 22 | L | 389 | 389 | A-2001-  | A-2001-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 12
+= 1 = l = 22
+= 2 = a = 3
+= 2 = l = 22
+= 3 = p = 5
+= 6 = a = 7
+= 6 = m = 12
+= 7 = a = 8
+= 7 = l = 21
+= 8 = a = 9
+= 8 = m = 10
+= 8 = l = 21
+= 9 = m = 10
+= 9 = l = 21
+= 13 = a = 14
+= 14 = a = 15
+= 14 = a = 17
+= 15 = p = 17
+= 15 = m = 18
+= 15 = a = 19
+= 18 = m = 19
+= 19 = a = 20
+# Listed 24 contacts. EOF.

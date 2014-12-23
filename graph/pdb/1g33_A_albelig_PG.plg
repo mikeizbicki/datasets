@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g33, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM-BINDING PROTEIN, METAL BINDING PROTEIN
+> pdb_mol_name > PARVALBUMIN ALPHA
+> graphtype > albelig
+> resolution > 1.44
+> date > 23-OCT-00
+> header > METAL BINDING PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT PARVALBUMIN WITHOUT THE N-TERMINALDOMAIN
+> format_version > 2
+> pdbid > 1g33
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g33 | A | albelig | 1 | 1 | H | 4 | 14 | A-40-  | A-50-  | ADDVKKVFHIL 
+| 1g33 | A | albelig | 2 | 2 | H | 24 | 27 | A-60-  | A-63-  | EDEL 
+| 1g33 | A | albelig | 3 | 3 | H | 30 | 34 | A-66-  | A-70-  | ILKGF 
+| 1g33 | A | albelig | 4 | 4 | H | 43 | 53 | A-79-  | A-89-  | AKETKTLMAAG 
+| 1g33 | A | albelig | 5 | 5 | H | 63 | 69 | A-99-  | A-105-  | VEEFSTL 
+| 1g33 | A | albelig | 6 | 6 | L | 74 | 74 | A-110-  | A-110-  | J 
+| 1g33 | A | albelig | 7 | 7 | L | 75 | 75 | A-111-  | A-111-  | J 
+| 1g33 | A | albelig | 8 | 8 | L | 76 | 76 | A-200-  | A-200-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 2 = m = 4
+= 2 = l = 6
+= 5 = l = 7
+= 5 = l = 8
+= 7 = l = 8
+# Listed 6 contacts. EOF.

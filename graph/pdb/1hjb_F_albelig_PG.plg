@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjb, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION/DNA, PROTEIN-DNA COMPLEX, TRANSCRIPTIONFACTOR, BZIP, RUNX, RUNT, C/EBP, CBF, CORE BINDING FACTOR,AML1, AML
+> pdb_mol_name > RUNT-RELATED TRANSCRIPTION FACTOR 1
+> graphtype > albelig
+> resolution > 3.0
+> date > 11-JAN-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE OF RUNX-1/AML1/CBFALPHA RUNT DOMAIN ANDC/EBPBETA BZIP DIMERIC   BOUND TO A DNA FRAGMENT FROM THECSF-1R PROMOTER
+> format_version > 2
+> pdbid > 1hjb
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjb | F | albelig | 1 | 1 | E | 397 | 399 | F-62-  | F-64-  | LVR 
+| 1hjb | F | albelig | 2 | 2 | E | 405 | 408 | F-70-  | F-73-  | FLCS 
+| 1hjb | F | albelig | 3 | 3 | E | 413 | 415 | F-78-  | F-80-  | HWR 
+| 1hjb | F | albelig | 4 | 4 | E | 424 | 428 | F-89-  | F-93-  | FKVVA 
+| 1hjb | F | albelig | 5 | 5 | E | 437 | 443 | F-102-  | F-108-  | LVTVMAG 
+| 1hjb | F | albelig | 6 | 6 | E | 456 | 458 | F-121-  | F-123-  | TAA 
+| 1hjb | F | albelig | 7 | 7 | E | 463 | 466 | F-128-  | F-131-  | VARF 
+| 1hjb | F | albelig | 8 | 8 | E | 482 | 487 | F-147-  | F-152-  | TLTITV 
+| 1hjb | F | albelig | 9 | 9 | E | 493 | 497 | F-158-  | F-162-  | QVATY 
+| 1hjb | F | albelig | 10 | 10 | E | 502 | 504 | F-167-  | F-169-  | KIT 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 3 = p = 10
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+# Listed 8 contacts. EOF.

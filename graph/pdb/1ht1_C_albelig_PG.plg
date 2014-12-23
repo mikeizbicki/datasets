@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ht1, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HSLVU, PEPTIDASE-ATPASE COMPLEX, CHAPERONE
+> pdb_mol_name > HEAT SHOCK LOCUS HSLV
+> graphtype > albelig
+> resolution > 2.8
+> date > 27-DEC-00
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > NUCLEOTIDE-DEPENDENT CONFORMATIONAL CHANGES IN A PROTEASE-ASSOCIATEDATPASE HSLU
+> format_version > 2
+> pdbid > 1ht1
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ht1 | C | albelig | 1 | 1 | E | 3 | 7 | C-3-  | C-7-  | IVSVR 
+| 1ht1 | C | albelig | 2 | 2 | E | 12 | 16 | C-12-  | C-16-  | VVIAG 
+| 1ht1 | C | albelig | 3 | 3 | E | 20 | 22 | C-20-  | C-22-  | ATL 
+| 1ht1 | C | albelig | 4 | 4 | E | 25 | 28 | C-25-  | C-28-  | TVMK 
+| 1ht1 | C | albelig | 5 | 5 | E | 34 | 37 | C-34-  | C-37-  | VRRL 
+| 1ht1 | C | albelig | 6 | 6 | E | 42 | 45 | C-42-  | C-45-  | VIAG 
+| 1ht1 | C | albelig | 7 | 7 | H | 52 | 66 | C-52-  | C-66-  | DAFTLFELFERKLEM 
+| 1ht1 | C | albelig | 8 | 8 | H | 71 | 84 | C-71-  | C-84-  | LVKAAVELAKDWRT 
+| 1ht1 | C | albelig | 9 | 9 | H | 86 | 89 | C-86-  | C-89-  | RMLR 
+| 1ht1 | C | albelig | 10 | 10 | E | 96 | 98 | C-96-  | C-98-  | AVA 
+| 1ht1 | C | albelig | 11 | 11 | E | 103 | 105 | C-103-  | C-105-  | SLI 
+| 1ht1 | C | albelig | 12 | 12 | E | 120 | 122 | C-120-  | C-122-  | IAI 
+| 1ht1 | C | albelig | 13 | 13 | H | 126 | 139 | C-126-  | C-139-  | GPYAQAAARALLEN 
+| 1ht1 | C | albelig | 14 | 14 | H | 144 | 158 | C-144-  | C-158-  | AREIAEKALDIAGDI 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 12
+= 1 = m = 14
+= 2 = a = 5
+= 2 = p = 6
+= 2 = m = 14
+= 3 = a = 4
+= 5 = a = 6
+= 6 = a = 10
+= 7 = m = 8
+= 8 = m = 9
+= 10 = a = 11
+= 12 = m = 13
+= 13 = a = 14
+# Listed 14 contacts. EOF.

@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gua, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ONCOGENE PROTEIN/KINASE/EFFECTOR PROTEIN GTP-BINDING-PROTEIN, COMPLEX (GTP-BINDING/ATP-BINDING)
+> pdb_mol_name > C-RAF1
+> graphtype > albelig
+> resolution > 2.0
+> date > 18-JUN-96
+> header > COMPLEX (GTP-BINDING/ATP-BINDING)
+> pdb_org_common > HUMAN
+> title > HUMAN RAP1A, RESIDUES 1-167, DOUBLE MUTANT (E30D,K31E)COMPLEXED WITH GPPNHP AND THE RAS-BINDING-DOMAIN OF HUMANC-RAF1, RESIDUES 51-131
+> format_version > 2
+> pdbid > 1gua
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gua | B | albelig | 1 | 1 | E | 170 | 175 | B-57-  | B-62-  | TIRVFL 
+| 1gua | B | albelig | 2 | 2 | E | 179 | 184 | B-66-  | B-71-  | QRTVVN 
+| 1gua | B | albelig | 3 | 3 | H | 191 | 200 | B-78-  | B-87-  | LHDCLMKALK 
+| 1gua | B | albelig | 4 | 4 | H | 206 | 208 | B-93-  | B-95-  | PEC 
+| 1gua | B | albelig | 5 | 5 | E | 209 | 215 | B-96-  | B-102-  | CAVFRLL 
+| 1gua | B | albelig | 6 | 6 | E | 221 | 225 | B-108-  | B-112-  | KKARL 
+| 1gua | B | albelig | 7 | 7 | H | 231 | 234 | B-118-  | B-121-  | AASL 
+| 1gua | B | albelig | 8 | 8 | E | 238 | 243 | B-125-  | B-130-  | ELQVDF 
+| 1gua | B | albelig | 9 | 9 | L | 247 | 247 | B-132-  | B-132-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 8
+= 4 = m = 5
+= 5 = a = 6
+= 5 = a = 8
+= 8 = l = 9
+# Listed 6 contacts. EOF.

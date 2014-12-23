@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1em2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, LIPID BINDING PROTEIN
+> pdb_mol_name > MLN64 PROTEIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 14-MAR-00
+> header > LIPID BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > STAR-RELATED LIPID TRANSPORT DOMAIN OF MLN64
+> format_version > 2
+> pdbid > 1em2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1em2 | A | albelig | 1 | 1 | H | 4 | 24 | A-233-  | A-253-  | AQEREYIRQGKEATAVVDQIL 
+| 1em2 | A | albelig | 2 | 2 | H | 27 | 29 | A-256-  | A-258-  | EEN 
+| 1em2 | A | albelig | 3 | 3 | E | 31 | 35 | A-260-  | A-264-  | KFEKN 
+| 1em2 | A | albelig | 4 | 4 | E | 41 | 47 | A-270-  | A-276-  | TVYTIEV 
+| 1em2 | A | albelig | 5 | 5 | E | 51 | 60 | A-280-  | A-289-  | GKTFILKTFL 
+| 1em2 | A | albelig | 6 | 6 | H | 64 | 73 | A-293-  | A-302-  | AELVYQEVIL 
+| 1em2 | A | albelig | 7 | 7 | H | 75 | 78 | A-304-  | A-307-  | PERX 
+| 1em2 | A | albelig | 8 | 8 | E | 85 | 94 | A-314-  | A-323-  | VTACQILQRV 
+| 1em2 | A | albelig | 9 | 9 | E | 98 | 105 | A-327-  | A-334-  | TLISYDVS 
+| 1em2 | A | albelig | 10 | 10 | E | 116 | 126 | A-345-  | A-355-  | RDFVNVRRIER 
+| 1em2 | A | albelig | 11 | 11 | E | 130 | 137 | A-359-  | A-366-  | RYLSSGIA 
+| 1em2 | A | albelig | 12 | 12 | E | 157 | 163 | A-386-  | A-392-  | GGXIVLK 
+| 1em2 | A | albelig | 13 | 13 | E | 171 | 177 | A-400-  | A-406-  | CTFVWIL 
+| 1em2 | A | albelig | 14 | 14 | H | 187 | 211 | A-416-  | A-440-  | RYLIHQSLAATXFEFAFHLRQRISE 
+| 1em2 | A | albelig | 15 | 15 | L | 218 | 218 | A-500-  | A-500-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 10
+= 1 = a = 11
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 13
+= 5 = p = 14
+= 6 = m = 11
+= 6 = m = 12
+= 7 = m = 8
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 11 = a = 12
+= 12 = a = 13
+= 13 = m = 14
+# Listed 15 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kuv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-INHIBITOR COMPLEX, BISUBSTRATE ANALOG, ALTERNATECONFORMATIONS, TRANSFERASE
+> pdb_mol_name > SEROTONIN N-ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 22-JAN-02
+> header > TRANSFERASE
+> pdb_org_common > SHEEP
+> title > X-RAY CRYSTALLOGRAPHIC STUDIES OF SEROTONIN N-ACETYLTRANSFERASECATALYSIS AND INHIBITION
+> format_version > 2
+> pdbid > 1kuv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > OVIS ARIES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kuv | A | albelig | 1 | 1 | E | 7 | 9 | A-36-  | A-38-  | EFR 
+| 1kuv | A | albelig | 2 | 2 | H | 13 | 23 | A-42-  | A-52-  | PEDAAGVFEIE 
+| 1kuv | A | albelig | 3 | 3 | H | 24 | 31 | A-53-  | A-60-  | REAFISVS 
+| 1kuv | A | albelig | 4 | 4 | H | 38 | 47 | A-67-  | A-76-  | LDEVQHFLTL 
+| 1kuv | A | albelig | 5 | 5 | H | 49 | 51 | A-78-  | A-80-  | PEL 
+| 1kuv | A | albelig | 6 | 6 | E | 52 | 57 | A-81-  | A-86-  | SLGWFV 
+| 1kuv | A | albelig | 7 | 7 | E | 60 | 70 | A-89-  | A-99-  | RLVAFIIGSLW 
+| 1kuv | A | albelig | 8 | 8 | H | 77 | 81 | A-106-  | A-110-  | QESLA 
+| 1kuv | A | albelig | 9 | 9 | E | 89 | 97 | A-118-  | A-126-  | SAHLHALAV 
+| 1kuv | A | albelig | 10 | 10 | H | 99 | 101 | A-128-  | A-130-  | RSF 
+| 1kuv | A | albelig | 11 | 11 | H | 106 | 120 | A-135-  | A-149-  | KGSVLLWRYLHHVGA 
+| 1kuv | A | albelig | 12 | 12 | E | 126 | 131 | A-155-  | A-160-  | RAVLMC 
+| 1kuv | A | albelig | 13 | 13 | H | 133 | 140 | A-162-  | A-169-  | DALVPFYQ 
+| 1kuv | A | albelig | 14 | 14 | E | 145 | 149 | A-174-  | A-178-  | HPAGP 
+| 1kuv | A | albelig | 15 | 15 | E | 160 | 165 | A-189-  | A-194-  | TEMHCS 
+| 1kuv | A | albelig | 16 | 16 | L | 167 | 167 | A-208-  | A-208-  | J 
+| 1kuv | A | albelig | 17 | 17 | L | 168 | 168 | A-901-  | A-901-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 2 = m = 4
+= 2 = m = 7
+= 3 = l = 17
+= 5 = m = 6
+= 6 = a = 7
+= 6 = m = 11
+= 7 = a = 9
+= 7 = m = 11
+= 9 = p = 12
+= 9 = l = 17
+= 10 = l = 17
+= 11 = l = 17
+= 12 = a = 15
+= 12 = l = 17
+= 13 = l = 17
+= 14 = a = 15
+# Listed 17 contacts. EOF.

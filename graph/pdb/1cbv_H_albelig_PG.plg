@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cbv, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, SINGLE STRAND, IMMUNE SYSTEM-DNA COMPLEX
+> pdb_mol_name > PROTEIN (FAB (BV04-01) AUTOANTIBODY-HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.66
+> date > 16-MAR-93
+> header > IMMUNE SYSTEM/DNA
+> pdb_org_common > HOUSE MOUSE
+> title > AN AUTOANTIBODY TO SINGLE-STRANDED DNA: COMPARISON OF THE THREE-DIMENSIONAL STRUCTURES OF THE UNLIGANDED FAB AND A DEOXYNUCLEOTIDE-FAB COMPLEX
+> format_version > 2
+> pdbid > 1cbv
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cbv | H | albelig | 1 | 1 | E | 238 | 243 | H-18-  | H-23-  | LKLSDA 
+| 1cbv | H | albelig | 2 | 2 | H | 249 | 251 | H-29-  | H-31-  | FNT 
+| 1cbv | H | albelig | 3 | 3 | E | 254 | 259 | H-34-  | H-39-  | MNWVRQ 
+| 1cbv | H | albelig | 4 | 4 | E | 265 | 271 | H-45-  | H-51-  | LEWVARI 
+| 1cbv | H | albelig | 5 | 5 | E | 280 | 282 | H-60-  | H-62-  | TYY 
+| 1cbv | H | albelig | 6 | 6 | E | 290 | 295 | H-70-  | H-75-  | FTISRD 
+| 1cbv | H | albelig | 7 | 7 | H | 296 | 298 | H-76-  | H-78-  | DSQ 
+| 1cbv | H | albelig | 8 | 8 | E | 300 | 305 | H-80-  | H-85-  | MLYLQM 
+| 1cbv | H | albelig | 9 | 9 | H | 310 | 312 | H-90-  | H-92-  | TED 
+| 1cbv | H | albelig | 10 | 10 | E | 314 | 322 | H-94-  | H-102-  | AMYYDVRDQ 
+| 1cbv | H | albelig | 11 | 11 | E | 326 | 331 | H-106-  | H-111-  | AWFAYW 
+| 1cbv | H | albelig | 12 | 12 | E | 336 | 339 | H-116-  | H-119-  | LVTV 
+| 1cbv | H | albelig | 13 | 13 | E | 348 | 352 | H-128-  | H-132-  | SVYPL 
+| 1cbv | H | albelig | 14 | 14 | E | 363 | 373 | H-143-  | H-153-  | SVTLGELVKGY 
+| 1cbv | H | albelig | 15 | 15 | E | 379 | 384 | H-159-  | H-164-  | TVTWNS 
+| 1cbv | H | albelig | 16 | 16 | E | 397 | 399 | H-177-  | H-179-  | LLQ 
+| 1cbv | H | albelig | 17 | 17 | E | 402 | 412 | H-182-  | H-192-  | LYTMSSSVTVP 
+| 1cbv | H | albelig | 18 | 18 | E | 421 | 427 | H-201-  | H-207-  | VTESVAH 
+| 1cbv | H | albelig | 19 | 19 | E | 432 | 438 | H-212-  | H-218-  | TTVDKKL 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 8
+= 3 = a = 4
+= 3 = p = 8
+= 3 = a = 10
+= 4 = a = 5
+= 4 = p = 6
+= 5 = a = 6
+= 6 = m = 7
+= 6 = a = 8
+= 10 = a = 11
+= 10 = p = 12
+= 13 = a = 14
+= 13 = p = 19
+= 14 = a = 17
+= 14 = p = 18
+= 15 = p = 17
+= 15 = a = 18
+= 16 = a = 17
+= 18 = a = 19
+# Listed 19 contacts. EOF.

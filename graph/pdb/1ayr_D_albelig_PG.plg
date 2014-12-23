@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ayr, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SENSORY TRANSDUCTION, ARRESTIN, RHODOPSIN
+> pdb_mol_name > ARRESTIN
+> graphtype > albelig
+> resolution > 3.3
+> date > 10-NOV-97
+> header > SENSORY TRANSDUCTION
+> pdb_org_common > CATTLE
+> title > ARRESTIN FROM BOVINE ROD OUTER SEGMENTS
+> format_version > 2
+> pdbid > 1ayr
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ayr | D | albelig | 1 | 1 | E | 1114 | 1118 | D-12-  | D-16-  | IFKKI 
+| 1ayr | D | albelig | 2 | 2 | E | 1124 | 1128 | D-22-  | D-26-  | VTIYL 
+| 1ayr | D | albelig | 3 | 3 | E | 1132 | 1136 | D-30-  | D-34-  | DYIDH 
+| 1ayr | D | albelig | 4 | 4 | E | 1143 | 1149 | D-41-  | D-47-  | VDGVVLV 
+| 1ayr | D | albelig | 5 | 5 | E | 1158 | 1169 | D-56-  | D-67-  | RVYVSLTCAFRY 
+| 1ayr | D | albelig | 6 | 6 | E | 1181 | 1191 | D-79-  | D-89-  | FRRDLYFSQVQ 
+| 1ayr | D | albelig | 7 | 7 | H | 1204 | 1213 | D-102-  | D-111-  | RLQESLIKKL 
+| 1ayr | D | albelig | 8 | 8 | E | 1217 | 1222 | D-115-  | D-120-  | TYPFLL 
+| 1ayr | D | albelig | 9 | 9 | E | 1232 | 1234 | D-130-  | D-132-  | VML 
+| 1ayr | D | albelig | 10 | 10 | E | 1245 | 1259 | D-143-  | D-157-  | CGVDFEIKAFATHST 
+| 1ayr | D | albelig | 11 | 11 | E | 1263 | 1265 | D-161-  | D-163-  | EDK 
+| 1ayr | D | albelig | 12 | 12 | E | 1271 | 1280 | D-169-  | D-178-  | SVRLLIRKVQ 
+| 1ayr | D | albelig | 13 | 13 | E | 1295 | 1300 | D-193-  | D-198-  | SWQFFM 
+| 1ayr | D | albelig | 14 | 14 | E | 1303 | 1311 | D-201-  | D-209-  | KPLRLAVSL 
+| 1ayr | D | albelig | 15 | 15 | E | 1315 | 1317 | D-213-  | D-215-  | IYY 
+| 1ayr | D | albelig | 16 | 16 | E | 1322 | 1330 | D-220-  | D-228-  | IPVTVAVTN 
+| 1ayr | D | albelig | 17 | 17 | E | 1335 | 1349 | D-233-  | D-247-  | TVKKIKVLVEQVTNV 
+| 1ayr | D | albelig | 18 | 18 | E | 1356 | 1366 | D-254-  | D-264-  | YYIKTVAAEEA 
+| 1ayr | D | albelig | 19 | 19 | E | 1374 | 1382 | D-272-  | D-280-  | SSLTKTLTL 
+| 1ayr | D | albelig | 20 | 20 | H | 1386 | 1388 | D-284-  | D-286-  | LAN 
+| 1ayr | D | albelig | 21 | 21 | H | 1420 | 1423 | D-318-  | D-321-  | KTVM 
+| 1ayr | D | albelig | 22 | 22 | E | 1425 | 1438 | D-323-  | D-336-  | ILVSYQIKVKLTVS 
+| 1ayr | D | albelig | 23 | 23 | E | 1448 | 1458 | D-346-  | D-356-  | EVATEVPFRLM 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 12
+= 2 = a = 4
+= 3 = p = 12
+= 4 = m = 7
+= 4 = a = 8
+= 5 = a = 6
+= 5 = p = 8
+= 5 = a = 10
+= 7 = m = 8
+= 9 = a = 10
+= 10 = a = 11
+= 10 = a = 12
+= 13 = a = 14
+= 13 = a = 23
+= 14 = a = 16
+= 15 = a = 23
+= 16 = a = 19
+= 17 = a = 18
+= 17 = p = 19
+= 17 = a = 22
+= 18 = a = 19
+= 22 = a = 23
+# Listed 23 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1juq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PEPTIDE COMPELX; VHS DOMAIN; DXXLL SORTING SIGNAL,SIGNALING PROTEIN
+> pdb_mol_name > ADP-RIBOSYLATION FACTOR BINDING PROTEIN GGA3
+> graphtype > albelig
+> resolution > 2.2
+> date > 26-AUG-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > GGA3 VHS DOMAIN COMPLEXED WITH C-TERMINAL PEPTIDE FROMCATION-DEPENDENT MANNOSE 6-PHOSPHATE RECEPTOR
+> format_version > 2
+> pdbid > 1juq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1juq | A | albelig | 1 | 1 | H | 3 | 10 | A-9-  | A-16-  | LESWLNKA 
+| 1juq | A | albelig | 2 | 2 | H | 20 | 32 | A-26-  | A-38-  | WEYIIGFCDQINK 
+| 1juq | A | albelig | 3 | 3 | H | 36 | 48 | A-42-  | A-54-  | GPQIAVRLLAHKI 
+| 1juq | A | albelig | 4 | 4 | H | 53 | 69 | A-59-  | A-75-  | EWEALQALTVLEACXKN 
+| 1juq | A | albelig | 5 | 5 | H | 71 | 78 | A-77-  | A-84-  | GRRFHNEV 
+| 1juq | A | albelig | 6 | 6 | H | 81 | 91 | A-87-  | A-97-  | FRFLNELIKVV 
+| 1juq | A | albelig | 7 | 7 | H | 93 | 97 | A-99-  | A-103-  | PKYLG 
+| 1juq | A | albelig | 8 | 8 | H | 102 | 118 | A-108-  | A-124-  | EKVKTKVIELLYSWTXA 
+| 1juq | A | albelig | 9 | 9 | H | 123 | 134 | A-129-  | A-140-  | AKIKDAYHXLKR 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 2 = m = 3
+= 2 = p = 4
+= 3 = m = 4
+= 3 = m = 5
+= 4 = p = 8
+= 6 = m = 8
+= 8 = m = 9
+# Listed 9 contacts. EOF.

@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1btn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNAL TRANSDUCTION PROTEIN
+> pdb_mol_name > BETA-SPECTRIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 23-AUG-95
+> header > SIGNAL TRANSDUCTION PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > STRUCTURE OF THE BINDING SITE FOR INOSITOL PHOSPHATES IN APH DOMAIN
+> format_version > 2
+> pdbid > 1btn
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1btn | A | albelig | 1 | 1 | E | 2 | 11 | A-2-  | A-11-  | EGFLNRKHEW 
+| 1btn | A | albelig | 2 | 2 | E | 24 | 31 | A-24-  | A-31-  | HNVYCVIN 
+| 1btn | A | albelig | 3 | 3 | E | 34 | 38 | A-34-  | A-38-  | EMGFY 
+| 1btn | A | albelig | 4 | 4 | H | 41 | 46 | A-41-  | A-46-  | AKSAAS 
+| 1btn | A | albelig | 5 | 5 | E | 62 | 65 | A-62-  | A-65-  | ICEV 
+| 1btn | A | albelig | 6 | 6 | E | 75 | 79 | A-75-  | A-79-  | VFKLR 
+| 1btn | A | albelig | 7 | 7 | E | 85 | 89 | A-85-  | A-89-  | EYLFQ 
+| 1btn | A | albelig | 8 | 8 | H | 93 | 105 | A-93-  | A-105-  | DEEMNTWIQAISS 
+| 1btn | A | albelig | 9 | 9 | L | 107 | 107 | A-107-  | A-107-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 1 = l = 9
+= 2 = a = 3
+= 5 = a = 6
+= 5 = m = 8
+= 6 = a = 7
+= 6 = m = 8
+# Listed 8 contacts. EOF.

@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kj3, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC CLASS I, H-2KB, PMHC COMPLEX, ALLOGENEIC, IMMUNE SYSTEM
+> pdb_mol_name > H-2KB MHC CLASS I MOLECULE ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 04-DEC-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > MHC CLASS I H-2KB MOLECULE COMPLEXED WITH PKB1 PEPTIDE
+> format_version > 2
+> pdbid > 1kj3
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kj3 | I | albelig | 1 | 1 | E | 392 | 401 | I-3-  | I-12-  | HSLRYFVTAV 
+| 1kj3 | I | albelig | 2 | 2 | E | 410 | 417 | I-21-  | I-28-  | RYMEVGYV 
+| 1kj3 | I | albelig | 3 | 3 | E | 420 | 426 | I-31-  | I-37-  | TEFVRFD 
+| 1kj3 | I | albelig | 4 | 4 | H | 439 | 443 | I-50-  | I-54-  | RWMEQ 
+| 1kj3 | I | albelig | 5 | 5 | H | 446 | 473 | I-57-  | I-84-  | PEYWERETQKAKGNEQSFRVDLRTLLGY 
+| 1kj3 | I | albelig | 6 | 6 | E | 483 | 492 | I-94-  | I-103-  | TIQVISGDEV 
+| 1kj3 | I | albelig | 7 | 7 | E | 498 | 507 | I-109-  | I-118-  | LLRGYQQYAY 
+| 1kj3 | I | albelig | 8 | 8 | E | 510 | 515 | I-121-  | I-126-  | CDYIAL 
+| 1kj3 | I | albelig | 9 | 9 | E | 522 | 524 | I-133-  | I-135-  | WTA 
+| 1kj3 | I | albelig | 10 | 10 | H | 527 | 538 | I-138-  | I-149-  | MAALITKHKWEQ 
+| 1kj3 | I | albelig | 11 | 11 | H | 541 | 553 | I-152-  | I-164-  | EAERLRAYLEGTD 
+| 1kj3 | I | albelig | 12 | 12 | H | 554 | 568 | I-165-  | I-179-  | VEWLRRYLKNGNATL 
+| 1kj3 | I | albelig | 13 | 13 | E | 575 | 581 | I-186-  | I-192-  | KAHVTHH 
+| 1kj3 | I | albelig | 14 | 14 | E | 587 | 597 | I-198-  | I-208-  | KVTLREWALGF 
+| 1kj3 | I | albelig | 15 | 15 | E | 603 | 608 | I-214-  | I-219-  | TLTWQL 
+| 1kj3 | I | albelig | 16 | 16 | E | 617 | 619 | I-228-  | I-230-  | MEL 
+| 1kj3 | I | albelig | 17 | 17 | E | 630 | 639 | I-241-  | I-250-  | FQKWASVVVP 
+| 1kj3 | I | albelig | 18 | 18 | H | 643 | 645 | I-254-  | I-256-  | EQY 
+| 1kj3 | I | albelig | 19 | 19 | E | 646 | 651 | I-257-  | I-262-  | YTEHVY 
+| 1kj3 | I | albelig | 20 | 20 | E | 659 | 661 | I-270-  | I-272-  | LTL 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 2 = m = 5
+= 4 = m = 12
+= 5 = m = 6
+= 6 = a = 7
+= 6 = m = 11
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 13 = a = 14
+= 13 = p = 20
+= 14 = a = 15
+= 14 = a = 17
+= 15 = p = 17
+= 15 = a = 19
+= 16 = a = 17
+= 18 = m = 19
+= 19 = a = 20
+# Listed 21 contacts. EOF.

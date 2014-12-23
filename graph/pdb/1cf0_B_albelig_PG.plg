@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cf0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ACTIN-BINDING PROTEIN/PEPTIDE), PROFILIN, POLY-L-PROLINE, ACTIN CYTOSKELETON
+> pdb_mol_name > PROTEIN (PROFILIN)
+> graphtype > albelig
+> resolution > 2.2
+> date > 23-MAR-99
+> header > COMPLEX (ACTIN-BINDING PROTEIN/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > HUMAN PLATELET PROFILIN COMPLEXED WITH AN L-PRO10-IODOTYROSINE PEPTIDE
+> format_version > 2
+> pdbid > 1cf0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cf0 | B | albelig | 1 | 1 | H | 142 | 149 | B-4-  | B-11-  | NAYIDNLM 
+| 1cf0 | B | albelig | 2 | 2 | E | 154 | 161 | B-16-  | B-23-  | CQDAAIVG 
+| 1cf0 | B | albelig | 3 | 3 | E | 167 | 171 | B-29-  | B-33-  | SVWAA 
+| 1cf0 | B | albelig | 4 | 4 | H | 177 | 179 | B-39-  | B-41-  | FVN 
+| 1cf0 | B | albelig | 5 | 5 | H | 182 | 189 | B-44-  | B-51-  | PAEVGVLV 
+| 1cf0 | B | albelig | 6 | 6 | H | 196 | 199 | B-58-  | B-61-  | FYVN 
+| 1cf0 | B | albelig | 7 | 7 | E | 201 | 203 | B-63-  | B-65-  | LTL 
+| 1cf0 | B | albelig | 8 | 8 | E | 206 | 213 | B-68-  | B-75-  | QKCSVIRD 
+| 1cf0 | B | albelig | 9 | 9 | E | 222 | 227 | B-84-  | B-89-  | SMDLRT 
+| 1cf0 | B | albelig | 10 | 10 | E | 237 | 242 | B-99-  | B-104-  | NVTVTK 
+| 1cf0 | B | albelig | 11 | 11 | E | 246 | 252 | B-108-  | B-114-  | TLVLLMG 
+| 1cf0 | B | albelig | 12 | 12 | H | 258 | 274 | B-120-  | B-136-  | GGLINKKCYEMASHLRR 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 12
+= 2 = a = 3
+= 2 = m = 4
+= 2 = a = 11
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 10 = p = 12
+= 11 = m = 12
+# Listed 11 contacts. EOF.

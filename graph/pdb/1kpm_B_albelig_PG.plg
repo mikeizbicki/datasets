@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kpm, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOLIPASE A2, DABOIA RUSSELLI PULCHELLA, NEUROTOXIC,INFLAMMATION, HYDROLASE
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 1.8
+> date > 01-JAN-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > FIRST STRUCTURAL EVIDENCE OF A SPECIFIC INHIBITION OF PHOSPHOLIPASE A2BY VITAMIN E AND ITS IMPLICATIONS IN INFLAMMATION: CRYSTAL STRUCTUREOF THE COMPLEX FORMED BETWEEN PHOSPHOLIPASE A2 AND VITAMIN E AT 1.8 ARESOLUTION.
+> format_version > 2
+> pdbid > 1kpm
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > DABOIA RUSSELLII PULCHELLA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kpm | B | albelig | 1 | 1 | H | 124 | 135 | B-2-  | B-13-  | LLEFGKMILEET 
+| 1kpm | B | albelig | 2 | 2 | H | 139 | 142 | B-18-  | B-21-  | AIPS 
+| 1kpm | B | albelig | 3 | 3 | H | 161 | 174 | B-40-  | B-53-  | ATDRJIFVHDKLYG 
+| 1kpm | B | albelig | 4 | 4 | E | 188 | 191 | B-75-  | B-78-  | YKRV 
+| 1kpm | B | albelig | 5 | 5 | E | 194 | 197 | B-81-  | B-84-  | AIVN 
+| 1kpm | B | albelig | 6 | 6 | H | 202 | 220 | B-90-  | B-108-  | SMENRINELDKAAAIJFRQ 
+| 1kpm | B | albelig | 7 | 7 | H | 222 | 224 | B-110-  | B-112-  | LNT 
+| 1kpm | B | albelig | 8 | 8 | H | 227 | 229 | B-115-  | B-117-  | KKY 
+| 1kpm | B | albelig | 9 | 9 | H | 234 | 236 | B-122-  | B-125-  | DFL 
+| 1kpm | B | albelig | 10 | 10 | L | 246 | 246 | B-501-  | B-501-  | J 
+| 1kpm | B | albelig | 11 | 11 | L | 247 | 247 | B-502-  | B-502-  | J 
+| 1kpm | B | albelig | 12 | 12 | L | 248 | 248 | B-503-  | B-503-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 6
+= 1 = l = 10
+= 3 = a = 6
+= 4 = a = 5
+= 4 = l = 10
+= 5 = m = 6
+= 6 = l = 10
+= 6 = l = 11
+= 6 = l = 12
+# Listed 10 contacts. EOF.

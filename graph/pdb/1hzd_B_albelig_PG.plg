@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hzd, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNA-BINDING PROTEIN,ENOYL-COA HYDRATASE, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,LYASE
+> pdb_mol_name > AU-BINDING PROTEIN/ENOYL-COA HYDRATASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 24-JAN-01
+> header > LYASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN AUH PROTEIN, AN RNA-BINDINGHOMOLOGUE OF ENOYL-COA HYDRATASE
+> format_version > 2
+> pdbid > 1hzd
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hzd | B | albelig | 1 | 1 | E | 270 | 274 | B-77-  | B-81-  | LRVRH 
+| 1hzd | B | albelig | 2 | 2 | H | 277 | 279 | B-84-  | B-86-  | EEN 
+| 1hzd | B | albelig | 3 | 3 | E | 282 | 287 | B-89-  | B-94-  | IVVLGI 
+| 1hzd | B | albelig | 4 | 4 | H | 290 | 292 | B-97-  | B-99-  | AYG 
+| 1hzd | B | albelig | 5 | 5 | H | 298 | 312 | B-105-  | B-119-  | KNLIKMLSKAVDALK 
+| 1hzd | B | albelig | 6 | 6 | E | 319 | 324 | B-126-  | B-131-  | TIIIRS 
+| 1hzd | B | albelig | 7 | 7 | E | 328 | 331 | B-135-  | B-138-  | GIFC 
+| 1hzd | B | albelig | 8 | 8 | H | 336 | 339 | B-143-  | B-146-  | LKER 
+| 1hzd | B | albelig | 9 | 9 | H | 344 | 362 | B-151-  | B-169-  | SSEVGPFVSKIRAVINDIA 
+| 1hzd | B | albelig | 10 | 10 | E | 368 | 372 | B-175-  | B-179-  | TIAAI 
+| 1hzd | B | albelig | 11 | 11 | E | 374 | 377 | B-181-  | B-184-  | GLAL 
+| 1hzd | B | albelig | 12 | 12 | H | 379 | 386 | B-186-  | B-193-  | GGLELALA 
+| 1hzd | B | albelig | 13 | 13 | E | 389 | 393 | B-196-  | B-200-  | IRVAA 
+| 1hzd | B | albelig | 14 | 14 | E | 397 | 399 | B-204-  | B-206-  | KMG 
+| 1hzd | B | albelig | 15 | 15 | H | 402 | 405 | B-209-  | B-212-  | ETKL 
+| 1hzd | B | albelig | 16 | 16 | H | 413 | 421 | B-220-  | B-228-  | GTQRLPRAI 
+| 1hzd | B | albelig | 17 | 17 | H | 423 | 432 | B-230-  | B-239-  | MSLAKELIFS 
+| 1hzd | B | albelig | 18 | 18 | E | 435 | 437 | B-242-  | B-244-  | VLD 
+| 1hzd | B | albelig | 19 | 19 | H | 438 | 443 | B-245-  | B-250-  | GKEAKA 
+| 1hzd | B | albelig | 20 | 20 | E | 449 | 451 | B-256-  | B-258-  | HVL 
+| 1hzd | B | albelig | 21 | 21 | H | 459 | 471 | B-266-  | B-278-  | AAYRKALDLAREF 
+| 1hzd | B | albelig | 22 | 22 | H | 476 | 489 | B-283-  | B-296-  | PVAMRVAKLAINQG 
+| 1hzd | B | albelig | 23 | 23 | H | 494 | 506 | B-301-  | B-313-  | LVTGLAIEEACYA 
+| 1hzd | B | albelig | 24 | 24 | H | 512 | 522 | B-319-  | B-329-  | KDRLEGLLAFK 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 3 = p = 6
+= 5 = p = 9
+= 6 = a = 7
+= 6 = p = 10
+= 6 = a = 21
+= 7 = p = 11
+= 9 = m = 12
+= 10 = p = 13
+= 10 = m = 21
+= 11 = m = 12
+= 11 = p = 14
+= 13 = p = 20
+= 13 = m = 21
+= 14 = a = 18
+= 16 = m = 17
+= 18 = m = 19
+# Listed 17 contacts. EOF.

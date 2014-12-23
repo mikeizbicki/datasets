@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g1k, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA -BARREL, STRUCTURAL PROTEIN
+> pdb_mol_name > SCAFFOLDING PROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 12-OCT-00
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > COHESIN MODULE FROM THE CELLULOSOME OF CLOSTRIDIUMCELLULOLYTICUM
+> format_version > 2
+> pdbid > 1g1k
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM CELLULOLYTICUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g1k | B | albelig | 1 | 1 | E | 147 | 151 | B-4-  | B-8-  | LKVTV 
+| 1g1k | B | albelig | 2 | 2 | E | 153 | 156 | B-10-  | B-13-  | TANG 
+| 1g1k | B | albelig | 3 | 3 | E | 161 | 169 | B-18-  | B-26-  | TVTVPVTFA 
+| 1g1k | B | albelig | 4 | 4 | H | 172 | 174 | B-29-  | B-31-  | AKM 
+| 1g1k | B | albelig | 5 | 5 | E | 179 | 185 | B-36-  | B-42-  | TCNFYLG 
+| 1g1k | B | albelig | 6 | 6 | E | 191 | 198 | B-48-  | B-55-  | LEVVSVDA 
+| 1g1k | B | albelig | 7 | 7 | H | 205 | 208 | B-62-  | B-65-  | AAVN 
+| 1g1k | B | albelig | 8 | 8 | E | 209 | 214 | B-66-  | B-71-  | FSSSAS 
+| 1g1k | B | albelig | 9 | 9 | E | 217 | 223 | B-74-  | B-80-  | TISFLFL 
+| 1g1k | B | albelig | 10 | 10 | H | 228 | 230 | B-85-  | B-87-  | TDE 
+| 1g1k | B | albelig | 11 | 11 | E | 236 | 245 | B-93-  | B-102-  | GVFANIKFKL 
+| 1g1k | B | albelig | 12 | 12 | E | 252 | 265 | B-109-  | B-122-  | TTTPVTFKDGGAFG 
+| 1g1k | B | albelig | 13 | 13 | E | 275 | 278 | B-132-  | B-135-  | VTKT 
+| 1g1k | B | albelig | 14 | 14 | E | 280 | 284 | B-137-  | B-141-  | GSVTI 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 13
+= 2 = a = 3
+= 2 = p = 14
+= 3 = a = 11
+= 5 = a = 9
+= 5 = a = 12
+= 6 = a = 8
+= 6 = a = 11
+= 7 = m = 8
+= 7 = m = 9
+= 8 = a = 9
+= 12 = a = 14
+# Listed 13 contacts. EOF.

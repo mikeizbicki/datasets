@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ao3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COLLAGEN-BINDING, VON WILLEBRAND, CELL ADHESION
+> pdb_mol_name > VON WILLEBRAND FACTOR
+> graphtype > albelig
+> resolution > 2.2
+> date > 16-JUL-97
+> header > COLLAGEN-BINDING
+> pdb_org_common > HUMAN
+> title > A3 DOMAIN OF VON WILLEBRAND FACTOR
+> format_version > 2
+> pdbid > 1ao3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ao3 | A | albelig | 1 | 1 | E | 5 | 12 | A-5-  | A-12-  | LDVILLLD 
+| 1ao3 | A | albelig | 2 | 2 | H | 20 | 35 | A-20-  | A-35-  | SYFDEMKSFAKAFISK 
+| 1ao3 | A | albelig | 3 | 3 | E | 43 | 50 | A-43-  | A-50-  | TQVSVLQY 
+| 1ao3 | A | albelig | 4 | 4 | E | 55 | 58 | A-55-  | A-58-  | TIDV 
+| 1ao3 | A | albelig | 5 | 5 | H | 66 | 74 | A-66-  | A-74-  | KAHLLSLVD 
+| 1ao3 | A | albelig | 6 | 6 | H | 85 | 97 | A-85-  | A-97-  | IGDALGFAVRYLT 
+| 1ao3 | A | albelig | 7 | 7 | E | 108 | 115 | A-108-  | A-115-  | SKAVVILV 
+| 1ao3 | A | albelig | 8 | 8 | H | 124 | 132 | A-124-  | A-132-  | DAAADAARS 
+| 1ao3 | A | albelig | 9 | 9 | E | 135 | 142 | A-135-  | A-142-  | VTVFPIGI 
+| 1ao3 | A | albelig | 10 | 10 | H | 148 | 154 | A-148-  | A-154-  | AAQLRIL 
+| 1ao3 | A | albelig | 11 | 11 | H | 156 | 158 | A-156-  | A-158-  | GPA 
+| 1ao3 | A | albelig | 12 | 12 | H | 160 | 162 | A-160-  | A-162-  | DSN 
+| 1ao3 | A | albelig | 13 | 13 | E | 164 | 166 | A-164-  | A-166-  | VKL 
+| 1ao3 | A | albelig | 14 | 14 | H | 171 | 177 | A-171-  | A-177-  | DLPTMVT 
+| 1ao3 | A | albelig | 15 | 15 | H | 181 | 186 | A-181-  | A-186-  | SFLHKL 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = a = 5
+= 2 = m = 14
+= 3 = a = 4
+= 7 = p = 9
+= 9 = m = 10
+= 9 = m = 12
+= 9 = p = 13
+# Listed 9 contacts. EOF.

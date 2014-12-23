@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hxh, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA, ROSSMANN FOLD, SHORT-CHAIN DEHYDROGENASE,OXIDOREDUCTASE
+> pdb_mol_name > 3BETA/17BETA-HYDROXYSTEROID DEHYDROGENASE
+> graphtype > albelig
+> resolution > 1.22
+> date > 15-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > COMAMONAS TESTOSTERONI 3BETA/17BETA HYDROXYSTEROIDDEHYDROGENASE
+> format_version > 2
+> pdbid > 1hxh
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > COMAMONAS TESTOSTERONI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hxh | B | albelig | 1 | 1 | E | 262 | 265 | B-8-  | B-11-  | VALV 
+| 1hxh | B | albelig | 2 | 2 | H | 271 | 282 | B-17-  | B-28-  | GVGLEVVKLLLG 
+| 1hxh | B | albelig | 3 | 3 | E | 286 | 289 | B-32-  | B-35-  | KVAF 
+| 1hxh | B | albelig | 4 | 4 | H | 294 | 304 | B-40-  | B-50-  | EAAGQQLAAEL 
+| 1hxh | B | albelig | 5 | 5 | E | 308 | 310 | B-54-  | B-56-  | SMF 
+| 1hxh | B | albelig | 6 | 6 | H | 318 | 332 | B-64-  | B-78-  | EADWTLVMAAVQRRL 
+| 1hxh | B | albelig | 7 | 7 | E | 337 | 340 | B-83-  | B-86-  | VLVN 
+| 1hxh | B | albelig | 8 | 8 | H | 355 | 367 | B-101-  | B-113-  | LEDFSRLLKINTE 
+| 1hxh | B | albelig | 9 | 9 | H | 368 | 380 | B-114-  | B-126-  | SVFIGCQQGIAAM 
+| 1hxh | B | albelig | 10 | 10 | E | 385 | 390 | B-131-  | B-136-  | GSIINM 
+| 1hxh | B | albelig | 11 | 11 | H | 393 | 395 | B-139-  | B-141-  | VSS 
+| 1hxh | B | albelig | 12 | 12 | H | 403 | 426 | B-149-  | B-172-  | AGYSASKAAVSALTRAAALSCRKQ 
+| 1hxh | B | albelig | 13 | 13 | E | 430 | 437 | B-176-  | B-183-  | IRVNSIHP 
+| 1hxh | B | albelig | 14 | 14 | H | 443 | 448 | B-189-  | B-194-  | PMMQAS 
+| 1hxh | B | albelig | 15 | 15 | H | 455 | 457 | B-201-  | B-203-  | KEM 
+| 1hxh | B | albelig | 16 | 16 | H | 473 | 484 | B-219-  | B-230-  | PERIAQLVLFLA 
+| 1hxh | B | albelig | 17 | 17 | H | 486 | 488 | B-232-  | B-234-  | DES 
+| 1hxh | B | albelig | 18 | 18 | E | 495 | 498 | B-241-  | B-244-  | ELHA 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = m = 3
+= 2 = m = 16
+= 3 = p = 5
+= 3 = m = 6
+= 4 = m = 5
+= 6 = p = 9
+= 7 = p = 10
+= 8 = m = 9
+= 8 = p = 12
+= 9 = a = 10
+= 10 = m = 12
+= 10 = p = 13
+= 11 = m = 13
+= 12 = a = 13
+= 13 = a = 16
+= 13 = p = 18
+# Listed 18 contacts. EOF.

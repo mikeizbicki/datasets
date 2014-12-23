@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g5c, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA CARBONIC ANHYDRASE, ZINC, HEPES, LYASE
+> pdb_mol_name > BETA-CARBONIC ANHYDRASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 31-OCT-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE 'CAB' TYPE BETA CLASS CARBONICANHYDRASE FROM METHANOBACTERIUM THERMOAUTOTROPHICUM
+> format_version > 2
+> pdbid > 1g5c
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g5c | C | albelig | 1 | 1 | H | 332 | 340 | C-3-  | C-11-  | IKDILRENQ 
+| 1g5c | C | albelig | 2 | 2 | H | 347 | 349 | C-18-  | C-20-  | LSD 
+| 1g5c | C | albelig | 3 | 3 | E | 356 | 361 | C-27-  | C-32-  | LCIITC 
+| 1g5c | C | albelig | 4 | 4 | H | 364 | 366 | C-35-  | C-37-  | SRL 
+| 1g5c | C | albelig | 5 | 5 | H | 369 | 374 | C-40-  | C-45-  | LLERAL 
+| 1g5c | C | albelig | 6 | 6 | E | 382 | 386 | C-53-  | C-57-  | KVIKN 
+| 1g5c | C | albelig | 7 | 7 | H | 393 | 406 | C-64-  | C-77-  | DGVIRSAAVAIYAL 
+| 1g5c | C | albelig | 8 | 8 | E | 410 | 416 | C-81-  | C-87-  | EIIIVGH 
+| 1g5c | C | albelig | 9 | 9 | H | 420 | 422 | C-91-  | C-93-  | GMA 
+| 1g5c | C | albelig | 10 | 10 | H | 426 | 435 | C-97-  | C-106-  | EDLIVSRMRE 
+| 1g5c | C | albelig | 11 | 11 | H | 440 | 449 | C-111-  | C-120-  | EEVIENFSID 
+| 1g5c | C | albelig | 12 | 12 | H | 457 | 469 | C-128-  | C-140-  | EEENVIEGVKRLK 
+| 1g5c | C | albelig | 13 | 13 | E | 479 | 485 | C-150-  | C-156-  | GVHGLII 
+| 1g5c | C | albelig | 14 | 14 | E | 492 | 496 | C-163-  | C-167-  | LKPLY 
+| 1g5c | C | albelig | 15 | 15 | L | 993 | 993 | C-1003-  | C-1003-  | J 
+| 1g5c | C | albelig | 16 | 16 | L | 994 | 994 | C-1001-  | C-1001-  | J 
+| 1g5c | C | albelig | 17 | 17 | L | 995 | 995 | C-2202-  | C-2202-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 6
+= 3 = p = 8
+= 3 = l = 15
+= 4 = l = 17
+= 8 = a = 12
+= 8 = p = 13
+= 8 = l = 15
+= 9 = l = 15
+= 9 = l = 17
+= 10 = m = 11
+= 12 = a = 13
+= 12 = m = 14
+= 12 = l = 16
+= 13 = a = 14
+= 15 = l = 17
+# Listed 15 contacts. EOF.

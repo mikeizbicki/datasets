@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iib, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOENOLPYRUVATE DEPENDENT PHOSPHOTRANSFERASE SYSTEM, IIB ENZYMES,CYSTEINE PHOSPHORYLATION, PHOSPHOTRANSFERASE
+> pdb_mol_name > ENZYME IIB OF THE CELLOBIOSE-SPECIFIC PHOSPHOTRANSFERASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 23-DEC-96
+> header > PHOSPHOTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF IIBCELLOBIOSE FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1iib
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iib | A | albelig | 1 | 1 | E | 2 | 8 | A-4-  | A-10-  | KHIYLFS 
+| 1iib | A | albelig | 2 | 2 | H | 11 | 27 | A-13-  | A-29-  | GMSTSLLVSKMRAQAEK 
+| 1iib | A | albelig | 3 | 3 | E | 32 | 38 | A-34-  | A-40-  | VIIEAFP 
+| 1iib | A | albelig | 4 | 4 | H | 39 | 46 | A-41-  | A-48-  | ETLAGEKG 
+| 1iib | A | albelig | 5 | 5 | E | 51 | 54 | A-53-  | A-56-  | VVLL 
+| 1iib | A | albelig | 6 | 6 | H | 56 | 68 | A-58-  | A-70-  | PQIAYMLPEIQRL 
+| 1iib | A | albelig | 7 | 7 | E | 74 | 76 | A-76-  | A-78-  | VEV 
+| 1iib | A | albelig | 8 | 8 | H | 79 | 83 | A-81-  | A-85-  | SLLYG 
+| 1iib | A | albelig | 9 | 9 | H | 87 | 102 | A-89-  | A-104-  | GLGVLKAAVAAIKKAA 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = m = 4
+= 1 = p = 5
+= 2 = a = 3
+= 2 = m = 9
+= 3 = m = 4
+= 5 = p = 7
+# Listed 7 contacts. EOF.

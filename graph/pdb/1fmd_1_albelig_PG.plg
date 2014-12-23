@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fmd, chain 1.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS, ICOSAHEDRAL VIRUS
+> pdb_mol_name > FOOT-AND-MOUTH DISEASE VIRUS (SUBUNIT VP1)
+> graphtype > albelig
+> resolution > 3.5
+> date > 10-FEB-94
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE AND ANTIGENICITY OF A TYPE C FOOT-AND-MOUTHDISEASE VIRUS
+> format_version > 2
+> pdbid > 1fmd
+> experiment > X-RAY DIFFRACTION
+> chainid > 1
+> graphclass > protein graph
+> pdb_org_sci > FOOT-AND-MOUTH DISEASE VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fmd | 1 | albelig | 1 | 1 | H | 5 | 7 | 1-5-  | 1-7-  | GES 
+| 1fmd | 1 | albelig | 2 | 2 | H | 15 | 18 | 1-15-  | 1-18-  | VENY 
+| 1fmd | 1 | albelig | 3 | 3 | H | 27 | 30 | 1-27-  | 1-30-  | RHHT 
+| 1fmd | 1 | albelig | 4 | 4 | H | 32 | 35 | 1-32-  | 1-35-  | VAFV 
+| 1fmd | 1 | albelig | 5 | 5 | E | 39 | 42 | 1-39-  | 1-42-  | FVKV 
+| 1fmd | 1 | albelig | 6 | 6 | E | 48 | 50 | 1-48-  | 1-50-  | QHT 
+| 1fmd | 1 | albelig | 7 | 7 | H | 53 | 55 | 1-53-  | 1-55-  | VMQ 
+| 1fmd | 1 | albelig | 8 | 8 | H | 61 | 66 | 1-61-  | 1-66-  | IVGALL 
+| 1fmd | 1 | albelig | 9 | 9 | E | 69 | 89 | 1-69-  | 1-89-  | ATYYFSDLEIAVTHTGKLTWV 
+| 1fmd | 1 | albelig | 10 | 10 | H | 95 | 99 | 1-95-  | 1-99-  | VSALN 
+| 1fmd | 1 | albelig | 11 | 11 | E | 112 | 117 | 1-112-  | 1-117-  | VTRLAL 
+| 1fmd | 1 | albelig | 12 | 12 | E | 144 | 165 | 1-167-  | 1-188-  | AVKAETITELLVRMKRAELYCP 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = a = 12
+= 6 = a = 12
+= 9 = m = 10
+= 9 = p = 11
+= 9 = a = 12
+= 10 = m = 12
+# Listed 6 contacts. EOF.

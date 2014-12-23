@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j2w, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SCHIFF BASE, DEOXYRIBOSE PHOSPAHTE, CARBINOLAMINE,STRUCTURAL GENOMICS, RIKEN STRUCTURAL GENOMICS/PROTEOMICSINITIATIVE, RSGI, LYASE
+> pdb_mol_name > ALDOLASE PROTEIN
+> graphtype > albelig
+> resolution > 1.5
+> date > 14-JAN-03
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > TETRAMERIC STRUCTURE OF ALDOLASE FROM THERMUS THERMOPHILUSHB8
+> format_version > 2
+> pdbid > 1j2w
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j2w | A | albelig | 1 | 1 | H | 4 | 6 | A-4-  | A-6-  | AAH 
+| 1j2w | A | albelig | 2 | 2 | E | 7 | 10 | A-7-  | A-10-  | IDHT 
+| 1j2w | A | albelig | 3 | 3 | H | 18 | 31 | A-18-  | A-31-  | LEEVAKAAEEALEY 
+| 1j2w | A | albelig | 4 | 4 | E | 35 | 37 | A-35-  | A-37-  | GLC 
+| 1j2w | A | albelig | 5 | 5 | H | 40 | 49 | A-40-  | A-49-  | PSYVAWVRAR 
+| 1j2w | A | albelig | 6 | 6 | E | 56 | 61 | A-56-  | A-61-  | RLVTVV 
+| 1j2w | A | albelig | 7 | 7 | H | 70 | 82 | A-70-  | A-82-  | KEVKALEAALACA 
+| 1j2w | A | albelig | 8 | 8 | E | 87 | 91 | A-87-  | A-91-  | EVDMV 
+| 1j2w | A | albelig | 9 | 9 | H | 94 | 98 | A-94-  | A-98-  | LGRAK 
+| 1j2w | A | albelig | 10 | 10 | H | 102 | 115 | A-102-  | A-115-  | LDYLEAEVRAVREA 
+| 1j2w | A | albelig | 11 | 11 | E | 120 | 124 | A-120-  | A-124-  | VLKVI 
+| 1j2w | A | albelig | 12 | 12 | H | 127 | 129 | A-127-  | A-129-  | TGY 
+| 1j2w | A | albelig | 13 | 13 | H | 132 | 144 | A-132-  | A-144-  | PEEIARLAEAAIR 
+| 1j2w | A | albelig | 14 | 14 | E | 149 | 151 | A-149-  | A-151-  | FLK 
+| 1j2w | A | albelig | 15 | 15 | H | 163 | 173 | A-163-  | A-173-  | LEDVALLVRVA 
+| 1j2w | A | albelig | 16 | 16 | E | 178 | 182 | A-178-  | A-182-  | QVKAA 
+| 1j2w | A | albelig | 17 | 17 | H | 188 | 196 | A-188-  | A-196-  | RETALRMLK 
+| 1j2w | A | albelig | 18 | 18 | E | 201 | 204 | A-201-  | A-204-  | RLGT 
+| 1j2w | A | albelig | 19 | 19 | H | 207 | 211 | A-207-  | A-211-  | GVALV 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 18
+= 2 = p = 4
+= 2 = p = 18
+= 3 = m = 5
+= 4 = p = 6
+= 5 = m = 6
+= 6 = m = 7
+= 6 = p = 8
+= 8 = p = 11
+= 10 = p = 13
+= 11 = p = 14
+= 13 = p = 15
+= 14 = p = 16
+= 16 = p = 18
+# Listed 15 contacts. EOF.

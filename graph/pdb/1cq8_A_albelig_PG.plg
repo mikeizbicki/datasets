@@ -1,0 +1,83 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cq8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-SUBSTRATE COMPLEX, TRANSFERASE
+> pdb_mol_name > ASPARTATE AMINOTRANSFERASE (2.6.1.1)
+> graphtype > albelig
+> resolution > 2.4
+> date > 06-AUG-99
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > ASPARTATE AMINOTRANSFERASE (E.C. 2.6.1.1) COMPLEXED WITH C6-PYRIDOXAL-5P-PHOSPHATE
+> format_version > 2
+> pdbid > 1cq8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cq8 | A | albelig | 1 | 1 | H | 14 | 22 | A-18-  | A-26-  | LGLADLFRA 
+| 1cq8 | A | albelig | 2 | 2 | H | 47 | 59 | A-51-  | A-63-  | TSVKKAEQYLLEN 
+| 1cq8 | A | albelig | 3 | 3 | H | 72 | 83 | A-77-  | A-88-  | PEFGRCTQELLF 
+| 1cq8 | A | albelig | 4 | 4 | H | 88 | 91 | A-93-  | A-96-  | ALIN 
+| 1cq8 | A | albelig | 5 | 5 | E | 95 | 100 | A-100-  | A-105-  | ARTAQT 
+| 1cq8 | A | albelig | 6 | 6 | H | 102 | 117 | A-107-  | A-122-  | GGTGALRVAADFLAKN 
+| 1cq8 | A | albelig | 7 | 7 | E | 122 | 127 | A-129-  | A-137-  | RVWVSN 
+| 1cq8 | A | albelig | 8 | 8 | H | 132 | 139 | A-142-  | A-149-  | NHKSVFNS 
+| 1cq8 | A | albelig | 9 | 9 | E | 143 | 148 | A-154-  | A-159-  | EVREYA 
+| 1cq8 | A | albelig | 10 | 10 | H | 159 | 166 | A-170-  | A-177-  | FDALINSL 
+| 1cq8 | A | albelig | 11 | 11 | E | 174 | 178 | A-185-  | A-189-  | VVLFH 
+| 1cq8 | A | albelig | 12 | 12 | H | 191 | 204 | A-202-  | A-215-  | LEQWQTLAQLSVEK 
+| 1cq8 | A | albelig | 13 | 13 | E | 207 | 212 | A-218-  | A-223-  | LPLFDF 
+| 1cq8 | A | albelig | 14 | 14 | H | 223 | 234 | A-235-  | A-246-  | EDAEGLRAFAAM 
+| 1cq8 | A | albelig | 15 | 15 | E | 238 | 243 | A-250-  | A-255-  | LIVASS 
+| 1cq8 | A | albelig | 16 | 16 | H | 251 | 253 | A-263-  | A-265-  | YNE 
+| 1cq8 | A | albelig | 17 | 17 | E | 256 | 261 | A-268-  | A-273-  | GACTLV 
+| 1cq8 | A | albelig | 18 | 18 | H | 265 | 280 | A-277-  | A-292-  | SETVDRAFSQMKAAIR 
+| 1cq8 | A | albelig | 19 | 19 | H | 288 | 299 | A-300-  | A-311-  | AHGASVVATILS 
+| 1cq8 | A | albelig | 20 | 20 | H | 301 | 332 | A-313-  | A-344-  | DALRAIWEQELTDMRQRIQRMRQLFVNTLQEK 
+| 1cq8 | A | albelig | 21 | 21 | H | 339 | 343 | A-351-  | A-355-  | SFIIK 
+| 1cq8 | A | albelig | 22 | 22 | E | 348 | 350 | A-360-  | A-362-  | FSF 
+| 1cq8 | A | albelig | 23 | 23 | H | 355 | 365 | A-367-  | A-377-  | KEQVLRLREEF 
+| 1cq8 | A | albelig | 24 | 24 | E | 374 | 376 | A-386-  | A-388-  | RVN 
+| 1cq8 | A | albelig | 25 | 25 | H | 377 | 379 | A-389-  | A-391-  | VAG 
+| 1cq8 | A | albelig | 26 | 26 | H | 385 | 393 | A-397-  | A-405-  | MAPLCEAIV 
+| 1cq8 | A | albelig | 27 | 27 | L | 397 | 397 | A-413-  | A-413-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 27
+= 2 = m = 19
+= 2 = m = 20
+= 3 = m = 5
+= 3 = m = 14
+= 3 = m = 19
+= 5 = m = 6
+= 5 = a = 17
+= 5 = m = 18
+= 6 = m = 8
+= 6 = a = 15
+= 6 = p = 17
+= 6 = l = 27
+= 7 = m = 8
+= 7 = p = 9
+= 7 = p = 11
+= 8 = l = 27
+= 9 = m = 10
+= 10 = m = 12
+= 11 = p = 13
+= 11 = l = 27
+= 12 = p = 14
+= 13 = a = 14
+= 13 = p = 15
+= 13 = l = 27
+= 15 = a = 17
+= 15 = l = 27
+= 19 = m = 20
+= 20 = m = 21
+= 20 = m = 25
+= 20 = m = 26
+= 22 = a = 24
+= 22 = l = 27
+= 24 = m = 25
+= 24 = l = 27
+# Listed 35 contacts. EOF.

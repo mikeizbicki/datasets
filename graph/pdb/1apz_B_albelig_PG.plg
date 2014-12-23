@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1apz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ASPARTYLGLUCOSAMINIDASE, GLYCOSYLASPARAGINASE, COMPLEX (HYDROLASE-PEPTIDE), COMPLEX (HYDROLASE-PEPTIDE) COMPLEX
+> pdb_mol_name > ASPARTYLGLUCOSAMINIDASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 14-JUN-95
+> header > COMPLEX (HYDROLASE/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > HUMAN ASPARTYLGLUCOSAMINIDASE COMPLEX WITH REACTION PRODUCT
+> format_version > 2
+> pdbid > 1apz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1apz | B | albelig | 1 | 1 | E | 164 | 169 | B-184-  | B-189-  | IGMVVI 
+| 1apz | B | albelig | 2 | 2 | E | 175 | 181 | B-195-  | B-201-  | IAAGTST 
+| 1apz | B | albelig | 3 | 3 | E | 202 | 205 | B-222-  | B-225-  | AYAD 
+| 1apz | B | albelig | 4 | 4 | E | 209 | 215 | B-229-  | B-235-  | GAAAATG 
+| 1apz | B | albelig | 5 | 5 | H | 217 | 220 | B-237-  | B-240-  | GDIL 
+| 1apz | B | albelig | 6 | 6 | H | 225 | 233 | B-245-  | B-253-  | PSYQAVEYM 
+| 1apz | B | albelig | 7 | 7 | H | 239 | 253 | B-259-  | B-273-  | PTIACQKVISRIQKH 
+| 1apz | B | albelig | 8 | 8 | E | 259 | 265 | B-279-  | B-285-  | GAVICAN 
+| 1apz | B | albelig | 9 | 9 | E | 270 | 274 | B-290-  | B-294-  | YGAAD 
+| 1apz | B | albelig | 10 | 10 | E | 282 | 289 | B-302-  | B-309-  | QFSFMVYN 
+| 1apz | B | albelig | 11 | 11 | E | 293 | 301 | B-313-  | B-321-  | NQPTEEKVD 
+| 1apz | B | albelig | 12 | 12 | L | 609 | 609 | B-511-  | B-511-  | J 
+| 1apz | B | albelig | 13 | 13 | L | 610 | 610 | B-551-  | B-551-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = l = 13
+= 3 = a = 4
+= 3 = m = 6
+= 4 = m = 6
+= 4 = a = 8
+= 4 = l = 13
+= 5 = l = 13
+= 6 = m = 7
+= 7 = a = 8
+= 7 = p = 9
+= 7 = l = 12
+= 8 = a = 9
+= 8 = l = 12
+= 10 = a = 11
+# Listed 16 contacts. EOF.

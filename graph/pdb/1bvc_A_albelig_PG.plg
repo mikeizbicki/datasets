@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN STORAGE
+> pdb_mol_name > APOMYOGLOBIN
+> graphtype > albelig
+> resolution > 1.5
+> date > 16-DEC-94
+> header > OXYGEN STORAGE
+> pdb_org_common > SPERM WHALE
+> title > STRUCTURE OF A BILIVERDIN APOMYOGLOBIN COMPLEX (FORM D) AT118 K
+> format_version > 2
+> pdbid > 1bvc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PHYSETER CATODON
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvc | A | albelig | 1 | 1 | H | 4 | 17 | A-4-  | A-17-  | EGEWQLVLHVWAKV 
+| 1bvc | A | albelig | 2 | 2 | H | 21 | 35 | A-21-  | A-35-  | VAGHGQDILIRLFKS 
+| 1bvc | A | albelig | 3 | 3 | H | 37 | 42 | A-37-  | A-42-  | PETLEK 
+| 1bvc | A | albelig | 4 | 4 | H | 52 | 57 | A-52-  | A-57-  | EAEMKA 
+| 1bvc | A | albelig | 5 | 5 | H | 59 | 77 | A-59-  | A-77-  | EDLKKHGVTVLTALGAILK 
+| 1bvc | A | albelig | 6 | 6 | H | 83 | 97 | A-83-  | A-97-  | EAELKPLAQSHATKH 
+| 1bvc | A | albelig | 7 | 7 | H | 101 | 118 | A-101-  | A-118-  | IKYLEFISEAIIHVLHSR 
+| 1bvc | A | albelig | 8 | 8 | H | 125 | 149 | A-125-  | A-149-  | ADAQGAMNKALELFRKDIAAKYKEL 
+| 1bvc | A | albelig | 9 | 9 | L | 154 | 154 | A-155-  | A-155-  | J 
+| 1bvc | A | albelig | 10 | 10 | L | 155 | 155 | A-156-  | A-156-  | J 
+| 1bvc | A | albelig | 11 | 11 | L | 156 | 156 | A-157-  | A-157-  | J 
+| 1bvc | A | albelig | 12 | 12 | L | 157 | 157 | A-158-  | A-158-  | J 
+| 1bvc | A | albelig | 13 | 13 | L | 158 | 158 | A-154-  | A-154-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 8
+= 1 = l = 11
+= 1 = l = 12
+= 2 = m = 3
+= 2 = a = 4
+= 2 = m = 5
+= 2 = a = 7
+= 2 = l = 10
+= 2 = l = 13
+= 3 = m = 7
+= 3 = l = 13
+= 5 = l = 13
+= 6 = m = 8
+= 6 = l = 13
+= 7 = a = 8
+= 7 = l = 10
+= 7 = l = 11
+= 7 = l = 13
+= 8 = l = 13
+= 11 = l = 12
+# Listed 21 contacts. EOF.

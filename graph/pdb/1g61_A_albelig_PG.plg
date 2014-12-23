@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g61, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA-BARREL VELCRO CLOSURE SUBDOMAIN, STRUCTURALGENOMICS, PSI, PROTEIN STRUCTURE INITIATIVE, NEW YORK SGXRESEARCH CENTER FOR STRUCTURAL GENOMICS, NYSGXRC,TRANSLATION
+> pdb_mol_name > TRANSLATION INITIATION FACTOR 6
+> graphtype > albelig
+> resolution > 1.3
+> date > 02-NOV-00
+> header > TRANSLATION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF M.JANNASCHII EIF6
+> format_version > 2
+> pdbid > 1g61
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > METHANOCALDOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g61 | A | albelig | 1 | 1 | E | 2 | 5 | A-2004-  | A-2007-  | IIRK 
+| 1g61 | A | albelig | 2 | 2 | H | 13 | 16 | A-2015-  | A-2018-  | IGVL 
+| 1g61 | A | albelig | 3 | 3 | E | 23 | 26 | A-2025-  | A-2028-  | ITLL 
+| 1g61 | A | albelig | 4 | 4 | H | 32 | 42 | A-2034-  | A-2044-  | KDDVNEVSEVL 
+| 1g61 | A | albelig | 5 | 5 | E | 45 | 48 | A-2047-  | A-2050-  | KCLQ 
+| 1g61 | A | albelig | 6 | 6 | H | 57 | 60 | A-2059-  | A-2062-  | VGSL 
+| 1g61 | A | albelig | 7 | 7 | E | 67 | 71 | A-2069-  | A-2073-  | GLLLP 
+| 1g61 | A | albelig | 8 | 8 | H | 76 | 88 | A-2078-  | A-2090-  | DEELDRIKNFLKE 
+| 1g61 | A | albelig | 9 | 9 | E | 94 | 98 | A-2096-  | A-2100-  | NVEII 
+| 1g61 | A | albelig | 10 | 10 | H | 105 | 108 | A-2107-  | A-2110-  | LGNL 
+| 1g61 | A | albelig | 11 | 11 | E | 109 | 111 | A-2111-  | A-2113-  | ILT 
+| 1g61 | A | albelig | 12 | 12 | E | 115 | 118 | A-2117-  | A-2120-  | GALI 
+| 1g61 | A | albelig | 13 | 13 | H | 120 | 133 | A-2122-  | A-2135-  | PELKDFKKDIEDSL 
+| 1g61 | A | albelig | 14 | 14 | E | 136 | 139 | A-2138-  | A-2141-  | EVEI 
+| 1g61 | A | albelig | 15 | 15 | E | 152 | 154 | A-2154-  | A-2156-  | AVV 
+| 1g61 | A | albelig | 16 | 16 | E | 158 | 161 | A-2160-  | A-2163-  | GCLT 
+| 1g61 | A | albelig | 17 | 17 | H | 167 | 177 | A-2169-  | A-2179-  | DDELEFLKSLF 
+| 1g61 | A | albelig | 18 | 18 | E | 181 | 184 | A-2183-  | A-2186-  | YIGK 
+| 1g61 | A | albelig | 19 | 19 | H | 194 | 196 | A-2196-  | A-2198-  | VGA 
+| 1g61 | A | albelig | 20 | 20 | E | 198 | 200 | A-2200-  | A-2202-  | IIA 
+| 1g61 | A | albelig | 21 | 21 | E | 205 | 208 | A-2207-  | A-2210-  | AVVG 
+| 1g61 | A | albelig | 22 | 22 | H | 213 | 223 | A-2215-  | A-2225-  | GPELLIIEDAL 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 21
+= 3 = p = 5
+= 5 = m = 8
+= 7 = p = 9
+= 9 = a = 13
+= 10 = m = 11
+= 11 = a = 12
+= 12 = p = 14
+= 13 = m = 14
+= 15 = a = 16
+= 16 = p = 18
+= 16 = m = 22
+= 18 = m = 22
+= 19 = m = 20
+= 20 = a = 21
+# Listed 15 contacts. EOF.

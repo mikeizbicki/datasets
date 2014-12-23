@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a4k, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, ANTIBODY, CATALYTIC ANTIBODY, DIELS ALDER,GERMLINE
+> pdb_mol_name > ANTIBODY FAB
+> graphtype > albelig
+> resolution > 2.4
+> date > 30-JAN-98
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > DIELS ALDER CATALYTIC ANTIBODY WITH TRANSITION STATEANALOGUE
+> format_version > 2
+> pdbid > 1a4k
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a4k | H | albelig | 1 | 1 | E | 222 | 224 | H-4-  | H-6-  | LLE 
+| 1a4k | H | albelig | 2 | 2 | E | 228 | 230 | H-10-  | H-12-  | ELK 
+| 1a4k | H | albelig | 3 | 3 | E | 236 | 242 | H-18-  | H-24-  | VKISCKA 
+| 1a4k | H | albelig | 4 | 4 | H | 247 | 249 | H-29-  | H-31-  | FTN 
+| 1a4k | H | albelig | 5 | 5 | E | 251 | 257 | H-33-  | H-39-  | GMNWVKQ 
+| 1a4k | H | albelig | 6 | 6 | E | 264 | 269 | H-46-  | H-51-  | KWMGWI 
+| 1a4k | H | albelig | 7 | 7 | E | 276 | 278 | H-57-  | H-59-  | PTY 
+| 1a4k | H | albelig | 8 | 8 | H | 280 | 282 | H-61-  | H-63-  | DDF 
+| 1a4k | H | albelig | 9 | 9 | E | 286 | 291 | H-67-  | H-72-  | FAFSLE 
+| 1a4k | H | albelig | 10 | 10 | H | 292 | 294 | H-73-  | H-75-  | TSA 
+| 1a4k | H | albelig | 11 | 11 | E | 296 | 301 | H-77-  | H-82-  | TAYLQI 
+| 1a4k | H | albelig | 12 | 12 | H | 306 | 308 | H-84-  | H-86-  | NED 
+| 1a4k | H | albelig | 13 | 13 | E | 310 | 318 | H-88-  | H-96-  | ATYFCVQAE 
+| 1a4k | H | albelig | 14 | 14 | E | 323 | 327 | H-1100-  | H-103-  | TFDYW 
+| 1a4k | H | albelig | 15 | 15 | E | 331 | 335 | H-107-  | H-111-  | TTVTV 
+| 1a4k | H | albelig | 16 | 16 | E | 344 | 348 | H-120-  | H-124-  | SVFPL 
+| 1a4k | H | albelig | 17 | 17 | E | 363 | 369 | H-139-  | H-145-  | GDLVKDY 
+| 1a4k | H | albelig | 18 | 18 | E | 375 | 378 | H-151-  | H-154-  | TVSW 
+| 1a4k | H | albelig | 19 | 19 | E | 400 | 405 | H-176-  | H-181-  | YSLSSV 
+| 1a4k | H | albelig | 20 | 20 | H | 412 | 415 | H-188-  | H-191-  | SLGT 
+| 1a4k | H | albelig | 21 | 21 | E | 419 | 423 | H-195-  | H-199-  | IDNVN 
+| 1a4k | H | albelig | 22 | 22 | H | 425 | 427 | H-201-  | H-203-  | KPS 
+| 1a4k | H | albelig | 23 | 23 | E | 432 | 434 | H-208-  | H-210-  | DKK 
+| 1a4k | H | albelig | 24 | 24 | L | 875 | 875 | H-3083-  | H-3083-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 13
+= 2 = p = 15
+= 3 = a = 5
+= 3 = a = 11
+= 3 = p = 13
+= 4 = l = 24
+= 5 = a = 6
+= 5 = p = 11
+= 5 = a = 13
+= 5 = l = 24
+= 6 = a = 7
+= 6 = p = 9
+= 6 = l = 24
+= 7 = a = 9
+= 9 = m = 10
+= 9 = a = 11
+= 13 = a = 14
+= 13 = a = 15
+= 13 = l = 24
+= 14 = l = 24
+= 16 = a = 17
+= 16 = a = 23
+= 17 = a = 19
+= 18 = a = 21
+= 21 = a = 23
+# Listed 26 contacts. EOF.

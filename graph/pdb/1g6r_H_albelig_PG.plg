@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g6r, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > T CELL ANTIGEN RECEPTOR, MAJOR HISTOCOMPATIBILITY COMPLEX,SUPERAGONIST, IMMUNE SYSTEM
+> pdb_mol_name > MAJOR HISTOCOMPATIBILITY COMPLEX CLASS I
+> graphtype > albelig
+> resolution > 2.8
+> date > 07-NOV-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > A FUNCTIONAL HOT SPOT FOR ANTIGEN RECOGNITION IN ASUPERAGONIST TCR/MHC COMPLEX
+> format_version > 2
+> pdbid > 1g6r
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g6r | H | albelig | 1 | 1 | E | 444 | 453 | H-3-  | H-12-  | HSLRYFVTAV 
+| 1g6r | H | albelig | 2 | 2 | E | 462 | 469 | H-21-  | H-28-  | RYMEVGYV 
+| 1g6r | H | albelig | 3 | 3 | E | 472 | 478 | H-31-  | H-37-  | TEFVRFD 
+| 1g6r | H | albelig | 4 | 4 | H | 491 | 495 | H-50-  | H-54-  | RWMEQ 
+| 1g6r | H | albelig | 5 | 5 | H | 498 | 525 | H-57-  | H-84-  | PEYWERETQKAKGNEQSFRVDLRTLLGY 
+| 1g6r | H | albelig | 6 | 6 | E | 535 | 544 | H-94-  | H-103-  | TIQVISGDEV 
+| 1g6r | H | albelig | 7 | 7 | E | 550 | 559 | H-109-  | H-118-  | LLRGYQQYAY 
+| 1g6r | H | albelig | 8 | 8 | E | 563 | 567 | H-122-  | H-126-  | DYIAL 
+| 1g6r | H | albelig | 9 | 9 | H | 579 | 589 | H-138-  | H-148-  | MAALITKHKWE 
+| 1g6r | H | albelig | 10 | 10 | H | 593 | 604 | H-152-  | H-163-  | EAERLRAYLEGT 
+| 1g6r | H | albelig | 11 | 11 | H | 605 | 615 | H-164-  | H-174-  | DVEWLRRYLKN 
+| 1g6r | H | albelig | 12 | 12 | E | 627 | 635 | H-186-  | H-194-  | KAHVTHHSR 
+| 1g6r | H | albelig | 13 | 13 | E | 639 | 649 | H-198-  | H-208-  | KVTLREWALGF 
+| 1g6r | H | albelig | 14 | 14 | E | 655 | 659 | H-214-  | H-218-  | TLTWQ 
+| 1g6r | H | albelig | 15 | 15 | E | 682 | 691 | H-241-  | H-250-  | FQKWASVVVP 
+| 1g6r | H | albelig | 16 | 16 | H | 695 | 697 | H-254-  | H-256-  | EQY 
+| 1g6r | H | albelig | 17 | 17 | E | 699 | 703 | H-258-  | H-262-  | TEHVY 
+| 1g6r | H | albelig | 18 | 18 | E | 711 | 714 | H-270-  | H-273-  | LTLR 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 11
+= 2 = a = 3
+= 2 = m = 5
+= 6 = a = 7
+= 7 = a = 8
+= 10 = m = 11
+= 12 = a = 13
+= 12 = a = 18
+= 13 = a = 14
+= 13 = a = 15
+= 14 = a = 15
+= 14 = a = 17
+= 17 = a = 18
+# Listed 15 contacts. EOF.

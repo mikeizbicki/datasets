@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f3y, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME,MIXED 4-STRANDED BETA SHEET, 2-STRANDED ANTIPARALLELSHEET, ALPHA-BETA-ALPHA SANDWICH, HYDROLASE
+> pdb_mol_name > DIADENOSINE 5',5'''-P1,P4-TETRAPHOSPHATE
+> graphtype > albelig
+> resolution > -1.0
+> date > 06-JUN-00
+> header > HYDROLASE
+> pdb_org_common > NARROW-LEAVED BLUE LUPINE
+> title > SOLUTION STRUCTURE OF THE NUDIX ENZYME DIADENOSINETETRAPHOSPHATE HYDROLASE FROM LUPINUS ANGUSTIFOLIUS L.
+> format_version > 2
+> pdbid > 1f3y
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LUPINUS ANGUSTIFOLIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f3y | A | albelig | 1 | 1 | E | 16 | 22 | A-16-  | A-22-  | NVGICLM 
+| 1f3y | A | albelig | 2 | 2 | E | 28 | 33 | A-28-  | A-33-  | IFAASR 
+| 1f3y | A | albelig | 3 | 3 | E | 36 | 41 | A-36-  | A-41-  | IPDAWQ 
+| 1f3y | A | albelig | 4 | 4 | E | 44 | 46 | A-44-  | A-46-  | QGG 
+| 1f3y | A | albelig | 5 | 5 | H | 53 | 65 | A-53-  | A-65-  | PRNAAIRELREET 
+| 1f3y | A | albelig | 6 | 6 | E | 70 | 75 | A-70-  | A-75-  | AEVIAE 
+| 1f3y | A | albelig | 7 | 7 | H | 86 | 95 | A-86-  | A-95-  | PKVREKLNIQ 
+| 1f3y | A | albelig | 8 | 8 | E | 105 | 112 | A-105-  | A-112-  | QKWFLFKF 
+| 1f3y | A | albelig | 9 | 9 | H | 116 | 118 | A-116-  | A-118-  | DQE 
+| 1f3y | A | albelig | 10 | 10 | E | 131 | 137 | A-131-  | A-137-  | FGEWSWV 
+| 1f3y | A | albelig | 11 | 11 | H | 139 | 145 | A-139-  | A-145-  | PEQLIDL 
+| 1f3y | A | albelig | 12 | 12 | H | 148 | 161 | A-148-  | A-161-  | EFKKPVYKEVLSVF 
+| 1f3y | A | albelig | 13 | 13 | H | 162 | 164 | A-162-  | A-164-  | APH 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 2
+= 1 = a = 4
+= 1 = m = 5
+= 1 = p = 8
+= 2 = a = 3
+= 2 = a = 10
+= 3 = a = 10
+= 3 = m = 11
+= 6 = a = 8
+= 8 = m = 12
+= 10 = m = 11
+= 11 = m = 12
+= 12 = m = 13
+# Listed 13 contacts. EOF.

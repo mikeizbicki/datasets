@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1guq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, NUCLEOTIDYLTRANSFERASE, GALACTOSE METABOLISM
+> pdb_mol_name > GALACTOSE-1-PHOSPHATE URIDYLYLTRANSFERASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 23-OCT-96
+> header > NUCLEOTIDYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF NUCLEOTIDYLTRANSFERASE COMPLEXED WITH UDP-GLUCOSE
+> format_version > 2
+> pdbid > 1guq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1guq | B | albelig | 1 | 1 | E | 358 | 362 | B-11-  | B-15-  | HRRYN 
+| 1guq | B | albelig | 2 | 2 | E | 367 | 371 | B-20-  | B-24-  | QWILV 
+| 1guq | B | albelig | 3 | 3 | H | 375 | 377 | B-28-  | B-30-  | RAK 
+| 1guq | B | albelig | 4 | 4 | E | 420 | 423 | B-73-  | B-76-  | YVFT 
+| 1guq | B | albelig | 5 | 5 | E | 446 | 448 | B-99-  | B-101-  | CQS 
+| 1guq | B | albelig | 6 | 6 | E | 451 | 457 | B-104-  | B-110-  | GTSRVIC 
+| 1guq | B | albelig | 7 | 7 | H | 466 | 468 | B-119-  | B-121-  | LPE 
+| 1guq | B | albelig | 8 | 8 | H | 471 | 488 | B-124-  | B-141-  | VAALTEIVKTWQEQTAEL 
+| 1guq | B | albelig | 9 | 9 | E | 494 | 501 | B-147-  | B-154-  | WVQVFENK 
+| 1guq | B | albelig | 10 | 10 | H | 503 | 505 | B-156-  | B-158-  | AAM 
+| 1guq | B | albelig | 11 | 11 | E | 513 | 519 | B-166-  | B-172-  | GGQIWAN 
+| 1guq | B | albelig | 12 | 12 | H | 524 | 540 | B-177-  | B-193-  | NEAEREDRLQKEYFAEQ 
+| 1guq | B | albelig | 13 | 13 | H | 544 | 553 | B-197-  | B-206-  | MLVDYVQREL 
+| 1guq | B | albelig | 14 | 14 | E | 559 | 562 | B-212-  | B-215-  | TVVE 
+| 1guq | B | albelig | 15 | 15 | E | 566 | 569 | B-219-  | B-222-  | WLAV 
+| 1guq | B | albelig | 16 | 16 | E | 580 | 584 | B-233-  | B-237-  | TLLLP 
+| 1guq | B | albelig | 17 | 17 | H | 591 | 593 | B-244-  | B-246-  | ITD 
+| 1guq | B | albelig | 18 | 18 | H | 596 | 616 | B-249-  | B-269-  | DAQRSDLALALKKLTSRYDNL 
+| 1guq | B | albelig | 19 | 19 | E | 623 | 628 | B-276-  | B-281-  | YSMGWH 
+| 1guq | B | albelig | 20 | 20 | E | 643 | 647 | B-296-  | B-300-  | HAHFY 
+| 1guq | B | albelig | 21 | 21 | E | 650 | 653 | B-303-  | B-306-  | LLRS 
+| 1guq | B | albelig | 22 | 22 | H | 662 | 666 | B-315-  | B-319-  | GYEML 
+| 1guq | B | albelig | 23 | 23 | H | 675 | 683 | B-328-  | B-336-  | AEQAAERLR 
+| 1guq | B | albelig | 24 | 24 | L | 1387 | 1387 | B-350-  | B-350-  | J 
+| 1guq | B | albelig | 25 | 25 | L | 1388 | 1388 | B-351-  | B-351-  | J 
+| 1guq | B | albelig | 26 | 26 | L | 1389 | 1389 | B-353-  | B-353-  | J 
+| 1guq | B | albelig | 27 | 27 | L | 1390 | 1390 | B-352-  | B-352-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 4 = a = 6
+= 4 = l = 27
+= 6 = a = 8
+= 6 = a = 11
+= 6 = l = 27
+= 7 = m = 18
+= 8 = m = 17
+= 8 = m = 18
+= 9 = m = 10
+= 9 = a = 11
+= 9 = a = 19
+= 9 = l = 26
+= 9 = l = 27
+= 11 = l = 26
+= 11 = l = 27
+= 12 = m = 13
+= 12 = l = 25
+= 14 = a = 15
+= 15 = a = 16
+= 15 = m = 18
+= 16 = m = 18
+= 16 = a = 20
+= 19 = a = 20
+= 19 = l = 25
+= 20 = l = 25
+= 26 = l = 27
+# Listed 27 contacts. EOF.

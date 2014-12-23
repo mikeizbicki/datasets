@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1emc, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FLUORESCENT PROTEIN, BETA-BARREL, BIOLUMINESCENCE, LUMINESCENCE
+> pdb_mol_name > GREEN FLUORESCENT PROTEIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 31-MAR-97
+> header > LUMINESCENCE
+> pdb_org_common > UNKNOWN
+> title > GREEN FLUORESCENT PROTEIN FROM AEQUOREA VICTORIA, MUTANT
+> format_version > 2
+> pdbid > 1emc
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > AEQUOREA VICTORIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1emc | B | albelig | 1 | 1 | H | 228 | 230 | B-5-  | B-7-  | EEL 
+| 1emc | B | albelig | 2 | 2 | E | 234 | 245 | B-11-  | B-22-  | VVPILVELDGDV 
+| 1emc | B | albelig | 3 | 3 | E | 248 | 259 | B-25-  | B-36-  | HKFSVSGEGEGD 
+| 1emc | B | albelig | 4 | 4 | H | 260 | 262 | B-37-  | B-39-  | ATY 
+| 1emc | B | albelig | 5 | 5 | E | 264 | 271 | B-41-  | B-48-  | KLTLKFIC 
+| 1emc | B | albelig | 6 | 6 | H | 280 | 282 | B-57-  | B-59-  | WPT 
+| 1emc | B | albelig | 7 | 7 | H | 290 | 292 | B-69-  | B-71-  | QCF 
+| 1emc | B | albelig | 8 | 8 | H | 297 | 302 | B-76-  | B-81-  | DHMKRH 
+| 1emc | B | albelig | 9 | 9 | H | 304 | 307 | B-83-  | B-86-  | FFKS 
+| 1emc | B | albelig | 10 | 10 | E | 313 | 321 | B-92-  | B-100-  | YVQERTIFF 
+| 1emc | B | albelig | 11 | 11 | E | 326 | 336 | B-105-  | B-115-  | NYKTRAEVKFE 
+| 1emc | B | albelig | 12 | 12 | E | 339 | 349 | B-118-  | B-128-  | TLVNRIELKGI 
+| 1emc | B | albelig | 13 | 13 | E | 369 | 376 | B-148-  | B-155-  | HNVYIMAD 
+| 1emc | B | albelig | 14 | 14 | E | 381 | 391 | B-160-  | B-170-  | GIKVNFKTRHN 
+| 1emc | B | albelig | 15 | 15 | E | 397 | 408 | B-176-  | B-187-  | VQLADHYQQNTP 
+| 1emc | B | albelig | 16 | 16 | E | 420 | 429 | B-199-  | B-208-  | HYLSTQSALS 
+| 1emc | B | albelig | 17 | 17 | E | 438 | 448 | B-217-  | B-227-  | HMVLLEFVTAA 
+| 1emc | B | albelig | 18 | 18 | L | 906 | 906 | B-66-  | B-66-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 12
+= 3 = m = 4
+= 3 = a = 5
+= 5 = a = 17
+= 5 = l = 18
+= 7 = l = 18
+= 10 = a = 11
+= 10 = a = 15
+= 10 = l = 18
+= 11 = a = 12
+= 11 = l = 18
+= 12 = l = 18
+= 13 = a = 14
+= 13 = a = 16
+= 13 = l = 18
+= 14 = a = 15
+= 14 = l = 18
+= 15 = l = 18
+= 16 = a = 17
+= 16 = l = 18
+= 17 = l = 18
+# Listed 22 contacts. EOF.

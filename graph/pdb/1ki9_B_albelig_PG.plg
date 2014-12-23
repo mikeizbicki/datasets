@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ki9, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE, PHOSPHOTRANSFERASE, SIGNALING PROTEIN, TRANSFERASE
+> pdb_mol_name > ADENYLATE KINASE
+> graphtype > albelig
+> resolution > 2.76
+> date > 02-DEC-01
+> header > SIGNALING PROTEIN, TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > ADENYLATE KINASE FROM METHANOCOCCUS THERMOLITHOTROPHICUS
+> format_version > 2
+> pdbid > 1ki9
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOCOCCUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ki9 | B | albelig | 1 | 1 | E | 197 | 202 | B-5-  | B-10-  | LVVVTG 
+| 1ki9 | B | albelig | 2 | 2 | H | 208 | 220 | B-16-  | B-28-  | GTTITQKAMEKLS 
+| 1ki9 | B | albelig | 3 | 3 | E | 227 | 230 | B-35-  | B-38-  | KMVN 
+| 1ki9 | B | albelig | 4 | 4 | H | 231 | 241 | B-39-  | B-49-  | FGTVMFEVAQE 
+| 1ki9 | B | albelig | 5 | 5 | H | 258 | 273 | B-66-  | B-81-  | TQKRIQKLAGRKIAEM 
+| 1ki9 | B | albelig | 6 | 6 | E | 279 | 282 | B-87-  | B-90-  | VVVD 
+| 1ki9 | B | albelig | 7 | 7 | E | 286 | 289 | B-94-  | B-97-  | TIKT 
+| 1ki9 | B | albelig | 8 | 8 | E | 292 | 295 | B-100-  | B-103-  | GYLP 
+| 1ki9 | B | albelig | 9 | 9 | H | 299 | 305 | B-107-  | B-113-  | VWVLNEL 
+| 1ki9 | B | albelig | 10 | 10 | E | 309 | 314 | B-117-  | B-122-  | IIIVVE 
+| 1ki9 | B | albelig | 11 | 11 | H | 317 | 325 | B-125-  | B-133-  | GDEILIRRL 
+| 1ki9 | B | albelig | 12 | 12 | H | 337 | 358 | B-145-  | B-166-  | TAGIEEHQIMNRAAAMTYGVLT 
+| 1ki9 | B | albelig | 13 | 13 | E | 361 | 366 | B-169-  | B-174-  | TVKIIQ 
+| 1ki9 | B | albelig | 14 | 14 | H | 372 | 383 | B-180-  | B-191-  | LDYAVEELISVL 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 6
+= 1 = p = 10
+= 2 = p = 14
+= 3 = m = 4
+= 3 = p = 6
+= 4 = m = 5
+= 5 = p = 9
+= 7 = a = 8
+= 7 = m = 12
+= 10 = p = 13
+= 11 = m = 12
+# Listed 11 contacts. EOF.

@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cis, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYBRID PROTEIN
+> pdb_mol_name > HYBRID PROTEIN FORMED FROM CHYMOTRYPSIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 23-APR-93
+> header > HYBRID PROTEIN
+> pdb_org_common > BARLEY, DENITROBACILLUS LICHENIFORMIS
+> title > CONTEXT DEPENDENCE OF PROTEIN SECONDARY STRUCTURE FORMATION.THE THREE-DIMENSIONAL STRUCTURE AND STABILITY OF A HYBRIDBETWEEN CHYMOTRYPSIN INHIBITOR 2 AND HELIX E FROMSUBTILISIN CARLSBERG
+> format_version > 2
+> pdbid > 1cis
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HORDEUM VULGARE, BACILLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cis | A | albelig | 1 | 1 | H | 13 | 23 | A-32-  | A-42-  | VEEAKKVILQD 
+| 1cis | A | albelig | 2 | 2 | E | 28 | 32 | A-47-  | A-51-  | QIIVL 
+| 1cis | A | albelig | 3 | 3 | E | 48 | 52 | A-67-  | A-71-  | RVRLA 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = p = 3
+# Listed 2 contacts. EOF.

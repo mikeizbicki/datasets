@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iw7, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNA POLYMERASE HOLOENZYME, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,TRANSFERASE
+> pdb_mol_name > RNA POLYMERASE OMEGA SUBUNIT
+> graphtype > albelig
+> resolution > 2.6
+> date > 22-APR-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE RNA POLYMERASE HOLOENZYME FROMTHERMUS THERMOPHILUS AT 2.6A RESOLUTION
+> format_version > 2
+> pdbid > 1iw7
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iw7 | E | albelig | 1 | 1 | H | 2979 | 2985 | E-6-  | E-12-  | IDKLFGM 
+| 1iw7 | E | albelig | 2 | 2 | H | 2989 | 3005 | E-16-  | E-32-  | KYRLTVVVAKRAQQLLR 
+| 1iw7 | E | albelig | 3 | 3 | H | 3034 | 3041 | E-61-  | E-68-  | ETWAMKEL 
+| 1iw7 | E | albelig | 4 | 4 | E | 3047 | 3049 | E-74-  | E-76-  | VFG 
+| 1iw7 | E | albelig | 5 | 5 | H | 3057 | 3065 | E-84-  | E-92-  | RLQKEMERI 
+| 1iw7 | E | albelig | 6 | 6 | L | 7059 | 7059 | E-9013-  | E-9013-  | J 
+| 1iw7 | E | albelig | 7 | 7 | L | 7060 | 7060 | E-9066-  | E-9066-  | J 
+| 1iw7 | E | albelig | 8 | 8 | L | 7061 | 7061 | E-9082-  | E-9082-  | J 
+| 1iw7 | E | albelig | 9 | 9 | L | 7062 | 7062 | E-9342-  | E-9342-  | J 
+| 1iw7 | E | albelig | 10 | 10 | L | 7063 | 7063 | E-9350-  | E-9350-  | J 
+| 1iw7 | E | albelig | 11 | 11 | L | 7064 | 7064 | E-9358-  | E-9358-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 10
+= 2 = m = 3
+= 5 = l = 6
+# Listed 3 contacts. EOF.

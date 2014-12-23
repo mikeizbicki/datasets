@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jwn, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INVERTEBRATE HEMOGLOBIN, ALLOSTERY, COOPERATIVITY, OXYGEN-BINDING PROTEIN, HEME PROTEIN, OXYGEN STORAGE/TRANSPORTCOMPLEX
+> pdb_mol_name > GLOBIN I - ARK SHELL
+> graphtype > albelig
+> resolution > 2.1
+> date > 04-SEP-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > ARK CLAM
+> title > CRYSTAL STRUCTURE OF SCAPHARCA INAEQUIVALVIS HBI, I114FMUTANT LIGATED TO CARBON MONOXIDE.
+> format_version > 2
+> pdbid > 1jwn
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SCAPHARCA INAEQUIVALVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jwn | D | albelig | 1 | 1 | H | 440 | 444 | D-3-  | D-7-  | VYDAA 
+| 1jwn | D | albelig | 2 | 2 | H | 449 | 462 | D-12-  | D-25-  | ADVKKDLRDSWKVI 
+| 1jwn | D | albelig | 3 | 3 | H | 466 | 480 | D-29-  | D-43-  | KKGNGVALMTTLFAD 
+| 1jwn | D | albelig | 4 | 4 | H | 482 | 491 | D-45-  | D-54-  | QETIGYFKRL 
+| 1jwn | D | albelig | 5 | 5 | H | 494 | 499 | D-57-  | D-62-  | VSQGMA 
+| 1jwn | D | albelig | 6 | 6 | H | 501 | 519 | D-64-  | D-82-  | DKLRGHSITLMYALQNFID 
+| 1jwn | D | albelig | 7 | 7 | H | 524 | 539 | D-87-  | D-102-  | PDDLVCVVEKFAVNHI 
+| 1jwn | D | albelig | 8 | 8 | H | 545 | 549 | D-108-  | D-112-  | AAEFG 
+| 1jwn | D | albelig | 9 | 9 | H | 552 | 560 | D-115-  | D-123-  | NGPIKKVLA 
+| 1jwn | D | albelig | 10 | 10 | H | 566 | 580 | D-129-  | D-143-  | DKYANAWAKLVAVVQ 
+| 1jwn | D | albelig | 11 | 11 | L | 590 | 590 | D-147-  | D-147-  | J 
+| 1jwn | D | albelig | 12 | 12 | L | 591 | 591 | D-148-  | D-148-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 6
+= 2 = m = 10
+= 3 = m = 4
+= 3 = m = 6
+= 3 = m = 9
+= 3 = l = 12
+= 4 = l = 11
+= 4 = l = 12
+= 5 = m = 6
+= 6 = l = 11
+= 6 = l = 12
+= 7 = l = 11
+= 7 = l = 12
+= 8 = l = 11
+= 9 = m = 10
+= 9 = l = 11
+= 10 = l = 11
+= 11 = l = 12
+# Listed 18 contacts. EOF.

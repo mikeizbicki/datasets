@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gzs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN/CELL CYCLE, COMPLEX (TOXIN/CELL CYCLE PROTEIN), SOPE,CDC42, SALMONELLA TYPHIMURIUM, GEF, TOXIN, GTP- BINDING,LIPOPROTEIN, PRENYLATION
+> pdb_mol_name > GTP-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 05-JUN-02
+> header > TOXIN/CELL CYCLE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE COMPLEX BETWEEN THE GEF DOMAIN OFTHE SALMONELLA TYPHIMURIUM SOPE TOXIN AND HUMAN CDC42
+> format_version > 2
+> pdbid > 1gzs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gzs | A | albelig | 1 | 1 | E | 2 | 10 | A-2-  | A-10-  | QTIKCVVVG 
+| 1gzs | A | albelig | 2 | 2 | H | 16 | 25 | A-16-  | A-25-  | KTCLLISYTT 
+| 1gzs | A | albelig | 3 | 3 | E | 41 | 46 | A-41-  | A-46-  | AVTVMI 
+| 1gzs | A | albelig | 4 | 4 | E | 49 | 56 | A-49-  | A-56-  | EPYTLGLF 
+| 1gzs | A | albelig | 5 | 5 | H | 68 | 71 | A-68-  | A-71-  | RPLS 
+| 1gzs | A | albelig | 6 | 6 | E | 77 | 83 | A-77-  | A-83-  | VFLVCFS 
+| 1gzs | A | albelig | 7 | 7 | H | 87 | 97 | A-87-  | A-97-  | PSSFENVKEKW 
+| 1gzs | A | albelig | 8 | 8 | H | 98 | 104 | A-98-  | A-104-  | VPEITHH 
+| 1gzs | A | albelig | 9 | 9 | E | 110 | 115 | A-110-  | A-115-  | FLLVGT 
+| 1gzs | A | albelig | 10 | 10 | H | 117 | 119 | A-117-  | A-119-  | IDL 
+| 1gzs | A | albelig | 11 | 11 | H | 123 | 130 | A-123-  | A-130-  | PSTIEKLA 
+| 1gzs | A | albelig | 12 | 12 | H | 139 | 148 | A-139-  | A-148-  | PETAEKLARD 
+| 1gzs | A | albelig | 13 | 13 | E | 154 | 156 | A-154-  | A-156-  | YVE 
+| 1gzs | A | albelig | 14 | 14 | H | 165 | 177 | A-165-  | A-177-  | LKNVFDEAILAAL 
+| 1gzs | A | albelig | 15 | 15 | L | 689 | 689 | A-401-  | A-401-  | J 
+| 1gzs | A | albelig | 16 | 16 | L | 690 | 690 | A-402-  | A-402-  | J 
+| 1gzs | A | albelig | 17 | 17 | L | 691 | 691 | A-403-  | A-403-  | J 
+| 1gzs | A | albelig | 18 | 18 | L | 692 | 692 | A-405-  | A-405-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 1 = p = 6
+= 2 = m = 14
+= 2 = l = 17
+= 3 = a = 4
+= 5 = l = 15
+= 6 = m = 7
+= 6 = p = 9
+= 7 = m = 8
+= 7 = m = 12
+= 7 = l = 15
+= 7 = l = 18
+= 8 = l = 15
+= 8 = l = 16
+= 9 = p = 13
+= 11 = l = 18
+# Listed 17 contacts. EOF.

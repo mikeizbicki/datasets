@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hui, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HORMONE, HUMAN INSULIN MUTANT, MONOMER, NEUTRAL PH
+> pdb_mol_name > INSULIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 29-MAR-96
+> header > HORMONE
+> pdb_org_common > HUMAN
+> title > INSULIN MUTANT (B1, B10, B16, B27)GLU, DES-B30, NMR, 25STRUCTURES
+> format_version > 2
+> pdbid > 1hui
+> experiment > SOLUTION NMR
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hui | B | albelig | 1 | 1 | H | 32 | 40 | B-10-  | B-18-  | ELVEALELV 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

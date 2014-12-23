@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b86, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALLOSTERIC EFFECTOR, 2,3-DIPHOSPHOGLYCERATE, OXYGEN TRANSPORT
+> pdb_mol_name > PROTEIN (HEMOGLOBIN BETA CHAIN)
+> graphtype > albelig
+> resolution > 2.5
+> date > 08-FEB-99
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > HUMAN DEOXYHAEMOGLOBIN-2,3-DIPHOSPHOGLYCERATE COMPLEX
+> format_version > 2
+> pdbid > 1b86
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b86 | B | albelig | 1 | 1 | H | 149 | 157 | B-150-  | B-158-  | EKSAVTALW 
+| 1b86 | B | albelig | 2 | 2 | H | 162 | 176 | B-163-  | B-177-  | VDEVGGEALGRLLVV 
+| 1b86 | B | albelig | 3 | 3 | H | 178 | 183 | B-179-  | B-184-  | PWTQRF 
+| 1b86 | B | albelig | 4 | 4 | H | 185 | 187 | B-186-  | B-188-  | ESF 
+| 1b86 | B | albelig | 5 | 5 | H | 193 | 197 | B-194-  | B-198-  | PDAVM 
+| 1b86 | B | albelig | 6 | 6 | H | 200 | 217 | B-201-  | B-218-  | PKVKAHGKKVLGAFSDGL 
+| 1b86 | B | albelig | 7 | 7 | H | 223 | 237 | B-224-  | B-238-  | LKGTFATLSELHCDK 
+| 1b86 | B | albelig | 8 | 8 | H | 243 | 263 | B-244-  | B-264-  | ENFRLLGNVLVCVLAHHFGKE 
+| 1b86 | B | albelig | 9 | 9 | H | 266 | 284 | B-267-  | B-285-  | PPVQAAYQKVVAGVANALA 
+| 1b86 | B | albelig | 10 | 10 | L | 580 | 580 | B-291-  | B-291-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 9
+= 2 = m = 3
+= 2 = a = 6
+= 2 = a = 8
+= 2 = l = 10
+= 3 = l = 10
+= 4 = m = 6
+= 4 = l = 10
+= 6 = a = 7
+= 6 = l = 10
+= 7 = l = 10
+= 8 = a = 9
+= 8 = l = 10
+= 9 = l = 10
+# Listed 15 contacts. EOF.

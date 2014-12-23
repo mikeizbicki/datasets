@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j8h, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PROTEIN COMPLEX, IMMUNOGLOBULIN FOLD, IMMUNE SYSTEM
+> pdb_mol_name > T-CELL RECEPTOR ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 21-MAY-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A COMPLEX OF A HUMAN ALPHA/BETA-T CELL RECEPTOR,INFLUENZA HA ANTIGEN PEPTIDE, AND MHC CLASS II MOLECULE, HLA-DR4
+> format_version > 2
+> pdbid > 1j8h
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j8h | D | albelig | 1 | 1 | E | 379 | 381 | D-2-  | D-4-  | SVT 
+| 1j8h | D | albelig | 2 | 2 | E | 386 | 390 | D-9-  | D-13-  | HVSVS 
+| 1j8h | D | albelig | 3 | 3 | E | 395 | 397 | D-18-  | D-20-  | VLL 
+| 1j8h | D | albelig | 4 | 4 | E | 400 | 402 | D-23-  | D-25-  | NYS 
+| 1j8h | D | albelig | 5 | 5 | E | 408 | 414 | D-31-  | D-37-  | YLFWYVQ 
+| 1j8h | D | albelig | 6 | 6 | E | 421 | 426 | D-44-  | D-49-  | QLLLKY 
+| 1j8h | D | albelig | 7 | 7 | E | 432 | 434 | D-55-  | D-57-  | LVK 
+| 1j8h | D | albelig | 8 | 8 | H | 436 | 438 | D-59-  | D-61-  | ING 
+| 1j8h | D | albelig | 9 | 9 | E | 440 | 442 | D-63-  | D-65-  | EAE 
+| 1j8h | D | albelig | 10 | 10 | H | 445 | 447 | D-68-  | D-70-  | KSE 
+| 1j8h | D | albelig | 11 | 11 | E | 452 | 454 | D-75-  | D-77-  | LTK 
+| 1j8h | D | albelig | 12 | 12 | H | 459 | 461 | D-82-  | D-84-  | MSD 
+| 1j8h | D | albelig | 13 | 13 | E | 463 | 470 | D-86-  | D-93-  | AEYFDAVS 
+| 1j8h | D | albelig | 14 | 14 | E | 479 | 481 | D-104-  | D-106-  | LTF 
+| 1j8h | D | albelig | 15 | 15 | E | 485 | 490 | D-110-  | D-115-  | TRLTII 
+| 1j8h | D | albelig | 16 | 16 | E | 499 | 503 | D-124-  | D-128-  | AVYQL 
+| 1j8h | D | albelig | 17 | 17 | E | 510 | 515 | D-137-  | D-142-  | SVELFT 
+| 1j8h | D | albelig | 18 | 18 | E | 537 | 541 | D-164-  | D-168-  | TVLDM 
+| 1j8h | D | albelig | 19 | 19 | H | 542 | 544 | D-169-  | D-171-  | RSM 
+| 1j8h | D | albelig | 20 | 20 | E | 546 | 555 | D-173-  | D-182-  | FKSNSAVAWS 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = p = 15
+= 3 = a = 11
+= 5 = a = 6
+= 5 = a = 13
+= 6 = a = 7
+= 7 = a = 9
+= 9 = a = 11
+= 13 = a = 14
+= 13 = a = 15
+= 16 = a = 17
+= 17 = a = 20
+= 18 = m = 19
+= 18 = a = 20
+# Listed 14 contacts. EOF.

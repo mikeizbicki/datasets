@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1brd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOTORECEPTOR
+> pdb_mol_name > BACTERIORHODOPSIN PRECURSOR
+> graphtype > albelig
+> resolution > 3.5
+> date > 23-MAY-90
+> header > PHOTORECEPTOR
+> pdb_org_common > UNKNOWN
+> title > MODEL FOR THE STRUCTURE OF BACTERIORHODOPSIN BASED ON HIGH-RESOLUTIONELECTRON CRYO-MICROSCOPY
+> format_version > 2
+> pdbid > 1brd
+> experiment > ELECTRON CRYSTALLOGRAPHY
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HALOBACTERIUM SALINARUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1brd | A | albelig | 1 | 1 | H | 2 | 24 | A-9-  | A-31-  | EWIWLALGTALMGLGTLYFLVKG 
+| 1brd | A | albelig | 2 | 2 | H | 28 | 50 | A-39-  | A-61-  | AKKFYAITTLVPAIAFTMYLSML 
+| 1brd | A | albelig | 3 | 3 | H | 54 | 78 | A-75-  | A-99-  | QNPIYWARYADWLFTTPLLLLDLAL 
+| 1brd | A | albelig | 4 | 4 | H | 82 | 101 | A-107-  | A-126-  | TILALVGADGIMIGTGLVGA 
+| 1brd | A | albelig | 5 | 5 | H | 105 | 123 | A-138-  | A-156-  | WAISTAAMLYILYVLFFGF 
+| 1brd | A | albelig | 6 | 6 | H | 127 | 150 | A-167-  | A-190-  | VASTFKVLRNVTVVLWSAYPVVWL 
+| 1brd | A | albelig | 7 | 7 | H | 154 | 169 | A-203-  | A-218-  | IETLLFMVLDVSAKVG 
+| 1brd | A | albelig | 8 | 8 | H | 170 | 175 | A-219-  | A-224-  | FGLILL 
+| 1brd | A | albelig | 9 | 9 | L | 177 | 177 | A-249-  | A-249-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 7
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 3 = a = 6
+= 3 = p = 7
+= 3 = l = 9
+= 4 = a = 5
+= 4 = l = 9
+= 5 = a = 6
+= 5 = l = 9
+= 6 = a = 7
+= 6 = l = 9
+= 7 = l = 9
+# Listed 15 contacts. EOF.

@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iar, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE RECEPTOR,INTERLEUKIN-4, CYTOKINE/RECEPTOR COMPLEX
+> pdb_mol_name > PROTEIN (INTERLEUKIN-4)
+> graphtype > albelig
+> resolution > 2.3
+> date > 25-FEB-99
+> header > CYTOKINE/RECEPTOR
+> pdb_org_common > HUMAN
+> title > INTERLEUKIN-4 / RECEPTOR ALPHA CHAIN COMPLEX
+> format_version > 2
+> pdbid > 1iar
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iar | A | albelig | 1 | 1 | H | 5 | 17 | A-5-  | A-17-  | ITLQEIIKTLNSL 
+| 1iar | A | albelig | 2 | 2 | H | 23 | 26 | A-23-  | A-26-  | LCTE 
+| 1iar | A | albelig | 3 | 3 | E | 28 | 30 | A-28-  | A-30-  | TVT 
+| 1iar | A | albelig | 4 | 4 | H | 41 | 59 | A-41-  | A-59-  | EKETFNRAATVLRQFYSHH 
+| 1iar | A | albelig | 5 | 5 | H | 63 | 65 | A-63-  | A-65-  | TRC 
+| 1iar | A | albelig | 6 | 6 | H | 70 | 94 | A-70-  | A-94-  | AQQFHRHKQLIRFLKRLDRNLWGLA 
+| 1iar | A | albelig | 7 | 7 | E | 106 | 108 | A-106-  | A-108-  | QST 
+| 1iar | A | albelig | 8 | 8 | H | 109 | 125 | A-109-  | A-125-  | LENFLERLKTIMREKYS 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = a = 8
+= 2 = m = 5
+= 3 = a = 7
+= 4 = a = 6
+= 4 = a = 8
+= 7 = m = 8
+# Listed 7 contacts. EOF.

@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i4k, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SNRNP, SM, CORE SNRNP DOMAIN, RNA BINDING PROTEIN
+> pdb_mol_name > PUTATIVE SNRNP SM-LIKE PROTEIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 22-FEB-01
+> header > RNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN SM-LIKE PROTEIN (AF-SM1) FROMARCHAEOGLOBUS FULGIDUS AT 2.5A RESOLUTION
+> format_version > 2
+> pdbid > 1i4k
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ARCHAEOGLOBUS FULGIDUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i4k | C | albelig | 1 | 1 | H | 149 | 155 | C-5-  | C-11-  | PLDVLNR 
+| 1i4k | C | albelig | 2 | 2 | E | 160 | 165 | C-16-  | C-21-  | PVIVRL 
+| 1i4k | C | albelig | 3 | 3 | E | 170 | 178 | C-26-  | C-34-  | EFRGTLDGY 
+| 1i4k | C | albelig | 4 | 4 | E | 184 | 192 | C-40-  | C-48-  | LVLLDAEEI 
+| 1i4k | C | albelig | 5 | 5 | E | 197 | 206 | C-53-  | C-62-  | VVRKVGSVVI 
+| 1i4k | C | albelig | 6 | 6 | H | 208 | 210 | C-64-  | C-66-  | GDT 
+| 1i4k | C | albelig | 7 | 7 | E | 211 | 216 | C-67-  | C-72-  | VVFVSP 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 6 = m = 7
+# Listed 6 contacts. EOF.

@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kra, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > APOENZYME, NICKEL METALLOENZYME, HYDROLASE (UREA AMIDO)
+> pdb_mol_name > UREASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 20-JUN-95
+> header > HYDROLASE (UREA AMIDO)
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF KLEBSIELLA AEROGENES UREASE, ITS APOENZYME ANDTWO ACTIVE SITE MUTANTS
+> format_version > 2
+> pdbid > 1kra
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA AEROGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kra | A | albelig | 1 | 1 | H | 5 | 25 | A-5-  | A-25-  | PREKDKLLLFTAALVAERRLA 
+| 1kra | A | albelig | 2 | 2 | H | 32 | 48 | A-32-  | A-48-  | YPESVALISAFIMEGAR 
+| 1kra | A | albelig | 3 | 3 | H | 53 | 62 | A-53-  | A-62-  | VASLMEEGRH 
+| 1kra | A | albelig | 4 | 4 | H | 66 | 68 | A-66-  | A-68-  | REQ 
+| 1kra | A | albelig | 5 | 5 | H | 73 | 76 | A-73-  | A-76-  | VPEM 
+| 1kra | A | albelig | 6 | 6 | E | 79 | 86 | A-79-  | A-86-  | DIQVEATF 
+| 1kra | A | albelig | 7 | 7 | E | 89 | 96 | A-89-  | A-96-  | GSKLVTVH 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = p = 6
+= 3 = p = 7
+= 6 = a = 7
+# Listed 5 contacts. EOF.

@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyo, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTISUBUNIT MEMBRANE PROTEIN COMPLEX, ENZYME SUBSTRATECOMPLEX, ELECTRON TRANSFER COMPLEX, ANTIBODY FV FRAGMENTMEDIATED CRYSTALLIZATION, OXIDOREDUCTASE/ELECTRON TRANSPORTCOMPLEX
+> pdb_mol_name > UBIQUINOL-CYTOCHROME C REDUCTASE COMPLEX 7.3 KD
+> graphtype > albelig
+> resolution > 2.97
+> date > 05-FEB-02
+> header > OXIDOREDUCTASE/ELECTRON TRANSPORT
+> pdb_org_common > BAKER'S YEAST
+> title > YEAST CYTOCHROME BC1 COMPLEX WITH BOUND SUBSTRATECYTOCHROME C
+> format_version > 2
+> pdbid > 1kyo
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyo | T | albelig | 1 | 1 | H | 4088 | 4091 | T-7-  | T-10-  | YKTF 
+| 1kyo | T | albelig | 2 | 2 | H | 4099 | 4124 | T-18-  | T-43-  | VGTIFAGAFVFQTVFDTAITSWYENH 
+| 1kyo | T | albelig | 3 | 3 | H | 4130 | 4135 | T-49-  | T-54-  | WKDVKA 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

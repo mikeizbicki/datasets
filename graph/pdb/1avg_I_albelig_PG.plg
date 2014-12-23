@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1avg, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BOVINE THROMBIN, THROMBIN INHIBITOR, COMPLEX (BLOODCOAGULATION/INHIBITOR)
+> pdb_mol_name > TRIABIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 16-SEP-97
+> header > COMPLEX (BLOOD COAGULATION/INHIBITOR)
+> pdb_org_common > UNKNOWN
+> title > THROMBIN INHIBITOR FROM TRIATOMA PALLIDIPENNIS
+> format_version > 2
+> pdbid > 1avg
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > TRIATOMA PALLIDIPENNIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1avg | I | albelig | 1 | 1 | H | 308 | 310 | I-6-  | I-8-  | ESI 
+| 1avg | I | albelig | 2 | 2 | H | 319 | 322 | I-17-  | I-20-  | PEEF 
+| 1avg | I | albelig | 3 | 3 | E | 326 | 330 | I-24-  | I-28-  | TWYLA 
+| 1avg | I | albelig | 4 | 4 | E | 339 | 345 | I-37-  | I-43-  | AVFQKFT 
+| 1avg | I | albelig | 5 | 5 | E | 353 | 358 | I-51-  | I-56-  | TQIVEI 
+| 1avg | I | albelig | 6 | 6 | E | 368 | 373 | I-66-  | I-71-  | KFQGNQ 
+| 1avg | I | albelig | 7 | 7 | E | 382 | 388 | I-80-  | I-86-  | YSFKGKS 
+| 1avg | I | albelig | 8 | 8 | E | 394 | 403 | I-92-  | I-101-  | FEADFTFISV 
+| 1avg | I | albelig | 9 | 9 | E | 408 | 417 | I-106-  | I-115-  | FALVERSITF 
+| 1avg | I | albelig | 10 | 10 | E | 424 | 430 | I-122-  | I-128-  | DRYLVFE 
+| 1avg | I | albelig | 11 | 11 | H | 440 | 443 | I-138-  | I-141-  | AKEI 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 3 = p = 5
+= 3 = a = 10
+= 4 = a = 5
+= 4 = p = 6
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+# Listed 9 contacts. EOF.

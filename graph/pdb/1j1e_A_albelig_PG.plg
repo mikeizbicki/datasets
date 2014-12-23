@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j1e, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THIN FILAMENT, MUSCLE REGULATION, CA2+ BINDING PROTEIN, EF-HAND, COILED-COIL, CONTRACTILE PROTEIN
+> pdb_mol_name > TROPONIN C
+> graphtype > albelig
+> resolution > 3.3
+> date > 03-DEC-02
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE 52KDA DOMAIN OF HUMAN CARDIACTROPONIN IN THE CA2+ SATURATED FORM
+> format_version > 2
+> pdbid > 1j1e
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j1e | A | albelig | 1 | 1 | H | 4 | 10 | A-4-  | A-10-  | IYKAAVE 
+| 1j1e | A | albelig | 2 | 2 | H | 14 | 27 | A-14-  | A-27-  | EEQKNEFKAAFDIF 
+| 1j1e | A | albelig | 3 | 3 | H | 38 | 48 | A-38-  | A-48-  | TKELGKVMRML 
+| 1j1e | A | albelig | 4 | 4 | H | 54 | 62 | A-54-  | A-62-  | PEELQEMID 
+| 1j1e | A | albelig | 5 | 5 | H | 74 | 83 | A-74-  | A-83-  | FDEFLVMMVR 
+| 1j1e | A | albelig | 6 | 6 | H | 92 | 102 | A-94-  | A-104-  | EEELSDLFRMF 
+| 1j1e | A | albelig | 7 | 7 | E | 109 | 111 | A-111-  | A-113-  | YID 
+| 1j1e | A | albelig | 8 | 8 | H | 112 | 121 | A-114-  | A-123-  | LEELKIMLQA 
+| 1j1e | A | albelig | 9 | 9 | H | 128 | 138 | A-130-  | A-140-  | EDDIEELMKDG 
+| 1j1e | A | albelig | 10 | 10 | E | 145 | 147 | A-147-  | A-149-  | RID 
+| 1j1e | A | albelig | 11 | 11 | H | 148 | 155 | A-150-  | A-157-  | YDEFLEFM 
+| 1j1e | A | albelig | 12 | 12 | L | 730 | 730 | A-201-  | A-201-  | J 
+| 1j1e | A | albelig | 13 | 13 | L | 731 | 731 | A-202-  | A-202-  | J 
+| 1j1e | A | albelig | 14 | 14 | L | 732 | 732 | A-203-  | A-203-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 2 = m = 5
+= 3 = m = 4
+= 5 = l = 12
+= 6 = m = 11
+= 7 = m = 8
+= 7 = a = 10
+= 7 = l = 13
+= 8 = l = 13
+= 9 = l = 14
+= 10 = m = 11
+= 10 = l = 14
+= 11 = l = 14
+# Listed 13 contacts. EOF.

@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cun, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TWO REPEATS OF SPECTRIN, ALPHA HELICAL LINKER REGION, 2TANDEM 3-HELIX COILED- COILS, STRUCTURAL PROTEIN
+> pdb_mol_name > PROTEIN (ALPHA SPECTRIN)
+> graphtype > albelig
+> resolution > 2.0
+> date > 20-AUG-99
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > CHICKEN
+> title > CRYSTAL STRUCTURE OF REPEATS 16 AND 17 OF CHICKEN BRAINALPHA SPECTRIN
+> format_version > 2
+> pdbid > 1cun
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cun | B | albelig | 1 | 1 | H | 216 | 237 | B-8-  | B-29-  | VHQFFRDMDDEESWIKEKKLLV 
+| 1cun | B | albelig | 2 | 2 | H | 246 | 282 | B-38-  | B-74-  | LTGVQNLRKKHKRLEAELAAHEPAIQSVLDTGKKLSD 
+| 1cun | B | albelig | 3 | 3 | H | 288 | 343 | B-80-  | B-135-  | KEEIQQRLAQFVDHWKELKQLAAARGQRLEESLEYQQFVANVEEEEAWINEKMTLV 
+| 1cun | B | albelig | 4 | 4 | H | 354 | 390 | B-146-  | B-182-  | AIQGLLKKHEAFETDFTVHKDRVNDVCANGEDLIKKN 
+| 1cun | B | albelig | 5 | 5 | H | 394 | 426 | B-186-  | B-218-  | VENITAKMKGLKGKVSDLEKAAAQRKAKLDENS 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 2 = a = 3
+= 3 = a = 4
+= 3 = p = 5
+= 4 = a = 5
+# Listed 6 contacts. EOF.

@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k0v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA-BETA-BETA-ALPHA-BETA, METAL TRANSPORT
+> pdb_mol_name > COPZ
+> graphtype > albelig
+> resolution > -1.0
+> date > 21-SEP-01
+> header > METAL TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > COPPER TRAFFICKING: THE SOLUTION STRUCTURE OF BACILLUSSUBTILIS COPZ
+> format_version > 2
+> pdbid > 1k0v
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k0v | A | albelig | 1 | 1 | E | 4 | 8 | A-4-  | A-8-  | KTLQV 
+| 1k0v | A | albelig | 2 | 2 | H | 14 | 24 | A-14-  | A-24-  | QHCVKAVETSV 
+| 1k0v | A | albelig | 3 | 3 | E | 41 | 44 | A-41-  | A-44-  | KVDV 
+| 1k0v | A | albelig | 4 | 4 | H | 53 | 63 | A-53-  | A-63-  | VKDIADAIEDQ 
+| 1k0v | A | albelig | 5 | 5 | E | 67 | 70 | A-67-  | A-70-  | VAKI 
+| 1k0v | A | albelig | 6 | 6 | L | 74 | 74 | A-74-  | A-74-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 5
+= 2 = a = 4
+= 2 = l = 6
+# Listed 4 contacts. EOF.

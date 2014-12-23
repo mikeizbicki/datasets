@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fg5, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA BETA ALPHA PROTEIN, NUCLEOTIDE BINDING PROTEIN,ROSSMANN FOLD, TRANSFERASE
+> pdb_mol_name > N-ACETYLLACTOSAMINIDE ALPHA-1,3-
+> graphtype > albelig
+> resolution > 2.8
+> date > 28-JUL-00
+> header > TRANSFERASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF BOVINE ALPHA-1,3-GALACTOSYLTRANSFERASECATALYTIC DOMAIN.
+> format_version > 2
+> pdbid > 1fg5
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fg5 | N | albelig | 1 | 1 | H | 4 | 7 | N-4-  | N-7-  | LSDW 
+| 1fg5 | N | albelig | 2 | 2 | H | 10 | 12 | N-10-  | N-12-  | PFK 
+| 1fg5 | N | albelig | 3 | 3 | H | 34 | 42 | N-34-  | N-42-  | RAVLDNYYA 
+| 1fg5 | N | albelig | 4 | 4 | E | 48 | 54 | N-48-  | N-54-  | VGLTVFA 
+| 1fg5 | N | albelig | 5 | 5 | H | 59 | 73 | N-59-  | N-73-  | IEHYLEEFLTSANKH 
+| 1fg5 | N | albelig | 6 | 6 | E | 80 | 86 | N-80-  | N-86-  | VIFYIXV 
+| 1fg5 | N | albelig | 7 | 7 | E | 101 | 107 | N-101-  | N-107-  | RSFKVFK 
+| 1fg5 | N | albelig | 8 | 8 | H | 119 | 133 | N-119-  | N-133-  | XXRXKTIGEHIVAHI 
+| 1fg5 | N | albelig | 9 | 9 | H | 134 | 136 | N-134-  | N-136-  | QHE 
+| 1fg5 | N | albelig | 10 | 10 | E | 139 | 144 | N-139-  | N-144-  | FLFCXD 
+| 1fg5 | N | albelig | 11 | 11 | E | 147 | 149 | N-147-  | N-149-  | QVF 
+| 1fg5 | N | albelig | 12 | 12 | H | 155 | 157 | N-155-  | N-157-  | VET 
+| 1fg5 | N | albelig | 13 | 13 | E | 161 | 165 | N-161-  | N-165-  | SVAQL 
+| 1fg5 | N | albelig | 14 | 14 | E | 198 | 205 | N-198-  | N-205-  | YHAAIFGG 
+| 1fg5 | N | albelig | 15 | 15 | H | 207 | 225 | N-207-  | N-225-  | PTQVLNITQECFKGILKDK 
+| 1fg5 | N | albelig | 16 | 16 | H | 234 | 245 | N-234-  | N-245-  | HDESHLNKYFLL 
+| 1fg5 | N | albelig | 17 | 17 | E | 250 | 252 | N-250-  | N-252-  | KIL 
+| 1fg5 | N | albelig | 18 | 18 | H | 254 | 256 | N-254-  | N-256-  | PEY 
+| 1fg5 | N | albelig | 19 | 19 | H | 260 | 262 | N-260-  | N-262-  | YHI 
+| 1fg5 | N | albelig | 20 | 20 | E | 273 | 275 | N-273-  | N-275-  | XSW 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 12
+= 4 = p = 6
+= 4 = p = 10
+= 5 = m = 11
+= 6 = p = 7
+= 8 = m = 9
+= 8 = a = 10
+= 8 = a = 15
+= 10 = a = 14
+= 11 = a = 20
+= 13 = a = 14
+= 13 = p = 17
+= 14 = m = 16
+= 15 = m = 16
+= 18 = m = 20
+# Listed 15 contacts. EOF.

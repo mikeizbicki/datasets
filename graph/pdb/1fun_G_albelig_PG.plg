@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fun, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, SUPEROXIDE ACCEPTOR
+> pdb_mol_name > SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 2.85
+> date > 23-JUL-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > SUPEROXIDE DISMUTASE MUTANT WITH LYS 136 REPLACED BY GLU,CYS 6 REPLACED BY ALA AND CYS 111 REPLACED BY SER (K136E,C6A, C111S)
+> format_version > 2
+> pdbid > 1fun
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fun | G | albelig | 1 | 1 | E | 465 | 470 | G-3-  | G-8-  | KAVAVL 
+| 1fun | G | albelig | 2 | 2 | E | 477 | 483 | G-15-  | G-21-  | QGIINFE 
+| 1fun | G | albelig | 3 | 3 | E | 491 | 498 | G-29-  | G-36-  | VKVWGSIK 
+| 1fun | G | albelig | 4 | 4 | E | 503 | 510 | G-41-  | G-48-  | GLHGFHVH 
+| 1fun | G | albelig | 5 | 5 | H | 518 | 522 | G-56-  | G-60-  | GDTSA 
+| 1fun | G | albelig | 6 | 6 | E | 545 | 551 | G-83-  | G-89-  | DLGNVTA 
+| 1fun | G | albelig | 7 | 7 | E | 557 | 563 | G-95-  | G-101-  | ADVSIED 
+| 1fun | G | albelig | 8 | 8 | E | 578 | 582 | G-116-  | G-120-  | TLVVH 
+| 1fun | G | albelig | 9 | 9 | H | 596 | 599 | G-134-  | G-137-  | STET 
+| 1fun | G | albelig | 10 | 10 | E | 605 | 610 | G-143-  | G-148-  | RLADGV 
+| 1fun | G | albelig | 11 | 11 | L | 1547 | 1547 | G-154-  | G-154-  | J 
+| 1fun | G | albelig | 12 | 12 | L | 1548 | 1548 | G-155-  | G-155-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 6
+= 4 = a = 8
+= 4 = l = 11
+= 5 = m = 10
+= 6 = a = 7
+= 6 = l = 12
+= 8 = a = 10
+= 8 = l = 11
+= 9 = l = 12
+# Listed 13 contacts. EOF.

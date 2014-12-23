@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k5m, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENGINEERED RHINOVIRUS, HIV-1 V3 LOOP, BETA TURNS,ICOSAHEDRAL VIRUS
+> pdb_mol_name > COAT PROTEIN VP4 (P1A)
+> graphtype > albelig
+> resolution > 2.7
+> date > 11-OCT-01
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A HUMAN RHINOVIRUS TYPE 14:HUMANIMMUNODEFICIENCY VIRUS TYPE 1 V3 LOOP CHIMERIC VIRUS MN-III-2
+> format_version > 2
+> pdbid > 1k5m
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HUMAN RHINOVIRUS 14
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k5m | D | albelig | 1 | 1 | H | 799 | 801 | D-1935-  | D-1937-  | AAS 
+| 1k5m | D | albelig | 2 | 2 | H | 814 | 817 | D-1950-  | D-1953-  | SKFT 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

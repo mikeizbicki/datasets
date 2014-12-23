@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k3x, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE/DNA, HYDROLASE-DNA COMPLEX
+> pdb_mol_name > ENDONUCLEASE VIII
+> graphtype > albelig
+> resolution > 1.25
+> date > 04-OCT-01
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A TRAPPED REACTION INTERMEDIATE OF THE DNA REPAIRENZYME ENDONUCLEASE VIII WITH BROMINATED-DNA
+> format_version > 2
+> pdbid > 1k3x
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k3x | A | albelig | 1 | 1 | H | 3 | 17 | A-3-  | A-17-  | GPEIRRAADNLEAAI 
+| 1k3x | A | albelig | 2 | 2 | E | 24 | 27 | A-24-  | A-27-  | DVWF 
+| 1k3x | A | albelig | 3 | 3 | H | 30 | 32 | A-30-  | A-32-  | PQL 
+| 1k3x | A | albelig | 4 | 4 | H | 35 | 39 | A-35-  | A-39-  | YQSQL 
+| 1k3x | A | albelig | 5 | 5 | E | 44 | 50 | A-44-  | A-50-  | VTHVETR 
+| 1k3x | A | albelig | 6 | 6 | E | 53 | 58 | A-53-  | A-58-  | ALLTHF 
+| 1k3x | A | albelig | 7 | 7 | E | 63 | 67 | A-63-  | A-67-  | TLYSH 
+| 1k3x | A | albelig | 8 | 8 | E | 73 | 78 | A-73-  | A-78-  | VWRVVD 
+| 1k3x | A | albelig | 9 | 9 | E | 89 | 94 | A-89-  | A-94-  | LRVKLQ 
+| 1k3x | A | albelig | 10 | 10 | E | 98 | 103 | A-98-  | A-103-  | KTILLY 
+| 1k3x | A | albelig | 11 | 11 | E | 107 | 111 | A-107-  | A-111-  | DIEML 
+| 1k3x | A | albelig | 12 | 12 | H | 115 | 118 | A-115-  | A-118-  | QLTT 
+| 1k3x | A | albelig | 13 | 13 | H | 120 | 124 | A-120-  | A-124-  | PFLQR 
+| 1k3x | A | albelig | 14 | 14 | H | 136 | 144 | A-136-  | A-144-  | PEVVKERLL 
+| 1k3x | A | albelig | 15 | 15 | H | 153 | 156 | A-153-  | A-156-  | FAGL 
+| 1k3x | A | albelig | 16 | 16 | H | 168 | 178 | A-168-  | A-178-  | NYLRVEILWQV 
+| 1k3x | A | albelig | 17 | 17 | H | 186 | 188 | A-186-  | A-188-  | AKD 
+| 1k3x | A | albelig | 18 | 18 | H | 191 | 211 | A-191-  | A-211-  | AAQLDALAHALLEIPRFSYAT 
+| 1k3x | A | albelig | 19 | 19 | E | 237 | 241 | A-245-  | A-249-  | EKTTL 
+| 1k3x | A | albelig | 20 | 20 | E | 244 | 248 | A-252-  | A-256-  | RPFYW 
+| 1k3x | A | albelig | 21 | 21 | L | 260 | 260 | A-501-  | A-501-  | J 
+| 1k3x | A | albelig | 22 | 22 | L | 261 | 261 | A-551-  | A-551-  | J 
+| 1k3x | A | albelig | 23 | 23 | L | 262 | 262 | A-552-  | A-552-  | J 
+| 1k3x | A | albelig | 24 | 24 | L | 263 | 263 | A-553-  | A-553-  | J 
+| 1k3x | A | albelig | 25 | 25 | L | 264 | 264 | A-554-  | A-554-  | J 
+| 1k3x | A | albelig | 26 | 26 | L | 265 | 265 | A-555-  | A-555-  | J 
+| 1k3x | A | albelig | 27 | 27 | L | 266 | 266 | A-511-  | A-511-  | J 
+| 1k3x | A | albelig | 28 | 28 | L | 267 | 267 | A-512-  | A-512-  | J 
+| 1k3x | A | albelig | 29 | 29 | L | 268 | 268 | A-513-  | A-513-  | J 
+| 1k3x | A | albelig | 30 | 30 | L | 269 | 269 | A-514-  | A-514-  | J 
+# Printed info on 30 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = m = 10
+= 1 = m = 18
+= 1 = l = 22
+= 1 = l = 25
+= 2 = m = 4
+= 2 = a = 9
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 11
+= 8 = a = 10
+= 9 = a = 10
+= 12 = l = 30
+= 13 = l = 30
+= 14 = a = 18
+= 15 = l = 26
+= 16 = a = 18
+= 16 = m = 20
+= 16 = l = 21
+= 18 = l = 23
+= 18 = l = 24
+= 18 = l = 28
+= 19 = a = 20
+= 23 = l = 28
+# Listed 24 contacts. EOF.

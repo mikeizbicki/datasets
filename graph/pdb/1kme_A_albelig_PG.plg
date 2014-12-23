@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kme, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MEMBRANE PROTEIN
+> pdb_mol_name > BACTERIORHODOPSIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 14-DEC-01
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF BACTERIORHODOPSIN CRYSTALLIZED FROMBICELLES
+> format_version > 2
+> pdbid > 1kme
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HALOBACTERIUM SALINARUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kme | A | albelig | 1 | 1 | H | 6 | 29 | A-10-  | A-33-  | WIWLALGTALMGLGTLYFLVKGMG 
+| 1kme | A | albelig | 2 | 2 | H | 33 | 57 | A-37-  | A-61-  | PDAKKFYAITTLVPAIAFTMYLSML 
+| 1kme | A | albelig | 3 | 3 | E | 62 | 67 | A-66-  | A-71-  | LTMVPF 
+| 1kme | A | albelig | 4 | 4 | E | 70 | 75 | A-74-  | A-79-  | EQNPIY 
+| 1kme | A | albelig | 5 | 5 | H | 77 | 96 | A-81-  | A-100-  | ARYADWLFTTPLLLLDLALL 
+| 1kme | A | albelig | 6 | 6 | H | 101 | 123 | A-105-  | A-127-  | QGTILALVGADGIMIGTGLVGAL 
+| 1kme | A | albelig | 7 | 7 | H | 127 | 152 | A-131-  | A-156-  | YSYRFVWWAISTAAMLYILYVLFFGF 
+| 1kme | A | albelig | 8 | 8 | H | 153 | 158 | A-157-  | A-162-  | TSKAES 
+| 1kme | A | albelig | 9 | 9 | H | 161 | 187 | A-165-  | A-191-  | PEVASTFKVLRNVTVVLWSAYPVVWLI 
+| 1kme | A | albelig | 10 | 10 | H | 197 | 214 | A-201-  | A-218-  | LNIETLLFMVLDVSAKVG 
+| 1kme | A | albelig | 11 | 11 | H | 215 | 220 | A-219-  | A-224-  | FGLILL 
+| 1kme | A | albelig | 12 | 12 | H | 223 | 225 | A-227-  | A-229-  | RAI 
+| 1kme | A | albelig | 13 | 13 | L | 456 | 456 | A-301-  | A-301-  | J 
+| 1kme | A | albelig | 14 | 14 | L | 457 | 457 | A-401-  | A-401-  | J 
+| 1kme | A | albelig | 15 | 15 | L | 458 | 458 | A-402-  | A-402-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 10
+= 1 = l = 15
+= 2 = a = 5
+= 2 = a = 10
+= 2 = m = 12
+= 2 = l = 14
+= 2 = l = 15
+= 3 = a = 4
+= 4 = m = 5
+= 5 = a = 6
+= 5 = a = 9
+= 5 = p = 10
+= 5 = l = 13
+= 5 = l = 14
+= 6 = a = 7
+= 6 = l = 13
+= 7 = a = 9
+= 7 = l = 13
+= 9 = a = 10
+= 9 = m = 11
+= 9 = l = 13
+= 10 = l = 13
+# Listed 23 contacts. EOF.

@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gvl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, ZYMOGEN, HUMAN KALLIKREIN
+> pdb_mol_name > KALLIKREIN 6
+> graphtype > albelig
+> resolution > 1.8
+> date > 14-FEB-02
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > HUMAN PROKALLIKREIN 6 (HK6)/ PROZYME/ PROPROTEASE M/PRONEUROSIN
+> format_version > 2
+> pdbid > 1gvl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gvl | A | albelig | 1 | 1 | H | 7 | 9 | A-21-  | A-23-  | PAD 
+| 1gvl | A | albelig | 2 | 2 | E | 16 | 21 | A-30-  | A-35-  | QAALYT 
+| 1gvl | A | albelig | 3 | 3 | E | 24 | 33 | A-39-  | A-48-  | HLLNGGVLIH 
+| 1gvl | A | albelig | 4 | 4 | E | 36 | 39 | A-51-  | A-54-  | WVLT 
+| 1gvl | A | albelig | 5 | 5 | H | 41 | 43 | A-56-  | A-58-  | AHN 
+| 1gvl | A | albelig | 6 | 6 | E | 49 | 51 | A-65-  | A-67-  | QVF 
+| 1gvl | A | albelig | 7 | 7 | E | 66 | 74 | A-82-  | A-90-  | QSSVVRAVI 
+| 1gvl | A | albelig | 8 | 8 | E | 88 | 92 | A-104-  | A-108-  | MLLRL 
+| 1gvl | A | albelig | 9 | 9 | E | 117 | 124 | A-135-  | A-142-  | SDHILGWG 
+| 1gvl | A | albelig | 10 | 10 | E | 133 | 143 | A-153-  | A-163-  | DTIQAAYIHLV 
+| 1gvl | A | albelig | 11 | 11 | H | 145 | 151 | A-165-  | A-171-  | REEEEHA 
+| 1gvl | A | albelig | 12 | 12 | E | 160 | 164 | A-180-  | A-184-  | MLEAG 
+| 1gvl | A | albelig | 13 | 13 | E | 180 | 183 | A-198-  | A-201-  | PLVD 
+| 1gvl | A | albelig | 14 | 14 | E | 186 | 194 | A-208-  | A-216-  | HLRGLVSWG 
+| 1gvl | A | albelig | 15 | 15 | E | 205 | 209 | A-226-  | A-230-  | GVYTN 
+| 1gvl | A | albelig | 16 | 16 | H | 210 | 222 | A-231-  | A-243-  | VCRYTNWIQKTIQ 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 10
+= 2 = a = 3
+= 2 = a = 6
+= 2 = p = 9
+= 3 = a = 4
+= 4 = a = 8
+= 6 = a = 7
+= 7 = a = 8
+= 9 = a = 10
+= 9 = a = 13
+= 10 = a = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 15 = m = 16
+# Listed 15 contacts. EOF.

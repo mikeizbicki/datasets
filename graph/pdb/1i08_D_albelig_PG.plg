@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i08, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MANGANESE SUPEROXIDE DISMUTASE, MUTANT, H30A, HYDROGEN BOND,REACTIVITY, OXIDOREDUCTASE
+> pdb_mol_name > MANGANESE SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 29-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE H30A MUTANT OF MANGANESESUPEROXIDE DISMUTASE FROM E. COLI
+> format_version > 2
+> pdbid > 1i08
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i08 | D | albelig | 1 | 1 | H | 638 | 649 | D-20-  | D-31-  | KQTMEIHHTKAH 
+| 1i08 | D | albelig | 2 | 2 | H | 650 | 660 | D-32-  | D-42-  | QTYVNNANAAL 
+| 1i08 | D | albelig | 3 | 3 | H | 664 | 667 | D-46-  | D-49-  | PEFA 
+| 1i08 | D | albelig | 4 | 4 | H | 671 | 674 | D-53-  | D-56-  | VEEL 
+| 1i08 | D | albelig | 5 | 5 | H | 678 | 680 | D-60-  | D-62-  | LDQ 
+| 1i08 | D | albelig | 6 | 6 | H | 683 | 704 | D-65-  | D-86-  | ADKKTVLRNNAGGHANHSLFWK 
+| 1i08 | D | albelig | 7 | 7 | H | 714 | 724 | D-96-  | D-106-  | GDLKAAIERDF 
+| 1i08 | D | albelig | 8 | 8 | H | 727 | 740 | D-109-  | D-122-  | VDNFKAEFEKAAAS 
+| 1i08 | D | albelig | 9 | 9 | E | 745 | 752 | D-127-  | D-134-  | GWAWLVLK 
+| 1i08 | D | albelig | 10 | 10 | E | 755 | 762 | D-137-  | D-144-  | KLAVVSTA 
+| 1i08 | D | albelig | 11 | 11 | H | 767 | 769 | D-149-  | D-151-  | PLM 
+| 1i08 | D | albelig | 12 | 12 | H | 771 | 774 | D-153-  | D-156-  | EAIS 
+| 1i08 | D | albelig | 13 | 13 | E | 779 | 785 | D-161-  | D-167-  | FPIMGLD 
+| 1i08 | D | albelig | 14 | 14 | H | 788 | 790 | D-170-  | D-172-  | EHA 
+| 1i08 | D | albelig | 15 | 15 | H | 792 | 795 | D-174-  | D-177-  | YLKF 
+| 1i08 | D | albelig | 16 | 16 | H | 799 | 809 | D-181-  | D-191-  | RPDYIKEFWNV 
+| 1i08 | D | albelig | 17 | 17 | H | 812 | 821 | D-194-  | D-203-  | WDEAAARFAA 
+| 1i08 | D | albelig | 18 | 18 | L | 827 | 827 | D-206-  | D-206-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 6
+= 1 = l = 18
+= 2 = a = 6
+= 6 = m = 9
+= 6 = l = 18
+= 7 = m = 10
+= 7 = m = 17
+= 8 = a = 16
+= 9 = a = 10
+= 9 = a = 13
+= 9 = l = 18
+= 13 = m = 17
+= 13 = l = 18
+= 14 = l = 18
+# Listed 15 contacts. EOF.

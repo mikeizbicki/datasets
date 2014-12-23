@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1clo, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, FAB-FRAGMENT
+> pdb_mol_name > A5B7 MONOCLONAL ANTIBODY
+> graphtype > albelig
+> resolution > 2.1
+> date > 01-MAY-96
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > ANTI-CARCINOEMBRYONIC ANTIGEN MONOCLONAL ANTIBODY A5B7
+> format_version > 2
+> pdbid > 1clo
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1clo | H | albelig | 1 | 1 | E | 217 | 221 | H-3-  | H-7-  | KLVES 
+| 1clo | H | albelig | 2 | 2 | E | 224 | 226 | H-10-  | H-12-  | GLV 
+| 1clo | H | albelig | 3 | 3 | E | 232 | 239 | H-18-  | H-25-  | LRLSCATS 
+| 1clo | H | albelig | 4 | 4 | E | 248 | 253 | H-34-  | H-39-  | MNWVRQ 
+| 1clo | H | albelig | 5 | 5 | E | 260 | 265 | H-46-  | H-51-  | EWLGFI 
+| 1clo | H | albelig | 6 | 6 | E | 274 | 276 | H-57-  | H-59-  | TEY 
+| 1clo | H | albelig | 7 | 7 | E | 284 | 288 | H-67-  | H-71-  | FTISR 
+| 1clo | H | albelig | 8 | 8 | E | 294 | 299 | H-77-  | H-82-  | ILYLQM 
+| 1clo | H | albelig | 9 | 9 | H | 304 | 306 | H-84-  | H-86-  | AED 
+| 1clo | H | albelig | 10 | 10 | E | 308 | 315 | H-88-  | H-95-  | ATYYCTRD 
+| 1clo | H | albelig | 11 | 11 | E | 322 | 325 | H-100-K | H-103-  | FDYW 
+| 1clo | H | albelig | 12 | 12 | E | 329 | 333 | H-107-  | H-111-  | TTLTV 
+| 1clo | H | albelig | 13 | 13 | E | 342 | 346 | H-120-  | H-124-  | SVYPL 
+| 1clo | H | albelig | 14 | 14 | E | 358 | 367 | H-136-  | H-145-  | VTLGDLVKGY 
+| 1clo | H | albelig | 15 | 15 | E | 373 | 376 | H-151-  | H-154-  | TVTW 
+| 1clo | H | albelig | 16 | 16 | H | 377 | 379 | H-155-  | H-157-  | NSG 
+| 1clo | H | albelig | 17 | 17 | E | 385 | 387 | H-163-  | H-165-  | VHT 
+| 1clo | H | albelig | 18 | 18 | E | 391 | 393 | H-169-  | H-171-  | VLQ 
+| 1clo | H | albelig | 19 | 19 | E | 396 | 405 | H-174-  | H-183-  | LYTLSSSVTV 
+| 1clo | H | albelig | 20 | 20 | E | 416 | 421 | H-194-  | H-199-  | TDNVAH 
+| 1clo | H | albelig | 21 | 21 | H | 422 | 424 | H-200-  | H-202-  | PAS 
+| 1clo | H | albelig | 22 | 22 | E | 426 | 431 | H-204-  | H-209-  | TKVDKK 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 10
+= 2 = p = 12
+= 3 = a = 4
+= 3 = a = 8
+= 3 = p = 10
+= 4 = a = 5
+= 4 = p = 8
+= 4 = a = 10
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = a = 8
+= 10 = a = 11
+= 10 = a = 12
+= 13 = a = 14
+= 13 = p = 22
+= 14 = a = 19
+= 15 = m = 16
+= 15 = a = 20
+= 17 = a = 19
+= 18 = a = 19
+= 20 = m = 21
+= 20 = a = 22
+# Listed 24 contacts. EOF.

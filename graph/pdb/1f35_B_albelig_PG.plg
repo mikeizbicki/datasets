@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f35, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA, STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTURE INITIATIVE,NORTHEAST STRUCTURAL GENOMICS CONSORTIUM, NESG, SIGNALING PROTEIN
+> pdb_mol_name > OLFACTORY MARKER PROTEIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 31-MAY-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE OF MURINE OLFACTORY MARKER PROTEIN
+> format_version > 2
+> pdbid > 1f35
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f35 | B | albelig | 1 | 1 | E | 172 | 179 | B-1010-  | B-1017-  | QLEXPLVL 
+| 1f35 | B | albelig | 2 | 2 | H | 181 | 196 | B-1019-  | B-1034-  | QDLTQQXRLRVESLKQ 
+| 1f35 | B | albelig | 3 | 3 | E | 212 | 218 | B-1050-  | B-1056-  | ESVYRLD 
+| 1f35 | B | albelig | 4 | 4 | E | 225 | 234 | B-1063-  | B-1072-  | LQFDHWNVVL 
+| 1f35 | B | albelig | 5 | 5 | E | 238 | 244 | B-1076-  | B-1082-  | GKVTITG 
+| 1f35 | B | albelig | 6 | 6 | H | 258 | 260 | B-1096-  | B-1098-  | TRQ 
+| 1f35 | B | albelig | 7 | 7 | E | 266 | 270 | B-1104-  | B-1108-  | AIFWR 
+| 1f35 | B | albelig | 8 | 8 | E | 277 | 279 | B-1115-  | B-1117-  | XDW 
+| 1f35 | B | albelig | 9 | 9 | H | 281 | 297 | B-1119-  | B-1135-  | EADALEFGERLSDLAKI 
+| 1f35 | B | albelig | 10 | 10 | E | 300 | 307 | B-1138-  | B-1145-  | VXYFLITF 
+| 1f35 | B | albelig | 11 | 11 | H | 313 | 315 | B-1151-  | B-1153-  | PAN 
+| 1f35 | B | albelig | 12 | 12 | E | 316 | 324 | B-1154-  | B-1162-  | LKASVVFNQ 
+| 1f35 | B | albelig | 13 | 13 | L | 343 | 343 | B-308-  | B-308-  | J 
+| 1f35 | B | albelig | 14 | 14 | L | 344 | 344 | B-309-  | B-309-  | J 
+| 1f35 | B | albelig | 15 | 15 | L | 345 | 345 | B-310-  | B-310-  | J 
+| 1f35 | B | albelig | 16 | 16 | L | 346 | 346 | B-303-  | B-303-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 2 = m = 3
+= 2 = l = 16
+= 3 = a = 10
+= 3 = l = 15
+= 3 = l = 16
+= 4 = p = 7
+= 4 = a = 9
+= 4 = m = 11
+= 4 = a = 12
+= 5 = a = 7
+= 5 = a = 10
+= 7 = a = 8
+= 7 = l = 13
+= 8 = l = 13
+= 8 = l = 14
+= 9 = l = 13
+= 9 = l = 14
+= 11 = m = 12
+= 13 = l = 14
+# Listed 21 contacts. EOF.

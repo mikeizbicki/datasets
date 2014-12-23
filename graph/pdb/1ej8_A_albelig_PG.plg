@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ej8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, COPPER CHAPERONE FOR SOD, DOMAIN 2
+> pdb_mol_name > LYS7
+> graphtype > albelig
+> resolution > 1.55
+> date > 01-MAR-00
+> header > CHAPERONE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF DOMAIN 2 OF THE YEAST COPPER CHAPERONEFOR SUPEROXIDE DISMUTASE (LYS7) AT 1.55 A RESOLUTION
+> format_version > 2
+> pdbid > 1ej8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ej8 | A | albelig | 1 | 1 | E | 2 | 8 | A-79-  | A-85-  | SAVAILE 
+| 1ej8 | A | albelig | 2 | 2 | E | 23 | 33 | A-100-  | A-110-  | VRGLARIVQVG 
+| 1ej8 | A | albelig | 3 | 3 | E | 36 | 46 | A-113-  | A-123-  | KTLFDITVNGV 
+| 1ej8 | A | albelig | 4 | 4 | E | 50 | 57 | A-127-  | A-134-  | GNYHASIH 
+| 1ej8 | A | albelig | 5 | 5 | H | 65 | 68 | A-142-  | A-145-  | GVES 
+| 1ej8 | A | albelig | 6 | 6 | E | 72 | 75 | A-149-  | A-152-  | VWHK 
+| 1ej8 | A | albelig | 7 | 7 | E | 80 | 82 | A-157-  | A-159-  | IEC 
+| 1ej8 | A | albelig | 8 | 8 | E | 84 | 87 | A-161-  | A-164-  | NESD 
+| 1ej8 | A | albelig | 9 | 9 | E | 92 | 101 | A-169-  | A-178-  | LYSGKTFLSA 
+| 1ej8 | A | albelig | 10 | 10 | H | 105 | 107 | A-182-  | A-184-  | TWQ 
+| 1ej8 | A | albelig | 11 | 11 | E | 112 | 118 | A-189-  | A-195-  | SFVISKS 
+| 1ej8 | A | albelig | 12 | 12 | H | 122 | 124 | A-199-  | A-201-  | PEN 
+| 1ej8 | A | albelig | 13 | 13 | E | 131 | 137 | A-208-  | A-214-  | DYSFLGV 
+| 1ej8 | A | albelig | 14 | 14 | L | 141 | 141 | A-218-  | A-218-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 13
+= 2 = a = 3
+= 3 = a = 9
+= 4 = a = 6
+= 4 = a = 7
+= 4 = a = 11
+= 7 = a = 9
+= 8 = a = 9
+= 9 = l = 14
+= 11 = a = 13
+# Listed 11 contacts. EOF.

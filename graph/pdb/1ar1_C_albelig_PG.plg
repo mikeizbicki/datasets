@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ar1, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (OXIDOREDUCTASE/ANTIBODY), ELECTRON TRANSPORT,TRANSMEMBRANE, CYTOCHROME OXIDASE, ANTIBODY COMPLEX
+> pdb_mol_name > ANTIBODY FV FRAGMENT
+> graphtype > albelig
+> resolution > 2.7
+> date > 08-AUG-97
+> header > COMPLEX (OXIDOREDUCTASE/ANTIBODY)
+> pdb_org_common > HOUSE MOUSE
+> title > STRUCTURE AT 2.7 ANGSTROM RESOLUTION OF THE PARACOCCUSDENITRIFICANS TWO-SUBUNIT CYTOCHROME C OXIDASE COMPLEXEDWITH AN ANTIBODY FV FRAGMENT
+> format_version > 2
+> pdbid > 1ar1
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ar1 | C | albelig | 1 | 1 | E | 786 | 790 | C-3-  | C-7-  | KLQES 
+| 1ar1 | C | albelig | 2 | 2 | E | 801 | 808 | C-18-  | C-25-  | LKLSNAAS 
+| 1ar1 | C | albelig | 3 | 3 | H | 812 | 814 | C-29-  | C-31-  | FSS 
+| 1ar1 | C | albelig | 4 | 4 | E | 817 | 822 | C-34-  | C-39-  | MSWVRQ 
+| 1ar1 | C | albelig | 5 | 5 | E | 828 | 834 | C-45-  | C-51-  | LEWVASI 
+| 1ar1 | C | albelig | 6 | 6 | E | 852 | 856 | C-69-  | C-73-  | TISRD 
+| 1ar1 | C | albelig | 7 | 7 | E | 861 | 866 | C-78-  | C-83-  | TLYLQM 
+| 1ar1 | C | albelig | 8 | 8 | H | 871 | 873 | C-88-  | C-90-  | SED 
+| 1ar1 | C | albelig | 9 | 9 | E | 875 | 883 | C-92-  | C-100-  | AMYYNVRHE 
+| 1ar1 | C | albelig | 10 | 10 | E | 887 | 891 | C-104-  | C-108-  | AMDYW 
+| 1ar1 | C | albelig | 11 | 11 | E | 895 | 899 | C-112-  | C-116-  | TTVTV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 4
+= 2 = a = 7
+= 2 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 5 = p = 6
+= 6 = a = 7
+= 9 = a = 10
+= 9 = a = 11
+# Listed 12 contacts. EOF.

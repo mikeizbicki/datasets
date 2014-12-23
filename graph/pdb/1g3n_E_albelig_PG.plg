@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g3n, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYCLIN-DEPENDENT KINASE, INK4 INHIBITOR, VIRAL CYCLIN, CELLCYCLE, SIGNALING PROTEIN
+> pdb_mol_name > CYCLIN-DEPENDENT KINASE 6
+> graphtype > albelig
+> resolution > 2.9
+> date > 24-OCT-00
+> header > CELL CYCLE, SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF A P18(INK4C)-CDK6-K-CYCLIN TERNARY COMPLEX
+> format_version > 2
+> pdbid > 1g3n
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g3n | E | albelig | 1 | 1 | E | 690 | 699 | E-13-  | E-22-  | YECVAEIGEG 
+| 1g3n | E | albelig | 2 | 2 | E | 702 | 709 | E-25-  | E-32-  | GKVFKARD 
+| 1g3n | E | albelig | 3 | 3 | E | 715 | 725 | E-38-  | E-48-  | RFVALKRVRVQ 
+| 1g3n | E | albelig | 4 | 4 | H | 733 | 747 | E-56-  | E-70-  | LSTIREVAVLRHLET 
+| 1g3n | E | albelig | 5 | 5 | E | 756 | 763 | E-79-  | E-86-  | LFDVCTVS 
+| 1g3n | E | albelig | 6 | 6 | E | 768 | 776 | E-91-  | E-99-  | ETKLTLVFE 
+| 1g3n | E | albelig | 7 | 7 | H | 782 | 786 | E-105-  | E-109-  | LTTYL 
+| 1g3n | E | albelig | 8 | 8 | H | 796 | 815 | E-119-  | E-138-  | TETIKDMMFQLLRGLDFLHS 
+| 1g3n | E | albelig | 9 | 9 | H | 825 | 827 | E-148-  | E-150-  | PQN 
+| 1g3n | E | albelig | 10 | 10 | E | 828 | 830 | E-151-  | E-153-  | ILV 
+| 1g3n | E | albelig | 11 | 11 | E | 836 | 838 | E-159-  | E-161-  | IKL 
+| 1g3n | E | albelig | 12 | 12 | E | 846 | 849 | E-169-  | E-172-  | IYSF 
+| 1g3n | E | albelig | 13 | 13 | E | 854 | 857 | E-177-  | E-180-  | TSVV 
+| 1g3n | E | albelig | 14 | 14 | H | 858 | 862 | E-181-  | E-185-  | VTLWY 
+| 1g3n | E | albelig | 15 | 15 | H | 865 | 868 | E-188-  | E-191-  | PEVL 
+| 1g3n | E | albelig | 16 | 16 | H | 876 | 891 | E-199-  | E-214-  | PVDLWSVGCIFAEMFR 
+| 1g3n | E | albelig | 17 | 17 | H | 901 | 912 | E-224-  | E-235-  | DVDQLGKILDVI 
+| 1g3n | E | albelig | 18 | 18 | H | 928 | 930 | E-251-  | E-253-  | RQA 
+| 1g3n | E | albelig | 19 | 19 | H | 939 | 941 | E-262-  | E-264-  | IEK 
+| 1g3n | E | albelig | 20 | 20 | H | 948 | 957 | E-271-  | E-280-  | ELGKDLLLKC 
+| 1g3n | E | albelig | 21 | 21 | H | 962 | 964 | E-285-  | E-287-  | PAK 
+| 1g3n | E | albelig | 22 | 22 | H | 968 | 972 | E-291-  | E-295-  | AYSAL 
+| 1g3n | E | albelig | 23 | 23 | H | 975 | 977 | E-298-  | E-300-  | PYF 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 6
+= 5 = a = 6
+= 8 = m = 11
+= 8 = a = 16
+= 8 = m = 22
+= 8 = m = 23
+= 9 = m = 10
+= 10 = a = 11
+= 12 = a = 13
+= 13 = m = 14
+= 14 = m = 16
+= 16 = a = 20
+= 19 = m = 20
+# Listed 15 contacts. EOF.

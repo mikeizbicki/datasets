@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a8k, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMAN IMMUNODEFICIENCY VIRUS PROTEASE, PROTON-MEDIATED INTERACTION,VIRAL MATURATION, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > HIV PROTEASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 27-MAR-98
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTALLOGRAPHIC ANALYSIS OF HUMAN IMMUNODEFICIENCY VIRUS 1 PROTEASEWITH AN ANALOG OF THE CONSERVED CA-P2 SUBSTRATE: INTERACTIONS WITHFREQUENTLY OCCURRING GLUTAMIC ACID RESIDUE AT P2' POSITION OFSUBSTRATES
+> format_version > 2
+> pdbid > 1a8k
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a8k | E | albelig | 1 | 1 | E | 310 | 315 | E-10-  | E-15-  | LVTIKI 
+| 1a8k | E | albelig | 2 | 2 | E | 318 | 324 | E-18-  | E-24-  | QLKEALL 
+| 1a8k | E | albelig | 3 | 3 | E | 332 | 334 | E-32-  | E-34-  | VIE 
+| 1a8k | E | albelig | 4 | 4 | E | 344 | 348 | E-44-  | E-48-  | PKMIG 
+| 1a8k | E | albelig | 5 | 5 | E | 353 | 366 | E-53-  | E-66-  | FIKVRQYDQIIIEI 
+| 1a8k | E | albelig | 6 | 6 | E | 369 | 378 | E-69-  | E-78-  | HKAIGTVLVG 
+| 1a8k | E | albelig | 7 | 7 | E | 383 | 385 | E-83-  | E-85-  | NII 
+| 1a8k | E | albelig | 8 | 8 | H | 387 | 393 | E-87-  | E-93-  | RNLLTQI 
+| 1a8k | E | albelig | 9 | 9 | E | 396 | 398 | E-96-  | E-98-  | TLN 
+| 1a8k | E | albelig | 10 | 10 | L | 401 | 401 | E-100-  | E-100-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = p = 7
+= 2 = l = 10
+= 3 = p = 6
+= 3 = a = 7
+= 3 = l = 10
+= 4 = a = 5
+= 4 = l = 10
+= 5 = a = 6
+= 5 = l = 10
+= 6 = a = 8
+= 6 = l = 10
+= 7 = l = 10
+# Listed 14 contacts. EOF.

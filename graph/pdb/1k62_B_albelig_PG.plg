@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k62, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTRAGENIC COMPLEMENTATION, ARGINIOSUCCINATE LYASE, DELTACRYSTALLIN, ENZYME MECHANISM
+> pdb_mol_name > ARGININOSUCCINATE LYASE
+> graphtype > albelig
+> resolution > 2.65
+> date > 14-OCT-01
+> header > LYASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE HUMAN ARGININOSUCCINATE LYASEQ286R MUTANT
+> format_version > 2
+> pdbid > 1k62
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k62 | B | albelig | 1 | 1 | H | 465 | 469 | B-19-  | B-23-  | PIMEK 
+| 1k62 | B | albelig | 2 | 2 | H | 474 | 480 | B-28-  | B-34-  | IAYDRHL 
+| 1k62 | B | albelig | 3 | 3 | H | 481 | 498 | B-35-  | B-52-  | WEVDVQGSKAYSRGLEKA 
+| 1k62 | B | albelig | 4 | 4 | H | 503 | 522 | B-57-  | B-76-  | KAEMDQILHGLDKVAEEWAQ 
+| 1k62 | B | albelig | 5 | 5 | H | 534 | 544 | B-88-  | B-98-  | IHTANERRLKE 
+| 1k62 | B | albelig | 6 | 6 | H | 549 | 552 | B-103-  | B-106-  | TAGK 
+| 1k62 | B | albelig | 7 | 7 | H | 559 | 595 | B-113-  | B-149-  | RNDQVVTDLRLWMRQTCSTLSGLLWELIRTMVDRAEA 
+| 1k62 | B | albelig | 8 | 8 | E | 600 | 605 | B-154-  | B-159-  | LFPGYT 
+| 1k62 | B | albelig | 9 | 9 | E | 608 | 614 | B-162-  | B-168-  | QRAQPIR 
+| 1k62 | B | albelig | 10 | 10 | H | 615 | 640 | B-169-  | B-194-  | WSHWILSHAVALTRDSERLLEVRKRI 
+| 1k62 | B | albelig | 11 | 11 | H | 659 | 665 | B-213-  | B-219-  | RELLRAE 
+| 1k62 | B | albelig | 12 | 12 | H | 675 | 680 | B-229-  | B-234-  | SMDATS 
+| 1k62 | B | albelig | 13 | 13 | H | 683 | 709 | B-237-  | B-263-  | DFVAEFLFWRSLCMTHLSRMAEDLILY 
+| 1k62 | B | albelig | 14 | 14 | H | 721 | 723 | B-275-  | B-277-  | DAY 
+| 1k62 | B | albelig | 15 | 15 | H | 737 | 760 | B-291-  | B-314-  | DSLELIRSKAGRVFGRCAGLLMTL 
+| 1k62 | B | albelig | 16 | 16 | H | 769 | 798 | B-323-  | B-352-  | KDLQEDKEAVFEVSDTMSAVLQVATGVIST 
+| 1k62 | B | albelig | 17 | 17 | H | 803 | 808 | B-357-  | B-362-  | QENMGQ 
+| 1k62 | B | albelig | 18 | 18 | H | 812 | 814 | B-366-  | B-368-  | PDM 
+| 1k62 | B | albelig | 19 | 19 | H | 816 | 824 | B-370-  | B-378-  | ATDLAYYLV 
+| 1k62 | B | albelig | 20 | 20 | H | 830 | 846 | B-384-  | B-400-  | FRQAHEASGKAVFMAET 
+| 1k62 | B | albelig | 21 | 21 | H | 851 | 853 | B-405-  | B-407-  | LNQ 
+| 1k62 | B | albelig | 22 | 22 | H | 856 | 860 | B-410-  | B-414-  | LQELQ 
+| 1k62 | B | albelig | 23 | 23 | H | 868 | 872 | B-422-  | B-426-  | GDVIC 
+| 1k62 | B | albelig | 24 | 24 | H | 876 | 880 | B-430-  | B-434-  | YRHSV 
+| 1k62 | B | albelig | 25 | 25 | H | 891 | 909 | B-445-  | B-463-  | RSSVDWQIRQVRALLQAQQ 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = m = 5
+= 3 = m = 7
+= 3 = m = 11
+= 4 = a = 5
+= 4 = m = 6
+= 5 = m = 7
+= 7 = a = 10
+= 7 = p = 13
+= 7 = p = 16
+= 7 = a = 25
+= 8 = a = 9
+= 8 = m = 17
+= 9 = m = 10
+= 10 = a = 13
+= 10 = p = 25
+= 13 = a = 15
+= 13 = p = 16
+= 15 = a = 16
+= 19 = a = 20
+# Listed 20 contacts. EOF.

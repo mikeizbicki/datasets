@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kif, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAD COFACTOR, OXIDASE, FLAVOENZYME, FLAVOPROTEIN
+> pdb_mol_name > D-AMINO ACID OXIDASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 19-JAN-96
+> header > FLAVOPROTEIN
+> pdb_org_common > PIG
+> title > D-AMINO ACID OXIDASE FROM PIG KIDNEY
+> format_version > 2
+> pdbid > 1kif
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SUS SCROFA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kif | A | albelig | 1 | 1 | E | 2 | 6 | A-2-  | A-6-  | RVVVI 
+| 1kif | A | albelig | 2 | 2 | H | 10 | 23 | A-10-  | A-23-  | VIGLSTALCIHERY 
+| 1kif | A | albelig | 3 | 3 | E | 31 | 36 | A-31-  | A-36-  | DVKVYA 
+| 1kif | A | albelig | 4 | 4 | H | 45 | 47 | A-45-  | A-47-  | TDV 
+| 1kif | A | albelig | 5 | 5 | H | 63 | 76 | A-63-  | A-76-  | QEANWNQQTFNYLL 
+| 1kif | A | albelig | 6 | 6 | E | 89 | 98 | A-89-  | A-98-  | LTPVSGYNLF 
+| 1kif | A | albelig | 7 | 7 | E | 112 | 116 | A-112-  | A-116-  | LGFRK 
+| 1kif | A | albelig | 8 | 8 | H | 119 | 122 | A-119-  | A-122-  | PREL 
+| 1kif | A | albelig | 9 | 9 | E | 130 | 139 | A-130-  | A-139-  | YGWFNTSLIL 
+| 1kif | A | albelig | 10 | 10 | H | 141 | 154 | A-141-  | A-154-  | GRKYLQWLTERLTE 
+| 1kif | A | albelig | 11 | 11 | E | 158 | 161 | A-158-  | A-161-  | KFFL 
+| 1kif | A | albelig | 12 | 12 | H | 167 | 172 | A-167-  | A-172-  | FEEVAR 
+| 1kif | A | albelig | 13 | 13 | E | 177 | 180 | A-177-  | A-180-  | VIIN 
+| 1kif | A | albelig | 14 | 14 | H | 183 | 189 | A-183-  | A-189-  | GVWAGVL 
+| 1kif | A | albelig | 15 | 15 | E | 196 | 206 | A-196-  | A-206-  | QPGRGQIIKVD 
+| 1kif | A | albelig | 16 | 16 | E | 213 | 217 | A-213-  | A-217-  | FIITH 
+| 1kif | A | albelig | 17 | 17 | E | 228 | 231 | A-228-  | A-231-  | YIIP 
+| 1kif | A | albelig | 18 | 18 | E | 236 | 239 | A-236-  | A-239-  | VTLG 
+| 1kif | A | albelig | 19 | 19 | H | 253 | 266 | A-253-  | A-266-  | IQDHNTIWEGCCRL 
+| 1kif | A | albelig | 20 | 20 | H | 268 | 272 | A-268-  | A-272-  | PTLKD 
+| 1kif | A | albelig | 21 | 21 | E | 274 | 285 | A-274-  | A-285-  | KIVGEYTGFRPV 
+| 1kif | A | albelig | 22 | 22 | E | 290 | 297 | A-290-  | A-297-  | RLEREQLR 
+| 1kif | A | albelig | 23 | 23 | E | 302 | 309 | A-302-  | A-309-  | NTEVIHNY 
+| 1kif | A | albelig | 24 | 24 | H | 312 | 336 | A-312-  | A-336-  | GGYGLTIHWGCALEVAKLFGKVLEE 
+| 1kif | A | albelig | 25 | 25 | L | 2720 | 2720 | A-348-  | A-348-  | J 
+| 1kif | A | albelig | 26 | 26 | L | 2721 | 2721 | A-349-  | A-349-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 13
+= 1 = l = 25
+= 2 = m = 10
+= 2 = p = 24
+= 2 = l = 25
+= 3 = p = 11
+= 3 = l = 25
+= 4 = l = 25
+= 5 = m = 24
+= 6 = a = 9
+= 6 = p = 16
+= 7 = a = 9
+= 13 = p = 23
+= 14 = m = 21
+= 14 = l = 25
+= 15 = a = 18
+= 15 = p = 19
+= 15 = a = 21
+= 15 = l = 25
+= 16 = a = 17
+= 16 = l = 26
+= 17 = a = 18
+= 17 = l = 25
+= 17 = l = 26
+= 19 = m = 20
+= 21 = m = 24
+= 21 = l = 25
+= 21 = l = 26
+= 22 = a = 23
+= 22 = m = 24
+= 24 = l = 25
+= 24 = l = 26
+= 25 = l = 26
+# Listed 34 contacts. EOF.

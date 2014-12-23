@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i17, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOUSE DOPPEL, DOPPEL, DPL, PRION, UNKNOWN FUNCTION
+> pdb_mol_name > PRION-LIKE PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 31-JAN-01
+> header > UNKNOWN FUNCTION
+> pdb_org_common > HOUSE MOUSE
+> title > NMR STRUCTURE OF MOUSE DOPPEL 51-157
+> format_version > 2
+> pdbid > 1i17
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i17 | A | albelig | 1 | 1 | E | 9 | 11 | A-9-  | A-11-  | AFI 
+| 1i17 | A | albelig | 2 | 2 | H | 23 | 35 | A-23-  | A-35-  | AEGNRYYAANYWQ 
+| 1i17 | A | albelig | 3 | 3 | E | 39 | 41 | A-39-  | A-41-  | GIY 
+| 1i17 | A | albelig | 4 | 4 | H | 52 | 66 | A-52-  | A-66-  | KEMLVTSNVNATQAA 
+| 1i17 | A | albelig | 5 | 5 | H | 68 | 75 | A-68-  | A-75-  | QAEFSREK 
+| 1i17 | A | albelig | 6 | 6 | H | 79 | 95 | A-79-  | A-95-  | KLHQRVLWRLIKEINSA 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = m = 6
+= 4 = m = 5
+= 4 = a = 6
+= 5 = m = 6
+# Listed 5 contacts. EOF.

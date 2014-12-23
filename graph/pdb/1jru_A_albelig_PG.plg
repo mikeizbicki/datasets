@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jru, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUITIN SUPERFOLD, UBX, UNUSUAL N-TERMINAL FEATURE,UNKNOWN FUNCTION
+> pdb_mol_name > P47 PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 15-AUG-01
+> header > UNKNOWN FUNCTION
+> pdb_org_common > NORWAY RAT
+> title > NMR STRUCTURE OF THE UBX DOMAIN FROM P47 (ENERGY MINIMISEDAVERAGE)
+> format_version > 2
+> pdbid > 1jru
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jru | A | albelig | 1 | 1 | E | 15 | 21 | A-296-  | A-302-  | TNIQIRL 
+| 1jru | A | albelig | 2 | 2 | E | 25 | 31 | A-306-  | A-312-  | GRLVQKF 
+| 1jru | A | albelig | 3 | 3 | H | 38 | 46 | A-319-  | A-327-  | SDIRLFIVD 
+| 1jru | A | albelig | 4 | 4 | H | 51 | 53 | A-332-  | A-334-  | MAA 
+| 1jru | A | albelig | 5 | 5 | E | 56 | 59 | A-337-  | A-340-  | FVLM 
+| 1jru | A | albelig | 6 | 6 | H | 75 | 77 | A-356-  | A-358-  | KEA 
+| 1jru | A | albelig | 7 | 7 | E | 83 | 88 | A-364-  | A-369-  | VIVQRL 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 7
+= 2 = m = 3
+= 5 = a = 7
+# Listed 4 contacts. EOF.

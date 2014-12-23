@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bnr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MICROBIAL RIBONUCLEASE
+> pdb_mol_name > BARNASE (G SPECIFIC ENDONUCLEASE)
+> graphtype > albelig
+> resolution > -1.0
+> date > 31-MAR-95
+> header > MICROBIAL RIBONUCLEASE
+> pdb_org_common > UNKNOWN
+> title > BARNASE
+> format_version > 2
+> pdbid > 1bnr
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bnr | A | albelig | 1 | 1 | H | 7 | 17 | A-7-  | A-17-  | FDGVADYLQTY 
+| 1bnr | A | albelig | 2 | 2 | H | 27 | 33 | A-27-  | A-33-  | KSEAQAL 
+| 1bnr | A | albelig | 3 | 3 | H | 42 | 45 | A-42-  | A-45-  | LADV 
+| 1bnr | A | albelig | 4 | 4 | E | 52 | 56 | A-52-  | A-56-  | GGDIF 
+| 1bnr | A | albelig | 5 | 5 | E | 71 | 75 | A-71-  | A-75-  | WREAD 
+| 1bnr | A | albelig | 6 | 6 | E | 87 | 91 | A-87-  | A-91-  | RILYS 
+| 1bnr | A | albelig | 7 | 7 | E | 96 | 99 | A-96-  | A-99-  | IYKT 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+# Listed 4 contacts. EOF.

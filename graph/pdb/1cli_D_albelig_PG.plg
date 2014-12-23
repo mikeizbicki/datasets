@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cli, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AIR SYNTHETASE, PURM, PURINE BIOSYNTHESIS, TRIFUNCTIONAL ENZYME,PURL, FGAR AMIDOTRANSFERASE, NOVEL FOLD, LIGASE
+> pdb_mol_name > PROTEIN (PHOSPHORIBOSYL-AMINOIMIDAZOLE SYNTHETASE)
+> graphtype > albelig
+> resolution > 2.5
+> date > 28-APR-99
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY CRYSTAL STRUCTURE OF AMINOIMIDAZOLE RIBONUCLEOTIDE SYNTHETASE(PURM), FROM THE E. COLI PURINE BIOSYNTHETIC PATHWAY, AT 2.5 ARESOLUTION
+> format_version > 2
+> pdbid > 1cli
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cli | D | albelig | 1 | 1 | H | 1013 | 1021 | D-3023-  | D-3031-  | VGRIKGVVK 
+| 1cli | D | albelig | 2 | 2 | E | 1037 | 1040 | D-3047-  | D-3050-  | ALCA 
+| 1cli | D | albelig | 3 | 3 | E | 1048 | 1056 | D-3058-  | D-3066-  | PVLVSGTDG 
+| 1cli | D | albelig | 4 | 4 | H | 1060 | 1066 | D-3070-  | D-3076-  | KLRLAMD 
+| 1cli | D | albelig | 5 | 5 | H | 1073 | 1088 | D-3083-  | D-3098-  | IGIDLVAMCVNDLVVQ 
+| 1cli | D | albelig | 6 | 6 | E | 1091 | 1101 | D-3101-  | D-3111-  | EPLFFLDYYAT 
+| 1cli | D | albelig | 7 | 7 | H | 1106 | 1123 | D-3116-  | D-3133-  | VDTASAVISGIAEGCLQS 
+| 1cli | D | albelig | 8 | 8 | E | 1126 | 1129 | D-3136-  | D-3139-  | SLVG 
+| 1cli | D | albelig | 9 | 9 | E | 1132 | 1134 | D-3142-  | D-3144-  | TAE 
+| 1cli | D | albelig | 10 | 10 | E | 1144 | 1155 | D-3154-  | D-3165-  | YDVAGFCVGVVE 
+| 1cli | D | albelig | 11 | 11 | H | 1156 | 1158 | D-3166-  | D-3168-  | KSE 
+| 1cli | D | albelig | 12 | 12 | E | 1170 | 1175 | D-3180-  | D-3185-  | VLIALG 
+| 1cli | D | albelig | 13 | 13 | H | 1184 | 1194 | D-3194-  | D-3204-  | YSLVRKILEVS 
+| 1cli | D | albelig | 14 | 14 | H | 1208 | 1212 | D-3218-  | D-3222-  | LADHL 
+| 1cli | D | albelig | 15 | 15 | H | 1220 | 1229 | D-3230-  | D-3239-  | VKSVLELIEK 
+| 1cli | D | albelig | 16 | 16 | E | 1234 | 1237 | D-3244-  | D-3247-  | AIAH 
+| 1cli | D | albelig | 17 | 17 | H | 1242 | 1246 | D-3252-  | D-3256-  | GFWEN 
+| 1cli | D | albelig | 18 | 18 | H | 1248 | 1250 | D-3258-  | D-3260-  | PRV 
+| 1cli | D | albelig | 19 | 19 | E | 1255 | 1259 | D-3265-  | D-3269-  | TQAVI 
+| 1cli | D | albelig | 20 | 20 | H | 1268 | 1277 | D-3278-  | D-3287-  | EVFNWLQTAG 
+| 1cli | D | albelig | 21 | 21 | H | 1281 | 1287 | D-3291-  | D-3297-  | HHEMYRT 
+| 1cli | D | albelig | 22 | 22 | E | 1292 | 1298 | D-3302-  | D-3308-  | VGMIIAL 
+| 1cli | D | albelig | 23 | 23 | H | 1300 | 1312 | D-3310-  | D-3322-  | APEVDKALALLNA 
+| 1cli | D | albelig | 24 | 24 | E | 1317 | 1325 | D-3327-  | D-3335-  | AWKIGIIKA 
+| 1cli | D | albelig | 25 | 25 | E | 1332 | 1334 | D-3342-  | D-3344-  | VVI 
+| 1cli | D | albelig | 26 | 26 | L | 1339 | 1339 | D-3350-  | D-3350-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 5
+= 3 = a = 10
+= 4 = m = 13
+= 4 = l = 26
+= 5 = p = 7
+= 5 = p = 10
+= 5 = m = 16
+= 6 = p = 8
+= 6 = p = 9
+= 6 = a = 10
+= 10 = m = 11
+= 12 = a = 22
+= 12 = a = 24
+= 13 = l = 26
+= 16 = m = 17
+= 16 = a = 22
+= 17 = m = 18
+= 17 = m = 21
+= 19 = a = 24
+= 19 = p = 25
+# Listed 20 contacts. EOF.

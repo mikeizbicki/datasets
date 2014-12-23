@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1acb, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > EGLIN C
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-NOV-91
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > MEDICINAL LEECH
+> title > CRYSTAL AND MOLECULAR STRUCTURE OF THE BOVINE ALPHA-CHYMOTRYPSIN-EGLINC COMPLEX AT 2.0 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1acb
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > HIRUDO MEDICINALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1acb | I | albelig | 1 | 1 | H | 248 | 250 | I-11-  | I-13-  | PEV 
+| 1acb | I | albelig | 2 | 2 | H | 255 | 265 | I-18-  | I-28-  | VDQAREYFTLH 
+| 1acb | I | albelig | 3 | 3 | E | 270 | 275 | I-33-  | I-38-  | DVYFLP 
+| 1acb | I | albelig | 4 | 4 | E | 279 | 281 | I-42-  | I-44-  | PVT 
+| 1acb | I | albelig | 5 | 5 | E | 288 | 294 | I-51-  | I-57-  | RVRVFYN 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 5
+# Listed 1 contacts. EOF.

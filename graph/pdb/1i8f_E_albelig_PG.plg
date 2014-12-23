@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i8f, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL-LIKE SMAP MONOMERS FORM 35-STRANDED BETA-SHEET IN THEHEPTAMER, STRUCTURAL GENOMICS
+> pdb_mol_name > PUTATIVE SNRNP SM-LIKE PROTEIN
+> graphtype > albelig
+> resolution > 1.75
+> date > 14-MAR-01
+> header > STRUCTURAL GENOMICS
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF A HEPTAMERIC ARCHAEAL SM PROTEIN:IMPLICATIONS FOR THE EUKARYOTIC SNRNP CORE
+> format_version > 2
+> pdbid > 1i8f
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > PYROBACULUM AEROPHILUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i8f | E | albelig | 1 | 1 | H | 290 | 295 | E-12-  | E-17-  | LGATLQ 
+| 1i8f | E | albelig | 2 | 2 | E | 301 | 306 | E-23-  | E-28-  | QVLVKL 
+| 1i8f | E | albelig | 3 | 3 | H | 307 | 309 | E-29-  | E-31-  | RDS 
+| 1i8f | E | albelig | 4 | 4 | E | 310 | 319 | E-32-  | E-41-  | HEIRGILRSF 
+| 1i8f | E | albelig | 5 | 5 | E | 325 | 334 | E-47-  | E-56-  | LLLEDAEEII 
+| 1i8f | E | albelig | 6 | 6 | E | 337 | 346 | E-59-  | E-68-  | NVYKRGTMVV 
+| 1i8f | E | albelig | 7 | 7 | H | 348 | 350 | E-70-  | E-72-  | GEN 
+| 1i8f | E | albelig | 8 | 8 | E | 351 | 356 | E-73-  | E-78-  | VLFISP 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 4
+= 2 = a = 8
+= 3 = m = 4
+= 4 = a = 5
+= 5 = a = 6
+= 7 = m = 8
+# Listed 7 contacts. EOF.

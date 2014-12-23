@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cqr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIVE, TRUNCATED NATIVE ENZYME, HYDROLASE
+> pdb_mol_name > STROMELYSIN-1
+> graphtype > albelig
+> resolution > 2.0
+> date > 11-AUG-99
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE STROMELYSIN CATALYTIC DOMAIN AT 2.0 ARESOLUTION
+> format_version > 2
+> pdbid > 1cqr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cqr | A | albelig | 1 | 1 | E | 14 | 19 | A-96-  | A-101-  | HLTYRI 
+| 1cqr | A | albelig | 2 | 2 | H | 28 | 43 | A-110-  | A-125-  | KDAVDSAVEKALKVWE 
+| 1cqr | A | albelig | 3 | 3 | E | 49 | 52 | A-131-  | A-134-  | TFSR 
+| 1cqr | A | albelig | 4 | 4 | E | 60 | 65 | A-142-  | A-147-  | IMISFA 
+| 1cqr | A | albelig | 5 | 5 | E | 83 | 85 | A-165-  | A-167-  | AHA 
+| 1cqr | A | albelig | 6 | 6 | E | 96 | 99 | A-178-  | A-181-  | AHFD 
+| 1cqr | A | albelig | 7 | 7 | H | 113 | 125 | A-195-  | A-207-  | LFLVAAHEIGHSL 
+| 1cqr | A | albelig | 8 | 8 | H | 154 | 164 | A-236-  | A-246-  | QDDINGIQSLY 
+| 1cqr | A | albelig | 9 | 9 | L | 344 | 344 | A-1301-  | A-1301-  | J 
+| 1cqr | A | albelig | 10 | 10 | L | 345 | 345 | A-1302-  | A-1302-  | J 
+| 1cqr | A | albelig | 11 | 11 | L | 346 | 346 | A-1303-  | A-1303-  | J 
+| 1cqr | A | albelig | 12 | 12 | L | 347 | 347 | A-1304-  | A-1304-  | J 
+| 1cqr | A | albelig | 13 | 13 | L | 348 | 348 | A-1305-  | A-1305-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 4
+= 2 = p = 7
+= 4 = p = 6
+= 4 = l = 13
+= 5 = a = 6
+= 5 = m = 7
+= 5 = l = 10
+= 6 = l = 10
+= 6 = l = 11
+= 7 = l = 9
+# Listed 11 contacts. EOF.

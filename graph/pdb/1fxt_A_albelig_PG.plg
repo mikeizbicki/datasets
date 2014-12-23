@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fxt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MODEL OF THE INTERACTION BETWEEN YEAST UBC1 AND UBIQUITINAFTER THE FORMATION OF A COVALENT THIOLESTER, LIGASE
+> pdb_mol_name > UBIQUITIN-CONJUGATING ENZYME E2-24 KDA
+> graphtype > albelig
+> resolution > -1.0
+> date > 26-SEP-00
+> header > LIGASE
+> pdb_org_common > BAKER'S YEAST
+> title > STRUCTURE OF A CONJUGATING ENZYME-UBIQUITIN THIOLESTERCOMPLEX
+> format_version > 2
+> pdbid > 1fxt
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fxt | A | albelig | 1 | 1 | H | 3 | 15 | A-4-  | A-16-  | AKRIMKEIQAVKD 
+| 1fxt | A | albelig | 2 | 2 | H | 17 | 19 | A-18-  | A-20-  | PAA 
+| 1fxt | A | albelig | 3 | 3 | E | 22 | 25 | A-23-  | A-26-  | TLEF 
+| 1fxt | A | albelig | 4 | 4 | E | 33 | 39 | A-34-  | A-40-  | HLKGTFL 
+| 1fxt | A | albelig | 5 | 5 | E | 50 | 56 | A-51-  | A-57-  | KFVVDIE 
+| 1fxt | A | albelig | 6 | 6 | E | 67 | 70 | A-68-  | A-71-  | KMQF 
+| 1fxt | A | albelig | 7 | 7 | H | 89 | 92 | A-90-  | A-93-  | DILK 
+| 1fxt | A | albelig | 8 | 8 | H | 101 | 113 | A-102-  | A-114-  | LKSALISLQALLQ 
+| 1fxt | A | albelig | 9 | 9 | H | 123 | 131 | A-124-  | A-132-  | AEVAQHYLR 
+| 1fxt | A | albelig | 10 | 10 | H | 135 | 147 | A-136-  | A-148-  | SFNKTAALWTRLY 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 4 = a = 5
+= 4 = p = 8
+= 5 = a = 6
+# Listed 4 contacts. EOF.

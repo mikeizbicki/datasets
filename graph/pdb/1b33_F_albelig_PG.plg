@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b33, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGHT-HARVESTING PROTEIN, CYANOBACTERIA, ALLOPHYCOCYANIN,LINKER POLYPEPTIDES, COMPLEX STRUCTURE, PHOTOSYNTHESIS
+> pdb_mol_name > ALLOPHYCOCYANIN, BETA CHAIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 15-DEC-98
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF LIGHT HARVESTING COMPLEX OF ALLOPHYCOCYANINALPHA AND BETA CHAINS/CORE-LINKER COMPLEX AP*LC7.8
+> format_version > 2
+> pdbid > 1b33
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > MASTIGOCLADUS LAMINOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b33 | F | albelig | 1 | 1 | H | 811 | 822 | F-4-  | F-15-  | AITAVINSSDVQ 
+| 1b33 | F | albelig | 2 | 2 | H | 828 | 866 | F-21-  | F-59-  | TAALEKLKSYFSTGELRVRAATTIAANAAAIVKEAVAKS 
+| 1b33 | F | albelig | 3 | 3 | H | 882 | 905 | F-75-  | F-98-  | TRRYAACIRDLDYYLRYATYAMLA 
+| 1b33 | F | albelig | 4 | 4 | H | 909 | 916 | F-102-  | F-109-  | SILDERVL 
+| 1b33 | F | albelig | 5 | 5 | H | 919 | 926 | F-112-  | F-119-  | LKETYNSL 
+| 1b33 | F | albelig | 6 | 6 | H | 930 | 967 | F-123-  | F-160-  | ISATVQAIQAMKEVTASLVGPDAGKEMGVYFDYICSGL 
+| 1b33 | F | albelig | 7 | 7 | L | 2087 | 2087 | F-206-  | F-206-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = a = 6
+= 3 = m = 4
+= 3 = m = 6
+= 3 = l = 7
+= 4 = m = 6
+= 4 = l = 7
+= 5 = m = 6
+= 5 = l = 7
+= 6 = l = 7
+# Listed 11 contacts. EOF.

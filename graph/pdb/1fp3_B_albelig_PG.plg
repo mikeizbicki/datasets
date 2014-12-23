@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fp3, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/ALPHA-BARREL, N-ACYL-D-GLUCOSAMINE 2-EPIMERASE, ISOMERASE
+> pdb_mol_name > N-ACYL-D-GLUCOSAMINE 2-EPIMERASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 30-AUG-00
+> header > ISOMERASE
+> pdb_org_common > PIG
+> title > CRYSTAL STRUCTURE OF N-ACYL-D-GLUCOSAMINE 2-EPIMERASE FROM PORCINEKIDNEY
+> format_version > 2
+> pdbid > 1fp3
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SUS SCROFA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fp3 | B | albelig | 1 | 1 | H | 405 | 432 | B-2-  | B-29-  | EKERETLQAWKERVGQELDRVMAFWLEH 
+| 1fp3 | B | albelig | 2 | 2 | H | 458 | 474 | B-55-  | B-71-  | VWLQGRQVWMYCRLYRK 
+| 1fp3 | B | albelig | 3 | 3 | H | 476 | 478 | B-73-  | B-75-  | ERF 
+| 1fp3 | B | albelig | 4 | 4 | H | 481 | 497 | B-78-  | B-94-  | PELLDAAKAGGEFLLRH 
+| 1fp3 | B | albelig | 5 | 5 | E | 517 | 519 | B-114-  | B-116-  | PVK 
+| 1fp3 | B | albelig | 6 | 6 | H | 525 | 539 | B-122-  | B-136-  | FSECFYTMAMNELWR 
+| 1fp3 | B | albelig | 7 | 7 | H | 544 | 562 | B-141-  | B-159-  | ARYQSEAVDMMDQIVHWVR 
+| 1fp3 | B | albelig | 8 | 8 | H | 565 | 568 | B-162-  | B-165-  | PSGL 
+| 1fp3 | B | albelig | 9 | 9 | E | 579 | 581 | B-176-  | B-178-  | SES 
+| 1fp3 | B | albelig | 10 | 10 | H | 583 | 596 | B-180-  | B-193-  | AVPMMLLCLVEQLG 
+| 1fp3 | B | albelig | 11 | 11 | H | 600 | 618 | B-197-  | B-215-  | EELAGRYAQLGHWCARRIL 
+| 1fp3 | B | albelig | 12 | 12 | E | 631 | 633 | B-228-  | B-230-  | NVS 
+| 1fp3 | B | albelig | 13 | 13 | H | 641 | 645 | B-238-  | B-242-  | GCLGR 
+| 1fp3 | B | albelig | 14 | 14 | H | 649 | 666 | B-246-  | B-263-  | PGHALEAGWFLLRHSSRS 
+| 1fp3 | B | albelig | 15 | 15 | H | 669 | 681 | B-266-  | B-278-  | AKLRAHVIDTFLL 
+| 1fp3 | B | albelig | 16 | 16 | H | 682 | 687 | B-279-  | B-284-  | LPFRSG 
+| 1fp3 | B | albelig | 17 | 17 | H | 716 | 733 | B-313-  | B-330-  | WWPHSEAMIAFLMGYSES 
+| 1fp3 | B | albelig | 18 | 18 | H | 736 | 753 | B-333-  | B-350-  | PALLRLFYQVAEYTFRQF 
+| 1fp3 | B | albelig | 19 | 19 | H | 785 | 804 | B-382-  | B-401-  | HVPRCLAMCEEMLSALLSRL 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = p = 18
+= 1 = a = 19
+= 2 = a = 4
+= 2 = p = 6
+= 2 = p = 19
+= 4 = a = 6
+= 4 = m = 7
+= 6 = a = 7
+= 6 = p = 10
+= 7 = a = 10
+= 7 = p = 11
+= 9 = m = 10
+= 9 = a = 12
+= 10 = a = 11
+= 10 = p = 14
+= 11 = m = 15
+= 14 = a = 15
+= 14 = p = 17
+= 14 = m = 19
+= 15 = m = 16
+= 17 = a = 18
+= 17 = p = 19
+# Listed 24 contacts. EOF.

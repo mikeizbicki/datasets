@@ -1,0 +1,91 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1frt, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (RECEPTOR-IMMUNOGLOBULIN), COMPLEX (RECEPTOR-IMMUNOGLOBULIN)COMPLEX
+> pdb_mol_name > IGG FC
+> graphtype > albelig
+> resolution > 4.5
+> date > 11-NOV-94
+> header > COMPLEX (RECEPTOR/IMMUNOGLOBULIN)
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF THE COMPLEX OF RAT NEONATAL FC RECEPTOR WITH FC
+> format_version > 2
+> pdbid > 1frt
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1frt | C | albelig | 1 | 1 | E | 372 | 375 | C-240-  | C-243-  | VFLF 
+| 1frt | C | albelig | 2 | 2 | H | 379 | 383 | C-247-  | C-251-  | PKDTL 
+| 1frt | C | albelig | 3 | 3 | E | 390 | 397 | C-258-  | C-265-  | EVTDVVVD 
+| 1frt | C | albelig | 4 | 4 | E | 407 | 411 | C-275-  | C-279-  | FNWYV 
+| 1frt | C | albelig | 5 | 5 | E | 424 | 427 | C-292-  | C-295-  | REQQ 
+| 1frt | C | albelig | 6 | 6 | E | 432 | 439 | C-300-  | C-307-  | YRVVSVLT 
+| 1frt | C | albelig | 7 | 7 | H | 442 | 446 | C-310-  | C-314-  | HQNWL 
+| 1frt | C | albelig | 8 | 8 | E | 451 | 455 | C-319-  | C-323-  | YKDKV 
+| 1frt | C | albelig | 9 | 9 | E | 464 | 468 | C-332-  | C-336-  | IEKTI 
+| 1frt | C | albelig | 10 | 10 | E | 480 | 484 | C-347-  | C-351-  | QVYTL 
+| 1frt | C | albelig | 11 | 11 | H | 488 | 490 | C-355-  | C-357-  | REE 
+| 1frt | C | albelig | 12 | 12 | E | 495 | 505 | C-362-  | C-372-  | QVSLTELVKGF 
+| 1frt | C | albelig | 13 | 13 | E | 510 | 516 | C-377-  | C-383-  | IAVEWES 
+| 1frt | C | albelig | 14 | 14 | E | 524 | 526 | C-391-  | C-393-  | YKT 
+| 1frt | C | albelig | 15 | 15 | E | 537 | 546 | C-404-  | C-413-  | FFLYSKLTVD 
+| 1frt | C | albelig | 16 | 16 | H | 547 | 551 | C-414-  | C-418-  | KSRWQ 
+| 1frt | C | albelig | 17 | 17 | E | 556 | 562 | C-423-  | C-429-  | FSESVMH 
+| 1frt | C | albelig | 18 | 18 | E | 570 | 574 | C-437-  | C-441-  | TQKSL 
+| 1frt | C | albelig | 19 | 19 | L | 580 | 580 | C-1-  | C-1-  | J 
+| 1frt | C | albelig | 20 | 20 | L | 581 | 581 | C-2-  | C-2-  | J 
+| 1frt | C | albelig | 21 | 21 | L | 582 | 582 | C-3-  | C-3-  | J 
+| 1frt | C | albelig | 22 | 22 | L | 583 | 583 | C-4-  | C-4-  | J 
+| 1frt | C | albelig | 23 | 23 | L | 584 | 584 | C-5-  | C-5-  | J 
+| 1frt | C | albelig | 24 | 24 | L | 585 | 585 | C-6-  | C-6-  | J 
+| 1frt | C | albelig | 25 | 25 | L | 586 | 586 | C-7-  | C-7-  | J 
+| 1frt | C | albelig | 26 | 26 | L | 587 | 587 | C-8-  | C-8-  | J 
+| 1frt | C | albelig | 27 | 27 | L | 588 | 588 | C-9-  | C-9-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 9
+= 1 = l = 21
+= 1 = l = 22
+= 1 = l = 23
+= 1 = l = 24
+= 1 = l = 26
+= 2 = l = 25
+= 3 = a = 4
+= 3 = a = 6
+= 3 = l = 19
+= 3 = l = 21
+= 3 = l = 24
+= 3 = l = 25
+= 4 = p = 6
+= 4 = a = 8
+= 5 = a = 6
+= 6 = l = 21
+= 6 = l = 23
+= 8 = a = 9
+= 10 = a = 12
+= 10 = p = 18
+= 11 = m = 12
+= 12 = a = 15
+= 13 = a = 14
+= 13 = p = 15
+= 13 = a = 17
+= 14 = a = 15
+= 15 = m = 16
+= 17 = a = 18
+= 19 = l = 20
+= 19 = l = 21
+= 20 = l = 21
+= 21 = l = 22
+= 21 = l = 23
+= 21 = l = 26
+= 22 = l = 23
+= 22 = l = 24
+= 22 = l = 26
+= 22 = l = 27
+= 23 = l = 24
+= 24 = l = 25
+= 26 = l = 27
+# Listed 43 contacts. EOF.

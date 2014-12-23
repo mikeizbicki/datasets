@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1irq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTIONAL REPRESSOR, RIBBON-HELIX-HELIX, GENEREGULATION
+> pdb_mol_name > OMEGA TRANSCRIPTIONAL REPRESSOR
+> graphtype > albelig
+> resolution > 1.5
+> date > 11-OCT-01
+> header > GENE REGULATION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF OMEGA TRANSCRIPTIONAL REPRESSOR AT1.5A RESOLUTION
+> format_version > 2
+> pdbid > 1irq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1irq | B | albelig | 1 | 1 | E | 54 | 60 | B-27-  | B-33-  | DKTVRVR 
+| 1irq | B | albelig | 2 | 2 | H | 61 | 73 | B-34-  | B-46-  | ADLHHIIKIETAK 
+| 1irq | B | albelig | 3 | 3 | H | 78 | 93 | B-51-  | B-66-  | VKEVMDQALEEYIRKY 
+| 1irq | B | albelig | 4 | 4 | H | 95 | 97 | B-68-  | B-70-  | PDK 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+# Listed 1 contacts. EOF.

@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ab7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBONUCLEASE INHIBITOR
+> pdb_mol_name > BARSTAR
+> graphtype > albelig
+> resolution > -1.0
+> date > 04-FEB-97
+> header > RIBONUCLEASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > NMR 15N RELAXATION AND STRUCTURAL STUDIES REVEALCONFORMATIONAL EXCHANGE IN BARSTAR C40/82A, 30 STRUCTURES
+> format_version > 2
+> pdbid > 1ab7
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ab7 | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | KAVI 
+| 1ab7 | A | albelig | 2 | 2 | H | 13 | 25 | A-13-  | A-25-  | ISDLHQTLKKELA 
+| 1ab7 | A | albelig | 3 | 3 | H | 34 | 41 | A-34-  | A-41-  | LDALWDAL 
+| 1ab7 | A | albelig | 4 | 4 | E | 49 | 53 | A-49-  | A-53-  | LVLEW 
+| 1ab7 | A | albelig | 5 | 5 | H | 67 | 80 | A-67-  | A-80-  | AESVLQVFREAKAE 
+| 1ab7 | A | albelig | 6 | 6 | E | 84 | 87 | A-84-  | A-87-  | ITII 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 3 = m = 5
+= 4 = a = 5
+= 4 = p = 6
+= 5 = m = 6
+# Listed 6 contacts. EOF.

@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1afh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPID-BINDING PROTEIN, LIPID TRANSFER PROTEIN, MAIZE,MOLECULAR MODELING, NMR
+> pdb_mol_name > MAIZE NONSPECIFIC LIPID TRANSFER PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-MAR-97
+> header > LIPID-BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > LIPID TRANSFER PROTEIN FROM MAIZE SEEDLINGS, NMR, 15STRUCTURES
+> format_version > 2
+> pdbid > 1afh
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ZEA MAYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1afh | A | albelig | 1 | 1 | H | 5 | 14 | A-5-  | A-14-  | GQVASAIAPN 
+| 1afh | A | albelig | 2 | 2 | H | 15 | 18 | A-15-  | A-18-  | ISYA 
+| 1afh | A | albelig | 3 | 3 | H | 27 | 39 | A-27-  | A-39-  | AGNCSGVRSLNNA 
+| 1afh | A | albelig | 4 | 4 | H | 44 | 57 | A-44-  | A-57-  | ADRRAADNALKNAA 
+| 1afh | A | albelig | 5 | 5 | H | 65 | 76 | A-65-  | A-76-  | AGNAASIPSKCG 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = m = 5
+# Listed 2 contacts. EOF.

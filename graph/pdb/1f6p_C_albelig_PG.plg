@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f6p, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, LYASE
+> pdb_mol_name > N-ACETYL NEURAMINATE LYASE
+> graphtype > albelig
+> resolution > 2.25
+> date > 22-JUN-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF N-ACETYLNEURAMINATE LYASEFROM HAEMOPHILUS INFLUENZAE: CRYSTAL FORM III
+> format_version > 2
+> pdbid > 1f6p
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f6p | C | albelig | 1 | 1 | E | 594 | 598 | C-6-  | C-10-  | GIFSA 
+| 1f6p | C | albelig | 2 | 2 | H | 611 | 625 | C-23-  | C-37-  | EKGLRQIIRHNIDKM 
+| 1f6p | C | albelig | 3 | 3 | E | 629 | 632 | C-41-  | C-44-  | GLYV 
+| 1f6p | C | albelig | 4 | 4 | H | 635 | 637 | C-47-  | C-49-  | STG 
+| 1f6p | C | albelig | 5 | 5 | H | 639 | 641 | C-51-  | C-53-  | NFM 
+| 1f6p | C | albelig | 6 | 6 | H | 644 | 658 | C-56-  | C-70-  | TEEKKEIFRIAKDEA 
+| 1f6p | C | albelig | 7 | 7 | E | 663 | 667 | C-75-  | C-79-  | ALIAQ 
+| 1f6p | C | albelig | 8 | 8 | H | 673 | 685 | C-85-  | C-97-  | LKEAVELGKYATE 
+| 1f6p | C | albelig | 9 | 9 | E | 690 | 694 | C-102-  | C-106-  | CLSAV 
+| 1f6p | C | albelig | 10 | 10 | H | 703 | 717 | C-115-  | C-129-  | FPEIKHYYDTIIAET 
+| 1f6p | C | albelig | 11 | 11 | E | 721 | 725 | C-133-  | C-137-  | MIVYS 
+| 1f6p | C | albelig | 12 | 12 | H | 727 | 730 | C-139-  | C-142-  | PFLT 
+| 1f6p | C | albelig | 13 | 13 | H | 736 | 743 | C-148-  | C-155-  | IEQFGELY 
+| 1f6p | C | albelig | 14 | 14 | E | 748 | 753 | C-160-  | C-165-  | VLGVKF 
+| 1f6p | C | albelig | 15 | 15 | H | 758 | 767 | C-170-  | C-179-  | FYLLERLKKA 
+| 1f6p | C | albelig | 16 | 16 | E | 772 | 775 | C-184-  | C-187-  | LIWA 
+| 1f6p | C | albelig | 17 | 17 | H | 778 | 786 | C-190-  | C-198-  | DEMMLPAAS 
+| 1f6p | C | albelig | 18 | 18 | E | 791 | 794 | C-203-  | C-206-  | GAIG 
+| 1f6p | C | albelig | 19 | 19 | H | 797 | 813 | C-209-  | C-225-  | FNVNGVRARQIFELTKA 
+| 1f6p | C | albelig | 20 | 20 | H | 816 | 836 | C-228-  | C-248-  | LKEALEIQHVTNDLIEGILAN 
+| 1f6p | C | albelig | 21 | 21 | H | 838 | 847 | C-250-  | C-259-  | LYLTIKELLK 
+| 1f6p | C | albelig | 22 | 22 | H | 866 | 879 | C-278-  | C-291-  | AEQVAKAKDLKAKF 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 18
+= 1 = m = 19
+= 2 = p = 6
+= 2 = m = 19
+= 3 = p = 7
+= 6 = p = 8
+= 7 = p = 9
+= 8 = p = 10
+= 9 = m = 10
+= 9 = p = 11
+= 10 = m = 11
+= 10 = m = 13
+= 11 = p = 14
+= 13 = m = 14
+= 14 = p = 16
+= 16 = p = 18
+= 17 = p = 19
+= 17 = m = 20
+= 18 = m = 19
+= 19 = a = 20
+= 20 = m = 21
+= 20 = a = 22
+# Listed 23 contacts. EOF.

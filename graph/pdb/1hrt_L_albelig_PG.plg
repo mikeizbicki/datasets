@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hrt, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE(SERINE PROTEINASE)
+> pdb_mol_name > THROMBIN (SMALL SUBUNIT)
+> graphtype > albelig
+> resolution > 2.8
+> date > 25-FEB-93
+> header > HYDROLASE(SERINE PROTEINASE)
+> pdb_org_common > CATTLE
+> title > THE STRUCTURE OF A COMPLEX OF BOVINE ALPHA-THROMBIN ANDRECOMBINANT HIRUDIN AT 2.8 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1hrt
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hrt | L | albelig | 1 | 1 | H | 25 | 31 | L-14-C | L-14-I | EKELFES 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

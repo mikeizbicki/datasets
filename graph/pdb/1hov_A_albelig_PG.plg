@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hov, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-INHIBITOR COMPLEX, HYDROLASE/HYDROLASE INHIBITORCOMPLEX
+> pdb_mol_name > MATRIX METALLOPROTEINASE-2
+> graphtype > albelig
+> resolution > -1.0
+> date > 11-DEC-00
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > SOLUTION STRUCTURE OF A CATALYTIC DOMAIN OF MMP-2 COMPLEXEDWITH SC-74020
+> format_version > 2
+> pdbid > 1hov
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hov | A | albelig | 1 | 1 | E | 16 | 20 | A-16-  | A-20-  | ITYRI 
+| 1hov | A | albelig | 2 | 2 | H | 29 | 44 | A-29-  | A-44-  | PETVDDAFARAFQVWS 
+| 1hov | A | albelig | 3 | 3 | E | 51 | 53 | A-51-  | A-53-  | FSR 
+| 1hov | A | albelig | 4 | 4 | E | 61 | 65 | A-61-  | A-65-  | IMINF 
+| 1hov | A | albelig | 5 | 5 | E | 84 | 86 | A-84-  | A-86-  | AHA 
+| 1hov | A | albelig | 6 | 6 | E | 97 | 99 | A-97-  | A-99-  | SHF 
+| 1hov | A | albelig | 7 | 7 | H | 114 | 124 | A-114-  | A-124-  | LFLVAAHEFGH 
+| 1hov | A | albelig | 8 | 8 | H | 152 | 161 | A-152-  | A-161-  | QDDIKGIQEL 
+| 1hov | A | albelig | 9 | 9 | L | 164 | 164 | A-165-  | A-165-  | J 
+| 1hov | A | albelig | 10 | 10 | L | 165 | 165 | A-166-  | A-166-  | J 
+| 1hov | A | albelig | 11 | 11 | L | 166 | 166 | A-167-  | A-167-  | J 
+| 1hov | A | albelig | 12 | 12 | L | 167 | 167 | A-168-  | A-168-  | J 
+| 1hov | A | albelig | 13 | 13 | L | 168 | 168 | A-800-  | A-800-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 4
+= 2 = m = 7
+= 2 = l = 13
+= 4 = p = 6
+= 4 = l = 12
+= 5 = a = 6
+= 5 = l = 9
+= 5 = l = 13
+= 6 = l = 9
+= 7 = l = 10
+= 7 = l = 13
+= 10 = l = 13
+# Listed 13 contacts. EOF.

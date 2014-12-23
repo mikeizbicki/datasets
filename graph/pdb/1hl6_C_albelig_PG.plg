@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hl6, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNAL PROTEIN, RDB, EXON-EXON JUNCTION, OSKAR, RNP, NMD
+> pdb_mol_name > CG8781 PROTEIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 13-MAR-03
+> header > SIGNAL PROTEIN
+> pdb_org_common > FRUIT FLY
+> title > A NOVEL MODE OF RBD-PROTEIN RECOGNITION IN THE Y14-MAGOCOMPLEX
+> format_version > 2
+> pdbid > 1hl6
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > DROSOPHILA MELANOGASTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hl6 | C | albelig | 1 | 1 | H | 267 | 278 | C-17-  | C-28-  | EDGDQGIVRLKE 
+| 1hl6 | C | albelig | 2 | 2 | E | 282 | 284 | C-32-  | C-34-  | HRK 
+| 1hl6 | C | albelig | 3 | 3 | E | 299 | 304 | C-73-  | C-78-  | WILFVT 
+| 1hl6 | C | albelig | 4 | 4 | H | 312 | 322 | C-86-  | C-96-  | EDEIQEKFCDY 
+| 1hl6 | C | albelig | 5 | 5 | E | 325 | 329 | C-99-  | C-103-  | IKNIH 
+| 1hl6 | C | albelig | 6 | 6 | E | 339 | 343 | C-117-  | C-121-  | ALVEY 
+| 1hl6 | C | albelig | 7 | 7 | H | 346 | 356 | C-124-  | C-134-  | HKQALAAKEAL 
+| 1hl6 | C | albelig | 8 | 8 | E | 367 | 370 | C-145-  | C-148-  | QVDW 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 6
+= 3 = a = 8
+= 4 = a = 5
+= 4 = m = 7
+= 5 = a = 6
+= 7 = m = 8
+# Listed 6 contacts. EOF.

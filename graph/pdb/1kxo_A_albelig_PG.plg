@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PIERIS BRASSICAE, LIPOCALIN, ANTICALIN, GENETICALENGINEERING, DIGOXIGENIN, LIGAND BINDING PROTEIN
+> pdb_mol_name > DIGA16
+> graphtype > albelig
+> resolution > 1.8
+> date > 01-FEB-02
+> header > LIGAND BINDING PROTEIN
+> pdb_org_common > LARGE CABBAGE WHITE
+> title > ENGINEERED LIPOCALIN DIGA16 : APO-FORM
+> format_version > 2
+> pdbid > 1kxo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PIERIS BRASSICAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxo | A | albelig | 1 | 1 | H | 19 | 21 | A-19-  | A-21-  | WSQ 
+| 1kxo | A | albelig | 2 | 2 | E | 24 | 31 | A-24-  | A-31-  | GKWWQVAA 
+| 1kxo | A | albelig | 3 | 3 | H | 33 | 39 | A-33-  | A-39-  | PDHITKY 
+| 1kxo | A | albelig | 4 | 4 | E | 41 | 49 | A-41-  | A-49-  | KNGWAEYTP 
+| 1kxo | A | albelig | 5 | 5 | E | 54 | 62 | A-54-  | A-62-  | VKVSRYSVI 
+| 1kxo | A | albelig | 6 | 6 | E | 65 | 75 | A-65-  | A-75-  | KEYFSEGTAYP 
+| 1kxo | A | albelig | 7 | 7 | H | 79 | 81 | A-79-  | A-81-  | SKI 
+| 1kxo | A | albelig | 8 | 8 | E | 83 | 88 | A-83-  | A-88-  | KIYHSY 
+| 1kxo | A | albelig | 9 | 9 | E | 94 | 103 | A-95-  | A-104-  | QEGVFNVLST 
+| 1kxo | A | albelig | 10 | 10 | E | 108 | 115 | A-109-  | A-116-  | YIIGYFAS 
+| 1kxo | A | albelig | 11 | 11 | E | 121 | 130 | A-123-  | A-132-  | GHMDLVWVLS 
+| 1kxo | A | albelig | 12 | 12 | H | 137 | 146 | A-139-  | A-148-  | GEAKTAVENY 
+| 1kxo | A | albelig | 13 | 13 | H | 155 | 157 | A-157-  | A-159-  | SQK 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = a = 11
+= 3 = m = 11
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+# Listed 9 contacts. EOF.

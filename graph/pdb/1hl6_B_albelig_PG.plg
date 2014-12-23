@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hl6, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNAL PROTEIN, RDB, EXON-EXON JUNCTION, OSKAR, RNP, NMD
+> pdb_mol_name > MAGO NASHI PROTEIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 13-MAR-03
+> header > SIGNAL PROTEIN
+> pdb_org_common > FRUIT FLY
+> title > A NOVEL MODE OF RBD-PROTEIN RECOGNITION IN THE Y14-MAGOCOMPLEX
+> format_version > 2
+> pdbid > 1hl6
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > DROSOPHILA MELANOGASTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hl6 | B | albelig | 1 | 1 | E | 124 | 134 | B-6-  | B-16-  | FYLRYYVGHKG 
+| 1hl6 | B | albelig | 2 | 2 | E | 137 | 145 | B-19-  | B-27-  | GHEFLEFEF 
+| 1hl6 | B | albelig | 3 | 3 | E | 150 | 156 | B-32-  | B-38-  | KLRYANN 
+| 1hl6 | B | albelig | 4 | 4 | E | 161 | 168 | B-46-  | B-53-  | MIRKEAFV 
+| 1hl6 | B | albelig | 5 | 5 | H | 170 | 183 | B-55-  | B-68-  | QSVMEELKRIIIDS 
+| 1hl6 | B | albelig | 6 | 6 | H | 185 | 187 | B-70-  | B-72-  | IMQ 
+| 1hl6 | B | albelig | 7 | 7 | E | 201 | 208 | B-86-  | B-93-  | RQELEIVI 
+| 1hl6 | B | albelig | 8 | 8 | E | 211 | 217 | B-96-  | B-102-  | EHISFTT 
+| 1hl6 | B | albelig | 9 | 9 | H | 223 | 226 | B-109-  | B-112-  | VDVN 
+| 1hl6 | B | albelig | 10 | 10 | H | 231 | 256 | B-117-  | B-142-  | PEGLRCFYYLVQDLKCLVFSLIGLHF 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 2 = a = 3
+= 3 = a = 4
+= 3 = m = 10
+= 4 = m = 5
+= 4 = m = 10
+= 7 = a = 8
+# Listed 8 contacts. EOF.

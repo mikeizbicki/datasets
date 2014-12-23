@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k3b, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE
+> pdb_mol_name > DIPEPTYDIL-PEPTIDASE I LIGHT CHAIN
+> graphtype > albelig
+> resolution > 2.15
+> date > 02-OCT-01
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN DIPEPTIDYL PEPTIDASE I (CATHEPSIN C):EXCLUSION DOMAIN ADDED TO AN ENDOPEPTIDASE FRAMEWORK CREATES THEMACHINE FOR ACTIVATION OF GRANULAR SERINE PROTEASES
+> format_version > 2
+> pdbid > 1k3b
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k3b | B | albelig | 1 | 1 | H | 148 | 164 | B-234-  | B-250-  | CYSFASMGMLEARIRIL 
+| 1k3b | B | albelig | 2 | 2 | H | 175 | 181 | B-261-  | B-267-  | PQEVVSD 
+| 1k3b | B | albelig | 3 | 3 | H | 194 | 203 | B-280-  | B-289-  | YLIAGKYAQD 
+| 1k3b | B | albelig | 4 | 4 | E | 232 | 237 | B-318-  | B-323-  | SSEYHY 
+| 1k3b | B | albelig | 5 | 5 | H | 247 | 257 | B-333-  | B-343-  | EALMKLELVHH 
+| 1k3b | B | albelig | 6 | 6 | E | 260 | 264 | B-346-  | B-350-  | MAVAF 
+| 1k3b | B | albelig | 7 | 7 | H | 268 | 271 | B-354-  | B-357-  | DDFL 
+| 1k3b | B | albelig | 8 | 8 | L | 357 | 357 | B-500-  | B-500-  | J 
+| 1k3b | B | albelig | 9 | 9 | L | 358 | 358 | B-502-  | B-502-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = l = 9
+= 3 = m = 4
+= 3 = l = 8
+= 4 = l = 8
+# Listed 6 contacts. EOF.

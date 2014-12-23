@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cso, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-INHIBITOR COMPLEX, BETA-BRANCHED P1 RESIDUE,HYDROLASE/HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > PROTEINASE B
+> graphtype > albelig
+> resolution > 1.9
+> date > 18-AUG-99
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE OMTKY3 P1 VARIANT OMTKY3-ILE18I INCOMPLEX WITH SGPB
+> format_version > 2
+> pdbid > 1cso
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES GRISEUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cso | E | albelig | 1 | 1 | E | 6 | 8 | E-30-  | E-32-  | AIY 
+| 1cso | E | albelig | 2 | 2 | E | 13 | 15 | E-41-  | E-43-  | RAS 
+| 1cso | E | albelig | 3 | 3 | E | 18 | 22 | E-46-  | E-48-B | FNVRS 
+| 1cso | E | albelig | 4 | 4 | E | 25 | 30 | E-49-  | E-54-  | TYYFLT 
+| 1cso | E | albelig | 5 | 5 | H | 32 | 35 | E-56-  | E-59-  | GHAT 
+| 1cso | E | albelig | 6 | 6 | E | 40 | 42 | E-65-  | E-67-  | TWW 
+| 1cso | E | albelig | 7 | 7 | E | 50 | 58 | E-84-  | E-93-  | VLGTTSGSS 
+| 1cso | E | albelig | 8 | 8 | E | 64 | 69 | E-103-  | E-108-  | YGIVRY 
+| 1cso | E | albelig | 9 | 9 | E | 96 | 101 | E-135-  | E-140-  | AVTRRG 
+| 1cso | E | albelig | 10 | 10 | E | 105 | 119 | E-156-  | E-170-  | GTHSGSVTALNATVN 
+| 1cso | E | albelig | 11 | 11 | E | 125 | 132 | E-176-  | E-183-  | VVYGMIRT 
+| 1cso | E | albelig | 12 | 12 | E | 144 | 147 | E-198-  | E-201-  | PLYS 
+| 1cso | E | albelig | 13 | 13 | E | 150 | 161 | E-208-  | E-219-  | RAIGLTSGGSGN 
+| 1cso | E | albelig | 14 | 14 | E | 165 | 172 | E-223-  | E-230-  | GGTTFFQP 
+| 1cso | E | albelig | 15 | 15 | H | 173 | 180 | E-231-  | E-237-  | VTEALVAY 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 3 = a = 4
+= 4 = a = 8
+= 5 = m = 7
+= 5 = m = 8
+= 6 = a = 7
+= 7 = a = 8
+= 8 = m = 15
+= 9 = a = 10
+= 9 = a = 12
+= 10 = a = 11
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+# Listed 17 contacts. EOF.

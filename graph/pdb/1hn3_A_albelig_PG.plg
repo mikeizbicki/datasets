@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hn3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ARF, P19ARF, TUMOR SUPPRESSOR, P53, MDM2, ANTITUMOR PROTEIN
+> pdb_mol_name > P19 ARF PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 05-DEC-00
+> header > ANTITUMOR PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > SOLUTION STRUCTURE OF THE N-TERMINAL 37 AMINO ACIDS OF THEMOUSE ARF TUMOR SUPPRESSOR PROTEIN
+> format_version > 2
+> pdbid > 1hn3
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hn3 | A | albelig | 1 | 1 | H | 7 | 17 | A-7-  | A-17-  | RFLVTVRIQRA 
+| 1hn3 | A | albelig | 2 | 2 | H | 23 | 32 | A-23-  | A-32-  | ERVFLVKFVR 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

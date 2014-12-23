@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1agf, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HLA B8, HIV, MHC CLASS I, HISTOCOMPATIBILITY COMPLEX
+> pdb_mol_name > BETA-2 MICROGLOBULIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 24-MAR-97
+> header > HISTOCOMPATIBILITY COMPLEX
+> pdb_org_common > HUMAN
+> title > ANTAGONIST HIV-1 GAG PEPTIDES INDUCE STRUCTURAL CHANGES INHLA B8-HIV-1 GAG PEPTIDE (GGKKRYKL-5R MUTATION)
+> format_version > 2
+> pdbid > 1agf
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1agf | B | albelig | 1 | 1 | E | 283 | 288 | B-6-  | B-11-  | KIQVYS 
+| 1agf | B | albelig | 2 | 2 | E | 298 | 307 | B-21-  | B-30-  | NFLNCYVSGF 
+| 1agf | B | albelig | 3 | 3 | E | 313 | 318 | B-36-  | B-41-  | EVDLLK 
+| 1agf | B | albelig | 4 | 4 | E | 339 | 347 | B-62-  | B-70-  | FYLLYYTEF 
+| 1agf | B | albelig | 5 | 5 | E | 355 | 360 | B-78-  | B-83-  | YACRVN 
+| 1agf | B | albelig | 6 | 6 | E | 368 | 371 | B-91-  | B-94-  | KIVK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = p = 5
+= 3 = p = 4
+= 3 = a = 5
+= 5 = a = 6
+# Listed 6 contacts. EOF.

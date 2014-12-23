@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hyv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA INTEGRATION, TRANSFERASE
+> pdb_mol_name > INTEGRASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 22-JAN-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > HIV INTEGRASE CORE DOMAIN COMPLEXED WITH TETRAPHENYLARSONIUM
+> format_version > 2
+> pdbid > 1hyv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hyv | A | albelig | 1 | 1 | E | 4 | 12 | A-60-  | A-68-  | IWQLDXTHL 
+| 1hyv | A | albelig | 2 | 2 | E | 15 | 22 | A-71-  | A-78-  | KVILVAVH 
+| 1hyv | A | albelig | 3 | 3 | E | 28 | 33 | A-84-  | A-89-  | IEAEVI 
+| 1hyv | A | albelig | 4 | 4 | H | 38 | 51 | A-94-  | A-107-  | GQETAYFLLKLAGR 
+| 1hyv | A | albelig | 5 | 5 | E | 56 | 58 | A-112-  | A-114-  | TVH 
+| 1hyv | A | albelig | 6 | 6 | H | 62 | 65 | A-118-  | A-121-  | GSNF 
+| 1hyv | A | albelig | 7 | 7 | H | 68 | 77 | A-124-  | A-133-  | TTVKAAXWWA 
+| 1hyv | A | albelig | 8 | 8 | H | 87 | 106 | A-149-  | A-168-  | GVIESMNKELKKIIGQVRDQ 
+| 1hyv | A | albelig | 9 | 9 | H | 110 | 123 | A-172-  | A-185-  | LKTAVQMAVFIHNK 
+| 1hyv | A | albelig | 10 | 10 | H | 132 | 144 | A-196-  | A-208-  | AGERIVDIIATDI 
+| 1hyv | A | albelig | 11 | 11 | L | 149 | 149 | A-302-  | A-302-  | J 
+| 1hyv | A | albelig | 12 | 12 | L | 150 | 150 | A-303-  | A-303-  | J 
+| 1hyv | A | albelig | 13 | 13 | L | 151 | 151 | A-304-  | A-304-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = p = 5
+= 2 = a = 3
+= 2 = l = 11
+= 3 = a = 4
+= 3 = a = 9
+= 4 = p = 7
+= 8 = a = 9
+= 8 = l = 11
+= 8 = l = 13
+= 9 = l = 11
+= 9 = l = 12
+= 9 = l = 13
+= 12 = l = 13
+# Listed 15 contacts. EOF.

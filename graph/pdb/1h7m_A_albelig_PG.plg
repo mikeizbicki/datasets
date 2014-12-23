@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h7m, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOSOMAL PROTEIN, RNA-BINDING, RIBOSOME, THERMOPHILIC
+> pdb_mol_name > 50S RIBOSOMAL PROTEIN L30E
+> graphtype > albelig
+> resolution > 1.96
+> date > 09-JUL-01
+> header > RIBOSOMAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > RIBOSOMAL PROTEIN L30E FROM THERMOCOCCUS CELER
+> format_version > 2
+> pdbid > 1h7m
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMOCOCCUS CELER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h7m | A | albelig | 1 | 1 | H | 4 | 14 | A-3-  | A-13-  | FAFELRKAQDT 
+| 1h7m | A | albelig | 2 | 2 | E | 16 | 19 | A-15-  | A-18-  | KIVM 
+| 1h7m | A | albelig | 3 | 3 | H | 21 | 29 | A-20-  | A-28-  | ARKSIQYAK 
+| 1h7m | A | albelig | 4 | 4 | E | 35 | 39 | A-34-  | A-38-  | LIIVA 
+| 1h7m | A | albelig | 5 | 5 | H | 44 | 57 | A-43-  | A-56-  | PDIKEDIEYYARLS 
+| 1h7m | A | albelig | 6 | 6 | E | 61 | 64 | A-60-  | A-63-  | VYEF 
+| 1h7m | A | albelig | 7 | 7 | H | 68 | 74 | A-67-  | A-73-  | SVELGTL 
+| 1h7m | A | albelig | 8 | 8 | E | 83 | 88 | A-82-  | A-87-  | ALAVVD 
+| 1h7m | A | albelig | 9 | 9 | H | 94 | 96 | A-93-  | A-95-  | ILA 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 2 = a = 8
+= 3 = p = 5
+= 3 = m = 8
+= 4 = p = 6
+= 4 = a = 8
+# Listed 6 contacts. EOF.

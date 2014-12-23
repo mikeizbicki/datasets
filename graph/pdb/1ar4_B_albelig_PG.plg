@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ar4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SUPEROXIDE DISMUTASE, OXIDOREDUCTASE, DEGRADES O2-, DISMUTASE
+> pdb_mol_name > SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 09-AUG-97
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY STRUCTURE ANALYSIS OF THE CAMBIALISTIC SUPEROXIDE DISMUTASE FROMPROPIONIBACTERIUM SHERMANII ACTIVE WITH FE OR MN
+> format_version > 2
+> pdbid > 1ar4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PROPIONIBACTERIUM FREUDENREICHII SUBSP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ar4 | B | albelig | 1 | 1 | H | 223 | 234 | B-21-  | B-32-  | GEIMELHHDKHH 
+| 1ar4 | B | albelig | 2 | 2 | H | 235 | 253 | B-33-  | B-51-  | KAYVDGANTALDKLAEARD 
+| 1ar4 | B | albelig | 3 | 3 | H | 260 | 282 | B-58-  | B-80-  | INKLEKDLAFNLAGHVNHSVFWK 
+| 1ar4 | B | albelig | 4 | 4 | H | 296 | 306 | B-94-  | B-104-  | DELGAAIDEFF 
+| 1ar4 | B | albelig | 5 | 5 | H | 309 | 322 | B-107-  | B-120-  | FDNMKAQFTAAATG 
+| 1ar4 | B | albelig | 6 | 6 | E | 327 | 334 | B-125-  | B-132-  | GWASLVWD 
+| 1ar4 | B | albelig | 7 | 7 | E | 339 | 346 | B-137-  | B-144-  | RINTLQFY 
+| 1ar4 | B | albelig | 8 | 8 | E | 357 | 363 | B-155-  | B-161-  | IPLLQLD 
+| 1ar4 | B | albelig | 9 | 9 | H | 366 | 368 | B-164-  | B-166-  | EHA 
+| 1ar4 | B | albelig | 10 | 10 | H | 370 | 373 | B-168-  | B-171-  | YLQY 
+| 1ar4 | B | albelig | 11 | 11 | H | 377 | 387 | B-175-  | B-185-  | KGDYVKSWWNV 
+| 1ar4 | B | albelig | 12 | 12 | H | 390 | 400 | B-188-  | B-198-  | WDDVALRFSEA 
+| 1ar4 | B | albelig | 13 | 13 | L | 405 | 405 | B-202-  | B-202-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = l = 13
+= 2 = a = 3
+= 3 = m = 8
+= 3 = l = 13
+= 4 = m = 5
+= 4 = m = 7
+= 4 = m = 12
+= 5 = m = 6
+= 5 = a = 11
+= 6 = a = 7
+= 6 = a = 8
+= 6 = l = 13
+= 8 = m = 11
+= 8 = a = 12
+= 8 = l = 13
+= 9 = l = 13
+# Listed 18 contacts. EOF.

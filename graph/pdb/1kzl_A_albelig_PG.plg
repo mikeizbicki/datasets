@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kzl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BIOSYNTHESIS OF RIBOFLAVIN, RIBOFLAVIN SYNTHASE, X-RAYSTRUCTURE, SCHIZOSACCHAROMYCES POMBE, LIGAND BINDING,TRANSFERASE
+> pdb_mol_name > RIBOFLAVIN SYNTHASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 07-FEB-02
+> header > TRANSFERASE
+> pdb_org_common > FISSION YEAST
+> title > RIBOFLAVIN SYNTHASE FROM S.POMBE BOUND TOCARBOXYETHYLLUMAZINE
+> format_version > 2
+> pdbid > 1kzl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SCHIZOSACCHAROMYCES POMBE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kzl | A | albelig | 1 | 1 | E | 8 | 18 | A-8-  | A-18-  | AIGVVKDVQGT 
+| 1kzl | A | albelig | 2 | 2 | E | 22 | 28 | A-22-  | A-28-  | GFAMKIE 
+| 1kzl | A | albelig | 3 | 3 | H | 30 | 32 | A-30-  | A-32-  | PQI 
+| 1kzl | A | albelig | 4 | 4 | E | 41 | 44 | A-41-  | A-44-  | SIAV 
+| 1kzl | A | albelig | 5 | 5 | E | 47 | 54 | A-47-  | A-54-  | TCLTVTDF 
+| 1kzl | A | albelig | 6 | 6 | E | 58 | 63 | A-58-  | A-63-  | HFTVGI 
+| 1kzl | A | albelig | 7 | 7 | H | 65 | 70 | A-65-  | A-70-  | PESLRL 
+| 1kzl | A | albelig | 8 | 8 | H | 73 | 75 | A-73-  | A-75-  | LGQ 
+| 1kzl | A | albelig | 9 | 9 | E | 81 | 86 | A-81-  | A-86-  | PVNLER 
+| 1kzl | A | albelig | 10 | 10 | E | 105 | 115 | A-105-  | A-115-  | TVAEIVEKKQD 
+| 1kzl | A | albelig | 11 | 11 | E | 118 | 125 | A-118-  | A-125-  | AIDFTFRP 
+| 1kzl | A | albelig | 12 | 12 | H | 128 | 133 | A-128-  | A-133-  | PFVLKY 
+| 1kzl | A | albelig | 13 | 13 | E | 139 | 142 | A-139-  | A-142-  | YIAL 
+| 1kzl | A | albelig | 14 | 14 | E | 145 | 152 | A-145-  | A-152-  | TSLTITHV 
+| 1kzl | A | albelig | 15 | 15 | E | 157 | 161 | A-157-  | A-161-  | FSIMM 
+| 1kzl | A | albelig | 16 | 16 | H | 163 | 166 | A-163-  | A-166-  | SYTQ 
+| 1kzl | A | albelig | 17 | 17 | H | 170 | 173 | A-170-  | A-173-  | IMAK 
+| 1kzl | A | albelig | 18 | 18 | E | 179 | 184 | A-179-  | A-184-  | LVNVEV 
+| 1kzl | A | albelig | 19 | 19 | H | 187 | 198 | A-187-  | A-198-  | IGKYTEKLVEAH 
+| 1kzl | A | albelig | 20 | 20 | L | 203 | 203 | A-1001-  | A-1001-  | J 
+| 1kzl | A | albelig | 21 | 21 | L | 204 | 204 | A-501-  | A-501-  | J 
+| 1kzl | A | albelig | 22 | 22 | L | 205 | 205 | A-502-  | A-502-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 6
+= 4 = a = 5
+= 4 = a = 9
+= 4 = l = 20
+= 4 = l = 22
+= 5 = a = 6
+= 5 = l = 20
+= 5 = l = 22
+= 6 = l = 22
+= 7 = m = 10
+= 7 = l = 22
+= 10 = a = 11
+= 10 = a = 18
+= 11 = a = 15
+= 13 = a = 14
+= 13 = a = 18
+= 13 = l = 21
+= 14 = a = 15
+= 14 = l = 21
+= 15 = l = 21
+= 16 = l = 21
+= 20 = l = 22
+# Listed 24 contacts. EOF.

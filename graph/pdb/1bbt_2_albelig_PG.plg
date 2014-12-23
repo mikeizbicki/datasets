@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bbt, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS, ICOSAHEDRAL VIRUS
+> pdb_mol_name > FOOT-AND-MOUTH DISEASE VIRUS (SUBUNIT VP2)
+> graphtype > albelig
+> resolution > 2.6
+> date > 18-MAY-92
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > METHODS USED IN THE STRUCTURE DETERMINATION OF FOOT ANDMOUTH DISEASE VIRUS
+> format_version > 2
+> pdbid > 1bbt
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > FOOT-AND-MOUTH DISEASE VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bbt | 2 | albelig | 1 | 1 | E | 195 | 199 | 2-15-  | 2-19-  | LTTRN 
+| 1bbt | 2 | albelig | 2 | 2 | E | 202 | 206 | 2-22-  | 2-26-  | TTSTT 
+| 1bbt | 2 | albelig | 3 | 3 | H | 226 | 228 | 2-46-  | 2-48-  | PNT 
+| 1bbt | 2 | albelig | 4 | 4 | H | 236 | 238 | 2-56-  | 2-58-  | VQA 
+| 1bbt | 2 | albelig | 5 | 5 | E | 242 | 249 | 2-62-  | 2-69-  | FKTHLFDW 
+| 1bbt | 2 | albelig | 6 | 6 | E | 258 | 263 | 2-78-  | 2-83-  | CHLLEL 
+| 1bbt | 2 | albelig | 7 | 7 | H | 270 | 277 | 2-90-  | 2-97-  | VYGSLTDS 
+| 1bbt | 2 | albelig | 8 | 8 | E | 278 | 291 | 2-98-  | 2-111-  | YAYMRNGWDVEVTA 
+| 1bbt | 2 | albelig | 9 | 9 | E | 298 | 307 | 2-118-  | 2-127-  | GGCLLVAMVP 
+| 1bbt | 2 | albelig | 10 | 10 | H | 315 | 322 | 2-135-  | 2-142-  | RELYQLTL 
+| 1bbt | 2 | albelig | 11 | 11 | E | 325 | 328 | 2-145-  | 2-148-  | HQFI 
+| 1bbt | 2 | albelig | 12 | 12 | E | 335 | 340 | 2-155-  | 2-160-  | TAHITV 
+| 1bbt | 2 | albelig | 13 | 13 | E | 357 | 368 | 2-177-  | 2-188-  | WTLVVMVVAPLT 
+| 1bbt | 2 | albelig | 14 | 14 | E | 377 | 393 | 2-197-  | 2-213-  | IKVYANIAPTNVHVAGE 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 5 = p = 13
+= 5 = a = 14
+= 6 = a = 13
+= 7 = a = 8
+= 8 = a = 12
+= 8 = a = 14
+= 9 = a = 11
+= 9 = a = 13
+= 11 = a = 12
+# Listed 10 contacts. EOF.

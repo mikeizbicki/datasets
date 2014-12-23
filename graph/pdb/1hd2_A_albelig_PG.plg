@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hd2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIOXIDANT ENZYME, PEROXIREDOXIN, THIOREDOXIN PEROXIDASE,THIOREDOXIN FOLD
+> pdb_mol_name > PEROXIREDOXIN 5 RESIDUES 54-214
+> graphtype > albelig
+> resolution > 1.5
+> date > 06-NOV-00
+> header > ANTIOXIDANT ENZYME
+> pdb_org_common > HUMAN
+> title > HUMAN PEROXIREDOXIN 5
+> format_version > 2
+> pdbid > 1hd2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hd2 | A | albelig | 1 | 1 | E | 13 | 15 | A-13-  | A-15-  | EVF 
+| 1hd2 | A | albelig | 2 | 2 | E | 22 | 24 | A-22-  | A-24-  | KVN 
+| 1hd2 | A | albelig | 3 | 3 | H | 25 | 28 | A-25-  | A-28-  | LAEL 
+| 1hd2 | A | albelig | 4 | 4 | E | 33 | 39 | A-33-  | A-39-  | KGVLFGV 
+| 1hd2 | A | albelig | 5 | 5 | H | 47 | 57 | A-47-  | A-57-  | CSKTHLPGFVE 
+| 1hd2 | A | albelig | 6 | 6 | H | 59 | 63 | A-59-  | A-63-  | AEALK 
+| 1hd2 | A | albelig | 7 | 7 | E | 69 | 74 | A-69-  | A-74-  | VVACLS 
+| 1hd2 | A | albelig | 8 | 8 | H | 78 | 87 | A-78-  | A-87-  | AFVTGEWGRA 
+| 1hd2 | A | albelig | 9 | 9 | E | 95 | 98 | A-95-  | A-98-  | RLLA 
+| 1hd2 | A | albelig | 10 | 10 | H | 103 | 108 | A-103-  | A-108-  | AFGKET 
+| 1hd2 | A | albelig | 11 | 11 | H | 117 | 120 | A-117-  | A-120-  | VSIF 
+| 1hd2 | A | albelig | 12 | 12 | E | 128 | 133 | A-128-  | A-133-  | FSMVVQ 
+| 1hd2 | A | albelig | 13 | 13 | E | 136 | 142 | A-136-  | A-142-  | IVKALNV 
+| 1hd2 | A | albelig | 14 | 14 | H | 154 | 160 | A-154-  | A-160-  | APNIISQ 
+| 1hd2 | A | albelig | 15 | 15 | L | 162 | 162 | A-201-  | A-201-  | J 
+| 1hd2 | A | albelig | 16 | 16 | L | 163 | 163 | A-301-  | A-301-  | J 
+| 1hd2 | A | albelig | 17 | 17 | L | 164 | 164 | A-302-  | A-302-  | J 
+| 1hd2 | A | albelig | 18 | 18 | L | 165 | 165 | A-303-  | A-303-  | J 
+| 1hd2 | A | albelig | 19 | 19 | L | 166 | 166 | A-304-  | A-304-  | J 
+| 1hd2 | A | albelig | 20 | 20 | L | 167 | 167 | A-305-  | A-305-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = m = 3
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 12
+= 5 = l = 15
+= 5 = l = 17
+= 7 = p = 9
+= 8 = m = 9
+= 8 = l = 19
+= 11 = l = 15
+= 11 = l = 16
+= 12 = a = 13
+= 14 = l = 17
+# Listed 15 contacts. EOF.

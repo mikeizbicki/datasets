@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fjc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNP, RBD, RRM, RNA BINDING DOMAIN, NUCLEOLUS, STRUCTURALPROTEIN
+> pdb_mol_name > NUCLEOLIN RBD2
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-AUG-00
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > GOLDEN HAMSTER
+> title > SOLUTION STRUCTURE OF NUCLEOLIN RBD2
+> format_version > 2
+> pdbid > 1fjc
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MESOCRICETUS AURATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fjc | A | albelig | 1 | 1 | H | 15 | 17 | A-15-  | A-17-  | AAR 
+| 1fjc | A | albelig | 2 | 2 | E | 18 | 22 | A-18-  | A-22-  | TLLAK 
+| 1fjc | A | albelig | 3 | 3 | H | 30 | 37 | A-30-  | A-37-  | EDELKEVF 
+| 1fjc | A | albelig | 4 | 4 | E | 40 | 43 | A-40-  | A-43-  | ALEI 
+| 1fjc | A | albelig | 5 | 5 | E | 46 | 48 | A-46-  | A-48-  | VSQ 
+| 1fjc | A | albelig | 6 | 6 | E | 51 | 60 | A-51-  | A-60-  | KSKGIAYIEF 
+| 1fjc | A | albelig | 7 | 7 | H | 63 | 72 | A-63-  | A-72-  | EADAEKNLEE 
+| 1fjc | A | albelig | 8 | 8 | E | 75 | 78 | A-75-  | A-78-  | GAEI 
+| 1fjc | A | albelig | 9 | 9 | E | 81 | 87 | A-81-  | A-87-  | RSVSLYY 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 6
+= 2 = a = 6
+= 2 = a = 9
+= 4 = a = 6
+= 5 = a = 6
+= 6 = m = 7
+= 7 = m = 9
+= 8 = a = 9
+# Listed 9 contacts. EOF.

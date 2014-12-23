@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyi, chain J.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROKARYOTIC PROTEASOME, PROTEASE, AAA-PROTEIN, ATP-DEPENDENTCHAPERONE; CLP/HSP100, VINYL SULFONE INHIBITOR, CHAPERONE-HYDROLASECOMPLEX
+> pdb_mol_name > ATP-DEPENDENT PROTEASE HSLV
+> graphtype > albelig
+> resolution > 3.1
+> date > 04-FEB-02
+> header > CHAPERONE/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > HSLUV (H. INFLUENZAE)-NLVS VINYL SULFONE INHIBITOR COMPLEX
+> format_version > 2
+> pdbid > 1kyi
+> experiment > X-RAY DIFFRACTION
+> chainid > J
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyi | J | albelig | 1 | 1 | E | 2475 | 2479 | J-3-  | J-7-  | IVSVR 
+| 1kyi | J | albelig | 2 | 2 | E | 2484 | 2488 | J-12-  | J-16-  | VVVGG 
+| 1kyi | J | albelig | 3 | 3 | E | 2506 | 2509 | J-34-  | J-37-  | VRRL 
+| 1kyi | J | albelig | 4 | 4 | E | 2514 | 2520 | J-42-  | J-48-  | VLAGFAG 
+| 1kyi | J | albelig | 5 | 5 | H | 2522 | 2538 | J-50-  | J-66-  | TADAFTLFELFERKLEM 
+| 1kyi | J | albelig | 6 | 6 | H | 2543 | 2551 | J-71-  | J-79-  | LLKSAVELA 
+| 1kyi | J | albelig | 7 | 7 | E | 2565 | 2571 | J-93-  | J-99-  | AMLIVAD 
+| 1kyi | J | albelig | 8 | 8 | E | 2575 | 2579 | J-103-  | J-107-  | SLIIT 
+| 1kyi | J | albelig | 9 | 9 | E | 2593 | 2595 | J-121-  | J-123-  | LAI 
+| 1kyi | J | albelig | 10 | 10 | H | 2599 | 2612 | J-127-  | J-140-  | GNYALSAARALVEN 
+| 1kyi | J | albelig | 11 | 11 | H | 2617 | 2629 | J-145-  | J-157-  | AHEIVEKSLRIAG 
+| 1kyi | J | albelig | 12 | 12 | E | 2640 | 2644 | J-168-  | J-172-  | TIEEL 
+| 1kyi | J | albelig | 13 | 13 | L | 5973 | 5973 | J-175-  | J-175-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 7
+= 1 = a = 9
+= 2 = a = 3
+= 2 = m = 11
+= 2 = a = 12
+= 3 = a = 4
+= 3 = m = 5
+= 3 = p = 12
+= 4 = a = 5
+= 4 = a = 7
+= 4 = l = 13
+= 5 = m = 6
+= 5 = p = 7
+= 5 = l = 13
+= 7 = a = 8
+= 7 = a = 9
+= 9 = m = 10
+= 10 = a = 11
+# Listed 19 contacts. EOF.

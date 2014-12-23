@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jq0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GP41, SIV, HIV-1, MEMBRANE FUSION, SIX-HELIX BUNDLE, TRIMER-OF-HAIRPINS, VIRAL PROTEIN
+> pdb_mol_name > GP41 ENVELOPE PROTEIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 03-AUG-01
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > MUTATION THAT DESTABILIZE THE GP41 CORE: DETERMINANTS FOR STABILIZINGTHE SIV/CPMAC ENVELOPE GLYCOPROTEIN COMPLEX. MUTANT STRUCTURE.
+> format_version > 2
+> pdbid > 1jq0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SIMIAN IMMUNODEFICIENCY VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jq0 | A | albelig | 1 | 1 | H | 2 | 33 | A-5-  | A-36-  | AGIVQQQQQLLDLVTRQQELLRLTVWGIKNLQ 
+| 1jq0 | A | albelig | 2 | 2 | H | 38 | 71 | A-47-  | A-80-  | WQEWKRKVDFLEENITALLEEAQIQQEKNMYELQ 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

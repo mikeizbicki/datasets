@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i4j, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOSOMAL PROTEIN, MUTANT, ERYTHROMYCIN RESISTANCE, RNABINDING, CRYSTAL STRUCTURE, RNA BINDING PROTEIN
+> pdb_mol_name > 50S RIBOSOMAL PROTEIN L22
+> graphtype > albelig
+> resolution > 1.8
+> date > 22-FEB-01
+> header > RNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF L22 RIBOSOMAL PROTEIN MUTANT
+> format_version > 2
+> pdbid > 1i4j
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i4j | A | albelig | 1 | 1 | E | 3 | 10 | A-3-  | A-10-  | AKAIARYV 
+| 1i4j | A | albelig | 2 | 2 | H | 14 | 24 | A-14-  | A-24-  | PRKVRLVVDLI 
+| 1i4j | A | albelig | 3 | 3 | H | 29 | 38 | A-29-  | A-38-  | LEEARNILRY 
+| 1i4j | A | albelig | 4 | 4 | H | 44 | 60 | A-44-  | A-60-  | AYFVAKVLESAAANAVN 
+| 1i4j | A | albelig | 5 | 5 | H | 66 | 68 | A-66-  | A-68-  | EDR 
+| 1i4j | A | albelig | 6 | 6 | E | 69 | 82 | A-69-  | A-85-  | LYVKAAYVDEGPAV 
+| 1i4j | A | albelig | 7 | 7 | E | 95 | 106 | A-98-  | A-109-  | KRTSHITVILGE 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 7
+= 3 = m = 4
+= 4 = p = 7
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+# Listed 7 contacts. EOF.

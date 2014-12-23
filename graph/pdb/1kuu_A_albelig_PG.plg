@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kuu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, CONSERVED PROTEIN, NTN-HYDROLASE FOLD,UNKNOWN FUNCTION
+> pdb_mol_name > CONSERVED PROTEIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 22-JAN-02
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF METHANOBACTERIUM THERMOAUTOTROPHICUMCONSERVED PROTEIN MTH1020 REVEALS AN NTN-HYDROLASE FOLD
+> format_version > 2
+> pdbid > 1kuu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kuu | A | albelig | 1 | 1 | E | 6 | 11 | A-6-  | A-11-  | ILAVGR 
+| 1kuu | A | albelig | 2 | 2 | E | 16 | 23 | A-16-  | A-23-  | SFVAYRVS 
+| 1kuu | A | albelig | 3 | 3 | E | 30 | 35 | A-30-  | A-35-  | RTTSIQ 
+| 1kuu | A | albelig | 4 | 4 | E | 38 | 43 | A-38-  | A-43-  | RVAVVP 
+| 1kuu | A | albelig | 5 | 5 | H | 48 | 52 | A-48-  | A-52-  | ERDVF 
+| 1kuu | A | albelig | 6 | 6 | E | 59 | 65 | A-59-  | A-65-  | YNCIRIV 
+| 1kuu | A | albelig | 7 | 7 | E | 68 | 72 | A-68-  | A-72-  | TAVVS 
+| 1kuu | A | albelig | 8 | 8 | H | 76 | 86 | A-76-  | A-86-  | HTDTIADKVAL 
+| 1kuu | A | albelig | 9 | 9 | H | 90 | 101 | A-90-  | A-101-  | LRDAIGLSLLAM 
+| 1kuu | A | albelig | 10 | 10 | E | 112 | 117 | A-112-  | A-117-  | RIAAAI 
+| 1kuu | A | albelig | 11 | 11 | E | 122 | 128 | A-122-  | A-128-  | AFIGIVT 
+| 1kuu | A | albelig | 12 | 12 | E | 131 | 136 | A-131-  | A-136-  | GLMVSR 
+| 1kuu | A | albelig | 13 | 13 | E | 143 | 146 | A-143-  | A-146-  | VYIS 
+| 1kuu | A | albelig | 14 | 14 | H | 163 | 171 | A-163-  | A-171-  | PEEAAEFIL 
+| 1kuu | A | albelig | 15 | 15 | H | 174 | 177 | A-174-  | A-177-  | GEFA 
+| 1kuu | A | albelig | 16 | 16 | E | 182 | 190 | A-182-  | A-190-  | PVTAAAAFN 
+| 1kuu | A | albelig | 17 | 17 | E | 195 | 200 | A-195-  | A-200-  | WNLATR 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 10
+= 1 = a = 13
+= 2 = p = 7
+= 2 = m = 14
+= 2 = a = 16
+= 3 = a = 4
+= 3 = p = 16
+= 3 = a = 17
+= 4 = a = 6
+= 6 = a = 7
+= 6 = p = 8
+= 6 = p = 16
+= 7 = a = 8
+= 7 = a = 10
+= 8 = a = 9
+= 8 = m = 10
+= 9 = a = 10
+= 9 = p = 11
+= 10 = a = 11
+= 11 = a = 12
+= 14 = m = 16
+= 14 = m = 17
+= 16 = a = 17
+# Listed 24 contacts. EOF.

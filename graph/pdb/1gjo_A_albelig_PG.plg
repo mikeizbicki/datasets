@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gjo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, TYROSINE KINASE, FGFR2 RECEPTOR
+> pdb_mol_name > FIBROBLAST GROWTH FACTOR RECEPTOR 2
+> graphtype > albelig
+> resolution > 2.4
+> date > 31-JUL-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > THE FGFR2 TYROSINE KINASE DOMAIN
+> format_version > 2
+> pdbid > 1gjo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gjo | A | albelig | 1 | 1 | H | 12 | 14 | A-478-  | A-480-  | RDK 
+| 1gjo | A | albelig | 2 | 2 | E | 15 | 23 | A-481-  | A-489-  | LTLGKPLGE 
+| 1gjo | A | albelig | 3 | 3 | E | 28 | 35 | A-494-  | A-501-  | QVVMAEAV 
+| 1gjo | A | albelig | 4 | 4 | E | 43 | 50 | A-511-  | A-518-  | AVTVAVKM 
+| 1gjo | A | albelig | 5 | 5 | H | 57 | 73 | A-525-  | A-541-  | EKDLSDLVSEMEMMKMI 
+| 1gjo | A | albelig | 6 | 6 | E | 82 | 86 | A-550-  | A-554-  | LLGAC 
+| 1gjo | A | albelig | 7 | 7 | E | 93 | 97 | A-561-  | A-565-  | YVIVE 
+| 1gjo | A | albelig | 8 | 8 | H | 104 | 110 | A-572-  | A-578-  | LREYLRA 
+| 1gjo | A | albelig | 9 | 9 | H | 118 | 137 | A-600-  | A-619-  | FKDLVSCTYQLARGMEYLAS 
+| 1gjo | A | albelig | 10 | 10 | E | 150 | 152 | A-632-  | A-634-  | VLV 
+| 1gjo | A | albelig | 11 | 11 | E | 158 | 160 | A-640-  | A-642-  | MKI 
+| 1gjo | A | albelig | 12 | 12 | H | 185 | 187 | A-667-  | A-669-  | VKW 
+| 1gjo | A | albelig | 13 | 13 | H | 190 | 194 | A-672-  | A-676-  | PEALF 
+| 1gjo | A | albelig | 14 | 14 | H | 200 | 215 | A-682-  | A-697-  | HQSDVWSFGVLMWEIF 
+| 1gjo | A | albelig | 15 | 15 | H | 227 | 236 | A-709-  | A-718-  | VEELFKLLKE 
+| 1gjo | A | albelig | 16 | 16 | H | 248 | 257 | A-730-  | A-739-  | NELYMMMRDC 
+| 1gjo | A | albelig | 17 | 17 | H | 262 | 264 | A-744-  | A-746-  | PSQ 
+| 1gjo | A | albelig | 18 | 18 | H | 268 | 280 | A-750-  | A-762-  | FKQLVEDLDRILT 
+| 1gjo | A | albelig | 19 | 19 | L | 283 | 283 | A-781-  | A-781-  | J 
+| 1gjo | A | albelig | 20 | 20 | L | 284 | 284 | A-782-  | A-782-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 7
+= 5 = l = 19
+= 6 = a = 7
+= 9 = m = 11
+= 9 = a = 14
+= 9 = a = 18
+= 10 = a = 11
+= 12 = m = 14
+= 14 = a = 16
+= 14 = m = 18
+= 16 = m = 18
+= 19 = l = 20
+# Listed 16 contacts. EOF.

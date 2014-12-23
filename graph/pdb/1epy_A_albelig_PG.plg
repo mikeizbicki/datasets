@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1epy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METAL BINDING, HYDROLASE
+> pdb_mol_name > LYSOZYME
+> graphtype > albelig
+> resolution > 1.85
+> date > 29-MAR-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > T4 LYSOZYME MUTANT, T21H/C54T/C97A/Q141H/T142H
+> format_version > 2
+> pdbid > 1epy
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1epy | A | albelig | 1 | 1 | H | 3 | 11 | A-3-  | A-11-  | IFEMLRIDE 
+| 1epy | A | albelig | 2 | 2 | E | 14 | 19 | A-14-  | A-19-  | RLKIYK 
+| 1epy | A | albelig | 3 | 3 | E | 25 | 28 | A-25-  | A-28-  | YTIG 
+| 1epy | A | albelig | 4 | 4 | E | 31 | 34 | A-31-  | A-34-  | HLLT 
+| 1epy | A | albelig | 5 | 5 | H | 39 | 50 | A-39-  | A-50-  | LNAAKSELDKAI 
+| 1epy | A | albelig | 6 | 6 | H | 60 | 80 | A-60-  | A-80-  | KDEAEKLFNQDVDAAVRGILR 
+| 1epy | A | albelig | 7 | 7 | H | 85 | 90 | A-85-  | A-90-  | KPVYDS 
+| 1epy | A | albelig | 8 | 8 | H | 93 | 112 | A-93-  | A-112-  | AVRRAALINMVFQMGETGVA 
+| 1epy | A | albelig | 9 | 9 | H | 115 | 122 | A-115-  | A-122-  | TNSLRMLQ 
+| 1epy | A | albelig | 10 | 10 | H | 126 | 134 | A-126-  | A-134-  | WDEAAVNLA 
+| 1epy | A | albelig | 11 | 11 | H | 137 | 141 | A-137-  | A-141-  | RWYNH 
+| 1epy | A | albelig | 12 | 12 | H | 143 | 155 | A-143-  | A-155-  | PNRAKRVITTFRT 
+| 1epy | A | albelig | 13 | 13 | H | 159 | 161 | A-159-  | A-161-  | DAY 
+| 1epy | A | albelig | 14 | 14 | L | 163 | 163 | A-170-  | A-170-  | J 
+| 1epy | A | albelig | 15 | 15 | L | 164 | 164 | A-178-  | A-178-  | J 
+| 1epy | A | albelig | 16 | 16 | L | 165 | 165 | A-500-  | A-500-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 1 = m = 12
+= 2 = a = 3
+= 3 = a = 4
+= 4 = l = 15
+= 5 = l = 15
+= 6 = m = 8
+= 6 = l = 15
+= 7 = m = 8
+= 8 = a = 12
+= 8 = l = 16
+= 9 = m = 10
+= 10 = m = 12
+= 11 = m = 12
+= 11 = l = 14
+= 12 = m = 13
+= 12 = l = 14
+# Listed 17 contacts. EOF.

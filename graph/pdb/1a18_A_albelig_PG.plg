@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a18, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FATTY ACID BINDING PROTEIN, TRANSPORT, PHOSPHORYLATION
+> pdb_mol_name > ADIPOCYTE LIPID BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 23-DEC-97
+> header > FATTY ACID BINDING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > PHENANTHROLINE MODIFIED MURINE ADIPOCYTE LIPID BINDINGPROTEIN
+> format_version > 2
+> pdbid > 1a18
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a18 | A | albelig | 1 | 1 | E | 6 | 14 | A-6-  | A-14-  | GTWKLVSSE 
+| 1a18 | A | albelig | 2 | 2 | H | 16 | 23 | A-16-  | A-23-  | FDDYMKEV 
+| 1a18 | A | albelig | 3 | 3 | H | 27 | 34 | A-27-  | A-34-  | FATRKVAG 
+| 1a18 | A | albelig | 4 | 4 | E | 39 | 45 | A-39-  | A-45-  | NMIISVN 
+| 1a18 | A | albelig | 5 | 5 | E | 48 | 54 | A-48-  | A-54-  | LVTIRSE 
+| 1a18 | A | albelig | 6 | 6 | E | 60 | 64 | A-60-  | A-64-  | TEISF 
+| 1a18 | A | albelig | 7 | 7 | E | 70 | 73 | A-70-  | A-73-  | FDEI 
+| 1a18 | A | albelig | 8 | 8 | E | 79 | 87 | A-79-  | A-87-  | KVKSIITLD 
+| 1a18 | A | albelig | 9 | 9 | E | 90 | 97 | A-90-  | A-97-  | ALVQVQKW 
+| 1a18 | A | albelig | 10 | 10 | E | 100 | 109 | A-100-  | A-109-  | KSTTIKRKRD 
+| 1a18 | A | albelig | 11 | 11 | E | 112 | 119 | A-112-  | A-119-  | KLVVEXVM 
+| 1a18 | A | albelig | 12 | 12 | E | 122 | 130 | A-122-  | A-130-  | VTSTRVYER 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 12
+= 2 = m = 3
+= 2 = a = 12
+= 4 = a = 5
+= 5 = a = 6
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 11 = a = 12
+# Listed 11 contacts. EOF.

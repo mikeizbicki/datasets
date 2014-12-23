@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ayy, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOAMIDASE, SIGNAL, HYDROLASE
+> pdb_mol_name > GLYCOSYLASPARAGINASE
+> graphtype > albelig
+> resolution > 2.32
+> date > 12-NOV-97
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > GLYCOSYLASPARAGINASE
+> format_version > 2
+> pdbid > 1ayy
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ELIZABETHKINGIA MENINGOSEPTICA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ayy | B | albelig | 1 | 1 | E | 141 | 146 | B-153-  | B-158-  | IGMIAL 
+| 1ayy | B | albelig | 2 | 2 | E | 152 | 158 | B-164-  | B-170-  | LSGACTT 
+| 1ayy | B | albelig | 3 | 3 | E | 179 | 182 | B-191-  | B-194-  | LFVD 
+| 1ayy | B | albelig | 4 | 4 | E | 186 | 192 | B-198-  | B-204-  | GAATATG 
+| 1ayy | B | albelig | 5 | 5 | H | 194 | 200 | B-206-  | B-212-  | GEEVIRT 
+| 1ayy | B | albelig | 6 | 6 | H | 202 | 212 | B-214-  | B-224-  | GTHLVVELMNQ 
+| 1ayy | B | albelig | 7 | 7 | H | 216 | 233 | B-228-  | B-245-  | PQQACKEAVERIVKIVNR 
+| 1ayy | B | albelig | 8 | 8 | H | 238 | 240 | B-250-  | B-252-  | LKD 
+| 1ayy | B | albelig | 9 | 9 | E | 243 | 249 | B-255-  | B-261-  | VGFIALN 
+| 1ayy | B | albelig | 10 | 10 | E | 254 | 258 | B-266-  | B-270-  | YGAYC 
+| 1ayy | B | albelig | 11 | 11 | E | 265 | 269 | B-277-  | B-281-  | FAVHD 
+| 1ayy | B | albelig | 12 | 12 | E | 272 | 276 | B-284-  | B-288-  | GNRLE 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = p = 9
+= 2 = a = 3
+= 2 = p = 4
+= 3 = a = 4
+= 3 = m = 6
+= 4 = m = 6
+= 4 = a = 9
+= 6 = a = 7
+= 6 = m = 9
+= 7 = a = 9
+= 7 = p = 10
+= 9 = a = 10
+= 11 = a = 12
+# Listed 15 contacts. EOF.

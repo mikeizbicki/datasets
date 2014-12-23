@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ecz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-SHEET STRUCTURE, SERINE PROTEASE INHIBITOR, PERIPLASMIC
+> pdb_mol_name > ECOTIN
+> graphtype > albelig
+> resolution > 2.68
+> date > 06-AUG-96
+> header > PROTEASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > PROTEASE INHIBITOR ECOTIN
+> format_version > 2
+> pdbid > 1ecz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ecz | B | albelig | 1 | 1 | H | 150 | 152 | B-7-  | B-9-  | LEK 
+| 1ecz | B | albelig | 2 | 2 | E | 166 | 168 | B-23-  | B-25-  | QVI 
+| 1ecz | B | albelig | 3 | 3 | E | 179 | 184 | B-36-  | B-41-  | LKVELL 
+| 1ecz | B | albelig | 4 | 4 | E | 186 | 191 | B-43-  | B-48-  | GQTLEV 
+| 1ecz | B | albelig | 5 | 5 | E | 202 | 207 | B-59-  | B-64-  | LENKTL 
+| 1ecz | B | albelig | 6 | 6 | E | 212 | 217 | B-69-  | B-74-  | YDYYVF 
+| 1ecz | B | albelig | 7 | 7 | E | 236 | 241 | B-93-  | B-98-  | EKKFVT 
+| 1ecz | B | albelig | 8 | 8 | H | 245 | 248 | B-102-  | B-105-  | GDAG 
+| 1ecz | B | albelig | 9 | 9 | E | 258 | 261 | B-115-  | B-118-  | IVVY 
+| 1ecz | B | albelig | 10 | 10 | E | 269 | 274 | B-126-  | B-131-  | KYRVWK 
+| 1ecz | B | albelig | 11 | 11 | L | 297 | 297 | B-1005-  | B-1005-  | J 
+| 1ecz | B | albelig | 12 | 12 | L | 298 | 298 | B-1007-  | B-1007-  | J 
+| 1ecz | B | albelig | 13 | 13 | L | 299 | 299 | B-1013-  | B-1013-  | J 
+| 1ecz | B | albelig | 14 | 14 | L | 300 | 300 | B-1017-  | B-1017-  | J 
+| 1ecz | B | albelig | 15 | 15 | L | 301 | 301 | B-1023-  | B-1023-  | J 
+| 1ecz | B | albelig | 16 | 16 | L | 302 | 302 | B-1027-  | B-1027-  | J 
+| 1ecz | B | albelig | 17 | 17 | L | 303 | 303 | B-1031-  | B-1031-  | J 
+| 1ecz | B | albelig | 18 | 18 | L | 304 | 304 | B-1035-  | B-1035-  | J 
+| 1ecz | B | albelig | 19 | 19 | L | 305 | 305 | B-1037-  | B-1037-  | J 
+| 1ecz | B | albelig | 20 | 20 | L | 306 | 306 | B-1039-  | B-1039-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 9
+= 3 = m = 8
+= 3 = a = 10
+= 4 = a = 7
+= 5 = a = 6
+= 5 = l = 14
+= 5 = l = 19
+= 6 = p = 9
+= 6 = l = 13
+= 7 = l = 18
+= 10 = l = 17
+# Listed 11 contacts. EOF.

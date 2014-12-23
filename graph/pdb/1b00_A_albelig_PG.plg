@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b00, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION FACTOR, PHOSPHATE REGULATION, ACTIVATION OFTHE PHO REGULON, ALPHA/BETA DOUBLY WOUND FOLD, GENEREGULATION
+> pdb_mol_name > PHOSPHATE REGULON TRANSCRIPTIONAL REGULATORY
+> graphtype > albelig
+> resolution > 1.88
+> date > 15-NOV-98
+> header > GENE REGULATION
+> pdb_org_common > UNKNOWN
+> title > PHOB RECEIVER DOMAIN FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1b00
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b00 | A | albelig | 1 | 1 | E | 3 | 7 | A-4-  | A-8-  | RILVV 
+| 1b00 | A | albelig | 2 | 2 | H | 11 | 23 | A-12-  | A-24-  | APIREMVCFVLEQ 
+| 1b00 | A | albelig | 3 | 3 | E | 27 | 31 | A-28-  | A-32-  | QPVEA 
+| 1b00 | A | albelig | 4 | 4 | H | 34 | 38 | A-35-  | A-39-  | YDSAV 
+| 1b00 | A | albelig | 5 | 5 | E | 48 | 52 | A-49-  | A-53-  | LILLD 
+| 1b00 | A | albelig | 6 | 6 | H | 60 | 67 | A-61-  | A-68-  | GIQFIKHL 
+| 1b00 | A | albelig | 7 | 7 | E | 78 | 83 | A-79-  | A-84-  | VVMLTA 
+| 1b00 | A | albelig | 8 | 8 | H | 86 | 92 | A-87-  | A-93-  | EEEDRVR 
+| 1b00 | A | albelig | 9 | 9 | E | 100 | 104 | A-101-  | A-105-  | DYITK 
+| 1b00 | A | albelig | 10 | 10 | H | 108 | 121 | A-109-  | A-122-  | PKELVARIKAVMRR 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 4 = m = 6
+= 5 = m = 6
+= 5 = p = 7
+= 7 = m = 8
+= 7 = p = 9
+# Listed 8 contacts. EOF.

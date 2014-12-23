@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1js1, chain X.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA TOPOLOGY, TWO DOMAINS, TRANSFERASE
+> pdb_mol_name > TRANSCARBAMYLASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 15-AUG-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A NEW TRANSCARBAMYLASE FROM THE ANAEROBICBACTERIUM BACTEROIDES FRAGILIS AT 2.0 A RESOLUTION
+> format_version > 2
+> pdbid > 1js1
+> experiment > X-RAY DIFFRACTION
+> chainid > X
+> graphclass > protein graph
+> pdb_org_sci > BACTEROIDES FRAGILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1js1 | X | albelig | 1 | 1 | H | 7 | 10 | X-7-  | X-10-  | VQDI 
+| 1js1 | X | albelig | 2 | 2 | H | 13 | 25 | X-13-  | X-25-  | LKSALAESFEIKK 
+| 1js1 | X | albelig | 3 | 3 | E | 38 | 43 | X-38-  | X-43-  | TLLMIF 
+| 1js1 | X | albelig | 4 | 4 | H | 49 | 60 | X-49-  | X-60-  | RTRLSTQKAALN 
+| 1js1 | X | albelig | 5 | 5 | E | 64 | 69 | X-64-  | X-69-  | NVIVLD 
+| 1js1 | X | albelig | 6 | 6 | H | 72 | 74 | X-72-  | X-74-  | QGA 
+| 1js1 | X | albelig | 7 | 7 | H | 93 | 102 | X-93-  | X-102-  | LLEAIPVMGC 
+| 1js1 | X | albelig | 8 | 8 | E | 106 | 110 | X-106-  | X-110-  | IIGVR 
+| 1js1 | X | albelig | 9 | 9 | H | 118 | 123 | X-118-  | X-123-  | REYDYN 
+| 1js1 | X | albelig | 10 | 10 | H | 125 | 133 | X-125-  | X-133-  | VIINQFIQH 
+| 1js1 | X | albelig | 11 | 11 | E | 138 | 140 | X-138-  | X-140-  | VFS 
+| 1js1 | X | albelig | 12 | 12 | H | 148 | 161 | X-148-  | X-161-  | PLQSFADLITIEEY 
+| 1js1 | X | albelig | 13 | 13 | E | 168 | 172 | X-168-  | X-172-  | KVVMT 
+| 1js1 | X | albelig | 14 | 14 | H | 183 | 193 | X-183-  | X-193-  | AVPNSFAEWMN 
+| 1js1 | X | albelig | 15 | 15 | E | 198 | 202 | X-198-  | X-202-  | EFVIT 
+| 1js1 | X | albelig | 16 | 16 | H | 211 | 214 | X-211-  | X-214-  | PKFV 
+| 1js1 | X | albelig | 17 | 17 | E | 218 | 220 | X-218-  | X-220-  | RVE 
+| 1js1 | X | albelig | 18 | 18 | H | 223 | 227 | X-223-  | X-227-  | QMKAF 
+| 1js1 | X | albelig | 19 | 19 | E | 232 | 235 | X-232-  | X-235-  | FIYA 
+| 1js1 | X | albelig | 20 | 20 | H | 260 | 263 | X-260-  | X-263-  | DRQM 
+| 1js1 | X | albelig | 21 | 21 | E | 270 | 272 | X-270-  | X-272-  | YFM 
+| 1js1 | X | albelig | 22 | 22 | H | 285 | 289 | X-285-  | X-289-  | DDVIE 
+| 1js1 | X | albelig | 23 | 23 | H | 295 | 315 | X-295-  | X-315-  | VIPEAANREISATVVLKRLLE 
+| 1js1 | X | albelig | 24 | 24 | L | 963 | 963 | X-501-  | X-501-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 12
+= 2 = a = 23
+= 3 = a = 4
+= 3 = p = 5
+= 3 = p = 8
+= 4 = m = 23
+= 4 = l = 24
+= 7 = m = 10
+= 8 = p = 11
+= 8 = l = 24
+= 9 = m = 10
+= 10 = m = 11
+= 12 = m = 14
+= 12 = m = 21
+= 12 = a = 23
+= 13 = m = 14
+= 13 = p = 15
+= 13 = m = 18
+= 13 = p = 19
+= 15 = p = 17
+= 19 = p = 21
+# Listed 21 contacts. EOF.

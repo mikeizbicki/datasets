@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f0v, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOMAIN SWAPPING, CRYSTAL, RIBONUCLEASE, BOVINE PANCREAS, HYDROLASE-DNA COMPLEX
+> pdb_mol_name > RIBONUCLEASE A
+> graphtype > albelig
+> resolution > 1.7
+> date > 17-MAY-00
+> header > HYDROLASE/DNA
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF AN RNASE A DIMER DISPLAYING A NEW TYPE OF 3DDOMAIN SWAPPING
+> format_version > 2
+> pdbid > 1f0v
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f0v | D | albelig | 1 | 1 | H | 379 | 387 | D-604-  | D-612-  | AAAKFERQH 
+| 1f0v | D | albelig | 2 | 2 | H | 400 | 407 | D-625-  | D-632-  | YMNQMMKS 
+| 1f0v | D | albelig | 3 | 3 | E | 418 | 422 | D-643-  | D-647-  | VNTFV 
+| 1f0v | D | albelig | 4 | 4 | H | 426 | 434 | D-651-  | D-659-  | LADVQAVCS 
+| 1f0v | D | albelig | 5 | 5 | E | 436 | 438 | D-661-  | D-663-  | KNV 
+| 1f0v | D | albelig | 6 | 6 | E | 447 | 449 | D-672-  | D-674-  | PYQ 
+| 1f0v | D | albelig | 7 | 7 | E | 454 | 461 | D-679-  | D-686-  | MSITDMRE 
+| 1f0v | D | albelig | 8 | 8 | E | 472 | 479 | D-697-  | D-704-  | YKTTQANK 
+| 1f0v | D | albelig | 9 | 9 | E | 481 | 498 | D-706-  | D-723-  | IIVACEGNPYVPVHFDAS 
+| 1f0v | D | albelig | 10 | 10 | L | 523 | 523 | D-901-  | D-901-  | J 
+| 1f0v | D | albelig | 11 | 11 | L | 524 | 524 | D-909-  | D-909-  | J 
+| 1f0v | D | albelig | 12 | 12 | L | 525 | 525 | D-913-  | D-913-  | J 
+| 1f0v | D | albelig | 13 | 13 | L | 526 | 526 | D-916-  | D-916-  | J 
+| 1f0v | D | albelig | 14 | 14 | L | 527 | 527 | D-924-  | D-924-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = m = 8
+= 3 = a = 7
+= 4 = m = 6
+= 4 = l = 14
+= 5 = a = 6
+= 6 = a = 9
+= 7 = a = 8
+= 8 = l = 12
+= 8 = l = 13
+= 9 = l = 10
+= 9 = l = 11
+= 12 = l = 13
+# Listed 13 contacts. EOF.

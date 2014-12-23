@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iyb, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, RIBONUCLEASE
+> pdb_mol_name > RIBONUCLEASE
+> graphtype > albelig
+> resolution > 1.5
+> date > 05-AUG-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE NICOTIANA GLUTINOSA RIBONUCLEASE NW
+> format_version > 2
+> pdbid > 1iyb
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > NICOTIANA GLUTINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iyb | B | albelig | 1 | 1 | E | 219 | 225 | B-6-  | B-12-  | FFYFVQQ 
+| 1iyb | B | albelig | 2 | 2 | H | 227 | 230 | B-14-  | B-17-  | PGSY 
+| 1iyb | B | albelig | 3 | 3 | E | 250 | 257 | B-37-  | B-44-  | GIHGLWPN 
+| 1iyb | B | albelig | 4 | 4 | H | 275 | 288 | B-62-  | B-75-  | QSQVSDLISRMQQN 
+| 1iyb | B | albelig | 5 | 5 | H | 300 | 309 | B-87-  | B-96-  | SAFWSHEWEK 
+| 1iyb | B | albelig | 6 | 6 | H | 311 | 314 | B-98-  | B-101-  | GTHA 
+| 1iyb | B | albelig | 7 | 7 | H | 320 | 333 | B-107-  | B-120-  | QHGYFKKALDLKNQ 
+| 1iyb | B | albelig | 8 | 8 | H | 336 | 342 | B-123-  | B-129-  | LLEILQG 
+| 1iyb | B | albelig | 9 | 9 | E | 351 | 353 | B-138-  | B-140-  | FYS 
+| 1iyb | B | albelig | 10 | 10 | H | 354 | 365 | B-141-  | B-152-  | LNSIKNAIRSAI 
+| 1iyb | B | albelig | 11 | 11 | E | 370 | 375 | B-157-  | B-162-  | GIEINV 
+| 1iyb | B | albelig | 12 | 12 | E | 381 | 391 | B-168-  | B-178-  | SQLYQIYIJVD 
+| 1iyb | B | albelig | 13 | 13 | E | 411 | 413 | B-198-  | B-200-  | SIE 
+| 1iyb | B | albelig | 14 | 14 | L | 419 | 419 | B-1296-  | B-1296-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 1 = l = 14
+= 2 = m = 12
+= 2 = l = 14
+= 3 = m = 4
+= 3 = m = 5
+= 3 = l = 14
+= 4 = m = 5
+= 4 = p = 7
+= 5 = m = 6
+= 5 = m = 7
+= 5 = l = 14
+= 9 = m = 10
+= 9 = a = 13
+= 11 = a = 12
+= 12 = a = 13
+= 12 = l = 14
+# Listed 18 contacts. EOF.

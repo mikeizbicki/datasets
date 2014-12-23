@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gyw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDOCYTOSIS, ADAPTOR, COATED PITS
+> pdb_mol_name > ADAPTER-RELATED PROTEIN COMPLEX 1 GAMMA 1
+> graphtype > albelig
+> resolution > 2.4
+> date > 30-APR-02
+> header > ENDOCYTOSIS
+> pdb_org_common > MOUSE
+> title > GAMMA-ADAPTIN APPENDAGE DOMAIN FROM CLATHRIN ADAPTOR AP1A753D MUTANT
+> format_version > 2
+> pdbid > 1gyw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gyw | B | albelig | 1 | 1 | E | 140 | 145 | B-707-  | B-712-  | ITAYSK 
+| 1gyw | B | albelig | 2 | 2 | E | 148 | 156 | B-715-  | B-723-  | LKIEFTFER 
+| 1gyw | B | albelig | 3 | 3 | E | 163 | 172 | B-730-  | B-739-  | VTVITIQASN 
+| 1gyw | B | albelig | 4 | 4 | E | 179 | 186 | B-746-  | B-753-  | TDFVFQAD 
+| 1gyw | B | albelig | 5 | 5 | E | 192 | 195 | B-759-  | B-762-  | QLQL 
+| 1gyw | B | albelig | 6 | 6 | H | 205 | 207 | B-772-  | B-774-  | AFN 
+| 1gyw | B | albelig | 7 | 7 | E | 211 | 218 | B-778-  | B-785-  | ITQVIKVL 
+| 1gyw | B | albelig | 8 | 8 | E | 227 | 235 | B-794-  | B-802-  | MRIKLTYNH 
+| 1gyw | B | albelig | 9 | 9 | E | 238 | 246 | B-805-  | B-813-  | SAMQDLAEV 
+| 1gyw | B | albelig | 10 | 10 | H | 251 | 253 | B-818-  | B-820-  | PQS 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = m = 6
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 8
+= 5 = a = 7
+= 8 = a = 9
+# Listed 8 contacts. EOF.

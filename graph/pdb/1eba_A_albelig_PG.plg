@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eba, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ERYTHROPOIETIN RECEPTOR, SIGNAL TRANSDUCTION, PROTEINMINIMIZATION, DRUG DESIGN, CYTOKINE RECEPTOR CLASS 1,COMPLEX (CYTOKINE RECEPTOR/PEPTIDE), SIGNALING PROTEIN
+> pdb_mol_name > PROTEIN (ERYTHROPOIETIN RECEPTOR)
+> graphtype > albelig
+> resolution > 2.7
+> date > 02-OCT-98
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > COMPLEX BETWEEN THE EXTRACELLULAR DOMAIN OF ERYTHROPOIETIN(EPO) RECEPTOR [EBP] AND AN INACTIVE PEPTIDE [EMP33]CONTAINS 3,5-DIBROMOTYROSINE IN POSITION 4 (DENOTED DBY)
+> format_version > 2
+> pdbid > 1eba
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eba | A | albelig | 1 | 1 | H | 2 | 9 | A-11-  | A-18-  | FESKAALL 
+| 1eba | A | albelig | 2 | 2 | E | 18 | 20 | A-27-  | A-29-  | LAF 
+| 1eba | A | albelig | 3 | 3 | E | 28 | 33 | A-37-  | A-42-  | VAFWEE 
+| 1eba | A | albelig | 4 | 4 | H | 41 | 43 | A-50-  | A-52-  | PGN 
+| 1eba | A | albelig | 5 | 5 | E | 44 | 50 | A-53-  | A-59-  | YSFSYQL 
+| 1eba | A | albelig | 6 | 6 | E | 53 | 58 | A-62-  | A-67-  | EPWKLN 
+| 1eba | A | albelig | 7 | 7 | E | 61 | 64 | A-70-  | A-73-  | HQAP 
+| 1eba | A | albelig | 8 | 8 | E | 70 | 75 | A-79-  | A-84-  | VRFWNS 
+| 1eba | A | albelig | 9 | 9 | H | 78 | 80 | A-87-  | A-89-  | TAD 
+| 1eba | A | albelig | 10 | 10 | E | 87 | 93 | A-96-  | A-102-  | LELRVTA 
+| 1eba | A | albelig | 11 | 11 | E | 98 | 104 | A-107-  | A-113-  | PRYHRVI 
+| 1eba | A | albelig | 12 | 12 | H | 106 | 108 | A-115-  | A-117-  | INE 
+| 1eba | A | albelig | 13 | 13 | E | 116 | 122 | A-125-  | A-131-  | VGLVARL 
+| 1eba | A | albelig | 14 | 14 | E | 129 | 134 | A-138-  | A-143-  | VVLRWL 
+| 1eba | A | albelig | 15 | 15 | H | 142 | 144 | A-151-  | A-153-  | TSH 
+| 1eba | A | albelig | 16 | 16 | E | 145 | 153 | A-154-  | A-162-  | IRYEVDVSA 
+| 1eba | A | albelig | 17 | 17 | E | 160 | 163 | A-171-  | A-174-  | RVEI 
+| 1eba | A | albelig | 18 | 18 | E | 169 | 172 | A-180-  | A-183-  | ECVL 
+| 1eba | A | albelig | 19 | 19 | E | 180 | 189 | A-191-  | A-200-  | RYTFAVRARM 
+| 1eba | A | albelig | 20 | 20 | E | 205 | 208 | A-216-  | A-219-  | VSLL 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 8
+= 4 = m = 5
+= 4 = m = 10
+= 5 = a = 6
+= 5 = a = 10
+= 6 = a = 8
+= 7 = a = 8
+= 10 = a = 11
+= 13 = a = 14
+= 14 = a = 18
+= 15 = m = 16
+= 16 = a = 17
+= 16 = a = 19
+= 19 = a = 20
+# Listed 15 contacts. EOF.

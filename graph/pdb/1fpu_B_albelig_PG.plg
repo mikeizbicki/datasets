@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fpu, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE, KINASE INHIBITOR, STI-571, ACTIVATION LOOP,TRANSFERASE
+> pdb_mol_name > PROTO-ONCOGENE TYROSINE-PROTEIN KINASE ABL
+> graphtype > albelig
+> resolution > 2.4
+> date > 31-AUG-00
+> header > TRANSFERASE
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF ABL KINASE DOMAIN IN COMPLEX WITH ASMALL MOLECULE INHIBITOR
+> format_version > 2
+> pdbid > 1fpu
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fpu | B | albelig | 1 | 1 | H | 291 | 293 | B-239-  | B-241-  | RTD 
+| 1fpu | B | albelig | 2 | 2 | E | 294 | 299 | B-242-  | B-247-  | ITMKHK 
+| 1fpu | B | albelig | 3 | 3 | E | 308 | 313 | B-256-  | B-261-  | VYEGVW 
+| 1fpu | B | albelig | 4 | 4 | E | 318 | 323 | B-266-  | B-271-  | LTVAVK 
+| 1fpu | B | albelig | 5 | 5 | H | 332 | 343 | B-280-  | B-291-  | VEEFLKEAAVMK 
+| 1fpu | B | albelig | 6 | 6 | E | 353 | 357 | B-301-  | B-305-  | LLGVC 
+| 1fpu | B | albelig | 7 | 7 | E | 364 | 368 | B-312-  | B-316-  | YIITE 
+| 1fpu | B | albelig | 8 | 8 | H | 375 | 381 | B-323-  | B-329-  | LLDYLRE 
+| 1fpu | B | albelig | 9 | 9 | H | 389 | 408 | B-337-  | B-356-  | AVVLLYMATQISSAMEYLEK 
+| 1fpu | B | albelig | 10 | 10 | H | 418 | 420 | B-366-  | B-368-  | ARN 
+| 1fpu | B | albelig | 11 | 11 | E | 421 | 423 | B-369-  | B-371-  | CLV 
+| 1fpu | B | albelig | 12 | 12 | H | 425 | 427 | B-373-  | B-375-  | ENH 
+| 1fpu | B | albelig | 13 | 13 | E | 429 | 431 | B-377-  | B-379-  | VKV 
+| 1fpu | B | albelig | 14 | 14 | E | 442 | 444 | B-394-  | B-396-  | TAH 
+| 1fpu | B | albelig | 15 | 15 | E | 447 | 449 | B-399-  | B-401-  | AKF 
+| 1fpu | B | albelig | 16 | 16 | H | 451 | 453 | B-403-  | B-405-  | IKW 
+| 1fpu | B | albelig | 17 | 17 | H | 456 | 460 | B-408-  | B-412-  | PESLA 
+| 1fpu | B | albelig | 18 | 18 | H | 466 | 481 | B-418-  | B-433-  | IKSDVWAFGVLLWEIA 
+| 1fpu | B | albelig | 19 | 19 | H | 493 | 501 | B-445-  | B-453-  | LSQVYELLE 
+| 1fpu | B | albelig | 20 | 20 | H | 514 | 523 | B-466-  | B-475-  | EKVYELMRAC 
+| 1fpu | B | albelig | 21 | 21 | H | 528 | 530 | B-480-  | B-482-  | PSD 
+| 1fpu | B | albelig | 22 | 22 | H | 534 | 544 | B-486-  | B-496-  | FAEIHQAFETM 
+| 1fpu | B | albelig | 23 | 23 | L | 549 | 549 | B-2-  | B-2-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 2 = a = 3
+= 3 = a = 4
+= 3 = l = 23
+= 4 = a = 7
+= 4 = l = 23
+= 5 = l = 23
+= 6 = a = 7
+= 7 = l = 23
+= 9 = m = 12
+= 9 = a = 18
+= 9 = a = 22
+= 10 = m = 11
+= 11 = a = 13
+= 11 = l = 23
+= 13 = l = 23
+= 14 = a = 15
+= 18 = m = 20
+= 18 = p = 22
+= 20 = a = 22
+# Listed 21 contacts. EOF.

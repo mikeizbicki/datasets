@@ -1,0 +1,92 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gvg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, LYASE, OXYGENASE, TRIFUNCTIONAL ENZYME,CLAVAMINATE SYNTHASE 1, JELLY ROLL, NITRIC OXIDE
+> pdb_mol_name > CLAVAMINATE SYNTHASE 1
+> graphtype > albelig
+> resolution > 1.54
+> date > 12-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CLAVAMINATE SYNTHASE WITH NITRIC OXIDE
+> format_version > 2
+> pdbid > 1gvg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES CLAVULIGERUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gvg | A | albelig | 1 | 1 | E | 2 | 4 | A-3-  | A-5-  | SVD 
+| 1gvg | A | albelig | 2 | 2 | H | 6 | 18 | A-7-  | A-19-  | TAYGPELRALAAR 
+| 1gvg | A | albelig | 3 | 3 | H | 23 | 38 | A-24-  | A-39-  | PRADLYAFLDAAHTAA 
+| 1gvg | A | albelig | 4 | 4 | H | 43 | 55 | A-44-  | A-56-  | GALATALDTFNAE 
+| 1gvg | A | albelig | 5 | 5 | E | 61 | 65 | A-62-  | A-66-  | HLLLR 
+| 1gvg | A | albelig | 6 | 6 | H | 72 | 74 | A-73-  | A-75-  | DAD 
+| 1gvg | A | albelig | 7 | 7 | H | 92 | 104 | A-93-  | A-105-  | TMEAMLGLVGRRL 
+| 1gvg | A | albelig | 8 | 8 | E | 106 | 110 | A-107-  | A-111-  | LHTGY 
+| 1gvg | A | albelig | 9 | 9 | H | 114 | 116 | A-115-  | A-117-  | RSG 
+| 1gvg | A | albelig | 10 | 10 | E | 120 | 122 | A-121-  | A-123-  | HDV 
+| 1gvg | A | albelig | 11 | 11 | E | 140 | 143 | A-141-  | A-144-  | LEFH 
+| 1gvg | A | albelig | 12 | 12 | E | 155 | 162 | A-156-  | A-163-  | YVMLACSR 
+| 1gvg | A | albelig | 13 | 13 | E | 171 | 175 | A-172-  | A-176-  | TLVAS 
+| 1gvg | A | albelig | 14 | 14 | H | 176 | 182 | A-177-  | A-183-  | VRKALPL 
+| 1gvg | A | albelig | 15 | 15 | H | 185 | 191 | A-186-  | A-192-  | ERTRARL 
+| 1gvg | A | albelig | 16 | 16 | E | 196 | 198 | A-197-  | A-199-  | MPC 
+| 1gvg | A | albelig | 17 | 17 | H | 202 | 204 | A-203-  | A-205-  | VAF 
+| 1gvg | A | albelig | 18 | 18 | E | 208 | 210 | A-216-  | A-218-  | AQV 
+| 1gvg | A | albelig | 19 | 19 | H | 234 | 249 | A-242-  | A-257-  | PADKEAVAALSKALDE 
+| 1gvg | A | albelig | 20 | 20 | E | 252 | 254 | A-260-  | A-262-  | EAV 
+| 1gvg | A | albelig | 21 | 21 | E | 261 | 265 | A-269-  | A-273-  | LLIVD 
+| 1gvg | A | albelig | 22 | 22 | E | 269 | 273 | A-277-  | A-281-  | TTHAR 
+| 1gvg | A | albelig | 23 | 23 | E | 286 | 293 | A-294-  | A-301-  | WLHRVYIR 
+| 1gvg | A | albelig | 24 | 24 | E | 308 | 310 | A-316-  | A-318-  | DVV 
+| 1gvg | A | albelig | 25 | 25 | L | 317 | 317 | A-325-  | A-325-  | J 
+| 1gvg | A | albelig | 26 | 26 | L | 318 | 318 | A-326-  | A-326-  | J 
+| 1gvg | A | albelig | 27 | 27 | L | 319 | 319 | A-328-  | A-328-  | J 
+| 1gvg | A | albelig | 28 | 28 | L | 320 | 320 | A-329-  | A-329-  | J 
+| 1gvg | A | albelig | 29 | 29 | L | 321 | 321 | A-330-  | A-330-  | J 
+| 1gvg | A | albelig | 30 | 30 | L | 322 | 322 | A-331-  | A-331-  | J 
+| 1gvg | A | albelig | 31 | 31 | L | 323 | 323 | A-332-  | A-332-  | J 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 3 = p = 7
+= 4 = m = 5
+= 4 = m = 7
+= 5 = a = 21
+= 7 = m = 8
+= 7 = a = 12
+= 8 = a = 23
+= 8 = p = 24
+= 10 = a = 23
+= 10 = l = 26
+= 11 = a = 22
+= 11 = l = 25
+= 11 = l = 26
+= 11 = l = 30
+= 11 = l = 31
+= 12 = a = 21
+= 12 = a = 23
+= 12 = l = 26
+= 12 = l = 31
+= 13 = m = 14
+= 13 = a = 20
+= 13 = a = 22
+= 13 = l = 26
+= 15 = m = 19
+= 16 = a = 18
+= 17 = l = 30
+= 22 = l = 25
+= 22 = l = 26
+= 22 = l = 31
+= 23 = l = 25
+= 23 = l = 26
+= 23 = l = 30
+= 23 = l = 31
+= 25 = l = 26
+= 25 = l = 30
+= 25 = l = 31
+= 26 = l = 30
+= 26 = l = 31
+= 30 = l = 31
+# Listed 40 contacts. EOF.

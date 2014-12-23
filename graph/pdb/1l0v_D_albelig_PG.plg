@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0v, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FUMARATE REDUCTASE, SUCCINATE DEHYDROGENASE, COMPLEX II, QUINOL,MEMBRANE PROTEIN, OXIDOREDUCTASE
+> pdb_mol_name > FUMARATE REDUCTASE 13 KDA HYDROPHOBIC PROTEIN
+> graphtype > albelig
+> resolution > 3.3
+> date > 13-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > QUINOL-FUMARATE REDUCTASE WITH MENAQUINOL MOLECULES
+> format_version > 2
+> pdbid > 1l0v
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0v | D | albelig | 1 | 1 | H | 964 | 980 | D-10-  | D-26-  | EPVFWGLFGAGGMWSAI 
+| 1l0v | D | albelig | 2 | 2 | H | 982 | 992 | D-28-  | D-38-  | APVMILLVGIL 
+| 1l0v | D | albelig | 3 | 3 | H | 993 | 995 | D-39-  | D-41-  | LPL 
+| 1l0v | D | albelig | 4 | 4 | H | 1005 | 1012 | D-51-  | D-58-  | YERVLAFA 
+| 1l0v | D | albelig | 5 | 5 | H | 1015 | 1043 | D-61-  | D-89-  | FIGRVFLFLMIVLPLWCGLHRMHHAMHDL 
+| 1l0v | D | albelig | 6 | 6 | H | 1050 | 1069 | D-96-  | D-115-  | GKWVFYGLAAILTVVTLIGV 
+| 1l0v | D | albelig | 7 | 7 | L | 2156 | 2156 | D-700-  | D-700-  | J 
+| 1l0v | D | albelig | 8 | 8 | L | 2158 | 2158 | D-810-  | D-810-  | J 
+| 1l0v | D | albelig | 9 | 9 | L | 2159 | 2159 | D-710-  | D-710-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = l = 8
+= 1 = l = 9
+= 2 = m = 3
+= 2 = l = 7
+= 4 = l = 7
+= 5 = a = 6
+= 5 = l = 7
+= 5 = l = 8
+= 6 = l = 8
+= 6 = l = 9
+= 8 = l = 9
+# Listed 12 contacts. EOF.

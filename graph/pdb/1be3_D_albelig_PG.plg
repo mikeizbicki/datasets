@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1be3, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CYTOCHROME, MEMBRANE PROTEIN
+> pdb_mol_name > CYTOCHROME BC1 COMPLEX
+> graphtype > albelig
+> resolution > 3.0
+> date > 19-MAY-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > CATTLE
+> title > CYTOCHROME BC1 COMPLEX FROM BOVINE
+> format_version > 2
+> pdbid > 1be3
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1be3 | D | albelig | 1 | 1 | H | 1270 | 1284 | D-23-  | D-37-  | HTSIRRGFQVYKQVC 
+| 1be3 | D | albelig | 2 | 2 | H | 1305 | 1318 | D-58-  | D-71-  | EDEAKALAEEVEVQ 
+| 1be3 | D | albelig | 3 | 3 | H | 1321 | 1323 | D-74-  | D-76-  | PNE 
+| 1be3 | D | albelig | 4 | 4 | H | 1345 | 1351 | D-98-  | D-104-  | PEAARAA 
+| 1be3 | D | albelig | 5 | 5 | H | 1360 | 1362 | D-113-  | D-115-  | LSY 
+| 1be3 | D | albelig | 6 | 6 | H | 1370 | 1378 | D-123-  | D-131-  | GEDYVFSLL 
+| 1be3 | D | albelig | 7 | 7 | H | 1426 | 1441 | D-179-  | D-194-  | MSQVAKDVCTFLRWAA 
+| 1be3 | D | albelig | 8 | 8 | H | 1445 | 1478 | D-198-  | D-231-  | HDHRKRMGLKMLLMMGLLLPLVYAMKRHKWSVLK 
+| 1be3 | D | albelig | 9 | 9 | E | 1481 | 1484 | D-234-  | D-237-  | KLAY 
+| 1be3 | D | albelig | 10 | 10 | L | 2062 | 2062 | D-242-  | D-242-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 1 = l = 10
+= 5 = l = 10
+= 6 = a = 7
+= 6 = l = 10
+= 7 = l = 10
+# Listed 6 contacts. EOF.

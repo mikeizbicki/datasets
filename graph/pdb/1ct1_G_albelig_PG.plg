@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ct1, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENTEROTOXIN, TOXIN/RECEPTOR COMPLEX, OLIGOSACCHARIDE
+> pdb_mol_name > CHOLERA TOXIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 03-JUN-97
+> header > ENTEROTOXIN
+> pdb_org_common > UNKNOWN
+> title > CHOLERA TOXIN B-PENTAMER MUTANT G33R BOUND TO RECEPTORPENTASACCHARIDE
+> format_version > 2
+> pdbid > 1ct1
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > VIBRIO CHOLERAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ct1 | G | albelig | 1 | 1 | H | 317 | 321 | G-5-  | G-9-  | ITDLD 
+| 1ct1 | G | albelig | 2 | 2 | E | 327 | 335 | G-15-  | G-23-  | TQIHTLNDK 
+| 1ct1 | G | albelig | 3 | 3 | E | 338 | 344 | G-26-  | G-32-  | SYTESLA 
+| 1ct1 | G | albelig | 4 | 4 | E | 347 | 353 | G-35-  | G-41-  | REMAIIT 
+| 1ct1 | G | albelig | 5 | 5 | E | 359 | 362 | G-47-  | G-50-  | TFQV 
+| 1ct1 | G | albelig | 6 | 6 | H | 371 | 390 | G-59-  | G-78-  | DSQKKAIERMKDTLRIAYLT 
+| 1ct1 | G | albelig | 7 | 7 | E | 393 | 400 | G-81-  | G-88-  | KVEKLDVW 
+| 1ct1 | G | albelig | 8 | 8 | E | 406 | 414 | G-94-  | G-102-  | HAIAAISMA 
+| 1ct1 | G | albelig | 9 | 9 | L | 525 | 525 | G-104-  | G-104-  | J 
+| 1ct1 | G | albelig | 10 | 10 | L | 526 | 526 | G-105-  | G-105-  | J 
+| 1ct1 | G | albelig | 11 | 11 | L | 527 | 527 | G-106-  | G-106-  | J 
+| 1ct1 | G | albelig | 12 | 12 | L | 528 | 528 | G-107-  | G-107-  | J 
+| 1ct1 | G | albelig | 13 | 13 | L | 529 | 529 | G-108-  | G-108-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 7
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = p = 8
+= 6 = l = 9
+= 6 = l = 13
+= 7 = a = 8
+= 7 = l = 9
+= 9 = l = 10
+= 9 = l = 11
+= 9 = l = 13
+= 10 = l = 11
+= 10 = l = 12
+= 10 = l = 13
+= 11 = l = 12
+= 11 = l = 13
+# Listed 18 contacts. EOF.

@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gav, chain 7.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIOPHAGE, CAPSID, COAT PROTEIN, ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > UNKNOWN
+> graphtype > albelig
+> resolution > 3.4
+> date > 28-JAN-97
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > BACTERIOPHAGE GA PROTEIN CAPSID
+> format_version > 2
+> pdbid > 1gav
+> experiment > X-RAY DIFFRACTION
+> chainid > 7
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gav | 7 | albelig | 1 | 1 | E | 4166 | 4169 | 7-7-  | 7-10-  | FVLV 
+| 1gav | 7 | albelig | 2 | 2 | E | 4177 | 4185 | 7-18-  | 7-26-  | VTVVPVSNA 
+| 1gav | 7 | albelig | 3 | 3 | E | 4188 | 4192 | 7-29-  | 7-33-  | VAEWL 
+| 1gav | 7 | albelig | 4 | 4 | H | 4197 | 4199 | 7-38-  | 7-40-  | RSQ 
+| 1gav | 7 | albelig | 5 | 5 | E | 4202 | 4205 | 7-43-  | 7-46-  | RVTA 
+| 1gav | 7 | albelig | 6 | 6 | E | 4207 | 4210 | 7-48-  | 7-51-  | YRAS 
+| 1gav | 7 | albelig | 7 | 7 | E | 4214 | 4231 | 7-55-  | 7-72-  | KRKYTIKLEVPKIVTQVV 
+| 1gav | 7 | albelig | 8 | 8 | E | 4234 | 4252 | 7-75-  | 7-93-  | VELPVSAWKAYASIDLTIP 
+| 1gav | 7 | albelig | 9 | 9 | H | 4257 | 4271 | 7-98-  | 7-112-  | TDDVTVISKSLAGLF 
+| 1gav | 7 | albelig | 10 | 10 | H | 4276 | 4281 | 7-117-  | 7-122-  | PIAEAI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 5
+= 4 = m = 8
+= 5 = a = 7
+= 6 = a = 7
+= 7 = a = 8
+# Listed 7 contacts. EOF.

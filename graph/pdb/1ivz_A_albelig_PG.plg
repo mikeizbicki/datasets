@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ivz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, SEA DOMAIN, MUCIN 16, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL PROTEIN 1110008I14RIK
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-APR-02
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > HOUSE MOUSE
+> title > SOLUTION STRUCTURE OF THE SEA DOMAIN FROM MURINEHYPOTHETICAL PROTEIN HOMOLOGOUS TO HUMAN MUCIN 16
+> format_version > 2
+> pdbid > 1ivz
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ivz | A | albelig | 1 | 1 | E | 13 | 19 | A-13-  | A-19-  | HFNLNFT 
+| 1ivz | A | albelig | 2 | 2 | H | 27 | 30 | A-27-  | A-30-  | QDIA 
+| 1ivz | A | albelig | 3 | 3 | H | 35 | 54 | A-35-  | A-54-  | TKYQQTKRSIENALNQLFRN 
+| 1ivz | A | albelig | 4 | 4 | E | 61 | 64 | A-61-  | A-64-  | FSDC 
+| 1ivz | A | albelig | 5 | 5 | E | 68 | 70 | A-68-  | A-70-  | AFR 
+| 1ivz | A | albelig | 6 | 6 | E | 80 | 87 | A-80-  | A-87-  | GVDSLCNF 
+| 1ivz | A | albelig | 7 | 7 | H | 96 | 106 | A-96-  | A-106-  | RVAIYEEFLRM 
+| 1ivz | A | albelig | 8 | 8 | E | 124 | 127 | A-124-  | A-127-  | FVDS 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = a = 8
+= 3 = m = 4
+= 4 = a = 6
+= 5 = a = 6
+# Listed 5 contacts. EOF.

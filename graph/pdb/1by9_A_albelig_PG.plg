@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1by9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PAPILLOMAVIRUS, TRANSCRIPTION REGULATION, BETA-BARREL
+> pdb_mol_name > REGULATORY PROTEIN E2
+> graphtype > albelig
+> resolution > 2.2
+> date > 27-OCT-98
+> header > TRANSCRIPTION REGULATION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE E2 DNA-BINDING DOMAIN FROM HUMANPAPILLOMAVIRUS TYPE-16: IMPLICATIONS FOR ITS DNA BINDING-SITE SELECTION MECHANISM
+> format_version > 2
+> pdbid > 1by9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN PAPILLOMAVIRUS TYPE 16
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1by9 | A | albelig | 1 | 1 | E | 2 | 8 | A-284-  | A-290-  | TPIVHLK 
+| 1by9 | A | albelig | 2 | 2 | H | 11 | 27 | A-293-  | A-309-  | ANTLKCLRYRFKKHCTL 
+| 1by9 | A | albelig | 3 | 3 | E | 41 | 45 | A-330-  | A-334-  | IVTLT 
+| 1by9 | A | albelig | 4 | 4 | H | 49 | 58 | A-338-  | A-347-  | EWQRDQFLSQ 
+| 1by9 | A | albelig | 5 | 5 | E | 66 | 72 | A-355-  | A-361-  | TVSTGFM 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 5
+= 2 = m = 4
+# Listed 3 contacts. EOF.

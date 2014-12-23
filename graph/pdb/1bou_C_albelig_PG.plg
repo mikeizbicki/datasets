@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bou, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EXTRADIOL TYPE DIOXYGENASE, OXIDOREDUCTASE
+> pdb_mol_name > 4,5-DIOXYGENASE ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 06-AUG-98
+> header > DIOXYGENASE
+> pdb_org_common > UNKNOWN
+> title > THREE-DIMENSIONAL STRUCTURE OF LIGAB
+> format_version > 2
+> pdbid > 1bou
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SPHINGOMONAS PAUCIMOBILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bou | C | albelig | 1 | 1 | H | 435 | 444 | C-10-  | C-19-  | VHAYLAEFDD 
+| 1bou | C | albelig | 2 | 2 | H | 453 | 458 | C-28-  | C-33-  | AQRARK 
+| 1bou | C | albelig | 3 | 3 | H | 460 | 470 | C-35-  | C-45-  | YNLNQFAMSLM 
+| 1bou | C | albelig | 4 | 4 | H | 472 | 480 | C-47-  | C-55-  | AENRERFKA 
+| 1bou | C | albelig | 5 | 5 | H | 482 | 487 | C-57-  | C-62-  | ESAYLD 
+| 1bou | C | albelig | 6 | 6 | H | 493 | 500 | C-68-  | C-75-  | PAAKAAVL 
+| 1bou | C | albelig | 7 | 7 | H | 504 | 509 | C-79-  | C-84-  | YNAMID 
+| 1bou | C | albelig | 8 | 8 | H | 514 | 524 | C-89-  | C-99-  | VYFLSKLFSTD 
+| 1bou | C | albelig | 9 | 9 | H | 528 | 534 | C-103-  | C-109-  | FQFAAGS 
+| 1bou | C | albelig | 10 | 10 | H | 540 | 548 | C-115-  | C-123-  | QEEYAQMMI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 4
+= 3 = p = 8
+= 4 = m = 5
+= 5 = m = 6
+= 7 = m = 8
+= 9 = m = 10
+# Listed 6 contacts. EOF.

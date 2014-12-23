@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxz, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, BETA BARREL, ROSSMANN FOLD, TETRAMER,METHYLTRANSFERASE, DECARBOXYLASE, TRANSFERASE, LYASE
+> pdb_mol_name > PRECORRIN-6Y METHYLTRANSFERASE/PUTATIVE
+> graphtype > albelig
+> resolution > 2.7
+> date > 01-FEB-02
+> header > TRANSFERASE, LYASE
+> pdb_org_common > UNKNOWN
+> title > MT0146, THE PRECORRIN-6Y METHYLTRANSFERASE (CBIT) HOMOLOGFROM M. THERMOAUTOTROPHICUM, P1 SPACEGROUP
+> format_version > 2
+> pdbid > 1kxz
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxz | G | albelig | 1 | 1 | H | 1126 | 1128 | G-4-  | G-6-  | DDE 
+| 1kxz | G | albelig | 2 | 2 | H | 1141 | 1151 | G-19-  | G-29-  | XEVRCLIXCLA 
+| 1kxz | G | albelig | 3 | 3 | E | 1158 | 1162 | G-36-  | G-40-  | VAVDV 
+| 1kxz | G | albelig | 4 | 4 | H | 1168 | 1174 | G-46-  | G-52-  | GVTLELA 
+| 1kxz | G | albelig | 5 | 5 | E | 1179 | 1184 | G-57-  | G-62-  | RVYAID 
+| 1kxz | G | albelig | 6 | 6 | H | 1187 | 1199 | G-65-  | G-77-  | PEAISTTEXNLQR 
+| 1kxz | G | albelig | 7 | 7 | E | 1206 | 1210 | G-84-  | G-88-  | VTLXE 
+| 1kxz | G | albelig | 8 | 8 | H | 1213 | 1218 | G-91-  | G-96-  | APEALC 
+| 1kxz | G | albelig | 9 | 9 | E | 1223 | 1228 | G-101-  | G-106-  | IDIAVV 
+| 1kxz | G | albelig | 10 | 10 | H | 1235 | 1245 | G-113-  | G-123-  | LQEILRIIKDK 
+| 1kxz | G | albelig | 11 | 11 | E | 1246 | 1256 | G-124-  | G-134-  | LKPGGRIIVTA 
+| 1kxz | G | albelig | 12 | 12 | H | 1259 | 1271 | G-137-  | G-149-  | LETKFEAXECLRD 
+| 1kxz | G | albelig | 13 | 13 | E | 1276 | 1288 | G-154-  | G-166-  | VNITELNIARGRA 
+| 1kxz | G | albelig | 14 | 14 | E | 1293 | 1297 | G-171-  | G-175-  | TXXVS 
+| 1kxz | G | albelig | 15 | 15 | E | 1301 | 1306 | G-179-  | G-184-  | VALIYT 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 11
+= 2 = m = 13
+= 2 = m = 15
+= 3 = m = 4
+= 3 = p = 5
+= 3 = p = 9
+= 5 = p = 7
+= 6 = a = 7
+= 8 = m = 10
+= 9 = p = 11
+= 10 = m = 11
+= 10 = m = 12
+= 11 = m = 12
+= 11 = a = 15
+= 12 = a = 13
+= 13 = a = 14
+= 13 = a = 15
+# Listed 17 contacts. EOF.

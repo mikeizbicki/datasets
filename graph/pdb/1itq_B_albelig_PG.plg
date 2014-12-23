@@ -1,0 +1,83 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1itq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIPEPTIDASE, GLYCOPROTEIN, MEMBRANE-BOUND, ZINC PROTEASE BETA-LACTAMASE, CILASTATIN, COMPLEX (HYDROLASE-INHIBITOR), HYDROLASE
+> pdb_mol_name > RENAL DIPEPTIDASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 02-FEB-02
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > HUMAN RENAL DIPEPTIDASE
+> format_version > 2
+> pdbid > 1itq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1itq | B | albelig | 1 | 1 | H | 372 | 383 | B-2-  | B-13-  | FFRDEAERIMRD 
+| 1itq | B | albelig | 2 | 2 | E | 386 | 391 | B-16-  | B-21-  | VIDGHN 
+| 1itq | B | albelig | 3 | 3 | H | 393 | 401 | B-23-  | B-31-  | LPWQLLDMF 
+| 1itq | B | albelig | 4 | 4 | H | 408 | 410 | B-38-  | B-40-  | ERA 
+| 1itq | B | albelig | 5 | 5 | H | 422 | 427 | B-52-  | B-57-  | IPKLRA 
+| 1itq | B | albelig | 6 | 6 | E | 430 | 438 | B-60-  | B-68-  | VGGQFWSVY 
+| 1itq | B | albelig | 7 | 7 | H | 441 | 443 | B-71-  | B-73-  | DDT 
+| 1itq | B | albelig | 8 | 8 | H | 448 | 465 | B-78-  | B-95-  | AVRRTLEQMDVVHRMCRM 
+| 1itq | B | albelig | 9 | 9 | E | 470 | 472 | B-100-  | B-102-  | FLY 
+| 1itq | B | albelig | 10 | 10 | H | 476 | 484 | B-106-  | B-114-  | SAGIRQAFR 
+| 1itq | B | albelig | 11 | 11 | E | 488 | 495 | B-118-  | B-125-  | VASLIGVE 
+| 1itq | B | albelig | 12 | 12 | H | 497 | 499 | B-127-  | B-129-  | GHS 
+| 1itq | B | albelig | 13 | 13 | H | 504 | 512 | B-134-  | B-142-  | LGVLRALYQ 
+| 1itq | B | albelig | 14 | 14 | E | 515 | 519 | B-145-  | B-149-  | MRYLT 
+| 1itq | B | albelig | 15 | 15 | H | 532 | 534 | B-162-  | B-164-  | WLV 
+| 1itq | B | albelig | 16 | 16 | H | 548 | 560 | B-178-  | B-190-  | PFGQRVVKELNRL 
+| 1itq | B | albelig | 17 | 17 | E | 563 | 565 | B-193-  | B-195-  | LID 
+| 1itq | B | albelig | 18 | 18 | H | 571 | 580 | B-201-  | B-210-  | VATMKATLQL 
+| 1itq | B | albelig | 19 | 19 | H | 604 | 613 | B-234-  | B-243-  | DDVLRLVKQT 
+| 1itq | B | albelig | 20 | 20 | E | 616 | 619 | B-246-  | B-249-  | LVMV 
+| 1itq | B | albelig | 21 | 21 | H | 623 | 626 | B-253-  | B-256-  | NNYI 
+| 1itq | B | albelig | 22 | 22 | H | 634 | 647 | B-264-  | B-277-  | LSQVADHLDHIKEV 
+| 1itq | B | albelig | 23 | 23 | E | 653 | 655 | B-283-  | B-285-  | VGF 
+| 1itq | B | albelig | 24 | 24 | H | 675 | 684 | B-305-  | B-314-  | YPDLIAELLR 
+| 1itq | B | albelig | 25 | 25 | H | 689 | 698 | B-319-  | B-328-  | EAEVKGALAD 
+| 1itq | B | albelig | 26 | 26 | H | 699 | 709 | B-329-  | B-339-  | NLLRVFEAVEQ 
+| 1itq | B | albelig | 27 | 27 | H | 724 | 726 | B-354-  | B-356-  | LDQ 
+| 1itq | B | albelig | 28 | 28 | L | 744 | 744 | B-462-  | B-462-  | J 
+| 1itq | B | albelig | 29 | 29 | L | 745 | 745 | B-464-  | B-464-  | J 
+| 1itq | B | albelig | 30 | 30 | L | 746 | 746 | B-411-  | B-411-  | J 
+| 1itq | B | albelig | 31 | 31 | L | 747 | 747 | B-412-  | B-412-  | J 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 24
+= 1 = m = 25
+= 2 = p = 6
+= 2 = a = 23
+= 2 = m = 25
+= 2 = l = 30
+= 2 = l = 31
+= 4 = l = 28
+= 6 = m = 8
+= 6 = p = 11
+= 6 = l = 30
+= 8 = m = 13
+= 8 = l = 28
+= 9 = p = 11
+= 10 = m = 11
+= 10 = m = 26
+= 11 = p = 14
+= 11 = l = 30
+= 11 = l = 31
+= 13 = m = 14
+= 13 = p = 16
+= 14 = p = 17
+= 18 = m = 19
+= 19 = m = 22
+= 20 = p = 23
+= 20 = m = 26
+= 21 = m = 22
+= 22 = m = 24
+= 23 = m = 25
+= 25 = m = 26
+= 30 = l = 31
+# Listed 31 contacts. EOF.

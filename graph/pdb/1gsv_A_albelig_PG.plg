@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gsv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOTOSYNTHESIS, PHOTORECEPTOR
+> pdb_mol_name > PHOTOACTIVE YELLOW PROTEIN
+> graphtype > albelig
+> resolution > 1.75
+> date > 08-JAN-02
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE P65 CRYSTAL FORM OF PHOTOACTIVEYELLOW PROTEIN G47S MUTANT
+> format_version > 2
+> pdbid > 1gsv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ECTOTHIORHODOSPIRA HALOPHILA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gsv | A | albelig | 1 | 1 | H | 8 | 13 | A-11-  | A-16-  | IENTLA 
+| 1gsv | A | albelig | 2 | 2 | H | 17 | 20 | A-20-  | A-23-  | DGQL 
+| 1gsv | A | albelig | 3 | 3 | E | 26 | 31 | A-29-  | A-34-  | GAIQLD 
+| 1gsv | A | albelig | 4 | 4 | E | 36 | 39 | A-39-  | A-42-  | ILQY 
+| 1gsv | A | albelig | 5 | 5 | H | 41 | 47 | A-44-  | A-50-  | AAESDIT 
+| 1gsv | A | albelig | 6 | 6 | H | 51 | 54 | A-54-  | A-57-  | PKQV 
+| 1gsv | A | albelig | 7 | 7 | H | 59 | 63 | A-62-  | A-66-  | FFKDV 
+| 1gsv | A | albelig | 8 | 8 | H | 65 | 67 | A-68-  | A-70-  | PCT 
+| 1gsv | A | albelig | 9 | 9 | H | 70 | 82 | A-73-  | A-85-  | PEFYGKFKEGVAS 
+| 1gsv | A | albelig | 10 | 10 | E | 86 | 93 | A-89-  | A-96-  | NTMFEYTF 
+| 1gsv | A | albelig | 11 | 11 | E | 100 | 108 | A-103-  | A-111-  | TKVKVHMKK 
+| 1gsv | A | albelig | 12 | 12 | E | 114 | 121 | A-117-  | A-124-  | SYWVFVKR 
+| 1gsv | A | albelig | 13 | 13 | L | 123 | 123 | A-169-  | A-169-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = m = 5
+= 3 = a = 12
+= 3 = l = 13
+= 4 = m = 6
+= 4 = l = 13
+= 5 = l = 13
+= 7 = l = 13
+= 8 = m = 10
+= 8 = l = 13
+= 9 = m = 10
+= 10 = a = 11
+= 10 = l = 13
+= 11 = a = 12
+# Listed 14 contacts. EOF.

@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hho, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN A (OXY) (BETA CHAIN)
+> graphtype > albelig
+> resolution > 2.1
+> date > 10-JUN-83
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF HUMAN OXYHAEMOGLOBIN AT 2.1 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1hho
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hho | B | albelig | 1 | 1 | H | 147 | 157 | B-5-  | B-15-  | PEEKSAVTALW 
+| 1hho | B | albelig | 2 | 2 | H | 165 | 176 | B-23-  | B-34-  | VGGEALGRLLVV 
+| 1hho | B | albelig | 3 | 3 | H | 178 | 187 | B-36-  | B-45-  | PWTQRFFESF 
+| 1hho | B | albelig | 4 | 4 | H | 193 | 197 | B-51-  | B-55-  | PDAVM 
+| 1hho | B | albelig | 5 | 5 | H | 200 | 217 | B-58-  | B-75-  | PKVKAHGKKVLGAFSDGL 
+| 1hho | B | albelig | 6 | 6 | H | 220 | 235 | B-78-  | B-93-  | LDNLKGTFATLSELHC 
+| 1hho | B | albelig | 7 | 7 | H | 243 | 263 | B-101-  | B-121-  | ENFRLLGNVLVCVLAHHFGKE 
+| 1hho | B | albelig | 8 | 8 | H | 266 | 287 | B-124-  | B-145-  | PPVQAAYQKVVAGVANALAHKY 
+| 1hho | B | albelig | 9 | 9 | L | 292 | 292 | B-147-  | B-147-  | J 
+| 1hho | B | albelig | 10 | 10 | L | 293 | 293 | B-150-  | B-150-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 8
+= 2 = m = 3
+= 2 = m = 4
+= 2 = m = 7
+= 2 = l = 9
+= 2 = l = 10
+= 3 = m = 5
+= 3 = l = 9
+= 3 = l = 10
+= 5 = a = 6
+= 5 = l = 9
+= 5 = l = 10
+= 6 = p = 8
+= 6 = l = 9
+= 6 = l = 10
+= 7 = a = 8
+= 7 = l = 9
+= 7 = l = 10
+= 8 = l = 9
+= 9 = l = 10
+# Listed 21 contacts. EOF.

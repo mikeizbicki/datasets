@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ihk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > B-TREFOIL FOLD, HORMONE/GROWTH FACTOR COMPLEX
+> pdb_mol_name > GLIA-ACTIVATING FACTOR
+> graphtype > albelig
+> resolution > 2.2
+> date > 19-APR-01
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF FIBROBLAST GROWTH FACTOR 9 (FGF9)
+> format_version > 2
+> pdbid > 1ihk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ihk | A | albelig | 1 | 1 | H | 2 | 9 | A-53-  | A-60-  | DLDHLKGI 
+| 1ihk | A | albelig | 2 | 2 | E | 12 | 17 | A-63-  | A-68-  | RRQLYC 
+| 1ihk | A | albelig | 3 | 3 | E | 22 | 25 | A-73-  | A-76-  | HLEI 
+| 1ihk | A | albelig | 4 | 4 | E | 31 | 34 | A-82-  | A-85-  | IQGT 
+| 1ihk | A | albelig | 5 | 5 | H | 40 | 42 | A-91-  | A-93-  | RFG 
+| 1ihk | A | albelig | 6 | 6 | E | 44 | 50 | A-95-  | A-101-  | LEFISIA 
+| 1ihk | A | albelig | 7 | 7 | E | 53 | 58 | A-104-  | A-109-  | LVSIRG 
+| 1ihk | A | albelig | 8 | 8 | E | 64 | 67 | A-115-  | A-118-  | YLGM 
+| 1ihk | A | albelig | 9 | 9 | E | 73 | 76 | A-124-  | A-127-  | LYGS 
+| 1ihk | A | albelig | 10 | 10 | H | 81 | 83 | A-132-  | A-134-  | QEC 
+| 1ihk | A | albelig | 11 | 11 | E | 85 | 91 | A-136-  | A-142-  | FREQFEE 
+| 1ihk | A | albelig | 12 | 12 | E | 94 | 103 | A-145-  | A-154-  | YNTYSSNLYK 
+| 1ihk | A | albelig | 13 | 13 | E | 110 | 112 | A-161-  | A-163-  | RYY 
+| 1ihk | A | albelig | 14 | 14 | H | 124 | 126 | A-175-  | A-177-  | GTR 
+| 1ihk | A | albelig | 15 | 15 | H | 132 | 134 | A-183-  | A-185-  | KFT 
+| 1ihk | A | albelig | 16 | 16 | E | 136 | 139 | A-187-  | A-190-  | FLPR 
+| 1ihk | A | albelig | 17 | 17 | H | 143 | 145 | A-194-  | A-196-  | PDK 
+| 1ihk | A | albelig | 18 | 18 | H | 149 | 152 | A-200-  | A-203-  | LYKD 
+| 1ihk | A | albelig | 19 | 19 | L | 158 | 158 | A-300-  | A-300-  | J 
+| 1ihk | A | albelig | 20 | 20 | L | 159 | 159 | A-301-  | A-301-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 2 = m = 5
+= 2 = p = 6
+= 2 = a = 16
+= 3 = a = 4
+= 3 = m = 5
+= 4 = a = 9
+= 6 = a = 7
+= 7 = a = 8
+= 7 = m = 10
+= 7 = p = 11
+= 8 = a = 9
+= 8 = m = 10
+= 11 = a = 12
+= 12 = a = 13
+= 12 = m = 15
+= 12 = p = 16
+= 13 = m = 14
+= 13 = l = 20
+= 14 = l = 19
+# Listed 21 contacts. EOF.

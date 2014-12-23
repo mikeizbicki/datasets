@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aux, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SYNAPSE, PHOSPHORYLATION, SYNAPSIN IA C-DOMAIN, ATP-BINDING,TRANSFERASE
+> pdb_mol_name > SYNAPSIN IA
+> graphtype > albelig
+> resolution > 2.3
+> date > 06-SEP-97
+> header > TRANSFERASE
+> pdb_org_common > CATTLE
+> title > STRUCTURE OF THE C DOMAIN OF SYNAPSIN IA FROM BOVINE BRAIN WITHCALCIUM ATP-GAMMA-S BOUND
+> format_version > 2
+> pdbid > 1aux
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aux | A | albelig | 1 | 1 | E | 3 | 8 | A-114-  | A-119-  | RVLLVI 
+| 1aux | A | albelig | 2 | 2 | H | 15 | 18 | A-126-  | A-129-  | WAKY 
+| 1aux | A | albelig | 3 | 3 | E | 28 | 35 | A-139-  | A-146-  | IDIKVEQA 
+| 1aux | A | albelig | 4 | 4 | H | 37 | 39 | A-148-  | A-150-  | FSD 
+| 1aux | A | albelig | 5 | 5 | E | 40 | 44 | A-151-  | A-155-  | LNLVA 
+| 1aux | A | albelig | 6 | 6 | E | 50 | 54 | A-161-  | A-165-  | FSVDM 
+| 1aux | A | albelig | 7 | 7 | E | 65 | 67 | A-176-  | A-178-  | RSL 
+| 1aux | A | albelig | 8 | 8 | E | 71 | 74 | A-182-  | A-185-  | FVLI 
+| 1aux | A | albelig | 9 | 9 | H | 88 | 97 | A-199-  | A-208-  | RSLVIGLQYA 
+| 1aux | A | albelig | 10 | 10 | H | 105 | 110 | A-216-  | A-221-  | LHSVYN 
+| 1aux | A | albelig | 11 | 11 | H | 114 | 128 | A-225-  | A-239-  | KPWVFAQMVRLHKKL 
+| 1aux | A | albelig | 12 | 12 | E | 139 | 141 | A-250-  | A-252-  | TFY 
+| 1aux | A | albelig | 13 | 13 | H | 144 | 146 | A-255-  | A-257-  | HKE 
+| 1aux | A | albelig | 14 | 14 | E | 155 | 159 | A-266-  | A-270-  | VVVKM 
+| 1aux | A | albelig | 15 | 15 | E | 168 | 171 | A-279-  | A-282-  | KVKV 
+| 1aux | A | albelig | 16 | 16 | H | 174 | 187 | A-285-  | A-298-  | QHDFQDIASVVALT 
+| 1aux | A | albelig | 17 | 17 | E | 191 | 195 | A-302-  | A-306-  | ATTEP 
+| 1aux | A | albelig | 18 | 18 | E | 199 | 208 | A-310-  | A-319-  | AKYDVRIQKI 
+| 1aux | A | albelig | 19 | 19 | E | 211 | 217 | A-322-  | A-328-  | NYKAYMR 
+| 1aux | A | albelig | 20 | 20 | E | 221 | 223 | A-345-  | A-347-  | EQI 
+| 1aux | A | albelig | 21 | 21 | H | 227 | 237 | A-351-  | A-361-  | DRYKLWVDTCS 
+| 1aux | A | albelig | 22 | 22 | H | 239 | 241 | A-363-  | A-365-  | IFG 
+| 1aux | A | albelig | 23 | 23 | E | 245 | 253 | A-369-  | A-377-  | ICAVEALHG 
+| 1aux | A | albelig | 24 | 24 | E | 258 | 264 | A-382-  | A-388-  | DHIIEVV 
+| 1aux | A | albelig | 25 | 25 | H | 275 | 291 | A-399-  | A-415-  | QDEDKQLIVELVVNKMA 
+| 1aux | A | albelig | 26 | 26 | L | 588 | 588 | A-801-  | A-801-  | J 
+| 1aux | A | albelig | 27 | 27 | L | 589 | 589 | A-800-  | A-800-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 2 = m = 25
+= 4 = m = 5
+= 4 = m = 6
+= 5 = a = 6
+= 5 = p = 9
+= 6 = a = 7
+= 9 = m = 10
+= 11 = l = 26
+= 11 = l = 27
+= 12 = a = 17
+= 14 = a = 15
+= 14 = a = 17
+= 14 = l = 27
+= 15 = l = 27
+= 17 = l = 27
+= 18 = a = 19
+= 18 = p = 21
+= 18 = a = 23
+= 18 = l = 27
+= 19 = a = 20
+= 19 = m = 25
+= 19 = l = 27
+= 21 = m = 23
+= 23 = a = 24
+= 23 = l = 26
+= 23 = l = 27
+= 24 = l = 26
+= 24 = l = 27
+= 26 = l = 27
+# Listed 31 contacts. EOF.

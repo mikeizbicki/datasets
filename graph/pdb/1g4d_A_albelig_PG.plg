@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g4d, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN/DNA COMPLEX, HELIX-TURN-HELIX, WINGED-HELIX,BACTERIOPHAGE MU, REPRESSOR, VIRUS/VIRAL PROTEIN, VIRALPROTEIN/DNA COMPLEX
+> pdb_mol_name > REPRESSOR PROTEIN C
+> graphtype > albelig
+> resolution > -1.0
+> date > 26-OCT-00
+> header > VIRAL PROTEIN/DNA
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF THE MU BACTERIOPHAGE REPRESSOR DNA-BINDINGDOMAIN/DNA COMPLEX
+> format_version > 2
+> pdbid > 1g4d
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE MU
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g4d | A | albelig | 1 | 1 | H | 7 | 11 | A-19-  | A-23-  | PQEIM 
+| 1g4d | A | albelig | 2 | 2 | H | 20 | 31 | A-32-  | A-43-  | VAGVHYRANVQG 
+| 1g4d | A | albelig | 3 | 3 | E | 34 | 36 | A-46-  | A-48-  | KRK 
+| 1g4d | A | albelig | 4 | 4 | E | 46 | 48 | A-58-  | A-60-  | VEY 
+| 1g4d | A | albelig | 5 | 5 | H | 50 | 52 | A-62-  | A-64-  | VMS 
+| 1g4d | A | albelig | 6 | 6 | H | 55 | 65 | A-67-  | A-77-  | TKEREQVIAHL 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+# Listed 1 contacts. EOF.

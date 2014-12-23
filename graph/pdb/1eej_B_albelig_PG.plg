@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eej, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, PROTEIN DISULFIDE ISOMERASE, PROTEINFOLDING, REDOX PROTEIN, REDOX-ACTIVE CENTER
+> pdb_mol_name > THIOL:DISULFIDE INTERCHANGE PROTEIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 31-JAN-00
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE PROTEIN DISULFIDE BOND ISOMERASE,DSBC, FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1eej
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eej | B | albelig | 1 | 1 | H | 219 | 229 | B-2-  | B-12-  | DAAIQQTLAKM 
+| 1eej | B | albelig | 2 | 2 | E | 233 | 238 | B-16-  | B-21-  | SSDIQP 
+| 1eej | B | albelig | 3 | 3 | E | 244 | 249 | B-27-  | B-32-  | MKTVLT 
+| 1eej | B | albelig | 4 | 4 | E | 252 | 257 | B-35-  | B-40-  | GVLYIT 
+| 1eej | B | albelig | 5 | 5 | E | 262 | 264 | B-45-  | B-47-  | HII 
+| 1eej | B | albelig | 6 | 6 | E | 268 | 270 | B-51-  | B-53-  | MYD 
+| 1eej | B | albelig | 7 | 7 | H | 279 | 294 | B-62-  | B-77-  | VTNKMLLKQLNALEKE 
+| 1eej | B | albelig | 8 | 8 | E | 296 | 298 | B-79-  | B-81-  | IVY 
+| 1eej | B | albelig | 9 | 9 | E | 305 | 311 | B-88-  | B-94-  | HVITVFT 
+| 1eej | B | albelig | 10 | 10 | H | 316 | 323 | B-99-  | B-106-  | GYCHKLHE 
+| 1eej | B | albelig | 11 | 11 | H | 325 | 330 | B-108-  | B-113-  | MADYNA 
+| 1eej | B | albelig | 12 | 12 | E | 333 | 339 | B-116-  | B-122-  | ITVRYLA 
+| 1eej | B | albelig | 13 | 13 | H | 348 | 357 | B-131-  | B-140-  | DAEKEMKAIW 
+| 1eej | B | albelig | 14 | 14 | H | 362 | 370 | B-145-  | B-153-  | KNKAFDDVM 
+| 1eej | B | albelig | 15 | 15 | H | 384 | 394 | B-167-  | B-177-  | IADHYALGVQL 
+| 1eej | B | albelig | 16 | 16 | E | 401 | 403 | B-184-  | B-186-  | AVV 
+| 1eej | B | albelig | 17 | 17 | E | 409 | 411 | B-192-  | B-194-  | LVP 
+| 1eej | B | albelig | 18 | 18 | H | 416 | 430 | B-199-  | B-213-  | PKEMKEFLDEHQKMT 
+| 1eej | B | albelig | 19 | 19 | L | 434 | 434 | B-1001-  | B-1001-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 7
+= 2 = l = 19
+= 3 = a = 4
+= 4 = a = 5
+= 6 = m = 7
+= 7 = a = 15
+= 8 = a = 12
+= 8 = m = 14
+= 9 = p = 12
+= 9 = a = 16
+= 9 = m = 18
+= 10 = m = 14
+= 11 = a = 12
+= 12 = m = 13
+= 12 = m = 15
+= 13 = m = 14
+= 15 = l = 19
+= 16 = a = 17
+# Listed 19 contacts. EOF.

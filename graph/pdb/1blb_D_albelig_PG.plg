@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1blb, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EYE LENS PROTEIN
+> pdb_mol_name > BETA B2-CRYSTALLIN
+> graphtype > albelig
+> resolution > 3.3
+> date > 22-DEC-93
+> header > EYE LENS PROTEIN
+> pdb_org_common > CATTLE
+> title > CLOSE PACKING OF AN OLIGOMERIC EYE LENS BETA-CRYSTALLININDUCES LOSS OF SYMMETRY AND ORDERING OF SEQUENCEEXTENSIONS
+> format_version > 2
+> pdbid > 1blb
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1blb | D | albelig | 1 | 1 | E | 562 | 566 | D-2-  | D-6-  | KIIIF 
+| 1blb | D | albelig | 2 | 2 | E | 595 | 600 | D-34-  | D-39-  | SVLVQA 
+| 1blb | D | albelig | 3 | 3 | E | 603 | 608 | D-42-  | D-47-  | WVGYEQ 
+| 1blb | D | albelig | 4 | 4 | E | 612 | 618 | D-51-  | D-57-  | KGEQFVF 
+| 1blb | D | albelig | 5 | 5 | H | 626 | 629 | D-65-  | D-68-  | WDSW 
+| 1blb | D | albelig | 6 | 6 | E | 652 | 658 | D-89-  | D-95-  | KITLYEN 
+| 1blb | D | albelig | 7 | 7 | E | 662 | 669 | D-99-  | D-106-  | TGKKMEVI 
+| 1blb | D | albelig | 8 | 8 | E | 687 | 697 | D-123-  | D-133-  | SVRVQSGTWVG 
+| 1blb | D | albelig | 9 | 9 | E | 708 | 715 | D-144-  | D-151-  | YLLEKGDY 
+| 1blb | D | albelig | 10 | 10 | H | 718 | 721 | D-154-  | D-157-  | SGDF 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 3 = a = 4
+= 6 = a = 7
+= 6 = a = 8
+= 8 = a = 9
+# Listed 6 contacts. EOF.

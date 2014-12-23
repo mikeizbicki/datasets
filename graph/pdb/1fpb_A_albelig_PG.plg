@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fpb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE(PHOSPHORIC MONOESTER)
+> pdb_mol_name > FRUCTOSE 1,6-BISPHOSPHATASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 03-FEB-92
+> header > HYDROLASE(PHOSPHORIC MONOESTER)
+> pdb_org_common > PIG
+> title > CRYSTAL STRUCTURE OF THE NEUTRAL FORM OF FRUCTOSE 1,6-BISPHOSPHATASECOMPLEXED WITH REGULATORY INHIBITOR FRUCTOSE 2,6-BISPHOSPHATE AT 2.6-ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1fpb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SUS SCROFA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fpb | A | albelig | 1 | 1 | H | 8 | 16 | A-13-  | A-21-  | LTRFVMEQG 
+| 1fpb | A | albelig | 2 | 2 | H | 24 | 44 | A-29-  | A-49-  | EMTQLLNSLCTAVKAISTAVR 
+| 1fpb | A | albelig | 3 | 3 | H | 52 | 65 | A-73-  | A-86-  | LDVLSNDLVINVLK 
+| 1fpb | A | albelig | 4 | 4 | E | 70 | 75 | A-91-  | A-96-  | TCVLVT 
+| 1fpb | A | albelig | 5 | 5 | H | 86 | 88 | A-107-  | A-109-  | PEK 
+| 1fpb | A | albelig | 6 | 6 | E | 89 | 100 | A-110-  | A-121-  | RGKYVVCFDPLD 
+| 1fpb | A | albelig | 7 | 7 | H | 102 | 105 | A-123-  | A-126-  | SSNI 
+| 1fpb | A | albelig | 8 | 8 | E | 111 | 119 | A-132-  | A-140-  | IGTIFGIYR 
+| 1fpb | A | albelig | 9 | 9 | H | 128 | 131 | A-149-  | A-152-  | EKDA 
+| 1fpb | A | albelig | 10 | 10 | H | 135 | 137 | A-156-  | A-158-  | GRN 
+| 1fpb | A | albelig | 11 | 11 | E | 140 | 146 | A-161-  | A-167-  | AAGYALY 
+| 1fpb | A | albelig | 12 | 12 | E | 150 | 156 | A-171-  | A-177-  | TMLVLAM 
+| 1fpb | A | albelig | 13 | 13 | E | 159 | 166 | A-180-  | A-187-  | GVNCFMLD 
+| 1fpb | A | albelig | 14 | 14 | E | 171 | 176 | A-192-  | A-197-  | EFILVD 
+| 1fpb | A | albelig | 15 | 15 | E | 187 | 189 | A-208-  | A-210-  | IYS 
+| 1fpb | A | albelig | 16 | 16 | H | 192 | 194 | A-213-  | A-215-  | EGY 
+| 1fpb | A | albelig | 17 | 17 | H | 200 | 210 | A-221-  | A-231-  | PAITEYIQRKK 
+| 1fpb | A | albelig | 18 | 18 | H | 227 | 237 | A-248-  | A-258-  | MVADVHRTLVY 
+| 1fpb | A | albelig | 19 | 19 | E | 240 | 243 | A-261-  | A-264-  | IFMY 
+| 1fpb | A | albelig | 20 | 20 | H | 256 | 269 | A-277-  | A-290-  | LLYECNPMAYVMEK 
+| 1fpb | A | albelig | 21 | 21 | E | 273 | 275 | A-294-  | A-296-  | LAT 
+| 1fpb | A | albelig | 22 | 22 | E | 295 | 298 | A-316-  | A-319-  | IILG 
+| 1fpb | A | albelig | 23 | 23 | H | 300 | 312 | A-321-  | A-333-  | PEDVTELLEIYQK 
+| 1fpb | A | albelig | 24 | 24 | L | 630 | 630 | A-336-  | A-336-  | J 
+| 1fpb | A | albelig | 25 | 25 | L | 631 | 631 | A-337-  | A-337-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 25
+= 2 = m = 3
+= 2 = p = 6
+= 2 = m = 11
+= 2 = l = 25
+= 3 = a = 4
+= 3 = a = 6
+= 4 = p = 6
+= 5 = m = 6
+= 6 = m = 7
+= 6 = a = 8
+= 6 = m = 20
+= 6 = l = 24
+= 6 = l = 25
+= 7 = l = 24
+= 8 = a = 11
+= 8 = m = 20
+= 8 = l = 25
+= 11 = a = 12
+= 11 = m = 18
+= 11 = l = 25
+= 12 = a = 13
+= 12 = m = 20
+= 12 = l = 25
+= 13 = a = 14
+= 15 = p = 19
+= 16 = l = 24
+= 17 = m = 23
+= 18 = l = 24
+= 19 = a = 22
+= 19 = l = 24
+= 20 = l = 24
+= 21 = a = 22
+# Listed 34 contacts. EOF.

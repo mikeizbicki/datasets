@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1chk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTI-FUNGAL PROTEIN, HYDROLASE, O-GLYCOSYL, HYDROLASE (O-GLYCOSYL)
+> pdb_mol_name > CHITOSANASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 12-JUN-95
+> header > HYDROLASE (O-GLYCOSYL)
+> pdb_org_common > UNKNOWN
+> title > STREPTOMYCES N174 CHITOSANASE PH5.5 298K
+> format_version > 2
+> pdbid > 1chk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1chk | A | albelig | 1 | 1 | H | 4 | 6 | A-4-  | A-6-  | GLD 
+| 1chk | A | albelig | 2 | 2 | H | 8 | 22 | A-8-  | A-22-  | PHKKEIAMELVSSAE 
+| 1chk | A | albelig | 3 | 3 | H | 28 | 31 | A-28-  | A-31-  | WKAQ 
+| 1chk | A | albelig | 4 | 4 | E | 35 | 37 | A-35-  | A-37-  | IED 
+| 1chk | A | albelig | 5 | 5 | E | 44 | 46 | A-44-  | A-46-  | YTG 
+| 1chk | A | albelig | 6 | 6 | H | 57 | 68 | A-57-  | A-68-  | DMLELVQHYTDL 
+| 1chk | A | albelig | 7 | 7 | H | 75 | 84 | A-75-  | A-84-  | AKYLPALKKV 
+| 1chk | A | albelig | 8 | 8 | H | 94 | 104 | A-94-  | A-104-  | GTPFTKDWATA 
+| 1chk | A | albelig | 9 | 9 | H | 108 | 123 | A-108-  | A-123-  | TVFQQAQNDERDRVYF 
+| 1chk | A | albelig | 10 | 10 | H | 124 | 132 | A-124-  | A-132-  | DPAVSQAKA 
+| 1chk | A | albelig | 11 | 11 | H | 137 | 150 | A-137-  | A-150-  | ALGQFAYYDAIVMH 
+| 1chk | A | albelig | 12 | 12 | H | 159 | 169 | A-159-  | A-169-  | FGGIRKTAMKK 
+| 1chk | A | albelig | 13 | 13 | H | 173 | 175 | A-173-  | A-175-  | PAQ 
+| 1chk | A | albelig | 14 | 14 | H | 179 | 196 | A-179-  | A-196-  | ETTYLNGFLDARKAAMLT 
+| 1chk | A | albelig | 15 | 15 | H | 205 | 215 | A-205-  | A-215-  | RVDTEQRVFLK 
+| 1chk | A | albelig | 16 | 16 | E | 225 | 229 | A-225-  | A-229-  | LKWKT 
+| 1chk | A | albelig | 17 | 17 | E | 232 | 236 | A-232-  | A-236-  | DPYVI 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 11
+= 2 = m = 9
+= 2 = p = 11
+= 2 = a = 15
+= 2 = p = 16
+= 4 = a = 5
+= 6 = m = 7
+= 6 = m = 9
+= 9 = m = 10
+= 9 = m = 11
+= 10 = a = 11
+= 11 = m = 12
+= 11 = p = 14
+= 11 = a = 15
+= 12 = m = 14
+= 14 = a = 15
+= 15 = m = 16
+= 16 = a = 17
+# Listed 18 contacts. EOF.

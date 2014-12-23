@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1crx, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SITE-SPECIFIC RECOMBINASE, PROTEIN:DNA COMPLEX, REACTIONINTERMEDIATE, COMPLEX (RECOMBINASE/DNA), REPLICATION/DNACOMPLEX
+> pdb_mol_name > CRE RECOMBINASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 02-JUL-97
+> header > REPLICATION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRE RECOMBINASE/DNA COMPLEX REACTION INTERMEDIATE I
+> format_version > 2
+> pdbid > 1crx
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE P1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1crx | B | albelig | 1 | 1 | H | 325 | 336 | B-21-  | B-32-  | DEVRKNLMDMFR 
+| 1crx | B | albelig | 2 | 2 | H | 338 | 340 | B-34-  | B-36-  | RQA 
+| 1crx | B | albelig | 3 | 3 | H | 343 | 362 | B-39-  | B-58-  | EHTWKMLLSVCRSWAAWCKL 
+| 1crx | B | albelig | 4 | 4 | H | 372 | 384 | B-68-  | B-80-  | PEDVRDYLLYLQA 
+| 1crx | B | albelig | 5 | 5 | H | 389 | 405 | B-85-  | B-101-  | VKTIQQHLGQLNMLHRR 
+| 1crx | B | albelig | 6 | 6 | H | 411 | 413 | B-107-  | B-109-  | PSD 
+| 1crx | B | albelig | 7 | 7 | H | 415 | 430 | B-111-  | B-126-  | NAVSLVMRRIRKENVD 
+| 1crx | B | albelig | 8 | 8 | H | 443 | 453 | B-139-  | B-149-  | RTDFDQVRSLM 
+| 1crx | B | albelig | 9 | 9 | H | 459 | 474 | B-155-  | B-170-  | CQDIRNLAFLGIAYNT 
+| 1crx | B | albelig | 10 | 10 | H | 478 | 481 | B-174-  | B-177-  | IAEI 
+| 1crx | B | albelig | 11 | 11 | H | 486 | 488 | B-182-  | B-184-  | VKD 
+| 1crx | B | albelig | 12 | 12 | E | 489 | 491 | B-185-  | B-187-  | ISR 
+| 1crx | B | albelig | 13 | 13 | E | 497 | 504 | B-193-  | B-200-  | MLIHIGRT 
+| 1crx | B | albelig | 14 | 14 | E | 507 | 516 | B-203-  | B-212-  | LVSTAGVEKA 
+| 1crx | B | albelig | 15 | 15 | H | 519 | 532 | B-215-  | B-228-  | LGVTKLVERWISVS 
+| 1crx | B | albelig | 16 | 16 | H | 534 | 536 | B-230-  | B-232-  | VAD 
+| 1crx | B | albelig | 17 | 17 | H | 562 | 577 | B-258-  | B-273-  | TRALEGIFEATHRLIY 
+| 1crx | B | albelig | 18 | 18 | H | 594 | 606 | B-290-  | B-302-  | SARVGAARDMARA 
+| 1crx | B | albelig | 19 | 19 | H | 610 | 617 | B-306-  | B-313-  | IPEIMQAG 
+| 1crx | B | albelig | 20 | 20 | H | 623 | 632 | B-319-  | B-328-  | NIVMNYIRNL 
+| 1crx | B | albelig | 21 | 21 | H | 638 | 643 | B-334-  | B-339-  | AMVRLL 
+| 1crx | B | albelig | 22 | 22 | L | 646 | 646 | B-342-  | B-342-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 4
+= 3 = m = 5
+= 4 = p = 7
+= 5 = m = 6
+= 5 = a = 7
+= 8 = a = 9
+= 9 = a = 15
+= 9 = m = 17
+= 10 = m = 17
+= 11 = m = 12
+= 11 = m = 13
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 18 = m = 19
+= 18 = m = 20
+= 18 = l = 22
+= 20 = l = 22
+# Listed 18 contacts. EOF.

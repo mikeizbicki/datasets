@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cjl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROPEPTIDE, INHIBITOR, CYSTEINE PROTEASE, HYDROLASE
+> pdb_mol_name > PROCATHEPSIN L
+> graphtype > albelig
+> resolution > 2.2
+> date > 24-JUL-96
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A CYSTEINE PROTEASE PROFORM
+> format_version > 2
+> pdbid > 1cjl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cjl | A | albelig | 1 | 1 | H | 2 | 14 | A-6-P | A-18-P | HSLEAQWTKWKAM 
+| 1cjl | A | albelig | 2 | 2 | H | 21 | 46 | A-25-P | A-50-P | MNEEGWRRAVWEKNMKMIELHNQEYR 
+| 1cjl | A | albelig | 3 | 3 | E | 52 | 54 | A-56-P | A-58-P | FTM 
+| 1cjl | A | albelig | 4 | 4 | H | 64 | 70 | A-68-P | A-74-P | SEEFRQV 
+| 1cjl | A | albelig | 5 | 5 | H | 99 | 101 | A-7-  | A-9-  | WRE 
+| 1cjl | A | albelig | 6 | 6 | H | 117 | 134 | A-25-  | A-42-  | SWAFSATGALEGQMFRKT 
+| 1cjl | A | albelig | 7 | 7 | H | 142 | 148 | A-50-  | A-56-  | EQNLVDN 
+| 1cjl | A | albelig | 8 | 8 | H | 150 | 152 | A-58-  | A-60-  | GPE 
+| 1cjl | A | albelig | 9 | 9 | H | 162 | 172 | A-70-  | A-80-  | MDYAFQYVQDN 
+| 1cjl | A | albelig | 10 | 10 | H | 194 | 196 | A-102-  | A-104-  | PKY 
+| 1cjl | A | albelig | 11 | 11 | E | 203 | 206 | A-111-  | A-114-  | GFVD 
+| 1cjl | A | albelig | 12 | 12 | H | 211 | 221 | A-119-  | A-129-  | EKALMKAVATV 
+| 1cjl | A | albelig | 13 | 13 | E | 224 | 228 | A-132-  | A-136-  | ISVAI 
+| 1cjl | A | albelig | 14 | 14 | H | 233 | 236 | A-141-  | A-144-  | ESFL 
+| 1cjl | A | albelig | 15 | 15 | E | 238 | 243 | A-146-  | A-151-  | YKEGIY 
+| 1cjl | A | albelig | 16 | 16 | E | 255 | 264 | A-163-  | A-172-  | HGVLVVGYGF 
+| 1cjl | A | albelig | 17 | 17 | E | 269 | 274 | A-181-  | A-186-  | KYWLVK 
+| 1cjl | A | albelig | 18 | 18 | E | 286 | 290 | A-198-  | A-202-  | YVKMA 
+| 1cjl | A | albelig | 19 | 19 | H | 296 | 298 | A-208-  | A-210-  | HCG 
+| 1cjl | A | albelig | 20 | 20 | E | 304 | 307 | A-216-  | A-219-  | SYPT 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 3 = a = 15
+= 6 = m = 7
+= 6 = m = 13
+= 6 = m = 16
+= 6 = m = 20
+= 9 = m = 11
+= 11 = a = 20
+= 13 = a = 16
+= 13 = m = 19
+= 13 = a = 20
+= 14 = m = 15
+= 15 = p = 18
+= 16 = a = 17
+= 17 = a = 18
+# Listed 16 contacts. EOF.

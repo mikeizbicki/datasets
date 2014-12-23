@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j1v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, REPLICATION, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,REPLICATION/DNA COMPLEX
+> pdb_mol_name > CHROMOSOMAL REPLICATION INITIATOR PROTEIN DNAA
+> graphtype > albelig
+> resolution > 2.1
+> date > 18-DEC-02
+> header > REPLICATION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF DNAA DOMAINIV COMPLEXED WITH DNAABOXDNA
+> format_version > 2
+> pdbid > 1j1v
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j1v | A | albelig | 1 | 1 | H | 3 | 13 | A-376-  | A-386-  | IDNIQKTVAEY 
+| 1j1v | A | albelig | 2 | 2 | H | 18 | 22 | A-391-  | A-395-  | VADLL 
+| 1j1v | A | albelig | 3 | 3 | H | 28 | 44 | A-401-  | A-417-  | RSVARPRQXAXALAKEL 
+| 1j1v | A | albelig | 4 | 4 | H | 49 | 55 | A-422-  | A-428-  | LPEIGDA 
+| 1j1v | A | albelig | 5 | 5 | H | 61 | 77 | A-434-  | A-450-  | HTTVLHACRKIEQLREE 
+| 1j1v | A | albelig | 6 | 6 | H | 79 | 92 | A-452-  | A-465-  | HDIKEDFSNLIRTL 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 6
+= 2 = m = 3
+= 3 = m = 5
+= 3 = p = 6
+= 4 = m = 5
+= 5 = m = 6
+# Listed 7 contacts. EOF.

@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fs0, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ATP SYNTHASE, COILED COIL, GAMMA, EPSILON, HYDROLASE
+> pdb_mol_name > ATP SYNTHASE GAMMA SUBUNIT
+> graphtype > albelig
+> resolution > 2.1
+> date > 07-SEP-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > COMPLEX OF GAMMA/EPSILON ATP SYNTHASE FROM E.COLI
+> format_version > 2
+> pdbid > 1fs0
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fs0 | G | albelig | 1 | 1 | H | 132 | 169 | G-20-  | G-57-  | ITKAMEMVAASKMRKSQDRMAASRPYAETMRKVIGHLA 
+| 1fs0 | G | albelig | 2 | 2 | H | 175 | 177 | G-66-  | G-68-  | PYL 
+| 1fs0 | G | albelig | 3 | 3 | E | 184 | 190 | G-75-  | G-81-  | RVGYLVV 
+| 1fs0 | G | albelig | 4 | 4 | H | 200 | 217 | G-91-  | G-108-  | LNINLFKKLLAEMKTWTD 
+| 1fs0 | G | albelig | 5 | 5 | E | 221 | 227 | G-112-  | G-118-  | QCDLAMI 
+| 1fs0 | G | albelig | 6 | 6 | H | 229 | 238 | G-120-  | G-129-  | SKGVSFFNSV 
+| 1fs0 | G | albelig | 7 | 7 | E | 242 | 246 | G-133-  | G-137-  | VVAQV 
+| 1fs0 | G | albelig | 8 | 8 | H | 256 | 270 | G-147-  | G-161-  | SELIGPVKVMLQAYD 
+| 1fs0 | G | albelig | 9 | 9 | E | 277 | 286 | G-168-  | G-177-  | LYIVSNKFIN 
+| 1fs0 | G | albelig | 10 | 10 | E | 289 | 298 | G-180-  | G-189-  | SQVPTISQLL 
+| 1fs0 | G | albelig | 11 | 11 | E | 310 | 312 | G-207-  | G-209-  | LYE 
+| 1fs0 | G | albelig | 12 | 12 | H | 315 | 350 | G-212-  | G-247-  | PKALLDTLLRRYVESQVYQGVVENLASEQAARMVAM 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 3 = a = 4
+= 3 = p = 5
+= 3 = p = 9
+= 4 = p = 6
+= 4 = a = 9
+= 4 = m = 10
+= 5 = p = 7
+= 8 = a = 12
+= 9 = a = 10
+= 9 = p = 12
+= 10 = a = 12
+= 11 = m = 12
+# Listed 13 contacts. EOF.

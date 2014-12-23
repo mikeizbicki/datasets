@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hzm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE
+> pdb_mol_name > DUAL SPECIFICITY PROTEIN PHOSPHATASE 6
+> graphtype > albelig
+> resolution > -1.0
+> date > 25-JAN-01
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF ERK2 BINDING DOMAIN OF MAPK PHOSPHATASE MKP-3:STRUCTURAL INSIGHTS INTO MKP-3 ACTIVATION BY ERK2
+> format_version > 2
+> pdbid > 1hzm
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hzm | A | albelig | 1 | 1 | H | 23 | 29 | A-23-  | A-29-  | LNEQLEL 
+| 1hzm | A | albelig | 2 | 2 | E | 35 | 37 | A-35-  | A-37-  | LLM 
+| 1hzm | A | albelig | 3 | 3 | H | 43 | 48 | A-43-  | A-48-  | ELYESS 
+| 1hzm | A | albelig | 4 | 4 | H | 61 | 64 | A-61-  | A-64-  | IMLR 
+| 1hzm | A | albelig | 5 | 5 | H | 81 | 88 | A-81-  | A-88-  | EDRDRFTR 
+| 1hzm | A | albelig | 6 | 6 | E | 95 | 97 | A-95-  | A-97-  | VVL 
+| 1hzm | A | albelig | 7 | 7 | H | 114 | 124 | A-114-  | A-124-  | LLGLLLKKLKD 
+| 1hzm | A | albelig | 8 | 8 | H | 136 | 143 | A-136-  | A-143-  | FSKFQAEF 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 6
+# Listed 1 contacts. EOF.

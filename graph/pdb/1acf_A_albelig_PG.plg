@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1acf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN BINDING, PROFILIN, ACTIN-BINDING PROTEIN,CONTRACTILE PROTEIN
+> pdb_mol_name > PROFILIN I
+> graphtype > albelig
+> resolution > 2.0
+> date > 29-JUL-94
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > ACANTHAMOEBA CASTELLANII PROFILIN IB
+> format_version > 2
+> pdbid > 1acf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ACANTHAMOEBA CASTELLANII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1acf | A | albelig | 1 | 1 | H | 2 | 10 | A-2-  | A-10-  | WQTYVDTNL 
+| 1acf | A | albelig | 2 | 2 | H | 11 | 13 | A-11-  | A-13-  | VGT 
+| 1acf | A | albelig | 3 | 3 | E | 18 | 23 | A-18-  | A-23-  | QAAILG 
+| 1acf | A | albelig | 4 | 4 | E | 28 | 31 | A-28-  | A-31-  | TWAT 
+| 1acf | A | albelig | 5 | 5 | H | 39 | 50 | A-39-  | A-50-  | PAQGTTLAGAFN 
+| 1acf | A | albelig | 6 | 6 | H | 53 | 58 | A-53-  | A-58-  | DAIRAG 
+| 1acf | A | albelig | 7 | 7 | E | 60 | 62 | A-60-  | A-62-  | FDL 
+| 1acf | A | albelig | 8 | 8 | E | 65 | 72 | A-65-  | A-72-  | VHYVTLRA 
+| 1acf | A | albelig | 9 | 9 | E | 76 | 81 | A-76-  | A-81-  | SIYGKK 
+| 1acf | A | albelig | 10 | 10 | E | 84 | 90 | A-84-  | A-90-  | SGVITVK 
+| 1acf | A | albelig | 11 | 11 | E | 94 | 100 | A-94-  | A-100-  | AILVGVY 
+| 1acf | A | albelig | 12 | 12 | H | 106 | 121 | A-106-  | A-121-  | PGTAANVVEKLADYLI 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 3 = a = 4
+= 3 = a = 11
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 10 = m = 12
+= 11 = a = 12
+# Listed 10 contacts. EOF.

@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h8u, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, EOSINOPHIL GRANULE PROTEIN, EMBP
+> pdb_mol_name > EOSINOPHIL GRANULE MAJOR BASIC PROTEIN 1
+> graphtype > albelig
+> resolution > 1.8
+> date > 15-FEB-01
+> header > LECTIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE EOSINOPHIL MAJOR BASIC PROTEIN AT1.8A: AN ATYPICAL LECTIN WITH A PARADIGM SHIFT INSPECIFICITY
+> format_version > 2
+> pdbid > 1h8u
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h8u | B | albelig | 1 | 1 | E | 119 | 126 | B-4-  | B-11-  | YLLVRSLQ 
+| 1h8u | B | albelig | 2 | 2 | H | 128 | 139 | B-13-  | B-24-  | FSQAWFTCRRCY 
+| 1h8u | B | albelig | 3 | 3 | H | 149 | 160 | B-34-  | B-45-  | FNINYRIQCSVS 
+| 1h8u | B | albelig | 4 | 4 | E | 166 | 174 | B-51-  | B-59-  | QVWIGGRIT 
+| 1h8u | B | albelig | 5 | 5 | E | 181 | 184 | B-66-  | B-69-  | RFQW 
+| 1h8u | B | albelig | 6 | 6 | E | 207 | 211 | B-92-  | B-96-  | DVALC 
+| 1h8u | B | albelig | 7 | 7 | E | 217 | 220 | B-102-  | B-105-  | WRRA 
+| 1h8u | B | albelig | 8 | 8 | E | 226 | 231 | B-111-  | B-116-  | LPFICS 
+| 1h8u | B | albelig | 9 | 9 | L | 240 | 240 | B-1118-  | B-1118-  | J 
+| 1h8u | B | albelig | 10 | 10 | L | 241 | 241 | B-1119-  | B-1119-  | J 
+| 1h8u | B | albelig | 11 | 11 | L | 242 | 242 | B-1120-  | B-1120-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = a = 8
+= 2 = m = 8
+= 4 = a = 5
+= 4 = a = 6
+= 4 = p = 8
+= 6 = a = 7
+= 6 = l = 9
+= 7 = l = 9
+= 7 = l = 10
+# Listed 11 contacts. EOF.

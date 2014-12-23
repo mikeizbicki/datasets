@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h7v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, NMR, RUBREDOXIN, GUILLARDIA THETA,ZINC- SUBSTITUTION, DIPOLAR COUPLINGS
+> pdb_mol_name > RUBREDOXIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 16-JAN-01
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > RUBREDOXIN FROM GUILLARDIA THETA
+> format_version > 2
+> pdbid > 1h7v
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GUILLARDIA THETA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h7v | A | albelig | 1 | 1 | E | 8 | 10 | A-8-  | A-10-  | YEC 
+| 1h7v | A | albelig | 2 | 2 | H | 34 | 36 | A-34-  | A-36-  | FVD 
+| 1h7v | A | albelig | 3 | 3 | H | 50 | 52 | A-50-  | A-52-  | KNQ 
+| 1h7v | A | albelig | 4 | 4 | E | 53 | 55 | A-53-  | A-55-  | FKS 
+| 1h7v | A | albelig | 5 | 5 | L | 61 | 61 | A-61-  | A-61-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = l = 5
+= 3 = m = 4
+= 4 = l = 5
+# Listed 4 contacts. EOF.

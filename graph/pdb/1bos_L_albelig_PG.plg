@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bos, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN, RECEPTOR BINDING, PROTEIN-CARBOHYDRATE RECOGNITION,OB-FOLD
+> pdb_mol_name > SHIGA-LIKE TOXIN I B SUBUNIT
+> graphtype > albelig
+> resolution > 2.8
+> date > 13-JAN-98
+> header > TOXIN
+> pdb_org_common > ,
+> title > SHIGA-LIKE TOXIN COMPLEXED WITH ITS RECEPTOR
+> format_version > 2
+> pdbid > 1bos
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > PHAGE H30, ENTEROBACTERIA PHAGE H-19B
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bos | L | albelig | 1 | 1 | E | 773 | 784 | L-3203-  | L-3214-  | DLVTGKVEYTKY 
+| 1bos | L | albelig | 2 | 2 | E | 790 | 794 | L-3220-  | L-3224-  | FTVKV 
+| 1bos | L | albelig | 3 | 3 | E | 797 | 801 | L-3227-  | L-3231-  | KELFT 
+| 1bos | L | albelig | 4 | 4 | H | 806 | 816 | L-3236-  | L-3246-  | LQSLLLSAQIT 
+| 1bos | L | albelig | 5 | 5 | E | 819 | 823 | L-3249-  | L-3253-  | TVTIK 
+| 1bos | L | albelig | 6 | 6 | E | 835 | 838 | L-3265-  | L-3268-  | EVIF 
+| 1bos | L | albelig | 7 | 7 | L | 1478 | 1478 | L-3290-  | L-3290-  | J 
+| 1bos | L | albelig | 8 | 8 | L | 1479 | 1479 | L-3291-  | L-3291-  | J 
+| 1bos | L | albelig | 9 | 9 | L | 1480 | 1480 | L-3292-  | L-3292-  | J 
+| 1bos | L | albelig | 10 | 10 | L | 1481 | 1481 | L-3280-  | L-3280-  | J 
+| 1bos | L | albelig | 11 | 11 | L | 1482 | 1482 | L-3281-  | L-3281-  | J 
+| 1bos | L | albelig | 12 | 12 | L | 1483 | 1483 | L-3270-  | L-3270-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = a = 5
+= 1 = l = 12
+= 2 = a = 3
+= 2 = l = 12
+= 3 = l = 7
+= 3 = l = 12
+= 4 = l = 10
+= 5 = a = 6
+= 5 = l = 8
+= 7 = l = 8
+= 7 = l = 9
+= 8 = l = 9
+= 10 = l = 11
+# Listed 15 contacts. EOF.

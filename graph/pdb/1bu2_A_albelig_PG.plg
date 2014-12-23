@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bu2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL CYCLE REGULATION, HERPESVIRUS SAIMIRI, VIRAL CYCLIN
+> pdb_mol_name > CYCLIN HOMOLOG
+> graphtype > albelig
+> resolution > 3.0
+> date > 10-SEP-98
+> header > CELL CYCLE REGULATION
+> pdb_org_common > UNKNOWN
+> title > X-RAY STRUCTURE OF A VIRAL CYCLIN FROM HERPESVIRUS SAIMIRI
+> format_version > 2
+> pdbid > 1bu2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HERPESVIRUS SAIMIRI (STRAIN 11)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bu2 | A | albelig | 1 | 1 | H | 3 | 8 | A-24-  | A-29-  | LNNLKL 
+| 1bu2 | A | albelig | 2 | 2 | H | 28 | 44 | A-49-  | A-65-  | VDNRTILLTWMHLLCES 
+| 1bu2 | A | albelig | 3 | 3 | H | 51 | 62 | A-72-  | A-83-  | VFPLSVSILDRY 
+| 1bu2 | A | albelig | 4 | 4 | H | 73 | 87 | A-94-  | A-108-  | LQKIGAACVLIGSKI 
+| 1bu2 | A | albelig | 5 | 5 | H | 95 | 100 | A-116-  | A-121-  | VSKLTY 
+| 1bu2 | A | albelig | 6 | 6 | H | 108 | 121 | A-129-  | A-142-  | NLELINQEKDILEA 
+| 1bu2 | A | albelig | 7 | 7 | H | 131 | 141 | A-152-  | A-162-  | ATDFLIPLCNA 
+| 1bu2 | A | albelig | 8 | 8 | H | 149 | 163 | A-170-  | A-184-  | WPQLYEAASTTICKA 
+| 1bu2 | A | albelig | 9 | 9 | H | 169 | 171 | A-190-  | A-192-  | IAL 
+| 1bu2 | A | albelig | 10 | 10 | H | 174 | 188 | A-195-  | A-209-  | PGLICAGGLLTTIET 
+| 1bu2 | A | albelig | 11 | 11 | H | 196 | 202 | A-217-  | A-223-  | WTCYLED 
+| 1bu2 | A | albelig | 12 | 12 | H | 209 | 221 | A-230-  | A-242-  | FSTNTVRTVKDQV 
+| 1bu2 | A | albelig | 13 | 13 | H | 226 | 228 | A-247-  | A-249-  | SLY 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 4
+= 3 = a = 4
+= 4 = m = 6
+= 5 = m = 6
+= 7 = a = 8
+= 7 = m = 10
+= 8 = m = 10
+= 10 = m = 12
+# Listed 9 contacts. EOF.

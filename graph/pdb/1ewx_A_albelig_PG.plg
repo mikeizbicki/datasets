@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ewx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT
+> pdb_mol_name > TRYPAREDOXIN I
+> graphtype > albelig
+> resolution > 1.7
+> date > 28-APR-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF NATIVE TRYPAREDOXIN I FROM CRITHIDIAFASCICULATA
+> format_version > 2
+> pdbid > 1ewx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CRITHIDIA FASCICULATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ewx | A | albelig | 1 | 1 | E | 12 | 15 | A-13-  | A-16-  | KLRR 
+| 1ewx | A | albelig | 2 | 2 | E | 18 | 21 | A-19-  | A-22-  | GEVE 
+| 1ewx | A | albelig | 3 | 3 | H | 22 | 25 | A-23-  | A-26-  | VKSL 
+| 1ewx | A | albelig | 4 | 4 | E | 29 | 35 | A-30-  | A-36-  | LVFFYFS 
+| 1ewx | A | albelig | 5 | 5 | H | 40 | 56 | A-41-  | A-57-  | PPARGFTPQLIEFYDKF 
+| 1ewx | A | albelig | 6 | 6 | E | 62 | 68 | A-63-  | A-69-  | FEVVFCT 
+| 1ewx | A | albelig | 7 | 7 | H | 73 | 81 | A-74-  | A-82-  | EDGFAGYFA 
+| 1ewx | A | albelig | 8 | 8 | H | 90 | 102 | A-91-  | A-103-  | FAQSEAVQKLSKH 
+| 1ewx | A | albelig | 9 | 9 | E | 110 | 115 | A-111-  | A-116-  | TLIGVD 
+| 1ewx | A | albelig | 10 | 10 | E | 121 | 123 | A-122-  | A-124-  | VVT 
+| 1ewx | A | albelig | 11 | 11 | H | 126 | 132 | A-127-  | A-133-  | ARATLVK 
+| 1ewx | A | albelig | 12 | 12 | L | 145 | 145 | A-1-  | A-1-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = m = 3
+= 3 = l = 12
+= 4 = m = 5
+= 4 = p = 6
+= 4 = a = 9
+= 5 = m = 6
+= 5 = m = 11
+= 6 = m = 7
+= 9 = a = 10
+= 9 = m = 11
+# Listed 11 contacts. EOF.

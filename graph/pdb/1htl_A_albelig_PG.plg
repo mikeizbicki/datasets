@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1htl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENTEROTOXIN
+> pdb_mol_name > HEAT-LABILE ENTEROTOXIN, SUBUNIT A
+> graphtype > albelig
+> resolution > 2.5
+> date > 15-FEB-95
+> header > ENTEROTOXIN
+> pdb_org_common > UNKNOWN
+> title > MUTATION OF A BURIED RESIDUE CAUSES LACK OF ACTIVITY BUT NOCONFORMATIONAL CHANGE: CRYSTAL STRUCTURE OF E. COLI HEAT-LABILE ENTEROTOXIN MUTANT VAL 97--> LYS
+> format_version > 2
+> pdbid > 1htl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1htl | A | albelig | 1 | 1 | E | 522 | 526 | A-5-  | A-9-  | LYRAD 
+| 1htl | A | albelig | 2 | 2 | H | 530 | 536 | A-13-  | A-19-  | PDEIKRS 
+| 1htl | A | albelig | 3 | 3 | H | 558 | 562 | A-41-  | A-45-  | LYDHA 
+| 1htl | A | albelig | 4 | 4 | H | 583 | 593 | A-66-  | A-76-  | LRSAHLAGQSI 
+| 1htl | A | albelig | 5 | 5 | E | 599 | 605 | A-82-  | A-88-  | TYYIYVI 
+| 1htl | A | albelig | 6 | 6 | E | 611 | 613 | A-94-  | A-96-  | MFN 
+| 1htl | A | albelig | 7 | 7 | H | 614 | 621 | A-97-  | A-104-  | KNDVLGVY 
+| 1htl | A | albelig | 8 | 8 | E | 630 | 633 | A-113-  | A-116-  | VSAL 
+| 1htl | A | albelig | 9 | 9 | H | 638 | 640 | A-121-  | A-123-  | YSQ 
+| 1htl | A | albelig | 10 | 10 | E | 641 | 648 | A-124-  | A-131-  | IYGWYRVN 
+| 1htl | A | albelig | 11 | 11 | H | 664 | 669 | A-147-  | A-152-  | DRYYRN 
+| 1htl | A | albelig | 12 | 12 | H | 675 | 677 | A-158-  | A-160-  | AED 
+| 1htl | A | albelig | 13 | 13 | H | 679 | 681 | A-162-  | A-164-  | YRL 
+| 1htl | A | albelig | 14 | 14 | H | 689 | 692 | A-172-  | A-175-  | QAWR 
+| 1htl | A | albelig | 15 | 15 | H | 696 | 699 | A-179-  | A-182-  | WIHH 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = a = 5
+= 4 = m = 5
+= 5 = a = 10
+= 6 = m = 7
+= 6 = a = 8
+= 9 = m = 10
+= 14 = m = 15
+# Listed 8 contacts. EOF.

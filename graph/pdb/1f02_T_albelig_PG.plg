@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f02, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN-LIKE FOLD, C-TYPE LECTIN-LIKE FOLD, FOUR-HELIX BUNDLE, CELL ADHESION
+> pdb_mol_name > TRANSLOCATED INTIMIN RECEPTOR
+> graphtype > albelig
+> resolution > 2.9
+> date > 14-MAY-00
+> header > CELL ADHESION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF C-TERMINAL 282-RESIDUE FRAGMENT OFINTIMIN IN COMPLEX WITH TRANSLOCATED INTIMIN RECEPTOR(TIR) INTIMIN-BINDING DOMAIN
+> format_version > 2
+> pdbid > 1f02
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f02 | T | albelig | 1 | 1 | H | 287 | 304 | T-274-  | T-291-  | AANAAESATKDQLTQEAF 
+| 1f02 | T | albelig | 2 | 2 | H | 307 | 309 | T-294-  | T-296-  | PEN 
+| 1f02 | T | albelig | 3 | 3 | E | 310 | 315 | T-297-  | T-302-  | QKVNID 
+| 1f02 | T | albelig | 4 | 4 | E | 319 | 326 | T-306-  | T-313-  | NAIPSGEL 
+| 1f02 | T | albelig | 5 | 5 | H | 328 | 337 | T-315-  | T-324-  | DDIVEQIAQQ 
+| 1f02 | T | albelig | 6 | 6 | H | 343 | 346 | T-330-  | T-333-  | EVAR 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 3 = a = 4
+# Listed 2 contacts. EOF.

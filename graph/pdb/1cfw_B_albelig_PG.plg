@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cfw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RUBREDOXIN TYPE PROTEIN, ELECTRON TRANSPORT
+> pdb_mol_name > PROTEIN (DESULFOREDOXIN)
+> graphtype > albelig
+> resolution > 1.9
+> date > 22-MAR-99
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > GA-SUBSTITUTED DESULFOREDOXIN
+> format_version > 2
+> pdbid > 1cfw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > DESULFOVIBRIO GIGAS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cfw | B | albelig | 1 | 1 | E | 43 | 45 | B-6-  | B-8-  | VYK 
+| 1cfw | B | albelig | 2 | 2 | E | 52 | 57 | B-15-  | B-20-  | VVKVLE 
+| 1cfw | B | albelig | 3 | 3 | E | 63 | 65 | B-26-  | B-28-  | LVC 
+| 1cfw | B | albelig | 4 | 4 | L | 76 | 76 | B-37-  | B-37-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = l = 4
+# Listed 2 contacts. EOF.

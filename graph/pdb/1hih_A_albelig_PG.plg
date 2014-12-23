@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hih, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ASPARTATE PROTEASE, INHIBITED, HIV, HYDROLASE (ASPARTICPROTEINASE)
+> pdb_mol_name > HIV-1 PROTEASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 31-MAR-95
+> header > HYDROLASE (ASPARTIC PROTEINASE)
+> pdb_org_common > UNKNOWN
+> title > COMPARATIVE ANALYSIS OF THE X-RAY STRUCTURES OF HIV-1 ANDHIV-2 PROTEASES IN COMPLEX WITH CGP 53820, A NOVELPSEUDOSYMMETRIC INHIBITOR
+> format_version > 2
+> pdbid > 1hih
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hih | A | albelig | 1 | 1 | E | 10 | 15 | A-10-  | A-15-  | LVTIKI 
+| 1hih | A | albelig | 2 | 2 | E | 18 | 24 | A-18-  | A-24-  | QLKEALL 
+| 1hih | A | albelig | 3 | 3 | E | 43 | 49 | A-43-  | A-49-  | KPKMIGG 
+| 1hih | A | albelig | 4 | 4 | E | 52 | 66 | A-52-  | A-66-  | GFIKVRQYDQILIEI 
+| 1hih | A | albelig | 5 | 5 | E | 69 | 77 | A-69-  | A-77-  | HKAIGTVLV 
+| 1hih | A | albelig | 6 | 6 | H | 87 | 90 | A-87-  | A-90-  | RNLL 
+| 1hih | A | albelig | 7 | 7 | E | 96 | 98 | A-96-  | A-98-  | TLN 
+| 1hih | A | albelig | 8 | 8 | L | 200 | 200 | A-100-  | A-100-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = l = 8
+= 3 = a = 4
+= 4 = a = 5
+# Listed 5 contacts. EOF.

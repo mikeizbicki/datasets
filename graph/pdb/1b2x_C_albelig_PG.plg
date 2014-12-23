@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b2x, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MICROBIAL RIBONUCLEASE, ALPHA/BETA PROTEIN, HYDROLASE
+> pdb_mol_name > PROTEIN (BARNASE)
+> graphtype > albelig
+> resolution > 1.8
+> date > 03-DEC-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > BARNASE WILDTYPE STRUCTURE AT PH 7.5 FROM A CRYO_COOLEDCRYSTAL AT 100K
+> format_version > 2
+> pdbid > 1b2x
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b2x | C | albelig | 1 | 1 | H | 223 | 233 | C-7-  | C-17-  | FDGVADYLQTY 
+| 1b2x | C | albelig | 2 | 2 | H | 243 | 248 | C-27-  | C-32-  | KSEAQA 
+| 1b2x | C | albelig | 3 | 3 | H | 253 | 255 | C-37-  | C-39-  | ASK 
+| 1b2x | C | albelig | 4 | 4 | H | 258 | 261 | C-42-  | C-45-  | LADV 
+| 1b2x | C | albelig | 5 | 5 | E | 266 | 272 | C-50-  | C-56-  | SIGGDIF 
+| 1b2x | C | albelig | 6 | 6 | E | 287 | 291 | C-71-  | C-75-  | WREAD 
+| 1b2x | C | albelig | 7 | 7 | E | 303 | 307 | C-87-  | C-91-  | RILYS 
+| 1b2x | C | albelig | 8 | 8 | E | 312 | 315 | C-96-  | C-99-  | IYKT 
+| 1b2x | C | albelig | 9 | 9 | L | 327 | 327 | C-384-  | C-384-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 1 = l = 9
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+# Listed 5 contacts. EOF.

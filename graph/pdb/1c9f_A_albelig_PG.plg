@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c9f, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA ROLL, HYDROLASE
+> pdb_mol_name > CASPASE-ACTIVATED DNASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-AUG-99
+> header > HYDROLASE
+> pdb_org_common > HOUSE MOUSE
+> title > NMR STRUCTURE OF THE CAD DOMAIN OF CASPASE-ACTIVATED DNASE
+> format_version > 2
+> pdbid > 1c9f
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c9f | A | albelig | 1 | 1 | E | 9 | 15 | A-9-  | A-15-  | KCVKLRA 
+| 1c9f | A | albelig | 2 | 2 | E | 23 | 26 | A-23-  | A-26-  | GVAA 
+| 1c9f | A | albelig | 3 | 3 | H | 29 | 39 | A-29-  | A-39-  | CQELLRKGCVR 
+| 1c9f | A | albelig | 4 | 4 | E | 48 | 51 | A-48-  | A-51-  | RLCL 
+| 1c9f | A | albelig | 5 | 5 | E | 70 | 75 | A-70-  | A-75-  | AELLLL 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 4 = a = 5
+# Listed 5 contacts. EOF.

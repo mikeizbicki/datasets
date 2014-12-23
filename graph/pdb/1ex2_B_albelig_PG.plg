@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ex2, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > B. SUBTILIS PROTEIN MAF, STRUCTURAL GENOMICS, PSI, PROTEINSTRUCTURE INITIATIVE, MIDWEST CENTER FOR STRUCTURALGENOMICS, MCSG
+> pdb_mol_name > PROTEIN MAF
+> graphtype > albelig
+> resolution > 1.85
+> date > 28-APR-00
+> header > STRUCTURAL GENOMICS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF BACILLUS SUBTILIS MAF PROTEIN
+> format_version > 2
+> pdbid > 1ex2
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ex2 | B | albelig | 1 | 1 | E | 191 | 193 | B-5-  | B-7-  | LIL 
+| 1ex2 | B | albelig | 2 | 2 | H | 198 | 207 | B-12-  | B-21-  | PRRKELLDLL 
+| 1ex2 | B | albelig | 3 | 3 | E | 211 | 213 | B-25-  | B-27-  | YSI 
+| 1ex2 | B | albelig | 4 | 4 | H | 228 | 244 | B-42-  | B-58-  | PEENVQWLAKQKAKAVA 
+| 1ex2 | B | albelig | 5 | 5 | E | 251 | 261 | B-65-  | B-75-  | IVIGADTMVNL 
+| 1ex2 | B | albelig | 6 | 6 | E | 264 | 266 | B-78-  | B-80-  | ENL 
+| 1ex2 | B | albelig | 7 | 7 | H | 272 | 282 | B-86-  | B-96-  | QEEAASMLRRL 
+| 1ex2 | B | albelig | 8 | 8 | E | 286 | 297 | B-100-  | B-111-  | SHSVITAVSIQA 
+| 1ex2 | B | albelig | 9 | 9 | E | 300 | 312 | B-114-  | B-126-  | HSETFYDKTEVAF 
+| 1ex2 | B | albelig | 10 | 10 | H | 317 | 325 | B-131-  | B-139-  | EEEIWTYIE 
+| 1ex2 | B | albelig | 11 | 11 | H | 329 | 331 | B-143-  | B-145-  | PMD 
+| 1ex2 | B | albelig | 12 | 12 | H | 333 | 335 | B-147-  | B-149-  | AGA 
+| 1ex2 | B | albelig | 13 | 13 | H | 340 | 345 | B-154-  | B-159-  | GRGALF 
+| 1ex2 | B | albelig | 14 | 14 | E | 346 | 350 | B-160-  | B-164-  | VKKID 
+| 1ex2 | B | albelig | 15 | 15 | H | 353 | 357 | B-167-  | B-171-  | YYSVM 
+| 1ex2 | B | albelig | 16 | 16 | H | 361 | 368 | B-175-  | B-182-  | ISKTMRAL 
+| 1ex2 | B | albelig | 17 | 17 | L | 375 | 375 | B-202-  | B-202-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 2 = l = 17
+= 4 = a = 5
+= 4 = p = 8
+= 4 = a = 9
+= 4 = l = 17
+= 5 = a = 6
+= 5 = a = 8
+= 5 = l = 17
+= 6 = m = 12
+= 7 = m = 10
+= 7 = m = 12
+= 8 = a = 9
+= 9 = a = 14
+= 13 = m = 14
+# Listed 17 contacts. EOF.

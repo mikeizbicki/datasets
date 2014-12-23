@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cb7, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUTAMATE MUTASE, COENZYME-B12, RADICAL REACTION, TIM-BARREL,ROSSMAN-FOLD, ISOMERASE
+> pdb_mol_name > PROTEIN (GLUTAMATE MUTASE)
+> graphtype > albelig
+> resolution > 2.0
+> date > 02-MAR-99
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > GLUTAMATE MUTASE FROM CLOSTRIDIUM COCHLEARIUM RECONSTITUTED WITHMETHYL-COBALAMIN
+> format_version > 2
+> pdbid > 1cb7
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM COCHLEARIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cb7 | C | albelig | 1 | 1 | E | 627 | 633 | C-5-  | C-11-  | TIVLGVI 
+| 1cb7 | C | albelig | 2 | 2 | H | 640 | 652 | C-18-  | C-30-  | VGNKILDHAFTNA 
+| 1cb7 | C | albelig | 3 | 3 | E | 655 | 663 | C-33-  | C-41-  | NVVNIGVLS 
+| 1cb7 | C | albelig | 4 | 4 | H | 665 | 675 | C-43-  | C-53-  | QELFIKAAIET 
+| 1cb7 | C | albelig | 5 | 5 | E | 679 | 684 | C-57-  | C-62-  | AILVSS 
+| 1cb7 | C | albelig | 6 | 6 | H | 689 | 692 | C-67-  | C-70-  | GEID 
+| 1cb7 | C | albelig | 7 | 7 | H | 696 | 702 | C-74-  | C-80-  | LRQKCDE 
+| 1cb7 | C | albelig | 8 | 8 | E | 709 | 714 | C-87-  | C-92-  | LLYVGG 
+| 1cb7 | C | albelig | 9 | 9 | H | 723 | 731 | C-101-  | C-109-  | WPDVEKRFK 
+| 1cb7 | C | albelig | 10 | 10 | H | 745 | 755 | C-123-  | C-133-  | PEVGIADLKKD 
+| 1cb7 | C | albelig | 11 | 11 | L | 1246 | 1246 | C-800-  | C-800-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 2 = m = 10
+= 2 = l = 11
+= 3 = a = 4
+= 4 = m = 7
+= 5 = p = 8
+= 5 = l = 11
+= 8 = m = 10
+= 8 = l = 11
+= 10 = l = 11
+# Listed 13 contacts. EOF.

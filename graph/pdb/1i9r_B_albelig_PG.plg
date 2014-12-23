@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i9r, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-SHEET SANDWICH, IMMUNOGLOBULIN, CYTOKINE/IMMUNE SYSTEMCOMPLEX
+> pdb_mol_name > CD40 LIGAND
+> graphtype > albelig
+> resolution > 3.1
+> date > 20-MAR-01
+> header > CYTOKINE/IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF CD40L IN COMPLEX WITH THE FAB FRAGMENT OFHUMANIZED 5C8 ANTIBODY
+> format_version > 2
+> pdbid > 1i9r
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i9r | B | albelig | 1 | 1 | E | 149 | 155 | B-123-  | B-129-  | AAHVISE 
+| 1i9r | B | albelig | 2 | 2 | E | 165 | 167 | B-139-  | B-141-  | QWA 
+| 1i9r | B | albelig | 3 | 3 | E | 179 | 182 | B-153-  | B-156-  | VTLE 
+| 1i9r | B | albelig | 4 | 4 | E | 186 | 189 | B-160-  | B-163-  | QLTV 
+| 1i9r | B | albelig | 5 | 5 | E | 193 | 205 | B-167-  | B-179-  | GLYYIYAQVTFNS 
+| 1i9r | B | albelig | 6 | 6 | E | 215 | 222 | B-189-  | B-196-  | FIASLCLK 
+| 1i9r | B | albelig | 7 | 7 | E | 230 | 236 | B-204-  | B-210-  | ILLRAAN 
+| 1i9r | B | albelig | 8 | 8 | E | 245 | 251 | B-219-  | B-225-  | GQQSIHL 
+| 1i9r | B | albelig | 9 | 9 | E | 254 | 257 | B-228-  | B-231-  | VFEL 
+| 1i9r | B | albelig | 10 | 10 | E | 262 | 267 | B-236-  | B-241-  | SVFVNV 
+| 1i9r | B | albelig | 11 | 11 | H | 270 | 272 | B-244-  | B-246-  | PSQ 
+| 1i9r | B | albelig | 12 | 12 | E | 281 | 286 | B-255-  | B-260-  | SFGLLK 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 12
+= 3 = a = 4
+= 4 = a = 10
+= 5 = a = 8
+= 5 = p = 9
+= 5 = m = 11
+= 5 = a = 12
+= 6 = a = 7
+= 6 = a = 10
+= 7 = a = 8
+# Listed 11 contacts. EOF.

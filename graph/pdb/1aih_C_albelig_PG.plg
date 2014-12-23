@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aih, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA INTEGRATION, RECOMBINATION
+> pdb_mol_name > HP1 INTEGRASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 17-APR-97
+> header > DNA INTEGRATION
+> pdb_org_common > UNKNOWN
+> title > CATALYTIC DOMAIN OF BACTERIOPHAGE HP1 INTEGRASE
+> format_version > 2
+> pdbid > 1aih
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS PHAGE HP1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aih | C | albelig | 1 | 1 | H | 347 | 358 | C-176-  | C-187-  | ERDIYRLLAECD 
+| 1aih | C | albelig | 2 | 2 | H | 365 | 375 | C-194-  | C-204-  | LGLIVRICLAT 
+| 1aih | C | albelig | 3 | 3 | H | 379 | 383 | C-208-  | C-212-  | WSEAE 
+| 1aih | C | albelig | 4 | 4 | H | 387 | 389 | C-216-  | C-218-  | QSQ 
+| 1aih | C | albelig | 5 | 5 | E | 394 | 397 | C-223-  | C-226-  | KITF 
+| 1aih | C | albelig | 6 | 6 | E | 406 | 409 | C-235-  | C-238-  | RTVP 
+| 1aih | C | albelig | 7 | 7 | H | 412 | 416 | C-241-  | C-245-  | DELFD 
+| 1aih | C | albelig | 8 | 8 | H | 430 | 439 | C-259-  | C-268-  | YESFENAVLR 
+| 1aih | C | albelig | 9 | 9 | H | 449 | 463 | C-278-  | C-292-  | LTHVLRHTFASHFMM 
+| 1aih | C | albelig | 10 | 10 | H | 468 | 475 | C-297-  | C-304-  | ILVLKEIL 
+| 1aih | C | albelig | 11 | 11 | H | 480 | 484 | C-309-  | C-313-  | IEMTM 
+| 1aih | C | albelig | 12 | 12 | H | 487 | 489 | C-316-  | C-318-  | AHF 
+| 1aih | C | albelig | 13 | 13 | H | 494 | 500 | C-323-  | C-329-  | LESAVKF 
+| 1aih | C | albelig | 14 | 14 | L | 687 | 687 | C-107-  | C-107-  | J 
+| 1aih | C | albelig | 15 | 15 | L | 688 | 688 | C-103-  | C-103-  | J 
+| 1aih | C | albelig | 16 | 16 | L | 689 | 689 | C-104-  | C-104-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 8
+= 1 = l = 15
+= 2 = m = 3
+= 2 = m = 9
+= 4 = m = 5
+= 5 = a = 6
+= 6 = m = 10
+= 8 = m = 9
+= 8 = l = 16
+= 9 = m = 10
+= 9 = l = 14
+= 10 = m = 11
+= 11 = l = 14
+# Listed 14 contacts. EOF.

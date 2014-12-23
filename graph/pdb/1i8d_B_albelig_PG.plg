@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i8d, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOFLAVIN SYNTHASE, RIBOFLAVIN BIOSYNTHESIS, ANTIMICROBIALTARGET, STRUCTURE-BASED DESIGN, ESCHERICHIA COLI,TRANSFERASE
+> pdb_mol_name > RIBOFLAVIN SYNTHASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 13-MAR-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF RIBOFLAVIN SYNTHASE
+> format_version > 2
+> pdbid > 1i8d
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i8d | B | albelig | 1 | 1 | E | 215 | 224 | B-8-  | B-17-  | GTAKLVSIDE 
+| 1i8d | B | albelig | 2 | 2 | E | 228 | 234 | B-21-  | B-27-  | FRTHVVE 
+| 1i8d | B | albelig | 3 | 3 | H | 237 | 239 | B-30-  | B-32-  | DHM 
+| 1i8d | B | albelig | 4 | 4 | E | 248 | 251 | B-41-  | B-44-  | SVAH 
+| 1i8d | B | albelig | 5 | 5 | E | 254 | 262 | B-47-  | B-55-  | CCLTVTEIN 
+| 1i8d | B | albelig | 6 | 6 | E | 265 | 271 | B-58-  | B-64-  | HVSFDLM 
+| 1i8d | B | albelig | 7 | 7 | H | 272 | 277 | B-65-  | B-70-  | KETLRI 
+| 1i8d | B | albelig | 8 | 8 | H | 279 | 282 | B-72-  | B-75-  | NLGD 
+| 1i8d | B | albelig | 9 | 9 | E | 288 | 293 | B-81-  | B-86-  | WVNVER 
+| 1i8d | B | albelig | 10 | 10 | E | 312 | 319 | B-105-  | B-112-  | TTAEVAKI 
+| 1i8d | B | albelig | 11 | 11 | E | 323 | 328 | B-120-  | B-125-  | QIWFKV 
+| 1i8d | B | albelig | 12 | 12 | H | 331 | 336 | B-128-  | B-133-  | SQLMKY 
+| 1i8d | B | albelig | 13 | 13 | E | 342 | 345 | B-139-  | B-142-  | FIGI 
+| 1i8d | B | albelig | 14 | 14 | E | 348 | 355 | B-145-  | B-152-  | ISLTVGEV 
+| 1i8d | B | albelig | 15 | 15 | E | 359 | 363 | B-156-  | B-160-  | RFCVH 
+| 1i8d | B | albelig | 16 | 16 | H | 366 | 369 | B-163-  | B-166-  | PETL 
+| 1i8d | B | albelig | 17 | 17 | H | 374 | 376 | B-171-  | B-173-  | LGK 
+| 1i8d | B | albelig | 18 | 18 | E | 382 | 387 | B-179-  | B-184-  | RVNIEI 
+| 1i8d | B | albelig | 19 | 19 | H | 389 | 407 | B-186-  | B-204-  | PQTQAVVDTVERVLAAREN 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 6
+= 3 = m = 9
+= 4 = a = 5
+= 4 = a = 9
+= 5 = a = 6
+= 6 = m = 7
+= 8 = m = 18
+= 10 = a = 11
+= 10 = a = 18
+= 11 = a = 15
+= 12 = m = 19
+= 13 = a = 14
+= 13 = a = 18
+= 14 = a = 15
+# Listed 16 contacts. EOF.

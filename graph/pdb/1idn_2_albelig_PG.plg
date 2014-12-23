@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1idn, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL ADHESION, INTEGRIN, I DOMAIN
+> pdb_mol_name > CD11B
+> graphtype > albelig
+> resolution > 2.7
+> date > 10-JUN-98
+> header > CELL ADHESION
+> pdb_org_common > HUMAN
+> title > MAC-1 I DOMAIN METAL FREE
+> format_version > 2
+> pdbid > 1idn
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1idn | 2 | albelig | 1 | 1 | E | 192 | 198 | 2-434-  | 2-440-  | DIAFLID 
+| 1idn | 2 | albelig | 2 | 2 | H | 207 | 222 | 2-449-  | 2-464-  | DFRRMKEFVSTVMEQL 
+| 1idn | 2 | albelig | 3 | 3 | E | 228 | 234 | 2-470-  | 2-476-  | LFSLMQY 
+| 1idn | 2 | albelig | 4 | 4 | E | 238 | 242 | 2-480-  | 2-484-  | FRIHF 
+| 1idn | 2 | albelig | 5 | 5 | H | 244 | 247 | 2-486-  | 2-489-  | FKEF 
+| 1idn | 2 | albelig | 6 | 6 | H | 253 | 257 | 2-495-  | 2-499-  | PRSLV 
+| 1idn | 2 | albelig | 7 | 7 | H | 269 | 280 | 2-511-  | 2-522-  | TATGIRKVVREL 
+| 1idn | 2 | albelig | 8 | 8 | H | 283 | 285 | 2-525-  | 2-527-  | ITN 
+| 1idn | 2 | albelig | 9 | 9 | E | 293 | 299 | 2-535-  | 2-541-  | KILVVIT 
+| 1idn | 2 | albelig | 10 | 10 | H | 310 | 319 | 2-552-  | 2-561-  | YEDVIPEADR 
+| 1idn | 2 | albelig | 11 | 11 | E | 322 | 329 | 2-564-  | 2-571-  | VIRYVIGV 
+| 1idn | 2 | albelig | 12 | 12 | H | 331 | 333 | 2-573-  | 2-575-  | DAF 
+| 1idn | 2 | albelig | 13 | 13 | H | 338 | 345 | 2-580-  | 2-587-  | SRQELNTI 
+| 1idn | 2 | albelig | 14 | 14 | H | 350 | 352 | 2-592-  | 2-594-  | PRD 
+| 1idn | 2 | albelig | 15 | 15 | E | 354 | 357 | 2-596-  | 2-599-  | VFQV 
+| 1idn | 2 | albelig | 16 | 16 | H | 361 | 363 | 2-603-  | 2-605-  | EAL 
+| 1idn | 2 | albelig | 17 | 17 | H | 367 | 373 | 2-609-  | 2-615-  | QNQLREK 
+| 1idn | 2 | albelig | 18 | 18 | L | 381 | 381 | 2-432-  | 2-432-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 9
+= 1 = l = 18
+= 2 = m = 6
+= 2 = m = 17
+= 3 = a = 4
+= 3 = m = 5
+= 7 = p = 10
+= 9 = p = 11
+= 11 = p = 15
+= 12 = m = 13
+= 14 = m = 15
+# Listed 12 contacts. EOF.

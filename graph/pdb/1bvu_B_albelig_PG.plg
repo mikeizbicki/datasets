@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvu, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, THERMAL STABILITY
+> pdb_mol_name > PROTEIN (GLUTAMATE DEHYDROGENASE)
+> graphtype > albelig
+> resolution > 2.5
+> date > 20-JUL-99
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > GLUTAMATE DEHYDROGENASE FROM THERMOCOCCUS LITORALIS
+> format_version > 2
+> pdbid > 1bvu
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > THERMOCOCCUS LITORALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvu | B | albelig | 1 | 1 | H | 419 | 432 | B-4-  | B-17-  | DPFEIAVKQLERAA 
+| 1bvu | B | albelig | 2 | 2 | H | 439 | 444 | B-24-  | B-29-  | EEALEF 
+| 1bvu | B | albelig | 3 | 3 | E | 450 | 459 | B-35-  | B-44-  | RIVEVSIPVE 
+| 1bvu | B | albelig | 4 | 4 | E | 465 | 476 | B-50-  | B-61-  | VKVFTGFRVQYN 
+| 1bvu | B | albelig | 5 | 5 | E | 486 | 489 | B-71-  | B-74-  | IRWH 
+| 1bvu | B | albelig | 6 | 6 | H | 494 | 511 | B-79-  | B-96-  | LSTVKALAAWMTWKTAVM 
+| 1bvu | B | albelig | 7 | 7 | E | 516 | 523 | B-101-  | B-108-  | GGGKGGVI 
+| 1bvu | B | albelig | 8 | 8 | H | 526 | 528 | B-111-  | B-113-  | PKE 
+| 1bvu | B | albelig | 9 | 9 | H | 531 | 544 | B-116-  | B-129-  | DREKERLARGYVRA 
+| 1bvu | B | albelig | 10 | 10 | H | 546 | 548 | B-131-  | B-133-  | YDV 
+| 1bvu | B | albelig | 11 | 11 | H | 564 | 578 | B-149-  | B-163-  | PQIMAWMMDEYETIS 
+| 1bvu | B | albelig | 12 | 12 | H | 584 | 586 | B-169-  | B-171-  | SFG 
+| 1bvu | B | albelig | 13 | 13 | H | 593 | 595 | B-178-  | B-180-  | PSV 
+| 1bvu | B | albelig | 14 | 14 | H | 600 | 602 | B-185-  | B-187-  | ARM 
+| 1bvu | B | albelig | 15 | 15 | H | 604 | 619 | B-189-  | B-204-  | ATARGASYTVREAAKA 
+| 1bvu | B | albelig | 16 | 16 | E | 628 | 632 | B-213-  | B-217-  | TIAIQ 
+| 1bvu | B | albelig | 17 | 17 | H | 636 | 647 | B-221-  | B-232-  | NAGYYMAKIMSE 
+| 1bvu | B | albelig | 18 | 18 | E | 652 | 657 | B-237-  | B-242-  | KVVAVS 
+| 1bvu | B | albelig | 19 | 19 | E | 662 | 664 | B-247-  | B-249-  | GIY 
+| 1bvu | B | albelig | 20 | 20 | H | 671 | 681 | B-256-  | B-266-  | ADEVLAWKKKT 
+| 1bvu | B | albelig | 21 | 21 | E | 691 | 693 | B-276-  | B-278-  | TNI 
+| 1bvu | B | albelig | 22 | 22 | H | 695 | 700 | B-280-  | B-285-  | NEELLE 
+| 1bvu | B | albelig | 23 | 23 | E | 705 | 708 | B-290-  | B-293-  | VLAP 
+| 1bvu | B | albelig | 24 | 24 | E | 727 | 729 | B-312-  | B-314-  | IVA 
+| 1bvu | B | albelig | 25 | 25 | H | 738 | 746 | B-323-  | B-331-  | PEADEILYE 
+| 1bvu | B | albelig | 26 | 26 | E | 750 | 752 | B-335-  | B-337-  | LII 
+| 1bvu | B | albelig | 27 | 27 | H | 754 | 757 | B-339-  | B-342-  | DFLC 
+| 1bvu | B | albelig | 28 | 28 | H | 760 | 774 | B-345-  | B-359-  | GGVTVSYFEWVQNIT 
+| 1bvu | B | albelig | 29 | 29 | H | 780 | 805 | B-365-  | B-390-  | VEETRAKLDKKMTKAFWDVYNTHKEK 
+| 1bvu | B | albelig | 30 | 30 | H | 809 | 827 | B-394-  | B-412-  | MRDAAYVVAVSRVYQAMKD 
+# Printed info on 30 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 6
+= 3 = a = 4
+= 4 = m = 6
+= 4 = a = 7
+= 5 = p = 7
+= 6 = a = 7
+= 9 = m = 11
+= 11 = m = 12
+= 15 = p = 29
+= 16 = p = 18
+= 16 = p = 23
+= 18 = a = 19
+= 19 = a = 21
+= 23 = p = 24
+= 24 = a = 26
+= 26 = m = 27
+= 29 = m = 30
+# Listed 17 contacts. EOF.

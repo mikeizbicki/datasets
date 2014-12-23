@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1efr, chain Q.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC, ATP PHOSPHORYLASE, HYDROGEN ION TRANSPORT, ATP SYNTHASE,F1-ATPASE, IONOPHORE, HYDROLASE-ANTIBIOTIC COMPLEX, EFRAPEPTIN, F1-ATPASE-ANTIBIOTIC COMPLEX
+> pdb_mol_name > EFRAPEPTIN C
+> graphtype > albelig
+> resolution > 3.1
+> date > 24-MAY-96
+> header > HYDROLASE/ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > BOVINE MITOCHONDRIAL F1-ATPASE COMPLEXED WITH THE PEPTIDE ANTIBIOTICEFRAPEPTIN
+> format_version > 2
+> pdbid > 1efr
+> experiment > X-RAY DIFFRACTION
+> chainid > Q
+> graphclass > protein graph
+> pdb_org_sci > TOLYPOCLADIUM INFLATUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1efr | Q | albelig | 1 | 1 | H | 3000 | 3002 | Q-4-  | Q-6-  | XXL 
+| 1efr | Q | albelig | 2 | 2 | H | 3008 | 3010 | Q-12-  | Q-14-  | XGL 
+| 1efr | Q | albelig | 3 | 3 | L | 3012 | 3012 | Q-0-  | Q-0-  | J 
+| 1efr | Q | albelig | 4 | 4 | L | 3024 | 3024 | Q-16-  | Q-16-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 3
+= 2 = l = 4
+# Listed 2 contacts. EOF.

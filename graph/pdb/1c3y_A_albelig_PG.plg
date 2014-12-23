@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c3y, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EF-HAND, ALL-ALPHA, ANTIFREEZE PROTEIN
+> pdb_mol_name > THP12 CARRIER PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 10-JUL-99
+> header > ANTIFREEZE PROTEIN
+> pdb_org_common > YELLOW MEALWORM
+> title > THP12-CARRIER PROTEIN FROM YELLOW MEAL WORM
+> format_version > 2
+> pdbid > 1c3y
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TENEBRIO MOLITOR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c3y | A | albelig | 1 | 1 | H | 14 | 17 | A-14-  | A-17-  | AKAE 
+| 1c3y | A | albelig | 2 | 2 | H | 24 | 28 | A-24-  | A-28-  | SLNKV 
+| 1c3y | A | albelig | 3 | 3 | H | 37 | 50 | A-37-  | A-50-  | PKLKEHAFAILKRA 
+| 1c3y | A | albelig | 4 | 4 | H | 61 | 69 | A-61-  | A-69-  | LDHIKTKFK 
+| 1c3y | A | albelig | 5 | 5 | H | 78 | 85 | A-78-  | A-85-  | VDDLVAKN 
+| 1c3y | A | albelig | 6 | 6 | H | 92 | 102 | A-92-  | A-102-  | PQHSSADFFKN 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 6
+= 4 = a = 5
+# Listed 2 contacts. EOF.

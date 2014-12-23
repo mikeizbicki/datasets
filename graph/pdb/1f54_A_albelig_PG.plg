@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f54, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EF-HAND, HELIX-LOOP-HELIX, TRANSPORT PROTEIN
+> pdb_mol_name > CALMODULIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 13-JUN-00
+> header > TRANSPORT PROTEIN
+> pdb_org_common > BAKER'S YEAST
+> title > SOLUTION STRUCTURE OF THE APO N-TERMINAL DOMAIN OF YEASTCALMODULIN
+> format_version > 2
+> pdbid > 1f54
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f54 | A | albelig | 1 | 1 | H | 6 | 18 | A-6-  | A-18-  | EEQIAEFKEAFAL 
+| 1f54 | A | albelig | 2 | 2 | E | 26 | 28 | A-26-  | A-28-  | SIS 
+| 1f54 | A | albelig | 3 | 3 | H | 29 | 39 | A-29-  | A-39-  | SSELATVMRSL 
+| 1f54 | A | albelig | 4 | 4 | H | 45 | 53 | A-45-  | A-53-  | EAEVNDLMN 
+| 1f54 | A | albelig | 5 | 5 | E | 62 | 64 | A-62-  | A-64-  | QIE 
+| 1f54 | A | albelig | 6 | 6 | H | 65 | 72 | A-65-  | A-72-  | FSEFLALM 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 6
+= 2 = m = 3
+= 2 = a = 5
+= 3 = m = 6
+= 5 = m = 6
+# Listed 6 contacts. EOF.

@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hnb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE(GLUTATHIONE)
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE
+> graphtype > albelig
+> resolution > 3.5
+> date > 15-OCT-93
+> header > TRANSFERASE(GLUTATHIONE)
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN CLASS MU GLUTATHIONE TRANSFERASEGSTM2-2: EFFECTS OF LATTICE PACKING ON CONFORMATIONALHETEROGENEITY
+> format_version > 2
+> pdbid > 1hnb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hnb | A | albelig | 1 | 1 | E | 2 | 7 | A-2-  | A-7-  | MTLGYW 
+| 1hnb | A | albelig | 2 | 2 | H | 13 | 22 | A-13-  | A-22-  | AHSIRLLLEY 
+| 1hnb | A | albelig | 3 | 3 | E | 27 | 32 | A-27-  | A-32-  | YEEKKY 
+| 1hnb | A | albelig | 4 | 4 | H | 43 | 49 | A-43-  | A-49-  | SQWLNEK 
+| 1hnb | A | albelig | 5 | 5 | E | 61 | 63 | A-61-  | A-63-  | YLI 
+| 1hnb | A | albelig | 6 | 6 | E | 68 | 70 | A-68-  | A-70-  | KIT 
+| 1hnb | A | albelig | 7 | 7 | H | 72 | 81 | A-72-  | A-81-  | SNAILRYIAR 
+| 1hnb | A | albelig | 8 | 8 | H | 90 | 115 | A-90-  | A-115-  | EKEQIREDILENQFMDSRMQLAKLCY 
+| 1hnb | A | albelig | 9 | 9 | H | 119 | 141 | A-119-  | A-141-  | FEKLKPEYLQALPEMLKLYSQFL 
+| 1hnb | A | albelig | 10 | 10 | H | 154 | 169 | A-154-  | A-169-  | FVDFIAYDVLERNQVF 
+| 1hnb | A | albelig | 11 | 11 | H | 171 | 174 | A-171-  | A-174-  | PSCL 
+| 1hnb | A | albelig | 12 | 12 | H | 178 | 187 | A-178-  | A-187-  | PNLKDFISRF 
+| 1hnb | A | albelig | 13 | 13 | H | 191 | 196 | A-191-  | A-196-  | EKISAY 
+| 1hnb | A | albelig | 14 | 14 | L | 436 | 436 | A-218-  | A-218-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 1 = l = 14
+= 2 = m = 7
+= 2 = a = 10
+= 4 = l = 14
+= 5 = a = 6
+= 7 = a = 8
+= 7 = l = 14
+= 8 = a = 9
+= 8 = p = 10
+= 8 = l = 14
+= 9 = m = 10
+= 9 = m = 12
+= 10 = m = 11
+= 10 = m = 12
+# Listed 16 contacts. EOF.

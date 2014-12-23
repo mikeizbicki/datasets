@@ -1,0 +1,49 @@
+This is the README for the *vpg* program (vpg.jar), which is part of *VPLG* (Visualization of Protein Ligand Graphs).
+
+VPLG is free software and comes without any warranties. See the license for details.
+
+Description
+============
+
+The *vpg* program is a frontend for VPLG and provides a graphical user interface (GUI). You can run the *plcc* program from it without the need to type long commands, view resulting graph image files and more.
+
+
+Installation and System Requirements
+====================================
+
+The *vpg* program is written in Java and requires an JRE 1.6, which is available at http://java.sun.com free of charge for many platforms.
+
+
+
+Running the program
+===================
+
+To run *vpg*, double-click the file vpg.jar or run the following command line:
+
+  java -jar vpg.jar
+  
+That's it.
+
+
+Setup and Configuration
+=======================
+
+This program creates a config file at '<USERHOME>/.vpg_settings'. Feel free to edit it or use the config editor in the GUI.
+
+Some options are also parsed from the PLCC config file at '<USERHOME>/.plcc_settings'. If you do not have this file yet, you can create it by running PLCC once (java -jar plcc.jar).
+
+
+
+Author
+======
+
+The *vpg* program was written by Tim Schaefer. See http://rcmd.org/contact/ for contact information.
+
+
+
+
+
+
+
+
+

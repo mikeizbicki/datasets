@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g31, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, CO-CHAPERONIN, GROES, IN VIVO PROTEIN FOLDING,BACTERIOPHAGE T4
+> pdb_mol_name > GP31
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-MAR-98
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > GP31 CO-CHAPERONIN FROM BACTERIOPHAGE T4
+> format_version > 2
+> pdbid > 1g31
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g31 | C | albelig | 1 | 1 | E | 227 | 232 | C-15-  | C-20-  | YVILVS 
+| 1g31 | C | albelig | 2 | 2 | H | 237 | 239 | C-25-  | C-27-  | AGD 
+| 1g31 | C | albelig | 3 | 3 | H | 251 | 256 | C-39-  | C-44-  | KRVQGE 
+| 1g31 | C | albelig | 4 | 4 | E | 258 | 266 | C-46-  | C-54-  | PELCVVHSV 
+| 1g31 | C | albelig | 5 | 5 | E | 280 | 284 | C-68-  | C-72-  | LTSLP 
+| 1g31 | C | albelig | 6 | 6 | H | 285 | 287 | C-73-  | C-75-  | VGQ 
+| 1g31 | C | albelig | 7 | 7 | E | 289 | 291 | C-77-  | C-79-  | RNV 
+| 1g31 | C | albelig | 8 | 8 | H | 294 | 297 | C-82-  | C-85-  | PFVA 
+| 1g31 | C | albelig | 9 | 9 | H | 303 | 305 | C-91-  | C-93-  | PKE 
+| 1g31 | C | albelig | 10 | 10 | E | 310 | 314 | C-98-  | C-102-  | FVTCH 
+| 1g31 | C | albelig | 11 | 11 | H | 315 | 317 | C-103-  | C-105-  | YKA 
+| 1g31 | C | albelig | 12 | 12 | L | 768 | 768 | C-151-  | C-151-  | J 
+| 1g31 | C | albelig | 13 | 13 | L | 769 | 769 | C-181-  | C-181-  | J 
+| 1g31 | C | albelig | 14 | 14 | L | 770 | 770 | C-1151-  | C-1151-  | J 
+| 1g31 | C | albelig | 15 | 15 | L | 771 | 771 | C-1164-  | C-1164-  | J 
+| 1g31 | C | albelig | 16 | 16 | L | 772 | 772 | C-1171-  | C-1171-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 10
+= 3 = l = 12
+= 3 = l = 14
+= 3 = l = 15
+= 3 = l = 16
+= 4 = a = 5
+= 5 = m = 6
+= 7 = a = 10
+= 10 = m = 11
+= 12 = l = 15
+= 13 = l = 16
+# Listed 12 contacts. EOF.

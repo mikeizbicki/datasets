@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bjm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BENCE JONES, ANTIBODY, MULTIPLE QUATERNARY STRUCTURES,IMMUNOGLOBULIN
+> pdb_mol_name > LOC - LAMBDA 1 TYPE LIGHT-CHAIN DIMER
+> graphtype > albelig
+> resolution > 2.2
+> date > 26-MAY-95
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HUMAN
+> title > LOC NAKS, A LAMBDA 1 TYPE LIGHT-CHAIN DIMER (BENCE-JONESPROTEIN) CRYSTALLIZED IN NAKSO4
+> format_version > 2
+> pdbid > 1bjm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bjm | A | albelig | 1 | 1 | E | 9 | 12 | A-9-  | A-12-  | SASG 
+| 1bjm | A | albelig | 2 | 2 | E | 17 | 23 | A-17-  | A-23-  | RVTISAS 
+| 1bjm | A | albelig | 3 | 3 | E | 35 | 39 | A-35-  | A-39-  | TWYQH 
+| 1bjm | A | albelig | 4 | 4 | E | 47 | 50 | A-47-  | A-50-  | LLIY 
+| 1bjm | A | albelig | 5 | 5 | E | 63 | 67 | A-63-  | A-67-  | FSASK 
+| 1bjm | A | albelig | 6 | 6 | E | 71 | 77 | A-71-  | A-77-  | SASLAIS 
+| 1bjm | A | albelig | 7 | 7 | H | 81 | 83 | A-81-  | A-83-  | PED 
+| 1bjm | A | albelig | 8 | 8 | E | 86 | 92 | A-86-  | A-92-  | DYYAAAW 
+| 1bjm | A | albelig | 9 | 9 | E | 99 | 101 | A-99-  | A-101-  | AVF 
+| 1bjm | A | albelig | 10 | 10 | E | 105 | 109 | A-105-  | A-109-  | TKVTV 
+| 1bjm | A | albelig | 11 | 11 | E | 118 | 122 | A-118-  | A-122-  | TVTLF 
+| 1bjm | A | albelig | 12 | 12 | H | 126 | 130 | A-126-  | A-130-  | SEELQ 
+| 1bjm | A | albelig | 13 | 13 | E | 134 | 143 | A-134-  | A-143-  | ATLVNLISDF 
+| 1bjm | A | albelig | 14 | 14 | E | 149 | 154 | A-149-  | A-154-  | TVAWKA 
+| 1bjm | A | albelig | 15 | 15 | E | 163 | 165 | A-163-  | A-165-  | VET 
+| 1bjm | A | albelig | 16 | 16 | E | 176 | 184 | A-176-  | A-184-  | YAASSYLSL 
+| 1bjm | A | albelig | 17 | 17 | H | 186 | 190 | A-186-  | A-190-  | PEQWK 
+| 1bjm | A | albelig | 18 | 18 | E | 195 | 201 | A-195-  | A-201-  | YSNQVTH 
+| 1bjm | A | albelig | 19 | 19 | E | 204 | 210 | A-204-  | A-210-  | STVEKTV 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 10
+= 2 = a = 6
+= 2 = p = 8
+= 3 = a = 4
+= 3 = a = 8
+= 5 = a = 6
+= 8 = a = 9
+= 8 = p = 10
+= 11 = a = 13
+= 11 = a = 18
+= 11 = p = 19
+= 13 = a = 16
+= 13 = p = 18
+= 14 = p = 16
+= 14 = a = 18
+= 15 = a = 16
+= 18 = a = 19
+# Listed 17 contacts. EOF.

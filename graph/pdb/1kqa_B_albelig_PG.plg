@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kqa, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LEFT-HANDED PARALLEL BETA HELIX, TRANSFERASE
+> pdb_mol_name > GALACTOSIDE O-ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 3.2
+> date > 04-JAN-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > GALACTOSIDE ACETYLTRANSFERASE IN COMPLEX WITH COENZYME A
+> format_version > 2
+> pdbid > 1kqa
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kqa | B | albelig | 1 | 1 | H | 205 | 210 | B-5-  | B-10-  | MTERIR 
+| 1kqa | B | albelig | 2 | 2 | H | 222 | 237 | B-22-  | B-37-  | LPEKRLRGKTLMYEFN 
+| 1kqa | B | albelig | 3 | 3 | H | 244 | 254 | B-44-  | B-54-  | VEKRESLIKEM 
+| 1kqa | B | albelig | 4 | 4 | E | 268 | 270 | B-68-  | B-70-  | VYF 
+| 1kqa | B | albelig | 5 | 5 | E | 276 | 278 | B-76-  | B-78-  | IHI 
+| 1kqa | B | albelig | 6 | 6 | E | 288 | 291 | B-88-  | B-91-  | LTIV 
+| 1kqa | B | albelig | 7 | 7 | E | 296 | 298 | B-96-  | B-98-  | VTI 
+| 1kqa | B | albelig | 8 | 8 | E | 309 | 311 | B-109-  | B-111-  | TLS 
+| 1kqa | B | albelig | 9 | 9 | E | 332 | 334 | B-132-  | B-134-  | ITI 
+| 1kqa | B | albelig | 10 | 10 | E | 372 | 375 | B-172-  | B-175-  | VVAA 
+| 1kqa | B | albelig | 11 | 11 | E | 380 | 384 | B-180-  | B-184-  | RVIRE 
+| 1kqa | B | albelig | 12 | 12 | H | 388 | 391 | B-188-  | B-191-  | RDKH 
+| 1kqa | B | albelig | 13 | 13 | E | 392 | 394 | B-192-  | B-194-  | YYF 
+| 1kqa | B | albelig | 14 | 14 | L | 603 | 603 | B-204-  | B-204-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 4
+= 4 = p = 6
+= 5 = p = 7
+= 6 = p = 8
+= 6 = l = 14
+= 7 = p = 9
+= 8 = l = 14
+= 10 = a = 11
+= 11 = l = 14
+= 12 = m = 13
+# Listed 11 contacts. EOF.

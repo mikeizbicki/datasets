@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1irm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DISORDERED ALPHA HELIX, APO FORM OF HEMOPROTEIN,OXIDOREDUCTASE
+> pdb_mol_name > APO HEME OXYGENASE-1
+> graphtype > albelig
+> resolution > 2.55
+> date > 09-OCT-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF APO HEME OXYGENASE-1
+> format_version > 2
+> pdbid > 1irm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1irm | A | albelig | 1 | 1 | H | 199 | 202 | A-32-  | A-35-  | EFMR 
+| 1irm | A | albelig | 2 | 2 | H | 211 | 234 | A-44-  | A-67-  | REGFKLVMASLYHIYTALEEEIER 
+| 1irm | A | albelig | 3 | 3 | H | 242 | 244 | A-75-  | A-77-  | APL 
+| 1irm | A | albelig | 4 | 4 | H | 253 | 263 | A-86-  | A-96-  | RAALEQDMAFW 
+| 1irm | A | albelig | 5 | 5 | H | 268 | 271 | A-101-  | A-104-  | WQEA 
+| 1irm | A | albelig | 6 | 6 | H | 276 | 291 | A-109-  | A-124-  | PATQHYVKRLHEVGGT 
+| 1irm | A | albelig | 7 | 7 | H | 293 | 308 | A-126-  | A-141-  | PELLVAHAYTRYLGDL 
+| 1irm | A | albelig | 8 | 8 | H | 312 | 322 | A-145-  | A-155-  | QVLKKIAQKAM 
+| 1irm | A | albelig | 9 | 9 | H | 332 | 334 | A-165-  | A-167-  | AFF 
+| 1irm | A | albelig | 10 | 10 | H | 346 | 354 | A-179-  | A-187-  | KQLYRARMN 
+| 1irm | A | albelig | 11 | 11 | H | 360 | 367 | A-193-  | A-200-  | PEVKHRVT 
+| 1irm | A | albelig | 12 | 12 | H | 369 | 384 | A-202-  | A-217-  | EAKTAFLLNIELFEEL 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = p = 6
+= 2 = m = 7
+= 2 = m = 9
+= 4 = m = 9
+= 6 = a = 7
+= 6 = a = 12
+= 7 = m = 10
+# Listed 8 contacts. EOF.

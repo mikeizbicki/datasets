@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c5d, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, IMMUNE SYSTEM
+> pdb_mol_name > MONOCLONAL ANTIBODY AGAINST THE MAIN IMMUNOGENIC REGION OF
+> graphtype > albelig
+> resolution > 2.4
+> date > 17-NOV-99
+> header > IMMUNE SYSTEM
+> pdb_org_common > NORWAY RAT
+> title > THE CRYSTAL STRUCTURE OF THE FAB FRAGMENT OF A RAT MONOCLONAL ANTIBODYAGAINST THE MAIN IMMUNOGENIC REGION OF THE HUMAN MUSCLE ACETYLCHOLINERECEPTOR
+> format_version > 2
+> pdbid > 1c5d
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c5d | A | albelig | 1 | 1 | E | 433 | 435 | A-4-  | A-6-  | MTQ 
+| 1c5d | A | albelig | 2 | 2 | E | 439 | 443 | A-10-  | A-14-  | SLSAS 
+| 1c5d | A | albelig | 3 | 3 | E | 447 | 454 | A-18-  | A-25-  | KVTITFQA 
+| 1c5d | A | albelig | 4 | 4 | E | 462 | 467 | A-33-  | A-38-  | IAWYQQ 
+| 1c5d | A | albelig | 5 | 5 | E | 474 | 478 | A-45-  | A-49-  | RQLIR 
+| 1c5d | A | albelig | 6 | 6 | E | 491 | 496 | A-62-  | A-67-  | FSGSGS 
+| 1c5d | A | albelig | 7 | 7 | E | 499 | 505 | A-70-  | A-76-  | DFSFSIS 
+| 1c5d | A | albelig | 8 | 8 | H | 509 | 511 | A-80-  | A-82-  | SED 
+| 1c5d | A | albelig | 9 | 9 | E | 514 | 519 | A-85-  | A-90-  | SYYFLQ 
+| 1c5d | A | albelig | 10 | 10 | E | 530 | 535 | A-101-  | A-106-  | TKLEIK 
+| 1c5d | A | albelig | 11 | 11 | E | 542 | 546 | A-113-  | A-117-  | TVSIF 
+| 1c5d | A | albelig | 12 | 12 | H | 550 | 554 | A-121-  | A-125-  | TEQLA 
+| 1c5d | A | albelig | 13 | 13 | E | 557 | 567 | A-128-  | A-138-  | GASVVGLMNNF 
+| 1c5d | A | albelig | 14 | 14 | E | 576 | 578 | A-147-  | A-149-  | WKI 
+| 1c5d | A | albelig | 15 | 15 | E | 581 | 583 | A-152-  | A-154-  | TER 
+| 1c5d | A | albelig | 16 | 16 | E | 587 | 591 | A-158-  | A-162-  | VLDSV 
+| 1c5d | A | albelig | 17 | 17 | E | 601 | 610 | A-172-  | A-181-  | YSMSSTLSLT 
+| 1c5d | A | albelig | 18 | 18 | H | 613 | 616 | A-184-  | A-187-  | DYES 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 9
+= 6 = a = 7
+= 9 = p = 10
+= 11 = a = 13
+= 12 = m = 13
+= 13 = a = 17
+= 14 = a = 15
+= 16 = a = 17
+= 17 = m = 18
+# Listed 14 contacts. EOF.

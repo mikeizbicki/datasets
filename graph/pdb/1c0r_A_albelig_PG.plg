@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c0r, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC, GLYCOPEPTIDE ANTIBIOTIC
+> pdb_mol_name > VANCOMYCIN
+> graphtype > albelig
+> resolution > 1.0
+> date > 20-JUL-99
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > COMPLEX OF VANCOMYCIN WITH D-LACTIC ACID
+> format_version > 2
+> pdbid > 1c0r
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AMYCOLATOPSIS ORIENTALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c0r | A | albelig | 1 | 1 | L | 28 | 28 | A-8-  | A-8-  | J 
+| 1c0r | A | albelig | 2 | 2 | L | 29 | 29 | A-9-  | A-9-  | J 
+| 1c0r | A | albelig | 3 | 3 | L | 30 | 30 | A-20-  | A-20-  | J 
+| 1c0r | A | albelig | 4 | 4 | L | 31 | 31 | A-21-  | A-21-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 1 = l = 3
+= 2 = l = 3
+# Listed 3 contacts. EOF.

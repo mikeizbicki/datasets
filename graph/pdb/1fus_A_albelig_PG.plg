@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fus, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE(ENDORIBONUCLEASE)
+> pdb_mol_name > RIBONUCLEASE F1
+> graphtype > albelig
+> resolution > 1.3
+> date > 18-JAN-93
+> header > HYDROLASE(ENDORIBONUCLEASE)
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF RIBONUCLEASE F1 OF FUSARIUMMONILIFORME IN ITS FREE FORM AND IN COMPLEX WITH 2'GMP
+> format_version > 2
+> pdbid > 1fus
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GIBBERELLA FUJIKUROI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fus | A | albelig | 1 | 1 | E | 4 | 6 | A-4-  | A-6-  | TTA 
+| 1fus | A | albelig | 2 | 2 | E | 9 | 11 | A-9-  | A-11-  | TNY 
+| 1fus | A | albelig | 3 | 3 | H | 13 | 28 | A-13-  | A-28-  | ASQVRAAANAANQYYQ 
+| 1fus | A | albelig | 4 | 4 | E | 40 | 42 | A-40-  | A-42-  | HTY 
+| 1fus | A | albelig | 5 | 5 | E | 56 | 60 | A-56-  | A-60-  | YQEFP 
+| 1fus | A | albelig | 6 | 6 | E | 75 | 80 | A-76-  | A-81-  | DRVVIN 
+| 1fus | A | albelig | 7 | 7 | E | 85 | 90 | A-86-  | A-91-  | YAGAIT 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = m = 6
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+# Listed 5 contacts. EOF.

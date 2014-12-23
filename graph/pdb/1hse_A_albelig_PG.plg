@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hse, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IRON TRANSPORT, GLYCOPROTEIN, METAL-BINDING, DUPLICATION,MILK, RECOMBINANT HALF MOLECULE, TRANSFERRIN
+> pdb_mol_name > LACTOFERRIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 11-DEC-96
+> header > IRON TRANSPORT
+> pdb_org_common > HUMAN
+> title > H253M N TERMINAL LOBE OF HUMAN LACTOFERRIN
+> format_version > 2
+> pdbid > 1hse
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hse | A | albelig | 1 | 1 | E | 3 | 7 | A-6-  | A-10-  | VQWAA 
+| 1hse | A | albelig | 2 | 2 | H | 10 | 26 | A-13-  | A-29-  | QPEATKNFQWQRNMRRV 
+| 1hse | A | albelig | 3 | 3 | E | 31 | 35 | A-34-  | A-38-  | VSNIK 
+| 1hse | A | albelig | 4 | 4 | H | 39 | 47 | A-42-  | A-50-  | PIQAIQAIA 
+| 1hse | A | albelig | 5 | 5 | E | 54 | 56 | A-57-  | A-59-  | VTL 
+| 1hse | A | albelig | 6 | 6 | H | 58 | 64 | A-61-  | A-67-  | GGFIYEA 
+| 1hse | A | albelig | 7 | 7 | E | 71 | 80 | A-74-  | A-83-  | LRPVAAEVYG 
+| 1hse | A | albelig | 8 | 8 | E | 88 | 96 | A-91-  | A-99-  | HYYAVAVVK 
+| 1hse | A | albelig | 9 | 9 | H | 103 | 105 | A-106-  | A-108-  | LNE 
+| 1hse | A | albelig | 10 | 10 | E | 110 | 113 | A-113-  | A-116-  | KSCH 
+| 1hse | A | albelig | 11 | 11 | H | 119 | 133 | A-122-  | A-136-  | TAGWNVPIGTLRPFL 
+| 1hse | A | albelig | 12 | 12 | H | 142 | 149 | A-145-  | A-152-  | IEAAVARF 
+| 1hse | A | albelig | 13 | 13 | E | 152 | 154 | A-155-  | A-157-  | ASD 
+| 1hse | A | albelig | 14 | 14 | H | 174 | 176 | A-177-  | A-179-  | GEN 
+| 1hse | A | albelig | 15 | 15 | H | 188 | 198 | A-191-  | A-201-  | SYSGAFKCLRD 
+| 1hse | A | albelig | 16 | 16 | E | 203 | 207 | A-206-  | A-210-  | VAFIR 
+| 1hse | A | albelig | 17 | 17 | H | 210 | 214 | A-213-  | A-217-  | TVFED 
+| 1hse | A | albelig | 18 | 18 | H | 218 | 221 | A-221-  | A-224-  | EAER 
+| 1hse | A | albelig | 19 | 19 | E | 224 | 227 | A-227-  | A-230-  | YELL 
+| 1hse | A | albelig | 20 | 20 | E | 233 | 235 | A-236-  | A-238-  | RKP 
+| 1hse | A | albelig | 21 | 21 | H | 236 | 238 | A-239-  | A-241-  | VDK 
+| 1hse | A | albelig | 22 | 22 | E | 245 | 248 | A-248-  | A-251-  | ARVP 
+| 1hse | A | albelig | 23 | 23 | E | 251 | 255 | A-254-  | A-258-  | AVVAR 
+| 1hse | A | albelig | 24 | 24 | H | 261 | 275 | A-264-  | A-278-  | EDAIWNLLRQAQEKF 
+| 1hse | A | albelig | 25 | 25 | E | 303 | 306 | A-306-  | A-309-  | GFSR 
+| 1hse | A | albelig | 26 | 26 | H | 313 | 316 | A-316-  | A-319-  | SGLY 
+| 1hse | A | albelig | 27 | 27 | L | 318 | 318 | A-400-  | A-400-  | J 
+| 1hse | A | albelig | 28 | 28 | L | 319 | 319 | A-401-  | A-401-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = a = 5
+= 2 = a = 3
+= 2 = m = 24
+= 5 = a = 23
+= 7 = a = 23
+= 7 = a = 25
+= 8 = a = 16
+= 8 = a = 19
+= 8 = a = 22
+= 8 = l = 27
+= 8 = l = 28
+= 10 = p = 13
+= 10 = m = 15
+= 10 = p = 16
+= 11 = m = 16
+= 11 = l = 27
+= 11 = l = 28
+= 15 = a = 16
+= 15 = m = 17
+= 15 = l = 27
+= 15 = l = 28
+= 16 = l = 27
+= 19 = a = 20
+= 20 = m = 21
+= 24 = m = 25
+= 27 = l = 28
+# Listed 28 contacts. EOF.

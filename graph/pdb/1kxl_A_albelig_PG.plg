@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA-BINDING DOMAIN, TELOMERE, SINGLE-STRANDED DNA, OB FOLD,CELL CYCLE
+> pdb_mol_name > CELL DIVISION CONTROL PROTEIN 13
+> graphtype > albelig
+> resolution > -1.0
+> date > 31-JAN-02
+> header > CELL CYCLE
+> pdb_org_common > BAKER'S YEAST
+> title > SOLUTION STRUCTURE OF THE CDC13 DNA-BINDING DOMAIN IN ACOMPLEX WITH SINGLE-STRANDED TELOMERIC DNA (DNA STRUCTURENOT MODELED)
+> format_version > 2
+> pdbid > 1kxl
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxl | A | albelig | 1 | 1 | E | 22 | 26 | A-26-  | A-30-  | KYITM 
+| 1kxl | A | albelig | 2 | 2 | E | 32 | 34 | A-36-  | A-38-  | SCS 
+| 1kxl | A | albelig | 3 | 3 | E | 40 | 45 | A-44-  | A-49-  | FISFVF 
+| 1kxl | A | albelig | 4 | 4 | E | 76 | 81 | A-80-  | A-85-  | FKAIMY 
+| 1kxl | A | albelig | 5 | 5 | H | 82 | 93 | A-86-  | A-97-  | KNQFETFDSKLR 
+| 1kxl | A | albelig | 6 | 6 | H | 100 | 103 | A-104-  | A-107-  | LRDL 
+| 1kxl | A | albelig | 7 | 7 | E | 118 | 125 | A-122-  | A-129-  | CKMNIKVK 
+| 1kxl | A | albelig | 8 | 8 | E | 132 | 135 | A-136-  | A-139-  | NAIV 
+| 1kxl | A | albelig | 9 | 9 | H | 146 | 149 | A-150-  | A-153-  | ISSI 
+| 1kxl | A | albelig | 10 | 10 | H | 154 | 169 | A-158-  | A-173-  | QCEHLRLFYQRAFKRI 
+| 1kxl | A | albelig | 11 | 11 | H | 171 | 176 | A-175-  | A-180-  | ESAISR 
+| 1kxl | A | albelig | 12 | 12 | H | 178 | 181 | A-182-  | A-185-  | FEEY 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+= 4 = p = 8
+= 5 = m = 6
+= 7 = a = 8
+= 9 = m = 10
+# Listed 8 contacts. EOF.

@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j77, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROXIMAL HISTIDINE, DISTAL HELIX, OXIDOREDUCTASE
+> pdb_mol_name > HEMO
+> graphtype > albelig
+> resolution > 1.5
+> date > 15-MAY-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF GRAM-NEGATIVE BACTERIAL HEME OXYGENASECOMPLEXED WITH HEME
+> format_version > 2
+> pdbid > 1j77
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NEISSERIA MENINGITIDIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j77 | A | albelig | 1 | 1 | H | 4 | 25 | A-11-  | A-32-  | FAKRLKADTTAVHDSVDNLVMS 
+| 1j77 | A | albelig | 2 | 2 | H | 32 | 53 | A-39-  | A-60-  | KENYIKFLKLQSVFHKAVDHIY 
+| 1j77 | A | albelig | 3 | 3 | H | 56 | 61 | A-63-  | A-68-  | AELNKA 
+| 1j77 | A | albelig | 4 | 4 | H | 65 | 68 | A-72-  | A-75-  | LEYM 
+| 1j77 | A | albelig | 5 | 5 | H | 71 | 80 | A-78-  | A-87-  | YDAVTQDLKD 
+| 1j77 | A | albelig | 6 | 6 | H | 97 | 112 | A-104-  | A-119-  | GNKAIGWLYCAEGSNL 
+| 1j77 | A | albelig | 7 | 7 | H | 115 | 122 | A-122-  | A-129-  | AFLFKHAQ 
+| 1j77 | A | albelig | 8 | 8 | H | 133 | 135 | A-140-  | A-142-  | RHL 
+| 1j77 | A | albelig | 9 | 9 | H | 142 | 155 | A-149-  | A-162-  | RGKHWRAFVEHLNA 
+| 1j77 | A | albelig | 10 | 10 | H | 160 | 185 | A-167-  | A-192-  | PEAEAEAIQGAREAFAFYKVVLRETF 
+| 1j77 | A | albelig | 11 | 11 | L | 200 | 200 | A-300-  | A-300-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 1 = p = 10
+= 1 = l = 11
+= 2 = m = 4
+= 2 = a = 5
+= 2 = m = 6
+= 2 = a = 10
+= 2 = l = 11
+= 6 = a = 9
+= 6 = p = 10
+= 6 = l = 11
+= 7 = l = 11
+= 9 = l = 11
+= 10 = l = 11
+# Listed 14 contacts. EOF.

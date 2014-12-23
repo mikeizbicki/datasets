@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g2y, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIMERIZATION DOMAIN, FOUR-HELIX BUNDLE, TRANSCRIPTIONFACTOR, SELENOMETHIONINE
+> pdb_mol_name > HEPATOCYTE NUCLEAR FACTOR 1-ALPHA
+> graphtype > albelig
+> resolution > 1.0
+> date > 23-OCT-00
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > HNF-1ALPHA DIMERIZATION DOMAIN, WITH SELENOMETHIONINESUBSTITUED AT LEU 12
+> format_version > 2
+> pdbid > 1g2y
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g2y | D | albelig | 1 | 1 | H | 97 | 111 | D-4-  | D-18-  | KLSQLQTEXLAALLE 
+| 1g2y | D | albelig | 2 | 2 | H | 116 | 122 | D-23-  | D-29-  | KEALIQA 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

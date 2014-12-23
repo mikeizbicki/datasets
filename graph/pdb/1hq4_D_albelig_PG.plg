@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hq4, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CATALYTIC ANTIBODY, TERPENOID SYNTHASE, CARBOCATION,CYCLIZATION CASCADE, IMMUNOGLOBULIN, IMMUNE SYSTEM
+> pdb_mol_name > ANTIBODY HA5-19A4 FAB HEAVY CHAIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 14-DEC-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > STRUCTURE OF NATIVE CATALYTIC ANTIBODY HA5-19A4
+> format_version > 2
+> pdbid > 1hq4
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hq4 | D | albelig | 1 | 1 | E | 666 | 672 | D-17-  | D-23-  | SLSLTGT 
+| 1hq4 | D | albelig | 2 | 2 | E | 683 | 689 | D-34-  | D-39-  | AWNWIRQ 
+| 1hq4 | D | albelig | 3 | 3 | E | 695 | 702 | D-45-  | D-52-  | LEWMGYIR 
+| 1hq4 | D | albelig | 4 | 4 | E | 707 | 709 | D-57-  | D-59-  | TRY 
+| 1hq4 | D | albelig | 5 | 5 | E | 720 | 722 | D-70-  | D-72-  | TRD 
+| 1hq4 | D | albelig | 6 | 6 | E | 727 | 733 | D-77-  | D-82-A | QFFLQLN 
+| 1hq4 | D | albelig | 7 | 7 | H | 737 | 739 | D-84-  | D-86-  | TED 
+| 1hq4 | D | albelig | 8 | 8 | E | 741 | 748 | D-88-  | D-95-  | ATYYGAIG 
+| 1hq4 | D | albelig | 9 | 9 | E | 753 | 755 | D-101-  | D-103-  | DYW 
+| 1hq4 | D | albelig | 10 | 10 | E | 759 | 763 | D-107-  | D-111-  | TLVTV 
+| 1hq4 | D | albelig | 11 | 11 | E | 772 | 776 | D-120-  | D-124-  | SVYPL 
+| 1hq4 | D | albelig | 12 | 12 | E | 787 | 797 | D-135-  | D-145-  | SVTLGHLVKGY 
+| 1hq4 | D | albelig | 13 | 13 | E | 803 | 806 | D-151-  | D-154-  | TVTW 
+| 1hq4 | D | albelig | 14 | 14 | E | 815 | 817 | D-163-  | D-165-  | VHA 
+| 1hq4 | D | albelig | 15 | 15 | E | 827 | 836 | D-175-  | D-184-  | YTMSSSVTVP 
+| 1hq4 | D | albelig | 16 | 16 | E | 846 | 851 | D-194-  | D-199-  | THSVAH 
+| 1hq4 | D | albelig | 17 | 17 | H | 852 | 854 | D-200-  | D-202-  | PAS 
+| 1hq4 | D | albelig | 18 | 18 | E | 856 | 861 | D-204-  | D-209-  | TTVDKK 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = p = 8
+= 2 = a = 3
+= 2 = p = 6
+= 2 = a = 8
+= 3 = a = 4
+= 5 = a = 6
+= 8 = a = 9
+= 8 = a = 10
+= 11 = a = 12
+= 11 = p = 18
+= 12 = a = 15
+= 13 = a = 16
+= 14 = a = 15
+= 16 = m = 17
+= 16 = a = 18
+# Listed 16 contacts. EOF.

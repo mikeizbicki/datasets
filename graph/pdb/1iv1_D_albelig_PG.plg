@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iv1, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ISOPRENOID, NON-MEVALONATE, SYNTHASE, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,LYASE
+> pdb_mol_name > 2-C-METHYL-D-ERYTHRITOL 2,4-CYCLODIPHOSPHATE
+> graphtype > albelig
+> resolution > 1.65
+> date > 11-MAR-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF 2C-METHYL-D-ERYTHRITOL-2,4-CYCLODIPHOSPHATESYNTHASE
+> format_version > 2
+> pdbid > 1iv1
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iv1 | D | albelig | 1 | 1 | E | 304 | 315 | D-403-  | D-414-  | IGYGEDSHRLEE 
+| 1iv1 | D | albelig | 2 | 2 | E | 319 | 321 | D-418-  | D-420-  | LYL 
+| 1iv1 | D | albelig | 3 | 3 | E | 324 | 326 | D-423-  | D-425-  | LLI 
+| 1iv1 | D | albelig | 4 | 4 | E | 330 | 333 | D-429-  | D-432-  | VGAL 
+| 1iv1 | D | albelig | 5 | 5 | H | 340 | 352 | D-439-  | D-451-  | AALHALTDALLSA 
+| 1iv1 | D | albelig | 6 | 6 | H | 358 | 361 | D-457-  | D-460-  | IGLL 
+| 1iv1 | D | albelig | 7 | 7 | H | 374 | 387 | D-473-  | D-486-  | SEVFLREALRLVEA 
+| 1iv1 | D | albelig | 8 | 8 | E | 392 | 400 | D-491-  | D-499-  | LLQASLVLT 
+| 1iv1 | D | albelig | 9 | 9 | H | 407 | 421 | D-506-  | D-520-  | GPHRKALVDSLSRLL 
+| 1iv1 | D | albelig | 10 | 10 | H | 425 | 427 | D-524-  | D-526-  | QDR 
+| 1iv1 | D | albelig | 11 | 11 | E | 428 | 433 | D-527-  | D-532-  | IGLTFK 
+| 1iv1 | D | albelig | 12 | 12 | E | 442 | 451 | D-541-  | D-550-  | HVQARAVVLL 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 5
+= 1 = a = 12
+= 2 = a = 3
+= 2 = a = 4
+= 5 = m = 6
+= 5 = p = 7
+= 5 = p = 12
+= 7 = m = 9
+= 8 = m = 10
+= 8 = p = 11
+= 8 = a = 12
+= 9 = a = 11
+= 10 = m = 11
+# Listed 14 contacts. EOF.

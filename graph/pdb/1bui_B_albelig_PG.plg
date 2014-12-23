@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bui, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PLASMIN, STAPHYLOKINASE, SERINE PROTEINASE, FIBRINOLYSIS, COFACTOR,HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > PLASMIN LIGHT CHAIN B
+> graphtype > albelig
+> resolution > 2.65
+> date > 04-SEP-98
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE TERNARY MICROPLASMIN-STAPHYLOKINASE-MICROPLASMINCOMPLEX: A PROTEINASE-COFACTOR-SUBSTRATE COMPLEX IN ACTION
+> format_version > 2
+> pdbid > 1bui
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bui | B | albelig | 1 | 1 | E | 282 | 287 | B-30-  | B-35-  | QVSLRT 
+| 1bui | B | albelig | 2 | 2 | E | 292 | 300 | B-40-  | B-48-  | HFIGGTLIS 
+| 1bui | B | albelig | 3 | 3 | E | 303 | 307 | B-51-  | B-55-  | WVLTA 
+| 1bui | B | albelig | 4 | 4 | H | 308 | 311 | B-56-  | B-59-  | AHIL 
+| 1bui | B | albelig | 5 | 5 | H | 317 | 319 | B-61-  | B-63-  | PSS 
+| 1bui | B | albelig | 6 | 6 | E | 320 | 324 | B-64-  | B-68-  | YKVIL 
+| 1bui | B | albelig | 7 | 7 | E | 337 | 346 | B-81-  | B-90-  | QEIEVSRLFL 
+| 1bui | B | albelig | 8 | 8 | E | 353 | 358 | B-103-  | B-108-  | IALLKL 
+| 1bui | B | albelig | 9 | 9 | E | 385 | 390 | B-135-  | B-140-  | EJFITG 
+| 1bui | B | albelig | 10 | 10 | E | 404 | 409 | B-156-  | B-161-  | KEAQLP 
+| 1bui | B | albelig | 11 | 11 | H | 413 | 416 | B-165-  | B-168-  | NKVK 
+| 1bui | B | albelig | 12 | 12 | E | 430 | 433 | B-180-  | B-183-  | ELKA 
+| 1bui | B | albelig | 13 | 13 | E | 450 | 455 | B-198-  | B-203-  | PLVJFE 
+| 1bui | B | albelig | 14 | 14 | E | 458 | 467 | B-206-  | B-215-  | KYILQGVTSW 
+| 1bui | B | albelig | 15 | 15 | E | 478 | 482 | B-226-  | B-230-  | GVYVR 
+| 1bui | B | albelig | 16 | 16 | H | 487 | 494 | B-235-  | B-242-  | VTWIEGVM 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = m = 4
+= 3 = a = 8
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 7 = a = 8
+= 9 = a = 10
+= 9 = a = 13
+= 11 = m = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+# Listed 15 contacts. EOF.

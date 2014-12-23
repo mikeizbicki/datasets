@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c74, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA HELIX, BETA SHEET, DOUBLE MUTANT, HYDROLASE
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 1.9
+> date > 22-JAN-00
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > STRUCTURE OF THE DOUBLE MUTANT (K53,56M) OF PHOSPHOLIPASE A2
+> format_version > 2
+> pdbid > 1c74
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c74 | A | albelig | 1 | 1 | H | 2 | 12 | A-2-  | A-12-  | LWQFNGMIKAK 
+| 1c74 | A | albelig | 2 | 2 | H | 18 | 21 | A-18-  | A-21-  | PLLD 
+| 1c74 | A | albelig | 3 | 3 | H | 40 | 57 | A-40-  | A-57-  | DLDRDCQTHDNEYMQAMK 
+| 1c74 | A | albelig | 4 | 4 | H | 61 | 63 | A-61-  | A-63-  | FKV 
+| 1c74 | A | albelig | 5 | 5 | E | 75 | 78 | A-75-  | A-78-  | YSAS 
+| 1c74 | A | albelig | 6 | 6 | E | 81 | 84 | A-81-  | A-84-  | EITG 
+| 1c74 | A | albelig | 7 | 7 | H | 90 | 108 | A-90-  | A-108-  | AFEAFIGNEDRNAAIDFSK 
+| 1c74 | A | albelig | 8 | 8 | H | 113 | 115 | A-113-  | A-115-  | KEH 
+| 1c74 | A | albelig | 9 | 9 | L | 124 | 124 | A-124-  | A-124-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 5
+= 1 = m = 6
+= 1 = m = 7
+= 3 = a = 7
+= 3 = l = 9
+= 5 = a = 6
+= 6 = m = 7
+# Listed 8 contacts. EOF.

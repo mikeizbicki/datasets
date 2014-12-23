@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jr3, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA POLYMERASE, PROCESSIVITY, PROCESSIVITY CLAMP, CLAMPLOADER, AAA+ ATPASE, TRANSFERASE
+> pdb_mol_name > DNA POLYMERASE III SUBUNIT GAMMA
+> graphtype > albelig
+> resolution > 2.7
+> date > 10-AUG-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE PROCESSIVITY CLAMP LOADER GAMMACOMPLEX OF E. COLI DNA POLYMERASE III
+> format_version > 2
+> pdbid > 1jr3
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jr3 | C | albelig | 1 | 1 | H | 737 | 740 | C-6-  | C-9-  | LARK 
+| 1jr3 | C | albelig | 2 | 2 | H | 746 | 748 | C-5015-  | C-5017-  | FAD 
+| 1jr3 | C | albelig | 3 | 3 | H | 753 | 765 | C-22-  | C-34-  | EHVLTALANGLSL 
+| 1jr3 | C | albelig | 4 | 4 | E | 771 | 775 | C-40-  | C-44-  | AYLFS 
+| 1jr3 | C | albelig | 5 | 5 | H | 782 | 794 | C-51-  | C-63-  | KTSIARLLAKGLN 
+| 1jr3 | C | albelig | 6 | 6 | H | 808 | 815 | C-77-  | C-84-  | DNCREIEQ 
+| 1jr3 | C | albelig | 7 | 7 | E | 821 | 825 | C-90-  | C-94-  | LIEID 
+| 1jr3 | C | albelig | 8 | 8 | H | 835 | 843 | C-104-  | C-112-  | TRDLLDNVQ 
+| 1jr3 | C | albelig | 9 | 9 | E | 852 | 857 | C-121-  | C-126-  | KVYLID 
+| 1jr3 | C | albelig | 10 | 10 | H | 859 | 861 | C-128-  | C-130-  | VHM 
+| 1jr3 | C | albelig | 11 | 11 | H | 864 | 875 | C-133-  | C-144-  | RHSFNALLKTLE 
+| 1jr3 | C | albelig | 12 | 12 | E | 881 | 887 | C-150-  | C-156-  | VKFLLAT 
+| 1jr3 | C | albelig | 13 | 13 | H | 895 | 898 | C-164-  | C-167-  | VTIL 
+| 1jr3 | C | albelig | 14 | 14 | E | 902 | 905 | C-171-  | C-174-  | LQFH 
+| 1jr3 | C | albelig | 15 | 15 | H | 911 | 925 | C-180-  | C-194-  | VEQIRHQLEHILNEE 
+| 1jr3 | C | albelig | 16 | 16 | H | 931 | 940 | C-200-  | C-209-  | PRALQLLARA 
+| 1jr3 | C | albelig | 17 | 17 | H | 945 | 959 | C-214-  | C-228-  | LRDALSLTDQAIASG 
+| 1jr3 | C | albelig | 18 | 18 | H | 965 | 968 | C-234-  | C-237-  | TQAV 
+| 1jr3 | C | albelig | 19 | 19 | H | 982 | 988 | C-251-  | C-257-  | SLVEAMV 
+| 1jr3 | C | albelig | 20 | 20 | H | 992 | 1004 | C-261-  | C-273-  | GERVMALINEAAA 
+| 1jr3 | C | albelig | 21 | 21 | H | 1009 | 1025 | C-278-  | C-294-  | WEALLVEMLGLLHRIAM 
+| 1jr3 | C | albelig | 22 | 22 | H | 1030 | 1032 | C-299-  | C-301-  | PAA 
+| 1jr3 | C | albelig | 23 | 23 | H | 1041 | 1050 | C-310-  | C-319-  | ELRMRELART 
+| 1jr3 | C | albelig | 24 | 24 | H | 1053 | 1072 | C-322-  | C-341-  | PTDIQLYYQTLLIGRKELPY 
+| 1jr3 | C | albelig | 25 | 25 | H | 1076 | 1089 | C-345-  | C-358-  | RRMGVEMTLLRALA 
+| 1jr3 | C | albelig | 26 | 26 | L | 1778 | 1778 | C-400-  | C-400-  | J 
+| 1jr3 | C | albelig | 27 | 27 | L | 1779 | 1779 | C-5500-  | C-5500-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 5
+= 4 = p = 12
+= 4 = p = 14
+= 5 = m = 6
+= 5 = l = 27
+= 6 = l = 26
+= 7 = p = 9
+= 8 = m = 9
+= 9 = p = 12
+= 9 = l = 27
+= 15 = m = 16
+= 15 = m = 17
+= 16 = m = 18
+= 19 = m = 20
+= 20 = a = 25
+= 21 = a = 24
+= 21 = m = 25
+= 24 = a = 25
+# Listed 18 contacts. EOF.

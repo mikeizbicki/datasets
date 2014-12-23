@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kl9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OB FOLD, HELICAL DOMAIN, TRANSLATION
+> pdb_mol_name > EUKARYOTIC TRANSLATION INITIATION FACTOR 2 SUBUNIT 1
+> graphtype > albelig
+> resolution > 1.9
+> date > 11-DEC-01
+> header > TRANSLATION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE N-TERMINAL SEGMENT OF HUMAN EUKARYOTICINITIATION FACTOR 2ALPHA
+> format_version > 2
+> pdbid > 1kl9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kl9 | A | albelig | 1 | 1 | E | 16 | 24 | A-18-  | A-26-  | VVXVNVRSI 
+| 1kl9 | A | albelig | 2 | 2 | E | 28 | 33 | A-30-  | A-35-  | GAYVSL 
+| 1kl9 | A | albelig | 3 | 3 | E | 39 | 44 | A-41-  | A-46-  | IEGXIL 
+| 1kl9 | A | albelig | 4 | 4 | H | 45 | 47 | A-47-  | A-49-  | LSE 
+| 1kl9 | A | albelig | 5 | 5 | E | 54 | 63 | A-67-  | A-76-  | NEAVVVIRVD 
+| 1kl9 | A | albelig | 6 | 6 | E | 68 | 72 | A-81-  | A-85-  | YIDLS 
+| 1kl9 | A | albelig | 7 | 7 | H | 78 | 104 | A-91-  | A-117-  | PEEAIKAEDKFTKSKTVYSILRHVAEV 
+| 1kl9 | A | albelig | 8 | 8 | H | 110 | 119 | A-123-  | A-132-  | DEQLESLFQR 
+| 1kl9 | A | albelig | 9 | 9 | H | 121 | 128 | A-134-  | A-141-  | AWVFDDKY 
+| 1kl9 | A | albelig | 10 | 10 | H | 133 | 144 | A-146-  | A-157-  | YGAYDAFKHAVS 
+| 1kl9 | A | albelig | 11 | 11 | H | 146 | 149 | A-159-  | A-162-  | PSIL 
+| 1kl9 | A | albelig | 12 | 12 | H | 156 | 168 | A-169-  | A-181-  | EDEREVLINNINR 
+| 1kl9 | A | albelig | 13 | 13 | L | 173 | 173 | A-501-  | A-501-  | J 
+| 1kl9 | A | albelig | 14 | 14 | L | 174 | 174 | A-502-  | A-502-  | J 
+| 1kl9 | A | albelig | 15 | 15 | L | 175 | 175 | A-503-  | A-503-  | J 
+| 1kl9 | A | albelig | 16 | 16 | L | 176 | 176 | A-504-  | A-504-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 1 = m = 7
+= 2 = a = 3
+= 3 = m = 4
+= 3 = p = 6
+= 4 = m = 6
+= 5 = a = 6
+= 5 = m = 7
+= 7 = m = 8
+= 7 = p = 10
+= 7 = m = 12
+= 7 = l = 16
+= 8 = m = 9
+= 10 = m = 11
+= 10 = l = 13
+# Listed 16 contacts. EOF.

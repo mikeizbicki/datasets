@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kqd, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NITROREDUCTASE, REDUCED HYDROQUINONE, FLAVIN, OXIDOREDUCTASE
+> pdb_mol_name > OXYGEN-INSENSITIVE NAD(P)H NITROREDUCTASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 04-JAN-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF NITROREDUCTASE FROM E. CLOACAE BOUND WITH 2E-REDUCED FLAVIN MONONUCLEOTIDE (FMN)
+> format_version > 2
+> pdbid > 1kqd
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTER CLOACAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kqd | C | albelig | 1 | 1 | H | 436 | 442 | C-3-  | C-9-  | IISVALK 
+| 1kqd | C | albelig | 2 | 2 | H | 457 | 468 | C-24-  | C-35-  | AEEAEKIKTLLQ 
+| 1kqd | C | albelig | 3 | 3 | H | 473 | 475 | C-40-  | C-42-  | STN 
+| 1kqd | C | albelig | 4 | 4 | E | 479 | 484 | C-46-  | C-51-  | WHFIVA 
+| 1kqd | C | albelig | 5 | 5 | H | 487 | 497 | C-54-  | C-64-  | EEGKARVAKSA 
+| 1kqd | C | albelig | 6 | 6 | H | 499 | 510 | C-66-  | C-77-  | GTYVFNERKMLD 
+| 1kqd | C | albelig | 7 | 7 | E | 513 | 520 | C-80-  | C-87-  | HVVVFCAK 
+| 1kqd | C | albelig | 8 | 8 | H | 525 | 537 | C-92-  | C-104-  | DAWLERVVDQEEA 
+| 1kqd | C | albelig | 9 | 9 | H | 544 | 565 | C-111-  | C-132-  | PEAKAANHKGRTYFADMHRVDL 
+| 1kqd | C | albelig | 10 | 10 | H | 568 | 589 | C-135-  | C-156-  | DDQWMAKQVYLNVGNFLLGVGA 
+| 1kqd | C | albelig | 11 | 11 | H | 602 | 608 | C-169-  | C-175-  | AAILDEE 
+| 1kqd | C | albelig | 12 | 12 | H | 611 | 614 | C-178-  | C-181-  | LKEK 
+| 1kqd | C | albelig | 13 | 13 | E | 616 | 625 | C-183-  | C-192-  | FTSLVVVPVG 
+| 1kqd | C | albelig | 14 | 14 | H | 643 | 646 | C-210-  | C-213-  | LSTI 
+| 1kqd | C | albelig | 15 | 15 | E | 647 | 649 | C-214-  | C-216-  | VTE 
+| 1kqd | C | albelig | 16 | 16 | L | 870 | 870 | C-520-  | C-520-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 10
+= 4 = m = 5
+= 4 = a = 7
+= 5 = a = 6
+= 6 = l = 16
+= 7 = a = 10
+= 7 = a = 13
+= 8 = a = 9
+= 10 = p = 13
+= 10 = l = 16
+= 11 = m = 13
+= 12 = m = 13
+= 13 = l = 16
+= 14 = m = 15
+# Listed 14 contacts. EOF.

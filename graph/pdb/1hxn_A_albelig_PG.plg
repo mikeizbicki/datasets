@@ -1,0 +1,78 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hxn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEME, BINDING PROTEIN
+> pdb_mol_name > HEMOPEXIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 01-JUN-95
+> header > BINDING PROTEIN
+> pdb_org_common > RABBIT
+> title > 1.8 ANGSTROMS CRYSTAL STRUCTURE OF THE C-TERMINAL DOMAIN OFRABBIT SERUM HEMOPEXIN
+> format_version > 2
+> pdbid > 1hxn
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ORYCTOLAGUS CUNICULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hxn | A | albelig | 1 | 1 | H | 2 | 4 | A-227-  | A-229-  | TRA 
+| 1hxn | A | albelig | 2 | 2 | E | 12 | 15 | A-237-  | A-240-  | AMVS 
+| 1hxn | A | albelig | 3 | 3 | E | 21 | 25 | A-246-  | A-250-  | TYVFS 
+| 1hxn | A | albelig | 4 | 4 | E | 28 | 31 | A-253-  | A-256-  | HYWR 
+| 1hxn | A | albelig | 5 | 5 | H | 44 | 46 | A-269-  | A-271-  | IAH 
+| 1hxn | A | albelig | 6 | 6 | E | 57 | 61 | A-282-  | A-286-  | AAFSW 
+| 1hxn | A | albelig | 7 | 7 | E | 64 | 69 | A-289-  | A-294-  | KLYLIQ 
+| 1hxn | A | albelig | 8 | 8 | E | 72 | 77 | A-297-  | A-302-  | KVYVFL 
+| 1hxn | A | albelig | 9 | 9 | H | 92 | 96 | A-317-  | A-321-  | LEKEL 
+| 1hxn | A | albelig | 10 | 10 | E | 109 | 111 | A-334-  | A-336-  | AAF 
+| 1hxn | A | albelig | 11 | 11 | E | 118 | 123 | A-343-  | A-348-  | RLHIMA 
+| 1hxn | A | albelig | 12 | 12 | E | 126 | 131 | A-351-  | A-356-  | RLWWLD 
+| 1hxn | A | albelig | 13 | 13 | H | 132 | 137 | A-357-  | A-362-  | LKSGAQ 
+| 1hxn | A | albelig | 14 | 14 | E | 141 | 143 | A-366-  | A-368-  | TEL 
+| 1hxn | A | albelig | 15 | 15 | E | 152 | 156 | A-377-  | A-381-  | GALNM 
+| 1hxn | A | albelig | 16 | 16 | E | 171 | 176 | A-396-  | A-401-  | NLYLIH 
+| 1hxn | A | albelig | 17 | 17 | E | 179 | 183 | A-404-  | A-408-  | NLYCY 
+| 1hxn | A | albelig | 18 | 18 | H | 186 | 191 | A-411-  | A-416-  | VDKLNA 
+| 1hxn | A | albelig | 19 | 19 | H | 201 | 204 | A-426-  | A-429-  | VSRL 
+| 1hxn | A | albelig | 20 | 20 | L | 210 | 210 | A-1-  | A-1-  | J 
+| 1hxn | A | albelig | 21 | 21 | L | 211 | 211 | A-2-  | A-2-  | J 
+| 1hxn | A | albelig | 22 | 22 | L | 212 | 212 | A-3-  | A-3-  | J 
+| 1hxn | A | albelig | 23 | 23 | L | 213 | 213 | A-4-  | A-4-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 6
+= 2 = p = 15
+= 2 = l = 20
+= 2 = l = 21
+= 2 = l = 22
+= 2 = l = 23
+= 3 = a = 4
+= 6 = a = 7
+= 6 = p = 10
+= 6 = l = 20
+= 6 = l = 21
+= 6 = l = 22
+= 6 = l = 23
+= 7 = a = 8
+= 10 = a = 11
+= 10 = p = 15
+= 10 = l = 20
+= 10 = l = 21
+= 10 = l = 22
+= 10 = l = 23
+= 11 = a = 12
+= 12 = m = 13
+= 12 = a = 14
+= 15 = a = 16
+= 15 = l = 20
+= 15 = l = 21
+= 15 = l = 22
+= 15 = l = 23
+= 16 = a = 17
+= 20 = l = 21
+= 20 = l = 22
+= 21 = l = 22
+= 22 = l = 23
+# Listed 34 contacts. EOF.

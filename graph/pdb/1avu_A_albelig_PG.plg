@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1avu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE INHIBITOR, TRYPSIN INHIBITOR, KUNITZ-TYPE,BETA-TREFOIL FOLD
+> pdb_mol_name > TRYPSIN INHIBITOR
+> graphtype > albelig
+> resolution > 2.3
+> date > 20-SEP-97
+> header > SERINE PROTEASE INHIBITOR
+> pdb_org_common > SOYBEAN
+> title > TRYPSIN INHIBITOR FROM SOYBEAN (STI)
+> format_version > 2
+> pdbid > 1avu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GLYCINE MAX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1avu | A | albelig | 1 | 1 | E | 15 | 21 | A-15-  | A-21-  | GTYYILS 
+| 1avu | A | albelig | 2 | 2 | E | 29 | 32 | A-29-  | A-32-  | IRAA 
+| 1avu | A | albelig | 3 | 3 | E | 42 | 45 | A-42-  | A-45-  | TVVQ 
+| 1avu | A | albelig | 4 | 4 | E | 56 | 59 | A-56-  | A-59-  | TIIS 
+| 1avu | A | albelig | 5 | 5 | E | 74 | 77 | A-74-  | A-77-  | SLKF 
+| 1avu | A | albelig | 6 | 6 | H | 84 | 86 | A-84-  | A-86-  | MLA 
+| 1avu | A | albelig | 7 | 7 | E | 94 | 96 | A-94-  | A-96-  | SVV 
+| 1avu | A | albelig | 8 | 8 | E | 104 | 106 | A-104-  | A-106-  | AVK 
+| 1avu | A | albelig | 9 | 9 | E | 116 | 122 | A-116-  | A-122-  | GWFRLER 
+| 1avu | A | albelig | 10 | 10 | E | 130 | 136 | A-131-  | A-137-  | YKLVFNP 
+| 1avu | A | albelig | 11 | 11 | E | 143 | 149 | A-146-  | A-152-  | GDIGISI 
+| 1avu | A | albelig | 12 | 12 | E | 156 | 161 | A-159-  | A-164-  | RRLVVS 
+| 1avu | A | albelig | 13 | 13 | E | 168 | 172 | A-171-  | A-175-  | VQFQK 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 13
+= 2 = a = 3
+= 3 = a = 12
+= 4 = a = 5
+= 7 = a = 8
+= 8 = a = 12
+= 9 = a = 10
+= 10 = a = 11
+= 11 = a = 12
+# Listed 10 contacts. EOF.

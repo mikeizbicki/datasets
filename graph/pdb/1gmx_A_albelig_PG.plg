@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gmx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, RHODANESE, SULFURTRANSFERASE, GLYCEROL METABOLISM
+> pdb_mol_name > THIOSULFATE SULFURTRANSFERASE GLPE
+> graphtype > albelig
+> resolution > 1.1
+> date > 25-SEP-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > ESCHERICHIA COLI GLPE SULFURTRANSFERASE
+> format_version > 2
+> pdbid > 1gmx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gmx | A | albelig | 1 | 1 | E | 5 | 7 | A-5-  | A-7-  | ECI 
+| 1gmx | A | albelig | 2 | 2 | H | 9 | 17 | A-9-  | A-17-  | VADAHQKLQ 
+| 1gmx | A | albelig | 3 | 3 | E | 22 | 25 | A-22-  | A-25-  | VLVD 
+| 1gmx | A | albelig | 4 | 4 | H | 29 | 34 | A-29-  | A-34-  | PQSFAM 
+| 1gmx | A | albelig | 5 | 5 | H | 45 | 54 | A-45-  | A-54-  | NDTLGAFMRD 
+| 1gmx | A | albelig | 6 | 6 | E | 61 | 64 | A-61-  | A-64-  | VMVM 
+| 1gmx | A | albelig | 7 | 7 | H | 70 | 81 | A-70-  | A-81-  | SSKGAAQYLLQQ 
+| 1gmx | A | albelig | 8 | 8 | E | 86 | 89 | A-86-  | A-89-  | VYSI 
+| 1gmx | A | albelig | 9 | 9 | H | 92 | 99 | A-92-  | A-99-  | GFEAWQRQ 
+| 1gmx | A | albelig | 10 | 10 | H | 101 | 103 | A-101-  | A-103-  | PAE 
+| 1gmx | A | albelig | 11 | 11 | L | 110 | 110 | A-1110-  | A-1110-  | J 
+| 1gmx | A | albelig | 12 | 12 | L | 111 | 111 | A-1111-  | A-1111-  | J 
+| 1gmx | A | albelig | 13 | 13 | L | 112 | 112 | A-1112-  | A-1112-  | J 
+| 1gmx | A | albelig | 14 | 14 | L | 113 | 113 | A-1113-  | A-1113-  | J 
+| 1gmx | A | albelig | 15 | 15 | L | 114 | 114 | A-1114-  | A-1114-  | J 
+| 1gmx | A | albelig | 16 | 16 | L | 115 | 115 | A-1115-  | A-1115-  | J 
+| 1gmx | A | albelig | 17 | 17 | L | 116 | 116 | A-1116-  | A-1116-  | J 
+| 1gmx | A | albelig | 18 | 18 | L | 117 | 117 | A-1117-  | A-1117-  | J 
+| 1gmx | A | albelig | 19 | 19 | L | 118 | 118 | A-1118-  | A-1118-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 1 = l = 14
+= 1 = l = 15
+= 2 = m = 9
+= 2 = l = 12
+= 2 = l = 13
+= 3 = p = 6
+= 5 = l = 11
+= 6 = p = 8
+= 7 = m = 8
+= 7 = l = 15
+= 7 = l = 17
+= 8 = l = 15
+= 9 = m = 10
+= 9 = l = 12
+= 12 = l = 14
+= 15 = l = 18
+# Listed 17 contacts. EOF.

@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ijx, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > WNT RECEPTOR, FRIZZLED PROTEIN STRUCTURE, CYSTEINE-RICH, SIGNALINGPROTEIN
+> pdb_mol_name > SECRETED FRIZZLED-RELATED SEQUENCE PROTEIN 3
+> graphtype > albelig
+> resolution > 1.9
+> date > 30-APR-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE CYSTEINE-RICH DOMAIN OF SECRETED FRIZZLED-RELATED PROTEIN 3 (SFRP-3;FZB)
+> format_version > 2
+> pdbid > 1ijx
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ijx | E | albelig | 1 | 1 | H | 504 | 508 | E-9-  | E-13-  | PLVKS 
+| 1ijx | E | albelig | 2 | 2 | H | 525 | 533 | E-30-  | E-38-  | QANAILAME 
+| 1ijx | E | albelig | 3 | 3 | H | 536 | 540 | E-41-  | E-45-  | EGLLG 
+| 1ijx | E | albelig | 4 | 4 | H | 547 | 555 | E-52-  | E-60-  | LLFFLVAMY 
+| 1ijx | E | albelig | 5 | 5 | H | 572 | 588 | E-77-  | E-93-  | KSVYERARQGWEPILIK 
+| 1ijx | E | albelig | 6 | 6 | H | 595 | 597 | E-100-  | E-102-  | ESL 
+| 1ijx | E | albelig | 7 | 7 | H | 599 | 601 | E-104-  | E-106-  | YDE 
+| 1ijx | E | albelig | 8 | 8 | E | 609 | 613 | E-114-  | E-118-  | VXISP 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 8
+= 5 = m = 7
+# Listed 2 contacts. EOF.

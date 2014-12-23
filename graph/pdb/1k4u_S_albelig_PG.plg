@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k4u, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > P67PHOX, P47PHOX, SH3-PEPTIDE COMPLEX, HELIX-TURN-HELIX,HORMONE/GROWTH FACTOR COMPLEX
+> pdb_mol_name > PHAGOCYTE NADPH OXIDASE SUBUNIT P67PHOX
+> graphtype > albelig
+> resolution > -1.0
+> date > 08-OCT-01
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > SOLUTION STRUCTURE OF THE C-TERMINAL SH3 DOMAIN OF P67PHOXCOMPLEXED WITH THE C-TERMINAL TAIL REGION OF P47PHOX
+> format_version > 2
+> pdbid > 1k4u
+> experiment > SOLUTION NMR
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k4u | S | albelig | 1 | 1 | E | 6 | 9 | S-460-  | S-463-  | SQVE 
+| 1k4u | S | albelig | 2 | 2 | E | 29 | 35 | S-483-  | S-489-  | IILVLSK 
+| 1k4u | S | albelig | 3 | 3 | E | 41 | 44 | S-495-  | S-498-  | LEGE 
+| 1k4u | S | albelig | 4 | 4 | E | 49 | 52 | S-503-  | S-506-  | VGIF 
+| 1k4u | S | albelig | 5 | 5 | H | 54 | 56 | S-508-  | S-510-  | KVF 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 4
+# Listed 3 contacts. EOF.

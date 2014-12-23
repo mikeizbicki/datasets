@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eun, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 2-KETO-3-DEOXY-6-PHOSPHOGLUCONATE ALDOLASE, SULFATE, TRIMER, BETA-BARREL, LYASE
+> pdb_mol_name > KDPG ALDOLASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 17-APR-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF 2-KETO-3-DEOXY-6-PHOSPHOGLUCONATE ALDOLASE FROMESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1eun
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eun | C | albelig | 1 | 1 | H | 436 | 442 | C-8-  | C-14-  | AESILTT 
+| 1eun | C | albelig | 2 | 2 | E | 445 | 449 | C-17-  | C-21-  | VVPVI 
+| 1eun | C | albelig | 3 | 3 | H | 457 | 466 | C-29-  | C-38-  | AVPMAKALVA 
+| 1eun | C | albelig | 4 | 4 | E | 471 | 475 | C-43-  | C-47-  | VLEVT 
+| 1eun | C | albelig | 5 | 5 | H | 481 | 491 | C-53-  | C-63-  | AVDAIRAIAKE 
+| 1eun | C | albelig | 6 | 6 | E | 496 | 500 | C-68-  | C-72-  | IVGAG 
+| 1eun | C | albelig | 7 | 7 | H | 505 | 513 | C-77-  | C-85-  | PQQLAEVTE 
+| 1eun | C | albelig | 8 | 8 | E | 519 | 521 | C-91-  | C-93-  | AIS 
+| 1eun | C | albelig | 9 | 9 | H | 526 | 534 | C-98-  | C-106-  | EPLLKAATE 
+| 1eun | C | albelig | 10 | 10 | E | 539 | 543 | C-111-  | C-115-  | LIPGI 
+| 1eun | C | albelig | 11 | 11 | H | 546 | 554 | C-118-  | C-126-  | VSELMLGMD 
+| 1eun | C | albelig | 12 | 12 | E | 559 | 562 | C-131-  | C-134-  | EFKF 
+| 1eun | C | albelig | 13 | 13 | H | 565 | 578 | C-137-  | C-150-  | AEANGGVKALQAIA 
+| 1eun | C | albelig | 14 | 14 | E | 585 | 588 | C-157-  | C-160-  | RFCP 
+| 1eun | C | albelig | 15 | 15 | H | 597 | 601 | C-169-  | C-173-  | YRDYL 
+| 1eun | C | albelig | 16 | 16 | E | 609 | 611 | C-181-  | C-183-  | IGG 
+| 1eun | C | albelig | 17 | 17 | H | 617 | 621 | C-189-  | C-193-  | ADALE 
+| 1eun | C | albelig | 18 | 18 | H | 625 | 639 | C-197-  | C-211-  | YDRITKLAREAVEGA 
+| 1eun | C | albelig | 19 | 19 | L | 646 | 646 | C-2001-  | C-2001-  | J 
+| 1eun | C | albelig | 20 | 20 | L | 647 | 647 | C-2005-  | C-2005-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 16
+= 2 = l = 19
+= 3 = m = 5
+= 3 = m = 18
+= 4 = p = 6
+= 4 = l = 19
+= 5 = m = 6
+= 6 = p = 8
+= 6 = l = 19
+= 8 = p = 10
+= 8 = l = 19
+= 10 = p = 12
+= 12 = m = 13
+= 12 = p = 14
+= 12 = l = 19
+= 13 = m = 15
+= 14 = a = 16
+= 15 = m = 18
+= 16 = l = 20
+# Listed 20 contacts. EOF.

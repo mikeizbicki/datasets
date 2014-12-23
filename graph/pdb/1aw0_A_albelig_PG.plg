@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aw0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COPPER-TRANSPORTING ATPASE, COPPER-BINDING DOMAIN, HYDROLASE
+> pdb_mol_name > MENKES COPPER-TRANSPORTING ATPASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 08-OCT-97
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > FOURTH METAL-BINDING DOMAIN OF THE MENKES COPPER-TRANSPORTING ATPASE, NMR, 20 STRUCTURES
+> format_version > 2
+> pdbid > 1aw0
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aw0 | A | albelig | 1 | 1 | E | 3 | 10 | A-3-  | A-10-  | QETVINID 
+| 1aw0 | A | albelig | 2 | 2 | H | 14 | 26 | A-14-  | A-26-  | CNSCVQSIEGVIS 
+| 1aw0 | A | albelig | 3 | 3 | E | 34 | 37 | A-34-  | A-37-  | IRVS 
+| 1aw0 | A | albelig | 4 | 4 | E | 42 | 47 | A-42-  | A-47-  | NGTVEY 
+| 1aw0 | A | albelig | 5 | 5 | H | 54 | 64 | A-54-  | A-64-  | PETLRGAIEDM 
+| 1aw0 | A | albelig | 6 | 6 | E | 67 | 70 | A-67-  | A-70-  | DATL 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = p = 5
+= 1 = a = 6
+= 2 = m = 3
+= 2 = m = 5
+= 3 = a = 4
+= 5 = m = 6
+# Listed 7 contacts. EOF.

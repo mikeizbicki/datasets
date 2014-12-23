@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bkd, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ONCOGENE PROTEIN/EXCHANGE FACTOR), SMALL GTPASE,EXCHANGE FACTOR, COMPLEX(ONCOGENE PROTEIN/EXCHANGE FACTR)COMPLEX
+> pdb_mol_name > SON OF SEVENLESS-1
+> graphtype > albelig
+> resolution > 2.8
+> date > 06-JUL-98
+> header > COMPLEX(ONCOGENE PROTEIN/EXCHANGE FACTR)
+> pdb_org_common > HUMAN
+> title > COMPLEX OF HUMAN H-RAS WITH HUMAN SOS-1
+> format_version > 2
+> pdbid > 1bkd
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bkd | S | albelig | 1 | 1 | E | 186 | 188 | S-586-  | S-588-  | IIF 
+| 1bkd | S | albelig | 2 | 2 | E | 196 | 199 | S-601-  | S-604-  | IKAG 
+| 1bkd | S | albelig | 3 | 3 | H | 201 | 208 | S-606-  | S-613-  | VIKLIERL 
+| 1bkd | S | albelig | 4 | 4 | H | 216 | 228 | S-621-  | S-633-  | PNFVRTFLTTYRS 
+| 1bkd | S | albelig | 5 | 5 | H | 232 | 243 | S-637-  | S-648-  | PQELLSLIIERF 
+| 1bkd | S | albelig | 6 | 6 | H | 256 | 273 | S-682-  | S-699-  | IQPVQLRVLNVCRHWVEH 
+| 1bkd | S | albelig | 7 | 7 | H | 276 | 279 | S-702-  | S-705-  | YDFE 
+| 1bkd | S | albelig | 8 | 8 | H | 282 | 292 | S-708-  | S-718-  | AYLLQRMEEFI 
+| 1bkd | S | albelig | 9 | 9 | H | 298 | 313 | S-724-  | S-739-  | KAMKKWVESITKIIQR 
+| 1bkd | S | albelig | 10 | 10 | H | 336 | 338 | S-771-  | S-773-  | IET 
+| 1bkd | S | albelig | 11 | 11 | H | 346 | 362 | S-781-  | S-797-  | PIEIARQLTLLESDLYR 
+| 1bkd | S | albelig | 12 | 12 | H | 366 | 368 | S-801-  | S-803-  | PSE 
+| 1bkd | S | albelig | 13 | 13 | H | 370 | 375 | S-805-  | S-810-  | VGSVWT 
+| 1bkd | S | albelig | 14 | 14 | H | 379 | 382 | S-814-  | S-817-  | KEIN 
+| 1bkd | S | albelig | 15 | 15 | H | 384 | 405 | S-819-  | S-840-  | PNLLKMIRHTTNLTLWFEKCIV 
+| 1bkd | S | albelig | 16 | 16 | H | 410 | 429 | S-845-  | S-864-  | LEERVAVVSRIIEILQVFQE 
+| 1bkd | S | albelig | 17 | 17 | H | 433 | 443 | S-868-  | S-878-  | FNGVLEVVSAM 
+| 1bkd | S | albelig | 18 | 18 | H | 446 | 449 | S-881-  | S-884-  | SPVY 
+| 1bkd | S | albelig | 19 | 19 | H | 452 | 456 | S-887-  | S-891-  | DHTFE 
+| 1bkd | S | albelig | 20 | 20 | H | 460 | 470 | S-895-  | S-905-  | SRQKKILEEAH 
+| 1bkd | S | albelig | 21 | 21 | H | 474 | 486 | S-909-  | S-921-  | EDHYKKYLAKLRS 
+| 1bkd | S | albelig | 22 | 22 | H | 496 | 507 | S-931-  | S-942-  | GIYLTNILKTEE 
+| 1bkd | S | albelig | 23 | 23 | E | 512 | 515 | S-947-  | S-950-  | VLKR 
+| 1bkd | S | albelig | 24 | 24 | E | 518 | 522 | S-953-  | S-957-  | KELIN 
+| 1bkd | S | albelig | 25 | 25 | H | 523 | 538 | S-958-  | S-973-  | FSKRRKVAEITGEIQQ 
+| 1bkd | S | albelig | 26 | 26 | H | 550 | 557 | S-985-  | S-992-  | SDIKRFFE 
+| 1bkd | S | albelig | 27 | 27 | H | 567 | 581 | S-1002-  | S-1016-  | EKEFTDYLFNKSLEI 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 24
+= 2 = m = 25
+= 3 = m = 4
+= 4 = m = 6
+= 4 = m = 25
+= 5 = a = 6
+= 5 = p = 8
+= 6 = p = 9
+= 8 = m = 9
+= 11 = m = 15
+= 11 = p = 16
+= 11 = m = 26
+= 13 = m = 22
+= 15 = m = 16
+= 15 = p = 17
+= 15 = m = 27
+= 16 = a = 17
+= 16 = m = 19
+= 16 = p = 20
+= 18 = m = 27
+= 22 = a = 25
+= 23 = a = 24
+= 24 = m = 25
+# Listed 24 contacts. EOF.

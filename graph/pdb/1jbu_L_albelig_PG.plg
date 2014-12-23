@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jbu, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SHIFTED REGISTRATION, BETA-STRANDS, HYDROLASE-HYDROLASE INHIBITORCOMPLEX
+> pdb_mol_name > COAGULATION FACTOR VII
+> graphtype > albelig
+> resolution > 2.0
+> date > 06-JUN-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > COAGULATION FACTOR VII ZYMOGEN (EGF2/PROTEASE) IN COMPLEX WITHINHIBITORY EXOSITE PEPTIDE A-183
+> format_version > 2
+> pdbid > 1jbu
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jbu | L | albelig | 1 | 1 | H | 247 | 250 | L-94-  | L-97-  | ENGG 
+| 1jbu | L | albelig | 2 | 2 | E | 254 | 256 | L-101-  | L-103-  | YFS 
+| 1jbu | L | albelig | 3 | 3 | E | 264 | 266 | L-111-  | L-113-  | SGR 
+| 1jbu | L | albelig | 4 | 4 | E | 271 | 273 | L-118-  | L-120-  | YSL 
+| 1jbu | L | albelig | 5 | 5 | E | 280 | 282 | L-127-  | L-129-  | HTP 
+| 1jbu | L | albelig | 6 | 6 | H | 292 | 295 | L-139-  | L-142-  | PILE 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 4 = a = 5
+# Listed 2 contacts. EOF.

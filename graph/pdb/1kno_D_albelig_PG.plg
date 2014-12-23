@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kno, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CATALYTIC ANTIBODY
+> pdb_mol_name > IGG2A FAB FRAGMENT CNJ206
+> graphtype > albelig
+> resolution > 3.2
+> date > 11-SEP-95
+> header > CATALYTIC ANTIBODY
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE COMPLEX OF A CATALYTIC ANTIBODYFAB WITH A TRANSITION STATE ANALOG: STRUCTURALSIMILARITIES IN ESTERASE-LIKE ABZYMES
+> format_version > 2
+> pdbid > 1kno
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kno | D | albelig | 1 | 1 | E | 654 | 658 | D-3-  | D-7-  | KLVES 
+| 1kno | D | albelig | 2 | 2 | E | 661 | 663 | D-10-  | D-12-  | GLV 
+| 1kno | D | albelig | 3 | 3 | E | 670 | 676 | D-19-  | D-25-  | KLSGAAS 
+| 1kno | D | albelig | 4 | 4 | H | 680 | 682 | D-29-  | D-31-  | FSS 
+| 1kno | D | albelig | 5 | 5 | E | 685 | 690 | D-34-  | D-39-  | MHWVRQ 
+| 1kno | D | albelig | 6 | 6 | E | 696 | 702 | D-45-  | D-51-  | LEWVAYI 
+| 1kno | D | albelig | 7 | 7 | E | 709 | 711 | D-58-  | D-60-  | IYY 
+| 1kno | D | albelig | 8 | 8 | E | 720 | 724 | D-69-  | D-73-  | TISRD 
+| 1kno | D | albelig | 9 | 9 | H | 725 | 727 | D-74-  | D-76-  | NPK 
+| 1kno | D | albelig | 10 | 10 | E | 729 | 733 | D-78-  | D-82-  | TLFLQ 
+| 1kno | D | albelig | 11 | 11 | E | 743 | 749 | D-92-  | D-98-  | AMYYGAR 
+| 1kno | D | albelig | 12 | 12 | E | 764 | 768 | D-113-  | D-117-  | TLVTV 
+| 1kno | D | albelig | 13 | 13 | E | 777 | 781 | D-128-  | D-132-  | SVYPL 
+| 1kno | D | albelig | 14 | 14 | E | 792 | 802 | D-145-  | D-155-  | SVTLGHLVKGY 
+| 1kno | D | albelig | 15 | 15 | E | 808 | 811 | D-161-  | D-165-  | TLTW 
+| 1kno | D | albelig | 16 | 16 | E | 820 | 822 | D-179-  | D-181-  | VHT 
+| 1kno | D | albelig | 17 | 17 | E | 826 | 828 | D-185-  | D-187-  | VLQ 
+| 1kno | D | albelig | 18 | 18 | E | 831 | 841 | D-192-  | D-202-  | LYTLSSSVTVT 
+| 1kno | D | albelig | 19 | 19 | H | 844 | 847 | D-206-  | D-210-  | TWPS 
+| 1kno | D | albelig | 20 | 20 | E | 851 | 856 | D-214-  | D-220-  | THNVAH 
+| 1kno | D | albelig | 21 | 21 | H | 857 | 859 | D-221-  | D-223-  | PAS 
+| 1kno | D | albelig | 22 | 22 | E | 861 | 866 | D-225-  | D-230-  | TKVDKK 
+| 1kno | D | albelig | 23 | 23 | L | 1310 | 1310 | D-552-  | D-552-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 11
+= 2 = p = 12
+= 3 = a = 10
+= 3 = p = 11
+= 5 = a = 6
+= 5 = p = 10
+= 5 = a = 11
+= 5 = l = 23
+= 6 = a = 7
+= 6 = p = 8
+= 6 = l = 23
+= 8 = m = 9
+= 8 = a = 10
+= 11 = a = 12
+= 11 = l = 23
+= 13 = a = 14
+= 14 = a = 18
+= 15 = p = 18
+= 15 = a = 20
+= 16 = a = 18
+= 17 = a = 18
+= 18 = m = 19
+= 20 = m = 21
+= 20 = a = 22
+# Listed 25 contacts. EOF.

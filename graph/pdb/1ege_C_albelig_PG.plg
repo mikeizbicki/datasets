@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ege, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACYL-COA DEHYDROGENASE, FLAVOPROTEIN, ELECTRON TRANSFER
+> pdb_mol_name > MEDIUM CHAIN ACYL-COA DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.75
+> date > 11-APR-96
+> header > ELECTRON TRANSFER
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF T255E, E376G MUTANT OF HUMAN MEDIUM CHAIN ACYL-COA DEHYDROGENASE
+> format_version > 2
+> pdbid > 1ege
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ege | C | albelig | 1 | 1 | H | 785 | 802 | C-18-  | C-35-  | EQQKEFQATARKFAREEI 
+| 1ege | C | albelig | 2 | 2 | H | 803 | 812 | C-36-  | C-45-  | IPVAAEYDKT 
+| 1ege | C | albelig | 3 | 3 | H | 817 | 826 | C-50-  | C-59-  | VPLIRRAWEL 
+| 1ege | C | albelig | 4 | 4 | H | 835 | 837 | C-68-  | C-70-  | ENC 
+| 1ege | C | albelig | 5 | 5 | H | 844 | 857 | C-77-  | C-90-  | TFDACLISEELAYG 
+| 1ege | C | albelig | 6 | 6 | H | 859 | 878 | C-92-  | C-111-  | TGVQTAIEGNSLGQMPIIIA 
+| 1ege | C | albelig | 7 | 7 | H | 881 | 888 | C-114-  | C-121-  | DQQKKKYL 
+| 1ege | C | albelig | 8 | 8 | H | 889 | 893 | C-122-  | C-126-  | GRMTE 
+| 1ege | C | albelig | 9 | 9 | E | 898 | 901 | C-131-  | C-134-  | CAYC 
+| 1ege | C | albelig | 10 | 10 | H | 911 | 913 | C-144-  | C-146-  | VAG 
+| 1ege | C | albelig | 11 | 11 | E | 917 | 921 | C-150-  | C-154-  | KAEKK 
+| 1ege | C | albelig | 12 | 12 | E | 924 | 935 | C-157-  | C-168-  | EYIINGQKMWIT 
+| 1ege | C | albelig | 13 | 13 | E | 942 | 945 | C-175-  | C-178-  | WYFL 
+| 1ege | C | albelig | 14 | 14 | H | 957 | 959 | C-190-  | C-192-  | ANK 
+| 1ege | C | albelig | 15 | 15 | E | 964 | 967 | C-197-  | C-200-  | FIVE 
+| 1ege | C | albelig | 16 | 16 | E | 989 | 1000 | C-222-  | C-233-  | TRGIVFEDVKVP 
+| 1ege | C | albelig | 17 | 17 | H | 1001 | 1003 | C-234-  | C-236-  | KEN 
+| 1ege | C | albelig | 18 | 18 | H | 1011 | 1045 | C-244-  | C-278-  | GFKVAMGAFDKTRPVVAAGAVGLAQRALDEATKYA 
+| 1ege | C | albelig | 19 | 19 | H | 1055 | 1057 | C-288-  | C-290-  | LVE 
+| 1ege | C | albelig | 20 | 20 | H | 1059 | 1087 | C-292-  | C-320-  | QAISFMLAEMAMKVELARMSYQRAAWEVD 
+| 1ege | C | albelig | 21 | 21 | H | 1093 | 1117 | C-326-  | C-350-  | TYYASIAKAFAGDIANQLATDAVQI 
+| 1ege | C | albelig | 22 | 22 | H | 1119 | 1123 | C-352-  | C-356-  | GGNGF 
+| 1ege | C | albelig | 23 | 23 | H | 1128 | 1140 | C-361-  | C-373-  | PVEKLMRDAKIYQ 
+| 1ege | C | albelig | 24 | 24 | H | 1146 | 1161 | C-379-  | C-394-  | SQIQRLIVAREHIDKY 
+| 1ege | C | albelig | 25 | 25 | L | 1554 | 1554 | C-399-  | C-399-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = p = 5
+= 5 = m = 6
+= 5 = p = 18
+= 5 = a = 20
+= 6 = m = 9
+= 6 = a = 18
+= 7 = m = 8
+= 7 = m = 15
+= 9 = a = 12
+= 9 = p = 13
+= 9 = l = 25
+= 11 = a = 12
+= 12 = a = 16
+= 12 = l = 25
+= 13 = a = 15
+= 15 = m = 17
+= 16 = m = 17
+= 16 = l = 25
+= 18 = a = 20
+= 18 = p = 21
+= 18 = a = 23
+= 20 = a = 21
+= 21 = a = 23
+= 21 = a = 24
+= 23 = l = 25
+= 24 = l = 25
+# Listed 28 contacts. EOF.

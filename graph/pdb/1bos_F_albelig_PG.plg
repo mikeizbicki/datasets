@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bos, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN, RECEPTOR BINDING, PROTEIN-CARBOHYDRATE RECOGNITION,OB-FOLD
+> pdb_mol_name > SHIGA-LIKE TOXIN I B SUBUNIT
+> graphtype > albelig
+> resolution > 2.8
+> date > 13-JAN-98
+> header > TOXIN
+> pdb_org_common > ,
+> title > SHIGA-LIKE TOXIN COMPLEXED WITH ITS RECEPTOR
+> format_version > 2
+> pdbid > 1bos
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > PHAGE H30, ENTEROBACTERIA PHAGE H-19B
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bos | F | albelig | 1 | 1 | E | 353 | 364 | F-2103-  | F-2114-  | DFVTGKVEYTKY 
+| 1bos | F | albelig | 2 | 2 | E | 370 | 374 | F-2120-  | F-2124-  | FTVKV 
+| 1bos | F | albelig | 3 | 3 | E | 377 | 381 | F-2127-  | F-2131-  | KELFT 
+| 1bos | F | albelig | 4 | 4 | H | 386 | 395 | F-2136-  | F-2145-  | LQSLLLSAQI 
+| 1bos | F | albelig | 5 | 5 | E | 399 | 403 | F-2149-  | F-2153-  | TVTIK 
+| 1bos | F | albelig | 6 | 6 | E | 415 | 418 | F-2165-  | F-2168-  | EVIF 
+| 1bos | F | albelig | 7 | 7 | L | 1436 | 1436 | F-2190-  | F-2190-  | J 
+| 1bos | F | albelig | 8 | 8 | L | 1437 | 1437 | F-2191-  | F-2191-  | J 
+| 1bos | F | albelig | 9 | 9 | L | 1438 | 1438 | F-2192-  | F-2192-  | J 
+| 1bos | F | albelig | 10 | 10 | L | 1439 | 1439 | F-2180-  | F-2180-  | J 
+| 1bos | F | albelig | 11 | 11 | L | 1440 | 1440 | F-2181-  | F-2181-  | J 
+| 1bos | F | albelig | 12 | 12 | L | 1441 | 1441 | F-2182-  | F-2182-  | J 
+| 1bos | F | albelig | 13 | 13 | L | 1442 | 1442 | F-2170-  | F-2170-  | J 
+| 1bos | F | albelig | 14 | 14 | L | 1443 | 1443 | F-2171-  | F-2171-  | J 
+| 1bos | F | albelig | 15 | 15 | L | 1444 | 1444 | F-2172-  | F-2172-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = a = 5
+= 1 = l = 13
+= 2 = a = 3
+= 2 = l = 13
+= 3 = l = 7
+= 3 = l = 8
+= 3 = l = 13
+= 3 = l = 14
+= 4 = l = 10
+= 5 = a = 6
+= 7 = l = 8
+= 7 = l = 9
+= 8 = l = 9
+= 10 = l = 11
+= 11 = l = 12
+= 13 = l = 14
+= 13 = l = 15
+= 14 = l = 15
+# Listed 20 contacts. EOF.

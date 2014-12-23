@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE (NADP+(A),FERREDOXIN(A))
+> pdb_mol_name > FERREDOXIN-NADP+ REDUCTASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 05-JAN-95
+> header > OXIDOREDUCTASE (NADP+(A),FERREDOXIN(A))
+> pdb_org_common > SPINACH
+> title > REFINED CRYSTAL STRUCTURE OF SPINACH FERREDOXIN REDUCTASEAT 1.7 ANGSTROMS RESOLUTION: OXIDIZED, REDUCED, AND 2'-PHOSPHO-5'-AMP BOUND STATES
+> format_version > 2
+> pdbid > 1fnd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SPINACIA OLERACEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnd | A | albelig | 1 | 1 | E | 20 | 29 | A-38-  | A-47-  | YVGRCLLNTK 
+| 1fnd | A | albelig | 2 | 2 | E | 39 | 45 | A-57-  | A-63-  | TWHMVFS 
+| 1fnd | A | albelig | 3 | 3 | E | 57 | 61 | A-75-  | A-79-  | SVGVI 
+| 1fnd | A | albelig | 4 | 4 | E | 75 | 78 | A-93-  | A-96-  | RLYS 
+| 1fnd | A | albelig | 5 | 5 | E | 92 | 98 | A-110-  | A-116-  | SVSLCVK 
+| 1fnd | A | albelig | 6 | 6 | E | 101 | 103 | A-119-  | A-121-  | IYT 
+| 1fnd | A | albelig | 7 | 7 | E | 109 | 111 | A-127-  | A-129-  | TIK 
+| 1fnd | A | albelig | 8 | 8 | H | 113 | 119 | A-131-  | A-137-  | VCSNFLC 
+| 1fnd | A | albelig | 9 | 9 | E | 126 | 133 | A-144-  | A-151-  | EVKLTGPV 
+| 1fnd | A | albelig | 10 | 10 | E | 146 | 152 | A-164-  | A-170-  | TIIMLGT 
+| 1fnd | A | albelig | 11 | 11 | H | 153 | 167 | A-171-  | A-185-  | GTGIAPFRSFLWKMF 
+| 1fnd | A | albelig | 12 | 12 | E | 179 | 186 | A-197-  | A-204-  | LAWLFLGV 
+| 1fnd | A | albelig | 13 | 13 | H | 189 | 191 | A-207-  | A-209-  | SSS 
+| 1fnd | A | albelig | 14 | 14 | H | 195 | 204 | A-213-  | A-222-  | KEEFEKMKEK 
+| 1fnd | A | albelig | 15 | 15 | E | 209 | 215 | A-227-  | A-233-  | FRLDFAV 
+| 1fnd | A | albelig | 16 | 16 | H | 229 | 234 | A-247-  | A-252-  | IQTRMA 
+| 1fnd | A | albelig | 17 | 17 | H | 237 | 244 | A-255-  | A-262-  | AVELWEML 
+| 1fnd | A | albelig | 18 | 18 | E | 249 | 255 | A-267-  | A-273-  | TYVYMCG 
+| 1fnd | A | albelig | 19 | 19 | H | 257 | 272 | A-275-  | A-290-  | KGMEKGIDDIMVSLAA 
+| 1fnd | A | albelig | 20 | 20 | H | 278 | 287 | A-296-  | A-305-  | WIEYKRQLKK 
+| 1fnd | A | albelig | 21 | 21 | E | 291 | 295 | A-309-  | A-313-  | WNVEV 
+| 1fnd | A | albelig | 22 | 22 | L | 297 | 297 | A-317-  | A-317-  | J 
+| 1fnd | A | albelig | 23 | 23 | L | 298 | 298 | A-315-  | A-315-  | J 
+| 1fnd | A | albelig | 24 | 24 | L | 299 | 299 | A-316-  | A-316-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 9
+= 3 = l = 23
+= 4 = m = 8
+= 4 = l = 22
+= 4 = l = 23
+= 5 = l = 23
+= 6 = a = 7
+= 6 = l = 23
+= 7 = l = 23
+= 8 = l = 22
+= 8 = l = 23
+= 10 = a = 11
+= 10 = p = 12
+= 10 = p = 18
+= 10 = l = 24
+= 11 = p = 14
+= 11 = m = 18
+= 11 = l = 23
+= 11 = l = 24
+= 12 = p = 15
+= 12 = l = 24
+= 14 = a = 15
+= 15 = m = 16
+= 15 = l = 24
+= 16 = l = 24
+= 18 = p = 21
+= 19 = m = 20
+= 19 = l = 24
+= 20 = m = 21
+= 21 = l = 23
+= 22 = l = 23
+# Listed 35 contacts. EOF.

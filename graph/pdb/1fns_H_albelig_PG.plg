@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fns, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VON WILLEBRAND FACTOR, GLYCOPROTEIN IBA (A:ALPHA) BINDING, COMPLEX(WILLEBRAND-IMMUNOGLOBULIN), BLOOD COAGULATION TYPE 2B VONWILLEBRAND DISEASE, IMMUNE SYSTEM
+> pdb_mol_name > IMMUNOGLOBULIN NMC-4 IGG1
+> graphtype > albelig
+> resolution > 2.0
+> date > 23-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE VON WILLEBRAND FACTOR (VWF) A1 DOMAIN I546VMUTANT IN COMPLEX WITH THE FUNCTION BLOCKING FAB NMC4
+> format_version > 2
+> pdbid > 1fns
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fns | H | albelig | 1 | 1 | E | 218 | 222 | H-217-  | H-221-  | QLKES 
+| 1fns | H | albelig | 2 | 2 | E | 233 | 240 | H-232-  | H-239-  | LSITDTVS 
+| 1fns | H | albelig | 3 | 3 | E | 248 | 254 | H-247-  | H-253-  | GVDWVRQ 
+| 1fns | H | albelig | 4 | 4 | E | 261 | 266 | H-260-  | H-265-  | EWLGMI 
+| 1fns | H | albelig | 5 | 5 | E | 272 | 274 | H-271-  | H-273-  | TDY 
+| 1fns | H | albelig | 6 | 6 | H | 276 | 278 | H-275-  | H-277-  | SAL 
+| 1fns | H | albelig | 7 | 7 | E | 282 | 287 | H-281-  | H-286-  | LSITKD 
+| 1fns | H | albelig | 8 | 8 | H | 288 | 290 | H-287-  | H-289-  | NSK 
+| 1fns | H | albelig | 9 | 9 | E | 292 | 297 | H-291-  | H-296-  | QVFLKM 
+| 1fns | H | albelig | 10 | 10 | H | 302 | 304 | H-301-  | H-303-  | TDD 
+| 1fns | H | albelig | 11 | 11 | E | 306 | 313 | H-305-  | H-312-  | ARYYDVRD 
+| 1fns | H | albelig | 12 | 12 | H | 317 | 319 | H-316-  | H-318-  | YGN 
+| 1fns | H | albelig | 13 | 13 | E | 331 | 335 | H-330-  | H-334-  | TSVTV 
+| 1fns | H | albelig | 14 | 14 | E | 344 | 348 | H-343-  | H-347-  | SVYPL 
+| 1fns | H | albelig | 15 | 15 | E | 355 | 365 | H-358-  | H-368-  | MVTLGELVKGY 
+| 1fns | H | albelig | 16 | 16 | E | 371 | 374 | H-374-  | H-377-  | TVTW 
+| 1fns | H | albelig | 17 | 17 | H | 375 | 377 | H-378-  | H-380-  | NSG 
+| 1fns | H | albelig | 18 | 18 | E | 383 | 385 | H-386-  | H-388-  | VHT 
+| 1fns | H | albelig | 19 | 19 | E | 395 | 404 | H-398-  | H-407-  | YTLSSSVTVP 
+| 1fns | H | albelig | 20 | 20 | H | 405 | 407 | H-408-  | H-410-  | SST 
+| 1fns | H | albelig | 21 | 21 | E | 414 | 419 | H-417-  | H-422-  | TENVAH 
+| 1fns | H | albelig | 22 | 22 | H | 420 | 422 | H-423-  | H-425-  | PAS 
+| 1fns | H | albelig | 23 | 23 | E | 424 | 429 | H-427-  | H-432-  | TKVDKK 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 9
+= 2 = p = 11
+= 3 = a = 4
+= 3 = p = 9
+= 3 = a = 11
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 7 = m = 8
+= 7 = a = 9
+= 11 = a = 13
+= 14 = a = 15
+= 14 = p = 23
+= 15 = a = 19
+= 16 = m = 17
+= 16 = p = 19
+= 16 = a = 21
+= 18 = a = 19
+= 19 = m = 20
+= 21 = m = 22
+= 21 = a = 23
+# Listed 23 contacts. EOF.

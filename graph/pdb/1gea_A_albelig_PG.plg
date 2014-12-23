@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gea, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA COIL, CONSECUTIVE BETA TURNS, TYPE-II BETA TURN, TYPE-I BETA TURN, HELIX, NEUROPEPTIDE
+> pdb_mol_name > PITUITARY ADENYLATE CYCLASE ACTIVATING
+> graphtype > albelig
+> resolution > -1.0
+> date > 20-OCT-00
+> header > NEUROPEPTIDE
+> pdb_org_common > UNKNOWN
+> title > RECEPTOR-BOUND CONFORMATION OF PACAP21
+> format_version > 2
+> pdbid > 1gea
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gea | A | albelig | 1 | 1 | H | 9 | 19 | A-9-  | A-19-  | SYSRYRKQMAV 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

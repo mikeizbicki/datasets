@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gpo, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN ENGINEERING, ANTIBODY DESIGN, IMMUNOGLOBULIN STRUCTURE,ANTIGEN-BINDING SITE, CANONICAL CONFORMATION, COMPLEMENTARITY-DETERMINING REGION, IMMUNE SYSTEM
+> pdb_mol_name > ANTIBODY M41
+> graphtype > albelig
+> resolution > 1.95
+> date > 27-MAR-97
+> header > IMMUNE SYSTEM
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE OF THE RATIONALLY DESIGNED ANTIBODY M41 AS A FABFRAGMENT
+> format_version > 2
+> pdbid > 1gpo
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gpo | H | albelig | 1 | 1 | E | 220 | 224 | H-3-  | H-7-  | KLQES 
+| 1gpo | H | albelig | 2 | 2 | E | 235 | 242 | H-18-  | H-25-  | LSLTCSVT 
+| 1gpo | H | albelig | 3 | 3 | H | 246 | 248 | H-29-  | H-31-  | ITS 
+| 1gpo | H | albelig | 4 | 4 | E | 251 | 256 | H-34-  | H-39-  | WSWIRQ 
+| 1gpo | H | albelig | 5 | 5 | E | 262 | 268 | H-45-  | H-51-  | LEYMGFV 
+| 1gpo | H | albelig | 6 | 6 | E | 274 | 276 | H-57-  | H-59-  | TAY 
+| 1gpo | H | albelig | 7 | 7 | H | 278 | 280 | H-61-  | H-63-  | PSL 
+| 1gpo | H | albelig | 8 | 8 | E | 284 | 289 | H-67-  | H-72-  | ISITRD 
+| 1gpo | H | albelig | 9 | 9 | E | 294 | 299 | H-77-  | H-82-  | QYYLDL 
+| 1gpo | H | albelig | 10 | 10 | H | 304 | 306 | H-87-  | H-89-  | TED 
+| 1gpo | H | albelig | 11 | 11 | E | 308 | 314 | H-91-  | H-97-  | AVYYCAN 
+| 1gpo | H | albelig | 12 | 12 | E | 324 | 328 | H-107-  | H-111-  | TTVTV 
+| 1gpo | H | albelig | 13 | 13 | E | 337 | 341 | H-120-  | H-124-  | SVYPL 
+| 1gpo | H | albelig | 14 | 14 | E | 352 | 362 | H-135-  | H-145-  | MVTLGDLVKGY 
+| 1gpo | H | albelig | 15 | 15 | E | 368 | 371 | H-151-  | H-154-  | TVTW 
+| 1gpo | H | albelig | 16 | 16 | H | 372 | 374 | H-155-  | H-157-  | NSG 
+| 1gpo | H | albelig | 17 | 17 | E | 380 | 382 | H-163-  | H-165-  | VHT 
+| 1gpo | H | albelig | 18 | 18 | E | 386 | 388 | H-169-  | H-171-  | VLQ 
+| 1gpo | H | albelig | 19 | 19 | E | 391 | 401 | H-174-  | H-184-  | LYTLSSSVTVP 
+| 1gpo | H | albelig | 20 | 20 | E | 411 | 416 | H-194-  | H-199-  | TDNVAH 
+| 1gpo | H | albelig | 21 | 21 | H | 417 | 419 | H-200-  | H-202-  | PAS 
+| 1gpo | H | albelig | 22 | 22 | E | 421 | 426 | H-204-  | H-209-  | TKVDKK 
+| 1gpo | H | albelig | 23 | 23 | L | 864 | 864 | H-650-  | H-650-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 4
+= 2 = a = 9
+= 2 = p = 11
+= 4 = a = 5
+= 4 = p = 9
+= 4 = a = 11
+= 5 = a = 6
+= 5 = p = 8
+= 5 = l = 23
+= 6 = a = 8
+= 8 = a = 9
+= 8 = l = 23
+= 11 = a = 12
+= 13 = a = 14
+= 14 = a = 19
+= 15 = m = 16
+= 15 = p = 19
+= 15 = a = 20
+= 17 = a = 19
+= 18 = a = 19
+= 20 = m = 21
+= 20 = a = 22
+# Listed 24 contacts. EOF.

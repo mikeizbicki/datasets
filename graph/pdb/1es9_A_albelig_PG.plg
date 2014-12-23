@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1es9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA HYDROLASE FOLD
+> pdb_mol_name > PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE IB
+> graphtype > albelig
+> resolution > 1.3
+> date > 07-APR-00
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > X-RAY CRYSTAL STRUCTURE OF R22K MUTANT OF THE MAMMALIANBRAIN PLATELET-ACTIVATING FACTOR ACETYLHYDROLASES (PAF-AH)
+> format_version > 2
+> pdbid > 1es9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1es9 | A | albelig | 1 | 1 | H | 3 | 5 | A-7-  | A-9-  | PAS 
+| 1es9 | A | albelig | 2 | 2 | H | 18 | 32 | A-22-  | A-36-  | KWMSLHHRFVADSKD 
+| 1es9 | A | albelig | 3 | 3 | E | 37 | 41 | A-41-  | A-45-  | VVFIG 
+| 1es9 | A | albelig | 4 | 4 | H | 43 | 46 | A-47-  | A-50-  | SLVQ 
+| 1es9 | A | albelig | 5 | 5 | H | 48 | 51 | A-52-  | A-55-  | MHQC 
+| 1es9 | A | albelig | 6 | 6 | H | 54 | 57 | A-58-  | A-61-  | WREL 
+| 1es9 | A | albelig | 7 | 7 | H | 59 | 61 | A-63-  | A-65-  | SPL 
+| 1es9 | A | albelig | 8 | 8 | E | 63 | 67 | A-67-  | A-71-  | ALNFG 
+| 1es9 | A | albelig | 9 | 9 | H | 73 | 84 | A-77-  | A-88-  | TQHVLWRLENGE 
+| 1es9 | A | albelig | 10 | 10 | E | 92 | 96 | A-96-  | A-100-  | IVVVW 
+| 1es9 | A | albelig | 11 | 11 | H | 106 | 123 | A-110-  | A-127-  | AEQVTGGIKAIVQLVNER 
+| 1es9 | A | albelig | 12 | 12 | E | 128 | 132 | A-132-  | A-136-  | RVVVL 
+| 1es9 | A | albelig | 13 | 13 | H | 143 | 160 | A-147-  | A-164-  | PLREKNRRVNELVRAALA 
+| 1es9 | A | albelig | 14 | 14 | E | 165 | 168 | A-169-  | A-172-  | AHFL 
+| 1es9 | A | albelig | 15 | 15 | H | 194 | 211 | A-198-  | A-215-  | RLGYTPVCRALHSLLLRL 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = m = 8
+= 2 = p = 9
+= 3 = p = 8
+= 3 = m = 9
+= 3 = p = 10
+= 4 = m = 8
+= 6 = m = 7
+= 9 = p = 11
+= 10 = p = 12
+= 11 = m = 12
+= 11 = m = 13
+= 12 = p = 14
+# Listed 13 contacts. EOF.

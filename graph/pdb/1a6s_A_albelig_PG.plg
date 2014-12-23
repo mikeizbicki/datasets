@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a6s, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CORE PROTEIN, VIRUS STRUCTURE, MEMBRANE BINDING, VIRALPROTEIN
+> pdb_mol_name > GAG POLYPROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-MAR-98
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > M-DOMAIN FROM GAG POLYPROTEIN OF ROUS SARCOMA VIRUS, NMR,20 STRUCTURES
+> format_version > 2
+> pdbid > 1a6s
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ROUS SARCOMA VIRUS - PRAGUE C
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a6s | A | albelig | 1 | 1 | H | 2 | 15 | A-2-  | A-15-  | EAVIKVISSACKTY 
+| 1a6s | A | albelig | 2 | 2 | H | 25 | 32 | A-25-  | A-32-  | EIGAMLSL 
+| 1a6s | A | albelig | 3 | 3 | H | 33 | 35 | A-33-  | A-35-  | LQK 
+| 1a6s | A | albelig | 4 | 4 | H | 42 | 46 | A-42-  | A-46-  | PSDLY 
+| 1a6s | A | albelig | 5 | 5 | H | 52 | 60 | A-52-  | A-60-  | DPITAALSQ 
+| 1a6s | A | albelig | 6 | 6 | H | 72 | 86 | A-72-  | A-86-  | KTWGLVLGALKAARE 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 1 = m = 6
+= 2 = m = 3
+= 2 = m = 6
+= 5 = m = 6
+# Listed 6 contacts. EOF.

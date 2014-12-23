@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j1e, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THIN FILAMENT, MUSCLE REGULATION, CA2+ BINDING PROTEIN, EF-HAND, COILED-COIL, CONTRACTILE PROTEIN
+> pdb_mol_name > TROPONIN I
+> graphtype > albelig
+> resolution > 3.3
+> date > 03-DEC-02
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE 52KDA DOMAIN OF HUMAN CARDIACTROPONIN IN THE CA2+ SATURATED FORM
+> format_version > 2
+> pdbid > 1j1e
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j1e | C | albelig | 1 | 1 | H | 239 | 275 | C-43-  | C-79-  | ASRKLQLKTLLLQIAKQELEREAEERRGEKGRALSTR 
+| 1j1e | C | albelig | 2 | 2 | H | 281 | 283 | C-85-  | C-87-  | LAG 
+| 1j1e | C | albelig | 3 | 3 | H | 286 | 331 | C-90-  | C-135-  | FAELQDLARQLHARVDKVDEERYDIEAKVTKNITEIADLTQKIFDL 
+| 1j1e | C | albelig | 4 | 4 | H | 338 | 346 | C-151-  | C-159-  | ADAMMQALL 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

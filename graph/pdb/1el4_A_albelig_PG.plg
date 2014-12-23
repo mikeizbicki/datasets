@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1el4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BIOLUMINESCENCE, CALCIUM, PHOTOPROTEIN, OBELIN, SULFURANOMALOUS SCATTERING, LUMINESCENT PROTEIN
+> pdb_mol_name > OBELIN
+> graphtype > albelig
+> resolution > 1.73
+> date > 13-MAR-00
+> header > LUMINESCENT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE CALCIUM-REGULATED PHOTOPROTEIN OBELINDETERMINED BY SULFUR SAS
+> format_version > 2
+> pdbid > 1el4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > OBELIA LONGISSIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1el4 | A | albelig | 1 | 1 | H | 15 | 28 | A-16-  | A-29-  | PRWIKRHKHMFDFL 
+| 1el4 | A | albelig | 2 | 2 | H | 38 | 50 | A-39-  | A-51-  | LDEIVSKASDDIC 
+| 1el4 | A | albelig | 3 | 3 | H | 57 | 72 | A-58-  | A-73-  | PEQTKRHQVCVEAFFR 
+| 1el4 | A | albelig | 4 | 4 | H | 84 | 103 | A-85-  | A-104-  | FPQFLDGWKQLATSELKKWA 
+| 1el4 | A | albelig | 5 | 5 | H | 109 | 120 | A-110-  | A-121-  | LIREWGDAVFDI 
+| 1el4 | A | albelig | 6 | 6 | H | 131 | 141 | A-132-  | A-142-  | LDEWKAYGKIS 
+| 1el4 | A | albelig | 7 | 7 | H | 147 | 156 | A-148-  | A-157-  | QEDCEATFRH 
+| 1el4 | A | albelig | 8 | 8 | H | 167 | 180 | A-168-  | A-181-  | VDEMTRQHLGFWYT 
+| 1el4 | A | albelig | 9 | 9 | H | 183 | 185 | A-184-  | A-186-  | PEA 
+| 1el4 | A | albelig | 10 | 10 | L | 195 | 195 | A-196-  | A-196-  | J 
+| 1el4 | A | albelig | 11 | 11 | L | 196 | 196 | A-197-  | A-197-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 8
+= 1 = l = 11
+= 2 = a = 3
+= 2 = l = 11
+= 3 = a = 5
+= 3 = l = 11
+= 4 = m = 8
+= 4 = l = 10
+= 4 = l = 11
+= 5 = a = 8
+= 5 = l = 10
+= 5 = l = 11
+= 6 = m = 7
+= 6 = l = 11
+= 8 = l = 10
+= 8 = l = 11
+# Listed 17 contacts. EOF.

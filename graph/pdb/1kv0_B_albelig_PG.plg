@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kv0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NON-PROLYL CIS PEPTIDE BOND, CIS/TRANS ISOMERIZATION, X-RAYSTRUCTURE, DIMERIC STRUCTURE, SCORPION TOXIN
+> pdb_mol_name > ALPHA-LIKE TOXIN BMK-M7
+> graphtype > albelig
+> resolution > 1.4
+> date > 23-JAN-02
+> header > TOXIN
+> pdb_org_common > CHINESE SCORPION
+> title > CIS/TRANS ISOMERIZATION OF NON-PROLYL PEPTIDE BOND OBSERVEDIN CRYSTAL STRUCTURE OF AN SCORPION TOXIN
+> format_version > 2
+> pdbid > 1kv0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MESOBUTHUS MARTENSII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kv0 | B | albelig | 1 | 1 | E | 69 | 72 | B-2-  | B-5-  | RDGY 
+| 1kv0 | B | albelig | 2 | 2 | H | 86 | 95 | B-19-  | B-28-  | NEYGNNLHTK 
+| 1kv0 | B | albelig | 3 | 3 | E | 100 | 105 | B-33-  | B-38-  | IGYFNI 
+| 1kv0 | B | albelig | 4 | 4 | E | 111 | 118 | B-44-  | B-51-  | NAGWHIQL 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = m = 3
+= 2 = m = 4
+= 3 = a = 4
+# Listed 4 contacts. EOF.

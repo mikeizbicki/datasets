@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cmk, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOTRANSFERASE, TRANSFERASE-TRANSFERASE INHIBITOR COMPLEX
+> pdb_mol_name > CAMP-DEPENDENT PROTEIN KINASE INHIBITOR, ALPHA FORM
+> graphtype > albelig
+> resolution > 2.9
+> date > 18-NOV-93
+> header > TRANSFERASE/TRANSFERASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURES OF THE MYRISTYLATED CATALYTIC SUBUNIT OF CAMP-DEPENDENT PROTEIN KINASE REVEAL OPEN AND CLOSED CONFORMATIONS
+> format_version > 2
+> pdbid > 1cmk
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cmk | I | albelig | 1 | 1 | H | 354 | 359 | I-3-  | I-8-  | YADFIA 
+| 1cmk | I | albelig | 2 | 2 | H | 361 | 363 | I-10-  | I-12-  | GRT 
+| 1cmk | I | albelig | 3 | 3 | L | 374 | 374 | I-384-  | I-384-  | J 
+| 1cmk | I | albelig | 4 | 4 | L | 375 | 375 | I-385-  | I-385-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 3
+= 1 = l = 4
+# Listed 2 contacts. EOF.

@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gpq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE-INHIBITOR COMPLEX, LYSOZYME/INHIBITOR COMPLEX, TYPE-CLYSOZYME INHIBITOR, HYDROLASE, GLYCOSIDASE, BACTERIAL TARGETS ATIGS-CNRS, FRANCE, BIGS, STRUCTURAL GENOMICS
+> pdb_mol_name > INHIBITOR OF VERTEBRATE LYSOZYME
+> graphtype > albelig
+> resolution > 1.6
+> date > 08-NOV-01
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF IVY COMPLEXED WITH ITS TARGET, HEWL
+> format_version > 2
+> pdbid > 1gpq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gpq | A | albelig | 1 | 1 | H | 5 | 10 | A-6-  | A-11-  | ISSLAK 
+| 1gpq | A | albelig | 2 | 2 | H | 15 | 22 | A-16-  | A-23-  | KAAFNQMV 
+| 1gpq | A | albelig | 3 | 3 | H | 30 | 33 | A-31-  | A-34-  | WVMK 
+| 1gpq | A | albelig | 4 | 4 | E | 41 | 45 | A-42-  | A-46-  | QTVTL 
+| 1gpq | A | albelig | 5 | 5 | E | 48 | 56 | A-49-  | A-57-  | ETYQVMSAA 
+| 1gpq | A | albelig | 6 | 6 | E | 64 | 70 | A-65-  | A-71-  | QRIAVMW 
+| 1gpq | A | albelig | 7 | 7 | E | 77 | 85 | A-78-  | A-86-  | MTGLFSTID 
+| 1gpq | A | albelig | 8 | 8 | H | 86 | 88 | A-87-  | A-89-  | EKT 
+| 1gpq | A | albelig | 9 | 9 | E | 90 | 96 | A-91-  | A-97-  | QEKLTWL 
+| 1gpq | A | albelig | 10 | 10 | H | 100 | 102 | A-101-  | A-103-  | DAL 
+| 1gpq | A | albelig | 11 | 11 | H | 105 | 115 | A-106-  | A-116-  | DGKTVLFAALT 
+| 1gpq | A | albelig | 12 | 12 | H | 117 | 120 | A-118-  | A-121-  | SLEN 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 7
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 6 = a = 11
+= 7 = m = 8
+= 7 = a = 9
+# Listed 7 contacts. EOF.

@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENGINEERED HEME CHANNEL, OXIDOREDUCTASE
+> pdb_mol_name > CYTOCHROME C PEROXIDASE
+> graphtype > albelig
+> resolution > 1.74
+> date > 01-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF CYTOCHROME C PEROXIDASE WITH APROPOSED ELECTRON TRANSFER PATHWAY EXCISED TO FORM ALIGAND BINDING CHANNEL.
+> format_version > 2
+> pdbid > 1kxm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxm | A | albelig | 1 | 1 | H | 14 | 30 | A-16-  | A-32-  | YEDFQKVYNAIALKLRE 
+| 1kxm | A | albelig | 2 | 2 | H | 34 | 37 | A-36-  | A-39-  | YDNY 
+| 1kxm | A | albelig | 3 | 3 | H | 41 | 52 | A-43-  | A-54-  | GPVLVRLAWHIS 
+| 1kxm | A | albelig | 4 | 4 | H | 68 | 70 | A-70-  | A-72-  | TYR 
+| 1kxm | A | albelig | 5 | 5 | H | 72 | 75 | A-74-  | A-77-  | KKEF 
+| 1kxm | A | albelig | 6 | 6 | H | 78 | 80 | A-80-  | A-82-  | PSN 
+| 1kxm | A | albelig | 7 | 7 | H | 84 | 96 | A-86-  | A-98-  | QNGFKFLEPIHKE 
+| 1kxm | A | albelig | 8 | 8 | H | 102 | 116 | A-104-  | A-118-  | SGDLFSLGGVTAVQE 
+| 1kxm | A | albelig | 9 | 9 | H | 133 | 135 | A-135-  | A-137-  | EDT 
+| 1kxm | A | albelig | 10 | 10 | H | 149 | 157 | A-151-  | A-159-  | AGYVRTFFQ 
+| 1kxm | A | albelig | 11 | 11 | H | 163 | 174 | A-165-  | A-176-  | DREVVALMGAHA 
+| 1kxm | A | albelig | 12 | 12 | H | 180 | 183 | A-182-  | A-185-  | LKNS 
+| 1kxm | A | albelig | 13 | 13 | H | 197 | 204 | A-199-  | A-206-  | EFYLNLLN 
+| 1kxm | A | albelig | 14 | 14 | E | 207 | 211 | A-209-  | A-213-  | WKLEK 
+| 1kxm | A | albelig | 15 | 15 | E | 217 | 221 | A-219-  | A-223-  | EQWDS 
+| 1kxm | A | albelig | 16 | 16 | H | 229 | 236 | A-231-  | A-238-  | PTDYSLIQ 
+| 1kxm | A | albelig | 17 | 17 | H | 238 | 248 | A-240-  | A-250-  | PKYLSIVKEYA 
+| 1kxm | A | albelig | 18 | 18 | H | 251 | 267 | A-253-  | A-269-  | QDKFFKDFSKAFEKLLE 
+| 1kxm | A | albelig | 19 | 19 | H | 285 | 288 | A-287-  | A-290-  | LEEQ 
+| 1kxm | A | albelig | 20 | 20 | L | 291 | 291 | A-1-  | A-1-  | J 
+| 1kxm | A | albelig | 21 | 21 | L | 292 | 292 | A-2-  | A-2-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 1 = m = 8
+= 1 = m = 19
+= 2 = l = 20
+= 3 = a = 8
+= 3 = m = 18
+= 3 = l = 20
+= 4 = m = 5
+= 7 = m = 8
+= 10 = m = 17
+= 10 = l = 20
+= 11 = m = 13
+= 11 = m = 17
+= 11 = m = 18
+= 11 = l = 20
+= 11 = l = 21
+= 12 = l = 20
+= 13 = m = 17
+= 13 = l = 21
+= 14 = a = 15
+= 16 = m = 17
+= 16 = l = 20
+= 16 = l = 21
+= 18 = l = 20
+= 20 = l = 21
+# Listed 25 contacts. EOF.

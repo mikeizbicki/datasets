@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fzu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBONUCLEASE, HYDROLASE
+> pdb_mol_name > GUANYL-SPECIFIC RIBONUCLEASE T1
+> graphtype > albelig
+> resolution > 1.8
+> date > 04-OCT-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > RNASE T1 V78A MUTANT
+> format_version > 2
+> pdbid > 1fzu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ASPERGILLUS ORYZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fzu | A | albelig | 1 | 1 | E | 4 | 6 | A-4-  | A-6-  | YTN 
+| 1fzu | A | albelig | 2 | 2 | E | 9 | 11 | A-9-  | A-11-  | NAY 
+| 1fzu | A | albelig | 3 | 3 | H | 13 | 28 | A-13-  | A-28-  | SSDVSTAQAAGYKLHE 
+| 1fzu | A | albelig | 4 | 4 | E | 40 | 42 | A-40-  | A-42-  | HKY 
+| 1fzu | A | albelig | 5 | 5 | E | 56 | 60 | A-56-  | A-60-  | YYEWP 
+| 1fzu | A | albelig | 6 | 6 | E | 76 | 81 | A-76-  | A-81-  | DRAVFN 
+| 1fzu | A | albelig | 7 | 7 | E | 86 | 91 | A-86-  | A-91-  | LAGVIT 
+| 1fzu | A | albelig | 8 | 8 | L | 105 | 105 | A-106-  | A-106-  | J 
+| 1fzu | A | albelig | 9 | 9 | L | 106 | 106 | A-107-  | A-107-  | J 
+| 1fzu | A | albelig | 10 | 10 | L | 107 | 107 | A-105-  | A-105-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = l = 8
+= 3 = l = 8
+= 4 = a = 5
+= 4 = l = 10
+= 5 = a = 6
+= 5 = l = 10
+= 6 = a = 7
+= 6 = l = 10
+# Listed 9 contacts. EOF.

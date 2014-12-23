@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1frg, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN/VIRUS HEMAGGLUTININ, VIRAL PROTEIN-IMMUNE SYSTEMCOMPLEX
+> pdb_mol_name > INFLUENZA HEMAGGLUTININ HA1 (STRAIN X47) (RESIDUES 101 -
+> graphtype > albelig
+> resolution > 2.8
+> date > 17-JAN-94
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE, SEQUENCE, AND EPITOPE MAPPING OF A PEPTIDE COMPLEXOF AN ANTI-INFLUENZA HA PEPTIDE ANTIBODY FAB 26(SLASH)9: FINE-TUNINGANTIBODY SPECIFICITY
+> format_version > 2
+> pdbid > 1frg
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1frg | P | albelig | 1 | 1 | L | 448 | 448 | P-1-  | P-1-  | J 
+| 1frg | P | albelig | 2 | 2 | L | 449 | 449 | P-10-  | P-10-  | J 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

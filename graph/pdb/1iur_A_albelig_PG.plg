@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iur, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNAJ LIKE DOMAIN, RIKEN STRUCTURAL GENOMICS/PROTEOMICSINITIATIVE, RSGI, STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_mol_name > KIAA0730 PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-MAR-02
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > HUMAN
+> title > DNAJ DOMAIN OF HUMAN KIAA0730 PROTEIN
+> format_version > 2
+> pdbid > 1iur
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iur | A | albelig | 1 | 1 | H | 15 | 24 | A-15-  | A-24-  | LKEVTSVVEQ 
+| 1iur | A | albelig | 2 | 2 | H | 31 | 43 | A-31-  | A-43-  | SERKKIIRRLYLK 
+| 1iur | A | albelig | 3 | 3 | H | 53 | 73 | A-53-  | A-73-  | HDIANEVFKHLQNEINRLEKQ 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+# Listed 1 contacts. EOF.

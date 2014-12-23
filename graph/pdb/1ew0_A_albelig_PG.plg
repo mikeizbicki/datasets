@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ew0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN SENSOR, HEME PROTEIN, HISTIDINE KINASE, RHIZOBIUMMELILOTI, TRANSFERASE
+> pdb_mol_name > FIXL
+> graphtype > albelig
+> resolution > 1.4
+> date > 21-APR-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE SENSOR DOMAIN OFRMFIXL(FERROUS FORM)
+> format_version > 2
+> pdbid > 1ew0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SINORHIZOBIUM MELILOTI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ew0 | A | albelig | 1 | 1 | H | 3 | 14 | A-124-  | A-135-  | HMLETEDVVRAR 
+| 1ew0 | A | albelig | 2 | 2 | H | 18 | 22 | A-139-  | A-143-  | LRSIL 
+| 1ew0 | A | albelig | 3 | 3 | E | 28 | 33 | A-149-  | A-154-  | ATVVSA 
+| 1ew0 | A | albelig | 4 | 4 | E | 38 | 41 | A-159-  | A-162-  | IVSF 
+| 1ew0 | A | albelig | 5 | 5 | H | 43 | 49 | A-164-  | A-170-  | AAAVRQF 
+| 1ew0 | A | albelig | 6 | 6 | H | 53 | 56 | A-174-  | A-177-  | EEEV 
+| 1ew0 | A | albelig | 7 | 7 | H | 61 | 64 | A-182-  | A-185-  | LRIL 
+| 1ew0 | A | albelig | 8 | 8 | H | 70 | 83 | A-191-  | A-204-  | RHEHDGYLQRYMAT 
+| 1ew0 | A | albelig | 9 | 9 | E | 93 | 98 | A-214-  | A-219-  | RVVSGQ 
+| 1ew0 | A | albelig | 10 | 10 | E | 104 | 116 | A-225-  | A-237-  | TFPMKLAVGEMRS 
+| 1ew0 | A | albelig | 11 | 11 | E | 119 | 128 | A-240-  | A-249-  | ERFFTGFIRD 
+| 1ew0 | A | albelig | 12 | 12 | L | 131 | 131 | A-501-  | A-501-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = m = 5
+= 3 = a = 11
+= 3 = l = 12
+= 4 = m = 6
+= 5 = l = 12
+= 7 = m = 9
+= 7 = l = 12
+= 8 = m = 11
+= 8 = l = 12
+= 9 = a = 10
+= 9 = l = 12
+= 10 = a = 11
+= 10 = l = 12
+= 11 = l = 12
+# Listed 15 contacts. EOF.

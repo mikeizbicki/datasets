@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fr6, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, ANTIBIOTIC RESISTANCE, CLASS C BETA-LACTAMASE, MONOBACTUM
+> pdb_mol_name > BETA-LACTAMASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 07-SEP-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > REFINED CRYSTAL STRUCTURE OF BETA-LACTAMASE FROM CITROBACTER FREUNDIIINDICATES A MECHANISM FOR BETA-LACTAM HYDROLYSIS
+> format_version > 2
+> pdbid > 1fr6
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CITROBACTER FREUNDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fr6 | B | albelig | 1 | 1 | H | 367 | 385 | B-5-  | B-23-  | EQQIADIVNRTITPLMQEQ 
+| 1fr6 | B | albelig | 2 | 2 | E | 389 | 396 | B-27-  | B-34-  | GMAVAIIY 
+| 1fr6 | B | albelig | 3 | 3 | E | 399 | 409 | B-37-  | B-47-  | KPYYFTWGKAD 
+| 1fr6 | B | albelig | 4 | 4 | H | 425 | 442 | B-63-  | B-80-  | GSVSKTFNGVLGGDAIAR 
+| 1fr6 | B | albelig | 5 | 5 | H | 451 | 453 | B-89-  | B-91-  | VTQ 
+| 1fr6 | B | albelig | 6 | 6 | H | 461 | 463 | B-99-  | B-101-  | KQW 
+| 1fr6 | B | albelig | 7 | 7 | H | 468 | 472 | B-106-  | B-110-  | LLHLA 
+| 1fr6 | B | albelig | 8 | 8 | H | 490 | 498 | B-128-  | B-136-  | KAALLRFYQ 
+| 1fr6 | B | albelig | 9 | 9 | H | 514 | 524 | B-152-  | B-162-  | NSSIGLFGALA 
+| 1fr6 | B | albelig | 10 | 10 | H | 532 | 541 | B-170-  | B-179-  | YEEAMSKRVL 
+| 1fr6 | B | albelig | 11 | 11 | H | 558 | 560 | B-196-  | B-198-  | QKD 
+| 1fr6 | B | albelig | 12 | 12 | E | 564 | 566 | B-202-  | B-204-  | GYR 
+| 1fr6 | B | albelig | 13 | 13 | E | 569 | 571 | B-207-  | B-209-  | KPV 
+| 1fr6 | B | albelig | 14 | 14 | H | 579 | 582 | B-217-  | B-220-  | DAEA 
+| 1fr6 | B | albelig | 15 | 15 | H | 589 | 600 | B-227-  | B-238-  | VIDMTRWVQANM 
+| 1fr6 | B | albelig | 16 | 16 | H | 602 | 604 | B-240-  | B-242-  | ASQ 
+| 1fr6 | B | albelig | 17 | 17 | H | 608 | 617 | B-246-  | B-255-  | KTLQQGIELA 
+| 1fr6 | B | albelig | 18 | 18 | E | 620 | 624 | B-258-  | B-262-  | RYWRI 
+| 1fr6 | B | albelig | 19 | 19 | E | 627 | 629 | B-265-  | B-267-  | MYQ 
+| 1fr6 | B | albelig | 20 | 20 | E | 634 | 637 | B-272-  | B-275-  | EMLN 
+| 1fr6 | B | albelig | 21 | 21 | H | 642 | 649 | B-280-  | B-287-  | ADSIISGS 
+| 1fr6 | B | albelig | 22 | 22 | H | 651 | 654 | B-289-  | B-292-  | SKVA 
+| 1fr6 | B | albelig | 23 | 23 | E | 661 | 667 | B-299-  | B-305-  | VEVNPPA 
+| 1fr6 | B | albelig | 24 | 24 | E | 673 | 680 | B-311-  | B-318-  | SWVHKTGS 
+| 1fr6 | B | albelig | 25 | 25 | E | 685 | 691 | B-323-  | B-329-  | GSYVAFV 
+| 1fr6 | B | albelig | 26 | 26 | H | 692 | 694 | B-330-  | B-332-  | PEK 
+| 1fr6 | B | albelig | 27 | 27 | E | 696 | 702 | B-334-  | B-340-  | LGIVMLA 
+| 1fr6 | B | albelig | 28 | 28 | H | 708 | 720 | B-346-  | B-358-  | NPVRVEAAWRILE 
+| 1fr6 | B | albelig | 29 | 29 | L | 725 | 725 | B-362-  | B-362-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = a = 28
+= 2 = a = 3
+= 2 = a = 27
+= 4 = p = 9
+= 4 = m = 10
+= 4 = p = 15
+= 4 = m = 17
+= 4 = m = 24
+= 4 = l = 29
+= 7 = m = 9
+= 9 = l = 29
+= 12 = a = 13
+= 15 = m = 25
+= 18 = a = 19
+= 18 = a = 23
+= 19 = a = 20
+= 20 = a = 24
+= 21 = a = 28
+= 22 = l = 29
+= 24 = a = 25
+= 24 = a = 28
+= 24 = l = 29
+= 25 = m = 26
+= 25 = a = 27
+= 28 = l = 29
+# Listed 27 contacts. EOF.

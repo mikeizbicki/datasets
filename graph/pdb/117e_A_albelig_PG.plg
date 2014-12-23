@@ -1,0 +1,94 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 117e, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME MECHANISM, IORGANIC PYROPHOSPHATASE, MUTANSTRUCTURES, 2-METAL ION MECHANISM, HYDROLASE
+> pdb_mol_name > PROTEIN (INORGANIC PYROPHOSPHATASE)
+> graphtype > albelig
+> resolution > 2.15
+> date > 15-SEP-98
+> header > HYDROLASE
+> pdb_org_common > BAKER'S YEAST
+> title > THE R78K AND D117E ACTIVE SITE VARIANTS OF SACCHAROMYCESCEREVISIAE SOLUBLE INORGANIC PYROPHOSPHATASE: STRUCTURALSTUDIES AND MECHANISTIC IMPLICATIONS
+> format_version > 2
+> pdbid > 117e
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 117e | A | albelig | 1 | 1 | E | 2 | 9 | A-2-  | A-9-  | YTTRQIGA 
+| 117e | A | albelig | 2 | 2 | E | 16 | 21 | A-16-  | A-21-  | KVYIEK 
+| 117e | A | albelig | 3 | 3 | E | 24 | 26 | A-24-  | A-26-  | KPV 
+| 117e | A | albelig | 4 | 4 | E | 35 | 37 | A-35-  | A-37-  | YAD 
+| 117e | A | albelig | 5 | 5 | H | 38 | 40 | A-38-  | A-40-  | KEN 
+| 117e | A | albelig | 6 | 6 | E | 42 | 49 | A-42-  | A-49-  | IFNMVVEI 
+| 117e | A | albelig | 7 | 7 | E | 57 | 59 | A-57-  | A-59-  | LEI 
+| 117e | A | albelig | 8 | 8 | E | 68 | 70 | A-68-  | A-70-  | IIQ 
+| 117e | A | albelig | 9 | 9 | E | 92 | 95 | A-92-  | A-95-  | NYGA 
+| 117e | A | albelig | 10 | 10 | E | 120 | 123 | A-120-  | A-123-  | DVLE 
+| 117e | A | albelig | 11 | 11 | E | 134 | 143 | A-134-  | A-143-  | VKQVKALGIM 
+| 117e | A | albelig | 12 | 12 | E | 145 | 147 | A-145-  | A-147-  | LLD 
+| 117e | A | albelig | 13 | 13 | E | 154 | 159 | A-154-  | A-159-  | KVIAID 
+| 117e | A | albelig | 14 | 14 | H | 165 | 167 | A-165-  | A-167-  | APK 
+| 117e | A | albelig | 15 | 15 | H | 171 | 177 | A-171-  | A-177-  | IEDVEKY 
+| 117e | A | albelig | 16 | 16 | H | 181 | 191 | A-181-  | A-191-  | LLRATNEWFRI 
+| 117e | A | albelig | 17 | 17 | H | 194 | 196 | A-194-  | A-196-  | IPD 
+| 117e | A | albelig | 18 | 18 | H | 205 | 207 | A-205-  | A-207-  | FSG 
+| 117e | A | albelig | 19 | 19 | E | 209 | 211 | A-209-  | A-211-  | AKN 
+| 117e | A | albelig | 20 | 20 | H | 212 | 230 | A-212-  | A-230-  | KKYALDIIKETHDSWKQLI 
+| 117e | A | albelig | 21 | 21 | H | 255 | 257 | A-255-  | A-257-  | KAA 
+| 117e | A | albelig | 22 | 22 | E | 265 | 267 | A-265-  | A-267-  | SLK 
+| 117e | A | albelig | 23 | 23 | H | 274 | 277 | A-274-  | A-277-  | KSID 
+| 117e | A | albelig | 24 | 24 | L | 566 | 566 | A-2001-  | A-2001-  | J 
+| 117e | A | albelig | 25 | 25 | L | 567 | 567 | A-2002-  | A-2002-  | J 
+| 117e | A | albelig | 26 | 26 | L | 568 | 568 | A-2003-  | A-2003-  | J 
+| 117e | A | albelig | 27 | 27 | L | 569 | 569 | A-2004-  | A-2004-  | J 
+| 117e | A | albelig | 28 | 28 | L | 570 | 570 | A-3001-  | A-3001-  | J 
+| 117e | A | albelig | 29 | 29 | L | 571 | 571 | A-3002-  | A-3002-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 22
+= 2 = a = 3
+= 2 = a = 8
+= 4 = m = 5
+= 4 = a = 6
+= 6 = a = 7
+= 6 = a = 9
+= 6 = a = 11
+= 6 = l = 25
+= 6 = l = 29
+= 7 = a = 8
+= 7 = l = 26
+= 7 = l = 29
+= 9 = a = 10
+= 9 = l = 24
+= 9 = l = 25
+= 9 = l = 29
+= 10 = p = 13
+= 10 = l = 24
+= 10 = l = 25
+= 10 = l = 27
+= 10 = l = 29
+= 11 = a = 13
+= 11 = a = 19
+= 11 = m = 20
+= 12 = l = 27
+= 12 = l = 28
+= 12 = l = 29
+= 13 = l = 24
+= 13 = l = 27
+= 13 = l = 29
+= 19 = m = 20
+= 24 = l = 25
+= 24 = l = 27
+= 24 = l = 28
+= 24 = l = 29
+= 25 = l = 29
+= 26 = l = 27
+= 26 = l = 28
+= 26 = l = 29
+= 27 = l = 28
+= 27 = l = 29
+= 28 = l = 29
+# Listed 44 contacts. EOF.

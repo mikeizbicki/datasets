@@ -1,0 +1,36 @@
+How to install VPLG
+===================
+
+
+Make sure you have Java >= 1.6 installed (the JRE will do, you do not need the SDK). You can run 'java -version' if
+in doubt. 
+
+
+After unpacking the release archive, all tools can be run directly from the resulting directory structure. 
+
+
+   cd my_downloads_directory/
+   unzip vplg-<version>.zip
+
+   cd vplg/
+   java -jar plcc.jar                            or
+   java -jar vpg.jar                             or
+   java -jar splitpdb.jar
+
+
+
+To start the graphical user interface on a GUI system with properly installed Java, simply double-click the file 'vpg.jar'.
+
+(If the JAR file does not run at all or gets opened in some other application like an archiver, you need to edit the program 
+associated with the '.jar' file extension in your operating system or desktop environment. The program should be 'java' and the
+command should be something like 'java -jar %f'.)
+
+Note that the programs require the libraries in the lib/, relative to their path. So if you copy them elsewhere, you
+gotta copy the lib/ directory there as well.
+
+
+See the README_* files for more detailed instructions on how to install and use the tools.
+
+--
+ts
+

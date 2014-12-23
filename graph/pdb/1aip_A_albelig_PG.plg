@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aip, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELONGATION FACTOR, NUCLEOTIDE EXCHANGE, GTP-BINDING,COMPLEX OF TWO ELONGATION FACTORS
+> pdb_mol_name > ELONGATION FACTOR TU
+> graphtype > albelig
+> resolution > 3.0
+> date > 22-APR-97
+> header > COMPLEX OF TWO ELONGATION FACTORS
+> pdb_org_common > UNKNOWN
+> title > EF-TU EF-TS COMPLEX FROM THERMUS THERMOPHILUS
+> format_version > 2
+> pdbid > 1aip
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aip | A | albelig | 1 | 1 | E | 3 | 9 | A-11-  | A-17-  | HVNVGTI 
+| 1aip | A | albelig | 2 | 2 | H | 12 | 14 | A-20-  | A-22-  | VDH 
+| 1aip | A | albelig | 3 | 3 | H | 16 | 28 | A-24-  | A-36-  | KTTLTAALTYVTA 
+| 1aip | A | albelig | 4 | 4 | E | 38 | 40 | A-69-  | A-71-  | EYE 
+| 1aip | A | albelig | 5 | 5 | E | 45 | 50 | A-76-  | A-81-  | HYSHVD 
+| 1aip | A | albelig | 6 | 6 | H | 54 | 62 | A-85-  | A-93-  | HADYIKNMI 
+| 1aip | A | albelig | 7 | 7 | E | 70 | 76 | A-101-  | A-107-  | GAILVVS 
+| 1aip | A | albelig | 8 | 8 | H | 85 | 95 | A-116-  | A-126-  | TREHILLARQV 
+| 1aip | A | albelig | 9 | 9 | E | 100 | 105 | A-131-  | A-136-  | IVVFMN 
+| 1aip | A | albelig | 10 | 10 | H | 107 | 109 | A-138-  | A-140-  | VDM 
+| 1aip | A | albelig | 11 | 11 | H | 113 | 128 | A-144-  | A-159-  | PELLDLVEMEVRDLLN 
+| 1aip | A | albelig | 12 | 12 | E | 139 | 141 | A-170-  | A-172-  | VIR 
+| 1aip | A | albelig | 13 | 13 | H | 144 | 153 | A-175-  | A-184-  | ALLALEQMHR 
+| 1aip | A | albelig | 14 | 14 | H | 163 | 178 | A-194-  | A-209-  | EWVDKIWELLDAIDEY 
+| 1aip | A | albelig | 15 | 15 | H | 185 | 187 | A-216-  | A-218-  | DVD 
+| 1aip | A | albelig | 16 | 16 | E | 191 | 193 | A-222-  | A-224-  | LMP 
+| 1aip | A | albelig | 17 | 17 | E | 197 | 200 | A-228-  | A-231-  | VFTI 
+| 1aip | A | albelig | 18 | 18 | E | 204 | 210 | A-235-  | A-241-  | GTVATGR 
+| 1aip | A | albelig | 19 | 19 | E | 221 | 225 | A-252-  | A-256-  | EVEIV 
+| 1aip | A | albelig | 20 | 20 | E | 232 | 240 | A-263-  | A-271-  | RRTVVTGVE 
+| 1aip | A | albelig | 21 | 21 | E | 254 | 259 | A-285-  | A-290-  | NVGVLL 
+| 1aip | A | albelig | 22 | 22 | H | 264 | 266 | A-295-  | A-297-  | REE 
+| 1aip | A | albelig | 23 | 23 | E | 272 | 274 | A-303-  | A-305-  | VLA 
+| 1aip | A | albelig | 24 | 24 | E | 280 | 291 | A-311-  | A-322-  | TPHTKFEASVYV 
+| 1aip | A | albelig | 25 | 25 | E | 310 | 312 | A-341-  | A-343-  | QFY 
+| 1aip | A | albelig | 26 | 26 | E | 318 | 323 | A-349-  | A-354-  | VTGVVQ 
+| 1aip | A | albelig | 27 | 27 | E | 336 | 349 | A-367-  | A-380-  | NVTFTVELIKPVAL 
+| 1aip | A | albelig | 28 | 28 | E | 354 | 359 | A-385-  | A-390-  | RFAIRE 
+| 1aip | A | albelig | 29 | 29 | E | 362 | 372 | A-393-  | A-403-  | RTVGAGVVTKI 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = p = 7
+= 2 = m = 7
+= 3 = p = 13
+= 3 = m = 14
+= 4 = a = 5
+= 6 = m = 8
+= 7 = p = 9
+= 9 = p = 12
+= 11 = m = 12
+= 12 = m = 14
+= 16 = a = 18
+= 16 = a = 23
+= 17 = a = 18
+= 18 = a = 21
+= 19 = a = 20
+= 19 = a = 23
+= 20 = a = 21
+= 24 = a = 27
+= 24 = a = 29
+= 25 = p = 26
+= 25 = a = 28
+= 26 = a = 27
+= 28 = a = 29
+# Listed 24 contacts. EOF.

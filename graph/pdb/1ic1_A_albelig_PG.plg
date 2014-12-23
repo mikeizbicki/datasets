@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ic1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ICAM-1, IMMUNOGLOBULIN FOLD, CELL ADHESION, GLYCOPROTEIN
+> pdb_mol_name > INTERCELLULAR ADHESION MOLECULE-1
+> graphtype > albelig
+> resolution > 3.0
+> date > 09-MAR-98
+> header > CELL ADHESION
+> pdb_org_common > HUMAN
+> title > THE CRYSTAL STRUCTURE FOR THE N-TERMINAL TWO DOMAINS OF ICAM-1
+> format_version > 2
+> pdbid > 1ic1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ic1 | A | albelig | 1 | 1 | E | 3 | 5 | A-3-  | A-5-  | SVS 
+| 1ic1 | A | albelig | 2 | 2 | E | 8 | 12 | A-8-  | A-12-  | KVILP 
+| 1ic1 | A | albelig | 3 | 3 | E | 17 | 22 | A-17-  | A-22-  | VLVTAS 
+| 1ic1 | A | albelig | 4 | 4 | E | 30 | 34 | A-30-  | A-34-  | LLGIE 
+| 1ic1 | A | albelig | 5 | 5 | E | 49 | 54 | A-49-  | A-54-  | RKVYEL 
+| 1ic1 | A | albelig | 6 | 6 | E | 64 | 68 | A-64-  | A-68-  | MAYSN 
+| 1ic1 | A | albelig | 7 | 7 | E | 74 | 77 | A-74-  | A-77-  | STAK 
+| 1ic1 | A | albelig | 8 | 8 | E | 79 | 83 | A-79-  | A-83-  | FLTVY 
+| 1ic1 | A | albelig | 9 | 9 | E | 88 | 91 | A-88-  | A-91-  | RVEL 
+| 1ic1 | A | albelig | 10 | 10 | E | 97 | 99 | A-97-  | A-99-  | WQP 
+| 1ic1 | A | albelig | 11 | 11 | E | 103 | 111 | A-103-  | A-111-  | NLTLRCQVE 
+| 1ic1 | A | albelig | 12 | 12 | H | 116 | 118 | A-116-  | A-118-  | RAN 
+| 1ic1 | A | albelig | 13 | 13 | E | 119 | 125 | A-119-  | A-125-  | LTVVLLR 
+| 1ic1 | A | albelig | 14 | 14 | E | 128 | 134 | A-128-  | A-134-  | KELKREP 
+| 1ic1 | A | albelig | 15 | 15 | E | 140 | 147 | A-140-  | A-147-  | AEVTTTVL 
+| 1ic1 | A | albelig | 16 | 16 | H | 150 | 152 | A-150-  | A-152-  | RDH 
+| 1ic1 | A | albelig | 17 | 17 | E | 156 | 164 | A-156-  | A-164-  | NFSCRTELD 
+| 1ic1 | A | albelig | 18 | 18 | E | 172 | 176 | A-172-  | A-176-  | LFENT 
+| 1ic1 | A | albelig | 19 | 19 | E | 183 | 185 | A-183-  | A-185-  | QTF 
+| 1ic1 | A | albelig | 20 | 20 | L | 382 | 382 | A-311-  | A-311-  | J 
+| 1ic1 | A | albelig | 21 | 21 | L | 383 | 383 | A-312-  | A-312-  | J 
+| 1ic1 | A | albelig | 22 | 22 | L | 384 | 384 | A-313-  | A-313-  | J 
+| 1ic1 | A | albelig | 23 | 23 | L | 385 | 385 | A-314-  | A-314-  | J 
+| 1ic1 | A | albelig | 24 | 24 | L | 386 | 386 | A-324-  | A-324-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 7
+= 2 = p = 8
+= 3 = a = 4
+= 3 = a = 5
+= 4 = p = 5
+= 4 = a = 6
+= 6 = a = 7
+= 8 = l = 24
+= 9 = a = 11
+= 9 = a = 17
+= 9 = l = 23
+= 10 = p = 19
+= 11 = a = 15
+= 11 = l = 20
+= 12 = m = 13
+= 12 = m = 17
+= 12 = l = 21
+= 13 = a = 14
+= 13 = p = 15
+= 13 = a = 17
+= 13 = l = 22
+= 15 = l = 20
+= 16 = l = 20
+= 17 = a = 18
+= 17 = l = 21
+= 17 = l = 22
+= 18 = l = 23
+= 18 = l = 24
+= 23 = l = 24
+# Listed 30 contacts. EOF.

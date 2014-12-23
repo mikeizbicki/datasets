@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bgx, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA POLYMERASE, FAB, PCR, INHIBITION, HELIX-COIL DYNAMICS,INHIBITOR DESIGN, COMPLEX (POLYMERASE/INHIBITOR)
+> pdb_mol_name > TP7 MAB
+> graphtype > albelig
+> resolution > 2.3
+> date > 02-JUN-98
+> header > COMPLEX (POLYMERASE/INHIBITOR)
+> pdb_org_common > HOUSE MOUSE
+> title > TAQ POLYMERASE IN COMPLEX WITH TP7, AN INHIBITORY FAB
+> format_version > 2
+> pdbid > 1bgx
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bgx | H | albelig | 1 | 1 | E | 1053 | 1060 | H-16-  | H-23-  | QSLSLSCT 
+| 1bgx | H | albelig | 2 | 2 | E | 1074 | 1076 | H-36-  | H-38-  | WIR 
+| 1bgx | H | albelig | 3 | 3 | E | 1084 | 1087 | H-46-  | H-49-  | EWMG 
+| 1bgx | H | albelig | 4 | 4 | E | 1105 | 1110 | H-66-  | H-71-  | ISITRD 
+| 1bgx | H | albelig | 5 | 5 | E | 1115 | 1123 | H-76-  | H-82-B | QFFLQLNSV 
+| 1bgx | H | albelig | 6 | 6 | E | 1131 | 1133 | H-90-  | H-92-  | YYC 
+| 1bgx | H | albelig | 7 | 7 | E | 1163 | 1167 | H-122-  | H-126-  | SVYPL 
+| 1bgx | H | albelig | 8 | 8 | E | 1174 | 1182 | H-133-  | H-141-  | TLGDLVKGY 
+| 1bgx | H | albelig | 9 | 9 | E | 1188 | 1191 | H-147-  | H-150-  | TLTW 
+| 1bgx | H | albelig | 10 | 10 | E | 1201 | 1207 | H-160-  | H-166-  | HTFPAVL 
+| 1bgx | H | albelig | 11 | 11 | E | 1212 | 1219 | H-171-  | H-178-  | YTLSSSVT 
+| 1bgx | H | albelig | 12 | 12 | E | 1231 | 1235 | H-190-  | H-194-  | TDNVA 
+| 1bgx | H | albelig | 13 | 13 | E | 1242 | 1246 | H-201-  | H-205-  | KVDKK 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 2 = a = 3
+= 2 = a = 6
+= 3 = p = 4
+= 4 = a = 5
+= 7 = a = 8
+= 8 = a = 11
+= 9 = a = 12
+= 10 = a = 11
+= 12 = a = 13
+# Listed 10 contacts. EOF.

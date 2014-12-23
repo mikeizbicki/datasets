@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aei, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM/PHOSPHOLIPID-BINDING, ANNEXIN, CALCIUM, PHOSPHOLIPID
+> pdb_mol_name > ANNEXIN XII
+> graphtype > albelig
+> resolution > 2.8
+> date > 23-SEP-95
+> header > CALCIUM/PHOSPHOLIPID-BINDING
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE ANNEXIN XII HEXAMER
+> format_version > 2
+> pdbid > 1aei
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HYDRA VULGARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aei | E | albelig | 1 | 1 | H | 1278 | 1289 | E-15-  | E-26-  | SREDAETLRKAM 
+| 1aei | E | albelig | 2 | 2 | H | 1296 | 1304 | E-33-  | E-41-  | EKSITHILA 
+| 1aei | E | albelig | 3 | 3 | H | 1308 | 1322 | E-45-  | E-59-  | NAQRQQIKTDYTTLF 
+| 1aei | E | albelig | 4 | 4 | H | 1326 | 1333 | E-63-  | E-70-  | LEDELKSE 
+| 1aei | E | albelig | 5 | 5 | H | 1336 | 1346 | E-73-  | E-83-  | GNYEAAALALL 
+| 1aei | E | albelig | 6 | 6 | H | 1349 | 1361 | E-86-  | E-98-  | PDEFLAEQLHAAM 
+| 1aei | E | albelig | 7 | 7 | H | 1368 | 1375 | E-105-  | E-112-  | ENALIDIL 
+| 1aei | E | albelig | 8 | 8 | H | 1380 | 1394 | E-117-  | E-131-  | NAQIHAIKAAFKLLY 
+| 1aei | E | albelig | 9 | 9 | H | 1398 | 1405 | E-135-  | E-142-  | LEKEIISE 
+| 1aei | E | albelig | 10 | 10 | H | 1408 | 1417 | E-145-  | E-154-  | GNFQRLLVSM 
+| 1aei | E | albelig | 11 | 11 | H | 1430 | 1443 | E-167-  | E-180-  | AAHAAEDAAAIYQA 
+| 1aei | E | albelig | 12 | 12 | H | 1452 | 1461 | E-189-  | E-198-  | ESRFNAVLAT 
+| 1aei | E | albelig | 13 | 13 | H | 1464 | 1477 | E-201-  | E-214-  | YPQLHQIFHEYSKI 
+| 1aei | E | albelig | 14 | 14 | H | 1482 | 1489 | E-219-  | E-226-  | ILQAIENE 
+| 1aei | E | albelig | 15 | 15 | H | 1492 | 1519 | E-229-  | E-256-  | GDIKNGLLAIVKSVENRFAYFAERLHHA 
+| 1aei | E | albelig | 16 | 16 | H | 1527 | 1537 | E-264-  | E-274-  | DKTLIRILVSR 
+| 1aei | E | albelig | 17 | 17 | H | 1542 | 1553 | E-279-  | E-290-  | LANIKETFQAMY 
+| 1aei | E | albelig | 18 | 18 | H | 1557 | 1564 | E-294-  | E-301-  | LYEFIADD 
+| 1aei | E | albelig | 19 | 19 | H | 1567 | 1577 | E-304-  | E-314-  | GDYKDLLLQIT 
+| 1aei | E | albelig | 20 | 20 | L | 1896 | 1896 | E-1-  | E-1-  | J 
+| 1aei | E | albelig | 21 | 21 | L | 1906 | 1906 | E-317-  | E-317-  | J 
+| 1aei | E | albelig | 22 | 22 | L | 1912 | 1912 | E-318-  | E-318-  | J 
+| 1aei | E | albelig | 23 | 23 | L | 1918 | 1918 | E-319-  | E-319-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = l = 21
+= 2 = p = 5
+= 2 = p = 19
+= 3 = m = 5
+= 4 = m = 5
+= 4 = l = 20
+= 4 = l = 21
+= 5 = p = 19
+= 5 = l = 20
+= 6 = m = 8
+= 7 = m = 15
+= 10 = m = 15
+= 11 = p = 13
+= 11 = l = 22
+= 13 = m = 15
+= 14 = m = 15
+= 14 = l = 22
+= 15 = a = 16
+= 15 = m = 17
+= 16 = p = 19
+= 18 = m = 19
+= 18 = l = 23
+# Listed 24 contacts. EOF.

@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1klf, chain O.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADHESIN-CHAPERONE COMPLEX, MANNOSE-BOUND, CHAPERONE/ADHESINCOMPLEX COMPLEX
+> pdb_mol_name > CHAPERONE PROTEIN FIMC
+> graphtype > albelig
+> resolution > 2.79
+> date > 11-DEC-01
+> header > CHAPERONE/ADHESIN COMPLEX
+> pdb_org_common > UNKNOWN
+> title > FIMH ADHESIN-FIMC CHAPERONE COMPLEX WITH D-MANNOSE
+> format_version > 2
+> pdbid > 1klf
+> experiment > X-RAY DIFFRACTION
+> chainid > O
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1klf | O | albelig | 1 | 1 | E | 3404 | 3406 | O-2-  | O-4-  | VAL 
+| 1klf | O | albelig | 2 | 2 | E | 3410 | 3412 | O-8-  | O-10-  | RVI 
+| 1klf | O | albelig | 3 | 3 | E | 3419 | 3426 | O-17-  | O-24-  | QVQLAVTN 
+| 1klf | O | albelig | 4 | 4 | E | 3434 | 3441 | O-32-  | O-39-  | LIQSWVEN 
+| 1klf | O | albelig | 5 | 5 | E | 3450 | 3453 | O-48-  | O-51-  | FIVT 
+| 1klf | O | albelig | 6 | 6 | E | 3465 | 3471 | O-63-  | O-69-  | NTLRILD 
+| 1klf | O | albelig | 7 | 7 | E | 3483 | 3492 | O-81-  | O-90-  | SLFWMNVKAI 
+| 1klf | O | albelig | 8 | 8 | E | 3510 | 3517 | O-108-  | O-115-  | ISRIKLYY 
+| 1klf | O | albelig | 9 | 9 | H | 3526 | 3528 | O-124-  | O-126-  | PDQ 
+| 1klf | O | albelig | 10 | 10 | E | 3541 | 3546 | O-139-  | O-144-  | SLTLIN 
+| 1klf | O | albelig | 11 | 11 | E | 3552 | 3558 | O-150-  | O-156-  | LTVTELN 
+| 1klf | O | albelig | 12 | 12 | E | 3567 | 3569 | O-165-  | O-167-  | ALV 
+| 1klf | O | albelig | 13 | 13 | E | 3573 | 3578 | O-171-  | O-176-  | GESTVK 
+| 1klf | O | albelig | 14 | 14 | E | 3588 | 3591 | O-186-  | O-189-  | TYRT 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = p = 8
+= 3 = a = 6
+= 4 = a = 7
+= 5 = a = 6
+= 7 = a = 8
+= 10 = a = 12
+= 10 = a = 13
+= 11 = a = 12
+= 11 = a = 14
+= 12 = a = 13
+# Listed 11 contacts. EOF.

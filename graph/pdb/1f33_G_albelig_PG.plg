@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f33, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DODECAMER, DNA BINDING PROTEIN
+> pdb_mol_name > DNA PROTECTION DURING STARVATION PROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 31-MAY-00
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURAL BASIS FOR DNA PROTECTION BY E. COLI DPS PROTEIN
+> format_version > 2
+> pdbid > 1f33
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f33 | G | albelig | 1 | 1 | H | 957 | 987 | G-23-  | G-53-  | DSEKKATVELLNRQVIQFIDLSLITKQAHWN 
+| 1f33 | G | albelig | 2 | 2 | H | 993 | 1020 | G-59-  | G-86-  | FIAVHEMLDGFRTALIDHLDTMAERAVQ 
+| 1f33 | G | albelig | 3 | 3 | H | 1029 | 1035 | G-95-  | G-101-  | TQVINSK 
+| 1f33 | G | albelig | 4 | 4 | H | 1048 | 1072 | G-114-  | G-138-  | VQDHLKELADRYAIVANDVRKAIGE 
+| 1f33 | G | albelig | 5 | 5 | H | 1076 | 1097 | G-142-  | G-163-  | DDTADILTAASRDLDKFLWFIE 
+| 1f33 | G | albelig | 6 | 6 | L | 1896 | 1896 | G-607-  | G-607-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = a = 4
+= 1 = p = 5
+= 2 = p = 4
+= 2 = a = 5
+= 4 = a = 5
+= 5 = l = 6
+# Listed 8 contacts. EOF.

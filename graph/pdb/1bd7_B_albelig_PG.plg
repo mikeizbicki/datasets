@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bd7, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EYE-LENS PROTEIN, BETA-CRYSTALLIN B, MULTIGENE FAMILY
+> pdb_mol_name > CIRCULARLY PERMUTED BB2-CRYSTALLIN
+> graphtype > albelig
+> resolution > 2.78
+> date > 12-MAY-98
+> header > EYE-LENS PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > CIRCULARLY PERMUTED BB2-CRYSTALLIN
+> format_version > 2
+> pdbid > 1bd7
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bd7 | B | albelig | 1 | 1 | E | 180 | 186 | B-89-  | B-95-  | KIILYEN 
+| 1bd7 | B | albelig | 2 | 2 | E | 190 | 197 | B-99-  | B-106-  | TGKKMEIV 
+| 1bd7 | B | albelig | 3 | 3 | H | 205 | 207 | B-113-  | B-116-  | HAH 
+| 1bd7 | B | albelig | 4 | 4 | E | 215 | 218 | B-123-  | B-126-  | SVRV 
+| 1bd7 | B | albelig | 5 | 5 | E | 222 | 228 | B-130-  | B-136-  | TWVGYQY 
+| 1bd7 | B | albelig | 6 | 6 | E | 232 | 238 | B-140-  | B-146-  | RGLQYLL 
+| 1bd7 | B | albelig | 7 | 7 | E | 241 | 243 | B-149-  | B-151-  | GDY 
+| 1bd7 | B | albelig | 8 | 8 | H | 246 | 249 | B-154-  | B-157-  | NSDF 
+| 1bd7 | B | albelig | 9 | 9 | E | 258 | 262 | B-166-  | B-170-  | SVRRI 
+| 1bd7 | B | albelig | 10 | 10 | E | 270 | 276 | B-2-  | B-8-  | KIIIFEQ 
+| 1bd7 | B | albelig | 11 | 11 | H | 277 | 279 | B-9-  | B-11-  | ENF 
+| 1bd7 | B | albelig | 12 | 12 | E | 280 | 286 | B-12-  | B-18-  | QGHSHEL 
+| 1bd7 | B | albelig | 13 | 13 | H | 293 | 296 | B-25-  | B-28-  | LKET 
+| 1bd7 | B | albelig | 14 | 14 | E | 303 | 308 | B-34-  | B-39-  | SVLVQA 
+| 1bd7 | B | albelig | 15 | 15 | E | 311 | 316 | B-42-  | B-47-  | WVGYEQ 
+| 1bd7 | B | albelig | 16 | 16 | E | 320 | 326 | B-51-  | B-57-  | KGEQFVF 
+| 1bd7 | B | albelig | 17 | 17 | E | 329 | 331 | B-60-  | B-62-  | GEY 
+| 1bd7 | B | albelig | 18 | 18 | H | 334 | 336 | B-65-  | B-67-  | WDS 
+| 1bd7 | B | albelig | 19 | 19 | E | 344 | 346 | B-77-  | B-79-  | SLR 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 16
+= 10 = m = 11
+= 10 = a = 12
+= 10 = a = 14
+= 11 = m = 12
+= 11 = m = 14
+= 14 = a = 17
+= 15 = a = 16
+= 15 = a = 19
+# Listed 14 contacts. EOF.

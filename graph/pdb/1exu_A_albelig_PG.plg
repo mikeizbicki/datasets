@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1exu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN BINDING PROTEIN, IMMUNE SYSTEM
+> pdb_mol_name > IGG RECEPTOR FCRN LARGE SUBUNIT P51
+> graphtype > albelig
+> resolution > 2.7
+> date > 04-MAY-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE HUMAN MHC-RELATED FC RECEPTOR
+> format_version > 2
+> pdbid > 1exu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1exu | A | albelig | 1 | 1 | E | 3 | 11 | A-6-  | A-14-  | SLLYHLTAV 
+| 1exu | A | albelig | 2 | 2 | E | 21 | 27 | A-24-  | A-30-  | FWVSGWL 
+| 1exu | A | albelig | 3 | 3 | E | 30 | 36 | A-33-  | A-39-  | QQYLSYN 
+| 1exu | A | albelig | 4 | 4 | H | 52 | 70 | A-62-  | A-80-  | EKETTDLRIKEKLFLEAFK 
+| 1exu | A | albelig | 5 | 5 | E | 79 | 88 | A-89-  | A-98-  | TLQGLLGAEL 
+| 1exu | A | albelig | 6 | 6 | E | 94 | 102 | A-104-  | A-112-  | SVPTAKFAL 
+| 1exu | A | albelig | 7 | 7 | E | 105 | 111 | A-115-  | A-121-  | EEFMNFD 
+| 1exu | A | albelig | 8 | 8 | E | 116 | 118 | A-126-  | A-128-  | TWG 
+| 1exu | A | albelig | 9 | 9 | H | 122 | 132 | A-132-  | A-142-  | PEALAISQRWQ 
+| 1exu | A | albelig | 10 | 10 | H | 137 | 148 | A-147-  | A-158-  | AANKELTFLLFS 
+| 1exu | A | albelig | 11 | 11 | H | 149 | 158 | A-159-  | A-168-  | APHRLREHLE 
+| 1exu | A | albelig | 12 | 12 | H | 161 | 164 | A-171-  | A-174-  | RGNL 
+| 1exu | A | albelig | 13 | 13 | E | 171 | 178 | A-181-  | A-188-  | SMRLKARP 
+| 1exu | A | albelig | 14 | 14 | E | 183 | 193 | A-193-  | A-203-  | FSVLTNSAFSF 
+| 1exu | A | albelig | 15 | 15 | E | 198 | 204 | A-208-  | A-214-  | LQLRFLR 
+| 1exu | A | albelig | 16 | 16 | E | 216 | 218 | A-226-  | A-228-  | FGP 
+| 1exu | A | albelig | 17 | 17 | E | 224 | 233 | A-234-  | A-243-  | FHASSSLTVK 
+| 1exu | A | albelig | 18 | 18 | H | 237 | 239 | A-247-  | A-249-  | EHH 
+| 1exu | A | albelig | 19 | 19 | E | 240 | 246 | A-250-  | A-256-  | YCNIVQH 
+| 1exu | A | albelig | 20 | 20 | E | 253 | 256 | A-263-  | A-266-  | LRVE 
+| 1exu | A | albelig | 21 | 21 | L | 358 | 358 | A-500-  | A-500-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 1 = a = 5
+= 1 = m = 11
+= 2 = a = 3
+= 2 = m = 4
+= 3 = m = 4
+= 3 = l = 21
+= 4 = m = 5
+= 4 = m = 9
+= 5 = a = 6
+= 5 = m = 11
+= 6 = a = 7
+= 7 = a = 8
+= 10 = m = 11
+= 13 = a = 14
+= 13 = p = 20
+= 14 = a = 15
+= 14 = a = 17
+= 14 = p = 19
+= 15 = p = 17
+= 15 = m = 18
+= 15 = a = 19
+= 16 = a = 17
+= 18 = m = 19
+= 19 = a = 20
+# Listed 26 contacts. EOF.

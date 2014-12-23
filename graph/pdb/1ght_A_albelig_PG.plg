@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ght, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RECOMBINASE, CATALYTIC DOMAIN, MIXED ALPHA BETA, MONOMER,DNA BINDING PROTEIN
+> pdb_mol_name > TRANSPOSON GAMMA-DELTA RESOLVASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 11-JAN-01
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE CATALYTIC DOMAIN OF GAMMA DELTARESOLVASE
+> format_version > 2
+> pdbid > 1ght
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ght | A | albelig | 1 | 1 | E | 3 | 6 | A-3-  | A-6-  | LFGY 
+| 1ght | A | albelig | 2 | 2 | H | 15 | 26 | A-15-  | A-26-  | SLDIQVRALKDA 
+| 1ght | A | albelig | 3 | 3 | H | 30 | 32 | A-30-  | A-32-  | ANR 
+| 1ght | A | albelig | 4 | 4 | H | 47 | 54 | A-47-  | A-54-  | GLDLLRMK 
+| 1ght | A | albelig | 5 | 5 | E | 60 | 63 | A-60-  | A-63-  | VILV 
+| 1ght | A | albelig | 6 | 6 | H | 75 | 85 | A-75-  | A-85-  | DMIQLIKEFDA 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = p = 5
+= 4 = m = 6
+# Listed 3 contacts. EOF.

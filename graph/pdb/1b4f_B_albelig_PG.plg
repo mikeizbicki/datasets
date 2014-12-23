@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b4f, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SAM DOMAIN, EPH RECEPTOR, SIGNAL TRANSDUCTION, OLIGOMER
+> pdb_mol_name > EPHB2
+> graphtype > albelig
+> resolution > 1.95
+> date > 20-DEC-98
+> header > SIGNAL TRANSDUCTION
+> pdb_org_common > HUMAN
+> title > OLIGOMERIC STRUCTURE OF THE HUMAN EPHB2 RECEPTOR SAM DOMAIN
+> format_version > 2
+> pdbid > 1b4f
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b4f | B | albelig | 1 | 1 | H | 86 | 92 | B-14-  | B-20-  | VDEWLEA 
+| 1b4f | B | albelig | 2 | 2 | H | 96 | 104 | B-24-  | B-32-  | GQYKESFAN 
+| 1b4f | B | albelig | 3 | 3 | H | 110 | 113 | B-38-  | B-41-  | FDVV 
+| 1b4f | B | albelig | 4 | 4 | H | 118 | 124 | B-46-  | B-52-  | MEDILRV 
+| 1b4f | B | albelig | 5 | 5 | H | 129 | 150 | B-57-  | B-78-  | AGHQKKILNSIQVMRAQMNQIQ 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 4 = m = 5
+# Listed 2 contacts. EOF.

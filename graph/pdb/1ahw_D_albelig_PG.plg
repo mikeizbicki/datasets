@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahw, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLOOD COAGULATION, TISSUE FACTOR, FAB, COMPLEX, ANTIBODY,COMPLEX (IMMUNOGLOBULIN/TISSUE FACTOR)
+> pdb_mol_name > IMMUNOGLOBULIN FAB 5G9 (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 10-APR-97
+> header > COMPLEX (IMMUNOGLOBULIN/TISSUE FACTOR)
+> pdb_org_common > HOUSE MOUSE
+> title > A COMPLEX OF EXTRACELLULAR DOMAIN OF TISSUE FACTOR WITH ANINHIBITORY FAB (5G9)
+> format_version > 2
+> pdbid > 1ahw
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahw | D | albelig | 1 | 1 | E | 636 | 639 | D-4-  | D-7-  | MTQS 
+| 1ahw | D | albelig | 2 | 2 | E | 642 | 646 | D-10-  | D-14-  | SMYAS 
+| 1ahw | D | albelig | 3 | 3 | E | 651 | 657 | D-19-  | D-25-  | VTITGKA 
+| 1ahw | D | albelig | 4 | 4 | E | 665 | 670 | D-33-  | D-38-  | LNWYQQ 
+| 1ahw | D | albelig | 5 | 5 | E | 677 | 681 | D-45-  | D-49-  | KTLIY 
+| 1ahw | D | albelig | 6 | 6 | E | 694 | 699 | D-62-  | D-67-  | FSGSGS 
+| 1ahw | D | albelig | 7 | 7 | E | 702 | 707 | D-70-  | D-75-  | DYSLTI 
+| 1ahw | D | albelig | 8 | 8 | H | 712 | 714 | D-80-  | D-82-  | SDD 
+| 1ahw | D | albelig | 9 | 9 | E | 716 | 722 | D-84-  | D-90-  | ATYYGLQ 
+| 1ahw | D | albelig | 10 | 10 | E | 734 | 739 | D-102-  | D-107-  | TKLEIN 
+| 1ahw | D | albelig | 11 | 11 | E | 746 | 750 | D-114-  | D-118-  | TVSIF 
+| 1ahw | D | albelig | 12 | 12 | H | 754 | 759 | D-122-  | D-127-  | SEQLTS 
+| 1ahw | D | albelig | 13 | 13 | E | 764 | 771 | D-132-  | D-139-  | VVHFLNNF 
+| 1ahw | D | albelig | 14 | 14 | E | 777 | 782 | D-145-  | D-150-  | NVKWKI 
+| 1ahw | D | albelig | 15 | 15 | E | 791 | 795 | D-159-  | D-163-  | VLNSW 
+| 1ahw | D | albelig | 16 | 16 | E | 805 | 811 | D-173-  | D-179-  | YSMSSTL 
+| 1ahw | D | albelig | 17 | 17 | H | 815 | 820 | D-183-  | D-188-  | KDEYER 
+| 1ahw | D | albelig | 18 | 18 | E | 823 | 829 | D-191-  | D-197-  | SYTHEAT 
+| 1ahw | D | albelig | 19 | 19 | E | 837 | 842 | D-205-  | D-210-  | IVKSFN 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 11 = p = 19
+= 13 = a = 16
+= 13 = p = 18
+= 14 = p = 16
+= 14 = a = 18
+= 15 = a = 16
+= 18 = a = 19
+# Listed 18 contacts. EOF.

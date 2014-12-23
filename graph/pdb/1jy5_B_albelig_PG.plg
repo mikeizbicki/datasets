@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jy5, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNASE, ALPHA-BETA PROTEIN, HYDROLASE
+> pdb_mol_name > CALSEPRRP
+> graphtype > albelig
+> resolution > 2.05
+> date > 11-SEP-01
+> header > HYDROLASE
+> pdb_org_common > HEDGE BINDWEED
+> title > RNASE-RELATED PROTEIN FROM CALYSTEGIA SEPIUM
+> format_version > 2
+> pdbid > 1jy5
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CALYSTEGIA SEPIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jy5 | B | albelig | 1 | 1 | E | 211 | 218 | B-7-  | B-14-  | YFTLALTW 
+| 1jy5 | B | albelig | 2 | 2 | H | 219 | 222 | B-15-  | B-18-  | SGTE 
+| 1jy5 | B | albelig | 3 | 3 | H | 231 | 233 | B-30-  | B-32-  | AGS 
+| 1jy5 | B | albelig | 4 | 4 | E | 241 | 249 | B-40-  | B-48-  | FTIKGLWPD 
+| 1jy5 | B | albelig | 5 | 5 | H | 266 | 279 | B-65-  | B-78-  | QNEISILSNDLSKY 
+| 1jy5 | B | albelig | 6 | 6 | E | 288 | 290 | B-87-  | B-89-  | SSA 
+| 1jy5 | B | albelig | 7 | 7 | E | 293 | 295 | B-92-  | B-94-  | SFD 
+| 1jy5 | B | albelig | 8 | 8 | H | 298 | 305 | B-97-  | B-104-  | DLAYEWAK 
+| 1jy5 | B | albelig | 9 | 9 | H | 307 | 310 | B-106-  | B-109-  | GTJS 
+| 1jy5 | B | albelig | 10 | 10 | H | 317 | 330 | B-116-  | B-129-  | QYEYFSTTLMLYFK 
+| 1jy5 | B | albelig | 11 | 11 | H | 333 | 338 | B-132-  | B-137-  | ISEILS 
+| 1jy5 | B | albelig | 12 | 12 | E | 345 | 351 | B-144-  | B-150-  | SNTAEYK 
+| 1jy5 | B | albelig | 13 | 13 | H | 352 | 363 | B-151-  | B-162-  | VEGIMSAIQSAL 
+| 1jy5 | B | albelig | 14 | 14 | E | 368 | 371 | B-167-  | B-170-  | VVKK 
+| 1jy5 | B | albelig | 15 | 15 | E | 376 | 383 | B-175-  | B-182-  | VEQVQILF 
+| 1jy5 | B | albelig | 16 | 16 | E | 402 | 405 | B-201-  | B-204-  | LVSL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 1 = a = 15
+= 4 = m = 5
+= 4 = a = 10
+= 5 = p = 10
+= 6 = a = 7
+= 6 = m = 8
+= 8 = m = 9
+= 8 = m = 10
+= 11 = m = 13
+= 12 = m = 13
+= 12 = a = 16
+= 14 = a = 15
+= 15 = a = 16
+# Listed 15 contacts. EOF.

@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ego, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT
+> pdb_mol_name > GLUTAREDOXIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 08-OCT-91
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF OXIDIZED ESCHERICHIA COLI GLUTAREDOXIN:COMPARISON WITH REDUCED E. COLI GLUTAREDOXIN ANDFUNCTIONALLY RELATED PROTEINS
+> format_version > 2
+> pdbid > 1ego
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ego | A | albelig | 1 | 1 | E | 2 | 6 | A-2-  | A-6-  | QTVIF 
+| 1ego | A | albelig | 2 | 2 | H | 13 | 28 | A-13-  | A-28-  | YAVRAKDLAEKLSNER 
+| 1ego | A | albelig | 3 | 3 | E | 32 | 36 | A-32-  | A-36-  | QYQYV 
+| 1ego | A | albelig | 4 | 4 | H | 38 | 41 | A-38-  | A-41-  | IRAE 
+| 1ego | A | albelig | 5 | 5 | H | 46 | 51 | A-46-  | A-51-  | EDLQQK 
+| 1ego | A | albelig | 6 | 6 | E | 61 | 64 | A-61-  | A-64-  | QIFV 
+| 1ego | A | albelig | 7 | 7 | E | 67 | 70 | A-67-  | A-70-  | QHIG 
+| 1ego | A | albelig | 8 | 8 | H | 73 | 84 | A-73-  | A-84-  | TDFAAWVKENLD 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 6
+= 2 = p = 8
+= 6 = a = 7
+= 7 = m = 8
+# Listed 5 contacts. EOF.

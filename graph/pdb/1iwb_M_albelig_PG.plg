@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iwb, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA-BARRELS, LYASE
+> pdb_mol_name > DIOL DEHYDRATASE GAMMA CHAIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 01-MAY-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF DIOL DEHYDRATASE
+> format_version > 2
+> pdbid > 1iwb
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA OXYTOCA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iwb | M | albelig | 1 | 1 | H | 1600 | 1602 | M-40-  | M-42-  | VSD 
+| 1iwb | M | albelig | 2 | 2 | H | 1605 | 1608 | M-45-  | M-48-  | LANK 
+| 1iwb | M | albelig | 3 | 3 | H | 1610 | 1612 | M-50-  | M-52-  | PEW 
+| 1iwb | M | albelig | 4 | 4 | H | 1621 | 1623 | M-61-  | M-63-  | LDD 
+| 1iwb | M | albelig | 5 | 5 | H | 1626 | 1630 | M-66-  | M-70-  | LENVL 
+| 1iwb | M | albelig | 6 | 6 | H | 1636 | 1638 | M-76-  | M-78-  | AQD 
+| 1iwb | M | albelig | 7 | 7 | H | 1643 | 1655 | M-83-  | M-95-  | PETLRLQASIAKD 
+| 1iwb | M | albelig | 8 | 8 | H | 1659 | 1671 | M-99-  | M-111-  | DRLAMNFERAAEL 
+| 1iwb | M | albelig | 9 | 9 | H | 1676 | 1686 | M-116-  | M-126-  | DDRILEIYNAL 
+| 1iwb | M | albelig | 10 | 10 | H | 1693 | 1707 | M-133-  | M-147-  | KEELLAIADDLESRY 
+| 1iwb | M | albelig | 11 | 11 | H | 1710 | 1725 | M-150-  | M-165-  | KICAAFVREAATLYVE 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 7 = a = 8
+= 8 = m = 11
+= 9 = m = 10
+= 10 = a = 11
+# Listed 4 contacts. EOF.

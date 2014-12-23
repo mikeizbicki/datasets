@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hqb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 3-HELIX BUNDLE, TRANSPORT PROTEIN
+> pdb_mol_name > APO-D-ALANYL CARRIER PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-DEC-00
+> header > TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > TERTIARY STRUCTURE OF APO-D-ALANYL CARRIER PROTEIN
+> format_version > 2
+> pdbid > 1hqb
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LACTOBACILLUS CASEI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hqb | A | albelig | 1 | 1 | H | 3 | 17 | A-4-  | A-18-  | EAIKNGVLDILADLT 
+| 1hqb | A | albelig | 2 | 2 | H | 39 | 48 | A-40-  | A-49-  | MGTVQLLLEL 
+| 1hqb | A | albelig | 3 | 3 | H | 69 | 77 | A-70-  | A-78-  | PNKIIAKVE 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+# Listed 2 contacts. EOF.

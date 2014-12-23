@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b33, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGHT-HARVESTING PROTEIN, CYANOBACTERIA, ALLOPHYCOCYANIN,LINKER POLYPEPTIDES, COMPLEX STRUCTURE, PHOTOSYNTHESIS
+> pdb_mol_name > ALLOPHYCOCYANIN, BETA CHAIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 15-DEC-98
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF LIGHT HARVESTING COMPLEX OF ALLOPHYCOCYANINALPHA AND BETA CHAINS/CORE-LINKER COMPLEX AP*LC7.8
+> format_version > 2
+> pdbid > 1b33
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MASTIGOCLADUS LAMINOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b33 | B | albelig | 1 | 1 | H | 165 | 174 | B-4-  | B-13-  | AITAVINSSD 
+| 1b33 | B | albelig | 2 | 2 | H | 182 | 207 | B-21-  | B-46-  | TAALEKLKSYFSTGELRVRAATTIAA 
+| 1b33 | B | albelig | 3 | 3 | H | 209 | 220 | B-48-  | B-59-  | AAAIVKEAVAKS 
+| 1b33 | B | albelig | 4 | 4 | H | 236 | 259 | B-75-  | B-98-  | TRRYAACIRDLDYYLRYATYAMLA 
+| 1b33 | B | albelig | 5 | 5 | H | 263 | 268 | B-102-  | B-107-  | SILDER 
+| 1b33 | B | albelig | 6 | 6 | H | 273 | 280 | B-112-  | B-119-  | LKETYNSL 
+| 1b33 | B | albelig | 7 | 7 | H | 284 | 321 | B-123-  | B-160-  | ISATVQAIQAMKEVTASLVGPDAGKEMGVYFDYICSGL 
+| 1b33 | B | albelig | 8 | 8 | L | 2081 | 2081 | B-202-  | B-202-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = m = 7
+= 3 = a = 4
+= 3 = a = 7
+= 4 = m = 5
+= 4 = m = 7
+= 4 = l = 8
+= 5 = l = 8
+= 6 = m = 7
+= 6 = l = 8
+= 7 = l = 8
+# Listed 12 contacts. EOF.

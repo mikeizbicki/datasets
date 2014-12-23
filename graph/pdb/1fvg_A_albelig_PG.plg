@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fvg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE
+> pdb_mol_name > PEPTIDE METHIONINE SULFOXIDE REDUCTASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 19-SEP-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF BOVINE PEPTIDE METHIONINE SULFOXIDEREDUCTASE
+> format_version > 2
+> pdbid > 1fvg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fvg | A | albelig | 1 | 1 | E | 38 | 44 | A-64-  | A-70-  | QXAVFGX 
+| 1fvg | A | albelig | 2 | 2 | H | 47 | 55 | A-73-  | A-81-  | FWGAERKFW 
+| 1fvg | A | albelig | 3 | 3 | E | 60 | 68 | A-86-  | A-94-  | VYSTQVGFA 
+| 1fvg | A | albelig | 4 | 4 | H | 77 | 82 | A-103-  | A-108-  | YKEVCS 
+| 1fvg | A | albelig | 5 | 5 | E | 88 | 95 | A-114-  | A-121-  | AEVVRVVF 
+| 1fvg | A | albelig | 6 | 6 | H | 102 | 111 | A-128-  | A-137-  | FEELLKVFWE 
+| 1fvg | A | albelig | 7 | 7 | H | 127 | 129 | A-153-  | A-155-  | SQY 
+| 1fvg | A | albelig | 8 | 8 | E | 131 | 133 | A-157-  | A-159-  | SAI 
+| 1fvg | A | albelig | 9 | 9 | H | 138 | 157 | A-164-  | A-183-  | AEHVGAALKSKEDYQKVLSE 
+| 1fvg | A | albelig | 10 | 10 | H | 178 | 180 | A-204-  | A-206-  | DYH 
+| 1fvg | A | albelig | 11 | 11 | H | 183 | 186 | A-209-  | A-212-  | YLSK 
+| 1fvg | A | albelig | 12 | 12 | L | 196 | 196 | A-300-  | A-300-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = p = 6
+= 1 = a = 8
+= 2 = a = 3
+= 2 = p = 5
+= 2 = m = 11
+= 2 = l = 12
+= 3 = a = 5
+= 4 = l = 12
+= 5 = m = 7
+= 5 = l = 12
+= 6 = m = 8
+= 6 = p = 9
+= 7 = l = 12
+# Listed 14 contacts. EOF.

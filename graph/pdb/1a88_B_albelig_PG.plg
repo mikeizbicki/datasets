@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a88, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HALOPEROXIDASE, OXIDOREDUCTASE
+> pdb_mol_name > CHLOROPEROXIDASE L
+> graphtype > albelig
+> resolution > 1.9
+> date > 03-APR-98
+> header > HALOPEROXIDASE
+> pdb_org_common > UNKNOWN
+> title > CHLOROPEROXIDASE L
+> format_version > 2
+> pdbid > 1a88
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES LIVIDANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a88 | B | albelig | 1 | 1 | E | 278 | 280 | B-2-  | B-4-  | TVT 
+| 1a88 | B | albelig | 2 | 2 | E | 286 | 292 | B-10-  | B-16-  | NIFYKDW 
+| 1a88 | B | albelig | 3 | 3 | E | 299 | 303 | B-23-  | B-27-  | PVVFH 
+| 1a88 | B | albelig | 4 | 4 | H | 310 | 322 | B-34-  | B-46-  | ADDWDNQMLFFLS 
+| 1a88 | B | albelig | 5 | 5 | E | 326 | 330 | B-50-  | B-54-  | RVIAH 
+| 1a88 | B | albelig | 6 | 6 | H | 347 | 361 | B-71-  | B-85-  | MDTYAADVAALTEAL 
+| 1a88 | B | albelig | 7 | 7 | E | 366 | 371 | B-90-  | B-95-  | AVHIGH 
+| 1a88 | B | albelig | 8 | 8 | H | 373 | 384 | B-97-  | B-108-  | TGGGEVARYVAR 
+| 1a88 | B | albelig | 9 | 9 | E | 390 | 396 | B-114-  | B-120-  | VAKAVLV 
+| 1a88 | B | albelig | 10 | 10 | H | 415 | 427 | B-139-  | B-151-  | LEVFDEFRAALAA 
+| 1a88 | B | albelig | 11 | 11 | H | 429 | 438 | B-153-  | B-162-  | RAQFYIDVPS 
+| 1a88 | B | albelig | 12 | 12 | H | 453 | 465 | B-177-  | B-189-  | QGLIDHWWLQGMM 
+| 1a88 | B | albelig | 13 | 13 | H | 468 | 480 | B-192-  | B-204-  | ANAHYECIAAFSE 
+| 1a88 | B | albelig | 14 | 14 | H | 484 | 488 | B-208-  | B-212-  | TDDLK 
+| 1a88 | B | albelig | 15 | 15 | E | 494 | 499 | B-218-  | B-223-  | VLVAHG 
+| 1a88 | B | albelig | 16 | 16 | H | 511 | 517 | B-235-  | B-241-  | APKSAEL 
+| 1a88 | B | albelig | 17 | 17 | E | 521 | 526 | B-245-  | B-250-  | ATLKSY 
+| 1a88 | B | albelig | 18 | 18 | H | 533 | 536 | B-257-  | B-260-  | MLST 
+| 1a88 | B | albelig | 19 | 19 | H | 538 | 550 | B-262-  | B-274-  | PEVLNPDLLAFVK 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 2 = p = 6
+= 3 = p = 5
+= 3 = p = 7
+= 4 = m = 5
+= 4 = p = 19
+= 6 = m = 8
+= 7 = a = 8
+= 7 = p = 9
+= 9 = p = 15
+= 9 = m = 19
+= 10 = a = 13
+= 11 = a = 12
+= 15 = p = 17
+# Listed 15 contacts. EOF.

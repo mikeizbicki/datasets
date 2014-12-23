@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ere, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR RECEPTOR, TRANSCRIPTION FACTOR, STEROID, AGONIST
+> pdb_mol_name > ESTROGEN RECEPTOR
+> graphtype > albelig
+> resolution > 3.1
+> date > 08-SEP-97
+> header > NUCLEAR RECEPTOR
+> pdb_org_common > HUMAN
+> title > HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEXWITH 17BETA-ESTRADIOL
+> format_version > 2
+> pdbid > 1ere
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ere | F | albelig | 1 | 1 | H | 1193 | 1195 | F-307-  | F-309-  | ALS 
+| 1ere | F | albelig | 2 | 2 | H | 1198 | 1208 | F-312-  | F-322-  | ADQMVSALLDA 
+| 1ere | F | albelig | 3 | 3 | H | 1220 | 1243 | F-339-  | F-362-  | EASMMGLLTNLADRELVHMINWAK 
+| 1ere | F | albelig | 4 | 4 | H | 1248 | 1250 | F-367-  | F-369-  | FVD 
+| 1ere | F | albelig | 5 | 5 | H | 1253 | 1276 | F-372-  | F-395-  | LHDQVHLLECAWLEILMIGLVWRS 
+| 1ere | F | albelig | 6 | 6 | E | 1282 | 1286 | F-401-  | F-405-  | KLLFA 
+| 1ere | F | albelig | 7 | 7 | E | 1289 | 1292 | F-408-  | F-411-  | LLLD 
+| 1ere | F | albelig | 8 | 8 | H | 1293 | 1298 | F-412-  | F-417-  | RNQGKC 
+| 1ere | F | albelig | 9 | 9 | H | 1302 | 1318 | F-421-  | F-437-  | MVEIFDMLLATSSRFRM 
+| 1ere | F | albelig | 10 | 10 | H | 1323 | 1336 | F-442-  | F-455-  | GEEFVCLKSIILLN 
+| 1ere | F | albelig | 11 | 11 | H | 1339 | 1341 | F-458-  | F-460-  | VYT 
+| 1ere | F | albelig | 12 | 12 | H | 1345 | 1371 | F-466-  | F-492-  | LKSLEEKDHIHRVLDKITDTLIHLMAK 
+| 1ere | F | albelig | 13 | 13 | H | 1376 | 1409 | F-497-  | F-530-  | LQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKC 
+| 1ere | F | albelig | 14 | 14 | H | 1417 | 1426 | F-538-  | F-547-  | DLLLEMLDAH 
+| 1ere | F | albelig | 15 | 15 | L | 1433 | 1433 | F-600-  | F-600-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 10
+= 2 = m = 12
+= 3 = a = 5
+= 3 = m = 14
+= 3 = l = 15
+= 5 = m = 6
+= 5 = m = 9
+= 5 = a = 10
+= 5 = m = 13
+= 5 = m = 14
+= 5 = l = 15
+= 6 = a = 7
+= 6 = l = 15
+= 7 = m = 8
+= 9 = a = 13
+= 9 = l = 15
+= 10 = a = 12
+= 10 = p = 13
+= 12 = m = 13
+= 13 = l = 15
+# Listed 20 contacts. EOF.

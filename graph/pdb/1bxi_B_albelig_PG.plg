@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bxi, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COLICINS, ENDONUCLEASE, PROTEIN-PROTEIN INTERACTION, IMMUNESYSTEM
+> pdb_mol_name > PROTEIN (COLICIN E9)
+> graphtype > albelig
+> resolution > 2.05
+> date > 04-OCT-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE ESCHERICHIA COLI COLICIN E9 DNASEDOMAIN WITH ITS COGNATE IMMUNITY PROTEIN IM9
+> format_version > 2
+> pdbid > 1bxi
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bxi | B | albelig | 1 | 1 | H | 88 | 90 | B-4-  | B-6-  | KRN 
+| 1bxi | B | albelig | 2 | 2 | H | 106 | 109 | B-22-  | B-25-  | WLDD 
+| 1bxi | B | albelig | 3 | 3 | H | 120 | 126 | B-36-  | B-42-  | DRIADKL 
+| 1bxi | B | albelig | 4 | 4 | H | 134 | 146 | B-50-  | B-62-  | FDDFRKAVWEEVS 
+| 1bxi | B | albelig | 5 | 5 | H | 149 | 152 | B-65-  | B-68-  | PELS 
+| 1bxi | B | albelig | 6 | 6 | H | 157 | 164 | B-73-  | B-80-  | PSNKSSVS 
+| 1bxi | B | albelig | 7 | 7 | H | 173 | 175 | B-89-  | B-91-  | KNQ 
+| 1bxi | B | albelig | 8 | 8 | E | 184 | 187 | B-100-  | B-103-  | ELHH 
+| 1bxi | B | albelig | 9 | 9 | H | 200 | 202 | B-116-  | B-118-  | XDN 
+| 1bxi | B | albelig | 10 | 10 | E | 203 | 206 | B-119-  | B-122-  | IRVT 
+| 1bxi | B | albelig | 11 | 11 | H | 208 | 213 | B-124-  | B-129-  | PKRHID 
+| 1bxi | B | albelig | 12 | 12 | L | 218 | 218 | B-301-  | B-301-  | J 
+| 1bxi | B | albelig | 13 | 13 | L | 219 | 219 | B-403-  | B-403-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 13
+= 3 = m = 4
+= 8 = m = 9
+= 8 = a = 10
+= 8 = m = 11
+= 8 = l = 12
+= 8 = l = 13
+= 9 = m = 10
+= 11 = l = 12
+= 11 = l = 13
+= 12 = l = 13
+# Listed 11 contacts. EOF.

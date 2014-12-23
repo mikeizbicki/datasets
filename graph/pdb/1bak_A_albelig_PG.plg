@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bak, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PLECKSTRIN HOMOLOGY DOMAIN, PH DOMAIN, SIGNAL TRANSDUCTION,G-BETA-GAMMA BINDING DOMAIN, BETA-ADRENERGIC RECEPTORKINASE, BETA-ARK, G-PROTEIN COUPLED RECEPTOR KINASE (GRK-2),TRANSFERASE
+> pdb_mol_name > G-PROTEIN COUPLED RECEPTOR KINASE 2
+> graphtype > albelig
+> resolution > -1.0
+> date > 21-NOV-97
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > SIGNAL TRANSDUCTION PLECKSTRIN HOMOLOGY DOMAIN OF G-PROTEINCOUPLED RECEPTOR KINASE 2 (BETA-ADRENERGIC RECEPTOR KINASE1), C-TERMINAL EXTENDED, NMR, 20 STRUCTURES
+> format_version > 2
+> pdbid > 1bak
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bak | A | albelig | 1 | 1 | E | 10 | 17 | A-561-  | A-568-  | MHGYMSKM 
+| 1bak | A | albelig | 2 | 2 | E | 27 | 32 | A-578-  | A-583-  | RRYFYL 
+| 1bak | A | albelig | 3 | 3 | E | 36 | 40 | A-587-  | A-591-  | RLEWR 
+| 1bak | A | albelig | 4 | 4 | E | 49 | 51 | A-600-  | A-602-  | LLT 
+| 1bak | A | albelig | 5 | 5 | E | 55 | 61 | A-606-  | A-612-  | IQSVEET 
+| 1bak | A | albelig | 6 | 6 | E | 68 | 73 | A-619-  | A-624-  | CLLLKI 
+| 1bak | A | albelig | 7 | 7 | E | 78 | 82 | A-629-  | A-633-  | QFILQ 
+| 1bak | A | albelig | 8 | 8 | H | 86 | 107 | A-637-  | A-658-  | DPELVQWKKELRDAYREAQQLV 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 1 = m = 8
+= 2 = a = 3
+= 2 = m = 8
+= 3 = a = 4
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 6 = m = 8
+# Listed 10 contacts. EOF.

@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b06, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SUPEROXIDE DISMUTASE, OXIDOREDUCTASE
+> pdb_mol_name > PROTEIN (SUPEROXIDE DISMUTASE)
+> graphtype > albelig
+> resolution > 2.2
+> date > 16-NOV-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > SUPEROXIDE DISMUTASE FROM SULFOLOBUS ACIDOCALDARIUS
+> format_version > 2
+> pdbid > 1b06
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SULFOLOBUS ACIDOCALDARIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b06 | D | albelig | 1 | 1 | H | 652 | 663 | D-27-  | D-38-  | KDIIDVHYNGHH 
+| 1b06 | D | albelig | 2 | 2 | H | 664 | 682 | D-39-  | D-57-  | KGYVNGANSLLDRLEKLIK 
+| 1b06 | D | albelig | 3 | 3 | H | 692 | 714 | D-67-  | D-89-  | LQGILRGLTFNINGHKLHAIYWN 
+| 1b06 | D | albelig | 4 | 4 | H | 728 | 738 | D-103-  | D-113-  | GALADLIDKQY 
+| 1b06 | D | albelig | 5 | 5 | H | 741 | 754 | D-116-  | D-129-  | FDRFKQVFSESANS 
+| 1b06 | D | albelig | 6 | 6 | E | 759 | 765 | D-134-  | D-140-  | GWTVLYY 
+| 1b06 | D | albelig | 7 | 7 | E | 772 | 778 | D-147-  | D-153-  | LQIMTVE 
+| 1b06 | D | albelig | 8 | 8 | E | 790 | 795 | D-165-  | D-170-  | VILIVD 
+| 1b06 | D | albelig | 9 | 9 | H | 798 | 800 | D-173-  | D-175-  | EHA 
+| 1b06 | D | albelig | 10 | 10 | H | 802 | 805 | D-177-  | D-180-  | YLQY 
+| 1b06 | D | albelig | 11 | 11 | H | 809 | 819 | D-184-  | D-194-  | RGDYLNAWWNV 
+| 1b06 | D | albelig | 12 | 12 | H | 822 | 830 | D-197-  | D-205-  | WDDAEKRLQ 
+| 1b06 | D | albelig | 13 | 13 | L | 1257 | 1257 | D-325-  | D-325-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = m = 9
+= 1 = l = 13
+= 2 = a = 3
+= 3 = m = 8
+= 3 = l = 13
+= 4 = m = 5
+= 4 = m = 7
+= 4 = m = 12
+= 5 = a = 11
+= 6 = a = 7
+= 6 = a = 8
+= 6 = l = 13
+= 8 = m = 12
+= 8 = l = 13
+= 9 = l = 13
+# Listed 17 contacts. EOF.

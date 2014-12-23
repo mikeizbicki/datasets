@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gio, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDORIBONUCLEASE, HYDROLASE ANGIOGENESIS
+> pdb_mol_name > ANGIOGENIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 12-APR-96
+> header > HYDROLASE ANGIOGENESIS
+> pdb_org_common > CATTLE
+> title > NMR SOLUTION STRUCTURE OF BOVINE ANGIOGENIN, 10 STRUCTURES
+> format_version > 2
+> pdbid > 1gio
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gio | A | albelig | 1 | 1 | H | 8 | 13 | A-8-  | A-13-  | IHFLTQ 
+| 1gio | A | albelig | 2 | 2 | H | 25 | 34 | A-25-  | A-34-  | EYAFNMMKNR 
+| 1gio | A | albelig | 3 | 3 | E | 43 | 48 | A-43-  | A-48-  | RNTFIH 
+| 1gio | A | albelig | 4 | 4 | H | 51 | 55 | A-51-  | A-55-  | KNDIK 
+| 1gio | A | albelig | 5 | 5 | E | 63 | 66 | A-63-  | A-66-  | GQPY 
+| 1gio | A | albelig | 6 | 6 | E | 70 | 73 | A-70-  | A-73-  | LRIS 
+| 1gio | A | albelig | 7 | 7 | E | 77 | 83 | A-77-  | A-83-  | FQITIAK 
+| 1gio | A | albelig | 8 | 8 | E | 96 | 102 | A-96-  | A-102-  | GATEDSR 
+| 1gio | A | albelig | 9 | 9 | E | 105 | 109 | A-105-  | A-109-  | VVGCE 
+| 1gio | A | albelig | 10 | 10 | E | 112 | 117 | A-112-  | A-117-  | LPVHFD 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 10
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 9
+= 7 = a = 8
+= 9 = a = 10
+# Listed 6 contacts. EOF.

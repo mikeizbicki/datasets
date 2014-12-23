@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ekj, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROSSMAN FOLD DOMAIN, STRAND EXCHANGE, LYASE
+> pdb_mol_name > BETA-CARBONIC ANHYDRASE
+> graphtype > albelig
+> resolution > 1.93
+> date > 08-MAR-00
+> header > LYASE
+> pdb_org_common > PEA
+> title > THE X-RAY CRYSTALLOGRAPHIC STRUCTURE OF BETA CARBONICANHYDRASE FROM THE C3 DICOT PISUM SATIVUM
+> format_version > 2
+> pdbid > 1ekj
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > PISUM SATIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ekj | H | albelig | 1 | 1 | H | 1506 | 1524 | H-120-  | H-138-  | EASERIKTGFLHFKKEKYD 
+| 1ekj | H | albelig | 2 | 2 | H | 1527 | 1533 | H-141-  | H-147-  | PALYGEL 
+| 1ekj | H | albelig | 3 | 3 | E | 1541 | 1546 | H-155-  | H-160-  | FMVFAC 
+| 1ekj | H | albelig | 4 | 4 | H | 1553 | 1557 | H-167-  | H-171-  | PSHVL 
+| 1ekj | H | albelig | 5 | 5 | E | 1564 | 1569 | H-178-  | H-183-  | AFVVRN 
+| 1ekj | H | albelig | 6 | 6 | H | 1570 | 1572 | H-184-  | H-186-  | VAN 
+| 1ekj | H | albelig | 7 | 7 | H | 1583 | 1595 | H-197-  | H-209-  | AGTGAAIEYAVLH 
+| 1ekj | H | albelig | 8 | 8 | E | 1600 | 1606 | H-214-  | H-220-  | NIVVIGH 
+| 1ekj | H | albelig | 9 | 9 | H | 1610 | 1617 | H-224-  | H-231-  | GGIKGLLS 
+| 1ekj | H | albelig | 10 | 10 | H | 1629 | 1636 | H-243-  | H-250-  | IEEWVKIG 
+| 1ekj | H | albelig | 11 | 11 | H | 1637 | 1646 | H-251-  | H-260-  | LPAKAKVKAQ 
+| 1ekj | H | albelig | 12 | 12 | H | 1652 | 1671 | H-266-  | H-285-  | FAELCTHCEKEAVNASLGNL 
+| 1ekj | H | albelig | 13 | 13 | H | 1675 | 1682 | H-289-  | H-296-  | PFVREGLV 
+| 1ekj | H | albelig | 14 | 14 | E | 1687 | 1694 | H-301-  | H-308-  | ALKGGYYD 
+| 1ekj | H | albelig | 15 | 15 | E | 1699 | 1705 | H-313-  | H-319-  | SFELWGL 
+| 1ekj | H | albelig | 16 | 16 | L | 1749 | 1749 | H-3006-  | H-3006-  | J 
+| 1ekj | H | albelig | 17 | 17 | L | 1750 | 1750 | H-3201-  | H-3201-  | J 
+| 1ekj | H | albelig | 18 | 18 | L | 1751 | 1751 | H-4008-  | H-4008-  | J 
+| 1ekj | H | albelig | 19 | 19 | L | 1752 | 1752 | H-2001-  | H-2001-  | J 
+| 1ekj | H | albelig | 20 | 20 | L | 1753 | 1753 | H-3301-  | H-3301-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = p = 5
+= 3 = m = 6
+= 3 = p = 8
+= 3 = l = 16
+= 3 = l = 18
+= 5 = m = 6
+= 6 = l = 16
+= 6 = l = 18
+= 7 = l = 19
+= 8 = a = 12
+= 8 = p = 14
+= 8 = l = 16
+= 8 = l = 18
+= 9 = m = 10
+= 9 = m = 12
+= 9 = l = 16
+= 9 = l = 18
+= 10 = l = 17
+= 10 = l = 19
+= 10 = l = 20
+= 11 = l = 17
+= 11 = l = 20
+= 12 = a = 14
+= 12 = m = 15
+= 12 = l = 20
+= 14 = a = 15
+= 16 = l = 18
+= 17 = l = 20
+# Listed 29 contacts. EOF.

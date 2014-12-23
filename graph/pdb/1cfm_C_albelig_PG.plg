@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cfm, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME F, PLASTOCYANIN, PROTON WIRE, HEME, ELECTRONTRANSPORT
+> pdb_mol_name > CYTOCHROME F
+> graphtype > albelig
+> resolution > 2.0
+> date > 18-SEP-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CYTOCHROME F FROM CHLAMYDOMONAS REINHARDTII
+> format_version > 2
+> pdbid > 1cfm
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CHLAMYDOMONAS REINHARDTII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cfm | C | albelig | 1 | 1 | H | 506 | 512 | C-2-  | C-8-  | PVFAQQN 
+| 1cfm | C | albelig | 2 | 2 | H | 524 | 527 | C-20-  | C-23-  | VCAN 
+| 1cfm | C | albelig | 3 | 3 | E | 536 | 538 | C-32-  | C-34-  | EIE 
+| 1cfm | C | albelig | 4 | 4 | E | 548 | 554 | C-44-  | C-50-  | VFEAVIE 
+| 1cfm | C | albelig | 5 | 5 | E | 574 | 580 | C-70-  | C-76-  | NVGMVLI 
+| 1cfm | C | albelig | 6 | 6 | H | 590 | 592 | C-86-  | C-88-  | PDR 
+| 1cfm | C | albelig | 7 | 7 | H | 595 | 601 | C-91-  | C-97-  | AEIKEKV 
+| 1cfm | C | albelig | 8 | 8 | E | 607 | 610 | C-103-  | C-106-  | QPYS 
+| 1cfm | C | albelig | 9 | 9 | E | 613 | 623 | C-109-  | C-119-  | QKNILVVGPVP 
+| 1cfm | C | albelig | 10 | 10 | H | 624 | 627 | C-120-  | C-123-  | GKKY 
+| 1cfm | C | albelig | 11 | 11 | E | 629 | 635 | C-125-  | C-131-  | EMVVPIL 
+| 1cfm | C | albelig | 12 | 12 | E | 649 | 658 | C-145-  | C-154-  | KYPIYFGGNR 
+| 1cfm | C | albelig | 13 | 13 | E | 681 | 690 | C-177-  | C-186-  | GKIVAITALS 
+| 1cfm | C | albelig | 14 | 14 | E | 694 | 702 | C-190-  | C-198-  | GGFEVSIEK 
+| 1cfm | C | albelig | 15 | 15 | E | 707 | 712 | C-203-  | C-208-  | VVVDKI 
+| 1cfm | C | albelig | 16 | 16 | E | 740 | 750 | C-236-  | C-246-  | GFGQAETEIVL 
+| 1cfm | C | albelig | 17 | 17 | L | 758 | 758 | C-255-  | C-255-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 1 = l = 17
+= 2 = l = 17
+= 3 = a = 4
+= 4 = a = 11
+= 5 = a = 9
+= 5 = a = 12
+= 5 = l = 17
+= 8 = a = 9
+= 9 = m = 10
+= 9 = l = 17
+= 12 = a = 16
+= 12 = l = 17
+= 13 = a = 14
+= 14 = a = 15
+= 16 = l = 17
+# Listed 16 contacts. EOF.

@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ioj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > APOLIPOPROTEIN, AMPHIPATHIC HELIX, LIPID ASSOCIATION, LCATACTIVATION
+> pdb_mol_name > APOC-I
+> graphtype > albelig
+> resolution > -1.0
+> date > 12-MAY-98
+> header > APOLIPOPROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN APOLIPOPROTEIN C-I, NMR, 18 STRUCTURES
+> format_version > 2
+> pdbid > 1ioj
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ioj | A | albelig | 1 | 1 | H | 13 | 25 | A-13-  | A-25-  | EFGNTLEDKAREL 
+| 1ioj | A | albelig | 2 | 2 | H | 37 | 52 | A-37-  | A-52-  | KMREWFSETFQKVKEK 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

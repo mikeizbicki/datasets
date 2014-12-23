@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a5h, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRYPSIN LIKE SERINE PROTEASE, FIBRINOLYTIC ENZYME, HYDROLASE
+> pdb_mol_name > TISSUE PLASMINOGEN ACTIVATOR
+> graphtype > albelig
+> resolution > 2.9
+> date > 17-FEB-98
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CATALYTIC DOMAIN OF HUMAN TWO-CHAIN TISSUE PLASMINOGENACTIVATOR COMPLEX OF A BIS-BENZAMIDINE
+> format_version > 2
+> pdbid > 1a5h
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a5h | B | albelig | 1 | 1 | H | 278 | 280 | B-24-  | B-26-  | IAS 
+| 1a5h | B | albelig | 2 | 2 | E | 284 | 290 | B-30-  | B-36-  | QAAIFAK 
+| 1a5h | B | albelig | 3 | 3 | E | 297 | 307 | B-38-  | B-48-  | ERFLHGGILIS 
+| 1a5h | B | albelig | 4 | 4 | E | 310 | 313 | B-51-  | B-54-  | WILS 
+| 1a5h | B | albelig | 5 | 5 | H | 315 | 318 | B-56-  | B-59-  | AHHF 
+| 1a5h | B | albelig | 6 | 6 | H | 324 | 326 | B-61-  | B-63-  | PHH 
+| 1a5h | B | albelig | 7 | 7 | E | 327 | 331 | B-64-  | B-68-  | LTVIL 
+| 1a5h | B | albelig | 8 | 8 | E | 344 | 353 | B-81-  | B-90-  | QKFEVEKYIV 
+| 1a5h | B | albelig | 9 | 9 | E | 367 | 371 | B-104-  | B-108-  | ALLQL 
+| 1a5h | B | albelig | 10 | 10 | E | 402 | 407 | B-135-  | B-140-  | EJELSG 
+| 1a5h | B | albelig | 11 | 11 | E | 423 | 429 | B-156-  | B-162-  | KEAHVRL 
+| 1a5h | B | albelig | 12 | 12 | H | 437 | 439 | B-169-A | B-170-  | SQH 
+| 1a5h | B | albelig | 13 | 13 | E | 449 | 453 | B-180-  | B-184-  | MLKAG 
+| 1a5h | B | albelig | 14 | 14 | E | 475 | 480 | B-198-  | B-203-  | PLVJLN 
+| 1a5h | B | albelig | 15 | 15 | E | 483 | 492 | B-206-  | B-215-  | RMTLVGIISW 
+| 1a5h | B | albelig | 16 | 16 | E | 503 | 507 | B-226-  | B-230-  | GVYTK 
+| 1a5h | B | albelig | 17 | 17 | H | 508 | 518 | B-231-  | B-241-  | VTNYLDWIRDN 
+| 1a5h | B | albelig | 18 | 18 | L | 523 | 523 | B-250-  | B-250-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 6
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 9
+= 5 = l = 18
+= 6 = m = 7
+= 6 = m = 8
+= 7 = a = 8
+= 8 = a = 9
+= 10 = a = 11
+= 10 = a = 14
+= 11 = a = 13
+= 13 = a = 16
+= 13 = l = 18
+= 14 = a = 15
+= 15 = a = 16
+= 15 = l = 18
+= 16 = m = 17
+= 16 = l = 18
+# Listed 20 contacts. EOF.

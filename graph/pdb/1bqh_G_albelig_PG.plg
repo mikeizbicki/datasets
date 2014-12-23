@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bqh, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > T-CELL, CORECEPTOR, GLYCOPROTEIN, COMPLEX, IMMUNOLOGY, ANTIGEN,IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (CD8A OR LYT2 OR LYT-2)
+> graphtype > albelig
+> resolution > 2.8
+> date > 16-AUG-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > MURINE CD8AA ECTODOMAIN FRAGMENT IN COMPLEX WITH H-2KB/VSV8
+> format_version > 2
+> pdbid > 1bqh
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bqh | G | albelig | 1 | 1 | E | 774 | 778 | G-6-  | G-10-  | ELRIF 
+| 1bqh | G | albelig | 2 | 2 | E | 790 | 797 | G-22-  | G-29-  | VDLVGEVL 
+| 1bqh | G | albelig | 3 | 3 | E | 804 | 809 | G-36-  | G-41-  | CSWLFQ 
+| 1bqh | G | albelig | 4 | 4 | E | 819 | 824 | G-51-  | G-56-  | TFVVYM 
+| 1bqh | G | albelig | 5 | 5 | E | 831 | 833 | G-63-  | G-65-  | ITW 
+| 1bqh | G | albelig | 6 | 6 | E | 843 | 848 | G-75-  | G-80-  | FSAMRD 
+| 1bqh | G | albelig | 7 | 7 | E | 852 | 857 | G-84-  | G-89-  | KYVLTL 
+| 1bqh | G | albelig | 8 | 8 | H | 862 | 864 | G-94-  | G-96-  | KEN 
+| 1bqh | G | albelig | 9 | 9 | E | 867 | 873 | G-99-  | G-105-  | YYFGSVI 
+| 1bqh | G | albelig | 10 | 10 | E | 878 | 880 | G-110-  | G-112-  | MYF 
+| 1bqh | G | albelig | 11 | 11 | L | 1266 | 1266 | G-130-  | G-130-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 7
+= 2 = p = 9
+= 3 = a = 4
+= 3 = p = 7
+= 3 = a = 9
+= 3 = l = 11
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 6 = l = 11
+= 8 = l = 11
+= 9 = a = 10
+# Listed 14 contacts. EOF.

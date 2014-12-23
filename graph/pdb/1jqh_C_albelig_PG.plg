@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jqh, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN KINASE FOLD, TRANSFERASE
+> pdb_mol_name > IGF-1 RECEPTOR KINASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 07-AUG-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > IGF-1 RECEPTOR KINASE DOMAIN
+> format_version > 2
+> pdbid > 1jqh
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jqh | C | albelig | 1 | 1 | E | 600 | 608 | C-999-  | C-1007-  | ITMSRELGQ 
+| 1jqh | C | albelig | 2 | 2 | E | 613 | 623 | C-1012-  | C-1022-  | MVYEGVAKGVV 
+| 1jqh | C | albelig | 3 | 3 | E | 626 | 635 | C-1025-  | C-1034-  | EPETRVAIKT 
+| 1jqh | C | albelig | 4 | 4 | H | 642 | 657 | C-1041-  | C-1056-  | MRERIEFLNEASVMKE 
+| 1jqh | C | albelig | 5 | 5 | E | 666 | 670 | C-1065-  | C-1069-  | LLGVV 
+| 1jqh | C | albelig | 6 | 6 | E | 677 | 681 | C-1076-  | C-1080-  | LVIME 
+| 1jqh | C | albelig | 7 | 7 | H | 688 | 693 | C-1087-  | C-1092-  | LKSYLR 
+| 1jqh | C | albelig | 8 | 8 | H | 706 | 725 | C-1109-  | C-1128-  | LSKMIQMAGEIADGMAYLNA 
+| 1jqh | C | albelig | 9 | 9 | H | 735 | 737 | C-1138-  | C-1140-  | ARN 
+| 1jqh | C | albelig | 10 | 10 | E | 738 | 740 | C-1141-  | C-1143-  | CMV 
+| 1jqh | C | albelig | 11 | 11 | E | 746 | 748 | C-1149-  | C-1151-  | VKI 
+| 1jqh | C | albelig | 12 | 12 | H | 767 | 769 | C-1176-  | C-1178-  | VRW 
+| 1jqh | C | albelig | 13 | 13 | H | 772 | 777 | C-1181-  | C-1186-  | PESLKD 
+| 1jqh | C | albelig | 14 | 14 | H | 782 | 797 | C-1191-  | C-1206-  | TYSDVWSFGVVLWEIA 
+| 1jqh | C | albelig | 15 | 15 | H | 809 | 817 | C-1218-  | C-1226-  | NEQVLRFVM 
+| 1jqh | C | albelig | 16 | 16 | H | 830 | 839 | C-1239-  | C-1248-  | DMLFELMRMC 
+| 1jqh | C | albelig | 17 | 17 | H | 844 | 846 | C-1253-  | C-1255-  | PKM 
+| 1jqh | C | albelig | 18 | 18 | H | 850 | 855 | C-1259-  | C-1264-  | FLEIIS 
+| 1jqh | C | albelig | 19 | 19 | H | 858 | 860 | C-1267-  | C-1269-  | KEE 
+| 1jqh | C | albelig | 20 | 20 | H | 865 | 868 | C-1274-  | C-1277-  | FREV 
+| 1jqh | C | albelig | 21 | 21 | L | 883 | 883 | C-306-  | C-306-  | J 
+| 1jqh | C | albelig | 22 | 22 | L | 884 | 884 | C-303-  | C-303-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 22
+= 2 = a = 3
+= 2 = l = 22
+= 3 = a = 6
+= 3 = l = 22
+= 5 = a = 6
+= 6 = l = 22
+= 8 = m = 11
+= 8 = a = 14
+= 8 = m = 16
+= 8 = m = 18
+= 8 = l = 21
+= 9 = m = 10
+= 10 = a = 11
+= 10 = l = 22
+= 12 = m = 14
+= 12 = m = 15
+= 13 = m = 15
+= 14 = m = 16
+# Listed 20 contacts. EOF.

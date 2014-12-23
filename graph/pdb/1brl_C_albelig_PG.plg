@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1brl, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MONOOXYGENASE, LUMINESCENCE
+> pdb_mol_name > BACTERIAL LUCIFERASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 20-MAR-95
+> header > LUMINESCENCE
+> pdb_org_common > UNKNOWN
+> title > THREE-DIMENSIONAL STRUCTURE OF BACTERIAL LUCIFERASE FROMVIBRIO HARVEYI AT 2.4 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1brl
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > VIBRIO HARVEYI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1brl | C | albelig | 1 | 1 | E | 664 | 669 | C-2-  | C-7-  | KFGNFL 
+| 1brl | C | albelig | 2 | 2 | H | 679 | 695 | C-17-  | C-33-  | QTEVMKRLVNLGKASEG 
+| 1brl | C | albelig | 3 | 3 | E | 701 | 704 | C-39-  | C-42-  | VWLL 
+| 1brl | C | albelig | 4 | 4 | H | 717 | 726 | C-55-  | C-64-  | PYVAAAHLLG 
+| 1brl | C | albelig | 5 | 5 | E | 733 | 739 | C-71-  | C-77-  | VGTAAIV 
+| 1brl | C | albelig | 6 | 6 | H | 745 | 759 | C-83-  | C-97-  | PVRQAEDVNLLDQMS 
+| 1brl | C | albelig | 7 | 7 | E | 763 | 768 | C-101-  | C-106-  | FRFGIC 
+| 1brl | C | albelig | 8 | 8 | H | 773 | 779 | C-111-  | C-117-  | DKDFRVF 
+| 1brl | C | albelig | 9 | 9 | H | 786 | 803 | C-124-  | C-141-  | SRALMDCWYDLMKEGFNE 
+| 1brl | C | albelig | 10 | 10 | E | 832 | 835 | C-170-  | C-173-  | VYVV 
+| 1brl | C | albelig | 11 | 11 | H | 839 | 848 | C-177-  | C-186-  | ASTTEWAAER 
+| 1brl | C | albelig | 12 | 12 | E | 852 | 854 | C-190-  | C-192-  | MIL 
+| 1brl | C | albelig | 13 | 13 | H | 860 | 876 | C-198-  | C-214-  | THEKKAQLDLYNEVATE 
+| 1brl | C | albelig | 14 | 14 | E | 887 | 891 | C-225-  | C-229-  | CLSYI 
+| 1brl | C | albelig | 15 | 15 | H | 898 | 918 | C-236-  | C-256-  | SNRAKDICRNFLGHWYDSYVN 
+| 1brl | C | albelig | 16 | 16 | H | 943 | 946 | C-295-  | C-298-  | SYEI 
+| 1brl | C | albelig | 17 | 17 | H | 952 | 966 | C-304-  | C-318-  | PEECIAIIQQDIDAT 
+| 1brl | C | albelig | 18 | 18 | E | 970 | 974 | C-322-  | C-326-  | NICCG 
+| 1brl | C | albelig | 19 | 19 | H | 976 | 978 | C-328-  | C-330-  | EAN 
+| 1brl | C | albelig | 20 | 20 | H | 981 | 994 | C-333-  | C-346-  | EEEIIASMKLFQSD 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 18
+= 2 = p = 20
+= 3 = p = 5
+= 4 = a = 5
+= 4 = p = 6
+= 5 = p = 7
+= 6 = m = 9
+= 7 = p = 10
+= 9 = m = 11
+= 10 = p = 12
+= 11 = m = 13
+= 12 = p = 14
+= 13 = m = 17
+= 14 = p = 18
+= 19 = m = 20
+# Listed 16 contacts. EOF.

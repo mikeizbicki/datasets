@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jvo, chain K.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CUPREDOXIN, ELECTRON TRANSFER, COVALENT CROSSLINK, ELECTRONTRANSPORT
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 2.75
+> date > 30-AUG-01
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > AZURIN DIMER, CROSSLINKED VIA DISULFIDE BRIDGE
+> format_version > 2
+> pdbid > 1jvo
+> experiment > X-RAY DIFFRACTION
+> chainid > K
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jvo | K | albelig | 1 | 1 | E | 1294 | 1298 | K-4-  | K-8-  | SVDIQ 
+| 1jvo | K | albelig | 2 | 2 | E | 1309 | 1312 | K-19-  | K-22-  | AITV 
+| 1jvo | K | albelig | 3 | 3 | E | 1318 | 1324 | K-28-  | K-34-  | QFTVNLS 
+| 1jvo | K | albelig | 4 | 4 | H | 1331 | 1334 | K-41-  | K-44-  | KQVM 
+| 1jvo | K | albelig | 5 | 5 | E | 1339 | 1342 | K-49-  | K-52-  | VLST 
+| 1jvo | K | albelig | 6 | 6 | H | 1346 | 1356 | K-56-  | K-66-  | MQGVVTDGMAS 
+| 1jvo | K | albelig | 7 | 7 | H | 1358 | 1360 | K-68-  | K-70-  | LDK 
+| 1jvo | K | albelig | 8 | 8 | E | 1382 | 1388 | K-92-  | K-98-  | KDSVTFD 
+| 1jvo | K | albelig | 9 | 9 | H | 1389 | 1391 | K-99-  | K-101-  | VSK 
+| 1jvo | K | albelig | 10 | 10 | E | 1398 | 1401 | K-108-  | K-111-  | YMFF 
+| 1jvo | K | albelig | 11 | 11 | H | 1407 | 1409 | K-117-  | K-119-  | HSA 
+| 1jvo | K | albelig | 12 | 12 | E | 1412 | 1417 | K-122-  | K-127-  | KGTLTL 
+| 1jvo | K | albelig | 13 | 13 | L | 1558 | 1558 | K-129-  | K-129-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 12
+= 3 = a = 8
+= 4 = l = 13
+= 5 = a = 10
+= 8 = m = 9
+= 10 = a = 12
+= 11 = l = 13
+# Listed 8 contacts. EOF.

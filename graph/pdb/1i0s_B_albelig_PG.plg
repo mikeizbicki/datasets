@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i0s, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIX STRANDED ANTIPARALLEL BETA-BARREL, FMN AND NADP+BINDING DOMAIN, OXIDOREDUCTASE
+> pdb_mol_name > CONSERVED HYPOTHETICAL PROTEIN
+> graphtype > albelig
+> resolution > 1.65
+> date > 29-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > ARCHAEOGLOBUS FULGIDUS FERRIC REDUCTASE COMPLEX WITH NADP+
+> format_version > 2
+> pdbid > 1i0s
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ARCHAEOGLOBUS FULGIDUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i0s | B | albelig | 1 | 1 | H | 165 | 170 | B-3-  | B-8-  | VEAFYK 
+| 1i0s | B | albelig | 2 | 2 | E | 176 | 182 | B-14-  | B-20-  | YIVTSES 
+| 1i0s | B | albelig | 3 | 3 | E | 185 | 191 | B-23-  | B-29-  | RKCGQIA 
+| 1i0s | B | albelig | 4 | 4 | E | 194 | 199 | B-32-  | B-37-  | VFQLTS 
+| 1i0s | B | albelig | 5 | 5 | E | 202 | 209 | B-40-  | B-47-  | VQIAVCLN 
+| 1i0s | B | albelig | 6 | 6 | H | 213 | 221 | B-51-  | B-59-  | DTHNAVKES 
+| 1i0s | B | albelig | 7 | 7 | E | 223 | 229 | B-61-  | B-67-  | AFGVSVL 
+| 1i0s | B | albelig | 8 | 8 | H | 235 | 240 | B-73-  | B-78-  | MEFIGR 
+| 1i0s | B | albelig | 9 | 9 | H | 248 | 252 | B-86-  | B-90-  | EFEKF 
+| 1i0s | B | albelig | 10 | 10 | E | 257 | 259 | B-95-  | B-97-  | YKT 
+| 1i0s | B | albelig | 11 | 11 | E | 265 | 267 | B-103-  | B-105-  | PLV 
+| 1i0s | B | albelig | 12 | 12 | E | 271 | 284 | B-109-  | B-122-  | AVAVIEAKVVKEAD 
+| 1i0s | B | albelig | 13 | 13 | E | 288 | 300 | B-126-  | B-138-  | HTLFVGEAVDAEV 
+| 1i0s | B | albelig | 14 | 14 | H | 309 | 316 | B-147-  | B-154-  | YADYHLMK 
+| 1i0s | B | albelig | 15 | 15 | H | 322 | 325 | B-160-  | B-163-  | RTAT 
+| 1i0s | B | albelig | 16 | 16 | E | 327 | 329 | B-165-  | B-167-  | YFE 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 6
+= 2 = a = 7
+= 2 = a = 11
+= 3 = m = 6
+= 3 = m = 9
+= 4 = a = 5
+= 5 = m = 6
+= 5 = a = 13
+= 6 = m = 7
+= 7 = a = 12
+= 8 = m = 9
+= 10 = a = 11
+= 12 = a = 13
+# Listed 14 contacts. EOF.

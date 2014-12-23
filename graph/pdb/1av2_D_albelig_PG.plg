@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1av2, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GRAMICIDIN, ANTIFUNGAL, ANTIBACTERIAL, ANTIBIOTIC, MEMBRANE IONCHANNEL, LINEAR GRAMICIDIN
+> pdb_mol_name > GRAMICIDIN A
+> graphtype > albelig
+> resolution > 1.4
+> date > 23-SEP-97
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > GRAMICIDIN A/CSCL COMPLEX, ACTIVE AS A DIMER
+> format_version > 2
+> pdbid > 1av2
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BREVIBACILLUS BREVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1av2 | D | albelig | 1 | 1 | E | 50 | 62 | D-2-  | D-14-  | GAXAXVXWXWXWX 
+| 1av2 | D | albelig | 2 | 2 | L | 95 | 95 | D-16-  | D-16-  | J 
+| 1av2 | D | albelig | 3 | 3 | L | 114 | 114 | D-17-  | D-17-  | J 
+| 1av2 | D | albelig | 4 | 4 | L | 115 | 115 | D-509-  | D-509-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 1 = l = 3
+= 1 = l = 4
+= 3 = l = 4
+# Listed 4 contacts. EOF.

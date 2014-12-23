@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1as4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERPIN, SERINE PROTEASE INHIBITOR, ANTICHYMOTRYPSIN
+> pdb_mol_name > ANTICHYMOTRYPSIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 12-AUG-97
+> header > SERPIN
+> pdb_org_common > HUMAN
+> title > CLEAVED ANTICHYMOTRYPSIN A349R
+> format_version > 2
+> pdbid > 1as4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1as4 | A | albelig | 1 | 1 | H | 2 | 20 | A-26-  | A-44-  | LASANVDFAFSLYKQLVLK 
+| 1as4 | A | albelig | 2 | 2 | E | 26 | 28 | A-50-  | A-52-  | VIF 
+| 1as4 | A | albelig | 3 | 3 | H | 30 | 41 | A-54-  | A-65-  | PLSISTALAFLS 
+| 1as4 | A | albelig | 4 | 4 | H | 46 | 55 | A-70-  | A-79-  | NTTLTEILKG 
+| 1as4 | A | albelig | 5 | 5 | H | 65 | 79 | A-89-  | A-103-  | EAEIHQSFQHLLRTL 
+| 1as4 | A | albelig | 6 | 6 | E | 87 | 97 | A-111-  | A-121-  | QLSMGNAMFVK 
+| 1as4 | A | albelig | 7 | 7 | H | 104 | 114 | A-128-  | A-138-  | DRFTEDAKRLY 
+| 1as4 | A | albelig | 8 | 8 | E | 117 | 121 | A-141-  | A-145-  | EAFAT 
+| 1as4 | A | albelig | 9 | 9 | H | 126 | 140 | A-150-  | A-164-  | SAAAKKLINDYVKNG 
+| 1as4 | A | albelig | 10 | 10 | E | 156 | 169 | A-180-  | A-193-  | TMMVLVNYIFFKAK 
+| 1as4 | A | albelig | 11 | 11 | H | 176 | 178 | A-200-  | A-202-  | PQD 
+| 1as4 | A | albelig | 12 | 12 | E | 180 | 187 | A-204-  | A-211-  | HQSRFYLS 
+| 1as4 | A | albelig | 13 | 13 | E | 190 | 209 | A-214-  | A-232-  | KWVMVPMMSLHHLTIPYFRD 
+| 1as4 | A | albelig | 14 | 14 | E | 214 | 220 | A-237-  | A-243-  | CTVVELK 
+| 1as4 | A | albelig | 15 | 15 | E | 225 | 232 | A-248-  | A-255-  | ASALFILP 
+| 1as4 | A | albelig | 16 | 16 | H | 237 | 242 | A-260-  | A-265-  | MEEVEA 
+| 1as4 | A | albelig | 17 | 17 | H | 246 | 255 | A-269-  | A-278-  | PETLKRWRDS 
+| 1as4 | A | albelig | 18 | 18 | E | 257 | 267 | A-279-  | A-289-  | EFREIGELYLP 
+| 1as4 | A | albelig | 19 | 19 | E | 269 | 276 | A-291-  | A-298-  | FSISRDYN 
+| 1as4 | A | albelig | 20 | 20 | H | 278 | 283 | A-300-  | A-305-  | NDILLQ 
+| 1as4 | A | albelig | 21 | 21 | H | 288 | 290 | A-310-  | A-312-  | EAF 
+| 1as4 | A | albelig | 22 | 22 | H | 297 | 300 | A-319-  | A-322-  | SGIT 
+| 1as4 | A | albelig | 23 | 23 | E | 305 | 318 | A-327-  | A-340-  | LAVSQVVHKAVLDV 
+| 1as4 | A | albelig | 24 | 24 | E | 322 | 335 | A-344-  | A-357-  | GTEASRATAVKITL 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = m = 17
+= 2 = a = 19
+= 3 = a = 5
+= 3 = a = 10
+= 3 = p = 24
+= 4 = m = 21
+= 5 = m = 7
+= 6 = p = 8
+= 6 = a = 10
+= 9 = p = 10
+= 10 = a = 24
+= 11 = m = 13
+= 12 = a = 13
+= 13 = a = 14
+= 13 = a = 18
+= 14 = a = 15
+= 19 = a = 23
+= 20 = m = 23
+= 21 = m = 23
+= 23 = a = 24
+# Listed 22 contacts. EOF.

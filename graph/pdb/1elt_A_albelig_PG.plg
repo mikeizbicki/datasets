@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1elt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEINASE
+> pdb_mol_name > ELASTASE
+> graphtype > albelig
+> resolution > 1.61
+> date > 02-JAN-95
+> header > SERINE PROTEINASE
+> pdb_org_common > ATLANTIC SALMON
+> title > STRUCTURE OF NATIVE PANCREATIC ELASTASE FROM NORTH ATLANTICSALMON AT 1.61 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1elt
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SALMO SALAR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1elt | A | albelig | 1 | 1 | E | 15 | 22 | A-30-  | A-36-A | QISLQYKS 
+| 1elt | A | albelig | 2 | 2 | E | 25 | 36 | A-37-  | A-48-  | SYYHTAGGSLIR 
+| 1elt | A | albelig | 3 | 3 | E | 39 | 42 | A-51-  | A-54-  | WVMT 
+| 1elt | A | albelig | 4 | 4 | H | 44 | 47 | A-56-  | A-59-  | AHAV 
+| 1elt | A | albelig | 5 | 5 | E | 53 | 57 | A-65-  | A-68-  | WRVVL 
+| 1elt | A | albelig | 6 | 6 | E | 70 | 72 | A-81-  | A-83-  | QIM 
+| 1elt | A | albelig | 7 | 7 | E | 74 | 79 | A-85-  | A-90-  | VNSVFI 
+| 1elt | A | albelig | 8 | 8 | H | 88 | 90 | A-99-  | A-99-B | VAG 
+| 1elt | A | albelig | 9 | 9 | E | 95 | 99 | A-104-  | A-108-  | ALLRL 
+| 1elt | A | albelig | 10 | 10 | E | 127 | 131 | A-136-  | A-140-  | NYITG 
+| 1elt | A | albelig | 11 | 11 | E | 146 | 149 | A-156-  | A-159-  | KQAW 
+| 1elt | A | albelig | 12 | 12 | H | 155 | 158 | A-165-  | A-168-  | HATC 
+| 1elt | A | albelig | 13 | 13 | H | 165 | 167 | A-173-  | A-175-  | GST 
+| 1elt | A | albelig | 14 | 14 | E | 172 | 175 | A-180-  | A-183-  | MVCA 
+| 1elt | A | albelig | 15 | 15 | E | 190 | 195 | A-198-  | A-203-  | PLNNQV 
+| 1elt | A | albelig | 16 | 16 | E | 198 | 207 | A-206-  | A-215-  | SYYVHGVTSF 
+| 1elt | A | albelig | 17 | 17 | E | 220 | 224 | A-226-  | A-230-  | TVFTR 
+| 1elt | A | albelig | 18 | 18 | H | 225 | 235 | A-231-  | A-241-  | VSAYISWMNGI 
+| 1elt | A | albelig | 19 | 19 | L | 237 | 237 | A-300-  | A-300-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 9
+= 5 = a = 6
+= 7 = a = 9
+= 10 = a = 11
+= 10 = a = 15
+= 14 = a = 17
+= 15 = a = 16
+= 16 = a = 17
+= 16 = m = 18
+= 17 = m = 18
+# Listed 13 contacts. EOF.

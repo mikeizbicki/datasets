@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1am4, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (GTPASE-ACTIVATING/GTP-BINDING), GTPASE ACTIVATION
+> pdb_mol_name > CDC42HS
+> graphtype > albelig
+> resolution > 2.7
+> date > 22-JUN-97
+> header > COMPLEX (GTPASE-ACTIVATING/GTP-BINDING)
+> pdb_org_common > HUMAN
+> title > COMPLEX BETWEEN CDC42HS.GMPPNP AND P50 RHOGAP (H. SAPIENS)
+> format_version > 2
+> pdbid > 1am4
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1am4 | E | albelig | 1 | 1 | E | 579 | 586 | E-503-  | E-510-  | TIKCVVVG 
+| 1am4 | E | albelig | 2 | 2 | H | 592 | 601 | E-516-  | E-525-  | KTCLLISYTT 
+| 1am4 | E | albelig | 3 | 3 | E | 615 | 618 | E-541-  | E-544-  | AVTV 
+| 1am4 | E | albelig | 4 | 4 | E | 625 | 631 | E-551-  | E-557-  | YTLGLFD 
+| 1am4 | E | albelig | 5 | 5 | H | 637 | 639 | E-563-  | E-565-  | DYD 
+| 1am4 | E | albelig | 6 | 6 | H | 643 | 645 | E-569-  | E-571-  | PLS 
+| 1am4 | E | albelig | 7 | 7 | E | 652 | 657 | E-578-  | E-583-  | FLVCFS 
+| 1am4 | E | albelig | 8 | 8 | H | 662 | 665 | E-588-  | E-591-  | SSFE 
+| 1am4 | E | albelig | 9 | 9 | H | 667 | 676 | E-593-  | E-602-  | VKEKWVPEIT 
+| 1am4 | E | albelig | 10 | 10 | E | 684 | 689 | E-610-  | E-615-  | FLLVGT 
+| 1am4 | E | albelig | 11 | 11 | H | 692 | 694 | E-618-  | E-620-  | DLR 
+| 1am4 | E | albelig | 12 | 12 | H | 697 | 701 | E-623-  | E-627-  | PSTIE 
+| 1am4 | E | albelig | 13 | 13 | H | 717 | 723 | E-643-  | E-649-  | EKLARDL 
+| 1am4 | E | albelig | 14 | 14 | E | 725 | 730 | E-651-  | E-656-  | AVKYVE 
+| 1am4 | E | albelig | 15 | 15 | H | 739 | 750 | E-665-  | E-676-  | LKNVFDEAILAA 
+| 1am4 | E | albelig | 16 | 16 | L | 1130 | 1130 | E-679-  | E-679-  | J 
+| 1am4 | E | albelig | 17 | 17 | L | 1131 | 1131 | E-678-  | E-678-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 1 = l = 17
+= 2 = a = 4
+= 2 = m = 15
+= 2 = l = 16
+= 2 = l = 17
+= 3 = a = 4
+= 4 = l = 16
+= 7 = m = 8
+= 7 = p = 10
+= 10 = p = 14
+= 10 = l = 17
+= 11 = l = 17
+= 13 = a = 14
+= 16 = l = 17
+# Listed 16 contacts. EOF.

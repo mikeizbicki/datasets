@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b7a, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOLIPID BINDING PROTEIN
+> pdb_mol_name > PHOSPHATIDYLETHANOLAMINE-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.25
+> date > 21-JAN-99
+> header > LIPID BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > STRUCTURE OF THE PHOSPHATIDYLETHANOLAMINE-BINDING PROTEINFROM BOVINE BRAIN
+> format_version > 2
+> pdbid > 1b7a
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b7a | B | albelig | 1 | 1 | H | 191 | 195 | B-4-  | B-8-  | LSKWS 
+| 1b7a | B | albelig | 2 | 2 | H | 200 | 202 | B-13-  | B-15-  | LQE 
+| 1b7a | B | albelig | 3 | 3 | E | 212 | 215 | B-25-  | B-28-  | QVKY 
+| 1b7a | B | albelig | 4 | 4 | H | 229 | 232 | B-42-  | B-45-  | PTQV 
+| 1b7a | B | albelig | 5 | 5 | E | 238 | 240 | B-51-  | B-53-  | SIT 
+| 1b7a | B | albelig | 6 | 6 | E | 249 | 256 | B-62-  | B-69-  | LYTLVLTD 
+| 1b7a | B | albelig | 7 | 7 | E | 270 | 279 | B-83-  | B-92-  | WHHFLVVNMK 
+| 1b7a | B | albelig | 8 | 8 | E | 287 | 290 | B-100-  | B-103-  | TVLS 
+| 1b7a | B | albelig | 9 | 9 | E | 304 | 312 | B-117-  | B-125-  | HRYVWLVYE 
+| 1b7a | B | albelig | 10 | 10 | H | 337 | 343 | B-150-  | B-156-  | VASFRKK 
+| 1b7a | B | albelig | 11 | 11 | E | 351 | 357 | B-164-  | B-170-  | AGTCYQA 
+| 1b7a | B | albelig | 12 | 12 | H | 363 | 370 | B-176-  | B-183-  | VPKLYEQL 
+| 1b7a | B | albelig | 13 | 13 | L | 375 | 375 | B-2501-  | B-2501-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = a = 5
+= 6 = a = 7
+= 6 = a = 9
+= 6 = l = 13
+= 7 = a = 8
+= 7 = l = 13
+= 9 = a = 11
+= 9 = l = 13
+= 12 = l = 13
+# Listed 10 contacts. EOF.

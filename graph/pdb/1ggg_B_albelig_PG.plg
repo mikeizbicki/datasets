@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ggg, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AMINO-ACID TRANSPORT, GLNBP, OPEN FORM, BINDING PROTEIN
+> pdb_mol_name > GLUTAMINE BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 25-JUN-96
+> header > BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > GLUTAMINE BINDING PROTEIN OPEN LIGAND-FREE STRUCTURE
+> format_version > 2
+> pdbid > 1ggg
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ggg | B | albelig | 1 | 1 | E | 223 | 226 | B-6-  | B-9-  | VVAT 
+| 1ggg | B | albelig | 2 | 2 | E | 235 | 237 | B-18-  | B-20-  | FKQ 
+| 1ggg | B | albelig | 3 | 3 | E | 240 | 242 | B-23-  | B-25-  | LYV 
+| 1ggg | B | albelig | 4 | 4 | H | 244 | 255 | B-27-  | B-38-  | FDVDLWAAIAKE 
+| 1ggg | B | albelig | 5 | 5 | E | 261 | 264 | B-44-  | B-47-  | ELKP 
+| 1ggg | B | albelig | 6 | 6 | H | 267 | 275 | B-50-  | B-58-  | FSGIIPALQ 
+| 1ggg | B | albelig | 7 | 7 | E | 281 | 287 | B-64-  | B-70-  | LALAGIT 
+| 1ggg | B | albelig | 8 | 8 | H | 290 | 293 | B-73-  | B-76-  | DERK 
+| 1ggg | B | albelig | 9 | 9 | E | 303 | 312 | B-86-  | B-95-  | YKSGLLVMVK 
+| 1ggg | B | albelig | 10 | 10 | E | 328 | 332 | B-111-  | B-115-  | VVAVK 
+| 1ggg | B | albelig | 11 | 11 | H | 336 | 343 | B-119-  | B-126-  | GSVDYAKA 
+| 1ggg | B | albelig | 12 | 12 | E | 349 | 353 | B-132-  | B-136-  | DLRQF 
+| 1ggg | B | albelig | 13 | 13 | H | 357 | 364 | B-140-  | B-147-  | DNAYMELG 
+| 1ggg | B | albelig | 14 | 14 | E | 370 | 374 | B-153-  | B-157-  | AVLHD 
+| 1ggg | B | albelig | 15 | 15 | H | 375 | 384 | B-158-  | B-167-  | TPNILYFIKT 
+| 1ggg | B | albelig | 16 | 16 | E | 390 | 406 | B-173-  | B-189-  | FKAVGDSLEAQQYGIAF 
+| 1ggg | B | albelig | 17 | 17 | H | 411 | 426 | B-194-  | B-209-  | DELRDKVNGALKTLRE 
+| 1ggg | B | albelig | 18 | 18 | H | 429 | 438 | B-212-  | B-221-  | TYNEIYKKWF 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = p = 7
+= 2 = a = 3
+= 4 = a = 7
+= 4 = m = 17
+= 4 = m = 18
+= 7 = a = 16
+= 9 = a = 14
+= 9 = p = 15
+= 9 = a = 16
+= 10 = p = 12
+= 10 = p = 14
+= 14 = m = 15
+= 15 = a = 16
+= 15 = m = 18
+# Listed 15 contacts. EOF.

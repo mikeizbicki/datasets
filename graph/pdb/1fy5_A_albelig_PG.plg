@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fy5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, HYDROLASE
+> pdb_mol_name > TRYPSIN
+> graphtype > albelig
+> resolution > 0.81
+> date > 28-SEP-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > FUSARIUM OXYSPORUM TRYPSIN AT ATOMIC RESOLUTION
+> format_version > 2
+> pdbid > 1fy5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > FUSARIUM OXYSPORUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fy5 | A | albelig | 1 | 1 | E | 15 | 20 | A-30-  | A-35-  | IVSISR 
+| 1fy5 | A | albelig | 2 | 2 | E | 23 | 32 | A-39-  | A-48-  | GPWAGGSLLN 
+| 1fy5 | A | albelig | 3 | 3 | E | 35 | 38 | A-51-  | A-54-  | TVLT 
+| 1fy5 | A | albelig | 4 | 4 | H | 40 | 42 | A-56-  | A-58-  | AHA 
+| 1fy5 | A | albelig | 5 | 5 | H | 48 | 50 | A-60-  | A-62-  | QSG 
+| 1fy5 | A | albelig | 6 | 6 | E | 51 | 55 | A-63-  | A-66-  | FQIRA 
+| 1fy5 | A | albelig | 7 | 7 | E | 65 | 74 | A-81-  | A-90-  | ITSSLSSVRV 
+| 1fy5 | A | albelig | 8 | 8 | E | 86 | 90 | A-104-  | A-108-  | AILKL 
+| 1fy5 | A | albelig | 9 | 9 | E | 117 | 122 | A-135-  | A-140-  | SATVAG 
+| 1fy5 | A | albelig | 10 | 10 | E | 138 | 145 | A-156-  | A-163-  | LKVTVPIV 
+| 1fy5 | A | albelig | 11 | 11 | H | 147 | 154 | A-165-  | A-172-  | RATNRAQY 
+| 1fy5 | A | albelig | 12 | 12 | E | 163 | 166 | A-180-  | A-183-  | MFNA 
+| 1fy5 | A | albelig | 13 | 13 | E | 183 | 185 | A-198-  | A-200-  | PIV 
+| 1fy5 | A | albelig | 14 | 14 | E | 191 | 197 | A-209-  | A-215-  | LIGAVSW 
+| 1fy5 | A | albelig | 15 | 15 | E | 208 | 212 | A-226-  | A-230-  | GVYAS 
+| 1fy5 | A | albelig | 16 | 16 | H | 217 | 223 | A-235-  | A-241-  | RSFIDTY 
+| 1fy5 | A | albelig | 17 | 17 | L | 229 | 229 | A-247-  | A-247-  | J 
+| 1fy5 | A | albelig | 18 | 18 | L | 230 | 230 | A-243-  | A-243-  | J 
+| 1fy5 | A | albelig | 19 | 19 | L | 231 | 231 | A-244-  | A-244-  | J 
+| 1fy5 | A | albelig | 20 | 20 | L | 232 | 232 | A-245-  | A-245-  | J 
+| 1fy5 | A | albelig | 21 | 21 | L | 233 | 233 | A-246-  | A-246-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 5
+= 1 = a = 6
+= 1 = l = 20
+= 2 = a = 3
+= 2 = l = 17
+= 3 = a = 8
+= 5 = m = 6
+= 6 = a = 7
+= 6 = l = 20
+= 7 = a = 8
+= 9 = a = 10
+= 9 = a = 13
+= 9 = l = 21
+= 10 = a = 12
+= 10 = l = 18
+= 10 = l = 21
+= 11 = l = 18
+= 11 = l = 19
+= 12 = a = 15
+= 13 = a = 14
+= 13 = l = 21
+= 14 = a = 15
+= 15 = l = 19
+# Listed 24 contacts. EOF.

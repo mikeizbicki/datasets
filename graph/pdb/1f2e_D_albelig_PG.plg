@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f2e, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GST COMPLEXED WITH GLUTATHIONE, THIOREDOXIN SUPERFAMILY FOLD,TRANSFERASE
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 24-MAY-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF SPHINGOMONAD, GLUTATHIONE S-TRANSFERASE COMPLEXED WITHGLUTATHIONE
+> format_version > 2
+> pdbid > 1f2e
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SPHINGOMONAS PAUCIMOBILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f2e | D | albelig | 1 | 1 | E | 608 | 611 | D-2-  | D-5-  | KLFI 
+| 1f2e | D | albelig | 2 | 2 | H | 618 | 626 | D-12-  | D-20-  | LAPHIALRE 
+| 1f2e | D | albelig | 3 | 3 | E | 632 | 637 | D-26-  | D-31-  | EAVKVD 
+| 1f2e | D | albelig | 4 | 4 | H | 649 | 651 | D-43-  | D-45-  | FLT 
+| 1f2e | D | albelig | 5 | 5 | E | 660 | 662 | D-54-  | D-56-  | ALT 
+| 1f2e | D | albelig | 6 | 6 | E | 668 | 670 | D-62-  | D-64-  | TLT 
+| 1f2e | D | albelig | 7 | 7 | H | 672 | 682 | D-66-  | D-76-  | NPAILLYIADQ 
+| 1f2e | D | albelig | 8 | 8 | H | 684 | 686 | D-78-  | D-80-  | PAS 
+| 1f2e | D | albelig | 9 | 9 | H | 695 | 712 | D-89-  | D-106-  | LDRYRLLSRLSFLGSEFH 
+| 1f2e | D | albelig | 10 | 10 | H | 713 | 719 | D-107-  | D-113-  | KAFVPLF 
+| 1f2e | D | albelig | 11 | 11 | H | 725 | 747 | D-119-  | D-141-  | DEAKAAAAESVKNHLAALDKELA 
+| 1f2e | D | albelig | 12 | 12 | H | 759 | 768 | D-153-  | D-162-  | VADIYLYVML 
+| 1f2e | D | albelig | 13 | 13 | H | 771 | 774 | D-165-  | D-168-  | PAYV 
+| 1f2e | D | albelig | 14 | 14 | H | 778 | 780 | D-172-  | D-174-  | MAA 
+| 1f2e | D | albelig | 15 | 15 | H | 782 | 792 | D-176-  | D-186-  | PALGAYAGKIA 
+| 1f2e | D | albelig | 16 | 16 | H | 795 | 803 | D-189-  | D-197-  | PAVGAALKA 
+| 1f2e | D | albelig | 17 | 17 | L | 811 | 811 | D-210-  | D-210-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 2 = m = 7
+= 2 = m = 12
+= 2 = m = 16
+= 5 = a = 6
+= 7 = a = 9
+= 7 = l = 17
+= 9 = m = 10
+= 9 = p = 12
+= 9 = l = 17
+= 10 = m = 11
+= 10 = l = 17
+= 11 = m = 15
+= 12 = m = 15
+= 12 = l = 17
+# Listed 16 contacts. EOF.

@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hm7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SESQUITERPENE SYNTHASE, PENTALENENE, TERPENE, ANTIBIOTICBIOSYNTHESIS, LYASE
+> pdb_mol_name > PENTALENENE SYNTHASE
+> graphtype > albelig
+> resolution > 2.9
+> date > 05-DEC-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > N219L PENTALENENE SYNTHASE
+> format_version > 2
+> pdbid > 1hm7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hm7 | A | albelig | 1 | 1 | H | 13 | 19 | A-19-  | A-25-  | HARAEAE 
+| 1hm7 | A | albelig | 2 | 2 | H | 22 | 27 | A-28-  | A-33-  | AWPRSL 
+| 1hm7 | A | albelig | 3 | 3 | H | 33 | 40 | A-39-  | A-46-  | DAAAERHL 
+| 1hm7 | A | albelig | 4 | 4 | H | 44 | 51 | A-50-  | A-57-  | YADLASRF 
+| 1hm7 | A | albelig | 5 | 5 | H | 57 | 75 | A-63-  | A-81-  | GADLDLGVDLMSWFFLFDD 
+| 1hm7 | A | albelig | 6 | 6 | H | 81 | 83 | A-87-  | A-89-  | RGE 
+| 1hm7 | A | albelig | 7 | 7 | H | 85 | 100 | A-91-  | A-106-  | PEDTKQLTDQVAAALD 
+| 1hm7 | A | albelig | 8 | 8 | H | 109 | 122 | A-115-  | A-128-  | PIAHGFADIWRRTA 
+| 1hm7 | A | albelig | 9 | 9 | H | 127 | 147 | A-133-  | A-153-  | PAWAARSARHWRNYFDGYVDE 
+| 1hm7 | A | albelig | 10 | 10 | H | 154 | 163 | A-167-  | A-176-  | AQYLAMRRHT 
+| 1hm7 | A | albelig | 11 | 11 | H | 166 | 176 | A-179-  | A-189-  | VQPTVDLAERA 
+| 1hm7 | A | albelig | 12 | 12 | H | 183 | 186 | A-196-  | A-199-  | HRVF 
+| 1hm7 | A | albelig | 13 | 13 | H | 189 | 209 | A-202-  | A-222-  | AVMSAMLQIAVDVNLLLLDIA 
+| 1hm7 | A | albelig | 14 | 14 | H | 211 | 215 | A-224-  | A-228-  | LEKEE 
+| 1hm7 | A | albelig | 15 | 15 | H | 228 | 256 | A-251-  | A-279-  | SVSHMQNEVRARLEQYLLLESCLPKVGEI 
+| 1hm7 | A | albelig | 16 | 16 | H | 261 | 276 | A-284-  | A-299-  | TAEREALERYRTDAVR 
+| 1hm7 | A | albelig | 17 | 17 | H | 277 | 286 | A-300-  | A-309-  | TVIRGSYDWH 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 5
+= 4 = m = 17
+= 5 = a = 8
+= 5 = p = 9
+= 7 = p = 8
+= 7 = a = 9
+= 8 = a = 9
+= 9 = m = 10
+= 9 = m = 11
+= 10 = a = 13
+= 13 = a = 15
+= 13 = p = 17
+= 15 = m = 16
+= 16 = m = 17
+# Listed 14 contacts. EOF.

@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gtu, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, GLUTATHIONE, CONJUGATION, DETOXIFICATION,CYTOSOLIC, DIMER
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE
+> graphtype > albelig
+> resolution > 2.68
+> date > 11-JUN-98
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > LIGAND-FREE HUMAN GLUTATHIONE S-TRANSFERASE M1A-1A
+> format_version > 2
+> pdbid > 1gtu
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gtu | B | albelig | 1 | 1 | E | 220 | 225 | B-2-  | B-7-  | MILGYW 
+| 1gtu | B | albelig | 2 | 2 | H | 229 | 240 | B-11-  | B-22-  | GLAHAIRLLLEY 
+| 1gtu | B | albelig | 3 | 3 | E | 245 | 250 | B-27-  | B-32-  | YEEKKY 
+| 1gtu | B | albelig | 4 | 4 | H | 261 | 267 | B-43-  | B-49-  | SQWLNEK 
+| 1gtu | B | albelig | 5 | 5 | E | 279 | 282 | B-61-  | B-64-  | YLID 
+| 1gtu | B | albelig | 6 | 6 | E | 285 | 288 | B-67-  | B-70-  | HKIT 
+| 1gtu | B | albelig | 7 | 7 | H | 290 | 299 | B-72-  | B-81-  | SNAILCYIAR 
+| 1gtu | B | albelig | 8 | 8 | H | 308 | 333 | B-90-  | B-115-  | EEEKIRVDILENQTMDNHMQLGMICY 
+| 1gtu | B | albelig | 9 | 9 | H | 337 | 359 | B-119-  | B-141-  | FEKLKPKYLEELPEKLKLYSEFL 
+| 1gtu | B | albelig | 10 | 10 | H | 372 | 387 | B-154-  | B-169-  | FVDFLVYDVLDLHRIF 
+| 1gtu | B | albelig | 11 | 11 | H | 391 | 394 | B-173-  | B-176-  | CLDA 
+| 1gtu | B | albelig | 12 | 12 | H | 396 | 407 | B-178-  | B-189-  | PNLKDFISRFEG 
+| 1gtu | B | albelig | 13 | 13 | H | 409 | 415 | B-191-  | B-197-  | EKISAYM 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = a = 5
+= 2 = m = 10
+= 2 = m = 13
+= 3 = m = 4
+= 5 = a = 6
+= 8 = a = 9
+= 8 = p = 10
+= 9 = m = 10
+= 9 = m = 12
+= 10 = m = 11
+= 10 = m = 12
+= 12 = m = 13
+# Listed 14 contacts. EOF.

@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kjf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > P1-P6, SUBSTRATE RECOGNITION, HYDROLASE
+> pdb_mol_name > POL POLYPROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 04-DEC-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > SUBSTRATE SHAPE DETERMINES SPECIFICITY OF RECOGNITIONRECOGNITION FOR HIV-1 PROTEASE: ANALYSIS OF CRYSTALSTRUCTURES OF SIX SUBSTRATE COMPLEXES
+> format_version > 2
+> pdbid > 1kjf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kjf | A | albelig | 1 | 1 | E | 2 | 4 | A-2-  | A-4-  | QIT 
+| 1kjf | A | albelig | 2 | 2 | E | 10 | 15 | A-10-  | A-15-  | LVTIRI 
+| 1kjf | A | albelig | 3 | 3 | E | 18 | 24 | A-18-  | A-24-  | QLKEALL 
+| 1kjf | A | albelig | 4 | 4 | E | 43 | 48 | A-43-  | A-48-  | KPKMIG 
+| 1kjf | A | albelig | 5 | 5 | E | 52 | 65 | A-53-  | A-66-  | FIKVRQYDQIPVEI 
+| 1kjf | A | albelig | 6 | 6 | E | 68 | 76 | A-69-  | A-77-  | HKAIGTVLV 
+| 1kjf | A | albelig | 7 | 7 | H | 86 | 92 | A-87-  | A-93-  | RNLLTQI 
+| 1kjf | A | albelig | 8 | 8 | E | 95 | 97 | A-96-  | A-98-  | TLN 
+| 1kjf | A | albelig | 9 | 9 | L | 209 | 209 | A-504-  | A-504-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+# Listed 5 contacts. EOF.

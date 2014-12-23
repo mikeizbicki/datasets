@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1caw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SEED STORAGE PROTEIN
+> pdb_mol_name > CANAVALIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 02-JUN-93
+> header > SEED STORAGE PROTEIN
+> pdb_org_common > JACK BEAN
+> title > DETERMINATION OF THREE CRYSTAL STRUCTURES OF CANAVALIN BY MOLECULARREPLACEMENT
+> format_version > 2
+> pdbid > 1caw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1caw | B | albelig | 1 | 1 | E | 198 | 202 | B-256-  | B-260-  | PIYSN 
+| 1caw | B | albelig | 2 | 2 | E | 205 | 210 | B-263-  | B-268-  | GKLYEI 
+| 1caw | B | albelig | 3 | 3 | H | 218 | 220 | B-276-  | B-278-  | LRD 
+| 1caw | B | albelig | 4 | 4 | E | 224 | 230 | B-282-  | B-288-  | LLNCLQM 
+| 1caw | B | albelig | 5 | 5 | E | 239 | 241 | B-297-  | B-299-  | HYN 
+| 1caw | B | albelig | 6 | 6 | E | 246 | 252 | B-304-  | B-310-  | VILVANE 
+| 1caw | B | albelig | 7 | 7 | E | 255 | 262 | B-313-  | B-320-  | AEVELVGL 
+| 1caw | B | albelig | 8 | 8 | E | 275 | 281 | B-333-  | B-339-  | LRRYAAT 
+| 1caw | B | albelig | 9 | 9 | E | 287 | 290 | B-345-  | B-348-  | IIVI 
+| 1caw | B | albelig | 10 | 10 | E | 296 | 300 | B-354-  | B-358-  | VALKA 
+| 1caw | B | albelig | 11 | 11 | E | 304 | 310 | B-362-  | B-368-  | LNMVGIG 
+| 1caw | B | albelig | 12 | 12 | E | 318 | 320 | B-376-  | B-378-  | RNF 
+| 1caw | B | albelig | 13 | 13 | H | 329 | 331 | B-387-  | B-389-  | IRQ 
+| 1caw | B | albelig | 14 | 14 | H | 334 | 340 | B-392-  | B-398-  | RQVSDLT 
+| 1caw | B | albelig | 15 | 15 | H | 344 | 352 | B-402-  | B-410-  | SGEEVEELL 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 4 = a = 11
+= 5 = a = 12
+= 6 = a = 9
+= 6 = a = 11
+= 7 = a = 8
+= 7 = a = 10
+= 14 = m = 15
+# Listed 9 contacts. EOF.

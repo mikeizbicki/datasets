@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k8k, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-PROPELLER, STRUCTURAL PROTEIN
+> pdb_mol_name > ACTIN-LIKE PROTEIN 2
+> graphtype > albelig
+> resolution > 2.0
+> date > 24-OCT-01
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF ARP2/3 COMPLEX
+> format_version > 2
+> pdbid > 1k8k
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k8k | B | albelig | 1 | 1 | E | 406 | 409 | B-156-  | B-159-  | VVDS 
+| 1k8k | B | albelig | 2 | 2 | E | 414 | 417 | B-164-  | B-167-  | THIC 
+| 1k8k | B | albelig | 3 | 3 | E | 430 | 432 | B-180-  | B-182-  | RRL 
+| 1k8k | B | albelig | 4 | 4 | H | 436 | 449 | B-186-  | B-199-  | GRDITRYLIKLLLL 
+| 1k8k | B | albelig | 5 | 5 | H | 460 | 470 | B-210-  | B-220-  | FETVRMIKEKL 
+| 1k8k | B | albelig | 6 | 6 | H | 477 | 486 | B-227-  | B-236-  | IEQEQKLALE 
+| 1k8k | B | albelig | 7 | 7 | E | 492 | 495 | B-242-  | B-245-  | ESYT 
+| 1k8k | B | albelig | 8 | 8 | E | 501 | 504 | B-251-  | B-254-  | IIKV 
+| 1k8k | B | albelig | 9 | 9 | H | 507 | 510 | B-257-  | B-260-  | ERFE 
+| 1k8k | B | albelig | 10 | 10 | H | 512 | 515 | B-262-  | B-265-  | PEAL 
+| 1k8k | B | albelig | 11 | 11 | H | 518 | 521 | B-268-  | B-271-  | PHLI 
+| 1k8k | B | albelig | 12 | 12 | H | 528 | 538 | B-278-  | B-288-  | VAELLFNTIQA 
+| 1k8k | B | albelig | 13 | 13 | H | 544 | 548 | B-294-  | B-298-  | RSEFY 
+| 1k8k | B | albelig | 14 | 14 | E | 552 | 554 | B-302-  | B-304-  | VLS 
+| 1k8k | B | albelig | 15 | 15 | H | 556 | 558 | B-306-  | B-308-  | GST 
+| 1k8k | B | albelig | 16 | 16 | H | 563 | 578 | B-313-  | B-328-  | LPSRLERELKQLYLER 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 14
+= 1 = m = 15
+= 2 = a = 3
+= 4 = m = 5
+= 7 = a = 8
+= 12 = m = 13
+= 12 = m = 16
+# Listed 8 contacts. EOF.

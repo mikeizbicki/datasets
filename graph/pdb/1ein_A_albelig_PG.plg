@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ein, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA STRUCTURE, HYDROLASE
+> pdb_mol_name > LIPASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 26-FEB-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURAL ORIGINS OF INTERFACIAL ACTIVATION INTHERMOMYCES (HUMICOLA) LANUGINOSA LIPASE
+> format_version > 2
+> pdbid > 1ein
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMOMYCES LANUGINOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ein | A | albelig | 1 | 1 | H | 4 | 19 | A-4-  | A-19-  | QDLFNQFNLFAQYSAA 
+| 1ein | A | albelig | 2 | 2 | H | 23 | 26 | A-23-  | A-26-  | GKNN 
+| 1ein | A | albelig | 3 | 3 | H | 42 | 46 | A-42-  | A-46-  | PEVEK 
+| 1ein | A | albelig | 4 | 4 | E | 49 | 58 | A-49-  | A-58-  | ATFLYSFEDS 
+| 1ein | A | albelig | 5 | 5 | E | 63 | 70 | A-63-  | A-70-  | VTGFLALD 
+| 1ein | A | albelig | 6 | 6 | E | 75 | 80 | A-75-  | A-80-  | LIVLSF 
+| 1ein | A | albelig | 7 | 7 | H | 86 | 91 | A-86-  | A-91-  | IENWIG 
+| 1ein | A | albelig | 8 | 8 | E | 97 | 99 | A-97-  | A-99-  | LKE 
+| 1ein | A | albelig | 9 | 9 | E | 108 | 110 | A-108-  | A-110-  | RGH 
+| 1ein | A | albelig | 10 | 10 | H | 111 | 134 | A-111-  | A-134-  | DGFTSSWRSVADTLRQKVEDAVRE 
+| 1ein | A | albelig | 11 | 11 | E | 139 | 145 | A-139-  | A-145-  | RVVFTGH 
+| 1ein | A | albelig | 12 | 12 | H | 147 | 159 | A-147-  | A-159-  | LGGALATVAGADL 
+| 1ein | A | albelig | 13 | 13 | E | 167 | 171 | A-167-  | A-171-  | DVFSY 
+| 1ein | A | albelig | 14 | 14 | H | 179 | 187 | A-179-  | A-187-  | RAFAEFLTV 
+| 1ein | A | albelig | 15 | 15 | E | 193 | 198 | A-193-  | A-198-  | LYRITH 
+| 1ein | A | albelig | 16 | 16 | H | 203 | 205 | A-203-  | A-205-  | VPR 
+| 1ein | A | albelig | 17 | 17 | H | 209 | 211 | A-209-  | A-211-  | REF 
+| 1ein | A | albelig | 18 | 18 | E | 219 | 222 | A-219-  | A-222-  | EYWI 
+| 1ein | A | albelig | 19 | 19 | E | 235 | 238 | A-235-  | A-238-  | IVKI 
+| 1ein | A | albelig | 20 | 20 | H | 256 | 259 | A-256-  | A-259-  | PAHL 
+| 1ein | A | albelig | 21 | 21 | L | 810 | 810 | A-601-  | A-601-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = p = 11
+= 2 = m = 4
+= 4 = a = 5
+= 4 = a = 10
+= 5 = a = 6
+= 6 = p = 11
+= 7 = l = 21
+= 8 = a = 9
+= 9 = m = 10
+= 9 = l = 21
+= 10 = p = 12
+= 10 = l = 21
+= 11 = a = 12
+= 11 = p = 13
+= 12 = l = 21
+= 13 = p = 15
+= 15 = p = 18
+= 16 = l = 21
+= 18 = a = 19
+= 20 = l = 21
+# Listed 21 contacts. EOF.

@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyi, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROKARYOTIC PROTEASOME, PROTEASE, AAA-PROTEIN, ATP-DEPENDENTCHAPERONE; CLP/HSP100, VINYL SULFONE INHIBITOR, CHAPERONE-HYDROLASECOMPLEX
+> pdb_mol_name > ATP-DEPENDENT PROTEASE HSLV
+> graphtype > albelig
+> resolution > 3.1
+> date > 04-FEB-02
+> header > CHAPERONE/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > HSLUV (H. INFLUENZAE)-NLVS VINYL SULFONE INHIBITOR COMPLEX
+> format_version > 2
+> pdbid > 1kyi
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyi | I | albelig | 1 | 1 | E | 2301 | 2305 | I-3-  | I-7-  | IVSVR 
+| 1kyi | I | albelig | 2 | 2 | E | 2310 | 2314 | I-12-  | I-16-  | VVVGG 
+| 1kyi | I | albelig | 3 | 3 | E | 2318 | 2320 | I-20-  | I-22-  | VSL 
+| 1kyi | I | albelig | 4 | 4 | E | 2323 | 2326 | I-25-  | I-28-  | TVMK 
+| 1kyi | I | albelig | 5 | 5 | E | 2332 | 2335 | I-34-  | I-37-  | VRRL 
+| 1kyi | I | albelig | 6 | 6 | E | 2340 | 2346 | I-42-  | I-48-  | VLAGFAG 
+| 1kyi | I | albelig | 7 | 7 | H | 2348 | 2364 | I-50-  | I-66-  | TADAFTLFELFERKLEM 
+| 1kyi | I | albelig | 8 | 8 | H | 2369 | 2377 | I-71-  | I-79-  | LLKSAVELA 
+| 1kyi | I | albelig | 9 | 9 | E | 2391 | 2397 | I-93-  | I-99-  | AMLIVAD 
+| 1kyi | I | albelig | 10 | 10 | E | 2401 | 2405 | I-103-  | I-107-  | SLIIT 
+| 1kyi | I | albelig | 11 | 11 | E | 2419 | 2421 | I-121-  | I-123-  | LAI 
+| 1kyi | I | albelig | 12 | 12 | H | 2425 | 2438 | I-127-  | I-140-  | GNYALSAARALVEN 
+| 1kyi | I | albelig | 13 | 13 | H | 2443 | 2455 | I-145-  | I-157-  | AHEIVEKSLRIAG 
+| 1kyi | I | albelig | 14 | 14 | E | 2466 | 2470 | I-168-  | I-172-  | TIEEL 
+| 1kyi | I | albelig | 15 | 15 | L | 5972 | 5972 | I-175-  | I-175-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 5
+= 2 = m = 13
+= 2 = a = 14
+= 3 = a = 4
+= 3 = l = 15
+= 4 = l = 15
+= 5 = a = 6
+= 5 = m = 7
+= 5 = p = 14
+= 6 = a = 7
+= 6 = a = 9
+= 6 = l = 15
+= 7 = m = 8
+= 7 = p = 9
+= 7 = l = 15
+= 9 = a = 10
+= 9 = a = 11
+= 11 = m = 12
+= 12 = a = 13
+# Listed 21 contacts. EOF.

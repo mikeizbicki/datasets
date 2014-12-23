@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k7v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEVEIN-TYPE FOLD, SUGAR BINDING PROTEIN
+> pdb_mol_name > AGGLUTININ ISOLECTIN 3
+> graphtype > albelig
+> resolution > 2.2
+> date > 22-OCT-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > BREAD WHEAT
+> title > CRYSTAL STRUCTURE ANALYSIS OF CROSSLINKED-WGA3/GLCNACBETA1,6GALBETA1,4GLC
+> format_version > 2
+> pdbid > 1k7v
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TRITICUM AESTIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k7v | A | albelig | 1 | 1 | H | 4 | 7 | A-4-  | A-7-  | GEQG 
+| 1k7v | A | albelig | 2 | 2 | H | 13 | 15 | A-13-  | A-15-  | PNN 
+| 1k7v | A | albelig | 3 | 3 | H | 28 | 31 | A-28-  | A-31-  | GDYC 
+| 1k7v | A | albelig | 4 | 4 | H | 47 | 50 | A-47-  | A-50-  | GSQA 
+| 1k7v | A | albelig | 5 | 5 | H | 56 | 58 | A-56-  | A-58-  | PNN 
+| 1k7v | A | albelig | 6 | 6 | H | 71 | 74 | A-71-  | A-74-  | AEYG 
+| 1k7v | A | albelig | 7 | 7 | H | 91 | 93 | A-91-  | A-93-  | SQA 
+| 1k7v | A | albelig | 8 | 8 | H | 99 | 101 | A-99-  | A-101-  | PNN 
+| 1k7v | A | albelig | 9 | 9 | H | 114 | 117 | A-114-  | A-117-  | SEFK 
+| 1k7v | A | albelig | 10 | 10 | H | 157 | 160 | A-157-  | A-160-  | PGYC 
+| 1k7v | A | albelig | 11 | 11 | L | 346 | 346 | A-187-  | A-187-  | J 
+| 1k7v | A | albelig | 12 | 12 | L | 347 | 347 | A-188-  | A-188-  | J 
+| 1k7v | A | albelig | 13 | 13 | L | 348 | 348 | A-189-  | A-189-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 6 = l = 11
+= 11 = l = 12
+= 11 = l = 13
+= 12 = l = 13
+# Listed 4 contacts. EOF.

@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ihi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA BARREL, TERNARY COMPLEX, PROTEIN-NADP-BILE ACIDCOMPLEX, OXIDOREDUCTASE
+> pdb_mol_name > 3-ALPHA-HYDROXYSTEROID DEHYDROGENASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 19-APR-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN TYPE III 3-ALPHA-HYDROXYSTEROIDDEHYDROGENASE/BILE ACID BINDING PROTEIN (AKR1C2) COMPLEXEDWITH NADP+ AND URSODEOXYCHOLATE
+> format_version > 2
+> pdbid > 1ihi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ihi | A | albelig | 1 | 1 | E | 5 | 7 | A-7-  | A-9-  | CVK 
+| 1ihi | A | albelig | 2 | 2 | E | 13 | 15 | A-15-  | A-17-  | FMP 
+| 1ihi | A | albelig | 3 | 3 | E | 17 | 20 | A-19-  | A-22-  | LGFG 
+| 1ihi | A | albelig | 4 | 4 | H | 30 | 42 | A-32-  | A-44-  | SKALEAVKLAIEA 
+| 1ihi | A | albelig | 5 | 5 | E | 46 | 48 | A-48-  | A-50-  | HID 
+| 1ihi | A | albelig | 6 | 6 | H | 56 | 69 | A-58-  | A-71-  | EEQVGLAIRSKIAD 
+| 1ihi | A | albelig | 7 | 7 | H | 74 | 76 | A-76-  | A-78-  | RED 
+| 1ihi | A | albelig | 8 | 8 | E | 78 | 83 | A-80-  | A-85-  | FYTSKL 
+| 1ihi | A | albelig | 9 | 9 | H | 85 | 87 | A-87-  | A-89-  | SNS 
+| 1ihi | A | albelig | 10 | 10 | H | 90 | 104 | A-92-  | A-106-  | PELVRPALERSLKNL 
+| 1ihi | A | albelig | 11 | 11 | E | 109 | 114 | A-111-  | A-116-  | VDLYLI 
+| 1ihi | A | albelig | 12 | 12 | H | 142 | 155 | A-144-  | A-157-  | LCATWEAMEKCKDA 
+| 1ihi | A | albelig | 13 | 13 | E | 158 | 164 | A-160-  | A-166-  | AKSIGVS 
+| 1ihi | A | albelig | 14 | 14 | H | 168 | 175 | A-170-  | A-177-  | HRLLEMIL 
+| 1ihi | A | albelig | 15 | 15 | E | 186 | 190 | A-188-  | A-192-  | CNQVE 
+| 1ihi | A | albelig | 16 | 16 | H | 198 | 207 | A-200-  | A-209-  | RKLLDFCKSK 
+| 1ihi | A | albelig | 17 | 17 | E | 210 | 214 | A-212-  | A-216-  | VLVAY 
+| 1ihi | A | albelig | 18 | 18 | H | 233 | 235 | A-235-  | A-237-  | LLE 
+| 1ihi | A | albelig | 19 | 19 | H | 237 | 246 | A-239-  | A-248-  | PVLCALAKKH 
+| 1ihi | A | albelig | 20 | 20 | H | 250 | 260 | A-252-  | A-262-  | PALIALRYQLQ 
+| 1ihi | A | albelig | 21 | 21 | E | 264 | 266 | A-266-  | A-268-  | VVL 
+| 1ihi | A | albelig | 22 | 22 | H | 272 | 283 | A-274-  | A-285-  | EQRIRQNVQVFE 
+| 1ihi | A | albelig | 23 | 23 | H | 288 | 295 | A-290-  | A-297-  | SEEMKAID 
+| 1ihi | A | albelig | 24 | 24 | H | 307 | 309 | A-309-  | A-311-  | DIF 
+| 1ihi | A | albelig | 25 | 25 | L | 642 | 642 | A-324-  | A-324-  | J 
+| 1ihi | A | albelig | 26 | 26 | L | 644 | 644 | A-326-  | A-326-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 8
+= 3 = p = 5
+= 3 = p = 21
+= 3 = l = 25
+= 4 = p = 6
+= 4 = m = 22
+= 5 = p = 8
+= 5 = l = 25
+= 6 = m = 10
+= 8 = p = 11
+= 8 = l = 25
+= 10 = p = 12
+= 11 = p = 13
+= 12 = m = 13
+= 13 = p = 15
+= 13 = l = 25
+= 14 = p = 16
+= 15 = p = 17
+= 15 = l = 25
+= 17 = p = 21
+= 17 = l = 25
+= 18 = l = 25
+= 19 = m = 20
+= 19 = m = 23
+= 20 = m = 22
+= 20 = m = 23
+= 20 = l = 25
+= 21 = l = 25
+= 22 = l = 25
+= 24 = l = 26
+= 25 = l = 26
+# Listed 32 contacts. EOF.

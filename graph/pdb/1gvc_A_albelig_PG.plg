@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gvc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IRON TRANSPORT, GLYCOPROTEIN, METAL-BINDING
+> pdb_mol_name > OVOTRANSFERRIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 07-FEB-02
+> header > IRON TRANSPORT
+> pdb_org_common > COMMON DUCK
+> title > 18KDA N-II DOMAIN FRAGMENT OF DUCK OVOTRANSFERRIN + NTA
+> format_version > 2
+> pdbid > 1gvc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ANAS PLATYRHYNCHOS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gvc | A | albelig | 1 | 1 | E | 3 | 9 | A-96-  | A-102-  | YAVAVVK 
+| 1gvc | A | albelig | 2 | 2 | H | 16 | 18 | A-109-  | A-111-  | IKD 
+| 1gvc | A | albelig | 3 | 3 | E | 23 | 26 | A-116-  | A-119-  | TSAH 
+| 1gvc | A | albelig | 4 | 4 | H | 32 | 45 | A-125-  | A-138-  | SAGWNIPIGTLIHR 
+| 1gvc | A | albelig | 5 | 5 | H | 58 | 65 | A-151-  | A-158-  | VEQAVAKF 
+| 1gvc | A | albelig | 6 | 6 | E | 68 | 70 | A-161-  | A-163-  | ASN 
+| 1gvc | A | albelig | 7 | 7 | H | 78 | 81 | A-171-  | A-174-  | QKLC 
+| 1gvc | A | albelig | 8 | 8 | H | 100 | 109 | A-193-  | A-202-  | GYSGAFQALK 
+| 1gvc | A | albelig | 9 | 9 | E | 115 | 119 | A-208-  | A-212-  | VAFVK 
+| 1gvc | A | albelig | 10 | 10 | H | 122 | 126 | A-215-  | A-219-  | TVQEN 
+| 1gvc | A | albelig | 11 | 11 | H | 128 | 133 | A-221-  | A-226-  | PEEKDE 
+| 1gvc | A | albelig | 12 | 12 | E | 134 | 137 | A-227-  | A-230-  | YELL 
+| 1gvc | A | albelig | 13 | 13 | E | 143 | 145 | A-236-  | A-238-  | RQP 
+| 1gvc | A | albelig | 14 | 14 | H | 146 | 151 | A-239-  | A-244-  | VDSYKT 
+| 1gvc | A | albelig | 15 | 15 | L | 158 | 158 | A-1251-  | A-1251-  | J 
+| 1gvc | A | albelig | 16 | 16 | L | 159 | 159 | A-1252-  | A-1252-  | J 
+| 1gvc | A | albelig | 17 | 17 | L | 160 | 160 | A-1253-  | A-1253-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 9
+= 1 = a = 12
+= 3 = p = 6
+= 3 = m = 8
+= 3 = p = 9
+= 4 = m = 5
+= 4 = m = 9
+= 4 = l = 15
+= 4 = l = 16
+= 4 = l = 17
+= 6 = m = 7
+= 8 = a = 9
+= 8 = m = 10
+= 8 = l = 15
+= 8 = l = 16
+= 8 = l = 17
+= 9 = m = 10
+= 11 = m = 12
+= 12 = a = 13
+= 13 = m = 14
+= 15 = l = 16
+= 15 = l = 17
+= 16 = l = 17
+# Listed 23 contacts. EOF.

@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a4y, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (INHIBITOR/NUCLEASE), COMPLEX (RI-ANG), HYDROLASEMOLECULAR RECOGNITION, EPITOPE MAPPING, LEUCINE-RICH REPEATS
+> pdb_mol_name > ANGIOGENIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-FEB-98
+> header > COMPLEX (INHIBITOR/NUCLEASE)
+> pdb_org_common > HUMAN
+> title > RIBONUCLEASE INHIBITOR-ANGIOGENIN COMPLEX
+> format_version > 2
+> pdbid > 1a4y
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a4y | B | albelig | 1 | 1 | H | 466 | 474 | B-5-  | B-13-  | RYTHFLTQH 
+| 1a4y | B | albelig | 2 | 2 | H | 484 | 494 | B-23-  | B-33-  | DRYAESIMRRR 
+| 1a4y | B | albelig | 3 | 3 | E | 503 | 507 | B-42-  | B-46-  | INTFI 
+| 1a4y | B | albelig | 4 | 4 | H | 511 | 517 | B-50-  | B-56-  | KRSIKAI 
+| 1a4y | B | albelig | 5 | 5 | E | 530 | 532 | B-69-  | B-71-  | LRI 
+| 1a4y | B | albelig | 6 | 6 | E | 537 | 544 | B-76-  | B-83-  | FQVTTAKL 
+| 1a4y | B | albelig | 7 | 7 | E | 555 | 562 | B-94-  | B-101-  | YRATAGFR 
+| 1a4y | B | albelig | 8 | 8 | E | 565 | 568 | B-104-  | B-107-  | VVAC 
+| 1a4y | B | albelig | 9 | 9 | E | 573 | 576 | B-112-  | B-115-  | PVHL 
+| 1a4y | B | albelig | 10 | 10 | H | 579 | 581 | B-118-  | B-120-  | SIF 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 9
+= 2 = m = 7
+= 3 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+# Listed 7 contacts. EOF.

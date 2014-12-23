@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gn8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, COENZYME A BIOSYNTHESIS, NUCLEOTIDYLTRANSFERASE
+> pdb_mol_name > PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE
+> graphtype > albelig
+> resolution > 1.83
+> date > 03-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE IN COMPLEX WITH MN2+ATP FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1gn8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gn8 | A | albelig | 1 | 1 | E | 4 | 9 | A-4-  | A-9-  | RAIYPG 
+| 1gn8 | A | albelig | 2 | 2 | H | 16 | 26 | A-16-  | A-26-  | NGHIDIVTRAT 
+| 1gn8 | A | albelig | 3 | 3 | E | 31 | 37 | A-31-  | A-37-  | HVILAIA 
+| 1gn8 | A | albelig | 4 | 4 | H | 48 | 58 | A-48-  | A-58-  | LEERVALAQQA 
+| 1gn8 | A | albelig | 5 | 5 | E | 65 | 70 | A-65-  | A-70-  | VEVVGF 
+| 1gn8 | A | albelig | 6 | 6 | H | 74 | 80 | A-74-  | A-80-  | MANFARN 
+| 1gn8 | A | albelig | 7 | 7 | E | 85 | 89 | A-85-  | A-89-  | VLIRG 
+| 1gn8 | A | albelig | 8 | 8 | H | 96 | 109 | A-96-  | A-109-  | FEYEMQLAHMNRHL 
+| 1gn8 | A | albelig | 9 | 9 | E | 114 | 118 | A-114-  | A-118-  | ESVFL 
+| 1gn8 | A | albelig | 10 | 10 | H | 122 | 124 | A-122-  | A-124-  | KEW 
+| 1gn8 | A | albelig | 11 | 11 | H | 129 | 137 | A-129-  | A-137-  | SSLVKEVAR 
+| 1gn8 | A | albelig | 12 | 12 | H | 143 | 145 | A-143-  | A-145-  | THF 
+| 1gn8 | A | albelig | 13 | 13 | H | 148 | 158 | A-148-  | A-158-  | ENVHQALMAKL 
+| 1gn8 | A | albelig | 14 | 14 | L | 320 | 320 | A-603-  | A-603-  | J 
+| 1gn8 | A | albelig | 15 | 15 | L | 321 | 321 | A-700-  | A-700-  | J 
+| 1gn8 | A | albelig | 16 | 16 | L | 322 | 322 | A-802-  | A-802-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 1 = l = 15
+= 2 = l = 14
+= 2 = l = 15
+= 3 = m = 4
+= 3 = p = 5
+= 7 = p = 9
+= 7 = l = 15
+= 8 = l = 15
+= 10 = l = 14
+= 10 = l = 15
+= 11 = l = 15
+= 15 = l = 16
+# Listed 14 contacts. EOF.

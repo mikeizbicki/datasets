@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i7p, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, HEMOGLOBINEMIA, ERYTHROCYTE FUNCTION,FAD-BINDING, NADH-BINDING, OXYGEN STORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > NADH-CYTOCHROME B5 REDUCTASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 10-MAR-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT B5R IN COMPLEX WITH FAD
+> format_version > 2
+> pdbid > 1i7p
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i7p | A | albelig | 1 | 1 | E | 14 | 25 | A-42-  | A-53-  | YPLRLIDKEILS 
+| 1i7p | A | albelig | 2 | 2 | E | 28 | 34 | A-56-  | A-62-  | TRRFRFA 
+| 1i7p | A | albelig | 3 | 3 | E | 49 | 56 | A-77-  | A-84-  | HIYLSTRI 
+| 1i7p | A | albelig | 4 | 4 | E | 59 | 65 | A-87-  | A-93-  | NLVIRPY 
+| 1i7p | A | albelig | 5 | 5 | E | 76 | 82 | A-104-  | A-110-  | FVDLVVK 
+| 1i7p | A | albelig | 6 | 6 | H | 97 | 103 | A-125-  | A-131-  | KMSQYLE 
+| 1i7p | A | albelig | 7 | 7 | E | 110 | 117 | A-138-  | A-145-  | TIEFRGPN 
+| 1i7p | A | albelig | 8 | 8 | E | 120 | 124 | A-148-  | A-152-  | LVYQG 
+| 1i7p | A | albelig | 9 | 9 | E | 127 | 130 | A-155-  | A-158-  | KFAI 
+| 1i7p | A | albelig | 10 | 10 | E | 139 | 142 | A-167-  | A-170-  | VVRT 
+| 1i7p | A | albelig | 11 | 11 | E | 145 | 151 | A-173-  | A-179-  | SVGMIAG 
+| 1i7p | A | albelig | 12 | 12 | H | 152 | 167 | A-180-  | A-195-  | GTGITPMLQVIRAVLK 
+| 1i7p | A | albelig | 13 | 13 | E | 174 | 183 | A-202-  | A-211-  | VCYLLFANQS 
+| 1i7p | A | albelig | 14 | 14 | H | 184 | 186 | A-212-  | A-214-  | EKD 
+| 1i7p | A | albelig | 15 | 15 | H | 190 | 199 | A-218-  | A-227-  | RPELEELRNE 
+| 1i7p | A | albelig | 16 | 16 | H | 201 | 203 | A-229-  | A-231-  | SSR 
+| 1i7p | A | albelig | 17 | 17 | E | 204 | 212 | A-232-  | A-240-  | FKLWYTVDK 
+| 1i7p | A | albelig | 18 | 18 | H | 226 | 232 | A-254-  | A-260-  | EEMIRDH 
+| 1i7p | A | albelig | 19 | 19 | E | 240 | 245 | A-268-  | A-273-  | TLILMC 
+| 1i7p | A | albelig | 20 | 20 | H | 250 | 262 | A-278-  | A-290-  | MIQFACLPNLERV 
+| 1i7p | A | albelig | 21 | 21 | H | 266 | 268 | A-294-  | A-296-  | KER 
+| 1i7p | A | albelig | 22 | 22 | E | 269 | 271 | A-297-  | A-299-  | CFT 
+| 1i7p | A | albelig | 23 | 23 | L | 273 | 273 | A-301-  | A-301-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 7
+= 3 = l = 23
+= 4 = l = 23
+= 5 = l = 23
+= 6 = l = 23
+= 8 = a = 9
+= 9 = a = 10
+= 11 = a = 12
+= 11 = p = 13
+= 11 = p = 19
+= 12 = a = 13
+= 12 = m = 19
+= 12 = l = 23
+= 13 = m = 14
+= 13 = m = 16
+= 13 = p = 17
+= 16 = m = 17
+= 18 = m = 20
+= 19 = m = 21
+= 19 = p = 22
+= 19 = l = 23
+= 21 = m = 22
+# Listed 26 contacts. EOF.

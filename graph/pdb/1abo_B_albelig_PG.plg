@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1abo, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SH3 DOMAIN, TRANSFERASE (PHOSPHOTRANSFERASE), PROTO-ONCOGENE, COMPLEX (KINASE/PEPTIDE) COMPLEX
+> pdb_mol_name > ABL TYROSINE KINASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 19-MAY-95
+> header > COMPLEX (KINASE/PEPTIDE)
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE COMPLEX OF THE ABL TYROSINE KINASESH3 DOMAIN WITH 3BP-1 SYNTHETIC PEPTIDE
+> format_version > 2
+> pdbid > 1abo
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1abo | B | albelig | 1 | 1 | E | 61 | 64 | B-65-  | B-68-  | LFVA 
+| 1abo | B | albelig | 2 | 2 | E | 83 | 89 | B-87-  | B-93-  | KLRVLGY 
+| 1abo | B | albelig | 3 | 3 | E | 95 | 100 | B-99-  | B-104-  | WCEAQT 
+| 1abo | B | albelig | 4 | 4 | E | 103 | 108 | B-107-  | B-112-  | GQGWVP 
+| 1abo | B | albelig | 5 | 5 | H | 109 | 111 | B-113-  | B-115-  | SNY 
+| 1abo | B | albelig | 6 | 6 | E | 112 | 114 | B-116-  | B-118-  | ITP 
+| 1abo | B | albelig | 7 | 7 | L | 141 | 141 | B-411-  | B-411-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+= 4 = l = 7
+= 5 = m = 6
+# Listed 7 contacts. EOF.

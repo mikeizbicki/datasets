@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hne, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > HUMAN LEUCOCYTE ELASTASE
+> graphtype > albelig
+> resolution > 1.84
+> date > 10-APR-89
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF HUMAN NEUTROPHIL ELASTASE IN COMPLEX WITH A PEPTIDECHLOROMETHYL KETONE INHIBITOR AT 1.84-ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1hne
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hne | E | albelig | 1 | 1 | E | 15 | 19 | E-30-  | E-34-  | MVSLQ 
+| 1hne | E | albelig | 2 | 2 | E | 24 | 32 | E-40-  | E-48-  | HFAGATLIA 
+| 1hne | E | albelig | 3 | 3 | E | 35 | 38 | E-51-  | E-54-  | FVMS 
+| 1hne | E | albelig | 4 | 4 | H | 40 | 42 | E-56-  | E-58-  | AHA 
+| 1hne | E | albelig | 5 | 5 | H | 48 | 50 | E-62-B | E-64-  | VRA 
+| 1hne | E | albelig | 6 | 6 | E | 52 | 55 | E-65-A | E-68-  | RVVL 
+| 1hne | E | albelig | 7 | 7 | E | 68 | 77 | E-81-  | E-90-  | QVFAVQRIFE 
+| 1hne | E | albelig | 8 | 8 | E | 90 | 94 | E-104-  | E-108-  | VILQL 
+| 1hne | E | albelig | 9 | 9 | E | 121 | 126 | E-135-  | E-140-  | QNLAMG 
+| 1hne | E | albelig | 10 | 10 | E | 141 | 148 | E-156-  | E-164-  | QELNVTVV 
+| 1hne | E | albelig | 11 | 11 | E | 157 | 160 | E-181-  | E-184-  | VCTL 
+| 1hne | E | albelig | 12 | 12 | E | 176 | 179 | E-198-  | E-201-  | PLVN 
+| 1hne | E | albelig | 13 | 13 | E | 182 | 190 | E-208-  | E-216-  | LIHGIASFV 
+| 1hne | E | albelig | 14 | 14 | E | 201 | 205 | E-226-  | E-230-  | DAFAP 
+| 1hne | E | albelig | 15 | 15 | H | 206 | 217 | E-231-  | E-242-  | VAQFVNWIDSII 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 8
+= 6 = a = 7
+= 7 = a = 8
+= 9 = a = 10
+= 9 = a = 12
+= 10 = a = 11
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+# Listed 14 contacts. EOF.

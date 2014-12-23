@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hxm, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IG DOMAIN, T CELL RECEPTOR, TCR, GDTCR, IMMUNE SYSTEM
+> pdb_mol_name > GAMMA-DELTA T-CELL RECEPTOR
+> graphtype > albelig
+> resolution > 3.12
+> date > 16-JAN-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A HUMAN VGAMMA9/VDELTA2 T CELL RECEPTOR
+> format_version > 2
+> pdbid > 1hxm
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hxm | G | albelig | 1 | 1 | E | 1317 | 1320 | G-3-  | G-6-  | ELVP 
+| 1hxm | G | albelig | 2 | 2 | E | 1324 | 1328 | G-10-  | G-14-  | TVPVS 
+| 1hxm | G | albelig | 3 | 3 | E | 1333 | 1340 | G-19-  | G-26-  | ATLRMSMK 
+| 1hxm | G | albelig | 4 | 4 | H | 1344 | 1346 | G-30-  | G-32-  | IGN 
+| 1hxm | G | albelig | 5 | 5 | E | 1347 | 1355 | G-33-  | G-41-  | YYINWYRKT 
+| 1hxm | G | albelig | 6 | 6 | E | 1361 | 1365 | G-47-  | G-51-  | TFIYR 
+| 1hxm | G | albelig | 7 | 7 | E | 1378 | 1383 | G-64-  | G-69-  | FQGDID 
+| 1hxm | G | albelig | 8 | 8 | H | 1384 | 1386 | G-70-  | G-72-  | IAK 
+| 1hxm | G | albelig | 9 | 9 | E | 1388 | 1393 | G-74-  | G-79-  | LAVLKI 
+| 1hxm | G | albelig | 10 | 10 | H | 1398 | 1400 | G-84-  | G-86-  | ERD 
+| 1hxm | G | albelig | 11 | 11 | E | 1402 | 1410 | G-88-  | G-96-  | GSYYMACDT 
+| 1hxm | G | albelig | 12 | 12 | E | 1427 | 1432 | G-113-  | G-118-  | TRVTVE 
+| 1hxm | G | albelig | 13 | 13 | E | 1442 | 1448 | G-128-  | G-134-  | SVFVMKN 
+| 1hxm | G | albelig | 14 | 14 | E | 1451 | 1459 | G-137-  | G-145-  | NVANLVKEF 
+| 1hxm | G | albelig | 15 | 15 | E | 1465 | 1469 | G-151-  | G-155-  | RINLV 
+| 1hxm | G | albelig | 16 | 16 | E | 1473 | 1476 | G-159-  | G-162-  | KITE 
+| 1hxm | G | albelig | 17 | 17 | E | 1480 | 1483 | G-166-  | G-169-  | AIVI 
+| 1hxm | G | albelig | 18 | 18 | E | 1489 | 1497 | G-175-  | G-183-  | YNAVKLGKY 
+| 1hxm | G | albelig | 19 | 19 | E | 1504 | 1509 | G-190-  | G-195-  | TNSVQH 
+| 1hxm | G | albelig | 20 | 20 | E | 1512 | 1515 | G-198-  | G-201-  | KTVH 
+| 1hxm | G | albelig | 21 | 21 | H | 1516 | 1519 | G-202-  | G-205-  | STDF 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 11
+= 2 = p = 12
+= 3 = a = 9
+= 3 = p = 11
+= 4 = m = 5
+= 5 = a = 6
+= 5 = p = 9
+= 5 = a = 11
+= 7 = m = 8
+= 7 = a = 9
+= 11 = a = 12
+= 13 = a = 14
+= 14 = a = 18
+= 14 = p = 19
+= 15 = p = 18
+= 15 = a = 19
+= 16 = a = 18
+= 17 = a = 18
+= 19 = a = 20
+= 20 = m = 21
+# Listed 21 contacts. EOF.

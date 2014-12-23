@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1brs, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDONUCLEASE
+> pdb_mol_name > BARSTAR
+> graphtype > albelig
+> resolution > 2.0
+> date > 11-MAR-94
+> header > ENDONUCLEASE
+> pdb_org_common > UNKNOWN
+> title > PROTEIN-PROTEIN RECOGNITION: CRYSTAL STRUCTURAL ANALYSIS OFA BARNASE-BARSTAR COMPLEX AT 2.0-A RESOLUTION
+> format_version > 2
+> pdbid > 1brs
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1brs | D | albelig | 1 | 1 | E | 330 | 334 | D-2-  | D-6-  | KAVIN 
+| 1brs | D | albelig | 2 | 2 | H | 335 | 337 | D-7-  | D-9-  | GEQ 
+| 1brs | D | albelig | 3 | 3 | H | 341 | 351 | D-13-  | D-23-  | ISDLHQTLKKE 
+| 1brs | D | albelig | 4 | 4 | H | 362 | 371 | D-34-  | D-43-  | LDALWDALTG 
+| 1brs | D | albelig | 5 | 5 | E | 377 | 382 | D-49-  | D-54-  | LVLEWR 
+| 1brs | D | albelig | 6 | 6 | H | 384 | 390 | D-56-  | D-62-  | FEQSKQL 
+| 1brs | D | albelig | 7 | 7 | H | 394 | 406 | D-67-  | D-79-  | AESVLQVFREAKA 
+| 1brs | D | albelig | 8 | 8 | E | 411 | 415 | D-84-  | D-88-  | ITIIL 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 5
+= 4 = m = 7
+= 5 = p = 8
+# Listed 4 contacts. EOF.

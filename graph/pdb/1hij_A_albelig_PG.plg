@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hij, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE
+> pdb_mol_name > INTERLEUKIN-4
+> graphtype > albelig
+> resolution > 3.0
+> date > 01-JUN-95
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > INTERLEUKIN-4 MUTANT WITH ARG 88 REPLACED WITH GLN (R88Q)
+> format_version > 2
+> pdbid > 1hij
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hij | A | albelig | 1 | 1 | H | 6 | 18 | A-6-  | A-18-  | TLQEIIKTLNSLT 
+| 1hij | A | albelig | 2 | 2 | E | 28 | 30 | A-28-  | A-30-  | TVT 
+| 1hij | A | albelig | 3 | 3 | H | 32 | 34 | A-32-  | A-34-  | IFA 
+| 1hij | A | albelig | 4 | 4 | H | 41 | 59 | A-41-  | A-59-  | EKETFCRAATVLRQFYSHH 
+| 1hij | A | albelig | 5 | 5 | H | 63 | 66 | A-63-  | A-66-  | TRNL 
+| 1hij | A | albelig | 6 | 6 | H | 70 | 94 | A-70-  | A-94-  | AQQFHRHKQLIRFLKRLDQNLWGLA 
+| 1hij | A | albelig | 7 | 7 | E | 106 | 108 | A-106-  | A-108-  | QST 
+| 1hij | A | albelig | 8 | 8 | H | 109 | 128 | A-109-  | A-128-  | LENFLERLKTIMREKYSKAS 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = a = 8
+= 2 = a = 7
+= 4 = a = 6
+= 4 = a = 8
+= 7 = m = 8
+# Listed 6 contacts. EOF.

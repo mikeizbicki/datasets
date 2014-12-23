@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ib0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSFER, METHEMOLOGOBINEMIA, NADH, FAD, OXYGENSTORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > NADH-CYTOCHROME B5 REDUCTASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 26-MAR-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT B5R IN COMPLEX WITH FAD AND NAD
+> format_version > 2
+> pdbid > 1ib0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ib0 | A | albelig | 1 | 1 | E | 14 | 25 | A-42-  | A-53-  | YPLRLIDKEILS 
+| 1ib0 | A | albelig | 2 | 2 | E | 28 | 34 | A-56-  | A-62-  | TRRFRFA 
+| 1ib0 | A | albelig | 3 | 3 | E | 49 | 56 | A-77-  | A-84-  | HIYLSTRI 
+| 1ib0 | A | albelig | 4 | 4 | E | 59 | 65 | A-87-  | A-93-  | NLVIRPY 
+| 1ib0 | A | albelig | 5 | 5 | E | 76 | 82 | A-104-  | A-110-  | FVDLVVK 
+| 1ib0 | A | albelig | 6 | 6 | H | 97 | 104 | A-125-  | A-132-  | KMSQYLEN 
+| 1ib0 | A | albelig | 7 | 7 | E | 110 | 117 | A-138-  | A-145-  | TIEFRGPN 
+| 1ib0 | A | albelig | 8 | 8 | E | 120 | 122 | A-148-  | A-150-  | LVY 
+| 1ib0 | A | albelig | 9 | 9 | E | 127 | 130 | A-155-  | A-158-  | KFAI 
+| 1ib0 | A | albelig | 10 | 10 | E | 139 | 142 | A-167-  | A-170-  | VVRT 
+| 1ib0 | A | albelig | 11 | 11 | E | 145 | 151 | A-173-  | A-179-  | SVGMIAG 
+| 1ib0 | A | albelig | 12 | 12 | H | 152 | 167 | A-180-  | A-195-  | GTGITPMLQVIRAVLK 
+| 1ib0 | A | albelig | 13 | 13 | E | 174 | 183 | A-202-  | A-211-  | VCYLLFANQS 
+| 1ib0 | A | albelig | 14 | 14 | H | 184 | 186 | A-212-  | A-214-  | EKD 
+| 1ib0 | A | albelig | 15 | 15 | H | 190 | 199 | A-218-  | A-227-  | RPELEELRNE 
+| 1ib0 | A | albelig | 16 | 16 | H | 201 | 203 | A-229-  | A-231-  | SSR 
+| 1ib0 | A | albelig | 17 | 17 | E | 204 | 212 | A-232-  | A-240-  | FKLWYTVDK 
+| 1ib0 | A | albelig | 18 | 18 | H | 226 | 232 | A-254-  | A-260-  | EEMIRDH 
+| 1ib0 | A | albelig | 19 | 19 | E | 240 | 245 | A-268-  | A-273-  | TLILMC 
+| 1ib0 | A | albelig | 20 | 20 | H | 250 | 262 | A-278-  | A-290-  | MIQFACLPNLERV 
+| 1ib0 | A | albelig | 21 | 21 | H | 266 | 268 | A-294-  | A-296-  | KER 
+| 1ib0 | A | albelig | 22 | 22 | E | 269 | 271 | A-297-  | A-299-  | CFT 
+| 1ib0 | A | albelig | 23 | 23 | L | 273 | 273 | A-301-  | A-301-  | J 
+| 1ib0 | A | albelig | 24 | 24 | L | 274 | 274 | A-1994-  | A-1994-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 2 = a = 5
+= 3 = a = 4
+= 3 = m = 6
+= 3 = a = 7
+= 3 = l = 23
+= 4 = l = 23
+= 5 = l = 23
+= 5 = l = 24
+= 6 = l = 23
+= 8 = a = 9
+= 9 = a = 10
+= 11 = a = 12
+= 11 = p = 13
+= 11 = p = 19
+= 11 = l = 24
+= 12 = m = 15
+= 12 = l = 23
+= 12 = l = 24
+= 13 = m = 14
+= 13 = m = 16
+= 13 = p = 17
+= 13 = l = 24
+= 16 = m = 17
+= 17 = l = 24
+= 18 = m = 20
+= 19 = m = 21
+= 19 = p = 22
+= 19 = l = 23
+= 19 = l = 24
+= 20 = l = 24
+= 21 = m = 22
+= 22 = l = 24
+= 23 = l = 24
+# Listed 35 contacts. EOF.

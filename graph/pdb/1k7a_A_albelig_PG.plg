@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k7a, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ETS DOMAIN, TRANSCRIPTION FACTOR, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > C-ETS-1 PROTEIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 18-OCT-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HOUSE MOUSE
+> title > ETS-1(331-440)+GGAG DUPLEX
+> format_version > 2
+> pdbid > 1k7a
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k7a | A | albelig | 1 | 1 | H | 5 | 13 | A-337-  | A-345-  | LWQFLLELL 
+| 1k7a | A | albelig | 2 | 2 | H | 16 | 18 | A-348-  | A-350-  | KSC 
+| 1k7a | A | albelig | 3 | 3 | E | 30 | 32 | A-362-  | A-364-  | EFK 
+| 1k7a | A | albelig | 4 | 4 | H | 36 | 46 | A-368-  | A-378-  | PDEVARRWGKR 
+| 1k7a | A | albelig | 5 | 5 | H | 54 | 63 | A-386-  | A-395-  | YEKLSRGLRY 
+| 1k7a | A | albelig | 6 | 6 | E | 70 | 72 | A-402-  | A-404-  | IHK 
+| 1k7a | A | albelig | 7 | 7 | E | 79 | 82 | A-411-  | A-414-  | VYRF 
+| 1k7a | A | albelig | 8 | 8 | H | 86 | 90 | A-418-  | A-422-  | LQSLL 
+| 1k7a | A | albelig | 9 | 9 | H | 94 | 101 | A-426-  | A-433-  | PEELHAML 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 3 = a = 7
+= 6 = a = 7
+# Listed 3 contacts. EOF.

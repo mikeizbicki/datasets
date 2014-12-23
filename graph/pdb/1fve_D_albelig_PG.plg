@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fve, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG1-KAPPA 4D5 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.7
+> date > 20-OCT-92
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HUMAN
+> title > X-RAY STRUCTURES OF THE ANTIGEN-BINDING DOMAINS FROM THREEVARIANTS OF HUMANIZED ANTI-P185-HER2 ANTIBODY 4D5 ANDCOMPARISON WITH MOLECULAR MODELING
+> format_version > 2
+> pdbid > 1fve
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fve | D | albelig | 1 | 1 | E | 657 | 661 | D-3-  | D-7-  | QLVES 
+| 1fve | D | albelig | 2 | 2 | E | 671 | 679 | D-17-  | D-25-  | SLRLSIAAS 
+| 1fve | D | albelig | 3 | 3 | H | 683 | 685 | D-29-  | D-31-  | IKD 
+| 1fve | D | albelig | 4 | 4 | E | 688 | 693 | D-34-  | D-39-  | IHWVRQ 
+| 1fve | D | albelig | 5 | 5 | E | 700 | 706 | D-46-  | D-52-  | EWVARIY 
+| 1fve | D | albelig | 6 | 6 | E | 711 | 714 | D-57-  | D-60-  | YTRY 
+| 1fve | D | albelig | 7 | 7 | E | 722 | 727 | D-68-  | D-73-  | FTISAD 
+| 1fve | D | albelig | 8 | 8 | E | 732 | 738 | D-78-  | D-84-  | TAYLQMN 
+| 1fve | D | albelig | 9 | 9 | H | 742 | 744 | D-88-  | D-90-  | AED 
+| 1fve | D | albelig | 10 | 10 | E | 746 | 752 | D-92-  | D-98-  | AVYYISR 
+| 1fve | D | albelig | 11 | 11 | H | 755 | 757 | D-101-  | D-103-  | GDG 
+| 1fve | D | albelig | 12 | 12 | E | 768 | 772 | D-114-  | D-118-  | TLVTV 
+| 1fve | D | albelig | 13 | 13 | E | 781 | 785 | D-127-  | D-131-  | SVFPL 
+| 1fve | D | albelig | 14 | 14 | E | 796 | 806 | D-142-  | D-152-  | TAALGJLVKDY 
+| 1fve | D | albelig | 15 | 15 | E | 811 | 815 | D-157-  | D-161-  | VTVSW 
+| 1fve | D | albelig | 16 | 16 | E | 824 | 826 | D-170-  | D-172-  | VHT 
+| 1fve | D | albelig | 17 | 17 | E | 837 | 846 | D-183-  | D-192-  | YSLSSVVTVP 
+| 1fve | D | albelig | 18 | 18 | E | 856 | 861 | D-202-  | D-207-  | IJNVNH 
+| 1fve | D | albelig | 19 | 19 | E | 866 | 871 | D-212-  | D-217-  | TKVDKK 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 8
+= 4 = a = 5
+= 4 = a = 10
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = a = 8
+= 10 = a = 12
+= 13 = a = 14
+= 13 = a = 19
+= 14 = a = 15
+= 14 = a = 17
+= 15 = a = 18
+= 16 = a = 17
+= 18 = a = 19
+# Listed 17 contacts. EOF.

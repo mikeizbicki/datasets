@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ibx, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DFF40, DFF45, PROTEIN-PROTEIN COMPLEX, CIDE, CIDE DOMAINCOMPLEX, HYDROLASE/HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > CHIMERA OF IGG BINDING PROTEIN G AND DNA
+> graphtype > albelig
+> resolution > -1.0
+> date > 29-MAR-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > , HUMAN
+> title > NMR STRUCTURE OF DFF40 AND DFF45 N-TERMINAL DOMAIN COMPLEX
+> format_version > 2
+> pdbid > 1ibx
+> experiment > SOLUTION NMR
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS SP., HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ibx | B | albelig | 1 | 1 | H | 110 | 121 | B-39-  | B-50-  | LEDLRSKACDIL 
+| 1ibx | B | albelig | 2 | 2 | E | 131 | 134 | B-60-  | B-63-  | TLVL 
+| 1ibx | B | albelig | 3 | 3 | H | 144 | 149 | B-73-  | B-78-  | DDYFLC 
+| 1ibx | B | albelig | 4 | 4 | E | 156 | 159 | B-85-  | B-88-  | FVAL 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 4
+# Listed 2 contacts. EOF.

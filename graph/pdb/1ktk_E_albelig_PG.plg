@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ktk, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STREPTOCOCCUS, IMMUNITY, T CELL RECEPTOR BETA, IMMUNE SYSTEM
+> pdb_mol_name > T-CELL RECEPTOR BETA CHAIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 16-JAN-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > COMPLEX OF STREPTOCOCCAL PYROGENIC ENTEROTOXIN C (SPEC)WITH A HUMAN T CELL RECEPTOR BETA CHAIN (VBETA2.1)
+> format_version > 2
+> pdbid > 1ktk
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ktk | E | albelig | 1 | 1 | E | 823 | 825 | E-4-  | E-6-  | VSQ 
+| 1ktk | E | albelig | 2 | 2 | E | 839 | 844 | E-20-  | E-25-  | KIEARS 
+| 1ktk | E | albelig | 3 | 3 | E | 852 | 856 | E-32-  | E-36-  | MFWYR 
+| 1ktk | E | albelig | 4 | 4 | E | 864 | 869 | E-44-  | E-49-  | MLMATS 
+| 1ktk | E | albelig | 5 | 5 | E | 876 | 878 | E-55-  | E-57-  | TYE 
+| 1ktk | E | albelig | 6 | 6 | E | 887 | 892 | E-66-  | E-71-  | LINHAS 
+| 1ktk | E | albelig | 7 | 7 | E | 895 | 899 | E-74-  | E-78-  | LSTLT 
+| 1ktk | E | albelig | 8 | 8 | E | 910 | 912 | E-89-  | E-91-  | FYI 
+| 1ktk | E | albelig | 9 | 9 | E | 946 | 950 | E-126-  | E-130-  | EVAVF 
+| 1ktk | E | albelig | 10 | 10 | E | 966 | 970 | E-146-  | E-150-  | VNLAT 
+| 1ktk | E | albelig | 11 | 11 | E | 981 | 983 | E-161-  | E-163-  | WWV 
+| 1ktk | E | albelig | 12 | 12 | E | 1010 | 1015 | E-190-  | E-195-  | YALSSR 
+| 1ktk | E | albelig | 13 | 13 | E | 1029 | 1034 | E-209-  | E-214-  | HFRNQV 
+| 1ktk | E | albelig | 14 | 14 | E | 1057 | 1062 | E-237-  | E-242-  | VSAEAW 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 7
+= 3 = a = 4
+= 3 = p = 7
+= 3 = a = 8
+= 4 = a = 5
+= 4 = p = 6
+= 6 = a = 7
+= 9 = a = 10
+= 9 = a = 13
+= 9 = p = 14
+= 10 = a = 12
+= 11 = a = 13
+= 13 = a = 14
+# Listed 14 contacts. EOF.

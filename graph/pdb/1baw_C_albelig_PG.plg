@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1baw, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSFER, CYANOBACTERIA, BLUE COPPER PROTEIN
+> pdb_mol_name > PLASTOCYANIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 19-APR-98
+> header > ELECTRON TRANSFER
+> pdb_org_common > UNKNOWN
+> title > PLASTOCYANIN FROM PHORMIDIUM LAMINOSUM
+> format_version > 2
+> pdbid > 1baw
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PHORMIDIUM LAMINOSUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1baw | C | albelig | 1 | 1 | E | 214 | 219 | C-2-  | C-7-  | TFTVKM 
+| 1baw | C | albelig | 2 | 2 | E | 232 | 235 | C-20-  | C-23-  | NVTV 
+| 1baw | C | albelig | 3 | 3 | E | 240 | 245 | C-28-  | C-33-  | TVKWVN 
+| 1baw | C | albelig | 4 | 4 | E | 251 | 255 | C-39-  | C-43-  | HNILF 
+| 1baw | C | albelig | 5 | 5 | H | 261 | 263 | C-49-  | C-51-  | PGA 
+| 1baw | C | albelig | 6 | 6 | H | 265 | 271 | C-53-  | C-59-  | KELADKL 
+| 1baw | C | albelig | 7 | 7 | E | 273 | 277 | C-61-  | C-65-  | HSQLM 
+| 1baw | C | albelig | 8 | 8 | E | 283 | 287 | C-71-  | C-75-  | SYEIT 
+| 1baw | C | albelig | 9 | 9 | E | 295 | 300 | C-83-  | C-88-  | GTYTYY 
+| 1baw | C | albelig | 10 | 10 | E | 310 | 315 | C-98-  | C-103-  | VGKITV 
+| 1baw | C | albelig | 11 | 11 | L | 322 | 322 | C-106-  | C-106-  | J 
+| 1baw | C | albelig | 12 | 12 | L | 323 | 323 | C-107-  | C-107-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 10
+= 3 = a = 8
+= 4 = a = 7
+= 4 = a = 9
+= 4 = l = 11
+= 9 = a = 10
+# Listed 7 contacts. EOF.

@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fwm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METHYLTRANSFERASE, TRANSFERASE
+> pdb_mol_name > THYMIDYLATE SYNTHASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 23-SEP-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE THYMIDYLATE SYNTHASE R166Q MUTANT
+> format_version > 2
+> pdbid > 1fwm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fwm | A | albelig | 1 | 1 | H | 2 | 14 | A-2-  | A-14-  | KQYLELMQKVLDE 
+| 1fwm | A | albelig | 2 | 2 | E | 16 | 18 | A-16-  | A-18-  | TQK 
+| 1fwm | A | albelig | 3 | 3 | E | 26 | 37 | A-26-  | A-37-  | TLSIFGHQMRFN 
+| 1fwm | A | albelig | 4 | 4 | H | 52 | 63 | A-52-  | A-63-  | LRSIIHELLWFL 
+| 1fwm | A | albelig | 5 | 5 | H | 70 | 74 | A-70-  | A-74-  | AYLHE 
+| 1fwm | A | albelig | 6 | 6 | H | 81 | 83 | A-81-  | A-83-  | DEW 
+| 1fwm | A | albelig | 7 | 7 | H | 94 | 100 | A-94-  | A-100-  | YGKQWRA 
+| 1fwm | A | albelig | 8 | 8 | H | 111 | 121 | A-111-  | A-121-  | QITTVLNQLKN 
+| 1fwm | A | albelig | 9 | 9 | E | 129 | 131 | A-129-  | A-131-  | IVS 
+| 1fwm | A | albelig | 10 | 10 | H | 135 | 140 | A-135-  | A-140-  | VGELDK 
+| 1fwm | A | albelig | 11 | 11 | E | 149 | 155 | A-149-  | A-155-  | FFQFYVA 
+| 1fwm | A | albelig | 12 | 12 | E | 158 | 169 | A-158-  | A-169-  | KLSCQLYQQSCD 
+| 1fwm | A | albelig | 13 | 13 | H | 173 | 191 | A-173-  | A-191-  | GLPFNIASYALLVHMMAQQ 
+| 1fwm | A | albelig | 14 | 14 | E | 195 | 209 | A-195-  | A-209-  | EVGDFVWTGGDTHLY 
+| 1fwm | A | albelig | 15 | 15 | H | 210 | 220 | A-210-  | A-220-  | SNHMDQTHLQL 
+| 1fwm | A | albelig | 16 | 16 | E | 229 | 232 | A-229-  | A-232-  | KLII 
+| 1fwm | A | albelig | 17 | 17 | H | 244 | 246 | A-244-  | A-246-  | FED 
+| 1fwm | A | albelig | 18 | 18 | E | 247 | 250 | A-247-  | A-250-  | FEIE 
+| 1fwm | A | albelig | 19 | 19 | L | 532 | 532 | A-265-  | A-265-  | J 
+| 1fwm | A | albelig | 20 | 20 | L | 533 | 533 | A-565-  | A-565-  | J 
+| 1fwm | A | albelig | 21 | 21 | L | 534 | 534 | A-266-  | A-266-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 15
+= 2 = a = 3
+= 3 = a = 14
+= 4 = m = 5
+= 4 = p = 13
+= 4 = l = 21
+= 6 = l = 21
+= 7 = m = 8
+= 7 = l = 21
+= 8 = m = 9
+= 9 = a = 11
+= 11 = a = 12
+= 12 = a = 13
+= 12 = p = 14
+= 12 = l = 19
+= 13 = a = 14
+= 13 = l = 21
+= 14 = m = 15
+= 16 = m = 17
+= 16 = a = 18
+= 17 = m = 18
+= 19 = l = 21
+# Listed 23 contacts. EOF.

@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k78, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PAIRED DOMAIN, ETS DOMAIN, TRANSCRIPTION FACTOR,TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > PAIRED BOX PROTEIN PAX5
+> graphtype > albelig
+> resolution > 2.25
+> date > 18-OCT-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HUMAN
+> title > PAX5(1-149)+ETS-1(331-440)+DNA
+> format_version > 2
+> pdbid > 1k78
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k78 | A | albelig | 1 | 1 | H | 17 | 28 | A-35-  | A-46-  | DVVRQRIVELAH 
+| 1k78 | A | albelig | 2 | 2 | H | 33 | 40 | A-51-  | A-58-  | PCDISRQL 
+| 1k78 | A | albelig | 3 | 3 | H | 44 | 57 | A-62-  | A-75-  | HGCVSKILGRYYET 
+| 1k78 | A | albelig | 4 | 4 | H | 75 | 87 | A-93-  | A-105-  | PKVVEKIAEYKRQ 
+| 1k78 | A | albelig | 5 | 5 | H | 93 | 102 | A-111-  | A-120-  | AWEIRDRLLA 
+| 1k78 | A | albelig | 6 | 6 | H | 114 | 122 | A-132-  | A-140-  | VSSINRIIR 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 4 = m = 5
+= 5 = m = 6
+# Listed 3 contacts. EOF.

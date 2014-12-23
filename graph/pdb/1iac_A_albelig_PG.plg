@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iac, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ZINC ENDOPEPTIDASE
+> pdb_mol_name > ASTACIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 09-MAY-94
+> header > ZINC ENDOPEPTIDASE
+> pdb_org_common > BROAD-FINGERED CRAYFISH
+> title > REFINED 1.8 ANGSTROMS X-RAY CRYSTAL STRUCTURE OF ASTACIN, AZINC-ENDOPEPTIDASE FROM THE CRAYFISH ASTACUS ASTACUS L.STRUCTURE DETERMINATION, REFINEMENT, MOLECULAR STRUCTUREAND COMPARISON WITH THERMOLYSIN
+> format_version > 2
+> pdbid > 1iac
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ASTACUS ASTACUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iac | A | albelig | 1 | 1 | H | 6 | 8 | A-6-  | A-8-  | DEY 
+| 1iac | A | albelig | 2 | 2 | H | 11 | 13 | A-11-  | A-13-  | SGG 
+| 1iac | A | albelig | 3 | 3 | E | 14 | 20 | A-14-  | A-20-  | VIPYTFA 
+| 1iac | A | albelig | 4 | 4 | H | 24 | 40 | A-24-  | A-40-  | GADQSAILSGMQELEEK 
+| 1iac | A | albelig | 5 | 5 | E | 44 | 47 | A-44-  | A-47-  | RFVP 
+| 1iac | A | albelig | 6 | 6 | E | 54 | 58 | A-54-  | A-58-  | YVEIF 
+| 1iac | A | albelig | 7 | 7 | E | 64 | 66 | A-64-  | A-66-  | NWS 
+| 1iac | A | albelig | 8 | 8 | E | 74 | 79 | A-74-  | A-79-  | AQQVSL 
+| 1iac | A | albelig | 9 | 9 | H | 87 | 98 | A-87-  | A-98-  | HGTIIHELMHAI 
+| 1iac | A | albelig | 10 | 10 | H | 103 | 105 | A-103-  | A-105-  | EHT 
+| 1iac | A | albelig | 11 | 11 | H | 109 | 111 | A-109-  | A-111-  | RDN 
+| 1iac | A | albelig | 12 | 12 | E | 113 | 115 | A-113-  | A-115-  | VTI 
+| 1iac | A | albelig | 13 | 13 | H | 117 | 119 | A-117-  | A-119-  | YQN 
+| 1iac | A | albelig | 14 | 14 | H | 122 | 128 | A-122-  | A-128-  | PSMTSNF 
+| 1iac | A | albelig | 15 | 15 | E | 164 | 166 | A-164-  | A-166-  | IVP 
+| 1iac | A | albelig | 16 | 16 | H | 176 | 178 | A-176-  | A-178-  | PYD 
+| 1iac | A | albelig | 17 | 17 | H | 184 | 193 | A-184-  | A-193-  | QTDANQINNL 
+| 1iac | A | albelig | 18 | 18 | H | 195 | 198 | A-195-  | A-198-  | TNEA 
+| 1iac | A | albelig | 19 | 19 | L | 201 | 201 | A-999-  | A-999-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 3 = m = 4
+= 3 = p = 5
+= 3 = p = 6
+= 4 = m = 5
+= 4 = m = 9
+= 6 = p = 8
+= 7 = a = 8
+= 7 = m = 9
+= 9 = l = 19
+= 11 = m = 12
+= 12 = a = 15
+# Listed 12 contacts. EOF.

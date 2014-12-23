@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ge9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THREE-HELIX BUNDLE, RIBOSOME
+> pdb_mol_name > RIBOSOME RECYCLING FACTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 19-OCT-00
+> header > RIBOSOME
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE RIBOSOME RECYCLING FACTOR
+> format_version > 2
+> pdbid > 1ge9
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AQUIFEX AEOLICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ge9 | A | albelig | 1 | 1 | H | 5 | 29 | A-5-  | A-29-  | LEDIFKEAEKDMKKAVEYYKNEIAG 
+| 1ge9 | A | albelig | 2 | 2 | E | 59 | 61 | A-59-  | A-61-  | TIS 
+| 1ge9 | A | albelig | 3 | 3 | E | 67 | 71 | A-67-  | A-71-  | QIVIQ 
+| 1ge9 | A | albelig | 4 | 4 | H | 77 | 89 | A-77-  | A-89-  | AVPAIEKAIREEL 
+| 1ge9 | A | albelig | 5 | 5 | E | 94 | 96 | A-94-  | A-96-  | TVQ 
+| 1ge9 | A | albelig | 6 | 6 | E | 99 | 103 | A-99-  | A-103-  | VIRVT 
+| 1ge9 | A | albelig | 7 | 7 | H | 109 | 143 | A-109-  | A-143-  | EERRRELVRLLHKITEEARVRVRNVRREAKEMIEE 
+| 1ge9 | A | albelig | 8 | 8 | H | 149 | 181 | A-149-  | A-181-  | EDEKKRALERLQKLTDKYIDEINKLMEAKEKEI 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 1 = p = 8
+= 2 = a = 3
+= 3 = a = 6
+= 5 = a = 6
+= 7 = a = 8
+# Listed 6 contacts. EOF.

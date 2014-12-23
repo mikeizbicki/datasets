@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a4b, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CUPROPROTEIN
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 1.91
+> date > 28-JAN-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > AZURIN MUTANT WITH MET 121 REPLACED BY HIS, PH 6.5 CRYSTALFORM, DATA COLLECTED AT-180 DEGREES CELSIUS
+> format_version > 2
+> pdbid > 1a4b
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ACHROMOBACTER DENITRIFICANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a4b | A | albelig | 1 | 1 | E | 4 | 9 | A-4-  | A-9-  | EATIES 
+| 1a4b | A | albelig | 2 | 2 | E | 19 | 23 | A-19-  | A-23-  | EMVVD 
+| 1a4b | A | albelig | 3 | 3 | E | 28 | 35 | A-28-  | A-35-  | QFTVHLKH 
+| 1a4b | A | albelig | 4 | 4 | H | 41 | 44 | A-41-  | A-44-  | KSAM 
+| 1a4b | A | albelig | 5 | 5 | E | 49 | 52 | A-49-  | A-52-  | VLTK 
+| 1a4b | A | albelig | 6 | 6 | H | 53 | 66 | A-53-  | A-66-  | EADKEGVATDGMNA 
+| 1a4b | A | albelig | 7 | 7 | H | 68 | 70 | A-68-  | A-70-  | LAQ 
+| 1a4b | A | albelig | 8 | 8 | E | 92 | 98 | A-92-  | A-98-  | SDSVTFD 
+| 1a4b | A | albelig | 9 | 9 | H | 99 | 101 | A-99-  | A-101-  | VSK 
+| 1a4b | A | albelig | 10 | 10 | E | 108 | 111 | A-108-  | A-111-  | YAYF 
+| 1a4b | A | albelig | 11 | 11 | E | 122 | 128 | A-122-  | A-128-  | KGTLKLS 
+| 1a4b | A | albelig | 12 | 12 | L | 260 | 260 | A-130-  | A-130-  | J 
+| 1a4b | A | albelig | 13 | 13 | L | 261 | 261 | A-131-  | A-131-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 11
+= 3 = a = 8
+= 5 = m = 6
+= 5 = a = 10
+= 6 = m = 10
+= 7 = l = 13
+= 8 = m = 9
+= 10 = a = 11
+# Listed 9 contacts. EOF.

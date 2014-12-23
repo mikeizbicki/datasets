@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fqy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > WATER CHANNEL, TWO-DIMENSIONAL CRYSTAL, MEMBRANE PROTEIN
+> pdb_mol_name > AQUAPORIN-1
+> graphtype > albelig
+> resolution > 3.8
+> date > 07-SEP-00
+> header > MEMBRANE PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF AQUAPORIN-1 AT 3.8 A RESOLUTION BY ELECTRONCRYSTALLOGRAPHY
+> format_version > 2
+> pdbid > 1fqy
+> experiment > ELECTRON CRYSTALLOGRAPHY
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fqy | A | albelig | 1 | 1 | H | 2 | 29 | A-9-  | A-36-  | LFWRAVVAEFLATTLFVFISIGSALGFK 
+| 1fqy | A | albelig | 2 | 2 | H | 42 | 59 | A-49-  | A-66-  | NVKVSLAFGLSIATLAQS 
+| 1fqy | A | albelig | 3 | 3 | H | 70 | 77 | A-77-  | A-84-  | PAVTLGLL 
+| 1fqy | A | albelig | 4 | 4 | H | 88 | 108 | A-95-  | A-115-  | LMYIIAQCVGAIVATAILSGI 
+| 1fqy | A | albelig | 5 | 5 | H | 130 | 148 | A-137-  | A-155-  | QGLGIEIIGTLQLVLCVLA 
+| 1fqy | A | albelig | 6 | 6 | H | 160 | 176 | A-167-  | A-183-  | SAPLAIGLSVALGHLLA 
+| 1fqy | A | albelig | 7 | 7 | H | 186 | 193 | A-193-  | A-200-  | PARSFGSA 
+| 1fqy | A | albelig | 8 | 8 | H | 201 | 221 | A-208-  | A-228-  | NHWIFWVGPFIGGALAVLIYD 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 2 = a = 6
+= 5 = p = 8
+# Listed 4 contacts. EOF.

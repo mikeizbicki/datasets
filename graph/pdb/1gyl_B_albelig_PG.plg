@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gyl, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE (FLAVOENZYME)
+> pdb_mol_name > GLYCOLATE OXIDASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 30-JAN-95
+> header > OXIDOREDUCTASE (FLAVOENZYME)
+> pdb_org_common > SPINACH
+> title > INVOLVEMENT OF TYR24 AND TRP108 IN SUBSTRATE BINDING ANDSUBSTRATE SPECIFICITY OF GLYCOLATE OXIDASE
+> format_version > 2
+> pdbid > 1gyl
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SPINACIA OLERACEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gyl | B | albelig | 1 | 1 | H | 360 | 368 | B-6-  | B-14-  | VNEYEAIAK 
+| 1gyl | B | albelig | 2 | 2 | H | 373 | 376 | B-19-  | B-22-  | KMVY 
+| 1gyl | B | albelig | 3 | 3 | H | 388 | 391 | B-34-  | B-37-  | TLAE 
+| 1gyl | B | albelig | 4 | 4 | H | 436 | 438 | B-82-  | B-84-  | KMA 
+| 1gyl | B | albelig | 5 | 5 | H | 449 | 452 | B-95-  | B-98-  | AASA 
+| 1gyl | B | albelig | 6 | 6 | H | 521 | 523 | B-167-  | B-169-  | DIK 
+| 1gyl | B | albelig | 7 | 7 | H | 548 | 550 | B-202-  | B-204-  | YVA 
+| 1gyl | B | albelig | 8 | 8 | H | 563 | 566 | B-217-  | B-220-  | AWLQ 
+| 1gyl | B | albelig | 9 | 9 | H | 581 | 584 | B-235-  | B-238-  | AEDA 
+| 1gyl | B | albelig | 10 | 10 | H | 586 | 589 | B-240-  | B-243-  | LAVQ 
+| 1gyl | B | albelig | 11 | 11 | E | 596 | 598 | B-250-  | B-252-  | IVS 
+| 1gyl | B | albelig | 12 | 12 | H | 614 | 619 | B-268-  | B-273-  | ALEEVV 
+| 1gyl | B | albelig | 13 | 13 | E | 629 | 631 | B-283-  | B-285-  | FLD 
+| 1gyl | B | albelig | 14 | 14 | H | 639 | 647 | B-293-  | B-301-  | DVFKALALG 
+| 1gyl | B | albelig | 15 | 15 | H | 657 | 660 | B-311-  | B-314-  | VVFS 
+| 1gyl | B | albelig | 16 | 16 | H | 665 | 686 | B-319-  | B-340-  | GEAGVKKVLQMMRDEFELTMAL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 15
+= 11 = p = 13
+= 12 = m = 14
+= 14 = m = 16
+= 15 = m = 16
+# Listed 5 contacts. EOF.

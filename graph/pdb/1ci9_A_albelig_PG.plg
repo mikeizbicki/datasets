@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ci9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, CABOXYLESTERASE
+> pdb_mol_name > PROTEIN (CARBOXYLESTERASE)
+> graphtype > albelig
+> resolution > 1.8
+> date > 08-APR-99
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > DFP-INHIBITED ESTERASE ESTB FROM BURKHOLDERIA GLADIOLI
+> format_version > 2
+> pdbid > 1ci9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BURKHOLDERIA GLADIOLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ci9 | A | albelig | 1 | 1 | H | 2 | 17 | A-16-  | A-31-  | ASLAARLDAVFDQALR 
+| 1ci9 | A | albelig | 2 | 2 | E | 23 | 30 | A-37-  | A-44-  | GAVAIVAR 
+| 1ci9 | A | albelig | 3 | 3 | E | 33 | 44 | A-47-  | A-58-  | EILYRRAQGLAD 
+| 1ci9 | A | albelig | 4 | 4 | H | 60 | 77 | A-74-  | A-91-  | ASVTKPIVALAVLRLVAR 
+| 1ci9 | A | albelig | 5 | 5 | H | 86 | 88 | A-100-  | A-102-  | VTR 
+| 1ci9 | A | albelig | 6 | 6 | H | 107 | 112 | A-121-  | A-126-  | IHHLLT 
+| 1ci9 | A | albelig | 7 | 7 | H | 120 | 123 | A-134-  | A-137-  | WLLE 
+| 1ci9 | A | albelig | 8 | 8 | H | 128 | 132 | A-142-  | A-146-  | VYDRL 
+| 1ci9 | A | albelig | 9 | 9 | H | 145 | 154 | A-159-  | A-168-  | LDENLRRLAS 
+| 1ci9 | A | albelig | 10 | 10 | H | 170 | 182 | A-184-  | A-196-  | ALDVLGAVVERAT 
+| 1ci9 | A | albelig | 11 | 11 | H | 186 | 195 | A-200-  | A-209-  | LAAAVDALVA 
+| 1ci9 | A | albelig | 12 | 12 | H | 196 | 198 | A-210-  | A-212-  | QPL 
+| 1ci9 | A | albelig | 13 | 13 | H | 210 | 212 | A-224-  | A-226-  | PER 
+| 1ci9 | A | albelig | 14 | 14 | E | 231 | 234 | A-245-  | A-248-  | IEVP 
+| 1ci9 | A | albelig | 15 | 15 | E | 242 | 245 | A-256-  | A-259-  | AVRF 
+| 1ci9 | A | albelig | 16 | 16 | H | 247 | 251 | A-261-  | A-265-  | PSRVF 
+| 1ci9 | A | albelig | 17 | 17 | H | 267 | 279 | A-281-  | A-293-  | ADDVLRALEAIRA 
+| 1ci9 | A | albelig | 18 | 18 | H | 286 | 293 | A-300-  | A-307-  | ETLADAAR 
+| 1ci9 | A | albelig | 19 | 19 | H | 299 | 301 | A-313-  | A-315-  | VGA 
+| 1ci9 | A | albelig | 20 | 20 | E | 308 | 310 | A-322-  | A-324-  | WGF 
+| 1ci9 | A | albelig | 21 | 21 | E | 315 | 317 | A-329-  | A-331-  | AVL 
+| 1ci9 | A | albelig | 22 | 22 | H | 320 | 323 | A-334-  | A-337-  | PAAA 
+| 1ci9 | A | albelig | 23 | 23 | E | 332 | 336 | A-346-  | A-350-  | LQWGG 
+| 1ci9 | A | albelig | 24 | 24 | E | 340 | 345 | A-354-  | A-359-  | HSWFVD 
+| 1ci9 | A | albelig | 25 | 25 | H | 346 | 348 | A-360-  | A-362-  | RAL 
+| 1ci9 | A | albelig | 26 | 26 | E | 350 | 356 | A-364-  | A-370-  | LSVLLLT 
+| 1ci9 | A | albelig | 27 | 27 | H | 361 | 364 | A-375-  | A-378-  | EGMS 
+| 1ci9 | A | albelig | 28 | 28 | H | 366 | 375 | A-380-  | A-389-  | PLTIALRDAV 
+| 1ci9 | A | albelig | 29 | 29 | L | 756 | 756 | A-401-  | A-401-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 28
+= 2 = a = 3
+= 2 = a = 26
+= 4 = m = 11
+= 4 = m = 23
+= 4 = l = 29
+= 7 = l = 29
+= 10 = m = 11
+= 11 = m = 12
+= 14 = a = 15
+= 15 = l = 29
+= 17 = a = 26
+= 20 = a = 21
+= 21 = a = 23
+= 23 = a = 24
+= 23 = l = 29
+= 24 = m = 25
+= 24 = a = 26
+= 24 = m = 27
+= 27 = m = 28
+= 27 = l = 29
+# Listed 22 contacts. EOF.

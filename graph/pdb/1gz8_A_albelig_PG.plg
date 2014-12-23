@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gz8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE, PROTEIN KINASE, CELL CYCLE, PHOSPHORYLATION, CELLDIVISION, MITOSIS, INHIBITION, TRANSFERASE,SERINE/THREONINE-PROTEIN KINASE, ATP-BINDING,3D-STRUCTURE.
+> pdb_mol_name > CELL DIVISION PROTEIN KINASE 2
+> graphtype > albelig
+> resolution > 1.3
+> date > 17-MAY-02
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > HUMAN CYCLIN DEPENDENT KINASE 2 COMPLEXED WITH THEINHIBITOR 2-AMINO-6-(3'-METHYL-2'-OXO)BUTOXYPURINE
+> format_version > 2
+> pdbid > 1gz8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gz8 | A | albelig | 1 | 1 | E | 4 | 12 | A-4-  | A-12-  | FQKVEKIGE 
+| 1gz8 | A | albelig | 2 | 2 | E | 17 | 23 | A-17-  | A-23-  | VVYKARN 
+| 1gz8 | A | albelig | 3 | 3 | E | 29 | 35 | A-29-  | A-35-  | VVALKKI 
+| 1gz8 | A | albelig | 4 | 4 | H | 40 | 49 | A-46-  | A-55-  | STAIREISLL 
+| 1gz8 | A | albelig | 5 | 5 | E | 60 | 66 | A-66-  | A-72-  | LLDVIHT 
+| 1gz8 | A | albelig | 6 | 6 | E | 69 | 75 | A-75-  | A-81-  | KLYLVFE 
+| 1gz8 | A | albelig | 7 | 7 | H | 81 | 87 | A-87-  | A-93-  | LKKFMDA 
+| 1gz8 | A | albelig | 8 | 8 | H | 95 | 114 | A-101-  | A-120-  | LPLIKSYLFQLLQGLAFCHS 
+| 1gz8 | A | albelig | 9 | 9 | H | 124 | 126 | A-130-  | A-132-  | PQN 
+| 1gz8 | A | albelig | 10 | 10 | E | 127 | 129 | A-133-  | A-135-  | LLI 
+| 1gz8 | A | albelig | 11 | 11 | E | 135 | 137 | A-141-  | A-143-  | IKL 
+| 1gz8 | A | albelig | 12 | 12 | H | 142 | 146 | A-148-  | A-152-  | LARAF 
+| 1gz8 | A | albelig | 13 | 13 | H | 165 | 168 | A-171-  | A-174-  | PEIL 
+| 1gz8 | A | albelig | 14 | 14 | H | 177 | 192 | A-183-  | A-198-  | AVDIWSLGCIFAEMVT 
+| 1gz8 | A | albelig | 15 | 15 | H | 202 | 213 | A-208-  | A-219-  | EIDQLFRIFRTL 
+| 1gz8 | A | albelig | 16 | 16 | H | 224 | 226 | A-230-  | A-232-  | VTS 
+| 1gz8 | A | albelig | 17 | 17 | H | 242 | 245 | A-248-  | A-251-  | FSKV 
+| 1gz8 | A | albelig | 18 | 18 | H | 251 | 260 | A-257-  | A-266-  | EDGRSLLSQM 
+| 1gz8 | A | albelig | 19 | 19 | H | 271 | 275 | A-277-  | A-281-  | AKAAL 
+| 1gz8 | A | albelig | 20 | 20 | H | 278 | 280 | A-284-  | A-286-  | PFF 
+| 1gz8 | A | albelig | 21 | 21 | L | 294 | 294 | A-1300-  | A-1300-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 21
+= 2 = a = 3
+= 2 = l = 21
+= 3 = a = 6
+= 3 = l = 21
+= 4 = m = 12
+= 5 = a = 6
+= 6 = l = 21
+= 7 = m = 14
+= 8 = m = 11
+= 8 = a = 14
+= 8 = m = 19
+= 8 = m = 20
+= 9 = m = 10
+= 9 = m = 11
+= 9 = l = 21
+= 10 = a = 11
+= 10 = l = 21
+= 14 = a = 18
+# Listed 20 contacts. EOF.

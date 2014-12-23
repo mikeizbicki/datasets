@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a6z, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HFE, HEREDITARY HEMOCHROMATOSIS, MHC CLASS I, MHC CLASS ICOMPLEX
+> pdb_mol_name > BETA-2-MICROGLOBULIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 04-MAR-98
+> header > MHC CLASS I COMPLEX
+> pdb_org_common > HUMAN
+> title > HFE (HUMAN) HEMOCHROMATOSIS PROTEIN
+> format_version > 2
+> pdbid > 1a6z
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a6z | D | albelig | 1 | 1 | E | 652 | 657 | D-6-  | D-11-  | KIQVYS 
+| 1a6z | D | albelig | 2 | 2 | E | 667 | 676 | D-21-  | D-30-  | NFLNFYVSGF 
+| 1a6z | D | albelig | 3 | 3 | E | 681 | 687 | D-35-  | D-41-  | IEVDLLK 
+| 1a6z | D | albelig | 4 | 4 | E | 708 | 716 | D-62-  | D-70-  | FYLLYYTEF 
+| 1a6z | D | albelig | 5 | 5 | E | 724 | 730 | D-78-  | D-84-  | YAFRVNH 
+| 1a6z | D | albelig | 6 | 6 | E | 737 | 740 | D-91-  | D-94-  | KIVK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = a = 3
+= 2 = a = 4
+= 2 = p = 5
+= 3 = a = 5
+= 5 = a = 6
+# Listed 7 contacts. EOF.

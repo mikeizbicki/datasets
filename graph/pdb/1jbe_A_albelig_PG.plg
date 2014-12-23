@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jbe, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHEY, CHEMOTAXIS, SIGNALING PROTEIN
+> pdb_mol_name > CHEMOTAXIS PROTEIN CHEY
+> graphtype > albelig
+> resolution > 1.08
+> date > 04-JUN-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > 1.08 A STRUCTURE OF APO-CHEY REVEALS META-ACTIVE CONFORMATION
+> format_version > 2
+> pdbid > 1jbe
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jbe | A | albelig | 1 | 1 | E | 7 | 10 | A-8-  | A-11-  | FLVV 
+| 1jbe | A | albelig | 2 | 2 | H | 14 | 26 | A-15-  | A-27-  | STMRRIVRNLLKE 
+| 1jbe | A | albelig | 3 | 3 | E | 32 | 35 | A-33-  | A-36-  | VEEA 
+| 1jbe | A | albelig | 4 | 4 | H | 38 | 45 | A-39-  | A-46-  | GVDALNKL 
+| 1jbe | A | albelig | 5 | 5 | E | 52 | 56 | A-53-  | A-57-  | FVISD 
+| 1jbe | A | albelig | 6 | 6 | H | 64 | 72 | A-65-  | A-73-  | GLELLKTIR 
+| 1jbe | A | albelig | 7 | 7 | E | 81 | 85 | A-83-  | A-87-  | VLMVT 
+| 1jbe | A | albelig | 8 | 8 | H | 90 | 98 | A-92-  | A-100-  | KENIIAAAQ 
+| 1jbe | A | albelig | 9 | 9 | E | 103 | 106 | A-105-  | A-108-  | GYVV 
+| 1jbe | A | albelig | 10 | 10 | H | 111 | 125 | A-113-  | A-127-  | AATLEEKLNKIFEKL 
+| 1jbe | A | albelig | 11 | 11 | L | 128 | 128 | A-75-  | A-75-  | J 
+| 1jbe | A | albelig | 12 | 12 | L | 129 | 129 | A-76-  | A-76-  | J 
+| 1jbe | A | albelig | 13 | 13 | L | 130 | 130 | A-301-  | A-301-  | J 
+| 1jbe | A | albelig | 14 | 14 | L | 131 | 131 | A-302-  | A-302-  | J 
+| 1jbe | A | albelig | 15 | 15 | L | 132 | 132 | A-303-  | A-303-  | J 
+| 1jbe | A | albelig | 16 | 16 | L | 133 | 133 | A-201-  | A-201-  | J 
+| 1jbe | A | albelig | 17 | 17 | L | 134 | 134 | A-202-  | A-202-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = l = 16
+= 2 = l = 17
+= 5 = p = 7
+= 5 = l = 13
+= 5 = l = 16
+= 6 = l = 11
+= 7 = p = 9
+= 9 = l = 14
+= 10 = l = 14
+= 11 = l = 12
+= 11 = l = 15
+= 12 = l = 15
+= 13 = l = 16
+# Listed 15 contacts. EOF.

@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahj, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NITRILE HYDRATASE, IRON CENTER, NON-HEME IRON, LYASE
+> pdb_mol_name > NITRILE HYDRATASE (SUBUNIT ALPHA)
+> graphtype > albelig
+> resolution > 2.65
+> date > 05-APR-97
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > NITRILE HYDRATASE
+> format_version > 2
+> pdbid > 1ahj
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > RHODOCOCCUS SP. R312
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahj | E | albelig | 1 | 1 | H | 834 | 846 | E-19-  | E-31-  | VSDRAWALFRALD 
+| 1ahj | E | albelig | 2 | 2 | H | 855 | 866 | E-40-  | E-51-  | YVEGWKKTFEED 
+| 1ahj | E | albelig | 3 | 3 | H | 870 | 881 | E-55-  | E-66-  | RRGAELVARAWT 
+| 1ahj | E | albelig | 4 | 4 | H | 883 | 891 | E-68-  | E-76-  | PEFRQLLLT 
+| 1ahj | E | albelig | 5 | 5 | H | 893 | 898 | E-78-  | E-83-  | GTAAVA 
+| 1ahj | E | albelig | 6 | 6 | E | 910 | 914 | E-95-  | E-99-  | IVAVE 
+| 1ahj | E | albelig | 7 | 7 | E | 919 | 924 | E-104-  | E-109-  | LKNVIV 
+| 1ahj | E | albelig | 8 | 8 | H | 933 | 936 | E-118-  | E-121-  | WPIL 
+| 1ahj | E | albelig | 9 | 9 | H | 946 | 954 | E-131-  | E-139-  | FEYRARVVR 
+| 1ahj | E | albelig | 10 | 10 | H | 956 | 963 | E-141-  | E-148-  | PRKVLSEM 
+| 1ahj | E | albelig | 11 | 11 | E | 972 | 977 | E-157-  | E-162-  | EIRVYD 
+| 1ahj | E | albelig | 12 | 12 | E | 983 | 987 | E-168-  | E-172-  | RYMVL 
+| 1ahj | E | albelig | 13 | 13 | H | 999 | 1005 | E-184-  | E-190-  | QEQLQEI 
+| 1ahj | E | albelig | 14 | 14 | H | 1008 | 1012 | E-193-  | E-197-  | KDCLI 
+| 1ahj | E | albelig | 15 | 15 | L | 1650 | 1650 | E-208-  | E-208-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 4
+= 5 = m = 6
+= 6 = a = 7
+= 6 = p = 12
+= 7 = p = 11
+= 7 = a = 12
+= 7 = m = 14
+# Listed 7 contacts. EOF.

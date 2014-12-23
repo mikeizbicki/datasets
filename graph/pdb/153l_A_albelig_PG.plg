@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 153l, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE(O-GLYCOSYL)
+> pdb_mol_name > GOOSE LYSOZYME
+> graphtype > albelig
+> resolution > 1.6
+> date > 05-MAY-94
+> header > HYDROLASE(O-GLYCOSYL)
+> pdb_org_common > WESTERN GRAYLAG GOOSE
+> title > THE REFINED STRUCTURES OF GOOSE LYSOZYME AND ITS COMPLEXWITH A BOUND TRISACCHARIDE SHOW THAT THE "GOOSE-TYPELYSOZYMES LACK A CATALYTIC ASPARTATE
+> format_version > 2
+> pdbid > 153l
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ANSER ANSER ANSER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 153l | A | albelig | 1 | 1 | H | 8 | 10 | A-8-  | A-10-  | VNR 
+| 153l | A | albelig | 2 | 2 | H | 18 | 24 | A-18-  | A-24-  | NKTAKPE 
+| 153l | A | albelig | 3 | 3 | H | 31 | 40 | A-31-  | A-40-  | VSASKKIAER 
+| 153l | A | albelig | 4 | 4 | H | 42 | 46 | A-42-  | A-46-  | LQAMD 
+| 153l | A | albelig | 5 | 5 | H | 49 | 59 | A-49-  | A-59-  | KTIIKKVGEKL 
+| 153l | A | albelig | 6 | 6 | H | 63 | 74 | A-63-  | A-74-  | PAVIAGIISRES 
+| 153l | A | albelig | 7 | 7 | H | 110 | 130 | A-110-  | A-130-  | EVHITQGTTILINFIKTIQKK 
+| 153l | A | albelig | 8 | 8 | H | 136 | 149 | A-136-  | A-149-  | KDQQLKGGISAYNA 
+| 153l | A | albelig | 9 | 9 | H | 151 | 153 | A-151-  | A-153-  | AGN 
+| 153l | A | albelig | 10 | 10 | H | 165 | 167 | A-165-  | A-167-  | THD 
+| 153l | A | albelig | 11 | 11 | H | 169 | 182 | A-169-  | A-182-  | YANDVVARAQYYKQ 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 11
+= 5 = m = 6
+= 5 = p = 7
+= 6 = a = 11
+= 7 = a = 8
+= 8 = m = 11
+# Listed 6 contacts. EOF.

@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gpp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDONUCLEASE, HOMING, PROTEIN SPLICING
+> pdb_mol_name > ENDONUCLEASE PI-SCEI
+> graphtype > albelig
+> resolution > 1.35
+> date > 07-NOV-01
+> header > ENDONUCLEASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF THE S.CEREVISIAE HOMING ENDONUCLEASEPI-SCEI DOMAIN I
+> format_version > 2
+> pdbid > 1gpp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gpp | A | albelig | 1 | 1 | E | 2 | 4 | A--1-  | A-2-  | ACF 
+| 1gpp | A | albelig | 2 | 2 | E | 9 | 11 | A-7-  | A-9-  | NVL 
+| 1gpp | A | albelig | 3 | 3 | E | 17 | 19 | A-15-  | A-17-  | IEC 
+| 1gpp | A | albelig | 4 | 4 | H | 20 | 22 | A-18-  | A-20-  | IEN 
+| 1gpp | A | albelig | 5 | 5 | E | 28 | 30 | A-26-  | A-28-  | KVM 
+| 1gpp | A | albelig | 6 | 6 | E | 36 | 41 | A-34-  | A-39-  | PREVIK 
+| 1gpp | A | albelig | 7 | 7 | E | 44 | 54 | A-42-  | A-52-  | RGSETMYSVVQ 
+| 1gpp | A | albelig | 8 | 8 | E | 63 | 67 | A-72-  | A-76-  | KFTCN 
+| 1gpp | A | albelig | 9 | 9 | E | 71 | 77 | A-80-  | A-86-  | ELVVRTP 
+| 1gpp | A | albelig | 10 | 10 | E | 80 | 87 | A-89-  | A-96-  | VRRLSRTI 
+| 1gpp | A | albelig | 11 | 11 | E | 90 | 104 | A-99-  | A-113-  | VEYFEVITFEMGQKK 
+| 1gpp | A | albelig | 12 | 12 | E | 110 | 122 | A-119-  | A-131-  | IVELVKEVSKSYP 
+| 1gpp | A | albelig | 13 | 13 | H | 123 | 125 | A-132-  | A-134-  | VSE 
+| 1gpp | A | albelig | 14 | 14 | H | 128 | 139 | A-137-  | A-148-  | ERANELVESYRK 
+| 1gpp | A | albelig | 15 | 15 | E | 145 | 151 | A-154-  | A-160-  | YFEWTIE 
+| 1gpp | A | albelig | 16 | 16 | H | 152 | 157 | A-161-  | A-166-  | ARDLSL 
+| 1gpp | A | albelig | 17 | 17 | H | 160 | 165 | A-169-  | A-174-  | SHVRKA 
+| 1gpp | A | albelig | 18 | 18 | E | 168 | 170 | A-177-  | A-179-  | QTY 
+| 1gpp | A | albelig | 19 | 19 | H | 175 | 177 | A-410-  | A-412-  | AAF 
+| 1gpp | A | albelig | 20 | 20 | E | 182 | 184 | A-417-  | A-419-  | RGF 
+| 1gpp | A | albelig | 21 | 21 | E | 186 | 201 | A-421-  | A-436-  | FELQELKEDDYYGITL 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 8
+= 1 = a = 21
+= 2 = a = 3
+= 2 = p = 5
+= 3 = m = 4
+= 5 = a = 6
+= 6 = a = 21
+= 7 = a = 8
+= 7 = a = 21
+= 9 = a = 15
+= 10 = a = 11
+= 10 = m = 14
+= 11 = a = 12
+= 11 = m = 13
+= 11 = p = 15
+= 12 = m = 13
+= 12 = a = 15
+= 15 = m = 16
+= 18 = a = 20
+# Listed 19 contacts. EOF.

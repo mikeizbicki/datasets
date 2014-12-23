@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hu0, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA REPAIR, DNA GLYCOSYLASE, PROTEIN/DNA, BOROHYDRIDE,COVALENT TRAPPING, PRODUCT-ASSISTED CATALYSIS, REACTIONINTERMEDIATE, HYDROLASE/DNA COMPLEX
+> pdb_mol_name > 5'-D(*GP*CP*GP*TP*CP*CP*AP*(PED)
+> graphtype > albelig
+> resolution > 2.35
+> date > 03-JAN-01
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN HOGG1-DNA BOROHYDRIDE TRAPPEDINTERMEDIATE COMPLEX
+> format_version > 2
+> pdbid > 1hu0
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hu0 | E | albelig | 1 | 1 | L | 316 | 316 | E-23-  | E-23-  | J 
+| 1hu0 | E | albelig | 2 | 2 | L | 317 | 317 | E-100-  | E-100-  | J 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

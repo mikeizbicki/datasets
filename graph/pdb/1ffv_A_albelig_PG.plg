@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, DEHYDROGENASE
+> pdb_mol_name > CUTS, IRON-SULFUR PROTEIN OF CARBON MONOXIDE
+> graphtype > albelig
+> resolution > 2.25
+> date > 26-JUL-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CARBON MONOXIDE DEHYDROGENASE FROM HYDROGENOPHAGAPSEUDOFLAVA
+> format_version > 2
+> pdbid > 1ffv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HYDROGENOPHAGA PSEUDOFLAVA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffv | A | albelig | 1 | 1 | E | 2 | 8 | A-4-  | A-10-  | KIITVNV 
+| 1ffv | A | albelig | 2 | 2 | E | 11 | 17 | A-13-  | A-19-  | KAQEKAV 
+| 1ffv | A | albelig | 3 | 3 | H | 23 | 30 | A-25-  | A-32-  | LIHFLREE 
+| 1ffv | A | albelig | 4 | 4 | E | 49 | 52 | A-51-  | A-54-  | TVDI 
+| 1ffv | A | albelig | 5 | 5 | E | 55 | 58 | A-57-  | A-60-  | RSVK 
+| 1ffv | A | albelig | 6 | 6 | H | 59 | 61 | A-61-  | A-63-  | SCT 
+| 1ffv | A | albelig | 7 | 7 | H | 64 | 67 | A-66-  | A-69-  | AVQC 
+| 1ffv | A | albelig | 8 | 8 | E | 71 | 73 | A-73-  | A-75-  | EVL 
+| 1ffv | A | albelig | 9 | 9 | H | 75 | 77 | A-77-  | A-79-  | VEG 
+| 1ffv | A | albelig | 10 | 10 | H | 86 | 93 | A-88-  | A-95-  | AVQEGFYK 
+| 1ffv | A | albelig | 11 | 11 | H | 103 | 116 | A-105-  | A-118-  | TPGMLMRAYRFLQE 
+| 1ffv | A | albelig | 12 | 12 | H | 122 | 128 | A-124-  | A-130-  | EAEIRMG 
+| 1ffv | A | albelig | 13 | 13 | H | 140 | 153 | A-142-  | A-155-  | QNIVKAVQYAARKL 
+| 1ffv | A | albelig | 14 | 14 | L | 2489 | 2489 | A-1907-  | A-1907-  | J 
+| 1ffv | A | albelig | 15 | 15 | L | 2490 | 2490 | A-1908-  | A-1908-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 7
+= 1 = a = 8
+= 3 = m = 6
+= 4 = a = 5
+= 4 = a = 8
+= 4 = m = 11
+= 5 = m = 6
+= 5 = l = 15
+= 6 = l = 15
+= 10 = m = 11
+= 10 = a = 13
+= 11 = m = 12
+= 11 = p = 13
+= 11 = l = 14
+= 12 = m = 13
+# Listed 16 contacts. EOF.

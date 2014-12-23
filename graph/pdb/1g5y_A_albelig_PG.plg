@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g5y, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CRYSTAL STRUCTURE, RXRALPHA LIGAND BINDING DOMAIN, INACTIVETETRAMER WITH 2 MONOMERS BOUND WITH AN INACTIVATING ISOMEROF RETINOIC ACID, TRANSCRIPTION
+> pdb_mol_name > RETINOIC ACID RECEPTOR RXR-ALPHA
+> graphtype > albelig
+> resolution > 2.0
+> date > 02-NOV-00
+> header > TRANSCRIPTION
+> pdb_org_common > HUMAN
+> title > THE 2.0 ANGSTROM RESOLUTION CRYSTAL STRUCTURE OF THERXRALPHA LIGAND BINDING DOMAIN TETRAMER IN THE PRESENCE OFA NON-ACTIVATING RETINOIC ACID ISOMER.
+> format_version > 2
+> pdbid > 1g5y
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g5y | A | albelig | 1 | 1 | H | 17 | 22 | A-247-  | A-252-  | ETYVEA 
+| 1g5y | A | albelig | 2 | 2 | H | 35 | 40 | A-265-  | A-270-  | VTNIAQ 
+| 1g5y | A | albelig | 3 | 3 | H | 43 | 55 | A-273-  | A-285-  | DKQLFTLVEWAKR 
+| 1g5y | A | albelig | 4 | 4 | H | 59 | 61 | A-289-  | A-291-  | FSE 
+| 1g5y | A | albelig | 5 | 5 | H | 64 | 89 | A-294-  | A-319-  | LDDQVILLRAGWNELLIASFSHRSIA 
+| 1g5y | A | albelig | 6 | 6 | E | 93 | 95 | A-323-  | A-325-  | GIL 
+| 1g5y | A | albelig | 7 | 7 | E | 101 | 103 | A-331-  | A-333-  | HVH 
+| 1g5y | A | albelig | 8 | 8 | H | 104 | 109 | A-334-  | A-339-  | RNSAHS 
+| 1g5y | A | albelig | 9 | 9 | H | 113 | 124 | A-343-  | A-354-  | GAIFDRVLTELV 
+| 1g5y | A | albelig | 10 | 10 | H | 125 | 129 | A-355-  | A-359-  | SKMRD 
+| 1g5y | A | albelig | 11 | 11 | H | 134 | 145 | A-364-  | A-375-  | KTELGCLRAIVL 
+| 1g5y | A | albelig | 12 | 12 | H | 156 | 177 | A-386-  | A-407-  | PAEVEALREKVYASLEAYCKHK 
+| 1g5y | A | albelig | 13 | 13 | H | 184 | 189 | A-414-  | A-419-  | RFAKLL 
+| 1g5y | A | albelig | 14 | 14 | H | 192 | 204 | A-422-  | A-434-  | LPALRSIGLKCLE 
+| 1g5y | A | albelig | 15 | 15 | H | 207 | 211 | A-437-  | A-441-  | FFFKL 
+| 1g5y | A | albelig | 16 | 16 | H | 215 | 224 | A-445-  | A-454-  | TPIDTFLMEM 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = m = 6
+= 5 = m = 9
+= 5 = m = 10
+= 5 = a = 11
+= 5 = m = 14
+= 6 = a = 7
+= 7 = m = 8
+= 8 = m = 9
+= 9 = m = 10
+= 9 = m = 14
+= 11 = a = 12
+= 12 = m = 13
+# Listed 12 contacts. EOF.

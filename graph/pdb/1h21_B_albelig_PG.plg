@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h21, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME, DIMERIC DI-HEME CYTOCHROME, STACKED HEMEARRANGEMENT, NOVEL FOLD, NOVEL IRON-SULFUR CENTRE,ELECTRON TRANSPORT, SULFATE RESPIRATION
+> pdb_mol_name > SPLIT-SORET CYTOCHROME C
+> graphtype > albelig
+> resolution > 2.5
+> date > 30-JUL-02
+> header > CYTOCHROME
+> pdb_org_common > UNKNOWN
+> title > A NOVEL IRON CENTRE IN THE SPLIT-SORET CYTOCHROME C FROMDESULFOVIBRIO DESULFURICANS ATCC 27774
+> format_version > 2
+> pdbid > 1h21
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > DESULFOVIBRIO DESULFURICANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h21 | B | albelig | 1 | 1 | H | 260 | 275 | B-26-  | B-41-  | PKECAQVAYDGYWYKG 
+| 1h21 | B | albelig | 2 | 2 | H | 277 | 288 | B-43-  | B-54-  | GCGFGAFYSIVG 
+| 1h21 | B | albelig | 3 | 3 | H | 289 | 294 | B-55-  | B-60-  | LMGEKY 
+| 1h21 | B | albelig | 4 | 4 | H | 298 | 300 | B-64-  | B-66-  | YNQ 
+| 1h21 | B | albelig | 5 | 5 | H | 303 | 309 | B-69-  | B-75-  | FAMLEAN 
+| 1h21 | B | albelig | 6 | 6 | H | 321 | 333 | B-87-  | B-99-  | GALYGAAATFSLF 
+| 1h21 | B | albelig | 7 | 7 | H | 336 | 352 | B-102-  | B-118-  | RKEVHPMVNELFRWYEV 
+| 1h21 | B | albelig | 8 | 8 | H | 361 | 363 | B-127-  | B-129-  | GDA 
+| 1h21 | B | albelig | 9 | 9 | H | 381 | 392 | B-147-  | B-158-  | CHISVSKWCYEN 
+| 1h21 | B | albelig | 10 | 10 | H | 399 | 429 | B-165-  | B-195-  | KQRSERCGRLTADAAFKAAEIINTKIDQGKD 
+| 1h21 | B | albelig | 11 | 11 | H | 438 | 447 | B-204-  | B-213-  | ASVSSCGECH 
+| 1h21 | B | albelig | 12 | 12 | L | 966 | 966 | B-1248-  | B-1248-  | J 
+| 1h21 | B | albelig | 13 | 13 | L | 967 | 967 | B-1249-  | B-1249-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = m = 5
+= 2 = p = 6
+= 7 = a = 10
+= 9 = m = 10
+= 9 = l = 13
+= 11 = l = 12
+= 11 = l = 13
+= 12 = l = 13
+# Listed 10 contacts. EOF.

@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bbp, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BILIN BINDING
+> pdb_mol_name > BILIN BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 19-SEP-90
+> header > BILIN BINDING
+> pdb_org_common > LARGE CABBAGE WHITE
+> title > MOLECULAR STRUCTURE OF THE BILIN BINDING PROTEIN (BBP) FROMPIERIS BRASSICAE AFTER REFINEMENT AT 2.0 ANGSTROMSRESOLUTION.
+> format_version > 2
+> pdbid > 1bbp
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PIERIS BRASSICAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bbp | C | albelig | 1 | 1 | E | 350 | 353 | C-3-  | C-6-  | VYHD 
+| 1bbp | C | albelig | 2 | 2 | H | 367 | 369 | C-20-  | C-22-  | WSN 
+| 1bbp | C | albelig | 3 | 3 | E | 372 | 379 | C-25-  | C-32-  | GKWWEVAK 
+| 1bbp | C | albelig | 4 | 4 | E | 389 | 398 | C-42-  | C-51-  | KFGWAEYTPE 
+| 1bbp | C | albelig | 5 | 5 | E | 401 | 410 | C-54-  | C-63-  | SVKVSNYHVI 
+| 1bbp | C | albelig | 6 | 6 | E | 413 | 423 | C-66-  | C-76-  | KEYFIEGTAYP 
+| 1bbp | C | albelig | 7 | 7 | E | 431 | 438 | C-87-  | C-94-  | KIYHKLTY 
+| 1bbp | C | albelig | 8 | 8 | E | 441 | 452 | C-97-  | C-108-  | VTKENVFNVLST 
+| 1bbp | C | albelig | 9 | 9 | E | 457 | 466 | C-113-  | C-122-  | YIIGYYEKYD 
+| 1bbp | C | albelig | 10 | 10 | E | 471 | 480 | C-127-  | C-136-  | GHQDFVWVLS 
+| 1bbp | C | albelig | 11 | 11 | H | 487 | 499 | C-143-  | C-155-  | GEAKTAVENYLIG 
+| 1bbp | C | albelig | 12 | 12 | H | 505 | 507 | C-162-  | C-164-  | SQK 
+| 1bbp | C | albelig | 13 | 13 | H | 515 | 518 | C-172-  | C-175-  | EAAF 
+| 1bbp | C | albelig | 14 | 14 | L | 698 | 698 | C-500-  | C-500-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 10
+= 3 = a = 4
+= 3 = a = 10
+= 3 = l = 14
+= 4 = a = 5
+= 4 = m = 13
+= 4 = l = 14
+= 5 = a = 6
+= 5 = l = 14
+= 6 = a = 7
+= 6 = l = 14
+= 7 = a = 8
+= 7 = l = 14
+= 8 = a = 9
+= 8 = l = 14
+= 9 = a = 10
+= 9 = l = 14
+= 10 = l = 14
+# Listed 18 contacts. EOF.

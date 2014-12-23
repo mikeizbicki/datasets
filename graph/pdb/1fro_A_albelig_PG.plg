@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fro, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LACTOYLGLUTATHIONE LYASE, GLYOXALASE I
+> pdb_mol_name > LACTOYLGLUTATHIONE LYASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 25-FEB-97
+> header > LACTOYLGLUTATHIONE LYASE
+> pdb_org_common > HUMAN
+> title > HUMAN GLYOXALASE I WITH BENZYL-GLUTATHIONE INHIBITOR
+> format_version > 2
+> pdbid > 1fro
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fro | A | albelig | 1 | 1 | H | 5 | 9 | A-12-  | A-16-  | DEAAL 
+| 1fro | A | albelig | 2 | 2 | H | 17 | 19 | A-24-  | A-26-  | PST 
+| 1fro | A | albelig | 3 | 3 | E | 23 | 30 | A-30-  | A-37-  | LLQQTMLR 
+| 1fro | A | albelig | 4 | 4 | H | 34 | 44 | A-41-  | A-51-  | PKKSLDFYTRV 
+| 1fro | A | albelig | 5 | 5 | E | 48 | 55 | A-55-  | A-62-  | TLIQKCDF 
+| 1fro | A | albelig | 6 | 6 | E | 60 | 66 | A-67-  | A-73-  | FSLYFLA 
+| 1fro | A | albelig | 7 | 7 | H | 70 | 72 | A-77-  | A-79-  | KND 
+| 1fro | A | albelig | 8 | 8 | H | 77 | 84 | A-84-  | A-91-  | KDEKIAWA 
+| 1fro | A | albelig | 9 | 9 | E | 90 | 96 | A-97-  | A-103-  | TLELTHN 
+| 1fro | A | albelig | 10 | 10 | E | 117 | 123 | A-124-  | A-130-  | FGHIGIA 
+| 1fro | A | albelig | 11 | 11 | H | 127 | 136 | A-134-  | A-143-  | VYSACKRFEE 
+| 1fro | A | albelig | 12 | 12 | E | 141 | 143 | A-148-  | A-150-  | FVK 
+| 1fro | A | albelig | 13 | 13 | E | 154 | 157 | A-161-  | A-164-  | AFIQ 
+| 1fro | A | albelig | 14 | 14 | E | 163 | 167 | A-170-  | A-174-  | WIEIL 
+| 1fro | A | albelig | 15 | 15 | H | 169 | 175 | A-176-  | A-182-  | PNKMATL 
+| 1fro | A | albelig | 16 | 16 | L | 708 | 708 | A-201-  | A-201-  | J 
+| 1fro | A | albelig | 17 | 17 | L | 709 | 709 | A-200-  | A-200-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 9
+= 5 = a = 6
+= 5 = m = 8
+= 6 = a = 9
+= 10 = p = 14
+= 10 = l = 16
+= 10 = l = 17
+= 12 = a = 13
+= 12 = l = 17
+= 13 = a = 14
+= 13 = l = 17
+= 14 = l = 16
+= 14 = l = 17
+= 15 = l = 17
+= 16 = l = 17
+# Listed 15 contacts. EOF.

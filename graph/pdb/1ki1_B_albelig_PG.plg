@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ki1, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PROTEIN COMPLEX, DH DOMAIN, PH DOMAIN, RHO GTPASE,SIGNALING PROTEIN
+> pdb_mol_name > INTERSECTIN LONG FORM
+> graphtype > albelig
+> resolution > 2.3
+> date > 02-DEC-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > GUANINE NUCLEOTIDE EXCHANGE REGION OF INTERSECTIN INCOMPLEX WITH CDC42
+> format_version > 2
+> pdbid > 1ki1
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ki1 | B | albelig | 1 | 1 | H | 184 | 215 | B-1233-  | B-1264-  | PTERKRQGYIHELIVTEENYVNDLQLVTEIFQ 
+| 1ki1 | B | albelig | 2 | 2 | H | 216 | 221 | B-1265-  | B-1270-  | KPLMES 
+| 1ki1 | B | albelig | 3 | 3 | H | 226 | 233 | B-1275-  | B-1282-  | EKEVAMIF 
+| 1ki1 | B | albelig | 4 | 4 | H | 236 | 257 | B-1285-  | B-1306-  | WKELIMCNIKLLKALRVRKKMS 
+| 1ki1 | B | albelig | 5 | 5 | H | 267 | 277 | B-1316-  | B-1326-  | GDILSAQLPHM 
+| 1ki1 | B | albelig | 6 | 6 | H | 279 | 300 | B-1328-  | B-1349-  | PYIRFCSRQLNGAALIQQKTDE 
+| 1ki1 | B | albelig | 7 | 7 | H | 302 | 312 | B-1351-  | B-1361-  | PDFKEFVKRLE 
+| 1ki1 | B | albelig | 8 | 8 | H | 315 | 317 | B-1364-  | B-1366-  | PRC 
+| 1ki1 | B | albelig | 9 | 9 | H | 322 | 325 | B-1371-  | B-1374-  | LSSF 
+| 1ki1 | B | albelig | 10 | 10 | H | 328 | 344 | B-1377-  | B-1393-  | KPMQRVTRYPLIIKNIL 
+| 1ki1 | B | albelig | 11 | 11 | H | 354 | 388 | B-1403-  | B-1437-  | HSHLKHALEKAEELCSQVNEGVREKENSDRLEWIQ 
+| 1ki1 | B | albelig | 12 | 12 | E | 414 | 417 | B-1463-  | B-1466-  | FLHS 
+| 1ki1 | B | albelig | 13 | 13 | E | 430 | 434 | B-1479-  | B-1483-  | YGFLF 
+| 1ki1 | B | albelig | 14 | 14 | E | 437 | 444 | B-1486-  | B-1493-  | FLLLTQIT 
+| 1ki1 | B | albelig | 15 | 15 | E | 456 | 459 | B-1511-  | B-1514-  | LQYM 
+| 1ki1 | B | albelig | 16 | 16 | H | 466 | 468 | B-1521-  | B-1523-  | LNE 
+| 1ki1 | B | albelig | 17 | 17 | E | 469 | 472 | B-1524-  | B-1527-  | VLVK 
+| 1ki1 | B | albelig | 18 | 18 | E | 483 | 486 | B-1540-  | B-1543-  | HISH 
+| 1ki1 | B | albelig | 19 | 19 | E | 489 | 492 | B-1546-  | B-1549-  | RVYT 
+| 1ki1 | B | albelig | 20 | 20 | H | 498 | 519 | B-1555-  | B-1576-  | INERTAWVQKIKAASELYIETE 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 1 = m = 8
+= 1 = a = 10
+= 4 = a = 5
+= 4 = m = 6
+= 4 = p = 10
+= 5 = p = 11
+= 6 = m = 7
+= 6 = m = 10
+= 6 = p = 11
+= 10 = a = 11
+= 12 = a = 13
+= 12 = m = 20
+= 13 = a = 14
+= 14 = a = 15
+= 16 = m = 17
+= 16 = m = 20
+= 17 = a = 18
+= 18 = a = 19
+# Listed 20 contacts. EOF.

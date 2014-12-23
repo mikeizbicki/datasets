@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1esv, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LATRUNCULIN A, GELSOLIN, ACTIN, DEPOLYMERISATION,SEQUESTRATION, CONTRACTILE PROTEIN
+> pdb_mol_name > GELSOLIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 11-APR-00
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > HUMAN
+> title > COMPLEX BETWEEN LATRUNCULIN A:RABBIT MUSCLE ALPHAACTIN:HUMAN GELSOLIN DOMAIN 1
+> format_version > 2
+> pdbid > 1esv
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1esv | S | albelig | 1 | 1 | H | 6 | 10 | S-6-  | S-10-  | PEFLK 
+| 1esv | S | albelig | 2 | 2 | E | 16 | 23 | S-16-  | S-23-  | GLQIWRVE 
+| 1esv | S | albelig | 3 | 3 | E | 26 | 29 | S-26-  | S-29-  | DLVP 
+| 1esv | S | albelig | 4 | 4 | H | 32 | 34 | S-32-  | S-34-  | TCL 
+| 1esv | S | albelig | 5 | 5 | E | 37 | 39 | S-37-  | S-39-  | DFF 
+| 1esv | S | albelig | 6 | 6 | E | 43 | 51 | S-43-  | S-51-  | AYVILKTVQ 
+| 1esv | S | albelig | 7 | 7 | E | 57 | 65 | S-57-  | S-65-  | LQYDLHYWL 
+| 1esv | S | albelig | 8 | 8 | H | 71 | 87 | S-71-  | S-87-  | QDESGAAAIFTVQLDDY 
+| 1esv | S | albelig | 9 | 9 | E | 92 | 98 | S-92-  | S-98-  | AVQHREV 
+| 1esv | S | albelig | 10 | 10 | H | 104 | 107 | S-104-  | S-107-  | ATFL 
+| 1esv | S | albelig | 11 | 11 | E | 115 | 117 | S-115-  | S-117-  | KYK 
+| 1esv | S | albelig | 12 | 12 | L | 488 | 488 | S-390-  | S-390-  | J 
+| 1esv | S | albelig | 13 | 13 | L | 489 | 489 | S-395-  | S-395-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 2 = a = 3
+= 2 = a = 6
+= 5 = a = 6
+= 5 = p = 11
+= 6 = a = 7
+= 7 = a = 8
+= 7 = p = 9
+= 8 = l = 12
+= 8 = l = 13
+= 9 = l = 12
+# Listed 11 contacts. EOF.

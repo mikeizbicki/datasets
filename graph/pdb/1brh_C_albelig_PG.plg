@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1brh, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA PROTEIN, ENDONUCLEASE
+> pdb_mol_name > BARNASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 09-MAR-95
+> header > ENDONUCLEASE
+> pdb_org_common > UNKNOWN
+> title > BARNASE MUTANT WITH LEU 14 REPLACED BY ALA
+> format_version > 2
+> pdbid > 1brh
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1brh | C | albelig | 1 | 1 | H | 220 | 230 | C-7-  | C-17-  | FDGVADYAQTY 
+| 1brh | C | albelig | 2 | 2 | H | 240 | 245 | C-27-  | C-32-  | KSEAQA 
+| 1brh | C | albelig | 3 | 3 | H | 250 | 252 | C-37-  | C-39-  | ASK 
+| 1brh | C | albelig | 4 | 4 | H | 255 | 258 | C-42-  | C-45-  | LADV 
+| 1brh | C | albelig | 5 | 5 | E | 263 | 269 | C-50-  | C-56-  | SIGGDIF 
+| 1brh | C | albelig | 6 | 6 | E | 284 | 288 | C-71-  | C-75-  | WREAD 
+| 1brh | C | albelig | 7 | 7 | E | 300 | 304 | C-87-  | C-91-  | RILYS 
+| 1brh | C | albelig | 8 | 8 | E | 309 | 312 | C-96-  | C-99-  | IYKT 
+| 1brh | C | albelig | 9 | 9 | L | 324 | 324 | C-111-  | C-111-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+# Listed 3 contacts. EOF.

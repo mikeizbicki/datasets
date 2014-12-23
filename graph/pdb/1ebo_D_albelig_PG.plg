@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ebo, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MEMBRANE FUSION SUBUNIT, VIRAL PROTEIN
+> pdb_mol_name > EBOLA VIRUS ENVELOPE PROTEIN CHIMERA CONSISTING
+> graphtype > albelig
+> resolution > 3.0
+> date > 03-NOV-98
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE EBOLA VIRUS MEMBRANE-FUSIONSUBUNIT, GP2, FROM THE ENVELOPE GLYCOPROTEIN ECTODOMAIN
+> format_version > 2
+> pdbid > 1ebo
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > EBOLA VIRUS SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ebo | D | albelig | 1 | 1 | H | 340 | 367 | D-4-  | D-31-  | IEDKIEEILSKIYHIENEIARIKKLIGE 
+| 1ebo | D | albelig | 2 | 2 | H | 370 | 414 | D-52-  | D-96-  | GLIEGLRQLANETTQALQLFLRATTELRTFSILNRKAIDFLLQRW 
+| 1ebo | D | albelig | 3 | 3 | H | 417 | 421 | D-99-  | D-103-  | TDHIL 
+| 1ebo | D | albelig | 4 | 4 | H | 423 | 426 | D-105-  | D-108-  | PDDR 
+| 1ebo | D | albelig | 5 | 5 | H | 433 | 448 | D-115-  | D-130-  | TKNITDKIDQIIHDFV 
+| 1ebo | D | albelig | 6 | 6 | L | 677 | 677 | D-150-  | D-150-  | J 
+| 1ebo | D | albelig | 7 | 7 | L | 680 | 680 | D-151-  | D-151-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 5
+= 2 = l = 7
+= 5 = l = 6
+# Listed 4 contacts. EOF.

@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iru, chain J.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 20S PROTEASOME, CELL CYCLE, IMMUNE RESPONSE, PROTEOLYSIS,UBIQUITIN, HYDROLASE
+> pdb_mol_name > 20S PROTEASOME
+> graphtype > albelig
+> resolution > 2.75
+> date > 24-OCT-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE MAMMALIAN 20S PROTEASOME AT 2.75 ARESOLUTION
+> format_version > 2
+> pdbid > 1iru
+> experiment > X-RAY DIFFRACTION
+> chainid > J
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iru | J | albelig | 1 | 1 | E | 2127 | 2132 | J-10-  | J-15-  | AVMAMK 
+| 1iru | J | albelig | 2 | 2 | E | 2136 | 2142 | J-19-  | J-25-  | CVAIAAD 
+| 1iru | J | albelig | 3 | 3 | E | 2145 | 2147 | J-28-  | J-30-  | FGI 
+| 1iru | J | albelig | 4 | 4 | E | 2150 | 2153 | J-33-  | J-36-  | QLVT 
+| 1iru | J | albelig | 5 | 5 | E | 2159 | 2161 | J-42-  | J-44-  | IFP 
+| 1iru | J | albelig | 6 | 6 | E | 2166 | 2169 | J-49-  | J-52-  | LYIG 
+| 1iru | J | albelig | 7 | 7 | H | 2174 | 2194 | J-57-  | J-77-  | ATDVQTVAQRLKFRLNLYELK 
+| 1iru | J | albelig | 8 | 8 | H | 2201 | 2213 | J-84-  | J-96-  | PYTLMSMVANLLY 
+| 1iru | J | albelig | 9 | 9 | E | 2225 | 2229 | J-108-  | J-112-  | VIAGL 
+| 1iru | J | albelig | 10 | 10 | E | 2236 | 2241 | J-119-  | J-124-  | PFICSL 
+| 1iru | J | albelig | 11 | 11 | E | 2247 | 2249 | J-130-  | J-132-  | PMV 
+| 1iru | J | albelig | 12 | 12 | E | 2253 | 2257 | J-136-  | J-140-  | FVVSG 
+| 1iru | J | albelig | 13 | 13 | H | 2260 | 2270 | J-143-  | J-153-  | AEQMYGMCESL 
+| 1iru | J | albelig | 14 | 14 | H | 2277 | 2294 | J-160-  | J-177-  | PDHLFETISQAMLNAVDR 
+| 1iru | J | albelig | 15 | 15 | E | 2302 | 2308 | J-185-  | J-191-  | VIVHIIE 
+| 1iru | J | albelig | 16 | 16 | E | 2312 | 2316 | J-195-  | J-199-  | ITTRT 
+| 1iru | J | albelig | 17 | 17 | L | 6322 | 6322 | J-304-  | J-304-  | J 
+| 1iru | J | albelig | 18 | 18 | L | 6323 | 6323 | J-315-  | J-315-  | J 
+| 1iru | J | albelig | 19 | 19 | L | 6324 | 6324 | J-320-  | J-320-  | J 
+| 1iru | J | albelig | 20 | 20 | L | 6325 | 6325 | J-407-  | J-407-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 1 = a = 12
+= 1 = a = 14
+= 2 = a = 5
+= 2 = a = 9
+= 2 = p = 14
+= 2 = a = 15
+= 3 = a = 4
+= 5 = a = 6
+= 6 = a = 9
+= 6 = l = 19
+= 7 = a = 8
+= 7 = l = 18
+= 8 = p = 10
+= 9 = a = 10
+= 9 = p = 15
+= 10 = a = 11
+= 10 = p = 12
+= 12 = a = 13
+= 13 = a = 14
+= 14 = a = 15
+= 14 = l = 17
+= 15 = a = 16
+= 16 = l = 19
+= 17 = l = 20
+# Listed 26 contacts. EOF.

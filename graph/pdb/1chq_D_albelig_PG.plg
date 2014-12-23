@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1chq, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN
+> pdb_mol_name > CHOLERA TOXIN B PENTAMER
+> graphtype > albelig
+> resolution > 2.1
+> date > 15-FEB-95
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > SURPRISING LEADS FOR A CHOLERA TOXIN RECEPTOR BINDINGANTAGONIST; CRYSTALLOGRAPHIC STUDIES OF CTB MUTANTS
+> format_version > 2
+> pdbid > 1chq
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > VIBRIO CHOLERAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1chq | D | albelig | 1 | 1 | H | 5 | 10 | D-5-  | D-10-  | ITDLAA 
+| 1chq | D | albelig | 2 | 2 | E | 15 | 23 | D-15-  | D-23-  | TQIHTLNDK 
+| 1chq | D | albelig | 3 | 3 | E | 26 | 30 | D-26-  | D-30-  | SYTES 
+| 1chq | D | albelig | 4 | 4 | E | 37 | 41 | D-37-  | D-41-  | MAIIT 
+| 1chq | D | albelig | 5 | 5 | E | 47 | 50 | D-47-  | D-50-  | TFQV 
+| 1chq | D | albelig | 6 | 6 | H | 59 | 78 | D-59-  | D-78-  | DSQKKAIERMKDTLRIAYLT 
+| 1chq | D | albelig | 7 | 7 | E | 81 | 88 | D-81-  | D-88-  | KVEKLAVW 
+| 1chq | D | albelig | 8 | 8 | E | 94 | 102 | D-94-  | D-102-  | HAIAAISMA 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 7
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 8
+= 7 = a = 8
+# Listed 7 contacts. EOF.

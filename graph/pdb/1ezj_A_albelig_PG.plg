@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ezj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR STRANDED COILED COIL, VIRAL POLYMERASE, SENDAI VIRUS, TETRAMER,VIRAL PROTEIN, TRANSFERASE
+> pdb_mol_name > NUCLEOCAPSID PHOSPHOPROTEIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 11-MAY-00
+> header > VIRAL PROTEIN, TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE MULTIMERIZATION DOMAIN OF THE PHOSPHOPROTEINFROM SENDAI VIRUS
+> format_version > 2
+> pdbid > 1ezj
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SENDAI VIRUS (STRAIN HARRIS)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ezj | A | albelig | 1 | 1 | H | 3 | 15 | A-4-  | A-16-  | TSSMKEMATLLTS 
+| 1ezj | A | albelig | 2 | 2 | H | 22 | 25 | A-23-  | A-26-  | AQEF 
+| 1ezj | A | albelig | 3 | 3 | H | 31 | 40 | A-32-  | A-41-  | ASYVFARRAL 
+| 1ezj | A | albelig | 4 | 4 | H | 45 | 109 | A-46-  | A-110-  | YAEMTFNVCGLILSAEKSSARKVDENKQLLKQIQESVESFRDIYKRFSEYQKEQNSLLMSNLSTL 
+| 1ezj | A | albelig | 5 | 5 | L | 115 | 115 | A-1002-  | A-1002-  | J 
+| 1ezj | A | albelig | 6 | 6 | L | 116 | 116 | A-1001-  | A-1001-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 3 = a = 4
+= 4 = l = 5
+= 4 = l = 6
+# Listed 5 contacts. EOF.

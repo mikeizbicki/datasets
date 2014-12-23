@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ida, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACID PROTEINASE, AIDS, PROTEASE, HYDROLASE-HYDROLASE INHIBITORCOMPLEX
+> pdb_mol_name > PROTEASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 19-OCT-94
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HIV-2
+> title > CRYSTAL STRUCTURES OF HIV-2 PROTEASE IN COMPLEX WITH INHIBITORSCONTAINING THE HYDROXYETHYLAMINE DIPEPTIDE ISOSTERE
+> format_version > 2
+> pdbid > 1ida
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS TYPE 2
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ida | B | albelig | 1 | 1 | E | 110 | 115 | B-10-  | B-15-  | VVTAYI 
+| 1ida | B | albelig | 2 | 2 | E | 118 | 124 | B-18-  | B-24-  | QPVEVLL 
+| 1ida | B | albelig | 3 | 3 | E | 143 | 149 | B-43-  | B-49-  | SPKIVGG 
+| 1ida | B | albelig | 4 | 4 | E | 152 | 166 | B-52-  | B-66-  | GFINTKEYKNVEIEV 
+| 1ida | B | albelig | 5 | 5 | E | 169 | 178 | B-69-  | B-78-  | KKVRATIMTG 
+| 1ida | B | albelig | 6 | 6 | H | 187 | 193 | B-87-  | B-93-  | RNILTAL 
+| 1ida | B | albelig | 7 | 7 | E | 196 | 198 | B-96-  | B-98-  | SLN 
+| 1ida | B | albelig | 8 | 8 | L | 200 | 200 | B-100-  | B-100-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = l = 8
+= 3 = a = 4
+= 3 = l = 8
+= 4 = a = 5
+= 4 = l = 8
+# Listed 7 contacts. EOF.

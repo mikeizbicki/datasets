@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fdq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OMEGA-3, N-3, LONG CHAIN POLY UNSATURATED FATTY ACID, LIPIDBINDING PROTEIN
+> pdb_mol_name > FATTY ACID-BINDING PROTEIN, BRAIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 20-JUL-00
+> header > LIPID BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN BRAIN FATTY ACID BINDING PROTEIN
+> format_version > 2
+> pdbid > 1fdq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fdq | B | albelig | 1 | 1 | H | 134 | 136 | B-502-  | B-504-  | EAF 
+| 1fdq | B | albelig | 2 | 2 | E | 138 | 146 | B-506-  | B-514-  | ATWKLTNSQ 
+| 1fdq | B | albelig | 3 | 3 | H | 148 | 155 | B-516-  | B-523-  | FDEYMKAL 
+| 1fdq | B | albelig | 4 | 4 | H | 159 | 167 | B-527-  | B-535-  | FATRQVGNV 
+| 1fdq | B | albelig | 5 | 5 | E | 171 | 177 | B-539-  | B-545-  | TVIISQE 
+| 1fdq | B | albelig | 6 | 6 | E | 180 | 186 | B-548-  | B-554-  | KVVIRTL 
+| 1fdq | B | albelig | 7 | 7 | E | 191 | 196 | B-559-  | B-564-  | NTEISF 
+| 1fdq | B | albelig | 8 | 8 | E | 202 | 205 | B-570-  | B-573-  | FDET 
+| 1fdq | B | albelig | 9 | 9 | E | 211 | 219 | B-579-  | B-587-  | NCKSVVSLD 
+| 1fdq | B | albelig | 10 | 10 | E | 222 | 228 | B-590-  | B-596-  | KLVHIQK 
+| 1fdq | B | albelig | 11 | 11 | E | 233 | 241 | B-601-  | B-609-  | ETNFVREIK 
+| 1fdq | B | albelig | 12 | 12 | E | 244 | 251 | B-612-  | B-619-  | KMVMTLTF 
+| 1fdq | B | albelig | 13 | 13 | E | 254 | 262 | B-622-  | B-630-  | VVAVRHYEK 
+| 1fdq | B | albelig | 14 | 14 | L | 265 | 265 | B-633-  | B-633-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 5
+= 2 = a = 13
+= 3 = m = 4
+= 3 = m = 12
+= 3 = m = 13
+= 3 = l = 14
+= 4 = l = 14
+= 5 = a = 6
+= 5 = l = 14
+= 6 = a = 7
+= 6 = l = 14
+= 7 = l = 14
+= 8 = a = 9
+= 8 = l = 14
+= 9 = a = 10
+= 10 = a = 11
+= 10 = l = 14
+= 11 = a = 12
+= 11 = l = 14
+= 12 = a = 13
+= 12 = l = 14
+= 13 = l = 14
+# Listed 22 contacts. EOF.

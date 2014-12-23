@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gpq, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE-INHIBITOR COMPLEX, LYSOZYME/INHIBITOR COMPLEX, TYPE-CLYSOZYME INHIBITOR, HYDROLASE, GLYCOSIDASE, BACTERIAL TARGETS ATIGS-CNRS, FRANCE, BIGS, STRUCTURAL GENOMICS
+> pdb_mol_name > LYSOZYME C
+> graphtype > albelig
+> resolution > 1.6
+> date > 08-NOV-01
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > CHICKEN
+> title > STRUCTURE OF IVY COMPLEXED WITH ITS TARGET, HEWL
+> format_version > 2
+> pdbid > 1gpq
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gpq | D | albelig | 1 | 1 | H | 390 | 399 | D-5-  | D-14-  | RGELAAAMKR 
+| 1gpq | D | albelig | 2 | 2 | H | 410 | 421 | D-25-  | D-36-  | LGNWVHAAKFES 
+| 1gpq | D | albelig | 3 | 3 | E | 428 | 430 | D-43-  | D-45-  | TNR 
+| 1gpq | D | albelig | 4 | 4 | E | 436 | 438 | D-51-  | D-53-  | TDY 
+| 1gpq | D | albelig | 5 | 5 | H | 465 | 469 | D-80-  | D-84-  | ISALL 
+| 1gpq | D | albelig | 6 | 6 | H | 474 | 484 | D-89-  | D-99-  | TASVNJAKKIV 
+| 1gpq | D | albelig | 7 | 7 | H | 489 | 492 | D-104-  | D-107-  | GMNA 
+| 1gpq | D | albelig | 8 | 8 | H | 494 | 499 | D-109-  | D-114-  | VAWRNR 
+| 1gpq | D | albelig | 9 | 9 | H | 505 | 509 | D-120-  | D-124-  | VQAWI 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 8
+= 2 = m = 9
+= 3 = p = 4
+# Listed 4 contacts. EOF.

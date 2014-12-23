@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hpt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE INHIBITOR
+> pdb_mol_name > PANCREATIC SECRETORY TRYPSIN INHIBITOR (KAZAL
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-MAR-92
+> header > SERINE PROTEASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > THREE-DIMENSIONAL STRUCTURE OF A RECOMBINANT VARIANT OFHUMAN PANCREATIC SECRETORY TRYPSIN INHIBITOR (KAZAL TYPE)
+> format_version > 2
+> pdbid > 1hpt
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hpt | A | albelig | 1 | 1 | E | 23 | 25 | A-23-  | A-25-  | VCG 
+| 1hpt | A | albelig | 2 | 2 | H | 34 | 44 | A-34-  | A-44-  | ENVLAFENRKR 
+| 1hpt | A | albelig | 3 | 3 | E | 50 | 53 | A-50-  | A-53-  | IQKS 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+# Listed 1 contacts. EOF.

@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ft4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BINDING PROTEIN, CYTOKINE, SIGNALING PROTEIN
+> pdb_mol_name > SOLUBLE TUMOR NECROSIS FACTOR RECEPTOR 1
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-SEP-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > PHOTOCHEMICALLY-ENHANCED BINDING OF SMALL MOLECULES TO THETUMOR NECROSIS FACTOR RECEPTOR-1
+> format_version > 2
+> pdbid > 1ft4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ft4 | B | albelig | 1 | 1 | E | 147 | 149 | B-19-  | B-21-  | KYI 
+| 1ft4 | B | albelig | 2 | 2 | E | 157 | 159 | B-29-  | B-31-  | KLT 
+| 1ft4 | B | albelig | 3 | 3 | E | 165 | 169 | B-37-  | B-41-  | TYLYN 
+| 1ft4 | B | albelig | 4 | 4 | E | 179 | 182 | B-51-  | B-54-  | DMRE 
+| 1ft4 | B | albelig | 5 | 5 | H | 206 | 208 | B-78-  | B-80-  | KEM 
+| 1ft4 | B | albelig | 6 | 6 | E | 211 | 214 | B-83-  | B-86-  | VEIS 
+| 1ft4 | B | albelig | 7 | 7 | E | 223 | 225 | B-95-  | B-97-  | VPG 
+| 1ft4 | B | albelig | 8 | 8 | H | 227 | 229 | B-99-  | B-101-  | RKN 
+| 1ft4 | B | albelig | 9 | 9 | E | 231 | 233 | B-103-  | B-105-  | YRH 
+| 1ft4 | B | albelig | 10 | 10 | E | 241 | 243 | B-113-  | B-115-  | QQF 
+| 1ft4 | B | albelig | 11 | 11 | E | 251 | 253 | B-123-  | B-125-  | GTV 
+| 1ft4 | B | albelig | 12 | 12 | E | 265 | 267 | B-137-  | B-139-  | STT 
+| 1ft4 | B | albelig | 13 | 13 | H | 268 | 270 | B-140-  | B-142-  | HAG 
+| 1ft4 | B | albelig | 14 | 14 | E | 272 | 274 | B-144-  | B-146-  | FLR 
+| 1ft4 | B | albelig | 15 | 15 | E | 277 | 279 | B-149-  | B-151-  | ETV 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = a = 4
+= 5 = m = 10
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 12
+= 11 = m = 13
+= 12 = m = 13
+= 12 = a = 14
+= 12 = a = 15
+= 14 = a = 15
+# Listed 11 contacts. EOF.

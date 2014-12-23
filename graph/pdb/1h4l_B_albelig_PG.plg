@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h4l, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE/KINASE ACTIVATOR, COMPLEX(CYCLINS/CDK), CYCLINS,CYCLIN-DEPENDENT KINASES, CDK5, P35, P25, TRANSFERASE,ATP-BINDING, CELL CYCLE, CELL DIVISION, PHOSPHORYLATION
+> pdb_mol_name > CELL DIVISION PROTEIN KINASE 5
+> graphtype > albelig
+> resolution > 2.65
+> date > 11-MAY-01
+> header > KINASE/KINASE ACTIVATOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE AND REGULATION OF THE CDK5-P25(NCK5A) COMPLEX
+> format_version > 2
+> pdbid > 1h4l
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h4l | B | albelig | 1 | 1 | E | 285 | 289 | B-5-  | B-9-  | EKLEK 
+| 1h4l | B | albelig | 2 | 2 | E | 295 | 299 | B-18-  | B-22-  | VFKAK 
+| 1h4l | B | albelig | 3 | 3 | E | 306 | 313 | B-29-  | B-36-  | IVALKRVR 
+| 1h4l | B | albelig | 4 | 4 | H | 318 | 330 | B-44-  | B-56-  | VPSSALREICLLK 
+| 1h4l | B | albelig | 5 | 5 | E | 340 | 345 | B-66-  | B-71-  | LHDVLH 
+| 1h4l | B | albelig | 6 | 6 | E | 349 | 355 | B-75-  | B-81-  | KLTLVFE 
+| 1h4l | B | albelig | 7 | 7 | H | 361 | 367 | B-87-  | B-93-  | LKKYFDS 
+| 1h4l | B | albelig | 8 | 8 | H | 374 | 393 | B-100-  | B-119-  | PEIVKSFLFQLLKGLGFCHS 
+| 1h4l | B | albelig | 9 | 9 | H | 403 | 405 | B-129-  | B-131-  | PQN 
+| 1h4l | B | albelig | 10 | 10 | E | 406 | 408 | B-132-  | B-134-  | LLI 
+| 1h4l | B | albelig | 11 | 11 | E | 414 | 416 | B-140-  | B-142-  | LKL 
+| 1h4l | B | albelig | 12 | 12 | H | 419 | 421 | B-145-  | B-147-  | FGL 
+| 1h4l | B | albelig | 13 | 13 | H | 439 | 441 | B-165-  | B-167-  | LWY 
+| 1h4l | B | albelig | 14 | 14 | H | 444 | 447 | B-170-  | B-173-  | PDVL 
+| 1h4l | B | albelig | 15 | 15 | H | 456 | 470 | B-182-  | B-196-  | SIDMWSAGCIFAELA 
+| 1h4l | B | albelig | 16 | 16 | H | 482 | 493 | B-208-  | B-219-  | VDDQLKRIFRLL 
+| 1h4l | B | albelig | 17 | 17 | H | 522 | 524 | B-248-  | B-250-  | LVN 
+| 1h4l | B | albelig | 18 | 18 | H | 531 | 540 | B-257-  | B-266-  | ATGRDLLQNL 
+| 1h4l | B | albelig | 19 | 19 | H | 545 | 547 | B-271-  | B-273-  | PVQ 
+| 1h4l | B | albelig | 20 | 20 | H | 551 | 555 | B-277-  | B-281-  | AEEAL 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 6
+= 4 = m = 12
+= 5 = a = 6
+= 8 = m = 11
+= 8 = a = 15
+= 8 = m = 20
+= 9 = m = 10
+= 9 = m = 11
+= 10 = a = 11
+= 13 = m = 15
+= 15 = a = 18
+# Listed 13 contacts. EOF.

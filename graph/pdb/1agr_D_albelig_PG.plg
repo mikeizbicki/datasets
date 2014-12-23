@@ -1,0 +1,85 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1agr, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GI-ALPHA-1, HYDROLASE, SIGNAL TRANSDUCTION, RGS4, COMPLEX(SIGNAL TRANSDUCTION/REGULATOR), GTP-BINDING, GTPASEACTIVATING PROTEIN
+> pdb_mol_name > GUANINE NUCLEOTIDE-BINDING PROTEIN G(I)
+> graphtype > albelig
+> resolution > 2.8
+> date > 25-MAR-97
+> header > COMPLEX (SIGNAL TRANSDUCTION/REGULATOR)
+> pdb_org_common > NORWAY RAT
+> title > COMPLEX OF ALF4-ACTIVATED GI-ALPHA-1 WITH RGS4
+> format_version > 2
+> pdbid > 1agr
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1agr | D | albelig | 1 | 1 | H | 352 | 370 | D-12-  | D-30-  | AVERSKMIDRNLREDGEKA 
+| 1agr | D | albelig | 2 | 2 | E | 373 | 379 | D-33-  | D-39-  | EVKLLLL 
+| 1agr | D | albelig | 3 | 3 | H | 386 | 398 | D-46-  | D-58-  | KSTIVKQMKIIHE 
+| 1agr | D | albelig | 4 | 4 | H | 403 | 431 | D-63-  | D-91-  | EEECKQYKAVVYSNTIQSIIAIIRAMGRL 
+| 1agr | D | albelig | 5 | 5 | H | 439 | 451 | D-99-  | D-111-  | ARADDARQLFVLA 
+| 1agr | D | albelig | 6 | 6 | H | 461 | 471 | D-121-  | D-131-  | AELAGVIKRLW 
+| 1agr | D | albelig | 7 | 7 | H | 474 | 480 | D-134-  | D-140-  | SGVQACF 
+| 1agr | D | albelig | 8 | 8 | H | 492 | 496 | D-152-  | D-156-  | AAYYL 
+| 1agr | D | albelig | 9 | 9 | H | 499 | 503 | D-159-  | D-163-  | LDRIA 
+| 1agr | D | albelig | 10 | 10 | H | 511 | 516 | D-171-  | D-176-  | QQDVLR 
+| 1agr | D | albelig | 11 | 11 | E | 524 | 531 | D-184-  | D-191-  | IVETHFTF 
+| 1agr | D | albelig | 12 | 12 | E | 534 | 541 | D-194-  | D-201-  | LHFKMFDV 
+| 1agr | D | albelig | 13 | 13 | H | 545 | 553 | D-205-  | D-213-  | RSERKKWIH 
+| 1agr | D | albelig | 14 | 14 | E | 560 | 566 | D-220-  | D-226-  | AIIFCVA 
+| 1agr | D | albelig | 15 | 15 | H | 567 | 569 | D-227-  | D-229-  | LSD 
+| 1agr | D | albelig | 16 | 16 | E | 577 | 581 | D-237-  | D-241-  | DEEMN 
+| 1agr | D | albelig | 17 | 17 | H | 582 | 594 | D-242-  | D-254-  | RMHESMKLFDSIC 
+| 1agr | D | albelig | 18 | 18 | H | 597 | 599 | D-257-  | D-259-  | KWF 
+| 1agr | D | albelig | 19 | 19 | E | 603 | 609 | D-263-  | D-269-  | SIILFLN 
+| 1agr | D | albelig | 20 | 20 | H | 611 | 620 | D-271-  | D-280-  | KDLFEEKIKK 
+| 1agr | D | albelig | 21 | 21 | H | 623 | 625 | D-283-  | D-285-  | LTI 
+| 1agr | D | albelig | 22 | 22 | H | 636 | 648 | D-296-  | D-308-  | YEEAAAYIQCQFE 
+| 1agr | D | albelig | 23 | 23 | E | 660 | 662 | D-320-  | D-322-  | YTH 
+| 1agr | D | albelig | 24 | 24 | H | 669 | 691 | D-329-  | D-351-  | TKNVQFVFDAVTDVIIKNNLKDC 
+| 1agr | D | albelig | 25 | 25 | L | 944 | 944 | D-356-  | D-356-  | J 
+| 1agr | D | albelig | 26 | 26 | L | 945 | 945 | D-357-  | D-357-  | J 
+| 1agr | D | albelig | 27 | 27 | L | 946 | 946 | D-355-  | D-355-  | J 
+| 1agr | D | albelig | 28 | 28 | L | 947 | 947 | D-358-  | D-358-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = p = 12
+= 2 = p = 14
+= 3 = m = 12
+= 3 = m = 24
+= 3 = l = 25
+= 3 = l = 26
+= 3 = l = 27
+= 4 = m = 5
+= 4 = m = 7
+= 4 = m = 8
+= 5 = a = 6
+= 6 = m = 9
+= 8 = m = 10
+= 10 = l = 27
+= 11 = a = 12
+= 12 = l = 25
+= 12 = l = 26
+= 12 = l = 27
+= 13 = p = 17
+= 14 = m = 15
+= 14 = p = 19
+= 15 = m = 20
+= 16 = m = 17
+= 17 = m = 22
+= 19 = p = 23
+= 19 = a = 24
+= 19 = l = 27
+= 20 = m = 22
+= 20 = l = 27
+= 20 = l = 28
+= 22 = l = 28
+= 23 = m = 24
+= 25 = l = 26
+= 25 = l = 27
+= 26 = l = 27
+# Listed 36 contacts. EOF.

@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fn4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAB198, IMMUNE SYSTEM
+> pdb_mol_name > MONOCLONAL ANTIBODY AGAINST ACETYLCHOLINE RECEPTOR
+> graphtype > albelig
+> resolution > 2.8
+> date > 21-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF FAB198, AN EFFICIENT PROTECTOR OF ACETYLCHOLINERECEPTOR AGAINST MYASTHENOGENIC ANTIBODIES
+> format_version > 2
+> pdbid > 1fn4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fn4 | A | albelig | 1 | 1 | E | 10 | 12 | A-10-  | A-12-  | LLS 
+| 1fn4 | A | albelig | 2 | 2 | E | 18 | 25 | A-18-  | A-25-  | RVTLSAKG 
+| 1fn4 | A | albelig | 3 | 3 | E | 33 | 37 | A-33-  | A-37-  | LAWYQ 
+| 1fn4 | A | albelig | 4 | 4 | E | 45 | 48 | A-45-  | A-48-  | KLLI 
+| 1fn4 | A | albelig | 5 | 5 | E | 70 | 76 | A-70-  | A-76-  | DYTLTIS 
+| 1fn4 | A | albelig | 6 | 6 | E | 85 | 90 | A-85-  | A-90-  | TYFAYQ 
+| 1fn4 | A | albelig | 7 | 7 | E | 101 | 104 | A-102-  | A-105-  | TKLE 
+| 1fn4 | A | albelig | 8 | 8 | H | 119 | 122 | A-119-  | A-122-  | TEQL 
+| 1fn4 | A | albelig | 9 | 9 | E | 126 | 131 | A-126-  | A-131-  | GASVVN 
+| 1fn4 | A | albelig | 10 | 10 | E | 159 | 162 | A-156-  | A-159-  | VLDS 
+| 1fn4 | A | albelig | 11 | 11 | E | 176 | 182 | A-173-  | A-179-  | SSTLSLT 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 2 = a = 5
+= 2 = p = 6
+= 3 = a = 4
+= 3 = p = 5
+= 3 = a = 6
+= 6 = a = 7
+= 8 = m = 9
+= 9 = a = 11
+= 10 = a = 11
+# Listed 10 contacts. EOF.

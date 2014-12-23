@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g6g, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-SANDWICH, PHOSPHOPEPTIDE COMPLEX, CELL CYCLE
+> pdb_mol_name > PROTEIN KINASE RAD53
+> graphtype > albelig
+> resolution > 1.6
+> date > 06-NOV-00
+> header > CELL CYCLE
+> pdb_org_common > BAKER'S YEAST
+> title > X-RAY STRUCTURE OF THE N-TERMINAL FHA DOMAIN FROM S.CEREVISIAE RAD53P IN COMPLEX WITH A PHOSPHOTHREONINEPEPTIDE AT 1.6 A RESOLUTION
+> format_version > 2
+> pdbid > 1g6g
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g6g | B | albelig | 1 | 1 | E | 131 | 135 | B-34-  | B-38-  | CRVIC 
+| 1g6g | B | albelig | 2 | 2 | E | 143 | 145 | B-46-  | B-48-  | RDL 
+| 1g6g | B | albelig | 3 | 3 | H | 149 | 154 | B-52-  | B-57-  | ISQVLK 
+| 1g6g | B | albelig | 4 | 4 | E | 159 | 166 | B-62-  | B-69-  | IKKVWTFG 
+| 1g6g | B | albelig | 5 | 5 | E | 186 | 191 | B-89-  | B-94-  | FQILLG 
+| 1g6g | B | albelig | 6 | 6 | E | 196 | 200 | B-99-  | B-103-  | LLLND 
+| 1g6g | B | albelig | 7 | 7 | E | 206 | 208 | B-109-  | B-111-  | TWL 
+| 1g6g | B | albelig | 8 | 8 | E | 226 | 229 | B-129-  | B-132-  | EITV 
+| 1g6g | B | albelig | 9 | 9 | H | 234 | 236 | B-137-  | B-139-  | ESD 
+| 1g6g | B | albelig | 10 | 10 | E | 238 | 244 | B-141-  | B-147-  | LSLVIFI 
+| 1g6g | B | albelig | 11 | 11 | H | 246 | 250 | B-149-  | B-153-  | DKFKQ 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 4 = a = 5
+= 5 = a = 6
+= 7 = a = 8
+= 8 = a = 10
+# Listed 6 contacts. EOF.

@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1av5, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN KINASE INHIBITOR, PKCI-1, HIT PROTEIN FAMILY,HISTIDINE TRIAD PROTEIN FAMILY, NUCLEOTIDYL HYDROLASE,NUCLEOTIDYL TRANSFERASE
+> pdb_mol_name > PROTEIN KINASE C INTERACTING PROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 25-SEP-97
+> header > PROTEIN KINASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > PKCI-SUBSTRATE ANALOG
+> format_version > 2
+> pdbid > 1av5
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1av5 | B | albelig | 1 | 1 | H | 119 | 124 | B-18-  | B-23-  | IFGKII 
+| 1av5 | B | albelig | 2 | 2 | E | 132 | 135 | B-31-  | B-34-  | IIFE 
+| 1av5 | B | albelig | 3 | 3 | E | 139 | 143 | B-38-  | B-42-  | CLAFH 
+| 1av5 | B | albelig | 4 | 4 | E | 151 | 157 | B-50-  | B-56-  | THFLVIP 
+| 1av5 | B | albelig | 5 | 5 | H | 169 | 188 | B-68-  | B-87-  | DDDESLLGHLMIVGKKCAAD 
+| 1av5 | B | albelig | 6 | 6 | E | 195 | 201 | B-94-  | B-100-  | YRMVVNE 
+| 1av5 | B | albelig | 7 | 7 | H | 202 | 205 | B-101-  | B-104-  | GSDG 
+| 1av5 | B | albelig | 8 | 8 | E | 214 | 218 | B-113-  | B-117-  | LHVLG 
+| 1av5 | B | albelig | 9 | 9 | L | 228 | 228 | B-200-  | B-200-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 9
+= 2 = a = 3
+= 3 = a = 4
+= 3 = l = 9
+= 4 = a = 5
+= 4 = a = 8
+= 4 = l = 9
+= 5 = m = 6
+= 6 = m = 7
+= 6 = a = 8
+= 6 = l = 9
+= 8 = l = 9
+# Listed 12 contacts. EOF.

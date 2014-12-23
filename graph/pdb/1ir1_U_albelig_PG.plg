@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ir1, chain U.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA BARREL, LYASE
+> pdb_mol_name > SMALL SUBUNIT OF RUBISCO
+> graphtype > albelig
+> resolution > 1.8
+> date > 31-AUG-01
+> header > LYASE
+> pdb_org_common > SPINACH
+> title > CRYSTAL STRUCTURE OF SPINACH RIBULOSE-1,5-BISPHOSPHATECARBOXYLASE/OXYGENASE (RUBISCO) COMPLEXED WITH CO2, MG2+ AND 2-CARBOXYARABINITOL-1,5-BISPHOSPHATE
+> format_version > 2
+> pdbid > 1ir1
+> experiment > X-RAY DIFFRACTION
+> chainid > U
+> graphclass > protein graph
+> pdb_org_sci > SPINACIA OLERACEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ir1 | U | albelig | 1 | 1 | H | 1666 | 1678 | U-23-  | U-35-  | TDQLARQVDYLLN 
+| 1ir1 | U | albelig | 2 | 2 | E | 1682 | 1688 | U-39-  | U-45-  | VPCLEFE 
+| 1ir1 | U | albelig | 3 | 3 | E | 1711 | 1713 | U-68-  | U-70-  | TMW 
+| 1ir1 | U | albelig | 4 | 4 | H | 1723 | 1736 | U-80-  | U-93-  | PAQVLNELEECKKE 
+| 1ir1 | U | albelig | 5 | 5 | E | 1741 | 1748 | U-98-  | U-105-  | FIRIIGFD 
+| 1ir1 | U | albelig | 6 | 6 | E | 1753 | 1761 | U-110-  | U-118-  | VQCVSFIAY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 5 = a = 6
+# Listed 3 contacts. EOF.

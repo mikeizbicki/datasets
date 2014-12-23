@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ja3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NK-CELL SURFACE GLYCOPROTEIN, IMMUNE SYSTEM
+> pdb_mol_name > MHC CLASS I RECOGNITION RECEPTOR LY49I
+> graphtype > albelig
+> resolution > 3.0
+> date > 29-MAY-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE MURINE NK CELL INHIBITORY RECEPTORLY-49I
+> format_version > 2
+> pdbid > 1ja3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ja3 | A | albelig | 1 | 1 | E | 2 | 7 | A-141-  | A-146-  | KYWFAY 
+| 1ja3 | A | albelig | 2 | 2 | E | 10 | 19 | A-149-  | A-158-  | KAYYFIMNKT 
+| 1ja3 | A | albelig | 3 | 3 | H | 22 | 30 | A-161-  | A-169-  | SGNKANCQH 
+| 1ja3 | A | albelig | 4 | 4 | H | 41 | 50 | A-180-  | A-189-  | EDELKFLQRH 
+| 1ja3 | A | albelig | 5 | 5 | E | 56 | 62 | A-195-  | A-201-  | YWIGLSY 
+| 1ja3 | A | albelig | 6 | 6 | E | 87 | 90 | A-232-  | A-235-  | DVFL 
+| 1ja3 | A | albelig | 7 | 7 | E | 95 | 98 | A-240-  | A-243-  | IEDT 
+| 1ja3 | A | albelig | 8 | 8 | E | 104 | 110 | A-249-  | A-255-  | YYNICGK 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = p = 4
+= 2 = a = 8
+= 3 = m = 8
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+# Listed 7 contacts. EOF.

@@ -1,0 +1,94 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1izo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEME PROTEIN, PROTEIN-FATTY ACID COMPLEX, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,OXIDOREDUCTASE
+> pdb_mol_name > CYTOCHROME P450 152A1
+> graphtype > albelig
+> resolution > 2.1
+> date > 10-OCT-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CYTOCHROME P450 BS BETA COMPLEXED WITH FATTY ACID
+> format_version > 2
+> pdbid > 1izo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1izo | A | albelig | 1 | 1 | H | 8 | 18 | A-13-  | A-23-  | NSLTLLKEGYL 
+| 1izo | A | albelig | 2 | 2 | H | 19 | 26 | A-24-  | A-31-  | FIKNRTER 
+| 1izo | A | albelig | 3 | 3 | E | 31 | 36 | A-36-  | A-41-  | LFQARL 
+| 1izo | A | albelig | 4 | 4 | E | 39 | 44 | A-44-  | A-49-  | KNFICM 
+| 1izo | A | albelig | 5 | 5 | H | 47 | 53 | A-52-  | A-58-  | AEAAKVF 
+| 1izo | A | albelig | 6 | 6 | H | 67 | 74 | A-72-  | A-79-  | KRVQKSLF 
+| 1izo | A | albelig | 7 | 7 | H | 79 | 81 | A-84-  | A-86-  | IQG 
+| 1izo | A | albelig | 8 | 8 | H | 84 | 96 | A-89-  | A-101-  | GSAHIHRKMLFLS 
+| 1izo | A | albelig | 9 | 9 | H | 100 | 121 | A-105-  | A-126-  | PPHQKRLAELMTEEWKAAVTRW 
+| 1izo | A | albelig | 10 | 10 | E | 126 | 128 | A-131-  | A-133-  | EVV 
+| 1izo | A | albelig | 11 | 11 | H | 129 | 145 | A-134-  | A-150-  | LFEEAKEILCRVACYWA 
+| 1izo | A | albelig | 12 | 12 | H | 154 | 167 | A-159-  | A-172-  | VKERADDFIDMVDA 
+| 1izo | A | albelig | 13 | 13 | H | 173 | 197 | A-178-  | A-202-  | PRHWKGRRARPRAEEWIEVMIEDAR 
+| 1izo | A | albelig | 14 | 14 | H | 208 | 214 | A-213-  | A-219-  | ALHEMAF 
+| 1izo | A | albelig | 15 | 15 | H | 225 | 240 | A-230-  | A-245-  | SRMAAIELINVLRPIV 
+| 1izo | A | albelig | 16 | 16 | H | 242 | 255 | A-247-  | A-260-  | ISYFLVFSALALHE 
+| 1izo | A | albelig | 17 | 17 | H | 258 | 264 | A-263-  | A-269-  | KYKEWLR 
+| 1izo | A | albelig | 18 | 18 | H | 268 | 281 | A-273-  | A-286-  | SREREMFVQEVRRY 
+| 1izo | A | albelig | 19 | 19 | E | 287 | 292 | A-292-  | A-297-  | FLGALV 
+| 1izo | A | albelig | 20 | 20 | E | 296 | 298 | A-301-  | A-303-  | FVW 
+| 1izo | A | albelig | 21 | 21 | E | 301 | 303 | A-306-  | A-308-  | CEF 
+| 1izo | A | albelig | 22 | 22 | E | 308 | 312 | A-313-  | A-317-  | SVLLD 
+| 1izo | A | albelig | 23 | 23 | H | 313 | 317 | A-318-  | A-322-  | LYGTN 
+| 1izo | A | albelig | 24 | 24 | H | 331 | 334 | A-336-  | A-339-  | PERF 
+| 1izo | A | albelig | 25 | 25 | H | 361 | 378 | A-366-  | A-383-  | EGITIEVMKASLDFLVHQ 
+| 1izo | A | albelig | 26 | 26 | E | 379 | 382 | A-384-  | A-387-  | IEYD 
+| 1izo | A | albelig | 27 | 27 | E | 404 | 410 | A-409-  | A-415-  | VMSGIRR 
+| 1izo | A | albelig | 28 | 28 | L | 1236 | 1236 | A-501-  | A-501-  | J 
+| 1izo | A | albelig | 29 | 29 | L | 1237 | 1237 | A-601-  | A-601-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = l = 29
+= 2 = m = 3
+= 3 = a = 4
+= 4 = p = 22
+= 5 = m = 22
+= 6 = m = 13
+= 6 = l = 29
+= 7 = m = 8
+= 7 = l = 28
+= 8 = p = 15
+= 8 = l = 28
+= 9 = a = 11
+= 9 = p = 25
+= 10 = m = 11
+= 10 = p = 27
+= 11 = a = 12
+= 11 = m = 15
+= 11 = m = 16
+= 12 = a = 13
+= 12 = m = 15
+= 12 = m = 16
+= 12 = l = 29
+= 13 = a = 15
+= 14 = m = 15
+= 15 = l = 28
+= 15 = l = 29
+= 16 = a = 18
+= 16 = p = 25
+= 16 = l = 28
+= 17 = m = 18
+= 18 = m = 24
+= 18 = a = 25
+= 19 = a = 22
+= 19 = l = 28
+= 19 = l = 29
+= 20 = a = 21
+= 22 = m = 23
+= 23 = l = 28
+= 25 = m = 26
+= 25 = l = 28
+= 26 = a = 27
+= 28 = l = 29
+# Listed 44 contacts. EOF.

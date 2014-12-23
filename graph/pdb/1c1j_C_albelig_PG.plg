@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c1j, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VENOM,PHOSPHOLIPASE A2,X-RAY CRYSTALLOGRAPHY,CADMIUM,CATALYTIC MECHANISM, HYDROLASE
+> pdb_mol_name > BASIC PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 2.8
+> date > 22-JUL-99
+> header > HYDROLASE
+> pdb_org_common > HALYS VIPER
+> title > STRUCTURE OF CADMIUM-SUBSTITUTED PHOSPHOLIPASE A2 FROMAGKISTRONDON HALYS PALLAS AT 2.8 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1c1j
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > GLOYDIUS HALYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c1j | C | albelig | 1 | 1 | H | 248 | 259 | C-2-  | C-13-  | LLQFRKMIKKMT 
+| 1c1j | C | albelig | 2 | 2 | H | 263 | 266 | C-18-  | C-21-  | PVVS 
+| 1c1j | C | albelig | 3 | 3 | H | 285 | 299 | C-40-  | C-54-  | ATDRQPFVHDRSYEK 
+| 1c1j | C | albelig | 4 | 4 | H | 326 | 344 | C-90-  | C-108-  | PTKKEVCESDKAAAIQFRD 
+| 1c1j | C | albelig | 5 | 5 | H | 346 | 348 | C-110-  | C-112-  | LKT 
+| 1c1j | C | albelig | 6 | 6 | H | 358 | 360 | C-122-  | C-125-  | DIL 
+| 1c1j | C | albelig | 7 | 7 | L | 497 | 497 | C-134-  | C-134-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 1 = l = 7
+= 3 = a = 4
+= 3 = l = 7
+# Listed 5 contacts. EOF.

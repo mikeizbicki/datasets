@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k1s, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MIXED A/B STRUCTURE, 4-STRANDED ANTIPARALLEL B-SHEET,TRANSCRIPTION
+> pdb_mol_name > DBH PROTEIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 25-SEP-01
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF DINB FROM SULFOLOBUS SOLFATARICUS
+> format_version > 2
+> pdbid > 1k1s
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SULFOLOBUS SOLFATARICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k1s | A | albelig | 1 | 1 | E | 3 | 8 | A-3-  | A-8-  | VIFVDF 
+| 1k1s | A | albelig | 2 | 2 | H | 11 | 18 | A-11-  | A-18-  | FFAQVEEV 
+| 1k1s | A | albelig | 3 | 3 | H | 21 | 23 | A-21-  | A-23-  | PQY 
+| 1k1s | A | albelig | 4 | 4 | E | 28 | 33 | A-28-  | A-33-  | LVVSVY 
+| 1k1s | A | albelig | 5 | 5 | E | 38 | 43 | A-41-  | A-46-  | GAVATA 
+| 1k1s | A | albelig | 6 | 6 | H | 45 | 48 | A-48-  | A-51-  | YEAR 
+| 1k1s | A | albelig | 7 | 7 | H | 58 | 62 | A-61-  | A-65-  | IIKAM 
+| 1k1s | A | albelig | 8 | 8 | E | 69 | 71 | A-72-  | A-74-  | IYV 
+| 1k1s | A | albelig | 9 | 9 | H | 75 | 90 | A-78-  | A-93-  | KPIYEAFSNRIMNLLN 
+| 1k1s | A | albelig | 10 | 10 | E | 95 | 100 | A-98-  | A-103-  | KIEVAS 
+| 1k1s | A | albelig | 11 | 11 | E | 103 | 107 | A-106-  | A-110-  | EAYLD 
+| 1k1s | A | albelig | 12 | 12 | H | 116 | 134 | A-119-  | A-137-  | FENGIELARKIKQEILEKE 
+| 1k1s | A | albelig | 13 | 13 | E | 138 | 143 | A-141-  | A-146-  | VTVGVA 
+| 1k1s | A | albelig | 14 | 14 | H | 146 | 154 | A-149-  | A-157-  | KILAKIIAD 
+| 1k1s | A | albelig | 15 | 15 | E | 161 | 163 | A-164-  | A-166-  | LGV 
+| 1k1s | A | albelig | 16 | 16 | H | 169 | 174 | A-172-  | A-177-  | VQDFLN 
+| 1k1s | A | albelig | 17 | 17 | H | 178 | 180 | A-181-  | A-183-  | IDE 
+| 1k1s | A | albelig | 18 | 18 | H | 186 | 194 | A-189-  | A-197-  | SVLARRLNE 
+| 1k1s | A | albelig | 19 | 19 | H | 200 | 205 | A-203-  | A-208-  | LRDILS 
+| 1k1s | A | albelig | 20 | 20 | H | 208 | 215 | A-211-  | A-218-  | YNELEKIT 
+| 1k1s | A | albelig | 21 | 21 | H | 217 | 226 | A-220-  | A-229-  | KAKALYLLKL 
+| 1k1s | A | albelig | 22 | 22 | E | 243 | 253 | A-246-  | A-256-  | HGRYLTLPYNT 
+| 1k1s | A | albelig | 23 | 23 | H | 256 | 272 | A-259-  | A-275-  | VKVILPYLKKAINEAYN 
+| 1k1s | A | albelig | 24 | 24 | E | 280 | 287 | A-283-  | A-290-  | RITVIAIM 
+| 1k1s | A | albelig | 25 | 25 | E | 291 | 298 | A-294-  | A-301-  | DILSKGKK 
+| 1k1s | A | albelig | 26 | 26 | H | 305 | 320 | A-308-  | A-323-  | IDNAYKVAEDLLRELL 
+| 1k1s | A | albelig | 27 | 27 | E | 328 | 336 | A-331-  | A-339-  | VRRIGVKLD 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 1 = a = 13
+= 1 = m = 14
+= 2 = m = 4
+= 2 = m = 5
+= 2 = m = 9
+= 4 = a = 5
+= 4 = p = 8
+= 5 = m = 7
+= 9 = m = 10
+= 9 = m = 12
+= 10 = a = 11
+= 12 = a = 13
+= 13 = a = 14
+= 13 = p = 15
+= 14 = m = 16
+= 20 = m = 21
+= 22 = a = 23
+= 22 = a = 27
+= 23 = a = 26
+= 23 = p = 27
+= 24 = a = 25
+= 24 = m = 26
+= 24 = a = 27
+# Listed 24 contacts. EOF.

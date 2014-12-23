@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1efn, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (SH3 DOMAIN/VIRAL ENHANCER), PROTO-ONCOGENE,TRANSFERASE, TYROSINE-PROTEIN KINASE, PHOSPHORYLATION, AIDS,MYRISTYLATION, GTP-BINDING, ATP-BINDING, SH3 DOMAIN, SH2DOMAIN, PPII HELIX, PXXP MOTIF
+> pdb_mol_name > HIV-1 NEF PROTEIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 29-JUN-96
+> header > COMPLEX (SH3 DOMAIN/VIRAL ENHANCER)
+> pdb_org_common > UNKNOWN
+> title > HIV-1 NEF PROTEIN IN COMPLEX WITH R96I MUTANT FYN SH3 DOMAIN
+> format_version > 2
+> pdbid > 1efn
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1efn | D | albelig | 1 | 1 | H | 233 | 246 | D-81-  | D-94-  | YKAAVDLSHFLKEK 
+| 1efn | D | albelig | 2 | 2 | H | 256 | 270 | D-104-  | D-118-  | QRRQDILDLWIYHTQ 
+| 1efn | D | albelig | 3 | 3 | E | 295 | 299 | D-143-  | D-147-  | YKLVP 
+| 1efn | D | albelig | 4 | 4 | E | 305 | 309 | D-181-  | D-185-  | LEWRF 
+| 1efn | D | albelig | 5 | 5 | H | 311 | 314 | D-187-  | D-190-  | SRLA 
+| 1efn | D | albelig | 6 | 6 | H | 318 | 322 | D-194-  | D-198-  | VAREL 
+| 1efn | D | albelig | 7 | 7 | H | 324 | 326 | D-200-  | D-202-  | PEY 
+| 1efn | D | albelig | 8 | 8 | L | 329 | 329 | D-720-  | D-720-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 8
+= 3 = a = 4
+# Listed 2 contacts. EOF.

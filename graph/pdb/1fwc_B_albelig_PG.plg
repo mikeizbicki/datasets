@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fwc, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE(UREA AMIDO), MUTANT, NICKEL METALLOENZYME, HYDROLASE
+> pdb_mol_name > UREASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 23-APR-97
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > KLEBSIELLA AEROGENES UREASE, C319A VARIANT AT PH 8.5
+> format_version > 2
+> pdbid > 1fwc
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA AEROGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fwc | B | albelig | 1 | 1 | E | 113 | 115 | B-12-  | B-14-  | QIA 
+| 1fwc | B | albelig | 2 | 2 | E | 122 | 129 | B-21-  | B-28-  | TCRVVVEN 
+| 1fwc | B | albelig | 3 | 3 | E | 135 | 138 | B-34-  | B-37-  | IQVG 
+| 1fwc | B | albelig | 4 | 4 | H | 143 | 145 | B-42-  | B-44-  | FAE 
+| 1fwc | B | albelig | 5 | 5 | E | 160 | 162 | B-59-  | B-61-  | YRL 
+| 1fwc | B | albelig | 6 | 6 | E | 169 | 172 | B-68-  | B-71-  | AVRF 
+| 1fwc | B | albelig | 7 | 7 | E | 177 | 184 | B-76-  | B-83-  | KREVELVA 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 7
+= 3 = a = 6
+= 5 = a = 7
+# Listed 3 contacts. EOF.

@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gfw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > X-RAY, CASPASE INHIBITOR, CASPASE-3, APOPAIN, ISTINSULFONAMIDE, HYDROLASE
+> pdb_mol_name > CASPASE-3 (APOPAIN, P10)
+> graphtype > albelig
+> resolution > 2.8
+> date > 16-JUN-00
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > THE 2.8 ANGSTROM CRYSTAL STRUCTURE OF CASPASE-3 (APOPAIN ORCPP32)IN COMPLEX WITH AN ISATIN SULFONAMIDE INHIBITOR.
+> format_version > 2
+> pdbid > 1gfw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gfw | B | albelig | 1 | 1 | E | 155 | 159 | B-193-  | B-197-  | FLYAY 
+| 1gfw | B | albelig | 2 | 2 | H | 176 | 188 | B-214-  | B-226-  | WFIQSLCAMLKQY 
+| 1gfw | B | albelig | 3 | 3 | H | 194 | 208 | B-232-  | B-246-  | FMHILTRVNRKVATE 
+| 1gfw | B | albelig | 4 | 4 | H | 216 | 218 | B-254-  | B-256-  | ATF 
+| 1gfw | B | albelig | 5 | 5 | E | 226 | 229 | B-264-  | B-267-  | CIVS 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 2 = m = 3
+= 3 = m = 5
+# Listed 3 contacts. EOF.

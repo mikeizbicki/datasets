@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kl4, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BIOTIN, CRYSTAL STRUCTURE, PROTEIN ENGINEERING, STREP-TAG,STREPTAVIDIN, PEPTIDE BINDING PROTEIN
+> pdb_mol_name > STREPTAVIDIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 11-DEC-01
+> header > PEPTIDE BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > AN ENGINEERED STREPTAVIDIN WITH IMPROVED AFFINITY FOR THESTREP-TAG II PEPTIDE : APO-SAM2
+> format_version > 2
+> pdbid > 1kl4
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES AVIDINII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kl4 | D | albelig | 1 | 1 | E | 366 | 370 | D-19-  | D-23-  | GTWYN 
+| 1kl4 | D | albelig | 2 | 2 | E | 375 | 380 | D-28-  | D-33-  | TFIVTA 
+| 1kl4 | D | albelig | 3 | 3 | E | 385 | 391 | D-38-  | D-44-  | ALTGTYI 
+| 1kl4 | D | albelig | 4 | 4 | H | 397 | 399 | D-50-  | D-52-  | AES 
+| 1kl4 | D | albelig | 5 | 5 | E | 400 | 407 | D-53-  | D-60-  | RYVLTGRY 
+| 1kl4 | D | albelig | 6 | 6 | E | 418 | 427 | D-71-  | D-80-  | TALGWTVAWK 
+| 1kl4 | D | albelig | 7 | 7 | E | 432 | 444 | D-85-  | D-97-  | NAHSATTWSGQYV 
+| 1kl4 | D | albelig | 8 | 8 | E | 450 | 459 | D-103-  | D-112-  | RINTQWLLTS 
+| 1kl4 | D | albelig | 9 | 9 | H | 463 | 468 | D-116-  | D-121-  | EANAWK 
+| 1kl4 | D | albelig | 10 | 10 | E | 470 | 478 | D-123-  | D-131-  | TLVGHDTFT 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 3 = m = 4
+= 3 = a = 5
+= 4 = m = 5
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 10
+# Listed 10 contacts. EOF.

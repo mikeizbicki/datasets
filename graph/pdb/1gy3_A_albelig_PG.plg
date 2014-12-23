@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gy3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE-TRANSFERASE SUBSTRATE COMPLEX, CELL CYCLE REGULATORYPROTEIN KINASE, THR160-PHOSPHO-CYCLIN DEPENDENT PROTEIN KINASE 2 INASSOCIATION WITH CYCLIN A, TRANSFERASE- TRANSFERASE SUBSTRATECOMPLEX
+> pdb_mol_name > CELL DIVISION PROTEIN KINASE 2
+> graphtype > albelig
+> resolution > 2.7
+> date > 19-APR-02
+> header > TRANSFERASE/TRANSFERASE SUBSTRATE
+> pdb_org_common > HUMAN
+> title > PCDK2/CYCLIN A IN COMPLEX WITH MGADP, NITRATE AND PEPTIDE SUBSTRATE
+> format_version > 2
+> pdbid > 1gy3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gy3 | A | albelig | 1 | 1 | E | 4 | 12 | A-4-  | A-12-  | FQKVEKIGE 
+| 1gy3 | A | albelig | 2 | 2 | E | 17 | 23 | A-17-  | A-23-  | VVYKARN 
+| 1gy3 | A | albelig | 3 | 3 | E | 29 | 36 | A-29-  | A-36-  | VVALKKIR 
+| 1gy3 | A | albelig | 4 | 4 | H | 46 | 56 | A-46-  | A-56-  | STAIREISLLK 
+| 1gy3 | A | albelig | 5 | 5 | E | 66 | 70 | A-66-  | A-70-  | LLDVI 
+| 1gy3 | A | albelig | 6 | 6 | E | 75 | 81 | A-75-  | A-81-  | KLYLVFE 
+| 1gy3 | A | albelig | 7 | 7 | H | 87 | 93 | A-87-  | A-93-  | LKKFMDA 
+| 1gy3 | A | albelig | 8 | 8 | H | 101 | 120 | A-101-  | A-120-  | LPLIKSYLFQLLQGLAFCHS 
+| 1gy3 | A | albelig | 9 | 9 | H | 130 | 132 | A-130-  | A-132-  | PQN 
+| 1gy3 | A | albelig | 10 | 10 | E | 133 | 136 | A-133-  | A-136-  | LLIN 
+| 1gy3 | A | albelig | 11 | 11 | E | 140 | 143 | A-140-  | A-143-  | AIKL 
+| 1gy3 | A | albelig | 12 | 12 | H | 146 | 148 | A-146-  | A-148-  | FGL 
+| 1gy3 | A | albelig | 13 | 13 | H | 166 | 168 | A-166-  | A-168-  | LWY 
+| 1gy3 | A | albelig | 14 | 14 | H | 171 | 174 | A-171-  | A-174-  | PEIL 
+| 1gy3 | A | albelig | 15 | 15 | H | 183 | 198 | A-183-  | A-198-  | AVDIWSLGCIFAEMVT 
+| 1gy3 | A | albelig | 16 | 16 | H | 208 | 219 | A-208-  | A-219-  | EIDQLFRIFRTL 
+| 1gy3 | A | albelig | 17 | 17 | H | 230 | 232 | A-230-  | A-232-  | VTS 
+| 1gy3 | A | albelig | 18 | 18 | H | 248 | 251 | A-248-  | A-251-  | FSKV 
+| 1gy3 | A | albelig | 19 | 19 | H | 257 | 266 | A-257-  | A-266-  | EDGRSLLSQM 
+| 1gy3 | A | albelig | 20 | 20 | H | 277 | 281 | A-277-  | A-281-  | AKAAL 
+| 1gy3 | A | albelig | 21 | 21 | H | 284 | 288 | A-284-  | A-288-  | PFFQD 
+| 1gy3 | A | albelig | 22 | 22 | L | 1130 | 1130 | A-1297-  | A-1297-  | J 
+| 1gy3 | A | albelig | 23 | 23 | L | 1131 | 1131 | A-1298-  | A-1298-  | J 
+| 1gy3 | A | albelig | 24 | 24 | L | 1132 | 1132 | A-1299-  | A-1299-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 22
+= 2 = a = 3
+= 2 = l = 22
+= 3 = a = 6
+= 3 = l = 22
+= 4 = l = 22
+= 5 = a = 6
+= 6 = l = 22
+= 7 = l = 22
+= 8 = m = 11
+= 8 = a = 15
+= 8 = m = 20
+= 8 = m = 21
+= 9 = m = 10
+= 9 = l = 22
+= 9 = l = 23
+= 9 = l = 24
+= 10 = a = 11
+= 10 = l = 22
+= 12 = l = 24
+= 15 = m = 19
+= 22 = l = 23
+= 22 = l = 24
+= 23 = l = 24
+# Listed 25 contacts. EOF.

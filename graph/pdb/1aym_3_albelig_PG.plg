@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aym, chain 3.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMAN RHINOVIRUS 16, RNA, SITE-DIRECTED MUTAGENESIS,RHINOVIRUS COAT PROTEIN, ICOSAHEDRAL VIRUS
+> pdb_mol_name > HUMAN RHINOVIRUS 16 COAT PROTEIN
+> graphtype > albelig
+> resolution > 2.15
+> date > 06-NOV-97
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > HUMAN RHINOVIRUS 16 COAT PROTEIN AT HIGH RESOLUTION
+> format_version > 2
+> pdbid > 1aym
+> experiment > X-RAY DIFFRACTION
+> chainid > 3
+> graphclass > protein graph
+> pdb_org_sci > HUMAN RHINOVIRUS SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aym | 3 | albelig | 1 | 1 | H | 583 | 586 | 3-44-  | 3-47-  | IEMC 
+| 1aym | 3 | albelig | 2 | 2 | H | 604 | 607 | 3-65-  | 3-68-  | VSMY 
+| 1aym | 3 | albelig | 3 | 3 | E | 608 | 611 | 3-69-  | 3-72-  | TVTL 
+| 1aym | 3 | albelig | 4 | 4 | E | 620 | 625 | 3-81-  | 3-86-  | EIFAIK 
+| 1aym | 3 | albelig | 5 | 5 | H | 637 | 642 | 3-98-  | 3-103-  | LIGEIA 
+| 1aym | 3 | albelig | 6 | 6 | E | 645 | 649 | 3-106-  | 3-110-  | FTHWT 
+| 1aym | 3 | albelig | 7 | 7 | E | 652 | 658 | 3-113-  | 3-119-  | LRFSFMF 
+| 1aym | 3 | albelig | 8 | 8 | E | 667 | 673 | 3-128-  | 3-134-  | KVLLAYT 
+| 1aym | 3 | albelig | 9 | 9 | H | 683 | 687 | 3-144-  | 3-148-  | RKEAM 
+| 1aym | 3 | albelig | 10 | 10 | E | 690 | 695 | 3-151-  | 3-156-  | THVVWD 
+| 1aym | 3 | albelig | 11 | 11 | E | 701 | 706 | 3-162-  | 3-167-  | TVSLVV 
+| 1aym | 3 | albelig | 12 | 12 | E | 727 | 732 | 3-188-  | 3-193-  | YITCWY 
+| 1aym | 3 | albelig | 13 | 13 | E | 746 | 754 | 3-207-  | 3-215-  | AEMLCFVSG 
+| 1aym | 3 | albelig | 14 | 14 | E | 759 | 763 | 3-220-  | 3-224-  | CLRMA 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 13
+= 2 = m = 3
+= 3 = a = 13
+= 4 = a = 12
+= 5 = m = 6
+= 6 = a = 14
+= 7 = a = 11
+= 7 = a = 13
+= 8 = a = 10
+= 8 = a = 12
+= 9 = m = 12
+# Listed 11 contacts. EOF.

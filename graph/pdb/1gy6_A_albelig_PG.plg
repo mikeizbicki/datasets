@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gy6, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR TRANSPORT
+> pdb_mol_name > NUCLEAR TRANSPORT FACTOR 2
+> graphtype > albelig
+> resolution > 1.6
+> date > 21-APR-02
+> header > NUCLEAR TRANSPORT
+> pdb_org_common > RAT
+> title > NTF2 FROM RAT, AMMONIUM SULPHATE CONDITIONS
+> format_version > 2
+> pdbid > 1gy6
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gy6 | A | albelig | 1 | 1 | H | 4 | 30 | A-6-  | A-32-  | IWEQIGSSFIQHYYQLFDNDRTQLGAI 
+| 1gy6 | A | albelig | 2 | 2 | E | 31 | 39 | A-33-  | A-41-  | YIDASCLTW 
+| 1gy6 | A | albelig | 3 | 3 | E | 42 | 45 | A-44-  | A-47-  | QQFQ 
+| 1gy6 | A | albelig | 4 | 4 | H | 47 | 56 | A-49-  | A-58-  | KAAIVEKLSS 
+| 1gy6 | A | albelig | 5 | 5 | E | 62 | 73 | A-64-  | A-75-  | IQHSITAQDHQP 
+| 1gy6 | A | albelig | 6 | 6 | E | 79 | 89 | A-81-  | A-91-  | IISMVVGQLKA 
+| 1gy6 | A | albelig | 7 | 7 | E | 95 | 106 | A-97-  | A-108-  | MGFHQMFLLKNI 
+| 1gy6 | A | albelig | 8 | 8 | E | 109 | 119 | A-111-  | A-121-  | AWVCTNDMFRL 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 1 = a = 5
+= 1 = a = 7
+= 1 = m = 8
+= 2 = a = 3
+= 2 = m = 4
+= 2 = p = 8
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+# Listed 11 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a6v, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, HAPTEN, IMMUNE SYSTEM
+> pdb_mol_name > B1-8 FV (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 1.8
+> date > 03-MAR-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > B1-8 FV FRAGMENT COMPLEXED WITH A (4-HYDROXY-3-NITROPHENYL) ACETATECOMPOUND
+> format_version > 2
+> pdbid > 1a6v
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a6v | N | albelig | 1 | 1 | E | 469 | 472 | N-9-  | N-12-  | ALTT 
+| 1a6v | N | albelig | 2 | 2 | E | 478 | 483 | N-18-  | N-23-  | VTLTER 
+| 1a6v | N | albelig | 3 | 3 | E | 496 | 501 | N-36-  | N-41-  | NWVQEK 
+| 1a6v | N | albelig | 4 | 4 | E | 505 | 510 | N-45-  | N-50-  | LFTGLI 
+| 1a6v | N | albelig | 5 | 5 | E | 524 | 529 | N-64-  | N-69-  | FSGSLI 
+| 1a6v | N | albelig | 6 | 6 | E | 532 | 537 | N-72-  | N-77-  | KAALTI 
+| 1a6v | N | albelig | 7 | 7 | E | 546 | 554 | N-86-  | N-94-  | AIYFEALWY 
+| 1a6v | N | albelig | 8 | 8 | E | 557 | 560 | N-97-  | N-100-  | HWVF 
+| 1a6v | N | albelig | 9 | 9 | E | 564 | 568 | N-104-  | N-108-  | TKLTV 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 4
+= 3 = a = 6
+= 3 = a = 7
+= 5 = a = 6
+= 7 = a = 8
+= 7 = a = 9
+# Listed 9 contacts. EOF.

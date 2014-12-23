@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kkl, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHORYLATION, PROTEIN KINASE, BACTERIA, PROTEIN/PROTEININTERACTION, TRANSFERASE, HYDROLASE/TRANSPORT PROTEINCOMPLEX, TRANSFERASE,HYDROLASE/TRANSPORT PROTEIN COMPLEX
+> pdb_mol_name > HPRK PROTEIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 10-DEC-01
+> header > TRANSFERASE,HYDROLASE/TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > L.CASEI HPRK/P IN COMPLEX WITH B.SUBTILIS HPR
+> format_version > 2
+> pdbid > 1kkl
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > LACTOBACILLUS CASEI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kkl | B | albelig | 1 | 1 | E | 172 | 181 | B-137-  | B-146-  | RSMHGVLVDI 
+| 1kkl | B | albelig | 2 | 2 | E | 184 | 189 | B-149-  | B-154-  | LGVLIT 
+| 1kkl | B | albelig | 3 | 3 | H | 196 | 205 | B-161-  | B-170-  | KSETALELVQ 
+| 1kkl | B | albelig | 4 | 4 | E | 209 | 220 | B-174-  | B-185-  | RLIADDRVDVYQ 
+| 1kkl | B | albelig | 5 | 5 | E | 226 | 229 | B-191-  | B-194-  | IVGA 
+| 1kkl | B | albelig | 6 | 6 | H | 232 | 234 | B-197-  | B-199-  | PIL 
+| 1kkl | B | albelig | 7 | 7 | E | 237 | 240 | B-202-  | B-205-  | LLEI 
+| 1kkl | B | albelig | 8 | 8 | E | 244 | 247 | B-209-  | B-212-  | GIID 
+| 1kkl | B | albelig | 9 | 9 | H | 248 | 252 | B-213-  | B-217-  | VMNLF 
+| 1kkl | B | albelig | 10 | 10 | H | 254 | 256 | B-219-  | B-221-  | AGA 
+| 1kkl | B | albelig | 11 | 11 | E | 260 | 271 | B-225-  | B-236-  | DTTISLIVHLEN 
+| 1kkl | B | albelig | 12 | 12 | E | 279 | 281 | B-252-  | B-254-  | TQL 
+| 1kkl | B | albelig | 13 | 13 | E | 286 | 294 | B-259-  | B-267-  | PVPKITVPV 
+| 1kkl | B | albelig | 14 | 14 | H | 300 | 315 | B-273-  | B-288-  | LAIIIEVAAMNFRAKS 
+| 1kkl | B | albelig | 15 | 15 | H | 320 | 332 | B-293-  | B-305-  | ATKTFEKNLNHLI 
+| 1kkl | B | albelig | 16 | 16 | L | 772 | 772 | B-402-  | B-402-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = p = 11
+= 3 = m = 7
+= 3 = m = 14
+= 3 = l = 16
+= 4 = a = 5
+= 4 = p = 7
+= 4 = m = 10
+= 4 = l = 16
+= 5 = a = 11
+= 7 = a = 8
+= 7 = l = 16
+= 8 = m = 9
+= 11 = p = 13
+= 12 = a = 13
+# Listed 16 contacts. EOF.

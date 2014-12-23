@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bd2, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (MHC/VIRAL PEPTIDE/RECEPTOR)
+> pdb_mol_name > T CELL RECEPTOR ALPHA
+> graphtype > albelig
+> resolution > 2.5
+> date > 12-MAY-98
+> header > COMPLEX (MHC/VIRAL PEPTIDE/RECEPTOR)
+> pdb_org_common > HUMAN
+> title > COMPLEX BETWEEN HUMAN T-CELL RECEPTOR B7, VIRAL PEPTIDE(TAX) AND MHC CLASS I MOLECULE HLA-A 0201
+> format_version > 2
+> pdbid > 1bd2
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bd2 | D | albelig | 1 | 1 | E | 395 | 399 | D-9-  | D-13-  | SLSVQ 
+| 1bd2 | D | albelig | 2 | 2 | E | 404 | 410 | D-18-  | D-24-  | SILNDDY 
+| 1bd2 | D | albelig | 3 | 3 | E | 417 | 423 | D-31-  | D-37-  | YFLWYKK 
+| 1bd2 | D | albelig | 4 | 4 | E | 430 | 436 | D-44-  | D-50-  | TFLISIS 
+| 1bd2 | D | albelig | 5 | 5 | E | 441 | 444 | D-54-A | D-57-  | KNAD 
+| 1bd2 | D | albelig | 6 | 6 | E | 447 | 452 | D-62-  | D-67-  | FTVFLN 
+| 1bd2 | D | albelig | 7 | 7 | E | 457 | 462 | D-72-  | D-77-  | HLSLHI 
+| 1bd2 | D | albelig | 8 | 8 | H | 467 | 469 | D-82-  | D-84-  | PGD 
+| 1bd2 | D | albelig | 9 | 9 | E | 471 | 478 | D-86-  | D-93-  | AVYFDAAM 
+| 1bd2 | D | albelig | 10 | 10 | E | 484 | 486 | D-104-  | D-106-  | LVF 
+| 1bd2 | D | albelig | 11 | 11 | E | 490 | 495 | D-110-  | D-115-  | TRLTIN 
+| 1bd2 | D | albelig | 12 | 12 | E | 504 | 508 | D-124-  | D-128-  | AVYQL 
+| 1bd2 | D | albelig | 13 | 13 | E | 515 | 519 | D-138-  | D-142-  | VELFT 
+| 1bd2 | D | albelig | 14 | 14 | E | 541 | 544 | D-164-  | D-167-  | TVLD 
+| 1bd2 | D | albelig | 15 | 15 | E | 549 | 556 | D-174-  | D-181-  | KSNSAVAW 
+| 1bd2 | D | albelig | 16 | 16 | H | 564 | 567 | D-189-  | D-192-  | EANA 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 11
+= 2 = a = 7
+= 3 = a = 4
+= 3 = p = 7
+= 3 = a = 9
+= 4 = p = 6
+= 5 = a = 6
+= 6 = a = 7
+= 9 = a = 10
+= 9 = a = 11
+= 12 = a = 13
+= 13 = a = 15
+= 14 = a = 15
+# Listed 13 contacts. EOF.

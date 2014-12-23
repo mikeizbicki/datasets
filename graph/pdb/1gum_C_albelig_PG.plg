@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gum, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUTATHIONE TRANSFERASE, OXIDATIVE STRESS, ALKENALDEGRADATION
+> pdb_mol_name > PROTEIN (GLUTATHIONE TRANSFERASE A4-4)
+> graphtype > albelig
+> resolution > 3.0
+> date > 11-JUN-98
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > HUMAN GLUTATHIONE TRANSFERASE A4-4 WITHOUT LIGANDS
+> format_version > 2
+> pdbid > 1gum
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gum | C | albelig | 1 | 1 | E | 439 | 443 | C-6-  | C-10-  | KLHYP 
+| 1gum | C | albelig | 2 | 2 | H | 450 | 458 | C-17-  | C-25-  | ESVRWVLAA 
+| 1gum | C | albelig | 3 | 3 | E | 464 | 468 | C-31-  | C-35-  | DEEFL 
+| 1gum | C | albelig | 4 | 4 | H | 471 | 479 | C-38-  | C-46-  | KEQLYKLQD 
+| 1gum | C | albelig | 5 | 5 | E | 490 | 493 | C-57-  | C-60-  | MVEI 
+| 1gum | C | albelig | 6 | 6 | E | 496 | 499 | C-63-  | C-66-  | MKLV 
+| 1gum | C | albelig | 7 | 7 | H | 501 | 511 | C-68-  | C-78-  | TRSILHYIADK 
+| 1gum | C | albelig | 8 | 8 | H | 519 | 544 | C-86-  | C-111-  | LKERTLIDMYVEGTLDLLELLIMHPF 
+| 1gum | C | albelig | 9 | 9 | H | 547 | 565 | C-114-  | C-132-  | PDDQQKEVVNMAQKAIIRY 
+| 1gum | C | albelig | 10 | 10 | H | 566 | 574 | C-133-  | C-141-  | FPVFEKILR 
+| 1gum | C | albelig | 11 | 11 | H | 588 | 603 | C-155-  | C-170-  | LADVILLQTILALEEK 
+| 1gum | C | albelig | 12 | 12 | H | 607 | 610 | C-174-  | C-177-  | ILSA 
+| 1gum | C | albelig | 13 | 13 | H | 612 | 623 | C-179-  | C-190-  | PFLQEYTVKLSN 
+| 1gum | C | albelig | 14 | 14 | H | 625 | 631 | C-192-  | C-198-  | PTIKRFL 
+| 1gum | C | albelig | 15 | 15 | H | 643 | 652 | C-210-  | C-219-  | EIYVRTVYNI 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 2 = m = 11
+= 3 = m = 4
+= 5 = a = 6
+= 7 = a = 8
+= 8 = a = 9
+= 8 = p = 11
+= 9 = m = 10
+= 10 = m = 13
+= 11 = m = 13
+= 12 = m = 13
+= 13 = m = 14
+# Listed 13 contacts. EOF.

@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bty, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BENZAMIDINE INHIBITED, HYDROLASE (SERINE PROTEINASE), HYDROLASE
+> pdb_mol_name > BETA-TRYPSIN
+> graphtype > albelig
+> resolution > 1.5
+> date > 17-MAY-95
+> header > HYDROLASE
+> pdb_org_common > BOVINE
+> title > CRYSTAL STRUCTURE OF BETA-TRYPSIN IN COMPLEX WITH BENZAMIDINE
+> format_version > 2
+> pdbid > 1bty
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bty | A | albelig | 1 | 1 | E | 15 | 19 | A-30-  | A-34-  | QVSLN 
+| 1bty | A | albelig | 2 | 2 | E | 23 | 31 | A-40-  | A-48-  | HFNGGSLIN 
+| 1bty | A | albelig | 3 | 3 | E | 34 | 37 | A-51-  | A-54-  | WVVS 
+| 1bty | A | albelig | 4 | 4 | H | 39 | 41 | A-56-  | A-58-  | AHN 
+| 1bty | A | albelig | 5 | 5 | E | 47 | 50 | A-64-  | A-66-  | QVRL 
+| 1bty | A | albelig | 6 | 6 | E | 63 | 72 | A-81-  | A-90-  | QFISASKSIV 
+| 1bty | A | albelig | 7 | 7 | E | 86 | 90 | A-104-  | A-108-  | MLIKL 
+| 1bty | A | albelig | 8 | 8 | E | 115 | 120 | A-135-  | A-140-  | QDLISG 
+| 1bty | A | albelig | 9 | 9 | E | 136 | 141 | A-156-  | A-161-  | KALKAP 
+| 1bty | A | albelig | 10 | 10 | H | 145 | 151 | A-165-  | A-171-  | DSSEKSA 
+| 1bty | A | albelig | 11 | 11 | E | 160 | 163 | A-180-  | A-183-  | MFEA 
+| 1bty | A | albelig | 12 | 12 | E | 180 | 183 | A-198-  | A-201-  | PVVD 
+| 1bty | A | albelig | 13 | 13 | E | 186 | 193 | A-204-  | A-215-  | KLQGIVSW 
+| 1bty | A | albelig | 14 | 14 | E | 204 | 208 | A-226-  | A-230-  | GVYTK 
+| 1bty | A | albelig | 15 | 15 | H | 209 | 221 | A-231-  | A-243-  | VCNYVSWIKQTIA 
+| 1bty | A | albelig | 16 | 16 | L | 224 | 224 | A-247-  | A-247-  | J 
+| 1bty | A | albelig | 17 | 17 | L | 225 | 225 | A-246-  | A-246-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 4 = l = 17
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 12
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 13 = l = 17
+= 14 = m = 15
+= 14 = l = 17
+# Listed 16 contacts. EOF.

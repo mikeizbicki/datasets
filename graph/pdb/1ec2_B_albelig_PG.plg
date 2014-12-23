@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ec2, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIMER, PROTEIN-INHIBITOR COMPLEX, HYDROLASE/HYDROLASEINHIBITOR COMPLEX
+> pdb_mol_name > HIV-1 PROTEASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 25-JAN-00
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > HIV-1 PROTEASE IN COMPLEX WITH THE INHIBITOR BEA428
+> format_version > 2
+> pdbid > 1ec2
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ec2 | B | albelig | 1 | 1 | E | 110 | 115 | B-110-  | B-115-  | LVTIKI 
+| 1ec2 | B | albelig | 2 | 2 | E | 118 | 124 | B-118-  | B-124-  | QLKEALL 
+| 1ec2 | B | albelig | 3 | 3 | E | 143 | 149 | B-143-  | B-149-  | KPKMIGG 
+| 1ec2 | B | albelig | 4 | 4 | E | 152 | 166 | B-152-  | B-166-  | GFIKVRQYDQILIEI 
+| 1ec2 | B | albelig | 5 | 5 | E | 169 | 177 | B-169-  | B-177-  | HKAIGTVLV 
+| 1ec2 | B | albelig | 6 | 6 | H | 187 | 190 | B-187-  | B-190-  | RNLL 
+| 1ec2 | B | albelig | 7 | 7 | E | 196 | 198 | B-196-  | B-198-  | TLN 
+| 1ec2 | B | albelig | 8 | 8 | L | 200 | 200 | B-501-  | B-501-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = l = 8
+= 3 = a = 4
+= 3 = l = 8
+= 4 = a = 5
+= 4 = l = 8
+# Listed 7 contacts. EOF.

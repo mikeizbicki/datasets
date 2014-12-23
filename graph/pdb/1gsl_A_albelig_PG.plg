@@ -1,0 +1,94 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gsl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOPROTEIN, LECTIN, MANGANESE
+> pdb_mol_name > GRIFFONIA SIMPLICIFOLIA LECTIN 4
+> graphtype > albelig
+> resolution > 2.0
+> date > 15-JUN-96
+> header > LECTIN
+> pdb_org_common > UNKNOWN
+> title > LECTIN (FOURTH ISOLATED FROM (GRIFFONIA SIMPLICIFOLIA)) COMPLEX WITH YHUMAN BLOOD GROUP DETERMINANT
+> format_version > 2
+> pdbid > 1gsl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GRIFFONIA SIMPLICIFOLIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gsl | A | albelig | 1 | 1 | E | 5 | 8 | A-5-  | A-8-  | NFTY 
+| 1gsl | A | albelig | 2 | 2 | E | 22 | 26 | A-22-  | A-26-  | ITFLG 
+| 1gsl | A | albelig | 3 | 3 | E | 29 | 31 | A-29-  | A-31-  | TRI 
+| 1gsl | A | albelig | 4 | 4 | E | 34 | 36 | A-34-  | A-36-  | ALQ 
+| 1gsl | A | albelig | 5 | 5 | E | 50 | 56 | A-50-  | A-56-  | SAGQASY 
+| 1gsl | A | albelig | 6 | 6 | E | 71 | 82 | A-71-  | A-82-  | SFYTSFTFLLKN 
+| 1gsl | A | albelig | 7 | 7 | E | 90 | 97 | A-90-  | A-97-  | GLAFFLAP 
+| 1gsl | A | albelig | 8 | 8 | H | 106 | 108 | A-106-  | A-108-  | GGF 
+| 1gsl | A | albelig | 9 | 9 | H | 120 | 122 | A-120-  | A-122-  | PSK 
+| 1gsl | A | albelig | 10 | 10 | E | 126 | 131 | A-126-  | A-131-  | VAVEFD 
+| 1gsl | A | albelig | 11 | 11 | H | 136 | 138 | A-136-  | A-138-  | KDW 
+| 1gsl | A | albelig | 12 | 12 | E | 145 | 150 | A-145-  | A-150-  | HIGIDV 
+| 1gsl | A | albelig | 13 | 13 | E | 157 | 160 | A-157-  | A-160-  | ATTR 
+| 1gsl | A | albelig | 14 | 14 | H | 163 | 166 | A-163-  | A-166-  | NDDA 
+| 1gsl | A | albelig | 15 | 15 | E | 171 | 179 | A-171-  | A-179-  | IATAHITYD 
+| 1gsl | A | albelig | 16 | 16 | E | 184 | 191 | A-184-  | A-191-  | ILTVLLSY 
+| 1gsl | A | albelig | 17 | 17 | E | 196 | 202 | A-196-  | A-202-  | DYILSHV 
+| 1gsl | A | albelig | 18 | 18 | H | 205 | 208 | A-205-  | A-208-  | LAKV 
+| 1gsl | A | albelig | 19 | 19 | E | 212 | 221 | A-212-  | A-221-  | KVRIGFSAGV 
+| 1gsl | A | albelig | 20 | 20 | E | 225 | 237 | A-225-  | A-237-  | EVTYILSWHFFST 
+| 1gsl | A | albelig | 21 | 21 | L | 245 | 245 | A-252-  | A-252-  | J 
+| 1gsl | A | albelig | 22 | 22 | L | 246 | 246 | A-253-  | A-253-  | J 
+| 1gsl | A | albelig | 23 | 23 | L | 247 | 247 | A-255-  | A-255-  | J 
+| 1gsl | A | albelig | 24 | 24 | L | 248 | 248 | A-254-  | A-254-  | J 
+| 1gsl | A | albelig | 25 | 25 | L | 249 | 249 | A-256-  | A-256-  | J 
+| 1gsl | A | albelig | 26 | 26 | L | 250 | 250 | A-257-  | A-257-  | J 
+| 1gsl | A | albelig | 27 | 27 | L | 251 | 251 | A-258-  | A-258-  | J 
+| 1gsl | A | albelig | 28 | 28 | L | 252 | 252 | A-262-  | A-262-  | J 
+| 1gsl | A | albelig | 29 | 29 | L | 253 | 253 | A-250-  | A-250-  | J 
+| 1gsl | A | albelig | 30 | 30 | L | 254 | 254 | A-251-  | A-251-  | J 
+# Printed info on 30 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 20
+= 2 = a = 3
+= 2 = a = 5
+= 2 = l = 25
+= 2 = l = 26
+= 2 = l = 28
+= 3 = a = 4
+= 4 = a = 20
+= 5 = a = 19
+= 6 = a = 15
+= 6 = a = 20
+= 7 = a = 10
+= 7 = a = 19
+= 8 = m = 19
+= 8 = l = 21
+= 8 = l = 22
+= 8 = l = 24
+= 8 = l = 30
+= 10 = a = 12
+= 10 = l = 29
+= 10 = l = 30
+= 11 = l = 21
+= 12 = a = 13
+= 12 = p = 17
+= 12 = l = 29
+= 12 = l = 30
+= 13 = a = 17
+= 15 = a = 16
+= 16 = a = 17
+= 19 = l = 22
+= 19 = l = 24
+= 21 = l = 22
+= 21 = l = 23
+= 21 = l = 24
+= 22 = l = 23
+= 22 = l = 24
+= 22 = l = 30
+= 23 = l = 24
+= 25 = l = 26
+= 25 = l = 27
+= 25 = l = 28
+= 26 = l = 28
+= 29 = l = 30
+# Listed 43 contacts. EOF.

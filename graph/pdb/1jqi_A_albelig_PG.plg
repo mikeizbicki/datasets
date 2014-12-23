@@ -1,0 +1,85 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jqi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FLAVOPROTEIN, ENZYME-INHIBITOR COMPLEX, OXIDOREDUCTASE
+> pdb_mol_name > SHORT CHAIN ACYL-COA DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.25
+> date > 07-AUG-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT SHORT CHAIN ACYL-COA DEHYDROGENASE COMPLEXEDWITH ACETOACETYL-COA
+> format_version > 2
+> pdbid > 1jqi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jqi | A | albelig | 1 | 1 | H | 9 | 26 | A-12-  | A-29-  | ETHQMLRQTCRDFAEKEL 
+| 1jqi | A | albelig | 2 | 2 | H | 30 | 36 | A-33-  | A-39-  | AAQLDKE 
+| 1jqi | A | albelig | 3 | 3 | H | 41 | 50 | A-44-  | A-53-  | TSQVKKMGEL 
+| 1jqi | A | albelig | 4 | 4 | H | 59 | 61 | A-62-  | A-64-  | EEL 
+| 1jqi | A | albelig | 5 | 5 | H | 68 | 81 | A-71-  | A-84-  | YLAYSIALEEISRG 
+| 1jqi | A | albelig | 6 | 6 | H | 83 | 97 | A-86-  | A-100-  | ASTGVIMSVNNSLYL 
+| 1jqi | A | albelig | 7 | 7 | H | 98 | 103 | A-101-  | A-106-  | GPILKF 
+| 1jqi | A | albelig | 8 | 8 | H | 106 | 112 | A-109-  | A-115-  | SQQKQQW 
+| 1jqi | A | albelig | 9 | 9 | H | 114 | 116 | A-117-  | A-119-  | TPF 
+| 1jqi | A | albelig | 10 | 10 | E | 123 | 126 | A-126-  | A-129-  | GCFA 
+| 1jqi | A | albelig | 11 | 11 | E | 142 | 145 | A-145-  | A-148-  | TARE 
+| 1jqi | A | albelig | 12 | 12 | E | 149 | 160 | A-152-  | A-163-  | SWVLNGTKAWIT 
+| 1jqi | A | albelig | 13 | 13 | E | 167 | 173 | A-170-  | A-176-  | ATVVFAS 
+| 1jqi | A | albelig | 14 | 14 | H | 176 | 181 | A-179-  | A-184-  | RSRQNK 
+| 1jqi | A | albelig | 15 | 15 | E | 183 | 189 | A-186-  | A-192-  | ISAFLVP 
+| 1jqi | A | albelig | 16 | 16 | E | 195 | 197 | A-198-  | A-200-  | LTL 
+| 1jqi | A | albelig | 17 | 17 | E | 211 | 222 | A-214-  | A-225-  | TANLIFEDCRIP 
+| 1jqi | A | albelig | 18 | 18 | H | 223 | 225 | A-226-  | A-228-  | KEN 
+| 1jqi | A | albelig | 19 | 19 | H | 233 | 269 | A-236-  | A-272-  | GFKIAMQTLDMGRIGIASQALGIAQASLDCAVKYAEN 
+| 1jqi | A | albelig | 20 | 20 | H | 277 | 279 | A-280-  | A-282-  | LTK 
+| 1jqi | A | albelig | 21 | 21 | H | 281 | 309 | A-284-  | A-312-  | QNIQFKLADMALALESARLLTWRAAMLKD 
+| 1jqi | A | albelig | 22 | 22 | H | 315 | 344 | A-318-  | A-347-  | TKESAMAKLAASEAATAISHQAIQILGGMG 
+| 1jqi | A | albelig | 23 | 23 | H | 351 | 362 | A-354-  | A-365-  | AERYYRDARITE 
+| 1jqi | A | albelig | 24 | 24 | H | 368 | 383 | A-371-  | A-386-  | SEIQRLVIAGHLLRSY 
+| 1jqi | A | albelig | 25 | 25 | L | 770 | 770 | A-400-  | A-400-  | J 
+| 1jqi | A | albelig | 26 | 26 | L | 771 | 771 | A-399-  | A-399-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 5 = a = 6
+= 5 = p = 19
+= 5 = a = 21
+= 6 = m = 7
+= 6 = m = 10
+= 6 = a = 19
+= 6 = l = 25
+= 7 = m = 19
+= 8 = m = 9
+= 10 = a = 12
+= 10 = p = 13
+= 10 = l = 25
+= 10 = l = 26
+= 11 = a = 12
+= 11 = a = 13
+= 12 = a = 17
+= 12 = l = 25
+= 12 = l = 26
+= 13 = a = 15
+= 14 = l = 25
+= 15 = m = 18
+= 15 = m = 19
+= 16 = a = 17
+= 17 = m = 18
+= 17 = l = 26
+= 19 = a = 21
+= 19 = p = 22
+= 19 = a = 23
+= 19 = l = 25
+= 21 = a = 22
+= 22 = a = 23
+= 22 = a = 24
+= 22 = l = 25
+= 23 = l = 26
+= 24 = l = 25
+= 24 = l = 26
+= 25 = l = 26
+# Listed 38 contacts. EOF.

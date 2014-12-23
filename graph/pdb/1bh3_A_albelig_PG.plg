@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bh3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTEGRAL MEMBRANE PROTEIN, PORIN, PORE EYELET MUTANT, MEMBRANEPROTEIN
+> pdb_mol_name > PORIN
+> graphtype > albelig
+> resolution > 2.19
+> date > 12-JUN-98
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > E1M, A116K MUTANT OF RH. BLASTICA PORIN
+> format_version > 2
+> pdbid > 1bh3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RHODOBACTER BLASTICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bh3 | A | albelig | 1 | 1 | E | 2 | 15 | A-2-  | A-15-  | ISLNGYGRFGLQYV 
+| 1bh3 | A | albelig | 2 | 2 | E | 25 | 39 | A-25-  | A-39-  | TIISSRLRINIVGTT 
+| 1bh3 | A | albelig | 3 | 3 | E | 46 | 56 | A-46-  | A-56-  | TFGAKLRMQWD 
+| 1bh3 | A | albelig | 4 | 4 | H | 60 | 62 | A-60-  | A-62-  | AFA 
+| 1bh3 | A | albelig | 5 | 5 | E | 70 | 75 | A-70-  | A-75-  | QFWTSY 
+| 1bh3 | A | albelig | 6 | 6 | E | 78 | 83 | A-78-  | A-83-  | VTVSVG 
+| 1bh3 | A | albelig | 7 | 7 | H | 88 | 91 | A-88-  | A-91-  | AFDS 
+| 1bh3 | A | albelig | 8 | 8 | E | 131 | 137 | A-131-  | A-137-  | NGIAVTY 
+| 1bh3 | A | albelig | 9 | 9 | E | 142 | 150 | A-142-  | A-150-  | VNLYLSYVD 
+| 1bh3 | A | albelig | 10 | 10 | H | 157 | 159 | A-157-  | A-159-  | SSL 
+| 1bh3 | A | albelig | 11 | 11 | E | 163 | 171 | A-163-  | A-171-  | EFGIAADWS 
+| 1bh3 | A | albelig | 12 | 12 | E | 175 | 183 | A-175-  | A-183-  | ISLAAAYTT 
+| 1bh3 | A | albelig | 13 | 13 | H | 185 | 187 | A-185-  | A-187-  | AGG 
+| 1bh3 | A | albelig | 14 | 14 | E | 193 | 200 | A-193-  | A-200-  | IAFVGAAY 
+| 1bh3 | A | albelig | 15 | 15 | E | 206 | 214 | A-206-  | A-214-  | GTVGLNWYD 
+| 1bh3 | A | albelig | 16 | 16 | E | 223 | 232 | A-223-  | A-232-  | QVTLYGNYAF 
+| 1bh3 | A | albelig | 17 | 17 | E | 235 | 244 | A-235-  | A-244-  | TTVRAYVSDI 
+| 1bh3 | A | albelig | 18 | 18 | E | 252 | 262 | A-252-  | A-262-  | AYGIGADYQFA 
+| 1bh3 | A | albelig | 19 | 19 | E | 265 | 273 | A-265-  | A-273-  | VKVSGSVQS 
+| 1bh3 | A | albelig | 20 | 20 | E | 279 | 288 | A-279-  | A-288-  | TVADVGVRFD 
+| 1bh3 | A | albelig | 21 | 21 | L | 290 | 290 | A-290-  | A-290-  | J 
+| 1bh3 | A | albelig | 22 | 22 | L | 291 | 291 | A-291-  | A-291-  | J 
+| 1bh3 | A | albelig | 23 | 23 | L | 292 | 292 | A-292-  | A-292-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 20
+= 1 = l = 22
+= 1 = l = 23
+= 2 = a = 3
+= 2 = l = 22
+= 2 = l = 23
+= 3 = a = 5
+= 4 = l = 21
+= 5 = a = 6
+= 6 = a = 8
+= 7 = m = 9
+= 7 = m = 11
+= 8 = a = 9
+= 9 = a = 11
+= 11 = a = 12
+= 12 = a = 14
+= 14 = a = 15
+= 15 = a = 16
+= 16 = a = 17
+= 17 = a = 18
+= 17 = l = 22
+= 18 = a = 19
+= 18 = l = 22
+= 19 = a = 20
+= 19 = l = 22
+= 19 = l = 23
+= 20 = l = 22
+= 20 = l = 23
+# Listed 29 contacts. EOF.

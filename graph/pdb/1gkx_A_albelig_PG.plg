@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gkx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, MITOCHONDRIAL PROTEIN KINASE, POTASSIUM
+> pdb_mol_name > [3-METHYL-2-OXOBUTANOATE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 21-AUG-01
+> header > TRANSFERASE
+> pdb_org_common > RAT
+> title > BRANCHED-CHAIN ALPHA-KETOACID DEHYDROGENASE KINASE (BCK)
+> format_version > 2
+> pdbid > 1gkx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gkx | A | albelig | 1 | 1 | H | 19 | 43 | A-56-  | A-80-  | HLLKSGRYLQQELPVRIAHRIKGFR 
+| 1gkx | A | albelig | 2 | 2 | H | 47 | 50 | A-84-  | A-87-  | FIIG 
+| 1gkx | A | albelig | 3 | 3 | H | 53 | 71 | A-90-  | A-108-  | PTILHVHELYIRAFQKLTD 
+| 1gkx | A | albelig | 4 | 4 | H | 78 | 94 | A-115-  | A-131-  | QADEAQYCQLVRQLLDD 
+| 1gkx | A | albelig | 5 | 5 | H | 98 | 108 | A-135-  | A-145-  | VVTLLAEGLRE 
+| 1gkx | A | albelig | 6 | 6 | H | 117 | 142 | A-154-  | A-179-  | KLVRYFLDKTLTSRLGIRMLATHHLA 
+| 1gkx | A | albelig | 7 | 7 | E | 154 | 158 | A-191-  | A-195-  | ICTRL 
+| 1gkx | A | albelig | 8 | 8 | H | 160 | 179 | A-197-  | A-216-  | PKKIIEKWVDFARRLCEHKY 
+| 1gkx | A | albelig | 9 | 9 | E | 185 | 189 | A-222-  | A-226-  | VRING 
+| 1gkx | A | albelig | 10 | 10 | E | 195 | 197 | A-232-  | A-234-  | FPF 
+| 1gkx | A | albelig | 11 | 11 | H | 199 | 219 | A-236-  | A-256-  | PMPLDYILPELLKNAMRATME 
+| 1gkx | A | albelig | 12 | 12 | E | 231 | 237 | A-268-  | A-274-  | VVITIAN 
+| 1gkx | A | albelig | 13 | 13 | E | 241 | 248 | A-278-  | A-285-  | DLIIRISD 
+| 1gkx | A | albelig | 14 | 14 | H | 255 | 257 | A-292-  | A-294-  | HKD 
+| 1gkx | A | albelig | 15 | 15 | H | 260 | 262 | A-297-  | A-299-  | RVM 
+| 1gkx | A | albelig | 16 | 16 | H | 270 | 280 | A-339-  | A-349-  | GLPTSRAYAEY 
+| 1gkx | A | albelig | 17 | 17 | E | 284 | 290 | A-353-  | A-359-  | SLQLQSL 
+| 1gkx | A | albelig | 18 | 18 | E | 294 | 302 | A-363-  | A-371-  | GTDVYLRLR 
+| 1gkx | A | albelig | 19 | 19 | L | 310 | 310 | A-501-  | A-501-  | J 
+| 1gkx | A | albelig | 20 | 20 | L | 311 | 311 | A-502-  | A-502-  | J 
+| 1gkx | A | albelig | 21 | 21 | L | 312 | 312 | A-503-  | A-503-  | J 
+| 1gkx | A | albelig | 22 | 22 | L | 313 | 313 | A-504-  | A-504-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 4
+= 1 = a = 6
+= 2 = l = 21
+= 3 = a = 4
+= 3 = m = 5
+= 4 = m = 6
+= 4 = l = 22
+= 5 = l = 21
+= 6 = p = 16
+= 6 = l = 22
+= 7 = a = 10
+= 8 = p = 11
+= 8 = l = 19
+= 9 = p = 12
+= 9 = l = 20
+= 11 = m = 13
+= 11 = m = 16
+= 11 = a = 18
+= 11 = l = 19
+= 12 = a = 13
+= 13 = a = 18
+= 15 = m = 16
+= 16 = m = 17
+= 17 = a = 18
+# Listed 25 contacts. EOF.

@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iv5, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA DOMAIN, FIVE HELIX, IMMUNE SYSTEM
+> pdb_mol_name > CD81 ANTIGEN
+> graphtype > albelig
+> resolution > 2.6
+> date > 14-MAR-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > NEW CRYSTAL FORM OF HUMAN CD81 LARGE EXTRACELLULAR LOOP.
+> format_version > 2
+> pdbid > 1iv5
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iv5 | B | albelig | 1 | 1 | H | 95 | 113 | B-216-  | B-234-  | KDQIAKDVKQFYDQALQQA 
+| 1iv5 | B | albelig | 2 | 2 | H | 122 | 132 | B-243-  | B-253-  | AKAVVKTFHET 
+| 1iv5 | B | albelig | 3 | 3 | H | 142 | 150 | B-263-  | B-271-  | TALTTSVLK 
+| 1iv5 | B | albelig | 4 | 4 | H | 169 | 176 | B-290-  | B-297-  | CHQKIDDL 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+# Listed 2 contacts. EOF.

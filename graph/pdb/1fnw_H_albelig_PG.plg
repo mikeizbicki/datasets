@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnw, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EXOTOXIN A, SUPERANTIGEN
+> pdb_mol_name > EXOTOXIN TYPE A PRECURSOR (ALLELE 1)
+> graphtype > albelig
+> resolution > 3.9
+> date > 23-AUG-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF STREPTOCOCCAL PYROGENIC EXOTOXIN A
+> format_version > 2
+> pdbid > 1fnw
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES PHAGE T12
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnw | H | albelig | 1 | 1 | H | 1573 | 1580 | H-2119-  | H-2126-  | QNIYFLYE 
+| 1fnw | H | albelig | 2 | 2 | E | 1584 | 1589 | H-2130-  | H-2135-  | VTHENV 
+| 1fnw | H | albelig | 3 | 3 | E | 1599 | 1602 | H-2145-  | H-2148-  | DLIY 
+| 1fnw | H | albelig | 4 | 4 | E | 1612 | 1615 | H-2158-  | H-2161-  | LKTE 
+| 1fnw | H | albelig | 5 | 5 | H | 1619 | 1625 | H-2165-  | H-2171-  | QEMATLF 
+| 1fnw | H | albelig | 6 | 6 | E | 1630 | 1634 | H-2176-  | H-2180-  | VDIYG 
+| 1fnw | H | albelig | 7 | 7 | E | 1652 | 1654 | H-2198-  | H-2200-  | HIY 
+| 1fnw | H | albelig | 8 | 8 | E | 1657 | 1659 | H-2203-  | H-2205-  | VTN 
+| 1fnw | H | albelig | 9 | 9 | E | 1671 | 1677 | H-2217-  | H-2223-  | IVVKVSI 
+| 1fnw | H | albelig | 10 | 10 | E | 1680 | 1687 | H-2226-  | H-2233-  | IQSLSFDI 
+| 1fnw | H | albelig | 11 | 11 | E | 1693 | 1695 | H-2239-  | H-2241-  | MVT 
+| 1fnw | H | albelig | 12 | 12 | H | 1696 | 1709 | H-2242-  | H-2255-  | AQELDYKVRKYTID 
+| 1fnw | H | albelig | 13 | 13 | E | 1725 | 1729 | H-2271-  | H-2275-  | YIKFI 
+| 1fnw | H | albelig | 14 | 14 | E | 1736 | 1739 | H-2282-  | H-2285-  | FWFD 
+| 1fnw | H | albelig | 15 | 15 | H | 1748 | 1755 | H-2294-  | H-2301-  | QSKYLMIY 
+| 1fnw | H | albelig | 16 | 16 | E | 1760 | 1762 | H-2306-  | H-2308-  | TLD 
+| 1fnw | H | albelig | 17 | 17 | E | 1767 | 1772 | H-2313-  | H-2318-  | QIEVYL 
+| 1fnw | H | albelig | 18 | 18 | L | 1804 | 1804 | H-2322-  | H-2322-  | J 
+| 1fnw | H | albelig | 19 | 19 | L | 1805 | 1805 | H-2323-  | H-2323-  | J 
+| 1fnw | H | albelig | 20 | 20 | L | 1807 | 1807 | H-2325-  | H-2325-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 12
+= 1 = m = 15
+= 2 = a = 6
+= 3 = a = 4
+= 4 = p = 7
+= 6 = p = 8
+= 7 = m = 15
+= 9 = a = 10
+= 9 = p = 17
+= 11 = m = 12
+= 11 = a = 16
+= 13 = a = 14
+= 13 = a = 17
+= 18 = l = 19
+= 18 = l = 20
+= 19 = l = 20
+# Listed 16 contacts. EOF.

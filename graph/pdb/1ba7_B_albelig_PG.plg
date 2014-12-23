@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ba7, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE INHIBITOR, TRYPSIN INHIBITOR (KUNITZ)
+> pdb_mol_name > TRYPSIN INHIBITOR (KUNITZ)
+> graphtype > albelig
+> resolution > 2.5
+> date > 22-APR-98
+> header > SERINE PROTEASE INHIBITOR
+> pdb_org_common > SOYBEAN
+> title > SOYBEAN TRYPSIN INHIBITOR
+> format_version > 2
+> pdbid > 1ba7
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GLYCINE MAX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ba7 | B | albelig | 1 | 1 | E | 184 | 189 | B-16-  | B-21-  | TYYILS 
+| 1ba7 | B | albelig | 2 | 2 | E | 197 | 200 | B-29-  | B-32-  | IRAA 
+| 1ba7 | B | albelig | 3 | 3 | E | 210 | 213 | B-42-  | B-45-  | TVVQ 
+| 1ba7 | B | albelig | 4 | 4 | E | 224 | 227 | B-56-  | B-59-  | TIIS 
+| 1ba7 | B | albelig | 5 | 5 | E | 242 | 245 | B-74-  | B-77-  | SLKF 
+| 1ba7 | B | albelig | 6 | 6 | H | 252 | 254 | B-84-  | B-86-  | MLC 
+| 1ba7 | B | albelig | 7 | 7 | E | 262 | 264 | B-94-  | B-96-  | SVV 
+| 1ba7 | B | albelig | 8 | 8 | E | 272 | 274 | B-104-  | B-106-  | AVK 
+| 1ba7 | B | albelig | 9 | 9 | E | 284 | 290 | B-116-  | B-122-  | GWFRLER 
+| 1ba7 | B | albelig | 10 | 10 | E | 297 | 303 | B-131-  | B-137-  | YKLVFDP 
+| 1ba7 | B | albelig | 11 | 11 | E | 309 | 315 | B-146-  | B-152-  | GDIGISI 
+| 1ba7 | B | albelig | 12 | 12 | E | 322 | 327 | B-159-  | B-164-  | RRLVVS 
+| 1ba7 | B | albelig | 13 | 13 | E | 333 | 338 | B-170-  | B-175-  | VVQFQK 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 13
+= 2 = a = 3
+= 3 = a = 8
+= 3 = a = 12
+= 4 = a = 5
+= 7 = a = 8
+= 8 = a = 12
+= 9 = a = 10
+= 10 = a = 11
+= 10 = a = 13
+= 11 = a = 12
+# Listed 12 contacts. EOF.

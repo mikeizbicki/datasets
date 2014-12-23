@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ied, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COAT PROTEIN, HYDROLASE, SERINE PROTEASE, CATALYTIC TRIAD, VIRALPROTEASE
+> pdb_mol_name > CAPSID PROTEIN P40: ASSEMBLIN PROTEASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 09-APR-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE CATALYTIC SITE MUTANT (H157E) OF THE HUMANCYTOMEGALOVIRUS PROTEASE
+> format_version > 2
+> pdbid > 1ied
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN HERPESVIRUS 5
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ied | A | albelig | 1 | 1 | E | 6 | 14 | A-14-  | A-22-  | VYVGGFLAR 
+| 1ied | A | albelig | 2 | 2 | H | 28 | 34 | A-36-  | A-42-  | RDVVEHW 
+| 1ied | A | albelig | 3 | 3 | E | 42 | 45 | A-58-  | A-61-  | PLNI 
+| 1ied | A | albelig | 4 | 4 | E | 48 | 62 | A-64-  | A-78-  | DDTAVVGHVAAMQSV 
+| 1ied | A | albelig | 5 | 5 | E | 65 | 72 | A-81-  | A-88-  | GLFCLGCV 
+| 1ied | A | albelig | 6 | 6 | H | 75 | 85 | A-91-  | A-101-  | PRFLEIVRRAS 
+| 1ied | A | albelig | 7 | 7 | H | 89 | 92 | A-105-  | A-108-  | ELVS 
+| 1ied | A | albelig | 8 | 8 | H | 103 | 111 | A-119-  | A-127-  | KVVEFLSGS 
+| 1ied | A | albelig | 9 | 9 | E | 114 | 117 | A-130-  | A-133-  | GLSL 
+| 1ied | A | albelig | 10 | 10 | E | 128 | 131 | A-158-  | A-161-  | VALC 
+| 1ied | A | albelig | 11 | 11 | E | 142 | 144 | A-172-  | A-174-  | VYG 
+| 1ied | A | albelig | 12 | 12 | H | 147 | 151 | A-177-  | A-181-  | PEWVT 
+| 1ied | A | albelig | 13 | 13 | H | 159 | 169 | A-189-  | A-199-  | AADRDGLRAQW 
+| 1ied | A | albelig | 14 | 14 | H | 179 | 190 | A-218-  | A-229-  | SYGLLGNSVDAL 
+| 1ied | A | albelig | 15 | 15 | H | 195 | 205 | A-234-  | A-244-  | RLPKLRYDKQL 
+| 1ied | A | albelig | 16 | 16 | H | 210 | 212 | A-249-  | A-251-  | ERE 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 11
+= 3 = a = 4
+= 3 = p = 10
+= 4 = a = 5
+= 4 = a = 13
+= 8 = m = 11
+= 9 = a = 10
+= 12 = m = 13
+# Listed 9 contacts. EOF.

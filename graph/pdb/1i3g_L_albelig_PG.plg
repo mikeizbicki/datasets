@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i3g, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY FV FRAGMENT, ANTIBIOTIC
+> pdb_mol_name > ANTIBODY FV FRAGMENT
+> graphtype > albelig
+> resolution > 2.44
+> date > 15-FEB-01
+> header > ANTIBIOTIC
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF AN AMPICILLIN SINGLE CHAIN FV, FORM 1,FREE
+> format_version > 2
+> pdbid > 1i3g
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i3g | L | albelig | 1 | 1 | E | 4 | 6 | L-4-  | L-6-  | LTQ 
+| 1i3g | L | albelig | 2 | 2 | E | 10 | 12 | L-10-  | L-12-  | FMS 
+| 1i3g | L | albelig | 3 | 3 | E | 19 | 25 | L-19-  | L-25-  | VSITAKA 
+| 1i3g | L | albelig | 4 | 4 | E | 33 | 38 | L-41-  | L-46-  | VAWYQQ 
+| 1i3g | L | albelig | 5 | 5 | E | 45 | 49 | L-53-  | L-57-  | KLLIY 
+| 1i3g | L | albelig | 6 | 6 | E | 62 | 67 | L-78-  | L-83-  | FTGSGS 
+| 1i3g | L | albelig | 7 | 7 | E | 70 | 75 | L-88-  | L-93-  | DFTLTI 
+| 1i3g | L | albelig | 8 | 8 | H | 80 | 82 | L-98-  | L-100-  | SED 
+| 1i3g | L | albelig | 9 | 9 | E | 85 | 90 | L-103-  | L-108-  | DYFAQQ 
+| 1i3g | L | albelig | 10 | 10 | E | 102 | 105 | L-143-  | L-146-  | TKLE 
+| 1i3g | L | albelig | 11 | 11 | L | 219 | 219 | L-500-  | L-500-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = a = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = a = 9
+= 4 = l = 11
+= 6 = a = 7
+= 9 = p = 10
+= 9 = l = 11
+# Listed 11 contacts. EOF.

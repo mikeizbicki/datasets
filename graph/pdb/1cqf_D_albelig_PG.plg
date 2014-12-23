@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cqf, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIAL TOXIN, SUGAR RECEPTOR BINDING DOMAIN, PROTEIN-CARBOHYDRATE RECOGNITION, OB-FOLD
+> pdb_mol_name > SHIGA TOXIN B-CHAIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 06-AUG-99
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > THE COMPLEX OF THE MUTATED SHIGA TOXIN B SUBUNIT AND GB3TRISACCHARIDE
+> format_version > 2
+> pdbid > 1cqf
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cqf | D | albelig | 1 | 1 | E | 213 | 224 | D-403-  | D-414-  | DDVTGKVEYTKY 
+| 1cqf | D | albelig | 2 | 2 | E | 230 | 234 | D-420-  | D-424-  | FTVKV 
+| 1cqf | D | albelig | 3 | 3 | E | 237 | 241 | D-427-  | D-431-  | KELFT 
+| 1cqf | D | albelig | 4 | 4 | H | 245 | 256 | D-435-  | D-446-  | NLQSLLLSAQIT 
+| 1cqf | D | albelig | 5 | 5 | E | 259 | 263 | D-449-  | D-453-  | TVTIK 
+| 1cqf | D | albelig | 6 | 6 | E | 275 | 278 | D-465-  | D-468-  | EVIF 
+| 1cqf | D | albelig | 7 | 7 | L | 362 | 362 | D-480-  | D-480-  | J 
+| 1cqf | D | albelig | 8 | 8 | L | 363 | 363 | D-481-  | D-481-  | J 
+| 1cqf | D | albelig | 9 | 9 | L | 364 | 364 | D-482-  | D-482-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = a = 5
+= 2 = a = 3
+= 4 = l = 7
+= 4 = l = 8
+= 5 = a = 6
+= 7 = l = 8
+= 7 = l = 9
+= 8 = l = 9
+# Listed 10 contacts. EOF.

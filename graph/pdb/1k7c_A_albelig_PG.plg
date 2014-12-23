@@ -1,0 +1,78 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k7c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > N-LINKED GLYCOSYLATION, SGNH-HYDROLASE, HYDROLASE
+> pdb_mol_name > RHAMNOGALACTURONAN ACETYLESTERASE
+> graphtype > albelig
+> resolution > 1.12
+> date > 19-OCT-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > RHAMNOGALACTURONAN ACETYLESTERASE WITH SEVEN N-LINKED CARBOHYDRATERESIDUES DISTRIBUTED AT TWO N-GLYCOSYLATION SITES REFINED AT 1.12 ARESOLUTION
+> format_version > 2
+> pdbid > 1k7c
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ASPERGILLUS ACULEATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k7c | A | albelig | 1 | 1 | E | 2 | 6 | A-2-  | A-6-  | TVYLA 
+| 1k7c | A | albelig | 2 | 2 | H | 23 | 26 | A-23-  | A-26-  | WGEY 
+| 1k7c | A | albelig | 3 | 3 | H | 28 | 30 | A-28-  | A-30-  | ASY 
+| 1k7c | A | albelig | 4 | 4 | E | 34 | 37 | A-34-  | A-37-  | TVVN 
+| 1k7c | A | albelig | 5 | 5 | H | 45 | 50 | A-45-  | A-50-  | ARSYTR 
+| 1k7c | A | albelig | 6 | 6 | H | 53 | 60 | A-53-  | A-60-  | RFENIADV 
+| 1k7c | A | albelig | 7 | 7 | E | 66 | 69 | A-66-  | A-69-  | YVIV 
+| 1k7c | A | albelig | 8 | 8 | H | 79 | 81 | A-79-  | A-81-  | LST 
+| 1k7c | A | albelig | 9 | 9 | E | 95 | 100 | A-95-  | A-100-  | VAYSVY 
+| 1k7c | A | albelig | 10 | 10 | E | 103 | 108 | A-103-  | A-108-  | VNETIL 
+| 1k7c | A | albelig | 11 | 11 | H | 110 | 123 | A-110-  | A-123-  | FPAYLENAAKLFTA 
+| 1k7c | A | albelig | 12 | 12 | E | 127 | 131 | A-127-  | A-131-  | KVILS 
+| 1k7c | A | albelig | 13 | 13 | H | 150 | 162 | A-150-  | A-162-  | RFVEYAELAAEVA 
+| 1k7c | A | albelig | 14 | 14 | E | 165 | 167 | A-165-  | A-167-  | EYV 
+| 1k7c | A | albelig | 15 | 15 | H | 169 | 180 | A-169-  | A-180-  | HWSYVDSIYETL 
+| 1k7c | A | albelig | 16 | 16 | H | 182 | 187 | A-182-  | A-187-  | NATVNS 
+| 1k7c | A | albelig | 17 | 17 | H | 198 | 215 | A-198-  | A-215-  | PAGAEVVAEAFLKAVVNT 
+| 1k7c | A | albelig | 18 | 18 | H | 218 | 222 | A-218-  | A-222-  | SLKSV 
+| 1k7c | A | albelig | 19 | 19 | L | 234 | 234 | A-234-  | A-234-  | J 
+| 1k7c | A | albelig | 20 | 20 | L | 235 | 235 | A-235-  | A-235-  | J 
+| 1k7c | A | albelig | 21 | 21 | L | 236 | 236 | A-236-  | A-236-  | J 
+| 1k7c | A | albelig | 22 | 22 | L | 237 | 237 | A-237-  | A-237-  | J 
+| 1k7c | A | albelig | 23 | 23 | L | 238 | 238 | A-238-  | A-238-  | J 
+| 1k7c | A | albelig | 24 | 24 | L | 239 | 239 | A-239-  | A-239-  | J 
+| 1k7c | A | albelig | 25 | 25 | L | 240 | 240 | A-302-  | A-302-  | J 
+| 1k7c | A | albelig | 26 | 26 | L | 241 | 241 | A-303-  | A-303-  | J 
+| 1k7c | A | albelig | 27 | 27 | L | 242 | 242 | A-304-  | A-304-  | J 
+| 1k7c | A | albelig | 28 | 28 | L | 243 | 243 | A-305-  | A-305-  | J 
+| 1k7c | A | albelig | 29 | 29 | L | 244 | 244 | A-306-  | A-306-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 2 = m = 17
+= 5 = m = 6
+= 5 = m = 11
+= 6 = m = 11
+= 7 = p = 12
+= 9 = a = 10
+= 9 = l = 25
+= 10 = l = 25
+= 11 = p = 13
+= 12 = p = 14
+= 13 = m = 14
+= 13 = l = 27
+= 13 = l = 28
+= 15 = m = 17
+= 16 = l = 19
+= 19 = l = 20
+= 19 = l = 24
+= 20 = l = 21
+= 20 = l = 22
+= 20 = l = 24
+= 21 = l = 22
+= 21 = l = 24
+= 22 = l = 23
+= 22 = l = 24
+= 27 = l = 28
+= 28 = l = 29
+# Listed 28 contacts. EOF.

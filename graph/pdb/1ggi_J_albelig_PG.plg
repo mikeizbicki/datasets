@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ggi, chain J.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG2A 50.1 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.8
+> date > 02-APR-93
+> header > IMMUNOGLOBULIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN HIV-1 NEUTRALIZING ANTIBODY 50.1 INCOMPLEX WITH ITS V3 LOOP PEPTIDE ANTIGEN
+> format_version > 2
+> pdbid > 1ggi
+> experiment > X-RAY DIFFRACTION
+> chainid > J
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ggi | J | albelig | 1 | 1 | E | 661 | 665 | J-3-  | J-7-  | QLKES 
+| 1ggi | J | albelig | 2 | 2 | E | 676 | 683 | J-18-  | J-25-  | LSLTGSFS 
+| 1ggi | J | albelig | 3 | 3 | E | 693 | 700 | J-35-  | J-40-  | GVSWIRQP 
+| 1ggi | J | albelig | 4 | 4 | E | 706 | 712 | J-46-  | J-52-  | EWLAHIF 
+| 1ggi | J | albelig | 5 | 5 | E | 717 | 719 | J-57-  | J-59-  | KRY 
+| 1ggi | J | albelig | 6 | 6 | H | 724 | 726 | J-64-  | J-66-  | KSR 
+| 1ggi | J | albelig | 7 | 7 | E | 727 | 732 | J-67-  | J-72-  | LKISKD 
+| 1ggi | J | albelig | 8 | 8 | E | 737 | 742 | J-77-  | J-82-  | QVFLKI 
+| 1ggi | J | albelig | 9 | 9 | H | 747 | 749 | J-84-  | J-86-  | TAD 
+| 1ggi | J | albelig | 10 | 10 | E | 751 | 757 | J-88-  | J-94-  | ATYYGVQ 
+| 1ggi | J | albelig | 11 | 11 | E | 767 | 771 | J-107-  | J-111-  | TSVTV 
+| 1ggi | J | albelig | 12 | 12 | E | 780 | 784 | J-120-  | J-124-  | SVYPL 
+| 1ggi | J | albelig | 13 | 13 | E | 795 | 805 | J-137-  | J-147-  | SVTLGHLVKGY 
+| 1ggi | J | albelig | 14 | 14 | E | 811 | 814 | J-153-  | J-157-  | TLTW 
+| 1ggi | J | albelig | 15 | 15 | H | 815 | 817 | J-162-  | J-164-  | NSG 
+| 1ggi | J | albelig | 16 | 16 | E | 823 | 831 | J-171-  | J-179-  | VHTFPAVLQ 
+| 1ggi | J | albelig | 17 | 17 | E | 834 | 844 | J-184-  | J-194-  | LYTLSSSVTVT 
+| 1ggi | J | albelig | 18 | 18 | E | 853 | 859 | J-205-  | J-212-  | ITHNVAH 
+| 1ggi | J | albelig | 19 | 19 | H | 860 | 862 | J-213-  | J-215-  | PAS 
+| 1ggi | J | albelig | 20 | 20 | E | 864 | 870 | J-217-  | J-223-  | TKVDKKI 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 2 = a = 8
+= 3 = a = 4
+= 3 = a = 10
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 6 = m = 7
+= 6 = m = 8
+= 7 = a = 8
+= 10 = a = 11
+= 12 = a = 13
+= 12 = p = 20
+= 13 = a = 17
+= 14 = m = 15
+= 14 = a = 18
+= 15 = m = 18
+= 16 = a = 17
+= 18 = m = 19
+= 18 = a = 20
+# Listed 22 contacts. EOF.

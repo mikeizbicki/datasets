@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kk5, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC RESISTANCE, ACYLTRANSFERASE
+> pdb_mol_name > STREPTOGRAMIN A ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.7
+> date > 06-DEC-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF VAT(D) (FORM II)
+> format_version > 2
+> pdbid > 1kk5
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ENTEROCOCCUS FAECIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kk5 | C | albelig | 1 | 1 | E | 431 | 433 | C-17-  | C-19-  | VQF 
+| 1kk5 | C | albelig | 2 | 2 | H | 434 | 438 | C-20-  | C-24-  | IKPIL 
+| 1kk5 | C | albelig | 3 | 3 | E | 451 | 453 | C-37-  | C-39-  | YYD 
+| 1kk5 | C | albelig | 4 | 4 | H | 460 | 463 | C-46-  | C-49-  | FDKQ 
+| 1kk5 | C | albelig | 5 | 5 | H | 469 | 471 | C-55-  | C-57-  | PIL 
+| 1kk5 | C | albelig | 6 | 6 | E | 475 | 477 | C-61-  | C-63-  | LKI 
+| 1kk5 | C | albelig | 7 | 7 | E | 488 | 490 | C-74-  | C-76-  | TII 
+| 1kk5 | C | albelig | 8 | 8 | H | 492 | 494 | C-78-  | C-80-  | NGA 
+| 1kk5 | C | albelig | 9 | 9 | H | 505 | 508 | C-91-  | C-94-  | FNLF 
+| 1kk5 | C | albelig | 10 | 10 | H | 512 | 515 | C-98-  | C-101-  | WEKH 
+| 1kk5 | C | albelig | 11 | 11 | H | 519 | 521 | C-105-  | C-107-  | LDQ 
+| 1kk5 | C | albelig | 12 | 12 | E | 528 | 530 | C-114-  | C-116-  | TII 
+| 1kk5 | C | albelig | 13 | 13 | E | 568 | 572 | C-154-  | C-158-  | MLAGG 
+| 1kk5 | C | albelig | 14 | 14 | E | 575 | 580 | C-161-  | C-166-  | ANEIKQ 
+| 1kk5 | C | albelig | 15 | 15 | H | 584 | 593 | C-170-  | C-179-  | QDTINQLLDI 
+| 1kk5 | C | albelig | 16 | 16 | H | 595 | 597 | C-181-  | C-183-  | WWN 
+| 1kk5 | C | albelig | 17 | 17 | H | 600 | 610 | C-186-  | C-196-  | IDIINENIDKI 
+| 1kk5 | C | albelig | 18 | 18 | H | 615 | 618 | C-201-  | C-204-  | IIRE 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 3
+= 4 = m = 7
+= 6 = p = 12
+= 13 = a = 14
+# Listed 5 contacts. EOF.

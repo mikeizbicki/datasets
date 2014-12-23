@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fc4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 2-AMINO-3-KETOBUTYRATE COA LIGASE, PYRIDOXAL PHOSPHATE, COENZYME A,TRANSFERASE, STRUCTURAL GENOMICS, MONTREAL-KINGSTON BACTERIALSTRUCTURAL GENOMICS INITIATIVE, BSGI
+> pdb_mol_name > 2-AMINO-3-KETOBUTYRATE CONENZYME A LIGASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 17-JUL-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > 2-AMINO-3-KETOBUTYRATE COA LIGASE
+> format_version > 2
+> pdbid > 1fc4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fc4 | A | albelig | 1 | 1 | H | 3 | 21 | A-0-  | A-18-  | HXRGEFYQQLTNDLETARA 
+| 1fc4 | A | albelig | 2 | 2 | E | 38 | 40 | A-35-  | A-37-  | DIT 
+| 1fc4 | A | albelig | 3 | 3 | E | 46 | 49 | A-43-  | A-46-  | HVIN 
+| 1fc4 | A | albelig | 4 | 4 | H | 62 | 75 | A-59-  | A-72-  | PDLIAAAKAGXDSH 
+| 1fc4 | A | albelig | 5 | 5 | H | 83 | 86 | A-80-  | A-83-  | RFIC 
+| 1fc4 | A | albelig | 6 | 6 | H | 90 | 103 | A-87-  | A-100-  | DSHKELEQKLAAFL 
+| 1fc4 | A | albelig | 7 | 7 | E | 107 | 111 | A-104-  | A-108-  | DAILY 
+| 1fc4 | A | albelig | 8 | 8 | H | 114 | 119 | A-111-  | A-116-  | CFDANG 
+| 1fc4 | A | albelig | 9 | 9 | H | 122 | 125 | A-119-  | A-122-  | FETL 
+| 1fc4 | A | albelig | 10 | 10 | E | 131 | 135 | A-128-  | A-132-  | AIISD 
+| 1fc4 | A | albelig | 11 | 11 | H | 140 | 147 | A-137-  | A-144-  | ASIIDGVR 
+| 1fc4 | A | albelig | 12 | 12 | E | 152 | 156 | A-149-  | A-153-  | KRYRY 
+| 1fc4 | A | albelig | 13 | 13 | H | 161 | 173 | A-158-  | A-170-  | XQELEARLKEARE 
+| 1fc4 | A | albelig | 14 | 14 | E | 179 | 184 | A-176-  | A-181-  | VLIATD 
+| 1fc4 | A | albelig | 15 | 15 | H | 196 | 205 | A-193-  | A-202-  | LKGVCDLADK 
+| 1fc4 | A | albelig | 16 | 16 | E | 208 | 213 | A-205-  | A-210-  | ALVXVD 
+| 1fc4 | A | albelig | 17 | 17 | H | 228 | 231 | A-225-  | A-228-  | SHEY 
+| 1fc4 | A | albelig | 18 | 18 | E | 240 | 244 | A-237-  | A-241-  | IITGT 
+| 1fc4 | A | albelig | 19 | 19 | E | 255 | 259 | A-252-  | A-256-  | GYTAA 
+| 1fc4 | A | albelig | 20 | 20 | H | 261 | 270 | A-258-  | A-267-  | KEVVEWLRQR 
+| 1fc4 | A | albelig | 21 | 21 | H | 272 | 276 | A-269-  | A-273-  | RPYLF 
+| 1fc4 | A | albelig | 22 | 22 | H | 282 | 296 | A-279-  | A-293-  | PAIVAASIKVLEXVE 
+| 1fc4 | A | albelig | 23 | 23 | H | 299 | 318 | A-296-  | A-315-  | SELRDRLWANARQFREQXSA 
+| 1fc4 | A | albelig | 24 | 24 | E | 330 | 336 | A-327-  | A-333-  | IIPVXLG 
+| 1fc4 | A | albelig | 25 | 25 | H | 338 | 350 | A-335-  | A-347-  | AVVAQKFARELQK 
+| 1fc4 | A | albelig | 26 | 26 | E | 368 | 373 | A-365-  | A-370-  | ARIRTQ 
+| 1fc4 | A | albelig | 27 | 27 | H | 380 | 396 | A-377-  | A-393-  | PEQITRAVEAFTRIGKQ 
+| 1fc4 | A | albelig | 28 | 28 | L | 828 | 828 | A-1200-  | A-1200-  | J 
+| 1fc4 | A | albelig | 29 | 29 | L | 829 | 829 | A-1201-  | A-1201-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 4 = a = 22
+= 6 = m = 7
+= 6 = p = 22
+= 7 = a = 19
+= 7 = m = 20
+= 8 = m = 18
+= 8 = m = 19
+= 8 = l = 29
+= 10 = p = 12
+= 10 = p = 14
+= 11 = l = 29
+= 12 = m = 13
+= 13 = m = 15
+= 14 = p = 16
+= 14 = l = 29
+= 16 = p = 18
+= 16 = l = 29
+= 18 = a = 19
+= 18 = l = 29
+= 19 = m = 20
+= 23 = m = 24
+= 23 = p = 27
+= 24 = a = 26
+= 25 = m = 27
+= 26 = l = 28
+= 28 = l = 29
+# Listed 27 contacts. EOF.

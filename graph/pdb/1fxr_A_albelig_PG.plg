@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fxr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT
+> pdb_mol_name > FERREDOXIN I
+> graphtype > albelig
+> resolution > 2.3
+> date > 14-NOV-94
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE FERREDOXIN I FROM DESULFOVIBRIOAFRICANUS AT 2.3 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1fxr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DESULFOVIBRIO AFRICANUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fxr | A | albelig | 1 | 1 | E | 3 | 6 | A-3-  | A-6-  | KFYV 
+| 1fxr | A | albelig | 2 | 2 | H | 16 | 20 | A-16-  | A-20-  | SCVEI 
+| 1fxr | A | albelig | 3 | 3 | E | 25 | 28 | A-25-  | A-28-  | FAMD 
+| 1fxr | A | albelig | 4 | 4 | E | 33 | 36 | A-33-  | A-36-  | KAYV 
+| 1fxr | A | albelig | 5 | 5 | H | 44 | 53 | A-44-  | A-53-  | QEEVEEAMDT 
+| 1fxr | A | albelig | 6 | 6 | E | 59 | 62 | A-59-  | A-62-  | IHWE 
+| 1fxr | A | albelig | 7 | 7 | L | 130 | 130 | A-65-  | A-65-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = l = 7
+= 2 = l = 7
+= 3 = a = 4
+= 3 = l = 7
+= 4 = l = 7
+= 5 = m = 6
+= 5 = l = 7
+= 6 = l = 7
+# Listed 9 contacts. EOF.

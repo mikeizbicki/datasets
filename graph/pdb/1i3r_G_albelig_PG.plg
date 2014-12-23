@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i3r, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC CLASSII, IMMUNE SYSTEM
+> pdb_mol_name > H-2 CLASS II HISTOCOMPATIBILITY ANTIGEN, E-K ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 15-FEB-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF A MUTANT IEK CLASS II MHC MOLECULE
+> format_version > 2
+> pdbid > 1i3r
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i3r | G | albelig | 1 | 1 | E | 1205 | 1215 | G-5-  | G-15-  | HTIIQAQFYLL 
+| 1i3r | G | albelig | 2 | 2 | E | 1219 | 1226 | G-19-  | G-26-  | RGEFMFDF 
+| 1i3r | G | albelig | 3 | 3 | E | 1229 | 1235 | G-29-  | G-35-  | DEIFHVD 
+| 1i3r | G | albelig | 4 | 4 | E | 1241 | 1243 | G-41-  | G-43-  | TIW 
+| 1i3r | G | albelig | 5 | 5 | H | 1246 | 1250 | G-46-  | G-50-  | EEFAK 
+| 1i3r | G | albelig | 6 | 6 | H | 1256 | 1276 | G-56-  | G-76-  | AQGALANIAVNKANLDVMKER 
+| 1i3r | G | albelig | 7 | 7 | E | 1288 | 1293 | G-88-  | G-93-  | EVTVLS 
+| 1i3r | G | albelig | 8 | 8 | E | 1303 | 1312 | G-103-  | G-112-  | NILIJFIDKF 
+| 1i3r | G | albelig | 9 | 9 | E | 1318 | 1323 | G-118-  | G-123-  | NVTWLR 
+| 1i3r | G | albelig | 10 | 10 | E | 1326 | 1328 | G-126-  | G-128-  | RPV 
+| 1i3r | G | albelig | 11 | 11 | E | 1332 | 1334 | G-132-  | G-134-  | VSE 
+| 1i3r | G | albelig | 12 | 12 | E | 1345 | 1353 | G-145-  | G-153-  | FRKFHYLTF 
+| 1i3r | G | albelig | 13 | 13 | E | 1361 | 1366 | G-161-  | G-166-  | YDJEVD 
+| 1i3r | G | albelig | 14 | 14 | E | 1374 | 1378 | G-174-  | G-178-  | LRKHW 
+| 1i3r | G | albelig | 15 | 15 | L | 1612 | 1612 | G-313-  | G-313-  | J 
+| 1i3r | G | albelig | 16 | 16 | L | 1613 | 1613 | G-314-  | G-314-  | J 
+| 1i3r | G | albelig | 17 | 17 | L | 1614 | 1614 | G-315-  | G-315-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = a = 3
+= 3 = a = 4
+= 7 = a = 8
+= 7 = p = 14
+= 8 = a = 9
+= 8 = a = 12
+= 8 = p = 13
+= 9 = a = 10
+= 9 = p = 12
+= 9 = a = 13
+= 9 = l = 16
+= 11 = a = 12
+= 13 = a = 14
+= 13 = l = 16
+= 16 = l = 17
+# Listed 17 contacts. EOF.

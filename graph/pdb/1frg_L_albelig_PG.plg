@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1frg, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN/VIRUS HEMAGGLUTININ, VIRAL PROTEIN-IMMUNE SYSTEMCOMPLEX
+> pdb_mol_name > IGG2A 26/9 FAB (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 2.8
+> date > 17-JAN-94
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE, SEQUENCE, AND EPITOPE MAPPING OF A PEPTIDE COMPLEXOF AN ANTI-INFLUENZA HA PEPTIDE ANTIBODY FAB 26(SLASH)9: FINE-TUNINGANTIBODY SPECIFICITY
+> format_version > 2
+> pdbid > 1frg
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1frg | L | albelig | 1 | 1 | E | 4 | 7 | L-4-  | L-7-  | MTQS 
+| 1frg | L | albelig | 2 | 2 | E | 10 | 13 | L-10-  | L-13-  | SLTV 
+| 1frg | L | albelig | 3 | 3 | E | 19 | 25 | L-19-  | L-25-  | VTMSAKS 
+| 1frg | L | albelig | 4 | 4 | E | 39 | 44 | L-39-  | L-44-  | LTWYHQ 
+| 1frg | L | albelig | 5 | 5 | E | 50 | 55 | L-50-  | L-55-  | PKLLIY 
+| 1frg | L | albelig | 6 | 6 | E | 68 | 73 | L-68-  | L-73-  | FSGSGS 
+| 1frg | L | albelig | 7 | 7 | E | 76 | 81 | L-76-  | L-81-  | DFTLTI 
+| 1frg | L | albelig | 8 | 8 | H | 86 | 88 | L-86-  | L-88-  | AED 
+| 1frg | L | albelig | 9 | 9 | E | 91 | 96 | L-91-  | L-96-  | IYYAQN 
+| 1frg | L | albelig | 10 | 10 | E | 108 | 112 | L-108-  | L-112-  | TKLEL 
+| 1frg | L | albelig | 11 | 11 | E | 120 | 124 | L-120-  | L-124-  | TVSIF 
+| 1frg | L | albelig | 12 | 12 | H | 128 | 132 | L-128-  | L-132-  | SEQLT 
+| 1frg | L | albelig | 13 | 13 | E | 135 | 145 | L-135-  | L-145-  | GASVVNFLNNF 
+| 1frg | L | albelig | 14 | 14 | E | 150 | 156 | L-150-  | L-156-  | INVKWKI 
+| 1frg | L | albelig | 15 | 15 | E | 159 | 161 | L-159-  | L-161-  | SER 
+| 1frg | L | albelig | 16 | 16 | E | 165 | 169 | L-165-  | L-169-  | VLNSW 
+| 1frg | L | albelig | 17 | 17 | E | 179 | 188 | L-179-  | L-188-  | YSMSSTLTLT 
+| 1frg | L | albelig | 18 | 18 | H | 189 | 192 | L-189-  | L-192-  | KDEY 
+| 1frg | L | albelig | 19 | 19 | E | 198 | 204 | L-198-  | L-204-  | YTNEATH 
+| 1frg | L | albelig | 20 | 20 | E | 211 | 215 | L-211-  | L-215-  | IVKSF 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = a = 9
+= 6 = a = 7
+= 9 = p = 10
+= 11 = a = 13
+= 11 = p = 20
+= 12 = m = 13
+= 13 = a = 14
+= 13 = a = 17
+= 13 = m = 18
+= 13 = p = 19
+= 14 = a = 15
+= 14 = a = 19
+= 16 = a = 17
+= 17 = m = 18
+= 19 = a = 20
+# Listed 21 contacts. EOF.

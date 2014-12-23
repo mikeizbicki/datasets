@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i21, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA, DOMAIN SWAPPING, GNAT, TRANSFERASE
+> pdb_mol_name > GLUCOSAMINE-PHOSPHATE N-ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 05-FEB-01
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF YEAST GNA1
+> format_version > 2
+> pdbid > 1i21
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i21 | N | albelig | 1 | 1 | E | 476 | 480 | N-7-  | N-11-  | FYIRR 
+| 1i21 | N | albelig | 2 | 2 | H | 483 | 493 | N-14-  | N-24-  | EGDLEQVTETL 
+| 1i21 | N | albelig | 3 | 3 | H | 501 | 511 | N-35-  | N-45-  | PESFCKLIKYW 
+| 1i21 | N | albelig | 4 | 4 | E | 528 | 533 | N-64-  | N-69-  | PXVIVD 
+| 1i21 | N | albelig | 5 | 5 | E | 538 | 549 | N-74-  | N-85-  | TVAATGNIIIER 
+| 1i21 | N | albelig | 6 | 6 | H | 552 | 555 | N-88-  | N-91-  | IHEL 
+| 1i21 | N | albelig | 7 | 7 | E | 557 | 566 | N-93-  | N-102-  | LCGHIEDIAV 
+| 1i21 | N | albelig | 8 | 8 | H | 568 | 570 | N-104-  | N-106-  | SKY 
+| 1i21 | N | albelig | 9 | 9 | H | 575 | 590 | N-111-  | N-126-  | LGKLLIDQLVTIGFDY 
+| 1i21 | N | albelig | 10 | 10 | E | 594 | 599 | N-130-  | N-135-  | KIILDC 
+| 1i21 | N | albelig | 11 | 11 | H | 601 | 609 | N-137-  | N-145-  | EKNVKFYEK 
+| 1i21 | N | albelig | 12 | 12 | E | 613 | 622 | N-149-  | N-158-  | SNAGVEXQIR 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = m = 3
+= 2 = m = 5
+= 4 = a = 5
+= 5 = a = 7
+= 5 = p = 9
+= 7 = p = 10
+# Listed 7 contacts. EOF.

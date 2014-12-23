@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gao, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IRON-SULFUR CLUSTERS, FERREDOXIN, ELECTRON TRANSPORT
+> pdb_mol_name > FERREDOXIN I
+> graphtype > albelig
+> resolution > 2.2
+> date > 30-NOV-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE L44S MUTANT OF FERREDOXIN I
+> format_version > 2
+> pdbid > 1gao
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > AZOTOBACTER VINELANDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gao | B | albelig | 1 | 1 | E | 109 | 111 | B-202-  | B-204-  | FVV 
+| 1gao | B | albelig | 2 | 2 | H | 113 | 115 | B-206-  | B-208-  | DNC 
+| 1gao | B | albelig | 3 | 3 | H | 122 | 126 | B-215-  | B-219-  | DCVEV 
+| 1gao | B | albelig | 4 | 4 | E | 132 | 134 | B-225-  | B-227-  | FYE 
+| 1gao | B | albelig | 5 | 5 | E | 139 | 141 | B-232-  | B-234-  | LVI 
+| 1gao | B | albelig | 6 | 6 | E | 161 | 163 | B-254-  | B-256-  | IFS 
+| 1gao | B | albelig | 7 | 7 | H | 164 | 166 | B-257-  | B-259-  | EDE 
+| 1gao | B | albelig | 8 | 8 | H | 169 | 171 | B-262-  | B-264-  | EDM 
+| 1gao | B | albelig | 9 | 9 | H | 173 | 182 | B-266-  | B-275-  | EFIQLNAELA 
+| 1gao | B | albelig | 10 | 10 | H | 198 | 201 | B-291-  | B-294-  | AEDW 
+| 1gao | B | albelig | 11 | 11 | H | 207 | 210 | B-300-  | B-303-  | KLQH 
+| 1gao | B | albelig | 12 | 12 | L | 430 | 430 | B-307-  | B-307-  | J 
+| 1gao | B | albelig | 13 | 13 | L | 431 | 431 | B-308-  | B-308-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 6
+= 1 = m = 9
+= 1 = l = 12
+= 1 = l = 13
+= 2 = m = 11
+= 2 = l = 13
+= 3 = l = 12
+= 3 = l = 13
+= 4 = a = 5
+= 4 = l = 12
+= 4 = l = 13
+= 5 = m = 9
+= 5 = l = 12
+= 5 = l = 13
+= 6 = m = 7
+= 6 = l = 13
+# Listed 17 contacts. EOF.

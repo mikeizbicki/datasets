@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g4m, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SENSORY TRANSDUCTION, ALTERNATIVE SPLICING, SIGNALINGPROTEIN
+> pdb_mol_name > BETA-ARRESTIN1
+> graphtype > albelig
+> resolution > 1.9
+> date > 27-OCT-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF BOVINE BETA-ARRESTIN 1
+> format_version > 2
+> pdbid > 1g4m
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g4m | A | albelig | 1 | 1 | E | 2 | 8 | A-6-  | A-12-  | TRVFKKA 
+| 1g4m | A | albelig | 2 | 2 | E | 15 | 18 | A-19-  | A-22-  | TVYL 
+| 1g4m | A | albelig | 3 | 3 | E | 22 | 25 | A-26-  | A-29-  | DFVD 
+| 1g4m | A | albelig | 4 | 4 | E | 33 | 38 | A-37-  | A-42-  | VDGVVL 
+| 1g4m | A | albelig | 5 | 5 | H | 41 | 44 | A-45-  | A-48-  | PEYL 
+| 1g4m | A | albelig | 6 | 6 | E | 48 | 59 | A-52-  | A-63-  | RVYVTLTCAFRY 
+| 1g4m | A | albelig | 7 | 7 | E | 71 | 83 | A-75-  | A-87-  | FRKDLFVANVQSF 
+| 1g4m | A | albelig | 8 | 8 | H | 95 | 103 | A-99-  | A-107-  | RLQERLIKK 
+| 1g4m | A | albelig | 9 | 9 | E | 108 | 113 | A-112-  | A-117-  | AYPFTF 
+| 1g4m | A | albelig | 10 | 10 | E | 123 | 126 | A-127-  | A-130-  | VTLQ 
+| 1g4m | A | albelig | 11 | 11 | H | 129 | 134 | A-133-  | A-138-  | PEDTGK 
+| 1g4m | A | albelig | 12 | 12 | E | 136 | 147 | A-140-  | A-151-  | CGVDYEVKAFCA 
+| 1g4m | A | albelig | 13 | 13 | H | 156 | 158 | A-160-  | A-162-  | KRN 
+| 1g4m | A | albelig | 14 | 14 | E | 159 | 168 | A-163-  | A-172-  | SVRLVIRKVQ 
+| 1g4m | A | albelig | 15 | 15 | E | 181 | 185 | A-185-  | A-189-  | ETTRQ 
+| 1g4m | A | albelig | 16 | 16 | E | 193 | 199 | A-197-  | A-203-  | LHLEASL 
+| 1g4m | A | albelig | 17 | 17 | E | 203 | 205 | A-207-  | A-209-  | IYY 
+| 1g4m | A | albelig | 18 | 18 | E | 210 | 218 | A-214-  | A-222-  | ISVNVHVTN 
+| 1g4m | A | albelig | 19 | 19 | E | 224 | 237 | A-228-  | A-241-  | VKKIKISVRQYADI 
+| 1g4m | A | albelig | 20 | 20 | E | 243 | 254 | A-247-  | A-258-  | AQYKCPVAMEEA 
+| 1g4m | A | albelig | 21 | 21 | E | 262 | 270 | A-266-  | A-274-  | STFCKVYTL 
+| 1g4m | A | albelig | 22 | 22 | H | 274 | 276 | A-278-  | A-280-  | LAN 
+| 1g4m | A | albelig | 23 | 23 | E | 283 | 285 | A-287-  | A-289-  | LAL 
+| 1g4m | A | albelig | 24 | 24 | H | 309 | 311 | A-313-  | A-315-  | EIL 
+| 1g4m | A | albelig | 25 | 25 | E | 313 | 325 | A-317-  | A-329-  | IIVSYKVKVKLVV 
+| 1g4m | A | albelig | 26 | 26 | E | 331 | 341 | A-342-  | A-352-  | DVAVELPFTLM 
+| 1g4m | A | albelig | 27 | 27 | E | 351 | 355 | A-386-  | A-390-  | IVFED 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 14
+= 1 = p = 27
+= 2 = a = 4
+= 3 = p = 14
+= 4 = a = 9
+= 6 = a = 7
+= 6 = p = 9
+= 6 = a = 12
+= 7 = a = 9
+= 10 = a = 12
+= 10 = a = 23
+= 12 = m = 13
+= 12 = a = 14
+= 13 = m = 14
+= 15 = a = 16
+= 15 = a = 26
+= 16 = a = 18
+= 16 = p = 26
+= 17 = a = 26
+= 18 = a = 21
+= 19 = a = 20
+= 19 = a = 25
+= 20 = a = 21
+= 25 = a = 26
+# Listed 25 contacts. EOF.

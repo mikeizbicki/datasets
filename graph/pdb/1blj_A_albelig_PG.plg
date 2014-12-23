@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1blj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNAL TRANSDUCTION, TYROSINE KINASE, TRANSFERASE,PHOSPHOTRANSFERASE, PHOSPHORYLATION
+> pdb_mol_name > P55 BLK PROTEIN TYROSINE KINASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 26-MAR-96
+> header > PHOSPHORYLATION
+> pdb_org_common > HOUSE MOUSE
+> title > NMR ENSEMBLE OF BLK SH2 DOMAIN, 20 STRUCTURES
+> format_version > 2
+> pdbid > 1blj
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1blj | A | albelig | 1 | 1 | H | 21 | 28 | A-21-  | A-28-  | RKDAERQL 
+| 1blj | A | albelig | 2 | 2 | E | 50 | 54 | A-50-  | A-54-  | FSLSV 
+| 1blj | A | albelig | 3 | 3 | E | 67 | 72 | A-67-  | A-72-  | YKIRSL 
+| 1blj | A | albelig | 4 | 4 | E | 76 | 80 | A-76-  | A-80-  | GYYIS 
+| 1blj | A | albelig | 5 | 5 | E | 83 | 85 | A-83-  | A-85-  | ITF 
+| 1blj | A | albelig | 6 | 6 | H | 88 | 97 | A-88-  | A-97-  | LQALVQHYSK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 6
+# Listed 5 contacts. EOF.

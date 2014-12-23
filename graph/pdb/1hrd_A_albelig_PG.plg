@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hrd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, NAD
+> pdb_mol_name > GLUTAMATE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 1.96
+> date > 03-APR-96
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > GLUTAMATE DEHYDROGENASE
+> format_version > 2
+> pdbid > 1hrd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM SYMBIOSUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hrd | A | albelig | 1 | 1 | H | 2 | 14 | A-2-  | A-14-  | KYVDRVIAEVEKK 
+| 1hrd | A | albelig | 2 | 2 | H | 19 | 30 | A-19-  | A-30-  | PEFVQTVEEVLS 
+| 1hrd | A | albelig | 3 | 3 | H | 33 | 37 | A-33-  | A-37-  | GPVVD 
+| 1hrd | A | albelig | 4 | 4 | H | 40 | 44 | A-40-  | A-44-  | PEYEE 
+| 1hrd | A | albelig | 5 | 5 | H | 47 | 51 | A-47-  | A-51-  | LLERM 
+| 1hrd | A | albelig | 6 | 6 | E | 56 | 65 | A-56-  | A-65-  | RVIEFRVPWE 
+| 1hrd | A | albelig | 7 | 7 | E | 71 | 82 | A-71-  | A-82-  | VHVNTGYRVQFN 
+| 1hrd | A | albelig | 8 | 8 | E | 88 | 94 | A-88-  | A-94-  | YKGGLRF 
+| 1hrd | A | albelig | 9 | 9 | H | 100 | 116 | A-100-  | A-116-  | LSIMKFLGFEQAFKDSL 
+| 1hrd | A | albelig | 10 | 10 | E | 123 | 128 | A-123-  | A-128-  | GAKGGS 
+| 1hrd | A | albelig | 11 | 11 | H | 137 | 154 | A-137-  | A-154-  | DREVMRFCQAFMTELYRH 
+| 1hrd | A | albelig | 12 | 12 | E | 160 | 163 | A-160-  | A-163-  | DVPA 
+| 1hrd | A | albelig | 13 | 13 | H | 170 | 184 | A-170-  | A-184-  | AREIGYMYGQYRKIV 
+| 1hrd | A | albelig | 14 | 14 | H | 189 | 191 | A-189-  | A-191-  | NGV 
+| 1hrd | A | albelig | 15 | 15 | H | 197 | 199 | A-197-  | A-199-  | RSF 
+| 1hrd | A | albelig | 16 | 16 | H | 208 | 223 | A-208-  | A-223-  | ATGYGSVYYVEAVMKH 
+| 1hrd | A | albelig | 17 | 17 | E | 232 | 235 | A-232-  | A-235-  | TVAL 
+| 1hrd | A | albelig | 18 | 18 | H | 240 | 251 | A-240-  | A-251-  | NVAWGAAKKLAE 
+| 1hrd | A | albelig | 19 | 19 | E | 255 | 261 | A-255-  | A-261-  | KAVTLSG 
+| 1hrd | A | albelig | 20 | 20 | E | 264 | 267 | A-264-  | A-267-  | GYIY 
+| 1hrd | A | albelig | 21 | 21 | H | 275 | 287 | A-275-  | A-287-  | EEKINYMLEMRAS 
+| 1hrd | A | albelig | 22 | 22 | H | 293 | 299 | A-293-  | A-299-  | QDYADKF 
+| 1hrd | A | albelig | 23 | 23 | E | 302 | 305 | A-302-  | A-305-  | QFFP 
+| 1hrd | A | albelig | 24 | 24 | E | 316 | 318 | A-316-  | A-318-  | IIM 
+| 1hrd | A | albelig | 25 | 25 | H | 328 | 336 | A-328-  | A-336-  | LEQAKKIVA 
+| 1hrd | A | albelig | 26 | 26 | E | 341 | 343 | A-341-  | A-343-  | YYI 
+| 1hrd | A | albelig | 27 | 27 | H | 352 | 360 | A-352-  | A-360-  | NEALRFLMQ 
+| 1hrd | A | albelig | 28 | 28 | E | 365 | 367 | A-365-  | A-367-  | VVA 
+| 1hrd | A | albelig | 29 | 29 | H | 369 | 372 | A-369-  | A-372-  | SKAV 
+| 1hrd | A | albelig | 30 | 30 | H | 375 | 389 | A-375-  | A-389-  | GGVLVSGFEMSQNSE 
+| 1hrd | A | albelig | 31 | 31 | H | 395 | 419 | A-395-  | A-419-  | AEEVDSKLHQVMTDIHDGSAAAAER 
+| 1hrd | A | albelig | 32 | 32 | H | 426 | 445 | A-426-  | A-445-  | LVAGANIVGFQKIADAMMAQ 
+# Printed info on 32 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 5
+= 2 = p = 9
+= 6 = a = 7
+= 6 = a = 11
+= 7 = a = 8
+= 7 = p = 9
+= 7 = a = 10
+= 7 = p = 11
+= 7 = a = 12
+= 8 = p = 10
+= 8 = p = 12
+= 9 = m = 10
+= 9 = m = 32
+= 11 = p = 13
+= 12 = m = 14
+= 16 = m = 18
+= 16 = p = 31
+= 17 = p = 19
+= 17 = p = 24
+= 18 = a = 21
+= 19 = a = 20
+= 20 = a = 23
+= 21 = m = 22
+= 24 = p = 26
+= 26 = p = 28
+= 30 = m = 31
+# Listed 27 contacts. EOF.

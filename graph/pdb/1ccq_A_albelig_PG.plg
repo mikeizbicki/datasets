@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ccq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOTOXIN (CARDIOTOXIN), MEMBRANE PERTURBATION, CIS/TRANSISOMERIZATION, BOUND WATER
+> pdb_mol_name > PROTEIN (CYTOTOXIN 2)
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-MAR-99
+> header > TOXIN
+> pdb_org_common > CENTRAL ASIAN COBRA
+> title > NMR STRUCTURE WITH TIGHTLY BOUND WATER MOLECULES OFCYTOTOXIN II (CARDIOTOXIN) FROM NAJA NAJA OXIANA INAQUEOUS SOLUTION (MINOR FORM).
+> format_version > 2
+> pdbid > 1ccq
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NAJA OXIANA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ccq | A | albelig | 1 | 1 | E | 2 | 4 | A-2-  | A-4-  | KAK 
+| 1ccq | A | albelig | 2 | 2 | E | 11 | 13 | A-11-  | A-13-  | SKT 
+| 1ccq | A | albelig | 3 | 3 | E | 20 | 26 | A-20-  | A-26-  | LAYKMFM 
+| 1ccq | A | albelig | 4 | 4 | E | 35 | 39 | A-35-  | A-39-  | KRGNI 
+| 1ccq | A | albelig | 5 | 5 | E | 49 | 54 | A-49-  | A-54-  | VKYVCD 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 3 = a = 4
+= 3 = a = 5
+# Listed 4 contacts. EOF.

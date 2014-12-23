@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a63, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION TERMINATION, TERMINATION, RNA BINDING DOMAIN,TRANSCRIPTION REGULATION, OB FOLD
+> pdb_mol_name > RHO
+> graphtype > albelig
+> resolution > -1.0
+> date > 05-MAR-98
+> header > TRANSCRIPTION TERMINATION
+> pdb_org_common > UNKNOWN
+> title > THE NMR STRUCTURE OF THE RNA BINDING DOMAIN OF E.COLI RHOFACTOR SUGGESTS POSSIBLE RNA-PROTEIN INTERACTIONS, 10STRUCTURES
+> format_version > 2
+> pdbid > 1a63
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI BL21(DE3)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a63 | A | albelig | 1 | 1 | H | 3 | 8 | A-3-  | A-8-  | LTELKN 
+| 1a63 | A | albelig | 2 | 2 | H | 11 | 20 | A-11-  | A-20-  | VSELITLGEN 
+| 1a63 | A | albelig | 3 | 3 | H | 26 | 28 | A-26-  | A-28-  | LAR 
+| 1a63 | A | albelig | 4 | 4 | H | 31 | 44 | A-31-  | A-44-  | KQDIIFAILKQHAK 
+| 1a63 | A | albelig | 5 | 5 | E | 50 | 54 | A-50-  | A-54-  | FGDGV 
+| 1a63 | A | albelig | 6 | 6 | E | 63 | 65 | A-63-  | A-65-  | GFL 
+| 1a63 | A | albelig | 7 | 7 | E | 79 | 81 | A-79-  | A-81-  | IYV 
+| 1a63 | A | albelig | 8 | 8 | H | 83 | 89 | A-83-  | A-89-  | PSQIRRF 
+| 1a63 | A | albelig | 9 | 9 | E | 96 | 102 | A-96-  | A-102-  | TISGKIR 
+| 1a63 | A | albelig | 10 | 10 | E | 112 | 119 | A-112-  | A-119-  | ALLKVNEV 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = p = 4
+= 5 = a = 9
+= 6 = a = 7
+= 7 = a = 10
+= 9 = a = 10
+# Listed 6 contacts. EOF.

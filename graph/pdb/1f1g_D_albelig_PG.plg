@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f1g, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NITRIC OXIDE, CUZNSOD, OXIDOREDUCTASE
+> pdb_mol_name > COPPER-ZINC SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 1.35
+> date > 18-MAY-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF YEAST CUZNSOD EXPOSED TO NITRIC OXIDE
+> format_version > 2
+> pdbid > 1f1g
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f1g | D | albelig | 1 | 1 | E | 464 | 469 | D-467-  | D-472-  | QAVAVL 
+| 1f1g | D | albelig | 2 | 2 | E | 476 | 482 | D-479-  | D-485-  | SGVVKFE 
+| 1f1g | D | albelig | 3 | 3 | E | 490 | 497 | D-493-  | D-500-  | TTVSYEIA 
+| 1f1g | D | albelig | 4 | 4 | E | 504 | 510 | D-507-  | D-513-  | ERGFHIH 
+| 1f1g | D | albelig | 5 | 5 | H | 520 | 522 | D-523-  | D-525-  | VSA 
+| 1f1g | D | albelig | 6 | 6 | E | 545 | 550 | D-548-  | D-553-  | DMGNVK 
+| 1f1g | D | albelig | 7 | 7 | E | 557 | 563 | D-560-  | D-566-  | AKGSFKD 
+| 1f1g | D | albelig | 8 | 8 | E | 578 | 581 | D-581-  | D-584-  | SVVI 
+| 1f1g | D | albelig | 9 | 9 | H | 596 | 599 | D-599-  | D-602-  | SLKT 
+| 1f1g | D | albelig | 10 | 10 | E | 607 | 614 | D-610-  | D-617-  | ADGVIGLT 
+| 1f1g | D | albelig | 11 | 11 | L | 930 | 930 | D-4007-  | D-4007-  | J 
+| 1f1g | D | albelig | 12 | 12 | L | 931 | 931 | D-4008-  | D-4008-  | J 
+| 1f1g | D | albelig | 13 | 13 | L | 939 | 939 | D-934-  | D-934-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 6
+= 4 = a = 8
+= 4 = l = 11
+= 4 = l = 12
+= 4 = l = 13
+= 6 = l = 12
+= 8 = a = 10
+= 8 = l = 11
+= 9 = l = 12
+# Listed 13 contacts. EOF.

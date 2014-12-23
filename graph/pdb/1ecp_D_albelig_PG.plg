@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ecp, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PENTOSYLTRANSFERASE, PURINE NUCLEOSIDE PHOSPHORYLASE,GLYCOSYLTRANSFERASE
+> pdb_mol_name > PURINE NUCLEOSIDE PHOSPHORYLASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 13-JUL-95
+> header > PENTOSYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > PURINE NUCLEOSIDE PHOSPHORYLASE
+> format_version > 2
+> pdbid > 1ecp
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ecp | D | albelig | 1 | 1 | E | 729 | 732 | D-15-  | D-18-  | VVLM 
+| 1ecp | D | albelig | 2 | 2 | H | 736 | 743 | D-22-  | D-29-  | PLRAKYIA 
+| 1ecp | D | albelig | 3 | 3 | E | 748 | 754 | D-34-  | D-40-  | EDAREVN 
+| 1ecp | D | albelig | 4 | 4 | E | 761 | 766 | D-47-  | D-52-  | GFTGTY 
+| 1ecp | D | albelig | 5 | 5 | E | 769 | 774 | D-55-  | D-60-  | RKISVM 
+| 1ecp | D | albelig | 6 | 6 | H | 780 | 794 | D-66-  | D-80-  | IPSCSIYTKELITDF 
+| 1ecp | D | albelig | 7 | 7 | E | 798 | 807 | D-84-  | D-93-  | KIIRVGSCGA 
+| 1ecp | D | albelig | 8 | 8 | E | 817 | 825 | D-103-  | D-111-  | VVIGMGACT 
+| 1ecp | D | albelig | 9 | 9 | H | 829 | 833 | D-115-  | D-119-  | VNRIR 
+| 1ecp | D | albelig | 10 | 10 | H | 845 | 857 | D-131-  | D-143-  | FDMVRNAVDAAKA 
+| 1ecp | D | albelig | 11 | 11 | E | 863 | 869 | D-149-  | D-155-  | RVGNLFS 
+| 1ecp | D | albelig | 12 | 12 | H | 880 | 886 | D-166-  | D-172-  | MFDVMEK 
+| 1ecp | D | albelig | 13 | 13 | E | 891 | 893 | D-177-  | D-179-  | GVE 
+| 1ecp | D | albelig | 14 | 14 | H | 896 | 905 | D-182-  | D-191-  | AAGIYGVAAE 
+| 1ecp | D | albelig | 15 | 15 | E | 909 | 919 | D-195-  | D-205-  | KALTICTVSDH 
+| 1ecp | D | albelig | 16 | 16 | H | 928 | 948 | D-214-  | D-234-  | AAERQTTFNDMIKIALESVLL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = p = 7
+= 2 = m = 16
+= 3 = a = 4
+= 4 = a = 5
+= 6 = m = 14
+= 7 = a = 13
+= 7 = p = 15
+= 8 = p = 11
+= 8 = m = 14
+= 8 = a = 15
+= 10 = m = 15
+= 10 = m = 16
+= 11 = p = 13
+= 14 = m = 15
+= 15 = m = 16
+# Listed 16 contacts. EOF.

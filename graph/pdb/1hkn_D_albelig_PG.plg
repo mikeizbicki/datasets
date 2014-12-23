@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hkn, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR, MITOGEN, ANGIOGENESIS, HEPARIN-BINDING
+> pdb_mol_name > HEPARIN-BINDING GROWTH FACTOR 1
+> graphtype > albelig
+> resolution > 2.0
+> date > 10-MAR-03
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > A COMPLEX BETWEEN ACIDIC FIBROBLAST GROWTH FACTOR AND5-AMINO-2-NAPHTHALENESULFONATE
+> format_version > 2
+> pdbid > 1hkn
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hkn | D | albelig | 1 | 1 | E | 391 | 395 | D-4012-  | D-4016-  | KLLYC 
+| 1hkn | D | albelig | 2 | 2 | E | 400 | 404 | D-4021-  | D-4025-  | HFLRI 
+| 1hkn | D | albelig | 3 | 3 | E | 410 | 413 | D-4031-  | D-4034-  | VDGT 
+| 1hkn | D | albelig | 4 | 4 | H | 419 | 421 | D-4040-  | D-4042-  | QHI 
+| 1hkn | D | albelig | 5 | 5 | E | 423 | 427 | D-4044-  | D-4048-  | LQLSA 
+| 1hkn | D | albelig | 6 | 6 | E | 432 | 437 | D-4053-  | D-4058-  | EVYIKS 
+| 1hkn | D | albelig | 7 | 7 | E | 443 | 446 | D-4064-  | D-4067-  | YLAM 
+| 1hkn | D | albelig | 8 | 8 | E | 452 | 455 | D-4073-  | D-4076-  | LYGS 
+| 1hkn | D | albelig | 9 | 9 | H | 460 | 462 | D-4081-  | D-4083-  | EEC 
+| 1hkn | D | albelig | 10 | 10 | E | 464 | 468 | D-4085-  | D-4089-  | FLERL 
+| 1hkn | D | albelig | 11 | 11 | E | 474 | 478 | D-4095-  | D-4099-  | NTYIS 
+| 1hkn | D | albelig | 12 | 12 | H | 479 | 484 | D-4100-  | D-4105-  | KKHAEK 
+| 1hkn | D | albelig | 13 | 13 | H | 499 | 501 | D-4120-  | D-4122-  | GPR 
+| 1hkn | D | albelig | 14 | 14 | H | 507 | 509 | D-4128-  | D-4130-  | KAI 
+| 1hkn | D | albelig | 15 | 15 | E | 511 | 515 | D-4132-  | D-4136-  | FLPLP 
+| 1hkn | D | albelig | 16 | 16 | L | 779 | 779 | D-5139-  | D-5139-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 1 = a = 15
+= 2 = a = 3
+= 2 = m = 4
+= 3 = a = 8
+= 5 = a = 6
+= 6 = p = 7
+= 6 = p = 10
+= 7 = a = 8
+= 7 = m = 9
+= 10 = a = 11
+= 11 = m = 12
+= 11 = m = 14
+= 14 = l = 16
+# Listed 15 contacts. EOF.

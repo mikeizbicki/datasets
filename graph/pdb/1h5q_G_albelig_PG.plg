@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h5q, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, MANNITOL METABOLISM
+> pdb_mol_name > NADP-DEPENDENT MANNITOL DEHYDROGENASE
+> graphtype > albelig
+> resolution > 1.5
+> date > 24-MAY-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > COMMON MUSHROOM
+> title > MANNITOL DEHYDROGENASE FROM AGARICUS BISPORUS
+> format_version > 2
+> pdbid > 1h5q
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > AGARICUS BISPORUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h5q | G | albelig | 1 | 1 | E | 1569 | 1571 | G-5-  | G-7-  | FTI 
+| 1h5q | G | albelig | 2 | 2 | E | 1577 | 1581 | G-13-  | G-17-  | TIIVT 
+| 1h5q | G | albelig | 3 | 3 | H | 1586 | 1597 | G-22-  | G-33-  | GIGLAFTRAVAA 
+| 1h5q | G | albelig | 4 | 4 | E | 1601 | 1606 | G-37-  | G-42-  | NVAVIY 
+| 1h5q | G | albelig | 5 | 5 | H | 1612 | 1623 | G-48-  | G-59-  | AVEVTEKVGKEF 
+| 1h5q | G | albelig | 6 | 6 | E | 1627 | 1631 | G-63-  | G-67-  | TKAYQ 
+| 1h5q | G | albelig | 7 | 7 | H | 1637 | 1651 | G-73-  | G-87-  | TDIVTKTIQQIDADL 
+| 1h5q | G | albelig | 8 | 8 | E | 1654 | 1659 | G-90-  | G-95-  | ISGLIA 
+| 1h5q | G | albelig | 9 | 9 | H | 1669 | 1671 | G-105-  | G-107-  | ATE 
+| 1h5q | G | albelig | 10 | 10 | H | 1674 | 1687 | G-110-  | G-123-  | HEDFAFVYDVNVFG 
+| 1h5q | G | albelig | 11 | 11 | H | 1688 | 1701 | G-124-  | G-137-  | VFNTCRAVAKLWLQ 
+| 1h5q | G | albelig | 12 | 12 | E | 1706 | 1711 | G-142-  | G-147-  | GSIVVT 
+| 1h5q | G | albelig | 13 | 13 | H | 1714 | 1716 | G-150-  | G-152-  | MSS 
+| 1h5q | G | albelig | 14 | 14 | E | 1721 | 1723 | G-157-  | G-159-  | QSS 
+| 1h5q | G | albelig | 15 | 15 | H | 1731 | 1754 | G-167-  | G-190-  | VFYNSSKAACSNLVKGLAAEWASA 
+| 1h5q | G | albelig | 16 | 16 | E | 1756 | 1763 | G-192-  | G-199-  | IRVNALSP 
+| 1h5q | G | albelig | 17 | 17 | H | 1771 | 1773 | G-207-  | G-209-  | TAH 
+| 1h5q | G | albelig | 18 | 18 | H | 1776 | 1784 | G-212-  | G-220-  | KKIRDHQAS 
+| 1h5q | G | albelig | 19 | 19 | H | 1794 | 1805 | G-230-  | G-241-  | PEEMTGQAILLL 
+| 1h5q | G | albelig | 20 | 20 | H | 1807 | 1809 | G-243-  | G-245-  | DHA 
+| 1h5q | G | albelig | 21 | 21 | E | 1816 | 1819 | G-252-  | G-255-  | EYFI 
+| 1h5q | G | albelig | 22 | 22 | H | 1823 | 1825 | G-259-  | G-261-  | QLI 
+| 1h5q | G | albelig | 23 | 23 | L | 3142 | 3142 | G-263-  | G-263-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 8
+= 3 = p = 5
+= 3 = p = 19
+= 3 = l = 23
+= 4 = p = 6
+= 4 = l = 23
+= 5 = m = 6
+= 6 = m = 7
+= 7 = p = 11
+= 8 = m = 11
+= 8 = p = 12
+= 10 = p = 15
+= 10 = l = 23
+= 11 = p = 15
+= 12 = p = 16
+= 12 = m = 19
+= 12 = l = 23
+= 13 = m = 16
+= 14 = m = 18
+= 15 = a = 16
+= 15 = l = 23
+= 16 = a = 19
+= 16 = p = 21
+= 16 = l = 23
+= 19 = m = 21
+# Listed 26 contacts. EOF.

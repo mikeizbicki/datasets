@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnt, chain l.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTICATALYTIC PROTEINASE, 20S PROTEASOME, PROTEINDEGRADATION, ANTIGEN PROCESSING, PROTEASE, PROTEASOMEACTIVATOR, CELL ADHESION, INTERFERON INDUCTION,HYDROLASE/HYDROLASE ACTIVATOR COMPLEX
+> pdb_mol_name > PROTEASOME ACTIVATOR PROTEIN PA26
+> graphtype > albelig
+> resolution > 3.2
+> date > 23-AUG-00
+> header > HYDROLASE/HYDROLASE ACTIVATOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE 20S PROTEASOME FROM YEAST INCOMPLEX WITH THE PROTEASOME ACTIVATOR PA26 FROMTRYPANOSOME BRUCEI AT 3.2 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1fnt
+> experiment > X-RAY DIFFRACTION
+> chainid > l
+> graphclass > protein graph
+> pdb_org_sci > TRYPANOSOMA BRUCEI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnt | l | albelig | 1 | 1 | H | 8168 | 8178 | l-7-  | l-17-  | ALIQNLRDSYT 
+| 1fnt | l | albelig | 2 | 2 | H | 8183 | 8195 | l-22-  | l-34-  | FAVIEEWAAGTLQ 
+| 1fnt | l | albelig | 3 | 3 | H | 8198 | 8215 | l-37-  | l-54-  | EGIAKAAAEAHGVIRNST 
+| 1fnt | l | albelig | 4 | 4 | H | 8226 | 8254 | l-65-  | l-93-  | EQLLGVLQRYQDLCHNVYCQAETIRTVIA 
+| 1fnt | l | albelig | 5 | 5 | H | 8265 | 8284 | l-104-  | l-123-  | NLGVAVQHAVLKIIDELEIK 
+| 1fnt | l | albelig | 6 | 6 | H | 8299 | 8302 | l-138-  | l-141-  | TPIG 
+| 1fnt | l | albelig | 7 | 7 | H | 8311 | 8349 | l-177-  | l-215-  | PSLLLELRQIDADFMLKVELATTHLSTMVRAVINAYLLN 
+| 1fnt | l | albelig | 8 | 8 | H | 8351 | 8354 | l-217-  | l-220-  | KKLI 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 3 = a = 7
+= 4 = m = 5
+= 4 = p = 7
+= 5 = a = 7
+= 7 = m = 8
+# Listed 6 contacts. EOF.

@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cur, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RUSTICYANIN, TYPE 1 COPPER PROTEIN, SOLUTION STRUCTURE,ELECTRON TRANSPORT
+> pdb_mol_name > CU(I) RUSTICYANIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 19-APR-96
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > REDUCED RUSTICYANIN, NMR
+> format_version > 2
+> pdbid > 1cur
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ACIDITHIOBACILLUS FERROOXIDANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cur | A | albelig | 1 | 1 | E | 7 | 11 | A-7-  | A-11-  | WKEAT 
+| 1cur | A | albelig | 2 | 2 | H | 12 | 20 | A-12-  | A-20-  | LPQVKAMLE 
+| 1cur | A | albelig | 3 | 3 | E | 24 | 27 | A-24-  | A-27-  | GKVS 
+| 1cur | A | albelig | 4 | 4 | E | 30 | 33 | A-30-  | A-33-  | TVTY 
+| 1cur | A | albelig | 5 | 5 | E | 37 | 44 | A-37-  | A-44-  | TVHVVAAA 
+| 1cur | A | albelig | 6 | 6 | E | 64 | 66 | A-64-  | A-66-  | LEI 
+| 1cur | A | albelig | 7 | 7 | E | 71 | 78 | A-71-  | A-78-  | TVDVTFIN 
+| 1cur | A | albelig | 8 | 8 | E | 88 | 90 | A-88-  | A-90-  | DIT 
+| 1cur | A | albelig | 9 | 9 | E | 119 | 127 | A-119-  | A-127-  | KFGYTDFTW 
+| 1cur | A | albelig | 10 | 10 | E | 132 | 137 | A-132-  | A-137-  | GTYYYV 
+| 1cur | A | albelig | 11 | 11 | H | 143 | 146 | A-143-  | A-146-  | HAAT 
+| 1cur | A | albelig | 12 | 12 | E | 149 | 154 | A-149-  | A-154-  | FGKIVV 
+| 1cur | A | albelig | 13 | 13 | L | 156 | 156 | A-156-  | A-156-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 9
+= 3 = a = 4
+= 4 = a = 5
+= 4 = a = 6
+= 5 = p = 7
+= 6 = p = 12
+= 7 = a = 9
+= 8 = a = 10
+= 10 = a = 12
+= 11 = l = 13
+# Listed 11 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cjw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > N-ACETYL TRANSFERASE, TRANSFERASE
+> pdb_mol_name > PROTEIN (SEROTONIN N-ACETYLTRANSFERASE)
+> graphtype > albelig
+> resolution > 1.8
+> date > 19-APR-99
+> header > TRANSFERASE
+> pdb_org_common > SHEEP
+> title > SEROTONIN N-ACETYLTRANSFERASE COMPLEXED WITH A BISUBSTRATE ANALOG
+> format_version > 2
+> pdbid > 1cjw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > OVIS ARIES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cjw | A | albelig | 1 | 1 | E | 7 | 9 | A-36-  | A-38-  | EFR 
+| 1cjw | A | albelig | 2 | 2 | H | 13 | 23 | A-42-  | A-52-  | PEDAAGVFEIE 
+| 1cjw | A | albelig | 3 | 3 | H | 24 | 31 | A-53-  | A-60-  | REAFISVS 
+| 1cjw | A | albelig | 4 | 4 | H | 38 | 47 | A-67-  | A-76-  | LDEVQHFLTL 
+| 1cjw | A | albelig | 5 | 5 | H | 49 | 51 | A-78-  | A-80-  | PEL 
+| 1cjw | A | albelig | 6 | 6 | E | 52 | 57 | A-81-  | A-86-  | SLGWFV 
+| 1cjw | A | albelig | 7 | 7 | E | 60 | 70 | A-89-  | A-99-  | RLVAFIIGSLW 
+| 1cjw | A | albelig | 8 | 8 | H | 77 | 81 | A-106-  | A-110-  | QESLA 
+| 1cjw | A | albelig | 9 | 9 | E | 89 | 97 | A-118-  | A-126-  | SAHLHALAV 
+| 1cjw | A | albelig | 10 | 10 | H | 106 | 119 | A-135-  | A-148-  | KGSVLLWRYLHHVG 
+| 1cjw | A | albelig | 11 | 11 | E | 126 | 131 | A-155-  | A-160-  | RAVLMC 
+| 1cjw | A | albelig | 12 | 12 | H | 133 | 140 | A-162-  | A-169-  | DALVPFYQ 
+| 1cjw | A | albelig | 13 | 13 | E | 144 | 149 | A-173-  | A-178-  | FHPAGP 
+| 1cjw | A | albelig | 14 | 14 | E | 160 | 165 | A-189-  | A-194-  | TEMHCS 
+| 1cjw | A | albelig | 15 | 15 | L | 167 | 167 | A-400-  | A-400-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 2 = m = 3
+= 2 = m = 4
+= 2 = m = 7
+= 3 = l = 15
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 6 = m = 10
+= 7 = a = 9
+= 7 = m = 10
+= 9 = p = 11
+= 9 = l = 15
+= 10 = l = 15
+= 11 = a = 14
+= 11 = l = 15
+= 12 = m = 13
+= 12 = l = 15
+= 13 = a = 14
+# Listed 19 contacts. EOF.

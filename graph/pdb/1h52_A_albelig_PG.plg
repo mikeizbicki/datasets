@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h52, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANGIOGENIN, RIBONUCLEASE, PHOSPHATE, PYROPHOSPHATE
+> pdb_mol_name > ANGIOGENIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 18-MAY-01
+> header > ANGIOGENIN
+> pdb_org_common > HUMAN
+> title > BINDING OF PHOSPHATE AND PYROPHOSPHATE IONS AT THE ACTIVESITE OF HUMAN ANGIOGENIN AS REVEALED BY X-RAYCRYSTALLOGRAPHY
+> format_version > 2
+> pdbid > 1h52
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h52 | A | albelig | 1 | 1 | H | 3 | 12 | A-4-  | A-13-  | SRYTHFLTQH 
+| 1h52 | A | albelig | 2 | 2 | H | 22 | 31 | A-23-  | A-32-  | DRYAESIMRR 
+| 1h52 | A | albelig | 3 | 3 | E | 41 | 45 | A-42-  | A-46-  | INTFI 
+| 1h52 | A | albelig | 4 | 4 | H | 49 | 56 | A-50-  | A-57-  | KRSIKAIC 
+| 1h52 | A | albelig | 5 | 5 | H | 58 | 60 | A-59-  | A-61-  | NKN 
+| 1h52 | A | albelig | 6 | 6 | E | 61 | 64 | A-62-  | A-65-  | GNPH 
+| 1h52 | A | albelig | 7 | 7 | E | 68 | 71 | A-69-  | A-72-  | LRIS 
+| 1h52 | A | albelig | 8 | 8 | E | 75 | 82 | A-76-  | A-83-  | FQVTTAKL 
+| 1h52 | A | albelig | 9 | 9 | E | 93 | 100 | A-94-  | A-101-  | YRATAGFR 
+| 1h52 | A | albelig | 10 | 10 | E | 103 | 107 | A-104-  | A-108-  | VVACE 
+| 1h52 | A | albelig | 11 | 11 | E | 110 | 114 | A-111-  | A-115-  | LPVHL 
+| 1h52 | A | albelig | 12 | 12 | H | 116 | 118 | A-117-  | A-119-  | QSI 
+| 1h52 | A | albelig | 13 | 13 | L | 123 | 123 | A-1124-  | A-1124-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 11
+= 1 = l = 13
+= 2 = m = 9
+= 3 = a = 8
+= 3 = l = 13
+= 5 = m = 6
+= 6 = a = 7
+= 7 = a = 10
+= 8 = a = 9
+= 10 = a = 11
+= 11 = l = 13
+= 12 = l = 13
+# Listed 13 contacts. EOF.

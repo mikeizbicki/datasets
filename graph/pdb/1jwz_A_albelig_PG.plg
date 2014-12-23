@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jwz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TEM-64, BETA-LACTAMASE, SERINE HYDROLASE, CRYSTAL STRUCTURE,EVOLUTION, ANTIBIOTIC RESISTANCE
+> pdb_mol_name > BETA-LACTAMASE TEM
+> graphtype > albelig
+> resolution > 1.8
+> date > 05-SEP-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF TEM-64 BETA-LACTAMASE IN COMPLEX WITHA BORONIC ACID INHIBITOR (105)
+> format_version > 2
+> pdbid > 1jwz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jwz | A | albelig | 1 | 1 | H | 2 | 15 | A-27-  | A-40-  | PETLVKVKDAEDQL 
+| 1jwz | A | albelig | 2 | 2 | E | 19 | 25 | A-44-  | A-50-  | VGYIELD 
+| 1jwz | A | albelig | 3 | 3 | E | 31 | 35 | A-56-  | A-60-  | ILESF 
+| 1jwz | A | albelig | 4 | 4 | H | 44 | 60 | A-69-  | A-85-  | MSTFKVLLAGAVLSRVD 
+| 1jwz | A | albelig | 5 | 5 | H | 74 | 76 | A-99-  | A-101-  | QND 
+| 1jwz | A | albelig | 6 | 6 | H | 84 | 86 | A-109-  | A-111-  | TEK 
+| 1jwz | A | albelig | 7 | 7 | H | 94 | 103 | A-119-  | A-128-  | VRELASAAIT 
+| 1jwz | A | albelig | 8 | 8 | H | 107 | 117 | A-132-  | A-142-  | NTAANLLLTTI 
+| 1jwz | A | albelig | 9 | 9 | H | 120 | 128 | A-145-  | A-153-  | PKELTAFLH 
+| 1jwz | A | albelig | 10 | 10 | H | 158 | 169 | A-183-  | A-194-  | PAAMATTLRKLL 
+| 1jwz | A | albelig | 11 | 11 | H | 176 | 187 | A-201-  | A-212-  | LASRQQLIDWME 
+| 1jwz | A | albelig | 12 | 12 | H | 196 | 199 | A-221-  | A-224-  | LRSA 
+| 1jwz | A | albelig | 13 | 13 | E | 205 | 212 | A-230-  | A-237-  | FIADKSGA 
+| 1jwz | A | albelig | 14 | 14 | E | 218 | 225 | A-244-  | A-251-  | RGIIAALG 
+| 1jwz | A | albelig | 15 | 15 | E | 232 | 238 | A-259-  | A-265-  | RIVVIYT 
+| 1jwz | A | albelig | 16 | 16 | H | 245 | 261 | A-272-  | A-288-  | MDERNRQIAEIGASLIK 
+| 1jwz | A | albelig | 17 | 17 | L | 264 | 264 | A-300-  | A-300-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = a = 16
+= 2 = a = 3
+= 2 = p = 10
+= 2 = a = 15
+= 4 = a = 7
+= 4 = p = 8
+= 4 = m = 9
+= 4 = m = 10
+= 4 = a = 11
+= 4 = m = 13
+= 4 = l = 17
+= 7 = m = 11
+= 8 = l = 17
+= 10 = m = 11
+= 11 = m = 13
+= 13 = a = 14
+= 13 = l = 17
+= 14 = a = 15
+= 14 = m = 16
+= 16 = l = 17
+# Listed 21 contacts. EOF.

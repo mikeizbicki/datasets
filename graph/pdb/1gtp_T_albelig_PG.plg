@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gtp, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GTP, PURINE HYDROLYSIS, PTERINE SYNTHESIS, HYDROLASE
+> pdb_mol_name > UNKNOWN
+> graphtype > albelig
+> resolution > 3.0
+> date > 16-SEP-95
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > GTP CYCLOHYDROLASE I
+> format_version > 2
+> pdbid > 1gtp
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gtp | T | albelig | 1 | 1 | H | 4223 | 4235 | T-5-  | T-17-  | KEAALVHEALVAR 
+| 1gtp | T | albelig | 2 | 2 | H | 4250 | 4267 | T-32-  | T-49-  | NETRKSLIAGHMTEIMQL 
+| 1gtp | T | albelig | 3 | 3 | H | 4275 | 4278 | T-57-  | T-60-  | DSLM 
+| 1gtp | T | albelig | 4 | 4 | H | 4280 | 4292 | T-62-  | T-74-  | TPHRIAKMYVDEI 
+| 1gtp | T | albelig | 5 | 5 | H | 4294 | 4296 | T-76-  | T-78-  | SGL 
+| 1gtp | T | albelig | 6 | 6 | H | 4298 | 4300 | T-80-  | T-82-  | YAN 
+| 1gtp | T | albelig | 7 | 7 | E | 4306 | 4308 | T-88-  | T-90-  | LIE 
+| 1gtp | T | albelig | 8 | 8 | E | 4317 | 4328 | T-99-  | T-110-  | VTVRDITLTSTT 
+| 1gtp | T | albelig | 9 | 9 | E | 4333 | 4343 | T-115-  | T-125-  | VTIDGKATVAY 
+| 1gtp | T | albelig | 10 | 10 | E | 4348 | 4350 | T-130-  | T-132-  | SVI 
+| 1gtp | T | albelig | 11 | 11 | H | 4352 | 4363 | T-134-  | T-145-  | LSKINRIVQFFA 
+| 1gtp | T | albelig | 12 | 12 | H | 4369 | 4384 | T-151-  | T-166-  | QERLTQQILIALQTLL 
+| 1gtp | T | albelig | 13 | 13 | E | 4389 | 4397 | T-171-  | T-179-  | VAVSIDAVH 
+| 1gtp | T | albelig | 14 | 14 | H | 4398 | 4401 | T-180-  | T-183-  | YTVK 
+| 1gtp | T | albelig | 15 | 15 | E | 4411 | 4417 | T-193-  | T-199-  | ATTTTSL 
+| 1gtp | T | albelig | 16 | 16 | H | 4420 | 4423 | T-202-  | T-205-  | LFKS 
+| 1gtp | T | albelig | 17 | 17 | H | 4425 | 4434 | T-207-  | T-216-  | QNTRHEFLRA 
+| 1gtp | T | albelig | 18 | 18 | L | 4459 | 4459 | T-222-  | T-222-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 2 = a = 4
+= 3 = m = 4
+= 7 = a = 10
+= 8 = a = 9
+= 8 = p = 11
+= 9 = a = 13
+= 11 = a = 12
+= 11 = l = 18
+= 12 = a = 13
+= 12 = p = 15
+= 13 = m = 14
+= 13 = a = 15
+= 15 = m = 16
+# Listed 14 contacts. EOF.

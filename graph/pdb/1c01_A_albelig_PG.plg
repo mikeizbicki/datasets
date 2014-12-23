@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c01, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GREEK KEY, BETA-BARREL, ANTIMICROBIAL PROTEIN
+> pdb_mol_name > ANTIMICROBIAL PEPTIDE 1
+> graphtype > albelig
+> resolution > -1.0
+> date > 13-JUL-99
+> header > ANTIMICROBIAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF MIAMP1, A PLANT ANTIMICROBIAL PROTEIN
+> format_version > 2
+> pdbid > 1c01
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MACADAMIA INTEGRIFOLIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c01 | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | AFTV 
+| 1c01 | A | albelig | 2 | 2 | E | 16 | 18 | A-16-  | A-18-  | ERY 
+| 1c01 | A | albelig | 3 | 3 | E | 22 | 25 | A-22-  | A-25-  | GCSA 
+| 1c01 | A | albelig | 4 | 4 | E | 32 | 35 | A-32-  | A-35-  | YDFS 
+| 1c01 | A | albelig | 5 | 5 | E | 41 | 44 | A-41-  | A-44-  | AALY 
+| 1c01 | A | albelig | 6 | 6 | H | 47 | 49 | A-47-  | A-49-  | AGC 
+| 1c01 | A | albelig | 7 | 7 | E | 53 | 57 | A-53-  | A-57-  | AHTRF 
+| 1c01 | A | albelig | 8 | 8 | E | 71 | 74 | A-71-  | A-74-  | SIFI 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = a = 8
+= 2 = a = 3
+= 3 = m = 6
+= 3 = a = 8
+= 5 = a = 7
+= 5 = a = 8
+= 6 = m = 8
+# Listed 9 contacts. EOF.

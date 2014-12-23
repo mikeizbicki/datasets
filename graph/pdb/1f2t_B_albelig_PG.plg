@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f2t, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA DOUBLE-STRAND BREAK REPAIR, ABC ATPASE, REPLICATION
+> pdb_mol_name > RAD50 ABC-ATPASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 29-MAY-00
+> header > REPLICATION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ATP-FREE RAD50 ABC-ATPASE
+> format_version > 2
+> pdbid > 1f2t
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS FURIOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f2t | B | albelig | 1 | 1 | H | 149 | 167 | B-741-  | B-759-  | REAALSKIGELASEIFAEF 
+| 1f2t | B | albelig | 2 | 2 | E | 174 | 179 | B-766-  | B-771-  | EVVVRA 
+| 1f2t | B | albelig | 3 | 3 | E | 184 | 190 | B-776-  | B-782-  | VRLFVVW 
+| 1f2t | B | albelig | 4 | 4 | E | 193 | 195 | B-785-  | B-787-  | KER 
+| 1f2t | B | albelig | 5 | 5 | H | 197 | 199 | B-789-  | B-791-  | LTF 
+| 1f2t | B | albelig | 6 | 6 | H | 202 | 221 | B-794-  | B-813-  | GGERIALGLAFRLAMSLYLA 
+| 1f2t | B | albelig | 7 | 7 | E | 226 | 230 | B-818-  | B-822-  | LLILD 
+| 1f2t | B | albelig | 8 | 8 | H | 238 | 250 | B-830-  | B-842-  | EERRRKLITIMER 
+| 1f2t | B | albelig | 9 | 9 | H | 252 | 254 | B-844-  | B-846-  | LKK 
+| 1f2t | B | albelig | 10 | 10 | E | 257 | 262 | B-849-  | B-854-  | QVILVS 
+| 1f2t | B | albelig | 11 | 11 | H | 265 | 270 | B-857-  | B-862-  | EELKDA 
+| 1f2t | B | albelig | 12 | 12 | E | 273 | 280 | B-865-  | B-872-  | HVIRISLE 
+| 1f2t | B | albelig | 13 | 13 | E | 283 | 288 | B-875-  | B-880-  | SSKVEV 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 6 = m = 8
+= 7 = p = 10
+= 8 = m = 11
+= 12 = a = 13
+# Listed 8 contacts. EOF.

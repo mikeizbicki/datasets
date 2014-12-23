@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0f, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AMIDE HYDROLASE, BETA-LACTAMASE, MUTANT ENZYME
+> pdb_mol_name > BETA-LACTAMASE
+> graphtype > albelig
+> resolution > 1.66
+> date > 09-FEB-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY CRYSTAL STRUCTURE OF AMPC N152H MUTANT BETA-LACTAMASE
+> format_version > 2
+> pdbid > 1l0f
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0f | B | albelig | 1 | 1 | H | 358 | 375 | B-6-  | B-23-  | QQINDIVHRTITPLIEQQ 
+| 1l0f | B | albelig | 2 | 2 | E | 379 | 386 | B-27-  | B-34-  | GMAVAVIY 
+| 1l0f | B | albelig | 3 | 3 | E | 389 | 399 | B-37-  | B-47-  | KPYYFTWGYAD 
+| 1l0f | B | albelig | 4 | 4 | H | 415 | 431 | B-63-  | B-79-  | GSVSKTFTGVLGGDAIA 
+| 1l0f | B | albelig | 5 | 5 | H | 441 | 444 | B-89-  | B-92-  | TTKY 
+| 1l0f | B | albelig | 6 | 6 | H | 451 | 453 | B-99-  | B-101-  | KQW 
+| 1l0f | B | albelig | 7 | 7 | H | 458 | 462 | B-106-  | B-110-  | LLHLA 
+| 1l0f | B | albelig | 8 | 8 | H | 480 | 489 | B-128-  | B-137-  | SSDLLRFYQN 
+| 1l0f | B | albelig | 9 | 9 | H | 504 | 514 | B-152-  | B-162-  | HSSIGLFGALA 
+| 1l0f | B | albelig | 10 | 10 | H | 522 | 531 | B-170-  | B-179-  | FEQAMQTRVF 
+| 1l0f | B | albelig | 11 | 11 | H | 545 | 550 | B-193-  | B-198-  | PAEEKN 
+| 1l0f | B | albelig | 12 | 12 | E | 554 | 556 | B-202-  | B-204-  | GYR 
+| 1l0f | B | albelig | 13 | 13 | E | 559 | 561 | B-207-  | B-209-  | KAV 
+| 1l0f | B | albelig | 14 | 14 | H | 569 | 573 | B-217-  | B-221-  | DAEAY 
+| 1l0f | B | albelig | 15 | 15 | H | 579 | 590 | B-227-  | B-238-  | IEDMARWVQSNL 
+| 1l0f | B | albelig | 16 | 16 | H | 592 | 594 | B-240-  | B-242-  | PLD 
+| 1l0f | B | albelig | 17 | 17 | H | 598 | 607 | B-246-  | B-255-  | KTLQQGIQLA 
+| 1l0f | B | albelig | 18 | 18 | E | 610 | 614 | B-258-  | B-262-  | RYWQT 
+| 1l0f | B | albelig | 19 | 19 | E | 617 | 619 | B-265-  | B-267-  | MYQ 
+| 1l0f | B | albelig | 20 | 20 | E | 624 | 627 | B-272-  | B-275-  | EMLD 
+| 1l0f | B | albelig | 21 | 21 | H | 632 | 638 | B-280-  | B-286-  | PDSIING 
+| 1l0f | B | albelig | 22 | 22 | H | 641 | 644 | B-289-  | B-292-  | NKIA 
+| 1l0f | B | albelig | 23 | 23 | E | 651 | 657 | B-299-  | B-305-  | KAITPPT 
+| 1l0f | B | albelig | 24 | 24 | E | 663 | 670 | B-311-  | B-318-  | SWVHKTGA 
+| 1l0f | B | albelig | 25 | 25 | E | 675 | 681 | B-323-  | B-329-  | GSYVAFI 
+| 1l0f | B | albelig | 26 | 26 | H | 682 | 684 | B-330-  | B-332-  | PEK 
+| 1l0f | B | albelig | 27 | 27 | E | 686 | 692 | B-334-  | B-340-  | LGIVMLA 
+| 1l0f | B | albelig | 28 | 28 | H | 698 | 712 | B-346-  | B-360-  | NPARVDAAWQILNAL 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = a = 28
+= 2 = a = 3
+= 2 = p = 15
+= 2 = a = 27
+= 4 = m = 10
+= 4 = m = 14
+= 4 = p = 15
+= 4 = m = 17
+= 4 = m = 24
+= 7 = m = 9
+= 12 = a = 13
+= 15 = a = 27
+= 18 = a = 19
+= 18 = a = 23
+= 19 = a = 20
+= 20 = a = 24
+= 21 = m = 28
+= 24 = a = 25
+= 24 = a = 28
+= 25 = m = 26
+= 25 = a = 27
+= 25 = p = 28
+= 27 = a = 28
+# Listed 25 contacts. EOF.

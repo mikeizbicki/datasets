@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j2a, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, ISOMERASE
+> pdb_mol_name > CYCLOPHILIN B
+> graphtype > albelig
+> resolution > 1.8
+> date > 26-DEC-02
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF E. COLI CYCLOPHILIN B K163T MUTANT
+> format_version > 2
+> pdbid > 1j2a
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j2a | A | albelig | 1 | 1 | E | 6 | 11 | A-6-  | A-11-  | HVLLTT 
+| 1j2a | A | albelig | 2 | 2 | E | 14 | 20 | A-14-  | A-20-  | GNIELEL 
+| 1j2a | A | albelig | 3 | 3 | H | 26 | 37 | A-26-  | A-37-  | PVSVQNFVDYVN 
+| 1j2a | A | albelig | 4 | 4 | E | 48 | 50 | A-48-  | A-50-  | RVI 
+| 1j2a | A | albelig | 5 | 5 | E | 54 | 57 | A-54-  | A-57-  | MIQG 
+| 1j2a | A | albelig | 6 | 6 | H | 77 | 79 | A-77-  | A-79-  | ADN 
+| 1j2a | A | albelig | 7 | 7 | E | 87 | 90 | A-87-  | A-90-  | TIAM 
+| 1j2a | A | albelig | 8 | 8 | E | 103 | 106 | A-103-  | A-106-  | FFIN 
+| 1j2a | A | albelig | 9 | 9 | H | 111 | 113 | A-111-  | A-113-  | AFL 
+| 1j2a | A | albelig | 10 | 10 | E | 124 | 130 | A-124-  | A-130-  | VFGKVVK 
+| 1j2a | A | albelig | 11 | 11 | H | 132 | 139 | A-132-  | A-139-  | MDVADKIS 
+| 1j2a | A | albelig | 12 | 12 | E | 158 | 164 | A-158-  | A-164-  | VILSATV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 12
+= 2 = a = 10
+= 4 = a = 5
+= 5 = a = 8
+= 7 = a = 8
+= 7 = a = 10
+# Listed 7 contacts. EOF.

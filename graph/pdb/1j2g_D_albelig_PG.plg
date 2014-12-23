@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j2g, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > T-FOLD BARREL, PURINE, OXIDOREDUCTASE
+> pdb_mol_name > URICASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 05-JAN-03
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF URATE OXIDASE FROM BACILLUS SP. TB-90 CO-CRYSTALLIZED WITH 8-AZAXANTHINE
+> format_version > 2
+> pdbid > 1j2g
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j2g | D | albelig | 1 | 1 | E | 924 | 936 | D-9-  | D-21-  | MYYGKGDVFAYRT 
+| 1j2g | D | albelig | 2 | 2 | E | 959 | 969 | D-44-  | D-54-  | LFGVNVKISVG 
+| 1j2g | D | albelig | 3 | 3 | H | 971 | 978 | D-56-  | D-63-  | TKLLTSFT 
+| 1j2g | D | albelig | 4 | 4 | H | 988 | 1001 | D-73-  | D-86-  | TDSMKNFIQKHLAS 
+| 1j2g | D | albelig | 5 | 5 | H | 1007 | 1021 | D-92-  | D-106-  | IEGFLEYVATSFLKK 
+| 1j2g | D | albelig | 6 | 6 | E | 1027 | 1034 | D-112-  | D-119-  | KISLIGEE 
+| 1j2g | D | albelig | 7 | 7 | E | 1037 | 1044 | D-122-  | D-129-  | FETTFAVK 
+| 1j2g | D | albelig | 8 | 8 | E | 1047 | 1057 | D-132-  | D-142-  | NRAASELVFKK 
+| 1j2g | D | albelig | 9 | 9 | E | 1062 | 1071 | D-147-  | D-156-  | YATAYLNMVR 
+| 1j2g | D | albelig | 10 | 10 | E | 1077 | 1093 | D-162-  | D-178-  | LNITEQQSGLAGLQLIK 
+| 1j2g | D | albelig | 11 | 11 | E | 1119 | 1128 | D-204-  | D-213-  | FVYLNIKWKY 
+| 1j2g | D | albelig | 12 | 12 | H | 1131 | 1134 | D-216-  | D-219-  | TEDS 
+| 1j2g | D | albelig | 13 | 13 | H | 1145 | 1158 | D-230-  | D-243-  | AEQIRDIATSVFHE 
+| 1j2g | D | albelig | 14 | 14 | H | 1164 | 1178 | D-249-  | D-263-  | IQHLIYLIGRRILER 
+| 1j2g | D | albelig | 15 | 15 | E | 1182 | 1191 | D-267-  | D-276-  | LQEVYFESQN 
+| 1j2g | D | albelig | 16 | 16 | E | 1195 | 1198 | D-280-  | D-283-  | DKIV 
+| 1j2g | D | albelig | 17 | 17 | E | 1208 | 1210 | D-293-  | D-295-  | VYT 
+| 1j2g | D | albelig | 18 | 18 | E | 1216 | 1224 | D-301-  | D-309-  | YGFQCFTVT 
+| 1j2g | D | albelig | 19 | 19 | L | 1234 | 1234 | D-503-  | D-503-  | J 
+| 1j2g | D | albelig | 20 | 20 | L | 1235 | 1235 | D-3320-  | D-3320-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 2 = a = 4
+= 2 = a = 6
+= 4 = m = 5
+= 5 = a = 6
+= 5 = p = 9
+= 6 = a = 9
+= 7 = a = 8
+= 8 = l = 19
+= 9 = a = 10
+= 10 = a = 11
+= 10 = p = 13
+= 11 = a = 15
+= 13 = m = 14
+= 14 = a = 15
+= 14 = p = 18
+= 14 = l = 20
+= 15 = a = 18
+= 15 = l = 20
+= 16 = a = 17
+= 18 = l = 20
+# Listed 22 contacts. EOF.

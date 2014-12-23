@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ibt, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HELIX DISORDER, LESS ACTIVE FORM, SITE-DIRECTED MUTANT, PYRUVOYL,CARBOXY-LYASE, LYASE
+> pdb_mol_name > HISTIDINE DECARBOXYLASE ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 29-MAR-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE D53,54N MUTANT OF HISTIDINE DECARBOXYLASE AT-170 C
+> format_version > 2
+> pdbid > 1ibt
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > LACTOBACILLUS SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ibt | F | albelig | 1 | 1 | E | 706 | 708 | F-88-  | F-90-  | GRV 
+| 1ibt | F | albelig | 2 | 2 | H | 717 | 721 | F-99-  | F-103-  | PEVDK 
+| 1ibt | F | albelig | 3 | 3 | E | 726 | 729 | F-108-  | F-111-  | FTET 
+| 1ibt | F | albelig | 4 | 4 | E | 735 | 740 | F-117-  | F-122-  | ELPIYD 
+| 1ibt | F | albelig | 5 | 5 | H | 742 | 752 | F-124-  | F-134-  | KPLQDALVEYF 
+| 1ibt | F | albelig | 6 | 6 | E | 769 | 778 | F-151-  | F-160-  | VCANKGVTAE 
+| 1ibt | F | albelig | 7 | 7 | E | 793 | 803 | F-175-  | F-185-  | GVWSAIAISFA 
+| 1ibt | F | albelig | 8 | 8 | E | 812 | 820 | F-194-  | F-202-  | MFVEDAGVW 
+| 1ibt | F | albelig | 9 | 9 | H | 825 | 850 | F-207-  | F-232-  | EDELLEYLEGRRKAMAKSIAECGQDA 
+| 1ibt | F | albelig | 10 | 10 | E | 854 | 865 | F-236-  | F-247-  | FESSWIGFAYTM 
+| 1ibt | F | albelig | 11 | 11 | E | 870 | 884 | F-252-  | F-266-  | QIGNAITVAPYVSLP 
+| 1ibt | F | albelig | 12 | 12 | H | 885 | 887 | F-267-  | F-269-  | IDS 
+| 1ibt | F | albelig | 13 | 13 | H | 896 | 905 | F-278-  | F-287-  | PDKDMEIMEN 
+| 1ibt | F | albelig | 14 | 14 | H | 908 | 915 | F-290-  | F-297-  | MPEWLEKM 
+| 1ibt | F | albelig | 15 | 15 | L | 931 | 931 | F-82-  | F-82-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = m = 9
+= 4 = p = 10
+= 5 = m = 14
+= 6 = p = 8
+= 6 = a = 11
+= 6 = l = 15
+= 7 = a = 8
+= 7 = a = 10
+= 7 = p = 11
+= 8 = a = 9
+= 8 = a = 11
+= 8 = l = 15
+= 9 = a = 10
+= 11 = m = 12
+= 11 = l = 15
+# Listed 16 contacts. EOF.

@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hqx, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BINUCLEAR MANGANESE CLUSTER, MUTAGENESIS, ARGINASE, SUBUNIT-SUBUNIT INTERACTIONS, HYDROLASE
+> pdb_mol_name > ARGINASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 20-DEC-00
+> header > HYDROLASE
+> pdb_org_common > NORWAY RAT
+> title > R308K ARGINASE VARIANT
+> format_version > 2
+> pdbid > 1hqx
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hqx | C | albelig | 1 | 1 | E | 632 | 638 | C-7-  | C-13-  | PIEIIGA 
+| 1hqx | C | albelig | 2 | 2 | H | 649 | 658 | C-24-  | C-33-  | VEKGPAALRK 
+| 1hqx | C | albelig | 3 | 3 | H | 661 | 666 | C-36-  | C-41-  | LVEKLK 
+| 1hqx | C | albelig | 4 | 4 | E | 671 | 677 | C-46-  | C-52-  | NVRDHGD 
+| 1hqx | C | albelig | 5 | 5 | H | 695 | 714 | C-70-  | C-89-  | PRSVGKANEQLAAVVAETQK 
+| 1hqx | C | albelig | 6 | 6 | E | 718 | 723 | C-93-  | C-98-  | ISVVLG 
+| 1hqx | C | albelig | 7 | 7 | H | 726 | 739 | C-101-  | C-114-  | HSMAIGSISGHARV 
+| 1hqx | C | albelig | 8 | 8 | E | 744 | 748 | C-119-  | C-123-  | CVIWV 
+| 1hqx | C | albelig | 9 | 9 | H | 765 | 767 | C-140-  | C-142-  | LHG 
+| 1hqx | C | albelig | 10 | 10 | H | 769 | 773 | C-144-  | C-148-  | PVAFL 
+| 1hqx | C | albelig | 11 | 11 | E | 799 | 803 | C-174-  | C-178-  | IVYIG 
+| 1hqx | C | albelig | 12 | 12 | H | 809 | 817 | C-184-  | C-192-  | PGEHYIIKT 
+| 1hqx | C | albelig | 13 | 13 | E | 821 | 824 | C-196-  | C-199-  | KYFS 
+| 1hqx | C | albelig | 14 | 14 | H | 825 | 831 | C-200-  | C-206-  | MTEVDKL 
+| 1hqx | C | albelig | 15 | 15 | H | 833 | 845 | C-208-  | C-220-  | IGKVMEETFSYLL 
+| 1hqx | C | albelig | 16 | 16 | E | 852 | 857 | C-227-  | C-232-  | IHLSFD 
+| 1hqx | C | albelig | 17 | 17 | H | 858 | 860 | C-233-  | C-235-  | VDG 
+| 1hqx | C | albelig | 18 | 18 | H | 879 | 892 | C-254-  | C-267-  | YREGLYITEEIYKT 
+| 1hqx | C | albelig | 19 | 19 | E | 895 | 901 | C-270-  | C-276-  | LSGLDIM 
+| 1hqx | C | albelig | 20 | 20 | H | 911 | 928 | C-286-  | C-303-  | PEEVTRTVNTAVALTLSC 
+| 1hqx | C | albelig | 21 | 21 | L | 949 | 949 | C-504-  | C-504-  | J 
+| 1hqx | C | albelig | 22 | 22 | L | 950 | 950 | C-505-  | C-505-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = m = 6
+= 3 = m = 20
+= 5 = p = 7
+= 6 = p = 19
+= 7 = p = 10
+= 7 = a = 16
+= 7 = a = 19
+= 7 = l = 21
+= 7 = l = 22
+= 8 = p = 11
+= 8 = m = 15
+= 8 = p = 16
+= 8 = l = 21
+= 9 = l = 21
+= 11 = p = 13
+= 11 = m = 15
+= 13 = m = 14
+= 13 = m = 15
+= 15 = p = 18
+= 16 = m = 17
+= 16 = p = 19
+= 16 = l = 21
+= 16 = l = 22
+= 17 = l = 21
+= 17 = l = 22
+= 18 = p = 20
+= 21 = l = 22
+# Listed 29 contacts. EOF.

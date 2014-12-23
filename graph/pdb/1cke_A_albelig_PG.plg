@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cke, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOTIDE MONOPHOSPHATE KINASE,, TRANSFERASE
+> pdb_mol_name > PROTEIN (CYTIDINE MONOPHOSPHATE KINASE)
+> graphtype > albelig
+> resolution > 1.75
+> date > 24-SEP-98
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CMP KINASE FROM ESCHERICHIA COLI FREE ENZYME STRUCTURE
+> format_version > 2
+> pdbid > 1cke
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cke | A | albelig | 1 | 1 | E | 5 | 9 | A-7-  | A-11-  | VITID 
+| 1cke | A | albelig | 2 | 2 | H | 16 | 27 | A-18-  | A-29-  | KGTLCKAMAEAL 
+| 1cke | A | albelig | 3 | 3 | E | 30 | 33 | A-32-  | A-35-  | HLLD 
+| 1cke | A | albelig | 4 | 4 | H | 34 | 48 | A-36-  | A-50-  | SGAIYRVLALAALHH 
+| 1cke | A | albelig | 5 | 5 | H | 55 | 63 | A-57-  | A-65-  | EDALVPLAS 
+| 1cke | A | albelig | 6 | 6 | E | 67 | 72 | A-69-  | A-74-  | VRFVST 
+| 1cke | A | albelig | 7 | 7 | E | 75 | 80 | A-77-  | A-82-  | NLEVIL 
+| 1cke | A | albelig | 8 | 8 | H | 86 | 89 | A-88-  | A-91-  | SGEI 
+| 1cke | A | albelig | 9 | 9 | H | 92 | 101 | A-94-  | A-103-  | QEVANAASQV 
+| 1cke | A | albelig | 10 | 10 | H | 105 | 116 | A-107-  | A-118-  | PRVREALLRRQR 
+| 1cke | A | albelig | 11 | 11 | E | 124 | 128 | A-126-  | A-130-  | LIADG 
+| 1cke | A | albelig | 12 | 12 | H | 131 | 135 | A-133-  | A-137-  | MGTVV 
+| 1cke | A | albelig | 13 | 13 | E | 141 | 146 | A-143-  | A-148-  | VKIFLD 
+| 1cke | A | albelig | 14 | 14 | H | 149 | 163 | A-151-  | A-165-  | SEERAHRRMLQLQVK 
+| 1cke | A | albelig | 15 | 15 | H | 169 | 176 | A-171-  | A-178-  | FERLLAEI 
+| 1cke | A | albelig | 16 | 16 | E | 186 | 189 | A-200-  | A-203-  | LVLD 
+| 1cke | A | albelig | 17 | 17 | H | 195 | 210 | A-209-  | A-224-  | IEQVIEKALQYARQKL 
+| 1cke | A | albelig | 18 | 18 | L | 214 | 214 | A-228-  | A-228-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 11
+= 1 = m = 12
+= 1 = p = 13
+= 2 = m = 6
+= 2 = m = 11
+= 2 = p = 17
+= 2 = l = 18
+= 3 = m = 4
+= 3 = p = 11
+= 5 = p = 10
+= 6 = a = 7
+= 7 = m = 8
+= 11 = l = 18
+= 13 = p = 16
+= 14 = m = 15
+= 14 = l = 18
+# Listed 17 contacts. EOF.

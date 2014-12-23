@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hfs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, METALLOPROTEASE, MATRIX METALLOPROTEASE-3, PROTEOGLYCANASE
+> pdb_mol_name > STROMELYSIN-1
+> graphtype > albelig
+> resolution > 1.7
+> date > 13-FEB-97
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE CATALYTIC DOMAIN OF HUMAN FIBROBLASTSTROMELYSIN-1 INHIBITED WITH THE N-CARBOXY-ALKYL INHIBITOR L-764,004
+> format_version > 2
+> pdbid > 1hfs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hfs | A | albelig | 1 | 1 | E | 9 | 14 | A-96-  | A-101-  | HLTYRI 
+| 1hfs | A | albelig | 2 | 2 | H | 23 | 38 | A-110-  | A-125-  | KDAVDSAVEKALKVWE 
+| 1hfs | A | albelig | 3 | 3 | E | 44 | 47 | A-131-  | A-134-  | TFSR 
+| 1hfs | A | albelig | 4 | 4 | E | 55 | 60 | A-142-  | A-147-  | IMISFA 
+| 1hfs | A | albelig | 5 | 5 | E | 78 | 80 | A-165-  | A-167-  | AHA 
+| 1hfs | A | albelig | 6 | 6 | E | 91 | 94 | A-178-  | A-181-  | AHFD 
+| 1hfs | A | albelig | 7 | 7 | H | 108 | 119 | A-195-  | A-206-  | LFLVAAHEIGHS 
+| 1hfs | A | albelig | 8 | 8 | H | 142 | 144 | A-229-  | A-231-  | LTR 
+| 1hfs | A | albelig | 9 | 9 | H | 149 | 158 | A-236-  | A-245-  | QDDINGIQSL 
+| 1hfs | A | albelig | 10 | 10 | L | 161 | 161 | A-257-  | A-257-  | J 
+| 1hfs | A | albelig | 11 | 11 | L | 162 | 162 | A-258-  | A-258-  | J 
+| 1hfs | A | albelig | 12 | 12 | L | 163 | 163 | A-259-  | A-259-  | J 
+| 1hfs | A | albelig | 13 | 13 | L | 164 | 164 | A-260-  | A-260-  | J 
+| 1hfs | A | albelig | 14 | 14 | L | 165 | 165 | A-261-  | A-261-  | J 
+| 1hfs | A | albelig | 15 | 15 | L | 166 | 166 | A-256-  | A-256-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 4
+= 2 = p = 7
+= 4 = p = 6
+= 4 = l = 13
+= 5 = a = 6
+= 5 = m = 7
+= 5 = l = 11
+= 5 = l = 15
+= 6 = l = 11
+= 6 = l = 12
+= 7 = l = 10
+= 7 = l = 15
+= 10 = l = 15
+= 11 = l = 15
+# Listed 15 contacts. EOF.

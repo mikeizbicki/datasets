@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1edz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOTIDE-BINDING DOMAIN, MONOFUNCTIONAL, DEHYDROGENASE,FOLATE, OXIDOREDUCTASE
+> pdb_mol_name > 5,10-METHYLENETETRAHYDROFOLATE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 28-JAN-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > BAKER'S YEAST
+> title > STRUCTURE OF THE NAD-DEPENDENT 5,10-METHYLENETETRAHYDROFOLATE DEHYDROGENASE FROM SACCHAROMYCESCEREVISIAE
+> format_version > 2
+> pdbid > 1edz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1edz | A | albelig | 1 | 1 | H | 8 | 29 | A-10-  | A-31-  | ASKVAETFNTEIINNVEEYKKT 
+| 1edz | A | albelig | 2 | 2 | E | 36 | 41 | A-38-  | A-43-  | LLVGFL 
+| 1edz | A | albelig | 3 | 3 | H | 46 | 62 | A-48-  | A-64-  | PAAKMYATWTQKTSESM 
+| 1edz | A | albelig | 4 | 4 | E | 65 | 70 | A-67-  | A-72-  | RYDLRV 
+| 1edz | A | albelig | 5 | 5 | H | 74 | 86 | A-76-  | A-88-  | KDFLEEAIIQANG 
+| 1edz | A | albelig | 6 | 6 | E | 92 | 95 | A-94-  | A-97-  | GIMV 
+| 1edz | A | albelig | 7 | 7 | H | 103 | 108 | A-105-  | A-110-  | AQDQYL 
+| 1edz | A | albelig | 8 | 8 | H | 123 | 130 | A-125-  | A-132-  | HVYYQNLY 
+| 1edz | A | albelig | 9 | 9 | H | 148 | 159 | A-150-  | A-161-  | CTPLAIVKILEF 
+| 1edz | A | albelig | 10 | 10 | E | 177 | 181 | A-179-  | A-183-  | KCIVI 
+| 1edz | A | albelig | 11 | 11 | H | 188 | 196 | A-190-  | A-198-  | GRPLAALLA 
+| 1edz | A | albelig | 12 | 12 | E | 201 | 205 | A-203-  | A-207-  | TVYSV 
+| 1edz | A | albelig | 13 | 13 | E | 209 | 214 | A-211-  | A-216-  | NIQKFT 
+| 1edz | A | albelig | 14 | 14 | E | 225 | 231 | A-227-  | A-233-  | HVEDLGE 
+| 1edz | A | albelig | 15 | 15 | H | 234 | 243 | A-236-  | A-245-  | EDLLKKCSLD 
+| 1edz | A | albelig | 16 | 16 | E | 246 | 249 | A-248-  | A-251-  | VVIT 
+| 1edz | A | albelig | 17 | 17 | E | 267 | 271 | A-269-  | A-273-  | AVCIN 
+| 1edz | A | albelig | 18 | 18 | H | 280 | 283 | A-282-  | A-285-  | DDVK 
+| 1edz | A | albelig | 19 | 19 | E | 286 | 290 | A-288-  | A-292-  | ASLYV 
+| 1edz | A | albelig | 20 | 20 | H | 294 | 314 | A-296-  | A-316-  | GKVTIAMLLRNMLRLVRNVEL 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 20
+= 2 = p = 4
+= 2 = p = 6
+= 3 = m = 4
+= 3 = p = 20
+= 8 = m = 11
+= 9 = p = 11
+= 9 = m = 20
+= 10 = p = 12
+= 10 = p = 16
+= 12 = a = 13
+= 13 = a = 14
+= 16 = p = 17
+= 17 = p = 19
+= 18 = m = 19
+# Listed 15 contacts. EOF.

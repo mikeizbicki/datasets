@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g4b, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HSLVU, PEPTIDASE-ATPASE COMPLEX, CHAPERONE/HYDROLASE COMPLEX
+> pdb_mol_name > ATP-DEPENDENT PROTEASE HSLV
+> graphtype > albelig
+> resolution > 7.0
+> date > 26-OCT-00
+> header > CHAPERONE/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF THE HSLVU PEPTIDASE-ATPASE COMPLEXREVEAL AN ATP-DEPENDENT PROTEOLYSIS MECHANISM
+> format_version > 2
+> pdbid > 1g4b
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g4b | P | albelig | 1 | 1 | E | 2105 | 2110 | P-3-  | P-8-  | IVSVRR 
+| 1g4b | P | albelig | 2 | 2 | E | 2113 | 2118 | P-11-  | P-16-  | HVVIAG 
+| 1g4b | P | albelig | 3 | 3 | E | 2122 | 2124 | P-20-  | P-22-  | ATL 
+| 1g4b | P | albelig | 4 | 4 | E | 2127 | 2130 | P-25-  | P-28-  | TVMK 
+| 1g4b | P | albelig | 5 | 5 | E | 2136 | 2139 | P-34-  | P-37-  | VRRL 
+| 1g4b | P | albelig | 6 | 6 | E | 2144 | 2150 | P-42-  | P-48-  | VIAGFAG 
+| 1g4b | P | albelig | 7 | 7 | H | 2154 | 2165 | P-52-  | P-63-  | DAFTLFELFERK 
+| 1g4b | P | albelig | 8 | 8 | H | 2173 | 2184 | P-71-  | P-82-  | LVKAAVELAKDW 
+| 1g4b | P | albelig | 9 | 9 | H | 2188 | 2192 | P-86-  | P-90-  | RMLRK 
+| 1g4b | P | albelig | 10 | 10 | E | 2195 | 2200 | P-93-  | P-98-  | ALLAVA 
+| 1g4b | P | albelig | 11 | 11 | E | 2206 | 2209 | P-104-  | P-107-  | LIIT 
+| 1g4b | P | albelig | 12 | 12 | E | 2213 | 2215 | P-111-  | P-113-  | DVV 
+| 1g4b | P | albelig | 13 | 13 | E | 2222 | 2224 | P-120-  | P-122-  | IAI 
+| 1g4b | P | albelig | 14 | 14 | H | 2228 | 2241 | P-126-  | P-139-  | GPYAQAAARALLEN 
+| 1g4b | P | albelig | 15 | 15 | H | 2246 | 2260 | P-144-  | P-158-  | AREIAEKALDIAGDI 
+| 1g4b | P | albelig | 16 | 16 | E | 2269 | 2274 | P-167-  | P-172-  | TIEELS 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = a = 13
+= 1 = a = 15
+= 2 = a = 5
+= 2 = p = 6
+= 2 = a = 10
+= 2 = p = 15
+= 2 = a = 16
+= 3 = a = 4
+= 5 = a = 6
+= 5 = m = 7
+= 5 = p = 16
+= 6 = a = 7
+= 6 = a = 10
+= 7 = m = 8
+= 8 = m = 11
+= 10 = a = 11
+= 10 = a = 13
+= 11 = a = 12
+= 13 = m = 14
+= 14 = a = 15
+# Listed 22 contacts. EOF.

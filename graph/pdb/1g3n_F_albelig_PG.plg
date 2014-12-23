@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g3n, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYCLIN-DEPENDENT KINASE, INK4 INHIBITOR, VIRAL CYCLIN, CELLCYCLE, SIGNALING PROTEIN
+> pdb_mol_name > CYCLIN-DEPENDENT KINASE 6 INHIBITOR
+> graphtype > albelig
+> resolution > 2.9
+> date > 24-OCT-00
+> header > CELL CYCLE, SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF A P18(INK4C)-CDK6-K-CYCLIN TERNARY COMPLEX
+> format_version > 2
+> pdbid > 1g3n
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g3n | F | albelig | 1 | 1 | H | 981 | 989 | F-7-  | F-15-  | NELASAAAR 
+| 1g3n | F | albelig | 2 | 2 | H | 992 | 998 | F-18-  | F-24-  | LEQLTSL 
+| 1g3n | F | albelig | 3 | 3 | H | 1015 | 1018 | F-41-  | F-44-  | ALQV 
+| 1g3n | F | albelig | 4 | 4 | H | 1024 | 1032 | F-50-  | F-58-  | PEIARRLLL 
+| 1g3n | F | albelig | 5 | 5 | H | 1047 | 1054 | F-73-  | F-80-  | VIHDAARA 
+| 1g3n | F | albelig | 6 | 6 | H | 1057 | 1065 | F-83-  | F-91-  | LDTLQTLLE 
+| 1g3n | F | albelig | 7 | 7 | H | 1080 | 1087 | F-106-  | F-113-  | PLHLAAKE 
+| 1g3n | F | albelig | 8 | 8 | H | 1090 | 1099 | F-116-  | F-125-  | LRVVEFLVKH 
+| 1g3n | F | albelig | 9 | 9 | H | 1114 | 1121 | F-140-  | F-147-  | ACDLARLY 
+| 1g3n | F | albelig | 10 | 10 | H | 1124 | 1131 | F-150-  | F-157-  | NEVVSLMQ 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 4
+= 4 = m = 6
+= 6 = m = 8
+= 7 = m = 8
+= 8 = m = 10
+= 9 = m = 10
+# Listed 7 contacts. EOF.

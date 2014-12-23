@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hx5, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, MOBILE LOOP, STRUCTURAL GENOMICS, PSI, PROTEINSTRUCTURE INITIATIVE, TB STRUCTURAL GENOMICS CONSORTIUM,TBSGC, CHAPERONE
+> pdb_mol_name > 10 KDA CHAPERONIN
+> graphtype > albelig
+> resolution > 3.5
+> date > 11-JAN-01
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF M. TUBERCULOSIS CHAPERONIN-10
+> format_version > 2
+> pdbid > 1hx5
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hx5 | C | albelig | 1 | 1 | E | 177 | 181 | C-11-  | C-15-  | KILVQ 
+| 1hx5 | C | albelig | 2 | 2 | E | 195 | 202 | C-38-  | C-45-  | QEGTVVAV 
+| 1hx5 | C | albelig | 3 | 3 | E | 224 | 227 | C-67-  | C-70-  | TVIY 
+| 1hx5 | C | albelig | 4 | 4 | E | 233 | 237 | C-76-  | C-80-  | TEIKY 
+| 1hx5 | C | albelig | 5 | 5 | E | 240 | 246 | C-83-  | C-89-  | EEYLILS 
+| 1hx5 | C | albelig | 6 | 6 | H | 247 | 249 | C-90-  | C-92-  | ARD 
+| 1hx5 | C | albelig | 7 | 7 | E | 250 | 253 | C-93-  | C-96-  | VLAV 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 5
+= 5 = m = 6
+= 6 = m = 7
+# Listed 7 contacts. EOF.

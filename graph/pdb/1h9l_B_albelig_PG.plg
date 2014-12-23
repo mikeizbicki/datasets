@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h9l, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEINASE, HYDROLASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > ELASTASE
+> graphtype > albelig
+> resolution > 1.67
+> date > 13-MAR-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > PIG
+> title > PORCINE PANCREATIC ELASTASE COMPLEXED WITHACETYL-VAL-GLU-PRO-ILE-COOH
+> format_version > 2
+> pdbid > 1h9l
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SUS SCROFA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h9l | B | albelig | 1 | 1 | E | 20 | 27 | B-30-  | B-36-A | QISLQYRS 
+| 1h9l | B | albelig | 2 | 2 | E | 30 | 41 | B-37-  | B-48-  | SWAHTAGGTLIR 
+| 1h9l | B | albelig | 3 | 3 | E | 44 | 47 | B-51-  | B-54-  | WVMT 
+| 1h9l | B | albelig | 4 | 4 | H | 49 | 52 | B-56-  | B-59-  | AHAV 
+| 1h9l | B | albelig | 5 | 5 | E | 58 | 62 | B-65-  | B-68-  | FRVVV 
+| 1h9l | B | albelig | 6 | 6 | E | 75 | 84 | B-81-  | B-90-  | QYVGVQKIVV 
+| 1h9l | B | albelig | 7 | 7 | H | 93 | 95 | B-99-  | B-99-B | VAA 
+| 1h9l | B | albelig | 8 | 8 | E | 100 | 104 | B-104-  | B-108-  | ALLRL 
+| 1h9l | B | albelig | 9 | 9 | E | 132 | 136 | B-136-  | B-140-  | NYITG 
+| 1h9l | B | albelig | 10 | 10 | E | 151 | 154 | B-156-  | B-159-  | QQAY 
+| 1h9l | B | albelig | 11 | 11 | H | 160 | 163 | B-165-  | B-168-  | YAIC 
+| 1h9l | B | albelig | 12 | 12 | H | 170 | 172 | B-173-  | B-175-  | GST 
+| 1h9l | B | albelig | 13 | 13 | E | 177 | 180 | B-180-  | B-183-  | MVCA 
+| 1h9l | B | albelig | 14 | 14 | E | 196 | 201 | B-198-  | B-203-  | PLHNLV 
+| 1h9l | B | albelig | 15 | 15 | E | 204 | 214 | B-206-  | B-216-  | QYAVHGVTSFV 
+| 1h9l | B | albelig | 16 | 16 | E | 226 | 230 | B-226-  | B-230-  | TVFTR 
+| 1h9l | B | albelig | 17 | 17 | H | 231 | 233 | B-231-  | B-233-  | VSA 
+| 1h9l | B | albelig | 18 | 18 | H | 235 | 244 | B-235-  | B-244-  | ISWINNVIAS 
+| 1h9l | B | albelig | 19 | 19 | L | 246 | 246 | B-1246-  | B-1246-  | J 
+| 1h9l | B | albelig | 20 | 20 | L | 247 | 247 | B-1247-  | B-1247-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 2 = a = 5
+= 2 = m = 18
+= 3 = a = 8
+= 5 = a = 6
+= 6 = a = 8
+= 9 = a = 10
+= 9 = a = 14
+= 13 = a = 16
+= 14 = a = 15
+= 15 = a = 16
+= 15 = m = 17
+= 16 = m = 17
+= 16 = l = 20
+= 17 = l = 20
+# Listed 17 contacts. EOF.

@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a7w, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTONE
+> pdb_mol_name > HISTONE HMFB
+> graphtype > albelig
+> resolution > 1.55
+> date > 18-MAR-98
+> header > HISTONE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE HISTONE HMFB FROM METHANOTHERMUS FERVIDUS
+> format_version > 2
+> pdbid > 1a7w
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMUS FERVIDUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a7w | A | albelig | 1 | 1 | H | 5 | 14 | A-5-  | A-14-  | IAPIGRIIKD 
+| 1a7w | A | albelig | 2 | 2 | H | 22 | 49 | A-22-  | A-49-  | DDARITLAKILEEMGRDIASEAIKLARH 
+| 1a7w | A | albelig | 3 | 3 | H | 57 | 65 | A-57-  | A-65-  | AEDIELAVR 
+| 1a7w | A | albelig | 4 | 4 | L | 69 | 69 | A-101-  | A-101-  | J 
+| 1a7w | A | albelig | 5 | 5 | L | 70 | 70 | A-102-  | A-102-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 2 = l = 4
+= 2 = l = 5
+= 4 = l = 5
+# Listed 5 contacts. EOF.

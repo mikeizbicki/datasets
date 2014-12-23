@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fg2, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IG FOLD, IMMUNE SYSTEM
+> pdb_mol_name > BETA-2 MICROGLOBULIN
+> graphtype > albelig
+> resolution > 2.75
+> date > 27-JUL-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE LCMV PEPTIDIC EPITOPE GP33 INCOMPLEX WITH THE MURINE CLASS I MHC MOLECULE H-2DB
+> format_version > 2
+> pdbid > 1fg2
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fg2 | E | albelig | 1 | 1 | E | 664 | 669 | E-6-  | E-11-  | QIQVYS 
+| 1fg2 | E | albelig | 2 | 2 | E | 679 | 688 | E-21-  | E-30-  | NILNFYVTQF 
+| 1fg2 | E | albelig | 3 | 3 | E | 693 | 699 | E-35-  | E-41-  | IEIQMLK 
+| 1fg2 | E | albelig | 4 | 4 | E | 720 | 728 | E-62-  | E-70-  | FYILAHTEF 
+| 1fg2 | E | albelig | 5 | 5 | E | 736 | 742 | E-78-  | E-84-  | YAFRVKH 
+| 1fg2 | E | albelig | 6 | 6 | E | 749 | 752 | E-91-  | E-94-  | KTVY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = p = 5
+= 3 = p = 4
+= 3 = a = 5
+= 5 = a = 6
+# Listed 6 contacts. EOF.

@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fe8, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COLLAGEN BINDING, CONFORMATIONAL CHANGES, EPITOPE, VON WILLEBRANDFACTOR A-TYPE DOMAIN, IMMUNE SYSTEM
+> pdb_mol_name > VON WILLEBRAND FACTOR
+> graphtype > albelig
+> resolution > 2.03
+> date > 21-JUL-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE VON WILLEBRAND FACTOR A3 DOMAIN IN COMPLEXWITH A FAB FRAGMENT OF IGG RU5 THAT INHIBITS COLLAGEN BINDING
+> format_version > 2
+> pdbid > 1fe8
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fe8 | C | albelig | 1 | 1 | E | 1238 | 1245 | C-927-  | C-934-  | LDVILLLD 
+| 1fe8 | C | albelig | 2 | 2 | H | 1252 | 1268 | C-941-  | C-957-  | ASYFDEXKSFAKAFISK 
+| 1fe8 | C | albelig | 3 | 3 | E | 1276 | 1283 | C-965-  | C-972-  | TQVSVLQY 
+| 1fe8 | C | albelig | 4 | 4 | E | 1288 | 1291 | C-977-  | C-980-  | TIDV 
+| 1fe8 | C | albelig | 5 | 5 | H | 1299 | 1307 | C-988-  | C-996-  | KAHLLSLVD 
+| 1fe8 | C | albelig | 6 | 6 | H | 1318 | 1329 | C-1007-  | C-1018-  | IGDALGFAVRYL 
+| 1fe8 | C | albelig | 7 | 7 | H | 1332 | 1334 | C-1021-  | C-1023-  | EXH 
+| 1fe8 | C | albelig | 8 | 8 | E | 1341 | 1348 | C-1030-  | C-1037-  | SKAVVILV 
+| 1fe8 | C | albelig | 9 | 9 | H | 1357 | 1365 | C-1046-  | C-1054-  | DAAADAARS 
+| 1fe8 | C | albelig | 10 | 10 | E | 1368 | 1375 | C-1057-  | C-1064-  | VTVFPIGI 
+| 1fe8 | C | albelig | 11 | 11 | H | 1381 | 1391 | C-1070-  | C-1080-  | AAQLRILAGPA 
+| 1fe8 | C | albelig | 12 | 12 | E | 1397 | 1399 | C-1086-  | C-1088-  | VKL 
+| 1fe8 | C | albelig | 13 | 13 | H | 1402 | 1404 | C-1091-  | C-1093-  | IED 
+| 1fe8 | C | albelig | 14 | 14 | H | 1407 | 1410 | C-1096-  | C-1099-  | TXVT 
+| 1fe8 | C | albelig | 15 | 15 | H | 1416 | 1419 | C-1105-  | C-1108-  | LHKL 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 2 = a = 5
+= 2 = m = 13
+= 3 = a = 4
+= 8 = p = 10
+= 10 = m = 11
+= 10 = p = 12
+# Listed 8 contacts. EOF.

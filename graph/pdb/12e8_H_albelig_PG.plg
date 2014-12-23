@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 12e8, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG1-KAPPA 2E8 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 1.9
+> date > 14-MAR-98
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > 2E8 FAB FRAGMENT
+> format_version > 2
+> pdbid > 12e8
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 12e8 | H | albelig | 1 | 1 | E | 218 | 221 | H-3-  | H-6-  | QLQQ 
+| 12e8 | H | albelig | 2 | 2 | E | 225 | 228 | H-10-  | H-13-  | EVVR 
+| 12e8 | H | albelig | 3 | 3 | E | 233 | 240 | H-18-  | H-25-  | VKLSCTAS 
+| 12e8 | H | albelig | 4 | 4 | H | 244 | 246 | H-29-  | H-31-  | IKD 
+| 12e8 | H | albelig | 5 | 5 | E | 247 | 254 | H-32-  | H-39-  | YYIHWVKQ 
+| 12e8 | H | albelig | 6 | 6 | E | 260 | 266 | H-45-  | H-51-  | LEWIGWI 
+| 12e8 | H | albelig | 7 | 7 | E | 273 | 275 | H-57-  | H-59-  | TEY 
+| 12e8 | H | albelig | 8 | 8 | H | 277 | 279 | H-61-  | H-63-  | PKF 
+| 12e8 | H | albelig | 9 | 9 | E | 283 | 288 | H-67-  | H-72-  | ATMTAD 
+| 12e8 | H | albelig | 10 | 10 | E | 293 | 298 | H-77-  | H-82-  | TAYLQL 
+| 12e8 | H | albelig | 11 | 11 | H | 303 | 305 | H-84-  | H-86-  | SED 
+| 12e8 | H | albelig | 12 | 12 | E | 307 | 315 | H-88-  | H-96-  | AVYYCNAGH 
+| 12e8 | H | albelig | 13 | 13 | E | 329 | 334 | H-107-  | H-112-  | TLVTVS 
+| 12e8 | H | albelig | 14 | 14 | E | 342 | 346 | H-120-  | H-124-  | SVYPL 
+| 12e8 | H | albelig | 15 | 15 | E | 358 | 367 | H-136-  | H-145-  | VTLGDLVKGY 
+| 12e8 | H | albelig | 16 | 16 | E | 373 | 376 | H-151-  | H-154-  | TVTW 
+| 12e8 | H | albelig | 17 | 17 | H | 377 | 379 | H-155-  | H-157-  | NSG 
+| 12e8 | H | albelig | 18 | 18 | E | 385 | 387 | H-163-  | H-165-  | VHT 
+| 12e8 | H | albelig | 19 | 19 | E | 391 | 393 | H-169-  | H-171-  | VLQ 
+| 12e8 | H | albelig | 20 | 20 | E | 396 | 405 | H-174-  | H-183-  | LYTLSSSVTV 
+| 12e8 | H | albelig | 21 | 21 | H | 407 | 409 | H-185-  | H-187-  | SST 
+| 12e8 | H | albelig | 22 | 22 | E | 416 | 421 | H-194-  | H-199-  | TDNVAH 
+| 12e8 | H | albelig | 23 | 23 | H | 422 | 424 | H-200-  | H-202-  | PAS 
+| 12e8 | H | albelig | 24 | 24 | E | 426 | 431 | H-204-  | H-209-  | TKVDKK 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 2 = p = 13
+= 3 = a = 10
+= 3 = p = 12
+= 4 = m = 5
+= 5 = a = 6
+= 5 = p = 10
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 9
+= 7 = a = 9
+= 9 = a = 10
+= 12 = a = 13
+= 14 = a = 15
+= 14 = p = 24
+= 15 = a = 20
+= 16 = m = 17
+= 16 = p = 20
+= 16 = a = 22
+= 18 = a = 20
+= 19 = a = 20
+= 22 = m = 23
+= 22 = a = 24
+# Listed 24 contacts. EOF.

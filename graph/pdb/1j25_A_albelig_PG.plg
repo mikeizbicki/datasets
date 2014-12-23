@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j25, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURE-SPECIFIC ENDONUCLEASE, HYDROLASE
+> pdb_mol_name > ATP-DEPENDENT RNA HELICASE, PUTATIVE
+> graphtype > albelig
+> resolution > 1.78
+> date > 25-DEC-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ARCHAEAL XPF/MUS81 HOMOLOG, HEF FROM PYROCOCCUSFURIOSUS, NUCLEASE DOMAIN, MN COCRYSTAL
+> format_version > 2
+> pdbid > 1j25
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS FURIOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j25 | A | albelig | 1 | 1 | E | 3 | 7 | A-6-  | A-10-  | KVVVD 
+| 1j25 | A | albelig | 2 | 2 | H | 8 | 10 | A-11-  | A-13-  | SRE 
+| 1j25 | A | albelig | 3 | 3 | H | 14 | 21 | A-17-  | A-24-  | EVVKRLKL 
+| 1j25 | A | albelig | 4 | 4 | E | 25 | 29 | A-28-  | A-32-  | KLEVK 
+| 1j25 | A | albelig | 5 | 5 | E | 42 | 48 | A-45-  | A-51-  | VAIERKS 
+| 1j25 | A | albelig | 6 | 6 | H | 49 | 57 | A-52-  | A-60-  | ANDLIQSII 
+| 1j25 | A | albelig | 7 | 7 | H | 61 | 71 | A-64-  | A-74-  | LFDQVKRLKEA 
+| 1j25 | A | albelig | 8 | 8 | E | 74 | 80 | A-77-  | A-83-  | RPIMIVE 
+| 1j25 | A | albelig | 9 | 9 | H | 91 | 104 | A-94-  | A-107-  | PNAIRGAIAAVTVD 
+| 1j25 | A | albelig | 10 | 10 | E | 109 | 112 | A-112-  | A-115-  | IIFS 
+| 1j25 | A | albelig | 11 | 11 | H | 115 | 132 | A-118-  | A-135-  | PEETAQYIFLIAKREQEE 
+| 1j25 | A | albelig | 12 | 12 | L | 134 | 134 | A-1001-  | A-1001-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 2 = l = 12
+= 3 = m = 11
+= 5 = m = 6
+= 5 = p = 8
+= 5 = l = 12
+= 8 = p = 10
+= 8 = m = 11
+= 10 = m = 11
+# Listed 10 contacts. EOF.

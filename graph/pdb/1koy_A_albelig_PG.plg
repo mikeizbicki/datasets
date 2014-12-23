@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1koy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DFF, APOPTOSIS, RIKEN STRUCTURAL GENOMICS/PROTEOMICSINITIATIVE, RSGI, STRUCTURAL GENOMICS
+> pdb_mol_name > DNA FRAGMENTATION FACTOR ALPHA SUBUNIT
+> graphtype > albelig
+> resolution > -1.0
+> date > 25-DEC-01
+> header > APOPTOSIS
+> pdb_org_common > HUMAN
+> title > NMR STRUCTURE OF DFF-C DOMAIN
+> format_version > 2
+> pdbid > 1koy
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1koy | A | albelig | 1 | 1 | H | 2 | 7 | A-240-  | A-245-  | HILTAL 
+| 1koy | A | albelig | 2 | 2 | H | 19 | 26 | A-257-  | A-264-  | SQDLELVT 
+| 1koy | A | albelig | 3 | 3 | H | 30 | 36 | A-268-  | A-274-  | PKALAVA 
+| 1koy | A | albelig | 4 | 4 | H | 41 | 60 | A-279-  | A-298-  | IKKTETVQEACERELALRLQ 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 4
+# Listed 1 contacts. EOF.

@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hkf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NATURAL CYTOTOXICITY RECEPTOR, NKP44, RECEPTOR,IMMUNOGLOBULIN DOMAIN
+> pdb_mol_name > NK CELL ACTIVATING RECEPTOR
+> graphtype > albelig
+> resolution > 2.2
+> date > 10-MAR-03
+> header > RECEPTOR
+> pdb_org_common > HUMAN
+> title > THE THREE DIMENSIONAL STRUCTURE OF NK CELL RECEPTOR NKP44,A TRIGGERING PARTNER IN NATURAL CYTOTOXICITY
+> format_version > 2
+> pdbid > 1hkf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hkf | A | albelig | 1 | 1 | E | 4 | 8 | A-8-  | A-12-  | QVLQS 
+| 1hkf | A | albelig | 2 | 2 | E | 14 | 19 | A-18-  | A-23-  | LTVRAQ 
+| 1hkf | A | albelig | 3 | 3 | E | 29 | 37 | A-33-  | A-41-  | KKGWNKEAS 
+| 1hkf | A | albelig | 4 | 4 | E | 40 | 47 | A-44-  | A-51-  | VNIRLVTS 
+| 1hkf | A | albelig | 5 | 5 | E | 59 | 64 | A-63-  | A-68-  | FTIWDD 
+| 1hkf | A | albelig | 6 | 6 | E | 69 | 74 | A-73-  | A-78-  | FFTVTM 
+| 1hkf | A | albelig | 7 | 7 | H | 79 | 81 | A-83-  | A-85-  | EED 
+| 1hkf | A | albelig | 8 | 8 | E | 83 | 90 | A-87-  | A-94-  | GHYWARIY 
+| 1hkf | A | albelig | 9 | 9 | E | 97 | 107 | A-101-  | A-111-  | VSKSVRFYLVV 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 2 = a = 6
+= 3 = a = 4
+= 3 = a = 8
+= 4 = p = 5
+= 5 = a = 6
+= 8 = a = 9
+# Listed 7 contacts. EOF.

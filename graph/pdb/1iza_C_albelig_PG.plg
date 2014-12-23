@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iza, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HORMONE
+> pdb_mol_name > INSULIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 16-OCT-92
+> header > HORMONE
+> pdb_org_common > PIG
+> title > ROLE OF B13 GLU IN INSULIN ASSEMBLY: THE HEXAMER STRUCTURE OFRECOMBINANT MUTANT (B13 GLU-> GLN) INSULIN
+> format_version > 2
+> pdbid > 1iza
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SUS SCROFA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iza | C | albelig | 1 | 1 | H | 56 | 60 | C-3-  | C-7-  | VEQDE 
+| 1iza | C | albelig | 2 | 2 | H | 66 | 68 | C-13-  | C-15-  | LYQ 
+| 1iza | C | albelig | 3 | 3 | H | 70 | 72 | C-17-  | C-19-  | ENY 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+# Listed 1 contacts. EOF.

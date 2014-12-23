@@ -1,0 +1,82 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f6m, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALTERNATE CONFORMATION, TERNARY COMPLEX, DOMAIN MOTION,REDOX-ACTIVE CENTER, NADP, FAD, ELECTRON TRANSPORT,OXIDOREDUCTASE
+> pdb_mol_name > THIOREDOXIN REDUCTASE
+> graphtype > albelig
+> resolution > 2.95
+> date > 22-JUN-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A COMPLEX BETWEEN THIOREDOXINREDUCTASE, THIOREDOXIN, AND THE NADP+ ANALOG, AADP+
+> format_version > 2
+> pdbid > 1f6m
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f6m | A | albelig | 1 | 1 | E | 4 | 11 | A-4-  | A-11-  | KHSKLLIL 
+| 1f6m | A | albelig | 2 | 2 | H | 15 | 26 | A-15-  | A-26-  | PAGYTAAVYAAR 
+| 1f6m | A | albelig | 3 | 3 | E | 32 | 34 | A-32-  | A-34-  | VLI 
+| 1f6m | A | albelig | 4 | 4 | H | 42 | 45 | A-42-  | A-45-  | QLTT 
+| 1f6m | A | albelig | 5 | 5 | H | 61 | 74 | A-61-  | A-74-  | GPLLMERMHEHATK 
+| 1f6m | A | albelig | 6 | 6 | E | 78 | 80 | A-78-  | A-80-  | EII 
+| 1f6m | A | albelig | 7 | 7 | E | 84 | 88 | A-84-  | A-88-  | INKVD 
+| 1f6m | A | albelig | 8 | 8 | E | 94 | 98 | A-94-  | A-98-  | FRLNG 
+| 1f6m | A | albelig | 9 | 9 | E | 101 | 110 | A-101-  | A-110-  | GEYTCDALII 
+| 1f6m | A | albelig | 10 | 10 | E | 114 | 116 | A-114-  | A-116-  | ASA 
+| 1f6m | A | albelig | 11 | 11 | H | 122 | 126 | A-122-  | A-126-  | PSEEA 
+| 1f6m | A | albelig | 12 | 12 | H | 136 | 143 | A-136-  | A-143-  | ATADGFFY 
+| 1f6m | A | albelig | 13 | 13 | E | 147 | 151 | A-147-  | A-151-  | KVAVI 
+| 1f6m | A | albelig | 14 | 14 | H | 155 | 164 | A-155-  | A-164-  | NTAVEEALYL 
+| 1f6m | A | albelig | 15 | 15 | E | 170 | 175 | A-170-  | A-175-  | EVHLIH 
+| 1f6m | A | albelig | 16 | 16 | H | 184 | 196 | A-184-  | A-196-  | KILIKRLMDKVEN 
+| 1f6m | A | albelig | 17 | 17 | E | 199 | 203 | A-199-  | A-203-  | IILHT 
+| 1f6m | A | albelig | 18 | 18 | E | 207 | 213 | A-207-  | A-213-  | LEEVTGD 
+| 1f6m | A | albelig | 19 | 19 | E | 216 | 222 | A-216-  | A-222-  | GVTGVRL 
+| 1f6m | A | albelig | 20 | 20 | E | 232 | 235 | A-232-  | A-235-  | ESLD 
+| 1f6m | A | albelig | 21 | 21 | E | 239 | 241 | A-239-  | A-241-  | LFV 
+| 1f6m | A | albelig | 22 | 22 | E | 245 | 247 | A-245-  | A-247-  | HSP 
+| 1f6m | A | albelig | 23 | 23 | H | 250 | 252 | A-250-  | A-252-  | AIF 
+| 1f6m | A | albelig | 24 | 24 | E | 281 | 283 | A-281-  | A-283-  | VFA 
+| 1f6m | A | albelig | 25 | 25 | H | 286 | 288 | A-286-  | A-288-  | DVM 
+| 1f6m | A | albelig | 26 | 26 | H | 295 | 318 | A-295-  | A-318-  | AITSAGTGCMAALDAERYLDGLAD 
+| 1f6m | A | albelig | 27 | 27 | L | 1720 | 1720 | A-1500-  | A-1500-  | J 
+| 1f6m | A | albelig | 28 | 28 | L | 1721 | 1721 | A-1501-  | A-1501-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = p = 9
+= 1 = l = 27
+= 2 = m = 5
+= 2 = l = 27
+= 3 = p = 6
+= 3 = l = 27
+= 4 = l = 27
+= 7 = a = 8
+= 7 = l = 27
+= 8 = a = 9
+= 9 = p = 24
+= 9 = m = 26
+= 10 = a = 22
+= 10 = l = 27
+= 12 = m = 14
+= 13 = p = 15
+= 13 = p = 21
+= 13 = l = 28
+= 14 = l = 27
+= 14 = l = 28
+= 15 = p = 17
+= 15 = l = 28
+= 16 = m = 17
+= 18 = a = 19
+= 19 = a = 20
+= 22 = l = 27
+= 22 = l = 28
+= 23 = l = 27
+= 25 = l = 27
+= 26 = l = 27
+= 27 = l = 28
+# Listed 33 contacts. EOF.

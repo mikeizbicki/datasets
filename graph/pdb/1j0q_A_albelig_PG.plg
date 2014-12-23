@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j0q, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HELIX, BETA, ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME B5
+> graphtype > albelig
+> resolution > -1.0
+> date > 20-NOV-02
+> header > ELECTRON TRANSPORT
+> pdb_org_common > CATTLE
+> title > SOLUTION STRUCTURE OF OXIDIZED BOVINE MICROSOMAL CYTOCHROMEB5 MUTANT V61H
+> format_version > 2
+> pdbid > 1j0q
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j0q | A | albelig | 1 | 1 | H | 7 | 12 | A-9-  | A-14-  | LEEIQK 
+| 1j0q | A | albelig | 2 | 2 | E | 20 | 23 | A-22-  | A-25-  | WLIL 
+| 1j0q | A | albelig | 3 | 3 | E | 26 | 29 | A-28-  | A-31-  | KVYD 
+| 1j0q | A | albelig | 4 | 4 | H | 33 | 36 | A-35-  | A-38-  | FLEE 
+| 1j0q | A | albelig | 5 | 5 | H | 42 | 47 | A-44-  | A-49-  | EVLREQ 
+| 1j0q | A | albelig | 6 | 6 | H | 53 | 58 | A-55-  | A-60-  | TENFED 
+| 1j0q | A | albelig | 7 | 7 | H | 63 | 72 | A-65-  | A-74-  | TDARELSKTF 
+| 1j0q | A | albelig | 8 | 8 | E | 73 | 76 | A-75-  | A-78-  | IIGE 
+| 1j0q | A | albelig | 9 | 9 | L | 83 | 83 | A-201-  | A-201-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = l = 9
+= 3 = m = 7
+= 3 = a = 8
+= 3 = l = 9
+= 4 = l = 9
+= 5 = l = 9
+= 6 = l = 9
+= 7 = m = 8
+= 7 = l = 9
+# Listed 10 contacts. EOF.

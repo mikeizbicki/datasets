@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0n, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME BC1, MEMBRANE PROTEIN, HEME PROTEIN, IRON SULFUR PROTEIN,CYTOCHROME B, CYTOCHROME C1, MITOCHONDRIAL PROCESSING PROTEASE, MPP,OXIDOREDUCTASE
+> pdb_mol_name > UBIQUINOL-CYTOCHROME C REDUCTASE COMPLEX 14 KDA PROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 11-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > CATTLE
+> title > NATIVE STRUCTURE OF BOVINE MITOCHONDRIAL CYTOCHROME BC1 COMPLEX
+> format_version > 2
+> pdbid > 1l0n
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0n | F | albelig | 1 | 1 | H | 1691 | 1707 | F-8-  | F-24-  | ASSRWLEGIRKWYYNAA 
+| 1l0n | F | albelig | 2 | 2 | H | 1710 | 1712 | F-27-  | F-29-  | NKL 
+| 1l0n | F | albelig | 3 | 3 | H | 1716 | 1719 | F-33-  | F-36-  | RDDT 
+| 1l0n | F | albelig | 4 | 4 | H | 1724 | 1732 | F-41-  | F-49-  | DDVKEAIRR 
+| 1l0n | F | albelig | 5 | 5 | H | 1735 | 1753 | F-52-  | F-70-  | ENLYDDRVFRIKRALDLSM 
+| 1l0n | F | albelig | 6 | 6 | H | 1760 | 1762 | F-77-  | F-79-  | KEQ 
+| 1l0n | F | albelig | 7 | 7 | H | 1774 | 1790 | F-91-  | F-107-  | EPYLKEVIRERKEREEW 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 7
+# Listed 1 contacts. EOF.

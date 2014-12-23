@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ck4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > I-DOMAIN, METAL BINDING, COLLAGEN, ADHESION, STRUCTURALPROTEIN
+> pdb_mol_name > INTEGRIN ALPHA-1
+> graphtype > albelig
+> resolution > 2.2
+> date > 27-APR-99
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT A1B1 INTEGRIN I-DOMAIN.
+> format_version > 2
+> pdbid > 1ck4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ck4 | B | albelig | 1 | 1 | E | 196 | 203 | B-147-  | B-154-  | LDIVIVLD 
+| 1ck4 | B | albelig | 2 | 2 | H | 211 | 222 | B-162-  | B-173-  | WESVIAFLNDLL 
+| 1ck4 | B | albelig | 3 | 3 | E | 233 | 239 | B-184-  | B-190-  | QVGIVQY 
+| 1ck4 | B | albelig | 4 | 4 | E | 243 | 247 | B-194-  | B-198-  | VTHEF 
+| 1ck4 | B | albelig | 5 | 5 | H | 255 | 262 | B-206-  | B-213-  | TEEVLVAA 
+| 1ck4 | B | albelig | 6 | 6 | H | 275 | 286 | B-226-  | B-237-  | TALGIDTARKEA 
+| 1ck4 | B | albelig | 7 | 7 | E | 298 | 305 | B-249-  | B-256-  | KKVMVIVT 
+| 1ck4 | B | albelig | 8 | 8 | H | 312 | 324 | B-263-  | B-275-  | NYRLKQVIQDCED 
+| 1ck4 | B | albelig | 9 | 9 | E | 328 | 334 | B-279-  | B-285-  | QRFSIAI 
+| 1ck4 | B | albelig | 10 | 10 | H | 336 | 340 | B-287-  | B-291-  | GHYNR 
+| 1ck4 | B | albelig | 11 | 11 | H | 346 | 355 | B-297-  | B-306-  | EKFVEEIKSI 
+| 1ck4 | B | albelig | 12 | 12 | H | 360 | 363 | B-311-  | B-314-  | TEKH 
+| 1ck4 | B | albelig | 13 | 13 | E | 364 | 367 | B-315-  | B-318-  | FFNV 
+| 1ck4 | B | albelig | 14 | 14 | H | 370 | 375 | B-321-  | B-326-  | ELALVT 
+| 1ck4 | B | albelig | 15 | 15 | H | 377 | 386 | B-328-  | B-337-  | VKALGERIFA 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = m = 5
+= 3 = a = 4
+= 4 = m = 6
+= 6 = m = 8
+= 7 = p = 9
+= 8 = p = 11
+= 9 = a = 11
+= 9 = m = 12
+= 9 = p = 13
+= 12 = m = 13
+# Listed 12 contacts. EOF.

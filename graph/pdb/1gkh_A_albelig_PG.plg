@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gkh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MUTANT, K69H, GVP, SINGLE-STRANDED DNA-BINDING PROTEIN, DNA-BINDINGPROTEIN
+> pdb_mol_name > GENE V PROTEIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 04-MAR-97
+> header > DNA-BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > MUTANT K69H OF GENE V PROTEIN (SINGLE-STRANDED DNA BINDING PROTEIN)
+> format_version > 2
+> pdbid > 1gkh
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gkh | A | albelig | 1 | 1 | E | 3 | 6 | A-3-  | A-6-  | KVEI 
+| 1gkh | A | albelig | 2 | 2 | H | 8 | 10 | A-8-  | A-10-  | PSQ 
+| 1gkh | A | albelig | 3 | 3 | E | 14 | 19 | A-14-  | A-19-  | TTRSGV 
+| 1gkh | A | albelig | 4 | 4 | E | 25 | 36 | A-25-  | A-36-  | PYSLNEQLCYVD 
+| 1gkh | A | albelig | 5 | 5 | E | 43 | 48 | A-43-  | A-48-  | VLVKIT 
+| 1gkh | A | albelig | 6 | 6 | E | 59 | 63 | A-59-  | A-63-  | GLYTV 
+| 1gkh | A | albelig | 7 | 7 | H | 65 | 67 | A-65-  | A-67-  | LSS 
+| 1gkh | A | albelig | 8 | 8 | E | 68 | 70 | A-68-  | A-70-  | FHV 
+| 1gkh | A | albelig | 9 | 9 | E | 76 | 78 | A-76-  | A-78-  | LMI 
+| 1gkh | A | albelig | 10 | 10 | E | 83 | 85 | A-83-  | A-85-  | LVP 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 3 = a = 4
+= 4 = a = 5
+= 6 = a = 10
+= 7 = m = 8
+= 8 = a = 9
+# Listed 7 contacts. EOF.

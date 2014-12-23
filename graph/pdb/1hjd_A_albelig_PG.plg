@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR, SIGNAL
+> pdb_mol_name > HUMAN MELANOMA INHIBITORY ACTIVITY PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 11-JAN-01
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > MELANOMA INHIBITORY ACTIVITY (MIA) PROTEIN
+> format_version > 2
+> pdbid > 1hjd
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjd | A | albelig | 1 | 1 | E | 3 | 6 | A-10-  | A-13-  | RKLA 
+| 1hjd | A | albelig | 2 | 2 | E | 16 | 20 | A-23-  | A-27-  | SMAVA 
+| 1hjd | A | albelig | 3 | 3 | E | 39 | 47 | A-46-  | A-54-  | VVYVFSKLK 
+| 1hjd | A | albelig | 4 | 4 | E | 53 | 58 | A-60-  | A-65-  | FWGGSV 
+| 1hjd | A | albelig | 5 | 5 | E | 71 | 73 | A-78-  | A-80-  | GYF 
+| 1hjd | A | albelig | 6 | 6 | E | 78 | 83 | A-85-  | A-90-  | VREDQT 
+| 1hjd | A | albelig | 7 | 7 | E | 89 | 92 | A-96-  | A-99-  | VDVK 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 7
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 4
+= 4 = a = 5
+# Listed 6 contacts. EOF.

@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b0b, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEMOPROTEIN, SULFIDE CARRIER, GLOBINS, OXYGEN TRANSPORT,OXYGEN STORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN
+> graphtype > albelig
+> resolution > 1.43
+> date > 06-NOV-98
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > HEMOGLOBIN I FROM THE CLAM LUCINA PECTINATA, CYANIDECOMPLEX AT 100 KELVIN
+> format_version > 2
+> pdbid > 1b0b
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LUCINA PECTINATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b0b | A | albelig | 1 | 1 | H | 4 | 35 | A-4-  | A-35-  | AAQKDNVKSSWAKASAAWGTAGPEFFMALFDA 
+| 1b0b | A | albelig | 2 | 2 | H | 37 | 41 | A-37-  | A-41-  | DDVFA 
+| 1b0b | A | albelig | 3 | 3 | H | 52 | 54 | A-52-  | A-54-  | KGT 
+| 1b0b | A | albelig | 4 | 4 | H | 59 | 76 | A-59-  | A-76-  | PEMAAQAQSFKGLVSNWV 
+| 1b0b | A | albelig | 5 | 5 | H | 82 | 98 | A-82-  | A-98-  | AGALEGQCKTFAANHKA 
+| 1b0b | A | albelig | 6 | 6 | H | 103 | 120 | A-103-  | A-120-  | AGQLEAAFKVLAGFMKSY 
+| 1b0b | A | albelig | 7 | 7 | H | 124 | 141 | A-124-  | A-141-  | EGAWTAVAGALMGMIRPD 
+| 1b0b | A | albelig | 8 | 8 | L | 144 | 144 | A-145-  | A-145-  | J 
+| 1b0b | A | albelig | 9 | 9 | L | 145 | 145 | A-144-  | A-144-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 1 = m = 7
+= 1 = l = 8
+= 2 = l = 9
+= 4 = m = 5
+= 4 = l = 8
+= 4 = l = 9
+= 5 = p = 7
+= 5 = l = 8
+= 5 = l = 9
+= 6 = a = 7
+= 6 = l = 9
+= 8 = l = 9
+# Listed 14 contacts. EOF.

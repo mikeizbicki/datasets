@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h4x, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL DIFFERENTIATION, CRYSTALLOGRAPHY, PHOSPHORYLATION,SIGMA FACTOR, SPORULATION
+> pdb_mol_name > ANTI-SIGMA F FACTOR ANTAGONIST
+> graphtype > albelig
+> resolution > 1.16
+> date > 15-MAY-01
+> header > CELL DIFFERENTIATION
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE BACILLUS CELL FATE DETERMINANT SPOIIAA INTHE PHOSPHORYLATED FORM
+> format_version > 2
+> pdbid > 1h4x
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SPHAERICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h4x | B | albelig | 1 | 1 | E | 114 | 120 | B-3-  | B-9-  | FQLEMVT 
+| 1h4x | B | albelig | 2 | 2 | E | 123 | 128 | B-12-  | B-17-  | TVVIRL 
+| 1h4x | B | albelig | 3 | 3 | E | 130 | 132 | B-19-  | B-21-  | GEL 
+| 1h4x | B | albelig | 4 | 4 | H | 134 | 150 | B-23-  | B-39-  | HHAVEQIRAKISTAIFQ 
+| 1h4x | B | albelig | 5 | 5 | E | 155 | 159 | B-44-  | B-48-  | TIIWN 
+| 1h4x | B | albelig | 6 | 6 | E | 163 | 166 | B-52-  | B-55-  | LSFM 
+| 1h4x | B | albelig | 7 | 7 | H | 169 | 183 | B-58-  | B-72-  | SGVGLVLGRMRELEA 
+| 1h4x | B | albelig | 8 | 8 | E | 187 | 191 | B-76-  | B-80-  | RTILL 
+| 1h4x | B | albelig | 9 | 9 | H | 195 | 204 | B-84-  | B-93-  | PTMRKVFQFS 
+| 1h4x | B | albelig | 10 | 10 | H | 207 | 209 | B-96-  | B-98-  | GPW 
+| 1h4x | B | albelig | 11 | 11 | H | 215 | 222 | B-104-  | B-111-  | EEEAIDRV 
+| 1h4x | B | albelig | 12 | 12 | L | 227 | 227 | B-1113-  | B-1113-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = p = 5
+= 3 = p = 6
+= 4 = p = 7
+= 5 = p = 8
+= 7 = l = 12
+= 8 = m = 10
+# Listed 7 contacts. EOF.

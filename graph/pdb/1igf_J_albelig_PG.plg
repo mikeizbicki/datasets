@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1igf, chain J.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG1-KAPPA B13I2 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.8
+> date > 21-MAR-91
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURES OF AN ANTIBODY TO A PEPTIDE AND ITS COMPLEX WITHPEPTIDE ANTIGEN AT 2.8 ANGSTROMS
+> format_version > 2
+> pdbid > 1igf
+> experiment > X-RAY DIFFRACTION
+> chainid > J
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1igf | J | albelig | 1 | 1 | E | 662 | 666 | J-3-  | J-7-  | QLVES 
+| 1igf | J | albelig | 2 | 2 | E | 677 | 684 | J-18-  | J-25-  | LKLSGAAS 
+| 1igf | J | albelig | 3 | 3 | E | 693 | 698 | J-34-  | J-39-  | MSWVRQ 
+| 1igf | J | albelig | 4 | 4 | E | 704 | 710 | J-45-  | J-51-  | LEWVAGI 
+| 1igf | J | albelig | 5 | 5 | E | 737 | 742 | J-77-  | J-82-  | TLSLQM 
+| 1igf | J | albelig | 6 | 6 | H | 747 | 749 | J-84-  | J-86-  | SED 
+| 1igf | J | albelig | 7 | 7 | E | 751 | 758 | J-88-  | J-95-  | AIYYGTRY 
+| 1igf | J | albelig | 8 | 8 | E | 765 | 768 | J-100-C | J-103-  | FDYW 
+| 1igf | J | albelig | 9 | 9 | E | 772 | 776 | J-107-  | J-111-  | TTLTV 
+| 1igf | J | albelig | 10 | 10 | E | 785 | 789 | J-120-  | J-124-  | SVYPL 
+| 1igf | J | albelig | 11 | 11 | E | 800 | 810 | J-137-  | J-147-  | MVTLGHLVKGY 
+| 1igf | J | albelig | 12 | 12 | E | 816 | 819 | J-153-  | J-157-  | TVTW 
+| 1igf | J | albelig | 13 | 13 | H | 820 | 822 | J-162-  | J-164-  | NSG 
+| 1igf | J | albelig | 14 | 14 | E | 840 | 849 | J-185-  | J-194-  | YTLSSSVTVP 
+| 1igf | J | albelig | 15 | 15 | E | 858 | 864 | J-205-  | J-212-  | VTHNVAH 
+| 1igf | J | albelig | 16 | 16 | E | 869 | 875 | J-217-  | J-223-  | TKVDKKI 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 2 = a = 3
+= 2 = a = 5
+= 2 = p = 7
+= 3 = a = 4
+= 3 = p = 5
+= 3 = a = 7
+= 6 = m = 9
+= 7 = a = 8
+= 7 = a = 9
+= 10 = a = 11
+= 11 = a = 14
+= 11 = p = 15
+= 12 = m = 13
+= 12 = p = 14
+= 12 = a = 15
+= 13 = m = 15
+= 15 = a = 16
+# Listed 19 contacts. EOF.

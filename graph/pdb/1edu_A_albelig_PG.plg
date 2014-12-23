@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1edu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-HELIX, ENDOCYTOSIS/EXOCYTOSIS COMPLEX
+> pdb_mol_name > EH DOMAIN BINDING PROTEIN EPSIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 28-JAN-00
+> header > ENDOCYTOSIS/EXOCYTOSIS
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF THE ENTH DOMAIN OF RAT EPSIN 1
+> format_version > 2
+> pdbid > 1edu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1edu | A | albelig | 1 | 1 | H | 8 | 16 | A-9-  | A-17-  | EAEIKVREA 
+| 1edu | A | albelig | 2 | 2 | H | 26 | 35 | A-27-  | A-36-  | SSLXSEIADL 
+| 1edu | A | albelig | 3 | 3 | H | 39 | 53 | A-40-  | A-54-  | VVAFSEIXSXIWKRL 
+| 1edu | A | albelig | 4 | 4 | H | 57 | 76 | A-58-  | A-77-  | GKNWRHVYKAXTLXEYLIKT 
+| 1edu | A | albelig | 5 | 5 | H | 79 | 87 | A-80-  | A-88-  | ERVSQQCKE 
+| 1edu | A | albelig | 6 | 6 | H | 89 | 97 | A-90-  | A-98-  | XYAVQTLKD 
+| 1edu | A | albelig | 7 | 7 | H | 109 | 124 | A-110-  | A-125-  | GVNVREKAKQLVALLR 
+| 1edu | A | albelig | 8 | 8 | H | 126 | 144 | A-127-  | A-145-  | EDRLREERAHALKTKEKLA 
+| 1edu | A | albelig | 9 | 9 | L | 156 | 156 | A-788-  | A-788-  | J 
+| 1edu | A | albelig | 10 | 10 | L | 157 | 157 | A-789-  | A-789-  | J 
+| 1edu | A | albelig | 11 | 11 | L | 158 | 158 | A-793-  | A-793-  | J 
+| 1edu | A | albelig | 12 | 12 | L | 159 | 159 | A-794-  | A-794-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 2 = m = 4
+= 3 = m = 4
+= 3 = m = 5
+= 4 = p = 7
+= 4 = m = 8
+= 4 = l = 9
+= 4 = l = 12
+= 6 = a = 7
+= 6 = l = 11
+= 7 = l = 9
+= 7 = l = 11
+= 8 = l = 9
+# Listed 14 contacts. EOF.

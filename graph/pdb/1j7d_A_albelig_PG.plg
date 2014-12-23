@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j7d, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUITIN, UBC, DNA REPAIR, TRAF6, NFKB,, UNKNOWN FUNCTION
+> pdb_mol_name > MMS2
+> graphtype > albelig
+> resolution > 1.85
+> date > 16-MAY-01
+> header > UNKNOWN FUNCTION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HMMS2-HUBC13
+> format_version > 2
+> pdbid > 1j7d
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j7d | A | albelig | 1 | 1 | H | 6 | 19 | A-11-  | A-24-  | RNFRLLEELEEGQK 
+| 1j7d | A | albelig | 2 | 2 | E | 26 | 30 | A-31-  | A-35-  | VSWGL 
+| 1j7d | A | albelig | 3 | 3 | E | 40 | 46 | A-45-  | A-51-  | RWTGMII 
+| 1j7d | A | albelig | 4 | 4 | E | 57 | 63 | A-62-  | A-68-  | IYSLKVE 
+| 1j7d | A | albelig | 5 | 5 | E | 74 | 77 | A-79-  | A-82-  | SVRF 
+| 1j7d | A | albelig | 6 | 6 | H | 95 | 97 | A-100-  | A-102-  | ARS 
+| 1j7d | A | albelig | 7 | 7 | H | 99 | 102 | A-104-  | A-107-  | PVLA 
+| 1j7d | A | albelig | 8 | 8 | H | 110 | 121 | A-115-  | A-126-  | IKVVLQELRRLM 
+| 1j7d | A | albelig | 9 | 9 | H | 124 | 127 | A-129-  | A-132-  | KENM 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 8
+= 3 = a = 4
+= 3 = p = 8
+= 4 = a = 5
+# Listed 5 contacts. EOF.

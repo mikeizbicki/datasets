@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1huj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, MAGNESIUM, 3D-STRUCTURE
+> pdb_mol_name > INORGANIC PYROPHOSPHATASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 26-DEC-97
+> header > HYDROLASE
+> pdb_org_common > BAKER'S YEAST
+> title > REFINED STRUCTURE OF YEAST INORGANIC PYROPHOSPHATASE ANDITS K61R MUTANT
+> format_version > 2
+> pdbid > 1huj
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1huj | A | albelig | 1 | 1 | E | 3 | 9 | A-3-  | A-9-  | TTRQIGA 
+| 1huj | A | albelig | 2 | 2 | E | 16 | 21 | A-16-  | A-21-  | KVYIEK 
+| 1huj | A | albelig | 3 | 3 | E | 24 | 26 | A-24-  | A-26-  | KPV 
+| 1huj | A | albelig | 4 | 4 | E | 35 | 37 | A-35-  | A-37-  | YAD 
+| 1huj | A | albelig | 5 | 5 | H | 38 | 40 | A-38-  | A-40-  | KEN 
+| 1huj | A | albelig | 6 | 6 | E | 42 | 49 | A-42-  | A-49-  | IFNMVVEI 
+| 1huj | A | albelig | 7 | 7 | E | 57 | 59 | A-57-  | A-59-  | LEI 
+| 1huj | A | albelig | 8 | 8 | E | 68 | 70 | A-68-  | A-70-  | IIQ 
+| 1huj | A | albelig | 9 | 9 | E | 92 | 95 | A-92-  | A-95-  | NYGA 
+| 1huj | A | albelig | 10 | 10 | E | 120 | 123 | A-120-  | A-123-  | DVLE 
+| 1huj | A | albelig | 11 | 11 | E | 134 | 143 | A-134-  | A-143-  | VKQVKALGIM 
+| 1huj | A | albelig | 12 | 12 | E | 145 | 147 | A-145-  | A-147-  | LLD 
+| 1huj | A | albelig | 13 | 13 | E | 154 | 159 | A-154-  | A-159-  | KVIAID 
+| 1huj | A | albelig | 14 | 14 | H | 165 | 167 | A-165-  | A-167-  | APK 
+| 1huj | A | albelig | 15 | 15 | H | 171 | 177 | A-171-  | A-177-  | IEDVEKY 
+| 1huj | A | albelig | 16 | 16 | H | 181 | 191 | A-181-  | A-191-  | LLRATNEWFRI 
+| 1huj | A | albelig | 17 | 17 | H | 194 | 196 | A-194-  | A-196-  | IPD 
+| 1huj | A | albelig | 18 | 18 | H | 204 | 207 | A-204-  | A-207-  | AFSG 
+| 1huj | A | albelig | 19 | 19 | E | 209 | 211 | A-209-  | A-211-  | AKN 
+| 1huj | A | albelig | 20 | 20 | H | 212 | 231 | A-212-  | A-231-  | KKYALDIIKETHDSWKQLIA 
+| 1huj | A | albelig | 21 | 21 | H | 255 | 257 | A-255-  | A-257-  | KAA 
+| 1huj | A | albelig | 22 | 22 | E | 265 | 267 | A-265-  | A-267-  | SLK 
+| 1huj | A | albelig | 23 | 23 | H | 274 | 277 | A-274-  | A-277-  | KSID 
+| 1huj | A | albelig | 24 | 24 | L | 564 | 564 | A-282-  | A-282-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 22
+= 2 = a = 3
+= 2 = a = 8
+= 4 = m = 5
+= 4 = a = 6
+= 6 = a = 7
+= 6 = a = 9
+= 6 = a = 11
+= 7 = a = 8
+= 9 = a = 10
+= 9 = l = 24
+= 10 = p = 13
+= 10 = l = 24
+= 11 = a = 13
+= 11 = a = 19
+= 11 = m = 20
+= 13 = l = 24
+= 19 = m = 20
+# Listed 19 contacts. EOF.

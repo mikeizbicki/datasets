@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gmw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METALLOCHAPERONE, CHAPERONE
+> pdb_mol_name > UREE
+> graphtype > albelig
+> resolution > 1.5
+> date > 24-SEP-01
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF UREE
+> format_version > 2
+> pdbid > 1gmw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA AEROGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gmw | B | albelig | 1 | 1 | E | 155 | 159 | B-16-  | B-20-  | ASVTL 
+| 1gmw | B | albelig | 2 | 2 | H | 161 | 164 | B-22-  | B-25-  | IDVR 
+| 1gmw | B | albelig | 3 | 3 | E | 168 | 172 | B-29-  | B-33-  | RVKVT 
+| 1gmw | B | albelig | 4 | 4 | E | 178 | 182 | B-39-  | B-43-  | DAGLL 
+| 1gmw | B | albelig | 5 | 5 | E | 194 | 196 | B-55-  | B-57-  | VLS 
+| 1gmw | B | albelig | 6 | 6 | E | 203 | 208 | B-64-  | B-69-  | FVQVIA 
+| 1gmw | B | albelig | 7 | 7 | E | 210 | 217 | B-71-  | B-78-  | DEEVSVVR 
+| 1gmw | B | albelig | 8 | 8 | H | 221 | 233 | B-82-  | B-94-  | PFXLAKACYALGN 
+| 1gmw | B | albelig | 9 | 9 | E | 239 | 241 | B-100-  | B-102-  | QIX 
+| 1gmw | B | albelig | 10 | 10 | E | 244 | 248 | B-105-  | B-109-  | ELRYH 
+| 1gmw | B | albelig | 11 | 11 | H | 251 | 258 | B-112-  | B-119-  | HVLDDXLR 
+| 1gmw | B | albelig | 12 | 12 | E | 264 | 270 | B-125-  | B-131-  | VTFGQLP 
+| 1gmw | B | albelig | 13 | 13 | L | 573 | 573 | B-1139-  | B-1139-  | J 
+| 1gmw | B | albelig | 14 | 14 | L | 574 | 574 | B-1140-  | B-1140-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 6
+= 3 = a = 4
+= 5 = a = 6
+= 7 = a = 10
+= 7 = a = 12
+= 9 = a = 10
+= 11 = l = 14
+# Listed 7 contacts. EOF.

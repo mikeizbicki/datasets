@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kpm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOLIPASE A2, DABOIA RUSSELLI PULCHELLA, NEUROTOXIC,INFLAMMATION, HYDROLASE
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 1.8
+> date > 01-JAN-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > FIRST STRUCTURAL EVIDENCE OF A SPECIFIC INHIBITION OF PHOSPHOLIPASE A2BY VITAMIN E AND ITS IMPLICATIONS IN INFLAMMATION: CRYSTAL STRUCTUREOF THE COMPLEX FORMED BETWEEN PHOSPHOLIPASE A2 AND VITAMIN E AT 1.8 ARESOLUTION.
+> format_version > 2
+> pdbid > 1kpm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DABOIA RUSSELLII PULCHELLA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kpm | A | albelig | 1 | 1 | H | 2 | 13 | A-2-  | A-13-  | LLEFGKMILEET 
+| 1kpm | A | albelig | 2 | 2 | H | 17 | 20 | A-18-  | A-21-  | AIPS 
+| 1kpm | A | albelig | 3 | 3 | H | 39 | 52 | A-40-  | A-53-  | ATDRCNFVHDDEYG 
+| 1kpm | A | albelig | 4 | 4 | E | 66 | 69 | A-75-  | A-78-  | YKRV 
+| 1kpm | A | albelig | 5 | 5 | E | 72 | 75 | A-81-  | A-84-  | AIVG 
+| 1kpm | A | albelig | 6 | 6 | H | 80 | 98 | A-90-  | A-108-  | SFENRIGEEDKAAAICFRQ 
+| 1kpm | A | albelig | 7 | 7 | H | 100 | 102 | A-110-  | A-112-  | LNT 
+| 1kpm | A | albelig | 8 | 8 | H | 105 | 107 | A-115-  | A-117-  | KKY 
+| 1kpm | A | albelig | 9 | 9 | H | 112 | 114 | A-122-  | A-125-  | DFL 
+| 1kpm | A | albelig | 10 | 10 | L | 244 | 244 | A-401-  | A-401-  | J 
+| 1kpm | A | albelig | 11 | 11 | L | 245 | 245 | A-504-  | A-504-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 6
+= 1 = l = 10
+= 2 = l = 10
+= 3 = a = 6
+= 3 = l = 10
+= 3 = l = 11
+= 4 = a = 5
+= 5 = m = 6
+= 6 = l = 10
+# Listed 10 contacts. EOF.

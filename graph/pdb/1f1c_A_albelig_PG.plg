@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f1c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIMERIC CYTOCHROME, ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME C549
+> graphtype > albelig
+> resolution > 2.3
+> date > 18-MAY-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CYTOCHROME C549
+> format_version > 2
+> pdbid > 1f1c
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ARTHROSPIRA MAXIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f1c | A | albelig | 1 | 1 | E | 7 | 9 | A-9-  | A-11-  | TFP 
+| 1f1c | A | albelig | 2 | 2 | E | 16 | 18 | A-18-  | A-20-  | TAV 
+| 1f1c | A | albelig | 3 | 3 | H | 21 | 34 | A-23-  | A-36-  | LKEIKKGQQVFNAA 
+| 1f1c | A | albelig | 4 | 4 | H | 36 | 42 | A-38-  | A-44-  | AQCHALG 
+| 1f1c | A | albelig | 5 | 5 | H | 54 | 58 | A-56-  | A-60-  | PEALA 
+| 1f1c | A | albelig | 6 | 6 | H | 67 | 75 | A-69-  | A-77-  | IAALVDYIK 
+| 1f1c | A | albelig | 7 | 7 | H | 100 | 102 | A-102-  | A-104-  | PKM 
+| 1f1c | A | albelig | 8 | 8 | H | 107 | 127 | A-109-  | A-129-  | EDDLYNVAGYILLQPKVRGEQ 
+| 1f1c | A | albelig | 9 | 9 | L | 260 | 260 | A-200-  | A-200-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 8
+= 3 = m = 8
+= 3 = l = 9
+= 4 = l = 9
+= 5 = l = 9
+= 6 = a = 8
+= 6 = l = 9
+= 7 = l = 9
+= 8 = l = 9
+# Listed 10 contacts. EOF.

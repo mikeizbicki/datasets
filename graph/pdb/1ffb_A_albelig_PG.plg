@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (SERINE ESTERASE)
+> pdb_mol_name > CUTINASE
+> graphtype > albelig
+> resolution > 1.75
+> date > 07-OCT-95
+> header > HYDROLASE (SERINE ESTERASE)
+> pdb_org_common > UNKNOWN
+> title > CONTRIBUTION OF CUTINASE SERINE 42 SIDE CHAIN TO THESTABILIZATION OF THE OXYANION TRANSITION STATE
+> format_version > 2
+> pdbid > 1ffb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NECTRIA HAEMATOCOCCA MPVI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffb | A | albelig | 1 | 1 | H | 6 | 9 | A-22-  | A-25-  | DLIN 
+| 1ffb | A | albelig | 2 | 2 | H | 12 | 14 | A-28-  | A-30-  | SAS 
+| 1ffb | A | albelig | 3 | 3 | E | 18 | 23 | A-34-  | A-39-  | VIFIYA 
+| 1ffb | A | albelig | 4 | 4 | H | 36 | 47 | A-52-  | A-63-  | GPSIASNLESAF 
+| 1ffb | A | albelig | 5 | 5 | E | 52 | 56 | A-68-  | A-72-  | VWIQG 
+| 1ffb | A | albelig | 6 | 6 | H | 67 | 69 | A-83-  | A-85-  | DDA 
+| 1ffb | A | albelig | 7 | 7 | H | 76 | 92 | A-92-  | A-108-  | SAAIREMLGLFQQANTK 
+| 1ffb | A | albelig | 8 | 8 | E | 97 | 103 | A-113-  | A-119-  | TLIAGGY 
+| 1ffb | A | albelig | 9 | 9 | H | 105 | 116 | A-121-  | A-132-  | QGAALAAASIED 
+| 1ffb | A | albelig | 10 | 10 | H | 119 | 122 | A-135-  | A-138-  | SAIR 
+| 1ffb | A | albelig | 11 | 11 | E | 125 | 131 | A-141-  | A-147-  | IAGTVLF 
+| 1ffb | A | albelig | 12 | 12 | H | 148 | 150 | A-164-  | A-166-  | ADR 
+| 1ffb | A | albelig | 13 | 13 | E | 151 | 154 | A-167-  | A-170-  | TKVF 
+| 1ffb | A | albelig | 14 | 14 | H | 160 | 163 | A-176-  | A-179-  | LVNT 
+| 1ffb | A | albelig | 15 | 15 | H | 170 | 173 | A-186-  | A-189-  | APHL 
+| 1ffb | A | albelig | 16 | 16 | H | 176 | 180 | A-192-  | A-196-  | GPDAR 
+| 1ffb | A | albelig | 17 | 17 | H | 182 | 194 | A-198-  | A-210-  | PAPEFLIEKVRAV 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 7
+= 3 = p = 5
+= 3 = p = 8
+= 7 = m = 9
+= 8 = m = 9
+= 8 = p = 11
+= 10 = m = 11
+= 11 = m = 12
+= 11 = p = 13
+= 11 = a = 17
+= 12 = m = 13
+= 13 = m = 17
+= 16 = m = 17
+# Listed 14 contacts. EOF.

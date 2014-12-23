@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ghv, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THREE-CENTERED, VERY SHORT HYDROGEN BOND, OXYANION HOLE WATER, SHIFTOF PKA OF HIS57, STRUCTURE-BASED DRUG DESIGN, SPECIFICITY,UROKINASE, TRYPSIN, THROMBIN, ZN+2-MEDIATED INHIBITION, BLOODCLOTTING, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > THROMBIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 22-JAN-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > A NOVEL SERINE PROTEASE INHIBITION MOTIF INVOLVING A MULTI-CENTEREDSHORT HYDROGEN BONDING NETWORK AT THE ACTIVE SITE
+> format_version > 2
+> pdbid > 1ghv
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ghv | L | albelig | 1 | 1 | H | 16 | 18 | L-8-  | L-10-  | EKK 
+| 1ghv | L | albelig | 2 | 2 | H | 25 | 30 | L-14-C | L-14-H | ERELLE 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iam, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RHINOVIRUS RECEPTOR, CELL ADHESION, INTEGRIN LIGAND, GLYCOPROTEIN,LFA-1 LIGAND, IMMUNOGLOBULIN FOLD, TRANSMEMBRANE, VIRAL PROTEINRECEPTOR
+> pdb_mol_name > INTERCELLULAR ADHESION MOLECULE-1
+> graphtype > albelig
+> resolution > 2.1
+> date > 22-FEB-98
+> header > VIRAL PROTEIN RECEPTOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE TWO AMINO-TERMINAL DOMAINS OF HUMAN INTERCELLULARADHESION MOLECULE-1, ICAM-1
+> format_version > 2
+> pdbid > 1iam
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iam | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | TSVS 
+| 1iam | A | albelig | 2 | 2 | E | 8 | 12 | A-8-  | A-12-  | KVILP 
+| 1iam | A | albelig | 3 | 3 | E | 15 | 23 | A-15-  | A-23-  | GSVLVTAST 
+| 1iam | A | albelig | 4 | 4 | E | 30 | 34 | A-30-  | A-34-  | LLGIE 
+| 1iam | A | albelig | 5 | 5 | E | 39 | 42 | A-39-  | A-42-  | KKEL 
+| 1iam | A | albelig | 6 | 6 | E | 49 | 57 | A-49-  | A-57-  | RKVYELSNV 
+| 1iam | A | albelig | 7 | 7 | E | 64 | 68 | A-64-  | A-68-  | MAYSN 
+| 1iam | A | albelig | 8 | 8 | E | 73 | 77 | A-73-  | A-77-  | QSTAK 
+| 1iam | A | albelig | 9 | 9 | E | 79 | 83 | A-79-  | A-83-  | FLTVY 
+| 1iam | A | albelig | 10 | 10 | E | 88 | 91 | A-88-  | A-91-  | RVEL 
+| 1iam | A | albelig | 11 | 11 | E | 103 | 111 | A-103-  | A-111-  | QLTLRCQVE 
+| 1iam | A | albelig | 12 | 12 | H | 116 | 118 | A-116-  | A-118-  | RAQ 
+| 1iam | A | albelig | 13 | 13 | E | 119 | 125 | A-119-  | A-125-  | LTVVLLR 
+| 1iam | A | albelig | 14 | 14 | E | 128 | 134 | A-128-  | A-134-  | KELKREP 
+| 1iam | A | albelig | 15 | 15 | E | 140 | 147 | A-140-  | A-147-  | AEVTTTVL 
+| 1iam | A | albelig | 16 | 16 | E | 156 | 164 | A-156-  | A-164-  | QFSCRTELD 
+| 1iam | A | albelig | 17 | 17 | H | 166 | 168 | A-166-  | A-168-  | RPQ 
+| 1iam | A | albelig | 18 | 18 | E | 172 | 176 | A-172-  | A-176-  | LFENT 
+| 1iam | A | albelig | 19 | 19 | L | 186 | 186 | A-275-  | A-275-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 7
+= 1 = p = 8
+= 2 = p = 9
+= 3 = a = 6
+= 3 = p = 7
+= 4 = p = 6
+= 4 = a = 7
+= 5 = a = 6
+= 7 = a = 8
+= 10 = a = 11
+= 10 = a = 16
+= 10 = l = 19
+= 11 = a = 15
+= 11 = p = 16
+= 12 = m = 13
+= 12 = m = 16
+= 13 = a = 14
+= 13 = p = 15
+= 13 = a = 16
+= 14 = a = 15
+= 16 = a = 18
+= 18 = l = 19
+# Listed 23 contacts. EOF.

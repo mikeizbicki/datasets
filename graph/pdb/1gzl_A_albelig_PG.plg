@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gzl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOPROTEIN, HIV ENTRY, INHIBITOR, CROSS-LINK, GP41,COILED COIL
+> pdb_mol_name > FUSION PROTEIN BETWEEN THE HYDROPHOBIC POCKET OF
+> graphtype > albelig
+> resolution > 1.8
+> date > 23-MAY-02
+> header > GLYCOPROTEIN
+> pdb_org_common > YEAST AND HIV
+> title > CRYSTAL STRUCTURE OF C14LINKMID/IQN17: A CROSS-LINKEDINHIBITOR OF HIV-1 ENTRY BOUND TO THE GP41 HYDROPHOBICPOCKET
+> format_version > 2
+> pdbid > 1gzl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE AND HUMAN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gzl | A | albelig | 1 | 1 | H | 2 | 43 | A-2-  | A-43-  | MKQIEDKIEEIESKQKKIENEIARIKKLLQLTVWGIKQLQAR 
+| 1gzl | A | albelig | 2 | 2 | L | 118 | 118 | A-0-  | A-0-  | J 
+| 1gzl | A | albelig | 3 | 3 | L | 120 | 120 | A-1046-  | A-1046-  | J 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 1 = l = 3
+# Listed 2 contacts. EOF.

@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bnb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-DEFENSIN 12
+> pdb_mol_name > BOVINE NEUTROPHIL BETA-DEFENSIN 12
+> graphtype > albelig
+> resolution > -1.0
+> date > 08-MAR-95
+> header > BETA-DEFENSIN 12
+> pdb_org_common > CATTLE
+> title > SOLUTION STRUCTURE OF BOVINE NEUTROPHIL BETA-DEFENSIN 12:THE PEPTIDE FOLD OF THE BETA-DEFENSINS IS IDENTICAL TOTHAT OF THE CLASSICAL DEFENSINS
+> format_version > 2
+> pdbid > 1bnb
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bnb | A | albelig | 1 | 1 | E | 11 | 14 | A-11-  | A-14-  | VNIP 
+| 1bnb | A | albelig | 2 | 2 | E | 22 | 27 | A-22-  | A-27-  | RQIGTN 
+| 1bnb | A | albelig | 3 | 3 | E | 32 | 36 | A-32-  | A-36-  | VKACR 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 3
+# Listed 2 contacts. EOF.

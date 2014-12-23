@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jx7, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NEW FOLD, HEXAMER, STRUCTURAL GENOMICS, BSGC STRUCTUREFUNDED BY NIH, PROTEIN STRUCTURE INITIATIVE, PSI, BERKELEYSTRUCTURAL GENOMICS CENTER, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL PROTEIN YCHN
+> graphtype > albelig
+> resolution > 2.8
+> date > 05-SEP-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF YCHN PROTEIN FROM E.COLI
+> format_version > 2
+> pdbid > 1jx7
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jx7 | E | albelig | 1 | 1 | E | 475 | 480 | E-803-  | E-808-  | KIVIVA 
+| 1jx7 | E | albelig | 2 | 2 | H | 488 | 501 | E-816-  | E-829-  | ESLFNSLRLAIALR 
+| 1jx7 | E | albelig | 3 | 3 | E | 508 | 513 | E-836-  | E-841-  | DLRLFL 
+| 1jx7 | E | albelig | 4 | 4 | H | 515 | 521 | E-843-  | E-849-  | SDAVTAG 
+| 1jx7 | E | albelig | 5 | 5 | H | 533 | 540 | E-861-  | E-868-  | IQQXLEIL 
+| 1jx7 | E | albelig | 6 | 6 | E | 547 | 550 | E-875-  | E-878-  | VKLC 
+| 1jx7 | E | albelig | 7 | 7 | H | 551 | 557 | E-879-  | E-885-  | KTCTDGR 
+| 1jx7 | E | albelig | 8 | 8 | E | 568 | 571 | E-896-  | E-899-  | VEIG 
+| 1jx7 | E | albelig | 9 | 9 | H | 573 | 581 | E-901-  | E-909-  | LVELAQWTL 
+| 1jx7 | E | albelig | 10 | 10 | E | 585 | 588 | E-913-  | E-916-  | KVLT 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 10
+= 2 = m = 5
+= 3 = p = 6
+= 3 = m = 9
+= 4 = m = 7
+= 6 = m = 7
+= 6 = p = 8
+# Listed 8 contacts. EOF.

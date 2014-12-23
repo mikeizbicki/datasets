@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f53, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KILLER TOXIN-LIKE PROTEIN,SKLP, CRYSTALLIN FAMILY
+> pdb_mol_name > YEAST KILLER TOXIN-LIKE PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 12-JUN-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF KILLER TOXIN-LIKE PROTEIN SKLP
+> format_version > 2
+> pdbid > 1f53
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f53 | A | albelig | 1 | 1 | E | 13 | 18 | A-13-  | A-18-  | LKIWSH 
+| 1f53 | A | albelig | 2 | 2 | E | 23 | 28 | A-23-  | A-28-  | QSVDAY 
+| 1f53 | A | albelig | 3 | 3 | E | 41 | 45 | A-41-  | A-45-  | VDKIS 
+| 1f53 | A | albelig | 4 | 4 | E | 52 | 55 | A-52-  | A-55-  | IYYD 
+| 1f53 | A | albelig | 5 | 5 | E | 59 | 62 | A-59-  | A-62-  | DSVR 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 4 = a = 5
+# Listed 3 contacts. EOF.

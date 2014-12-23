@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1huq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > G-PROTEIN, GTP HYDROLYSIS, ENDOCYTOSIS, RAB PROTEIN,MEMBRANE TRAFFICKING, PROTEIN TRANSPORT
+> pdb_mol_name > RAB5C
+> graphtype > albelig
+> resolution > 1.8
+> date > 04-JAN-01
+> header > PROTEIN TRANSPORT
+> pdb_org_common > HOUSE MOUSE
+> title > 1.8A CRYSTAL STRUCTURE OF THE MONOMERIC GTPASE RAB5C (MOUSE)
+> format_version > 2
+> pdbid > 1huq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1huq | A | albelig | 1 | 1 | E | 2 | 10 | A-20-  | A-28-  | CQFKLVLLG 
+| 1huq | A | albelig | 2 | 2 | H | 16 | 25 | A-34-  | A-43-  | KSSLVLRFVK 
+| 1huq | A | albelig | 3 | 3 | E | 38 | 47 | A-56-  | A-65-  | AAFLTQTVCL 
+| 1huq | A | albelig | 4 | 4 | E | 50 | 59 | A-68-  | A-77-  | TTVKFEIWDT 
+| 1huq | A | albelig | 5 | 5 | H | 63 | 73 | A-81-  | A-91-  | ERYHSLAPMYY 
+| 1huq | A | albelig | 6 | 6 | E | 78 | 84 | A-96-  | A-102-  | AAIVVYD 
+| 1huq | A | albelig | 7 | 7 | H | 88 | 104 | A-106-  | A-122-  | TDTFARAKNWVKELQRQ 
+| 1huq | A | albelig | 8 | 8 | E | 110 | 116 | A-128-  | A-134-  | VIALAGN 
+| 1huq | A | albelig | 9 | 9 | H | 121 | 123 | A-139-  | A-141-  | ASK 
+| 1huq | A | albelig | 10 | 10 | H | 128 | 137 | A-146-  | A-155-  | FQEAQAYADD 
+| 1huq | A | albelig | 11 | 11 | E | 141 | 144 | A-159-  | A-162-  | LFME 
+| 1huq | A | albelig | 12 | 12 | H | 153 | 163 | A-171-  | A-181-  | VNEIFMAIAKK 
+| 1huq | A | albelig | 13 | 13 | L | 165 | 165 | A-300-  | A-300-  | J 
+| 1huq | A | albelig | 14 | 14 | L | 166 | 166 | A-200-  | A-200-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 1 = p = 6
+= 1 = l = 14
+= 2 = m = 3
+= 2 = m = 12
+= 2 = l = 13
+= 2 = l = 14
+= 3 = a = 4
+= 3 = m = 12
+= 4 = l = 13
+= 4 = l = 14
+= 5 = p = 7
+= 6 = a = 7
+= 6 = p = 8
+= 8 = p = 11
+= 8 = a = 12
+= 8 = l = 14
+= 10 = m = 11
+= 11 = m = 12
+= 13 = l = 14
+# Listed 21 contacts. EOF.

@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1enp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, PLANT LIPID BIOSYNTHESIS
+> pdb_mol_name > ENOYL ACYL CARRIER PROTEIN REDUCTASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 18-OCT-95
+> header > OXIDOREDUCTASE
+> pdb_org_common > RAPE
+> title > BRASSICA NAPUS ENOYL ACP REDUCTASE/NADH BINARY COMPLEX AT PH 8.0 ANDROOM TEMPERATURE
+> format_version > 2
+> pdbid > 1enp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BRASSICA NAPUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1enp | A | albelig | 1 | 1 | E | 9 | 13 | A-20-  | A-24-  | RAFIA 
+| 1enp | A | albelig | 2 | 2 | H | 21 | 31 | A-32-  | A-42-  | YGWAVAKSLAA 
+| 1enp | A | albelig | 3 | 3 | E | 35 | 41 | A-46-  | A-52-  | EILVGTW 
+| 1enp | A | albelig | 4 | 4 | H | 42 | 53 | A-53-  | A-64-  | VPALNIFETSLR 
+| 1enp | A | albelig | 5 | 5 | H | 59 | 61 | A-70-  | A-72-  | QSR 
+| 1enp | A | albelig | 6 | 6 | E | 73 | 77 | A-84-  | A-88-  | KVYPL 
+| 1enp | A | albelig | 7 | 7 | H | 84 | 86 | A-95-  | A-97-  | PED 
+| 1enp | A | albelig | 8 | 8 | H | 89 | 92 | A-100-  | A-103-  | EDVK 
+| 1enp | A | albelig | 9 | 9 | H | 95 | 99 | A-106-  | A-110-  | KRYAG 
+| 1enp | A | albelig | 10 | 10 | H | 105 | 116 | A-116-  | A-127-  | VQEAAECVRQDF 
+| 1enp | A | albelig | 11 | 11 | E | 119 | 124 | A-130-  | A-135-  | IDILVH 
+| 1enp | A | albelig | 12 | 12 | H | 136 | 138 | A-147-  | A-149-  | LLE 
+| 1enp | A | albelig | 13 | 13 | H | 141 | 153 | A-152-  | A-164-  | RKGYLAAISASSY 
+| 1enp | A | albelig | 14 | 14 | H | 154 | 165 | A-165-  | A-176-  | SFVSLLSHFLPI 
+| 1enp | A | albelig | 15 | 15 | E | 166 | 176 | A-177-  | A-187-  | MNPGGASISLT 
+| 1enp | A | albelig | 16 | 16 | H | 178 | 180 | A-189-  | A-191-  | IAS 
+| 1enp | A | albelig | 17 | 17 | H | 191 | 213 | A-202-  | A-224-  | MSSAKAALESDTRVLAFEAGRKQ 
+| 1enp | A | albelig | 18 | 18 | E | 216 | 222 | A-227-  | A-233-  | RVNTISA 
+| 1enp | A | albelig | 19 | 19 | H | 235 | 246 | A-246-  | A-257-  | FIDTMIEYSYNN 
+| 1enp | A | albelig | 20 | 20 | H | 255 | 266 | A-266-  | A-277-  | ADEVGNAAAFLV 
+| 1enp | A | albelig | 21 | 21 | H | 268 | 270 | A-279-  | A-281-  | PLA 
+| 1enp | A | albelig | 22 | 22 | E | 276 | 280 | A-287-  | A-291-  | ATIYV 
+| 1enp | A | albelig | 23 | 23 | H | 284 | 286 | A-295-  | A-297-  | LNS 
+| 1enp | A | albelig | 24 | 24 | H | 294 | 296 | A-305-  | A-307-  | PVF 
+| 1enp | A | albelig | 25 | 25 | L | 298 | 298 | A-501-  | A-501-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 11
+= 2 = p = 20
+= 2 = l = 25
+= 3 = m = 4
+= 3 = p = 6
+= 3 = l = 25
+= 10 = p = 14
+= 11 = a = 14
+= 11 = p = 15
+= 13 = m = 14
+= 13 = m = 17
+= 13 = l = 25
+= 14 = a = 15
+= 14 = p = 17
+= 15 = a = 17
+= 15 = p = 18
+= 15 = l = 25
+= 17 = m = 18
+= 17 = l = 25
+= 18 = p = 22
+= 18 = l = 25
+= 19 = l = 25
+# Listed 23 contacts. EOF.

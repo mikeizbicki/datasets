@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iru, chain Z.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 20S PROTEASOME, CELL CYCLE, IMMUNE RESPONSE, PROTEOLYSIS,UBIQUITIN, HYDROLASE
+> pdb_mol_name > 20S PROTEASOME
+> graphtype > albelig
+> resolution > 2.75
+> date > 24-OCT-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE MAMMALIAN 20S PROTEASOME AT 2.75 ARESOLUTION
+> format_version > 2
+> pdbid > 1iru
+> experiment > X-RAY DIFFRACTION
+> chainid > Z
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iru | Z | albelig | 1 | 1 | E | 5683 | 5688 | Z-3-  | Z-8-  | TLAFKF 
+| 1iru | Z | albelig | 2 | 2 | E | 5691 | 5696 | Z-11-  | Z-16-  | GVIVAA 
+| 1iru | Z | albelig | 3 | 3 | E | 5700 | 5702 | Z-20-  | Z-22-  | ATA 
+| 1iru | Z | albelig | 4 | 4 | E | 5705 | 5708 | Z-25-  | Z-28-  | YIAS 
+| 1iru | Z | albelig | 5 | 5 | E | 5714 | 5718 | Z-34-  | Z-38-  | VIEIN 
+| 1iru | Z | albelig | 6 | 6 | E | 5721 | 5724 | Z-41-  | Z-44-  | LLGT 
+| 1iru | Z | albelig | 7 | 7 | H | 5729 | 5750 | Z-49-  | Z-70-  | AADCSFWERLLARQCRIYELRN 
+| 1iru | Z | albelig | 8 | 8 | H | 5756 | 5768 | Z-76-  | Z-88-  | VAAASKLLANMVY 
+| 1iru | Z | albelig | 9 | 9 | E | 5778 | 5784 | Z-98-  | Z-104-  | GTMICGW 
+| 1iru | Z | albelig | 10 | 10 | E | 5789 | 5795 | Z-109-  | Z-115-  | PGLYYVD 
+| 1iru | Z | albelig | 11 | 11 | E | 5800 | 5802 | Z-120-  | Z-122-  | RIS 
+| 1iru | Z | albelig | 12 | 12 | E | 5805 | 5808 | Z-125-  | Z-128-  | TFSV 
+| 1iru | Z | albelig | 13 | 13 | H | 5812 | 5820 | Z-132-  | Z-140-  | SVYAYGVMD 
+| 1iru | Z | albelig | 14 | 14 | H | 5829 | 5846 | Z-149-  | Z-166-  | VEQAYDLARRAIYQATYR 
+| 1iru | Z | albelig | 15 | 15 | E | 5853 | 5859 | Z-173-  | Z-179-  | AVNLYHV 
+| 1iru | Z | albelig | 16 | 16 | E | 5864 | 5871 | Z-184-  | Z-191-  | WIRVSSDN 
+| 1iru | Z | albelig | 17 | 17 | H | 5872 | 5879 | Z-192-  | Z-199-  | VADLHEKY 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 1 = a = 10
+= 1 = a = 12
+= 1 = a = 14
+= 2 = p = 10
+= 2 = m = 14
+= 2 = a = 15
+= 3 = a = 4
+= 5 = a = 6
+= 6 = a = 9
+= 7 = m = 8
+= 8 = p = 10
+= 9 = a = 10
+= 10 = a = 11
+= 12 = m = 13
+= 13 = a = 14
+= 14 = m = 16
+= 14 = a = 17
+= 15 = a = 16
+= 16 = m = 17
+# Listed 21 contacts. EOF.

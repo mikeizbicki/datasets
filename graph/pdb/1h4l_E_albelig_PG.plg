@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h4l, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE/KINASE ACTIVATOR, COMPLEX(CYCLINS/CDK), CYCLINS,CYCLIN-DEPENDENT KINASES, CDK5, P35, P25, TRANSFERASE,ATP-BINDING, CELL CYCLE, CELL DIVISION, PHOSPHORYLATION
+> pdb_mol_name > CYCLIN-DEPENDENT KINASE 5 ACTIVATOR
+> graphtype > albelig
+> resolution > 2.65
+> date > 11-MAY-01
+> header > KINASE/KINASE ACTIVATOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE AND REGULATION OF THE CDK5-P25(NCK5A) COMPLEX
+> format_version > 2
+> pdbid > 1h4l
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h4l | E | albelig | 1 | 1 | H | 712 | 726 | E-148-  | E-162-  | TSELLRCLGEFLCRR 
+| 1h4l | E | albelig | 2 | 2 | H | 736 | 750 | E-172-  | E-186-  | TDPVLWLRSVDRSLL 
+| 1h4l | E | albelig | 3 | 3 | H | 762 | 775 | E-198-  | E-211-  | PANVVFLYMLCRDV 
+| 1h4l | E | albelig | 4 | 4 | H | 783 | 801 | E-219-  | E-237-  | DHELQAVLLTCLYLSYSYM 
+| 1h4l | E | albelig | 5 | 5 | H | 818 | 841 | E-254-  | E-277-  | KEAFWDRCLSVINLMSSKMLQINA 
+| 1h4l | E | albelig | 6 | 6 | H | 843 | 855 | E-279-  | E-291-  | PHYFTQVFSDLKN 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = m = 6
+= 2 = p = 4
+= 3 = a = 4
+= 3 = a = 5
+= 3 = m = 6
+= 4 = p = 5
+= 5 = m = 6
+# Listed 9 contacts. EOF.

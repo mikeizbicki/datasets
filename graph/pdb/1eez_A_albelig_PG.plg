@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eez, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MAJOR HISTOCOMPATIBILITY COMPLEX, PEPTIDE BINDING,CRYSTALLOGRAPHY, IMMUNE SYSTEM
+> pdb_mol_name > HLA-A2.1 MHC CLASS I (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.3
+> date > 04-FEB-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE DETERMINATION OF HLA-A2.1 COMPLEXED TOGP2 PEPTIDE VARIANT(I2L/V5L)
+> format_version > 2
+> pdbid > 1eez
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eez | A | albelig | 1 | 1 | E | 3 | 12 | A-3-  | A-12-  | HSMRYFFTSV 
+| 1eez | A | albelig | 2 | 2 | E | 21 | 28 | A-21-  | A-28-  | RFIAVGYV 
+| 1eez | A | albelig | 3 | 3 | E | 31 | 37 | A-31-  | A-37-  | TQFVRFD 
+| 1eez | A | albelig | 4 | 4 | H | 50 | 53 | A-50-  | A-53-  | PWIE 
+| 1eez | A | albelig | 5 | 5 | H | 57 | 84 | A-57-  | A-84-  | PEYWDGETRKVKAHSQTHRVDLGTLRGY 
+| 1eez | A | albelig | 6 | 6 | E | 94 | 103 | A-94-  | A-103-  | TVQRMYGADV 
+| 1eez | A | albelig | 7 | 7 | E | 109 | 118 | A-109-  | A-118-  | FLRGYHQYAY 
+| 1eez | A | albelig | 8 | 8 | E | 121 | 126 | A-121-  | A-126-  | KDYIAL 
+| 1eez | A | albelig | 9 | 9 | E | 133 | 135 | A-133-  | A-135-  | WTA 
+| 1eez | A | albelig | 10 | 10 | H | 138 | 149 | A-138-  | A-149-  | MAAQTTKHKWEA 
+| 1eez | A | albelig | 11 | 11 | H | 152 | 163 | A-152-  | A-163-  | VAEQLRAYLEGT 
+| 1eez | A | albelig | 12 | 12 | H | 164 | 174 | A-164-  | A-174-  | AVEWLRRYLEN 
+| 1eez | A | albelig | 13 | 13 | H | 176 | 179 | A-176-  | A-179-  | KETL 
+| 1eez | A | albelig | 14 | 14 | E | 186 | 192 | A-186-  | A-192-  | KTHMTHH 
+| 1eez | A | albelig | 15 | 15 | E | 198 | 208 | A-198-  | A-208-  | EATLRNWALSF 
+| 1eez | A | albelig | 16 | 16 | E | 214 | 219 | A-214-  | A-219-  | TLTWQR 
+| 1eez | A | albelig | 17 | 17 | H | 225 | 227 | A-225-  | A-227-  | TQD 
+| 1eez | A | albelig | 18 | 18 | E | 241 | 250 | A-241-  | A-250-  | FQKWAAVVVP 
+| 1eez | A | albelig | 19 | 19 | H | 254 | 256 | A-254-  | A-256-  | EQR 
+| 1eez | A | albelig | 20 | 20 | E | 257 | 262 | A-257-  | A-262-  | YTNHVQ 
+| 1eez | A | albelig | 21 | 21 | E | 270 | 272 | A-270-  | A-272-  | LTL 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 12
+= 2 = a = 3
+= 2 = m = 5
+= 5 = a = 6
+= 6 = a = 7
+= 6 = m = 12
+= 7 = a = 8
+= 7 = a = 11
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+= 12 = m = 13
+= 14 = a = 15
+= 15 = a = 16
+= 15 = a = 18
+= 16 = p = 18
+= 16 = m = 19
+= 16 = a = 20
+= 17 = m = 18
+= 19 = m = 20
+= 20 = a = 21
+# Listed 24 contacts. EOF.

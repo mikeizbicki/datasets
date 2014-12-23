@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1icc, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME, X-RAY DIFFRACTION, HEME, ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME B5 OUTER MITOCHONDRIAL MEMBRANE
+> graphtype > albelig
+> resolution > 2.0
+> date > 30-MAR-01
+> header > ELECTRON TRANSPORT
+> pdb_org_common > NORWAY RAT
+> title > RAT OUTER MITOCHONDRIAL MEMBRANE CYTOCHROME B5
+> format_version > 2
+> pdbid > 1icc
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1icc | D | albelig | 1 | 1 | H | 269 | 274 | D-9-  | D-14-  | LEEVAK 
+| 1icc | D | albelig | 2 | 2 | E | 280 | 285 | D-20-  | D-25-  | ETWMVI 
+| 1icc | D | albelig | 3 | 3 | E | 288 | 291 | D-28-  | D-31-  | RVYD 
+| 1icc | D | albelig | 4 | 4 | H | 304 | 309 | D-44-  | D-49-  | EVLREQ 
+| 1icc | D | albelig | 5 | 5 | H | 315 | 320 | D-55-  | D-60-  | TESFED 
+| 1icc | D | albelig | 6 | 6 | H | 325 | 334 | D-65-  | D-74-  | PDAREMLKQY 
+| 1icc | D | albelig | 7 | 7 | E | 335 | 339 | D-75-  | D-79-  | YIGDV 
+| 1icc | D | albelig | 8 | 8 | H | 341 | 343 | D-81-  | D-83-  | PND 
+| 1icc | D | albelig | 9 | 9 | L | 354 | 354 | D-201-  | D-201-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = l = 9
+= 3 = m = 6
+= 3 = a = 7
+= 4 = l = 9
+= 5 = l = 9
+= 6 = m = 7
+= 6 = l = 9
+# Listed 8 contacts. EOF.

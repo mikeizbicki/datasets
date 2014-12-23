@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h4i, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEHYDROGENASE, QUINOPROTEIN
+> pdb_mol_name > METHANOL DEHYDROGENASE SUBUNIT 2
+> graphtype > albelig
+> resolution > 1.94
+> date > 11-MAY-01
+> header > DEHYDROGENASE
+> pdb_org_common > UNKNOWN
+> title > METHYLOBACTERIUM EXTORQUENS METHANOL DEHYDROGENASE
+> format_version > 2
+> pdbid > 1h4i
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > METHYLOBACTERIUM EXTORQUENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h4i | D | albelig | 1 | 1 | H | 1300 | 1303 | D-34-  | D-37-  | PKEL 
+| 1h4i | D | albelig | 2 | 2 | H | 1305 | 1327 | D-39-  | D-61-  | KQADSIKQMEERNKKRVENFKKT 
+| 1h4i | D | albelig | 3 | 3 | H | 1334 | 1336 | D-68-  | D-70-  | VAK 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

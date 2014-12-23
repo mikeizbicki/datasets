@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f04, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME B5, PROTEIN RECOGNITION, SOLUTION STRUCTURE,PARAMAGNETIC NMR, ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME B5
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-MAY-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > CATTLE
+> title > SOLUTION STRUCTURE OF OXIDIZED BOVINE MICROSOMAL CYTOCHROMEB5 MUTANT (E44A, E48A, E56A, D60A) AND ITS INTERACTIONWITH CYTOCHROME C
+> format_version > 2
+> pdbid > 1f04
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f04 | A | albelig | 1 | 1 | H | 7 | 11 | A-9-  | A-13-  | LEEIQ 
+| 1f04 | A | albelig | 2 | 2 | E | 26 | 28 | A-28-  | A-30-  | KVY 
+| 1f04 | A | albelig | 3 | 3 | H | 31 | 33 | A-33-  | A-35-  | TKF 
+| 1f04 | A | albelig | 4 | 4 | H | 43 | 47 | A-45-  | A-49-  | VLRAQ 
+| 1f04 | A | albelig | 5 | 5 | H | 53 | 59 | A-55-  | A-61-  | TANFEAV 
+| 1f04 | A | albelig | 6 | 6 | H | 63 | 72 | A-65-  | A-74-  | TDARELSKTF 
+| 1f04 | A | albelig | 7 | 7 | E | 73 | 76 | A-75-  | A-78-  | IIGE 
+| 1f04 | A | albelig | 8 | 8 | L | 83 | 83 | A-201-  | A-201-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 7
+= 2 = l = 8
+= 3 = l = 8
+= 4 = l = 8
+= 5 = l = 8
+= 6 = m = 7
+= 6 = l = 8
+# Listed 7 contacts. EOF.

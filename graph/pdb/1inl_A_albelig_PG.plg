@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1inl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-BARREL, ROSSMANN FOLD, STRUCTURAL GENOMICS, PSI, PROTEINSTRUCTURE INITIATIVE, MIDWEST CENTER FOR STRUCTURAL GENOMICS, MCSG,TRANSFERASE
+> pdb_mol_name > SPERMIDINE SYNTHASE
+> graphtype > albelig
+> resolution > 1.5
+> date > 14-MAY-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF SPERMIDINE SYNTHASE FROM THERMOTOGA MARITIMA
+> format_version > 2
+> pdbid > 1inl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1inl | A | albelig | 1 | 1 | H | 3 | 6 | A-4-  | A-7-  | LKEL 
+| 1inl | A | albelig | 2 | 2 | E | 16 | 21 | A-17-  | A-22-  | LWYFEY 
+| 1inl | A | albelig | 3 | 3 | E | 27 | 32 | A-28-  | A-33-  | VGLFMK 
+| 1inl | A | albelig | 4 | 4 | E | 35 | 41 | A-36-  | A-42-  | RVIYSGQ 
+| 1inl | A | albelig | 5 | 5 | E | 46 | 52 | A-47-  | A-53-  | RIDIFEN 
+| 1inl | A | albelig | 6 | 6 | E | 56 | 61 | A-57-  | A-62-  | GVVFAL 
+| 1inl | A | albelig | 7 | 7 | E | 64 | 68 | A-65-  | A-69-  | ITMTT 
+| 1inl | A | albelig | 8 | 8 | H | 72 | 86 | A-73-  | A-87-  | EFMYHEMLAHVPMFL 
+| 1inl | A | albelig | 9 | 9 | E | 92 | 97 | A-93-  | A-98-  | KVLIIG 
+| 1inl | A | albelig | 10 | 10 | H | 102 | 107 | A-103-  | A-108-  | GTLREV 
+| 1inl | A | albelig | 11 | 11 | E | 115 | 120 | A-116-  | A-121-  | KAILCE 
+| 1inl | A | albelig | 12 | 12 | H | 123 | 132 | A-124-  | A-133-  | GLVIEAARKY 
+| 1inl | A | albelig | 13 | 13 | H | 134 | 141 | A-135-  | A-142-  | KQTSCGFD 
+| 1inl | A | albelig | 14 | 14 | E | 145 | 149 | A-146-  | A-150-  | AEIVI 
+| 1inl | A | albelig | 15 | 15 | H | 152 | 158 | A-153-  | A-159-  | GAEYVRK 
+| 1inl | A | albelig | 16 | 16 | E | 163 | 169 | A-164-  | A-170-  | FDVIIID 
+| 1inl | A | albelig | 17 | 17 | H | 175 | 184 | A-185-  | A-194-  | EEFYQACYDA 
+| 1inl | A | albelig | 18 | 18 | E | 185 | 194 | A-195-  | A-204-  | LKEDGVFSAE 
+| 1inl | A | albelig | 19 | 19 | H | 202 | 215 | A-212-  | A-225-  | IGWFKLAYRRISKV 
+| 1inl | A | albelig | 20 | 20 | E | 218 | 225 | A-228-  | A-235-  | ITRVYLGF 
+| 1inl | A | albelig | 21 | 21 | E | 233 | 240 | A-243-  | A-250-  | MWSYTFAS 
+| 1inl | A | albelig | 22 | 22 | H | 251 | 255 | A-261-  | A-265-  | PEKVR 
+| 1inl | A | albelig | 23 | 23 | H | 266 | 271 | A-276-  | A-281-  | EEVHVA 
+| 1inl | A | albelig | 24 | 24 | H | 277 | 282 | A-287-  | A-292-  | NFVKKE 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 7
+= 3 = p = 5
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 8 = m = 10
+= 8 = a = 16
+= 8 = a = 18
+= 8 = a = 20
+= 8 = p = 21
+= 9 = p = 11
+= 9 = p = 16
+= 11 = p = 14
+= 12 = m = 13
+= 15 = m = 17
+= 16 = p = 18
+= 17 = a = 18
+= 17 = m = 19
+= 18 = a = 21
+= 19 = m = 20
+= 20 = a = 21
+# Listed 22 contacts. EOF.

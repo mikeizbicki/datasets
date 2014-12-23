@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f9e, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYSTEINE PROTEASE, CASPASE-8, FLICE, MCH5, MACH, APOPTOSIS,HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > CASPASE-8 BETA CHAIN
+> graphtype > albelig
+> resolution > 2.9
+> date > 10-JUL-00
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > CASPASE-8 SPECIFICITY PROBED AT SUBSITE S4: CRYSTAL STRUCTURE OF THECASPASE-8-Z-DEVD-CHO
+> format_version > 2
+> pdbid > 1f9e
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f9e | F | albelig | 1 | 1 | E | 655 | 657 | F-320-  | F-322-  | YIP 
+| 1f9e | F | albelig | 2 | 2 | E | 662 | 666 | F-327-  | F-331-  | FLLGM 
+| 1f9e | F | albelig | 3 | 3 | H | 683 | 698 | F-348-  | F-362-B | WYIQSLCQSLRERCPR 
+| 1f9e | F | albelig | 4 | 4 | H | 702 | 715 | F-366-  | F-379-  | ILTILTEVNYEVSN 
+| 1f9e | F | albelig | 5 | 5 | E | 728 | 731 | F-388-  | F-392-  | QPTF 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 5
+= 3 = a = 4
+# Listed 2 contacts. EOF.

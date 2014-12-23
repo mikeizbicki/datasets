@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cm8, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > P38-GAMMA, GAMMA, PHOSPHORYLATION, MAP KINASE, TRANSFERASE
+> pdb_mol_name > PHOSPHORYLATED MAP KINASE P38-GAMMA
+> graphtype > albelig
+> resolution > 2.4
+> date > 17-MAY-99
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > PHOSPHORYLATED MAP KINASE P38-GAMMA
+> format_version > 2
+> pdbid > 1cm8
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cm8 | B | albelig | 1 | 1 | E | 353 | 358 | B-1027-  | B-1032-  | YRDLQP 
+| 1cm8 | B | albelig | 2 | 2 | E | 362 | 367 | B-1041-  | B-1046-  | VCSAVD 
+| 1cm8 | B | albelig | 3 | 3 | E | 373 | 378 | B-1052-  | B-1057-  | KVAIKK 
+| 1cm8 | B | albelig | 4 | 4 | H | 386 | 401 | B-1065-  | B-1080-  | ELFAKRAYRELRLLKH 
+| 1cm8 | B | albelig | 5 | 5 | E | 412 | 414 | B-1091-  | B-1093-  | DVF 
+| 1cm8 | B | albelig | 6 | 6 | E | 427 | 431 | B-1106-  | B-1110-  | YLVMP 
+| 1cm8 | B | albelig | 7 | 7 | H | 437 | 443 | B-1116-  | B-1122-  | LGKLMKH 
+| 1cm8 | B | albelig | 8 | 8 | H | 448 | 467 | B-1127-  | B-1146-  | EDRIQFLVYQMLKGLRYIHA 
+| 1cm8 | B | albelig | 9 | 9 | H | 477 | 479 | B-1156-  | B-1158-  | PGN 
+| 1cm8 | B | albelig | 10 | 10 | E | 480 | 482 | B-1159-  | B-1161-  | LAV 
+| 1cm8 | B | albelig | 11 | 11 | E | 488 | 490 | B-1167-  | B-1169-  | LKI 
+| 1cm8 | B | albelig | 12 | 12 | H | 510 | 512 | B-1189-  | B-1191-  | RWY 
+| 1cm8 | B | albelig | 13 | 13 | H | 516 | 519 | B-1195-  | B-1198-  | EVIL 
+| 1cm8 | B | albelig | 14 | 14 | H | 528 | 542 | B-1207-  | B-1221-  | VDIWSVGCIMAEMIT 
+| 1cm8 | B | albelig | 15 | 15 | H | 552 | 563 | B-1231-  | B-1242-  | HLDQLKEIMKVT 
+| 1cm8 | B | albelig | 16 | 16 | H | 568 | 572 | B-1247-  | B-1251-  | AEFVQ 
+| 1cm8 | B | albelig | 17 | 17 | H | 577 | 585 | B-1256-  | B-1264-  | DEAKNYMKG 
+| 1cm8 | B | albelig | 18 | 18 | H | 594 | 596 | B-1273-  | B-1275-  | FAS 
+| 1cm8 | B | albelig | 19 | 19 | H | 603 | 612 | B-1282-  | B-1291-  | PLAVNLLEKM 
+| 1cm8 | B | albelig | 20 | 20 | H | 623 | 628 | B-1302-  | B-1307-  | AGEALA 
+| 1cm8 | B | albelig | 21 | 21 | H | 630 | 632 | B-1309-  | B-1311-  | PYF 
+| 1cm8 | B | albelig | 22 | 22 | H | 649 | 661 | B-1337-  | B-1349-  | LDEWKRVTYKEVL 
+| 1cm8 | B | albelig | 23 | 23 | L | 673 | 673 | B-1401-  | B-1401-  | J 
+| 1cm8 | B | albelig | 24 | 24 | L | 674 | 674 | B-1402-  | B-1402-  | J 
+| 1cm8 | B | albelig | 25 | 25 | L | 675 | 675 | B-1400-  | B-1400-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = l = 25
+= 3 = a = 6
+= 3 = l = 24
+= 3 = l = 25
+= 4 = p = 22
+= 5 = a = 6
+= 6 = l = 25
+= 7 = l = 25
+= 8 = m = 11
+= 8 = a = 14
+= 8 = m = 20
+= 8 = m = 21
+= 9 = m = 10
+= 9 = l = 23
+= 9 = l = 25
+= 10 = a = 11
+= 10 = l = 25
+= 12 = m = 14
+= 12 = m = 15
+= 13 = m = 15
+= 14 = m = 19
+= 15 = m = 17
+= 16 = m = 17
+= 18 = m = 19
+= 23 = l = 24
+= 23 = l = 25
+= 24 = l = 25
+# Listed 29 contacts. EOF.

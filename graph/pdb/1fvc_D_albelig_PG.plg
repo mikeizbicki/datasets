@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fvc, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG1-KAPPA 4D5 FV (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.2
+> date > 20-OCT-92
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HUMAN
+> title > X-RAY STRUCTURES OF THE ANTIGEN-BINDING DOMAINS FROM THREEVARIANTS OF HUMANIZED ANTI-P185-HER2 ANTIBODY 4D5 ANDCOMPARISON WITH MOLECULAR MODELING
+> format_version > 2
+> pdbid > 1fvc
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fvc | D | albelig | 1 | 1 | E | 343 | 347 | D-3-  | D-7-  | QLVES 
+| 1fvc | D | albelig | 2 | 2 | E | 350 | 352 | D-10-  | D-12-  | GLV 
+| 1fvc | D | albelig | 3 | 3 | E | 358 | 365 | D-18-  | D-25-  | LRLSDAAS 
+| 1fvc | D | albelig | 4 | 4 | E | 374 | 379 | D-34-  | D-39-  | IHWVRQ 
+| 1fvc | D | albelig | 5 | 5 | E | 385 | 392 | D-45-  | D-52-  | LEWVARIY 
+| 1fvc | D | albelig | 6 | 6 | E | 397 | 400 | D-57-  | D-60-  | YTRY 
+| 1fvc | D | albelig | 7 | 7 | E | 408 | 413 | D-68-  | D-73-  | FTISAD 
+| 1fvc | D | albelig | 8 | 8 | E | 418 | 423 | D-78-  | D-83-  | TAYLQM 
+| 1fvc | D | albelig | 9 | 9 | H | 428 | 430 | D-88-  | D-90-  | AED 
+| 1fvc | D | albelig | 10 | 10 | E | 432 | 438 | D-92-  | D-98-  | AVYYDSR 
+| 1fvc | D | albelig | 11 | 11 | E | 454 | 458 | D-114-  | D-118-  | TLVTV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 10
+= 1 = a = 11
+= 2 = p = 11
+= 3 = a = 4
+= 3 = a = 8
+= 3 = p = 10
+= 4 = a = 5
+= 4 = a = 10
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = a = 8
+= 10 = a = 11
+# Listed 14 contacts. EOF.

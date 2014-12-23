@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bab, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN THIONVILLE (DEOXY) (BETA CHAIN)
+> graphtype > albelig
+> resolution > 1.5
+> date > 06-MAY-92
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > HEMOGLOBIN THIONVILLE: AN ALPHA-CHAIN VARIANT WITH A SUBSTITUTION OF AGLUTAMATE FOR VALINE AT NA-1 AND HAVING AN ACETYLATED METHIONINE NH2TERMINUS
+> format_version > 2
+> pdbid > 1bab
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bab | D | albelig | 1 | 1 | H | 438 | 448 | D-5-  | D-15-  | PEEKSAVTALW 
+| 1bab | D | albelig | 2 | 2 | H | 453 | 467 | D-20-  | D-34-  | VDEVGGEALGRLLVV 
+| 1bab | D | albelig | 3 | 3 | H | 469 | 474 | D-36-  | D-41-  | PWTQRF 
+| 1bab | D | albelig | 4 | 4 | H | 476 | 478 | D-43-  | D-45-  | ESF 
+| 1bab | D | albelig | 5 | 5 | H | 484 | 489 | D-51-  | D-56-  | PDAVMG 
+| 1bab | D | albelig | 6 | 6 | H | 491 | 508 | D-58-  | D-75-  | PKVKAHGKKVLGAFSDGL 
+| 1bab | D | albelig | 7 | 7 | H | 511 | 523 | D-78-  | D-90-  | LDNLKGTFATLSE 
+| 1bab | D | albelig | 8 | 8 | H | 524 | 528 | D-91-  | D-95-  | LHCDK 
+| 1bab | D | albelig | 9 | 9 | H | 534 | 554 | D-101-  | D-121-  | ENFRLLGNVLVCVLAHHFGKE 
+| 1bab | D | albelig | 10 | 10 | H | 557 | 575 | D-124-  | D-142-  | PPVQAAYQKVVAGVANALA 
+| 1bab | D | albelig | 11 | 11 | L | 586 | 586 | D-599-  | D-599-  | J 
+| 1bab | D | albelig | 12 | 12 | L | 587 | 587 | D-147-  | D-147-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 10
+= 2 = m = 3
+= 2 = m = 5
+= 2 = a = 6
+= 2 = m = 9
+= 2 = l = 12
+= 3 = l = 12
+= 4 = m = 6
+= 4 = l = 12
+= 5 = m = 6
+= 6 = m = 7
+= 6 = l = 12
+= 7 = m = 10
+= 7 = l = 11
+= 7 = l = 12
+= 8 = l = 12
+= 9 = a = 10
+= 9 = l = 12
+= 10 = l = 12
+# Listed 20 contacts. EOF.

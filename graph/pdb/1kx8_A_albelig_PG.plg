@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kx8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALL HELIX, LIPID TRANSPORT
+> pdb_mol_name > CHEMOSENSORY PROTEIN A6
+> graphtype > albelig
+> resolution > 2.8
+> date > 31-JAN-02
+> header > LIPID TRANSPORT
+> pdb_org_common > CABBAGE MOTH
+> title > ANTENNAL CHEMOSENSORY PROTEIN A6 FROM MAMESTRA BRASSICAE,TETRAGONAL FORM
+> format_version > 2
+> pdbid > 1kx8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MAMESTRA BRASSICAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kx8 | A | albelig | 1 | 1 | H | 5 | 9 | A-14-  | A-18-  | DEILA 
+| 1kx8 | A | albelig | 2 | 2 | H | 11 | 21 | A-20-  | A-30-  | KRLLVAYVNAV 
+| 1kx8 | A | albelig | 3 | 3 | H | 29 | 44 | A-38-  | A-53-  | PEGKELKEHLQDAIEN 
+| 1kx8 | A | albelig | 4 | 4 | H | 51 | 67 | A-60-  | A-76-  | ENQEKGAYRVIEHLIKN 
+| 1kx8 | A | albelig | 5 | 5 | H | 69 | 79 | A-78-  | A-88-  | IEIWRELTAKY 
+| 1kx8 | A | albelig | 6 | 6 | H | 86 | 95 | A-95-  | A-104-  | RKKYEDRAKA 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 3 = m = 5
+= 4 = m = 5
+= 4 = m = 6
+# Listed 5 contacts. EOF.

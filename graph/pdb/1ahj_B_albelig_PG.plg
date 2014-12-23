@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahj, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NITRILE HYDRATASE, IRON CENTER, NON-HEME IRON, LYASE
+> pdb_mol_name > NITRILE HYDRATASE (SUBUNIT BETA)
+> graphtype > albelig
+> resolution > 2.65
+> date > 05-APR-97
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > NITRILE HYDRATASE
+> format_version > 2
+> pdbid > 1ahj
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RHODOCOCCUS SP. R312
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahj | B | albelig | 1 | 1 | H | 230 | 240 | B-31-  | B-41-  | EWEHLPYSLMF 
+| 1ahj | B | albelig | 2 | 2 | H | 241 | 245 | B-42-  | B-46-  | AGVAE 
+| 1ahj | B | albelig | 3 | 3 | H | 251 | 259 | B-52-  | B-60-  | VDEVRYVVE 
+| 1ahj | B | albelig | 4 | 4 | H | 263 | 268 | B-64-  | B-69-  | PRHYMM 
+| 1ahj | B | albelig | 5 | 5 | H | 271 | 286 | B-72-  | B-87-  | YYERYVIGVATLMVEK 
+| 1ahj | B | albelig | 6 | 6 | H | 291 | 298 | B-92-  | B-99-  | QDELESLA 
+| 1ahj | B | albelig | 7 | 7 | E | 327 | 330 | B-128-  | B-131-  | RVRV 
+| 1ahj | B | albelig | 8 | 8 | H | 343 | 345 | B-144-  | B-146-  | AYC 
+| 1ahj | B | albelig | 9 | 9 | E | 349 | 355 | B-150-  | B-156-  | VGTISHR 
+| 1ahj | B | albelig | 10 | 10 | H | 363 | 366 | B-164-  | B-167-  | PDAI 
+| 1ahj | B | albelig | 11 | 11 | E | 378 | 384 | B-179-  | B-185-  | TYHVKFA 
+| 1ahj | B | albelig | 12 | 12 | H | 385 | 389 | B-186-  | B-190-  | AEELF 
+| 1ahj | B | albelig | 13 | 13 | E | 397 | 403 | B-198-  | B-204-  | SVVVDLF 
+| 1ahj | B | albelig | 14 | 14 | H | 404 | 406 | B-205-  | B-207-  | EGY 
+| 1ahj | B | albelig | 15 | 15 | E | 407 | 409 | B-208-  | B-210-  | LEP 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 3 = m = 5
+= 7 = a = 9
+= 7 = a = 15
+= 9 = a = 11
+= 11 = m = 12
+= 11 = a = 13
+= 13 = m = 14
+= 14 = m = 15
+# Listed 9 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eav, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLYBDENUM COFACTOR BIOSYNTHESIS, CNX1G
+> pdb_mol_name > MOLYBDOPTERIN BIOSYNTHESIS CNX1 PROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 17-JUL-01
+> header > MOLYBDENUM COFACTOR BIOSYNTHESIS
+> pdb_org_common > MOUSE-EAR CRESS
+> title > CRYSTAL STRUCTURES OF HUMAN GEPHYRIN AND PLANT CNX1 GDOMAINS - COMPARATIVE ANALYSIS AND FUNCTIONAL IMPLICATIONS
+> format_version > 2
+> pdbid > 1eav
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > ARABIDOPSIS THALIANA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eav | G | albelig | 1 | 1 | E | 964 | 971 | G-6-  | G-13-  | YKVAILTV 
+| 1eav | G | albelig | 2 | 2 | H | 973 | 977 | G-15-  | G-19-  | DTVSA 
+| 1eav | G | albelig | 3 | 3 | H | 984 | 995 | G-26-  | G-37-  | SGPRAVSVVDSS 
+| 1eav | G | albelig | 4 | 4 | E | 1002 | 1010 | G-44-  | G-52-  | AKVVATAVV 
+| 1eav | G | albelig | 5 | 5 | H | 1014 | 1026 | G-56-  | G-68-  | VERIKDILQKWSD 
+| 1eav | G | albelig | 6 | 6 | E | 1032 | 1036 | G-74-  | G-78-  | LILTL 
+| 1eav | G | albelig | 7 | 7 | H | 1047 | 1052 | G-89-  | G-94-  | TPEATK 
+| 1eav | G | albelig | 8 | 8 | H | 1060 | 1073 | G-102-  | G-115-  | PGLLFVXXQESLKI 
+| 1eav | G | albelig | 9 | 9 | H | 1075 | 1079 | G-117-  | G-121-  | PFAXL 
+| 1eav | G | albelig | 10 | 10 | E | 1084 | 1087 | G-126-  | G-129-  | AGIR 
+| 1eav | G | albelig | 11 | 11 | E | 1090 | 1095 | G-132-  | G-137-  | TLIINX 
+| 1eav | G | albelig | 12 | 12 | H | 1101 | 1119 | G-143-  | G-161-  | AVAECXEALLPALKHALKQ 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 3 = p = 12
+= 6 = p = 11
+= 8 = m = 9
+= 10 = a = 11
+# Listed 6 contacts. EOF.

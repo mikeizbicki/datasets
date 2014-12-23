@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eo4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, RESTRICTION ENDONUCLEASE, DNA ANALOG,HYDROLASE/DNA COMPLEX
+> pdb_mol_name > TYPE II RESTRICTION ENZYME ECORV
+> graphtype > albelig
+> resolution > 1.9
+> date > 21-MAR-00
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > ECORV BOUND TO MN2+ AND COGNATE DNA CONTAINING A 3'SSUBSTITION AT THE CLEAVAGE SITE
+> format_version > 2
+> pdbid > 1eo4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eo4 | A | albelig | 1 | 1 | H | 2 | 16 | A-3-  | A-17-  | LRSDLINALYDENQK 
+| 1eo4 | A | albelig | 2 | 2 | E | 19 | 24 | A-20-  | A-25-  | VCGIIS 
+| 1eo4 | A | albelig | 3 | 3 | E | 28 | 30 | A-29-  | A-31-  | KIY 
+| 1eo4 | A | albelig | 4 | 4 | H | 36 | 57 | A-37-  | A-58-  | TKVLSTIFELFSRPIINKIAEK 
+| 1eo4 | A | albelig | 5 | 5 | E | 61 | 63 | A-62-  | A-64-  | IVE 
+| 1eo4 | A | albelig | 6 | 6 | E | 74 | 77 | A-75-  | A-78-  | FTLY 
+| 1eo4 | A | albelig | 7 | 7 | E | 85 | 95 | A-86-  | A-96-  | KIAIDIKTTYT 
+| 1eo4 | A | albelig | 8 | 8 | E | 105 | 108 | A-106-  | A-109-  | TLGG 
+| 1eo4 | A | albelig | 9 | 9 | H | 124 | 126 | A-125-  | A-127-  | FDQ 
+| 1eo4 | A | albelig | 10 | 10 | E | 127 | 139 | A-128-  | A-140-  | YIAHWIIGYVYTR 
+| 1eo4 | A | albelig | 11 | 11 | H | 143 | 145 | A-146-  | A-148-  | SSL 
+| 1eo4 | A | albelig | 12 | 12 | E | 159 | 168 | A-163-  | A-172-  | YKGVKVFLQD 
+| 1eo4 | A | albelig | 13 | 13 | H | 169 | 172 | A-173-  | A-176-  | KWVI 
+| 1eo4 | A | albelig | 14 | 14 | E | 184 | 186 | A-188-  | A-190-  | NIG 
+| 1eo4 | A | albelig | 15 | 15 | H | 192 | 196 | A-196-  | A-200-  | YKDFV 
+| 1eo4 | A | albelig | 16 | 16 | H | 205 | 213 | A-209-  | A-217-  | EDEFLDYWR 
+| 1eo4 | A | albelig | 17 | 17 | H | 229 | 237 | A-233-  | A-241-  | ISEYRNWIY 
+| 1eo4 | A | albelig | 18 | 18 | L | 483 | 483 | A-501-  | A-501-  | J 
+| 1eo4 | A | albelig | 19 | 19 | L | 484 | 484 | A-502-  | A-502-  | J 
+| 1eo4 | A | albelig | 20 | 20 | L | 485 | 485 | A-503-  | A-503-  | J 
+| 1eo4 | A | albelig | 21 | 21 | L | 486 | 486 | A-504-  | A-504-  | J 
+| 1eo4 | A | albelig | 22 | 22 | L | 487 | 487 | A-601-  | A-601-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 12
+= 1 = l = 22
+= 2 = a = 3
+= 2 = l = 22
+= 4 = a = 7
+= 4 = a = 10
+= 4 = l = 18
+= 4 = l = 21
+= 4 = l = 22
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 7 = p = 10
+= 7 = l = 21
+= 8 = a = 14
+= 9 = m = 10
+= 10 = a = 12
+= 12 = m = 13
+= 12 = m = 15
+= 12 = l = 22
+= 16 = m = 17
+= 18 = l = 21
+# Listed 23 contacts. EOF.

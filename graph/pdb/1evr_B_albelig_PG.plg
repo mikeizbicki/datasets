@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1evr, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > R6 INSULIN HEXAMER, HORMONE/GROWTH FACTOR COMPLEX
+> pdb_mol_name > INSULIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 20-APR-00
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF THE RESORCINOL/INSULIN R6 HEXAMER
+> format_version > 2
+> pdbid > 1evr
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1evr | B | albelig | 1 | 1 | H | 24 | 44 | B-2-  | B-22-  | VNQHLNGSHLVEALYLVCGER 
+| 1evr | B | albelig | 2 | 2 | E | 46 | 48 | B-24-  | B-26-  | FFY 
+| 1evr | B | albelig | 3 | 3 | L | 313 | 313 | B-301-  | B-301-  | J 
+| 1evr | B | albelig | 4 | 4 | L | 314 | 314 | B-313-  | B-313-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 3
+= 1 = l = 4
+# Listed 3 contacts. EOF.

@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jui, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, SUGAR BINDING PROTEIN
+> pdb_mol_name > CONCANAVALIN A
+> graphtype > albelig
+> resolution > 2.75
+> date > 24-AUG-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > JACK BEAN
+> title > CONCANAVALIN A-CARBOHYDRATE MIMICKING 10-MER PEPTIDE COMPLEX
+> format_version > 2
+> pdbid > 1jui
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jui | A | albelig | 1 | 1 | E | 4 | 10 | A-4-  | A-10-  | IVAVELD 
+| 1jui | A | albelig | 2 | 2 | H | 15 | 17 | A-15-  | A-17-  | TDI 
+| 1jui | A | albelig | 3 | 3 | E | 24 | 29 | A-24-  | A-29-  | HIGIDI 
+| 1jui | A | albelig | 4 | 4 | E | 36 | 39 | A-36-  | A-39-  | KTAK 
+| 1jui | A | albelig | 5 | 5 | E | 47 | 55 | A-47-  | A-55-  | VGTAHIIYN 
+| 1jui | A | albelig | 6 | 6 | E | 60 | 66 | A-60-  | A-66-  | RLSAVVS 
+| 1jui | A | albelig | 7 | 7 | E | 72 | 78 | A-72-  | A-78-  | SATVSYD 
+| 1jui | A | albelig | 8 | 8 | H | 81 | 83 | A-81-  | A-83-  | LDN 
+| 1jui | A | albelig | 9 | 9 | E | 88 | 97 | A-88-  | A-97-  | WVRVGLSAST 
+| 1jui | A | albelig | 10 | 10 | E | 105 | 117 | A-105-  | A-117-  | TILSWSFTSKLKS 
+| 1jui | A | albelig | 11 | 11 | E | 122 | 130 | A-122-  | A-130-  | ETNALHFMF 
+| 1jui | A | albelig | 12 | 12 | E | 140 | 144 | A-140-  | A-144-  | LILQG 
+| 1jui | A | albelig | 13 | 13 | H | 150 | 152 | A-150-  | A-152-  | TDG 
+| 1jui | A | albelig | 14 | 14 | E | 169 | 175 | A-169-  | A-175-  | SVGRALF 
+| 1jui | A | albelig | 15 | 15 | E | 188 | 198 | A-188-  | A-198-  | VASFEATFTFL 
+| 1jui | A | albelig | 16 | 16 | E | 209 | 216 | A-209-  | A-216-  | GIAFFISN 
+| 1jui | A | albelig | 17 | 17 | H | 227 | 229 | A-227-  | A-229-  | GRL 
+| 1jui | A | albelig | 18 | 18 | L | 996 | 996 | A-401-  | A-401-  | J 
+| 1jui | A | albelig | 19 | 19 | L | 997 | 997 | A-402-  | A-402-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 16
+= 1 = l = 18
+= 1 = l = 19
+= 3 = a = 4
+= 3 = p = 7
+= 3 = l = 18
+= 3 = l = 19
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 15
+= 6 = a = 7
+= 9 = a = 14
+= 9 = a = 16
+= 9 = m = 17
+= 10 = a = 11
+= 10 = a = 15
+= 12 = a = 14
+= 17 = l = 19
+= 18 = l = 19
+# Listed 20 contacts. EOF.

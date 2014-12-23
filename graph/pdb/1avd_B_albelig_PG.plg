@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1avd, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BIOTIN-BINDING PROTEIN
+> pdb_mol_name > AVIDIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 05-MAR-93
+> header > BIOTIN-BINDING PROTEIN
+> pdb_org_common > CHICKEN
+> title > THREE-DIMENSIONAL STRUCTURE OF THE TETRAGONAL CRYSTAL FORM OF EGG-WHITE AVIDIN IN ITS FUNCTIONAL COMPLEX WITH BIOTIN AT 2.7 ANGSTROMSRESOLUTION
+> format_version > 2
+> pdbid > 1avd
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1avd | B | albelig | 1 | 1 | E | 131 | 135 | B-8-  | B-12-  | GKWTN 
+| 1avd | B | albelig | 2 | 2 | E | 140 | 143 | B-17-  | B-20-  | NMTI 
+| 1avd | B | albelig | 3 | 3 | E | 151 | 157 | B-28-  | B-34-  | EFTGTYT 
+| 1avd | B | albelig | 4 | 4 | E | 170 | 176 | B-47-  | B-53-  | SPLHGTE 
+| 1avd | B | albelig | 5 | 5 | E | 186 | 192 | B-63-  | B-69-  | TFGFTVN 
+| 1avd | B | albelig | 6 | 6 | E | 199 | 208 | B-76-  | B-85-  | TTVFTGQNFI 
+| 1avd | B | albelig | 7 | 7 | E | 214 | 223 | B-91-  | B-100-  | EVLKTMWLLR 
+| 1avd | B | albelig | 8 | 8 | H | 229 | 234 | B-106-  | B-111-  | IGDDWK 
+| 1avd | B | albelig | 9 | 9 | E | 236 | 245 | B-113-  | B-122-  | TRVGINIFTR 
+| 1avd | B | albelig | 10 | 10 | L | 251 | 251 | B-401-  | B-401-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 1 = l = 10
+= 2 = a = 3
+= 3 = a = 4
+= 3 = l = 10
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 6 = l = 10
+= 7 = a = 9
+= 7 = l = 10
+= 9 = l = 10
+# Listed 13 contacts. EOF.

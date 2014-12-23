@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h56, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDONUCLEASE, TYPE II RESTRICTION ENDONUCLEASE, HYDROLASE,NUCLEASE,
+> pdb_mol_name > TYPE II RESTRICTION ENZYME PVUII
+> graphtype > albelig
+> resolution > 3.0
+> date > 20-MAY-01
+> header > ENDONUCLEASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL AND BIOCHEMICAL CHARACTERIZATION OF A NEWMAGNESIUM ION BINDING SITE NEAR TYR94 IN THE RESTRICTIONENDONUCLEASE PVUII
+> format_version > 2
+> pdbid > 1h56
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PROTEUS VULGARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h56 | A | albelig | 1 | 1 | H | 3 | 24 | A-4-  | A-25-  | PDLNKLLELWPHIQEYQDLALK 
+| 1h56 | A | albelig | 2 | 2 | H | 35 | 45 | A-36-  | A-46-  | GGKLLQVLLIT 
+| 1h56 | A | albelig | 3 | 3 | E | 67 | 72 | A-68-  | A-73-  | ELKSIN 
+| 1h56 | A | albelig | 4 | 4 | H | 87 | 93 | A-88-  | A-94-  | PVIIAKY 
+| 1h56 | A | albelig | 5 | 5 | E | 98 | 104 | A-99-  | A-105-  | WIFAIYR 
+| 1h56 | A | albelig | 6 | 6 | E | 107 | 114 | A-108-  | A-115-  | AIEAIYRL 
+| 1h56 | A | albelig | 7 | 7 | H | 116 | 132 | A-117-  | A-133-  | PKDLEFYYDKWERKWYS 
+| 1h56 | A | albelig | 8 | 8 | H | 145 | 151 | A-146-  | A-152-  | VKYVMEH 
+| 1h56 | A | albelig | 9 | 9 | L | 314 | 314 | A-1-  | A-1-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 6
+= 3 = p = 5
+= 3 = l = 9
+= 4 = a = 7
+= 4 = l = 9
+= 5 = a = 6
+= 7 = m = 8
+# Listed 7 contacts. EOF.

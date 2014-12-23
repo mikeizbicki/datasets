@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fiu, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, DOUBLE HELIX, RESTRICTION ENDONUCLEASE,RESTRICTION-MODIFICTION SYSTEMS, HYDROLASE,PHOSPHODIESTERASE, METAL ION, COMPLEX (ENDONUCLEASE/DNA),HYDROLASE/DNA COMPLEX
+> pdb_mol_name > TYPE II RESTRICTION ENZYME NGOMI
+> graphtype > albelig
+> resolution > 1.6
+> date > 07-AUG-00
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > TETRAMERIC RESTRICTION ENDONUCLEASE NGOMIV IN COMPLEX WITHCLEAVED DNA
+> format_version > 2
+> pdbid > 1fiu
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > NEISSERIA GONORRHOEAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fiu | D | albelig | 1 | 1 | H | 865 | 879 | D-4-  | D-18-  | LFTQERRIFHKKLLD 
+| 1fiu | D | albelig | 2 | 2 | H | 899 | 911 | D-38-  | D-50-  | TRSFNIAKGIADL 
+| 1fiu | D | albelig | 3 | 3 | H | 923 | 945 | D-62-  | D-84-  | GQTSGNAFEAICSEFVQSAFEKL 
+| 1fiu | D | albelig | 4 | 4 | E | 953 | 957 | D-92-  | D-96-  | WNVKQ 
+| 1fiu | D | albelig | 5 | 5 | H | 959 | 961 | D-98-  | D-100-  | GSR 
+| 1fiu | D | albelig | 6 | 6 | H | 965 | 968 | D-104-  | D-107-  | EIAR 
+| 1fiu | D | albelig | 7 | 7 | H | 970 | 972 | D-109-  | D-111-  | QQY 
+| 1fiu | D | albelig | 8 | 8 | H | 975 | 984 | D-114-  | D-123-  | LTALAKAAEE 
+| 1fiu | D | albelig | 9 | 9 | H | 986 | 992 | D-125-  | D-131-  | PELAAAL 
+| 1fiu | D | albelig | 10 | 10 | H | 995 | 997 | D-134-  | D-136-  | DYT 
+| 1fiu | D | albelig | 11 | 11 | E | 1002 | 1006 | D-141-  | D-145-  | IIVTR 
+| 1fiu | D | albelig | 12 | 12 | H | 1011 | 1014 | D-150-  | D-153-  | DAEI 
+| 1fiu | D | albelig | 13 | 13 | E | 1040 | 1048 | D-179-  | D-187-  | LLHASISCK 
+| 1fiu | D | albelig | 14 | 14 | H | 1055 | 1069 | D-194-  | D-208-  | RAQNARSEGLNLVRN 
+| 1fiu | D | albelig | 15 | 15 | E | 1076 | 1081 | D-215-  | D-220-  | HIVVVT 
+| 1fiu | D | albelig | 16 | 16 | H | 1086 | 1093 | D-225-  | D-232-  | PSRISSIA 
+| 1fiu | D | albelig | 17 | 17 | E | 1101 | 1104 | D-240-  | D-243-  | CVYH 
+| 1fiu | D | albelig | 18 | 18 | H | 1107 | 1117 | D-246-  | D-256-  | LYELEQILQSL 
+| 1fiu | D | albelig | 19 | 19 | H | 1120 | 1131 | D-259-  | D-270-  | EDALDLFYIMVN 
+| 1fiu | D | albelig | 20 | 20 | E | 1135 | 1137 | D-274-  | D-276-  | LKD 
+| 1fiu | D | albelig | 21 | 21 | H | 1138 | 1144 | D-277-  | D-283-  | ISDLPLD 
+| 1fiu | D | albelig | 22 | 22 | L | 1158 | 1158 | D-9999-  | D-9999-  | J 
+| 1fiu | D | albelig | 23 | 23 | L | 1159 | 1159 | D-5004-  | D-5004-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = m = 18
+= 3 = a = 4
+= 3 = m = 13
+= 3 = m = 21
+= 3 = l = 22
+= 4 = a = 11
+= 8 = m = 10
+= 11 = a = 13
+= 13 = p = 15
+= 13 = l = 22
+= 13 = l = 23
+= 14 = m = 16
+= 14 = l = 23
+= 15 = p = 17
+= 16 = m = 19
+= 17 = p = 20
+= 17 = m = 21
+= 18 = m = 19
+= 18 = m = 20
+= 19 = m = 20
+= 20 = m = 21
+= 22 = l = 23
+# Listed 23 contacts. EOF.

@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i81, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CURVED ANTI-PARALLEL BETA SHEET, STRUCTURAL GENOMICS
+> pdb_mol_name > PUTATIVE SNRNP SM-LIKE PROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 12-MAR-01
+> header > STRUCTURAL GENOMICS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A HEPTAMERIC LSM PROTEIN FROMMETHANOBACTERIUM THERMOAUTOTROPHICUM
+> format_version > 2
+> pdbid > 1i81
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i81 | G | albelig | 1 | 1 | H | 452 | 455 | G-16-  | G-19-  | DALG 
+| 1i81 | G | albelig | 2 | 2 | E | 461 | 466 | G-25-  | G-30-  | PVIIKL 
+| 1i81 | G | albelig | 3 | 3 | E | 471 | 479 | G-35-  | G-43-  | EFRGVLKSF 
+| 1i81 | G | albelig | 4 | 4 | E | 485 | 494 | G-49-  | G-58-  | LVLNDAEELE 
+| 1i81 | G | albelig | 5 | 5 | E | 497 | 501 | G-61-  | G-65-  | EVTRR 
+| 1i81 | G | albelig | 6 | 6 | E | 504 | 507 | G-68-  | G-71-  | TVLI 
+| 1i81 | G | albelig | 7 | 7 | H | 509 | 511 | G-73-  | G-75-  | GDN 
+| 1i81 | G | albelig | 8 | 8 | E | 512 | 516 | G-76-  | G-80-  | IVYIS 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 8
+= 3 = a = 4
+= 4 = a = 5
+= 4 = a = 6
+= 7 = m = 8
+# Listed 6 contacts. EOF.

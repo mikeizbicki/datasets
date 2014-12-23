@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bdf, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOTIDYLTRANSFERASE, RNAP, ALPHA, ASSEMBLE
+> pdb_mol_name > RNA POLYMERASE ALPHA SUBUNIT
+> graphtype > albelig
+> resolution > 2.5
+> date > 08-MAY-98
+> header > NUCLEOTIDYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF ESCHERICHIA COLI RNA POLYMERASE ALPHA SUBUNITN-TERMINAL DOMAIN
+> format_version > 2
+> pdbid > 1bdf
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bdf | B | albelig | 1 | 1 | E | 241 | 246 | B-13-  | B-18-  | LVDIEQ 
+| 1bdf | B | albelig | 2 | 2 | E | 251 | 259 | B-23-  | B-31-  | HAKVTLEPL 
+| 1bdf | B | albelig | 3 | 3 | H | 263 | 275 | B-35-  | B-47-  | FGHTLGNALRAIL 
+| 1bdf | B | albelig | 4 | 4 | E | 282 | 289 | B-54-  | B-61-  | CAVTEVEI 
+| 1bdf | B | albelig | 5 | 5 | H | 306 | 314 | B-78-  | B-86-  | ILEILLNLK 
+| 1bdf | B | albelig | 6 | 6 | E | 318 | 320 | B-90-  | B-92-  | VRV 
+| 1bdf | B | albelig | 7 | 7 | E | 325 | 339 | B-97-  | B-111-  | EVILTLNKSGIGPVT 
+| 1bdf | B | albelig | 8 | 8 | H | 340 | 342 | B-112-  | B-114-  | AAD 
+| 1bdf | B | albelig | 9 | 9 | E | 349 | 351 | B-121-  | B-123-  | VEI 
+| 1bdf | B | albelig | 10 | 10 | E | 357 | 376 | B-129-  | B-148-  | VICHLTDENASISMRIKVQR 
+| 1bdf | B | albelig | 11 | 11 | H | 384 | 386 | B-156-  | B-158-  | STR 
+| 1bdf | B | albelig | 12 | 12 | E | 406 | 412 | B-180-  | B-186-  | VERIAYN 
+| 1bdf | B | albelig | 13 | 13 | E | 425 | 433 | B-199-  | B-207-  | DKLVIEMET 
+| 1bdf | B | albelig | 14 | 14 | H | 439 | 457 | B-213-  | B-231-  | PEEAIRRAATILAEQLEAF 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 13
+= 3 = a = 12
+= 3 = m = 14
+= 4 = a = 10
+= 6 = a = 9
+= 7 = m = 8
+= 7 = a = 10
+= 12 = a = 13
+# Listed 9 contacts. EOF.

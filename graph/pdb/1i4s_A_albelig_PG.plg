@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i4s, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBONUCLEASE, RNASE III, DOUBLE-STRANDED RNA, CATALYTICDOMAIN, ENDONUCLEASE DOMAIN, ENDONUCLEOLYTIC CLEAVAGE,HYDROLASE
+> pdb_mol_name > RIBONUCLEASE III
+> graphtype > albelig
+> resolution > 2.15
+> date > 22-FEB-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF RNASE III ENDONUCLEASE DOMAIN FROMAQUIFEX AEOLICUS AT 2.15 ANGSTROM RESOLUTION
+> format_version > 2
+> pdbid > 1i4s
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AQUIFEX AEOLICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i4s | A | albelig | 1 | 1 | H | 7 | 11 | A-7-  | A-11-  | LEKKL 
+| 1i4s | A | albelig | 2 | 2 | H | 18 | 25 | A-18-  | A-25-  | KSLLEKAL 
+| 1i4s | A | albelig | 3 | 3 | H | 37 | 58 | A-37-  | A-58-  | ETLEFLGDALVNFFIVDLLVQY 
+| 1i4s | A | albelig | 4 | 4 | H | 64 | 74 | A-64-  | A-74-  | EGFLSPLKAYL 
+| 1i4s | A | albelig | 5 | 5 | H | 77 | 87 | A-77-  | A-87-  | EEFFNLLAQKL 
+| 1i4s | A | albelig | 6 | 6 | H | 89 | 91 | A-89-  | A-91-  | LHK 
+| 1i4s | A | albelig | 7 | 7 | H | 102 | 119 | A-102-  | A-119-  | ETIIGDVFEALWAAVYID 
+| 1i4s | A | albelig | 8 | 8 | H | 124 | 145 | A-124-  | A-145-  | ANFTRELFYKLFKEDILSAIKE 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 3 = m = 7
+= 3 = p = 8
+= 5 = p = 7
+= 7 = a = 8
+# Listed 5 contacts. EOF.

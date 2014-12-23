@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1far, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, SERINE/THREONINE-PROTEIN KINASE, PROTO-ONCOGENE, ZINC, ATP-BINDING, PHORBOL-ESTER BINDING,SERINE/THREONINE PROTEIN KINASE COMPLEX
+> pdb_mol_name > RAF-1
+> graphtype > albelig
+> resolution > -1.0
+> date > 05-SEP-96
+> header > SERINE/THREONINE PROTEIN KINASE
+> pdb_org_common > HUMAN
+> title > RAF-1 CYSTEINE RICH DOMAIN, NMR, MINIMIZED AVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1far
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1far | A | albelig | 1 | 1 | E | 7 | 9 | A-142-  | A-144-  | ARK 
+| 1far | A | albelig | 2 | 2 | E | 27 | 29 | A-162-  | A-164-  | GFR 
+| 1far | A | albelig | 3 | 3 | H | 39 | 41 | A-174-  | A-176-  | EHC 
+| 1far | A | albelig | 4 | 4 | L | 53 | 53 | A-1-  | A-1-  | J 
+| 1far | A | albelig | 5 | 5 | L | 54 | 54 | A-2-  | A-2-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = l = 4
+# Listed 2 contacts. EOF.

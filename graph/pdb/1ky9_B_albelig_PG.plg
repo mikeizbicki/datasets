@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ky9, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN QUALITY CONTROL, SERINE PROTEASE, TRYPSIN,CHAPERONE, PDZ, ATP-INDEPENDENT, TEMPERATURE-REGULATED,PERIPLASM, CAGE-FORMING PROTEIN, HYDROLASE
+> pdb_mol_name > PROTEASE DO
+> graphtype > albelig
+> resolution > 2.8
+> date > 04-FEB-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF DEGP (HTRA)
+> format_version > 2
+> pdbid > 1ky9
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ky9 | B | albelig | 1 | 1 | H | 320 | 329 | B-16-  | B-25-  | APXLEKVXPS 
+| 1ky9 | B | albelig | 2 | 2 | E | 330 | 341 | B-26-  | B-37-  | VVSINVEGSTTV 
+| 1ky9 | B | albelig | 3 | 3 | E | 358 | 372 | B-80-  | B-94-  | QQQKFXALGSGVIID 
+| 1ky9 | B | albelig | 4 | 4 | E | 377 | 381 | B-99-  | B-103-  | YVVTN 
+| 1ky9 | B | albelig | 5 | 5 | H | 382 | 385 | B-104-  | B-107-  | NHVV 
+| 1ky9 | B | albelig | 6 | 6 | E | 388 | 394 | B-110-  | B-116-  | ATVIKVQ 
+| 1ky9 | B | albelig | 7 | 7 | E | 400 | 409 | B-122-  | B-131-  | KFDAKXVGKD 
+| 1ky9 | B | albelig | 8 | 8 | E | 414 | 420 | B-136-  | B-142-  | IALIQIQ 
+| 1ky9 | B | albelig | 9 | 9 | H | 433 | 435 | B-155-  | B-157-  | SDA 
+| 1ky9 | B | albelig | 10 | 10 | E | 441 | 446 | B-163-  | B-168-  | YTVAIG 
+| 1ky9 | B | albelig | 11 | 11 | E | 454 | 463 | B-176-  | B-185-  | TVTSGIVSAL 
+| 1ky9 | B | albelig | 12 | 12 | E | 470 | 472 | B-199-  | B-201-  | IQT 
+| 1ky9 | B | albelig | 13 | 13 | E | 484 | 486 | B-213-  | B-215-  | ALV 
+| 1ky9 | B | albelig | 14 | 14 | E | 492 | 497 | B-221-  | B-226-  | LIGINT 
+| 1ky9 | B | albelig | 15 | 15 | E | 510 | 514 | B-239-  | B-243-  | GFAIP 
+| 1ky9 | B | albelig | 16 | 16 | H | 515 | 528 | B-244-  | B-257-  | SNXVKNLTSQXVEY 
+| 1ky9 | B | albelig | 17 | 17 | E | 538 | 541 | B-267-  | B-270-  | IXGT 
+| 1ky9 | B | albelig | 18 | 18 | H | 546 | 549 | B-275-  | B-278-  | ELAK 
+| 1ky9 | B | albelig | 19 | 19 | E | 559 | 564 | B-288-  | B-293-  | AFVSQV 
+| 1ky9 | B | albelig | 20 | 20 | H | 569 | 573 | B-298-  | B-302-  | SAAKA 
+| 1ky9 | B | albelig | 21 | 21 | H | 592 | 601 | B-321-  | B-330-  | FAALRAQVGT 
+| 1ky9 | B | albelig | 22 | 22 | H | 664 | 666 | B-397-  | B-399-  | AQI 
+| 1ky9 | B | albelig | 23 | 23 | E | 673 | 677 | B-406-  | B-410-  | VIIGA 
+| 1ky9 | B | albelig | 24 | 24 | H | 685 | 691 | B-418-  | B-424-  | IAELRKV 
+| 1ky9 | B | albelig | 25 | 25 | E | 701 | 704 | B-434-  | B-437-  | LNIQ 
+| 1ky9 | B | albelig | 26 | 26 | E | 709 | 712 | B-442-  | B-445-  | TIYL 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 4
+= 4 = m = 5
+= 4 = a = 8
+= 5 = m = 8
+= 6 = a = 7
+= 7 = a = 8
+= 9 = m = 16
+= 10 = a = 11
+= 10 = a = 13
+= 11 = a = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 14 = m = 16
+= 15 = m = 16
+= 17 = a = 19
+= 23 = a = 25
+= 25 = a = 26
+# Listed 22 contacts. EOF.

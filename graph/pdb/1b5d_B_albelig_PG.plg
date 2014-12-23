@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b5d, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROXYMETHYLASE, DNTP SYNTHESIZING COMPLEX, TRANSFERASE
+> pdb_mol_name > PROTEIN (DEOXYCYTIDYLATE HYDROXYMETHYLASE)
+> graphtype > albelig
+> resolution > 2.2
+> date > 06-JAN-99
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > DCMP HYDROXYMETHYLASE FROM T4 (INTACT)
+> format_version > 2
+> pdbid > 1b5d
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b5d | B | albelig | 1 | 1 | H | 255 | 267 | B-8-  | B-20-  | VEEIRLHLGLALK 
+| 1b5d | B | albelig | 2 | 2 | E | 279 | 289 | B-32-  | B-42-  | KTIEIIGASFV 
+| 1b5d | B | albelig | 3 | 3 | H | 301 | 313 | B-54-  | B-66-  | DEYIQRELEWYKS 
+| 1b5d | B | albelig | 4 | 4 | H | 318 | 320 | B-71-  | B-73-  | VKD 
+| 1b5d | B | albelig | 5 | 5 | H | 327 | 332 | B-80-  | B-85-  | KIWQQV 
+| 1b5d | B | albelig | 6 | 6 | H | 343 | 348 | B-96-  | B-101-  | YGWAIW 
+| 1b5d | B | albelig | 7 | 7 | H | 350 | 352 | B-103-  | B-105-  | EDN 
+| 1b5d | B | albelig | 8 | 8 | H | 355 | 365 | B-108-  | B-118-  | QYDMCLAELGQ 
+| 1b5d | B | albelig | 9 | 9 | E | 373 | 375 | B-126-  | B-128-  | IMI 
+| 1b5d | B | albelig | 10 | 10 | H | 381 | 384 | B-134-  | B-137-  | MQFD 
+| 1b5d | B | albelig | 11 | 11 | H | 387 | 389 | B-140-  | B-142-  | KDG 
+| 1b5d | B | albelig | 12 | 12 | E | 396 | 404 | B-149-  | B-157-  | TNTVQYLIR 
+| 1b5d | B | albelig | 13 | 13 | E | 407 | 418 | B-160-  | B-171-  | KINAVVNMRSND 
+| 1b5d | B | albelig | 14 | 14 | H | 422 | 444 | B-175-  | B-197-  | GFRNDYAWQKYVLDKLVSDLNAG 
+| 1b5d | B | albelig | 15 | 15 | E | 451 | 465 | B-204-  | B-218-  | KAGSIIWNVGSLHVY 
+| 1b5d | B | albelig | 16 | 16 | H | 466 | 478 | B-219-  | B-231-  | SRHFYLVDHWWKT 
+| 1b5d | B | albelig | 17 | 17 | L | 495 | 495 | B-400-  | B-400-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 16
+= 2 = a = 15
+= 3 = m = 6
+= 3 = m = 14
+= 6 = m = 14
+= 6 = l = 17
+= 8 = m = 9
+= 8 = m = 14
+= 9 = a = 12
+= 12 = a = 13
+= 12 = m = 14
+= 13 = a = 14
+= 13 = p = 15
+= 13 = l = 17
+= 14 = a = 15
+= 14 = l = 17
+= 15 = m = 16
+= 15 = l = 17
+# Listed 19 contacts. EOF.

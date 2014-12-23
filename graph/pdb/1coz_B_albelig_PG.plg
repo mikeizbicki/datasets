@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1coz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE
+> pdb_mol_name > PROTEIN (GLYCEROL-3-PHOSPHATE
+> graphtype > albelig
+> resolution > 2.0
+> date > 29-MAY-99
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CTP:GLYCEROL-3-PHOSPHATE CYTIDYLYLTRANSFERASE FROM BACILLUSSUBTILIS
+> format_version > 2
+> pdbid > 1coz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1coz | B | albelig | 1 | 1 | E | 130 | 135 | B-503-  | B-508-  | KVITYG 
+| 1coz | B | albelig | 2 | 2 | H | 142 | 152 | B-515-  | B-525-  | WGHIKLLERAK 
+| 1coz | B | albelig | 3 | 3 | E | 157 | 163 | B-530-  | B-536-  | YLVVAIS 
+| 1coz | B | albelig | 4 | 4 | H | 165 | 170 | B-538-  | B-543-  | DEFNLQ 
+| 1coz | B | albelig | 5 | 5 | H | 179 | 186 | B-552-  | B-559-  | YEHRKLIL 
+| 1coz | B | albelig | 6 | 6 | E | 194 | 198 | B-567-  | B-571-  | EVIPE 
+| 1coz | B | albelig | 7 | 7 | H | 204 | 210 | B-577-  | B-583-  | KKQDIID 
+| 1coz | B | albelig | 8 | 8 | E | 215 | 219 | B-588-  | B-592-  | VFVMG 
+| 1coz | B | albelig | 9 | 9 | H | 220 | 222 | B-593-  | B-595-  | DDW 
+| 1coz | B | albelig | 10 | 10 | H | 227 | 229 | B-600-  | B-602-  | DFL 
+| 1coz | B | albelig | 11 | 11 | E | 234 | 238 | B-607-  | B-611-  | EVVYL 
+| 1coz | B | albelig | 12 | 12 | H | 246 | 251 | B-619-  | B-624-  | TTKIKE 
+| 1coz | B | albelig | 13 | 13 | L | 255 | 255 | B-630-  | B-630-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 1 = l = 13
+= 2 = l = 13
+= 3 = m = 5
+= 3 = p = 6
+= 8 = m = 9
+= 8 = p = 11
+= 8 = l = 13
+= 9 = m = 11
+= 9 = l = 13
+= 12 = l = 13
+# Listed 12 contacts. EOF.

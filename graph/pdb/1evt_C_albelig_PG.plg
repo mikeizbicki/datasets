@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1evt, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN (IG) LIKE DOMAINS BELONGING TO THE I-SETSUBGROUP WITHIN IG-LIKE DOMAINS, B-TREFOIL FOLD, GROWTHFACTOR/GROWTH FACTOR RECEPTOR COMPLEX
+> pdb_mol_name > PROTEIN (FIBROBLAST GROWTH FACTOR RECEPTOR 1)
+> graphtype > albelig
+> resolution > 2.8
+> date > 20-APR-00
+> header > GROWTH FACTOR/GROWTH FACTOR RECEPTOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF FGF1 IN COMPLEX WITH THE EXTRACELLULARLIGAND BINDING DOMAIN OF FGF RECEPTOR 1 (FGFR1)
+> format_version > 2
+> pdbid > 1evt
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1evt | C | albelig | 1 | 1 | E | 269 | 273 | C-151-  | C-155-  | VAPYW 
+| 1evt | C | albelig | 2 | 2 | H | 276 | 280 | C-158-  | C-162-  | PEKME 
+| 1evt | C | albelig | 3 | 3 | E | 283 | 287 | C-165-  | C-169-  | LHAVP 
+| 1evt | C | albelig | 4 | 4 | E | 292 | 295 | C-174-  | C-177-  | VKFK 
+| 1evt | C | albelig | 5 | 5 | E | 298 | 301 | C-180-  | C-183-  | SSGT 
+| 1evt | C | albelig | 6 | 6 | E | 305 | 310 | C-187-  | C-192-  | TLRWLK 
+| 1evt | C | albelig | 7 | 7 | H | 317 | 319 | C-199-  | C-201-  | PDH 
+| 1evt | C | albelig | 8 | 8 | E | 325 | 327 | C-207-  | C-209-  | KVR 
+| 1evt | C | albelig | 9 | 9 | H | 328 | 330 | C-210-  | C-212-  | YAT 
+| 1evt | C | albelig | 10 | 10 | E | 332 | 335 | C-214-  | C-217-  | SIIM 
+| 1evt | C | albelig | 11 | 11 | H | 340 | 342 | C-222-  | C-224-  | PSD 
+| 1evt | C | albelig | 12 | 12 | E | 344 | 352 | C-226-  | C-234-  | GNYTAIVEN 
+| 1evt | C | albelig | 13 | 13 | E | 355 | 366 | C-237-  | C-248-  | GSINHTYQLDVV 
+| 1evt | C | albelig | 14 | 14 | E | 383 | 385 | C-265-  | C-267-  | KTV 
+| 1evt | C | albelig | 15 | 15 | E | 391 | 394 | C-273-  | C-276-  | VEFM 
+| 1evt | C | albelig | 16 | 16 | E | 404 | 410 | C-286-  | C-292-  | HIQWLKH 
+| 1evt | C | albelig | 17 | 17 | E | 417 | 419 | C-308-  | C-310-  | VQI 
+| 1evt | C | albelig | 18 | 18 | E | 423 | 426 | C-325-  | C-328-  | VLHL 
+| 1evt | C | albelig | 19 | 19 | H | 431 | 433 | C-333-  | C-335-  | FED 
+| 1evt | C | albelig | 20 | 20 | E | 435 | 442 | C-337-  | C-344-  | GEYTNLAG 
+| 1evt | C | albelig | 21 | 21 | E | 447 | 456 | C-349-  | C-358-  | LSHHSAWLTV 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 12
+= 1 = p = 13
+= 3 = p = 13
+= 4 = a = 10
+= 4 = a = 13
+= 5 = p = 12
+= 6 = a = 12
+= 8 = m = 9
+= 8 = a = 10
+= 12 = a = 13
+= 14 = p = 21
+= 15 = a = 18
+= 16 = a = 17
+= 16 = a = 20
+= 20 = a = 21
+# Listed 16 contacts. EOF.

@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b0v, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IRON-SULFUR, ELECTRON TRANSPORT
+> pdb_mol_name > PROTEIN (FERREDOXIN)
+> graphtype > albelig
+> resolution > 2.8
+> date > 12-NOV-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > I40N MUTANT OF AZOTOBACTER VINELANDII FDI
+> format_version > 2
+> pdbid > 1b0v
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > AZOTOBACTER VINELANDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b0v | B | albelig | 1 | 1 | E | 109 | 111 | B-202-  | B-204-  | FVV 
+| 1b0v | B | albelig | 2 | 2 | H | 113 | 115 | B-206-  | B-208-  | DNC 
+| 1b0v | B | albelig | 3 | 3 | H | 122 | 126 | B-215-  | B-219-  | DCVEV 
+| 1b0v | B | albelig | 4 | 4 | E | 132 | 134 | B-225-  | B-227-  | FYE 
+| 1b0v | B | albelig | 5 | 5 | E | 139 | 141 | B-232-  | B-234-  | LVI 
+| 1b0v | B | albelig | 6 | 6 | H | 152 | 155 | B-245-  | B-248-  | CEPE 
+| 1b0v | B | albelig | 7 | 7 | E | 161 | 163 | B-254-  | B-256-  | IFS 
+| 1b0v | B | albelig | 8 | 8 | H | 164 | 166 | B-257-  | B-259-  | EDE 
+| 1b0v | B | albelig | 9 | 9 | H | 169 | 171 | B-262-  | B-264-  | EDM 
+| 1b0v | B | albelig | 10 | 10 | H | 173 | 184 | B-266-  | B-277-  | EFIQLNAELAEV 
+| 1b0v | B | albelig | 11 | 11 | H | 198 | 201 | B-291-  | B-294-  | AEDW 
+| 1b0v | B | albelig | 12 | 12 | H | 207 | 210 | B-300-  | B-303-  | KLQH 
+| 1b0v | B | albelig | 13 | 13 | L | 430 | 430 | B-307-  | B-307-  | J 
+| 1b0v | B | albelig | 14 | 14 | L | 431 | 431 | B-308-  | B-308-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 7
+= 1 = m = 10
+= 1 = l = 13
+= 1 = l = 14
+= 2 = m = 12
+= 2 = l = 14
+= 3 = l = 13
+= 3 = l = 14
+= 4 = a = 5
+= 4 = l = 13
+= 5 = m = 10
+= 5 = l = 13
+= 5 = l = 14
+= 6 = l = 13
+= 6 = l = 14
+= 7 = m = 8
+= 7 = l = 14
+# Listed 18 contacts. EOF.

@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gh0, chain K.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C-PHYCOCYANIN FROM SPIRULINA PLATENSIS, PHOTOSYNTHESIS
+> pdb_mol_name > C-PHYCOCYANIN ALPHA SUBUNIT
+> graphtype > albelig
+> resolution > 2.2
+> date > 29-OCT-00
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF C-PHYCOCYANIN FROM SPIRULINA PLATENSIS
+> format_version > 2
+> pdbid > 1gh0
+> experiment > X-RAY DIFFRACTION
+> chainid > K
+> graphclass > protein graph
+> pdb_org_sci > ARTHROSPIRA PLATENSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gh0 | K | albelig | 1 | 1 | H | 1684 | 1694 | K-4-  | K-14-  | PLTEAVSVADS 
+| 1gh0 | K | albelig | 2 | 2 | H | 1701 | 1742 | K-21-  | K-62-  | STEIQVAFGRFRQAKAGLEAAKALTSKADSLISGAAQAVYNK 
+| 1gh0 | K | albelig | 3 | 3 | H | 1744 | 1747 | K-64-  | K-67-  | PYTT 
+| 1gh0 | K | albelig | 4 | 4 | H | 1758 | 1781 | K-78-  | K-101-  | QRGKDKCARDIGYYLRMVTYCLIA 
+| 1gh0 | K | albelig | 5 | 5 | H | 1785 | 1792 | K-105-  | K-112-  | GPMDEYLI 
+| 1gh0 | K | albelig | 6 | 6 | H | 1795 | 1801 | K-115-  | K-121-  | IDEINRT 
+| 1gh0 | K | albelig | 7 | 7 | H | 1806 | 1819 | K-126-  | K-139-  | PSWYIEALKYIKAN 
+| 1gh0 | K | albelig | 8 | 8 | H | 1824 | 1840 | K-144-  | K-160-  | GDAAVEANSYLDYAINA 
+| 1gh0 | K | albelig | 9 | 9 | L | 4059 | 4059 | K-1084-  | K-1084-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = a = 7
+= 2 = l = 9
+= 3 = l = 9
+= 4 = a = 5
+= 4 = l = 9
+= 5 = l = 9
+= 6 = l = 9
+= 7 = m = 8
+= 7 = l = 9
+# Listed 10 contacts. EOF.

@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g6q, chain 3.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SAM-BINDING DOMAIN, BETA-BARREL, MIXED ALPHA-BETA, HEXAMER, DIMER,TRANSFERASE
+> pdb_mol_name > HNRNP ARGININE N-METHYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.9
+> date > 07-NOV-00
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF YEAST ARGININE METHYLTRANSFERASE, HMT1
+> format_version > 2
+> pdbid > 1g6q
+> experiment > X-RAY DIFFRACTION
+> chainid > 3
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g6q | 3 | albelig | 1 | 1 | H | 653 | 659 | 3-32-  | 3-38-  | IHEEMLQ 
+| 1g6q | 3 | albelig | 2 | 2 | H | 661 | 673 | 3-40-  | 3-52-  | TVRTLSYRNAIIQ 
+| 1g6q | 3 | albelig | 3 | 3 | H | 675 | 678 | 3-54-  | 3-57-  | KDLF 
+| 1g6q | 3 | albelig | 4 | 4 | E | 682 | 686 | 3-61-  | 3-65-  | IVLDV 
+| 1g6q | 3 | albelig | 5 | 5 | H | 692 | 699 | 3-71-  | 3-78-  | ILSMFAAK 
+| 1g6q | 3 | albelig | 6 | 6 | E | 704 | 709 | 3-83-  | 3-88-  | HVIGVD 
+| 1g6q | 3 | albelig | 7 | 7 | H | 714 | 723 | 3-93-  | 3-102-  | IEMAKELVEL 
+| 1g6q | 3 | albelig | 8 | 8 | E | 730 | 734 | 3-109-  | 3-113-  | ITLLR 
+| 1g6q | 3 | albelig | 9 | 9 | E | 747 | 752 | 3-126-  | 3-131-  | VDIIIS 
+| 1g6q | 3 | albelig | 10 | 10 | H | 765 | 775 | 3-144-  | 3-154-  | MDTVLYARDHY 
+| 1g6q | 3 | albelig | 11 | 11 | E | 776 | 783 | 3-155-  | 3-162-  | LVEGGLIF 
+| 1g6q | 3 | albelig | 12 | 12 | E | 786 | 794 | 3-165-  | 3-173-  | KCSIHLAGL 
+| 1g6q | 3 | albelig | 13 | 13 | H | 797 | 808 | 3-176-  | 3-187-  | SQYKDEKLNYWQ 
+| 1g6q | 3 | albelig | 14 | 14 | H | 818 | 822 | 3-197-  | 3-201-  | FVPLV 
+| 1g6q | 3 | albelig | 15 | 15 | E | 827 | 829 | 3-206-  | 3-208-  | IVD 
+| 1g6q | 3 | albelig | 16 | 16 | H | 833 | 835 | 3-212-  | 3-214-  | RNN 
+| 1g6q | 3 | albelig | 17 | 17 | E | 841 | 847 | 3-220-  | 3-226-  | DKLIEFD 
+| 1g6q | 3 | albelig | 18 | 18 | H | 853 | 856 | 3-232-  | 3-235-  | ISDL 
+| 1g6q | 3 | albelig | 19 | 19 | E | 858 | 865 | 3-237-  | 3-244-  | FKSNFKLT 
+| 1g6q | 3 | albelig | 20 | 20 | E | 870 | 882 | 3-249-  | 3-261-  | DMINGIVTWFDIV 
+| 1g6q | 3 | albelig | 21 | 21 | E | 893 | 895 | 3-272-  | 3-274-  | EFS 
+| 1g6q | 3 | albelig | 22 | 22 | E | 907 | 918 | 3-286-  | 3-297-  | QTIFYFPDDLDA 
+| 1g6q | 3 | albelig | 23 | 23 | E | 923 | 932 | 3-302-  | 3-311-  | TIEGELVCSP 
+| 1g6q | 3 | albelig | 24 | 24 | E | 940 | 949 | 3-319-  | 3-328-  | LNIKISYKFE 
+| 1g6q | 3 | albelig | 25 | 25 | E | 961 | 968 | 3-340-  | 3-347-  | KNEGSYLM 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 4 = p = 6
+= 4 = p = 9
+= 5 = m = 6
+= 6 = p = 8
+= 7 = m = 8
+= 9 = p = 11
+= 10 = m = 11
+= 12 = m = 16
+= 12 = a = 17
+= 12 = a = 20
+= 13 = m = 22
+= 15 = a = 22
+= 17 = a = 19
+= 19 = a = 23
+= 20 = a = 21
+= 20 = a = 22
+= 22 = p = 24
+= 22 = a = 25
+= 23 = a = 24
+= 24 = a = 25
+# Listed 21 contacts. EOF.

@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1afa, chain 1.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C-TYPE LECTIN, CALCIUM-BINDING PROTEIN
+> pdb_mol_name > MANNOSE-BINDING PROTEIN-A
+> graphtype > albelig
+> resolution > 2.0
+> date > 03-NOV-95
+> header > LECTIN
+> pdb_org_common > NORWAY RAT
+> title > STRUCTURAL BASIS OF GALACTOSE RECOGNITION IN C-TYPE ANIMALLECTINS
+> format_version > 2
+> pdbid > 1afa
+> experiment > X-RAY DIFFRACTION
+> chainid > 1
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1afa | 1 | albelig | 1 | 1 | H | 2 | 30 | 1-74-  | 1-102-  | IEVKLANMEAEINTLKSKLELTNKLHAFS 
+| 1afa | 1 | albelig | 2 | 2 | E | 39 | 48 | 1-111-  | 1-120-  | FFVTNHERMP 
+| 1afa | 1 | albelig | 3 | 3 | H | 49 | 58 | 1-121-  | 1-130-  | FSKVKALASE 
+| 1afa | 1 | albelig | 4 | 4 | H | 69 | 79 | 1-141-  | 1-151-  | AEENKAIQEVA 
+| 1afa | 1 | albelig | 5 | 5 | E | 83 | 92 | 1-155-  | 1-164-  | AFLGITDEVT 
+| 1afa | 1 | albelig | 6 | 6 | E | 95 | 98 | 1-167-  | 1-170-  | QFMY 
+| 1afa | 1 | albelig | 7 | 7 | E | 128 | 131 | 1-200-  | 1-203-  | NVTI 
+| 1afa | 1 | albelig | 8 | 8 | E | 137 | 140 | 1-209-  | 1-212-  | WNDI 
+| 1afa | 1 | albelig | 9 | 9 | E | 145 | 152 | 1-217-  | 1-224-  | SHTAVAEF 
+| 1afa | 1 | albelig | 10 | 10 | L | 465 | 465 | 1-227-  | 1-227-  | J 
+| 1afa | 1 | albelig | 11 | 11 | L | 466 | 466 | 1-2-  | 1-2-  | J 
+| 1afa | 1 | albelig | 12 | 12 | L | 467 | 467 | 1-3-  | 1-3-  | J 
+| 1afa | 1 | albelig | 13 | 13 | L | 468 | 468 | 1-4-  | 1-4-  | J 
+| 1afa | 1 | albelig | 14 | 14 | L | 469 | 469 | 1-1-  | 1-1-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 12
+= 2 = m = 3
+= 2 = a = 9
+= 3 = m = 9
+= 5 = a = 6
+= 5 = a = 7
+= 5 = a = 9
+= 5 = l = 10
+= 6 = l = 10
+= 7 = a = 8
+= 7 = l = 13
+= 8 = l = 10
+= 8 = l = 11
+= 8 = l = 13
+= 8 = l = 14
+= 11 = l = 14
+# Listed 16 contacts. EOF.

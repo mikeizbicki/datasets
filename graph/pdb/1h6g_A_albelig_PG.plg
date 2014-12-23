@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h6g, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-CATENIN, ADHESION MODULATION, CYTOSKELETON
+> pdb_mol_name > ALPHA-1 CATENIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 14-JUN-01
+> header > CYTOSKELETON
+> pdb_org_common > HUMAN
+> title > ALPHA-CATENIN M-DOMAIN
+> format_version > 2
+> pdbid > 1h6g
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h6g | A | albelig | 1 | 1 | H | 2 | 13 | A-378-  | A-389-  | LRRQLRKAVXDH 
+| 1h6g | A | albelig | 2 | 2 | H | 22 | 33 | A-398-  | A-409-  | NVPLLVLIEAAK 
+| 1h6g | A | albelig | 3 | 3 | H | 37 | 62 | A-413-  | A-438-  | EKEVKEYAQVFREHANKLIEVANLAC 
+| 1h6g | A | albelig | 4 | 4 | H | 68 | 97 | A-444-  | A-473-  | EEGVKLVRXSASQLEALCPQVINAALALAA 
+| 1h6g | A | albelig | 5 | 5 | H | 102 | 130 | A-478-  | A-506-  | KLAQENXDLFKEQWEKQVRVLTDAVDDIT 
+| 1h6g | A | albelig | 6 | 6 | H | 133 | 155 | A-509-  | A-531-  | DDFLAVSENHILEDVNKCVIALQ 
+| 1h6g | A | albelig | 7 | 7 | H | 159 | 183 | A-535-  | A-559-  | VDGLDRTAGAIRGRAARVIHVVTSE 
+| 1h6g | A | albelig | 8 | 8 | H | 191 | 207 | A-567-  | A-583-  | VYTEKVLEATKLLSNTV 
+| 1h6g | A | albelig | 9 | 9 | H | 208 | 222 | A-584-  | A-598-  | XPRFTEQVEAAVEAL 
+| 1h6g | A | albelig | 10 | 10 | H | 232 | 254 | A-608-  | A-630-  | ENEFIDASRLVYDGIRDIRKAVL 
+| 1h6g | A | albelig | 11 | 11 | L | 511 | 511 | A-1631-  | A-1631-  | J 
+| 1h6g | A | albelig | 12 | 12 | L | 512 | 512 | A-1632-  | A-1632-  | J 
+| 1h6g | A | albelig | 13 | 13 | L | 513 | 513 | A-1633-  | A-1633-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 3 = a = 4
+= 3 = p = 5
+= 4 = a = 5
+= 5 = l = 12
+= 5 = l = 13
+= 6 = a = 7
+= 6 = a = 10
+= 6 = l = 11
+= 6 = l = 12
+= 6 = l = 13
+= 7 = m = 8
+= 7 = a = 9
+= 7 = p = 10
+= 7 = l = 13
+= 8 = m = 9
+= 8 = a = 10
+= 9 = a = 10
+= 10 = l = 11
+# Listed 20 contacts. EOF.

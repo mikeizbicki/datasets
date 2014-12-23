@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ek3, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMAN IMMUNOGLOBULIN LIGHT CHAIN VL, AMYLOID PROTEIN,FLIPPED-DIMER, IMMUNE SYSTEM
+> pdb_mol_name > KAPPA-4 IMMUNOGLOBULIN LIGHT CHAIN VL
+> graphtype > albelig
+> resolution > 1.9
+> date > 06-MAR-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > KAPPA-4 IMMUNOGLOBULIN VL, REC
+> format_version > 2
+> pdbid > 1ek3
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ek3 | B | albelig | 1 | 1 | E | 119 | 122 | B-304-  | B-307-  | MTQS 
+| 1ek3 | B | albelig | 2 | 2 | E | 125 | 128 | B-310-  | B-313-  | SLAV 
+| 1ek3 | B | albelig | 3 | 3 | E | 134 | 140 | B-319-  | B-325-  | ATINNKS 
+| 1ek3 | B | albelig | 4 | 4 | E | 154 | 159 | B-333-  | B-338-  | LAWYQQ 
+| 1ek3 | B | albelig | 5 | 5 | E | 166 | 170 | B-345-  | B-349-  | KLLIY 
+| 1ek3 | B | albelig | 6 | 6 | E | 183 | 188 | B-362-  | B-367-  | FSGSGS 
+| 1ek3 | B | albelig | 7 | 7 | E | 191 | 196 | B-370-  | B-375-  | DFTLTI 
+| 1ek3 | B | albelig | 8 | 8 | H | 201 | 203 | B-380-  | B-382-  | AED 
+| 1ek3 | B | albelig | 9 | 9 | E | 205 | 211 | B-384-  | B-390-  | AVYYNQQ 
+| 1ek3 | B | albelig | 10 | 10 | E | 223 | 227 | B-402-  | B-406-  | TKVEI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+# Listed 10 contacts. EOF.

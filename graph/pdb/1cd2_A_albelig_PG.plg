@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cd2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, ONE-CARBON METABOLISM
+> pdb_mol_name > DIHYDROFOLATE REDUCTASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 05-MAR-99
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > LIGAND INDUCED CONFORMATIONAL CHANGES IN THE CRYSTALSTRUCTURES OF PNEUMOCYSTIS CARINII DIHYDROFOLATE REDUCTASECOMPLEXES WITH FOLATE AND NADP+
+> format_version > 2
+> pdbid > 1cd2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PNEUMOCYSTIS CARINII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cd2 | A | albelig | 1 | 1 | E | 7 | 14 | A-7-  | A-14-  | LTLIVALT 
+| 1cd2 | A | albelig | 2 | 2 | E | 18 | 20 | A-18-  | A-20-  | GIG 
+| 1cd2 | A | albelig | 3 | 3 | H | 30 | 41 | A-30-  | A-41-  | KKEISYFKRVTS 
+| 1cd2 | A | albelig | 4 | 4 | E | 52 | 58 | A-52-  | A-58-  | MNVVLMG 
+| 1cd2 | A | albelig | 5 | 5 | H | 59 | 63 | A-59-  | A-63-  | RKTWE 
+| 1cd2 | A | albelig | 6 | 6 | H | 67 | 69 | A-67-  | A-69-  | LQF 
+| 1cd2 | A | albelig | 7 | 7 | E | 75 | 80 | A-75-  | A-80-  | RINVVI 
+| 1cd2 | A | albelig | 8 | 8 | E | 93 | 95 | A-93-  | A-95-  | HSA 
+| 1cd2 | A | albelig | 9 | 9 | H | 98 | 108 | A-98-  | A-108-  | LDHALELLYRT 
+| 1cd2 | A | albelig | 10 | 10 | E | 117 | 122 | A-117-  | A-122-  | INRIFV 
+| 1cd2 | A | albelig | 11 | 11 | H | 126 | 133 | A-126-  | A-133-  | AQLYKAAM 
+| 1cd2 | A | albelig | 12 | 12 | E | 138 | 146 | A-138-  | A-146-  | LDRIMATII 
+| 1cd2 | A | albelig | 13 | 13 | H | 163 | 165 | A-163-  | A-165-  | KEW 
+| 1cd2 | A | albelig | 14 | 14 | H | 174 | 181 | A-174-  | A-181-  | HSDLESWV 
+| 1cd2 | A | albelig | 15 | 15 | E | 190 | 192 | A-190-  | A-192-  | INE 
+| 1cd2 | A | albelig | 16 | 16 | E | 195 | 203 | A-195-  | A-203-  | FDYEFEMWT 
+| 1cd2 | A | albelig | 17 | 17 | L | 207 | 207 | A-207-  | A-207-  | J 
+| 1cd2 | A | albelig | 18 | 18 | L | 208 | 208 | A-307-  | A-307-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 10
+= 1 = p = 12
+= 1 = l = 17
+= 1 = l = 18
+= 2 = l = 17
+= 3 = l = 18
+= 4 = m = 5
+= 4 = p = 7
+= 4 = p = 10
+= 4 = l = 17
+= 5 = l = 17
+= 5 = l = 18
+= 6 = l = 18
+= 7 = p = 8
+= 7 = l = 17
+= 7 = l = 18
+= 11 = l = 17
+= 11 = l = 18
+= 12 = m = 14
+= 12 = a = 16
+= 12 = l = 18
+= 14 = m = 16
+= 15 = a = 16
+= 17 = l = 18
+# Listed 25 contacts. EOF.

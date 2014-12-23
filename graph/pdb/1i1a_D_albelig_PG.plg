@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i1a, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC CLASS I FOLD, IG CONSTANT DOMAINS, IMMUNE SYSTEM
+> pdb_mol_name > IG GAMMA-2A CHAIN C REGION
+> graphtype > albelig
+> resolution > 2.8
+> date > 31-JAN-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF THE NEONATAL FC RECEPTOR COMPLEXED WITH AHETERODIMERIC FC
+> format_version > 2
+> pdbid > 1i1a
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i1a | D | albelig | 1 | 1 | H | 581 | 584 | D-247-  | D-250-  | TKDV 
+| 1i1a | D | albelig | 2 | 2 | E | 610 | 612 | D-276-  | D-278-  | SWF 
+| 1i1a | D | albelig | 3 | 3 | E | 622 | 624 | D-288-  | D-290-  | QTH 
+| 1i1a | D | albelig | 4 | 4 | E | 637 | 641 | D-303-  | D-307-  | VSELP 
+| 1i1a | D | albelig | 5 | 5 | H | 644 | 647 | D-310-  | D-313-  | ERDW 
+| 1i1a | D | albelig | 6 | 6 | E | 654 | 656 | D-320-  | D-322-  | KFK 
+| 1i1a | D | albelig | 7 | 7 | E | 681 | 685 | D-347-  | D-351-  | QVYTM 
+| 1i1a | D | albelig | 8 | 8 | E | 696 | 706 | D-362-  | D-372-  | QVSITGMVKGF 
+| 1i1a | D | albelig | 9 | 9 | E | 713 | 717 | D-379-  | D-383-  | TEWKM 
+| 1i1a | D | albelig | 10 | 10 | E | 725 | 727 | D-391-  | D-393-  | YKN 
+| 1i1a | D | albelig | 11 | 11 | E | 738 | 747 | D-404-  | D-413-  | YFLYSKLNVK 
+| 1i1a | D | albelig | 12 | 12 | H | 748 | 752 | D-414-  | D-418-  | KETWQ 
+| 1i1a | D | albelig | 13 | 13 | E | 757 | 762 | D-423-  | D-428-  | FTGSVL 
+| 1i1a | D | albelig | 14 | 14 | H | 767 | 769 | D-433-  | D-435-  | ENE 
+| 1i1a | D | albelig | 15 | 15 | E | 770 | 775 | D-436-  | D-441-  | HTEKSL 
+| 1i1a | D | albelig | 16 | 16 | L | 798 | 798 | D-551-  | D-551-  | J 
+| 1i1a | D | albelig | 17 | 17 | L | 799 | 799 | D-552-  | D-552-  | J 
+| 1i1a | D | albelig | 18 | 18 | L | 800 | 800 | D-553-  | D-553-  | J 
+| 1i1a | D | albelig | 19 | 19 | L | 801 | 801 | D-554-  | D-554-  | J 
+| 1i1a | D | albelig | 20 | 20 | L | 802 | 802 | D-555-  | D-555-  | J 
+| 1i1a | D | albelig | 21 | 21 | L | 803 | 803 | D-556-  | D-556-  | J 
+| 1i1a | D | albelig | 22 | 22 | L | 804 | 804 | D-558-  | D-558-  | J 
+| 1i1a | D | albelig | 23 | 23 | L | 805 | 805 | D-559-  | D-559-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = a = 6
+= 3 = a = 4
+= 7 = a = 8
+= 7 = p = 15
+= 8 = a = 9
+= 8 = a = 11
+= 9 = a = 10
+= 9 = a = 13
+= 10 = a = 11
+= 11 = m = 12
+= 13 = m = 14
+= 13 = a = 15
+= 14 = m = 15
+= 16 = l = 17
+= 16 = l = 18
+= 17 = l = 18
+= 17 = l = 20
+= 18 = l = 19
+= 18 = l = 20
+= 18 = l = 21
+= 18 = l = 22
+= 19 = l = 20
+= 19 = l = 21
+= 19 = l = 22
+= 19 = l = 23
+= 20 = l = 21
+= 22 = l = 23
+# Listed 28 contacts. EOF.

@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hux, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN FOLD, METAL BINDING PROTEIN
+> pdb_mol_name > ACTIVATOR OF (R)-2-HYDROXYGLUTARYL-COA
+> graphtype > albelig
+> resolution > 3.0
+> date > 04-JAN-01
+> header > METAL BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE ACIDAMINOCOCCUS FERMENTANS (R)-2-HYDROXYGLUTARYL-COA DEHYDRATASE COMPONENT A
+> format_version > 2
+> pdbid > 1hux
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ACIDAMINOCOCCUS FERMENTANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hux | A | albelig | 1 | 1 | E | 3 | 9 | A-4-  | A-10-  | YTLGIDV 
+| 1hux | A | albelig | 2 | 2 | E | 13 | 20 | A-14-  | A-21-  | ASKCIILK 
+| 1hux | A | albelig | 3 | 3 | E | 24 | 32 | A-25-  | A-33-  | EIVAKSLVA 
+| 1hux | A | albelig | 4 | 4 | H | 39 | 51 | A-40-  | A-52-  | GPARSISEVLENA 
+| 1hux | A | albelig | 5 | 5 | H | 55 | 57 | A-56-  | A-58-  | KED 
+| 1hux | A | albelig | 6 | 6 | E | 60 | 64 | A-61-  | A-65-  | FTLAT 
+| 1hux | A | albelig | 7 | 7 | E | 77 | 79 | A-78-  | A-80-  | KQM 
+| 1hux | A | albelig | 8 | 8 | H | 81 | 92 | A-82-  | A-93-  | ELSCHAMGASFI 
+| 1hux | A | albelig | 9 | 9 | E | 98 | 103 | A-99-  | A-104-  | TVIDIG 
+| 1hux | A | albelig | 10 | 10 | E | 106 | 113 | A-107-  | A-114-  | DVKVIHVE 
+| 1hux | A | albelig | 11 | 11 | E | 116 | 123 | A-117-  | A-124-  | TMTNFQMN 
+| 1hux | A | albelig | 12 | 12 | H | 131 | 141 | A-132-  | A-142-  | GRFLDVMANIL 
+| 1hux | A | albelig | 13 | 13 | H | 148 | 152 | A-149-  | A-153-  | LAELG 
+| 1hux | A | albelig | 14 | 14 | H | 166 | 178 | A-167-  | A-179-  | TVFAESEVISQLS 
+| 1hux | A | albelig | 15 | 15 | H | 183 | 203 | A-184-  | A-204-  | KIDIIAGIHRSVASRVIGLAN 
+| 1hux | A | albelig | 16 | 16 | E | 211 | 214 | A-212-  | A-215-  | VVMT 
+| 1hux | A | albelig | 17 | 17 | H | 216 | 219 | A-217-  | A-220-  | GVAQ 
+| 1hux | A | albelig | 18 | 18 | H | 221 | 231 | A-222-  | A-232-  | YGVRGALEEGL 
+| 1hux | A | albelig | 19 | 19 | H | 239 | 256 | A-240-  | A-257-  | PLAQYNGALGAALYAYKK 
+| 1hux | A | albelig | 20 | 20 | L | 520 | 520 | A-290-  | A-290-  | J 
+| 1hux | A | albelig | 21 | 21 | L | 521 | 521 | A-506-  | A-506-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 1 = a = 19
+= 1 = l = 21
+= 2 = a = 3
+= 2 = p = 4
+= 2 = p = 19
+= 2 = l = 21
+= 3 = a = 4
+= 3 = m = 19
+= 6 = p = 7
+= 6 = a = 19
+= 8 = m = 11
+= 8 = m = 19
+= 9 = a = 10
+= 9 = p = 16
+= 9 = m = 17
+= 9 = l = 21
+= 10 = a = 11
+= 10 = l = 21
+= 12 = p = 14
+= 12 = a = 15
+= 12 = l = 21
+= 13 = m = 15
+= 14 = l = 20
+= 15 = p = 18
+= 16 = m = 17
+= 17 = l = 21
+= 19 = l = 21
+# Listed 29 contacts. EOF.

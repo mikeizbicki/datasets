@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cbm, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN BETA 4 (CARBONMONOXY)
+> graphtype > albelig
+> resolution > 1.74
+> date > 18-FEB-93
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > THE 1.8 ANGSTROM STRUCTURE OF CARBONMONOXY-BETA4 HEMOGLOBIN: ANALYSISOF A HOMOTETRAMER WITH THE R QUATERNARY STRUCTURE OF LIGANDEDALPHA2BETA2 HEMOGLOBIN
+> format_version > 2
+> pdbid > 1cbm
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cbm | B | albelig | 1 | 1 | H | 152 | 162 | B-5-  | B-15-  | PEEKSAVTALW 
+| 1cbm | B | albelig | 2 | 2 | H | 167 | 181 | B-20-  | B-34-  | VDEVGGEALGRLLVV 
+| 1cbm | B | albelig | 3 | 3 | H | 183 | 192 | B-36-  | B-45-  | PWTQRFFESF 
+| 1cbm | B | albelig | 4 | 4 | H | 198 | 203 | B-51-  | B-56-  | PDAVMG 
+| 1cbm | B | albelig | 5 | 5 | H | 205 | 223 | B-58-  | B-76-  | PKVKAHGKKVLGAFSDGLA 
+| 1cbm | B | albelig | 6 | 6 | H | 225 | 231 | B-78-  | B-84-  | LDNLKGT 
+| 1cbm | B | albelig | 7 | 7 | H | 233 | 242 | B-86-  | B-95-  | ATLSELHCDK 
+| 1cbm | B | albelig | 8 | 8 | H | 247 | 268 | B-100-  | B-121-  | PENFRLLGNVLVCVLAHHFGKE 
+| 1cbm | B | albelig | 9 | 9 | H | 271 | 288 | B-124-  | B-141-  | PPVQAAYQKVVAGVANAL 
+| 1cbm | B | albelig | 10 | 10 | H | 290 | 292 | B-143-  | B-145-  | HKY 
+| 1cbm | B | albelig | 11 | 11 | L | 591 | 591 | B-151-  | B-151-  | J 
+| 1cbm | B | albelig | 12 | 12 | L | 592 | 592 | B-147-  | B-147-  | J 
+| 1cbm | B | albelig | 13 | 13 | L | 593 | 593 | B-148-  | B-148-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 4
+= 2 = a = 5
+= 2 = a = 8
+= 2 = l = 12
+= 2 = l = 13
+= 3 = m = 5
+= 3 = l = 12
+= 3 = l = 13
+= 4 = m = 5
+= 5 = m = 6
+= 5 = l = 12
+= 5 = l = 13
+= 7 = m = 9
+= 7 = m = 10
+= 7 = l = 12
+= 7 = l = 13
+= 8 = a = 9
+= 8 = l = 12
+= 8 = l = 13
+= 9 = l = 11
+= 9 = l = 12
+= 10 = l = 11
+= 12 = l = 13
+# Listed 24 contacts. EOF.

@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gqa, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, HEME
+> pdb_mol_name > CYTOCHROME C'
+> graphtype > albelig
+> resolution > 1.8
+> date > 22-NOV-01
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CYTOCHROME C' FROM RHODOBACTER SPHERIODES
+> format_version > 2
+> pdbid > 1gqa
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RHODOBACTER SPHAEROIDES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gqa | A | albelig | 1 | 1 | H | 3 | 29 | A-3-  | A-29-  | AEHVVEARKGYFSLVALEFGPLAAMAK 
+| 1gqa | A | albelig | 2 | 2 | H | 36 | 51 | A-36-  | A-51-  | AAAAKAHASDLVTLTK 
+| 1gqa | A | albelig | 3 | 3 | H | 54 | 58 | A-54-  | A-58-  | PSDLY 
+| 1gqa | A | albelig | 4 | 4 | H | 75 | 78 | A-75-  | A-78-  | AIWQ 
+| 1gqa | A | albelig | 5 | 5 | H | 80 | 101 | A-80-  | A-101-  | ADGFQAKGMAFFEAVAALEPAA 
+| 1gqa | A | albelig | 6 | 6 | H | 105 | 126 | A-105-  | A-126-  | QKELAAAVGKVGGTCKSCHDDF 
+| 1gqa | A | albelig | 7 | 7 | L | 262 | 262 | A-131-  | A-131-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = a = 6
+= 1 = l = 7
+= 2 = a = 5
+= 3 = l = 7
+= 4 = l = 7
+= 5 = a = 6
+= 5 = l = 7
+= 6 = l = 7
+# Listed 10 contacts. EOF.

@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gzl, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOPROTEIN, HIV ENTRY, INHIBITOR, CROSS-LINK, GP41,COILED COIL
+> pdb_mol_name > ENVELOPE GLYCOPROTEIN GP41
+> graphtype > albelig
+> resolution > 1.8
+> date > 23-MAY-02
+> header > GLYCOPROTEIN
+> pdb_org_common > HIV
+> title > CRYSTAL STRUCTURE OF C14LINKMID/IQN17: A CROSS-LINKEDINHIBITOR OF HIV-1 ENTRY BOUND TO THE GP41 HYDROPHOBICPOCKET
+> format_version > 2
+> pdbid > 1gzl
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gzl | D | albelig | 1 | 1 | H | 107 | 116 | D-629-  | D-638-  | EEWDREIENY 
+| 1gzl | D | albelig | 2 | 2 | L | 123 | 123 | D-1640-  | D-1640-  | J 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+# Listed 1 contacts. EOF.

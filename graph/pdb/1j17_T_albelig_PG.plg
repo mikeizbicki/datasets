@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j17, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, HYDROLASE, SERINE PROTEINASE
+> pdb_mol_name > TRYPSIN II, ANIONIC
+> graphtype > albelig
+> resolution > 2.0
+> date > 30-NOV-02
+> header > HYDROLASE
+> pdb_org_common > NORWAY RAT
+> title > FACTOR XA SPECIFIC INHIBITOR IN COMPLEX WITH RAT TRYPSINMUTANT X99/175/190RT
+> format_version > 2
+> pdbid > 1j17
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j17 | T | albelig | 1 | 1 | E | 15 | 19 | T-30-  | T-34-  | QVSLN 
+| 1j17 | T | albelig | 2 | 2 | E | 23 | 31 | T-40-  | T-48-  | HFNGGSLIN 
+| 1j17 | T | albelig | 3 | 3 | E | 34 | 37 | T-51-  | T-54-  | WVVS 
+| 1j17 | T | albelig | 4 | 4 | H | 39 | 41 | T-56-  | T-58-  | AHN 
+| 1j17 | T | albelig | 5 | 5 | E | 47 | 50 | T-64-  | T-68-  | QVRL 
+| 1j17 | T | albelig | 6 | 6 | E | 63 | 72 | T-81-  | T-90-  | QFVNAAKIIK 
+| 1j17 | T | albelig | 7 | 7 | E | 86 | 90 | T-104-  | T-108-  | MLIKL 
+| 1j17 | T | albelig | 8 | 8 | E | 115 | 120 | T-135-  | T-140-  | QDLISG 
+| 1j17 | T | albelig | 9 | 9 | E | 136 | 141 | T-156-  | T-161-  | QALDAP 
+| 1j17 | T | albelig | 10 | 10 | H | 145 | 151 | T-165-  | T-171-  | QADEEAS 
+| 1j17 | T | albelig | 11 | 11 | E | 160 | 163 | T-180-  | T-183-  | MVEV 
+| 1j17 | T | albelig | 12 | 12 | E | 180 | 183 | T-198-  | T-201-  | PVVD 
+| 1j17 | T | albelig | 13 | 13 | E | 186 | 193 | T-204-  | T-215-  | ELQGIVSW 
+| 1j17 | T | albelig | 14 | 14 | E | 204 | 208 | T-226-  | T-230-  | GVYTK 
+| 1j17 | T | albelig | 15 | 15 | H | 209 | 211 | T-231-  | T-233-  | VCN 
+| 1j17 | T | albelig | 16 | 16 | H | 213 | 221 | T-235-  | T-243-  | VDWIQDTIA 
+| 1j17 | T | albelig | 17 | 17 | L | 224 | 224 | T-480-  | T-480-  | J 
+| 1j17 | T | albelig | 18 | 18 | L | 225 | 225 | T-600-  | T-600-  | J 
+| 1j17 | T | albelig | 19 | 19 | L | 226 | 226 | T-1-  | T-1-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 2 = l = 18
+= 3 = a = 7
+= 4 = l = 18
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 12
+= 11 = a = 14
+= 11 = l = 19
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 13 = l = 18
+= 13 = l = 19
+= 14 = m = 15
+= 14 = l = 19
+= 18 = l = 19
+# Listed 20 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahs, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CORE PROTEIN, GLYCOPROTEIN, COAT PROTEIN (VIRAL), VIRALPROTEIN
+> pdb_mol_name > AFRICAN HORSE SICKNESS VIRUS (SEROTYPE 4) VP7
+> graphtype > albelig
+> resolution > 2.3
+> date > 18-MAR-96
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE TOP DOMAIN OF AFRICAN HORSESICKNESS VIRUS VP7
+> format_version > 2
+> pdbid > 1ahs
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > AFRICAN HORSESICKNESS VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahs | B | albelig | 1 | 1 | E | 150 | 154 | B-148-  | B-152-  | TRGGY 
+| 1ahs | B | albelig | 2 | 2 | E | 159 | 164 | B-157-  | B-162-  | IAEVCM 
+| 1ahs | B | albelig | 3 | 3 | E | 168 | 171 | B-166-  | B-169-  | AAGQ 
+| 1ahs | B | albelig | 4 | 4 | H | 173 | 176 | B-171-  | B-174-  | NALL 
+| 1ahs | B | albelig | 5 | 5 | E | 186 | 192 | B-184-  | B-190-  | IYFVWRP 
+| 1ahs | B | albelig | 6 | 6 | E | 211 | 214 | B-209-  | B-212-  | FVTV 
+| 1ahs | B | albelig | 7 | 7 | E | 217 | 219 | B-215-  | B-217-  | VNV 
+| 1ahs | B | albelig | 8 | 8 | E | 225 | 227 | B-223-  | B-225-  | VAW 
+| 1ahs | B | albelig | 9 | 9 | E | 233 | 237 | B-231-  | B-235-  | VNVGN 
+| 1ahs | B | albelig | 10 | 10 | E | 243 | 252 | B-241-  | B-250-  | SILQFEVLWY 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 9
+= 2 = a = 10
+= 3 = a = 9
+= 5 = a = 8
+= 5 = a = 10
+= 6 = a = 7
+= 6 = a = 9
+# Listed 8 contacts. EOF.

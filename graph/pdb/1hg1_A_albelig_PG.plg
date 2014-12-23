@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hg1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ASPARAGINASE, HYDROLASE, X-RAY, STRUCTURE, COMPLEX, D-ASPARTATE
+> pdb_mol_name > L-ASPARAGINASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 08-DEC-00
+> header > ASPARAGINASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY STRUCTURE OF THE COMPLEX BETWEEN ERWINIA CHRYSANTHEMIL-ASPARAGINASE AND D-ASPARTATE
+> format_version > 2
+> pdbid > 1hg1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ERWINIA CHRYSANTHEMI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hg1 | A | albelig | 1 | 1 | E | 3 | 8 | A-6-  | A-11-  | NIVILA 
+| 1hg1 | A | albelig | 2 | 2 | H | 16 | 22 | A-36-  | A-42-  | VDTLINA 
+| 1hg1 | A | albelig | 3 | 3 | H | 24 | 28 | A-44-  | A-48-  | PEVKK 
+| 1hg1 | A | albelig | 4 | 4 | E | 31 | 36 | A-51-  | A-56-  | NVKGEQ 
+| 1hg1 | A | albelig | 5 | 5 | H | 42 | 44 | A-62-  | A-64-  | SEN 
+| 1hg1 | A | albelig | 6 | 6 | H | 47 | 62 | A-67-  | A-82-  | GDVVLKLSQRVNELLA 
+| 1hg1 | A | albelig | 7 | 7 | E | 68 | 72 | A-88-  | A-92-  | GVVIT 
+| 1hg1 | A | albelig | 8 | 8 | H | 78 | 88 | A-98-  | A-108-  | VEESAYFLHLT 
+| 1hg1 | A | albelig | 9 | 9 | E | 95 | 98 | A-115-  | A-118-  | VVFV 
+| 1hg1 | A | albelig | 10 | 10 | H | 111 | 123 | A-131-  | A-143-  | GPMNLLEAVRVAG 
+| 1hg1 | A | albelig | 11 | 11 | H | 125 | 127 | A-145-  | A-147-  | KQS 
+| 1hg1 | A | albelig | 12 | 12 | E | 133 | 136 | A-153-  | A-156-  | MVVI 
+| 1hg1 | A | albelig | 13 | 13 | E | 139 | 142 | A-159-  | A-162-  | RIGS 
+| 1hg1 | A | albelig | 14 | 14 | E | 166 | 169 | A-186-  | A-189-  | GVII 
+| 1hg1 | A | albelig | 15 | 15 | E | 172 | 175 | A-192-  | A-195-  | RIYY 
+| 1hg1 | A | albelig | 16 | 16 | E | 177 | 179 | A-197-  | A-199-  | NRI 
+| 1hg1 | A | albelig | 17 | 17 | H | 184 | 186 | A-204-  | A-206-  | TTR 
+| 1hg1 | A | albelig | 18 | 18 | E | 200 | 204 | A-220-  | A-224-  | VDILY 
+| 1hg1 | A | albelig | 19 | 19 | H | 212 | 219 | A-232-  | A-239-  | YLYDAAIQ 
+| 1hg1 | A | albelig | 20 | 20 | E | 224 | 229 | A-244-  | A-249-  | GIVYAG 
+| 1hg1 | A | albelig | 21 | 21 | H | 237 | 248 | A-257-  | A-268-  | VRGIAGMRKALE 
+| 1hg1 | A | albelig | 22 | 22 | E | 252 | 257 | A-272-  | A-277-  | VVMRST 
+| 1hg1 | A | albelig | 23 | 23 | H | 280 | 291 | A-300-  | A-311-  | PAHARILLMLAL 
+| 1hg1 | A | albelig | 24 | 24 | H | 297 | 306 | A-317-  | A-326-  | PKVIQEYFHT 
+| 1hg1 | A | albelig | 25 | 25 | L | 1239 | 1239 | A-350-  | A-350-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 2 = m = 4
+= 5 = l = 25
+= 6 = p = 8
+= 7 = p = 9
+= 8 = p = 23
+= 9 = m = 10
+= 9 = p = 12
+= 12 = a = 13
+= 13 = p = 14
+= 14 = a = 15
+= 18 = p = 20
+= 18 = m = 23
+= 19 = m = 21
+= 20 = p = 22
+= 20 = m = 23
+= 23 = m = 24
+# Listed 18 contacts. EOF.

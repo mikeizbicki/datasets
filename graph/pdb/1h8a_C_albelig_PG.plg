@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h8a, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION/DNA, PROTEIN-DNA COMPLEX, TRANSCRIPTIONREGULATION, BZIP, V-MYB, C-MYB, AMV, C/EBP, CRYSTALSTRUCTURE, AVIAN MYELOBLASTOSIS VIRUS, TRANSFORMINGPROTEIN
+> pdb_mol_name > MYB TRANSFORMING PROTEIN
+> graphtype > albelig
+> resolution > 2.23
+> date > 31-JAN-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF TERNARY PROTEIN-DNA COMPLEX3
+> format_version > 2
+> pdbid > 1h8a
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > AVIAN MYELOBLASTOSIS VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h8a | C | albelig | 1 | 1 | H | 148 | 160 | C-97-  | C-109-  | KEEDQRVIEHVQK 
+| 1h8a | C | albelig | 2 | 2 | H | 166 | 172 | C-115-  | C-121-  | WSDIAKH 
+| 1h8a | C | albelig | 3 | 3 | H | 178 | 189 | C-127-  | C-138-  | GKQCRERWHNHL 
+| 1h8a | C | albelig | 4 | 4 | H | 200 | 213 | C-149-  | C-162-  | EEEDRIIYQAHKRL 
+| 1h8a | C | albelig | 5 | 5 | H | 217 | 223 | C-166-  | C-172-  | WAEIAKL 
+| 1h8a | C | albelig | 6 | 6 | H | 229 | 237 | C-178-  | C-186-  | DNAVKNHWN 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 4 = m = 6
+# Listed 2 contacts. EOF.

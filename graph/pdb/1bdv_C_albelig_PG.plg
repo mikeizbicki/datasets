@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bdv, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GENE-REGULATING PROTEIN, GENE REGULATION/DNA COMPLEX
+> pdb_mol_name > PROTEIN (ARC FV10 REPRESSOR)
+> graphtype > albelig
+> resolution > 2.8
+> date > 11-MAY-98
+> header > GENE REGULATION/DNA
+> pdb_org_common > UNKNOWN
+> title > ARC FV10 COCRYSTAL
+> format_version > 2
+> pdbid > 1bdv
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE P22
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bdv | C | albelig | 1 | 1 | E | 104 | 108 | C-9-  | C-13-  | QVNLR 
+| 1bdv | C | albelig | 2 | 2 | H | 111 | 123 | C-16-  | C-28-  | REVLDLVRKVAEE 
+| 1bdv | C | albelig | 3 | 3 | H | 128 | 141 | C-33-  | C-46-  | VNSEIYQRVMESFK 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+# Listed 1 contacts. EOF.

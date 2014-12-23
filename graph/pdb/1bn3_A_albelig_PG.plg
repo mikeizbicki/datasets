@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bn3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CO2 HYDRATION, ZINC ENZYME, LYASE
+> pdb_mol_name > CARBONIC ANHYDRASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 31-JUL-98
+> header > LYASE
+> pdb_org_common > HUMAN
+> title > CARBONIC ANHYDRASE II INHIBITOR
+> format_version > 2
+> pdbid > 1bn3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bn3 | A | albelig | 1 | 1 | H | 10 | 15 | A-13-  | A-18-  | PEHWHK 
+| 1bn3 | A | albelig | 2 | 2 | H | 18 | 21 | A-21-  | A-24-  | PIAK 
+| 1bn3 | A | albelig | 3 | 3 | E | 44 | 47 | A-47-  | A-50-  | LSVS 
+| 1bn3 | A | albelig | 4 | 4 | E | 53 | 58 | A-56-  | A-61-  | SLRILN 
+| 1bn3 | A | albelig | 5 | 5 | E | 63 | 67 | A-66-  | A-70-  | FNVEF 
+| 1bn3 | A | albelig | 6 | 6 | E | 75 | 78 | A-78-  | A-81-  | VLKG 
+| 1bn3 | A | albelig | 7 | 7 | E | 85 | 94 | A-88-  | A-97-  | YRLIQFHFHW 
+| 1bn3 | A | albelig | 8 | 8 | E | 113 | 121 | A-116-  | A-124-  | AELHLVHWN 
+| 1bn3 | A | albelig | 9 | 9 | H | 122 | 124 | A-125-  | A-128-  | TKY 
+| 1bn3 | A | albelig | 10 | 10 | H | 127 | 130 | A-131-  | A-134-  | FGKA 
+| 1bn3 | A | albelig | 11 | 11 | E | 137 | 146 | A-141-  | A-150-  | LAVLGIFLKV 
+| 1bn3 | A | albelig | 12 | 12 | H | 151 | 163 | A-155-  | A-167-  | PGLQKVVDVLDSI 
+| 1bn3 | A | albelig | 13 | 13 | E | 169 | 171 | A-173-  | A-175-  | SAD 
+| 1bn3 | A | albelig | 14 | 14 | H | 177 | 180 | A-181-  | A-184-  | PRGL 
+| 1bn3 | A | albelig | 15 | 15 | E | 187 | 192 | A-191-  | A-196-  | YWTYPG 
+| 1bn3 | A | albelig | 16 | 16 | E | 203 | 208 | A-207-  | A-212-  | VTWIVL 
+| 1bn3 | A | albelig | 17 | 17 | E | 212 | 214 | A-216-  | A-218-  | ISV 
+| 1bn3 | A | albelig | 18 | 18 | H | 216 | 222 | A-220-  | A-226-  | SEQVLKF 
+| 1bn3 | A | albelig | 19 | 19 | L | 257 | 257 | A-263-  | A-263-  | J 
+| 1bn3 | A | albelig | 20 | 20 | L | 258 | 258 | A-262-  | A-262-  | J 
+| 1bn3 | A | albelig | 21 | 21 | L | 259 | 259 | A-555-  | A-555-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 6
+= 4 = a = 5
+= 4 = a = 13
+= 5 = a = 7
+= 6 = a = 7
+= 7 = a = 8
+= 7 = l = 20
+= 7 = l = 21
+= 8 = m = 9
+= 8 = a = 11
+= 8 = l = 20
+= 8 = l = 21
+= 10 = l = 19
+= 10 = l = 21
+= 11 = p = 16
+= 11 = p = 17
+= 11 = l = 21
+= 12 = m = 18
+= 15 = a = 16
+= 16 = l = 21
+= 20 = l = 21
+# Listed 21 contacts. EOF.

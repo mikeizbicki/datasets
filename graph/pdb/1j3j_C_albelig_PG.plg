@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j3j, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BIFUNCTIONAL, OXIDOREDUCTASE, TRANSFERASE
+> pdb_mol_name > BIFUNCTIONAL DIHYDROFOLATE REDUCTASE-THYMIDYLATE
+> graphtype > albelig
+> resolution > 2.3
+> date > 03-FEB-03
+> header > OXIDOREDUCTASE, TRANSFERASE
+> pdb_org_common > MALARIA PARASITE P. FALCIPARUM
+> title > DOUBLE MUTANT (C59R+S108N) PLASMODIUM FALCIPARUMDIHYDROFOLATE REDUCTASE-THYMIDYLATE SYNTHASE (PFDHFR-TS)COMPLEXED WITH PYRIMETHAMINE, NADPH, AND DUMP
+> format_version > 2
+> pdbid > 1j3j
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PLASMODIUM FALCIPARUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j3j | C | albelig | 1 | 1 | H | 444 | 452 | C-285-  | C-293-  | EEEDDFVYF 
+| 1j3j | C | albelig | 2 | 2 | H | 463 | 466 | C-304-  | C-307-  | KNSI 
+| 1j3j | C | albelig | 3 | 3 | H | 468 | 476 | C-309-  | C-317-  | PNDFQIYNS 
+| 1j3j | C | albelig | 4 | 4 | H | 484 | 497 | C-325-  | C-338-  | EYQYLNIIYDIMMN 
+| 1j3j | C | albelig | 5 | 5 | E | 499 | 501 | C-340-  | C-342-  | NKQ 
+| 1j3j | C | albelig | 6 | 6 | E | 509 | 520 | C-350-  | C-361-  | VLSKFGYIMKFD 
+| 1j3j | C | albelig | 7 | 7 | H | 536 | 547 | C-377-  | C-388-  | RGIIEELLWFIR 
+| 1j3j | C | albelig | 8 | 8 | H | 552 | 556 | C-393-  | C-397-  | GNTLL 
+| 1j3j | C | albelig | 9 | 9 | H | 565 | 567 | C-406-  | C-408-  | ANG 
+| 1j3j | C | albelig | 10 | 10 | H | 569 | 574 | C-410-  | C-415-  | REFLDN 
+| 1j3j | C | albelig | 11 | 11 | H | 589 | 595 | C-430-  | C-436-  | YGFQWRH 
+| 1j3j | C | albelig | 12 | 12 | H | 614 | 624 | C-455-  | C-465-  | QLKNIINLIKN 
+| 1j3j | C | albelig | 13 | 13 | E | 632 | 634 | C-473-  | C-475-  | LLC 
+| 1j3j | C | albelig | 14 | 14 | H | 638 | 643 | C-479-  | C-484-  | VKDLDQ 
+| 1j3j | C | albelig | 15 | 15 | E | 650 | 658 | C-491-  | C-499-  | HILCQFYVF 
+| 1j3j | C | albelig | 16 | 16 | E | 661 | 672 | C-502-  | C-513-  | KLSCIMYQRSCD 
+| 1j3j | C | albelig | 17 | 17 | H | 676 | 694 | C-517-  | C-535-  | GVPFNIASYSIFTHMIAQV 
+| 1j3j | C | albelig | 18 | 18 | E | 698 | 712 | C-539-  | C-553-  | QPAQFIHVLGNAHVY 
+| 1j3j | C | albelig | 19 | 19 | H | 713 | 723 | C-554-  | C-564-  | NNHIDSLKIQL 
+| 1j3j | C | albelig | 20 | 20 | E | 732 | 735 | C-573-  | C-576-  | TLKL 
+| 1j3j | C | albelig | 21 | 21 | H | 742 | 744 | C-583-  | C-585-  | IED 
+| 1j3j | C | albelig | 22 | 22 | H | 747 | 749 | C-588-  | C-590-  | ISD 
+| 1j3j | C | albelig | 23 | 23 | E | 750 | 753 | C-591-  | C-594-  | FTIQ 
+| 1j3j | C | albelig | 24 | 24 | L | 1099 | 1099 | C-611-  | C-611-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 4
+= 4 = a = 6
+= 4 = m = 19
+= 5 = a = 6
+= 6 = a = 18
+= 7 = p = 17
+= 9 = m = 10
+= 12 = m = 13
+= 13 = a = 15
+= 15 = a = 16
+= 15 = l = 24
+= 16 = a = 17
+= 16 = p = 18
+= 16 = l = 24
+= 17 = l = 24
+= 18 = m = 19
+= 18 = l = 24
+= 20 = m = 22
+= 20 = a = 23
+= 22 = m = 23
+# Listed 20 contacts. EOF.

@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f5j, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > XYLANASE, BETA-BARREL, HYDROLASE
+> pdb_mol_name > BETA-1,4-XYLANASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 26-JUL-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF XYNB, A HIGHLY THERMOSTABLE BETA-1,4-XYLANASE FROM DICTYOGLOMUS THERMOPHILUM RT46B.1, AT 1.8 ARESOLUTION
+> format_version > 2
+> pdbid > 1f5j
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DICTYOGLOMUS THERMOPHILUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f5j | A | albelig | 1 | 1 | E | 6 | 10 | A-6-  | A-10-  | ASGTF 
+| 1f5j | A | albelig | 2 | 2 | E | 13 | 19 | A-13-  | A-19-  | YYYELWK 
+| 1f5j | A | albelig | 3 | 3 | E | 23 | 28 | A-23-  | A-28-  | NTTMTV 
+| 1f5j | A | albelig | 4 | 4 | H | 30 | 32 | A-30-  | A-32-  | TQG 
+| 1f5j | A | albelig | 5 | 5 | E | 34 | 39 | A-34-  | A-39-  | FSCQWS 
+| 1f5j | A | albelig | 6 | 6 | E | 43 | 55 | A-43-  | A-55-  | NALFRTGKKYNQN 
+| 1f5j | A | albelig | 7 | 7 | H | 56 | 58 | A-56-  | A-58-  | WQS 
+| 1f5j | A | albelig | 8 | 8 | E | 61 | 72 | A-61-  | A-72-  | TIRITYSATYNP 
+| 1f5j | A | albelig | 9 | 9 | E | 76 | 85 | A-76-  | A-85-  | SYLCIYGWST 
+| 1f5j | A | albelig | 10 | 10 | E | 89 | 97 | A-89-  | A-97-  | VEFYIVESW 
+| 1f5j | A | albelig | 11 | 11 | E | 107 | 113 | A-107-  | A-113-  | SLGQVTI 
+| 1f5j | A | albelig | 12 | 12 | E | 116 | 128 | A-116-  | A-128-  | GTYDIYRTTRVNQ 
+| 1f5j | A | albelig | 13 | 13 | E | 135 | 144 | A-135-  | A-144-  | ATFDQYWSVR 
+| 1f5j | A | albelig | 14 | 14 | E | 150 | 154 | A-150-  | A-154-  | SGTVT 
+| 1f5j | A | albelig | 15 | 15 | H | 155 | 163 | A-155-  | A-163-  | VTDHFRAWA 
+| 1f5j | A | albelig | 16 | 16 | E | 171 | 182 | A-171-  | A-182-  | TIDQITLCVEGY 
+| 1f5j | A | albelig | 17 | 17 | E | 186 | 198 | A-186-  | A-198-  | GSANITQNTFSQS 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 5
+= 3 = p = 6
+= 4 = m = 17
+= 5 = a = 6
+= 5 = p = 16
+= 5 = a = 17
+= 6 = m = 7
+= 6 = a = 16
+= 6 = p = 17
+= 8 = a = 9
+= 8 = p = 10
+= 8 = a = 14
+= 8 = m = 15
+= 8 = a = 17
+= 9 = a = 10
+= 9 = a = 16
+= 10 = p = 13
+= 10 = m = 15
+= 11 = a = 12
+= 12 = a = 13
+= 13 = m = 15
+= 14 = m = 15
+= 16 = a = 17
+# Listed 26 contacts. EOF.

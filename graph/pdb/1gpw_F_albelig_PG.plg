@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gpw, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE/TRANSFERASE, COMPLEX (LYASE/TRANSFERASE), HISTIDINEBIOSYNTHESIS, GLUTAMINASE, GLUTAMINE AMIDOTRANSFERASE,CYCLASE, AMMONIA CHANNEL
+> pdb_mol_name > AMIDOTRANSFERASE HISH
+> graphtype > albelig
+> resolution > 2.4
+> date > 12-NOV-01
+> header > LYASE/TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL EVIDENCE FOR AMMONIA TUNNELING ACROSS THE(BETA/ALPHA)8 BARREL OF THE IMIDAZOLE GLYCEROL PHOSPHATESYNTHASE BIENZYME COMPLEX.
+> format_version > 2
+> pdbid > 1gpw
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gpw | F | albelig | 1 | 1 | E | 1166 | 1170 | F-2-  | F-6-  | RIGII 
+| 1gpw | F | albelig | 2 | 2 | H | 1178 | 1188 | F-14-  | F-24-  | MNLYRGVKRAS 
+| 1gpw | F | albelig | 3 | 3 | E | 1195 | 1199 | F-31-  | F-35-  | SIELV 
+| 1gpw | F | albelig | 4 | 4 | E | 1209 | 1212 | F-45-  | F-48-  | LLFI 
+| 1gpw | F | albelig | 5 | 5 | H | 1219 | 1226 | F-55-  | F-62-  | GEGMRRLR 
+| 1gpw | F | albelig | 6 | 6 | H | 1231 | 1239 | F-67-  | F-75-  | IDFVRKHVE 
+| 1gpw | F | albelig | 7 | 7 | E | 1243 | 1247 | F-79-  | F-83-  | YVVGV 
+| 1gpw | F | albelig | 8 | 8 | H | 1249 | 1252 | F-85-  | F-88-  | LGMQ 
+| 1gpw | F | albelig | 9 | 9 | E | 1255 | 1258 | F-91-  | F-94-  | FEES 
+| 1gpw | F | albelig | 10 | 10 | E | 1261 | 1265 | F-97-  | F-101-  | APGVK 
+| 1gpw | F | albelig | 11 | 11 | E | 1270 | 1276 | F-106-  | F-112-  | IEGNVVK 
+| 1gpw | F | albelig | 12 | 12 | E | 1284 | 1292 | F-120-  | F-128-  | HMGWNEVIF 
+| 1gpw | F | albelig | 13 | 13 | E | 1299 | 1305 | F-135-  | F-141-  | GYYYFVH 
+| 1gpw | F | albelig | 14 | 14 | E | 1307 | 1310 | F-143-  | F-146-  | YRAV 
+| 1gpw | F | albelig | 15 | 15 | E | 1316 | 1322 | F-152-  | F-158-  | VLGTTEY 
+| 1gpw | F | albelig | 16 | 16 | E | 1325 | 1333 | F-161-  | F-169-  | EIFPSAVRK 
+| 1gpw | F | albelig | 17 | 17 | E | 1336 | 1339 | F-172-  | F-175-  | ILGF 
+| 1gpw | F | albelig | 18 | 18 | H | 1343 | 1345 | F-179-  | F-181-  | PEK 
+| 1gpw | F | albelig | 19 | 19 | H | 1347 | 1360 | F-183-  | F-196-  | SKIGRKLLEKVIEC 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 4
+= 2 = m = 3
+= 4 = p = 7
+= 7 = m = 8
+= 7 = p = 17
+= 9 = a = 10
+= 9 = p = 11
+= 11 = a = 14
+= 12 = a = 13
+= 12 = a = 15
+= 14 = p = 16
+= 15 = a = 16
+= 16 = a = 17
+# Listed 14 contacts. EOF.

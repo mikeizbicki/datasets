@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a4k, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, ANTIBODY, CATALYTIC ANTIBODY, DIELS ALDER,GERMLINE
+> pdb_mol_name > ANTIBODY FAB
+> graphtype > albelig
+> resolution > 2.4
+> date > 30-JAN-98
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > DIELS ALDER CATALYTIC ANTIBODY WITH TRANSITION STATEANALOGUE
+> format_version > 2
+> pdbid > 1a4k
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a4k | L | albelig | 1 | 1 | E | 4 | 6 | L-4-  | L-6-  | MTQ 
+| 1a4k | L | albelig | 2 | 2 | E | 10 | 14 | L-10-  | L-14-  | SLPVS 
+| 1a4k | L | albelig | 3 | 3 | E | 19 | 25 | L-19-  | L-25-  | ASISARS 
+| 1a4k | L | albelig | 4 | 4 | E | 38 | 43 | L-33-  | L-38-  | LHWYLQ 
+| 1a4k | L | albelig | 5 | 5 | E | 50 | 54 | L-45-  | L-49-  | KLLIY 
+| 1a4k | L | albelig | 6 | 6 | E | 67 | 72 | L-62-  | L-67-  | FSGSGS 
+| 1a4k | L | albelig | 7 | 7 | E | 75 | 80 | L-70-  | L-75-  | DFTLKI 
+| 1a4k | L | albelig | 8 | 8 | H | 85 | 87 | L-80-  | L-82-  | AED 
+| 1a4k | L | albelig | 9 | 9 | E | 89 | 95 | L-84-  | L-90-  | GVYFASQ 
+| 1a4k | L | albelig | 10 | 10 | E | 107 | 112 | L-102-  | L-107-  | TKLEIK 
+| 1a4k | L | albelig | 11 | 11 | E | 119 | 123 | L-114-  | L-118-  | SVFIF 
+| 1a4k | L | albelig | 12 | 12 | H | 127 | 130 | L-122-  | L-125-  | DEQL 
+| 1a4k | L | albelig | 13 | 13 | E | 134 | 144 | L-129-  | L-139-  | TASVVNLLNNF 
+| 1a4k | L | albelig | 14 | 14 | E | 149 | 155 | L-144-  | L-150-  | AKVQWKV 
+| 1a4k | L | albelig | 15 | 15 | E | 164 | 168 | L-159-  | L-163-  | SQESV 
+| 1a4k | L | albelig | 16 | 16 | E | 178 | 187 | L-173-  | L-182-  | YSLSSTLTLS 
+| 1a4k | L | albelig | 17 | 17 | H | 188 | 192 | L-183-  | L-187-  | KADYE 
+| 1a4k | L | albelig | 18 | 18 | E | 197 | 203 | L-192-  | L-198-  | YANEVTH 
+| 1a4k | L | albelig | 19 | 19 | E | 210 | 214 | L-205-  | L-209-  | VTKSF 
+| 1a4k | L | albelig | 20 | 20 | L | 873 | 873 | L-5028-  | L-5028-  | J 
+| 1a4k | L | albelig | 21 | 21 | L | 874 | 874 | L-5029-  | L-5029-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 8 = l = 20
+= 9 = a = 10
+= 11 = a = 13
+= 11 = a = 18
+= 11 = p = 19
+= 12 = m = 13
+= 13 = a = 14
+= 13 = a = 16
+= 13 = m = 17
+= 13 = l = 21
+= 14 = a = 16
+= 14 = a = 18
+= 15 = a = 16
+= 16 = m = 17
+= 16 = l = 21
+= 18 = a = 19
+# Listed 25 contacts. EOF.

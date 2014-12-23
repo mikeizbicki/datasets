@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g4i, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPID DEGRADATION, HYDROLASE
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 0.97
+> date > 27-OCT-00
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE BOVINE PANCREATIC PHOSPHOLIPASE A2 AT 0.97A
+> format_version > 2
+> pdbid > 1g4i
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g4i | A | albelig | 1 | 1 | H | 2 | 12 | A-2-  | A-12-  | LWQFNGMIKAK 
+| 1g4i | A | albelig | 2 | 2 | H | 18 | 21 | A-18-  | A-21-  | PLLD 
+| 1g4i | A | albelig | 3 | 3 | H | 40 | 57 | A-40-  | A-57-  | DLDRDCQTHDNEYKQAKK 
+| 1g4i | A | albelig | 4 | 4 | H | 59 | 63 | A-59-  | A-63-  | DSFKV 
+| 1g4i | A | albelig | 5 | 5 | H | 68 | 70 | A-68-  | A-70-  | PYT 
+| 1g4i | A | albelig | 6 | 6 | E | 75 | 78 | A-75-  | A-78-  | YSAS 
+| 1g4i | A | albelig | 7 | 7 | E | 81 | 84 | A-81-  | A-84-  | EITG 
+| 1g4i | A | albelig | 8 | 8 | H | 90 | 107 | A-90-  | A-107-  | AFEAFIGNEDRNAAIDFS 
+| 1g4i | A | albelig | 9 | 9 | H | 113 | 115 | A-113-  | A-115-  | KEH 
+| 1g4i | A | albelig | 10 | 10 | H | 120 | 122 | A-120-  | A-122-  | KKN 
+| 1g4i | A | albelig | 11 | 11 | L | 124 | 124 | A-124-  | A-124-  | J 
+| 1g4i | A | albelig | 12 | 12 | L | 125 | 125 | A-125-  | A-125-  | J 
+| 1g4i | A | albelig | 13 | 13 | L | 126 | 126 | A-127-  | A-127-  | J 
+| 1g4i | A | albelig | 14 | 14 | L | 127 | 127 | A-128-  | A-128-  | J 
+| 1g4i | A | albelig | 15 | 15 | L | 128 | 128 | A-129-  | A-129-  | J 
+| 1g4i | A | albelig | 16 | 16 | L | 129 | 129 | A-126-  | A-126-  | J 
+| 1g4i | A | albelig | 17 | 17 | L | 130 | 130 | A-130-  | A-130-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 8
+= 1 = l = 12
+= 1 = l = 13
+= 1 = l = 14
+= 1 = l = 16
+= 2 = l = 13
+= 2 = l = 14
+= 2 = l = 15
+= 2 = l = 16
+= 2 = l = 17
+= 3 = a = 8
+= 3 = l = 11
+= 3 = l = 13
+= 3 = l = 14
+= 3 = l = 16
+= 5 = l = 13
+= 5 = l = 16
+= 6 = a = 7
+= 7 = m = 8
+= 7 = l = 12
+= 8 = l = 12
+= 8 = l = 13
+= 8 = l = 14
+= 11 = l = 13
+= 11 = l = 14
+= 11 = l = 16
+= 13 = l = 14
+= 13 = l = 16
+= 14 = l = 16
+# Listed 30 contacts. EOF.

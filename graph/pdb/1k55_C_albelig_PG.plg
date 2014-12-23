@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k55, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-LACTAMASE, ANTIBIOTIC RESISTANCE, CARBAMYLATION,HYDROLASE
+> pdb_mol_name > BETA LACTAMASE OXA-10
+> graphtype > albelig
+> resolution > 1.39
+> date > 10-OCT-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > OXA 10 CLASS D BETA-LACTAMASE AT PH 7.5
+> format_version > 2
+> pdbid > 1k55
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k55 | C | albelig | 1 | 1 | H | 498 | 505 | C-26-  | C-33-  | TSWNKEFS 
+| 1k55 | C | albelig | 2 | 2 | E | 511 | 517 | C-39-  | C-45-  | GVFVLCK 
+| 1k55 | C | albelig | 3 | 3 | E | 523 | 525 | C-51-  | C-53-  | CAT 
+| 1k55 | C | albelig | 4 | 4 | H | 528 | 532 | C-56-  | C-60-  | LARAS 
+| 1k55 | C | albelig | 5 | 5 | H | 538 | 552 | C-66-  | C-80-  | ASTFKIPNAIIGLET 
+| 1k55 | C | albelig | 6 | 6 | H | 572 | 574 | C-100-  | C-102-  | KQW 
+| 1k55 | C | albelig | 7 | 7 | H | 580 | 585 | C-108-  | C-113-  | LRGAIQ 
+| 1k55 | C | albelig | 8 | 8 | H | 589 | 599 | C-117-  | C-127-  | VPVFQQIAREV 
+| 1k55 | C | albelig | 9 | 9 | H | 601 | 610 | C-129-  | C-138-  | EVRMQKYLKK 
+| 1k55 | C | albelig | 10 | 10 | H | 625 | 628 | C-153-  | C-156-  | FWLE 
+| 1k55 | C | albelig | 11 | 11 | H | 635 | 646 | C-163-  | C-174-  | AVNQVEFLESLY 
+| 1k55 | C | albelig | 12 | 12 | H | 654 | 663 | C-182-  | C-191-  | KENQLIVKEA 
+| 1k55 | C | albelig | 13 | 13 | E | 665 | 669 | C-193-  | C-197-  | VTEAA 
+| 1k55 | C | albelig | 14 | 14 | E | 672 | 680 | C-200-  | C-208-  | YLVHSKTGF 
+| 1k55 | C | albelig | 15 | 15 | E | 690 | 700 | C-218-  | C-228-  | GVAWWVGWVEK 
+| 1k55 | C | albelig | 16 | 16 | E | 703 | 713 | C-231-  | C-241-  | EVYFFAFNMDI 
+| 1k55 | C | albelig | 17 | 17 | H | 716 | 718 | C-244-  | C-246-  | ESK 
+| 1k55 | C | albelig | 18 | 18 | H | 721 | 732 | C-249-  | C-260-  | LRKSIPTKIMES 
+| 1k55 | C | albelig | 19 | 19 | L | 1006 | 1006 | C-1005-  | C-1005-  | J 
+| 1k55 | C | albelig | 20 | 20 | L | 1007 | 1007 | C-1019-  | C-1019-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 4
+= 2 = a = 16
+= 5 = p = 8
+= 5 = m = 9
+= 5 = m = 10
+= 5 = m = 11
+= 5 = m = 12
+= 5 = m = 14
+= 5 = l = 19
+= 7 = m = 12
+= 8 = m = 9
+= 11 = m = 12
+= 11 = p = 15
+= 11 = a = 16
+= 12 = m = 13
+= 13 = a = 14
+= 14 = a = 15
+= 14 = l = 19
+= 15 = a = 16
+= 15 = m = 18
+= 18 = l = 19
+# Listed 22 contacts. EOF.

@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kso, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > S100,EF-HAND,CA2+ BINDING PROTEIN,ZN2+ BINDING PROTEIN,METAL BINDING PROTEIN
+> pdb_mol_name > S100 CALCIUM-BINDING PROTEIN A3
+> graphtype > albelig
+> resolution > 1.7
+> date > 14-JAN-02
+> header > METAL BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF APO S100A3
+> format_version > 2
+> pdbid > 1kso
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kso | B | albelig | 1 | 1 | H | 96 | 112 | B-4-  | B-20-  | PLEQAVAAIVCTFQEYA 
+| 1kso | B | albelig | 2 | 2 | E | 120 | 122 | B-28-  | B-30-  | KLC 
+| 1kso | B | albelig | 3 | 3 | H | 123 | 133 | B-31-  | B-41-  | QAELKELLQKE 
+| 1kso | B | albelig | 4 | 4 | H | 144 | 153 | B-52-  | B-61-  | ECDYNKFMSV 
+| 1kso | B | albelig | 5 | 5 | E | 161 | 163 | B-69-  | B-71-  | EVD 
+| 1kso | B | albelig | 6 | 6 | H | 164 | 178 | B-72-  | B-86-  | FVEYVRSLACLCLYC 
+| 1kso | B | albelig | 7 | 7 | H | 180 | 182 | B-88-  | B-90-  | EYF 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 6
+= 2 = m = 3
+= 2 = a = 5
+= 3 = m = 6
+= 4 = m = 6
+= 5 = m = 6
+# Listed 7 contacts. EOF.

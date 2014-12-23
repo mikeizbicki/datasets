@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ijb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DINUCLEOTIDE-BINDING FOLD, BLOOD CLOTTING
+> pdb_mol_name > VON WILLEBRAND FACTOR
+> graphtype > albelig
+> resolution > 1.8
+> date > 25-APR-01
+> header > BLOOD CLOTTING
+> pdb_org_common > HUMAN
+> title > THE VON WILLEBRAND FACTOR MUTANT (I546V) A1 DOMAIN
+> format_version > 2
+> pdbid > 1ijb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ijb | A | albelig | 1 | 1 | E | 14 | 21 | A-513-  | A-520-  | LDLVFLLD 
+| 1ijb | A | albelig | 2 | 2 | H | 28 | 43 | A-527-  | A-542-  | EAEFEVLKAFVVDMME 
+| 1ijb | A | albelig | 3 | 3 | E | 52 | 59 | A-551-  | A-558-  | VRVAVVEY 
+| 1ijb | A | albelig | 4 | 4 | E | 63 | 67 | A-562-  | A-566-  | SHAYI 
+| 1ijb | A | albelig | 5 | 5 | H | 75 | 83 | A-574-  | A-582-  | PSELRRIAS 
+| 1ijb | A | albelig | 6 | 6 | H | 95 | 106 | A-594-  | A-605-  | TSEVLKYTLFQI 
+| 1ijb | A | albelig | 7 | 7 | E | 116 | 123 | A-615-  | A-622-  | SRIALLLM 
+| 1ijb | A | albelig | 8 | 8 | H | 129 | 131 | A-628-  | A-630-  | QRM 
+| 1ijb | A | albelig | 9 | 9 | H | 135 | 144 | A-634-  | A-643-  | FVRYVQGLKK 
+| 1ijb | A | albelig | 10 | 10 | E | 147 | 154 | A-646-  | A-653-  | VIVIPVGI 
+| 1ijb | A | albelig | 11 | 11 | H | 160 | 169 | A-659-  | A-668-  | LKQIRLIEKQ 
+| 1ijb | A | albelig | 12 | 12 | E | 176 | 178 | A-675-  | A-677-  | FVL 
+| 1ijb | A | albelig | 13 | 13 | H | 181 | 198 | A-680-  | A-697-  | VDELEQQRDEIVSYLADL 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = m = 5
+= 2 = p = 13
+= 3 = a = 4
+= 6 = m = 9
+= 7 = p = 10
+= 9 = p = 11
+= 10 = p = 12
+= 12 = m = 13
+# Listed 10 contacts. EOF.

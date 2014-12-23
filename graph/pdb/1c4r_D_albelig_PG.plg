@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c4r, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN-LIKE, NEUROBIOLOGY, CELL-CELL ADHESION, CELL-CELLRECOGNITION, ALTERNATIVE SPLICING, MEMBRANE PROTEIN
+> pdb_mol_name > NEUREXIN-I BETA
+> graphtype > albelig
+> resolution > 2.6
+> date > 28-SEP-99
+> header > MEMBRANE PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > THE STRUCTURE OF THE LIGAND-BINDING DOMAIN OF NEUREXIN1BETA: REGULATION OF LNS DOMAIN FUNCTION BY ALTERNATIVESPLICING
+> format_version > 2
+> pdbid > 1c4r
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c4r | D | albelig | 1 | 1 | E | 546 | 559 | D-86-  | D-99-  | TYIFSKGGGQITYK 
+| 1c4r | D | albelig | 2 | 2 | H | 562 | 564 | D-102-  | D-104-  | PND 
+| 1c4r | D | albelig | 3 | 3 | E | 570 | 578 | D-110-  | D-118-  | ADRLAIGFS 
+| 1c4r | D | albelig | 4 | 4 | E | 584 | 591 | D-124-  | D-131-  | AVLVRVDS 
+| 1c4r | D | albelig | 5 | 5 | E | 598 | 604 | D-138-  | D-144-  | YLELHIH 
+| 1c4r | D | albelig | 6 | 6 | E | 607 | 613 | D-147-  | D-153-  | KIGVKFN 
+| 1c4r | D | albelig | 7 | 7 | E | 618 | 622 | D-158-  | D-162-  | DIAIE 
+| 1c4r | D | albelig | 8 | 8 | E | 634 | 641 | D-174-  | D-181-  | HVVRFTRS 
+| 1c4r | D | albelig | 9 | 9 | E | 644 | 649 | D-184-  | D-189-  | NATLQV 
+| 1c4r | D | albelig | 10 | 10 | E | 655 | 657 | D-195-  | D-197-  | IER 
+| 1c4r | D | albelig | 11 | 11 | E | 670 | 675 | D-240-  | D-245-  | QATIII 
+| 1c4r | D | albelig | 12 | 12 | H | 678 | 680 | D-248-  | D-250-  | KEQ 
+| 1c4r | D | albelig | 13 | 13 | E | 686 | 693 | D-256-  | D-263-  | GQLSGLYY 
+| 1c4r | D | albelig | 14 | 14 | H | 698 | 702 | D-268-  | D-272-  | VLNMA 
+| 1c4r | D | albelig | 15 | 15 | E | 709 | 718 | D-279-  | D-288-  | IAIVGNVRLV 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 1 = m = 12
+= 1 = a = 13
+= 1 = a = 15
+= 3 = a = 8
+= 3 = a = 13
+= 4 = a = 5
+= 4 = a = 11
+= 5 = a = 6
+= 6 = a = 7
+= 7 = p = 9
+= 7 = a = 10
+= 8 = a = 9
+= 9 = a = 10
+= 13 = m = 14
+# Listed 15 contacts. EOF.

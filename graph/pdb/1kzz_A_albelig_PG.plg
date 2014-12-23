@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kzz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CD40, NF-KB SIGNALING, TANK, TNF RECEPTOR, TRAF3, SIGNALINGPROTEIN
+> pdb_mol_name > TNF RECEPTOR ASSOCIATED FACTOR 3
+> graphtype > albelig
+> resolution > 3.5
+> date > 08-FEB-02
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > DOWNSTREAM REGULATOR TANK BINDS TO THE CD40 RECOGNITIONSITE ON TRAF3
+> format_version > 2
+> pdbid > 1kzz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kzz | A | albelig | 1 | 1 | H | 4 | 34 | A-316-  | A-346-  | LLESQLSRHDQMLSVHDIRLADMDLRFQVLE 
+| 1kzz | A | albelig | 2 | 2 | E | 41 | 47 | A-353-  | A-359-  | VLIWKIR 
+| 1kzz | A | albelig | 3 | 3 | H | 49 | 58 | A-361-  | A-370-  | YKRRKQEAVM 
+| 1kzz | A | albelig | 4 | 4 | E | 77 | 83 | A-389-  | A-395-  | KMCARVY 
+| 1kzz | A | albelig | 5 | 5 | H | 88 | 90 | A-400-  | A-402-  | GMG 
+| 1kzz | A | albelig | 6 | 6 | E | 94 | 102 | A-406-  | A-414-  | HLSLFFVIM 
+| 1kzz | A | albelig | 7 | 7 | E | 120 | 122 | A-432-  | A-434-  | LML 
+| 1kzz | A | albelig | 8 | 8 | E | 157 | 163 | A-469-  | A-475-  | GCPVFVA 
+| 1kzz | A | albelig | 9 | 9 | H | 164 | 168 | A-476-  | A-480-  | QTVLE 
+| 1kzz | A | albelig | 10 | 10 | E | 177 | 183 | A-489-  | A-495-  | TIFIKVI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = a = 10
+= 3 = m = 9
+= 4 = a = 6
+= 6 = a = 8
+= 7 = a = 8
+= 7 = a = 10
+= 8 = m = 9
+# Listed 8 contacts. EOF.

@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f0s, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, HYDROLASE
+> pdb_mol_name > COAGULATION FACTOR XA
+> graphtype > albelig
+> resolution > 2.1
+> date > 17-MAY-00
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN COAGULATION FACTOR XA COMPLEXEDWITH RPR208707
+> format_version > 2
+> pdbid > 1f0s
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f0s | B | albelig | 1 | 1 | H | 240 | 243 | B-4-  | B-7-  | DNGD 
+| 1f0s | B | albelig | 2 | 2 | E | 247 | 251 | B-11-  | B-15-  | FFHEE 
+| 1f0s | B | albelig | 3 | 3 | E | 254 | 258 | B-18-  | B-22-  | SVVGS 
+| 1f0s | B | albelig | 4 | 4 | E | 263 | 265 | B-27-  | B-29-  | YTL 
+| 1f0s | B | albelig | 5 | 5 | E | 272 | 274 | B-36-  | B-38-  | HIP 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 4 = a = 5
+# Listed 2 contacts. EOF.

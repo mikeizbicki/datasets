@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bko, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METHYLTRANSFERASE, DTMP SYNTHASE
+> pdb_mol_name > THYMIDYLATE SYNTHASE A
+> graphtype > albelig
+> resolution > 2.75
+> date > 09-JUL-98
+> header > METHYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > THERMOSTABLE THYMIDYLATE SYNTHASE A FROM BACILLUS SUBTILIS
+> format_version > 2
+> pdbid > 1bko
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bko | C | albelig | 1 | 1 | H | 562 | 575 | C-5-  | C-18-  | DKQYNSIIKDIINN 
+| 1bko | C | albelig | 2 | 2 | E | 597 | 599 | C-40-  | C-42-  | TLS 
+| 1bko | C | albelig | 3 | 3 | E | 601 | 607 | C-44-  | C-50-  | ISKQMRF 
+| 1bko | C | albelig | 4 | 4 | H | 622 | 634 | C-65-  | C-77-  | WKTAIKELLWIWQ 
+| 1bko | C | albelig | 5 | 5 | H | 640 | 644 | C-83-  | C-87-  | VNDLN 
+| 1bko | C | albelig | 6 | 6 | H | 666 | 670 | C-109-  | C-113-  | GFQLG 
+| 1bko | C | albelig | 7 | 7 | H | 683 | 693 | C-126-  | C-136-  | QVDYLLHQLKN 
+| 1bko | C | albelig | 8 | 8 | E | 701 | 703 | C-144-  | C-146-  | ITM 
+| 1bko | C | albelig | 9 | 9 | H | 710 | 712 | C-153-  | C-155-  | LDA 
+| 1bko | C | albelig | 10 | 10 | E | 719 | 726 | C-162-  | C-169-  | VYETQWYV 
+| 1bko | C | albelig | 11 | 11 | E | 730 | 741 | C-173-  | C-184-  | KLHLEVRARSND 
+| 1bko | C | albelig | 12 | 12 | H | 746 | 762 | C-189-  | C-205-  | NPFNVFQYNVLQRMIAQ 
+| 1bko | C | albelig | 13 | 13 | E | 767 | 781 | C-210-  | C-224-  | ELGEYIFNIGDCHVY 
+| 1bko | C | albelig | 14 | 14 | H | 785 | 791 | C-228-  | C-234-  | IDNLKIQ 
+| 1bko | C | albelig | 15 | 15 | E | 801 | 804 | C-244-  | C-247-  | ELWI 
+| 1bko | C | albelig | 16 | 16 | H | 811 | 813 | C-254-  | C-256-  | FYD 
+| 1bko | C | albelig | 17 | 17 | H | 816 | 818 | C-259-  | C-261-  | IDD 
+| 1bko | C | albelig | 18 | 18 | E | 819 | 822 | C-262-  | C-265-  | FKLI 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 13
+= 3 = a = 13
+= 4 = m = 12
+= 4 = m = 16
+= 8 = a = 10
+= 10 = a = 11
+= 10 = p = 12
+= 11 = a = 12
+= 11 = p = 13
+= 12 = a = 13
+= 15 = m = 17
+= 15 = a = 18
+= 17 = m = 18
+# Listed 13 contacts. EOF.

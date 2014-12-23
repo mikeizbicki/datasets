@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cj5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-LACTOGLOBULIN A, DYNAMICS, TRANSPORT PROTEIN
+> pdb_mol_name > BETA-LACTOGLOBULIN A
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-APR-99
+> header > TRANSPORT PROTEIN
+> pdb_org_common > CATTLE
+> title > BOVINE BETA-LACTOGLOBULIN A
+> format_version > 2
+> pdbid > 1cj5
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cj5 | A | albelig | 1 | 1 | H | 12 | 15 | A-12-  | A-15-  | IQKV 
+| 1cj5 | A | albelig | 2 | 2 | E | 20 | 24 | A-20-  | A-24-  | YSLAM 
+| 1cj5 | A | albelig | 3 | 3 | E | 42 | 48 | A-42-  | A-48-  | YVEELKP 
+| 1cj5 | A | albelig | 4 | 4 | E | 54 | 61 | A-54-  | A-61-  | LEILLQKW 
+| 1cj5 | A | albelig | 5 | 5 | E | 66 | 73 | A-66-  | A-73-  | NAQKKIIA 
+| 1cj5 | A | albelig | 6 | 6 | E | 91 | 96 | A-91-  | A-96-  | KVLVLD 
+| 1cj5 | A | albelig | 7 | 7 | E | 104 | 108 | A-104-  | A-108-  | LFAME 
+| 1cj5 | A | albelig | 8 | 8 | H | 114 | 116 | A-114-  | A-116-  | EQS 
+| 1cj5 | A | albelig | 9 | 9 | E | 118 | 123 | A-118-  | A-123-  | VAQCLV 
+| 1cj5 | A | albelig | 10 | 10 | H | 131 | 137 | A-131-  | A-137-  | EALEKFD 
+| 1cj5 | A | albelig | 11 | 11 | H | 153 | 156 | A-153-  | A-156-  | PTQL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 9
+= 3 = a = 4
+= 4 = a = 5
+= 6 = a = 7
+= 7 = m = 8
+= 7 = a = 9
+# Listed 7 contacts. EOF.

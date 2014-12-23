@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a7e, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NONHEME IRON OXYGEN CARRIER, OXYGEN TRANSPORT
+> pdb_mol_name > MYOHEMERYTHRIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 12-MAR-98
+> header > OXYGEN TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > HYDROXOMET MYOHEMERYTHRIN FROM THEMISTE ZOSTERICOLA
+> format_version > 2
+> pdbid > 1a7e
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THEMISTE ZOSTERICOLA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a7e | A | albelig | 1 | 1 | H | 12 | 14 | A-12-  | A-14-  | ESF 
+| 1a7e | A | albelig | 2 | 2 | H | 19 | 37 | A-19-  | A-37-  | EQLDEEHKKIFKGIFDCIR 
+| 1a7e | A | albelig | 3 | 3 | H | 41 | 65 | A-41-  | A-65-  | APNLATLVKVTTNHFTHEEAMMDAA 
+| 1a7e | A | albelig | 4 | 4 | H | 70 | 85 | A-70-  | A-85-  | VVPHKKMHKDFLEKIG 
+| 1a7e | A | albelig | 5 | 5 | H | 93 | 109 | A-93-  | A-109-  | AKNVDYCKEWNVNHIKG 
+| 1a7e | A | albelig | 6 | 6 | H | 111 | 114 | A-111-  | A-114-  | DFKY 
+| 1a7e | A | albelig | 7 | 7 | L | 119 | 119 | A-132-  | A-132-  | J 
+| 1a7e | A | albelig | 8 | 8 | L | 120 | 120 | A-402-  | A-402-  | J 
+| 1a7e | A | albelig | 9 | 9 | L | 121 | 121 | A-119-  | A-119-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = l = 7
+= 2 = a = 3
+= 2 = a = 5
+= 2 = l = 9
+= 3 = a = 4
+= 3 = l = 9
+= 4 = a = 5
+= 4 = l = 9
+= 5 = m = 6
+= 5 = l = 7
+= 5 = l = 9
+= 6 = l = 9
+# Listed 13 contacts. EOF.

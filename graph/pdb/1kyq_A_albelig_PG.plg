@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOMODIMER, OXIDOREDUCTASE, LYASE
+> pdb_mol_name > SIROHEME BIOSYNTHESIS PROTEIN MET8
+> graphtype > albelig
+> resolution > 2.2
+> date > 05-FEB-02
+> header > OXIDOREDUCTASE, LYASE
+> pdb_org_common > BAKER'S YEAST
+> title > MET8P: A BIFUNCTIONAL NAD-DEPENDENT DEHYDROGENASE ANDFERROCHELATASE INVOLVED IN SIROHEME SYNTHESIS.
+> format_version > 2
+> pdbid > 1kyq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyq | A | albelig | 1 | 1 | E | 5 | 9 | A-5-  | A-9-  | LQLAH 
+| 1kyq | A | albelig | 2 | 2 | E | 15 | 21 | A-15-  | A-21-  | RILLIGG 
+| 1kyq | A | albelig | 3 | 3 | H | 23 | 35 | A-23-  | A-35-  | EVGLTRLYKLXPT 
+| 1kyq | A | albelig | 4 | 4 | E | 38 | 46 | A-38-  | A-46-  | KLTLVSPDL 
+| 1kyq | A | albelig | 5 | 5 | H | 50 | 54 | A-50-  | A-54-  | IIPKF 
+| 1kyq | A | albelig | 6 | 6 | H | 56 | 58 | A-56-  | A-58-  | KFI 
+| 1kyq | A | albelig | 7 | 7 | E | 62 | 64 | A-72-  | A-74-  | RFI 
+| 1kyq | A | albelig | 8 | 8 | E | 77 | 79 | A-87-  | A-89-  | EYI 
+| 1kyq | A | albelig | 9 | 9 | H | 85 | 88 | A-95-  | A-98-  | DEYL 
+| 1kyq | A | albelig | 10 | 10 | E | 97 | 102 | A-107-  | A-112-  | WYIIXT 
+| 1kyq | A | albelig | 11 | 11 | H | 107 | 121 | A-117-  | A-131-  | HPESARIYHLCKERF 
+| 1kyq | A | albelig | 12 | 12 | E | 126 | 129 | A-136-  | A-139-  | LVNV 
+| 1kyq | A | albelig | 13 | 13 | H | 133 | 135 | A-143-  | A-145-  | PDL 
+| 1kyq | A | albelig | 14 | 14 | E | 142 | 146 | A-152-  | A-156-  | ANLEI 
+| 1kyq | A | albelig | 15 | 15 | E | 150 | 156 | A-160-  | A-166-  | LQILIST 
+| 1kyq | A | albelig | 16 | 16 | H | 161 | 178 | A-171-  | A-188-  | PRFGALVRDEIRNLFTQX 
+| 1kyq | A | albelig | 17 | 17 | H | 183 | 200 | A-193-  | A-210-  | LEDAVVKLGELRRGIRLL 
+| 1kyq | A | albelig | 18 | 18 | H | 204 | 225 | A-214-  | A-235-  | DKDVKYRXDWARRCTDLFGIQH 
+| 1kyq | A | albelig | 19 | 19 | H | 226 | 228 | A-236-  | A-238-  | CHN 
+| 1kyq | A | albelig | 20 | 20 | H | 231 | 242 | A-241-  | A-252-  | VKRLLDLFKVXF 
+| 1kyq | A | albelig | 21 | 21 | H | 254 | 260 | A-264-  | A-270-  | RERLLSE 
+| 1kyq | A | albelig | 22 | 22 | L | 820 | 820 | A-800-  | A-800-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 10
+= 2 = l = 22
+= 3 = m = 5
+= 3 = l = 22
+= 4 = p = 8
+= 4 = l = 22
+= 7 = a = 8
+= 10 = p = 12
+= 11 = l = 22
+= 12 = m = 13
+= 14 = a = 15
+= 14 = p = 16
+= 17 = a = 18
+= 17 = p = 20
+= 18 = m = 19
+= 18 = a = 20
+= 18 = m = 21
+# Listed 18 contacts. EOF.

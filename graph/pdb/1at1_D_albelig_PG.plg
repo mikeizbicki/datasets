@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1at1, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE (CARBAMOYL-P,ASPARTATE)
+> pdb_mol_name > ASPARTATE CARBAMOYLTRANSFERASE REGULATORY CHAIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 22-SEP-89
+> header > TRANSFERASE (CARBAMOYL-P,ASPARTATE)
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF PHOSPHONOACETAMIDE LIGATED T ANDPHOSPHONOACETAMIDE AND MALONATE LIGATED R STATES OF ASPARTATECARBAMOYLTRANSFERASE AT 2.8-ANGSTROMS RESOLUTION AND NEUTRAL P*H
+> format_version > 2
+> pdbid > 1at1
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1at1 | D | albelig | 1 | 1 | E | 777 | 783 | D-15-  | D-21-  | GTVIDHI 
+| 1at1 | D | albelig | 2 | 2 | H | 788 | 794 | D-26-  | D-32-  | GFKLLSL 
+| 1at1 | D | albelig | 3 | 3 | E | 804 | 808 | D-42-  | D-46-  | ITIGL 
+| 1at1 | D | albelig | 4 | 4 | E | 819 | 824 | D-57-  | D-62-  | DLIKIE 
+| 1at1 | D | albelig | 5 | 5 | H | 830 | 839 | D-68-  | D-77-  | EDQVDQLALY 
+| 1at1 | D | albelig | 6 | 6 | E | 844 | 849 | D-82-  | D-87-  | TVNRID 
+| 1at1 | D | albelig | 7 | 7 | E | 852 | 857 | D-90-  | D-95-  | EVVGKS 
+| 1at1 | D | albelig | 8 | 8 | E | 864 | 866 | D-102-  | D-104-  | RID 
+| 1at1 | D | albelig | 9 | 9 | H | 877 | 880 | D-115-  | D-118-  | ISHA 
+| 1at1 | D | albelig | 10 | 10 | E | 886 | 891 | D-124-  | D-129-  | SFAVRK 
+| 1at1 | D | albelig | 11 | 11 | E | 896 | 900 | D-134-  | D-138-  | IALKC 
+| 1at1 | D | albelig | 12 | 12 | E | 906 | 908 | D-144-  | D-146-  | EFS 
+| 1at1 | D | albelig | 13 | 13 | H | 909 | 913 | D-147-  | D-151-  | HNVVL 
+| 1at1 | D | albelig | 14 | 14 | L | 919 | 919 | D-154-  | D-154-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 3 = a = 4
+= 6 = a = 7
+= 8 = a = 10
+= 9 = l = 14
+= 10 = a = 11
+= 11 = a = 12
+= 11 = l = 14
+= 12 = m = 13
+# Listed 10 contacts. EOF.

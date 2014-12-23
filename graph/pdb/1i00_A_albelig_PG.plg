@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i00, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THYMIDYLATE SYNTHASE, HUMAN, TERNARY COMPLEX, DUMP, TOMUDEX, OPENCONFORMATION, TRANSFERASE
+> pdb_mol_name > THYMIDYLATE SYNTHASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 27-JAN-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN THYMIDYLATE SYNTHASE, TERNARY COMPLEX WITHDUMP AND TOMUDEX
+> format_version > 2
+> pdbid > 1i00
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i00 | A | albelig | 1 | 1 | H | 2 | 12 | A-30-  | A-40-  | ELQYLGQIQHI 
+| 1i00 | A | albelig | 2 | 2 | E | 17 | 20 | A-45-  | A-48-  | VRKD 
+| 1i00 | A | albelig | 3 | 3 | E | 26 | 38 | A-54-  | A-66-  | GTLSVFGMQARYS 
+| 1i00 | A | albelig | 4 | 4 | H | 53 | 65 | A-81-  | A-93-  | WKGVLEELLWFIK 
+| 1i00 | A | albelig | 5 | 5 | H | 71 | 74 | A-99-  | A-102-  | KELS 
+| 1i00 | A | albelig | 6 | 6 | H | 83 | 85 | A-111-  | A-113-  | ANG 
+| 1i00 | A | albelig | 7 | 7 | H | 87 | 92 | A-115-  | A-120-  | RDFLDS 
+| 1i00 | A | albelig | 8 | 8 | H | 107 | 113 | A-135-  | A-141-  | YGFQWRH 
+| 1i00 | A | albelig | 9 | 9 | H | 132 | 142 | A-160-  | A-170-  | QLQRVIDTIKT 
+| 1i00 | A | albelig | 10 | 10 | E | 150 | 152 | A-178-  | A-180-  | IMC 
+| 1i00 | A | albelig | 11 | 11 | H | 159 | 161 | A-187-  | A-189-  | LPL 
+| 1i00 | A | albelig | 12 | 12 | E | 168 | 176 | A-196-  | A-204-  | HALCQFYVV 
+| 1i00 | A | albelig | 13 | 13 | E | 179 | 190 | A-207-  | A-218-  | ELSCQLYQRSGD 
+| 1i00 | A | albelig | 14 | 14 | H | 194 | 213 | A-222-  | A-241-  | GVPFNIASYALLTYMIAHIT 
+| 1i00 | A | albelig | 15 | 15 | E | 216 | 230 | A-244-  | A-258-  | KPGDFIHTLGDAHIY 
+| 1i00 | A | albelig | 16 | 16 | H | 231 | 233 | A-259-  | A-261-  | LNH 
+| 1i00 | A | albelig | 17 | 17 | H | 236 | 241 | A-264-  | A-269-  | PLKIQL 
+| 1i00 | A | albelig | 18 | 18 | E | 250 | 253 | A-278-  | A-281-  | KLRI 
+| 1i00 | A | albelig | 19 | 19 | H | 260 | 262 | A-288-  | A-290-  | IDD 
+| 1i00 | A | albelig | 20 | 20 | H | 265 | 267 | A-293-  | A-295-  | AED 
+| 1i00 | A | albelig | 21 | 21 | E | 268 | 271 | A-296-  | A-299-  | FQIE 
+| 1i00 | A | albelig | 22 | 22 | L | 558 | 558 | A-314-  | A-314-  | J 
+| 1i00 | A | albelig | 23 | 23 | L | 559 | 559 | A-315-  | A-315-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 3
+= 3 = a = 15
+= 3 = m = 16
+= 4 = m = 8
+= 4 = m = 14
+= 4 = l = 23
+= 6 = m = 7
+= 8 = l = 22
+= 9 = m = 10
+= 9 = m = 14
+= 10 = a = 12
+= 12 = a = 13
+= 12 = p = 14
+= 12 = l = 22
+= 13 = a = 14
+= 13 = p = 15
+= 13 = l = 22
+= 13 = l = 23
+= 14 = a = 15
+= 14 = m = 18
+= 14 = l = 22
+= 14 = l = 23
+= 15 = m = 16
+= 15 = l = 22
+= 15 = l = 23
+= 18 = m = 20
+= 18 = a = 21
+= 20 = m = 21
+= 22 = l = 23
+# Listed 30 contacts. EOF.

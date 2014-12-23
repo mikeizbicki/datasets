@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i59, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA SANDWICH, SIGNALING PROTEIN, TRANSFERASE
+> pdb_mol_name > CHEMOTAXIS PROTEIN CHEA
+> graphtype > albelig
+> resolution > 1.8
+> date > 26-FEB-01
+> header > SIGNALING PROTEIN, TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE HISTIDINE KINASE CHEA ATP-BINDING DOMAININ COMPLEX WITH ADPNP AND MAGENSIUM
+> format_version > 2
+> pdbid > 1i59
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i59 | A | albelig | 1 | 1 | E | 3 | 5 | A-355-  | A-357-  | MVP 
+| 1i59 | A | albelig | 2 | 2 | H | 7 | 10 | A-359-  | A-362-  | SFVF 
+| 1i59 | A | albelig | 3 | 3 | H | 13 | 24 | A-365-  | A-376-  | FPRMVRDLAKKM 
+| 1i59 | A | albelig | 4 | 4 | E | 28 | 33 | A-380-  | A-385-  | VNFIMR 
+| 1i59 | A | albelig | 5 | 5 | E | 38 | 40 | A-390-  | A-392-  | ELD 
+| 1i59 | A | albelig | 6 | 6 | H | 41 | 62 | A-393-  | A-414-  | RTFVEEIGEPLLHLLRNAIDHG 
+| 1i59 | A | albelig | 7 | 7 | H | 66 | 72 | A-418-  | A-424-  | KEERIAK 
+| 1i59 | A | albelig | 8 | 8 | E | 78 | 87 | A-430-  | A-439-  | GTLILSARHE 
+| 1i59 | A | albelig | 9 | 9 | E | 90 | 97 | A-442-  | A-449-  | NVVIEVED 
+| 1i59 | A | albelig | 10 | 10 | H | 104 | 113 | A-456-  | A-465-  | KEKIIRKAIE 
+| 1i59 | A | albelig | 11 | 11 | H | 119 | 122 | A-471-  | A-474-  | ESKA 
+| 1i59 | A | albelig | 12 | 12 | H | 127 | 135 | A-479-  | A-487-  | DQEILNFLF 
+| 1i59 | A | albelig | 13 | 13 | H | 148 | 157 | A-507-  | A-516-  | MDVVKNVVES 
+| 1i59 | A | albelig | 14 | 14 | E | 161 | 167 | A-520-  | A-526-  | SISIESE 
+| 1i59 | A | albelig | 15 | 15 | E | 171 | 179 | A-530-  | A-538-  | GTKVTIRLP 
+| 1i59 | A | albelig | 16 | 16 | L | 371 | 371 | A-995-  | A-995-  | J 
+| 1i59 | A | albelig | 17 | 17 | L | 372 | 372 | A-996-  | A-996-  | J 
+| 1i59 | A | albelig | 18 | 18 | L | 373 | 373 | A-998-  | A-998-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 5
+= 3 = m = 4
+= 3 = p = 6
+= 4 = p = 8
+= 5 = m = 6
+= 6 = a = 13
+= 6 = a = 15
+= 6 = l = 16
+= 6 = l = 17
+= 6 = l = 18
+= 8 = a = 9
+= 9 = a = 15
+= 9 = l = 18
+= 10 = p = 12
+= 10 = l = 16
+= 10 = l = 18
+= 12 = m = 13
+= 12 = l = 18
+= 13 = m = 14
+= 13 = l = 18
+= 14 = a = 15
+= 15 = l = 18
+= 16 = l = 18
+= 17 = l = 18
+# Listed 25 contacts. EOF.

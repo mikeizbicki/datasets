@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fg4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT
+> pdb_mol_name > TRYPAREDOXIN II
+> graphtype > albelig
+> resolution > 1.9
+> date > 28-JUL-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF TRYPAREDOXIN II
+> format_version > 2
+> pdbid > 1fg4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CRITHIDIA FASCICULATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fg4 | B | albelig | 1 | 1 | H | 148 | 151 | B-4-  | B-7-  | LKKF 
+| 1fg4 | B | albelig | 2 | 2 | E | 157 | 160 | B-13-  | B-16-  | NVLK 
+| 1fg4 | B | albelig | 3 | 3 | E | 164 | 167 | B-19-  | B-22-  | ADIA 
+| 1fg4 | B | albelig | 4 | 4 | E | 175 | 181 | B-30-  | B-36-  | TVFFYFS 
+| 1fg4 | B | albelig | 5 | 5 | H | 186 | 206 | B-41-  | B-61-  | PPARAFTPQLIDFYKAHAEKK 
+| 1fg4 | B | albelig | 6 | 6 | E | 208 | 214 | B-63-  | B-69-  | FEVMLIS 
+| 1fg4 | B | albelig | 7 | 7 | H | 219 | 226 | B-74-  | B-81-  | AEDFKDYY 
+| 1fg4 | B | albelig | 8 | 8 | H | 239 | 249 | B-94-  | B-104-  | RKGMEFLTTGF 
+| 1fg4 | B | albelig | 9 | 9 | E | 256 | 261 | B-111-  | B-116-  | TLVGVE 
+| 1fg4 | B | albelig | 10 | 10 | E | 267 | 269 | B-122-  | B-124-  | IIT 
+| 1fg4 | B | albelig | 11 | 11 | H | 272 | 278 | B-127-  | B-133-  | ARTMVVK 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 4 = m = 5
+= 4 = p = 6
+= 4 = m = 8
+= 4 = a = 9
+= 5 = m = 6
+= 9 = a = 10
+# Listed 7 contacts. EOF.

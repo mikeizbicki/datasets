@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jtp, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, HEAVY CHAIN ANTIBODY, VHH, INTERFACE,BINDING, ANTIBODY, HYDROLASE
+> pdb_mol_name > SINGLE-DOMAIN ANTIBODY
+> graphtype > albelig
+> resolution > 1.9
+> date > 21-AUG-01
+> header > ANTIBODY, HYDROLASE
+> pdb_org_common > ARABIAN CAMEL
+> title > DEGENERATE INTERFACES IN ANTIGEN-ANTIBODY COMPLEXES
+> format_version > 2
+> pdbid > 1jtp
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CAMELUS DROMEDARIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jtp | B | albelig | 1 | 1 | E | 139 | 144 | B-3-  | B-8-  | QLQASG 
+| 1jtp | B | albelig | 2 | 2 | E | 146 | 149 | B-10-  | B-13-  | GSVQ 
+| 1jtp | B | albelig | 3 | 3 | E | 154 | 161 | B-18-  | B-25-  | LRLSCAAS 
+| 1jtp | B | albelig | 4 | 4 | E | 169 | 175 | B-33-  | B-39-  | DMGWFRQ 
+| 1jtp | B | albelig | 5 | 5 | E | 182 | 188 | B-46-  | B-52-  | EGVAAIN 
+| 1jtp | B | albelig | 6 | 6 | E | 194 | 196 | B-58-  | B-60-  | TYY 
+| 1jtp | B | albelig | 7 | 7 | E | 204 | 209 | B-68-  | B-73-  | FTISQD 
+| 1jtp | B | albelig | 8 | 8 | E | 214 | 219 | B-78-  | B-83-  | TVYLLM 
+| 1jtp | B | albelig | 9 | 9 | H | 224 | 226 | B-88-  | B-90-  | PED 
+| 1jtp | B | albelig | 10 | 10 | E | 228 | 235 | B-92-  | B-99-  | AIYYCAAD 
+| 1jtp | B | albelig | 11 | 11 | H | 246 | 250 | B-110-  | B-114-  | GHGLS 
+| 1jtp | B | albelig | 12 | 12 | E | 263 | 268 | B-127-  | B-132-  | TQVTVS 
+| 1jtp | B | albelig | 13 | 13 | L | 532 | 532 | B-502-  | B-502-  | J 
+| 1jtp | B | albelig | 14 | 14 | L | 533 | 533 | B-402-  | B-402-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 10
+= 1 = l = 14
+= 2 = p = 12
+= 3 = a = 4
+= 3 = a = 8
+= 3 = p = 10
+= 4 = a = 5
+= 4 = p = 8
+= 4 = a = 10
+= 4 = l = 14
+= 5 = a = 6
+= 5 = p = 7
+= 5 = m = 11
+= 6 = a = 7
+= 7 = a = 8
+= 10 = a = 12
+= 10 = l = 13
+= 10 = l = 14
+= 12 = l = 14
+# Listed 20 contacts. EOF.

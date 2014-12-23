@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1chc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRAL PROTEIN
+> pdb_mol_name > EQUINE HERPES VIRUS-1 RING DOMAIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-FEB-94
+> header > VIRAL PROTEIN
+> pdb_org_common > EQUINE HERPESVIRUS 1
+> title > STRUCTURE OF THE C3HC4 DOMAIN BY 1H-NUCLEAR MAGNETICRESONANCE SPECTROSCOPY; A NEW STRUCTURAL CLASS OF ZINC-FINGER
+> format_version > 2
+> pdbid > 1chc
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > EQUID HERPESVIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1chc | A | albelig | 1 | 1 | E | 19 | 21 | A-19-  | A-21-  | SMA 
+| 1chc | A | albelig | 2 | 2 | E | 26 | 28 | A-26-  | A-28-  | HAF 
+| 1chc | A | albelig | 3 | 3 | H | 32 | 39 | A-32-  | A-39-  | CITRWIRQ 
+| 1chc | A | albelig | 4 | 4 | L | 69 | 69 | A-70-  | A-70-  | J 
+| 1chc | A | albelig | 5 | 5 | L | 70 | 70 | A-71-  | A-71-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = l = 4
+= 3 = l = 5
+# Listed 3 contacts. EOF.

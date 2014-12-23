@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gn2, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, IRON
+> pdb_mol_name > SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 3.4
+> date > 02-OCT-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > S123C MUTANT OF THE IRON-SUPEROXIDE DISMUTASE FROMMYCOBACTERIUM TUBERCULOSIS.
+> format_version > 2
+> pdbid > 1gn2
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gn2 | H | albelig | 1 | 1 | H | 1405 | 1408 | H-13-  | H-16-  | YGAL 
+| 1gn2 | H | albelig | 2 | 2 | H | 1414 | 1425 | H-22-  | H-33-  | GQINELHHSKHH 
+| 1gn2 | H | albelig | 3 | 3 | H | 1426 | 1445 | H-34-  | H-53-  | ATYVKGANDAVAKLEEARAK 
+| 1gn2 | H | albelig | 4 | 4 | H | 1451 | 1474 | H-59-  | H-82-  | ILLNEKNLAFNLAGHVNHTIWWKN 
+| 1gn2 | H | albelig | 5 | 5 | H | 1486 | 1495 | H-94-  | H-103-  | ELAAAIADAF 
+| 1gn2 | H | albelig | 6 | 6 | H | 1498 | 1510 | H-106-  | H-118-  | FDKFRAQFHAAAT 
+| 1gn2 | H | albelig | 7 | 7 | E | 1516 | 1523 | H-124-  | H-131-  | GWAALGWD 
+| 1gn2 | H | albelig | 8 | 8 | E | 1528 | 1535 | H-136-  | H-143-  | KLLIFQVY 
+| 1gn2 | H | albelig | 9 | 9 | E | 1545 | 1552 | H-153-  | H-160-  | IVPLLLLD 
+| 1gn2 | H | albelig | 10 | 10 | H | 1555 | 1557 | H-163-  | H-165-  | EHA 
+| 1gn2 | H | albelig | 11 | 11 | H | 1559 | 1562 | H-167-  | H-170-  | YLQY 
+| 1gn2 | H | albelig | 12 | 12 | H | 1566 | 1575 | H-174-  | H-183-  | KVDFAKAFWN 
+| 1gn2 | H | albelig | 13 | 13 | H | 1579 | 1589 | H-187-  | H-197-  | WADVQSRYAAA 
+| 1gn2 | H | albelig | 14 | 14 | L | 1599 | 1599 | H-999-  | H-999-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 2 = m = 4
+= 2 = l = 14
+= 3 = a = 4
+= 4 = m = 9
+= 4 = l = 14
+= 5 = m = 13
+= 6 = m = 8
+= 6 = a = 12
+= 7 = a = 8
+= 7 = a = 9
+= 7 = l = 14
+= 9 = l = 14
+= 10 = l = 14
+# Listed 15 contacts. EOF.

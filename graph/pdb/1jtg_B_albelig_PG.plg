@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jtg, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PROTEIN COMPLEX, TEM-1 BETA-LACTAMASE, BETA-LACTAMASE INHIBITOR PROTEIN, BLIP, HYDROLASE
+> pdb_mol_name > BETA-LACTAMASE INHIBITORY PROTEIN
+> graphtype > albelig
+> resolution > 1.73
+> date > 20-AUG-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF TEM-1 BETA-LACTAMASE / BETA-LACTAMASEINHIBITOR PROTEIN COMPLEX
+> format_version > 2
+> pdbid > 1jtg
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES CLAVULIGERUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jtg | B | albelig | 1 | 1 | H | 270 | 275 | B-6-  | B-11-  | GAKFTQ 
+| 1jtg | B | albelig | 2 | 2 | H | 282 | 289 | B-18-  | B-25-  | RQQVLDIA 
+| 1jtg | B | albelig | 3 | 3 | H | 291 | 293 | B-27-  | B-29-  | AEN 
+| 1jtg | B | albelig | 4 | 4 | H | 298 | 300 | B-34-  | B-36-  | GSF 
+| 1jtg | B | albelig | 5 | 5 | E | 304 | 311 | B-40-  | B-47-  | IHNRGHAA 
+| 1jtg | B | albelig | 6 | 6 | E | 314 | 322 | B-50-  | B-58-  | YYAYATFGF 
+| 1jtg | B | albelig | 7 | 7 | E | 331 | 337 | B-67-  | B-73-  | VDSKSQE 
+| 1jtg | B | albelig | 8 | 8 | H | 349 | 354 | B-85-  | B-90-  | LAKFNQ 
+| 1jtg | B | albelig | 9 | 9 | H | 361 | 368 | B-97-  | B-104-  | RAQVLATV 
+| 1jtg | B | albelig | 10 | 10 | E | 373 | 379 | B-109-  | B-115-  | CTTWSEY 
+| 1jtg | B | albelig | 11 | 11 | E | 390 | 396 | B-126-  | B-132-  | TLSLSCF 
+| 1jtg | B | albelig | 12 | 12 | E | 410 | 416 | B-146-  | B-152-  | SAHLWFT 
+| 1jtg | B | albelig | 13 | 13 | E | 419 | 426 | B-155-  | B-162-  | VLQGKRQW 
+| 1jtg | B | albelig | 14 | 14 | L | 859 | 859 | B-645-  | B-645-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 3 = m = 5
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 10
+= 8 = m = 13
+= 10 = a = 11
+= 11 = a = 12
+= 12 = a = 13
+# Listed 9 contacts. EOF.

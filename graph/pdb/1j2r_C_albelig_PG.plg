@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j2r, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PARALLEL BETA-SHEET 3-2-1-4-5-6, ALPHA-BETA-ALPHA MOTIF, TETRAMERE,STRUCTURAL GENOMICS, BACTERIAL TARGETS AT IGS-CNRS, FRANCE, BIGS,UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL ISOCHORISMATASE FAMILY PROTEIN YECD
+> graphtype > albelig
+> resolution > 1.3
+> date > 09-JAN-03
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ESCHERICHIA COLI GENE PRODUCT YECD AT 1.3 ARESOLUTION
+> format_version > 2
+> pdbid > 1j2r
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j2r | C | albelig | 1 | 1 | H | 380 | 382 | C-17-  | C-19-  | AKT 
+| 1j2r | C | albelig | 2 | 2 | E | 383 | 388 | C-20-  | C-25-  | TALVVI 
+| 1j2r | C | albelig | 3 | 3 | H | 395 | 397 | C-32-  | C-34-  | LPF 
+| 1j2r | C | albelig | 4 | 4 | H | 404 | 421 | C-41-  | C-58-  | ADEVVNRAGKLAAKFRAS 
+| 1j2r | C | albelig | 5 | 5 | E | 425 | 430 | C-62-  | C-67-  | VFLVRV 
+| 1j2r | C | albelig | 6 | 6 | H | 462 | 464 | C-99-  | C-101-  | AAL 
+| 1j2r | C | albelig | 7 | 7 | E | 471 | 475 | C-108-  | C-112-  | IEIIK 
+| 1j2r | C | albelig | 8 | 8 | H | 486 | 492 | C-123-  | C-129-  | LELQLRR 
+| 1j2r | C | albelig | 9 | 9 | E | 497 | 503 | C-134-  | C-140-  | TIVLCGI 
+| 1j2r | C | albelig | 10 | 10 | H | 508 | 518 | C-145-  | C-155-  | GVESTARNAWE 
+| 1j2r | C | albelig | 11 | 11 | E | 522 | 531 | C-159-  | C-168-  | NLVIAEDACS 
+| 1j2r | C | albelig | 12 | 12 | H | 535 | 544 | C-172-  | C-181-  | AEQHNNSINH 
+| 1j2r | C | albelig | 13 | 13 | H | 546 | 549 | C-183-  | C-186-  | YPRI 
+| 1j2r | C | albelig | 14 | 14 | E | 551 | 553 | C-188-  | C-190-  | RVR 
+| 1j2r | C | albelig | 15 | 15 | H | 555 | 561 | C-192-  | C-198-  | VEEILNA 
+| 1j2r | C | albelig | 16 | 16 | L | 758 | 758 | C-1003-  | C-1003-  | J 
+| 1j2r | C | albelig | 17 | 17 | L | 759 | 759 | C-1008-  | C-1008-  | J 
+| 1j2r | C | albelig | 18 | 18 | L | 760 | 760 | C-1010-  | C-1010-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 4
+= 2 = p = 5
+= 2 = p = 9
+= 3 = l = 17
+= 4 = m = 6
+= 4 = a = 11
+= 4 = m = 15
+= 5 = p = 7
+= 5 = l = 16
+= 7 = l = 16
+= 9 = a = 10
+= 9 = p = 11
+= 10 = m = 13
+= 11 = p = 14
+= 11 = m = 15
+= 12 = m = 13
+= 13 = l = 18
+# Listed 18 contacts. EOF.

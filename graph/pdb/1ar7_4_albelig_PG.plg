@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ar7, chain 4.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PICORNAVIRUS, POLIOVIRUS, COAT PROTEIN, ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > P1/MAHONEY POLIOVIRUS
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-AUG-97
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > P1/MAHONEY POLIOVIRUS, DOUBLE MUTANT P1095S + H2142Y
+> format_version > 2
+> pdbid > 1ar7
+> experiment > X-RAY DIFFRACTION
+> chainid > 4
+> graphclass > protein graph
+> pdb_org_sci > HUMAN POLIOVIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ar7 | 4 | albelig | 1 | 1 | E | 797 | 801 | 4-3-  | 4-7-  | AQVSS 
+| 1ar7 | 4 | albelig | 2 | 2 | E | 813 | 816 | 4-26-  | 4-29-  | NYTT 
+| 1ar7 | 4 | albelig | 3 | 3 | H | 823 | 825 | 4-36-  | 4-38-  | SAS 
+| 1ar7 | 4 | albelig | 4 | 4 | H | 838 | 841 | 4-51-  | 4-54-  | SKFT 
+| 1ar7 | 4 | albelig | 5 | 5 | L | 857 | 857 | 4-1-  | 4-1-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 5
+# Listed 2 contacts. EOF.

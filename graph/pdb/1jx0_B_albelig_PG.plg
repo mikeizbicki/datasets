@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jx0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MONOMER, UNIQUE FOLD, ISOMERASE
+> pdb_mol_name > CHALCONE--FLAVONONE ISOMERASE 1
+> graphtype > albelig
+> resolution > 2.85
+> date > 05-SEP-01
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CHALCONE ISOMERASE--Y106F MUTANT
+> format_version > 2
+> pdbid > 1jx0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MEDICAGO SATIVA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jx0 | B | albelig | 1 | 1 | E | 223 | 225 | B-8-  | B-10-  | ITV 
+| 1jx0 | B | albelig | 2 | 2 | E | 228 | 230 | B-13-  | B-15-  | LEY 
+| 1jx0 | B | albelig | 3 | 3 | E | 233 | 235 | B-18-  | B-20-  | VVT 
+| 1jx0 | B | albelig | 4 | 4 | E | 242 | 250 | B-27-  | B-35-  | SYFLGGAGE 
+| 1jx0 | B | albelig | 5 | 5 | E | 255 | 262 | B-48-  | B-55-  | TAIGVYLE 
+| 1jx0 | B | albelig | 6 | 6 | H | 264 | 273 | B-57-  | B-66-  | IAVASLAAKW 
+| 1jx0 | B | albelig | 7 | 7 | H | 278 | 283 | B-71-  | B-76-  | SEELLE 
+| 1jx0 | B | albelig | 8 | 8 | H | 285 | 292 | B-78-  | B-85-  | LDFYRDII 
+| 1jx0 | B | albelig | 9 | 9 | E | 298 | 304 | B-91-  | B-97-  | KLIRGSK 
+| 1jx0 | B | albelig | 10 | 10 | H | 310 | 327 | B-103-  | B-120-  | GPEFSRKVMENCVAHLKS 
+| 1jx0 | B | albelig | 11 | 11 | H | 333 | 346 | B-126-  | B-139-  | DAEAEAMQKFAEAF 
+| 1jx0 | B | albelig | 12 | 12 | E | 356 | 362 | B-149-  | B-155-  | SVFYRQS 
+| 1jx0 | B | albelig | 13 | 13 | E | 366 | 372 | B-159-  | B-165-  | ILGLSFS 
+| 1jx0 | B | albelig | 14 | 14 | E | 383 | 385 | B-176-  | B-178-  | ALI 
+| 1jx0 | B | albelig | 15 | 15 | H | 388 | 391 | B-181-  | B-184-  | KAVS 
+| 1jx0 | B | albelig | 16 | 16 | H | 393 | 399 | B-186-  | B-192-  | AVLETMI 
+| 1jx0 | B | albelig | 17 | 17 | H | 407 | 420 | B-200-  | B-213-  | DLKRCLAARLPALL 
+| 1jx0 | B | albelig | 18 | 18 | L | 429 | 429 | B-601-  | B-601-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 2 = a = 9
+= 3 = a = 4
+= 4 = a = 5
+= 4 = a = 17
+= 5 = m = 6
+= 5 = a = 9
+= 6 = m = 8
+= 6 = m = 17
+= 7 = a = 17
+= 9 = a = 12
+= 10 = a = 11
+= 11 = m = 13
+= 11 = m = 14
+= 11 = l = 18
+= 12 = a = 13
+= 13 = a = 14
+# Listed 18 contacts. EOF.

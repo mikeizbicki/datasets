@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a66, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NFATC1/DNA, REL, NFAT/DNA, ARRE2, NFAT, NFATC1, NFATC,NFAT2, NMR, BINARY COMPLEX, TRANSCRIPTION FACTOR,ENHANCEOSOME, IL-2, COMPLEX, BINARY, TRANSCRIPTION/DNACOMPLEX
+> pdb_mol_name > CORE NFATC1
+> graphtype > albelig
+> resolution > -1.0
+> date > 06-MAR-98
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HUMAN
+> title > SOLUTION NMR STRUCTURE OF THE CORE NFATC1/DNA COMPLEX, 18STRUCTURES
+> format_version > 2
+> pdbid > 1a66
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a66 | A | albelig | 1 | 1 | E | 14 | 17 | A-14-  | A-17-  | ELRI 
+| 1a66 | A | albelig | 2 | 2 | E | 48 | 51 | A-48-  | A-51-  | VQLH 
+| 1a66 | A | albelig | 3 | 3 | E | 59 | 67 | A-59-  | A-67-  | LMLQLFIGT 
+| 1a66 | A | albelig | 4 | 4 | E | 96 | 98 | A-96-  | A-98-  | AIL 
+| 1a66 | A | albelig | 5 | 5 | E | 101 | 108 | A-101-  | A-108-  | TKVLEIPL 
+| 1a66 | A | albelig | 6 | 6 | H | 128 | 132 | A-128-  | A-132-  | NSDIE 
+| 1a66 | A | albelig | 7 | 7 | E | 146 | 157 | A-146-  | A-157-  | RVRLVFRVHVPQ 
+| 1a66 | A | albelig | 8 | 8 | E | 161 | 173 | A-161-  | A-173-  | RTLSLQVASNPIE 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 8
+= 3 = a = 5
+= 3 = a = 7
+= 4 = a = 5
+= 7 = a = 8
+# Listed 6 contacts. EOF.

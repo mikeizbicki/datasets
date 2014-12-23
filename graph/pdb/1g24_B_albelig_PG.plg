@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g24, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C3, ADP-RIBOSYLTRANSFERASE
+> pdb_mol_name > EXOENZYME C3
+> graphtype > albelig
+> resolution > 1.7
+> date > 16-OCT-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF EXOENZYME C3 FROM CLOSTRIDIUMBOTULINUM
+> format_version > 2
+> pdbid > 1g24
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM BOTULINUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g24 | B | albelig | 1 | 1 | H | 223 | 237 | B-1052-  | B-1066-  | IDQAKAWGNAQYKKY 
+| 1g24 | B | albelig | 2 | 2 | H | 241 | 263 | B-1070-  | B-1092-  | KSEKEAIVSYTKSASEINGKLRQ 
+| 1g24 | B | albelig | 3 | 3 | H | 273 | 285 | B-1102-  | B-1114-  | SNLIKQVELLDKS 
+| 1g24 | B | albelig | 4 | 4 | E | 295 | 301 | B-1124-  | B-1130-  | IMLFRGD 
+| 1g24 | B | albelig | 5 | 5 | H | 303 | 306 | B-1132-  | B-1135-  | PAYL 
+| 1g24 | B | albelig | 6 | 6 | H | 308 | 310 | B-1137-  | B-1139-  | TEF 
+| 1g24 | B | albelig | 7 | 7 | H | 323 | 333 | B-1152-  | B-1162-  | KTAFEKAKAKF 
+| 1g24 | B | albelig | 8 | 8 | E | 337 | 340 | B-1166-  | B-1169-  | DRLE 
+| 1g24 | B | albelig | 9 | 9 | E | 344 | 347 | B-1173-  | B-1176-  | ISTS 
+| 1g24 | B | albelig | 10 | 10 | E | 359 | 365 | B-1188-  | B-1194-  | IITKFKV 
+| 1g24 | B | albelig | 11 | 11 | E | 385 | 388 | B-1214-  | B-1217-  | EMLL 
+| 1g24 | B | albelig | 12 | 12 | E | 392 | 401 | B-1221-  | B-1230-  | STYHIDDMRL 
+| 1g24 | B | albelig | 13 | 13 | E | 408 | 417 | B-1237-  | B-1246-  | IIITATMMGT 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 4 = a = 9
+= 4 = a = 10
+= 7 = a = 12
+= 8 = a = 12
+= 9 = a = 11
+= 10 = p = 13
+= 12 = a = 13
+# Listed 8 contacts. EOF.

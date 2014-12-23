@@ -1,0 +1,78 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hgy, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (O-GLYCOSYL), GLYCOSIDASE, GLYCOPROTEIN
+> pdb_mol_name > CELLOBIOHYDROLASE CEL6A (FORMERLY CALLED CBH II)
+> graphtype > albelig
+> resolution > 2.2
+> date > 15-DEC-00
+> header > HYDROLASE (O-GLYCOSYL)
+> pdb_org_common > UNKNOWN
+> title > CEL6A D221A MUTANT
+> format_version > 2
+> pdbid > 1hgy
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > TRICHODERMA REESEI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hgy | B | albelig | 1 | 1 | H | 382 | 392 | B-102-  | B-112-  | AYYASEVSSLA 
+| 1hgy | B | albelig | 2 | 2 | H | 393 | 395 | B-113-  | B-115-  | IPS 
+| 1hgy | B | albelig | 3 | 3 | H | 399 | 407 | B-119-  | B-127-  | AMATAAAAV 
+| 1hgy | B | albelig | 4 | 4 | E | 414 | 416 | B-134-  | B-136-  | MWL 
+| 1hgy | B | albelig | 5 | 5 | H | 419 | 437 | B-139-  | B-157-  | LDKTPLMEQTLADIRTANK 
+| 1hgy | B | albelig | 6 | 6 | E | 442 | 448 | B-162-  | B-168-  | YAGQFVV 
+| 1hgy | B | albelig | 7 | 7 | H | 467 | 469 | B-187-  | B-189-  | IAD 
+| 1hgy | B | albelig | 8 | 8 | H | 471 | 488 | B-191-  | B-208-  | GVAKYKNYIDTIRQIVVE 
+| 1hgy | B | albelig | 9 | 9 | E | 493 | 498 | B-213-  | B-218-  | RTLLVI 
+| 1hgy | B | albelig | 10 | 10 | H | 505 | 508 | B-225-  | B-228-  | NLVT 
+| 1hgy | B | albelig | 11 | 11 | H | 513 | 532 | B-233-  | B-252-  | PKCANAQSAYLECINYAVTQ 
+| 1hgy | B | albelig | 12 | 12 | E | 538 | 543 | B-258-  | B-263-  | VAMYLD 
+| 1hgy | B | albelig | 13 | 13 | H | 553 | 569 | B-273-  | B-289-  | PANQDPAAQLFANVYKN 
+| 1hgy | B | albelig | 14 | 14 | E | 576 | 581 | B-296-  | B-301-  | LRGLAT 
+| 1hgy | B | albelig | 15 | 15 | H | 596 | 598 | B-316-  | B-318-  | SYT 
+| 1hgy | B | albelig | 16 | 16 | H | 606 | 619 | B-326-  | B-339-  | EKLYIHAIGPLLAN 
+| 1hgy | B | albelig | 17 | 17 | E | 626 | 630 | B-346-  | B-350-  | FFITD 
+| 1hgy | B | albelig | 18 | 18 | E | 668 | 672 | B-388-  | B-392-  | LDSFV 
+| 1hgy | B | albelig | 19 | 19 | H | 693 | 696 | B-413-  | B-416-  | SHDA 
+| 1hgy | B | albelig | 20 | 20 | H | 712 | 720 | B-432-  | B-440-  | QAYFVQLLT 
+| 1hgy | B | albelig | 21 | 21 | L | 739 | 739 | B-501-  | B-501-  | J 
+| 1hgy | B | albelig | 22 | 22 | L | 740 | 740 | B-502-  | B-502-  | J 
+| 1hgy | B | albelig | 23 | 23 | L | 741 | 741 | B-503-  | B-503-  | J 
+| 1hgy | B | albelig | 24 | 24 | L | 742 | 742 | B-504-  | B-504-  | J 
+| 1hgy | B | albelig | 25 | 25 | L | 743 | 743 | B-505-  | B-505-  | J 
+| 1hgy | B | albelig | 26 | 26 | L | 744 | 744 | B-506-  | B-506-  | J 
+| 1hgy | B | albelig | 27 | 27 | L | 745 | 745 | B-507-  | B-507-  | J 
+| 1hgy | B | albelig | 28 | 28 | L | 746 | 746 | B-508-  | B-508-  | J 
+| 1hgy | B | albelig | 29 | 29 | L | 747 | 747 | B-509-  | B-509-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 25
+= 1 = l = 26
+= 1 = l = 27
+= 1 = l = 28
+= 2 = l = 26
+= 2 = l = 28
+= 3 = m = 20
+= 3 = l = 26
+= 3 = l = 29
+= 4 = p = 6
+= 5 = a = 6
+= 5 = p = 8
+= 6 = p = 9
+= 6 = l = 24
+= 8 = p = 11
+= 9 = p = 12
+= 11 = l = 21
+= 12 = p = 14
+= 13 = m = 16
+= 13 = l = 21
+= 14 = m = 16
+= 14 = p = 17
+= 17 = p = 18
+= 18 = l = 22
+= 20 = l = 28
+= 25 = l = 27
+= 26 = l = 27
+# Listed 28 contacts. EOF.

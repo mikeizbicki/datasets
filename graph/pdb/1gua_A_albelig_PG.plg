@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gua, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ONCOGENE PROTEIN/KINASE/EFFECTOR PROTEIN GTP-BINDING-PROTEIN, COMPLEX (GTP-BINDING/ATP-BINDING)
+> pdb_mol_name > RAP1A
+> graphtype > albelig
+> resolution > 2.0
+> date > 18-JUN-96
+> header > COMPLEX (GTP-BINDING/ATP-BINDING)
+> pdb_org_common > HUMAN
+> title > HUMAN RAP1A, RESIDUES 1-167, DOUBLE MUTANT (E30D,K31E)COMPLEXED WITH GPPNHP AND THE RAS-BINDING-DOMAIN OF HUMANC-RAF1, RESIDUES 51-131
+> format_version > 2
+> pdbid > 1gua
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gua | A | albelig | 1 | 1 | E | 3 | 9 | A-3-  | A-9-  | EYKLVVL 
+| 1gua | A | albelig | 2 | 2 | H | 16 | 25 | A-16-  | A-25-  | KSALTVQFVQ 
+| 1gua | A | albelig | 3 | 3 | E | 37 | 46 | A-37-  | A-46-  | EDSYRKQVEV 
+| 1gua | A | albelig | 4 | 4 | E | 49 | 57 | A-49-  | A-57-  | QQCMLEILD 
+| 1gua | A | albelig | 5 | 5 | H | 68 | 74 | A-68-  | A-74-  | RDLYMKN 
+| 1gua | A | albelig | 6 | 6 | E | 77 | 83 | A-77-  | A-83-  | GFALVYS 
+| 1gua | A | albelig | 7 | 7 | H | 87 | 91 | A-87-  | A-91-  | QSTFN 
+| 1gua | A | albelig | 8 | 8 | H | 93 | 104 | A-93-  | A-104-  | LQDLREQILRVK 
+| 1gua | A | albelig | 9 | 9 | E | 111 | 116 | A-111-  | A-116-  | MILVGN 
+| 1gua | A | albelig | 10 | 10 | H | 121 | 123 | A-121-  | A-123-  | EDE 
+| 1gua | A | albelig | 11 | 11 | H | 128 | 137 | A-128-  | A-137-  | KEQGQNLARQ 
+| 1gua | A | albelig | 12 | 12 | E | 142 | 145 | A-142-  | A-145-  | AFLE 
+| 1gua | A | albelig | 13 | 13 | H | 154 | 165 | A-154-  | A-165-  | VNEIFYDLVRQI 
+| 1gua | A | albelig | 14 | 14 | L | 245 | 245 | A-171-  | A-171-  | J 
+| 1gua | A | albelig | 15 | 15 | L | 246 | 246 | A-170-  | A-170-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = m = 13
+= 2 = l = 14
+= 2 = l = 15
+= 3 = a = 4
+= 4 = l = 14
+= 4 = l = 15
+= 5 = m = 8
+= 6 = m = 7
+= 6 = m = 8
+= 6 = p = 9
+= 9 = p = 12
+= 9 = l = 15
+= 11 = m = 12
+= 14 = l = 15
+# Listed 16 contacts. EOF.

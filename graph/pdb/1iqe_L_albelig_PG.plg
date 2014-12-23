@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iqe, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, SERINE PROTEASE, BLOOD COAGULATION FACTOR,COMPLEX
+> pdb_mol_name > COAGULATION FACTOR XA
+> graphtype > albelig
+> resolution > 2.9
+> date > 23-JUL-01
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > HUMAN COAGULATION FACTOR XA IN COMPLEX WITH M55590
+> format_version > 2
+> pdbid > 1iqe
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iqe | L | albelig | 1 | 1 | H | 239 | 245 | L-89-  | L-95-  | FSLDNGD 
+| 1iqe | L | albelig | 2 | 2 | E | 250 | 253 | L-100-  | L-103-  | FHEE 
+| 1iqe | L | albelig | 3 | 3 | E | 256 | 259 | L-106-  | L-109-  | SVVG 
+| 1iqe | L | albelig | 4 | 4 | E | 265 | 267 | L-115-  | L-117-  | YTL 
+| 1iqe | L | albelig | 5 | 5 | E | 274 | 276 | L-124-  | L-126-  | HIP 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 4 = a = 5
+# Listed 3 contacts. EOF.

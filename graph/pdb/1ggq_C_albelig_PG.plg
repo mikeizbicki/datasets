@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ggq, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYME DISEASE ANTIGEN, HELICAL BUNDLE, HOMODIMER, MEMBRANE PROTEIN
+> pdb_mol_name > OUTER SURFACE PROTEIN C
+> graphtype > albelig
+> resolution > 2.51
+> date > 14-SEP-00
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > OUTER SURFACE PROTEIN C (OSPC) OF BORRELIA BURGDORFERI STRAIN B31
+> format_version > 2
+> pdbid > 1ggq
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BORRELIA BURGDORFERI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ggq | C | albelig | 1 | 1 | H | 330 | 363 | C-42-  | C-75-  | LTEISKKITDSNAVLLAVKEVEALLSSIDEIAAK 
+| 1ggq | C | albelig | 2 | 2 | E | 367 | 370 | C-79-  | C-82-  | KKIH 
+| 1ggq | C | albelig | 3 | 3 | E | 374 | 377 | C-86-  | C-89-  | GLDT 
+| 1ggq | C | albelig | 4 | 4 | H | 383 | 401 | C-95-  | C-113-  | GSLLAGAYAISTLIKQKLD 
+| 1ggq | C | albelig | 5 | 5 | H | 409 | 428 | C-121-  | C-140-  | KEKIDAAKKCSETFTNKLKE 
+| 1ggq | C | albelig | 6 | 6 | H | 430 | 433 | C-142-  | C-145-  | HTDL 
+| 1ggq | C | albelig | 7 | 7 | H | 440 | 447 | C-152-  | C-159-  | DADAKEAI 
+| 1ggq | C | albelig | 8 | 8 | H | 458 | 487 | C-170-  | C-199-  | AEELGKLFESVEVLSKAAKEMLANSVKELT 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 8
+= 2 = a = 3
+= 4 = a = 5
+= 5 = a = 8
+# Listed 5 contacts. EOF.

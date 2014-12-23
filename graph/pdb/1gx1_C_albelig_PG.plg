@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gx1, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SYNTHASE, ISOPRENOID, LYASE, ISOPRENE BIOSYNTHESIS
+> pdb_mol_name > 2-C-METHYL-D-ERYTHRITOL 2,4-CYCLODIPHOSPHATE
+> graphtype > albelig
+> resolution > 1.8
+> date > 26-MAR-02
+> header > SYNTHASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF 2C-METHYL-D-ERYTHRITOL-2,4-CYCLODIPHOSPHATESYNTHASE
+> format_version > 2
+> pdbid > 1gx1
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gx1 | C | albelig | 1 | 1 | E | 318 | 330 | C-1-  | C-13-  | XRIGHGFDVHAFG 
+| 1gx1 | C | albelig | 2 | 2 | E | 335 | 337 | C-18-  | C-20-  | III 
+| 1gx1 | C | albelig | 3 | 3 | E | 340 | 342 | C-23-  | C-25-  | VRI 
+| 1gx1 | C | albelig | 4 | 4 | H | 356 | 368 | C-39-  | C-51-  | VALHALTDALLGA 
+| 1gx1 | C | albelig | 5 | 5 | H | 374 | 377 | C-57-  | C-60-  | IGKL 
+| 1gx1 | C | albelig | 6 | 6 | H | 390 | 403 | C-73-  | C-86-  | SRELLREAWRRIQA 
+| 1gx1 | C | albelig | 7 | 7 | E | 407 | 416 | C-90-  | C-99-  | TLGNVDVTII 
+| 1gx1 | C | albelig | 8 | 8 | H | 423 | 436 | C-106-  | C-119-  | LPHIPQXRVFIAED 
+| 1gx1 | C | albelig | 9 | 9 | H | 441 | 443 | C-124-  | C-126-  | XDD 
+| 1gx1 | C | albelig | 10 | 10 | E | 444 | 449 | C-127-  | C-132-  | VNVKAT 
+| 1gx1 | C | albelig | 11 | 11 | H | 455 | 458 | C-138-  | C-141-  | GFTG 
+| 1gx1 | C | albelig | 12 | 12 | E | 462 | 472 | C-145-  | C-155-  | GIACEAVALLI 
+| 1gx1 | C | albelig | 13 | 13 | L | 495 | 495 | C-1157-  | C-1157-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 12
+= 1 = l = 13
+= 2 = a = 3
+= 3 = m = 8
+= 4 = m = 5
+= 4 = p = 6
+= 4 = p = 12
+= 4 = l = 13
+= 5 = l = 13
+= 6 = m = 8
+= 7 = m = 9
+= 7 = p = 10
+= 7 = a = 12
+= 8 = m = 9
+= 9 = m = 10
+= 11 = m = 12
+# Listed 17 contacts. EOF.

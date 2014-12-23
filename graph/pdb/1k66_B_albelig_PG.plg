@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k66, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RESPONSE REGULATOR, CHEY HOMOLOGUE, HOMODIMER, APO-PROTEIN,(BETA/ALPHA)5, SIGNALING PROTEIN
+> pdb_mol_name > PHYTOCHROME RESPONSE REGULATOR RCPB
+> graphtype > albelig
+> resolution > 1.75
+> date > 15-OCT-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE CYANOBACTERIAL PHYTOCHROMERESPONSE REGULATOR, RCPB
+> format_version > 2
+> pdbid > 1k66
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > TOLYPOTHRIX SP. PCC 7601
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k66 | B | albelig | 1 | 1 | E | 159 | 162 | B-9-  | B-12-  | LLVV 
+| 1k66 | B | albelig | 2 | 2 | H | 166 | 178 | B-16-  | B-28-  | DEDFSTFQRLLQR 
+| 1k66 | B | albelig | 3 | 3 | E | 185 | 188 | B-35-  | B-38-  | IYRC 
+| 1k66 | B | albelig | 4 | 4 | H | 191 | 199 | B-41-  | B-49-  | GDQALDFLY 
+| 1k66 | B | albelig | 5 | 5 | E | 215 | 218 | B-65-  | B-68-  | VILL 
+| 1k66 | B | albelig | 6 | 6 | H | 227 | 234 | B-77-  | B-84-  | GREVLQEI 
+| 1k66 | B | albelig | 7 | 7 | H | 240 | 242 | B-90-  | B-92-  | LKK 
+| 1k66 | B | albelig | 8 | 8 | E | 245 | 249 | B-95-  | B-99-  | VVIMT 
+| 1k66 | B | albelig | 9 | 9 | H | 254 | 262 | B-104-  | B-112-  | PKDIEICYS 
+| 1k66 | B | albelig | 10 | 10 | E | 267 | 270 | B-117-  | B-120-  | SYIV 
+| 1k66 | B | albelig | 11 | 11 | H | 275 | 292 | B-125-  | B-142-  | IDRLTETVQTFIKYWLDI 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 2 = m = 11
+= 3 = m = 4
+= 4 = m = 6
+= 5 = p = 8
+= 8 = p = 10
+# Listed 9 contacts. EOF.

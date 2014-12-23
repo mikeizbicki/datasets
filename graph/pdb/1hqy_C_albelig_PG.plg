@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hqy, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HSLVU, PEPTIDASE-ATPASE COMPLEX, CHAPERONE
+> pdb_mol_name > HEAT SHOCK LOCUS HSLV
+> graphtype > albelig
+> resolution > 2.8
+> date > 20-DEC-00
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > NUCLEOTIDE-DEPENDENT CONFORMATIONAL CHANGES IN A PROTEASE-ASSOCIATEDATPASE HSLU
+> format_version > 2
+> pdbid > 1hqy
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hqy | C | albelig | 1 | 1 | E | 353 | 355 | C-3-  | C-5-  | IVS 
+| 1hqy | C | albelig | 2 | 2 | E | 361 | 366 | C-11-  | C-16-  | HVVIAG 
+| 1hqy | C | albelig | 3 | 3 | E | 370 | 372 | C-20-  | C-22-  | ATL 
+| 1hqy | C | albelig | 4 | 4 | E | 375 | 378 | C-25-  | C-28-  | TVMK 
+| 1hqy | C | albelig | 5 | 5 | E | 384 | 387 | C-34-  | C-37-  | VRRL 
+| 1hqy | C | albelig | 6 | 6 | E | 392 | 398 | C-42-  | C-48-  | VIAGFAG 
+| 1hqy | C | albelig | 7 | 7 | H | 400 | 416 | C-50-  | C-66-  | TADAFTLFELFERKLEM 
+| 1hqy | C | albelig | 8 | 8 | H | 421 | 426 | C-71-  | C-76-  | LVKAAV 
+| 1hqy | C | albelig | 9 | 9 | H | 428 | 434 | C-78-  | C-84-  | LAKDWRT 
+| 1hqy | C | albelig | 10 | 10 | H | 436 | 440 | C-86-  | C-90-  | RMLRK 
+| 1hqy | C | albelig | 11 | 11 | E | 443 | 448 | C-93-  | C-98-  | ALLAVA 
+| 1hqy | C | albelig | 12 | 12 | E | 454 | 456 | C-104-  | C-106-  | LII 
+| 1hqy | C | albelig | 13 | 13 | E | 470 | 472 | C-120-  | C-122-  | IAI 
+| 1hqy | C | albelig | 14 | 14 | H | 476 | 487 | C-126-  | C-137-  | GPYAQAAARALL 
+| 1hqy | C | albelig | 15 | 15 | H | 494 | 508 | C-144-  | C-158-  | AREIAEKALDIAGDI 
+| 1hqy | C | albelig | 16 | 16 | E | 517 | 522 | C-167-  | C-172-  | TIEELS 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = a = 13
+= 2 = p = 6
+= 2 = p = 15
+= 2 = a = 16
+= 3 = a = 4
+= 5 = a = 6
+= 5 = p = 16
+= 6 = a = 7
+= 6 = a = 11
+= 7 = m = 8
+= 7 = m = 9
+= 9 = m = 10
+= 11 = a = 12
+= 13 = m = 14
+= 14 = a = 15
+# Listed 17 contacts. EOF.

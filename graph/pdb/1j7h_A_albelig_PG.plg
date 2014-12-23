@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j7h, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA FOLD, HOMOTRIMER, STRUCTURE 2 FUNCTION PROJECT,S2F, STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL PROTEIN HI0719
+> graphtype > albelig
+> resolution > -1.0
+> date > 16-MAY-01
+> header > UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF HI0719, A HYPOTHETICAL PROTEIN FROMHAEMOPHILUS INFLUENZAE
+> format_version > 2
+> pdbid > 1j7h
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j7h | A | albelig | 1 | 1 | E | 21 | 23 | A-21-  | A-23-  | AVD 
+| 1j7h | A | albelig | 2 | 2 | E | 27 | 30 | A-27-  | A-30-  | LVLT 
+| 1j7h | A | albelig | 3 | 3 | H | 47 | 65 | A-47-  | A-65-  | IVAQARQSLENVKAIIEKA 
+| 1j7h | A | albelig | 4 | 4 | H | 69 | 71 | A-69-  | A-71-  | AAD 
+| 1j7h | A | albelig | 5 | 5 | E | 72 | 79 | A-72-  | A-79-  | IVKTTVFV 
+| 1j7h | A | albelig | 6 | 6 | H | 85 | 99 | A-85-  | A-99-  | FAAVNAEYERFFKEN 
+| 1j7h | A | albelig | 7 | 7 | H | 116 | 118 | A-116-  | A-118-  | PKD 
+| 1j7h | A | albelig | 8 | 8 | E | 121 | 128 | A-121-  | A-128-  | LEIEAIAV 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 8
+= 3 = p = 6
+= 3 = m = 8
+= 4 = m = 5
+= 4 = m = 8
+= 5 = a = 8
+# Listed 7 contacts. EOF.

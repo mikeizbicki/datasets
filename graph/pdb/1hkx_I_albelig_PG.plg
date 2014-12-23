@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hkx, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, SERINE/THREONINE-PROTEIN KINASE, CALMODULIN-BINDING, PHOSPHORYLATION, ATP-BINDING, ALTERNATIVESPLICING
+> pdb_mol_name > CALCIUM/CALMODULIN-DEPENDENT PROTEIN KINASE TYPE
+> graphtype > albelig
+> resolution > 2.65
+> date > 12-MAR-03
+> header > TRANSFERASE
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE OF CALCIUM/CALMODULIN-DEPENDENTPROTEIN KINASE
+> format_version > 2
+> pdbid > 1hkx
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hkx | I | albelig | 1 | 1 | H | 1119 | 1138 | I-343-  | I-362-  | TKVRKQEIIKVTEQLIEAIS 
+| 1hkx | I | albelig | 2 | 2 | H | 1142 | 1148 | I-366-  | I-372-  | FESYTKM 
+| 1hkx | I | albelig | 3 | 3 | E | 1149 | 1156 | I-373-  | I-380-  | CDPGMTAF 
+| 1hkx | I | albelig | 4 | 4 | H | 1158 | 1160 | I-382-  | I-384-  | PEA 
+| 1hkx | I | albelig | 5 | 5 | H | 1171 | 1173 | I-395-  | I-397-  | HRF 
+| 1hkx | I | albelig | 6 | 6 | E | 1187 | 1197 | I-411-  | I-421-  | HTTILNPHIHL 
+| 1hkx | I | albelig | 7 | 7 | E | 1202 | 1213 | I-426-  | I-437-  | SACIAYIRITQY 
+| 1hkx | I | albelig | 8 | 8 | E | 1221 | 1234 | I-445-  | I-458-  | RTAQSEETRVWHRR 
+| 1hkx | I | albelig | 9 | 9 | E | 1237 | 1246 | I-461-  | I-470-  | KWQIVHFHRS 
+| 1hkx | I | albelig | 10 | 10 | L | 1945 | 1945 | I-1475-  | I-1475-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = p = 7
+= 1 = m = 8
+= 1 = l = 10
+= 2 = m = 3
+= 2 = m = 9
+= 2 = l = 10
+= 3 = p = 9
+= 6 = a = 7
+= 7 = a = 8
+= 7 = l = 10
+= 8 = a = 9
+= 8 = l = 10
+= 9 = l = 10
+# Listed 14 contacts. EOF.

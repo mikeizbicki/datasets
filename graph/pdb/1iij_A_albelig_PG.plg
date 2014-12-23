@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iij, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-HELIX-PI-BULGE-ALPHA-HELIX, SIGNALING PROTEIN
+> pdb_mol_name > ERBB-2 RECEPTOR PROTEIN-TYROSINE KINASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 23-APR-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE NEU/ERBB-2 MEMBRANE SPANNINGSEGMENT
+> format_version > 2
+> pdbid > 1iij
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iij | A | albelig | 1 | 1 | H | 4 | 30 | A-4-  | A-30-  | ASPVTFIIATVVGVLLFLILVVVVGIL 
+| 1iij | A | albelig | 2 | 2 | H | 31 | 33 | A-31-  | A-33-  | IKR 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

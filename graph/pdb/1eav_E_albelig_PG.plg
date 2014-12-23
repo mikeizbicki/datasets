@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eav, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLYBDENUM COFACTOR BIOSYNTHESIS, CNX1G
+> pdb_mol_name > MOLYBDOPTERIN BIOSYNTHESIS CNX1 PROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 17-JUL-01
+> header > MOLYBDENUM COFACTOR BIOSYNTHESIS
+> pdb_org_common > MOUSE-EAR CRESS
+> title > CRYSTAL STRUCTURES OF HUMAN GEPHYRIN AND PLANT CNX1 GDOMAINS - COMPARATIVE ANALYSIS AND FUNCTIONAL IMPLICATIONS
+> format_version > 2
+> pdbid > 1eav
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > ARABIDOPSIS THALIANA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eav | E | albelig | 1 | 1 | E | 644 | 651 | E-6-  | E-13-  | YKVAILTV 
+| 1eav | E | albelig | 2 | 2 | H | 653 | 656 | E-15-  | E-18-  | DTVS 
+| 1eav | E | albelig | 3 | 3 | H | 664 | 675 | E-26-  | E-37-  | SGPRAVSVVDSS 
+| 1eav | E | albelig | 4 | 4 | E | 682 | 690 | E-44-  | E-52-  | AKVVATAVV 
+| 1eav | E | albelig | 5 | 5 | H | 694 | 706 | E-56-  | E-68-  | VERIKDILQKWSD 
+| 1eav | E | albelig | 6 | 6 | E | 712 | 716 | E-74-  | E-78-  | LILTL 
+| 1eav | E | albelig | 7 | 7 | H | 727 | 732 | E-89-  | E-94-  | TPEATK 
+| 1eav | E | albelig | 8 | 8 | H | 740 | 751 | E-102-  | E-113-  | PGLLFVXXQESL 
+| 1eav | E | albelig | 9 | 9 | H | 755 | 759 | E-117-  | E-121-  | PFAXL 
+| 1eav | E | albelig | 10 | 10 | E | 764 | 767 | E-126-  | E-129-  | AGIR 
+| 1eav | E | albelig | 11 | 11 | E | 770 | 775 | E-132-  | E-137-  | TLIINX 
+| 1eav | E | albelig | 12 | 12 | H | 781 | 789 | E-143-  | E-151-  | AVAECXEAL 
+| 1eav | E | albelig | 13 | 13 | H | 793 | 798 | E-155-  | E-160-  | LKHALK 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 6 = p = 11
+= 8 = m = 9
+= 10 = a = 11
+# Listed 5 contacts. EOF.

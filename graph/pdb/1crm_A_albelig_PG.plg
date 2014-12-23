@@ -1,0 +1,83 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1crm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE (OXO-ACID)
+> pdb_mol_name > CARBONIC ANHYDRASE I
+> graphtype > albelig
+> resolution > 2.0
+> date > 04-MAR-94
+> header > LYASE (OXO-ACID)
+> pdb_org_common > HUMAN
+> title > STRUCTURE AND FUNCTION OF CARBONIC ANHYDRASES
+> format_version > 2
+> pdbid > 1crm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1crm | A | albelig | 1 | 1 | H | 9 | 15 | A-13-  | A-19-  | PEQWSKL 
+| 1crm | A | albelig | 2 | 2 | H | 17 | 20 | A-21-  | A-24-  | PIAN 
+| 1crm | A | albelig | 3 | 3 | E | 43 | 46 | A-47-  | A-50-  | ISVS 
+| 1crm | A | albelig | 4 | 4 | H | 49 | 51 | A-53-  | A-55-  | PAT 
+| 1crm | A | albelig | 5 | 5 | E | 52 | 57 | A-56-  | A-61-  | AKEIIN 
+| 1crm | A | albelig | 6 | 6 | E | 62 | 66 | A-66-  | A-70-  | FHVNF 
+| 1crm | A | albelig | 7 | 7 | E | 74 | 77 | A-78-  | A-81-  | VLKG 
+| 1crm | A | albelig | 8 | 8 | E | 84 | 93 | A-88-  | A-97-  | YRLFQFHFHW 
+| 1crm | A | albelig | 9 | 9 | E | 112 | 120 | A-116-  | A-124-  | AELHVAHWN 
+| 1crm | A | albelig | 10 | 10 | H | 127 | 130 | A-131-  | A-134-  | LAEA 
+| 1crm | A | albelig | 11 | 11 | E | 137 | 146 | A-141-  | A-150-  | LAVIGVLMKV 
+| 1crm | A | albelig | 12 | 12 | H | 151 | 159 | A-155-  | A-163-  | PKLQKVLDA 
+| 1crm | A | albelig | 13 | 13 | H | 160 | 163 | A-164-  | A-167-  | LQAI 
+| 1crm | A | albelig | 14 | 14 | E | 169 | 171 | A-173-  | A-175-  | RAP 
+| 1crm | A | albelig | 15 | 15 | H | 177 | 180 | A-181-  | A-184-  | PSTL 
+| 1crm | A | albelig | 16 | 16 | E | 187 | 192 | A-191-  | A-196-  | FWTYPG 
+| 1crm | A | albelig | 17 | 17 | E | 203 | 208 | A-207-  | A-212-  | VTWIIC 
+| 1crm | A | albelig | 18 | 18 | E | 212 | 214 | A-216-  | A-218-  | ISV 
+| 1crm | A | albelig | 19 | 19 | H | 216 | 223 | A-220-  | A-227-  | SEQLAQFR 
+| 1crm | A | albelig | 20 | 20 | L | 257 | 257 | A-261-  | A-261-  | J 
+| 1crm | A | albelig | 21 | 21 | L | 258 | 258 | A-262-  | A-262-  | J 
+| 1crm | A | albelig | 22 | 22 | L | 259 | 259 | A-263-  | A-263-  | J 
+| 1crm | A | albelig | 23 | 23 | L | 260 | 260 | A-264-  | A-264-  | J 
+| 1crm | A | albelig | 24 | 24 | L | 261 | 261 | A-265-  | A-265-  | J 
+| 1crm | A | albelig | 25 | 25 | L | 262 | 262 | A-267-  | A-267-  | J 
+| 1crm | A | albelig | 26 | 26 | L | 263 | 263 | A-266-  | A-266-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 7
+= 3 = l = 21
+= 3 = l = 24
+= 4 = m = 5
+= 5 = a = 6
+= 5 = m = 13
+= 5 = a = 14
+= 6 = a = 8
+= 7 = a = 8
+= 8 = a = 9
+= 8 = l = 20
+= 8 = l = 22
+= 9 = a = 11
+= 9 = l = 20
+= 9 = l = 22
+= 11 = p = 17
+= 11 = p = 18
+= 11 = l = 21
+= 12 = m = 19
+= 16 = a = 17
+= 16 = l = 21
+= 16 = l = 23
+= 16 = l = 24
+= 17 = l = 20
+= 17 = l = 21
+= 17 = l = 22
+= 17 = l = 23
+= 17 = l = 24
+= 17 = l = 26
+= 20 = l = 22
+= 21 = l = 23
+= 21 = l = 24
+= 21 = l = 26
+= 23 = l = 24
+= 23 = l = 26
+= 24 = l = 26
+# Listed 36 contacts. EOF.

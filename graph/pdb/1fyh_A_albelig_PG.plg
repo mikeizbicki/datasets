@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fyh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE-RECEPTOR COMPLEX, FIBRONECTIN TYPE-III, IMMUNESYSTEM
+> pdb_mol_name > INTERFERON-GAMMA
+> graphtype > albelig
+> resolution > 2.04
+> date > 29-SEP-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > 1:1 COMPLEX BETWEEN AN INTERFERON GAMMA SINGLE-CHAINVARIANT AND ITS RECEPTOR
+> format_version > 2
+> pdbid > 1fyh
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fyh | A | albelig | 1 | 1 | H | 4 | 16 | A-3-  | A-15-  | PYVKEAENLKKYF 
+| 1fyh | A | albelig | 2 | 2 | H | 21 | 24 | A-20-  | A-23-  | SDVA 
+| 1fyh | A | albelig | 3 | 3 | H | 31 | 36 | A-30-  | A-35-  | LGILKN 
+| 1fyh | A | albelig | 4 | 4 | H | 40 | 59 | A-39-  | A-58-  | ESDRKIMQSQIVSFYFKLFK 
+| 1fyh | A | albelig | 5 | 5 | H | 65 | 83 | A-64-  | A-82-  | QSIQKSVETIKEDMNVKFF 
+| 1fyh | A | albelig | 6 | 6 | H | 87 | 97 | A-86-  | A-96-  | KKKRDDFEKLT 
+| 1fyh | A | albelig | 7 | 7 | H | 104 | 120 | A-103-  | A-119-  | LNVQRKAIDELIQVMAE 
+| 1fyh | A | albelig | 8 | 8 | H | 127 | 140 | A-202-  | A-215-  | GEFVKEAENLKKYF 
+| 1fyh | A | albelig | 9 | 9 | H | 149 | 154 | A-230-  | A-235-  | LGILKN 
+| 1fyh | A | albelig | 10 | 10 | H | 158 | 177 | A-239-  | A-258-  | ESDRKIMQSQIVSFYFKLFK 
+| 1fyh | A | albelig | 11 | 11 | H | 186 | 200 | A-267-  | A-281-  | QKSVETIKEDMNVKF 
+| 1fyh | A | albelig | 12 | 12 | H | 205 | 215 | A-286-  | A-296-  | KKKRDDFEKLT 
+| 1fyh | A | albelig | 13 | 13 | H | 222 | 236 | A-303-  | A-317-  | LNVQRKAIHELIQVM 
+| 1fyh | A | albelig | 14 | 14 | L | 892 | 892 | A-501-  | A-501-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 13
+= 2 = m = 13
+= 3 = m = 12
+= 4 = a = 5
+= 4 = p = 10
+= 4 = m = 12
+= 4 = a = 13
+= 5 = m = 6
+= 5 = l = 14
+= 6 = m = 9
+= 6 = p = 10
+= 6 = l = 14
+= 7 = a = 8
+= 7 = m = 9
+= 7 = a = 10
+= 8 = m = 11
+= 10 = a = 11
+# Listed 18 contacts. EOF.

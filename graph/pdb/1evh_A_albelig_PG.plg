@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1evh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLECULAR RECOGNITION, ACTIN DYNAMICS, CONTRACTILE PROTEIN
+> pdb_mol_name > PROTEIN (MENA EVH1 DOMAIN)
+> graphtype > albelig
+> resolution > 1.8
+> date > 21-APR-99
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > EVH1 DOMAIN FROM MURINE ENABLED IN COMPLEX WITH ACTA PEPTIDE
+> format_version > 2
+> pdbid > 1evh
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1evh | A | albelig | 1 | 1 | E | 2 | 16 | A-3-  | A-17-  | EQSICQARAAVMVYD 
+| 1evh | A | albelig | 2 | 2 | E | 21 | 24 | A-22-  | A-25-  | KWVP 
+| 1evh | A | albelig | 3 | 3 | H | 25 | 27 | A-26-  | A-28-  | AGG 
+| 1evh | A | albelig | 4 | 4 | E | 32 | 39 | A-33-  | A-40-  | SRVHIYHH 
+| 1evh | A | albelig | 5 | 5 | E | 44 | 51 | A-45-  | A-52-  | TFRVVGRK 
+| 1evh | A | albelig | 6 | 6 | E | 57 | 63 | A-58-  | A-64-  | VVINCAI 
+| 1evh | A | albelig | 7 | 7 | E | 76 | 80 | A-77-  | A-81-  | FHQWR 
+| 1evh | A | albelig | 8 | 8 | E | 85 | 90 | A-86-  | A-91-  | VYGLNF 
+| 1evh | A | albelig | 9 | 9 | H | 93 | 110 | A-94-  | A-111-  | KEDANVFASAMMHALEVL 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = a = 4
+= 1 = a = 8
+= 1 = m = 9
+= 2 = m = 3
+= 2 = a = 8
+= 4 = a = 5
+= 5 = a = 6
+= 7 = a = 8
+# Listed 10 contacts. EOF.

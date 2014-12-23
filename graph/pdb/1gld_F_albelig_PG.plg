@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gld, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOTRANSFERASE
+> pdb_mol_name > GLUCOSE-SPECIFIC PROTEIN IIIGLC
+> graphtype > albelig
+> resolution > 2.93
+> date > 07-MAR-94
+> header > PHOSPHOTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CATION PROMOTED ASSOCIATION (CPA) OF A REGULATORY ANDTARGET PROTEIN IS CONTROLLED BY PHOSPHORYLATION
+> format_version > 2
+> pdbid > 1gld
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gld | F | albelig | 1 | 1 | E | 14 | 17 | F-20-  | F-23-  | IEII 
+| 1gld | F | albelig | 2 | 2 | E | 22 | 26 | F-28-  | F-32-  | GEIVN 
+| 1gld | F | albelig | 3 | 3 | H | 27 | 29 | F-33-  | F-35-  | IED 
+| 1gld | F | albelig | 4 | 4 | H | 33 | 36 | F-39-  | F-42-  | VVFA 
+| 1gld | F | albelig | 5 | 5 | E | 42 | 48 | F-48-  | F-54-  | DGIAIKP 
+| 1gld | F | albelig | 6 | 6 | E | 52 | 54 | F-58-  | F-60-  | KMV 
+| 1gld | F | albelig | 7 | 7 | E | 59 | 64 | F-65-  | F-70-  | GTIGKI 
+| 1gld | F | albelig | 8 | 8 | E | 70 | 75 | F-76-  | F-81-  | AFSIES 
+| 1gld | F | albelig | 9 | 9 | E | 80 | 84 | F-86-  | F-90-  | ELFVH 
+| 1gld | F | albelig | 10 | 10 | H | 89 | 92 | F-95-  | F-98-  | TVEL 
+| 1gld | F | albelig | 11 | 11 | E | 97 | 99 | F-103-  | F-105-  | FKR 
+| 1gld | F | albelig | 12 | 12 | E | 112 | 116 | F-118-  | F-122-  | TVIEF 
+| 1gld | F | albelig | 13 | 13 | H | 120 | 124 | F-126-  | F-130-  | LLEEK 
+| 1gld | F | albelig | 14 | 14 | E | 132 | 134 | F-138-  | F-140-  | VVI 
+| 1gld | F | albelig | 15 | 15 | H | 137 | 139 | F-143-  | F-145-  | MDE 
+| 1gld | F | albelig | 16 | 16 | E | 142 | 145 | F-148-  | F-151-  | ELIK 
+| 1gld | F | albelig | 17 | 17 | E | 156 | 161 | F-162-  | F-167-  | PVIRIK 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 17
+= 2 = m = 3
+= 2 = a = 5
+= 5 = a = 14
+= 6 = a = 12
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 14
+= 11 = a = 12
+= 16 = a = 17
+# Listed 10 contacts. EOF.

@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ipk, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SOYBEAN, STORAGE PROTEIN, VICILIN, SUGAR BINDING PROTEIN
+> pdb_mol_name > BETA-CONGLYCININ, BETA CHAIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 16-MAY-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > SOYBEAN
+> title > CRYSTAL STRUCTURES OF RECOMBINANT AND NATIVE SOYBEAN BETA-CONGLYCININ BETA HOMOTRIMERS
+> format_version > 2
+> pdbid > 1ipk
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GLYCINE MAX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ipk | B | albelig | 1 | 1 | E | 384 | 388 | B-21-  | B-25-  | TLFEN 
+| 1ipk | B | albelig | 2 | 2 | E | 391 | 395 | B-28-  | B-32-  | GRIRL 
+| 1ipk | B | albelig | 3 | 3 | H | 399 | 402 | B-36-  | B-39-  | FNKR 
+| 1ipk | B | albelig | 4 | 4 | H | 404 | 409 | B-41-  | B-46-  | PQLENL 
+| 1ipk | B | albelig | 5 | 5 | E | 413 | 419 | B-50-  | B-56-  | RIVQFQS 
+| 1ipk | B | albelig | 6 | 6 | E | 428 | 430 | B-65-  | B-67-  | HHA 
+| 1ipk | B | albelig | 7 | 7 | E | 432 | 438 | B-69-  | B-75-  | ADFLLFV 
+| 1ipk | B | albelig | 8 | 8 | E | 443 | 448 | B-80-  | B-85-  | AILTLV 
+| 1ipk | B | albelig | 9 | 9 | E | 453 | 458 | B-90-  | B-95-  | RDSYNL 
+| 1ipk | B | albelig | 10 | 10 | E | 462 | 466 | B-99-  | B-103-  | DAQRI 
+| 1ipk | B | albelig | 11 | 11 | E | 471 | 475 | B-108-  | B-112-  | TYYLV 
+| 1ipk | B | albelig | 12 | 12 | E | 483 | 491 | B-120-  | B-128-  | LKIIKLAIP 
+| 1ipk | B | albelig | 13 | 13 | E | 500 | 502 | B-137-  | B-139-  | DFF 
+| 1ipk | B | albelig | 14 | 14 | H | 513 | 515 | B-150-  | B-152-  | LQG 
+| 1ipk | B | albelig | 15 | 15 | H | 518 | 525 | B-155-  | B-162-  | HNILETSF 
+| 1ipk | B | albelig | 16 | 16 | H | 529 | 535 | B-166-  | B-172-  | FEEINRV 
+| 1ipk | B | albelig | 17 | 17 | H | 548 | 553 | B-192-  | B-197-  | KEQIRQ 
+| 1ipk | B | albelig | 18 | 18 | E | 582 | 584 | B-226-  | B-228-  | YSN 
+| 1ipk | B | albelig | 19 | 19 | E | 587 | 592 | B-231-  | B-236-  | GKFFEI 
+| 1ipk | B | albelig | 20 | 20 | H | 598 | 603 | B-242-  | B-247-  | PQLRDL 
+| 1ipk | B | albelig | 21 | 21 | E | 605 | 612 | B-249-  | B-256-  | IFLSSVDI 
+| 1ipk | B | albelig | 22 | 22 | E | 616 | 623 | B-260-  | B-267-  | ALLLPHFN 
+| 1ipk | B | albelig | 23 | 23 | E | 627 | 644 | B-271-  | B-288-  | IVILVINEGDANIELVGI 
+| 1ipk | B | albelig | 24 | 24 | E | 650 | 657 | B-304-  | B-311-  | VQRYRAEL 
+| 1ipk | B | albelig | 25 | 25 | E | 662 | 665 | B-316-  | B-319-  | VFVI 
+| 1ipk | B | albelig | 26 | 26 | E | 671 | 686 | B-325-  | B-340-  | FVVNATSNLNFLAFGI 
+| 1ipk | B | albelig | 27 | 27 | E | 693 | 695 | B-347-  | B-349-  | RNF 
+| 1ipk | B | albelig | 28 | 28 | H | 704 | 706 | B-358-  | B-360-  | VRQ 
+| 1ipk | B | albelig | 29 | 29 | H | 709 | 715 | B-363-  | B-369-  | RQVQELA 
+| 1ipk | B | albelig | 30 | 30 | H | 720 | 727 | B-374-  | B-381-  | AQDVERLL 
+| 1ipk | B | albelig | 31 | 31 | E | 735 | 737 | B-389-  | B-391-  | FVD 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 5 = a = 12
+= 6 = a = 11
+= 6 = a = 13
+= 7 = a = 10
+= 7 = a = 12
+= 8 = a = 9
+= 8 = a = 11
+= 18 = a = 19
+= 19 = a = 21
+= 19 = a = 31
+= 20 = m = 21
+= 21 = a = 26
+= 22 = a = 26
+= 22 = a = 27
+= 22 = a = 31
+= 23 = a = 24
+= 23 = p = 25
+= 23 = a = 26
+# Listed 20 contacts. EOF.

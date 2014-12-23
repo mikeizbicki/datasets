@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jxq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > CASPASE-9
+> graphtype > albelig
+> resolution > 2.8
+> date > 08-SEP-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF CLEAVED, CARD DOMAIN DELETED CASPASE-9
+> format_version > 2
+> pdbid > 1jxq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jxq | A | albelig | 1 | 1 | H | 3 | 9 | A-141-  | A-147-  | ALESLRG 
+| 1jxq | A | albelig | 2 | 2 | E | 23 | 29 | A-163-  | A-169-  | GHCLIIN 
+| 1jxq | A | albelig | 3 | 3 | H | 45 | 58 | A-182-  | A-195-  | SNIDCEKLRRRFSS 
+| 1jxq | A | albelig | 4 | 4 | E | 61 | 67 | A-198-  | A-204-  | FMVEVKG 
+| 1jxq | A | albelig | 5 | 5 | H | 71 | 82 | A-208-  | A-219-  | AKKMVLALLELA 
+| 1jxq | A | albelig | 6 | 6 | E | 91 | 97 | A-229-  | A-235-  | CCVVVIL 
+| 1jxq | A | albelig | 7 | 7 | E | 111 | 113 | A-242-  | A-244-  | AVY 
+| 1jxq | A | albelig | 8 | 8 | E | 119 | 121 | A-255-  | A-257-  | PVS 
+| 1jxq | A | albelig | 9 | 9 | H | 122 | 128 | A-258-  | A-264-  | VEKIVNI 
+| 1jxq | A | albelig | 10 | 10 | H | 135 | 137 | A-271-  | A-273-  | PSL 
+| 1jxq | A | albelig | 11 | 11 | E | 142 | 147 | A-278-  | A-283-  | KLFFIQ 
+| 1jxq | A | albelig | 12 | 12 | E | 168 | 172 | A-327-  | A-331-  | IFVSY 
+| 1jxq | A | albelig | 13 | 13 | H | 189 | 201 | A-348-  | A-360-  | WYVETLDDIFEQW 
+| 1jxq | A | albelig | 14 | 14 | H | 207 | 219 | A-366-  | A-378-  | LQSLLLRVANAVS 
+| 1jxq | A | albelig | 15 | 15 | E | 229 | 233 | A-388-  | A-393-  | GCFNF 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 4
+= 2 = p = 6
+= 3 = a = 4
+= 3 = p = 13
+= 6 = p = 11
+= 7 = a = 8
+= 8 = m = 9
+= 11 = p = 12
+= 12 = a = 15
+= 13 = a = 14
+# Listed 11 contacts. EOF.

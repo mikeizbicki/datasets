@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fsx, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEMOGLOBIN TETRAMER, R-STATE, QUATERNARY STRUCTURE, OXYGENSTORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN BETA CHAIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 11-SEP-00
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > CATTLE
+> title > THE X-RAY STRUCTURE DETERMINATION OF BOVINE CARBONMONOXY HBAT 2.1 A RESOLUTION AND ITS RELATIONSHIP TO THE QUATERNARYSTRUCTURE OF OTHER HB CRYSTAL FORMS
+> format_version > 2
+> pdbid > 1fsx
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fsx | B | albelig | 1 | 1 | H | 146 | 156 | B-205-  | B-215-  | AEEKAAVTAFW 
+| 1fsx | B | albelig | 2 | 2 | H | 161 | 175 | B-220-  | B-234-  | VDEVGGEALGRLLVV 
+| 1fsx | B | albelig | 3 | 3 | H | 177 | 182 | B-236-  | B-241-  | PWTQRF 
+| 1fsx | B | albelig | 4 | 4 | H | 184 | 186 | B-243-  | B-245-  | ESF 
+| 1fsx | B | albelig | 5 | 5 | H | 192 | 196 | B-251-  | B-255-  | ADAVM 
+| 1fsx | B | albelig | 6 | 6 | H | 199 | 216 | B-258-  | B-275-  | PKVKAHGKKVLDSFSNGM 
+| 1fsx | B | albelig | 7 | 7 | H | 222 | 225 | B-281-  | B-284-  | LKGT 
+| 1fsx | B | albelig | 8 | 8 | H | 227 | 237 | B-286-  | B-296-  | AALSELHCDKL 
+| 1fsx | B | albelig | 9 | 9 | H | 242 | 262 | B-301-  | B-321-  | ENFKLLGNVLVVVLARNFGKE 
+| 1fsx | B | albelig | 10 | 10 | H | 265 | 283 | B-324-  | B-342-  | PVLQADFQKVVAGVANALA 
+| 1fsx | B | albelig | 11 | 11 | L | 578 | 578 | B-347-  | B-347-  | J 
+| 1fsx | B | albelig | 12 | 12 | L | 579 | 579 | B-348-  | B-348-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 10
+= 2 = m = 3
+= 2 = m = 5
+= 2 = a = 6
+= 2 = m = 9
+= 2 = l = 11
+= 2 = l = 12
+= 3 = l = 12
+= 4 = m = 6
+= 4 = l = 12
+= 6 = l = 11
+= 6 = l = 12
+= 8 = m = 10
+= 8 = l = 11
+= 8 = l = 12
+= 9 = a = 10
+= 9 = l = 12
+= 10 = l = 12
+= 11 = l = 12
+# Listed 20 contacts. EOF.

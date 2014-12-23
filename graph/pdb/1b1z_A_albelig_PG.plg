@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b1z, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SUPERANTIGEN, ZINC BINDING, PYROGENIC EXOTOXIN
+> pdb_mol_name > PROTEIN (TOXIN)
+> graphtype > albelig
+> resolution > 2.57
+> date > 24-NOV-98
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > STREPTOCOCCAL PYROGENIC EXOTOXIN A1
+> format_version > 2
+> pdbid > 1b1z
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b1z | A | albelig | 1 | 1 | H | 4 | 6 | A-6-  | A-8-  | PSQ 
+| 1b1z | A | albelig | 2 | 2 | H | 10 | 12 | A-12-  | A-14-  | SSL 
+| 1b1z | A | albelig | 3 | 3 | H | 17 | 24 | A-19-  | A-26-  | QNIYFLYE 
+| 1b1z | A | albelig | 4 | 4 | E | 28 | 34 | A-30-  | A-36-  | VTHENVK 
+| 1b1z | A | albelig | 5 | 5 | E | 43 | 46 | A-45-  | A-48-  | DLIY 
+| 1b1z | A | albelig | 6 | 6 | E | 55 | 59 | A-57-  | A-61-  | KLKTE 
+| 1b1z | A | albelig | 7 | 7 | H | 63 | 69 | A-65-  | A-71-  | QEMATLF 
+| 1b1z | A | albelig | 8 | 8 | E | 73 | 78 | A-75-  | A-80-  | NVDIYG 
+| 1b1z | A | albelig | 9 | 9 | E | 94 | 98 | A-96-  | A-100-  | SAAIY 
+| 1b1z | A | albelig | 10 | 10 | E | 101 | 103 | A-103-  | A-105-  | VTN 
+| 1b1z | A | albelig | 11 | 11 | E | 108 | 121 | A-110-  | A-123-  | HLEIPKKIVVKVSI 
+| 1b1z | A | albelig | 12 | 12 | E | 124 | 135 | A-126-  | A-137-  | IQSLSFDIETNK 
+| 1b1z | A | albelig | 13 | 13 | E | 137 | 139 | A-139-  | A-141-  | MVT 
+| 1b1z | A | albelig | 14 | 14 | H | 140 | 155 | A-142-  | A-157-  | AQELDYKVRKYLTDNK 
+| 1b1z | A | albelig | 15 | 15 | E | 167 | 173 | A-169-  | A-175-  | TGYIKFI 
+| 1b1z | A | albelig | 16 | 16 | E | 180 | 183 | A-182-  | A-185-  | FWFD 
+| 1b1z | A | albelig | 17 | 17 | H | 192 | 199 | A-194-  | A-201-  | QSKYLMIY 
+| 1b1z | A | albelig | 18 | 18 | E | 204 | 206 | A-206-  | A-208-  | TLD 
+| 1b1z | A | albelig | 19 | 19 | E | 211 | 217 | A-213-  | A-219-  | QIEVYLT 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 17
+= 4 = a = 8
+= 5 = a = 6
+= 6 = p = 9
+= 8 = a = 10
+= 8 = m = 14
+= 9 = m = 17
+= 11 = a = 12
+= 11 = p = 19
+= 12 = a = 13
+= 12 = a = 14
+= 13 = m = 14
+= 13 = a = 18
+= 14 = m = 17
+= 15 = a = 16
+= 15 = a = 19
+# Listed 16 contacts. EOF.

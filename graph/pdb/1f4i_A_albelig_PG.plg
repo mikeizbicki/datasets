@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f4i, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA HELICAL BUNDLE, DNA BINDING PROTEIN,TRANSCRIPTION
+> pdb_mol_name > UV EXCISION REPAIR PROTEIN PROTEIN RAD23 HOMOLOG
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-JUN-00
+> header > DNA BINDING PROTEIN,TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE HHR23A UBA(2) MUTANT P333E,DEFICIENT IN BINDING THE HIV-1 ACCESSORY PROTEIN VPR
+> format_version > 2
+> pdbid > 1f4i
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f4i | A | albelig | 1 | 1 | H | 3 | 11 | A-3-  | A-11-  | KEAIERLKA 
+| 1f4i | A | albelig | 2 | 2 | H | 16 | 24 | A-16-  | A-24-  | ESLVIQAYF 
+| 1f4i | A | albelig | 3 | 3 | H | 31 | 39 | A-31-  | A-39-  | NLAANFLLS 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+# Listed 2 contacts. EOF.

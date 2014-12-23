@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cav, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SEED STORAGE PROTEIN
+> pdb_mol_name > CANAVALIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 27-MAY-93
+> header > SEED STORAGE PROTEIN
+> pdb_org_common > JACK BEAN
+> title > THE THREE-DIMENSIONAL STRUCTURE OF CANAVALIN FROM JACK BEAN (CANAVALIAENSIFORMIS)
+> format_version > 2
+> pdbid > 1cav
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cav | B | albelig | 1 | 1 | E | 205 | 210 | B-263-  | B-268-  | GKLYEI 
+| 1cav | B | albelig | 2 | 2 | H | 216 | 219 | B-274-  | B-277-  | SQLR 
+| 1cav | B | albelig | 3 | 3 | E | 224 | 230 | B-282-  | B-288-  | LLNCLQM 
+| 1cav | B | albelig | 4 | 4 | E | 236 | 241 | B-294-  | B-299-  | FVPHYN 
+| 1cav | B | albelig | 5 | 5 | E | 245 | 252 | B-303-  | B-310-  | TVILVANE 
+| 1cav | B | albelig | 6 | 6 | E | 254 | 261 | B-312-  | B-319-  | RAEVELVG 
+| 1cav | B | albelig | 7 | 7 | E | 276 | 283 | B-334-  | B-341-  | RRYAATLS 
+| 1cav | B | albelig | 8 | 8 | E | 287 | 290 | B-345-  | B-348-  | IIVI 
+| 1cav | B | albelig | 9 | 9 | E | 296 | 300 | B-354-  | B-358-  | VALKA 
+| 1cav | B | albelig | 10 | 10 | E | 304 | 311 | B-362-  | B-369-  | LNMVGIGV 
+| 1cav | B | albelig | 11 | 11 | E | 318 | 320 | B-376-  | B-378-  | RNF 
+| 1cav | B | albelig | 12 | 12 | H | 334 | 340 | B-392-  | B-398-  | RQVSDLT 
+| 1cav | B | albelig | 13 | 13 | H | 345 | 353 | B-403-  | B-411-  | GEEVEELLE 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 3 = a = 10
+= 4 = a = 9
+= 4 = a = 11
+= 5 = a = 8
+= 5 = a = 10
+= 6 = a = 7
+= 6 = a = 9
+= 6 = p = 10
+# Listed 9 contacts. EOF.

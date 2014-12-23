@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j05, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, IMMUNE SYSTEM
+> pdb_mol_name > ANTI-CEA MAB T84.66, HEAVY CHAIN
+> graphtype > albelig
+> resolution > 1.5
+> date > 01-NOV-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > THE CRYSTAL STRUCTURE OF ANTI-CARCINOEMBRYONIC ANTIGEN MONOCLONALANTIBODY T84.66 FV FRAGMENT
+> format_version > 2
+> pdbid > 1j05
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j05 | B | albelig | 1 | 1 | E | 346 | 349 | B-3-  | B-6-  | QLQQ 
+| 1j05 | B | albelig | 2 | 2 | E | 353 | 355 | B-10-  | B-12-  | ELV 
+| 1j05 | B | albelig | 3 | 3 | E | 361 | 368 | B-18-  | B-25-  | VKLSDTAS 
+| 1j05 | B | albelig | 4 | 4 | H | 372 | 374 | B-29-  | B-31-  | IKD 
+| 1j05 | B | albelig | 5 | 5 | E | 376 | 382 | B-33-  | B-39-  | YMHWVKQ 
+| 1j05 | B | albelig | 6 | 6 | E | 389 | 395 | B-46-  | B-52-  | EWIGRID 
+| 1j05 | B | albelig | 7 | 7 | E | 400 | 403 | B-56-  | B-59-  | NSKY 
+| 1j05 | B | albelig | 8 | 8 | H | 405 | 407 | B-61-  | B-63-  | PKF 
+| 1j05 | B | albelig | 9 | 9 | E | 411 | 416 | B-67-  | B-72-  | ATITAD 
+| 1j05 | B | albelig | 10 | 10 | H | 417 | 419 | B-73-  | B-75-  | TSS 
+| 1j05 | B | albelig | 11 | 11 | E | 421 | 426 | B-77-  | B-82-  | TAYLQL 
+| 1j05 | B | albelig | 12 | 12 | H | 431 | 433 | B-84-  | B-86-  | SED 
+| 1j05 | B | albelig | 13 | 13 | E | 435 | 442 | B-88-  | B-95-  | AVYYDAPF 
+| 1j05 | B | albelig | 14 | 14 | E | 458 | 462 | B-107-  | B-111-  | TSVTV 
+| 1j05 | B | albelig | 15 | 15 | L | 467 | 467 | B-501-  | B-501-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 13
+= 2 = p = 14
+= 3 = a = 11
+= 3 = p = 13
+= 5 = a = 6
+= 5 = p = 11
+= 5 = a = 13
+= 5 = l = 15
+= 6 = a = 7
+= 6 = p = 9
+= 6 = l = 15
+= 7 = a = 9
+= 7 = l = 15
+= 9 = m = 10
+= 9 = a = 11
+= 13 = a = 14
+# Listed 17 contacts. EOF.

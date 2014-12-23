@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i01, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROSSMANN FOLD, OXIDOREDUCTASE
+> pdb_mol_name > BETA-KETOACYL [ACP] REDUCTASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 27-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF BETA-KETOACYL [ACYL CARRIER PROTEIN] REDUCTASEFROM E. COLI.
+> format_version > 2
+> pdbid > 1i01
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i01 | G | albelig | 1 | 1 | E | 1389 | 1392 | G-7-  | G-10-  | IALV 
+| 1i01 | G | albelig | 2 | 2 | H | 1398 | 1409 | G-16-  | G-27-  | GIGRAIAETLAA 
+| 1i01 | G | albelig | 3 | 3 | E | 1413 | 1418 | G-31-  | G-36-  | KVIGTA 
+| 1i01 | G | albelig | 4 | 4 | H | 1421 | 1434 | G-39-  | G-52-  | ENGAQAISDYLGAN 
+| 1i01 | G | albelig | 5 | 5 | E | 1435 | 1439 | G-53-  | G-57-  | GKGLM 
+| 1i01 | G | albelig | 6 | 6 | H | 1445 | 1458 | G-63-  | G-76-  | PASIESVLEKIRAE 
+| 1i01 | G | albelig | 7 | 7 | E | 1464 | 1468 | G-82-  | G-86-  | ILVNN 
+| 1i01 | G | albelig | 8 | 8 | H | 1474 | 1476 | G-95-  | G-97-  | LMR 
+| 1i01 | G | albelig | 9 | 9 | H | 1479 | 1491 | G-100-  | G-112-  | DEEWNDIIETNLS 
+| 1i01 | G | albelig | 10 | 10 | H | 1492 | 1507 | G-113-  | G-128-  | SVFRLSKAVMRAMMKK 
+| 1i01 | G | albelig | 11 | 11 | E | 1510 | 1515 | G-131-  | G-136-  | GRIITI 
+| 1i01 | G | albelig | 12 | 12 | H | 1519 | 1539 | G-152-  | G-172-  | AAAKAGLIGFSKSLAREVASR 
+| 1i01 | G | albelig | 13 | 13 | E | 1541 | 1548 | G-174-  | G-181-  | ITVNVVAP 
+| 1i01 | G | albelig | 14 | 14 | H | 1554 | 1558 | G-187-  | G-191-  | DMTRA 
+| 1i01 | G | albelig | 15 | 15 | H | 1561 | 1568 | G-194-  | G-201-  | DDQRAGIL 
+| 1i01 | G | albelig | 16 | 16 | H | 1579 | 1590 | G-212-  | G-223-  | AQEIANAVAFLA 
+| 1i01 | G | albelig | 17 | 17 | H | 1592 | 1594 | G-225-  | G-227-  | DEA 
+| 1i01 | G | albelig | 18 | 18 | E | 1601 | 1604 | G-234-  | G-237-  | TLHV 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 3 = a = 4
+= 3 = p = 5
+= 4 = a = 5
+= 5 = a = 6
+= 6 = m = 10
+= 7 = p = 11
+= 9 = m = 10
+= 9 = p = 12
+= 10 = p = 12
+= 11 = p = 13
+= 11 = m = 16
+= 12 = a = 13
+= 13 = p = 18
+# Listed 15 contacts. EOF.

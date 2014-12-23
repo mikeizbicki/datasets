@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHORISMATE MUTASE, PROTEIN, MUTANT, PSEUDO-ALPHA BETA-BARREL, TRIMER,ISOMERASE
+> pdb_mol_name > PROTEIN (CHORISMATE MUTASE)
+> graphtype > albelig
+> resolution > 1.9
+> date > 22-AUG-00
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF CHORISMATE MUTASE MUTANT C88S/R90K
+> format_version > 2
+> pdbid > 1fnj
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnj | A | albelig | 1 | 1 | E | 2 | 10 | A-3-  | A-11-  | IRGIRGATT 
+| 1fnj | A | albelig | 2 | 2 | H | 16 | 34 | A-17-  | A-35-  | EEEILQKTKQLLEKIIEEN 
+| 1fnj | A | albelig | 3 | 3 | H | 38 | 40 | A-39-  | A-41-  | PED 
+| 1fnj | A | albelig | 4 | 4 | E | 41 | 48 | A-42-  | A-49-  | VVQMLLSA 
+| 1fnj | A | albelig | 5 | 5 | H | 57 | 63 | A-58-  | A-64-  | PAKAVRE 
+| 1fnj | A | albelig | 6 | 6 | E | 87 | 95 | A-88-  | A-96-  | SIKVMMTVQ 
+| 1fnj | A | albelig | 7 | 7 | H | 100 | 102 | A-101-  | A-103-  | QDQ 
+| 1fnj | A | albelig | 8 | 8 | H | 109 | 114 | A-110-  | A-115-  | EKAVVL 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 8
+= 2 = p = 6
+= 3 = m = 4
+= 3 = m = 6
+= 4 = a = 6
+# Listed 7 contacts. EOF.

@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gvn, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > POSTSEGREGATIONAL KILLING SYSTEM, PLASMID
+> pdb_mol_name > EPSILON
+> graphtype > albelig
+> resolution > 1.95
+> date > 19-FEB-02
+> header > POSTSEGREGATIONAL KILLING SYSTEM
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE PLASMID MAINTENANCE SYSTEMEPSILON/ZETA: MEACHNISM OF TOXIN INACTIVATION AND TOXINFUNCTION
+> format_version > 2
+> pdbid > 1gvn
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gvn | C | albelig | 1 | 1 | H | 365 | 391 | C-5-  | C-31-  | YEKTFEIEIINELSASVYNRVLNYVLN 
+| 1gvn | C | albelig | 2 | 2 | H | 402 | 414 | C-42-  | C-54-  | LEVNLLNQLKLAK 
+| 1gvn | C | albelig | 3 | 3 | H | 418 | 420 | C-58-  | C-60-  | LFD 
+| 1gvn | C | albelig | 4 | 4 | H | 423 | 444 | C-63-  | C-84-  | LEELQAVHEYWRSMNRYSKQVL 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = p = 4
+= 2 = a = 4
+# Listed 4 contacts. EOF.

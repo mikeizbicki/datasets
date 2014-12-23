@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ghe, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACYL COENZYME A COMPLEX, TRANSFERASE
+> pdb_mol_name > ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 1.55
+> date > 13-DEC-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF TABTOXIN RESISTANCE PROTEIN COMPLEXEDWITH AN ACYL COENZYME A
+> format_version > 2
+> pdbid > 1ghe
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS SYRINGAE PV. TABACI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ghe | B | albelig | 1 | 1 | E | 174 | 178 | B-5-  | B-9-  | QLRRV 
+| 1ghe | B | albelig | 2 | 2 | H | 183 | 199 | B-14-  | B-30-  | FAHYRHGLAQLLFETVH 
+| 1ghe | B | albelig | 3 | 3 | H | 212 | 227 | B-43-  | B-58-  | XQQAYAWCDGLKADIA 
+| 1ghe | B | albelig | 4 | 4 | E | 231 | 238 | B-62-  | B-69-  | LLLWVVAE 
+| 1ghe | B | albelig | 5 | 5 | E | 241 | 250 | B-72-  | B-81-  | NVLASAQLSL 
+| 1ghe | B | albelig | 6 | 6 | E | 259 | 267 | B-90-  | B-98-  | RAEVQKLXV 
+| 1ghe | B | albelig | 7 | 7 | H | 269 | 271 | B-100-  | B-102-  | PSA 
+| 1ghe | B | albelig | 8 | 8 | H | 276 | 290 | B-107-  | B-121-  | LGRQLXDEVEQVAVK 
+| 1ghe | B | albelig | 9 | 9 | E | 295 | 301 | B-126-  | B-132-  | LLHLDTE 
+| 1ghe | B | albelig | 10 | 10 | H | 305 | 312 | B-136-  | B-143-  | VAEAFYSA 
+| 1ghe | B | albelig | 11 | 11 | E | 316 | 326 | B-147-  | B-157-  | TRVGELPGYCA 
+| 1ghe | B | albelig | 12 | 12 | E | 332 | 341 | B-163-  | B-172-  | LHPTAIYFKT 
+| 1ghe | B | albelig | 13 | 13 | L | 352 | 352 | B-302-  | B-302-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = m = 8
+= 2 = a = 3
+= 2 = m = 5
+= 2 = m = 6
+= 2 = l = 13
+= 3 = m = 4
+= 4 = a = 5
+= 4 = a = 8
+= 5 = a = 6
+= 5 = p = 8
+= 6 = p = 9
+= 6 = l = 13
+= 7 = l = 13
+= 8 = l = 13
+= 9 = a = 12
+= 9 = l = 13
+= 10 = l = 13
+= 11 = a = 12
+# Listed 19 contacts. EOF.

@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a5d, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EYE LENS PROTEIN
+> pdb_mol_name > GAMMAE CRYSTALLIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 12-FEB-98
+> header > EYE LENS PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > GAMMAE CRYSTALLIN FROM RAT LENS
+> format_version > 2
+> pdbid > 1a5d
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a5d | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | KITFYED 
+| 1a5d | A | albelig | 2 | 2 | E | 12 | 18 | A-12-  | A-18-  | QGRHYEC 
+| 1a5d | A | albelig | 3 | 3 | H | 26 | 28 | A-26-  | A-28-  | QPY 
+| 1a5d | A | albelig | 4 | 4 | E | 34 | 39 | A-34-  | A-39-  | SVRVDS 
+| 1a5d | A | albelig | 5 | 5 | E | 41 | 47 | A-41-  | A-47-  | CWMLYEQ 
+| 1a5d | A | albelig | 6 | 6 | E | 51 | 57 | A-51-  | A-57-  | TGCQYFL 
+| 1a5d | A | albelig | 7 | 7 | E | 60 | 62 | A-60-  | A-62-  | GDY 
+| 1a5d | A | albelig | 8 | 8 | H | 65 | 68 | A-65-  | A-68-  | YQQW 
+| 1a5d | A | albelig | 9 | 9 | E | 77 | 81 | A-77-  | A-81-  | SCRLI 
+| 1a5d | A | albelig | 10 | 10 | E | 88 | 92 | A-89-  | A-93-  | RIRIY 
+| 1a5d | A | albelig | 11 | 11 | H | 95 | 97 | A-96-  | A-98-  | EDY 
+| 1a5d | A | albelig | 12 | 12 | E | 101 | 104 | A-102-  | A-105-  | MVEI 
+| 1a5d | A | albelig | 13 | 13 | H | 111 | 114 | A-112-  | A-115-  | LQDR 
+| 1a5d | A | albelig | 14 | 14 | E | 122 | 127 | A-123-  | A-128-  | SFHVME 
+| 1a5d | A | albelig | 15 | 15 | E | 130 | 135 | A-131-  | A-136-  | WVLYEM 
+| 1a5d | A | albelig | 16 | 16 | E | 139 | 145 | A-140-  | A-146-  | RGRQYLL 
+| 1a5d | A | albelig | 17 | 17 | E | 148 | 150 | A-149-  | A-151-  | GEY 
+| 1a5d | A | albelig | 18 | 18 | H | 153 | 156 | A-154-  | A-157-  | YHDW 
+| 1a5d | A | albelig | 19 | 19 | E | 165 | 168 | A-166-  | A-169-  | SLRR 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 16
+= 10 = a = 12
+= 10 = a = 14
+= 11 = m = 14
+= 14 = a = 17
+= 15 = a = 16
+= 15 = a = 19
+= 17 = m = 18
+# Listed 13 contacts. EOF.

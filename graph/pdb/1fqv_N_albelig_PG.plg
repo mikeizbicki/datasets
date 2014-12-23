@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fqv, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SKP1, SKP2, F-BOX, LRR, LEUCINE-RICH REPEAT, SCF, UBIQUITIN,E3, UBIQUITIN PROTEIN LIGASE
+> pdb_mol_name > SKP1
+> graphtype > albelig
+> resolution > 2.8
+> date > 06-SEP-00
+> header > LIGASE
+> pdb_org_common > HUMAN
+> title > INSIGHTS INTO SCF UBIQUITIN LIGASES FROM THE STRUCTURE OFTHE SKP1-SKP2 COMPLEX
+> format_version > 2
+> pdbid > 1fqv
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fqv | N | albelig | 1 | 1 | E | 3118 | 3123 | N-3-  | N-8-  | SIKLQS 
+| 1fqv | N | albelig | 2 | 2 | E | 3128 | 3132 | N-13-  | N-17-  | IFEVD 
+| 1fqv | N | albelig | 3 | 3 | H | 3133 | 3136 | N-18-  | N-21-  | VEIA 
+| 1fqv | N | albelig | 4 | 4 | H | 3140 | 3148 | N-25-  | N-33-  | VTIKTMLED 
+| 1fqv | N | albelig | 5 | 5 | E | 3154 | 3156 | N-45-  | N-47-  | VPL 
+| 1fqv | N | albelig | 6 | 6 | H | 3161 | 3173 | N-52-  | N-64-  | AAILKKVIQWCTH 
+| 1fqv | N | albelig | 7 | 7 | H | 3181 | 3186 | N-87-  | N-92-  | VWDQEF 
+| 1fqv | N | albelig | 8 | 8 | H | 3191 | 3203 | N-97-  | N-109-  | QGTLFELILAANY 
+| 1fqv | N | albelig | 9 | 9 | H | 3207 | 3221 | N-113-  | N-127-  | KGLLDVTCKTVANMI 
+| 1fqv | N | albelig | 10 | 10 | H | 3226 | 3233 | N-132-  | N-139-  | PEEIRKTF 
+| 1fqv | N | albelig | 11 | 11 | H | 3243 | 3250 | N-149-  | N-156-  | EEAQVRKE 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = m = 3
+= 6 = m = 7
+= 6 = m = 8
+= 8 = a = 9
+# Listed 6 contacts. EOF.

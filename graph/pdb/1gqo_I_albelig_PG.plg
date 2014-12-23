@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gqo, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEHYDRATASE, LYASE
+> pdb_mol_name > DEHYDROQUINASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 28-NOV-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > TYPE II DEHYDROQUINASE FROM BACILLUS SUBTILIS
+> format_version > 2
+> pdbid > 1gqo
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gqo | I | albelig | 1 | 1 | E | 1142 | 1147 | I-2-  | I-7-  | HFLILN 
+| 1gqo | I | albelig | 2 | 2 | H | 1151 | 1153 | I-11-  | I-13-  | VNR 
+| 1gqo | I | albelig | 3 | 3 | H | 1159 | 1162 | I-19-  | I-22-  | PEVF 
+| 1gqo | I | albelig | 4 | 4 | H | 1167 | 1180 | I-27-  | I-40-  | LTDIETDLFQFAEA 
+| 1gqo | I | albelig | 5 | 5 | E | 1184 | 1189 | I-44-  | I-49-  | QLTFFQ 
+| 1gqo | I | albelig | 6 | 6 | H | 1193 | 1203 | I-53-  | I-63-  | EGDLIDAIHEA 
+| 1gqo | I | albelig | 7 | 7 | E | 1209 | 1213 | I-69-  | I-73-  | GIVLN 
+| 1gqo | I | albelig | 8 | 8 | H | 1215 | 1219 | I-75-  | I-79-  | GALSH 
+| 1gqo | I | albelig | 9 | 9 | H | 1222 | 1229 | I-82-  | I-89-  | YAIRDAVS 
+| 1gqo | I | albelig | 10 | 10 | E | 1235 | 1239 | I-95-  | I-99-  | VVEVH 
+| 1gqo | I | albelig | 11 | 11 | H | 1243 | 1245 | I-103-  | I-105-  | LYA 
+| 1gqo | I | albelig | 12 | 12 | H | 1248 | 1251 | I-108-  | I-111-  | EFRH 
+| 1gqo | I | albelig | 13 | 13 | H | 1256 | 1258 | I-116-  | I-118-  | APV 
+| 1gqo | I | albelig | 14 | 14 | E | 1261 | 1264 | I-121-  | I-124-  | GQIV 
+| 1gqo | I | albelig | 15 | 15 | H | 1269 | 1280 | I-129-  | I-140-  | EGYKLAVRYLLS 
+| 1gqo | I | albelig | 16 | 16 | L | 3412 | 3412 | I-150-  | I-150-  | J 
+| 1gqo | I | albelig | 17 | 17 | L | 3413 | 3413 | I-151-  | I-151-  | J 
+| 1gqo | I | albelig | 18 | 18 | L | 3414 | 3414 | I-152-  | I-152-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = p = 7
+= 2 = l = 18
+= 3 = l = 16
+= 3 = l = 18
+= 6 = m = 9
+= 7 = p = 10
+= 7 = l = 16
+= 8 = l = 16
+= 9 = m = 13
+= 10 = p = 14
+= 10 = l = 16
+= 11 = m = 12
+= 11 = l = 16
+= 12 = l = 16
+= 13 = l = 17
+= 16 = l = 18
+# Listed 17 contacts. EOF.

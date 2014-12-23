@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fpn, chain 1.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMAN RHINOVIRUS, POCKET FACTOR, RHINOVIRUS COAT PROTEIN,ICOSAHEDRAL VIRUS
+> pdb_mol_name > COAT PROTEIN VP1
+> graphtype > albelig
+> resolution > 2.6
+> date > 31-AUG-00
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > HUMAN RHINOVIRUS SEROTYPE 2 (HRV2)
+> format_version > 2
+> pdbid > 1fpn
+> experiment > X-RAY DIFFRACTION
+> chainid > 1
+> graphclass > protein graph
+> pdb_org_sci > HUMAN RHINOVIRUS 2
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fpn | 1 | albelig | 1 | 1 | H | 23 | 25 | 1-37-  | 1-39-  | AET 
+| 1fpn | 1 | albelig | 2 | 2 | H | 33 | 36 | 1-47-  | 1-50-  | PEDV 
+| 1fpn | 1 | albelig | 3 | 3 | H | 49 | 51 | 1-63-  | 1-65-  | DEM 
+| 1fpn | 1 | albelig | 4 | 4 | H | 53 | 57 | 1-67-  | 1-71-  | LESFL 
+| 1fpn | 1 | albelig | 5 | 5 | E | 61 | 69 | 1-75-  | 1-83-  | GCIHESKLE 
+| 1fpn | 1 | albelig | 6 | 6 | E | 80 | 84 | 1-94-  | 1-98-  | FTVWA 
+| 1fpn | 1 | albelig | 7 | 7 | H | 91 | 97 | 1-105-  | 1-111-  | AQIRRKF 
+| 1fpn | 1 | albelig | 8 | 8 | E | 100 | 117 | 1-114-  | 1-131-  | FTYTRFDSEITLVPCISA 
+| 1fpn | 1 | albelig | 9 | 9 | E | 126 | 132 | 1-140-  | 1-146-  | TMQYMYV 
+| 1fpn | 1 | albelig | 10 | 10 | H | 145 | 148 | 1-159-  | 1-162-  | YAWQ 
+| 1fpn | 1 | albelig | 11 | 11 | E | 154 | 158 | 1-168-  | 1-172-  | SVFWQ 
+| 1fpn | 1 | albelig | 12 | 12 | E | 165 | 168 | 1-179-  | 1-182-  | RFSL 
+| 1fpn | 1 | albelig | 13 | 13 | E | 201 | 206 | 1-215-  | 1-220-  | SLCSRI 
+| 1fpn | 1 | albelig | 14 | 14 | E | 215 | 233 | 1-229-  | 1-247-  | VHIMTRIYHKAKHVKAWCP 
+| 1fpn | 1 | albelig | 15 | 15 | L | 786 | 786 | 1-6001-  | 1-6001-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 14
+= 5 = a = 6
+= 5 = a = 14
+= 5 = l = 15
+= 6 = a = 13
+= 6 = l = 15
+= 8 = a = 12
+= 8 = a = 14
+= 8 = l = 15
+= 9 = a = 11
+= 9 = a = 13
+= 9 = l = 15
+= 10 = m = 13
+= 12 = l = 15
+= 13 = l = 15
+= 14 = l = 15
+# Listed 16 contacts. EOF.

@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hbr, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEMOGLOBIN D (R-STATE) 1, HEMOGLOBIN, AVIAN, HIGHCOOPERATIITY, OXYGEN TRANSPORT, OXYGEN STORAGE/TRANSPORTCOMPLEX
+> pdb_mol_name > PROTEIN (HEMOGLOBIN D)
+> graphtype > albelig
+> resolution > 2.3
+> date > 06-DEC-98
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > CHICKEN
+> title > R-STATE FORM OF CHICKEN HEMOGLOBIN D
+> format_version > 2
+> pdbid > 1hbr
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hbr | D | albelig | 1 | 1 | H | 432 | 442 | D-5-  | D-15-  | AEEKQLITGLW 
+| 1hbr | D | albelig | 2 | 2 | H | 447 | 461 | D-20-  | D-34-  | VAECGAEALARLLIV 
+| 1hbr | D | albelig | 3 | 3 | H | 463 | 472 | D-36-  | D-45-  | PWTQRFFASF 
+| 1hbr | D | albelig | 4 | 4 | H | 478 | 483 | D-51-  | D-56-  | PTAILG 
+| 1hbr | D | albelig | 5 | 5 | H | 485 | 502 | D-58-  | D-75-  | PMVRAHGKKVLTSFGDAV 
+| 1hbr | D | albelig | 6 | 6 | H | 505 | 511 | D-78-  | D-84-  | LDNIKNT 
+| 1hbr | D | albelig | 7 | 7 | H | 513 | 522 | D-86-  | D-95-  | SQLSELHCDK 
+| 1hbr | D | albelig | 8 | 8 | H | 527 | 548 | D-100-  | D-121-  | PENFRLLGDILIIVLAAHFSKD 
+| 1hbr | D | albelig | 9 | 9 | H | 551 | 568 | D-124-  | D-141-  | PECQAAWQKLVRVVAHAL 
+| 1hbr | D | albelig | 10 | 10 | L | 577 | 577 | D-147-  | D-147-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = m = 3
+= 2 = a = 5
+= 2 = a = 8
+= 2 = l = 10
+= 3 = m = 5
+= 3 = l = 10
+= 5 = l = 10
+= 7 = m = 9
+= 7 = l = 10
+= 8 = l = 10
+= 9 = l = 10
+# Listed 12 contacts. EOF.

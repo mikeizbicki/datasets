@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f2x, chain K.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN FOLD, IMMUNE SYSTEM
+> pdb_mol_name > ANTIBODY HEAVY CHAIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 30-MAY-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > ARABIAN CAMEL
+> title > STRUCTURE OF THE SINGLE-DOMAIN CAMELID ANTIBODY CAB-CA05
+> format_version > 2
+> pdbid > 1f2x
+> experiment > X-RAY DIFFRACTION
+> chainid > K
+> graphclass > protein graph
+> pdb_org_sci > CAMELUS DROMEDARIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f2x | K | albelig | 1 | 1 | E | 3 | 7 | K-803-  | K-807-  | QLVES 
+| 1f2x | K | albelig | 2 | 2 | E | 10 | 13 | K-810-  | K-813-  | GSVQ 
+| 1f2x | K | albelig | 3 | 3 | E | 18 | 25 | K-818-  | K-825-  | LRLSAAAS 
+| 1f2x | K | albelig | 4 | 4 | E | 34 | 39 | K-834-  | K-839-  | MGWFRQ 
+| 1f2x | K | albelig | 5 | 5 | E | 46 | 52 | K-846-  | K-852-  | EGVATIL 
+| 1f2x | K | albelig | 6 | 6 | E | 55 | 58 | K-855-  | K-858-  | STYY 
+| 1f2x | K | albelig | 7 | 7 | E | 66 | 71 | K-866-  | K-871-  | FTISQD 
+| 1f2x | K | albelig | 8 | 8 | E | 76 | 81 | K-876-  | K-881-  | TVYLQM 
+| 1f2x | K | albelig | 9 | 9 | H | 86 | 88 | K-886-  | K-888-  | PED 
+| 1f2x | K | albelig | 10 | 10 | E | 90 | 96 | K-890-  | K-896-  | AIYYAAG 
+| 1f2x | K | albelig | 11 | 11 | H | 102 | 106 | K-902-  | K-906-  | TGWNS 
+| 1f2x | K | albelig | 12 | 12 | H | 110 | 112 | K-910-  | K-912-  | PYD 
+| 1f2x | K | albelig | 13 | 13 | E | 120 | 125 | K-920-  | K-925-  | TQVTVS 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 10
+= 2 = p = 13
+= 3 = a = 4
+= 3 = a = 8
+= 3 = p = 10
+= 4 = a = 5
+= 4 = a = 10
+= 5 = a = 6
+= 5 = p = 7
+= 5 = m = 11
+= 6 = a = 7
+= 7 = a = 8
+= 10 = a = 13
+# Listed 14 contacts. EOF.

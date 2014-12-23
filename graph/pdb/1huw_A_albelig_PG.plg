@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1huw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HORMONE
+> pdb_mol_name > HUMAN GROWTH HORMONE
+> graphtype > albelig
+> resolution > 2.0
+> date > 22-SEP-93
+> header > HORMONE
+> pdb_org_common > HUMAN
+> title > THE CRYSTAL STRUCTURE OF AFFINITY-MATURED HUMAN GROWTHHORMONE AT 2 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1huw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1huw | A | albelig | 1 | 1 | H | 6 | 35 | A-6-  | A-35-  | LSRLADNAWLRADRLNQLAFDTYQEFEEAY 
+| 1huw | A | albelig | 2 | 2 | H | 38 | 46 | A-38-  | A-46-  | KEQIHSFWW 
+| 1huw | A | albelig | 3 | 3 | H | 64 | 68 | A-64-  | A-68-  | KEETQ 
+| 1huw | A | albelig | 4 | 4 | H | 72 | 84 | A-72-  | A-84-  | NLELLRISLLLIQ 
+| 1huw | A | albelig | 5 | 5 | H | 89 | 99 | A-89-  | A-99-  | PVQFLRSVFAN 
+| 1huw | A | albelig | 6 | 6 | H | 110 | 128 | A-110-  | A-128-  | VYDLLKDLEEGIQTLMGRL 
+| 1huw | A | albelig | 7 | 7 | H | 132 | 159 | A-156-  | A-183-  | LLKNYGLLYAFNKDMSKVSTYLRTVQNR 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = a = 7
+= 4 = a = 6
+= 4 = a = 7
+# Listed 4 contacts. EOF.

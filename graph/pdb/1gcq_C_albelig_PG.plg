@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gcq, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SH3 DOMAIN, PROTEIN-PROTEIN COMPLEX, GRB2,VAV, SIGNALINGPROTEIN/SIGNALING PROTEIN COMPLEX
+> pdb_mol_name > VAV PROTO-ONCOGENE
+> graphtype > albelig
+> resolution > 1.68
+> date > 08-AUG-00
+> header > SIGNALING PROTEIN/SIGNALING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF VAV AND GRB2 SH3 DOMAINS
+> format_version > 2
+> pdbid > 1gcq
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gcq | C | albelig | 1 | 1 | E | 121 | 124 | C-596-  | C-599-  | KMEV 
+| 1gcq | C | albelig | 2 | 2 | H | 135 | 137 | C-610-  | C-612-  | PGA 
+| 1gcq | C | albelig | 3 | 3 | E | 149 | 154 | C-624-  | C-629-  | IVELTK 
+| 1gcq | C | albelig | 4 | 4 | E | 161 | 166 | C-636-  | C-641-  | WWEGRN 
+| 1gcq | C | albelig | 5 | 5 | E | 171 | 176 | C-646-  | C-651-  | EVGWFP 
+| 1gcq | C | albelig | 6 | 6 | H | 177 | 179 | C-652-  | C-654-  | CNR 
+| 1gcq | C | albelig | 7 | 7 | E | 180 | 182 | C-655-  | C-657-  | VHP 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 6
+= 6 = m = 7
+# Listed 6 contacts. EOF.

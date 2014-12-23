@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fzd, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLOOD COAGULATION, FIBRINOGEN-420, ALPHAEC DOMAIN, FIBRINOGEN RELATEDDOMAIN, GLYCOSYLATED PROTEIN
+> pdb_mol_name > FIBRINOGEN-420
+> graphtype > albelig
+> resolution > 2.1
+> date > 22-JUN-98
+> header > BLOOD COAGULATION
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF RECOMBINANT ALPHAEC DOMAIN FROM HUMAN FIBRINOGEN-420
+> format_version > 2
+> pdbid > 1fzd
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fzd | F | albelig | 1 | 1 | E | 994 | 999 | F-654-  | F-659-  | LLIQQR 
+| 1fzd | F | albelig | 2 | 2 | H | 1010 | 1015 | F-670-  | F-675-  | WQDYKR 
+| 1fzd | F | albelig | 3 | 3 | E | 1017 | 1020 | F-677-  | F-680-  | FGSL 
+| 1fzd | F | albelig | 4 | 4 | E | 1026 | 1029 | F-686-  | F-689-  | GEFW 
+| 1fzd | F | albelig | 5 | 5 | H | 1032 | 1039 | F-692-  | F-699-  | NDYLHLLT 
+| 1fzd | F | albelig | 6 | 6 | E | 1043 | 1050 | F-703-  | F-710-  | SVLRVELE 
+| 1fzd | F | albelig | 7 | 7 | E | 1056 | 1065 | F-716-  | F-725-  | EAYAEYHFRV 
+| 1fzd | F | albelig | 8 | 8 | H | 1068 | 1070 | F-728-  | F-730-  | EAE 
+| 1fzd | F | albelig | 9 | 9 | E | 1074 | 1081 | F-734-  | F-741-  | LQVSSYEG 
+| 1fzd | F | albelig | 10 | 10 | H | 1096 | 1099 | F-756-  | F-759-  | AEYT 
+| 1fzd | F | albelig | 11 | 11 | H | 1120 | 1124 | F-780-  | F-784-  | FAEVY 
+| 1fzd | F | albelig | 12 | 12 | H | 1150 | 1152 | F-810-  | F-812-  | PRN 
+| 1fzd | F | albelig | 13 | 13 | H | 1165 | 1168 | F-825-  | F-828-  | VSFR 
+| 1fzd | F | albelig | 14 | 14 | E | 1176 | 1183 | F-836-  | F-843-  | AVRMKIRP 
+| 1fzd | F | albelig | 15 | 15 | L | 1615 | 1615 | F-10-  | F-10-  | J 
+| 1fzd | F | albelig | 16 | 16 | L | 1616 | 1616 | F-11-  | F-11-  | J 
+| 1fzd | F | albelig | 17 | 17 | L | 1617 | 1617 | F-1-  | F-1-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 14
+= 3 = a = 4
+= 5 = m = 7
+= 6 = a = 7
+= 6 = a = 14
+= 7 = a = 9
+= 11 = l = 15
+= 11 = l = 16
+= 11 = l = 17
+= 15 = l = 16
+# Listed 11 contacts. EOF.

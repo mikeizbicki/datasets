@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aqx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, GLUTATHIONE S-TRANSFERASE, CLASS PI, TRANSITION STATE,TRANSFERASE-SUBSTRATE COMPLEX
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 03-AUG-97
+> header > TRANSFERASE/SUBSTRATE
+> pdb_org_common > HUMAN
+> title > GLUTATHIONE S-TRANSFERASE IN COMPLEX WITH MEISENHEIMER COMPLEX
+> format_version > 2
+> pdbid > 1aqx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aqx | A | albelig | 1 | 1 | E | 2 | 5 | A-3-  | A-6-  | YTVV 
+| 1aqx | A | albelig | 2 | 2 | H | 17 | 22 | A-18-  | A-23-  | RMLLAD 
+| 1aqx | A | albelig | 3 | 3 | E | 27 | 29 | A-28-  | A-30-  | WKE 
+| 1aqx | A | albelig | 4 | 4 | E | 53 | 55 | A-54-  | A-56-  | KFQ 
+| 1aqx | A | albelig | 5 | 5 | H | 64 | 70 | A-65-  | A-71-  | SNTILRH 
+| 1aqx | A | albelig | 6 | 6 | H | 72 | 75 | A-73-  | A-76-  | GRTL 
+| 1aqx | A | albelig | 7 | 7 | H | 82 | 98 | A-83-  | A-99-  | QQEAALVDMVNDGVEDL 
+| 1aqx | A | albelig | 8 | 8 | H | 102 | 108 | A-103-  | A-109-  | YISLIYT 
+| 1aqx | A | albelig | 9 | 9 | H | 122 | 133 | A-123-  | A-134-  | PGQLKPFETLLS 
+| 1aqx | A | albelig | 10 | 10 | H | 136 | 138 | A-137-  | A-139-  | QGG 
+| 1aqx | A | albelig | 11 | 11 | H | 149 | 164 | A-150-  | A-165-  | FADYNLLDLLLIHEVL 
+| 1aqx | A | albelig | 12 | 12 | H | 173 | 181 | A-174-  | A-182-  | PLLSAYVGR 
+| 1aqx | A | albelig | 13 | 13 | H | 186 | 189 | A-187-  | A-190-  | PKLK 
+| 1aqx | A | albelig | 14 | 14 | H | 195 | 198 | A-196-  | A-199-  | PEYV 
+| 1aqx | A | albelig | 15 | 15 | L | 836 | 836 | A-2101-  | A-2101-  | J 
+| 1aqx | A | albelig | 16 | 16 | L | 837 | 837 | A-2500-  | A-2500-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 4
+= 2 = m = 11
+= 2 = m = 13
+= 2 = l = 16
+= 3 = l = 16
+= 5 = m = 7
+= 5 = l = 15
+= 7 = p = 11
+= 8 = l = 15
+= 9 = m = 12
+= 11 = m = 12
+= 14 = l = 16
+# Listed 13 contacts. EOF.

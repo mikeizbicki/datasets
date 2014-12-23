@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jac, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NON-LEGUME, LECTIN, BETA-PRISM FOLD, CARBOHYDRATE SPECIFICITY,GLYCOPROTEIN
+> pdb_mol_name > JACALIN
+> graphtype > albelig
+> resolution > 2.43
+> date > 22-MAY-96
+> header > LECTIN
+> pdb_org_common > JACKFRUIT
+> title > A NOVEL MODE OF CARBOHYDRATE RECOGNITION IN JACALIN, A MORACEAE PLANTLECTIN WITH A BETA-PRISM
+> format_version > 2
+> pdbid > 1jac
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > ARTOCARPUS HETEROPHYLLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jac | G | albelig | 1 | 1 | E | 452 | 455 | G-2-  | G-5-  | KAFD 
+| 1jac | G | albelig | 2 | 2 | E | 461 | 469 | G-11-  | G-19-  | GIREINLSY 
+| 1jac | G | albelig | 3 | 3 | E | 475 | 484 | G-25-  | G-34-  | IGDFQVVYDL 
+| 1jac | G | albelig | 4 | 4 | E | 487 | 490 | G-37-  | G-40-  | SPYV 
+| 1jac | G | albelig | 5 | 5 | E | 502 | 507 | G-52-  | G-57-  | TPVKIS 
+| 1jac | G | albelig | 6 | 6 | E | 515 | 525 | G-65-  | G-75-  | IMEVSGYTGNV 
+| 1jac | G | albelig | 7 | 7 | E | 528 | 538 | G-78-  | G-88-  | YVVVRSLTFKT 
+| 1jac | G | albelig | 8 | 8 | E | 542 | 547 | G-92-  | G-97-  | TYGPYG 
+| 1jac | G | albelig | 9 | 9 | E | 552 | 560 | G-102-  | G-110-  | TPFNLPIEN 
+| 1jac | G | albelig | 10 | 10 | E | 562 | 570 | G-112-  | G-120-  | LIVGFKGSI 
+| 1jac | G | albelig | 11 | 11 | E | 574 | 582 | G-124-  | G-132-  | LDYFSMYLS 
+| 1jac | G | albelig | 12 | 12 | L | 603 | 603 | G-200-  | G-200-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 10
+= 2 = a = 3
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 7
+= 3 = a = 10
+= 6 = a = 7
+= 6 = a = 9
+= 7 = a = 8
+= 7 = a = 11
+= 7 = l = 12
+= 10 = a = 11
+= 10 = l = 12
+= 11 = l = 12
+# Listed 14 contacts. EOF.

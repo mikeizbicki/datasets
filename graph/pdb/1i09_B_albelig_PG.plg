@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i09, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE, BETA BARREL, TRANSFERASE
+> pdb_mol_name > GLYCOGEN SYNTHASE KINASE-3 BETA
+> graphtype > albelig
+> resolution > 2.7
+> date > 29-JAN-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF GLYCOGEN SYNTHASE KINASE-3 (GSK3B)
+> format_version > 2
+> pdbid > 1i09
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i09 | B | albelig | 1 | 1 | E | 343 | 349 | B-38-  | B-44-  | TTVVATP 
+| 1i09 | B | albelig | 2 | 2 | E | 357 | 369 | B-52-  | B-64-  | QEVSYTDTKVIGN 
+| 1i09 | B | albelig | 3 | 3 | E | 373 | 380 | B-68-  | B-75-  | GVVYQAKL 
+| 1i09 | B | albelig | 4 | 4 | E | 386 | 394 | B-81-  | B-89-  | LVAIKKVLQ 
+| 1i09 | B | albelig | 5 | 5 | H | 401 | 406 | B-96-  | B-101-  | RELQIM 
+| 1i09 | B | albelig | 6 | 6 | E | 417 | 424 | B-112-  | B-119-  | LRYFFYSS 
+| 1i09 | B | albelig | 7 | 7 | E | 431 | 438 | B-126-  | B-133-  | VYLNLVLD 
+| 1i09 | B | albelig | 8 | 8 | H | 444 | 453 | B-139-  | B-148-  | VYRVARHYSR 
+| 1i09 | B | albelig | 9 | 9 | H | 460 | 479 | B-155-  | B-174-  | VIYVKLYMYQLFRSLAYIHS 
+| 1i09 | B | albelig | 10 | 10 | H | 489 | 491 | B-184-  | B-186-  | PQN 
+| 1i09 | B | albelig | 11 | 11 | E | 492 | 495 | B-187-  | B-190-  | LLLD 
+| 1i09 | B | albelig | 12 | 12 | E | 500 | 503 | B-195-  | B-198-  | VLKL 
+| 1i09 | B | albelig | 13 | 13 | H | 525 | 527 | B-220-  | B-222-  | RYY 
+| 1i09 | B | albelig | 14 | 14 | H | 530 | 533 | B-225-  | B-228-  | PELI 
+| 1i09 | B | albelig | 15 | 15 | H | 542 | 557 | B-237-  | B-252-  | SIDVWSAGCVLAELLL 
+| 1i09 | B | albelig | 16 | 16 | H | 567 | 578 | B-262-  | B-273-  | GVDQLVEIIKVL 
+| 1i09 | B | albelig | 17 | 17 | H | 583 | 587 | B-278-  | B-282-  | REQIR 
+| 1i09 | B | albelig | 18 | 18 | H | 612 | 619 | B-311-  | B-318-  | PEAIALCS 
+| 1i09 | B | albelig | 19 | 19 | H | 626 | 628 | B-325-  | B-327-  | PTA 
+| 1i09 | B | albelig | 20 | 20 | H | 632 | 636 | B-331-  | B-335-  | PLEAC 
+| 1i09 | B | albelig | 21 | 21 | H | 639 | 645 | B-338-  | B-344-  | SFFDELR 
+| 1i09 | B | albelig | 22 | 22 | H | 665 | 668 | B-364-  | B-367-  | TQEL 
+| 1i09 | B | albelig | 23 | 23 | H | 672 | 678 | B-371-  | B-377-  | PPLATIL 
+| 1i09 | B | albelig | 24 | 24 | L | 686 | 686 | B-421-  | B-421-  | J 
+| 1i09 | B | albelig | 25 | 25 | L | 687 | 687 | B-422-  | B-422-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 7
+= 5 = l = 24
+= 6 = a = 7
+= 9 = m = 12
+= 9 = a = 15
+= 9 = m = 20
+= 9 = m = 21
+= 9 = l = 25
+= 10 = m = 11
+= 10 = m = 12
+= 11 = a = 12
+= 13 = m = 15
+= 15 = l = 25
+= 20 = l = 25
+# Listed 18 contacts. EOF.

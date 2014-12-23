@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j1j, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TESTIS/BRAIN RNA BINDING PROTEIN, SSDNA BINDING PROTEIN, RNA BINDINGPROTEIN, DNA BINDING PROTEIN
+> pdb_mol_name > TRANSLIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 06-DEC-02
+> header > DNA BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN TRANSLIN
+> format_version > 2
+> pdbid > 1j1j
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j1j | A | albelig | 1 | 1 | H | 3 | 46 | A-3-  | A-46-  | VSEIFVELQGFLAAEQDIREEIRKVVQSLEQTAREILTLLQGVH 
+| 1j1j | A | albelig | 2 | 2 | H | 54 | 77 | A-54-  | A-77-  | IPKRCLKAREHFGTVKTHLTSLKT 
+| 1j1j | A | albelig | 3 | 3 | H | 81 | 87 | A-81-  | A-87-  | AEQYYRF 
+| 1j1j | A | albelig | 4 | 4 | H | 88 | 90 | A-88-  | A-90-  | HEH 
+| 1j1j | A | albelig | 5 | 5 | H | 92 | 110 | A-92-  | A-110-  | RFVLQRLVFLAAFVVYLET 
+| 1j1j | A | albelig | 6 | 6 | H | 116 | 123 | A-116-  | A-123-  | REAVTEIL 
+| 1j1j | A | albelig | 7 | 7 | H | 137 | 160 | A-137-  | A-160-  | VEDYLSGVLILASELSRLSVNSVT 
+| 1j1j | A | albelig | 8 | 8 | H | 166 | 181 | A-166-  | A-181-  | RPLHISTFINELDSGF 
+| 1j1j | A | albelig | 9 | 9 | H | 189 | 195 | A-189-  | A-195-  | DSLRKRY 
+| 1j1j | A | albelig | 10 | 10 | H | 198 | 213 | A-198-  | A-213-  | LKYDVKKVEEVVYDLS 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 1 = m = 7
+= 2 = a = 5
+= 3 = m = 4
+= 5 = p = 7
+= 7 = a = 8
+= 7 = m = 9
+= 7 = p = 10
+= 8 = a = 10
+# Listed 10 contacts. EOF.

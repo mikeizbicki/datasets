@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1biu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA INTEGRATION, INTEGRASE, HIV, HYDROLASE, ASPARTYLPROTEASE, ENDONUCLEASE
+> pdb_mol_name > HIV-1 INTEGRASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 19-JUN-98
+> header > DNA INTEGRATION
+> pdb_org_common > UNKNOWN
+> title > HIV-1 INTEGRASE CORE DOMAIN COMPLEXED WITH MG++
+> format_version > 2
+> pdbid > 1biu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1biu | A | albelig | 1 | 1 | H | 2 | 4 | A-57-  | A-59-  | SPG 
+| 1biu | A | albelig | 2 | 2 | E | 5 | 13 | A-60-  | A-68-  | IWQLDCTHL 
+| 1biu | A | albelig | 3 | 3 | E | 16 | 23 | A-71-  | A-78-  | KVILVAVH 
+| 1biu | A | albelig | 4 | 4 | E | 28 | 34 | A-83-  | A-89-  | YIEAEVI 
+| 1biu | A | albelig | 5 | 5 | H | 39 | 52 | A-94-  | A-107-  | GQETAYFLLKLAGR 
+| 1biu | A | albelig | 6 | 6 | E | 57 | 60 | A-112-  | A-115-  | TVHT 
+| 1biu | A | albelig | 7 | 7 | H | 64 | 67 | A-119-  | A-122-  | SNFT 
+| 1biu | A | albelig | 8 | 8 | H | 69 | 78 | A-124-  | A-133-  | TTVKAACEWG 
+| 1biu | A | albelig | 9 | 9 | E | 81 | 84 | A-136-  | A-139-  | KQEF 
+| 1biu | A | albelig | 10 | 10 | H | 88 | 107 | A-149-  | A-168-  | GVIESMNKELKKIIGQVRDQ 
+| 1biu | A | albelig | 11 | 11 | H | 111 | 124 | A-172-  | A-185-  | LKTAVQMAVFIHNK 
+| 1biu | A | albelig | 12 | 12 | H | 127 | 129 | A-188-  | A-190-  | KGG 
+| 1biu | A | albelig | 13 | 13 | H | 135 | 146 | A-196-  | A-207-  | AGERIVDIIATD 
+| 1biu | A | albelig | 14 | 14 | L | 445 | 445 | A-1244-  | A-1244-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 2 = p = 6
+= 2 = p = 10
+= 2 = l = 14
+= 3 = a = 4
+= 3 = m = 5
+= 3 = m = 10
+= 4 = a = 5
+= 4 = a = 11
+= 4 = m = 13
+= 5 = p = 8
+= 6 = p = 9
+= 10 = a = 11
+# Listed 14 contacts. EOF.

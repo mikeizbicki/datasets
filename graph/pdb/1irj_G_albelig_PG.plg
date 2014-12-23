@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1irj, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALGRANULIN B, MRP14, S100A9, EF-HAND, METAL BINDING PROTEIN
+> pdb_mol_name > MIGRATION INHIBITORY FACTOR-RELATED PROTEIN 14
+> graphtype > albelig
+> resolution > 2.1
+> date > 09-OCT-01
+> header > METAL BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE MRP14 COMPLEXED WITH CHAPS
+> format_version > 2
+> pdbid > 1irj
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1irj | G | albelig | 1 | 1 | H | 512 | 528 | G-7-  | G-23-  | QLERNIETIINTFHQYS 
+| 1irj | G | albelig | 2 | 2 | H | 539 | 549 | G-34-  | G-44-  | QGEFKELVRKD 
+| 1irj | G | albelig | 3 | 3 | H | 557 | 559 | G-52-  | G-54-  | ENK 
+| 1irj | G | albelig | 4 | 4 | H | 561 | 571 | G-56-  | G-66-  | EKVIEHIMEDL 
+| 1irj | G | albelig | 5 | 5 | H | 581 | 590 | G-76-  | G-85-  | FEEFIMLMAR 
+| 1irj | G | albelig | 6 | 6 | L | 693 | 693 | G-187-  | G-187-  | J 
+| 1irj | G | albelig | 7 | 7 | L | 694 | 694 | G-188-  | G-188-  | J 
+| 1irj | G | albelig | 8 | 8 | L | 695 | 695 | G-489-  | G-489-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 5
+= 1 = l = 6
+= 2 = m = 4
+= 2 = l = 6
+= 3 = l = 8
+= 4 = m = 5
+= 4 = l = 8
+= 5 = l = 7
+= 5 = l = 8
+# Listed 10 contacts. EOF.

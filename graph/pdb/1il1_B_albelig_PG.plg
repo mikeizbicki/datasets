@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1il1, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAB, BETA SHEET STRUCTURE, ANTIBODY, IMMUNE SYSTEM
+> pdb_mol_name > MONOCLONAL ANTIBODY G3-519 (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 2.2
+> date > 07-MAY-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF G3-519, AN ANTI-HIV MONOCLONAL ANTIBODY
+> format_version > 2
+> pdbid > 1il1
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1il1 | B | albelig | 1 | 1 | E | 224 | 227 | B-4-  | B-7-  | MSQS 
+| 1il1 | B | albelig | 2 | 2 | E | 230 | 234 | B-10-  | B-14-  | SLAVS 
+| 1il1 | B | albelig | 3 | 3 | E | 239 | 245 | B-19-  | B-25-  | VTMSCKS 
+| 1il1 | B | albelig | 4 | 4 | E | 259 | 264 | B-39-  | B-44-  | LSWYQQ 
+| 1il1 | B | albelig | 5 | 5 | E | 271 | 275 | B-51-  | B-55-  | KLLIY 
+| 1il1 | B | albelig | 6 | 6 | E | 288 | 293 | B-68-  | B-73-  | FTGSGS 
+| 1il1 | B | albelig | 7 | 7 | E | 296 | 301 | B-76-  | B-81-  | DFTLTI 
+| 1il1 | B | albelig | 8 | 8 | H | 306 | 308 | B-86-  | B-88-  | AED 
+| 1il1 | B | albelig | 9 | 9 | E | 310 | 316 | B-90-  | B-96-  | AVYYCQQ 
+| 1il1 | B | albelig | 10 | 10 | E | 327 | 332 | B-107-  | B-112-  | TRLEIR 
+| 1il1 | B | albelig | 11 | 11 | E | 339 | 343 | B-119-  | B-123-  | TVSIF 
+| 1il1 | B | albelig | 12 | 12 | H | 347 | 350 | B-127-  | B-130-  | SEQL 
+| 1il1 | B | albelig | 13 | 13 | E | 354 | 364 | B-134-  | B-144-  | GASVVDFLNNF 
+| 1il1 | B | albelig | 14 | 14 | E | 370 | 375 | B-150-  | B-155-  | NVKWKI 
+| 1il1 | B | albelig | 15 | 15 | E | 378 | 380 | B-158-  | B-160-  | SER 
+| 1il1 | B | albelig | 16 | 16 | E | 384 | 388 | B-164-  | B-168-  | VLNSW 
+| 1il1 | B | albelig | 17 | 17 | E | 398 | 407 | B-178-  | B-187-  | YSMSSTLTLT 
+| 1il1 | B | albelig | 18 | 18 | H | 408 | 413 | B-188-  | B-193-  | KDEYER 
+| 1il1 | B | albelig | 19 | 19 | E | 416 | 422 | B-196-  | B-202-  | SYTDEAT 
+| 1il1 | B | albelig | 20 | 20 | E | 430 | 435 | B-210-  | B-215-  | IVKSFN 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 1 = a = 10
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 11 = p = 20
+= 12 = m = 13
+= 13 = a = 14
+= 13 = a = 17
+= 13 = p = 19
+= 14 = a = 15
+= 14 = a = 19
+= 16 = a = 17
+= 17 = m = 18
+= 19 = a = 20
+# Listed 21 contacts. EOF.

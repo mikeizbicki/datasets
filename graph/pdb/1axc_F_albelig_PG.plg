@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1axc, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA, REPLICATION, PROCESSIVITY, ONCOGENE, WAF1, CIP1,COMPLEX (DNA-BINDING PROTEIN/DNA)
+> pdb_mol_name > P21/WAF1
+> graphtype > albelig
+> resolution > 2.6
+> date > 14-OCT-97
+> header > COMPLEX (DNA-BINDING PROTEIN/DNA)
+> pdb_org_common > HUMAN
+> title > HUMAN PCNA
+> format_version > 2
+> pdbid > 1axc
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1axc | F | albelig | 1 | 1 | H | 801 | 803 | F-147-  | F-149-  | MTD 
+| 1axc | F | albelig | 2 | 2 | E | 806 | 812 | F-152-  | F-158-  | HSKRRLI 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

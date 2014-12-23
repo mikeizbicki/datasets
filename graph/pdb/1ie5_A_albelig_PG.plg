@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ie5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTERMEDIATE IMMUNOGLOBULIN FOLD, CELL ADHESION
+> pdb_mol_name > NEURAL CELL ADHESION MOLECULE
+> graphtype > albelig
+> resolution > -1.0
+> date > 06-APR-01
+> header > CELL ADHESION
+> pdb_org_common > CHICKEN
+> title > NMR STRUCTURE OF THE THIRD IMMUNOGLOBULIN DOMAIN FROM THENEURAL CELL ADHESION MOLECULE.
+> format_version > 2
+> pdbid > 1ie5
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ie5 | A | albelig | 1 | 1 | E | 10 | 16 | A-10-  | A-16-  | VPPSVRA 
+| 1ie5 | A | albelig | 2 | 2 | E | 20 | 24 | A-20-  | A-24-  | TMNAT 
+| 1ie5 | A | albelig | 3 | 3 | E | 29 | 33 | A-29-  | A-33-  | QSVTL 
+| 1ie5 | A | albelig | 4 | 4 | E | 35 | 40 | A-35-  | A-40-  | ADADGF 
+| 1ie5 | A | albelig | 5 | 5 | E | 44 | 49 | A-44-  | A-49-  | TMTWTK 
+| 1ie5 | A | albelig | 6 | 6 | E | 72 | 77 | A-72-  | A-77-  | LIIKKV 
+| 1ie5 | A | albelig | 7 | 7 | E | 83 | 90 | A-83-  | A-90-  | AEYIAIAE 
+| 1ie5 | A | albelig | 8 | 8 | E | 95 | 105 | A-95-  | A-105-  | EQDATIHLKVF 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = p = 8
+= 2 = a = 3
+= 2 = p = 8
+= 3 = a = 6
+= 5 = a = 7
+= 7 = a = 8
+# Listed 7 contacts. EOF.

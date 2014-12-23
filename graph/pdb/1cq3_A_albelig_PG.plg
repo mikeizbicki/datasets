@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cq3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA SANDWICH, CHEMOKINE, CYTOKINE
+> pdb_mol_name > VIRAL CHEMOKINE INHIBITOR
+> graphtype > albelig
+> resolution > 1.85
+> date > 05-AUG-99
+> header > CYTOKINE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF A SOLUBLE SECRETED CHEMOKINE INHIBITOR, VCCI,FROM COWPOX VIRUS
+> format_version > 2
+> pdbid > 1cq3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > COWPOX VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cq3 | A | albelig | 1 | 1 | E | 17 | 27 | A-17-  | A-27-  | MGIDVIIKVTK 
+| 1cq3 | A | albelig | 2 | 2 | E | 40 | 45 | A-40-  | A-45-  | SVTEVT 
+| 1cq3 | A | albelig | 3 | 3 | E | 52 | 56 | A-52-  | A-56-  | EEVVK 
+| 1cq3 | A | albelig | 4 | 4 | E | 60 | 67 | A-60-  | A-67-  | TTYYTVVG 
+| 1cq3 | A | albelig | 5 | 5 | E | 70 | 77 | A-70-  | A-77-  | LTMDFGFT 
+| 1cq3 | A | albelig | 6 | 6 | E | 84 | 90 | A-84-  | A-90-  | SISEYSD 
+| 1cq3 | A | albelig | 7 | 7 | E | 93 | 99 | A-93-  | A-99-  | TVNARLS 
+| 1cq3 | A | albelig | 8 | 8 | H | 114 | 123 | A-114-  | A-123-  | REEALSMIKD 
+| 1cq3 | A | albelig | 9 | 9 | E | 125 | 132 | A-125-  | A-132-  | EMSINIKD 
+| 1cq3 | A | albelig | 10 | 10 | E | 162 | 168 | A-162-  | A-168-  | IGSTIVD 
+| 1cq3 | A | albelig | 11 | 11 | E | 172 | 183 | A-172-  | A-183-  | VKNLEISVRIGD 
+| 1cq3 | A | albelig | 12 | 12 | H | 189 | 191 | A-189-  | A-191-  | SEL 
+| 1cq3 | A | albelig | 13 | 13 | E | 193 | 200 | A-193-  | A-200-  | VKDGFKYV 
+| 1cq3 | A | albelig | 14 | 14 | E | 203 | 205 | A-203-  | A-205-  | SAS 
+| 1cq3 | A | albelig | 15 | 15 | H | 217 | 219 | A-217-  | A-219-  | SAK 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 1 = a = 11
+= 2 = a = 4
+= 4 = a = 5
+= 5 = a = 9
+= 6 = a = 7
+= 9 = p = 10
+= 10 = a = 11
+= 10 = p = 13
+= 11 = m = 12
+= 11 = a = 13
+= 13 = a = 14
+# Listed 12 contacts. EOF.

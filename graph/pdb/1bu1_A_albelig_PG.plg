@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bu1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TYROSINE-PROTEIN KINASE, TRANSFERASE, SIGNAL TRANSDUCTION,SH3
+> pdb_mol_name > PROTEIN (HEMOPOIETIC CELL KINASE)
+> graphtype > albelig
+> resolution > 2.6
+> date > 09-SEP-98
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > SRC FAMILY KINASE HCK SH3 DOMAIN
+> format_version > 2
+> pdbid > 1bu1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bu1 | A | albelig | 1 | 1 | E | 2 | 5 | A-82-  | A-85-  | IVVA 
+| 1bu1 | A | albelig | 2 | 2 | E | 24 | 29 | A-104-  | A-109-  | QMVVLE 
+| 1bu1 | A | albelig | 3 | 3 | E | 34 | 39 | A-114-  | A-119-  | WWKARS 
+| 1bu1 | A | albelig | 4 | 4 | E | 45 | 49 | A-125-  | A-129-  | EGYIP 
+| 1bu1 | A | albelig | 5 | 5 | H | 50 | 52 | A-130-  | A-132-  | SNY 
+| 1bu1 | A | albelig | 6 | 6 | E | 53 | 56 | A-133-  | A-136-  | VARV 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+= 5 = m = 6
+# Listed 6 contacts. EOF.

@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c3h, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACRP30 C1Q TNF TRIMER ALL-BETA CALCIUM-BOUND, SIGNALINGPROTEIN
+> pdb_mol_name > 30 KD ADIPOCYTE COMPLEMENT-RELATED PROTEIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 27-JUL-99
+> header > SIGNALING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > ACRP30 CALCIUM COMPLEX
+> format_version > 2
+> pdbid > 1c3h
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c3h | E | albelig | 1 | 1 | E | 559 | 563 | E-117-  | E-121-  | AFSVG 
+| 1c3h | E | albelig | 2 | 2 | E | 579 | 582 | E-137-  | E-140-  | KIFY 
+| 1c3h | E | albelig | 3 | 3 | E | 594 | 596 | E-152-  | E-154-  | KFY 
+| 1c3h | E | albelig | 4 | 4 | E | 601 | 611 | E-159-  | E-169-  | GLYYFSYHITV 
+| 1c3h | E | albelig | 5 | 5 | E | 616 | 622 | E-174-  | E-180-  | VKVSLFK 
+| 1c3h | E | albelig | 6 | 6 | E | 625 | 632 | E-183-  | E-190-  | KAVLFTYD 
+| 1c3h | E | albelig | 7 | 7 | E | 640 | 650 | E-198-  | E-208-  | DQASGSVLLHL 
+| 1c3h | E | albelig | 8 | 8 | E | 655 | 660 | E-213-  | E-218-  | QVWLQV 
+| 1c3h | E | albelig | 9 | 9 | E | 678 | 686 | E-236-  | E-244-  | TFTGFLLYH 
+| 1c3h | E | albelig | 10 | 10 | L | 829 | 829 | E-8002-  | E-8002-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 3 = a = 8
+= 4 = a = 7
+= 4 = a = 9
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 7 = l = 10
+# Listed 9 contacts. EOF.

@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jti, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OVALBUMIN, LOOP INSERTION, NON-INHIBITORY SERPIN, ALLERGEN
+> pdb_mol_name > OVALBUMIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 21-AUG-01
+> header > ALLERGEN
+> pdb_org_common > CHICKEN
+> title > LOOP-INSERTED STRUCTURE OF P1-P1' CLEAVED OVALBUMIN MUTANTR339T
+> format_version > 2
+> pdbid > 1jti
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jti | A | albelig | 1 | 1 | H | 3 | 18 | A-3-  | A-18-  | IGAASMEFCFDVFKEL 
+| 1jti | A | albelig | 2 | 2 | E | 27 | 29 | A-27-  | A-29-  | IFY 
+| 1jti | A | albelig | 3 | 3 | H | 31 | 42 | A-31-  | A-42-  | PIAIMSALAMVY 
+| 1jti | A | albelig | 4 | 4 | H | 47 | 57 | A-47-  | A-57-  | DSTRTQINKVV 
+| 1jti | A | albelig | 5 | 5 | H | 69 | 73 | A-69-  | A-73-  | IEAQA 
+| 1jti | A | albelig | 6 | 6 | H | 79 | 90 | A-79-  | A-90-  | VHSSLRDILNQI 
+| 1jti | A | albelig | 7 | 7 | E | 97 | 108 | A-97-  | A-108-  | YSFSLASRLYAE 
+| 1jti | A | albelig | 8 | 8 | H | 115 | 124 | A-115-  | A-124-  | PEYLQAVKEL 
+| 1jti | A | albelig | 9 | 9 | E | 128 | 132 | A-128-  | A-132-  | GLEPI 
+| 1jti | A | albelig | 10 | 10 | H | 138 | 152 | A-138-  | A-152-  | ADQARELINSWVESQ 
+| 1jti | A | albelig | 11 | 11 | E | 170 | 183 | A-170-  | A-183-  | TAMVLVNAIVFKGL 
+| 1jti | A | albelig | 12 | 12 | E | 194 | 197 | A-194-  | A-197-  | QAMP 
+| 1jti | A | albelig | 13 | 13 | E | 207 | 222 | A-207-  | A-222-  | PVQMMYQIGLFRVASM 
+| 1jti | A | albelig | 14 | 14 | E | 227 | 233 | A-227-  | A-233-  | MKILELP 
+| 1jti | A | albelig | 15 | 15 | E | 239 | 246 | A-239-  | A-246-  | MSMLVLLP 
+| 1jti | A | albelig | 16 | 16 | H | 252 | 258 | A-252-  | A-258-  | LEQLESI 
+| 1jti | A | albelig | 17 | 17 | H | 261 | 267 | A-261-  | A-267-  | FEKLTEW 
+| 1jti | A | albelig | 18 | 18 | E | 274 | 283 | A-274-  | A-283-  | EERKIKVYLP 
+| 1jti | A | albelig | 19 | 19 | E | 285 | 292 | A-285-  | A-292-  | MKMEEKYN 
+| 1jti | A | albelig | 20 | 20 | H | 293 | 300 | A-293-  | A-300-  | LTSVLMAM 
+| 1jti | A | albelig | 21 | 21 | H | 304 | 306 | A-304-  | A-306-  | DVF 
+| 1jti | A | albelig | 22 | 22 | E | 321 | 334 | A-321-  | A-334-  | LKISQAVHAAHAEI 
+| 1jti | A | albelig | 23 | 23 | E | 338 | 351 | A-338-  | A-351-  | GTEVVGSAEAGVDA 
+| 1jti | A | albelig | 24 | 24 | E | 355 | 357 | A-357-  | A-359-  | EFR 
+| 1jti | A | albelig | 25 | 25 | E | 362 | 368 | A-364-  | A-370-  | FLFCIKH 
+| 1jti | A | albelig | 26 | 26 | E | 373 | 380 | A-375-  | A-382-  | AVLFFGRC 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 26
+= 2 = a = 19
+= 2 = a = 22
+= 2 = a = 26
+= 3 = a = 4
+= 3 = m = 6
+= 3 = m = 26
+= 4 = m = 21
+= 5 = m = 8
+= 7 = p = 9
+= 7 = a = 11
+= 11 = a = 23
+= 12 = a = 13
+= 13 = a = 14
+= 13 = a = 18
+= 14 = a = 15
+= 15 = p = 24
+= 15 = a = 25
+= 18 = a = 24
+= 19 = m = 20
+= 19 = a = 22
+= 20 = m = 22
+= 21 = m = 22
+= 22 = a = 23
+= 25 = a = 26
+# Listed 26 contacts. EOF.

@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a8r, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, GTP, PURINE HYDROLYSIS, PTERINE SYNTHESIS
+> pdb_mol_name > GTP CYCLOHYDROLASE I
+> graphtype > albelig
+> resolution > 2.1
+> date > 27-MAR-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > GTP CYCLOHYDROLASE I (H112S MUTANT) IN COMPLEX WITH GTP
+> format_version > 2
+> pdbid > 1a8r
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a8r | E | albelig | 1 | 1 | H | 893 | 904 | E-5-  | E-16-  | KEAALVHEALVA 
+| 1a8r | E | albelig | 2 | 2 | H | 920 | 937 | E-32-  | E-49-  | NETRKSLIAGHMTEIMQL 
+| 1a8r | E | albelig | 3 | 3 | H | 945 | 948 | E-57-  | E-60-  | DSLM 
+| 1a8r | E | albelig | 4 | 4 | H | 950 | 962 | E-62-  | E-74-  | TPHRIAKMYVDEI 
+| 1a8r | E | albelig | 5 | 5 | H | 964 | 966 | E-76-  | E-78-  | SGL 
+| 1a8r | E | albelig | 6 | 6 | H | 968 | 970 | E-80-  | E-82-  | YAN 
+| 1a8r | E | albelig | 7 | 7 | E | 976 | 978 | E-88-  | E-90-  | LIE 
+| 1a8r | E | albelig | 8 | 8 | E | 987 | 998 | E-99-  | E-110-  | VTVRDITLTSTC 
+| 1a8r | E | albelig | 9 | 9 | E | 1003 | 1013 | E-115-  | E-125-  | VTIDGKATVAY 
+| 1a8r | E | albelig | 10 | 10 | E | 1018 | 1020 | E-130-  | E-132-  | SVI 
+| 1a8r | E | albelig | 11 | 11 | H | 1022 | 1033 | E-134-  | E-145-  | LSKINRIVQFFA 
+| 1a8r | E | albelig | 12 | 12 | H | 1039 | 1054 | E-151-  | E-166-  | QERLTQQILIALQTLL 
+| 1a8r | E | albelig | 13 | 13 | E | 1059 | 1067 | E-171-  | E-179-  | VAVSIDAVH 
+| 1a8r | E | albelig | 14 | 14 | H | 1068 | 1071 | E-180-  | E-183-  | YCVK 
+| 1a8r | E | albelig | 15 | 15 | E | 1081 | 1087 | E-193-  | E-199-  | ATTTTSL 
+| 1a8r | E | albelig | 16 | 16 | H | 1089 | 1093 | E-201-  | E-205-  | GLFKS 
+| 1a8r | E | albelig | 17 | 17 | H | 1095 | 1104 | E-207-  | E-216-  | QNTRHEFLRA 
+| 1a8r | E | albelig | 18 | 18 | L | 3334 | 3334 | E-405-  | E-405-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 2 = a = 4
+= 3 = m = 4
+= 7 = a = 10
+= 8 = a = 9
+= 8 = p = 11
+= 8 = l = 18
+= 9 = a = 13
+= 9 = l = 18
+= 11 = a = 12
+= 12 = a = 13
+= 12 = p = 15
+= 12 = l = 18
+= 13 = m = 14
+= 13 = a = 15
+= 13 = l = 18
+= 14 = l = 18
+= 15 = m = 16
+= 16 = m = 17
+# Listed 19 contacts. EOF.

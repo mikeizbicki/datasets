@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hrv, chain 1.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIVIRAL AGENTS, ICOSAHEDRAL VIRUS
+> pdb_mol_name > HUMAN RHINOVIRUS 14 COAT PROTEIN (SUBUNIT VP1)
+> graphtype > albelig
+> resolution > 3.0
+> date > 02-MAR-95
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > HRV14/SDZ 35-682 COMPLEX
+> format_version > 2
+> pdbid > 1hrv
+> experiment > X-RAY DIFFRACTION
+> chainid > 1
+> graphclass > protein graph
+> pdb_org_sci > HUMAN RHINOVIRUS 14
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hrv | 1 | albelig | 1 | 1 | E | 2 | 4 | 1-18-  | 1-20-  | VAS 
+| 1hrv | 1 | albelig | 2 | 2 | H | 21 | 23 | 1-37-  | 1-39-  | NET 
+| 1hrv | 1 | albelig | 3 | 3 | H | 31 | 33 | 1-47-  | 1-49-  | PSD 
+| 1hrv | 1 | albelig | 4 | 4 | H | 47 | 49 | 1-63-  | 1-65-  | SET 
+| 1hrv | 1 | albelig | 5 | 5 | H | 51 | 55 | 1-67-  | 1-71-  | VECFL 
+| 1hrv | 1 | albelig | 6 | 6 | E | 59 | 68 | 1-75-  | 1-84-  | ACVHVTEIQN 
+| 1hrv | 1 | albelig | 7 | 7 | H | 78 | 80 | 1-94-  | 1-96-  | REA 
+| 1hrv | 1 | albelig | 8 | 8 | E | 83 | 86 | 1-99-  | 1-102-  | FNDW 
+| 1hrv | 1 | albelig | 9 | 9 | H | 94 | 100 | 1-110-  | 1-116-  | VQLRKKL 
+| 1hrv | 1 | albelig | 10 | 10 | E | 103 | 119 | 1-119-  | 1-135-  | FTYVRFDSEYTILATAS 
+| 1hrv | 1 | albelig | 11 | 11 | E | 131 | 137 | 1-147-  | 1-153-  | VVQAMYV 
+| 1hrv | 1 | albelig | 12 | 12 | H | 150 | 153 | 1-166-  | 1-169-  | YTWQ 
+| 1hrv | 1 | albelig | 13 | 13 | E | 159 | 163 | 1-175-  | 1-179-  | SVFFK 
+| 1hrv | 1 | albelig | 14 | 14 | E | 167 | 172 | 1-183-  | 1-188-  | TSRFSV 
+| 1hrv | 1 | albelig | 15 | 15 | E | 207 | 212 | 1-223-  | 1-228-  | SMAFRI 
+| 1hrv | 1 | albelig | 16 | 16 | E | 221 | 239 | 1-237-  | 1-255-  | TLVKIRVYHRAKHVEAWIP 
+| 1hrv | 1 | albelig | 17 | 17 | L | 808 | 808 | 1-682-  | 1-682-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = m = 16
+= 6 = a = 8
+= 6 = p = 15
+= 6 = a = 16
+= 8 = a = 15
+= 10 = a = 14
+= 10 = a = 16
+= 10 = l = 17
+= 11 = m = 12
+= 11 = a = 13
+= 11 = a = 15
+= 11 = l = 17
+= 12 = m = 15
+= 13 = l = 17
+= 14 = l = 17
+= 15 = l = 17
+= 16 = l = 17
+# Listed 17 contacts. EOF.

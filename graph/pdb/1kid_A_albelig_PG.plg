@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kid, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, HSP60, GROEL, CELL DIVISION, ATP-BINDING,PHOSPHORYLATION
+> pdb_mol_name > GROEL (HSP60 CLASS)
+> graphtype > albelig
+> resolution > 1.7
+> date > 13-DEC-96
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > GROEL (HSP60 CLASS) FRAGMENT (APICAL DOMAIN) COMPRISINGRESIDUES 191-376, MUTANT WITH ALA 262 REPLACED WITH LEUAND ILE 267 REPLACED WITH MET
+> format_version > 2
+> pdbid > 1kid
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kid | A | albelig | 1 | 1 | E | 10 | 12 | A-193-  | A-195-  | MQF 
+| 1kid | A | albelig | 2 | 2 | H | 19 | 21 | A-202-  | A-204-  | PYF 
+| 1kid | A | albelig | 3 | 3 | E | 30 | 33 | A-213-  | A-216-  | VELE 
+| 1kid | A | albelig | 4 | 4 | E | 36 | 39 | A-219-  | A-222-  | FILL 
+| 1kid | A | albelig | 5 | 5 | H | 47 | 60 | A-230-  | A-243-  | IREMLPVLEAVAKA 
+| 1kid | A | albelig | 6 | 6 | E | 64 | 68 | A-247-  | A-251-  | LLIIA 
+| 1kid | A | albelig | 7 | 7 | H | 73 | 84 | A-256-  | A-267-  | GEALATLVVNTM 
+| 1kid | A | albelig | 8 | 8 | E | 90 | 94 | A-273-  | A-277-  | VAAVK 
+| 1kid | A | albelig | 9 | 9 | H | 99 | 113 | A-282-  | A-296-  | GDRRKAMLQDIATLT 
+| 1kid | A | albelig | 10 | 10 | H | 120 | 122 | A-303-  | A-305-  | EEI 
+| 1kid | A | albelig | 11 | 11 | H | 126 | 128 | A-309-  | A-311-  | LEK 
+| 1kid | A | albelig | 12 | 12 | H | 131 | 133 | A-314-  | A-316-  | LED 
+| 1kid | A | albelig | 13 | 13 | E | 135 | 142 | A-318-  | A-325-  | GQAKRVVI 
+| 1kid | A | albelig | 14 | 14 | E | 147 | 152 | A-330-  | A-335-  | TTIIDG 
+| 1kid | A | albelig | 15 | 15 | H | 156 | 172 | A-339-  | A-355-  | EAAIQGRVAQIRQQIEE 
+| 1kid | A | albelig | 16 | 16 | H | 176 | 192 | A-359-  | A-375-  | DYDREKLQERVAKLAGG 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 14
+= 1 = m = 16
+= 3 = a = 13
+= 4 = p = 6
+= 4 = a = 13
+= 5 = m = 11
+= 6 = p = 8
+= 9 = m = 13
+= 9 = m = 15
+= 9 = p = 16
+= 13 = a = 14
+= 14 = m = 16
+= 15 = a = 16
+# Listed 13 contacts. EOF.

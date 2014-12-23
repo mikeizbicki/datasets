@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hkn, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR, MITOGEN, ANGIOGENESIS, HEPARIN-BINDING
+> pdb_mol_name > HEPARIN-BINDING GROWTH FACTOR 1
+> graphtype > albelig
+> resolution > 2.0
+> date > 10-MAR-03
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > A COMPLEX BETWEEN ACIDIC FIBROBLAST GROWTH FACTOR AND5-AMINO-2-NAPHTHALENESULFONATE
+> format_version > 2
+> pdbid > 1hkn
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hkn | C | albelig | 1 | 1 | E | 262 | 266 | C-3012-  | C-3016-  | KLLYC 
+| 1hkn | C | albelig | 2 | 2 | E | 271 | 275 | C-3021-  | C-3025-  | HFLRI 
+| 1hkn | C | albelig | 3 | 3 | E | 281 | 284 | C-3031-  | C-3034-  | VDGT 
+| 1hkn | C | albelig | 4 | 4 | E | 294 | 300 | C-3044-  | C-3050-  | LQLSAES 
+| 1hkn | C | albelig | 5 | 5 | E | 303 | 308 | C-3053-  | C-3058-  | EVYIKS 
+| 1hkn | C | albelig | 6 | 6 | E | 314 | 317 | C-3064-  | C-3067-  | YLAM 
+| 1hkn | C | albelig | 7 | 7 | E | 323 | 326 | C-3073-  | C-3076-  | LYGS 
+| 1hkn | C | albelig | 8 | 8 | H | 331 | 333 | C-3081-  | C-3083-  | EEC 
+| 1hkn | C | albelig | 9 | 9 | E | 334 | 339 | C-3084-  | C-3089-  | LFLERL 
+| 1hkn | C | albelig | 10 | 10 | H | 341 | 343 | C-3091-  | C-3093-  | ENH 
+| 1hkn | C | albelig | 11 | 11 | E | 345 | 349 | C-3095-  | C-3099-  | NTYIS 
+| 1hkn | C | albelig | 12 | 12 | H | 353 | 355 | C-3103-  | C-3105-  | AEK 
+| 1hkn | C | albelig | 13 | 13 | H | 370 | 372 | C-3120-  | C-3122-  | GPR 
+| 1hkn | C | albelig | 14 | 14 | H | 378 | 380 | C-3128-  | C-3130-  | KAI 
+| 1hkn | C | albelig | 15 | 15 | E | 382 | 386 | C-3132-  | C-3136-  | FLPLP 
+| 1hkn | C | albelig | 16 | 16 | L | 778 | 778 | C-4138-  | C-4138-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 15
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 5
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 7
+= 6 = m = 8
+= 8 = m = 9
+= 9 = a = 11
+= 11 = m = 14
+= 14 = l = 16
+# Listed 13 contacts. EOF.

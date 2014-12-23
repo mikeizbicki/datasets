@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1knl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CARBOHYDRATE BINDING MODULE, CBM13 XYLAN BINDING DOMAIN, LECTIN-LIKERICIN B-LIKE, BETA-TREFOIL FOLD, HYDROLASE
+> pdb_mol_name > ENDO-1,4-BETA-XYLANASE A
+> graphtype > albelig
+> resolution > 1.2
+> date > 19-DEC-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > STREPTOMYCES LIVIDANS XYLAN BINDING DOMAIN CBM13
+> format_version > 2
+> pdbid > 1knl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES LIVIDANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1knl | A | albelig | 1 | 1 | E | 13 | 15 | A-16-  | A-18-  | ALD 
+| 1knl | A | albelig | 2 | 2 | H | 17 | 19 | A-20-  | A-22-  | PDA 
+| 1knl | A | albelig | 3 | 3 | E | 28 | 30 | A-31-  | A-33-  | QLW 
+| 1knl | A | albelig | 4 | 4 | H | 36 | 38 | A-39-  | A-41-  | TNQ 
+| 1knl | A | albelig | 5 | 5 | E | 48 | 50 | A-51-  | A-53-  | LRV 
+| 1knl | A | albelig | 6 | 6 | E | 54 | 58 | A-57-  | A-61-  | KNLDA 
+| 1knl | A | albelig | 7 | 7 | E | 67 | 71 | A-70-  | A-74-  | VQIYS 
+| 1knl | A | albelig | 8 | 8 | H | 76 | 78 | A-79-  | A-81-  | DNQ 
+| 1knl | A | albelig | 9 | 9 | E | 80 | 82 | A-83-  | A-85-  | WRL 
+| 1knl | A | albelig | 10 | 10 | E | 88 | 90 | A-91-  | A-93-  | VVG 
+| 1knl | A | albelig | 11 | 11 | E | 96 | 99 | A-99-  | A-102-  | CLDA 
+| 1knl | A | albelig | 12 | 12 | H | 100 | 102 | A-103-  | A-105-  | VGN 
+| 1knl | A | albelig | 13 | 13 | E | 110 | 113 | A-113-  | A-116-  | IQLY 
+| 1knl | A | albelig | 14 | 14 | H | 119 | 121 | A-122-  | A-124-  | SNQ 
+| 1knl | A | albelig | 15 | 15 | L | 127 | 127 | A-530-  | A-530-  | J 
+| 1knl | A | albelig | 16 | 16 | L | 128 | 128 | A-531-  | A-531-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 4
+= 1 = l = 16
+= 2 = l = 16
+= 3 = l = 16
+= 4 = l = 16
+= 5 = a = 6
+= 6 = a = 7
+= 6 = m = 8
+= 6 = l = 15
+= 7 = l = 15
+= 8 = l = 15
+= 9 = a = 10
+= 10 = a = 11
+= 11 = m = 12
+= 11 = a = 13
+= 11 = m = 14
+# Listed 17 contacts. EOF.

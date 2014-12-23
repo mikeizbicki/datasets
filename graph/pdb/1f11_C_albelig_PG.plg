@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f11, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, ANTIBODY, FAB, HEPATITIS B, PRES2, IMMUNESYSTEM
+> pdb_mol_name > F124 IMMUNOGLOBULIN (KAPPA LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 18-MAY-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > F124 FAB FRAGMENT FROM A MONOCLONAL ANTI-PRES2 ANTIBODY
+> format_version > 2
+> pdbid > 1f11
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f11 | C | albelig | 1 | 1 | E | 440 | 443 | C-4-  | C-7-  | LTQS 
+| 1f11 | C | albelig | 2 | 2 | E | 446 | 450 | C-10-  | C-14-  | SLAVS 
+| 1f11 | C | albelig | 3 | 3 | E | 455 | 461 | C-19-  | C-25-  | ATISEKA 
+| 1f11 | C | albelig | 4 | 4 | E | 473 | 478 | C-33-  | C-38-  | MNWYQQ 
+| 1f11 | C | albelig | 5 | 5 | E | 485 | 489 | C-45-  | C-49-  | KLLIY 
+| 1f11 | C | albelig | 6 | 6 | E | 502 | 507 | C-62-  | C-67-  | FSGSGS 
+| 1f11 | C | albelig | 7 | 7 | E | 510 | 515 | C-70-  | C-75-  | DFTLNI 
+| 1f11 | C | albelig | 8 | 8 | H | 520 | 522 | C-80-  | C-82-  | EED 
+| 1f11 | C | albelig | 9 | 9 | E | 524 | 530 | C-84-  | C-90-  | ATYYEQQ 
+| 1f11 | C | albelig | 10 | 10 | E | 542 | 547 | C-102-  | C-107-  | TKLEIK 
+| 1f11 | C | albelig | 11 | 11 | E | 554 | 558 | C-114-  | C-118-  | TVSIF 
+| 1f11 | C | albelig | 12 | 12 | H | 562 | 566 | C-122-  | C-126-  | SEQLT 
+| 1f11 | C | albelig | 13 | 13 | E | 569 | 579 | C-129-  | C-139-  | GASVVFFLNNF 
+| 1f11 | C | albelig | 14 | 14 | E | 585 | 590 | C-145-  | C-150-  | NVKWKI 
+| 1f11 | C | albelig | 15 | 15 | E | 593 | 595 | C-153-  | C-155-  | SER 
+| 1f11 | C | albelig | 16 | 16 | E | 599 | 603 | C-159-  | C-163-  | VLNSW 
+| 1f11 | C | albelig | 17 | 17 | E | 613 | 622 | C-173-  | C-182-  | YSMSSTLTLT 
+| 1f11 | C | albelig | 18 | 18 | H | 623 | 627 | C-183-  | C-187-  | KDEYE 
+| 1f11 | C | albelig | 19 | 19 | E | 631 | 637 | C-191-  | C-197-  | SYTFEAT 
+| 1f11 | C | albelig | 20 | 20 | E | 645 | 650 | C-205-  | C-210-  | IVKSFN 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 12 = m = 13
+= 13 = a = 17
+= 13 = p = 19
+= 14 = a = 15
+= 14 = p = 17
+= 14 = a = 19
+= 16 = a = 17
+= 17 = m = 18
+= 19 = a = 20
+# Listed 19 contacts. EOF.

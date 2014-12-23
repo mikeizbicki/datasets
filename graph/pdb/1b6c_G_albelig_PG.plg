@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b6c, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ISOMERASE/PROTEIN KINASE), RECEPTORSERINE/THREONINE KINASE
+> pdb_mol_name > FK506-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 13-JAN-99
+> header > COMPLEX (ISOMERASE/PROTEIN KINASE)
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE CYTOPLASMIC DOMAIN OF THE TYPE ITGF-BETA RECEPTOR IN COMPLEX WITH FKBP12
+> format_version > 2
+> pdbid > 1b6c
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b6c | G | albelig | 1 | 1 | E | 1307 | 1313 | G-2-  | G-8-  | VQVETIS 
+| 1b6c | G | albelig | 2 | 2 | E | 1326 | 1335 | G-21-  | G-30-  | TCVVHYTGML 
+| 1b6c | G | albelig | 3 | 3 | E | 1340 | 1343 | G-35-  | G-38-  | KFDS 
+| 1b6c | G | albelig | 4 | 4 | H | 1344 | 1347 | G-39-  | G-42-  | SRDR 
+| 1b6c | G | albelig | 5 | 5 | E | 1351 | 1354 | G-46-  | G-49-  | FKFM 
+| 1b6c | G | albelig | 6 | 6 | H | 1362 | 1370 | G-57-  | G-65-  | RGWEEGVAQ 
+| 1b6c | G | albelig | 7 | 7 | E | 1376 | 1381 | G-71-  | G-76-  | RAKLTI 
+| 1b6c | G | albelig | 8 | 8 | H | 1383 | 1385 | G-78-  | G-80-  | PDY 
+| 1b6c | G | albelig | 9 | 9 | E | 1402 | 1411 | G-97-  | G-106-  | LVFDVELLKL 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 2 = a = 3
+= 2 = m = 4
+= 2 = a = 5
+= 2 = a = 9
+= 3 = m = 4
+= 7 = a = 9
+# Listed 7 contacts. EOF.

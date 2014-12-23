@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jzt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > YEAST HYPOTHETICAL PROTEIN, STRUCTURAL GENOMICS, SELENOMETHIONINE,PSI, PROTEIN STRUCTURE INITIATIVE, NEW YORK SGX RESEARCH CENTER FORSTRUCTURAL GENOMICS, NYSGXRC, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL 27.5 KDA PROTEIN IN SPX19-GCR2 INTERGENIC
+> graphtype > albelig
+> resolution > 1.94
+> date > 17-SEP-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF YEAST YNU0, YNL200C
+> format_version > 2
+> pdbid > 1jzt
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jzt | A | albelig | 1 | 1 | H | 6 | 16 | A-9-  | A-19-  | SKLAAEIDKEL 
+| 1jzt | A | albelig | 2 | 2 | H | 25 | 43 | A-28-  | A-46-  | LQQLXELAGFSVAQAVCRQ 
+| 1jzt | A | albelig | 3 | 3 | H | 51 | 54 | A-54-  | A-57-  | ETEK 
+| 1jzt | A | albelig | 4 | 4 | E | 57 | 62 | A-60-  | A-65-  | HVFVIA 
+| 1jzt | A | albelig | 5 | 5 | H | 66 | 80 | A-69-  | A-83-  | NNGGDGLVCARHLKL 
+| 1jzt | A | albelig | 6 | 6 | E | 85 | 88 | A-88-  | A-91-  | PVVF 
+| 1jzt | A | albelig | 7 | 7 | H | 97 | 108 | A-100-  | A-111-  | EFYKQLVHQLNF 
+| 1jzt | A | albelig | 8 | 8 | H | 121 | 125 | A-124-  | A-128-  | WLEYL 
+| 1jzt | A | albelig | 9 | 9 | E | 130 | 136 | A-133-  | A-139-  | TLCIVDA 
+| 1jzt | A | albelig | 10 | 10 | H | 150 | 160 | A-153-  | A-163-  | FKGIVEELCKV 
+| 1jzt | A | albelig | 11 | 11 | E | 166 | 169 | A-169-  | A-172-  | IVSV 
+| 1jzt | A | albelig | 12 | 12 | E | 191 | 195 | A-194-  | A-198-  | VLVSL 
+| 1jzt | A | albelig | 13 | 13 | H | 200 | 204 | A-203-  | A-207-  | PCSSH 
+| 1jzt | A | albelig | 14 | 14 | E | 211 | 215 | A-214-  | A-218-  | THYVG 
+| 1jzt | A | albelig | 15 | 15 | H | 221 | 226 | A-224-  | A-229-  | RDFANK 
+| 1jzt | A | albelig | 16 | 16 | E | 240 | 242 | A-243-  | A-245-  | ILK 
+| 1jzt | A | albelig | 17 | 17 | L | 494 | 494 | A-401-  | A-401-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 15
+= 2 = p = 5
+= 2 = m = 16
+= 4 = p = 6
+= 4 = p = 9
+= 5 = p = 7
+= 5 = m = 9
+= 5 = l = 17
+= 9 = p = 11
+= 11 = p = 12
+= 12 = p = 14
+= 14 = a = 16
+# Listed 12 contacts. EOF.

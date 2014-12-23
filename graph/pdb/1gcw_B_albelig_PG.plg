@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gcw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEMOGLOBIN, CARBON MONOXIDE BOUND FORM, OXYGENSTORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > PROTEIN (HEMOGLOBIN)
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-AUG-00
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CO FORM HEMOGLOBIN FROM MUSTELUS GRISEUS
+> format_version > 2
+> pdbid > 1gcw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUSTELUS GRISEUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gcw | B | albelig | 1 | 1 | H | 146 | 158 | B-5-  | B-17-  | QEERDEISKTFQG 
+| 1gcw | B | albelig | 2 | 2 | H | 161 | 175 | B-20-  | B-34-  | MKTVVTQALDRMFKV 
+| 1gcw | B | albelig | 3 | 3 | H | 177 | 183 | B-36-  | B-42-  | PWTNRYF 
+| 1gcw | B | albelig | 4 | 4 | H | 188 | 204 | B-50-  | B-66-  | SSIHAGIVVGALQDAVK 
+| 1gcw | B | albelig | 5 | 5 | H | 206 | 212 | B-68-  | B-74-  | MDDVKTL 
+| 1gcw | B | albelig | 6 | 6 | H | 214 | 221 | B-76-  | B-83-  | KDLSKKHA 
+| 1gcw | B | albelig | 7 | 7 | H | 228 | 246 | B-90-  | B-108-  | PGSFHLLTDCIIVELAYLR 
+| 1gcw | B | albelig | 8 | 8 | H | 247 | 249 | B-109-  | B-111-  | KDC 
+| 1gcw | B | albelig | 9 | 9 | H | 252 | 269 | B-114-  | B-131-  | PHIQGIWDKFFEVVIDAI 
+| 1gcw | B | albelig | 10 | 10 | L | 546 | 546 | B-136-  | B-136-  | J 
+| 1gcw | B | albelig | 11 | 11 | L | 547 | 547 | B-137-  | B-137-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = m = 3
+= 2 = a = 4
+= 2 = a = 7
+= 2 = l = 10
+= 2 = l = 11
+= 3 = l = 10
+= 3 = l = 11
+= 4 = l = 10
+= 4 = l = 11
+= 6 = l = 10
+= 6 = l = 11
+= 7 = m = 8
+= 7 = a = 9
+= 7 = l = 10
+= 7 = l = 11
+= 9 = l = 10
+= 10 = l = 11
+# Listed 18 contacts. EOF.

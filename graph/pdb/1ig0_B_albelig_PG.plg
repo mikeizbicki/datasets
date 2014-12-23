@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ig0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-SUBSTRATE COMPLEX, COMPOUND ACTIVE SITE, ALPHA-BETA-ALPHA, BETA SANDWICH, TRANSFERASE
+> pdb_mol_name > THIAMIN PYROPHOSPHOKINASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 16-APR-01
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF YEAST THIAMIN PYROPHOSPHOKINASE
+> format_version > 2
+> pdbid > 1ig0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ig0 | B | albelig | 1 | 1 | E | 322 | 325 | B-4-  | B-7-  | ECIE 
+| 1ig0 | B | albelig | 2 | 2 | E | 341 | 344 | B-23-  | B-26-  | NKMN 
+| 1ig0 | B | albelig | 3 | 3 | H | 345 | 348 | B-27-  | B-30-  | LKEL 
+| 1ig0 | B | albelig | 4 | 4 | E | 356 | 361 | B-38-  | B-43-  | NSTLLI 
+| 1ig0 | B | albelig | 5 | 5 | H | 370 | 379 | B-52-  | B-61-  | RPLFYKIWKL 
+| 1ig0 | B | albelig | 6 | 6 | E | 382 | 386 | B-64-  | B-68-  | LKVCA 
+| 1ig0 | B | albelig | 7 | 7 | H | 389 | 396 | B-71-  | B-78-  | AANRLYDY 
+| 1ig0 | B | albelig | 8 | 8 | H | 401 | 406 | B-83-  | B-88-  | ETLRIK 
+| 1ig0 | B | albelig | 9 | 9 | E | 411 | 414 | B-93-  | B-96-  | YIIG 
+| 1ig0 | B | albelig | 10 | 10 | H | 421 | 429 | B-103-  | B-111-  | EKVYKYYRK 
+| 1ig0 | B | albelig | 11 | 11 | E | 433 | 436 | B-115-  | B-118-  | TIIK 
+| 1ig0 | B | albelig | 12 | 12 | H | 444 | 457 | B-126-  | B-139-  | DFTKCVNLISLHFN 
+| 1ig0 | B | albelig | 13 | 13 | H | 459 | 466 | B-141-  | B-148-  | PEFRSLIS 
+| 1ig0 | B | albelig | 14 | 14 | H | 473 | 476 | B-155-  | B-158-  | SNHG 
+| 1ig0 | B | albelig | 15 | 15 | H | 482 | 493 | B-164-  | B-175-  | GIHTLYNTMTES 
+| 1ig0 | B | albelig | 16 | 16 | H | 496 | 498 | B-178-  | B-180-  | FSK 
+| 1ig0 | B | albelig | 17 | 17 | E | 502 | 507 | B-184-  | B-189-  | ISLLAL 
+| 1ig0 | B | albelig | 18 | 18 | H | 514 | 530 | B-196-  | B-212-  | FDQTVHSITQLYTLSEN 
+| 1ig0 | B | albelig | 19 | 19 | E | 534 | 539 | B-216-  | B-221-  | FKLCYM 
+| 1ig0 | B | albelig | 20 | 20 | E | 543 | 548 | B-225-  | B-230-  | DLIFLI 
+| 1ig0 | B | albelig | 21 | 21 | E | 553 | 556 | B-235-  | B-238-  | TLIE 
+| 1ig0 | B | albelig | 22 | 22 | H | 559 | 565 | B-241-  | B-247-  | PQFRNTC 
+| 1ig0 | B | albelig | 23 | 23 | E | 566 | 572 | B-248-  | B-254-  | IGNCGLL 
+| 1ig0 | B | albelig | 24 | 24 | E | 578 | 584 | B-260-  | B-266-  | TLVKETR 
+| 1ig0 | B | albelig | 25 | 25 | E | 588 | 595 | B-270-  | B-277-  | WDVKNWPT 
+| 1ig0 | B | albelig | 26 | 26 | E | 603 | 607 | B-285-  | B-289-  | SSSNR 
+| 1ig0 | B | albelig | 27 | 27 | E | 613 | 618 | B-295-  | B-300-  | CCFIDT 
+| 1ig0 | B | albelig | 28 | 28 | E | 622 | 628 | B-304-  | B-310-  | IILNVEI 
+| 1ig0 | B | albelig | 29 | 29 | H | 630 | 636 | B-312-  | B-318-  | VDKLIDF 
+| 1ig0 | B | albelig | 30 | 30 | L | 639 | 639 | B-701-  | B-701-  | J 
+# Printed info on 30 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 25
+= 2 = m = 3
+= 2 = p = 21
+= 4 = p = 6
+= 4 = a = 12
+= 4 = p = 17
+= 5 = m = 29
+= 6 = m = 7
+= 6 = p = 9
+= 7 = m = 10
+= 9 = p = 11
+= 9 = a = 12
+= 12 = m = 13
+= 12 = p = 15
+= 12 = l = 30
+= 17 = p = 19
+= 18 = a = 19
+= 18 = l = 30
+= 19 = a = 20
+= 20 = a = 28
+= 21 = a = 27
+= 22 = m = 23
+= 22 = m = 28
+= 22 = m = 29
+= 23 = a = 26
+= 23 = a = 28
+= 24 = a = 25
+= 24 = a = 27
+= 25 = a = 26
+# Listed 29 contacts. EOF.

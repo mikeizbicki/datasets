@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fbk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTON PUMP, MEMBRANE PROTEIN, RETINAL PROTEIN, TWO-DIMENSIONALCRYSTAL ELECTRON DIFFRACTION, SINGLE CRYSTAL, PROTON TRANSPORT
+> pdb_mol_name > BACTERIORHODOPSIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 15-JUL-00
+> header > PROTON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CYTOPLASMICALLY OPEN CONFORMATION OFBACTERIORHODOPSIN
+> format_version > 2
+> pdbid > 1fbk
+> experiment > ELECTRON CRYSTALLOGRAPHY
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HALOBACTERIUM SALINARUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fbk | A | albelig | 1 | 1 | H | 7 | 25 | A-10-  | A-28-  | WIWLALGTALMGLGTLYFL 
+| 1fbk | A | albelig | 2 | 2 | H | 34 | 59 | A-37-  | A-62-  | PDAKKFYAITTLVPAIAFTMYLSMLL 
+| 1fbk | A | albelig | 3 | 3 | E | 64 | 68 | A-67-  | A-71-  | TMVPF 
+| 1fbk | A | albelig | 4 | 4 | E | 71 | 75 | A-74-  | A-78-  | EQNPI 
+| 1fbk | A | albelig | 5 | 5 | H | 77 | 97 | A-80-  | A-100-  | WARYADWLFTTPLLLLGLALL 
+| 1fbk | A | albelig | 6 | 6 | H | 102 | 124 | A-105-  | A-127-  | QGTILALVGADGIMIGTGLVGAL 
+| 1fbk | A | albelig | 7 | 7 | H | 128 | 149 | A-131-  | A-152-  | YSYRFVWWAISTAAMLYILYVL 
+| 1fbk | A | albelig | 8 | 8 | H | 164 | 188 | A-167-  | A-191-  | VASTCKVLRNVTVVLWSAYPVVWLI 
+| 1fbk | A | albelig | 9 | 9 | H | 198 | 215 | A-201-  | A-218-  | LNIETLLFMVLDVSAKVG 
+| 1fbk | A | albelig | 10 | 10 | H | 216 | 222 | A-219-  | A-225-  | LGLILLR 
+| 1fbk | A | albelig | 11 | 11 | L | 226 | 226 | A-1216-  | A-1216-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 9
+= 2 = a = 5
+= 3 = a = 4
+= 5 = a = 6
+= 5 = a = 8
+= 5 = p = 9
+= 5 = l = 11
+= 6 = a = 7
+= 6 = l = 11
+= 7 = a = 8
+= 7 = l = 11
+= 8 = m = 9
+= 8 = l = 11
+= 9 = m = 10
+= 9 = l = 11
+# Listed 16 contacts. EOF.

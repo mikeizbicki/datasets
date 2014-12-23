@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jwh, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CASEIN KINASE 2, CK2 HOLOENZYME, PROTEIN KINASE CK2,TRANSFERASE
+> pdb_mol_name > CASEIN KINASE II BETA CHAIN
+> graphtype > albelig
+> resolution > 3.1
+> date > 04-SEP-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN PROTEIN KINASE CK2 HOLOENZYME
+> format_version > 2
+> pdbid > 1jwh
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jwh | C | albelig | 1 | 1 | H | 678 | 681 | C-10-  | C-13-  | ISWF 
+| 1jwh | C | albelig | 2 | 2 | H | 696 | 699 | C-28-  | C-31-  | DYIQ 
+| 1jwh | C | albelig | 3 | 3 | H | 707 | 709 | C-39-  | C-41-  | LNE 
+| 1jwh | C | albelig | 4 | 4 | H | 714 | 722 | C-46-  | C-54-  | YRQALDMIL 
+| 1jwh | C | albelig | 5 | 5 | H | 736 | 757 | C-68-  | C-89-  | QSDLIEQAAEMLYGLIHARYIL 
+| 1jwh | C | albelig | 6 | 6 | H | 759 | 769 | C-91-  | C-101-  | NRGIAQMLEKY 
+| 1jwh | C | albelig | 7 | 7 | H | 818 | 820 | C-150-  | C-152-  | RHH 
+| 1jwh | C | albelig | 8 | 8 | H | 824 | 827 | C-156-  | C-159-  | GAYF 
+| 1jwh | C | albelig | 9 | 9 | H | 831 | 838 | C-163-  | C-170-  | FPHMLFMV 
+| 1jwh | C | albelig | 10 | 10 | H | 840 | 842 | C-172-  | C-174-  | PEY 
+| 1jwh | C | albelig | 11 | 11 | H | 864 | 867 | C-196-  | C-199-  | AYQL 
+| 1jwh | C | albelig | 12 | 12 | L | 1083 | 1083 | C-353-  | C-353-  | J 
+| 1jwh | C | albelig | 13 | 13 | L | 1084 | 1084 | C-357-  | C-357-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = p = 5
+= 5 = m = 6
+= 5 = m = 8
+= 7 = l = 12
+= 9 = m = 10
+# Listed 5 contacts. EOF.

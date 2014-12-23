@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hx3, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ISOPENTENYL, DIMETHYLALLYL, ISOMERASE, ISOPRENOIDS
+> pdb_mol_name > ISOPENTENYL DIPHOSPHATE DELTA-ISOMERASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 11-JAN-01
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF E.COLI ISOPENTENYLDIPHOSPHATE:DIMETHYLALLYL DIPHOSPHATE ISOMERASE
+> format_version > 2
+> pdbid > 1hx3
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hx3 | B | albelig | 1 | 1 | E | 179 | 183 | B-5-  | B-9-  | HVILL 
+| 1hx3 | B | albelig | 2 | 2 | E | 189 | 194 | B-15-  | B-20-  | PTGTLE 
+| 1hx3 | B | albelig | 3 | 3 | H | 195 | 198 | B-21-  | B-24-  | KYAA 
+| 1hx3 | B | albelig | 4 | 4 | E | 209 | 214 | B-35-  | B-40-  | FSSWLF 
+| 1hx3 | B | albelig | 5 | 5 | E | 220 | 225 | B-46-  | B-51-  | LLVTRR 
+| 1hx3 | B | albelig | 6 | 6 | E | 236 | 238 | B-62-  | B-64-  | WTN 
+| 1hx3 | B | albelig | 7 | 7 | E | 240 | 242 | B-66-  | B-68-  | VAG 
+| 1hx3 | B | albelig | 8 | 8 | H | 250 | 262 | B-76-  | B-88-  | NEDAVIRRCRYEL 
+| 1hx3 | B | albelig | 9 | 9 | E | 270 | 273 | B-96-  | B-99-  | ESIY 
+| 1hx3 | B | albelig | 10 | 10 | E | 277 | 281 | B-103-  | B-107-  | RYRAT 
+| 1hx3 | B | albelig | 11 | 11 | E | 287 | 291 | B-113-  | B-117-  | VENEV 
+| 1hx3 | B | albelig | 12 | 12 | E | 294 | 298 | B-120-  | B-124-  | VFAAR 
+| 1hx3 | B | albelig | 13 | 13 | E | 310 | 316 | B-136-  | B-142-  | VMDYQWC 
+| 1hx3 | B | albelig | 14 | 14 | H | 318 | 327 | B-144-  | B-153-  | LADVLHGIDA 
+| 1hx3 | B | albelig | 15 | 15 | H | 329 | 331 | B-155-  | B-157-  | PWA 
+| 1hx3 | B | albelig | 16 | 16 | H | 334 | 340 | B-160-  | B-166-  | PWMVMQA 
+| 1hx3 | B | albelig | 17 | 17 | H | 343 | 351 | B-169-  | B-177-  | REARKRLSA 
+| 1hx3 | B | albelig | 18 | 18 | L | 361 | 361 | B-191-  | B-191-  | J 
+| 1hx3 | B | albelig | 19 | 19 | L | 362 | 362 | B-202-  | B-202-  | J 
+| 1hx3 | B | albelig | 20 | 20 | L | 363 | 363 | B-203-  | B-203-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 19
+= 2 = m = 3
+= 3 = l = 18
+= 4 = a = 5
+= 4 = a = 7
+= 4 = p = 8
+= 4 = p = 12
+= 4 = m = 16
+= 5 = p = 6
+= 5 = a = 13
+= 5 = l = 18
+= 5 = l = 20
+= 7 = l = 18
+= 7 = l = 20
+= 8 = l = 18
+= 9 = a = 12
+= 9 = m = 17
+= 10 = a = 11
+= 10 = l = 20
+= 11 = l = 18
+= 11 = l = 19
+= 11 = l = 20
+= 16 = l = 20
+= 18 = l = 19
+= 18 = l = 20
+= 19 = l = 20
+# Listed 27 contacts. EOF.

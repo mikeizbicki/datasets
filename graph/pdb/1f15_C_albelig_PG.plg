@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f15, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS, BETA BARREL, ICOSAHEDRAL VIRUS
+> pdb_mol_name > COAT PROTEIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 18-MAY-00
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > CUCUMBER MOSAIC VIRUS (STRAIN FNY)
+> format_version > 2
+> pdbid > 1f15
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CUCUMBER MOSAIC VIRUS (STRAIN FNY)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f15 | C | albelig | 1 | 1 | H | 353 | 369 | C-31-  | C-47-  | NFRVLSQQLSRLNKTLA 
+| 1f15 | C | albelig | 2 | 2 | E | 390 | 397 | C-68-  | C-75-  | YTFTSITL 
+| 1f15 | C | albelig | 3 | 3 | E | 409 | 411 | C-87-  | C-89-  | GKR 
+| 1f15 | C | albelig | 4 | 4 | H | 416 | 419 | C-94-  | C-97-  | DSVT 
+| 1f15 | C | albelig | 5 | 5 | E | 428 | 435 | C-106-  | C-113-  | RLQIRVNP 
+| 1f15 | C | albelig | 6 | 6 | E | 442 | 449 | C-120-  | C-127-  | TVWVTVRK 
+| 1f15 | C | albelig | 7 | 7 | H | 460 | 464 | C-138-  | C-142-  | AISAM 
+| 1f15 | C | albelig | 8 | 8 | E | 473 | 476 | C-151-  | C-154-  | LVYQ 
+| 1f15 | C | albelig | 9 | 9 | E | 487 | 491 | C-165-  | C-169-  | KLLYD 
+| 1f15 | C | albelig | 10 | 10 | H | 493 | 495 | C-171-  | C-173-  | SAM 
+| 1f15 | C | albelig | 11 | 11 | H | 501 | 504 | C-179-  | C-182-  | DMRK 
+| 1f15 | C | albelig | 12 | 12 | E | 505 | 511 | C-183-  | C-189-  | YAVLVYS 
+| 1f15 | C | albelig | 13 | 13 | E | 521 | 530 | C-199-  | C-208-  | LVLHVDIEHQ 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 13
+= 3 = a = 12
+= 5 = a = 9
+= 5 = a = 13
+= 6 = a = 8
+= 6 = p = 9
+= 6 = a = 12
+= 11 = m = 12
+# Listed 8 contacts. EOF.

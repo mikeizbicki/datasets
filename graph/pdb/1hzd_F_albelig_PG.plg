@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hzd, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNA-BINDING PROTEIN,ENOYL-COA HYDRATASE, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,LYASE
+> pdb_mol_name > AU-BINDING PROTEIN/ENOYL-COA HYDRATASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 24-JAN-01
+> header > LYASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN AUH PROTEIN, AN RNA-BINDINGHOMOLOGUE OF ENOYL-COA HYDRATASE
+> format_version > 2
+> pdbid > 1hzd
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hzd | F | albelig | 1 | 1 | E | 1336 | 1340 | F-77-  | F-81-  | LRVRH 
+| 1hzd | F | albelig | 2 | 2 | H | 1343 | 1345 | F-84-  | F-86-  | EEN 
+| 1hzd | F | albelig | 3 | 3 | E | 1348 | 1353 | F-89-  | F-94-  | IVVLGI 
+| 1hzd | F | albelig | 4 | 4 | H | 1356 | 1358 | F-97-  | F-99-  | AYG 
+| 1hzd | F | albelig | 5 | 5 | H | 1364 | 1378 | F-105-  | F-119-  | KNLIKMLSKAVDALK 
+| 1hzd | F | albelig | 6 | 6 | E | 1385 | 1390 | F-126-  | F-131-  | TIIIRS 
+| 1hzd | F | albelig | 7 | 7 | E | 1394 | 1397 | F-135-  | F-138-  | GIFC 
+| 1hzd | F | albelig | 8 | 8 | H | 1402 | 1405 | F-143-  | F-146-  | LKER 
+| 1hzd | F | albelig | 9 | 9 | H | 1410 | 1428 | F-151-  | F-169-  | SSEVGPFVSKIRAVINDIA 
+| 1hzd | F | albelig | 10 | 10 | E | 1434 | 1438 | F-175-  | F-179-  | TIAAI 
+| 1hzd | F | albelig | 11 | 11 | E | 1440 | 1443 | F-181-  | F-184-  | GLAL 
+| 1hzd | F | albelig | 12 | 12 | H | 1445 | 1451 | F-186-  | F-192-  | GGLELAL 
+| 1hzd | F | albelig | 13 | 13 | E | 1455 | 1459 | F-196-  | F-200-  | IRVAA 
+| 1hzd | F | albelig | 14 | 14 | E | 1463 | 1465 | F-204-  | F-206-  | KMG 
+| 1hzd | F | albelig | 15 | 15 | H | 1468 | 1471 | F-209-  | F-212-  | ETKL 
+| 1hzd | F | albelig | 16 | 16 | H | 1479 | 1487 | F-220-  | F-228-  | GTQRLPRAI 
+| 1hzd | F | albelig | 17 | 17 | H | 1489 | 1498 | F-230-  | F-239-  | MSLAKELIFS 
+| 1hzd | F | albelig | 18 | 18 | E | 1501 | 1503 | F-242-  | F-244-  | VLD 
+| 1hzd | F | albelig | 19 | 19 | H | 1504 | 1509 | F-245-  | F-250-  | GKEAKA 
+| 1hzd | F | albelig | 20 | 20 | E | 1515 | 1517 | F-256-  | F-258-  | HVL 
+| 1hzd | F | albelig | 21 | 21 | H | 1525 | 1537 | F-266-  | F-278-  | AAYRKALDLAREF 
+| 1hzd | F | albelig | 22 | 22 | H | 1542 | 1555 | F-283-  | F-296-  | PVAMRVAKLAINQG 
+| 1hzd | F | albelig | 23 | 23 | H | 1560 | 1572 | F-301-  | F-313-  | LVTGLAIEEACYA 
+| 1hzd | F | albelig | 24 | 24 | H | 1578 | 1589 | F-319-  | F-330-  | KDRLEGLLAFKE 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 5
+= 3 = a = 5
+= 3 = p = 6
+= 5 = p = 9
+= 6 = a = 7
+= 6 = p = 10
+= 6 = a = 21
+= 7 = p = 11
+= 10 = p = 13
+= 10 = m = 21
+= 11 = m = 12
+= 11 = p = 14
+= 13 = p = 20
+= 14 = a = 18
+= 16 = m = 17
+= 18 = m = 19
+= 22 = m = 23
+# Listed 18 contacts. EOF.

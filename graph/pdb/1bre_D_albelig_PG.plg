@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bre, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > BENCE-JONES KAPPA I PROTEIN BRE
+> graphtype > albelig
+> resolution > 2.0
+> date > 19-JUL-95
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HUMAN
+> title > IMMUNOGLOBULIN LIGHT CHAIN PROTEIN
+> format_version > 2
+> pdbid > 1bre
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bre | D | albelig | 1 | 1 | E | 328 | 331 | D-4-  | D-7-  | MTQS 
+| 1bre | D | albelig | 2 | 2 | E | 334 | 337 | D-10-  | D-13-  | SLSA 
+| 1bre | D | albelig | 3 | 3 | E | 343 | 349 | D-19-  | D-25-  | VTITDQA 
+| 1bre | D | albelig | 4 | 4 | E | 357 | 362 | D-33-  | D-38-  | LIWYQQ 
+| 1bre | D | albelig | 5 | 5 | E | 369 | 373 | D-45-  | D-49-  | NLLIY 
+| 1bre | D | albelig | 6 | 6 | E | 386 | 391 | D-62-  | D-67-  | FSGSGS 
+| 1bre | D | albelig | 7 | 7 | E | 394 | 399 | D-70-  | D-75-  | EYTFTI 
+| 1bre | D | albelig | 8 | 8 | H | 404 | 406 | D-80-  | D-82-  | PED 
+| 1bre | D | albelig | 9 | 9 | E | 408 | 414 | D-84-  | D-90-  | ATYYDQQ 
+| 1bre | D | albelig | 10 | 10 | E | 426 | 430 | D-102-  | D-106-  | TKVEI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+# Listed 8 contacts. EOF.

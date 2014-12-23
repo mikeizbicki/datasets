@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cof, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN-BINDING, CYTOSKELETON, ACTIN-BINDING PROTEIN
+> pdb_mol_name > COFILIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 26-NOV-96
+> header > ACTIN-BINDING PROTEIN
+> pdb_org_common > BAKER'S YEAST
+> title > YEAST COFILIN, ORTHORHOMBIC CRYSTAL FORM
+> format_version > 2
+> pdbid > 1cof
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cof | A | albelig | 1 | 1 | H | 5 | 17 | A-10-  | A-22-  | DESLTAFNDLKLG 
+| 1cof | A | albelig | 2 | 2 | E | 22 | 27 | A-27-  | A-32-  | FILFGL 
+| 1cof | A | albelig | 3 | 3 | E | 33 | 40 | A-38-  | A-45-  | EIVVKETS 
+| 1cof | A | albelig | 4 | 4 | H | 45 | 49 | A-50-  | A-54-  | YDAFL 
+| 1cof | A | albelig | 5 | 5 | E | 58 | 67 | A-63-  | A-72-  | LYAIYDFEYE 
+| 1cof | A | albelig | 6 | 6 | E | 74 | 83 | A-79-  | A-88-  | KRSKIVFFTW 
+| 1cof | A | albelig | 7 | 7 | H | 90 | 105 | A-95-  | A-110-  | VRSKMVYASSKDALRR 
+| 1cof | A | albelig | 8 | 8 | E | 110 | 116 | A-115-  | A-121-  | VSTDVQG 
+| 1cof | A | albelig | 9 | 9 | H | 124 | 132 | A-129-  | A-137-  | YDSVLERVS 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 3
+= 2 = a = 5
+= 5 = a = 6
+= 5 = m = 7
+= 5 = m = 9
+= 6 = p = 8
+# Listed 7 contacts. EOF.

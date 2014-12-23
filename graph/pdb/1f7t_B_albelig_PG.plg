@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f7t, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 9-STRAND PSEUDO BETA BARREL, LIPID SYNTHESIS, TRANSFERASE
+> pdb_mol_name > HOLO-(ACYL CARRIER PROTEIN) SYNTHASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 27-JUN-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > HOLO-(ACYL CARRIER PROTEIN) SYNTHASE AT 1.8A
+> format_version > 2
+> pdbid > 1f7t
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f7t | B | albelig | 1 | 1 | E | 123 | 132 | B-2-  | B-11-  | IYGIGLDITE 
+| 1f7t | B | albelig | 2 | 2 | H | 133 | 142 | B-12-  | B-21-  | LKRIASMAGR 
+| 1f7t | B | albelig | 3 | 3 | H | 146 | 150 | B-25-  | B-29-  | FAERI 
+| 1f7t | B | albelig | 4 | 4 | H | 153 | 160 | B-32-  | B-39-  | RSELDQYY 
+| 1f7t | B | albelig | 5 | 5 | H | 164 | 185 | B-43-  | B-64-  | EKRKNEFLAGRFAAKEAFSKAF 
+| 1f7t | B | albelig | 6 | 6 | H | 195 | 197 | B-74-  | B-76-  | FQD 
+| 1f7t | B | albelig | 7 | 7 | E | 199 | 202 | B-78-  | B-81-  | EIRK 
+| 1f7t | B | albelig | 8 | 8 | E | 208 | 211 | B-87-  | B-90-  | PYII 
+| 1f7t | B | albelig | 9 | 9 | E | 219 | 226 | B-98-  | B-105-  | AVHVSITH 
+| 1f7t | B | albelig | 10 | 10 | E | 230 | 238 | B-109-  | B-117-  | YAAAQVVIE 
+| 1f7t | B | albelig | 11 | 11 | L | 726 | 726 | B-473-  | B-473-  | J 
+| 1f7t | B | albelig | 12 | 12 | L | 727 | 727 | B-479-  | B-479-  | J 
+| 1f7t | B | albelig | 13 | 13 | L | 728 | 728 | B-484-  | B-484-  | J 
+| 1f7t | B | albelig | 14 | 14 | L | 729 | 729 | B-490-  | B-490-  | J 
+| 1f7t | B | albelig | 15 | 15 | L | 730 | 730 | B-507-  | B-507-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 5
+= 1 = a = 10
+= 1 = l = 14
+= 2 = m = 5
+= 2 = l = 14
+= 4 = m = 5
+= 4 = p = 7
+= 5 = p = 10
+= 6 = l = 15
+= 7 = a = 8
+= 7 = l = 15
+= 8 = a = 9
+= 8 = l = 11
+= 8 = l = 13
+= 8 = l = 15
+= 9 = a = 10
+= 9 = l = 11
+= 9 = l = 12
+= 9 = l = 13
+= 11 = l = 13
+# Listed 21 contacts. EOF.

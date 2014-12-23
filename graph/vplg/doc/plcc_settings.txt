@@ -1,0 +1,268 @@
+# This is the documented default config file for plcc.
+
+# plcc_I_img_minPageWidth: The minimum image width in pixels, used in output images.
+plcc_I_img_minPageWidth=640
+
+# plcc_I_img_margin_right: Size of the right image margin in pixels
+plcc_I_img_margin_right=40
+
+# plcc_B_debug_compareSSEContacts: Whether to compare the computed SSE level contacts to those in the geom_neo output file that is supplied.
+plcc_B_debug_compareSSEContacts=false
+
+# plcc_B_graphtype_albe: Determines whether alpha-beta graphs are drawn
+plcc_B_graphtype_albe=true
+
+# plcc_B_foldgraphtype_SEQ: Determines whether SEQ notation of folding graphs is calculated and drawn (only applies if 'plcc_B_folding_graphs' is 'true').
+plcc_B_foldgraphtype_SEQ=true
+
+# plcc_B_output_images_dir_tree: Whether to write output images to a sub directory structure under the output directory instead of writing them in their directly. This is useful if you want to process the whole PDB because most filesystems will get into trouble with tens of thousands of files in a single directory. The directory structure will be chosen from the meta data, i.e., PDB ID, chain, graph type, etc.
+plcc_B_output_images_dir_tree=false
+
+# plcc_I_min_fgraph_size_draw: The minimum size a folding graph must have in order to be drawn. Settings this to 1 or 0 draws all of them, including isolated vertices.
+plcc_I_min_fgraph_size_draw=2
+
+# plcc_S_search_similar_method: Used only when plcc_B_search_similar is true. The similarity measure to use, valid settings: string_sse, graph_set, graph_compat
+plcc_S_search_similar_method=string_sse
+
+# plcc_I_img_vert_dist: The distance between two consecutive vertices in the output image, in pixels
+plcc_I_img_vert_dist=50
+
+# plcc_S_search_similar_graphtype: Used only when plcc_B_search_similar is true. The graph type to use as a pattern during the similarity search.
+plcc_S_search_similar_graphtype=albelig
+
+# plcc_B_foldgraphtype_RED: Determines whether RED notation of folding graphs is calculated and drawn (only applies if 'plcc_B_folding_graphs' is 'true').
+plcc_B_foldgraphtype_RED=true
+
+# plcc_I_spatrel_dd_smallest_parallel_hh: Same as above, but for H/H (helix/helix) interactions.
+plcc_I_spatrel_dd_smallest_parallel_hh=8
+
+# plcc_I_spatrel_dd_smallest_parallel_he: Same as above, but for H/E or E/H interactions.
+plcc_I_spatrel_dd_smallest_parallel_he=6
+
+# plcc_I_min_SSE_length: the minimal length in AAs a non-ligand SSE must have to be considered (PTGL-style filtering of very short SSEs)
+plcc_I_min_SSE_length=3
+
+# plcc_I_merge_helices_max_dist: the maximal distance in which helices are merged (distance in residue, in the AA sequence). the default value 0 means only directly adjacent SSEs are merged.
+plcc_I_merge_helices_max_dist=0
+
+# plcc_S_db_name: Database name
+plcc_S_db_name=vplg
+
+# plcc_B_ptgl_geodat_output: Whether the PTGL text files geo.dat for SSE level contacts is written to a text file.
+plcc_B_ptgl_geodat_output=false
+
+# plcc_B_graphimg_legend: Determines whether the graph images contain a legend that explains the color codes and SSE symbols. This is part of the footer.
+plcc_B_graphimg_legend=true
+
+# plcc_B_output_TGF: Whether to save computed protein graphs to text files in Trivial Graph Format (TGF).
+plcc_B_output_TGF=true
+
+# plcc_I_atom_radius: The atom radius of protein atoms in 10th part Angstroem (setting 20 here means 2A)
+plcc_I_atom_radius=20
+
+# plcc_I_spatrel_dd_largest_antip_def: Same as above, this is the default for other interactions (e.g., coil/helix).
+plcc_I_spatrel_dd_largest_antip_def=-7
+
+# plcc_S_ligSSECode: The SSE code used to mark a SSE of type ligand
+plcc_S_ligSSECode=L
+
+# plcc_B_foldgraphtype_KEY: Determines whether KEY notation of folding graphs is calculated and drawn (only applies if 'plcc_B_folding_graphs' is 'true').
+plcc_B_foldgraphtype_KEY=true
+
+# plcc_I_img_header_height: The height of the header area in the output image, in pixels
+plcc_I_img_header_height=40
+
+# plcc_I_db_port: DB server port
+plcc_I_db_port=5432
+
+# plcc_S_db_password: DB password (empty if local is TRUST for this user)
+plcc_S_db_password=
+
+# plcc_B_uglySQLhacks: Whether to rewrite string data like ligand atom formulas before inserting into DB
+plcc_B_uglySQLhacks=false
+
+# plcc_S_img_default_font: The default font used in output image labels. This has to be a valid font name, of course.
+plcc_S_img_default_font=TimesRoman
+
+# plcc_I_search_similar_num_results: Used only when plcc_B_search_similar is true. The number of results to print (e.g., 3 for the 3 most similar proteins in the DB).
+plcc_I_search_similar_num_results=5
+
+# plcc_B_force_chain: Whether to force parsing only a certain PDB chain
+plcc_B_force_chain=false
+
+# plcc_S_forced_chain_id: The forced chain ID, only used when plcc_B_force_chain is true
+plcc_S_forced_chain_id=A
+
+# plcc_I_lig_min_atoms: The minimum number of atoms a ligand has to consist of to count as an SSE.
+plcc_I_lig_min_atoms=1
+
+# plcc_S_db_username: DB username
+plcc_S_db_username=vplg
+
+# plcc_B_output_DOT: Whether to save computed protein graphs to text files in DOT language Format (DOT).
+plcc_B_output_DOT=true
+
+# plcc_S_ligAACode: The amino acid code used to mark a ligand residue
+plcc_S_ligAACode=J
+
+# plcc_B_graphtype_alpha: Determines whether alpha graphs are drawn
+plcc_B_graphtype_alpha=true
+
+# plcc_I_ligSAS: The solvent accessible surface value that is written to the dssplig file for ligands (not used atm)
+plcc_I_ligSAS=20
+
+# plcc_B_graphtype_beta: Determines whether alpha-beta graphs are drawn
+plcc_B_graphtype_beta=true
+
+# plcc_I_spatrel_dd_smallest_parallel_def: Same as above, this is the default for other interactions.
+plcc_I_spatrel_dd_smallest_parallel_def=7
+
+# plcc_S_temp_dir: The directory where temporary files can be created. You need write access to it, of course.
+plcc_S_temp_dir=.
+
+# plcc_I_spatrel_dd_largest_antip_ee: All values <= the one given here are considered antiparallel. This is for E/E (strand/strand) interactions.
+plcc_I_spatrel_dd_largest_antip_ee=0
+
+# plcc_B_ramachandran_plot: Whether a Ramachandran plot is drawn to a file for each chain (slower).
+plcc_B_ramachandran_plot=false
+
+# plcc_I_img_default_font_size: The default font size used in output images.
+plcc_I_img_default_font_size=18
+
+# plcc_B_graphtype_albelig: Determines whether alpha-beta graphs with ligands are drawn
+plcc_B_graphtype_albelig=true
+
+# plcc_B_strict_ptgl_behaviour: Whether plcc should try to strictly mimick the PTGL, including questionable stuff.
+plcc_B_strict_ptgl_behaviour=true
+
+# plcc_I_img_legend_font_size: The legend font size used in output images.
+plcc_I_img_legend_font_size=18
+
+# plcc_S_debug_compareSSEContactsFile: The path to the geo.dat file to use for SSE level contact comparison.
+plcc_S_debug_compareSSEContactsFile=geo.dat_ptgl
+
+# plcc_S_img_output_fileext: file extension of output images (should fit plcc_S_img_output_format more or less, e.g. '.png', '.jpg')
+plcc_S_img_output_fileext=.png
+
+# plcc_S_search_similar_PDBID: Used only when plcc_B_search_similar is true. The protein PDB ID to use as a pattern during the similarity search.
+plcc_S_search_similar_PDBID=8icd
+
+# plcc_I_defaultModel: The default model used if multiple models exist in the PDB file
+plcc_I_defaultModel=1
+
+# plcc_I_img_text_line_height: The vertical distance between two lines of text in the image, e.g., in the footer.
+plcc_I_img_text_line_height=40
+
+# plcc_I_img_margin_left: Size of the left image margin in pixels
+plcc_I_img_margin_left=80
+
+# plcc_B_draw_graphs: Whether the SSE graphs are drawn and written to image files.
+plcc_B_draw_graphs=true
+
+# plcc_B_calc_draw_graphs: Whether the SSE graphs are calculated.
+plcc_B_calc_draw_graphs=true
+
+# plcc_B_graphimg_footer: Determines whether the graph images contain a footer line with info on the SSEs.
+plcc_B_graphimg_footer=true
+
+# plcc_S_db_host: Hostname or IP of the DB server
+plcc_S_db_host=127.0.0.1
+
+# plcc_I_img_vert_radius: The radius of a vertex in the output image, in pixels
+plcc_I_img_vert_radius=10
+
+# plcc_S_img_output_format: image output format (valid options: 'PNG', 'JPG')
+plcc_S_img_output_format=PNG
+
+# plcc_B_split_dsspfile_warning: Whether to show a warning about splitting the DSSP file when multiple models are detected in a PDB file.
+plcc_B_split_dsspfile_warning=true
+
+# plcc_B_ptgl_text_output: Whether the PTGL text files (e.g., those required by the bet_neo) are written. Not writing them is faster but this program cannot replace the PTGL tool 'geom_neo' anymore if this is deactivated.
+plcc_B_ptgl_text_output=false
+
+# plcc_B_contact_debug_dysfunct: Atom level contact debugging mode. WARNING: When this is true, plcc will abort after the first few residues and produce wrong overall results!
+plcc_B_contact_debug_dysfunct=false
+
+# plcc_I_img_margin_top: Size of the top image margin in pixels
+plcc_I_img_margin_top=40
+
+# plcc_B_output_GML: Whether to save computed protein graphs to text files in Graph Modelling Language format (GML).
+plcc_B_output_GML=true
+
+# plcc_I_img_margin_bottom: Size of the bottom image margin in pixels
+plcc_I_img_margin_bottom=40
+
+# plcc_I_spatrel_dd_smallest_parallel_ee: All values >= the one given here are considered parallel. This is for E/E (strand/strand) interactions. Note that the range in between these 2 values is considered mixed (none in the case of E/E).
+plcc_I_spatrel_dd_smallest_parallel_ee=1
+
+# plcc_S_coilSSECode: The amino acid code used to mark a coiled region residue
+plcc_S_coilSSECode=C
+
+# plcc_B_search_similar: Whether to activate the program mode which searches for the most similar protein
+plcc_B_search_similar=false
+
+# plcc_B_graphimg_legend_always_all: Determines whether the legend contains all possible edge and vertex types, i.e., even those not occurring in the current image.
+plcc_B_graphimg_legend_always_all=false
+
+# plcc_B_graphtype_betalig: Determines whether alpha-beta graphs with ligands are drawn
+plcc_B_graphtype_betalig=true
+
+# plcc_B_merge_helices: whether to merge different helix types if they are adjacent in the primary structure
+plcc_B_merge_helices=true
+
+# plcc_B_folding_graphs: Determines whether folding graphs (connected components of the protein graph) are handled (calculated and drawn).
+plcc_B_folding_graphs=false
+
+# plcc_B_print_contacts: Whether the residue contacts are printed to stdout (slower)
+plcc_B_print_contacts=false
+
+# plcc_I_lig_max_atoms: The maximum number of atoms a ligand has to consist of to count as an SSE. Set to <0 for unlimited.
+plcc_I_lig_max_atoms=-1
+
+# plcc_I_lig_atom_radius: The atom radius of ligand atoms in 10th part Angstroem (setting 40 here means 4A)
+plcc_I_lig_atom_radius=30
+
+# plcc_I_img_footer_height: The height of the footer area in the output image, in pixels
+plcc_I_img_footer_height=120
+
+# plcc_I_img_minPageHeight: The minimum image height in pixels, used in output images.
+plcc_I_img_minPageHeight=480
+
+# plcc_S_search_similar_chainID: Used only when plcc_B_search_similar is true. The protein chain ID to use as a pattern during the similarity search.
+plcc_S_search_similar_chainID=A
+
+# plcc_B_foldgraphtype_ADJ: Determines whether ADJ notation of folding graphs is calculated and drawn (only applies if 'plcc_B_folding_graphs' is 'true').
+plcc_B_foldgraphtype_ADJ=true
+
+# plcc_B_include_coils: Whether coils (DSSP SSE type ' ') should be considered
+plcc_B_include_coils=false
+
+# plcc_B_graphtype_alphalig: Determines whether alpha graphs with ligands are drawn
+plcc_B_graphtype_alphalig=true
+
+# plcc_B_graphimg_header: Determines whether the graph images contain a header line with info on the graph type, PDBID and chain.
+plcc_B_graphimg_header=true
+
+# plcc_I_max_contacts_per_type: The maximum number of contacts of a certain type that is counted for a residue pair. Simply set it to something very large if you don't want any limit (Integer.MAX_VALUE comes to mind). The PTGL uses a setting of 1 (so if a pair has 3 B/B cotacts and 2 C/B contacts, it is is counted as 1 B/B and 1 C/B.)
+plcc_I_max_contacts_per_type=100
+
+# plcc_I_spatrel_dd_largest_antip_hh: Same as above, but for H/H (helix/helix) interactions.
+plcc_I_spatrel_dd_largest_antip_hh=-8
+
+# plcc_B_SSEcontactsAtom: Defines the contact level used to determine SSE contacts. If set to true, the number of atom level. contacts decides whether an SSE contact exists. If set to false, the residue level contacts are used instead.
+plcc_B_SSEcontactsAtom=true
+
+# plcc_I_spatrel_dd_largest_antip_he: Same as above, but for H/E or E/H interactions.
+plcc_I_spatrel_dd_largest_antip_he=-6
+
+# plcc_S_output_dir: output directory
+plcc_S_output_dir=.
+
+# plcc_B_write_lig_geolig: Determines whether ligand contacts are included in the <pdbid>.geolig file.
+plcc_B_write_lig_geolig=true
+
+# plcc_I_debug_level: Debug level
+plcc_I_debug_level=0
+
+# plcc_B_useDB: Whether to write statistics to the PostgreSQL database
+plcc_B_useDB=false

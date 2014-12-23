@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a7m, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE, FOUR HELICAL BUNDLE
+> pdb_mol_name > LEUKEMIA INHIBITORY FACTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 16-MAR-98
+> header > CYTOKINE
+> pdb_org_common > HOUSE MOUSE
+> title > LEUKAEMIA INHIBITORY FACTOR CHIMERA (MH35-LIF), NMR, 20STRUCTURES
+> format_version > 2
+> pdbid > 1a7m
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a7m | A | albelig | 1 | 1 | H | 23 | 48 | A-23-  | A-48-  | MNQIKNQLAQLNGSANALFISYYTAQ 
+| 1a7m | A | albelig | 2 | 2 | H | 56 | 59 | A-56-  | A-59-  | LDKL 
+| 1a7m | A | albelig | 3 | 3 | H | 76 | 104 | A-76-  | A-104-  | EKAKLVELYRMVAYLSASLTNITRDQKVL 
+| 1a7m | A | albelig | 4 | 4 | H | 108 | 132 | A-108-  | A-132-  | AVSLHSKLNATIDVMRGLLSNVLNR 
+| 1a7m | A | albelig | 5 | 5 | H | 154 | 160 | A-154-  | A-160-  | EVFQKKK 
+| 1a7m | A | albelig | 6 | 6 | H | 163 | 176 | A-163-  | A-176-  | CQLLGTYKQVISVV 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 4
+= 1 = m = 5
+= 1 = a = 6
+= 3 = a = 4
+= 3 = a = 6
+# Listed 6 contacts. EOF.

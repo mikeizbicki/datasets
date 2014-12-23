@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eiz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FTSJ, METHYLTRANSFERASE, ADOMET, ADENOSYL METHIONINE, HEATSHOCK PROTEINS, 23S RIBOSOMAL RNA
+> pdb_mol_name > FTSJ
+> graphtype > albelig
+> resolution > 1.7
+> date > 29-FEB-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > FTSJ RNA METHYLTRANSFERASE COMPLEXED WITH S-ADENOSYLMETHIONINE
+> format_version > 2
+> pdbid > 1eiz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eiz | A | albelig | 1 | 1 | H | 5 | 17 | A-34-  | A-46-  | RAWFKLDEIQQSD 
+| 1eiz | A | albelig | 2 | 2 | E | 25 | 29 | A-54-  | A-58-  | TVVDL 
+| 1eiz | A | albelig | 3 | 3 | H | 35 | 44 | A-64-  | A-73-  | GWSQYVVTQI 
+| 1eiz | A | albelig | 4 | 4 | E | 49 | 54 | A-78-  | A-83-  | RIIACD 
+| 1eiz | A | albelig | 5 | 5 | E | 64 | 68 | A-93-  | A-97-  | VDFLQ 
+| 1eiz | A | albelig | 6 | 6 | H | 74 | 84 | A-103-  | A-113-  | ELVMKALLERV 
+| 1eiz | A | albelig | 7 | 7 | E | 89 | 94 | A-118-  | A-123-  | VQVVMS 
+| 1eiz | A | albelig | 8 | 8 | H | 104 | 125 | A-133-  | A-154-  | PAVDIPRAMYLVELALEMCRDV 
+| 1eiz | A | albelig | 9 | 9 | E | 126 | 137 | A-155-  | A-166-  | LAPGGSFVVKVF 
+| 1eiz | A | albelig | 10 | 10 | H | 142 | 152 | A-171-  | A-181-  | FDEYLREIRSL 
+| 1eiz | A | albelig | 11 | 11 | E | 153 | 159 | A-182-  | A-188-  | FTKVKVR 
+| 1eiz | A | albelig | 12 | 12 | E | 170 | 178 | A-199-  | A-207-  | EVYIVATGR 
+| 1eiz | A | albelig | 13 | 13 | L | 181 | 181 | A-301-  | A-301-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 12
+= 1 = l = 13
+= 2 = p = 4
+= 2 = p = 7
+= 3 = m = 4
+= 3 = m = 7
+= 3 = l = 13
+= 4 = p = 5
+= 4 = a = 6
+= 4 = l = 13
+= 7 = p = 9
+= 8 = a = 9
+= 8 = p = 10
+= 8 = l = 13
+= 9 = a = 12
+= 9 = l = 13
+= 10 = m = 11
+= 10 = p = 12
+= 11 = a = 12
+# Listed 20 contacts. EOF.

@@ -1,0 +1,87 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 117e, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME MECHANISM, IORGANIC PYROPHOSPHATASE, MUTANSTRUCTURES, 2-METAL ION MECHANISM, HYDROLASE
+> pdb_mol_name > PROTEIN (INORGANIC PYROPHOSPHATASE)
+> graphtype > albelig
+> resolution > 2.15
+> date > 15-SEP-98
+> header > HYDROLASE
+> pdb_org_common > BAKER'S YEAST
+> title > THE R78K AND D117E ACTIVE SITE VARIANTS OF SACCHAROMYCESCEREVISIAE SOLUBLE INORGANIC PYROPHOSPHATASE: STRUCTURALSTUDIES AND MECHANISTIC IMPLICATIONS
+> format_version > 2
+> pdbid > 117e
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 117e | B | albelig | 1 | 1 | E | 285 | 292 | B-1002-  | B-1009-  | YTTRQIGA 
+| 117e | B | albelig | 2 | 2 | E | 299 | 304 | B-1016-  | B-1021-  | KVYIEK 
+| 117e | B | albelig | 3 | 3 | E | 307 | 309 | B-1024-  | B-1026-  | KPV 
+| 117e | B | albelig | 4 | 4 | E | 318 | 320 | B-1035-  | B-1037-  | YAD 
+| 117e | B | albelig | 5 | 5 | E | 325 | 332 | B-1042-  | B-1049-  | IFNMVVEI 
+| 117e | B | albelig | 6 | 6 | E | 340 | 342 | B-1057-  | B-1059-  | LEI 
+| 117e | B | albelig | 7 | 7 | E | 351 | 353 | B-1068-  | B-1070-  | IIQ 
+| 117e | B | albelig | 8 | 8 | E | 375 | 378 | B-1092-  | B-1095-  | NYGA 
+| 117e | B | albelig | 9 | 9 | E | 403 | 406 | B-1120-  | B-1123-  | DVLE 
+| 117e | B | albelig | 10 | 10 | E | 417 | 426 | B-1134-  | B-1143-  | VKQVKALGIM 
+| 117e | B | albelig | 11 | 11 | E | 428 | 430 | B-1145-  | B-1147-  | LLD 
+| 117e | B | albelig | 12 | 12 | E | 437 | 442 | B-1154-  | B-1159-  | KVIAID 
+| 117e | B | albelig | 13 | 13 | H | 455 | 460 | B-1172-  | B-1177-  | EDVEKY 
+| 117e | B | albelig | 14 | 14 | H | 464 | 474 | B-1181-  | B-1191-  | LLRATNEWFRI 
+| 117e | B | albelig | 15 | 15 | H | 477 | 479 | B-1194-  | B-1196-  | IPD 
+| 117e | B | albelig | 16 | 16 | H | 487 | 490 | B-1204-  | B-1207-  | AFSG 
+| 117e | B | albelig | 17 | 17 | E | 492 | 494 | B-1209-  | B-1211-  | AKN 
+| 117e | B | albelig | 18 | 18 | H | 495 | 513 | B-1212-  | B-1230-  | KKYALDIIKETHDSWKQLI 
+| 117e | B | albelig | 19 | 19 | H | 539 | 543 | B-1256-  | B-1260-  | AASDA 
+| 117e | B | albelig | 20 | 20 | E | 548 | 550 | B-1265-  | B-1267-  | SLK 
+| 117e | B | albelig | 21 | 21 | H | 557 | 560 | B-1274-  | B-1277-  | KSID 
+| 117e | B | albelig | 22 | 22 | L | 572 | 572 | B-2005-  | B-2005-  | J 
+| 117e | B | albelig | 23 | 23 | L | 573 | 573 | B-2006-  | B-2006-  | J 
+| 117e | B | albelig | 24 | 24 | L | 574 | 574 | B-2007-  | B-2007-  | J 
+| 117e | B | albelig | 25 | 25 | L | 575 | 575 | B-2008-  | B-2008-  | J 
+| 117e | B | albelig | 26 | 26 | L | 576 | 576 | B-3004-  | B-3004-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 20
+= 2 = a = 3
+= 2 = a = 7
+= 4 = a = 5
+= 5 = a = 6
+= 5 = a = 8
+= 5 = a = 10
+= 5 = l = 23
+= 6 = a = 7
+= 6 = l = 23
+= 6 = l = 24
+= 6 = l = 26
+= 8 = a = 9
+= 8 = l = 22
+= 8 = l = 23
+= 8 = l = 26
+= 9 = p = 12
+= 9 = l = 22
+= 9 = l = 23
+= 9 = l = 25
+= 9 = l = 26
+= 10 = a = 12
+= 10 = a = 17
+= 10 = m = 18
+= 11 = l = 25
+= 11 = l = 26
+= 12 = l = 22
+= 12 = l = 25
+= 12 = l = 26
+= 17 = m = 18
+= 22 = l = 23
+= 22 = l = 24
+= 22 = l = 25
+= 22 = l = 26
+= 23 = l = 24
+= 23 = l = 26
+= 24 = l = 25
+= 24 = l = 26
+= 25 = l = 26
+# Listed 40 contacts. EOF.

@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1es8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RESTRICTION ENDONUCLEASE, RESTRICTION ENZYME, UNCOMPLEXED, HYDROLASE
+> pdb_mol_name > RESTRICTION ENDONUCLEASE BGLII
+> graphtype > albelig
+> resolution > 2.3
+> date > 07-APR-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF FREE BGLII
+> format_version > 2
+> pdbid > 1es8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1es8 | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | KIDITDY 
+| 1es8 | A | albelig | 2 | 2 | H | 11 | 14 | A-11-  | A-14-  | ADEI 
+| 1es8 | A | albelig | 3 | 3 | H | 17 | 29 | A-17-  | A-29-  | PQLWKEIEETLLK 
+| 1es8 | A | albelig | 4 | 4 | E | 32 | 36 | A-32-  | A-36-  | LHVKA 
+| 1es8 | A | albelig | 5 | 5 | E | 40 | 42 | A-46-  | A-48-  | LIF 
+| 1es8 | A | albelig | 6 | 6 | H | 44 | 58 | A-50-  | A-64-  | PVGTNQYIKDELVPK 
+| 1es8 | A | albelig | 7 | 7 | E | 61 | 63 | A-67-  | A-69-  | KNN 
+| 1es8 | A | albelig | 8 | 8 | H | 70 | 72 | A-76-  | A-78-  | FDF 
+| 1es8 | A | albelig | 9 | 9 | E | 76 | 81 | A-82-  | A-87-  | DIDFGK 
+| 1es8 | A | albelig | 10 | 10 | E | 84 | 89 | A-90-  | A-95-  | TLVEVQ 
+| 1es8 | A | albelig | 11 | 11 | H | 95 | 106 | A-101-  | A-112-  | FLLNNTVRSELF 
+| 1es8 | A | albelig | 12 | 12 | E | 113 | 119 | A-126-  | A-132-  | VAIIITK 
+| 1es8 | A | albelig | 13 | 13 | H | 132 | 144 | A-145-  | A-157-  | YEQAQNQLNSLAE 
+| 1es8 | A | albelig | 14 | 14 | E | 152 | 158 | A-165-  | A-171-  | IRLVGLI 
+| 1es8 | A | albelig | 15 | 15 | E | 165 | 174 | A-178-  | A-187-  | IDIVSTTYAD 
+| 1es8 | A | albelig | 16 | 16 | E | 178 | 191 | A-192-  | A-205-  | RTITKRDTVKGKVI 
+| 1es8 | A | albelig | 17 | 17 | E | 196 | 199 | A-219-  | A-222-  | TIVT 
+| 1es8 | A | albelig | 18 | 18 | L | 205 | 205 | A-600-  | A-600-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 13
+= 1 = a = 14
+= 2 = m = 14
+= 3 = m = 6
+= 4 = a = 5
+= 4 = m = 6
+= 4 = p = 15
+= 6 = p = 9
+= 7 = a = 9
+= 9 = a = 10
+= 9 = l = 18
+= 10 = a = 11
+= 10 = p = 12
+= 10 = l = 18
+= 11 = m = 13
+= 11 = l = 18
+= 12 = m = 13
+= 12 = p = 14
+= 13 = m = 14
+= 15 = a = 16
+= 16 = a = 17
+# Listed 21 contacts. EOF.

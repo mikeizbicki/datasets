@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c16, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NON-CLASSICAL MHC-LIKE, MAJOR HISTOCOMPATIBILITY, BETA2-MICROGLOBULIN, IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (BETA-2-MICROGLOBULIN)
+> graphtype > albelig
+> resolution > 3.1
+> date > 20-JUL-99
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE GAMMA/DELTA T CELL LIGANDT22
+> format_version > 2
+> pdbid > 1c16
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c16 | H | albelig | 1 | 1 | E | 1345 | 1350 | H-6-  | H-11-  | KIQVYS 
+| 1c16 | H | albelig | 2 | 2 | E | 1360 | 1369 | H-21-  | H-30-  | NFLNPYVSGF 
+| 1c16 | H | albelig | 3 | 3 | E | 1375 | 1380 | H-36-  | H-41-  | EVDLLK 
+| 1c16 | H | albelig | 4 | 4 | E | 1401 | 1409 | H-62-  | H-70-  | FYLLYYTEF 
+| 1c16 | H | albelig | 5 | 5 | E | 1417 | 1422 | H-78-  | H-83-  | YAPRVN 
+| 1c16 | H | albelig | 6 | 6 | E | 1430 | 1433 | H-91-  | H-94-  | KIVK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = p = 5
+= 3 = p = 4
+= 3 = a = 5
+= 5 = a = 6
+# Listed 6 contacts. EOF.

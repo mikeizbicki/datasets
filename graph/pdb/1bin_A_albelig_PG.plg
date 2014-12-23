@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bin, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEME, NITROGEN FIXATION, MULTIGENE FAMILY, OXYGEN TRANSPORT
+> pdb_mol_name > LEGHEMOGLOBIN A
+> graphtype > albelig
+> resolution > 2.2
+> date > 23-AUG-96
+> header > OXYGEN TRANSPORT
+> pdb_org_common > SOYBEAN
+> title > LEGHEMOGLOBIN A (ACETOMET)
+> format_version > 2
+> pdbid > 1bin
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GLYCINE MAX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bin | A | albelig | 1 | 1 | H | 5 | 20 | A-5-  | A-20-  | EKQDALVSSSFEAFKA 
+| 1bin | A | albelig | 2 | 2 | H | 22 | 36 | A-22-  | A-36-  | IPQYSVVFYTSILEK 
+| 1bin | A | albelig | 3 | 3 | H | 40 | 43 | A-40-  | A-43-  | AKDL 
+| 1bin | A | albelig | 4 | 4 | H | 45 | 47 | A-45-  | A-47-  | SFL 
+| 1bin | A | albelig | 5 | 5 | H | 56 | 79 | A-56-  | A-79-  | PKLTGHAEKLFALVRDSAGQLKAS 
+| 1bin | A | albelig | 6 | 6 | H | 86 | 92 | A-86-  | A-92-  | AALGSVH 
+| 1bin | A | albelig | 7 | 7 | H | 99 | 120 | A-99-  | A-120-  | DPQFVVVKEALLKTIKAAVGDK 
+| 1bin | A | albelig | 8 | 8 | H | 123 | 142 | A-123-  | A-142-  | DELSRAWEVAYDELAAAIKK 
+| 1bin | A | albelig | 9 | 9 | L | 288 | 288 | A-145-  | A-145-  | J 
+| 1bin | A | albelig | 10 | 10 | L | 289 | 289 | A-200-  | A-200-  | J 
+| 1bin | A | albelig | 11 | 11 | L | 290 | 290 | A-144-  | A-144-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = m = 8
+= 2 = m = 5
+= 2 = a = 7
+= 2 = l = 9
+= 3 = l = 11
+= 4 = m = 5
+= 4 = l = 11
+= 5 = m = 8
+= 5 = l = 9
+= 5 = l = 11
+= 6 = l = 9
+= 6 = l = 11
+= 7 = a = 8
+= 7 = l = 9
+= 7 = l = 10
+= 7 = l = 11
+= 8 = l = 11
+= 9 = l = 11
+# Listed 19 contacts. EOF.

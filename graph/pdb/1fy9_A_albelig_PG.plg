@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fy9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, STABILIZING MUTANT
+> pdb_mol_name > 60 KD CHAPERONIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 28-SEP-00
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE HEXA-SUBSTITUTED MUTANT OF THE MOLECULARCHAPERONIN GROEL APICAL DOMAIN
+> format_version > 2
+> pdbid > 1fy9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fy9 | A | albelig | 1 | 1 | E | 10 | 12 | A-193-  | A-195-  | MQF 
+| 1fy9 | A | albelig | 2 | 2 | H | 19 | 21 | A-202-  | A-204-  | PYF 
+| 1fy9 | A | albelig | 3 | 3 | E | 30 | 33 | A-213-  | A-216-  | VELE 
+| 1fy9 | A | albelig | 4 | 4 | E | 36 | 40 | A-219-  | A-223-  | FILLV 
+| 1fy9 | A | albelig | 5 | 5 | H | 47 | 60 | A-230-  | A-243-  | IRELLPVLEAVAKA 
+| 1fy9 | A | albelig | 6 | 6 | E | 64 | 68 | A-247-  | A-251-  | LLIIA 
+| 1fy9 | A | albelig | 7 | 7 | H | 73 | 84 | A-256-  | A-267-  | GEALATLVVNTM 
+| 1fy9 | A | albelig | 8 | 8 | E | 90 | 94 | A-273-  | A-277-  | VAAVK 
+| 1fy9 | A | albelig | 9 | 9 | H | 99 | 113 | A-282-  | A-296-  | GDRRKAMLQDIATLT 
+| 1fy9 | A | albelig | 10 | 10 | H | 126 | 128 | A-309-  | A-311-  | LEK 
+| 1fy9 | A | albelig | 11 | 11 | E | 135 | 142 | A-318-  | A-325-  | GQAKRVVI 
+| 1fy9 | A | albelig | 12 | 12 | E | 147 | 152 | A-330-  | A-335-  | TTIIDG 
+| 1fy9 | A | albelig | 13 | 13 | H | 156 | 171 | A-339-  | A-354-  | EAAIQGRVAQIRQQIE 
+| 1fy9 | A | albelig | 14 | 14 | H | 176 | 191 | A-359-  | A-374-  | DYDREKLQERVAKLAG 
+| 1fy9 | A | albelig | 15 | 15 | L | 194 | 194 | A-111-  | A-111-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 1 = m = 14
+= 1 = l = 15
+= 3 = a = 11
+= 4 = p = 6
+= 4 = p = 11
+= 6 = p = 8
+= 9 = m = 11
+= 9 = m = 13
+= 9 = p = 14
+= 9 = l = 15
+= 11 = a = 12
+= 13 = a = 14
+= 14 = l = 15
+# Listed 14 contacts. EOF.

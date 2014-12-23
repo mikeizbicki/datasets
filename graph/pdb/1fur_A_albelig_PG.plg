@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fur, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLYASE, CARBON OXYGEN LYASE, KREB'S CYCLE ENZYME, FUMARATEHYDRATASE
+> pdb_mol_name > FUMARASE C
+> graphtype > albelig
+> resolution > 1.95
+> date > 09-JAN-97
+> header > HYDROLYASE
+> pdb_org_common > UNKNOWN
+> title > FUMARASE MUTANT H188N WITH BOUND SUBSTRATE L-MALATE AT PUTATIVEACTIVATOR SITE
+> format_version > 2
+> pdbid > 1fur
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fur | A | albelig | 1 | 1 | E | 2 | 6 | A-5-  | A-9-  | RSEKD 
+| 1fur | A | albelig | 2 | 2 | E | 9 | 13 | A-12-  | A-16-  | GAIDV 
+| 1fur | A | albelig | 3 | 3 | H | 21 | 29 | A-24-  | A-32-  | AQTQRSLEH 
+| 1fur | A | albelig | 4 | 4 | H | 39 | 58 | A-42-  | A-61-  | TSLIHALALTKRAAAKVNED 
+| 1fur | A | albelig | 5 | 5 | H | 64 | 78 | A-67-  | A-81-  | EEKASAIRQAADEVL 
+| 1fur | A | albelig | 6 | 6 | H | 83 | 85 | A-86-  | A-88-  | DDE 
+| 1fur | A | albelig | 7 | 7 | H | 97 | 114 | A-100-  | A-117-  | TQSNMNMNEVLANRASEL 
+| 1fur | A | albelig | 8 | 8 | H | 127 | 131 | A-130-  | A-134-  | PNDDV 
+| 1fur | A | albelig | 9 | 9 | H | 137 | 157 | A-140-  | A-160-  | SNDVFPTAMHVAALLALRKQL 
+| 1fur | A | albelig | 10 | 10 | H | 158 | 174 | A-161-  | A-177-  | IPQLKTLTQTLNEKSRA 
+| 1fur | A | albelig | 11 | 11 | E | 179 | 184 | A-182-  | A-187-  | VKIGRT 
+| 1fur | A | albelig | 12 | 12 | E | 187 | 193 | A-190-  | A-196-  | QDATPLT 
+| 1fur | A | albelig | 13 | 13 | H | 194 | 219 | A-197-  | A-222-  | LGQEISGWVAMLEHNLKHIEYSLPHV 
+| 1fur | A | albelig | 14 | 14 | H | 239 | 251 | A-242-  | A-254-  | YARRVADELAVIT 
+| 1fur | A | albelig | 15 | 15 | H | 261 | 266 | A-264-  | A-269-  | KFEALA 
+| 1fur | A | albelig | 16 | 16 | H | 269 | 295 | A-272-  | A-298-  | DALVQAHGALKGLAASLMKIANDVRWL 
+| 1fur | A | albelig | 17 | 17 | H | 325 | 349 | A-328-  | A-352-  | TQCEALTMLCCQVMGNDVAINMGGA 
+| 1fur | A | albelig | 18 | 18 | H | 359 | 383 | A-362-  | A-386-  | RPMVIHNFLQSVRLLADGMESFNKH 
+| 1fur | A | albelig | 19 | 19 | H | 385 | 387 | A-388-  | A-390-  | AVG 
+| 1fur | A | albelig | 20 | 20 | H | 392 | 401 | A-395-  | A-404-  | RERINQLLNE 
+| 1fur | A | albelig | 21 | 21 | H | 406 | 410 | A-409-  | A-413-  | VTALN 
+| 1fur | A | albelig | 22 | 22 | H | 415 | 428 | A-418-  | A-431-  | YDKAAEIAKKAHKE 
+| 1fur | A | albelig | 23 | 23 | H | 432 | 438 | A-435-  | A-441-  | LKAAALA 
+| 1fur | A | albelig | 24 | 24 | H | 444 | 450 | A-447-  | A-453-  | EAEFDSW 
+| 1fur | A | albelig | 25 | 25 | H | 453 | 455 | A-456-  | A-458-  | PEQ 
+| 1fur | A | albelig | 26 | 26 | L | 914 | 914 | A-468-  | A-468-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = l = 26
+= 2 = m = 3
+= 3 = m = 7
+= 4 = a = 5
+= 4 = m = 7
+= 4 = m = 9
+= 4 = a = 14
+= 7 = m = 8
+= 7 = m = 9
+= 8 = l = 26
+= 9 = m = 10
+= 9 = a = 13
+= 9 = p = 18
+= 10 = a = 13
+= 10 = p = 18
+= 10 = m = 19
+= 11 = a = 12
+= 12 = m = 13
+= 13 = a = 16
+= 16 = a = 17
+= 16 = p = 18
+= 17 = a = 18
+= 21 = m = 22
+# Listed 25 contacts. EOF.

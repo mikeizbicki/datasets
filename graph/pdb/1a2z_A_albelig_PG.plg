@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a2z, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PEPTIDASE, N-PYROGLUTAMATE HYDROLYSIS
+> pdb_mol_name > PYRROLIDONE CARBOXYL PEPTIDASE
+> graphtype > albelig
+> resolution > 1.73
+> date > 13-JAN-98
+> header > PEPTIDASE
+> pdb_org_common > UNKNOWN
+> title > PYRROLIDONE CARBOXYL PEPTIDASE FROM THERMOCOCCUS LITORALIS
+> format_version > 2
+> pdbid > 1a2z
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMOCOCCUS LITORALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a2z | A | albelig | 1 | 1 | E | 2 | 9 | A-2-  | A-9-  | KKVLITGF 
+| 1a2z | A | albelig | 2 | 2 | H | 19 | 27 | A-19-  | A-27-  | PTEQIAKYF 
+| 1a2z | A | albelig | 3 | 3 | E | 35 | 42 | A-35-  | A-42-  | AMVYGRVL 
+| 1a2z | A | albelig | 4 | 4 | H | 46 | 60 | A-46-  | A-60-  | VKRATIELKRYLEEI 
+| 1a2z | A | albelig | 5 | 5 | E | 64 | 70 | A-64-  | A-70-  | IVINLGL 
+| 1a2z | A | albelig | 6 | 6 | E | 77 | 80 | A-77-  | A-80-  | ITVE 
+| 1a2z | A | albelig | 7 | 7 | E | 82 | 84 | A-82-  | A-84-  | IAV 
+| 1a2z | A | albelig | 8 | 8 | E | 111 | 113 | A-111-  | A-113-  | AYM 
+| 1a2z | A | albelig | 9 | 9 | H | 118 | 127 | A-118-  | A-127-  | VRAITKTLRD 
+| 1a2z | A | albelig | 10 | 10 | E | 132 | 135 | A-132-  | A-135-  | ATIS 
+| 1a2z | A | albelig | 11 | 11 | H | 142 | 157 | A-142-  | A-157-  | LCNYVMFKTLHFSKIE 
+| 1a2z | A | albelig | 12 | 12 | E | 162 | 168 | A-162-  | A-168-  | KAGFIHV 
+| 1a2z | A | albelig | 13 | 13 | H | 172 | 175 | A-172-  | A-175-  | PDQV 
+| 1a2z | A | albelig | 14 | 14 | E | 179 | 181 | A-179-  | A-181-  | FFL 
+| 1a2z | A | albelig | 15 | 15 | H | 191 | 210 | A-191-  | A-210-  | LEAEIKAIELAVKVSLDYLE 
+| 1a2z | A | albelig | 16 | 16 | L | 884 | 884 | A-621-  | A-621-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = p = 5
+= 2 = a = 3
+= 2 = m = 15
+= 3 = a = 4
+= 4 = p = 11
+= 5 = a = 11
+= 5 = p = 12
+= 6 = p = 10
+= 6 = a = 12
+= 7 = a = 8
+= 7 = m = 11
+= 9 = m = 10
+= 9 = a = 15
+= 11 = a = 12
+= 12 = a = 15
+# Listed 17 contacts. EOF.

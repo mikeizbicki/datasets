@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g5j, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX, APOPTOSIS
+> pdb_mol_name > APOPTOSIS REGULATOR BCL-X
+> graphtype > albelig
+> resolution > -1.0
+> date > 01-NOV-00
+> header > APOPTOSIS
+> pdb_org_common > HUMAN
+> title > COMPLEX OF BCL-XL WITH PEPTIDE FROM BAD
+> format_version > 2
+> pdbid > 1g5j
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g5j | A | albelig | 1 | 1 | H | 3 | 24 | A-3-  | A-24-  | MAMSQSNRELVVDFLSYKLSQK 
+| 1g5j | A | albelig | 2 | 2 | H | 28 | 30 | A-28-  | A-30-  | WSQ 
+| 1g5j | A | albelig | 3 | 3 | H | 46 | 64 | A-46-  | A-104-  | ESEAVKQALREAGDEFELR 
+| 1g5j | A | albelig | 4 | 4 | H | 66 | 69 | A-106-  | A-109-  | RRAF 
+| 1g5j | A | albelig | 5 | 5 | H | 83 | 95 | A-123-  | A-135-  | AYQSFEQVVNELF 
+| 1g5j | A | albelig | 6 | 6 | H | 100 | 120 | A-140-  | A-160-  | NWGRIVAFFSFGGALCVESVD 
+| 1g5j | A | albelig | 7 | 7 | H | 125 | 141 | A-165-  | A-181-  | VLVSRIAAWMATYLNDH 
+| 1g5j | A | albelig | 8 | 8 | H | 144 | 149 | A-184-  | A-189-  | PWIQEN 
+| 1g5j | A | albelig | 9 | 9 | H | 151 | 159 | A-191-  | A-199-  | GWDTFVELY 
+| 1g5j | A | albelig | 10 | 10 | H | 161 | 171 | A-201-  | A-211-  | NNAAAESRKGQ 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 6
+= 1 = a = 7
+= 3 = m = 6
+= 3 = m = 9
+= 5 = m = 6
+= 5 = p = 7
+= 6 = a = 7
+= 6 = m = 8
+= 6 = m = 9
+# Listed 10 contacts. EOF.

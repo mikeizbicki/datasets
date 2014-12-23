@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b4w, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BASIC PHOSPHOLIPASE A2, AGKISTRODON HALYS PALLAS, DIMER,ANTICOAGULANT ACTIVITY, HYDROLASE
+> pdb_mol_name > PROTEIN (PHOSPHOLIPASE A2)
+> graphtype > albelig
+> resolution > 2.6
+> date > 30-DEC-98
+> header > HYDROLASE
+> pdb_org_common > HALYS VIPER
+> title > BASIC PHOSPHOLIPASE A2 FROM AGKISTRODON HALYS PALLAS-IMPLICATIONS FOR ITS ASSOCIATION AND ANTICOAGULANTACTIVITIES BY X-RAY CRYSTALLOGRAPHY
+> format_version > 2
+> pdbid > 1b4w
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > GLOYDIUS HALYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b4w | D | albelig | 1 | 1 | H | 371 | 382 | D-2-  | D-13-  | LLQFRKMIKKMT 
+| 1b4w | D | albelig | 2 | 2 | H | 386 | 389 | D-18-  | D-21-  | PVVS 
+| 1b4w | D | albelig | 3 | 3 | H | 408 | 422 | D-40-  | D-54-  | ATDRXWFVHDYZYEK 
+| 1b4w | D | albelig | 4 | 4 | H | 438 | 440 | D-78-  | D-80-  | KNG 
+| 1b4w | D | albelig | 5 | 5 | H | 449 | 467 | D-90-  | D-108-  | PAKKEVNEZDKAAAIXFRD 
+| 1b4w | D | albelig | 6 | 6 | H | 469 | 471 | D-110-  | D-112-  | LKT 
+| 1b4w | D | albelig | 7 | 7 | H | 474 | 476 | D-115-  | D-117-  | KRY 
+| 1b4w | D | albelig | 8 | 8 | H | 481 | 483 | D-122-  | D-125-  | DIL 
+| 1b4w | D | albelig | 9 | 9 | L | 493 | 493 | D-300-  | D-300-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 5
+= 1 = l = 9
+= 2 = l = 9
+= 3 = a = 5
+= 3 = l = 9
+# Listed 6 contacts. EOF.

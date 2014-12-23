@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a79, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDONUCLEASE, TRNA ENDONUCLEASE
+> pdb_mol_name > TRNA ENDONUCLEASE
+> graphtype > albelig
+> resolution > 2.28
+> date > 23-MAR-98
+> header > ENDONUCLEASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE TRNA SPLICING ENDONUCLEASE FROMMETHANOCOCCUS JANNASCHII
+> format_version > 2
+> pdbid > 1a79
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > METHANOCALDOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a79 | A | albelig | 1 | 1 | E | 2 | 7 | A-10-  | A-15-  | ITGLLD 
+| 1a79 | A | albelig | 2 | 2 | E | 10 | 13 | A-18-  | A-21-  | RVIV 
+| 1a79 | A | albelig | 3 | 3 | H | 16 | 24 | A-24-  | A-32-  | KNGISKLSA 
+| 1a79 | A | albelig | 4 | 4 | E | 35 | 38 | A-43-  | A-46-  | LSLS 
+| 1a79 | A | albelig | 5 | 5 | H | 39 | 48 | A-47-  | A-56-  | LVEALYLINL 
+| 1a79 | A | albelig | 6 | 6 | E | 51 | 54 | A-59-  | A-62-  | LEVK 
+| 1a79 | A | albelig | 7 | 7 | H | 63 | 73 | A-71-  | A-81-  | FEELYEYARNV 
+| 1a79 | A | albelig | 8 | 8 | H | 77 | 89 | A-85-  | A-97-  | LCLKYLVYKDLRT 
+| 1a79 | A | albelig | 9 | 9 | E | 93 | 96 | A-101-  | A-104-  | IVKT 
+| 1a79 | A | albelig | 10 | 10 | H | 98 | 100 | A-106-  | A-108-  | LKY 
+| 1a79 | A | albelig | 11 | 11 | E | 104 | 107 | A-112-  | A-115-  | FRLY 
+| 1a79 | A | albelig | 12 | 12 | E | 120 | 126 | A-128-  | A-134-  | YLVKVFP 
+| 1a79 | A | albelig | 13 | 13 | H | 134 | 145 | A-142-  | A-153-  | SELTGFVRVAHS 
+| 1a79 | A | albelig | 14 | 14 | E | 149 | 155 | A-157-  | A-163-  | KLLIAIV 
+| 1a79 | A | albelig | 15 | 15 | E | 161 | 169 | A-169-  | A-177-  | IVYYNMTYV 
+| 1a79 | A | albelig | 16 | 16 | L | 688 | 688 | A-1-  | A-1-  | J 
+| 1a79 | A | albelig | 17 | 17 | L | 689 | 689 | A-4-  | A-4-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = a = 4
+= 4 = m = 5
+= 5 = m = 6
+= 5 = a = 7
+= 5 = m = 8
+= 7 = m = 8
+= 7 = l = 17
+= 8 = m = 15
+= 8 = l = 17
+= 9 = a = 11
+= 10 = l = 16
+= 11 = a = 12
+= 11 = l = 16
+= 12 = a = 13
+= 12 = p = 14
+= 13 = m = 14
+= 14 = a = 15
+# Listed 19 contacts. EOF.

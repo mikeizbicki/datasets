@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a52, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RECEPTOR, ESTROGEN, LIGAND, TRANSCRIPTION REGULATION
+> pdb_mol_name > ESTROGEN RECEPTOR
+> graphtype > albelig
+> resolution > 2.8
+> date > 19-FEB-98
+> header > RECEPTOR
+> pdb_org_common > HUMAN
+> title > ESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN COMPLEXED TO ESTRADIOL
+> format_version > 2
+> pdbid > 1a52
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a52 | B | albelig | 1 | 1 | H | 248 | 258 | B-312-  | B-322-  | ADQMVSALLDA 
+| 1a52 | B | albelig | 2 | 2 | H | 275 | 299 | B-339-  | B-363-  | EASMMGLLTNLADRELVHMINWAKR 
+| 1a52 | B | albelig | 3 | 3 | H | 308 | 330 | B-372-  | B-394-  | LHDQVHLLECAWLEILMIGLVWR 
+| 1a52 | B | albelig | 4 | 4 | E | 337 | 341 | B-401-  | B-405-  | KLLFA 
+| 1a52 | B | albelig | 5 | 5 | E | 344 | 347 | B-408-  | B-411-  | LLLD 
+| 1a52 | B | albelig | 6 | 6 | H | 349 | 351 | B-413-  | B-415-  | NQG 
+| 1a52 | B | albelig | 7 | 7 | H | 358 | 373 | B-422-  | B-437-  | VEIFDMLLATSSRFRM 
+| 1a52 | B | albelig | 8 | 8 | H | 378 | 391 | B-442-  | B-455-  | GEEFVCLKSIILLN 
+| 1a52 | B | albelig | 9 | 9 | H | 402 | 428 | B-466-  | B-492-  | LKSLEEKDHIHRVLDKITDTLIHLMAK 
+| 1a52 | B | albelig | 10 | 10 | H | 433 | 466 | B-497-  | B-530-  | LQQQHERLAQLLLILSHIRHMSNKGMEHLYSMKC 
+| 1a52 | B | albelig | 11 | 11 | H | 473 | 479 | B-537-  | B-543-  | YDLLLEM 
+| 1a52 | B | albelig | 12 | 12 | L | 485 | 485 | B-2-  | B-2-  | J 
+| 1a52 | B | albelig | 13 | 13 | L | 486 | 486 | B-12-  | B-12-  | J 
+| 1a52 | B | albelig | 14 | 14 | L | 487 | 487 | B-13-  | B-13-  | J 
+| 1a52 | B | albelig | 15 | 15 | L | 488 | 488 | B-15-  | B-15-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = a = 3
+= 2 = l = 12
+= 3 = m = 4
+= 3 = m = 7
+= 3 = a = 8
+= 3 = a = 10
+= 3 = l = 12
+= 3 = l = 14
+= 4 = a = 5
+= 4 = l = 12
+= 5 = m = 6
+= 7 = a = 10
+= 7 = l = 12
+= 8 = a = 9
+= 9 = m = 10
+= 9 = l = 13
+= 10 = l = 12
+# Listed 18 contacts. EOF.

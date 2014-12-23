@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcj, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, C-TYPE LECTIN, CALCIUM-BINDING PROTEIN
+> pdb_mol_name > MANNOSE-BINDING PROTEIN-A
+> graphtype > albelig
+> resolution > 2.1
+> date > 30-APR-98
+> header > LECTIN
+> pdb_org_common > NORWAY RAT
+> title > MANNOSE-BINDING PROTEIN-A MUTANT (QPDWGHV) COMPLEXED WITH N-ACETYL-D-GALACTOSAMINE
+> format_version > 2
+> pdbid > 1bcj
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcj | 2 | albelig | 1 | 1 | H | 157 | 185 | 2-74-  | 2-102-  | IEVKLANMEAEINTLKSKLELTNKLHAFS 
+| 1bcj | 2 | albelig | 2 | 2 | E | 194 | 202 | 2-111-  | 2-119-  | FFVTNHERM 
+| 1bcj | 2 | albelig | 3 | 3 | H | 204 | 213 | 2-121-  | 2-130-  | FSKVKALCSE 
+| 1bcj | 2 | albelig | 4 | 4 | H | 224 | 234 | 2-141-  | 2-151-  | AEENKAIQEVA 
+| 1bcj | 2 | albelig | 5 | 5 | E | 238 | 243 | 2-155-  | 2-160-  | AFLGIT 
+| 1bcj | 2 | albelig | 6 | 6 | E | 283 | 286 | 2-200-  | 2-203-  | DVHI 
+| 1bcj | 2 | albelig | 7 | 7 | E | 292 | 295 | 2-209-  | 2-212-  | WNDI 
+| 1bcj | 2 | albelig | 8 | 8 | E | 301 | 307 | 2-218-  | 2-224-  | HTAVCEF 
+| 1bcj | 2 | albelig | 9 | 9 | L | 470 | 470 | 2-1-  | 2-1-  | J 
+| 1bcj | 2 | albelig | 10 | 10 | L | 471 | 471 | 2-227-  | 2-227-  | J 
+| 1bcj | 2 | albelig | 11 | 11 | L | 472 | 472 | 2-2-  | 2-2-  | J 
+| 1bcj | 2 | albelig | 12 | 12 | L | 473 | 473 | 2-3-  | 2-3-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 4
+= 2 = a = 8
+= 3 = m = 8
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 6 = l = 9
+= 7 = l = 9
+= 7 = l = 10
+= 7 = l = 11
+= 9 = l = 11
+= 10 = l = 12
+# Listed 12 contacts. EOF.

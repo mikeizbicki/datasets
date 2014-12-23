@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a0h, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, COAGULATION, THROMBIN, PROTHROMBIN, MEIZOTHROMBIN,HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > MEIZOTHROMBIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 30-NOV-97
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > THE X-RAY CRYSTAL STRUCTURE OF PPACK-MEIZOTHROMBIN DESF1:KRINGLE/THROMBIN AND CARBOHYDRATE/KRINGLE/THROMBIN INTERACTIONS ANDLOCATION OF THE LINKER CHAIN
+> format_version > 2
+> pdbid > 1a0h
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a0h | B | albelig | 1 | 1 | E | 175 | 180 | B-335-  | B-340-  | QVMLFR 
+| 1a0h | B | albelig | 2 | 2 | E | 185 | 192 | B-345-  | B-352-  | ELLEGASL 
+| 1a0h | B | albelig | 3 | 3 | E | 197 | 199 | B-357-  | B-359-  | WVL 
+| 1a0h | B | albelig | 4 | 4 | H | 202 | 204 | B-362-  | B-364-  | AHE 
+| 1a0h | B | albelig | 5 | 5 | H | 208 | 210 | B-368-  | B-370-  | PPW 
+| 1a0h | B | albelig | 6 | 6 | H | 216 | 218 | B-376-  | B-378-  | VDD 
+| 1a0h | B | albelig | 7 | 7 | E | 219 | 223 | B-379-  | B-383-  | LLVRI 
+| 1a0h | B | albelig | 8 | 8 | E | 237 | 240 | B-397-  | B-400-  | KISM 
+| 1a0h | B | albelig | 9 | 9 | H | 283 | 289 | B-443-  | B-449-  | KQTAAKL 
+| 1a0h | B | albelig | 10 | 10 | E | 295 | 299 | B-455-  | B-459-  | KGRVT 
+| 1a0h | B | albelig | 11 | 11 | H | 312 | 315 | B-472-  | B-475-  | VAEV 
+| 1a0h | B | albelig | 12 | 12 | E | 321 | 326 | B-481-  | B-486-  | QVVNLP 
+| 1a0h | B | albelig | 13 | 13 | H | 330 | 334 | B-490-  | B-494-  | RPVFK 
+| 1a0h | B | albelig | 14 | 14 | E | 345 | 348 | B-505-  | B-508-  | MFFA 
+| 1a0h | B | albelig | 15 | 15 | E | 368 | 372 | B-528-  | B-532-  | PFVMK 
+| 1a0h | B | albelig | 16 | 16 | H | 375 | 377 | B-535-  | B-537-  | YNN 
+| 1a0h | B | albelig | 17 | 17 | E | 379 | 387 | B-539-  | B-547-  | WYQMGIVSW 
+| 1a0h | B | albelig | 18 | 18 | E | 398 | 402 | B-558-  | B-562-  | GFYTH 
+| 1a0h | B | albelig | 19 | 19 | H | 403 | 414 | B-563-  | B-574-  | VFRLKKWIQKVI 
+| 1a0h | B | albelig | 20 | 20 | L | 840 | 840 | B-1-  | B-1-  | J 
+| 1a0h | B | albelig | 21 | 21 | L | 841 | 841 | B-584-  | B-584-  | J 
+| 1a0h | B | albelig | 22 | 22 | L | 842 | 842 | B-585-  | B-585-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 2 = a = 3
+= 4 = l = 20
+= 5 = l = 20
+= 5 = l = 21
+= 6 = m = 7
+= 7 = a = 8
+= 10 = a = 12
+= 10 = a = 15
+= 14 = a = 18
+= 15 = a = 17
+= 17 = a = 18
+= 17 = m = 19
+= 17 = l = 20
+= 18 = m = 19
+= 18 = l = 20
+= 21 = l = 22
+# Listed 18 contacts. EOF.

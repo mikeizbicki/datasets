@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cd0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, BENCE-JONES PROTEIN, LAMDA-6, IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (JTO, A VARIABLE DOMAIN FROM LAMBDA-6
+> graphtype > albelig
+> resolution > 1.9
+> date > 05-MAR-99
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF HUMAN LAMDA-6 LIGHT CHAIN DIMER JTO
+> format_version > 2
+> pdbid > 1cd0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cd0 | B | albelig | 1 | 1 | E | 121 | 124 | B-9-  | B-13-  | SVSE 
+| 1cd0 | B | albelig | 2 | 2 | E | 130 | 136 | B-19-  | B-25-  | VTISNTR 
+| 1cd0 | B | albelig | 3 | 3 | H | 141 | 143 | B-28-  | B-30-  | IDS 
+| 1cd0 | B | albelig | 4 | 4 | E | 146 | 151 | B-33-  | B-38-  | VQWYQQ 
+| 1cd0 | B | albelig | 5 | 5 | E | 158 | 161 | B-45-  | B-48-  | ITVI 
+| 1cd0 | B | albelig | 6 | 6 | E | 175 | 180 | B-62-  | B-66-A | FAGSID 
+| 1cd0 | B | albelig | 7 | 7 | E | 185 | 190 | B-70-  | B-75-  | SASLTI 
+| 1cd0 | B | albelig | 8 | 8 | H | 195 | 197 | B-80-  | B-82-  | TED 
+| 1cd0 | B | albelig | 9 | 9 | E | 199 | 206 | B-84-  | B-91-  | ADYYNQSY 
+| 1cd0 | B | albelig | 10 | 10 | E | 211 | 213 | B-96-  | B-98-  | VVF 
+| 1cd0 | B | albelig | 11 | 11 | E | 217 | 221 | B-102-  | B-106-  | TRLTV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 11
+= 2 = a = 7
+= 2 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 9 = a = 11
+# Listed 9 contacts. EOF.

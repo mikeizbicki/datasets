@@ -1,0 +1,95 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j0p, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TETRAHEME CYTOCHROME C3, HIGH RESOLUTION X-RAY STRUCTURE,Y43L MUTANT, ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME C3
+> graphtype > albelig
+> resolution > 0.91
+> date > 19-NOV-02
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > THREE DIMENSIONAL STRUCTURE OF THE Y43L MUTANT OF TETRAHEMECYTOCHROME C3 FROM DESULFOVIBRIO VULGARIS MIYAZAKI F
+> format_version > 2
+> pdbid > 1j0p
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DESULFOVIBRIO VULGARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j0p | A | albelig | 1 | 1 | E | 10 | 12 | A-9-  | A-11-  | LKM 
+| 1j0p | A | albelig | 2 | 2 | E | 19 | 21 | A-18-  | A-20-  | VVF 
+| 1j0p | A | albelig | 3 | 3 | H | 23 | 25 | A-22-  | A-24-  | HST 
+| 1j0p | A | albelig | 4 | 4 | H | 31 | 33 | A-30-  | A-32-  | CGD 
+| 1j0p | A | albelig | 5 | 5 | H | 66 | 71 | A-65-  | A-70-  | YYHAMH 
+| 1j0p | A | albelig | 6 | 6 | H | 80 | 88 | A-79-  | A-87-  | CVGCHLETA 
+| 1j0p | A | albelig | 7 | 7 | H | 92 | 99 | A-91-  | A-98-  | AAKKKELT 
+| 1j0p | A | albelig | 8 | 8 | L | 109 | 109 | A-2501-  | A-2501-  | J 
+| 1j0p | A | albelig | 9 | 9 | L | 110 | 110 | A-2502-  | A-2502-  | J 
+| 1j0p | A | albelig | 10 | 10 | L | 111 | 111 | A-1004-  | A-1004-  | J 
+| 1j0p | A | albelig | 11 | 11 | L | 112 | 112 | A-1002-  | A-1002-  | J 
+| 1j0p | A | albelig | 12 | 12 | L | 113 | 113 | A-1001-  | A-1001-  | J 
+| 1j0p | A | albelig | 13 | 13 | L | 114 | 114 | A-1003-  | A-1003-  | J 
+| 1j0p | A | albelig | 14 | 14 | L | 115 | 115 | A-2001-  | A-2001-  | J 
+| 1j0p | A | albelig | 15 | 15 | L | 116 | 116 | A-2002-  | A-2002-  | J 
+| 1j0p | A | albelig | 16 | 16 | L | 117 | 117 | A-2003-  | A-2003-  | J 
+| 1j0p | A | albelig | 17 | 17 | L | 118 | 118 | A-2004-  | A-2004-  | J 
+| 1j0p | A | albelig | 18 | 18 | L | 119 | 119 | A-2005-  | A-2005-  | J 
+| 1j0p | A | albelig | 19 | 19 | L | 120 | 120 | A-2006-  | A-2006-  | J 
+| 1j0p | A | albelig | 20 | 20 | L | 121 | 121 | A-2007-  | A-2007-  | J 
+| 1j0p | A | albelig | 21 | 21 | L | 122 | 122 | A-2008-  | A-2008-  | J 
+| 1j0p | A | albelig | 22 | 22 | L | 123 | 123 | A-2009-  | A-2009-  | J 
+| 1j0p | A | albelig | 23 | 23 | L | 124 | 124 | A-2010-  | A-2010-  | J 
+| 1j0p | A | albelig | 24 | 24 | L | 125 | 125 | A-2011-  | A-2011-  | J 
+| 1j0p | A | albelig | 25 | 25 | L | 126 | 126 | A-2012-  | A-2012-  | J 
+| 1j0p | A | albelig | 26 | 26 | L | 127 | 127 | A-2013-  | A-2013-  | J 
+| 1j0p | A | albelig | 27 | 27 | L | 128 | 128 | A-2014-  | A-2014-  | J 
+| 1j0p | A | albelig | 28 | 28 | L | 129 | 129 | A-2015-  | A-2015-  | J 
+| 1j0p | A | albelig | 29 | 29 | L | 130 | 130 | A-2016-  | A-2016-  | J 
+| 1j0p | A | albelig | 30 | 30 | L | 131 | 131 | A-2017-  | A-2017-  | J 
+# Printed info on 30 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 10
+= 1 = l = 12
+= 1 = l = 13
+= 1 = l = 30
+= 2 = l = 10
+= 2 = l = 12
+= 2 = l = 13
+= 2 = l = 21
+= 3 = l = 12
+= 3 = l = 13
+= 3 = l = 28
+= 4 = l = 12
+= 4 = l = 29
+= 5 = l = 10
+= 5 = l = 11
+= 5 = l = 13
+= 5 = l = 15
+= 5 = l = 23
+= 6 = m = 7
+= 6 = l = 10
+= 6 = l = 13
+= 6 = l = 20
+= 6 = l = 29
+= 7 = l = 10
+= 7 = l = 13
+= 9 = l = 25
+= 10 = l = 13
+= 10 = l = 15
+= 10 = l = 16
+= 10 = l = 23
+= 11 = l = 12
+= 11 = l = 13
+= 11 = l = 14
+= 11 = l = 19
+= 12 = l = 13
+= 12 = l = 30
+= 13 = l = 21
+= 13 = l = 22
+= 13 = l = 28
+= 13 = l = 29
+= 14 = l = 19
+= 22 = l = 28
+= 22 = l = 29
+# Listed 44 contacts. EOF.

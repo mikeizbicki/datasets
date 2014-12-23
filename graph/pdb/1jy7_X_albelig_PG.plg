@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jy7, chain X.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMAN METHEMOGLOBIN, OXYGEN TRANSPORT, OXYGENSTORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN BETA CHAIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 11-SEP-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > HUMAN
+> title > THE STRUCTURE OF HUMAN METHEMOGLOBIN. THE VARIATION OF ATHEME
+> format_version > 2
+> pdbid > 1jy7
+> experiment > X-RAY DIFFRACTION
+> chainid > X
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jy7 | X | albelig | 1 | 1 | H | 1592 | 1603 | X-5-  | X-16-  | PEEKSAVTALWG 
+| 1jy7 | X | albelig | 2 | 2 | H | 1607 | 1621 | X-20-  | X-34-  | VDEVGGEALGRLLVV 
+| 1jy7 | X | albelig | 3 | 3 | H | 1623 | 1632 | X-36-  | X-45-  | PWTQRFFESF 
+| 1jy7 | X | albelig | 4 | 4 | H | 1638 | 1642 | X-51-  | X-55-  | PDAVM 
+| 1jy7 | X | albelig | 5 | 5 | H | 1645 | 1661 | X-58-  | X-74-  | PKVKAHGKKVLGAFSDG 
+| 1jy7 | X | albelig | 6 | 6 | H | 1668 | 1671 | X-81-  | X-84-  | LKGT 
+| 1jy7 | X | albelig | 7 | 7 | H | 1673 | 1682 | X-86-  | X-95-  | ATLSELHCDK 
+| 1jy7 | X | albelig | 8 | 8 | H | 1688 | 1704 | X-101-  | X-117-  | ENFRLLGNVLVCVLAHH 
+| 1jy7 | X | albelig | 9 | 9 | H | 1711 | 1729 | X-124-  | X-142-  | PPVQAAYQKVVAGVANALA 
+| 1jy7 | X | albelig | 10 | 10 | L | 1745 | 1745 | X-147-  | X-147-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = m = 3
+= 2 = m = 8
+= 2 = l = 10
+= 3 = m = 5
+= 3 = l = 10
+= 5 = l = 10
+= 6 = m = 9
+= 7 = m = 9
+= 7 = l = 10
+= 8 = l = 10
+= 9 = l = 10
+# Listed 12 contacts. EOF.

@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bbb, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN A (CARBONMONOXY) (ALPHA CHAIN)
+> graphtype > albelig
+> resolution > 1.7
+> date > 29-APR-92
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > A THIRD QUATERNARY STRUCTURE OF HUMAN HEMOGLOBIN A AT 1.7-ANGSTROMSRESOLUTION
+> format_version > 2
+> pdbid > 1bbb
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bbb | C | albelig | 1 | 1 | H | 293 | 304 | C-4-  | C-15-  | PADKTNVKAAWG 
+| 1bbb | C | albelig | 2 | 2 | H | 307 | 324 | C-18-  | C-35-  | GAHAGEYGAEALERMFLS 
+| 1bbb | C | albelig | 3 | 3 | H | 326 | 331 | C-37-  | C-42-  | PTTKTY 
+| 1bbb | C | albelig | 4 | 4 | H | 342 | 359 | C-53-  | C-70-  | AQVKGHGKKVADALTNAV 
+| 1bbb | C | albelig | 5 | 5 | H | 362 | 373 | C-73-  | C-84-  | VDDMPNALSALS 
+| 1bbb | C | albelig | 6 | 6 | H | 374 | 379 | C-85-  | C-90-  | DLHAHK 
+| 1bbb | C | albelig | 7 | 7 | H | 385 | 401 | C-96-  | C-112-  | VNFKLLSHCLLVTLAAH 
+| 1bbb | C | albelig | 8 | 8 | H | 408 | 425 | C-119-  | C-136-  | PAVHASLDKFLASVSTVL 
+| 1bbb | C | albelig | 9 | 9 | L | 582 | 582 | C-142-  | C-142-  | J 
+| 1bbb | C | albelig | 10 | 10 | L | 583 | 583 | C-143-  | C-143-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 2 = m = 3
+= 2 = a = 7
+= 2 = l = 9
+= 2 = l = 10
+= 3 = l = 9
+= 4 = l = 9
+= 4 = l = 10
+= 5 = m = 8
+= 5 = l = 9
+= 6 = l = 9
+= 6 = l = 10
+= 7 = a = 8
+= 7 = l = 9
+= 7 = l = 10
+= 8 = l = 9
+= 9 = l = 10
+# Listed 17 contacts. EOF.

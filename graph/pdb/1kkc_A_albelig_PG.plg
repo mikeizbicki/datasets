@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kkc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOMOTETRAMER, OXIDOREDUCTASE
+> pdb_mol_name > MANGANESE SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 07-DEC-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ASPERGILLUS FUMIGATUS MNSOD
+> format_version > 2
+> pdbid > 1kkc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ASPERGILLUS FUMIGATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kkc | A | albelig | 1 | 1 | H | 21 | 32 | A-34-  | A-45-  | QQIMELHHKKHH 
+| 1kkc | A | albelig | 2 | 2 | H | 33 | 51 | A-46-  | A-64-  | QTYVNGLNAALEAQKKAAE 
+| 1kkc | A | albelig | 3 | 3 | H | 55 | 80 | A-68-  | A-93-  | VPKLVSVQQAIKFNGGGHINHSLFWK 
+| 1kkc | A | albelig | 4 | 4 | H | 85 | 87 | A-98-  | A-100-  | EKS 
+| 1kkc | A | albelig | 5 | 5 | H | 92 | 94 | A-105-  | A-107-  | IDQ 
+| 1kkc | A | albelig | 6 | 6 | H | 96 | 106 | A-109-  | A-119-  | PVLKAAIEQRW 
+| 1kkc | A | albelig | 7 | 7 | H | 109 | 122 | A-122-  | A-135-  | FDKFKDAFNTTLLG 
+| 1kkc | A | albelig | 8 | 8 | E | 127 | 133 | A-140-  | A-146-  | GWGWLVT 
+| 1kkc | A | albelig | 9 | 9 | E | 140 | 146 | A-153-  | A-159-  | LDITTTH 
+| 1kkc | A | albelig | 10 | 10 | E | 155 | 161 | A-168-  | A-174-  | APVFGVD 
+| 1kkc | A | albelig | 11 | 11 | H | 164 | 166 | A-177-  | A-179-  | EHA 
+| 1kkc | A | albelig | 12 | 12 | H | 168 | 171 | A-181-  | A-184-  | YLQY 
+| 1kkc | A | albelig | 13 | 13 | H | 175 | 185 | A-188-  | A-198-  | KASYAKGIWNV 
+| 1kkc | A | albelig | 14 | 14 | H | 188 | 197 | A-201-  | A-210-  | WAEAENRYIA 
+| 1kkc | A | albelig | 15 | 15 | L | 803 | 803 | A-2001-  | A-2001-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = m = 11
+= 1 = l = 15
+= 2 = a = 3
+= 2 = l = 15
+= 3 = m = 8
+= 3 = l = 15
+= 6 = m = 7
+= 6 = m = 9
+= 6 = m = 14
+= 7 = m = 8
+= 7 = m = 9
+= 7 = m = 10
+= 7 = a = 13
+= 8 = a = 9
+= 8 = a = 10
+= 8 = l = 15
+= 10 = m = 14
+= 10 = l = 15
+= 11 = l = 15
+# Listed 21 contacts. EOF.

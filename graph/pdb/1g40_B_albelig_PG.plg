@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g40, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA, MODULE, IMMUNE SYSTEM
+> pdb_mol_name > COMPLEMENT CONTROL PROTEIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 25-OCT-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A COMPLEMENT PROTEIN THAT REGULATESBOTH PATHWAYS OF COMPLEMENT ACTIVATION AND BINDS HEPARANSULFATE PROTEOGLYCANS
+> format_version > 2
+> pdbid > 1g40
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > VACCINIA VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g40 | B | albelig | 1 | 1 | E | 382 | 384 | B-138-  | B-140-  | GRH 
+| 1g40 | B | albelig | 2 | 2 | E | 395 | 397 | B-151-  | B-153-  | SVV 
+| 1g40 | B | albelig | 3 | 3 | E | 399 | 401 | B-155-  | B-157-  | YSN 
+| 1g40 | B | albelig | 4 | 4 | E | 406 | 408 | B-162-  | B-164-  | SLI 
+| 1g40 | B | albelig | 5 | 5 | E | 413 | 415 | B-169-  | B-171-  | VLM 
+| 1g40 | B | albelig | 6 | 6 | E | 425 | 427 | B-181-  | B-183-  | TNQ 
+| 1g40 | B | albelig | 7 | 7 | E | 439 | 441 | B-195-  | B-197-  | GYL 
+| 1g40 | B | albelig | 8 | 8 | E | 457 | 459 | B-213-  | B-215-  | FKP 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 6
+= 4 = a = 6
+= 7 = a = 8
+# Listed 6 contacts. EOF.

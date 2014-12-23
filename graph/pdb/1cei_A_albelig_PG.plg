@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cei, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNITY PROTEIN, ANTIBACTERIAL PROTEIN
+> pdb_mol_name > COLICIN E7 IMMUNITY PROTEIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 19-MAR-96
+> header > ANTIBACTERIAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE DETERMINATION OF THE COLICIN E7 IMMUNITY PROTEIN(IMME7) THAT BINDS SPECIFICALLY TO THE DNASE-TYPE COLICINE7 AND INHIBITS ITS BACTERIOCIDAL ACTIVITY
+> format_version > 2
+> pdbid > 1cei
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cei | A | albelig | 1 | 1 | H | 5 | 7 | A-7-  | A-9-  | ISD 
+| 1cei | A | albelig | 2 | 2 | H | 10 | 23 | A-12-  | A-25-  | EAEFVQLLKEIEKE 
+| 1cei | A | albelig | 3 | 3 | H | 30 | 43 | A-32-  | A-45-  | DVLDVLLEHFVKIT 
+| 1cei | A | albelig | 4 | 4 | H | 50 | 53 | A-52-  | A-55-  | DLIY 
+| 1cei | A | albelig | 5 | 5 | H | 63 | 76 | A-65-  | A-78-  | PEGIVKEIKEWRAA 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+# Listed 2 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jwi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOMAIN SWAPPING, C-TYPE LECTIN, TOXIN
+> pdb_mol_name > BITISCETIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 04-SEP-01
+> header > TOXIN
+> pdb_org_common > PUFF ADDER
+> title > CRYSTAL STRUCTURE OF BITISCETIN, A VON WILLEBAND FACTOR-DEPENDENT PLATELET AGGREGATION INDUCER.
+> format_version > 2
+> pdbid > 1jwi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BITIS ARIETANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jwi | A | albelig | 1 | 1 | E | 6 | 8 | A-9-  | A-11-  | SSY 
+| 1jwi | A | albelig | 2 | 2 | E | 11 | 20 | A-14-  | A-23-  | HAYKVFKKVG 
+| 1jwi | A | albelig | 3 | 3 | H | 22 | 31 | A-25-  | A-34-  | WEDAEKFNVE 
+| 1jwi | A | albelig | 4 | 4 | H | 42 | 55 | A-45-  | A-58-  | KEEADFVTKLASQT 
+| 1jwi | A | albelig | 5 | 5 | E | 62 | 68 | A-66-  | A-72-  | AWIGLRD 
+| 1jwi | A | albelig | 6 | 6 | E | 96 | 99 | A-100-  | A-103-  | DFGL 
+| 1jwi | A | albelig | 7 | 7 | H | 101 | 103 | A-105-  | A-107-  | VHT 
+| 1jwi | A | albelig | 8 | 8 | E | 108 | 111 | A-112-  | A-115-  | WTDL 
+| 1jwi | A | albelig | 9 | 9 | E | 117 | 122 | A-121-  | A-126-  | NPFINK 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = p = 4
+= 2 = a = 9
+= 3 = m = 5
+= 3 = m = 9
+= 5 = a = 6
+= 5 = p = 9
+= 6 = a = 8
+# Listed 9 contacts. EOF.

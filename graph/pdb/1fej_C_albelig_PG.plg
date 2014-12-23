@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fej, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HIV-1 PROTEASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > PROTEASE RETROPEPSIN
+> graphtype > albelig
+> resolution > 1.78
+> date > 21-JUL-00
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL IMPLICATIONS OF DRUG RESISTANT MUTANTS OF HIV-1 PROTEASE:HIGH RESOLUTION CRYSTAL STRUCTURES OF THE MUTANT PROTEASE/SUBSTRATEANALOG COMPLEXES
+> format_version > 2
+> pdbid > 1fej
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fej | C | albelig | 1 | 1 | E | 10 | 15 | C-10-  | C-15-  | LVTIKI 
+| 1fej | C | albelig | 2 | 2 | E | 18 | 24 | C-18-  | C-24-  | QLKEALL 
+| 1fej | C | albelig | 3 | 3 | E | 32 | 34 | C-32-  | C-34-  | VIE 
+| 1fej | C | albelig | 4 | 4 | E | 43 | 49 | C-43-  | C-49-  | KPKMIGG 
+| 1fej | C | albelig | 5 | 5 | E | 52 | 66 | C-52-  | C-66-  | GFIKVRQYDQIIIEI 
+| 1fej | C | albelig | 6 | 6 | E | 69 | 78 | C-69-  | C-78-  | HKAIGTVLVG 
+| 1fej | C | albelig | 7 | 7 | H | 87 | 90 | C-87-  | C-90-  | RNLM 
+| 1fej | C | albelig | 8 | 8 | E | 96 | 98 | C-96-  | C-98-  | TLN 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 3 = p = 6
+= 4 = a = 5
+= 5 = a = 6
+# Listed 5 contacts. EOF.

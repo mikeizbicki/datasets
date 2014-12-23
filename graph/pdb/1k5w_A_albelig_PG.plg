@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k5w, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C2B-DOMAIN, C2-DOMAIN, SYNAPTOTAGMIN I, CALCIUM-BINDING,PHOSPHOLIPID-BINDING, SYNAPSIS, NEUROTRANSMITTER RELEASE,SYNAPTIC VESICLE EXOCYTOSIS, ENDOCYTOSIS/EXOCYTOSIS COMPLEX
+> pdb_mol_name > SYNAPTOTAGMIN I
+> graphtype > albelig
+> resolution > -1.0
+> date > 12-OCT-01
+> header > ENDOCYTOSIS/EXOCYTOSIS
+> pdb_org_common > NORWAY RAT
+> title > THREE-DIMENSIONAL STRUCTURE OF THE SYNAPTOTAGMIN 1 C2B-DOMAIN: SYNAPTOTAGMIN 1 AS A PHOSPHOLIPID BINDING MACHINE
+> format_version > 2
+> pdbid > 1k5w
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k5w | A | albelig | 1 | 1 | E | 4 | 9 | A-275-  | A-280-  | DICFSL 
+| 1k5w | A | albelig | 2 | 2 | E | 18 | 26 | A-289-  | A-297-  | LTVVILEAK 
+| 1k5w | A | albelig | 3 | 3 | E | 39 | 47 | A-310-  | A-318-  | PYVKIHLMQ 
+| 1k5w | A | albelig | 4 | 4 | E | 51 | 56 | A-322-  | A-327-  | RLKKKK 
+| 1k5w | A | albelig | 5 | 5 | E | 67 | 74 | A-338-  | A-345-  | YYNESFSF 
+| 1k5w | A | albelig | 6 | 6 | E | 84 | 92 | A-355-  | A-363-  | VQVVVTVLD 
+| 1k5w | A | albelig | 7 | 7 | E | 100 | 108 | A-371-  | A-379-  | DAIGKVFVG 
+| 1k5w | A | albelig | 8 | 8 | H | 114 | 124 | A-385-  | A-395-  | AELRHWSDMLA 
+| 1k5w | A | albelig | 9 | 9 | E | 130 | 135 | A-401-  | A-406-  | IAQWHT 
+| 1k5w | A | albelig | 10 | 10 | H | 139 | 146 | A-410-  | A-417-  | EEEVDAML 
+| 1k5w | A | albelig | 11 | 11 | L | 149 | 149 | A-500-  | A-500-  | J 
+| 1k5w | A | albelig | 12 | 12 | L | 150 | 150 | A-501-  | A-501-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 5
+= 3 = a = 4
+= 3 = p = 5
+= 3 = a = 6
+= 4 = a = 5
+= 6 = a = 7
+= 6 = l = 11
+= 6 = l = 12
+= 7 = m = 8
+= 7 = p = 10
+= 7 = l = 12
+= 8 = m = 9
+= 11 = l = 12
+# Listed 15 contacts. EOF.

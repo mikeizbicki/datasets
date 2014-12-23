@@ -1,0 +1,20 @@
+This is the README file of a release of the Visualization of Protein Ligand Graphs (VPLG) software package.
+
+VPLG uses a graph-based model to describe the structure of proteins on the super-secondary structure level. A protein-ligand
+graph is computed from the atomic coordinates in a PDB file and the secondary structure assignments of the DSSP algorithm. In
+this graph, vertices represent secondary structure elements (SSEs, e.g. usually alpha helices and beta sheets) or ligand
+molecules while the edges model contacts and spatial relations between them.
+
+VPLG is written in Java using the Apache Batik library for SVG output. Database connectivity (optional) is provided by
+the PostgreSQL JDBC driver. VPLG was tested on Linux and Windows and should also run under MacOS.
+
+VPLG was written by Tim Schaefer at the Molecular Bioinformatics group of Ina Koch at Goethe-University Frankfurt, Germany. It
+is based on earlier ideas by Ina Koch and Patrick May.
+
+The official VPLG website is at http://vplg.sourceforge.net/.
+
+VPLG is free software and comes WITHOUT ANY WARRANTY. See the LICENSE file for details.
+
+-- 
+TS
+

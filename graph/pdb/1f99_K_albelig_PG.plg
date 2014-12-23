@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f99, chain K.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGHT HARVESTING PROTEIN, R-PHYCOCYANIN, PHOTOSYNTHESIS, ELECTRONTRASNPORT
+> pdb_mol_name > R-PHYCOCYANIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 09-JUL-00
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF R-PHYCOCYANIN FROM POLYSIPHONIA AT 2.4 ARESOLUTION
+> format_version > 2
+> pdbid > 1f99
+> experiment > X-RAY DIFFRACTION
+> chainid > K
+> graphclass > protein graph
+> pdb_org_sci > POLYSIPHONIA URCEOLATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f99 | K | albelig | 1 | 1 | H | 340 | 351 | K-4-  | K-15-  | PLTEAIAAADSQ 
+| 1f99 | K | albelig | 2 | 2 | H | 357 | 382 | K-21-  | K-46-  | NTELQVVNGRYNRATSSLEAAKALTA 
+| 1f99 | K | albelig | 3 | 3 | H | 384 | 398 | K-48-  | K-62-  | ADRLISGAANAVYSK 
+| 1f99 | K | albelig | 4 | 4 | H | 400 | 403 | K-64-  | K-67-  | PYTT 
+| 1f99 | K | albelig | 5 | 5 | H | 414 | 437 | K-78-  | K-101-  | AIGKAKCARDIGYYLRMVTYCLVV 
+| 1f99 | K | albelig | 6 | 6 | H | 441 | 448 | K-105-  | K-112-  | GPMDDYLV 
+| 1f99 | K | albelig | 7 | 7 | H | 451 | 458 | K-115-  | K-122-  | LEEINRTF 
+| 1f99 | K | albelig | 8 | 8 | H | 462 | 475 | K-126-  | K-139-  | PSWYIEALKYIKNN 
+| 1f99 | K | albelig | 9 | 9 | H | 480 | 497 | K-144-  | K-161-  | GDVANEANTYIDYAINTL 
+| 1f99 | K | albelig | 10 | 10 | L | 1011 | 1011 | K-386-  | K-386-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 5
+= 2 = m = 9
+= 3 = a = 5
+= 3 = a = 8
+= 3 = l = 10
+= 4 = l = 10
+= 5 = a = 6
+= 5 = l = 10
+= 6 = l = 10
+= 7 = l = 10
+= 8 = a = 9
+= 8 = l = 10
+# Listed 12 contacts. EOF.

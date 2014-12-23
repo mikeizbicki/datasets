@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jra, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAD, SULFHYDRYL OXIDASE, HELICAL BUNDLE, CXXC,OXIDOREDUCTASE
+> pdb_mol_name > ERV2 PROTEIN, MITOCHONDRIAL
+> graphtype > albelig
+> resolution > 2.0
+> date > 13-AUG-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF ERV2P
+> format_version > 2
+> pdbid > 1jra
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jra | D | albelig | 1 | 1 | H | 322 | 339 | D-10-  | D-27-  | VKKEVGRASWKYFHTLLA 
+| 1jra | D | albelig | 2 | 2 | H | 347 | 362 | D-35-  | D-50-  | PEEREKLHTFIGLYAE 
+| 1jra | D | albelig | 3 | 3 | H | 367 | 379 | D-55-  | D-67-  | GEJSYHFVKLIEK 
+| 1jra | D | albelig | 4 | 4 | H | 387 | 404 | D-75-  | D-92-  | RTAAAMWGKHIHNKVNEY 
+| 1jra | D | albelig | 5 | 5 | H | 415 | 418 | D-103-  | D-106-  | ILED 
+| 1jra | D | albelig | 6 | 6 | L | 427 | 427 | D-336-  | D-336-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = l = 6
+= 2 = m = 3
+= 2 = l = 6
+= 3 = a = 4
+= 3 = l = 6
+= 4 = l = 6
+= 5 = l = 6
+# Listed 9 contacts. EOF.

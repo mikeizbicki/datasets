@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fl1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, ANTIVIRAL DRUG DESIGN, CAPSID MATURATION,ENDOPEPTIDASE, ASSEMBLIN, VIRAL PROTEIN
+> pdb_mol_name > PROTEASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 11-AUG-00
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > KSHV PROTEASE
+> format_version > 2
+> pdbid > 1fl1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN HERPESVIRUS 8
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fl1 | A | albelig | 1 | 1 | E | 4 | 11 | A-5-  | A-12-  | LYVGGFVD 
+| 1fl1 | A | albelig | 2 | 2 | E | 19 | 22 | A-41-  | A-44-  | PITI 
+| 1fl1 | A | albelig | 3 | 3 | E | 31 | 39 | A-53-  | A-61-  | GWTLGLFQV 
+| 1fl1 | A | albelig | 4 | 4 | E | 42 | 49 | A-64-  | A-71-  | GIFCTGAI 
+| 1fl1 | A | albelig | 5 | 5 | H | 52 | 64 | A-74-  | A-86-  | PAFLELASRLADT 
+| 1fl1 | A | albelig | 6 | 6 | H | 66 | 68 | A-88-  | A-90-  | HVA 
+| 1fl1 | A | albelig | 7 | 7 | H | 79 | 87 | A-101-  | A-109-  | PLLEILHTW 
+| 1fl1 | A | albelig | 8 | 8 | E | 90 | 93 | A-112-  | A-115-  | GLSL 
+| 1fl1 | A | albelig | 9 | 9 | E | 99 | 102 | A-135-  | A-138-  | VSLC 
+| 1fl1 | A | albelig | 10 | 10 | E | 113 | 115 | A-149-  | A-151-  | VYG 
+| 1fl1 | A | albelig | 11 | 11 | H | 118 | 123 | A-154-  | A-159-  | AEWVVS 
+| 1fl1 | A | albelig | 12 | 12 | H | 130 | 141 | A-166-  | A-177-  | KSERAHILQHVS 
+| 1fl1 | A | albelig | 13 | 13 | H | 157 | 167 | A-193-  | A-203-  | LETLMAKAIDA 
+| 1fl1 | A | albelig | 14 | 14 | H | 173 | 184 | A-209-  | A-220-  | RLDLLKTDRGVA 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 10
+= 2 = p = 3
+= 2 = p = 9
+= 3 = a = 4
+= 3 = a = 12
+= 5 = m = 7
+= 7 = m = 10
+= 8 = a = 9
+= 10 = m = 11
+= 11 = a = 12
+# Listed 11 contacts. EOF.

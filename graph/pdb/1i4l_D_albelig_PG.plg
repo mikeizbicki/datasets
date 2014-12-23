@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i4l, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COILED COIL, GTPASE, COMPLEX, SIGNALING PROTEIN
+> pdb_mol_name > RAS-RELATED C3 BOTULINUM TOXIN SUBSTRATE 1
+> graphtype > albelig
+> resolution > 2.7
+> date > 22-FEB-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF RAC1-GDP IN COMPLEX WITHARFAPTIN (P41)
+> format_version > 2
+> pdbid > 1i4l
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i4l | D | albelig | 1 | 1 | E | 369 | 375 | D-3-  | D-9-  | AIKCVVV 
+| 1i4l | D | albelig | 2 | 2 | H | 382 | 391 | D-16-  | D-25-  | KTCLLISYTT 
+| 1i4l | D | albelig | 3 | 3 | E | 406 | 411 | D-40-  | D-45-  | YSANVM 
+| 1i4l | D | albelig | 4 | 4 | E | 416 | 422 | D-50-  | D-56-  | PVNLGLW 
+| 1i4l | D | albelig | 5 | 5 | H | 428 | 430 | D-62-  | D-64-  | EDY 
+| 1i4l | D | albelig | 6 | 6 | H | 435 | 437 | D-69-  | D-71-  | PLS 
+| 1i4l | D | albelig | 7 | 7 | E | 443 | 449 | D-77-  | D-83-  | VFLICFS 
+| 1i4l | D | albelig | 8 | 8 | H | 453 | 463 | D-87-  | D-97-  | PASFENVRAKW 
+| 1i4l | D | albelig | 9 | 9 | H | 464 | 470 | D-98-  | D-104-  | YPEVRHH 
+| 1i4l | D | albelig | 10 | 10 | E | 477 | 481 | D-111-  | D-115-  | ILVGT 
+| 1i4l | D | albelig | 11 | 11 | H | 491 | 497 | D-125-  | D-131-  | TIEKLKE 
+| 1i4l | D | albelig | 12 | 12 | H | 509 | 515 | D-143-  | D-149-  | LAMAKEI 
+| 1i4l | D | albelig | 13 | 13 | E | 519 | 523 | D-153-  | D-157-  | KYLEC 
+| 1i4l | D | albelig | 14 | 14 | H | 531 | 543 | D-165-  | D-177-  | LKTVFDEAIRAVL 
+| 1i4l | D | albelig | 15 | 15 | L | 545 | 545 | D-201-  | D-201-  | J 
+| 1i4l | D | albelig | 16 | 16 | L | 546 | 546 | D-200-  | D-200-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 2 = m = 4
+= 2 = m = 14
+= 2 = l = 15
+= 2 = l = 16
+= 3 = a = 4
+= 7 = p = 10
+= 8 = m = 9
+= 8 = m = 12
+= 10 = p = 13
+= 13 = a = 14
+= 15 = l = 16
+# Listed 13 contacts. EOF.

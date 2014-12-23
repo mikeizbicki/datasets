@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1blv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN UNFOLDING, NMR SOLUTION STRUCTURE, CYTOCHROME B5,ELECTRON TRANSPORT
+> pdb_mol_name > PROTEIN (CYTOCHROME B5)
+> graphtype > albelig
+> resolution > -1.0
+> date > 21-JUL-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > NORWAY RAT
+> title > SOLUTION STRUCTURE OF OXIDIZED RAT MICROSOMAL CYTOCHROME B5IN THE PRESENCE OF 2 M GUANIDINIUM CHLORIDE: MONITORINGTHE EARLY STEPS IN PROTEIN UNFOLDING
+> format_version > 2
+> pdbid > 1blv
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1blv | A | albelig | 1 | 1 | H | 9 | 12 | A-9-  | A-12-  | LEEI 
+| 1blv | A | albelig | 2 | 2 | E | 22 | 25 | A-22-  | A-25-  | WVIL 
+| 1blv | A | albelig | 3 | 3 | E | 28 | 31 | A-28-  | A-31-  | KVYD 
+| 1blv | A | albelig | 4 | 4 | H | 35 | 37 | A-35-  | A-37-  | FLE 
+| 1blv | A | albelig | 5 | 5 | H | 44 | 49 | A-44-  | A-49-  | EVLREQ 
+| 1blv | A | albelig | 6 | 6 | H | 56 | 61 | A-56-  | A-61-  | ENFEDV 
+| 1blv | A | albelig | 7 | 7 | H | 65 | 74 | A-65-  | A-74-  | TDARELSKTY 
+| 1blv | A | albelig | 8 | 8 | H | 81 | 85 | A-81-  | A-85-  | PDDRS 
+| 1blv | A | albelig | 9 | 9 | L | 95 | 95 | A-96-  | A-96-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = l = 9
+= 3 = m = 7
+= 3 = l = 9
+= 4 = l = 9
+= 5 = l = 9
+= 6 = l = 9
+= 7 = l = 9
+# Listed 8 contacts. EOF.

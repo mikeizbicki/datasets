@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a4c, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CUPROPROTEIN
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 2.45
+> date > 28-JAN-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > AZURIN MUTANT WITH MET 121 REPLACED BY HIS, PH 3.5 CRYSTALFORM, DATA COLLECTED AT-180 DEGREES CELSIUS
+> format_version > 2
+> pdbid > 1a4c
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ACHROMOBACTER DENITRIFICANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a4c | C | albelig | 1 | 1 | E | 264 | 269 | C-4-  | C-9-  | EATIES 
+| 1a4c | C | albelig | 2 | 2 | E | 279 | 282 | C-19-  | C-22-  | EMVV 
+| 1a4c | C | albelig | 3 | 3 | E | 288 | 295 | C-28-  | C-35-  | QFTVHLKH 
+| 1a4c | C | albelig | 4 | 4 | H | 301 | 304 | C-41-  | C-44-  | KSAM 
+| 1a4c | C | albelig | 5 | 5 | E | 309 | 312 | C-49-  | C-52-  | VLTK 
+| 1a4c | C | albelig | 6 | 6 | H | 313 | 324 | C-53-  | C-64-  | EADKEGVATDGM 
+| 1a4c | C | albelig | 7 | 7 | H | 328 | 330 | C-68-  | C-70-  | LAQ 
+| 1a4c | C | albelig | 8 | 8 | E | 352 | 358 | C-92-  | C-98-  | SDSVTFD 
+| 1a4c | C | albelig | 9 | 9 | H | 359 | 361 | C-99-  | C-101-  | VSK 
+| 1a4c | C | albelig | 10 | 10 | E | 368 | 371 | C-108-  | C-111-  | YAYF 
+| 1a4c | C | albelig | 11 | 11 | H | 377 | 380 | C-117-  | C-120-  | HWAM 
+| 1a4c | C | albelig | 12 | 12 | E | 384 | 387 | C-124-  | C-127-  | TLKL 
+| 1a4c | C | albelig | 13 | 13 | L | 524 | 524 | C-130-  | C-130-  | J 
+| 1a4c | C | albelig | 14 | 14 | L | 525 | 525 | C-131-  | C-131-  | J 
+| 1a4c | C | albelig | 15 | 15 | L | 526 | 526 | C-132-  | C-132-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = l = 15
+= 2 = p = 12
+= 3 = a = 8
+= 5 = m = 6
+= 5 = a = 10
+= 6 = m = 10
+= 8 = m = 9
+= 10 = a = 12
+= 11 = l = 13
+= 11 = l = 15
+= 13 = l = 15
+# Listed 12 contacts. EOF.

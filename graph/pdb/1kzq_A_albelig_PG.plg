@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kzq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SAG1, MAJOR SURFACE ANTIGEN, TOXOPLASMA GONDII, PARASITEINVASION, CRYSTAL STRUCTURE, MAD, IMMUNE SYSTEM
+> pdb_mol_name > MAJOR SURFACE ANTIGEN P30
+> graphtype > albelig
+> resolution > 1.7
+> date > 07-FEB-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A PARASITE PROTEIN
+> format_version > 2
+> pdbid > 1kzq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TOXOPLASMA GONDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kzq | A | albelig | 1 | 1 | E | 5 | 9 | A-7-  | A-11-  | NQVVT 
+| 1kzq | A | albelig | 2 | 2 | E | 15 | 21 | A-17-  | A-23-  | STAAVIL 
+| 1kzq | A | albelig | 3 | 3 | E | 27 | 31 | A-29-  | A-33-  | HFTLK 
+| 1kzq | A | albelig | 4 | 4 | E | 37 | 39 | A-39-  | A-41-  | LTE 
+| 1kzq | A | albelig | 5 | 5 | H | 41 | 44 | A-43-  | A-46-  | PTLA 
+| 1kzq | A | albelig | 6 | 6 | H | 67 | 69 | A-69-  | A-71-  | LSS 
+| 1kzq | A | albelig | 7 | 7 | H | 76 | 78 | A-78-  | A-80-  | DSW 
+| 1kzq | A | albelig | 8 | 8 | E | 91 | 94 | A-93-  | A-96-  | IKLT 
+| 1kzq | A | albelig | 9 | 9 | H | 97 | 99 | A-99-  | A-101-  | IEK 
+| 1kzq | A | albelig | 10 | 10 | E | 105 | 112 | A-107-  | A-114-  | QTFVVGNI 
+| 1kzq | A | albelig | 11 | 11 | H | 116 | 118 | A-118-  | A-120-  | DAQ 
+| 1kzq | A | albelig | 12 | 12 | E | 120 | 126 | A-122-  | A-128-  | AMVTVTV 
+| 1kzq | A | albelig | 13 | 13 | E | 132 | 134 | A-134-  | A-136-  | SVV 
+| 1kzq | A | albelig | 14 | 14 | E | 137 | 139 | A-139-  | A-141-  | VAR 
+| 1kzq | A | albelig | 15 | 15 | E | 146 | 153 | A-148-  | A-155-  | STLGPVKL 
+| 1kzq | A | albelig | 16 | 16 | E | 160 | 164 | A-162-  | A-166-  | TMTLV 
+| 1kzq | A | albelig | 17 | 17 | E | 169 | 172 | A-171-  | A-174-  | GVKV 
+| 1kzq | A | albelig | 18 | 18 | E | 178 | 180 | A-180-  | A-182-  | QYF 
+| 1kzq | A | albelig | 19 | 19 | E | 190 | 192 | A-192-  | A-194-  | EKS 
+| 1kzq | A | albelig | 20 | 20 | H | 193 | 195 | A-195-  | A-197-  | FKD 
+| 1kzq | A | albelig | 21 | 21 | E | 205 | 208 | A-207-  | A-210-  | WQGN 
+| 1kzq | A | albelig | 22 | 22 | E | 214 | 218 | A-216-  | A-220-  | GATLT 
+| 1kzq | A | albelig | 23 | 23 | E | 229 | 237 | A-231-  | A-239-  | KSVIIGETG 
+| 1kzq | A | albelig | 24 | 24 | E | 243 | 251 | A-245-  | A-253-  | HHDTVKLEF 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 2 = p = 12
+= 3 = a = 8
+= 4 = m = 5
+= 4 = a = 10
+= 7 = m = 8
+= 10 = a = 12
+= 13 = a = 14
+= 14 = p = 16
+= 15 = p = 24
+= 16 = a = 22
+= 17 = a = 23
+= 18 = a = 19
+= 18 = p = 23
+= 19 = m = 20
+= 21 = a = 22
+= 23 = a = 24
+# Listed 18 contacts. EOF.

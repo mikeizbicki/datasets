@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ed3, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MAJOR HISTOCOMPATIBILITY COMPLEX, RAT MINORHISTOCOMPATIBILITY COMPLEX, MHC, IMMUNOLOGY, PEPTIDEANTIGEN PRESENTATION, CELLULAR IMMUNITY, CELL SURFACERECEPTOR, T CELL RECEPTOR LIGAND, IMMUNE SYSTEM
+> pdb_mol_name > CLASS I MAJOR HISTOCOMPATIBILITY ANTIGEN RT1-AA
+> graphtype > albelig
+> resolution > 2.55
+> date > 26-JAN-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT MINOR HISTOCOMPATIBILITY ANTIGENCOMPLEX RT1-AA/MTF-E.
+> format_version > 2
+> pdbid > 1ed3
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ed3 | D | albelig | 1 | 1 | E | 393 | 402 | D-3-  | D-12-  | HSLRYFYTAV 
+| 1ed3 | D | albelig | 2 | 2 | E | 411 | 418 | D-21-  | D-28-  | RFIAVGYV 
+| 1ed3 | D | albelig | 3 | 3 | E | 421 | 427 | D-31-  | D-37-  | TEFVRFD 
+| 1ed3 | D | albelig | 4 | 4 | H | 440 | 442 | D-50-  | D-52-  | RWM 
+| 1ed3 | D | albelig | 5 | 5 | H | 447 | 474 | D-57-  | D-84-  | PEYWEQQTRIAKEWEQIYRVDLRTLRGY 
+| 1ed3 | D | albelig | 6 | 6 | E | 484 | 493 | D-94-  | D-103-  | TIQEMYGDDV 
+| 1ed3 | D | albelig | 7 | 7 | E | 499 | 508 | D-109-  | D-118-  | LLRGYRQDAY 
+| 1ed3 | D | albelig | 8 | 8 | E | 511 | 516 | D-121-  | D-126-  | RDYIAL 
+| 1ed3 | D | albelig | 9 | 9 | E | 523 | 525 | D-133-  | D-135-  | WTA 
+| 1ed3 | D | albelig | 10 | 10 | H | 528 | 539 | D-138-  | D-149-  | FAAQITRNKWER 
+| 1ed3 | D | albelig | 11 | 11 | H | 542 | 551 | D-152-  | D-161-  | YAERLRAYLE 
+| 1ed3 | D | albelig | 12 | 12 | H | 553 | 564 | D-163-  | D-174-  | TDVEWLSRYLEL 
+| 1ed3 | D | albelig | 13 | 13 | H | 566 | 569 | D-176-  | D-179-  | KETL 
+| 1ed3 | D | albelig | 14 | 14 | E | 576 | 583 | D-186-  | D-193-  | EAHVTLHP 
+| 1ed3 | D | albelig | 15 | 15 | E | 589 | 598 | D-199-  | D-208-  | VTLREWALGF 
+| 1ed3 | D | albelig | 16 | 16 | E | 604 | 609 | D-214-  | D-219-  | TLTWQL 
+| 1ed3 | D | albelig | 17 | 17 | H | 615 | 617 | D-225-  | D-227-  | TQD 
+| 1ed3 | D | albelig | 18 | 18 | E | 618 | 620 | D-228-  | D-230-  | MEL 
+| 1ed3 | D | albelig | 19 | 19 | E | 631 | 639 | D-241-  | D-249-  | FQKWASVVV 
+| 1ed3 | D | albelig | 20 | 20 | H | 644 | 646 | D-254-  | D-256-  | EQN 
+| 1ed3 | D | albelig | 21 | 21 | E | 647 | 652 | D-257-  | D-262-  | YTERVE 
+| 1ed3 | D | albelig | 22 | 22 | E | 660 | 662 | D-270-  | D-272-  | LSQ 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 12
+= 2 = a = 3
+= 5 = m = 6
+= 6 = a = 7
+= 6 = m = 12
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+= 14 = a = 15
+= 14 = p = 22
+= 15 = a = 16
+= 15 = a = 19
+= 15 = p = 21
+= 16 = p = 19
+= 16 = a = 21
+= 17 = m = 18
+= 18 = a = 19
+= 20 = m = 21
+= 21 = a = 22
+# Listed 23 contacts. EOF.

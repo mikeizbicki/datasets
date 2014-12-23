@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bfr, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, IRON STORAGE
+> pdb_mol_name > BACTERIOFERRITIN
+> graphtype > albelig
+> resolution > 2.94
+> date > 16-DEC-94
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > IRON STORAGE AND ELECTRON TRANSPORT
+> format_version > 2
+> pdbid > 1bfr
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bfr | N | albelig | 1 | 1 | H | 2072 | 2101 | N-5-  | N-34-  | TKVINYLNKLLGNELVAINQYFLHARMFKN 
+| 1bfr | N | albelig | 2 | 2 | H | 2105 | 2131 | N-38-  | N-64-  | KRLNDVEYHESIDEMKHADRYIERILF 
+| 1bfr | N | albelig | 3 | 3 | H | 2150 | 2177 | N-83-  | N-110-  | VEEMLRSDLALELDGAKNLREAIGYADS 
+| 1bfr | N | albelig | 4 | 4 | H | 2181 | 2211 | N-114-  | N-144-  | YVSRDMMIEILRDEEGHIDWLETELDLIQKM 
+| 1bfr | N | albelig | 5 | 5 | H | 2213 | 2218 | N-146-  | N-151-  | LQNYLQ 
+| 1bfr | N | albelig | 6 | 6 | L | 3842 | 3842 | N-201-  | N-201-  | J 
+| 1bfr | N | albelig | 7 | 7 | L | 3843 | 3843 | N-202-  | N-202-  | J 
+| 1bfr | N | albelig | 8 | 8 | L | 3870 | 3870 | N-200-  | N-200-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = p = 4
+= 1 = l = 6
+= 1 = l = 7
+= 1 = l = 8
+= 2 = a = 4
+= 2 = l = 6
+= 2 = l = 7
+= 2 = l = 8
+= 3 = a = 4
+= 3 = l = 6
+= 4 = l = 6
+= 4 = l = 7
+= 6 = l = 7
+# Listed 15 contacts. EOF.

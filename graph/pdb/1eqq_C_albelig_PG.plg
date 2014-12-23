@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqq, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, PROTEIN-DNA COMPLEX, REPLICATION/RNA COMPLEX
+> pdb_mol_name > SINGLE STRANDED DNA BINDING PROTEIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 06-APR-00
+> header > REPLICATION/RNA
+> pdb_org_common > UNKNOWN
+> title > SINGLE STRANDED DNA BINDING PROTEIN AND SSDNA COMPLEX
+> format_version > 2
+> pdbid > 1eqq
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqq | C | albelig | 1 | 1 | E | 241 | 250 | C-405-  | C-414-  | VNKVILVGNL 
+| 1eqq | C | albelig | 2 | 2 | E | 255 | 258 | C-419-  | C-422-  | EVRY 
+| 1eqq | C | albelig | 3 | 3 | E | 264 | 267 | C-428-  | C-431-  | AVAN 
+| 1eqq | C | albelig | 4 | 4 | E | 269 | 271 | C-433-  | C-435-  | TLA 
+| 1eqq | C | albelig | 5 | 5 | E | 290 | 296 | C-454-  | C-460-  | WHRVVLF 
+| 1eqq | C | albelig | 6 | 6 | H | 297 | 306 | C-461-  | C-470-  | GKLAEVASEY 
+| 1eqq | C | albelig | 7 | 7 | E | 312 | 315 | C-476-  | C-479-  | QVYI 
+| 1eqq | C | albelig | 8 | 8 | E | 318 | 325 | C-482-  | C-489-  | QLRTRKWT 
+| 1eqq | C | albelig | 9 | 9 | E | 330 | 337 | C-494-  | C-501-  | QDRYTTEV 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 7
+= 1 = a = 8
+= 2 = a = 3
+= 3 = a = 5
+= 3 = m = 6
+= 4 = a = 5
+= 5 = m = 6
+= 5 = p = 9
+= 8 = a = 9
+# Listed 10 contacts. EOF.

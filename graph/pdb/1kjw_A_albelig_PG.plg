@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kjw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PROTEIN INTERACTION, SCAFFOLD, NEUROPEPTIDE
+> pdb_mol_name > POSTSYNAPTIC DENSITY PROTEIN 95
+> graphtype > albelig
+> resolution > 1.8
+> date > 05-DEC-01
+> header > NEUROPEPTIDE
+> pdb_org_common > NORWAY RAT
+> title > SH3-GUANYLATE KINASE MODULE FROM PSD-95
+> format_version > 2
+> pdbid > 1kjw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kjw | A | albelig | 1 | 1 | E | 2 | 6 | A-431-  | A-435-  | FYIRA 
+| 1kjw | A | albelig | 2 | 2 | H | 12 | 16 | A-441-  | A-445-  | KTKDC 
+| 1kjw | A | albelig | 3 | 3 | E | 30 | 35 | A-459-  | A-464-  | VLHVID 
+| 1kjw | A | albelig | 4 | 4 | E | 41 | 46 | A-470-  | A-475-  | WWQARR 
+| 1kjw | A | albelig | 5 | 5 | E | 57 | 60 | A-486-  | A-489-  | GFIP 
+| 1kjw | A | albelig | 6 | 6 | H | 62 | 70 | A-491-  | A-499-  | KRRVERREW 
+| 1kjw | A | albelig | 7 | 7 | E | 92 | 99 | A-523-  | A-530-  | YETVTQME 
+| 1kjw | A | albelig | 8 | 8 | E | 106 | 109 | A-537-  | A-540-  | IIIL 
+| 1kjw | A | albelig | 9 | 9 | H | 113 | 123 | A-544-  | A-554-  | KDRANDDLLSE 
+| 1kjw | A | albelig | 10 | 10 | H | 155 | 163 | A-586-  | A-594-  | REKMEKDIQ 
+| 1kjw | A | albelig | 11 | 11 | E | 167 | 173 | A-598-  | A-604-  | FIEAGQY 
+| 1kjw | A | albelig | 12 | 12 | E | 176 | 181 | A-607-  | A-612-  | HLYGTS 
+| 1kjw | A | albelig | 13 | 13 | H | 182 | 190 | A-613-  | A-621-  | VQSVREVAE 
+| 1kjw | A | albelig | 14 | 14 | E | 194 | 197 | A-625-  | A-628-  | HCIL 
+| 1kjw | A | albelig | 15 | 15 | H | 203 | 209 | A-634-  | A-640-  | AVRRLQA 
+| 1kjw | A | albelig | 16 | 16 | E | 215 | 219 | A-646-  | A-650-  | IAIFI 
+| 1kjw | A | albelig | 17 | 17 | H | 224 | 230 | A-655-  | A-661-  | LENVLEI 
+| 1kjw | A | albelig | 18 | 18 | H | 236 | 256 | A-667-  | A-687-  | EEQARKAFDRATKLEQEFTEC 
+| 1kjw | A | albelig | 19 | 19 | E | 259 | 261 | A-690-  | A-692-  | AIV 
+| 1kjw | A | albelig | 20 | 20 | H | 266 | 280 | A-697-  | A-711-  | FEEIYHKVKRVIEDL 
+| 1kjw | A | albelig | 21 | 21 | E | 284 | 288 | A-715-  | A-719-  | YIWVP 
+| 1kjw | A | albelig | 22 | 22 | L | 294 | 294 | A-188-  | A-188-  | J 
+| 1kjw | A | albelig | 23 | 23 | L | 295 | 295 | A-189-  | A-189-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 4 = l = 23
+= 7 = a = 21
+= 8 = m = 9
+= 8 = p = 14
+= 8 = p = 16
+= 9 = m = 20
+= 9 = l = 22
+= 11 = a = 12
+= 12 = m = 13
+= 16 = p = 19
+= 17 = m = 18
+# Listed 15 contacts. EOF.

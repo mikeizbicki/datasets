@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cc0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RHO GTPASE, G-PROTEIN, SIGNALING PROTEIN
+> pdb_mol_name > TRANSFORMING PROTEIN RHOA
+> graphtype > albelig
+> resolution > 5.0
+> date > 03-MAR-99
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE RHOA.GDP-RHOGDI COMPLEX
+> format_version > 2
+> pdbid > 1cc0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cc0 | A | albelig | 1 | 1 | E | 2 | 9 | A-5-  | A-12-  | RKKLVIVG 
+| 1cc0 | A | albelig | 2 | 2 | H | 15 | 24 | A-18-  | A-27-  | KTCLLIVNSK 
+| 1cc0 | A | albelig | 3 | 3 | E | 40 | 44 | A-43-  | A-47-  | VADIE 
+| 1cc0 | A | albelig | 4 | 4 | E | 49 | 55 | A-52-  | A-58-  | QVELALW 
+| 1cc0 | A | albelig | 5 | 5 | H | 62 | 64 | A-65-  | A-67-  | DYD 
+| 1cc0 | A | albelig | 6 | 6 | H | 67 | 70 | A-70-  | A-73-  | RPLS 
+| 1cc0 | A | albelig | 7 | 7 | E | 76 | 82 | A-79-  | A-85-  | VILMCFS 
+| 1cc0 | A | albelig | 8 | 8 | H | 86 | 96 | A-89-  | A-99-  | PDSLENIPEKW 
+| 1cc0 | A | albelig | 9 | 9 | H | 97 | 103 | A-100-  | A-106-  | TPEVKHF 
+| 1cc0 | A | albelig | 10 | 10 | E | 109 | 114 | A-112-  | A-117-  | IILVGN 
+| 1cc0 | A | albelig | 11 | 11 | H | 116 | 118 | A-119-  | A-121-  | KDL 
+| 1cc0 | A | albelig | 12 | 12 | H | 122 | 129 | A-125-  | A-132-  | EHTRRELA 
+| 1cc0 | A | albelig | 13 | 13 | H | 138 | 148 | A-141-  | A-151-  | PEEGRDMANRI 
+| 1cc0 | A | albelig | 14 | 14 | E | 152 | 155 | A-155-  | A-158-  | GYME 
+| 1cc0 | A | albelig | 15 | 15 | H | 164 | 176 | A-167-  | A-179-  | VREVFEMATRAAL 
+| 1cc0 | A | albelig | 16 | 16 | L | 630 | 630 | A-301-  | A-301-  | J 
+| 1cc0 | A | albelig | 17 | 17 | L | 632 | 632 | A-201-  | A-201-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 2 = m = 15
+= 2 = l = 16
+= 2 = l = 17
+= 3 = a = 4
+= 4 = a = 15
+= 7 = m = 8
+= 7 = p = 10
+= 7 = m = 15
+= 8 = m = 9
+= 8 = m = 13
+= 10 = p = 14
+= 11 = l = 17
+= 13 = m = 14
+= 16 = l = 17
+# Listed 16 contacts. EOF.

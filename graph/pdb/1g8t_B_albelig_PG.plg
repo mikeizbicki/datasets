@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g8t, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDONUCLEASE, HYDROLASE, NUCLEASE, MAGNESIUM, SIGNAL
+> pdb_mol_name > NUCLEASE SM2 ISOFORM
+> graphtype > albelig
+> resolution > 1.1
+> date > 21-NOV-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > SM ENDONUCLEASE FROM SERATIA MARCENSCENS AT 1.1 A RESOLUTION
+> format_version > 2
+> pdbid > 1g8t
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SERRATIA MARCESCENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g8t | B | albelig | 1 | 1 | E | 267 | 270 | B-29-  | B-32-  | TLNN 
+| 1g8t | B | albelig | 2 | 2 | E | 277 | 284 | B-39-  | B-46-  | ANWVAYHI 
+| 1g8t | B | albelig | 3 | 3 | H | 305 | 307 | B-67-  | B-69-  | PAD 
+| 1g8t | B | albelig | 4 | 4 | H | 311 | 314 | B-73-  | B-76-  | PADY 
+| 1g8t | B | albelig | 5 | 5 | H | 317 | 321 | B-79-  | B-83-  | ANAAL 
+| 1g8t | B | albelig | 6 | 6 | E | 323 | 327 | B-85-  | B-89-  | VDRGH 
+| 1g8t | B | albelig | 7 | 7 | H | 331 | 334 | B-93-  | B-96-  | LASL 
+| 1g8t | B | albelig | 8 | 8 | H | 340 | 344 | B-102-  | B-106-  | WESLN 
+| 1g8t | B | albelig | 9 | 9 | H | 346 | 348 | B-108-  | B-110-  | LSN 
+| 1g8t | B | albelig | 10 | 10 | E | 349 | 353 | B-111-  | B-115-  | ITPQK 
+| 1g8t | B | albelig | 11 | 11 | H | 354 | 357 | B-116-  | B-119-  | SDLN 
+| 1g8t | B | albelig | 12 | 12 | H | 360 | 373 | B-122-  | B-135-  | AWARLEDQERKLID 
+| 1g8t | B | albelig | 13 | 13 | E | 380 | 387 | B-142-  | B-149-  | VYTVTGPL 
+| 1g8t | B | albelig | 14 | 14 | E | 407 | 414 | B-169-  | B-176-  | AYWKVIFI 
+| 1g8t | B | albelig | 15 | 15 | E | 423 | 429 | B-185-  | B-191-  | YAAFLFD 
+| 1g8t | B | albelig | 16 | 16 | H | 438 | 441 | B-200-  | B-203-  | FDQF 
+| 1g8t | B | albelig | 17 | 17 | H | 445 | 452 | B-207-  | B-214-  | VDEIEKRT 
+| 1g8t | B | albelig | 18 | 18 | H | 462 | 469 | B-224-  | B-231-  | DDVQASLK 
+| 1g8t | B | albelig | 19 | 19 | H | 475 | 479 | B-237-  | B-241-  | LPELM 
+| 1g8t | B | albelig | 20 | 20 | L | 487 | 487 | B-802-  | B-802-  | J 
+| 1g8t | B | albelig | 21 | 21 | L | 488 | 488 | B-803-  | B-803-  | J 
+| 1g8t | B | albelig | 22 | 22 | L | 489 | 489 | B-811-  | B-811-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 13
+= 4 = l = 21
+= 5 = m = 6
+= 5 = l = 21
+= 6 = m = 9
+= 6 = a = 10
+= 6 = l = 20
+= 6 = l = 21
+= 6 = l = 22
+= 9 = m = 10
+= 10 = m = 11
+= 10 = a = 14
+= 10 = l = 22
+= 11 = l = 20
+= 11 = l = 22
+= 12 = l = 22
+= 13 = a = 14
+= 14 = a = 15
+= 14 = m = 17
+= 15 = m = 16
+= 20 = l = 22
+# Listed 22 contacts. EOF.

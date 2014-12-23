@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fki, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CIS-TRANS ISOMERASE
+> pdb_mol_name > FK506 BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 05-AUG-93
+> header > CIS-TRANS ISOMERASE
+> pdb_org_common > HUMAN
+> title > DESIGN, SYNTHESIS, AND KINETIC EVALUATION OF HIGH-AFFINITYFKBP LIGANDS, AND THE X-RAY CRYSTAL STRUCTURES OF THEIRCOMPLEXES WITH FKBP12
+> format_version > 2
+> pdbid > 1fki
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fki | B | albelig | 1 | 1 | E | 110 | 116 | B-2-  | B-8-  | VQVETIS 
+| 1fki | B | albelig | 2 | 2 | E | 129 | 138 | B-21-  | B-30-  | TCVVHYTGML 
+| 1fki | B | albelig | 3 | 3 | E | 143 | 146 | B-35-  | B-38-  | KFDS 
+| 1fki | B | albelig | 4 | 4 | E | 154 | 157 | B-46-  | B-49-  | FKFM 
+| 1fki | B | albelig | 5 | 5 | H | 165 | 171 | B-57-  | B-63-  | RGWEEGV 
+| 1fki | B | albelig | 6 | 6 | E | 179 | 184 | B-71-  | B-76-  | RAKLTI 
+| 1fki | B | albelig | 7 | 7 | H | 186 | 188 | B-78-  | B-80-  | PDY 
+| 1fki | B | albelig | 8 | 8 | E | 205 | 214 | B-97-  | B-106-  | LVFDVELLKL 
+| 1fki | B | albelig | 9 | 9 | L | 217 | 217 | B-108-  | B-108-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 2 = a = 3
+= 2 = a = 4
+= 2 = a = 8
+= 2 = l = 9
+= 3 = l = 9
+= 4 = l = 9
+= 5 = l = 9
+= 6 = a = 8
+= 8 = l = 9
+# Listed 10 contacts. EOF.

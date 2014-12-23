@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jtb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPID TRANSPORT, LIPID TRANSFER PROTEIN
+> pdb_mol_name > LIPID TRANSFER PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 03-DEC-96
+> header > LIPID TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > LIPID TRANSFER PROTEIN COMPLEXED WITH PALMITOYL COENZYME A, NMR, 16STRUCTURES
+> format_version > 2
+> pdbid > 1jtb
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HORDEUM VULGARE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jtb | A | albelig | 1 | 1 | H | 5 | 18 | A-5-  | A-18-  | QVDSKMKPNLTYVQ 
+| 1jtb | A | albelig | 2 | 2 | H | 26 | 37 | A-26-  | A-37-  | ENCNGVRDLHNQ 
+| 1jtb | A | albelig | 3 | 3 | H | 44 | 55 | A-44-  | A-55-  | RQTVDNALKGIA 
+| 1jtb | A | albelig | 4 | 4 | H | 63 | 67 | A-63-  | A-67-  | LNNAA 
+| 1jtb | A | albelig | 5 | 5 | H | 69 | 72 | A-69-  | A-72-  | IPSK 
+| 1jtb | A | albelig | 6 | 6 | H | 87 | 89 | A-87-  | A-89-  | DSR 
+| 1jtb | A | albelig | 7 | 7 | L | 92 | 92 | A-92-  | A-92-  | J 
+| 1jtb | A | albelig | 8 | 8 | L | 93 | 93 | A-96-  | A-96-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 1 = l = 7
+= 1 = l = 8
+= 2 = l = 8
+= 3 = m = 6
+= 3 = l = 7
+= 3 = l = 8
+= 4 = m = 5
+= 4 = l = 8
+= 5 = l = 8
+= 7 = l = 8
+# Listed 12 contacts. EOF.

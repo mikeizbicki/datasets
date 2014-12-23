@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxj, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHROMOSOME SEGREGATION, SMC DIMERISATION DOMAIN, ANTIPARALLEL COILED COIL, SMC PROTEINS
+> pdb_mol_name > CHROMOSOME SEGREGATION SMC PROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 07-APR-02
+> header > CHROMOSOME SEGREGATION
+> pdb_org_common > UNKNOWN
+> title > SMC HINGE DOMAIN FROM T. MARITIMA W/O COILED COIL
+> format_version > 2
+> pdbid > 1gxj
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxj | B | albelig | 1 | 1 | H | 168 | 175 | B-501-  | B-508-  | RAVRAVFE 
+| 1gxj | B | albelig | 2 | 2 | H | 177 | 179 | B-510-  | B-512-  | KER 
+| 1gxj | B | albelig | 3 | 3 | E | 183 | 186 | B-516-  | B-519-  | LVDV 
+| 1gxj | B | albelig | 4 | 4 | H | 187 | 190 | B-520-  | B-523-  | VSNL 
+| 1gxj | B | albelig | 5 | 5 | H | 195 | 210 | B-528-  | B-543-  | EKYSLAVSVLLGGTAQ 
+| 1gxj | B | albelig | 6 | 6 | E | 212 | 214 | B-545-  | B-547-  | IVV 
+| 1gxj | B | albelig | 7 | 7 | H | 217 | 230 | B-550-  | B-563-  | VDTAKAIVEFLKQN 
+| 1gxj | B | albelig | 8 | 8 | E | 233 | 239 | B-566-  | B-572-  | GRVTILP 
+| 1gxj | B | albelig | 9 | 9 | H | 253 | 255 | B-586-  | B-588-  | LEN 
+| 1gxj | B | albelig | 10 | 10 | E | 259 | 262 | B-592-  | B-595-  | FVGY 
+| 1gxj | B | albelig | 11 | 11 | H | 263 | 266 | B-596-  | B-599-  | AVDL 
+| 1gxj | B | albelig | 12 | 12 | H | 271 | 273 | B-604-  | B-606-  | SDL 
+| 1gxj | B | albelig | 13 | 13 | H | 275 | 281 | B-608-  | B-614-  | VLGGFLF 
+| 1gxj | B | albelig | 14 | 14 | E | 285 | 287 | B-618-  | B-620-  | VVV 
+| 1gxj | B | albelig | 15 | 15 | H | 290 | 299 | B-623-  | B-632-  | LDDAIRMKKK 
+| 1gxj | B | albelig | 16 | 16 | E | 306 | 308 | B-639-  | B-641-  | IAT 
+| 1gxj | B | albelig | 17 | 17 | E | 320 | 322 | B-653-  | B-655-  | ITG 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 8
+= 3 = m = 4
+= 3 = a = 6
+= 5 = m = 16
+= 6 = p = 8
+= 10 = m = 11
+= 10 = a = 14
+= 14 = p = 16
+# Listed 9 contacts. EOF.

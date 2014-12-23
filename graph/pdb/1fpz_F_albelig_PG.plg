@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fpz, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA SANDWICH, HYDROLASE
+> pdb_mol_name > CYCLIN-DEPENDENT KINASE INHIBITOR 3
+> graphtype > albelig
+> resolution > 2.0
+> date > 01-SEP-00
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF KINASE ASSOCIATED PHOSPHATASE(KAP) WITH A SUBSTITUTION OF THE CATALYTIC SITE CYSTEINE(CYS140) TO A SERINE
+> format_version > 2
+> pdbid > 1fpz
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fpz | F | albelig | 1 | 1 | E | 897 | 900 | F-30-  | F-33-  | SWLS 
+| 1fpz | F | albelig | 2 | 2 | H | 902 | 904 | F-35-  | F-37-  | SRV 
+| 1fpz | F | albelig | 3 | 3 | E | 909 | 913 | F-42-  | F-46-  | FLGLC 
+| 1fpz | F | albelig | 4 | 4 | H | 927 | 936 | F-60-  | F-69-  | VQKDTEELKS 
+| 1fpz | F | albelig | 5 | 5 | E | 941 | 944 | F-74-  | F-77-  | DIFV 
+| 1fpz | F | albelig | 6 | 6 | H | 948 | 953 | F-81-  | F-86-  | RGELSK 
+| 1fpz | F | albelig | 7 | 7 | H | 959 | 965 | F-92-  | F-98-  | LLDLYQQ 
+| 1fpz | F | albelig | 8 | 8 | E | 969 | 972 | F-102-  | F-105-  | ITHH 
+| 1fpz | F | albelig | 9 | 9 | H | 983 | 998 | F-116-  | F-131-  | IASCCEIMEELTTCLK 
+| 1fpz | F | albelig | 10 | 10 | E | 1003 | 1006 | F-136-  | F-139-  | TLIH 
+| 1fpz | F | albelig | 11 | 11 | H | 1013 | 1025 | F-146-  | F-158-  | RSCLVAACLLLYL 
+| 1fpz | F | albelig | 12 | 12 | H | 1031 | 1042 | F-164-  | F-175-  | PEQAIDSLRDLR 
+| 1fpz | F | albelig | 13 | 13 | H | 1050 | 1056 | F-183-  | F-189-  | IKQYNYL 
+| 1fpz | F | albelig | 14 | 14 | H | 1059 | 1064 | F-192-  | F-197-  | FRDKLA 
+| 1fpz | F | albelig | 15 | 15 | L | 1073 | 1073 | F-905-  | F-905-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 3 = p = 10
+= 5 = p = 8
+= 5 = m = 9
+= 5 = p = 10
+= 9 = m = 11
+= 11 = l = 15
+# Listed 7 contacts. EOF.

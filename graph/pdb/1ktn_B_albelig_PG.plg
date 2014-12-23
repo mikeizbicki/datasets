@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ktn, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTUREINITIATIVE, MIDWEST CENTER FOR STRUCTURAL GENOMICS, MCSG,LYASE
+> pdb_mol_name > 2-DEOXYRIBOSE-5-PHOSPHATE ALDOLASE
+> graphtype > albelig
+> resolution > 1.4
+> date > 16-JAN-02
+> header > STRUCTURAL GENOMICS, LYASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL GENOMICS, PROTEIN EC1535
+> format_version > 2
+> pdbid > 1ktn
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ktn | B | albelig | 1 | 1 | H | 253 | 262 | B-3-  | B-12-  | DLKASSLRAL 
+| 1ktn | B | albelig | 2 | 2 | E | 265 | 268 | B-15-  | B-18-  | MDLT 
+| 1ktn | B | albelig | 3 | 3 | H | 276 | 286 | B-26-  | B-36-  | DEKVIALCHQA 
+| 1ktn | B | albelig | 4 | 4 | E | 295 | 298 | B-45-  | B-48-  | AICI 
+| 1ktn | B | albelig | 5 | 5 | H | 300 | 312 | B-50-  | B-62-  | PRFIPIARKTLKE 
+| 1ktn | B | albelig | 6 | 6 | E | 319 | 324 | B-69-  | B-74-  | RIATVT 
+| 1ktn | B | albelig | 7 | 7 | H | 333 | 346 | B-83-  | B-96-  | IDIALAETRAAIAY 
+| 1ktn | B | albelig | 8 | 8 | E | 350 | 354 | B-100-  | B-104-  | EVDVV 
+| 1ktn | B | albelig | 9 | 9 | H | 357 | 361 | B-107-  | B-111-  | YRALM 
+| 1ktn | B | albelig | 10 | 10 | H | 366 | 381 | B-116-  | B-131-  | QVGFDLVKACKEACAA 
+| 1ktn | B | albelig | 11 | 11 | E | 385 | 389 | B-135-  | B-139-  | LLKVI 
+| 1ktn | B | albelig | 12 | 12 | H | 392 | 395 | B-142-  | B-145-  | TGEL 
+| 1ktn | B | albelig | 13 | 13 | H | 398 | 410 | B-148-  | B-160-  | EALIRKASEISIK 
+| 1ktn | B | albelig | 14 | 14 | E | 415 | 417 | B-165-  | B-167-  | FIK 
+| 1ktn | B | albelig | 15 | 15 | H | 429 | 442 | B-179-  | B-192-  | PESARIMMEVIRDM 
+| 1ktn | B | albelig | 16 | 16 | E | 449 | 451 | B-199-  | B-201-  | GFK 
+| 1ktn | B | albelig | 17 | 17 | H | 459 | 473 | B-209-  | B-223-  | AEDAQKYLAIADELF 
+| 1ktn | B | albelig | 18 | 18 | E | 485 | 487 | B-235-  | B-237-  | FGA 
+| 1ktn | B | albelig | 19 | 19 | H | 490 | 497 | B-240-  | B-247-  | LLASLLKA 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 17
+= 1 = a = 19
+= 2 = m = 3
+= 2 = p = 4
+= 2 = p = 18
+= 3 = p = 5
+= 4 = m = 5
+= 4 = p = 6
+= 5 = m = 6
+= 5 = m = 7
+= 6 = m = 7
+= 6 = p = 8
+= 7 = p = 10
+= 8 = p = 11
+= 11 = p = 14
+= 12 = m = 13
+= 13 = p = 15
+= 14 = p = 16
+= 15 = p = 17
+# Listed 20 contacts. EOF.

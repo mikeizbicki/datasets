@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iw2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPOCALIN, BETA BARREL, CALYX, MAC, COMPLEMENT, IMMUNESYSTEM
+> pdb_mol_name > COMPLEMENT PROTEIN C8GAMMA
+> graphtype > albelig
+> resolution > 1.9
+> date > 11-APR-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > X-RAY STRUCTURE OF HUMAN COMPLEMENT PROTEIN C8GAMMA ATPH=7.O
+> format_version > 2
+> pdbid > 1iw2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iw2 | A | albelig | 1 | 1 | H | 3 | 6 | A-12-  | A-15-  | PIST 
+| 1iw2 | A | albelig | 2 | 2 | H | 15 | 18 | A-24-  | A-27-  | AQQF 
+| 1iw2 | A | albelig | 3 | 3 | E | 20 | 28 | A-29-  | A-37-  | GTWLLVAVG 
+| 1iw2 | A | albelig | 4 | 4 | E | 37 | 44 | A-53-  | A-60-  | TTLHVAPQ 
+| 1iw2 | A | albelig | 5 | 5 | E | 47 | 56 | A-63-  | A-72-  | AMAVSTFRKL 
+| 1iw2 | A | albelig | 6 | 6 | E | 59 | 69 | A-75-  | A-85-  | IAWQVRQLYGD 
+| 1iw2 | A | albelig | 7 | 7 | E | 75 | 78 | A-91-  | A-94-  | RFLL 
+| 1iw2 | A | albelig | 8 | 8 | E | 87 | 94 | A-103-  | A-110-  | VHVVVAET 
+| 1iw2 | A | albelig | 9 | 9 | E | 99 | 106 | A-115-  | A-122-  | FAVLYLER 
+| 1iw2 | A | albelig | 10 | 10 | E | 109 | 116 | A-125-  | A-132-  | QLSVKLYA 
+| 1iw2 | A | albelig | 11 | 11 | H | 123 | 135 | A-139-  | A-151-  | DSVLSGFEQRVQE 
+| 1iw2 | A | albelig | 12 | 12 | H | 140 | 142 | A-156-  | A-158-  | EDQ 
+| 1iw2 | A | albelig | 13 | 13 | E | 143 | 145 | A-159-  | A-161-  | IFY 
+| 1iw2 | A | albelig | 14 | 14 | H | 157 | 159 | A-173-  | A-175-  | QFH 
+| 1iw2 | A | albelig | 15 | 15 | E | 160 | 162 | A-176-  | A-178-  | VLD 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = a = 10
+= 3 = m = 12
+= 3 = a = 13
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 6 = m = 14
+= 6 = p = 15
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 12 = m = 13
+= 14 = m = 15
+# Listed 14 contacts. EOF.

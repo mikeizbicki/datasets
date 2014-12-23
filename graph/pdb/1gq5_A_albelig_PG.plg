@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gq5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNALING PROTEIN, PDZ, BETA2-ADRENERGIC RECEPTOR, PDGFR,NHERF, CRYSTAL STRUCTURE, COMPLEX
+> pdb_mol_name > EZRIN-RADIXIN-MOESIN BINDING PHOSPHOPROTEIN-50
+> graphtype > albelig
+> resolution > 2.2
+> date > 20-NOV-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURAL DETERMINANTS OF THE NHERF INTERACTION WITHBETA2-AR AND PDGFR
+> format_version > 2
+> pdbid > 1gq5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gq5 | A | albelig | 1 | 1 | E | 5 | 10 | A-13-  | A-18-  | RLCCLE 
+| 1gq5 | A | albelig | 2 | 2 | E | 19 | 21 | A-27-  | A-29-  | HLH 
+| 1gq5 | A | albelig | 3 | 3 | E | 30 | 32 | A-38-  | A-40-  | YIR 
+| 1gq5 | A | albelig | 4 | 4 | H | 39 | 43 | A-47-  | A-51-  | PAEKA 
+| 1gq5 | A | albelig | 5 | 5 | E | 50 | 54 | A-58-  | A-62-  | RLVEV 
+| 1gq5 | A | albelig | 6 | 6 | H | 64 | 73 | A-72-  | A-81-  | HQQVVSRIRA 
+| 1gq5 | A | albelig | 7 | 7 | E | 77 | 83 | A-85-  | A-91-  | AVRLLVV 
+| 1gq5 | A | albelig | 8 | 8 | L | 92 | 92 | A-1100-  | A-1100-  | J 
+| 1gq5 | A | albelig | 9 | 9 | L | 93 | 93 | A-1101-  | A-1101-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = a = 7
+= 2 = a = 3
+= 3 = l = 8
+= 5 = m = 6
+= 5 = a = 7
+= 7 = l = 9
+# Listed 7 contacts. EOF.

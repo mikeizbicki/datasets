@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hss, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CEREAL INHIBITOR, ANIMAL AMYLASE
+> pdb_mol_name > 0.19 ALPHA-AMYLASE INHIBITOR
+> graphtype > albelig
+> resolution > 2.06
+> date > 01-JUL-97
+> header > CEREAL INHIBITOR
+> pdb_org_common > BREAD WHEAT
+> title > 0.19 ALPHA-AMYLASE INHIBITOR FROM WHEAT
+> format_version > 2
+> pdbid > 1hss
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > TRITICUM AESTIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hss | D | albelig | 1 | 1 | H | 355 | 362 | D-20-  | D-27-  | QRPLLRLQ 
+| 1hss | D | albelig | 2 | 2 | H | 370 | 381 | D-35-  | D-46-  | EAVLRDQSQQLA 
+| 1hss | D | albelig | 3 | 3 | H | 388 | 402 | D-53-  | D-67-  | RTGALYSMLDSMYKE 
+| 1hss | D | albelig | 4 | 4 | H | 412 | 419 | D-85-  | D-92-  | REVVKLTA 
+| 1hss | D | albelig | 5 | 5 | H | 422 | 425 | D-95-  | D-98-  | ITAV 
+| 1hss | D | albelig | 6 | 6 | H | 443 | 446 | D-116-  | D-119-  | KDVA 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 4
+= 3 = m = 6
+# Listed 3 contacts. EOF.

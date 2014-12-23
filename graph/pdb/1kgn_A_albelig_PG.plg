@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HELIX BUNDLE, ARM EXCHANGE, RADICAL PROTEIN, METAL BINDINGPROTEIN
+> pdb_mol_name > RIBONUCLEOTIDE REDUCTASE PROTEIN R2F
+> graphtype > albelig
+> resolution > 1.85
+> date > 28-NOV-01
+> header > METAL BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > R2F FROM CORYNEBACTERIUM AMMONIAGENES IN ITS OXIDISED, FECONTAINING, FORM
+> format_version > 2
+> pdbid > 1kgn
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CORYNEBACTERIUM AMMONIAGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgn | A | albelig | 1 | 1 | H | 5 | 10 | A-6-  | A-11-  | DEYIAN 
+| 1kgn | A | albelig | 2 | 2 | H | 26 | 37 | A-27-  | A-38-  | EKDLEVWDRLTG 
+| 1kgn | A | albelig | 3 | 3 | H | 42 | 44 | A-43-  | A-45-  | PEK 
+| 1kgn | A | albelig | 4 | 4 | H | 47 | 56 | A-48-  | A-57-  | VSNDIQSWNK 
+| 1kgn | A | albelig | 5 | 5 | H | 59 | 83 | A-60-  | A-84-  | PQEQLATMRVFTGLTLLDTIQGTVG 
+| 1kgn | A | albelig | 6 | 6 | H | 84 | 90 | A-85-  | A-91-  | AISLLPD 
+| 1kgn | A | albelig | 7 | 7 | H | 94 | 121 | A-95-  | A-122-  | MHEEAVYTNIAFMESVHAKSYSNIFMTL 
+| 1kgn | A | albelig | 8 | 8 | H | 124 | 136 | A-125-  | A-137-  | TPQINEAFRWSEE 
+| 1kgn | A | albelig | 9 | 9 | H | 138 | 151 | A-139-  | A-152-  | ENLQRKAKIIMSYY 
+| 1kgn | A | albelig | 10 | 10 | H | 156 | 170 | A-157-  | A-171-  | PLKKKVASTLLESFL 
+| 1kgn | A | albelig | 11 | 11 | H | 172 | 183 | A-173-  | A-184-  | YSGFYLPMYLSS 
+| 1kgn | A | albelig | 12 | 12 | H | 188 | 216 | A-189-  | A-217-  | TNTADIIRLIIRDESVHGYYIGYKYQQGV 
+| 1kgn | A | albelig | 13 | 13 | H | 221 | 250 | A-222-  | A-251-  | EAEQEEYKAYTFDLMYDLYENEIEYTEDIY 
+| 1kgn | A | albelig | 14 | 14 | H | 256 | 273 | A-257-  | A-274-  | TEDVKRFLRYNANKALNN 
+| 1kgn | A | albelig | 15 | 15 | H | 282 | 284 | A-283-  | A-285-  | TDE 
+| 1kgn | A | albelig | 16 | 16 | H | 289 | 295 | A-290-  | A-296-  | PAILSSL 
+| 1kgn | A | albelig | 17 | 17 | L | 1188 | 1188 | A-1001-  | A-1001-  | J 
+| 1kgn | A | albelig | 18 | 18 | L | 1189 | 1189 | A-2001-  | A-2001-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 7
+= 2 = a = 12
+= 3 = m = 7
+= 4 = m = 7
+= 4 = m = 12
+= 5 = m = 6
+= 5 = a = 7
+= 5 = p = 8
+= 5 = p = 9
+= 5 = a = 11
+= 5 = l = 17
+= 5 = l = 18
+= 6 = m = 7
+= 6 = m = 10
+= 7 = a = 12
+= 7 = l = 17
+= 7 = l = 18
+= 9 = m = 10
+= 9 = a = 13
+= 10 = a = 12
+= 10 = p = 13
+= 10 = m = 14
+= 10 = l = 18
+= 11 = m = 12
+= 11 = m = 13
+= 11 = a = 14
+= 12 = l = 17
+= 12 = l = 18
+= 13 = a = 14
+= 17 = l = 18
+# Listed 30 contacts. EOF.

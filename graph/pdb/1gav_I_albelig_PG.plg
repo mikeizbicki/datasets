@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gav, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIOPHAGE, CAPSID, COAT PROTEIN, ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > BACTERIOPHAGE GA PROTEIN CAPSID
+> graphtype > albelig
+> resolution > 3.4
+> date > 28-JAN-97
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > BACTERIOPHAGE GA PROTEIN CAPSID
+> format_version > 2
+> pdbid > 1gav
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE GA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gav | I | albelig | 1 | 1 | E | 1046 | 1049 | I-7-  | I-10-  | FVLV 
+| 1gav | I | albelig | 2 | 2 | E | 1057 | 1065 | I-18-  | I-26-  | VTVVPVSNA 
+| 1gav | I | albelig | 3 | 3 | E | 1068 | 1072 | I-29-  | I-33-  | VAEWL 
+| 1gav | I | albelig | 4 | 4 | H | 1077 | 1079 | I-38-  | I-40-  | RSQ 
+| 1gav | I | albelig | 5 | 5 | E | 1082 | 1085 | I-43-  | I-46-  | RVTA 
+| 1gav | I | albelig | 6 | 6 | E | 1087 | 1090 | I-48-  | I-51-  | YRAS 
+| 1gav | I | albelig | 7 | 7 | E | 1094 | 1111 | I-55-  | I-72-  | KRKYTIKLEVPKIVTQVV 
+| 1gav | I | albelig | 8 | 8 | E | 1114 | 1132 | I-75-  | I-93-  | VELPVSAWKAYASIDLTIP 
+| 1gav | I | albelig | 9 | 9 | H | 1137 | 1151 | I-98-  | I-112-  | TDDVTVISKSLAGLF 
+| 1gav | I | albelig | 10 | 10 | H | 1156 | 1161 | I-117-  | I-122-  | PIAEAI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 5
+= 4 = m = 8
+= 5 = a = 7
+= 6 = a = 7
+= 7 = a = 8
+# Listed 7 contacts. EOF.

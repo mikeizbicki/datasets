@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jx1, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OPEN-FACED BETA SANDWICH, UNIQUE FOLD, ISOMERASE
+> pdb_mol_name > CHALCONE--FLAVONONE ISOMERASE 1
+> graphtype > albelig
+> resolution > 2.3
+> date > 05-SEP-01
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CHALCONE ISOMERASE--T48A MUTANT
+> format_version > 2
+> pdbid > 1jx1
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MEDICAGO SATIVA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jx1 | E | albelig | 1 | 1 | E | 874 | 876 | E-8-  | E-10-  | ITV 
+| 1jx1 | E | albelig | 2 | 2 | E | 879 | 881 | E-13-  | E-15-  | LEY 
+| 1jx1 | E | albelig | 3 | 3 | E | 884 | 886 | E-18-  | E-20-  | VVT 
+| 1jx1 | E | albelig | 4 | 4 | E | 893 | 902 | E-27-  | E-36-  | SYFLGGAGER 
+| 1jx1 | E | albelig | 5 | 5 | E | 910 | 917 | E-48-  | E-55-  | AAIGVYLE 
+| 1jx1 | E | albelig | 6 | 6 | H | 920 | 928 | E-58-  | E-66-  | AVASLAAKW 
+| 1jx1 | E | albelig | 7 | 7 | H | 933 | 937 | E-71-  | E-75-  | SEELL 
+| 1jx1 | E | albelig | 8 | 8 | H | 940 | 947 | E-78-  | E-85-  | LDFYRDII 
+| 1jx1 | E | albelig | 9 | 9 | E | 953 | 959 | E-91-  | E-97-  | KLIRGSK 
+| 1jx1 | E | albelig | 10 | 10 | H | 965 | 982 | E-103-  | E-120-  | GPEYSRKVMENCVAHLKS 
+| 1jx1 | E | albelig | 11 | 11 | H | 988 | 999 | E-126-  | E-137-  | DAEAEAMQKFAE 
+| 1jx1 | E | albelig | 12 | 12 | E | 1011 | 1017 | E-149-  | E-155-  | SVFYRQS 
+| 1jx1 | E | albelig | 13 | 13 | E | 1021 | 1027 | E-159-  | E-165-  | ILGLSFS 
+| 1jx1 | E | albelig | 14 | 14 | E | 1038 | 1040 | E-176-  | E-178-  | ALI 
+| 1jx1 | E | albelig | 15 | 15 | H | 1043 | 1046 | E-181-  | E-184-  | KAVS 
+| 1jx1 | E | albelig | 16 | 16 | H | 1048 | 1054 | E-186-  | E-192-  | AVLETMI 
+| 1jx1 | E | albelig | 17 | 17 | H | 1062 | 1075 | E-200-  | E-213-  | DLKRCLAARLPALL 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 2 = p = 5
+= 2 = a = 9
+= 3 = a = 4
+= 4 = a = 5
+= 4 = a = 17
+= 5 = a = 9
+= 6 = m = 8
+= 6 = m = 17
+= 7 = m = 17
+= 9 = a = 12
+= 10 = m = 11
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+# Listed 16 contacts. EOF.

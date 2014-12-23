@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hqm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, TRANSCRIPTION, DNA-DIRECTED RNA POLYMERASE, 3D-STRUCTURE
+> pdb_mol_name > DNA-DIRECTED RNA POLYMERASE
+> graphtype > albelig
+> resolution > 3.3
+> date > 18-DEC-00
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THERMUS AQUATICUS CORE RNA POLYMERASE-INCLUDES COMPLETE STRUCTURE WITH SIDE-CHAINS (EXCEPT FORDISORDERED REGIONS)-FURTHER REFINED FROM ORIGINALDEPOSITION-CONTAINS ADDITIONAL SEQUENCE INFORMATION
+> format_version > 2
+> pdbid > 1hqm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS AQUATICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hqm | A | albelig | 1 | 1 | H | 27 | 30 | A-32-  | A-35-  | FGVT 
+| 1hqm | A | albelig | 2 | 2 | H | 32 | 40 | A-37-  | A-45-  | GNPLRRILL 
+| 1hqm | A | albelig | 3 | 3 | E | 44 | 47 | A-49-  | A-52-  | PGTA 
+| 1hqm | A | albelig | 4 | 4 | E | 51 | 53 | A-56-  | A-58-  | VYI 
+| 1hqm | A | albelig | 5 | 5 | H | 70 | 77 | A-75-  | A-82-  | VVEIILNL 
+| 1hqm | A | albelig | 6 | 6 | H | 105 | 107 | A-110-  | A-112-  | AVD 
+| 1hqm | A | albelig | 7 | 7 | E | 122 | 124 | A-127-  | A-129-  | HIA 
+| 1hqm | A | albelig | 8 | 8 | E | 134 | 136 | A-139-  | A-141-  | MEV 
+| 1hqm | A | albelig | 9 | 9 | E | 139 | 142 | A-144-  | A-147-  | DRGV 
+| 1hqm | A | albelig | 10 | 10 | H | 201 | 218 | A-206-  | A-223-  | PLEALNQAVAILKEHLNY 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 10
+= 3 = a = 9
+= 4 = a = 8
+# Listed 3 contacts. EOF.

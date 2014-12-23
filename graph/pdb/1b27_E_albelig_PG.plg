@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b27, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNASE-INHIBITOR COMPLEX, HYDROLASE/HYDROLASE INHIBITORCOMPLEX
+> pdb_mol_name > PROTEIN (BARSTAR)
+> graphtype > albelig
+> resolution > 2.1
+> date > 04-DEC-98
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL RESPONSE TO MUTATION AT A PROTEIN-PROTEININTERFACE
+> format_version > 2
+> pdbid > 1b27
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b27 | E | albelig | 1 | 1 | E | 422 | 425 | E-4-  | E-7-  | AVIN 
+| 1b27 | E | albelig | 2 | 2 | H | 432 | 443 | E-14-  | E-25-  | ISDLHQTLKKEL 
+| 1b27 | E | albelig | 3 | 3 | H | 453 | 462 | E-35-  | E-44-  | LDALWDALTG 
+| 1b27 | E | albelig | 4 | 4 | E | 468 | 473 | E-50-  | E-55-  | LVLEWR 
+| 1b27 | E | albelig | 5 | 5 | H | 477 | 489 | E-68-  | E-80-  | AESVLQVFREAKA 
+| 1b27 | E | albelig | 6 | 6 | E | 494 | 497 | E-85-  | E-88-  | ITII 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 2 = p = 5
+= 3 = p = 5
+= 4 = p = 6
+# Listed 4 contacts. EOF.

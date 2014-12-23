@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fou, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-HELICAL BARREL, VIRAL PROTEIN
+> pdb_mol_name > UPPER COLLAR PROTEIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 28-AUG-00
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CONNECTOR PROTEIN FROM BACTERIOPHAGE PHI29
+> format_version > 2
+> pdbid > 1fou
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS PHAGE PHI29
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fou | D | albelig | 1 | 1 | H | 781 | 804 | D-14-  | D-37-  | EIQRQKRNRWFIHYLNYLQSLAYQ 
+| 1fou | D | albelig | 2 | 2 | H | 817 | 825 | D-50-  | D-58-  | PSFLEKSIH 
+| 1fou | D | albelig | 3 | 3 | E | 831 | 835 | D-64-  | D-68-  | GFYKD 
+| 1fou | D | albelig | 4 | 4 | E | 839 | 843 | D-72-  | D-76-  | SYIAC 
+| 1fou | D | albelig | 5 | 5 | H | 898 | 921 | D-131-  | D-154-  | TPTLELFAAELAELKEIISVNQNA 
+| 1fou | D | albelig | 6 | 6 | H | 974 | 990 | D-207-  | D-223-  | VDKLNAQKNAVWNEMMT 
+| 1fou | D | albelig | 7 | 7 | H | 1000 | 1019 | D-250-  | D-269-  | IDSSGTVFLKSREEACEKIN 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = m = 6
+= 3 = a = 4
+= 5 = a = 6
+# Listed 4 contacts. EOF.

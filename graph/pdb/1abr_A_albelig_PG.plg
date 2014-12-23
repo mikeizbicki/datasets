@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1abr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOSIDASE/CARBOHYDRATE COMPLEX, LECTIN, LECTIN(AGGLUTININ), GLYCOPROTEIN, PLANT SEED PROTEIN, PLANTTOXIN, PROTEIN SYNTHESIS INHIBITOR, TOXIN
+> pdb_mol_name > ABRIN-A
+> graphtype > albelig
+> resolution > 2.14
+> date > 11-NOV-94
+> header > GLYCOSIDASE/CARBOHYDRATE
+> pdb_org_common > INDIAN LICORICE
+> title > CRYSTAL STRUCTURE OF ABRIN-A
+> format_version > 2
+> pdbid > 1abr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ABRUS PRECATORIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1abr | A | albelig | 1 | 1 | E | 5 | 8 | A-5-  | A-8-  | IKFS 
+| 1abr | A | albelig | 2 | 2 | H | 14 | 28 | A-14-  | A-28-  | SQSYKQFIEALRERL 
+| 1abr | A | albelig | 3 | 3 | H | 47 | 49 | A-47-  | A-49-  | ERN 
+| 1abr | A | albelig | 4 | 4 | E | 51 | 57 | A-51-  | A-57-  | YITVELS 
+| 1abr | A | albelig | 5 | 5 | E | 63 | 69 | A-63-  | A-69-  | SIEVGID 
+| 1abr | A | albelig | 6 | 6 | E | 75 | 79 | A-75-  | A-79-  | VVAYR 
+| 1abr | A | albelig | 7 | 7 | E | 83 | 86 | A-83-  | A-86-  | QSYF 
+| 1abr | A | albelig | 8 | 8 | H | 94 | 97 | A-94-  | A-97-  | ASDY 
+| 1abr | A | albelig | 9 | 9 | E | 103 | 106 | A-103-  | A-106-  | DQHS 
+| 1abr | A | albelig | 10 | 10 | H | 115 | 119 | A-115-  | A-119-  | DLERW 
+| 1abr | A | albelig | 11 | 11 | H | 131 | 142 | A-131-  | A-142-  | LQALTHGISFFR 
+| 1abr | A | albelig | 12 | 12 | H | 148 | 164 | A-148-  | A-164-  | NEEKARTLIVIIQMVAE 
+| 1abr | A | albelig | 13 | 13 | H | 165 | 167 | A-165-  | A-167-  | AAR 
+| 1abr | A | albelig | 14 | 14 | H | 169 | 180 | A-169-  | A-180-  | RYISNRVRVSIQ 
+| 1abr | A | albelig | 15 | 15 | H | 189 | 196 | A-189-  | A-196-  | AAMISLEN 
+| 1abr | A | albelig | 16 | 16 | H | 198 | 207 | A-198-  | A-207-  | WDNLSRGVQE 
+| 1abr | A | albelig | 17 | 17 | E | 212 | 220 | A-212-  | A-220-  | TFPNQVTLT 
+| 1abr | A | albelig | 18 | 18 | E | 226 | 231 | A-226-  | A-231-  | PVIVDS 
+| 1abr | A | albelig | 19 | 19 | H | 235 | 239 | A-235-  | A-239-  | PTVAV 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 2 = a = 4
+= 2 = m = 13
+= 2 = a = 14
+= 4 = a = 5
+= 5 = a = 6
+= 5 = m = 11
+= 6 = a = 7
+= 7 = p = 9
+= 10 = m = 12
+= 11 = m = 12
+= 15 = m = 17
+= 17 = a = 18
+# Listed 14 contacts. EOF.

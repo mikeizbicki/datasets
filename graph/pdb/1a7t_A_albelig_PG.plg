@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a7t, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (BETA-LACTAMASE), METALLO BETA-LACTAMASE, ZINC
+> pdb_mol_name > METALLO-BETA-LACTAMASE
+> graphtype > albelig
+> resolution > 1.85
+> date > 17-MAR-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > METALLO-BETA-LACTAMASE WITH MES
+> format_version > 2
+> pdbid > 1a7t
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACTEROIDES FRAGILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a7t | A | albelig | 1 | 1 | E | 8 | 12 | A-11-  | A-15-  | ISITQ 
+| 1a7t | A | albelig | 2 | 2 | E | 17 | 26 | A-20-  | A-29-  | VYTYVSLAEI 
+| 1a7t | A | albelig | 3 | 3 | E | 30 | 41 | A-33-  | A-44-  | GMVPSNGMIVIN 
+| 1a7t | A | albelig | 4 | 4 | E | 44 | 48 | A-47-  | A-51-  | QAALL 
+| 1a7t | A | albelig | 5 | 5 | H | 54 | 68 | A-57-  | A-71-  | DAQTEMLVNWVTDSL 
+| 1a7t | A | albelig | 6 | 6 | E | 71 | 76 | A-74-  | A-79-  | KVTTFI 
+| 1a7t | A | albelig | 7 | 7 | H | 82 | 85 | A-85-  | A-88-  | GDCI 
+| 1a7t | A | albelig | 8 | 8 | H | 88 | 93 | A-91-  | A-96-  | LGYLQR 
+| 1a7t | A | albelig | 9 | 9 | E | 97 | 101 | A-100-  | A-104-  | QSYAN 
+| 1a7t | A | albelig | 10 | 10 | H | 102 | 111 | A-105-  | A-114-  | QMTIDLAKEK 
+| 1a7t | A | albelig | 11 | 11 | E | 118 | 120 | A-121-  | A-123-  | HGF 
+| 1a7t | A | albelig | 12 | 12 | E | 123 | 128 | A-126-  | A-131-  | SLTVSL 
+| 1a7t | A | albelig | 13 | 13 | E | 131 | 136 | A-134-  | A-139-  | MPLQCY 
+| 1a7t | A | albelig | 14 | 14 | E | 148 | 151 | A-151-  | A-154-  | VVWL 
+| 1a7t | A | albelig | 15 | 15 | E | 156 | 160 | A-159-  | A-163-  | ILFGG 
+| 1a7t | A | albelig | 16 | 16 | H | 182 | 192 | A-185-  | A-195-  | WPKTLDKVKAK 
+| 1a7t | A | albelig | 17 | 17 | E | 198 | 201 | A-201-  | A-204-  | YVVP 
+| 1a7t | A | albelig | 18 | 18 | H | 210 | 226 | A-213-  | A-229-  | ELIEHTKQIVNQYIEST 
+| 1a7t | A | albelig | 19 | 19 | L | 456 | 456 | A-251-  | A-251-  | J 
+| 1a7t | A | albelig | 20 | 20 | L | 457 | 457 | A-252-  | A-252-  | J 
+| 1a7t | A | albelig | 21 | 21 | L | 458 | 458 | A-255-  | A-255-  | J 
+| 1a7t | A | albelig | 22 | 22 | L | 459 | 459 | A-250-  | A-250-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = l = 21
+= 2 = l = 22
+= 3 = a = 4
+= 3 = a = 12
+= 3 = l = 21
+= 3 = l = 22
+= 4 = p = 6
+= 4 = a = 12
+= 5 = m = 8
+= 6 = p = 9
+= 7 = l = 19
+= 7 = l = 20
+= 7 = l = 21
+= 7 = l = 22
+= 9 = m = 10
+= 9 = p = 11
+= 11 = a = 12
+= 12 = a = 13
+= 13 = a = 14
+= 14 = a = 15
+= 15 = p = 17
+= 15 = l = 21
+= 16 = m = 18
+= 19 = l = 20
+= 19 = l = 22
+= 20 = l = 22
+# Listed 28 contacts. EOF.

@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b8d, chain K.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGHT-HARVESTING COMPLEX, RED ALGAE, PHYCOBILIPROTEIN,PHOTOSYNTHESIS
+> pdb_mol_name > PROTEIN (RHODOPHYTAN PHYCOERYTHRIN (ALPHA CHAIN)
+> graphtype > albelig
+> resolution > 1.9
+> date > 29-JAN-99
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A PHYCOUROBILIN-CONTAININGPHYCOERYTHRIN
+> format_version > 2
+> pdbid > 1b8d
+> experiment > X-RAY DIFFRACTION
+> chainid > K
+> graphclass > protein graph
+> pdb_org_sci > GRIFFITHSIA MONILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b8d | K | albelig | 1 | 1 | H | 347 | 357 | K-4-  | K-14-  | VITTTISAADA 
+| 1b8d | K | albelig | 2 | 2 | H | 364 | 405 | K-21-  | K-62-  | SSDLESIQGNIQRAAARLEAAQKLSGNHEAVVKEAGDACFAK 
+| 1b8d | K | albelig | 3 | 3 | H | 407 | 410 | K-64-  | K-67-  | SYLK 
+| 1b8d | K | albelig | 4 | 4 | H | 419 | 442 | K-76-  | K-99-  | PEKINKCYRDIDHYMRLINYSLVV 
+| 1b8d | K | albelig | 5 | 5 | H | 446 | 453 | K-103-  | K-110-  | GPVDEWGI 
+| 1b8d | K | albelig | 6 | 6 | H | 456 | 462 | K-113-  | K-119-  | SREVYRA 
+| 1b8d | K | albelig | 7 | 7 | H | 467 | 480 | K-124-  | K-137-  | GSAYIAAFTFTRDR 
+| 1b8d | K | albelig | 8 | 8 | H | 489 | 504 | K-146-  | K-161-  | SQAGVEFTSALDYVIN 
+| 1b8d | K | albelig | 9 | 9 | L | 698 | 698 | K-206-  | K-206-  | J 
+| 1b8d | K | albelig | 10 | 10 | L | 699 | 699 | K-207-  | K-207-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 4
+= 2 = a = 7
+= 2 = l = 9
+= 2 = l = 10
+= 3 = l = 9
+= 4 = a = 5
+= 4 = m = 7
+= 4 = a = 8
+= 4 = l = 9
+= 5 = m = 8
+= 5 = l = 9
+= 6 = l = 9
+= 7 = m = 8
+= 7 = l = 9
+= 7 = l = 10
+= 8 = l = 10
+# Listed 17 contacts. EOF.

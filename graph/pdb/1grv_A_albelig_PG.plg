@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1grv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOSYLTRANSFERASE, TRANSFERASE, GLYCOSYLTRANSFERASE
+> pdb_mol_name > HYPOXANTHINE PHOSPHORIBOSYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.9
+> date > 17-DEC-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > HYPOXANTHINE PHOSPHORIBOSYLTRANSFERASE FROM E. COLI
+> format_version > 2
+> pdbid > 1grv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1grv | A | albelig | 1 | 1 | E | 3 | 9 | A-7-  | A-13-  | HTVEVMI 
+| 1grv | A | albelig | 2 | 2 | H | 11 | 29 | A-15-  | A-33-  | EAEIKARIAELGRQITERY 
+| 1grv | A | albelig | 3 | 3 | E | 36 | 41 | A-40-  | A-45-  | MVLVGL 
+| 1grv | A | albelig | 4 | 4 | H | 46 | 55 | A-50-  | A-59-  | FMFMADLCRE 
+| 1grv | A | albelig | 5 | 5 | E | 60 | 67 | A-64-  | A-71-  | HEVDFMTA 
+| 1grv | A | albelig | 6 | 6 | E | 74 | 76 | A-86-  | A-88-  | ILK 
+| 1grv | A | albelig | 7 | 7 | E | 86 | 94 | A-98-  | A-106-  | DVLIVEDII 
+| 1grv | A | albelig | 8 | 8 | H | 98 | 108 | A-110-  | A-120-  | NTLSKVREILS 
+| 1grv | A | albelig | 9 | 9 | E | 114 | 122 | A-126-  | A-134-  | SLAICTLLD 
+| 1grv | A | albelig | 10 | 10 | H | 124 | 126 | A-136-  | A-138-  | PSR 
+| 1grv | A | albelig | 11 | 11 | E | 135 | 139 | A-147-  | A-151-  | FIGFS 
+| 1grv | A | albelig | 12 | 12 | E | 162 | 167 | A-174-  | A-179-  | IGKVIL 
+| 1grv | A | albelig | 13 | 13 | L | 341 | 341 | A-490-  | A-490-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 2 = m = 4
+= 2 = a = 11
+= 3 = p = 5
+= 3 = p = 7
+= 5 = a = 6
+= 7 = m = 8
+= 7 = p = 9
+= 8 = m = 9
+= 9 = p = 11
+# Listed 10 contacts. EOF.

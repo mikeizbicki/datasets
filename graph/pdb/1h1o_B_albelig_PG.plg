@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h1o, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, C4, CYTOCHROME, ELECTRON TRANSFER, HEME
+> pdb_mol_name > CYTOCHROME C-552
+> graphtype > albelig
+> resolution > 2.13
+> date > 19-JUL-02
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > ACIDITHIOBACILLUS FERROOXIDANS CYTOCHROME C4 STRUCTURESUPPORTS A COMPLEX-INDUCED TUNING OF ELECTRON TRANSFER
+> format_version > 2
+> pdbid > 1h1o
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > THIOBACILLUS FERROOXIDANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h1o | B | albelig | 1 | 1 | H | 178 | 181 | B-217-  | B-220-  | MVCH 
+| 1h1o | B | albelig | 2 | 2 | H | 200 | 211 | B-240-  | B-251-  | KSYMEAQLKAYK 
+| 1h1o | B | albelig | 3 | 3 | H | 220 | 229 | B-260-  | B-269-  | GEIYMWPVAQ 
+| 1h1o | B | albelig | 4 | 4 | H | 233 | 245 | B-273-  | B-285-  | SAKITALADYFNA 
+| 1h1o | B | albelig | 5 | 5 | H | 260 | 269 | B-300-  | B-309-  | AKEGKAIFNQ 
+| 1h1o | B | albelig | 6 | 6 | H | 280 | 283 | B-320-  | B-323-  | MECH 
+| 1h1o | B | albelig | 7 | 7 | H | 301 | 313 | B-341-  | B-353-  | YGYIIQQLTYFHN 
+| 1h1o | B | albelig | 8 | 8 | H | 319 | 325 | B-359-  | B-365-  | TLMNQIA 
+| 1h1o | B | albelig | 9 | 9 | H | 330 | 342 | B-370-  | B-382-  | VAQMKDVAAYLSS 
+| 1h1o | B | albelig | 10 | 10 | L | 350 | 350 | B-1384-  | B-1384-  | J 
+| 1h1o | B | albelig | 11 | 11 | L | 351 | 351 | B-1385-  | B-1385-  | J 
+| 1h1o | B | albelig | 12 | 12 | L | 352 | 352 | B-1386-  | B-1386-  | J 
+| 1h1o | B | albelig | 13 | 13 | L | 353 | 353 | B-1387-  | B-1387-  | J 
+| 1h1o | B | albelig | 14 | 14 | L | 354 | 354 | B-1388-  | B-1388-  | J 
+| 1h1o | B | albelig | 15 | 15 | L | 355 | 355 | B-1389-  | B-1389-  | J 
+| 1h1o | B | albelig | 16 | 16 | L | 356 | 356 | B-1390-  | B-1390-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 12
+= 2 = m = 3
+= 2 = a = 4
+= 2 = l = 11
+= 2 = l = 12
+= 2 = l = 13
+= 2 = l = 14
+= 3 = l = 12
+= 4 = l = 12
+= 4 = l = 13
+= 4 = l = 14
+= 5 = m = 6
+= 5 = m = 9
+= 5 = l = 11
+= 6 = l = 10
+= 6 = l = 11
+= 7 = a = 9
+= 7 = l = 11
+= 7 = l = 12
+= 7 = l = 15
+= 7 = l = 16
+= 8 = l = 11
+= 9 = l = 11
+= 9 = l = 16
+= 11 = l = 12
+= 13 = l = 14
+# Listed 26 contacts. EOF.

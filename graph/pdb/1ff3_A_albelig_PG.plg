@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ff3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PEPTIDE METHIONINE SULFOXIDE REDUCTASE, ALPHA BETA ROLL,PMSR, MSRA, OXIDOREDUCTASE
+> pdb_mol_name > PEPTIDE METHIONINE SULFOXIDE REDUCTASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 25-JUL-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE PEPTIDE METHIONINE SULFOXIDE REDUCTASEFROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1ff3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ff3 | A | albelig | 1 | 1 | H | 11 | 13 | A-11-  | A-13-  | PAD 
+| 1ff3 | A | albelig | 2 | 2 | E | 43 | 48 | A-43-  | A-48-  | EIAIFA 
+| 1ff3 | A | albelig | 3 | 3 | H | 52 | 60 | A-52-  | A-60-  | FWGVERLFW 
+| 1ff3 | A | albelig | 4 | 4 | E | 65 | 73 | A-65-  | A-73-  | VYSTAAGYT 
+| 1ff3 | A | albelig | 5 | 5 | H | 82 | 87 | A-82-  | A-87-  | YREVCS 
+| 1ff3 | A | albelig | 6 | 6 | E | 93 | 100 | A-93-  | A-100-  | AEAVRIVY 
+| 1ff3 | A | albelig | 7 | 7 | H | 107 | 116 | A-107-  | A-116-  | YEQLLQVFWE 
+| 1ff3 | A | albelig | 8 | 8 | H | 132 | 134 | A-132-  | A-134-  | TQY 
+| 1ff3 | A | albelig | 9 | 9 | H | 143 | 162 | A-143-  | A-162-  | PEQDAAARASLERFQAAMLA 
+| 1ff3 | A | albelig | 10 | 10 | E | 179 | 181 | A-179-  | A-181-  | FYY 
+| 1ff3 | A | albelig | 11 | 11 | H | 184 | 186 | A-184-  | A-186-  | DDH 
+| 1ff3 | A | albelig | 12 | 12 | H | 189 | 192 | A-189-  | A-192-  | YLHK 
+| 1ff3 | A | albelig | 13 | 13 | L | 596 | 596 | A-533-  | A-533-  | J 
+| 1ff3 | A | albelig | 14 | 14 | L | 597 | 597 | A-534-  | A-534-  | J 
+| 1ff3 | A | albelig | 15 | 15 | L | 598 | 598 | A-535-  | A-535-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 6
+= 2 = m = 7
+= 3 = a = 4
+= 3 = p = 6
+= 3 = m = 12
+= 4 = a = 6
+= 4 = a = 10
+= 5 = l = 13
+= 6 = m = 8
+= 7 = p = 9
+# Listed 10 contacts. EOF.

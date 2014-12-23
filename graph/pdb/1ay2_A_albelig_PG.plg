@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ay2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TYPE IV PILIN, FIBER-FORMING PROTEIN, MEMBRANE PROTEIN, DNA INDINGPROTEIN, CONTRACTILE PROTEIN, CELL ADHESION
+> pdb_mol_name > TYPE 4 PILIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 13-NOV-97
+> header > CELL ADHESION
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE FIBER-FORMING PROTEIN PILIN AT 2.6 ANGSTROMSRESOLUTION
+> format_version > 2
+> pdbid > 1ay2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NEISSERIA GONORRHOEAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ay2 | A | albelig | 1 | 1 | H | 3 | 42 | A-3-  | A-42-  | LIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEG 
+| 1ay2 | A | albelig | 2 | 2 | H | 44 | 52 | A-44-  | A-52-  | KSAVTEYYL 
+| 1ay2 | A | albelig | 3 | 3 | H | 61 | 64 | A-61-  | A-64-  | NTSA 
+| 1ay2 | A | albelig | 4 | 4 | H | 70 | 72 | A-70-  | A-72-  | PSD 
+| 1ay2 | A | albelig | 5 | 5 | E | 78 | 84 | A-78-  | A-84-  | VKEVEVK 
+| 1ay2 | A | albelig | 6 | 6 | E | 87 | 92 | A-87-  | A-92-  | VVTATM 
+| 1ay2 | A | albelig | 7 | 7 | H | 99 | 101 | A-99-  | A-101-  | NEI 
+| 1ay2 | A | albelig | 8 | 8 | E | 105 | 113 | A-105-  | A-113-  | KLSLWARRE 
+| 1ay2 | A | albelig | 9 | 9 | E | 116 | 122 | A-116-  | A-122-  | SVKWFAG 
+| 1ay2 | A | albelig | 10 | 10 | E | 125 | 129 | A-125-  | A-129-  | VTRTD 
+| 1ay2 | A | albelig | 11 | 11 | E | 132 | 135 | A-132-  | A-135-  | TVAD 
+| 1ay2 | A | albelig | 12 | 12 | H | 144 | 146 | A-144-  | A-146-  | TKH 
+| 1ay2 | A | albelig | 13 | 13 | L | 160 | 160 | A-160-  | A-160-  | J 
+| 1ay2 | A | albelig | 14 | 14 | L | 161 | 161 | A-161-  | A-161-  | J 
+| 1ay2 | A | albelig | 15 | 15 | L | 162 | 162 | A-200-  | A-200-  | J 
+| 1ay2 | A | albelig | 16 | 16 | L | 163 | 163 | A-162-  | A-162-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = a = 6
+= 2 = m = 9
+= 2 = l = 14
+= 3 = l = 14
+= 4 = m = 5
+= 5 = a = 6
+= 6 = a = 8
+= 8 = a = 9
+= 10 = a = 11
+= 13 = l = 14
+# Listed 11 contacts. EOF.

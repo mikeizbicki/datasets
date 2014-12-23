@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ibs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OPEN ALPHA BETA STRUCTURE, DOMAIN DUPLICATION,PHOSPHORIBOSYLTRANSFERASE TYPE I FOLD, TRANSFERASE
+> pdb_mol_name > RIBOSE-PHOSPHATE PYROPHOSPHOKINASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 29-MAR-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > PHOSPHORIBOSYLDIPHOSPHATE SYNTHETASE IN COMPLEX WITH CADMIUM IONS
+> format_version > 2
+> pdbid > 1ibs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ibs | A | albelig | 1 | 1 | E | 2 | 6 | A-9-  | A-13-  | LKIFS 
+| 1ibs | A | albelig | 2 | 2 | H | 11 | 21 | A-18-  | A-28-  | PELAKEIADIV 
+| 1ibs | A | albelig | 3 | 3 | E | 28 | 32 | A-35-  | A-39-  | CSVTR 
+| 1ibs | A | albelig | 4 | 4 | E | 38 | 42 | A-45-  | A-49-  | VQINI 
+| 1ibs | A | albelig | 5 | 5 | E | 50 | 54 | A-57-  | A-61-  | DCYII 
+| 1ibs | A | albelig | 6 | 6 | H | 61 | 77 | A-68-  | A-84-  | VNEHIMELLIMVDALKR 
+| 1ibs | A | albelig | 7 | 7 | E | 82 | 87 | A-89-  | A-94-  | TINIVI 
+| 1ibs | A | albelig | 8 | 8 | H | 105 | 116 | A-113-  | A-124-  | TAKLFANLLETA 
+| 1ibs | A | albelig | 9 | 9 | E | 120 | 124 | A-128-  | A-132-  | RVIAL 
+| 1ibs | A | albelig | 10 | 10 | H | 129 | 134 | A-137-  | A-142-  | PQIQGF 
+| 1ibs | A | albelig | 11 | 11 | E | 139 | 142 | A-147-  | A-150-  | IDHL 
+| 1ibs | A | albelig | 12 | 12 | H | 145 | 155 | A-153-  | A-163-  | VPILGEYFEGK 
+| 1ibs | A | albelig | 13 | 13 | E | 160 | 164 | A-168-  | A-172-  | IVIVS 
+| 1ibs | A | albelig | 14 | 14 | H | 170 | 179 | A-178-  | A-187-  | VTRARKLADR 
+| 1ibs | A | albelig | 15 | 15 | E | 184 | 188 | A-192-  | A-196-  | IAIID 
+| 1ibs | A | albelig | 16 | 16 | E | 193 | 195 | A-209-  | A-211-  | NIV 
+| 1ibs | A | albelig | 17 | 17 | E | 202 | 206 | A-218-  | A-222-  | TAILI 
+| 1ibs | A | albelig | 18 | 18 | H | 214 | 225 | A-230-  | A-241-  | GTITLAANALVE 
+| 1ibs | A | albelig | 19 | 19 | E | 230 | 234 | A-246-  | A-250-  | EVYAC 
+| 1ibs | A | albelig | 20 | 20 | H | 244 | 250 | A-260-  | A-266-  | AVERINN 
+| 1ibs | A | albelig | 21 | 21 | E | 255 | 259 | A-271-  | A-275-  | ELVVT 
+| 1ibs | A | albelig | 22 | 22 | E | 273 | 276 | A-289-  | A-292-  | FKQL 
+| 1ibs | A | albelig | 23 | 23 | H | 279 | 290 | A-295-  | A-306-  | GPLLAEAIIRVH 
+| 1ibs | A | albelig | 24 | 24 | L | 602 | 602 | A-1002-  | A-1002-  | J 
+| 1ibs | A | albelig | 25 | 25 | L | 603 | 603 | A-1004-  | A-1004-  | J 
+| 1ibs | A | albelig | 26 | 26 | L | 604 | 604 | A-1005-  | A-1005-  | J 
+| 1ibs | A | albelig | 27 | 27 | L | 605 | 605 | A-1006-  | A-1006-  | J 
+| 1ibs | A | albelig | 28 | 28 | L | 606 | 606 | A-1009-  | A-1009-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 2 = m = 23
+= 3 = a = 4
+= 3 = a = 6
+= 4 = m = 6
+= 5 = m = 6
+= 5 = p = 7
+= 5 = m = 23
+= 7 = p = 9
+= 9 = p = 11
+= 12 = m = 21
+= 12 = m = 22
+= 13 = p = 15
+= 13 = p = 17
+= 15 = a = 16
+= 17 = m = 18
+= 17 = p = 19
+= 18 = l = 24
+= 19 = p = 21
+= 21 = p = 22
+= 26 = l = 28
+= 27 = l = 28
+# Listed 22 contacts. EOF.

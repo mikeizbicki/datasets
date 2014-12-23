@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hbs, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN S (DEOXY) (BETA CHAIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 02-JUN-82
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > REFINED CRYSTAL STRUCTURE OF DEOXYHEMOGLOBIN S. I.RESTRAINED LEAST-SQUARES REFINEMENT AT 3.0-ANGSTROMSRESOLUTION
+> format_version > 2
+> pdbid > 1hbs
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hbs | H | albelig | 1 | 1 | H | 1016 | 1025 | H-7-  | H-16-  | EKSAVTALWG 
+| 1hbs | H | albelig | 2 | 2 | H | 1029 | 1043 | H-20-  | H-34-  | VDEVGGEALGRLLVV 
+| 1hbs | H | albelig | 3 | 3 | H | 1045 | 1050 | H-36-  | H-41-  | PWTQRF 
+| 1hbs | H | albelig | 4 | 4 | H | 1060 | 1065 | H-51-  | H-56-  | PDAVMG 
+| 1hbs | H | albelig | 5 | 5 | H | 1067 | 1081 | H-58-  | H-72-  | PKVKAHGKKVLGAFS 
+| 1hbs | H | albelig | 6 | 6 | H | 1090 | 1093 | H-81-  | H-84-  | LKGT 
+| 1hbs | H | albelig | 7 | 7 | H | 1095 | 1105 | H-86-  | H-96-  | ATLSELHCDKL 
+| 1hbs | H | albelig | 8 | 8 | H | 1110 | 1115 | H-101-  | H-106-  | ENFRLL 
+| 1hbs | H | albelig | 9 | 9 | H | 1117 | 1126 | H-108-  | H-117-  | NVLVCVLAHH 
+| 1hbs | H | albelig | 10 | 10 | H | 1128 | 1130 | H-119-  | H-121-  | GKE 
+| 1hbs | H | albelig | 11 | 11 | H | 1133 | 1147 | H-124-  | H-138-  | PPVQAAYQKVVAGVA 
+| 1hbs | H | albelig | 12 | 12 | L | 1163 | 1163 | H-147-  | H-147-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 11
+= 2 = m = 3
+= 2 = m = 4
+= 2 = a = 5
+= 2 = m = 9
+= 2 = l = 12
+= 3 = l = 12
+= 5 = l = 12
+= 7 = l = 12
+= 8 = l = 12
+# Listed 10 contacts. EOF.

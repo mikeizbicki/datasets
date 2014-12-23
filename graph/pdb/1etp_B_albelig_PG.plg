@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1etp, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CYTOCHROME C4, DIHEME PROTEIN,PSEUDOMONAS STUTZERI
+> pdb_mol_name > CYTOCHROME C4
+> graphtype > albelig
+> resolution > 2.2
+> date > 23-JAN-96
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CYTOCHROME C4 FROM PSEUDOMONAS STUTZERI
+> format_version > 2
+> pdbid > 1etp
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS STUTZERI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1etp | B | albelig | 1 | 1 | H | 195 | 198 | B-4-  | B-7-  | AEAG 
+| 1etp | B | albelig | 2 | 2 | H | 203 | 209 | B-12-  | B-18-  | AVCGACH 
+| 1etp | B | albelig | 3 | 3 | H | 228 | 242 | B-37-  | B-51-  | ERYLLKQLQDIKAGS 
+| 1etp | B | albelig | 4 | 4 | H | 255 | 257 | B-64-  | B-66-  | LEM 
+| 1etp | B | albelig | 5 | 5 | H | 266 | 277 | B-75-  | B-86-  | DQDLEDIAAYFS 
+| 1etp | B | albelig | 6 | 6 | H | 288 | 300 | B-97-  | B-109-  | PALAKQGEKLFRG 
+| 1etp | B | albelig | 7 | 7 | H | 303 | 305 | B-112-  | B-114-  | LDQ 
+| 1etp | B | albelig | 8 | 8 | H | 311 | 314 | B-120-  | B-123-  | TGCH 
+| 1etp | B | albelig | 9 | 9 | H | 334 | 345 | B-143-  | B-154-  | AAYTAKQLTDFR 
+| 1etp | B | albelig | 10 | 10 | H | 357 | 362 | B-166-  | B-171-  | IMRGVA 
+| 1etp | B | albelig | 11 | 11 | H | 367 | 378 | B-176-  | B-187-  | NKDIEALSSYIQ 
+| 1etp | B | albelig | 12 | 12 | L | 384 | 384 | B-199-  | B-199-  | J 
+| 1etp | B | albelig | 13 | 13 | L | 385 | 385 | B-200-  | B-200-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 12
+= 3 = a = 5
+= 3 = l = 12
+= 3 = l = 13
+= 4 = l = 12
+= 5 = l = 12
+= 6 = m = 11
+= 6 = l = 13
+= 8 = l = 13
+= 9 = a = 11
+= 9 = l = 12
+= 9 = l = 13
+= 10 = l = 13
+= 11 = l = 13
+= 12 = l = 13
+# Listed 15 contacts. EOF.

@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eq1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FIVE HELIX-BUNDLE, "HELIX-SHORT HELIX-HELIX" RECOGNITIONMOTIF, LIPID BINDING PROTEIN
+> pdb_mol_name > APOLIPOPHORIN-III
+> graphtype > albelig
+> resolution > -1.0
+> date > 31-MAR-00
+> header > LIPID BINDING PROTEIN
+> pdb_org_common > TOBACCO HORNWORM
+> title > NMR STRUCTURE OF AN EXCHANGEABLE APOLIPOPROTEIN-MANDUCASEXTA APOLIPOPHORIN-III
+> format_version > 2
+> pdbid > 1eq1
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MANDUCA SEXTA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eq1 | A | albelig | 1 | 1 | H | 11 | 30 | A-11-  | A-30-  | EMEKHAKEFQKTFSEQFNSL 
+| 1eq1 | A | albelig | 2 | 2 | H | 41 | 65 | A-41-  | A-65-  | KALKDGSDSVLQQLSAFSSSLQGAI 
+| 1eq1 | A | albelig | 3 | 3 | H | 72 | 92 | A-72-  | A-92-  | AKEALEQARQNVEKTAEELRK 
+| 1eq1 | A | albelig | 4 | 4 | H | 95 | 99 | A-95-  | A-99-  | PDVEK 
+| 1eq1 | A | albelig | 5 | 5 | H | 105 | 127 | A-105-  | A-127-  | KDKLQAAVQTTVQESQKLAKEVA 
+| 1eq1 | A | albelig | 6 | 6 | H | 135 | 162 | A-135-  | A-162-  | KKLAPKIKQAYDDFVKHAEEVQKKLHEA 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = p = 6
+= 2 = a = 3
+= 2 = p = 5
+= 2 = a = 6
+= 3 = a = 5
+# Listed 6 contacts. EOF.

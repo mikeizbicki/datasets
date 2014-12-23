@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1el1, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM BINDING LYSOZYME, HOLO-FORM, C-TYPE LYSOZYME,HYDROLASE
+> pdb_mol_name > LYSOZYME C
+> graphtype > albelig
+> resolution > 1.9
+> date > 13-MAR-00
+> header > HYDROLASE
+> pdb_org_common > DOG
+> title > X-RAY CRYSTAL STRUCTURE ANALYSIS OF CANINE MILK LYSOZYME(HOLO-TYPE)
+> format_version > 2
+> pdbid > 1el1
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CANIS LUPUS FAMILIARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1el1 | B | albelig | 1 | 1 | H | 137 | 146 | B-5-  | B-14-  | KEELARKLKS 
+| 1el1 | B | albelig | 2 | 2 | H | 152 | 154 | B-20-  | B-22-  | FHG 
+| 1el1 | B | albelig | 3 | 3 | H | 157 | 168 | B-25-  | B-36-  | LANWVFMAEYES 
+| 1el1 | B | albelig | 4 | 4 | H | 212 | 215 | B-80-  | B-83-  | GSKF 
+| 1el1 | B | albelig | 5 | 5 | H | 221 | 230 | B-89-  | B-98-  | DDDIAHAKRV 
+| 1el1 | B | albelig | 6 | 6 | H | 236 | 239 | B-104-  | B-107-  | GMSA 
+| 1el1 | B | albelig | 7 | 7 | H | 241 | 246 | B-109-  | B-114-  | VAWVKH 
+| 1el1 | B | albelig | 8 | 8 | L | 263 | 263 | B-130-  | B-130-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 3 = m = 7
+= 4 = m = 5
+= 4 = l = 8
+= 5 = l = 8
+# Listed 5 contacts. EOF.

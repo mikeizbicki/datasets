@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvr, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NADH-DEPENDENT ENOYL-ACP REDUCTASE, STRUCTURAL GENOMICS, PSI, PROTEINSTRUCTURE INITIATIVE, TB STRUCTURAL GENOMICS CONSORTIUM, TBSGC,OXIDOREDUCTASE
+> pdb_mol_name > PROTEIN (ENOYL-ACYL CARRIER PROTEIN (ACP) REDUCTASE)
+> graphtype > albelig
+> resolution > 2.8
+> date > 17-SEP-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > M.TB. ENOYL-ACP REDUCTASE (INHA) IN COMPLEX WITH NAD+ AND C16-FATTY-ACYL-SUBSTRATE
+> format_version > 2
+> pdbid > 1bvr
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvr | C | albelig | 1 | 1 | E | 546 | 549 | C-9-  | C-12-  | RILV 
+| 1bvr | C | albelig | 2 | 2 | H | 558 | 568 | C-21-  | C-31-  | IAFHIARVAQE 
+| 1bvr | C | albelig | 3 | 3 | E | 572 | 577 | C-35-  | C-40-  | QLVLTG 
+| 1bvr | C | albelig | 4 | 4 | H | 581 | 588 | C-44-  | C-51-  | LRLIQRIT 
+| 1bvr | C | albelig | 5 | 5 | E | 597 | 599 | C-60-  | C-62-  | LLE 
+| 1bvr | C | albelig | 6 | 6 | H | 605 | 619 | C-68-  | C-82-  | EEHLASLAGRVTEAI 
+| 1bvr | C | albelig | 7 | 7 | E | 625 | 630 | C-88-  | C-93-  | LDGVVH 
+| 1bvr | C | albelig | 8 | 8 | H | 650 | 662 | C-113-  | C-125-  | YADVSKGIHISAY 
+| 1bvr | C | albelig | 9 | 9 | H | 663 | 674 | C-126-  | C-137-  | SYASMAKALLPI 
+| 1bvr | C | albelig | 10 | 10 | E | 675 | 685 | C-138-  | C-148-  | MNPGGSIVGMD 
+| 1bvr | C | albelig | 11 | 11 | H | 696 | 717 | C-159-  | C-180-  | NWMTVAKSALESVNRFVAREAG 
+| 1bvr | C | albelig | 12 | 12 | E | 722 | 728 | C-185-  | C-191-  | RSNLVAA 
+| 1bvr | C | albelig | 13 | 13 | H | 734 | 740 | C-197-  | C-203-  | LAMSAIV 
+| 1bvr | C | albelig | 14 | 14 | H | 746 | 762 | C-209-  | C-225-  | EEAGAQIQLLEEGWDQR 
+| 1bvr | C | albelig | 15 | 15 | H | 773 | 782 | C-236-  | C-245-  | TPVAKTVCAL 
+| 1bvr | C | albelig | 16 | 16 | E | 793 | 797 | C-256-  | C-260-  | DIIYA 
+| 1bvr | C | albelig | 17 | 17 | L | 1618 | 1618 | C-1305-  | C-1305-  | J 
+| 1bvr | C | albelig | 18 | 18 | L | 1619 | 1619 | C-1306-  | C-1306-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = l = 17
+= 3 = a = 5
+= 5 = m = 6
+= 6 = p = 9
+= 7 = a = 9
+= 7 = p = 10
+= 8 = m = 9
+= 8 = l = 17
+= 9 = a = 10
+= 9 = p = 11
+= 10 = p = 12
+= 10 = l = 17
+= 11 = m = 12
+= 11 = l = 17
+= 11 = l = 18
+= 12 = a = 15
+= 12 = p = 16
+= 12 = l = 17
+= 13 = l = 17
+= 13 = l = 18
+= 14 = l = 18
+= 17 = l = 18
+# Listed 24 contacts. EOF.

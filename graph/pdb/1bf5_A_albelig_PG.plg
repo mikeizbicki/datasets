@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bf5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (SH2 DOMAIN/DNA), SH2 DOMAIN, TRANSCRIPTION FACTOR,GENE REGULATION/DNA COMPLEX
+> pdb_mol_name > SIGNAL TRANSDUCER AND ACTIVATOR OF TRANSCRIPTION
+> graphtype > albelig
+> resolution > 2.9
+> date > 27-MAY-98
+> header > GENE REGULATION/DNA
+> pdb_org_common > HUMAN
+> title > TYROSINE PHOSPHORYLATED STAT-1/DNA COMPLEX
+> format_version > 2
+> pdbid > 1bf5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bf5 | A | albelig | 1 | 1 | H | 2 | 44 | A-137-  | A-179-  | DKQKELDSKVRNVKDKVMCIEHEIKSLEDLQDEYDFKCKTLQN 
+| 1bf5 | A | albelig | 2 | 2 | H | 50 | 88 | A-198-  | A-236-  | LLKKMYLMLDNKRKEVVHKIIELLNVTELTQNALINDEL 
+| 1bf5 | A | albelig | 3 | 3 | H | 89 | 99 | A-237-  | A-247-  | VEWKRRQQSAC 
+| 1bf5 | A | albelig | 4 | 4 | H | 109 | 138 | A-257-  | A-286-  | DQLQNWFTIVAESLQQVRQQLKKLEELEQK 
+| 1bf5 | A | albelig | 5 | 5 | H | 145 | 168 | A-293-  | A-316-  | PITKNKQVLWDRTFSLFQQLIQSS 
+| 1bf5 | A | albelig | 6 | 6 | E | 169 | 173 | A-317-  | A-321-  | FVVER 
+| 1bf5 | A | albelig | 7 | 7 | E | 186 | 188 | A-334-  | A-336-  | VLK 
+| 1bf5 | A | albelig | 8 | 8 | E | 192 | 199 | A-340-  | A-347-  | QFTVKLRL 
+| 1bf5 | A | albelig | 9 | 9 | H | 204 | 206 | A-352-  | A-354-  | QEL 
+| 1bf5 | A | albelig | 10 | 10 | E | 211 | 216 | A-359-  | A-364-  | KVKVLF 
+| 1bf5 | A | albelig | 11 | 11 | H | 222 | 225 | A-370-  | A-373-  | ERNT 
+| 1bf5 | A | albelig | 12 | 12 | E | 239 | 241 | A-387-  | A-389-  | TKV 
+| 1bf5 | A | albelig | 13 | 13 | E | 252 | 260 | A-400-  | A-408-  | LAAEFRHLQ 
+| 1bf5 | A | albelig | 14 | 14 | E | 285 | 293 | A-433-  | A-441-  | LSFETQLCQ 
+| 1bf5 | A | albelig | 15 | 15 | E | 296 | 303 | A-444-  | A-451-  | LVIDLETT 
+| 1bf5 | A | albelig | 16 | 16 | E | 308 | 310 | A-456-  | A-458-  | VVI 
+| 1bf5 | A | albelig | 17 | 17 | H | 313 | 329 | A-461-  | A-477-  | VSQLPSGWASILWYNML 
+| 1bf5 | A | albelig | 18 | 18 | H | 338 | 340 | A-486-  | A-488-  | FFL 
+| 1bf5 | A | albelig | 19 | 19 | H | 347 | 361 | A-495-  | A-509-  | WAQLSEVLSWQFSSV 
+| 1bf5 | A | albelig | 20 | 20 | H | 368 | 378 | A-516-  | A-526-  | VDQLNMLGEKL 
+| 1bf5 | A | albelig | 21 | 21 | H | 391 | 395 | A-539-  | A-543-  | WTRFC 
+| 1bf5 | A | albelig | 22 | 22 | H | 406 | 420 | A-554-  | A-568-  | FWLWIESILELIKKH 
+| 1bf5 | A | albelig | 23 | 23 | H | 422 | 426 | A-570-  | A-574-  | LPLWN 
+| 1bf5 | A | albelig | 24 | 24 | H | 436 | 442 | A-584-  | A-590-  | KERERAL 
+| 1bf5 | A | albelig | 25 | 25 | E | 453 | 455 | A-601-  | A-603-  | LRF 
+| 1bf5 | A | albelig | 26 | 26 | E | 464 | 468 | A-612-  | A-616-  | ITFTW 
+| 1bf5 | A | albelig | 27 | 27 | H | 488 | 492 | A-636-  | A-640-  | KKELS 
+| 1bf5 | A | albelig | 28 | 28 | H | 496 | 501 | A-644-  | A-649-  | FPDIIR 
+| 1bf5 | A | albelig | 29 | 29 | H | 525 | 529 | A-673-  | A-677-  | KDHAF 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 2 = a = 4
+= 2 = p = 5
+= 4 = a = 5
+= 5 = m = 6
+= 5 = m = 8
+= 5 = m = 15
+= 6 = a = 8
+= 6 = p = 15
+= 7 = p = 16
+= 8 = a = 13
+= 10 = p = 12
+= 10 = a = 14
+= 14 = a = 15
+= 17 = a = 19
+= 17 = m = 21
+= 19 = p = 22
+= 20 = m = 22
+= 22 = m = 27
+= 25 = a = 26
+# Listed 21 contacts. EOF.

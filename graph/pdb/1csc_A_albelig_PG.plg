@@ -1,0 +1,85 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1csc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXO-ACID-LYASE
+> pdb_mol_name > CITRATE SYNTHASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 07-MAY-90
+> header > OXO-ACID-LYASE
+> pdb_org_common > CHICKEN
+> title > STRUCTURE OF TERNARY COMPLEXES OF CITRATE SYNTHASE WITH D-AND L-MALATE: MECHANISTIC IMPLICATIONS
+> format_version > 2
+> pdbid > 1csc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1csc | A | albelig | 1 | 1 | H | 6 | 28 | A-6-  | A-28-  | LKDVLAALIPKEQARIKTFRQQH 
+| 1csc | A | albelig | 2 | 2 | H | 38 | 42 | A-38-  | A-42-  | VDMSY 
+| 1csc | A | albelig | 3 | 3 | E | 57 | 59 | A-57-  | A-59-  | VLD 
+| 1csc | A | albelig | 4 | 4 | E | 63 | 65 | A-63-  | A-65-  | GIR 
+| 1csc | A | albelig | 5 | 5 | H | 71 | 77 | A-71-  | A-77-  | IPECQKL 
+| 1csc | A | albelig | 6 | 6 | H | 89 | 98 | A-89-  | A-98-  | PEGLFWLLVT 
+| 1csc | A | albelig | 7 | 7 | H | 104 | 116 | A-104-  | A-116-  | GAQVSWLSKEWAK 
+| 1csc | A | albelig | 8 | 8 | H | 122 | 130 | A-122-  | A-130-  | SHVVTMLDN 
+| 1csc | A | albelig | 9 | 9 | H | 137 | 151 | A-137-  | A-151-  | PMSQLSAAITALNSE 
+| 1csc | A | albelig | 10 | 10 | H | 153 | 160 | A-153-  | A-160-  | NFARAYAE 
+| 1csc | A | albelig | 11 | 11 | H | 164 | 194 | A-164-  | A-194-  | RTKYWEMVYESAMDLIAKLPCVAAKIYRNLY 
+| 1csc | A | albelig | 12 | 12 | H | 209 | 217 | A-209-  | A-217-  | WSHNFTNML 
+| 1csc | A | albelig | 13 | 13 | H | 222 | 234 | A-222-  | A-234-  | AQFTELMRLYLTI 
+| 1csc | A | albelig | 14 | 14 | H | 243 | 252 | A-243-  | A-252-  | VSAHTSHLVG 
+| 1csc | A | albelig | 15 | 15 | H | 258 | 269 | A-258-  | A-269-  | PYLSFAAAMNGL 
+| 1csc | A | albelig | 16 | 16 | H | 277 | 290 | A-277-  | A-290-  | ANQEVLGWLAQLQK 
+| 1csc | A | albelig | 17 | 17 | H | 296 | 308 | A-298-  | A-310-  | DASLRDYIWNTLN 
+| 1csc | A | albelig | 18 | 18 | H | 326 | 338 | A-328-  | A-340-  | PRYTCQREFALKH 
+| 1csc | A | albelig | 19 | 19 | H | 343 | 362 | A-345-  | A-364-  | PMFKLVAQLYKIVPNVLLEQ 
+| 1csc | A | albelig | 20 | 20 | H | 373 | 382 | A-375-  | A-384-  | DAHSGVLLQY 
+| 1csc | A | albelig | 21 | 21 | H | 388 | 412 | A-390-  | A-414-  | MNYYTVLFGVSRALGVLAQLIWSRA 
+| 1csc | A | albelig | 22 | 22 | H | 425 | 430 | A-427-  | A-432-  | TDGLIA 
+| 1csc | A | albelig | 23 | 23 | L | 432 | 432 | A-700-  | A-700-  | J 
+| 1csc | A | albelig | 24 | 24 | L | 433 | 433 | A-702-  | A-702-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 11
+= 3 = a = 4
+= 3 = l = 24
+= 6 = m = 7
+= 6 = m = 13
+= 6 = p = 21
+= 7 = p = 11
+= 8 = a = 9
+= 8 = m = 11
+= 9 = a = 15
+= 9 = m = 21
+= 10 = m = 11
+= 11 = p = 12
+= 11 = m = 15
+= 11 = a = 21
+= 12 = m = 13
+= 12 = a = 21
+= 13 = a = 18
+= 13 = m = 21
+= 14 = a = 15
+= 14 = l = 24
+= 15 = a = 21
+= 16 = m = 17
+= 16 = m = 19
+= 16 = m = 20
+= 16 = m = 21
+= 16 = l = 23
+= 17 = p = 19
+= 17 = l = 23
+= 18 = a = 19
+= 18 = p = 20
+= 18 = l = 23
+= 18 = l = 24
+= 19 = m = 20
+= 19 = l = 23
+= 20 = l = 23
+= 21 = l = 23
+= 21 = l = 24
+= 23 = l = 24
+# Listed 40 contacts. EOF.

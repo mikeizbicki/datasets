@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cd3, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (VIRUS CAPSID PROTEINS), BACTERIOPHAGE, PROCAPSID,SCAFFOLDING PROTEIN, CHAPERONE, ICOSAHEDRAL VIRUS
+> pdb_mol_name > PROTEIN (SCAFFOLDING PROTEIN GPB)
+> graphtype > albelig
+> resolution > 3.5
+> date > 05-MAR-99
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > PROCAPSID OF BACTERIOPHAGE PHIX174
+> format_version > 2
+> pdbid > 1cd3
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE PHIX174
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cd3 | B | albelig | 1 | 1 | H | 1182 | 1199 | B-62-  | B-79-  | KKRDEIEAGKSYCSRRFG 
+| 1cd3 | B | albelig | 2 | 2 | H | 1205 | 1213 | B-85-  | B-93-  | DKSAQIYAR 
+| 1cd3 | B | albelig | 3 | 3 | H | 1232 | 1236 | B-112-  | B-116-  | AEVNT 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+# Listed 1 contacts. EOF.

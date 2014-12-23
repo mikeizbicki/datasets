@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hus, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOSOMAL PROTEIN, RNA-BINDING PROTEIN, DECODING CENTER,
+> pdb_mol_name > RIBOSOMAL PROTEIN S7
+> graphtype > albelig
+> resolution > 2.5
+> date > 08-AUG-97
+> header > RIBOSOMAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > RIBOSOMAL PROTEIN S7
+> format_version > 2
+> pdbid > 1hus
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GEOBACILLUS STEAROTHERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hus | A | albelig | 1 | 1 | H | 12 | 21 | A-20-  | A-29-  | KLVTRLINKI 
+| 1hus | A | albelig | 2 | 2 | H | 27 | 45 | A-35-  | A-53-  | KSKAQKILYTAFDIIRERT 
+| 1hus | A | albelig | 3 | 3 | H | 49 | 60 | A-57-  | A-68-  | PXEVFEQALKNV 
+| 1hus | A | albelig | 4 | 4 | E | 64 | 67 | A-72-  | A-75-  | LEVR 
+| 1hus | A | albelig | 5 | 5 | E | 78 | 81 | A-86-  | A-89-  | VPVE 
+| 1hus | A | albelig | 6 | 6 | H | 84 | 101 | A-92-  | A-109-  | PDRRVSLGLRWLVQYARL 
+| 1hus | A | albelig | 7 | 7 | H | 107 | 119 | A-115-  | A-127-  | XEERLANEIXDAA 
+| 1hus | A | albelig | 8 | 8 | H | 124 | 138 | A-132-  | A-146-  | AAVKKREDTHKXAEA 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = p = 6
+= 2 = m = 3
+= 2 = p = 7
+= 3 = m = 6
+= 3 = m = 7
+= 4 = a = 5
+= 4 = m = 8
+= 6 = a = 7
+= 6 = m = 8
+# Listed 11 contacts. EOF.

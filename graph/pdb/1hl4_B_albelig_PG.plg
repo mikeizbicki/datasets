@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hl4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, HUMAN CU, ZN SUPEROXIDE DISMUTASE
+> pdb_mol_name > SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 1.82
+> date > 13-MAR-03
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > THE STRUCTURE OF APO TYPE HUMAN CU, ZN SUPEROXIDE DISMUTASE
+> format_version > 2
+> pdbid > 1hl4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hl4 | B | albelig | 1 | 1 | E | 157 | 163 | B-3-  | B-9-  | KAVCVLK 
+| 1hl4 | B | albelig | 2 | 2 | E | 169 | 175 | B-15-  | B-21-  | QGIINFE 
+| 1hl4 | B | albelig | 3 | 3 | E | 183 | 190 | B-29-  | B-36-  | VKVWGSIK 
+| 1hl4 | B | albelig | 4 | 4 | E | 195 | 202 | B-41-  | B-48-  | GLHGFHVH 
+| 1hl4 | B | albelig | 5 | 5 | H | 211 | 214 | B-57-  | B-60-  | NTSA 
+| 1hl4 | B | albelig | 6 | 6 | E | 237 | 243 | B-83-  | B-89-  | DLGNVTA 
+| 1hl4 | B | albelig | 7 | 7 | E | 249 | 255 | B-95-  | B-101-  | ADVSIED 
+| 1hl4 | B | albelig | 8 | 8 | E | 270 | 274 | B-116-  | B-120-  | TLVVH 
+| 1hl4 | B | albelig | 9 | 9 | H | 288 | 291 | B-134-  | B-137-  | STKT 
+| 1hl4 | B | albelig | 10 | 10 | E | 297 | 302 | B-143-  | B-148-  | RLANGV 
+| 1hl4 | B | albelig | 11 | 11 | L | 565 | 565 | B-0-  | B-0-  | J 
+| 1hl4 | B | albelig | 12 | 12 | L | 567 | 567 | B-155-  | B-155-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 6
+= 4 = a = 8
+= 4 = l = 12
+= 5 = m = 10
+= 6 = a = 7
+= 6 = l = 12
+= 8 = a = 10
+= 9 = l = 12
+# Listed 12 contacts. EOF.

@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gkn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEMENT, MODULE, SCR, STRUCTURE
+> pdb_mol_name > COMPLEMENT RECEPTOR TYPE 1
+> graphtype > albelig
+> resolution > -1.0
+> date > 16-AUG-01
+> header > COMPLEMENT
+> pdb_org_common > HUMAN
+> title > STRUCTURE DETERMINATION AND RATIONAL MUTAGENESIS REVEALBINDING SURFACE OF IMMUNE ADHERENCE RECEPTOR, CR1 (CD35)
+> format_version > 2
+> pdbid > 1gkn
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gkn | A | albelig | 1 | 1 | E | 15 | 17 | A-911-  | A-913-  | AKL 
+| 1gkn | A | albelig | 2 | 2 | E | 31 | 36 | A-927-  | A-932-  | SLKYEN 
+| 1gkn | A | albelig | 3 | 3 | E | 45 | 48 | A-941-  | A-944-  | FSIT 
+| 1gkn | A | albelig | 4 | 4 | E | 76 | 80 | A-972-  | A-976-  | GMVHV 
+| 1gkn | A | albelig | 5 | 5 | E | 89 | 94 | A-985-  | A-990-  | RITYSD 
+| 1gkn | A | albelig | 6 | 6 | E | 105 | 110 | A-1001-  | A-1006-  | SAECIL 
+| 1gkn | A | albelig | 7 | 7 | E | 115 | 117 | A-1011-  | A-1013-  | AHW 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+# Listed 5 contacts. EOF.

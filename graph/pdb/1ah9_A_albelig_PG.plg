@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ah9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOSOME BINDING, PROTEIN-RNA INTERACTION, OB FOLD
+> pdb_mol_name > INITIATION FACTOR 1
+> graphtype > albelig
+> resolution > -1.0
+> date > 16-APR-97
+> header > RIBOSOME BINDING
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF THE TRANSLATIONAL INITIATION FACTOR IF1FROM ESCHERICHIA COLI, NMR, 19 STRUCTURES
+> format_version > 2
+> pdbid > 1ah9
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ah9 | A | albelig | 1 | 1 | E | 10 | 15 | A-10-  | A-15-  | GTVLET 
+| 1ah9 | A | albelig | 2 | 2 | E | 20 | 25 | A-20-  | A-25-  | MFRVEL 
+| 1ah9 | A | albelig | 3 | 3 | E | 30 | 35 | A-30-  | A-35-  | VVTAHI 
+| 1ah9 | A | albelig | 4 | 4 | H | 39 | 41 | A-39-  | A-41-  | MRK 
+| 1ah9 | A | albelig | 5 | 5 | E | 63 | 66 | A-63-  | A-66-  | KGRI 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = p = 5
+# Listed 3 contacts. EOF.

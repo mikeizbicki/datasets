@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fou, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-HELICAL BARREL, VIRAL PROTEIN
+> pdb_mol_name > UPPER COLLAR PROTEIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 28-AUG-00
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CONNECTOR PROTEIN FROM BACTERIOPHAGE PHI29
+> format_version > 2
+> pdbid > 1fou
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS PHAGE PHI29
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fou | G | albelig | 1 | 1 | H | 1558 | 1581 | G-14-  | G-37-  | EIQRQKRNRWFIHYLNYLQSLAYQ 
+| 1fou | G | albelig | 2 | 2 | H | 1596 | 1602 | G-52-  | G-58-  | FLEKSIH 
+| 1fou | G | albelig | 3 | 3 | E | 1625 | 1628 | G-81-  | G-84-  | SGQR 
+| 1fou | G | albelig | 4 | 4 | E | 1634 | 1636 | G-90-  | G-92-  | ATV 
+| 1fou | G | albelig | 5 | 5 | H | 1675 | 1698 | G-131-  | G-154-  | TPTLELFAAELAELKEIISVNQNA 
+| 1fou | G | albelig | 6 | 6 | E | 1704 | 1707 | G-160-  | G-163-  | LIRA 
+| 1fou | G | albelig | 7 | 7 | H | 1718 | 1721 | G-174-  | G-177-  | VYNQ 
+| 1fou | G | albelig | 8 | 8 | E | 1728 | 1731 | G-184-  | G-187-  | VIFA 
+| 1fou | G | albelig | 9 | 9 | H | 1737 | 1739 | G-193-  | G-195-  | SDS 
+| 1fou | G | albelig | 10 | 10 | E | 1740 | 1743 | G-196-  | G-199-  | IEVF 
+| 1fou | G | albelig | 11 | 11 | H | 1751 | 1768 | G-207-  | G-224-  | VDKLNAQKNAVWNEMMTF 
+| 1fou | G | albelig | 12 | 12 | H | 1776 | 1789 | G-249-  | G-262-  | QIDSSGTVFLKSRE 
+| 1fou | G | albelig | 13 | 13 | H | 1794 | 1797 | G-267-  | G-270-  | KINE 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 5
+= 1 = m = 11
+= 3 = a = 4
+= 5 = a = 11
+= 6 = a = 10
+= 9 = m = 10
+# Listed 7 contacts. EOF.

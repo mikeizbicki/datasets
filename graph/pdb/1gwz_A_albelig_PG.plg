@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gwz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, PROTEIN TYROSINE PHOSPHATASE, CATALYTIC DOMAIN,WPD LOOP, SH2 DOMAIN
+> pdb_mol_name > SHP-1
+> graphtype > albelig
+> resolution > 2.5
+> date > 22-AUG-98
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE CATALYTIC DOMAIN OF THE PROTEINTYROSINE PHOSPHATASE SHP-1
+> format_version > 2
+> pdbid > 1gwz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gwz | A | albelig | 1 | 1 | H | 17 | 19 | A-266-  | A-268-  | EGQ 
+| 1gwz | A | albelig | 2 | 2 | H | 21 | 26 | A-270-  | A-275-  | PENKGK 
+| 1gwz | A | albelig | 3 | 3 | E | 57 | 60 | A-306-  | A-309-  | ANYI 
+| 1gwz | A | albelig | 4 | 4 | E | 74 | 77 | A-323-  | A-326-  | YIAS 
+| 1gwz | A | albelig | 5 | 5 | H | 82 | 84 | A-331-  | A-333-  | EAT 
+| 1gwz | A | albelig | 6 | 6 | H | 88 | 94 | A-337-  | A-343-  | FWQMAWQ 
+| 1gwz | A | albelig | 7 | 7 | E | 99 | 102 | A-348-  | A-351-  | VIVM 
+| 1gwz | A | albelig | 8 | 8 | E | 124 | 126 | A-373-  | A-375-  | QRA 
+| 1gwz | A | albelig | 9 | 9 | E | 131 | 134 | A-380-  | A-383-  | SVTN 
+| 1gwz | A | albelig | 10 | 10 | E | 143 | 150 | A-392-  | A-399-  | YKLRTLQV 
+| 1gwz | A | albelig | 11 | 11 | E | 158 | 165 | A-409-  | A-416-  | REIWHYQY 
+| 1gwz | A | albelig | 12 | 12 | H | 181 | 191 | A-432-  | A-442-  | LSFLDQINQRQ 
+| 1gwz | A | albelig | 13 | 13 | E | 200 | 203 | A-451-  | A-454-  | IIVH 
+| 1gwz | A | albelig | 14 | 14 | H | 210 | 227 | A-461-  | A-478-  | RTGTIIVIDMLMENISTK 
+| 1gwz | A | albelig | 15 | 15 | H | 235 | 243 | A-486-  | A-494-  | IQKTIQMVR 
+| 1gwz | A | albelig | 16 | 16 | H | 253 | 256 | A-504-  | A-507-  | EAQY 
+| 1gwz | A | albelig | 17 | 17 | H | 258 | 272 | A-509-  | A-523-  | FIYVAIAQFIETTKK 
+| 1gwz | A | albelig | 18 | 18 | H | 274 | 276 | A-525-  | A-527-  | LEV 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 4 = p = 13
+= 4 = m = 14
+= 7 = p = 11
+= 7 = m = 12
+= 7 = p = 13
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 11 = m = 12
+= 12 = m = 14
+= 14 = p = 17
+# Listed 12 contacts. EOF.

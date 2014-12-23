@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kmb, chain 1.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN
+> pdb_mol_name > MANNOSE-BINDING PROTEIN-A
+> graphtype > albelig
+> resolution > 2.1
+> date > 07-NOV-96
+> header > LECTIN
+> pdb_org_common > NORWAY RAT
+> title > SELECTIN-LIKE MUTANT OF MANNOSE-BINDING PROTEIN A
+> format_version > 2
+> pdbid > 1kmb
+> experiment > X-RAY DIFFRACTION
+> chainid > 1
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kmb | 1 | albelig | 1 | 1 | H | 2 | 30 | 1-74-  | 1-102-  | IEVKLANMEAEINTLKSKLELTNKLHAFS 
+| 1kmb | 1 | albelig | 2 | 2 | E | 39 | 47 | 1-111-  | 1-119-  | FFVTNHERM 
+| 1kmb | 1 | albelig | 3 | 3 | H | 49 | 58 | 1-121-  | 1-130-  | FSKVKALASE 
+| 1kmb | 1 | albelig | 4 | 4 | H | 69 | 79 | 1-141-  | 1-151-  | AEENKAIQEVA 
+| 1kmb | 1 | albelig | 5 | 5 | E | 83 | 88 | 1-155-  | 1-160-  | AFLGIT 
+| 1kmb | 1 | albelig | 6 | 6 | E | 123 | 126 | 1-195-  | 1-198-  | NVTI 
+| 1kmb | 1 | albelig | 7 | 7 | E | 132 | 135 | 1-204-  | 1-207-  | WNDI 
+| 1kmb | 1 | albelig | 8 | 8 | E | 141 | 147 | 1-213-  | 1-219-  | KTAVAEF 
+| 1kmb | 1 | albelig | 9 | 9 | L | 450 | 450 | 1-1-  | 1-1-  | J 
+| 1kmb | 1 | albelig | 10 | 10 | L | 451 | 451 | 1-2-  | 1-2-  | J 
+| 1kmb | 1 | albelig | 11 | 11 | L | 452 | 452 | 1-3-  | 1-3-  | J 
+| 1kmb | 1 | albelig | 12 | 12 | L | 453 | 453 | 1-4-  | 1-4-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 4
+= 2 = a = 8
+= 3 = m = 8
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 6 = l = 12
+= 7 = l = 9
+= 7 = l = 10
+= 7 = l = 12
+= 9 = l = 11
+# Listed 12 contacts. EOF.

@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1idu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TWO FOUR-HELIX BUNDLES, PEROXIDE DERIVATIVE, OXIDOREDUCTASE
+> pdb_mol_name > VANADIUM CHLOROPEROXIDASE
+> graphtype > albelig
+> resolution > 2.24
+> date > 05-APR-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE PEROXIDE FORM OF THE VANADIUM-CONTAINING CHLOROPEROXIDASE FROM CURVULARIA INAEQUALIS
+> format_version > 2
+> pdbid > 1idu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CURVULARIA INAEQUALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1idu | A | albelig | 1 | 1 | H | 14 | 18 | A-16-  | A-20-  | EEYNT 
+| 1idu | A | albelig | 2 | 2 | H | 20 | 38 | A-22-  | A-40-  | YILFWNHVGLELNRVTHTV 
+| 1idu | A | albelig | 3 | 3 | H | 45 | 66 | A-47-  | A-68-  | PPLSARALGMLHLAIHDAYFSI 
+| 1idu | A | albelig | 4 | 4 | H | 83 | 85 | A-85-  | A-87-  | AAY 
+| 1idu | A | albelig | 5 | 5 | H | 96 | 112 | A-98-  | A-114-  | ARQAVAGAALKMLSSLY 
+| 1idu | A | albelig | 6 | 6 | H | 129 | 145 | A-131-  | A-147-  | DNAYAQLGLVLDRSVLE 
+| 1idu | A | albelig | 7 | 7 | H | 155 | 171 | A-157-  | A-173-  | ASFMFGEDVADVFFALL 
+| 1idu | A | albelig | 8 | 8 | E | 200 | 205 | A-202-  | A-207-  | VLIPVD 
+| 1idu | A | albelig | 9 | 9 | E | 208 | 216 | A-210-  | A-218-  | NPNGPKMPF 
+| 1idu | A | albelig | 10 | 10 | H | 224 | 227 | A-226-  | A-229-  | YGKT 
+| 1idu | A | albelig | 11 | 11 | H | 246 | 248 | A-248-  | A-250-  | RSN 
+| 1idu | A | albelig | 12 | 12 | H | 252 | 266 | A-254-  | A-268-  | TAEYDDAVRVAIAMG 
+| 1idu | A | albelig | 13 | 13 | H | 278 | 286 | A-280-  | A-288-  | PWQTAQGLY 
+| 1idu | A | albelig | 14 | 14 | H | 298 | 312 | A-300-  | A-314-  | PPRFYNQIVRRIAVT 
+| 1idu | A | albelig | 15 | 15 | H | 323 | 354 | A-325-  | A-356-  | EVNNADFARLFALVDVACTDAGIFSWKEKWEF 
+| 1idu | A | albelig | 16 | 16 | H | 359 | 364 | A-361-  | A-366-  | PLSGVR 
+| 1idu | A | albelig | 17 | 17 | H | 401 | 417 | A-403-  | A-419-  | GHATFGGAVFQMVRRYY 
+| 1idu | A | albelig | 18 | 18 | E | 434 | 438 | A-436-  | A-440-  | IDMMI 
+| 1idu | A | albelig | 19 | 19 | E | 447 | 449 | A-449-  | A-451-  | RDL 
+| 1idu | A | albelig | 20 | 20 | H | 459 | 461 | A-461-  | A-463-  | IED 
+| 1idu | A | albelig | 21 | 21 | E | 464 | 466 | A-466-  | A-468-  | GIV 
+| 1idu | A | albelig | 22 | 22 | E | 471 | 474 | A-473-  | A-476-  | VRHF 
+| 1idu | A | albelig | 23 | 23 | H | 477 | 490 | A-479-  | A-492-  | AWELMFENAISRIF 
+| 1idu | A | albelig | 24 | 24 | H | 496 | 499 | A-498-  | A-501-  | RFDA 
+| 1idu | A | albelig | 25 | 25 | H | 502 | 505 | A-504-  | A-507-  | ARDI 
+| 1idu | A | albelig | 26 | 26 | H | 528 | 530 | A-530-  | A-532-  | VED 
+| 1idu | A | albelig | 27 | 27 | H | 550 | 563 | A-552-  | A-565-  | GVPLGIEIADEIFN 
+| 1idu | A | albelig | 28 | 28 | H | 571 | 573 | A-573-  | A-575-  | PEI 
+| 1idu | A | albelig | 29 | 29 | L | 577 | 577 | A-1579-  | A-1579-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 14
+= 2 = a = 3
+= 2 = p = 5
+= 2 = a = 6
+= 2 = a = 14
+= 2 = p = 15
+= 3 = a = 5
+= 3 = a = 7
+= 3 = a = 15
+= 5 = p = 7
+= 8 = a = 9
+= 10 = m = 15
+= 12 = m = 24
+= 14 = a = 15
+= 14 = p = 17
+= 14 = a = 18
+= 15 = a = 17
+= 15 = m = 27
+= 15 = l = 29
+= 17 = a = 23
+= 17 = p = 27
+= 17 = l = 29
+= 18 = a = 22
+= 19 = a = 21
+= 22 = m = 23
+= 23 = l = 29
+# Listed 27 contacts. EOF.

@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1isp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA HYDROLASE FOLD, HYDROLASE
+> pdb_mol_name > LIPASE
+> graphtype > albelig
+> resolution > 1.3
+> date > 19-DEC-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF BACILLUS SUBTILIS LIPASE AT 1.3A RESOLUTION
+> format_version > 2
+> pdbid > 1isp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1isp | A | albelig | 1 | 1 | E | 5 | 8 | A-6-  | A-9-  | VVMV 
+| 1isp | A | albelig | 2 | 2 | H | 15 | 27 | A-16-  | A-28-  | SFNFAGIKSYLVS 
+| 1isp | A | albelig | 3 | 3 | H | 32 | 34 | A-33-  | A-35-  | RDK 
+| 1isp | A | albelig | 4 | 4 | E | 35 | 37 | A-36-  | A-38-  | LYA 
+| 1isp | A | albelig | 5 | 5 | H | 47 | 65 | A-48-  | A-66-  | NYNNGPVLSRFVQKVLDET 
+| 1isp | A | albelig | 6 | 6 | E | 70 | 75 | A-71-  | A-76-  | VDIVAH 
+| 1isp | A | albelig | 7 | 7 | H | 77 | 88 | A-78-  | A-89-  | MGGANTLYYIKN 
+| 1isp | A | albelig | 8 | 8 | H | 91 | 93 | A-92-  | A-94-  | GGN 
+| 1isp | A | albelig | 9 | 9 | E | 95 | 101 | A-96-  | A-102-  | VANVVTL 
+| 1isp | A | albelig | 10 | 10 | H | 105 | 107 | A-106-  | A-108-  | NRL 
+| 1isp | A | albelig | 11 | 11 | E | 123 | 129 | A-124-  | A-130-  | LYTSIYS 
+| 1isp | A | albelig | 12 | 12 | H | 137 | 140 | A-138-  | A-141-  | NYLS 
+| 1isp | A | albelig | 13 | 13 | E | 146 | 150 | A-147-  | A-151-  | RNVQI 
+| 1isp | A | albelig | 14 | 14 | H | 156 | 160 | A-157-  | A-161-  | IGLLY 
+| 1isp | A | albelig | 15 | 15 | H | 162 | 175 | A-163-  | A-176-  | SQVNSLIKEGLNGG 
+| 1isp | A | albelig | 16 | 16 | L | 180 | 180 | A-200-  | A-200-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = m = 14
+= 2 = m = 15
+= 2 = l = 16
+= 3 = m = 4
+= 5 = p = 7
+= 6 = m = 7
+= 6 = p = 9
+= 6 = l = 16
+= 8 = m = 9
+= 9 = p = 11
+= 10 = m = 12
+= 11 = m = 12
+= 11 = p = 13
+= 13 = a = 15
+= 14 = l = 16
+# Listed 17 contacts. EOF.

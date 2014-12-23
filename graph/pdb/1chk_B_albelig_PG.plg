@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1chk, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTI-FUNGAL PROTEIN, HYDROLASE, O-GLYCOSYL, HYDROLASE (O-GLYCOSYL)
+> pdb_mol_name > CHITOSANASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 12-JUN-95
+> header > HYDROLASE (O-GLYCOSYL)
+> pdb_org_common > UNKNOWN
+> title > STREPTOMYCES N174 CHITOSANASE PH5.5 298K
+> format_version > 2
+> pdbid > 1chk
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1chk | B | albelig | 1 | 1 | H | 243 | 245 | B-4-  | B-6-  | GLD 
+| 1chk | B | albelig | 2 | 2 | H | 247 | 261 | B-8-  | B-22-  | PHKKEIAMELVSSAE 
+| 1chk | B | albelig | 3 | 3 | H | 267 | 272 | B-28-  | B-33-  | WKAQYK 
+| 1chk | B | albelig | 4 | 4 | E | 274 | 276 | B-35-  | B-37-  | IED 
+| 1chk | B | albelig | 5 | 5 | E | 283 | 285 | B-44-  | B-46-  | YTG 
+| 1chk | B | albelig | 6 | 6 | H | 296 | 307 | B-57-  | B-68-  | DMLELVQHYTDL 
+| 1chk | B | albelig | 7 | 7 | H | 314 | 323 | B-75-  | B-84-  | AKYLPALKKV 
+| 1chk | B | albelig | 8 | 8 | H | 333 | 343 | B-94-  | B-104-  | GTPFTKDWATA 
+| 1chk | B | albelig | 9 | 9 | H | 347 | 362 | B-108-  | B-123-  | TVFQQAQNDERDRVYF 
+| 1chk | B | albelig | 10 | 10 | H | 363 | 371 | B-124-  | B-132-  | DPAVSQAKA 
+| 1chk | B | albelig | 11 | 11 | H | 376 | 389 | B-137-  | B-150-  | ALGQFAYYDAIVMH 
+| 1chk | B | albelig | 12 | 12 | H | 398 | 408 | B-159-  | B-169-  | FGGIRKTAMKK 
+| 1chk | B | albelig | 13 | 13 | H | 412 | 414 | B-173-  | B-175-  | PAQ 
+| 1chk | B | albelig | 14 | 14 | H | 418 | 433 | B-179-  | B-194-  | ETTYLNGFLDARKAAM 
+| 1chk | B | albelig | 15 | 15 | H | 437 | 439 | B-198-  | B-200-  | AAH 
+| 1chk | B | albelig | 16 | 16 | H | 444 | 455 | B-205-  | B-216-  | RVDTEQRVFLKA 
+| 1chk | B | albelig | 17 | 17 | E | 464 | 468 | B-225-  | B-229-  | LKWKT 
+| 1chk | B | albelig | 18 | 18 | E | 471 | 475 | B-232-  | B-236-  | DPYVI 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 11
+= 2 = m = 9
+= 2 = m = 11
+= 2 = p = 17
+= 3 = m = 9
+= 4 = a = 5
+= 6 = a = 7
+= 6 = a = 9
+= 9 = m = 10
+= 9 = m = 11
+= 10 = m = 11
+= 11 = p = 14
+= 11 = a = 16
+= 12 = m = 14
+= 14 = a = 16
+= 16 = m = 17
+= 17 = a = 18
+# Listed 17 contacts. EOF.

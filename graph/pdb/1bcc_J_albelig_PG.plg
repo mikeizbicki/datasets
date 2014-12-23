@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcc, chain J.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUINONE, OXIDOREDUCTASE, REDOX ENZYME, MEMBRANE PROTEIN,RESPIRATORY CHAIN, ELECTRON TRANSPORT
+> pdb_mol_name > UBIQUINOL CYTOCHROME C OXIDOREDUCTASE
+> graphtype > albelig
+> resolution > 3.16
+> date > 23-MAR-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > CHICKEN
+> title > CYTOCHROME BC1 COMPLEX FROM CHICKEN
+> format_version > 2
+> pdbid > 1bcc
+> experiment > X-RAY DIFFRACTION
+> chainid > J
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcc | J | albelig | 1 | 1 | H | 1954 | 1963 | J-5-  | J-14-  | LTARLYSLLF 
+| 1bcc | J | albelig | 2 | 2 | H | 1966 | 1994 | J-17-  | J-45-  | TSTFALTIVVGALLFERAFDQGADAIYEH 
+| 1bcc | J | albelig | 3 | 3 | H | 2001 | 2008 | J-52-  | J-59-  | WKHIKHKY 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

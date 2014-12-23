@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ikt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALFA-BETA FOLD, PROTEIN-TRITON X-100 COMPLEX, HYDROPHOBICTUNNEL, EXPOSED PEROXISOMAL TARGETING SIGNAL TYPE 1 (PTS1),OXIDOREDUCTASE
+> pdb_mol_name > ESTRADIOL 17 BETA-DEHYDROGENASE 4
+> graphtype > albelig
+> resolution > 1.75
+> date > 07-MAY-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > LIGANDED STEROL CARRIER PROTEIN TYPE 2 (SCP-2) LIKE DOMAINOF HUMAN MULTIFUNCTIONAL ENZYME TYPE 2 (MFE-2)
+> format_version > 2
+> pdbid > 1ikt
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ikt | A | albelig | 1 | 1 | H | 3 | 25 | A-8-  | A-30-  | STFVFEEIGRRLKDIGPEVVKKV 
+| 1ikt | A | albelig | 2 | 2 | E | 27 | 34 | A-32-  | A-39-  | AVFEWHIT 
+| 1ikt | A | albelig | 3 | 3 | E | 39 | 47 | A-44-  | A-52-  | IGAKWTIDL 
+| 1ikt | A | albelig | 4 | 4 | E | 53 | 56 | A-58-  | A-61-  | KVYQ 
+| 1ikt | A | albelig | 5 | 5 | E | 65 | 70 | A-70-  | A-75-  | TTIILS 
+| 1ikt | A | albelig | 6 | 6 | H | 71 | 78 | A-76-  | A-83-  | DEDFMEVV 
+| 1ikt | A | albelig | 7 | 7 | H | 84 | 89 | A-89-  | A-94-  | PQKAFF 
+| 1ikt | A | albelig | 8 | 8 | E | 94 | 97 | A-99-  | A-102-  | KARG 
+| 1ikt | A | albelig | 9 | 9 | H | 99 | 112 | A-104-  | A-117-  | IMLSQKLQMILKDY 
+| 1ikt | A | albelig | 10 | 10 | L | 116 | 116 | A-121-  | A-121-  | J 
+| 1ikt | A | albelig | 11 | 11 | L | 117 | 117 | A-122-  | A-122-  | J 
+| 1ikt | A | albelig | 12 | 12 | L | 118 | 118 | A-123-  | A-123-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = m = 6
+= 1 = a = 9
+= 1 = l = 11
+= 1 = l = 12
+= 2 = a = 3
+= 2 = p = 5
+= 2 = l = 12
+= 3 = a = 4
+= 3 = l = 12
+= 5 = m = 6
+= 5 = a = 8
+= 6 = l = 11
+= 6 = l = 12
+= 7 = l = 12
+= 8 = l = 10
+= 8 = l = 12
+= 9 = l = 12
+= 11 = l = 12
+# Listed 19 contacts. EOF.

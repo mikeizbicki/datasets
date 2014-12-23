@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c7z, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROSSMANN FOLD, HYDROLASE
+> pdb_mol_name > FRUCTOSE-2,6-BISPHOSPHATASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 03-APR-00
+> header > HYDROLASE
+> pdb_org_common > NORWAY RAT
+> title > REGULATORY COMPLEX OF FRUCTOSE-2,6-BISPHOSPHATASE
+> format_version > 2
+> pdbid > 1c7z
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c7z | B | albelig | 1 | 1 | E | 196 | 200 | B-4-  | B-8-  | IYLCR 
+| 1c7z | B | albelig | 2 | 2 | H | 205 | 208 | B-13-  | B-16-  | ELNL 
+| 1c7z | B | albelig | 3 | 3 | H | 220 | 235 | B-28-  | B-43-  | ARGKQYAYALANFIRS 
+| 1c7z | B | albelig | 4 | 4 | E | 242 | 245 | B-50-  | B-53-  | KVWT 
+| 1c7z | B | albelig | 5 | 5 | H | 249 | 258 | B-57-  | B-66-  | KRTIQTAEAL 
+| 1c7z | B | albelig | 6 | 6 | H | 266 | 268 | B-74-  | B-76-  | KAL 
+| 1c7z | B | albelig | 7 | 7 | H | 274 | 276 | B-82-  | B-84-  | GVC 
+| 1c7z | B | albelig | 8 | 8 | H | 281 | 287 | B-89-  | B-95-  | YEEIQEH 
+| 1c7z | B | albelig | 9 | 9 | H | 289 | 297 | B-97-  | B-105-  | PEEFALRDQ 
+| 1c7z | B | albelig | 10 | 10 | H | 310 | 325 | B-118-  | B-133-  | YEDLVQRLEPVIMELE 
+| 1c7z | B | albelig | 11 | 11 | E | 330 | 334 | B-138-  | B-142-  | VLVIC 
+| 1c7z | B | albelig | 12 | 12 | H | 336 | 346 | B-144-  | B-154-  | QAVMRCLLAYF 
+| 1c7z | B | albelig | 13 | 13 | H | 354 | 356 | B-162-  | B-164-  | LPY 
+| 1c7z | B | albelig | 14 | 14 | E | 363 | 369 | B-171-  | B-177-  | TVLKLTP 
+| 1c7z | B | albelig | 15 | 15 | E | 374 | 380 | B-182-  | B-188-  | CRVESIY 
+| 1c7z | B | albelig | 16 | 16 | L | 386 | 386 | B-402-  | B-402-  | J 
+| 1c7z | B | albelig | 17 | 17 | L | 387 | 387 | B-502-  | B-502-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 11
+= 1 = a = 12
+= 1 = a = 14
+= 1 = l = 16
+= 2 = l = 16
+= 4 = p = 11
+= 5 = m = 11
+= 5 = l = 16
+= 6 = m = 10
+= 8 = m = 9
+= 8 = l = 17
+= 9 = l = 17
+= 10 = p = 12
+= 10 = l = 17
+= 11 = l = 16
+= 12 = m = 13
+= 12 = l = 16
+= 12 = l = 17
+= 13 = l = 17
+= 14 = a = 15
+= 16 = l = 17
+# Listed 21 contacts. EOF.

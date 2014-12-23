@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gis, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-SUB COMPLEX, TRICHOSANTHIN, TCS, HYDROLASE
+> pdb_mol_name > RIBOSOME-INACTIVATING PROTEIN ALPHA-
+> graphtype > albelig
+> resolution > 1.7
+> date > 15-MAR-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > A TRICHOSANTHIN(TCS) MUTANT(E85Q) COMPLEX STRUCTURE WITH 2'-DEOXY-ADENOSIN-5'-MONOPHOSPHATE
+> format_version > 2
+> pdbid > 1gis
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TRICHOSANTHES KIRILOWII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gis | A | albelig | 1 | 1 | E | 3 | 6 | A-3-  | A-6-  | VSFR 
+| 1gis | A | albelig | 2 | 2 | H | 12 | 25 | A-12-  | A-25-  | SSSYGVFISNLRKA 
+| 1gis | A | albelig | 3 | 3 | E | 28 | 32 | A-28-  | A-32-  | NERKL 
+| 1gis | A | albelig | 4 | 4 | E | 35 | 38 | A-35-  | A-38-  | IPLL 
+| 1gis | A | albelig | 5 | 5 | H | 44 | 47 | A-44-  | A-47-  | GSQR 
+| 1gis | A | albelig | 6 | 6 | E | 48 | 54 | A-48-  | A-54-  | YALIHLT 
+| 1gis | A | albelig | 7 | 7 | E | 60 | 66 | A-60-  | A-66-  | TISVAID 
+| 1gis | A | albelig | 8 | 8 | E | 71 | 77 | A-71-  | A-77-  | YIMGYRA 
+| 1gis | A | albelig | 9 | 9 | E | 80 | 83 | A-80-  | A-83-  | TSYF 
+| 1gis | A | albelig | 10 | 10 | H | 87 | 92 | A-87-  | A-92-  | ASATEA 
+| 1gis | A | albelig | 11 | 11 | E | 102 | 105 | A-102-  | A-105-  | RKVT 
+| 1gis | A | albelig | 12 | 12 | H | 112 | 119 | A-112-  | A-119-  | YERLQTAA 
+| 1gis | A | albelig | 13 | 13 | H | 123 | 125 | A-123-  | A-125-  | REN 
+| 1gis | A | albelig | 14 | 14 | H | 130 | 141 | A-130-  | A-141-  | LPALDSAITTLF 
+| 1gis | A | albelig | 15 | 15 | H | 148 | 161 | A-148-  | A-161-  | AASALMVLIQSTSE 
+| 1gis | A | albelig | 16 | 16 | H | 162 | 164 | A-162-  | A-164-  | AAR 
+| 1gis | A | albelig | 17 | 17 | H | 166 | 173 | A-166-  | A-173-  | KFIEQQIG 
+| 1gis | A | albelig | 18 | 18 | H | 184 | 204 | A-184-  | A-204-  | LAIISLENSWSALSKQIQIAS 
+| 1gis | A | albelig | 19 | 19 | E | 209 | 217 | A-209-  | A-217-  | QFESPVVLI 
+| 1gis | A | albelig | 20 | 20 | E | 223 | 228 | A-223-  | A-228-  | RVTITN 
+| 1gis | A | albelig | 21 | 21 | H | 232 | 236 | A-232-  | A-236-  | GVVTS 
+| 1gis | A | albelig | 22 | 22 | H | 244 | 246 | A-244-  | A-246-  | RNN 
+| 1gis | A | albelig | 23 | 23 | L | 249 | 249 | A-438-  | A-438-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 6
+= 2 = m = 16
+= 2 = a = 17
+= 3 = a = 4
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 8 = m = 15
+= 8 = l = 23
+= 9 = p = 11
+= 12 = a = 15
+= 12 = l = 23
+= 13 = m = 18
+= 14 = a = 15
+= 15 = m = 17
+= 15 = l = 23
+= 16 = l = 23
+= 18 = a = 19
+= 18 = l = 23
+= 19 = a = 20
+# Listed 24 contacts. EOF.

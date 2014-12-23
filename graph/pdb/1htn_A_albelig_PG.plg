@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1htn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TETRANECTIN, PLASMINOGEN BINDING, KRINGLE 4, ALPHA-HELICALCOILED COIL, C-TYPE LECTIN, CARBOHYDRATE RECOGNITION DOMAIN
+> pdb_mol_name > TETRANECTIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 28-MAY-97
+> header > LECTIN
+> pdb_org_common > HUMAN
+> title > HUMAN TETRANECTIN, A TRIMERIC PLASMINOGEN BINDING PROTEINWITH AN ALPHA-HELICAL COILED COIL
+> format_version > 2
+> pdbid > 1htn
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1htn | A | albelig | 1 | 1 | H | 2 | 27 | A-27-  | A-52-  | KSRLDTLSQEVALLKEQQALQTVALK 
+| 1htn | A | albelig | 2 | 2 | E | 29 | 31 | A-54-  | A-56-  | TKV 
+| 1htn | A | albelig | 3 | 3 | E | 34 | 43 | A-59-  | A-68-  | KAFLAFTQTK 
+| 1htn | A | albelig | 4 | 4 | H | 45 | 53 | A-70-  | A-78-  | FHEASEDNI 
+| 1htn | A | albelig | 5 | 5 | H | 65 | 78 | A-90-  | A-103-  | GSENDALYEYLRQS 
+| 1htn | A | albelig | 6 | 6 | E | 84 | 90 | A-109-  | A-115-  | EIWLGLN 
+| 1htn | A | albelig | 7 | 7 | E | 127 | 131 | A-152-  | A-156-  | CAVLS 
+| 1htn | A | albelig | 8 | 8 | E | 137 | 141 | A-162-  | A-166-  | KWFDK 
+| 1htn | A | albelig | 9 | 9 | E | 147 | 154 | A-172-  | A-179-  | LPYINQFG 
+| 1htn | A | albelig | 10 | 10 | L | 157 | 157 | A-182-  | A-182-  | J 
+| 1htn | A | albelig | 11 | 11 | L | 158 | 158 | A-183-  | A-183-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 3
+= 3 = m = 4
+= 3 = p = 5
+= 3 = a = 9
+= 4 = m = 6
+= 4 = m = 9
+= 6 = a = 7
+= 6 = a = 9
+= 7 = a = 8
+= 8 = l = 11
+# Listed 11 contacts. EOF.

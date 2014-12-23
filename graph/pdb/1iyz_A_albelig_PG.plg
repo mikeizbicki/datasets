@@ -1,0 +1,76 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iyz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-NADPH COMPLEX, RIKEN STRUCTURAL GENOMICS/PROTEOMICSINITIATIVE, RSGI, STRUCTURAL GENOMICS, OXIDOREDUCTASE
+> pdb_mol_name > QUINONE OXIDOREDUCTASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 17-SEP-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF THE QUINONE OXIDOREDUCTASE FROMTHERMUS THERMOPHILUS HB8 AND ITS COMPLEX WITH NADPH
+> format_version > 2
+> pdbid > 1iyz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iyz | A | albelig | 1 | 1 | E | 2 | 6 | A-2-  | A-6-  | KAWVL 
+| 1iyz | A | albelig | 2 | 2 | E | 13 | 17 | A-13-  | A-17-  | LELVD 
+| 1iyz | A | albelig | 3 | 3 | E | 27 | 36 | A-27-  | A-36-  | EVVLRVEAVG 
+| 1iyz | A | albelig | 4 | 4 | H | 39 | 46 | A-39-  | A-46-  | FADHLMRL 
+| 1iyz | A | albelig | 5 | 5 | E | 62 | 67 | A-62-  | A-67-  | EVVGVV 
+| 1iyz | A | albelig | 6 | 6 | E | 70 | 75 | A-70-  | A-75-  | RRYAAL 
+| 1iyz | A | albelig | 7 | 7 | E | 84 | 88 | A-84-  | A-88-  | RVAVP 
+| 1iyz | A | albelig | 8 | 8 | H | 89 | 91 | A-89-  | A-91-  | KGA 
+| 1iyz | A | albelig | 9 | 9 | H | 101 | 104 | A-101-  | A-104-  | PEEA 
+| 1iyz | A | albelig | 10 | 10 | H | 108 | 120 | A-108-  | A-120-  | PVSFLTAYLALKR 
+| 1iyz | A | albelig | 11 | 11 | E | 128 | 131 | A-128-  | A-131-  | KVLV 
+| 1iyz | A | albelig | 12 | 12 | H | 137 | 148 | A-137-  | A-148-  | ALGTAAVQVARA 
+| 1iyz | A | albelig | 13 | 13 | E | 152 | 157 | A-152-  | A-157-  | RVLAAA 
+| 1iyz | A | albelig | 14 | 14 | H | 160 | 162 | A-160-  | A-162-  | PEK 
+| 1iyz | A | albelig | 15 | 15 | H | 164 | 169 | A-164-  | A-169-  | ALPLAL 
+| 1iyz | A | albelig | 16 | 16 | E | 173 | 176 | A-173-  | A-176-  | EAAT 
+| 1iyz | A | albelig | 17 | 17 | H | 177 | 187 | A-177-  | A-187-  | YAEVPERAKAW 
+| 1iyz | A | albelig | 18 | 18 | E | 190 | 195 | A-190-  | A-195-  | LDLVLE 
+| 1iyz | A | albelig | 19 | 19 | H | 201 | 205 | A-201-  | A-205-  | VEESL 
+| 1iyz | A | albelig | 20 | 20 | E | 208 | 216 | A-208-  | A-216-  | LAHGGRLVY 
+| 1iyz | A | albelig | 21 | 21 | H | 229 | 232 | A-231-  | A-234-  | RLMR 
+| 1iyz | A | albelig | 22 | 22 | E | 236 | 239 | A-238-  | A-241-  | AVLG 
+| 1iyz | A | albelig | 23 | 23 | H | 242 | 246 | A-244-  | A-248-  | LTPLL 
+| 1iyz | A | albelig | 24 | 24 | H | 249 | 259 | A-251-  | A-261-  | GALVEEALGFL 
+| 1iyz | A | albelig | 25 | 25 | E | 271 | 276 | A-273-  | A-278-  | VGPVFP 
+| 1iyz | A | albelig | 26 | 26 | H | 277 | 288 | A-279-  | A-290-  | FAEAEAAFRALL 
+| 1iyz | A | albelig | 27 | 27 | E | 295 | 299 | A-297-  | A-301-  | KVVVR 
+| 1iyz | A | albelig | 28 | 28 | L | 301 | 301 | A-350-  | A-350-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = a = 5
+= 3 = a = 7
+= 3 = a = 27
+= 4 = a = 26
+= 4 = l = 28
+= 5 = a = 6
+= 7 = m = 8
+= 10 = p = 12
+= 10 = m = 24
+= 10 = l = 28
+= 11 = p = 13
+= 11 = p = 18
+= 12 = l = 28
+= 13 = p = 16
+= 13 = a = 17
+= 13 = l = 28
+= 14 = l = 28
+= 16 = m = 17
+= 17 = l = 28
+= 18 = p = 20
+= 19 = m = 20
+= 20 = p = 22
+= 23 = l = 28
+= 25 = m = 26
+= 25 = p = 27
+= 26 = l = 28
+# Listed 27 contacts. EOF.

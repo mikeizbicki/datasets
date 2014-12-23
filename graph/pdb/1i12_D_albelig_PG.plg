@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i12, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GNAT, ALPHA/BETA, TRANSFERASE
+> pdb_mol_name > GLUCOSAMINE-PHOSPHATE N-ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 1.3
+> date > 30-JAN-01
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF SACCHAROMYCES CEREVISIAE GNA1COMPLEXED WITH ACCOA
+> format_version > 2
+> pdbid > 1i12
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i12 | D | albelig | 1 | 1 | E | 470 | 472 | D-1-  | D-3-  | MSL 
+| 1i12 | D | albelig | 2 | 2 | E | 476 | 480 | D-7-  | D-11-  | FYIRR 
+| 1i12 | D | albelig | 3 | 3 | H | 483 | 493 | D-14-  | D-24-  | EGDLEQVTETL 
+| 1i12 | D | albelig | 4 | 4 | H | 504 | 516 | D-35-  | D-47-  | PESFCKLIKYWNE 
+| 1i12 | D | albelig | 5 | 5 | E | 532 | 536 | D-65-  | D-69-  | MVIVD 
+| 1i12 | D | albelig | 6 | 6 | E | 541 | 552 | D-74-  | D-85-  | TVAATGNIIIER 
+| 1i12 | D | albelig | 7 | 7 | H | 555 | 558 | D-88-  | D-91-  | IHEL 
+| 1i12 | D | albelig | 8 | 8 | E | 560 | 569 | D-93-  | D-102-  | LCGHIEDIAV 
+| 1i12 | D | albelig | 9 | 9 | H | 571 | 573 | D-104-  | D-106-  | SKY 
+| 1i12 | D | albelig | 10 | 10 | H | 578 | 593 | D-111-  | D-126-  | LGKLLIDQLVTIGFDY 
+| 1i12 | D | albelig | 11 | 11 | E | 597 | 602 | D-130-  | D-135-  | KIILDC 
+| 1i12 | D | albelig | 12 | 12 | H | 604 | 612 | D-137-  | D-145-  | EKNVKFYEK 
+| 1i12 | D | albelig | 13 | 13 | E | 616 | 625 | D-149-  | D-158-  | SNAGVEMQIR 
+| 1i12 | D | albelig | 14 | 14 | L | 632 | 632 | D-1203-  | D-1203-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 3 = m = 4
+= 3 = m = 6
+= 5 = a = 6
+= 5 = m = 10
+= 6 = a = 8
+= 6 = p = 10
+= 8 = p = 11
+= 8 = l = 14
+= 9 = l = 14
+= 10 = l = 14
+= 11 = l = 14
+= 12 = l = 14
+# Listed 14 contacts. EOF.

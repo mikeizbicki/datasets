@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1klf, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADHESIN-CHAPERONE COMPLEX, MANNOSE-BOUND, CHAPERONE/ADHESINCOMPLEX COMPLEX
+> pdb_mol_name > CHAPERONE PROTEIN FIMC
+> graphtype > albelig
+> resolution > 2.79
+> date > 11-DEC-01
+> header > CHAPERONE/ADHESIN COMPLEX
+> pdb_org_common > UNKNOWN
+> title > FIMH ADHESIN-FIMC CHAPERONE COMPLEX WITH D-MANNOSE
+> format_version > 2
+> pdbid > 1klf
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1klf | G | albelig | 1 | 1 | E | 1460 | 1462 | G-2-  | G-4-  | VAL 
+| 1klf | G | albelig | 2 | 2 | E | 1466 | 1470 | G-8-  | G-12-  | RVIYP 
+| 1klf | G | albelig | 3 | 3 | E | 1475 | 1482 | G-17-  | G-24-  | QVQLAVTN 
+| 1klf | G | albelig | 4 | 4 | E | 1489 | 1497 | G-31-  | G-39-  | YLIQSWVEN 
+| 1klf | G | albelig | 5 | 5 | E | 1506 | 1509 | G-48-  | G-51-  | FIVT 
+| 1klf | G | albelig | 6 | 6 | E | 1512 | 1515 | G-54-  | G-57-  | LFAM 
+| 1klf | G | albelig | 7 | 7 | E | 1519 | 1527 | G-61-  | G-69-  | KENTLRILD 
+| 1klf | G | albelig | 8 | 8 | E | 1539 | 1548 | G-81-  | G-90-  | SLFWMNVKAI 
+| 1klf | G | albelig | 9 | 9 | E | 1560 | 1574 | G-102-  | G-116-  | TLQLAIISRIKLYYR 
+| 1klf | G | albelig | 10 | 10 | H | 1582 | 1584 | G-124-  | G-126-  | PDQ 
+| 1klf | G | albelig | 11 | 11 | H | 1586 | 1588 | G-128-  | G-130-  | AEK 
+| 1klf | G | albelig | 12 | 12 | E | 1597 | 1602 | G-139-  | G-144-  | SLTLIN 
+| 1klf | G | albelig | 13 | 13 | E | 1608 | 1614 | G-150-  | G-156-  | LTVTELN 
+| 1klf | G | albelig | 14 | 14 | E | 1623 | 1625 | G-165-  | G-167-  | ALV 
+| 1klf | G | albelig | 15 | 15 | E | 1629 | 1634 | G-171-  | G-176-  | GESTVK 
+| 1klf | G | albelig | 16 | 16 | E | 1644 | 1647 | G-186-  | G-189-  | TYRT 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 7
+= 2 = p = 9
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 6
+= 4 = a = 8
+= 5 = a = 7
+= 8 = a = 9
+= 12 = a = 14
+= 12 = a = 15
+= 13 = a = 14
+= 13 = a = 16
+= 14 = a = 15
+# Listed 14 contacts. EOF.

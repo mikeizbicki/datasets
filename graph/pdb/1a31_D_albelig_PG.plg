@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a31, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOPOISOMERASE I/DNA, DNA, TOPOISOMERASE I, ISOMERASE/DNACOMPLEX
+> pdb_mol_name > DNA (5'-
+> graphtype > albelig
+> resolution > 2.1
+> date > 27-JAN-98
+> header > ISOMERASE/DNA
+> pdb_org_common > UNKNOWN
+> title > HUMAN RECONSTITUTED DNA TOPOISOMERASE I IN COVALENT COMPLEXWITH A 22 BASE PAIR DNA DUPLEX
+> format_version > 2
+> pdbid > 1a31
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a31 | D | albelig | 1 | 1 | L | 466 | 466 | D-107-  | D-107-  | J 
+| 1a31 | D | albelig | 2 | 2 | L | 467 | 467 | D-108-  | D-108-  | J 
+| 1a31 | D | albelig | 3 | 3 | L | 468 | 468 | D-109-  | D-109-  | J 
+| 1a31 | D | albelig | 4 | 4 | L | 469 | 469 | D-110-  | D-110-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 2 = l = 3
+= 3 = l = 4
+# Listed 3 contacts. EOF.

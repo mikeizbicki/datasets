@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eui, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOSYLASE, INHIBITOR, DNA REPAIR, BASE EXCISION, COMPLEX(HYDROLASE/INHIBITOR)
+> pdb_mol_name > URACIL-DNA GLYCOSYLASE INHIBITOR PROTEIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 18-JUN-98
+> header > COMPLEX (HYDROLASE/INHIBITOR)
+> pdb_org_common > UNKNOWN
+> title > ESCHERICHIA COLI URACIL-DNA GLYCOSYLASE COMPLEX WITH URACIL-DNA GLYCOSYLASE INHIBITOR PROTEIN
+> format_version > 2
+> pdbid > 1eui
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS PHAGE PBS2
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eui | D | albelig | 1 | 1 | E | 520 | 524 | D-20-  | D-24-  | ESILM 
+| 1eui | D | albelig | 2 | 2 | H | 526 | 533 | D-26-  | D-33-  | PEEVEEVI 
+| 1eui | D | albelig | 3 | 3 | E | 541 | 548 | D-41-  | D-48-  | ILVHTAYD 
+| 1eui | D | albelig | 4 | 4 | E | 553 | 560 | D-53-  | D-60-  | ENVMLLTS 
+| 1eui | D | albelig | 5 | 5 | E | 567 | 573 | D-67-  | D-73-  | PWALVIQ 
+| 1eui | D | albelig | 6 | 6 | E | 579 | 583 | D-79-  | D-83-  | NKIKM 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+# Listed 4 contacts. EOF.

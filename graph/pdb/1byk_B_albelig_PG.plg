@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1byk, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LACI FAMILY, PHOSPHATE BINDING, PROTEIN STRUCTURE,TREHALOSE REPRESSOR, GENE REGULATION
+> pdb_mol_name > PROTEIN (TREHALOSE OPERON REPRESSOR)
+> graphtype > albelig
+> resolution > 2.5
+> date > 16-OCT-98
+> header > GENE REGULATION
+> pdb_org_common > UNKNOWN
+> title > TREHALOSE REPRESSOR FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1byk
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1byk | B | albelig | 1 | 1 | E | 260 | 265 | B-64-  | B-69-  | VVAIIV 
+| 1byk | B | albelig | 2 | 2 | H | 271 | 287 | B-75-  | B-91-  | LSENLAVQTMLPAFYEQ 
+| 1byk | B | albelig | 3 | 3 | E | 290 | 295 | B-94-  | B-99-  | DPIMME 
+| 1byk | B | albelig | 4 | 4 | H | 300 | 311 | B-104-  | B-115-  | PQLVAEHLGVLK 
+| 1byk | B | albelig | 5 | 5 | E | 317 | 321 | B-121-  | B-125-  | GVVLF 
+| 1byk | B | albelig | 6 | 6 | H | 332 | 334 | B-136-  | B-138-  | AHW 
+| 1byk | B | albelig | 7 | 7 | E | 338 | 341 | B-142-  | B-145-  | LVLL 
+| 1byk | B | albelig | 8 | 8 | E | 349 | 353 | B-153-  | B-157-  | ASVCY 
+| 1byk | B | albelig | 9 | 9 | H | 355 | 368 | B-159-  | B-172-  | DEGAIKILMQRLYD 
+| 1byk | B | albelig | 10 | 10 | E | 374 | 377 | B-178-  | B-181-  | ISYL 
+| 1byk | B | albelig | 11 | 11 | H | 384 | 400 | B-188-  | B-204-  | VTTGKRRHEAYLAFCKA 
+| 1byk | B | albelig | 12 | 12 | E | 406 | 408 | B-210-  | B-212-  | VAA 
+| 1byk | B | albelig | 13 | 13 | H | 414 | 420 | B-218-  | B-224-  | MKQGYEN 
+| 1byk | B | albelig | 14 | 14 | H | 422 | 424 | B-226-  | B-228-  | AKV 
+| 1byk | B | albelig | 15 | 15 | E | 431 | 434 | B-235-  | B-238-  | ALLC 
+| 1byk | B | albelig | 16 | 16 | H | 437 | 449 | B-241-  | B-253-  | DTLALGASKYLQE 
+| 1byk | B | albelig | 17 | 17 | E | 456 | 460 | B-260-  | B-264-  | QLASV 
+| 1byk | B | albelig | 18 | 18 | H | 464 | 469 | B-268-  | B-273-  | PLMKFL 
+| 1byk | B | albelig | 19 | 19 | E | 474 | 476 | B-278-  | B-280-  | VTV 
+| 1byk | B | albelig | 20 | 20 | H | 480 | 495 | B-284-  | B-299-  | YAEAGRQAACQLIAQV 
+| 1byk | B | albelig | 21 | 21 | E | 503 | 506 | B-307-  | B-310-  | QIII 
+| 1byk | B | albelig | 22 | 22 | L | 513 | 513 | B-316-  | B-316-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 5
+= 2 = p = 20
+= 2 = l = 22
+= 4 = m = 6
+= 5 = p = 7
+= 5 = l = 22
+= 7 = p = 8
+= 7 = l = 22
+= 8 = a = 20
+= 8 = p = 21
+= 8 = l = 22
+= 9 = p = 11
+= 10 = m = 11
+= 10 = p = 12
+= 10 = p = 15
+= 11 = l = 22
+= 13 = m = 16
+= 15 = p = 17
+= 16 = m = 17
+= 16 = l = 22
+= 17 = p = 19
+= 17 = l = 22
+= 20 = l = 22
+# Listed 26 contacts. EOF.

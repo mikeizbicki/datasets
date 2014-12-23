@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1csb, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PAPAIN-LIKE LYSOSOMAL DICARBOXY-PEPTIDASE, HYDROLASE-HYDROLASEINHIBITOR COMPLEX
+> pdb_mol_name > CATHEPSIN B HEAVY CHAIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 09-DEC-94
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF CATHEPSIN B INHIBITED WITH CA030 AT 2.1 ANGSTROMSRESOLUTION: A BASIS FOR THE DESIGN OF SPECIFIC EPOXYSUCCINYLINHIBITORS
+> format_version > 2
+> pdbid > 1csb
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1csb | E | albelig | 1 | 1 | H | 309 | 315 | E-56-  | E-62-  | AEDLLTI 
+| 1csb | E | albelig | 2 | 2 | H | 317 | 319 | E-64-  | E-66-  | GSM 
+| 1csb | E | albelig | 3 | 3 | H | 329 | 338 | E-76-  | E-85-  | PAEAWNFWTR 
+| 1csb | E | albelig | 4 | 4 | H | 393 | 396 | E-140-  | E-143-  | YKQD 
+| 1csb | E | albelig | 5 | 5 | E | 400 | 405 | E-147-  | E-152-  | GYNSYS 
+| 1csb | E | albelig | 6 | 6 | H | 410 | 420 | E-157-  | E-167-  | EKDIMAEIYKN 
+| 1csb | E | albelig | 7 | 7 | E | 423 | 430 | E-170-  | E-177-  | VEGAFSVY 
+| 1csb | E | albelig | 8 | 8 | H | 431 | 433 | E-178-  | E-180-  | SDF 
+| 1csb | E | albelig | 9 | 9 | E | 448 | 462 | E-195-  | E-209-  | MMGGHAIRILGWGVE 
+| 1csb | E | albelig | 10 | 10 | E | 465 | 471 | E-212-  | E-218-  | TPYWLVA 
+| 1csb | E | albelig | 11 | 11 | E | 483 | 487 | E-230-  | E-234-  | FFKIL 
+| 1csb | E | albelig | 12 | 12 | H | 492 | 494 | E-239-  | E-241-  | HCG 
+| 1csb | E | albelig | 13 | 13 | E | 500 | 504 | E-247-  | E-251-  | VAGIP 
+| 1csb | E | albelig | 14 | 14 | L | 509 | 509 | E-2-  | E-2-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 3 = m = 5
+= 3 = p = 13
+= 3 = l = 14
+= 5 = a = 13
+= 7 = m = 8
+= 7 = a = 9
+= 7 = m = 12
+= 7 = a = 13
+= 7 = l = 14
+= 9 = a = 10
+= 9 = l = 14
+= 10 = a = 11
+# Listed 13 contacts. EOF.

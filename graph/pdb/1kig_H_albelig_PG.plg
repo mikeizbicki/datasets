@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kig, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOPROTEIN, SERINE PROTEASE, PLASMA, BLOOD COAGULATION,COMPLEX (PROTEASE/INHIBITOR)
+> pdb_mol_name > FACTOR XA
+> graphtype > albelig
+> resolution > 3.0
+> date > 24-APR-97
+> header > COMPLEX (PROTEASE/INHIBITOR)
+> pdb_org_common > CATTLE
+> title > BOVINE FACTOR XA
+> format_version > 2
+> pdbid > 1kig
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kig | H | albelig | 1 | 1 | E | 15 | 19 | H-30-  | H-34-  | QALLV 
+| 1kig | H | albelig | 2 | 2 | E | 25 | 31 | H-40-  | H-46-  | GFNGGTI 
+| 1kig | H | albelig | 3 | 3 | E | 36 | 39 | H-51-  | H-54-  | YVLT 
+| 1kig | H | albelig | 4 | 4 | E | 71 | 76 | H-85-  | H-90-  | VEMTVK 
+| 1kig | H | albelig | 5 | 5 | E | 90 | 94 | H-104-  | H-108-  | AVLRL 
+| 1kig | H | albelig | 6 | 6 | H | 112 | 119 | H-125-  | H-131-A | KDWAEATL 
+| 1kig | H | albelig | 7 | 7 | E | 124 | 129 | H-135-  | H-140-  | TGIVSG 
+| 1kig | H | albelig | 8 | 8 | E | 132 | 134 | H-143-  | H-145-  | RTH 
+| 1kig | H | albelig | 9 | 9 | E | 137 | 139 | H-148-  | H-150-  | GRL 
+| 1kig | H | albelig | 10 | 10 | E | 144 | 149 | H-156-  | H-161-  | KMLEVP 
+| 1kig | H | albelig | 11 | 11 | H | 153 | 159 | H-165-  | H-171-  | RSTDKLS 
+| 1kig | H | albelig | 12 | 12 | E | 168 | 174 | H-180-  | H-185-A | MFDAGYD 
+| 1kig | H | albelig | 13 | 13 | E | 188 | 193 | H-198-  | H-203-  | PHVTRF 
+| 1kig | H | albelig | 14 | 14 | E | 196 | 205 | H-206-  | H-215-  | TYFVTGIVSW 
+| 1kig | H | albelig | 15 | 15 | E | 214 | 220 | H-224-  | H-230-  | KFGVYTK 
+| 1kig | H | albelig | 16 | 16 | H | 222 | 231 | H-232-  | H-241-  | SNFLKWIDKI 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 5
+= 4 = a = 5
+= 7 = a = 10
+= 7 = a = 13
+= 8 = a = 9
+= 10 = a = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 15 = m = 16
+# Listed 12 contacts. EOF.

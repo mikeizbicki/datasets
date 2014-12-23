@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c6v, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA INTEGRATION, DNA BINDING PROTEIN
+> pdb_mol_name > PROTEIN (SIV INTEGRASE)
+> graphtype > albelig
+> resolution > 3.0
+> date > 21-DEC-99
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SIV INTEGRASE (CATALYTIC DOMAIN + DNA BIDING DOMAINCOMPRISING RESIDUES 50-293) MUTANT WITH PHE 185 REPLACEDBY HIS (F185H)
+> format_version > 2
+> pdbid > 1c6v
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SIMIAN IMMUNODEFICIENCY VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c6v | D | albelig | 1 | 1 | E | 447 | 453 | D-62-  | D-68-  | QMDCTHL 
+| 1c6v | D | albelig | 2 | 2 | E | 456 | 463 | D-71-  | D-78-  | KIVIVAVH 
+| 1c6v | D | albelig | 3 | 3 | E | 468 | 473 | D-83-  | D-88-  | FIEAEV 
+| 1c6v | D | albelig | 4 | 4 | H | 479 | 490 | D-94-  | D-105-  | GRQTALFLLKLA 
+| 1c6v | D | albelig | 5 | 5 | H | 509 | 515 | D-124-  | D-130-  | QEVKMVA 
+| 1c6v | D | albelig | 6 | 6 | H | 530 | 538 | D-155-  | D-163-  | NHHLKNQID 
+| 1c6v | D | albelig | 7 | 7 | H | 547 | 558 | D-172-  | D-183-  | VETIVLMAVHCM 
+| 1c6v | D | albelig | 8 | 8 | H | 571 | 581 | D-196-  | D-206-  | PAERLINMITT 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 4 = p = 5
+# Listed 3 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jzn, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C-TYPE LECTIN, PROTEIN-DISACCHARIDE COMPLEX, SUGAR BINDING PROTEIN
+> pdb_mol_name > GALACTOSE-SPECIFIC LECTIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 16-SEP-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > WESTERN DIAMONDBACK RATTLESNAKE
+> title > CRYSTAL STRUCTURE OF A GALACTOSE-SPECIFIC C-TYPE LECTIN
+> format_version > 2
+> pdbid > 1jzn
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CROTALUS ATROX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jzn | C | albelig | 1 | 1 | E | 280 | 282 | C-8-  | C-10-  | LPM 
+| 1jzn | C | albelig | 2 | 2 | E | 285 | 294 | C-13-  | C-22-  | LKYKIFNQLK 
+| 1jzn | C | albelig | 3 | 3 | H | 296 | 306 | C-24-  | C-34-  | WEDAEMFLRKY 
+| 1jzn | C | albelig | 4 | 4 | H | 318 | 331 | C-46-  | C-59-  | YGESLEIAEYISDY 
+| 1jzn | C | albelig | 5 | 5 | E | 338 | 344 | C-66-  | C-72-  | VWIGLRD 
+| 1jzn | C | albelig | 6 | 6 | E | 351 | 353 | C-79-  | C-81-  | WEW 
+| 1jzn | C | albelig | 7 | 7 | H | 372 | 374 | C-100-  | C-102-  | YQN 
+| 1jzn | C | albelig | 8 | 8 | E | 378 | 381 | C-106-  | C-109-  | NVEL 
+| 1jzn | C | albelig | 9 | 9 | H | 383 | 385 | C-111-  | C-113-  | SLT 
+| 1jzn | C | albelig | 10 | 10 | E | 390 | 393 | C-118-  | C-121-  | WNDQ 
+| 1jzn | C | albelig | 11 | 11 | E | 399 | 405 | C-127-  | C-133-  | DAFLLQM 
+| 1jzn | C | albelig | 12 | 12 | L | 689 | 689 | C-136-  | C-136-  | J 
+| 1jzn | C | albelig | 13 | 13 | L | 690 | 690 | C-137-  | C-137-  | J 
+| 1jzn | C | albelig | 14 | 14 | L | 691 | 691 | C-3138-  | C-3138-  | J 
+| 1jzn | C | albelig | 15 | 15 | L | 692 | 692 | C-3139-  | C-3139-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = m = 4
+= 2 = a = 11
+= 2 = l = 15
+= 3 = m = 11
+= 4 = l = 15
+= 5 = a = 6
+= 5 = a = 8
+= 5 = a = 11
+= 7 = l = 13
+= 7 = l = 14
+= 8 = a = 10
+= 8 = l = 13
+= 10 = l = 13
+= 10 = l = 14
+= 11 = l = 15
+= 12 = l = 13
+= 13 = l = 14
+# Listed 19 contacts. EOF.

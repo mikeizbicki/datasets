@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1htm, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INFLUENZA VIRUS HEMAGGLUTININ, VIRAL PROTEIN
+> pdb_mol_name > HEMAGGLUTININ HA2 CHAIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 02-NOV-94
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF INFLUENZA HAEMAGGLUTININ AT THE PH OF MEMBRANEFUSION
+> format_version > 2
+> pdbid > 1htm
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > UNCULTURED BETA PROTEOBACTERIUM UMTRA-
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1htm | D | albelig | 1 | 1 | H | 130 | 190 | D-41-  | D-101-  | TQAAIDQINGKLNRVIEKTNEKFHQIEKEFSEVEGRIQDLEKYVEDTKIDLWSYNAELLVA 
+| 1htm | D | albelig | 2 | 2 | H | 202 | 218 | D-113-  | D-129-  | SEMNKLFEKTRRQLREN 
+| 1htm | D | albelig | 3 | 3 | E | 220 | 222 | D-131-  | D-133-  | EEM 
+| 1htm | D | albelig | 4 | 4 | E | 226 | 228 | D-137-  | D-139-  | CFK 
+| 1htm | D | albelig | 5 | 5 | H | 235 | 242 | D-146-  | D-153-  | NADIESIR 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 5
+= 3 = a = 4
+# Listed 3 contacts. EOF.

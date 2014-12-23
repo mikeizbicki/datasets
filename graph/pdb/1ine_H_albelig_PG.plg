@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ine, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG1-LAMBDA CHA255 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.8
+> date > 14-JUN-93
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > HOW THE ANTI-(METAL CHELATE) ANTIBODY CHA255 IS SPECIFICFOR THE METAL ION OF ITS ANTIGEN: X-RAY STRUCTURES FOR TWOFAB'(SLASH)HAPTEN COMPLEXES WITH DIFFERENT METALS IN THECHELATE
+> format_version > 2
+> pdbid > 1ine
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ine | H | albelig | 1 | 1 | E | 215 | 219 | H-3-  | H-7-  | TLVES 
+| 1ine | H | albelig | 2 | 2 | E | 230 | 237 | H-18-  | H-25-  | LKLSCAAS 
+| 1ine | H | albelig | 3 | 3 | H | 241 | 243 | H-29-  | H-31-  | LSG 
+| 1ine | H | albelig | 4 | 4 | E | 246 | 251 | H-34-  | H-39-  | MSWVRQ 
+| 1ine | H | albelig | 5 | 5 | E | 257 | 263 | H-45-  | H-51-  | LEWVATT 
+| 1ine | H | albelig | 6 | 6 | E | 270 | 272 | H-58-  | H-60-  | TFY 
+| 1ine | H | albelig | 7 | 7 | E | 281 | 285 | H-69-  | H-73-  | TISRD 
+| 1ine | H | albelig | 8 | 8 | H | 286 | 288 | H-74-  | H-76-  | NAQ 
+| 1ine | H | albelig | 9 | 9 | E | 290 | 295 | H-78-  | H-83-  | NLYLQL 
+| 1ine | H | albelig | 10 | 10 | H | 300 | 302 | H-88-  | H-90-  | SED 
+| 1ine | H | albelig | 11 | 11 | E | 304 | 309 | H-92-  | H-97-  | ALYFCA 
+| 1ine | H | albelig | 12 | 12 | H | 311 | 313 | H-99-  | H-101-  | HRF 
+| 1ine | H | albelig | 13 | 13 | E | 321 | 324 | H-109-  | H-112-  | LVTV 
+| 1ine | H | albelig | 14 | 14 | E | 332 | 336 | H-120-  | H-124-  | SVYPL 
+| 1ine | H | albelig | 15 | 15 | E | 347 | 357 | H-135-  | H-145-  | MVTLGDLVKGY 
+| 1ine | H | albelig | 16 | 16 | E | 363 | 366 | H-151-  | H-154-  | TVTW 
+| 1ine | H | albelig | 17 | 17 | H | 367 | 369 | H-155-  | H-157-  | NSG 
+| 1ine | H | albelig | 18 | 18 | E | 376 | 382 | H-164-  | H-170-  | HTFPAVL 
+| 1ine | H | albelig | 19 | 19 | E | 387 | 396 | H-175-  | H-184-  | YTLSSSVTVP 
+| 1ine | H | albelig | 20 | 20 | H | 399 | 402 | H-187-  | H-190-  | PRPS 
+| 1ine | H | albelig | 21 | 21 | E | 406 | 411 | H-194-  | H-199-  | TDNVAH 
+| 1ine | H | albelig | 22 | 22 | E | 416 | 421 | H-204-  | H-209-  | TKVDKK 
+| 1ine | H | albelig | 23 | 23 | L | 426 | 426 | H-800-  | H-800-  | J 
+| 1ine | H | albelig | 24 | 24 | L | 427 | 427 | H-801-  | H-801-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 9
+= 2 = p = 11
+= 4 = a = 5
+= 4 = p = 9
+= 4 = a = 11
+= 5 = a = 6
+= 5 = l = 24
+= 6 = a = 7
+= 6 = l = 24
+= 7 = m = 8
+= 7 = a = 9
+= 11 = p = 13
+= 12 = l = 23
+= 12 = l = 24
+= 14 = a = 15
+= 15 = a = 16
+= 15 = a = 19
+= 16 = m = 17
+= 16 = p = 19
+= 16 = a = 21
+= 18 = a = 19
+= 19 = m = 20
+= 21 = a = 22
+= 23 = l = 24
+# Listed 26 contacts. EOF.

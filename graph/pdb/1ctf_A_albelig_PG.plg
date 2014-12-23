@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ctf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOSOMAL PROTEIN
+> pdb_mol_name > RIBOSOMAL PROTEIN L7/L12
+> graphtype > albelig
+> resolution > 1.7
+> date > 02-SEP-86
+> header > RIBOSOMAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE C-TERMINAL DOMAIN OF THE RIBOSOMAL PROTEINL7/L12 FROM ESCHERICHIA COLI AT 1.7 ANGSTROMS
+> format_version > 2
+> pdbid > 1ctf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ctf | A | albelig | 1 | 1 | E | 2 | 8 | A-54-  | A-60-  | FDVILKA 
+| 1ctf | A | albelig | 2 | 2 | H | 10 | 24 | A-62-  | A-76-  | GANKVAVIKAVRGAT 
+| 1ctf | A | albelig | 3 | 3 | H | 28 | 36 | A-80-  | A-88-  | LKEAKDLVE 
+| 1ctf | A | albelig | 4 | 4 | E | 40 | 46 | A-92-  | A-98-  | AALKEGV 
+| 1ctf | A | albelig | 5 | 5 | H | 48 | 61 | A-100-  | A-113-  | KDDAEALKKALEEA 
+| 1ctf | A | albelig | 6 | 6 | E | 64 | 67 | A-116-  | A-119-  | EVEV 
+| 1ctf | A | albelig | 7 | 7 | L | 69 | 69 | A-1-  | A-1-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 1 = l = 7
+= 2 = a = 3
+= 2 = l = 7
+= 3 = l = 7
+# Listed 6 contacts. EOF.

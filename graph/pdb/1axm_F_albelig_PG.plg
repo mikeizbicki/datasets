@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1axm, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMAN ACIDIC FIBROBLAST GROWTH FACTOR, HEPARIN DECASACCHARIDE, GROWTHFACTOR
+> pdb_mol_name > ACIDIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > 3.0
+> date > 16-OCT-97
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > HEPARIN-LINKED BIOLOGICALLY-ACTIVE DIMER OF FIBROBLAST GROWTH FACTOR
+> format_version > 2
+> pdbid > 1axm
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1axm | F | albelig | 1 | 1 | E | 649 | 653 | F-12-  | F-16-  | KLLYC 
+| 1axm | F | albelig | 2 | 2 | E | 658 | 662 | F-21-  | F-25-  | HFLRI 
+| 1axm | F | albelig | 3 | 3 | E | 668 | 671 | F-31-  | F-34-  | VDGT 
+| 1axm | F | albelig | 4 | 4 | E | 681 | 684 | F-44-  | F-47-  | LQLS 
+| 1axm | F | albelig | 5 | 5 | E | 690 | 695 | F-53-  | F-58-  | EVYIKS 
+| 1axm | F | albelig | 6 | 6 | E | 701 | 704 | F-64-  | F-67-  | YLAX 
+| 1axm | F | albelig | 7 | 7 | E | 710 | 713 | F-73-  | F-76-  | LYGS 
+| 1axm | F | albelig | 8 | 8 | H | 718 | 720 | F-81-  | F-83-  | EEC 
+| 1axm | F | albelig | 9 | 9 | E | 722 | 726 | F-85-  | F-89-  | FLERL 
+| 1axm | F | albelig | 10 | 10 | E | 732 | 736 | F-95-  | F-99-  | NTYIS 
+| 1axm | F | albelig | 11 | 11 | H | 740 | 742 | F-103-  | F-105-  | AEK 
+| 1axm | F | albelig | 12 | 12 | H | 757 | 759 | F-120-  | F-122-  | GPR 
+| 1axm | F | albelig | 13 | 13 | H | 765 | 767 | F-128-  | F-130-  | KAI 
+| 1axm | F | albelig | 14 | 14 | E | 769 | 773 | F-132-  | F-136-  | FLPLP 
+| 1axm | F | albelig | 15 | 15 | L | 792 | 792 | F-502-  | F-502-  | J 
+| 1axm | F | albelig | 16 | 16 | L | 793 | 793 | F-503-  | F-503-  | J 
+| 1axm | F | albelig | 17 | 17 | L | 794 | 794 | F-504-  | F-504-  | J 
+| 1axm | F | albelig | 18 | 18 | L | 795 | 795 | F-505-  | F-505-  | J 
+| 1axm | F | albelig | 19 | 19 | L | 796 | 796 | F-506-  | F-506-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 14
+= 2 = a = 3
+= 4 = a = 5
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 7
+= 6 = m = 8
+= 9 = a = 10
+= 10 = m = 13
+= 12 = l = 15
+= 12 = l = 16
+= 13 = l = 17
+= 13 = l = 18
+= 13 = l = 19
+= 15 = l = 16
+= 15 = l = 17
+= 16 = l = 17
+= 16 = l = 18
+= 17 = l = 18
+= 17 = l = 19
+= 18 = l = 19
+# Listed 22 contacts. EOF.

@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ghr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE
+> pdb_mol_name > 1,3-1,4-BETA-GLUCANASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 11-OCT-93
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > THE THREE-DIMENSIONAL STRUCTURES OF TWO PLANT BETA-GLUCANENDOHYDROLASES WITH DISTINCT SUBSTRATE SPECIFICITIES
+> format_version > 2
+> pdbid > 1ghr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HORDEUM VULGARE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ghr | A | albelig | 1 | 1 | E | 2 | 4 | A-2-  | A-4-  | GVC 
+| 1ghr | A | albelig | 2 | 2 | H | 15 | 25 | A-15-  | A-25-  | ASTVVSMFKSN 
+| 1ghr | A | albelig | 3 | 3 | E | 29 | 32 | A-29-  | A-32-  | SMRL 
+| 1ghr | A | albelig | 4 | 4 | H | 37 | 43 | A-37-  | A-43-  | QAALQAV 
+| 1ghr | A | albelig | 5 | 5 | E | 49 | 54 | A-49-  | A-54-  | NVVVGA 
+| 1ghr | A | albelig | 6 | 6 | H | 56 | 64 | A-56-  | A-64-  | NDVLSNLAA 
+| 1ghr | A | albelig | 7 | 7 | H | 66 | 78 | A-66-  | A-78-  | PAAAASWVKSNIQ 
+| 1ghr | A | albelig | 8 | 8 | E | 84 | 92 | A-84-  | A-92-  | SFRYVCVGN 
+| 1ghr | A | albelig | 9 | 9 | H | 98 | 115 | A-98-  | A-115-  | ATRNLVPAMKNVHGALVA 
+| 1ghr | A | albelig | 10 | 10 | E | 122 | 128 | A-122-  | A-128-  | KVTTSVS 
+| 1ghr | A | albelig | 11 | 11 | H | 129 | 131 | A-129-  | A-131-  | QAI 
+| 1ghr | A | albelig | 12 | 12 | E | 132 | 134 | A-132-  | A-134-  | LGV 
+| 1ghr | A | albelig | 13 | 13 | H | 138 | 140 | A-138-  | A-140-  | PSA 
+| 1ghr | A | albelig | 14 | 14 | H | 145 | 161 | A-145-  | A-161-  | GEAAAFMGPVVQFLART 
+| 1ghr | A | albelig | 15 | 15 | E | 165 | 168 | A-165-  | A-168-  | LMAN 
+| 1ghr | A | albelig | 16 | 16 | H | 171 | 176 | A-171-  | A-176-  | PYLAWA 
+| 1ghr | A | albelig | 17 | 17 | H | 184 | 187 | A-184-  | A-187-  | MGYA 
+| 1ghr | A | albelig | 18 | 18 | E | 196 | 198 | A-196-  | A-198-  | VRD 
+| 1ghr | A | albelig | 19 | 19 | E | 201 | 203 | A-201-  | A-203-  | YGY 
+| 1ghr | A | albelig | 20 | 20 | H | 206 | 219 | A-206-  | A-219-  | LFDTTVDAFYTAMG 
+| 1ghr | A | albelig | 21 | 21 | E | 228 | 232 | A-228-  | A-232-  | LVVSE 
+| 1ghr | A | albelig | 22 | 22 | H | 245 | 258 | A-245-  | A-258-  | PANARFYNQHLINH 
+| 1ghr | A | albelig | 23 | 23 | E | 273 | 275 | A-273-  | A-275-  | YIF 
+| 1ghr | A | albelig | 24 | 24 | H | 287 | 290 | A-287-  | A-290-  | VEQN 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 23
+= 3 = p = 5
+= 3 = a = 23
+= 5 = p = 8
+= 6 = m = 7
+= 6 = m = 9
+= 8 = p = 10
+= 9 = m = 10
+= 9 = p = 14
+= 10 = m = 11
+= 10 = p = 15
+= 11 = m = 12
+= 15 = p = 21
+= 18 = a = 19
+= 19 = m = 20
+= 21 = p = 23
+# Listed 17 contacts. EOF.

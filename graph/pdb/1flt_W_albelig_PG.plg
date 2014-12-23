@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1flt, chain W.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (GROWTH FACTOR-TRANSFERASE), FLT-1 RECEPTOR, CYSTINE KNOT,GLYCOPROTEIN, IMMUNOGLOBULIN-LIKE DOMAIN TRANSFERASE, COMPLEX(GROWTH FACTOR-TRANSFERASE) COMPLEX
+> pdb_mol_name > VASCULAR ENDOTHELIAL GROWTH FACTOR
+> graphtype > albelig
+> resolution > 1.7
+> date > 20-NOV-97
+> header > COMPLEX (GROWTH FACTOR/TRANSFERASE)
+> pdb_org_common > HUMAN
+> title > VEGF IN COMPLEX WITH DOMAIN 2 OF THE FLT-1 RECEPTOR
+> format_version > 2
+> pdbid > 1flt
+> experiment > X-RAY DIFFRACTION
+> chainid > W
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1flt | W | albelig | 1 | 1 | H | 102 | 109 | W-17-  | W-24-  | FMDVYQRS 
+| 1flt | W | albelig | 2 | 2 | E | 112 | 119 | W-27-  | W-34-  | HPIETLVD 
+| 1flt | W | albelig | 3 | 3 | H | 120 | 123 | W-35-  | W-38-  | IFQE 
+| 1flt | W | albelig | 4 | 4 | E | 131 | 133 | W-46-  | W-48-  | IFK 
+| 1flt | W | albelig | 5 | 5 | E | 136 | 143 | W-51-  | W-58-  | DVPLMRGG 
+| 1flt | W | albelig | 6 | 6 | E | 151 | 168 | W-66-  | W-83-  | LEFVPTEESNITMQIMRI 
+| 1flt | W | albelig | 7 | 7 | E | 174 | 191 | W-89-  | W-106-  | QHIGEMSFLQHNKGEHRP 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 5
+= 2 = a = 7
+= 4 = a = 6
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+# Listed 7 contacts. EOF.

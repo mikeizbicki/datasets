@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hwg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE, HORMONE, RECEPTOR, HEMATOPOIETIC, COMPLEX(HORMONE/RECEPTOR)
+> pdb_mol_name > GROWTH HORMONE
+> graphtype > albelig
+> resolution > 2.5
+> date > 13-NOV-96
+> header > COMPLEX (HORMONE/RECEPTOR)
+> pdb_org_common > HUMAN
+> title > 1:2 COMPLEX OF HUMAN GROWTH HORMONE WITH ITS SOLUBLEBINDING PROTEIN
+> format_version > 2
+> pdbid > 1hwg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hwg | A | albelig | 1 | 1 | H | 6 | 35 | A-6-  | A-35-  | LSRLFDNAMLRAHRLHQLAFDTYQEFEEAY 
+| 1hwg | A | albelig | 2 | 2 | H | 38 | 46 | A-38-  | A-46-  | KEQKYSFLQ 
+| 1hwg | A | albelig | 3 | 3 | H | 54 | 57 | A-54-  | A-57-  | FSES 
+| 1hwg | A | albelig | 4 | 4 | H | 64 | 67 | A-64-  | A-67-  | REET 
+| 1hwg | A | albelig | 5 | 5 | H | 72 | 87 | A-72-  | A-87-  | NLELLRISLLLIQSWL 
+| 1hwg | A | albelig | 6 | 6 | H | 89 | 98 | A-89-  | A-98-  | PVQFLRSVFA 
+| 1hwg | A | albelig | 7 | 7 | H | 107 | 127 | A-107-  | A-127-  | DSNVYDLLKDLEEGIQTLMGR 
+| 1hwg | A | albelig | 8 | 8 | H | 150 | 179 | A-155-  | A-184-  | ALLKNYGLLYAFRKDMDKVETFLRIVQNRS 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 1 = a = 8
+= 2 = m = 8
+= 5 = m = 6
+= 5 = a = 7
+= 5 = a = 8
+# Listed 6 contacts. EOF.

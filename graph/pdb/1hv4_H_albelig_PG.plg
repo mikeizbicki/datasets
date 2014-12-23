@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hv4, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALLOSTERIC MECHANISM, OXYGEN TRANSPORT, HEME, RESPIRATORYPROTEIN, OXYGEN STORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN BETA CHAIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 07-JAN-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > BAR-HEADED GOOSE
+> title > CRYSTAL STRUCTURE ANALYSIS OF BAR-HEAD GOOSE HEMOGLOBIN(DEOXY FORM)
+> format_version > 2
+> pdbid > 1hv4
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > ANSER INDICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hv4 | H | albelig | 1 | 1 | H | 1014 | 1026 | H-5-  | H-17-  | AEEKQLITGLWGK 
+| 1hv4 | H | albelig | 2 | 2 | H | 1029 | 1043 | H-20-  | H-34-  | VADCGAEALARLLIV 
+| 1hv4 | H | albelig | 3 | 3 | H | 1045 | 1054 | H-36-  | H-45-  | PWTQRFFSSF 
+| 1hv4 | H | albelig | 4 | 4 | H | 1060 | 1065 | H-51-  | H-56-  | PTAILG 
+| 1hv4 | H | albelig | 5 | 5 | H | 1067 | 1085 | H-58-  | H-76-  | PMVRAHGKKVLTSFGDAVK 
+| 1hv4 | H | albelig | 6 | 6 | H | 1090 | 1104 | H-81-  | H-95-  | IKNTFAQLSELHCDK 
+| 1hv4 | H | albelig | 7 | 7 | H | 1109 | 1126 | H-100-  | H-117-  | PENFRLLGDILIIVLAAH 
+| 1hv4 | H | albelig | 8 | 8 | H | 1128 | 1130 | H-119-  | H-121-  | AKE 
+| 1hv4 | H | albelig | 9 | 9 | H | 1133 | 1151 | H-124-  | H-142-  | PDCQAAWQKLVRVVAHALA 
+| 1hv4 | H | albelig | 10 | 10 | L | 1163 | 1163 | H-158-  | H-158-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 9
+= 2 = m = 3
+= 2 = a = 5
+= 2 = a = 7
+= 2 = l = 10
+= 3 = l = 10
+= 4 = m = 5
+= 5 = l = 10
+= 6 = l = 10
+= 7 = a = 9
+= 7 = l = 10
+= 9 = l = 10
+# Listed 12 contacts. EOF.

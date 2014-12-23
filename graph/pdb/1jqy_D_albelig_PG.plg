@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jqy, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENTEROTOXIN, RECEPTOR, LIGAND, B-PENTAMER
+> pdb_mol_name > HEAT-LABILE ENTEROTOXIN B CHAIN
+> graphtype > albelig
+> resolution > 2.14
+> date > 09-AUG-01
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > HEAT-LABILE ENTEROTOXIN B-PENTAMER WITH LIGAND BMSC-0010
+> format_version > 2
+> pdbid > 1jqy
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jqy | D | albelig | 1 | 1 | H | 5 | 10 | D-5-  | D-10-  | ITELAS 
+| 1jqy | D | albelig | 2 | 2 | E | 15 | 22 | D-15-  | D-22-  | TQIYTIND 
+| 1jqy | D | albelig | 3 | 3 | E | 26 | 32 | D-26-  | D-32-  | SYTESMA 
+| 1jqy | D | albelig | 4 | 4 | E | 35 | 41 | D-35-  | D-41-  | REMVIIT 
+| 1jqy | D | albelig | 5 | 5 | E | 47 | 50 | D-47-  | D-50-  | TFQV 
+| 1jqy | D | albelig | 6 | 6 | H | 61 | 77 | D-61-  | D-77-  | QKKAIERMKDTLRITYL 
+| 1jqy | D | albelig | 7 | 7 | E | 82 | 88 | D-82-  | D-88-  | IDKLAVW 
+| 1jqy | D | albelig | 8 | 8 | E | 94 | 102 | D-94-  | D-102-  | NSIAAISMK 
+| 1jqy | D | albelig | 9 | 9 | L | 1560 | 1560 | D-104-  | D-104-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 8
+= 6 = l = 9
+= 7 = a = 8
+= 7 = l = 9
+= 8 = l = 9
+# Listed 9 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bld, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR
+> pdb_mol_name > BASIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 20-MAY-96
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > BASIC FIBROBLAST GROWTH FACTOR (FGF-2) MUTANT WITH CYS 78REPLACED BY SER AND CYS 96 REPLACED BY SER, NMR
+> format_version > 2
+> pdbid > 1bld
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bld | A | albelig | 1 | 1 | E | 30 | 34 | A-30-  | A-34-  | KRLYC 
+| 1bld | A | albelig | 2 | 2 | E | 39 | 43 | A-39-  | A-43-  | FFLRI 
+| 1bld | A | albelig | 3 | 3 | E | 49 | 52 | A-49-  | A-52-  | VDGV 
+| 1bld | A | albelig | 4 | 4 | E | 62 | 67 | A-62-  | A-67-  | LQLQAE 
+| 1bld | A | albelig | 5 | 5 | E | 71 | 76 | A-71-  | A-76-  | VVSIKG 
+| 1bld | A | albelig | 6 | 6 | E | 82 | 85 | A-82-  | A-85-  | YLAM 
+| 1bld | A | albelig | 7 | 7 | E | 91 | 94 | A-91-  | A-94-  | LLAS 
+| 1bld | A | albelig | 8 | 8 | E | 103 | 107 | A-103-  | A-107-  | FFERL 
+| 1bld | A | albelig | 9 | 9 | E | 113 | 117 | A-113-  | A-117-  | NTYRS 
+| 1bld | A | albelig | 10 | 10 | H | 144 | 146 | A-144-  | A-146-  | KAI 
+| 1bld | A | albelig | 11 | 11 | E | 148 | 152 | A-148-  | A-152-  | FLPMS 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 3
+= 4 = a = 5
+= 6 = a = 7
+= 8 = a = 9
+= 9 = m = 10
+# Listed 7 contacts. EOF.

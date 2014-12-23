@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i5n, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR-HELIX BUNDLE, TRANSFERASE
+> pdb_mol_name > CHEMOTAXIS PROTEIN CHEA
+> graphtype > albelig
+> resolution > 2.14
+> date > 28-FEB-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE P1 DOMAIN OF CHEA FROM SALMONELLATYPHIMURIUM
+> format_version > 2
+> pdbid > 1i5n
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SALMONELLA TYPHIMURIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i5n | C | albelig | 1 | 1 | H | 258 | 280 | C-6-  | C-28-  | SDFYQTFFDEADELLADXEQHLL 
+| 1i5n | C | albelig | 2 | 2 | H | 289 | 309 | C-37-  | C-57-  | AEQLNAIFRAAHSIKGGAGTF 
+| 1i5n | C | albelig | 3 | 3 | H | 312 | 330 | C-60-  | C-78-  | TILQETTHLXENLLDEARR 
+| 1i5n | C | albelig | 4 | 4 | H | 337 | 358 | C-85-  | C-106-  | TDIINLFLETKDIXQEQLDAYK 
+| 1i5n | C | albelig | 5 | 5 | H | 365 | 380 | C-113-  | C-128-  | AASFEYICNALRQLAL 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = a = 3
+= 3 = a = 4
+= 3 = p = 5
+= 4 = a = 5
+# Listed 6 contacts. EOF.

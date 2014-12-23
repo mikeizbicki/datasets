@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k3n, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FHA DOMAIN, RAD53, RAD9, PHOSPHOTHREONINE, PHOSPHOPROTEIN,NMR, TRANSFERASE/CELL CYCLE COMPLEX
+> pdb_mol_name > PROTEIN KINASE SPK1
+> graphtype > albelig
+> resolution > -1.0
+> date > 03-OCT-01
+> header > TRANSFERASE/CELL CYCLE
+> pdb_org_common > BAKER'S YEAST
+> title > NMR STRUCTURE OF THE FHA1 DOMAIN OF RAD53 IN COMPLEX WITH ARAD9-DERIVED PHOSPHOTHREONINE (AT T155) PEPTIDE
+> format_version > 2
+> pdbid > 1k3n
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k3n | A | albelig | 1 | 1 | H | 3 | 11 | A-16-  | A-24-  | QRFLIEKFS 
+| 1k3n | A | albelig | 2 | 2 | E | 21 | 24 | A-34-  | A-37-  | CRVI 
+| 1k3n | A | albelig | 3 | 3 | E | 33 | 35 | A-46-  | A-48-  | RDL 
+| 1k3n | A | albelig | 4 | 4 | H | 39 | 44 | A-52-  | A-57-  | ISQVLK 
+| 1k3n | A | albelig | 5 | 5 | E | 49 | 56 | A-62-  | A-69-  | IKKVWTFG 
+| 1k3n | A | albelig | 6 | 6 | E | 76 | 81 | A-89-  | A-94-  | FQILLG 
+| 1k3n | A | albelig | 7 | 7 | E | 86 | 90 | A-99-  | A-103-  | LLLND 
+| 1k3n | A | albelig | 8 | 8 | E | 96 | 98 | A-109-  | A-111-  | TWL 
+| 1k3n | A | albelig | 9 | 9 | E | 108 | 110 | A-121-  | A-123-  | NQL 
+| 1k3n | A | albelig | 10 | 10 | E | 116 | 119 | A-129-  | A-132-  | EITV 
+| 1k3n | A | albelig | 11 | 11 | E | 128 | 134 | A-141-  | A-147-  | LSLVIFI 
+| 1k3n | A | albelig | 12 | 12 | H | 136 | 144 | A-149-  | A-157-  | DKFKQCLEQ 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 11
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 9
+= 8 = a = 10
+= 10 = a = 11
+# Listed 7 contacts. EOF.

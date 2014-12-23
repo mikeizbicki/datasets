@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jq3, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AMINOPROPYLTRANSFERASE, HOMO-TETRAMER, THERMOPHYLE,TRANSITION-STATE ANALOGUE, BETA-BARREL, STRUCTURAL GENOMICS,PSI, PROTEIN STRUCTURE INITIATIVE, MIDWEST CENTER FORSTRUCTURAL GENOMICS, MCSG
+> pdb_mol_name > SPERMIDINE SYNTHASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 03-AUG-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF SPERMIDINE SYNTHASE IN COMPLEX WITHTRANSITION STATE ANALOGUE ADODATO
+> format_version > 2
+> pdbid > 1jq3
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jq3 | C | albelig | 1 | 1 | E | 598 | 603 | C-17-  | C-22-  | LWYFEY 
+| 1jq3 | C | albelig | 2 | 2 | E | 609 | 614 | C-28-  | C-33-  | VGLFMK 
+| 1jq3 | C | albelig | 3 | 3 | E | 617 | 623 | C-36-  | C-42-  | RVIYSGQ 
+| 1jq3 | C | albelig | 4 | 4 | E | 628 | 634 | C-47-  | C-53-  | RIDIFEN 
+| 1jq3 | C | albelig | 5 | 5 | E | 638 | 643 | C-57-  | C-62-  | GVVFAL 
+| 1jq3 | C | albelig | 6 | 6 | E | 646 | 650 | C-65-  | C-69-  | ITMTT 
+| 1jq3 | C | albelig | 7 | 7 | H | 654 | 668 | C-73-  | C-87-  | EFMYHEMLAHVPMFL 
+| 1jq3 | C | albelig | 8 | 8 | E | 674 | 678 | C-93-  | C-97-  | KVLII 
+| 1jq3 | C | albelig | 9 | 9 | H | 684 | 690 | C-103-  | C-109-  | GTLREVL 
+| 1jq3 | C | albelig | 10 | 10 | E | 697 | 702 | C-116-  | C-121-  | KAILCE 
+| 1jq3 | C | albelig | 11 | 11 | H | 705 | 714 | C-124-  | C-133-  | GLVIEAARKY 
+| 1jq3 | C | albelig | 12 | 12 | H | 716 | 719 | C-135-  | C-138-  | KQTS 
+| 1jq3 | C | albelig | 13 | 13 | E | 727 | 731 | C-146-  | C-150-  | AEIVI 
+| 1jq3 | C | albelig | 14 | 14 | H | 734 | 738 | C-153-  | C-157-  | GAEYV 
+| 1jq3 | C | albelig | 15 | 15 | E | 745 | 750 | C-164-  | C-169-  | FDVIII 
+| 1jq3 | C | albelig | 16 | 16 | H | 755 | 760 | C-174-  | C-179-  | PTAGQG 
+| 1jq3 | C | albelig | 17 | 17 | H | 762 | 764 | C-181-  | C-183-  | HLF 
+| 1jq3 | C | albelig | 18 | 18 | H | 766 | 775 | C-185-  | C-194-  | EEFYQACYDA 
+| 1jq3 | C | albelig | 19 | 19 | E | 776 | 785 | C-195-  | C-204-  | LKEDGVFSAE 
+| 1jq3 | C | albelig | 20 | 20 | H | 793 | 806 | C-212-  | C-225-  | IGWFKLAYRRISKV 
+| 1jq3 | C | albelig | 21 | 21 | E | 809 | 816 | C-228-  | C-235-  | ITRVYLGF 
+| 1jq3 | C | albelig | 22 | 22 | E | 824 | 831 | C-243-  | C-250-  | MWSYTFAS 
+| 1jq3 | C | albelig | 23 | 23 | H | 842 | 846 | C-261-  | C-265-  | PEKVR 
+| 1jq3 | C | albelig | 24 | 24 | H | 857 | 862 | C-276-  | C-281-  | EEVHVA 
+| 1jq3 | C | albelig | 25 | 25 | H | 868 | 874 | C-287-  | C-293-  | NFVKKEL 
+| 1jq3 | C | albelig | 26 | 26 | L | 1173 | 1173 | C-801-  | C-801-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = p = 4
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+= 5 = l = 26
+= 6 = l = 26
+= 7 = m = 9
+= 7 = a = 19
+= 7 = a = 21
+= 7 = m = 22
+= 7 = l = 26
+= 8 = p = 10
+= 8 = p = 15
+= 8 = l = 26
+= 9 = l = 26
+= 10 = p = 13
+= 10 = l = 26
+= 11 = m = 12
+= 11 = l = 26
+= 14 = m = 18
+= 14 = l = 26
+= 15 = p = 19
+= 16 = m = 20
+= 17 = m = 18
+= 17 = l = 26
+= 18 = a = 19
+= 18 = m = 20
+= 19 = a = 22
+= 20 = m = 21
+= 20 = m = 25
+= 21 = a = 22
+= 22 = l = 26
+# Listed 34 contacts. EOF.

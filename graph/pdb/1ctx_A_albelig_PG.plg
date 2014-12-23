@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ctx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN
+> pdb_mol_name > ALPHA-COBRATOXIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 08-APR-82
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > THREE-DIMENSIONAL STRUCTURE OF THE-LONG-NEUROTOXIN FROMCOBRA VENOM
+> format_version > 2
+> pdbid > 1ctx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NAJA SIAMENSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ctx | A | albelig | 1 | 1 | E | 20 | 25 | A-20-  | A-25-  | AYTKTW 
+| 1ctx | A | albelig | 2 | 2 | H | 30 | 33 | A-30-  | A-33-  | CSIR 
+| 1ctx | A | albelig | 3 | 3 | E | 36 | 40 | A-36-  | A-40-  | RVDLG 
+| 1ctx | A | albelig | 4 | 4 | E | 53 | 57 | A-53-  | A-57-  | DIQDE 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 4
+# Listed 2 contacts. EOF.

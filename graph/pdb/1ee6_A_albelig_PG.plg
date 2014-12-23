@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ee6, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PARALLEL BETA-HELIX, HIGH-ALKALINE, LOW-MOLECULAR-WEIGHT, LYASE
+> pdb_mol_name > PECTATE LYASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 31-JAN-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PECTATE LYASE FROM BACILLUS SP. STRAIN KSM-P15.
+> format_version > 2
+> pdbid > 1ee6
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ee6 | A | albelig | 1 | 1 | E | 3 | 5 | A-3-  | A-5-  | TVV 
+| 1ee6 | A | albelig | 2 | 2 | E | 9 | 11 | A-9-  | A-11-  | IRV 
+| 1ee6 | A | albelig | 3 | 3 | E | 16 | 26 | A-16-  | A-26-  | TFDGKGQTYVA 
+| 1ee6 | A | albelig | 4 | 4 | E | 44 | 46 | A-44-  | A-46-  | FRL 
+| 1ee6 | A | albelig | 5 | 5 | E | 50 | 57 | A-50-  | A-57-  | ASLKNVVI 
+| 1ee6 | A | albelig | 6 | 6 | E | 65 | 68 | A-65-  | A-68-  | VHAY 
+| 1ee6 | A | albelig | 7 | 7 | E | 71 | 78 | A-71-  | A-78-  | ATITNVIW 
+| 1ee6 | A | albelig | 8 | 8 | E | 86 | 90 | A-86-  | A-90-  | LTLKS 
+| 1ee6 | A | albelig | 9 | 9 | E | 92 | 97 | A-92-  | A-97-  | GTVNIS 
+| 1ee6 | A | albelig | 10 | 10 | E | 100 | 111 | A-100-  | A-111-  | AAYKAYDKVFQI 
+| 1ee6 | A | albelig | 11 | 11 | E | 115 | 120 | A-115-  | A-120-  | GTINIR 
+| 1ee6 | A | albelig | 12 | 12 | E | 123 | 133 | A-123-  | A-133-  | RADDIGKLVRQ 
+| 1ee6 | A | albelig | 13 | 13 | E | 141 | 146 | A-141-  | A-146-  | VVMNVE 
+| 1ee6 | A | albelig | 14 | 14 | E | 149 | 159 | A-149-  | A-159-  | NISRVKDAILR 
+| 1ee6 | A | albelig | 15 | 15 | E | 166 | 170 | A-166-  | A-170-  | TGRIV 
+| 1ee6 | A | albelig | 16 | 16 | E | 173 | 175 | A-173-  | A-175-  | RYS 
+| 1ee6 | A | albelig | 17 | 17 | E | 189 | 192 | A-189-  | A-192-  | TTAS 
+| 1ee6 | A | albelig | 18 | 18 | L | 198 | 198 | A-300-  | A-300-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 4
+= 3 = p = 5
+= 4 = a = 5
+= 4 = p = 6
+= 5 = p = 7
+= 6 = p = 8
+= 7 = p = 9
+= 7 = p = 10
+= 8 = p = 10
+= 9 = p = 11
+= 10 = p = 12
+= 10 = l = 18
+= 11 = p = 13
+= 12 = a = 13
+= 12 = p = 14
+= 13 = p = 15
+= 14 = p = 16
+= 15 = p = 17
+# Listed 19 contacts. EOF.

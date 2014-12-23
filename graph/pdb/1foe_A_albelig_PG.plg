@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1foe, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DBL HOMOLOGY DOMAIN, PLECKSTRIN HOMOLOGY DOMAIN, GTPASE,GUANINE NUCLEOTIDE EXCHANGE FACTOR, SIGNALING PROTEIN,IMMUNE SYSTEM/SIGNALING PROTEIN COMPLEX
+> pdb_mol_name > T-LYMPHOMA INVASION AND METASTASIS INDUCING
+> graphtype > albelig
+> resolution > 2.8
+> date > 27-AUG-00
+> header > SIGNALING PROTEIN, IMMUNE SYSTEM/SIGNALI
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF RAC1 IN COMPLEX WITH THE GUANINENUCLEOTIDE EXCHANGE REGION OF TIAM1
+> format_version > 2
+> pdbid > 1foe
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1foe | A | albelig | 1 | 1 | H | 4 | 34 | A-1037-  | A-1067-  | DADKLRKVICELLETERTYVKDLNCLXERYL 
+| 1foe | A | albelig | 2 | 2 | H | 35 | 38 | A-1068-  | A-1071-  | KPLQ 
+| 1foe | A | albelig | 3 | 3 | H | 45 | 52 | A-1078-  | A-1085-  | QDELDVLF 
+| 1foe | A | albelig | 4 | 4 | H | 55 | 73 | A-1088-  | A-1106-  | LTEXVEFQVEFLKTLEDGV 
+| 1foe | A | albelig | 5 | 5 | H | 79 | 81 | A-1112-  | A-1114-  | LEK 
+| 1foe | A | albelig | 6 | 6 | H | 85 | 102 | A-1118-  | A-1135-  | VDQFKKVLFSLGGSFLYY 
+| 1foe | A | albelig | 7 | 7 | H | 105 | 115 | A-1138-  | A-1148-  | RFKLYSAFCAS 
+| 1foe | A | albelig | 8 | 8 | H | 119 | 123 | A-1152-  | A-1156-  | VPKVL 
+| 1foe | A | albelig | 9 | 9 | H | 130 | 139 | A-1163-  | A-1172-  | TAFKAFLDAQ 
+| 1foe | A | albelig | 10 | 10 | H | 145 | 147 | A-1178-  | A-1180-  | HSS 
+| 1foe | A | albelig | 11 | 11 | H | 149 | 152 | A-1182-  | A-1185-  | LESY 
+| 1foe | A | albelig | 12 | 12 | H | 155 | 160 | A-1188-  | A-1193-  | KPIQRV 
+| 1foe | A | albelig | 13 | 13 | H | 163 | 172 | A-1196-  | A-1205-  | YPLLLRELFA 
+| 1foe | A | albelig | 14 | 14 | H | 179 | 216 | A-1212-  | A-1249-  | EEHYHLDVAIKTXNKVASHINEXQKIHEEFGAVFDQLI 
+| 1foe | A | albelig | 15 | 15 | H | 231 | 233 | A-1264-  | A-1266-  | XGD 
+| 1foe | A | albelig | 16 | 16 | E | 234 | 242 | A-1267-  | A-1275-  | LLLHTSVIW 
+| 1foe | A | albelig | 17 | 17 | H | 247 | 250 | A-1280-  | A-1283-  | ASLG 
+| 1foe | A | albelig | 18 | 18 | E | 257 | 263 | A-1290-  | A-1296-  | ELAAFVF 
+| 1foe | A | albelig | 19 | 19 | E | 266 | 271 | A-1299-  | A-1304-  | AVVLVY 
+| 1foe | A | albelig | 20 | 20 | E | 299 | 303 | A-1332-  | A-1336-  | RHXIP 
+| 1foe | A | albelig | 21 | 21 | H | 304 | 306 | A-1337-  | A-1339-  | TEA 
+| 1foe | A | albelig | 22 | 22 | E | 307 | 310 | A-1340-  | A-1343-  | LQVR 
+| 1foe | A | albelig | 23 | 23 | E | 322 | 327 | A-1355-  | A-1360-  | VCEIVH 
+| 1foe | A | albelig | 24 | 24 | H | 332 | 334 | A-1365-  | A-1367-  | SEG 
+| 1foe | A | albelig | 25 | 25 | E | 338 | 344 | A-1371-  | A-1377-  | RVFHLCC 
+| 1foe | A | albelig | 26 | 26 | H | 347 | 367 | A-1380-  | A-1400-  | PESRKDFLKSVHSILRDKHRR 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 1 = m = 6
+= 1 = m = 11
+= 1 = m = 12
+= 1 = a = 13
+= 4 = a = 6
+= 4 = m = 7
+= 6 = p = 14
+= 7 = m = 12
+= 7 = p = 14
+= 13 = a = 14
+= 14 = m = 18
+= 15 = m = 16
+= 15 = m = 18
+= 16 = a = 18
+= 16 = a = 25
+= 16 = m = 26
+= 18 = a = 19
+= 19 = a = 20
+= 20 = m = 21
+= 21 = m = 22
+= 21 = m = 23
+= 21 = m = 26
+= 22 = a = 23
+= 22 = m = 26
+= 23 = a = 25
+= 25 = m = 26
+# Listed 28 contacts. EOF.

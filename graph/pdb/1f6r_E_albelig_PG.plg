@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f6r, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM BINDING PROTEIN, METAL BINDING PROTEIN
+> pdb_mol_name > ALPHA-LACTALBUMIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 23-JUN-00
+> header > METAL BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF APO-BOVINE ALPHA-LACTALBUMIN
+> format_version > 2
+> pdbid > 1f6r
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f6r | E | albelig | 1 | 1 | H | 495 | 501 | E-5-  | E-11-  | KQEVFRE 
+| 1f6r | E | albelig | 2 | 2 | H | 503 | 505 | E-13-  | E-15-  | KDL 
+| 1f6r | E | albelig | 3 | 3 | H | 508 | 510 | E-18-  | E-20-  | YGG 
+| 1f6r | E | albelig | 4 | 4 | H | 513 | 524 | E-23-  | E-34-  | LPEWVRTTFHTS 
+| 1f6r | E | albelig | 5 | 5 | E | 531 | 533 | E-41-  | E-43-  | IVQ 
+| 1f6r | E | albelig | 6 | 6 | E | 538 | 540 | E-48-  | E-50-  | TEY 
+| 1f6r | E | albelig | 7 | 7 | H | 567 | 570 | E-77-  | E-80-  | SDKF 
+| 1f6r | E | albelig | 8 | 8 | H | 576 | 588 | E-86-  | E-98-  | TDDIMTVKKILDK 
+| 1f6r | E | albelig | 9 | 9 | H | 591 | 593 | E-101-  | E-103-  | INY 
+| 1f6r | E | albelig | 10 | 10 | H | 595 | 600 | E-105-  | E-110-  | LAHKAL 
+| 1f6r | E | albelig | 11 | 11 | H | 606 | 608 | E-116-  | E-118-  | DQW 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 8
+= 5 = a = 6
+= 7 = m = 8
+# Listed 3 contacts. EOF.

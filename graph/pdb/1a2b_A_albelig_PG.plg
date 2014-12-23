@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a2b, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SMALL G-PROTEIN, SIGNAL TRANSDUCTION, GTPASE, RASSUPERFAMILY, ONCOGENE PROTEIN
+> pdb_mol_name > TRANSFORMING PROTEIN RHOA
+> graphtype > albelig
+> resolution > 2.4
+> date > 26-DEC-97
+> header > ONCOGENE PROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN RHOA COMPLEXED WITH GTP ANALOGUE
+> format_version > 2
+> pdbid > 1a2b
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a2b | A | albelig | 1 | 1 | E | 2 | 9 | A-5-  | A-12-  | RKKLVIVG 
+| 1a2b | A | albelig | 2 | 2 | H | 15 | 24 | A-18-  | A-27-  | KTCLLIVFSK 
+| 1a2b | A | albelig | 3 | 3 | E | 36 | 45 | A-39-  | A-48-  | FENYVADIEV 
+| 1a2b | A | albelig | 4 | 4 | E | 48 | 57 | A-51-  | A-60-  | KQVELALWDT 
+| 1a2b | A | albelig | 5 | 5 | H | 61 | 63 | A-64-  | A-66-  | EDY 
+| 1a2b | A | albelig | 6 | 6 | H | 67 | 69 | A-70-  | A-72-  | RPL 
+| 1a2b | A | albelig | 7 | 7 | E | 76 | 82 | A-79-  | A-85-  | VILMCFS 
+| 1a2b | A | albelig | 8 | 8 | H | 87 | 96 | A-90-  | A-99-  | DSLENIPEKW 
+| 1a2b | A | albelig | 9 | 9 | H | 97 | 103 | A-100-  | A-106-  | TPEVKHF 
+| 1a2b | A | albelig | 10 | 10 | E | 109 | 114 | A-112-  | A-117-  | IILVGN 
+| 1a2b | A | albelig | 11 | 11 | H | 116 | 119 | A-119-  | A-122-  | KDLR 
+| 1a2b | A | albelig | 12 | 12 | H | 122 | 130 | A-125-  | A-133-  | EHTRRELAK 
+| 1a2b | A | albelig | 13 | 13 | H | 138 | 147 | A-141-  | A-150-  | PEEGRDMANR 
+| 1a2b | A | albelig | 14 | 14 | E | 152 | 155 | A-155-  | A-158-  | GYME 
+| 1a2b | A | albelig | 15 | 15 | H | 164 | 176 | A-167-  | A-179-  | VREVFEMATRAAL 
+| 1a2b | A | albelig | 16 | 16 | L | 179 | 179 | A-550-  | A-550-  | J 
+| 1a2b | A | albelig | 17 | 17 | L | 180 | 180 | A-538-  | A-538-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 1 = l = 17
+= 2 = m = 3
+= 2 = m = 15
+= 2 = l = 16
+= 2 = l = 17
+= 3 = a = 4
+= 3 = m = 15
+= 4 = l = 16
+= 4 = l = 17
+= 7 = p = 10
+= 8 = m = 9
+= 10 = p = 14
+= 11 = l = 17
+= 13 = m = 14
+= 16 = l = 17
+# Listed 17 contacts. EOF.

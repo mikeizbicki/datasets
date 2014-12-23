@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqq, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, PROTEIN-DNA COMPLEX, REPLICATION/RNA COMPLEX
+> pdb_mol_name > 5'-R(*(5MU)P*(5MU)P*(5MU))-3'
+> graphtype > albelig
+> resolution > 3.2
+> date > 06-APR-00
+> header > REPLICATION/RNA
+> pdb_org_common > UNKNOWN
+> title > SINGLE STRANDED DNA BINDING PROTEIN AND SSDNA COMPLEX
+> format_version > 2
+> pdbid > 1eqq
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqq | M | albelig | 1 | 1 | L | 468 | 468 | M-801-  | M-801-  | J 
+| 1eqq | M | albelig | 2 | 2 | L | 469 | 469 | M-802-  | M-802-  | J 
+| 1eqq | M | albelig | 3 | 3 | L | 470 | 470 | M-803-  | M-803-  | J 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 1 = l = 3
+= 2 = l = 3
+# Listed 3 contacts. EOF.

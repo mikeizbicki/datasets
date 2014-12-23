@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hyl, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (SERINE PROTEASE)
+> pdb_mol_name > HYPODERMA LINEATUM COLLAGENASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 02-MAY-95
+> header > HYDROLASE (SERINE PROTEASE)
+> pdb_org_common > EARLY CATTLE GRUB
+> title > THE 1.8 A STRUCTURE OF COLLAGENASE FROM HYPODERMA LINEATUM
+> format_version > 2
+> pdbid > 1hyl
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HYPODERMA LINEATUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hyl | B | albelig | 1 | 1 | E | 246 | 253 | B-30-  | B-37-  | QAGLDITL 
+| 1hyl | B | albelig | 2 | 2 | E | 258 | 267 | B-39-  | B-48-  | RVWDGGSLID 
+| 1hyl | B | albelig | 3 | 3 | E | 270 | 273 | B-51-  | B-54-  | WILT 
+| 1hyl | B | albelig | 4 | 4 | H | 275 | 278 | B-56-  | B-59-  | AHDV 
+| 1hyl | B | albelig | 5 | 5 | E | 281 | 288 | B-61-  | B-68-  | AVSVVVYL 
+| 1hyl | B | albelig | 6 | 6 | E | 298 | 301 | B-81-  | B-84-  | AVVN 
+| 1hyl | B | albelig | 7 | 7 | E | 304 | 307 | B-87-  | B-90-  | RIIS 
+| 1hyl | B | albelig | 8 | 8 | E | 321 | 324 | B-104-  | B-107-  | ALIK 
+| 1hyl | B | albelig | 9 | 9 | H | 342 | 346 | B-125-A | B-128-  | GEELN 
+| 1hyl | B | albelig | 10 | 10 | E | 353 | 358 | B-135-  | B-140-  | WATVSG 
+| 1hyl | B | albelig | 11 | 11 | E | 370 | 377 | B-156-  | B-163-  | QYTYNLVI 
+| 1hyl | B | albelig | 12 | 12 | H | 379 | 384 | B-165-  | B-170-  | NDREAQ 
+| 1hyl | B | albelig | 13 | 13 | E | 395 | 399 | B-180-  | B-184-  | TIEGD 
+| 1hyl | B | albelig | 14 | 14 | E | 414 | 417 | B-198-  | B-201-  | PFVL 
+| 1hyl | B | albelig | 15 | 15 | E | 422 | 429 | B-208-  | B-215-  | LLIGVVSF 
+| 1hyl | B | albelig | 16 | 16 | E | 441 | 445 | B-226-  | B-230-  | VGFSR 
+| 1hyl | B | albelig | 17 | 17 | H | 446 | 448 | B-231-  | B-233-  | VTS 
+| 1hyl | B | albelig | 18 | 18 | H | 450 | 457 | B-235-  | B-242-  | MDWIQQNT 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 8
+= 5 = a = 6
+= 7 = a = 8
+= 10 = a = 11
+= 10 = a = 14
+= 11 = a = 13
+= 13 = a = 16
+= 14 = a = 15
+= 15 = a = 16
+= 15 = m = 17
+= 16 = m = 17
+# Listed 14 contacts. EOF.

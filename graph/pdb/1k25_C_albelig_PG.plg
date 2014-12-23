@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k25, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC RESISTANCE, CLINICAL MUTANT, LOW-AFFINITYPENICILLIN-BINDING, MEMBRANE PROTEIN
+> pdb_mol_name > LOW-AFFINITY PENICILLIN-BINDING PROTEIN 2X
+> graphtype > albelig
+> resolution > 3.2
+> date > 26-SEP-01
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > PBP2X FROM A HIGHLY PENICILLIN-RESISTANT STREPTOCOCCUSPNEUMONIAE CLINICAL ISOLATE
+> format_version > 2
+> pdbid > 1k25
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PNEUMONIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k25 | C | albelig | 1 | 1 | H | 1190 | 1193 | C-2195-  | C-2198-  | SSFI 
+| 1k25 | C | albelig | 2 | 2 | E | 1195 | 1200 | C-2200-  | C-2205-  | LAQLHE 
+| 1k25 | C | albelig | 3 | 3 | E | 1206 | 1212 | C-2211-  | C-2217-  | KSLLGTS 
+| 1k25 | C | albelig | 4 | 4 | H | 1213 | 1217 | C-2218-  | C-2222-  | GMESS 
+| 1k25 | C | albelig | 5 | 5 | H | 1219 | 1223 | C-2224-  | C-2228-  | NSILA 
+| 1k25 | C | albelig | 6 | 6 | E | 1251 | 1254 | C-2260-  | C-2263-  | DVYT 
+| 1k25 | C | albelig | 7 | 7 | H | 1258 | 1275 | C-2267-  | C-2284-  | SPLQSFMETQMDAFLEKV 
+| 1k25 | C | albelig | 8 | 8 | E | 1279 | 1286 | C-2288-  | C-2295-  | YMTATLVS 
+| 1k25 | C | albelig | 9 | 9 | E | 1296 | 1298 | C-2305-  | C-2307-  | TQR 
+| 1k25 | C | albelig | 10 | 10 | H | 1327 | 1340 | C-2336-  | C-2349-  | GSAMKVMTLASSID 
+| 1k25 | C | albelig | 11 | 11 | H | 1356 | 1363 | C-2400-  | C-2407-  | MSLLEQKM 
+| 1k25 | C | albelig | 12 | 12 | H | 1365 | 1374 | C-2409-  | C-2418-  | DATWLDYLKR 
+| 1k25 | C | albelig | 13 | 13 | H | 1398 | 1403 | C-2442-  | C-2447-  | IVSIAQ 
+| 1k25 | C | albelig | 14 | 14 | H | 1414 | 1424 | C-2458-  | C-2468-  | QTQMLRAFTAI 
+| 1k25 | C | albelig | 15 | 15 | E | 1436 | 1440 | C-2480-  | C-2484-  | ISAIY 
+| 1k25 | C | albelig | 16 | 16 | E | 1454 | 1456 | C-2498-  | C-2500-  | IVG 
+| 1k25 | C | albelig | 17 | 17 | H | 1461 | 1476 | C-2505-  | C-2520-  | KEAASTTRNHMILVGT 
+| 1k25 | C | albelig | 18 | 18 | E | 1490 | 1496 | C-2545-  | C-2551-  | AVKSGTA 
+| 1k25 | C | albelig | 19 | 19 | E | 1514 | 1521 | C-2569-  | C-2576-  | IFSAVTMN 
+| 1k25 | C | albelig | 20 | 20 | E | 1528 | 1535 | C-2583-  | C-2590-  | FILYVTVQ 
+| 1k25 | C | albelig | 21 | 21 | H | 1542 | 1557 | C-2597-  | C-2612-  | GIQLGEFATPILERAS 
+| 1k25 | C | albelig | 22 | 22 | H | 1591 | 1599 | C-2646-  | C-2654-  | PGELAEALR 
+| 1k25 | C | albelig | 23 | 23 | E | 1604 | 1606 | C-2659-  | C-2661-  | QPI 
+| 1k25 | C | albelig | 24 | 24 | E | 1630 | 1632 | C-2685-  | C-2687-  | QVL 
+| 1k25 | C | albelig | 25 | 25 | H | 1649 | 1658 | C-2704-  | C-2713-  | KETAETFAKW 
+| 1k25 | C | albelig | 26 | 26 | E | 1671 | 1675 | C-2726-  | C-2730-  | VVQKQ 
+| 1k25 | C | albelig | 27 | 27 | E | 1691 | 1694 | C-2746-  | C-2749-  | LTLG 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = m = 4
+= 6 = a = 15
+= 7 = a = 8
+= 7 = m = 9
+= 7 = a = 21
+= 8 = a = 9
+= 8 = a = 20
+= 10 = p = 11
+= 10 = m = 12
+= 10 = p = 14
+= 10 = a = 17
+= 10 = m = 18
+= 14 = a = 20
+= 17 = m = 18
+= 18 = a = 19
+= 19 = a = 20
+= 23 = p = 24
+= 24 = m = 25
+= 26 = a = 27
+# Listed 20 contacts. EOF.

@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jwh, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CASEIN KINASE 2, CK2 HOLOENZYME, PROTEIN KINASE CK2,TRANSFERASE
+> pdb_mol_name > CASEIN KINASE II BETA CHAIN
+> graphtype > albelig
+> resolution > 3.1
+> date > 04-SEP-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN PROTEIN KINASE CK2 HOLOENZYME
+> format_version > 2
+> pdbid > 1jwh
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jwh | D | albelig | 1 | 1 | H | 883 | 886 | D-10-  | D-13-  | ISWF 
+| 1jwh | D | albelig | 2 | 2 | H | 901 | 904 | D-28-  | D-31-  | DYIQ 
+| 1jwh | D | albelig | 3 | 3 | H | 912 | 914 | D-39-  | D-41-  | LNE 
+| 1jwh | D | albelig | 4 | 4 | H | 919 | 927 | D-46-  | D-54-  | YRQALDMIL 
+| 1jwh | D | albelig | 5 | 5 | H | 941 | 962 | D-68-  | D-89-  | QSDLIEQAAEMLYGLIHARYIL 
+| 1jwh | D | albelig | 6 | 6 | H | 964 | 974 | D-91-  | D-101-  | NRGIAQMLEKY 
+| 1jwh | D | albelig | 7 | 7 | H | 1023 | 1025 | D-150-  | D-152-  | RHH 
+| 1jwh | D | albelig | 8 | 8 | H | 1029 | 1032 | D-156-  | D-159-  | GAYF 
+| 1jwh | D | albelig | 9 | 9 | H | 1036 | 1043 | D-163-  | D-170-  | FPHMLFMV 
+| 1jwh | D | albelig | 10 | 10 | H | 1045 | 1047 | D-172-  | D-174-  | PEY 
+| 1jwh | D | albelig | 11 | 11 | H | 1069 | 1072 | D-196-  | D-199-  | AYQL 
+| 1jwh | D | albelig | 12 | 12 | L | 1085 | 1085 | D-354-  | D-354-  | J 
+| 1jwh | D | albelig | 13 | 13 | L | 1086 | 1086 | D-355-  | D-355-  | J 
+| 1jwh | D | albelig | 14 | 14 | L | 1087 | 1087 | D-356-  | D-356-  | J 
+| 1jwh | D | albelig | 15 | 15 | L | 1088 | 1088 | D-358-  | D-358-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 5
+= 5 = m = 6
+= 5 = m = 8
+= 6 = l = 14
+= 7 = l = 12
+= 7 = l = 13
+= 9 = m = 10
+= 12 = l = 13
+# Listed 8 contacts. EOF.

@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i7q, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTHRANILATE SYNTHASE, GLUTAMYL THIOESTER, ANTHRANILATE BIOSYNTHESIS,CHORISMATE BINDING, LYASE
+> pdb_mol_name > TRPG
+> graphtype > albelig
+> resolution > 1.95
+> date > 10-MAR-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > ANTHRANILATE SYNTHASE FROM S. MARCESCENS
+> format_version > 2
+> pdbid > 1i7q
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SERRATIA MARCESCENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i7q | D | albelig | 1 | 1 | E | 1231 | 1236 | D-3-  | D-8-  | DILLLD 
+| 1i7q | D | albelig | 2 | 2 | H | 1242 | 1251 | D-14-  | D-23-  | TYNLVDQLRA 
+| 1i7q | D | albelig | 3 | 3 | E | 1255 | 1260 | D-27-  | D-32-  | QVVIYR 
+| 1i7q | D | albelig | 4 | 4 | H | 1265 | 1274 | D-37-  | D-46-  | AEVIIERLQH 
+| 1i7q | D | albelig | 5 | 5 | E | 1278 | 1282 | D-51-  | D-55-  | PVLML 
+| 1i7q | D | albelig | 6 | 6 | H | 1289 | 1291 | D-62-  | D-64-  | PSE 
+| 1i7q | D | albelig | 7 | 7 | H | 1295 | 1302 | D-68-  | D-75-  | MPELLQRL 
+| 1i7q | D | albelig | 8 | 8 | E | 1308 | 1311 | D-81-  | D-84-  | IIGI 
+| 1i7q | D | albelig | 9 | 9 | H | 1313 | 1321 | D-86-  | D-94-  | LGHQAIVEA 
+| 1i7q | D | albelig | 10 | 10 | E | 1325 | 1342 | D-98-  | D-115-  | QVGQAGEILHGKASAIAH 
+| 1i7q | D | albelig | 11 | 11 | H | 1346 | 1348 | D-119-  | D-121-  | GMF 
+| 1i7q | D | albelig | 12 | 12 | E | 1355 | 1366 | D-128-  | D-139-  | LPVARYHSLVGS 
+| 1i7q | D | albelig | 13 | 13 | E | 1373 | 1378 | D-147-  | D-152-  | TVNARF 
+| 1i7q | D | albelig | 14 | 14 | E | 1381 | 1387 | D-155-  | D-161-  | MVMAVRD 
+| 1i7q | D | albelig | 15 | 15 | E | 1392 | 1395 | D-166-  | D-169-  | VCGF 
+| 1i7q | D | albelig | 16 | 16 | H | 1407 | 1419 | D-181-  | D-193-  | GARLLEQTLAWAL 
+| 1i7q | D | albelig | 17 | 17 | L | 1429 | 1429 | D-1402-  | D-1402-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = p = 5
+= 3 = m = 4
+= 5 = p = 8
+= 6 = m = 9
+= 7 = p = 9
+= 8 = m = 9
+= 8 = p = 15
+= 8 = l = 17
+= 9 = m = 15
+= 9 = l = 17
+= 10 = a = 12
+= 10 = a = 13
+= 10 = p = 14
+= 10 = l = 17
+= 11 = m = 16
+= 12 = l = 17
+= 13 = a = 14
+= 14 = a = 15
+# Listed 20 contacts. EOF.

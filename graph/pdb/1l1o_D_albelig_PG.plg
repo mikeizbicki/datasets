@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l1o, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EUKARYOTIC SSB, SSDNA BINDING PROTEIN, OB-FOLD
+> pdb_mol_name > REPLICATION PROTEIN A 14 KDA SUBUNIT
+> graphtype > albelig
+> resolution > 2.8
+> date > 19-FEB-02
+> header > DNA BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE HUMAN REPLICATION PROTEIN A (RPA)TRIMERIZATION CORE
+> format_version > 2
+> pdbid > 1l1o
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l1o | D | albelig | 1 | 1 | H | 418 | 420 | D-4-  | D-6-  | MMD 
+| 1l1o | D | albelig | 2 | 2 | E | 424 | 426 | D-10-  | D-12-  | SRI 
+| 1l1o | D | albelig | 3 | 3 | H | 428 | 434 | D-14-  | D-20-  | AGMLAQF 
+| 1l1o | D | albelig | 4 | 4 | E | 438 | 445 | D-24-  | D-31-  | PVCFVGRL 
+| 1l1o | D | albelig | 5 | 5 | E | 454 | 458 | D-40-  | D-44-  | MFILS 
+| 1l1o | D | albelig | 6 | 6 | E | 464 | 468 | D-50-  | D-54-  | NGTIE 
+| 1l1o | D | albelig | 7 | 7 | E | 480 | 487 | D-66-  | D-73-  | IVEVVGRV 
+| 1l1o | D | albelig | 8 | 8 | E | 493 | 500 | D-79-  | D-86-  | ILCTSYVQ 
+| 1l1o | D | albelig | 9 | 9 | H | 510 | 522 | D-96-  | D-108-  | LGLYNEAVKIIHD 
+| 1l1o | D | albelig | 10 | 10 | H | 524 | 526 | D-110-  | D-112-  | PQF 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = p = 4
+= 2 = m = 9
+= 4 = a = 5
+= 4 = a = 7
+= 5 = a = 6
+= 6 = p = 8
+= 7 = a = 8
+# Listed 8 contacts. EOF.

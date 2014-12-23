@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gfl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FLUOROPHORE GREEN FLUORESCENT PROTEIN, LUMINESCENCE
+> pdb_mol_name > GREEN FLUORESCENT PROTEIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 23-AUG-96
+> header > FLUORESCENT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF GREEN FLUORESCENT PROTEIN
+> format_version > 2
+> pdbid > 1gfl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AEQUOREA VICTORIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gfl | A | albelig | 1 | 1 | H | 5 | 8 | A-5-  | A-8-  | EELF 
+| 1gfl | A | albelig | 2 | 2 | E | 12 | 22 | A-12-  | A-22-  | VPILVELDGDV 
+| 1gfl | A | albelig | 3 | 3 | E | 25 | 36 | A-25-  | A-36-  | HKFSVSGEGEGD 
+| 1gfl | A | albelig | 4 | 4 | E | 41 | 48 | A-41-  | A-48-  | KLTLKFIC 
+| 1gfl | A | albelig | 5 | 5 | H | 57 | 60 | A-57-  | A-60-  | WPTL 
+| 1gfl | A | albelig | 6 | 6 | H | 69 | 71 | A-69-  | A-71-  | QCF 
+| 1gfl | A | albelig | 7 | 7 | H | 76 | 81 | A-76-  | A-81-  | DHMKRH 
+| 1gfl | A | albelig | 8 | 8 | H | 83 | 86 | A-83-  | A-86-  | FFKS 
+| 1gfl | A | albelig | 9 | 9 | E | 92 | 100 | A-92-  | A-100-  | YVQERTIFF 
+| 1gfl | A | albelig | 10 | 10 | E | 105 | 115 | A-105-  | A-115-  | NYKTRAEVKFE 
+| 1gfl | A | albelig | 11 | 11 | E | 118 | 128 | A-118-  | A-128-  | TLVNRIELKGI 
+| 1gfl | A | albelig | 12 | 12 | E | 148 | 155 | A-148-  | A-155-  | HNVYIMAD 
+| 1gfl | A | albelig | 13 | 13 | H | 156 | 158 | A-156-  | A-158-  | KQK 
+| 1gfl | A | albelig | 14 | 14 | E | 160 | 170 | A-160-  | A-170-  | GIKVNFKIRHN 
+| 1gfl | A | albelig | 15 | 15 | E | 176 | 187 | A-176-  | A-187-  | VQLADHYQQNTP 
+| 1gfl | A | albelig | 16 | 16 | E | 199 | 208 | A-199-  | A-208-  | HYLSTQSALS 
+| 1gfl | A | albelig | 17 | 17 | E | 217 | 227 | A-217-  | A-227-  | HMVLLEFVTAA 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 11
+= 3 = a = 4
+= 4 = a = 17
+= 9 = a = 10
+= 9 = a = 15
+= 10 = a = 11
+= 12 = m = 13
+= 12 = a = 14
+= 12 = a = 16
+= 14 = a = 15
+= 16 = a = 17
+# Listed 12 contacts. EOF.

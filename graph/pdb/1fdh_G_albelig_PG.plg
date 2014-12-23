@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fdh, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN F (DEOXY) (GAMMA CHAIN)
+> graphtype > albelig
+> resolution > 2.5
+> date > 18-AUG-76
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF HUMAN FOETAL DEOXYHAEMOGLOBIN
+> format_version > 2
+> pdbid > 1fdh
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fdh | G | albelig | 1 | 1 | H | 147 | 159 | G-5-  | G-17-  | EEDKATITSLWGK 
+| 1fdh | G | albelig | 2 | 2 | H | 162 | 176 | G-20-  | G-34-  | VEDAGGETLGRLLVV 
+| 1fdh | G | albelig | 3 | 3 | H | 181 | 183 | G-39-  | G-41-  | QRF 
+| 1fdh | G | albelig | 4 | 4 | H | 193 | 197 | G-51-  | G-55-  | ASAIM 
+| 1fdh | G | albelig | 5 | 5 | H | 200 | 217 | G-58-  | G-75-  | PKVKAHGKKVLTSLGDAI 
+| 1fdh | G | albelig | 6 | 6 | H | 223 | 238 | G-81-  | G-96-  | LKGTFAQLSELHCDKL 
+| 1fdh | G | albelig | 7 | 7 | H | 243 | 263 | G-101-  | G-121-  | ENFKLLGNVLVTVLAIHFGKE 
+| 1fdh | G | albelig | 8 | 8 | H | 266 | 284 | G-124-  | G-142-  | PEVQASWQKMVTGVASALS 
+| 1fdh | G | albelig | 9 | 9 | L | 578 | 578 | G-0-  | G-0-  | J 
+| 1fdh | G | albelig | 10 | 10 | L | 581 | 581 | G-147-  | G-147-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 2 = m = 4
+= 2 = a = 5
+= 2 = m = 7
+= 2 = l = 10
+= 3 = l = 10
+= 5 = l = 10
+= 6 = p = 8
+= 6 = l = 10
+= 7 = a = 8
+= 7 = l = 10
+= 8 = l = 10
+# Listed 12 contacts. EOF.

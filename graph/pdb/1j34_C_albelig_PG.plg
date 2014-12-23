@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j34, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MAGNESIUM ION, CALCIUM ION, GLA DOMAIN, PROTEINBINDING/BLOOD CLOTTING COMPLEX
+> pdb_mol_name > COAGULATION FACTOR IX
+> graphtype > albelig
+> resolution > 1.55
+> date > 20-JAN-03
+> header > PROTEIN BINDING/BLOOD CLOTTING
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF MG(II)-AND CA(II)-BOUND GLA DOMAIN OFFACTOR IX COMPLEXED WITH BINDING PROTEIN
+> format_version > 2
+> pdbid > 1j34
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j34 | C | albelig | 1 | 1 | H | 261 | 263 | C-407-  | C-409-  | XXF 
+| 1j34 | C | albelig | 2 | 2 | H | 269 | 273 | C-415-  | C-419-  | XRXHK 
+| 1j34 | C | albelig | 3 | 3 | H | 279 | 286 | C-425-  | C-432-  | FXXARXVF 
+| 1j34 | C | albelig | 4 | 4 | H | 289 | 299 | C-435-  | C-445-  | TXKTTXFWKQY 
+| 1j34 | C | albelig | 5 | 5 | L | 315 | 315 | C-501-  | C-501-  | J 
+| 1j34 | C | albelig | 6 | 6 | L | 316 | 316 | C-502-  | C-502-  | J 
+| 1j34 | C | albelig | 7 | 7 | L | 317 | 317 | C-503-  | C-503-  | J 
+| 1j34 | C | albelig | 8 | 8 | L | 318 | 318 | C-504-  | C-504-  | J 
+| 1j34 | C | albelig | 9 | 9 | L | 319 | 319 | C-505-  | C-505-  | J 
+| 1j34 | C | albelig | 10 | 10 | L | 320 | 320 | C-506-  | C-506-  | J 
+| 1j34 | C | albelig | 11 | 11 | L | 321 | 321 | C-507-  | C-507-  | J 
+| 1j34 | C | albelig | 12 | 12 | L | 322 | 322 | C-508-  | C-508-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 6
+= 1 = l = 7
+= 1 = l = 8
+= 1 = l = 9
+= 2 = l = 7
+= 2 = l = 8
+= 2 = l = 9
+= 2 = l = 10
+= 2 = l = 11
+= 3 = m = 4
+= 3 = l = 5
+= 3 = l = 6
+= 3 = l = 7
+= 3 = l = 8
+= 3 = l = 9
+= 4 = l = 12
+= 5 = l = 6
+= 6 = l = 7
+= 6 = l = 8
+= 7 = l = 8
+= 8 = l = 9
+= 9 = l = 10
+# Listed 22 contacts. EOF.

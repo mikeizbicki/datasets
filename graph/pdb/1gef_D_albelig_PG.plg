@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gef, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOLLIDAY JUNCTION RESOLVASE, HJC, HYDROLASE
+> pdb_mol_name > HOLLIDAY JUNCTION RESOLVASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-NOV-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE ARCHAEAL HOLLIDAY JUNCTIONRESOLVASE HJC
+> format_version > 2
+> pdbid > 1gef
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS FURIOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gef | D | albelig | 1 | 1 | H | 241 | 256 | D-3-  | D-18-  | RKGAQAERELIKLLEK 
+| 1gef | D | albelig | 2 | 2 | E | 260 | 263 | D-22-  | D-25-  | AVVR 
+| 1gef | D | albelig | 3 | 3 | H | 265 | 267 | D-27-  | D-29-  | AGS 
+| 1gef | D | albelig | 4 | 4 | E | 272 | 275 | D-34-  | D-37-  | LVAG 
+| 1gef | D | albelig | 5 | 5 | E | 280 | 287 | D-42-  | D-49-  | YLCIEVKV 
+| 1gef | D | albelig | 6 | 6 | H | 297 | 310 | D-59-  | D-72-  | KRDMGRLIEFSRRF 
+| 1gef | D | albelig | 7 | 7 | E | 313 | 319 | D-75-  | D-81-  | IPVLAVK 
+| 1gef | D | albelig | 8 | 8 | E | 323 | 326 | D-88-  | D-91-  | RFIE 
+| 1gef | D | albelig | 9 | 9 | H | 342 | 346 | D-109-  | D-113-  | LEVLL 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+= 5 = p = 7
+= 7 = a = 8
+# Listed 5 contacts. EOF.

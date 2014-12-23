@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eta, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSPORT(THYROXINE)
+> pdb_mol_name > TRANSTHYRETIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 12-MAY-93
+> header > TRANSPORT(THYROXINE)
+> pdb_org_common > HUMAN
+> title > THE X-RAY CRYSTAL STRUCTURE REFINEMENTS OF NORMAL HUMANTRANSTHYRETIN AND THE AMYLOIDOGENIC VAL 30-->MET VARIANT TO1.7 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1eta
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eta | 2 | albelig | 1 | 1 | E | 140 | 146 | 2-12-  | 2-18-  | LMVKVLD 
+| 1eta | 2 | albelig | 2 | 2 | E | 157 | 163 | 2-29-  | 2-35-  | AMHVFRK 
+| 1eta | 2 | albelig | 3 | 3 | E | 169 | 176 | 2-41-  | 2-48-  | WEPFASGK 
+| 1eta | 2 | albelig | 4 | 4 | E | 195 | 201 | 2-67-  | 2-73-  | GIYKVEI 
+| 1eta | 2 | albelig | 5 | 5 | H | 203 | 209 | 2-75-  | 2-81-  | TKSYWKA 
+| 1eta | 2 | albelig | 6 | 6 | E | 216 | 225 | 2-88-  | 2-97-  | HEHAEVVFTA 
+| 1eta | 2 | albelig | 7 | 7 | E | 232 | 240 | 2-104-  | 2-112-  | RYTIAALLS 
+| 1eta | 2 | albelig | 8 | 8 | E | 243 | 251 | 2-115-  | 2-123-  | SYSTTAVVT 
+| 1eta | 2 | albelig | 9 | 9 | L | 257 | 257 | 2-129-  | 2-129-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 1 = l = 9
+= 2 = a = 3
+= 2 = a = 4
+= 4 = a = 6
+= 5 = m = 6
+= 7 = a = 8
+= 7 = l = 9
+= 8 = l = 9
+# Listed 9 contacts. EOF.

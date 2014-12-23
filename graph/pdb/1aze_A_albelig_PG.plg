@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aze, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ADAPTOR PROTEIN/PEPTIDE), SH3 DOMAIN, GUANINE-NUCLEOTIDE RELEASING FACTOR
+> pdb_mol_name > GRB2
+> graphtype > albelig
+> resolution > -1.0
+> date > 17-NOV-97
+> header > COMPLEX (ADAPTOR PROTEIN/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > NMR STRUCTURE OF THE COMPLEX BETWEEN THE C32S-Y7V MUTANT OFTHE NSH3 DOMAIN OF GRB2 WITH A PEPTIDE FROM SOS, 10STRUCTURES
+> format_version > 2
+> pdbid > 1aze
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aze | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | EAIA 
+| 1aze | A | albelig | 2 | 2 | E | 24 | 29 | A-24-  | A-29-  | ILKVLN 
+| 1aze | A | albelig | 3 | 3 | E | 36 | 40 | A-36-  | A-40-  | WYKAE 
+| 1aze | A | albelig | 4 | 4 | E | 45 | 49 | A-45-  | A-49-  | DGFIP 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 4
+# Listed 3 contacts. EOF.

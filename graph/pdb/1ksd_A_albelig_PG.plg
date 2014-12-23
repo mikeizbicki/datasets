@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ksd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELLULASE, ENDOGLUCANASE, TERMITE, NASUTITERMESTAKASAGOENSIS, GLYCOSYL HYDROLASE, FAMILY 9, (ALPHA/ALPHA)6
+> pdb_mol_name > ENDO-B-1,4-GLUCANASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 12-JAN-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF ENDOGLUCANASE FROM TERMITE, NASUTITERMESTAKASAGOENSIS, AT PH 6.5.
+> format_version > 2
+> pdbid > 1ksd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NASUTITERMES TAKASAGOENSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ksd | A | albelig | 1 | 1 | H | 5 | 18 | A-5-  | A-18-  | YKQVLRDSLLFYEA 
+| 1ksd | A | albelig | 2 | 2 | H | 62 | 78 | A-62-  | A-78-  | GFPMAYTATVLAWGLID 
+| 1ksd | A | albelig | 3 | 3 | H | 80 | 85 | A-80-  | A-85-  | EAGYSS 
+| 1ksd | A | albelig | 4 | 4 | H | 89 | 106 | A-89-  | A-106-  | LDDGRKAVKWATDYFIKA 
+| 1ksd | A | albelig | 5 | 5 | E | 113 | 117 | A-113-  | A-117-  | FYGQV 
+| 1ksd | A | albelig | 6 | 6 | H | 120 | 124 | A-120-  | A-124-  | GDADH 
+| 1ksd | A | albelig | 7 | 7 | H | 130 | 132 | A-130-  | A-132-  | PED 
+| 1ksd | A | albelig | 8 | 8 | E | 139 | 142 | A-139-  | A-142-  | AYKI 
+| 1ksd | A | albelig | 9 | 9 | H | 149 | 165 | A-149-  | A-165-  | SDLAGETAAALAAASIV 
+| 1ksd | A | albelig | 10 | 10 | H | 171 | 190 | A-171-  | A-190-  | GTYSNNLLTHARQLFDFANN 
+| 1ksd | A | albelig | 11 | 11 | H | 195 | 197 | A-195-  | A-197-  | YSD 
+| 1ksd | A | albelig | 12 | 12 | H | 200 | 204 | A-200-  | A-204-  | TDARN 
+| 1ksd | A | albelig | 13 | 13 | H | 212 | 226 | A-212-  | A-226-  | RDELVWAAAWLYRAT 
+| 1ksd | A | albelig | 14 | 14 | H | 229 | 242 | A-229-  | A-242-  | NTYLNTAESLYDEF 
+| 1ksd | A | albelig | 15 | 15 | H | 244 | 246 | A-244-  | A-246-  | LQN 
+| 1ksd | A | albelig | 16 | 16 | H | 257 | 268 | A-257-  | A-268-  | VSGVQVLLAKLT 
+| 1ksd | A | albelig | 17 | 17 | H | 271 | 286 | A-271-  | A-286-  | QAYKDTVQSYVNYLIN 
+| 1ksd | A | albelig | 18 | 18 | H | 303 | 319 | A-303-  | A-319-  | TLRHAANAAFIMLEAAE 
+| 1ksd | A | albelig | 19 | 19 | H | 324 | 341 | A-324-  | A-341-  | ASSYRQFAQTQIDYALGD 
+| 1ksd | A | albelig | 20 | 20 | H | 361 | 364 | A-361-  | A-364-  | RSSS 
+| 1ksd | A | albelig | 21 | 21 | H | 374 | 377 | A-374-  | A-377-  | WNTF 
+| 1ksd | A | albelig | 22 | 22 | H | 415 | 430 | A-415-  | A-430-  | TDYNAGFQSALAALVA 
+| 1ksd | A | albelig | 23 | 23 | L | 434 | 434 | A-500-  | A-500-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 19
+= 1 = a = 22
+= 2 = a = 4
+= 2 = p = 9
+= 2 = p = 13
+= 2 = p = 18
+= 2 = p = 22
+= 2 = l = 23
+= 4 = m = 5
+= 4 = a = 9
+= 4 = m = 10
+= 5 = a = 8
+= 9 = a = 10
+= 9 = p = 13
+= 10 = a = 13
+= 13 = a = 14
+= 13 = p = 16
+= 13 = l = 23
+= 14 = m = 15
+= 14 = a = 16
+= 16 = a = 17
+= 16 = m = 18
+= 17 = a = 18
+= 17 = m = 19
+= 18 = a = 19
+= 18 = p = 22
+# Listed 26 contacts. EOF.

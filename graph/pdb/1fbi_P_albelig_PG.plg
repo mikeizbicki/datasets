@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fbi, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_mol_name > IGG1 F9.13.7 FAB (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 19-JAN-95
+> header > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF A CROSS-REACTION COMPLEX BETWEEN FABF9.13.7 AND GUINEA-FOWL LYSOZYME
+> format_version > 2
+> pdbid > 1fbi
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fbi | P | albelig | 1 | 1 | E | 577 | 580 | P-10-  | P-13-  | SLSA 
+| 1fbi | P | albelig | 2 | 2 | E | 585 | 591 | P-18-  | P-24-  | RVTISIR 
+| 1fbi | P | albelig | 3 | 3 | E | 600 | 605 | P-33-  | P-38-  | LNWYQK 
+| 1fbi | P | albelig | 4 | 4 | E | 611 | 616 | P-44-  | P-49-  | VKLLIY 
+| 1fbi | P | albelig | 5 | 5 | E | 630 | 634 | P-63-  | P-67-  | SGSGS 
+| 1fbi | P | albelig | 6 | 6 | E | 637 | 643 | P-70-  | P-76-  | DYSLTIR 
+| 1fbi | P | albelig | 7 | 7 | H | 647 | 649 | P-80-  | P-82-  | QED 
+| 1fbi | P | albelig | 8 | 8 | E | 652 | 657 | P-85-  | P-90-  | TYFIQQ 
+| 1fbi | P | albelig | 9 | 9 | E | 669 | 673 | P-102-  | P-106-  | TKLEI 
+| 1fbi | P | albelig | 10 | 10 | H | 689 | 694 | P-122-  | P-127-  | SEQLTS 
+| 1fbi | P | albelig | 11 | 11 | E | 696 | 706 | P-129-  | P-139-  | GASVVJFLNNF 
+| 1fbi | P | albelig | 12 | 12 | E | 711 | 716 | P-144-  | P-149-  | INVKWK 
+| 1fbi | P | albelig | 13 | 13 | E | 726 | 730 | P-159-  | P-163-  | VLNSW 
+| 1fbi | P | albelig | 14 | 14 | E | 740 | 749 | P-173-  | P-182-  | YSMSSTLTLT 
+| 1fbi | P | albelig | 15 | 15 | E | 759 | 765 | P-192-  | P-198-  | YTJEATH 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 2 = a = 3
+= 2 = a = 6
+= 2 = p = 8
+= 3 = a = 4
+= 3 = p = 6
+= 3 = a = 8
+= 5 = a = 6
+= 8 = a = 9
+= 10 = m = 11
+= 11 = a = 12
+= 11 = a = 14
+= 11 = p = 15
+= 12 = a = 15
+= 13 = a = 14
+# Listed 15 contacts. EOF.

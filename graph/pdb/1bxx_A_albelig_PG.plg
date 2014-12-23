@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bxx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDOCYTOSIS, ADAPTOR, PEPTIDE COMPLEX,ENDOCYTOSIS/EXOCYTOSIS COMPLEX
+> pdb_mol_name > PROTEIN (AP50)
+> graphtype > albelig
+> resolution > 2.7
+> date > 08-OCT-98
+> header > ENDOCYTOSIS/EXOCYTOSIS
+> pdb_org_common > NORWAY RAT
+> title > MU2 ADAPTIN SUBUNIT (AP50) OF AP2 ADAPTOR (SECOND DOMAIN),COMPLEXED WITH TGN38 INTERNALIZATION PEPTIDE DYQRLN
+> format_version > 2
+> pdbid > 1bxx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bxx | A | albelig | 1 | 1 | E | 14 | 27 | A-172-  | A-185-  | ELFLDVLESVNLLM 
+| 1bxx | A | albelig | 2 | 2 | E | 33 | 47 | A-191-  | A-205-  | VLSAHVSGRVVMKSY 
+| 1bxx | A | albelig | 3 | 3 | E | 54 | 58 | A-212-  | A-216-  | CKFGM 
+| 1bxx | A | albelig | 4 | 4 | E | 71 | 74 | A-245-  | A-248-  | DCTF 
+| 1bxx | A | albelig | 5 | 5 | E | 86 | 88 | A-263-  | A-265-  | ISF 
+| 1bxx | A | albelig | 6 | 6 | E | 93 | 102 | A-270-  | A-279-  | GEFELMRYRT 
+| 1bxx | A | albelig | 7 | 7 | E | 110 | 119 | A-287-  | A-296-  | FRVIPLVREV 
+| 1bxx | A | albelig | 8 | 8 | E | 123 | 132 | A-300-  | A-309-  | KLEVKVVIKS 
+| 1bxx | A | albelig | 9 | 9 | E | 139 | 148 | A-316-  | A-325-  | LAQKIEVRIP 
+| 1bxx | A | albelig | 10 | 10 | E | 153 | 160 | A-330-  | A-337-  | TSGVQVIC 
+| 1bxx | A | albelig | 11 | 11 | E | 164 | 168 | A-341-  | A-345-  | KAKYK 
+| 1bxx | A | albelig | 12 | 12 | E | 173 | 182 | A-350-  | A-359-  | AIVWKIKRMA 
+| 1bxx | A | albelig | 13 | 13 | E | 186 | 195 | A-363-  | A-372-  | ESQISAEIEL 
+| 1bxx | A | albelig | 14 | 14 | E | 209 | 215 | A-386-  | A-392-  | ISMNFEV 
+| 1bxx | A | albelig | 15 | 15 | E | 224 | 228 | A-401-  | A-405-  | VRYLK 
+| 1bxx | A | albelig | 16 | 16 | H | 238 | 240 | A-415-  | A-417-  | DHD 
+| 1bxx | A | albelig | 17 | 17 | E | 242 | 256 | A-419-  | A-433-  | IKWVRYIGRSGIYET 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 17
+= 2 = a = 6
+= 3 = a = 5
+= 3 = a = 15
+= 4 = a = 6
+= 7 = a = 8
+= 7 = a = 14
+= 8 = a = 13
+= 9 = a = 12
+= 9 = a = 14
+= 10 = a = 13
+= 11 = a = 12
+= 12 = a = 13
+= 14 = a = 17
+= 15 = a = 17
+# Listed 16 contacts. EOF.

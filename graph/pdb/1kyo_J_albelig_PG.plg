@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyo, chain J.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTISUBUNIT MEMBRANE PROTEIN COMPLEX, ENZYME SUBSTRATECOMPLEX, ELECTRON TRANSFER COMPLEX, ANTIBODY FV FRAGMENTMEDIATED CRYSTALLIZATION, OXIDOREDUCTASE/ELECTRON TRANSPORTCOMPLEX
+> pdb_mol_name > HEAVY CHAIN (VH) OF FV-FRAGMENT
+> graphtype > albelig
+> resolution > 2.97
+> date > 05-FEB-02
+> header > OXIDOREDUCTASE/ELECTRON TRANSPORT
+> pdb_org_common > HOUSE MOUSE
+> title > YEAST CYTOCHROME BC1 COMPLEX WITH BOUND SUBSTRATECYTOCHROME C
+> format_version > 2
+> pdbid > 1kyo
+> experiment > X-RAY DIFFRACTION
+> chainid > J
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyo | J | albelig | 1 | 1 | E | 1954 | 1959 | J-3-  | J-8-  | KLQESG 
+| 1kyo | J | albelig | 2 | 2 | E | 1969 | 1976 | J-18-  | J-25-  | LSLTCSVT 
+| 1kyo | J | albelig | 3 | 3 | E | 1985 | 1991 | J-34-  | J-40-  | YWNWIRL 
+| 1kyo | J | albelig | 4 | 4 | E | 1997 | 2004 | J-46-  | J-53-  | LEWVGYIS 
+| 1kyo | J | albelig | 5 | 5 | E | 2009 | 2011 | J-58-  | J-60-  | NNY 
+| 1kyo | J | albelig | 6 | 6 | H | 2015 | 2017 | J-64-  | J-66-  | LKD 
+| 1kyo | J | albelig | 7 | 7 | E | 2029 | 2034 | J-78-  | J-83-  | QFFLKL 
+| 1kyo | J | albelig | 8 | 8 | H | 2039 | 2041 | J-88-  | J-90-  | TED 
+| 1kyo | J | albelig | 9 | 9 | E | 2043 | 2053 | J-92-  | J-102-  | ATYYCARSEYY 
+| 1kyo | J | albelig | 10 | 10 | E | 2057 | 2063 | J-106-  | J-112-  | GYAMDYW 
+| 1kyo | J | albelig | 11 | 11 | E | 2067 | 2071 | J-116-  | J-120-  | TTVTV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 7
+= 2 = p = 9
+= 3 = a = 4
+= 3 = p = 7
+= 3 = a = 9
+= 4 = a = 5
+= 9 = a = 10
+= 9 = a = 11
+# Listed 10 contacts. EOF.

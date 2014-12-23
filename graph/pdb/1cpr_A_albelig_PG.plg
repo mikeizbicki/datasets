@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cpr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, HEME PROTEIN, CYTOCHROME
+> pdb_mol_name > CYTOCHROME C'
+> graphtype > albelig
+> resolution > 2.1
+> date > 09-APR-96
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > ST. LOUIS CYTOCHROME C' FROM THE PURPLE PHOTOTROPICBACTERIUM, RHODOBACTER CAPSULATUS
+> format_version > 2
+> pdbid > 1cpr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RHODOBACTER CAPSULATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cpr | A | albelig | 1 | 1 | H | 3 | 28 | A-3-  | A-28-  | TKEVLEAREAYFKSLGGSMKAMTGVA 
+| 1cpr | A | albelig | 2 | 2 | H | 33 | 46 | A-33-  | A-46-  | AEAAKVEAAKLEKI 
+| 1cpr | A | albelig | 3 | 3 | H | 52 | 54 | A-52-  | A-54-  | APL 
+| 1cpr | A | albelig | 4 | 4 | H | 72 | 76 | A-72-  | A-76-  | AAIWA 
+| 1cpr | A | albelig | 5 | 5 | H | 78 | 100 | A-78-  | A-100-  | MDDFGAKGKAMHDAGGAVIAAAN 
+| 1cpr | A | albelig | 6 | 6 | H | 104 | 125 | A-104-  | A-125-  | GAAFGAALQKLGGTCKACHDDY 
+| 1cpr | A | albelig | 7 | 7 | L | 130 | 130 | A-130-  | A-130-  | J 
+| 1cpr | A | albelig | 8 | 8 | L | 131 | 131 | A-131-  | A-131-  | J 
+| 1cpr | A | albelig | 9 | 9 | L | 132 | 132 | A-132-  | A-132-  | J 
+| 1cpr | A | albelig | 10 | 10 | L | 133 | 133 | A-133-  | A-133-  | J 
+| 1cpr | A | albelig | 11 | 11 | L | 134 | 134 | A-134-  | A-134-  | J 
+| 1cpr | A | albelig | 12 | 12 | L | 135 | 135 | A-135-  | A-135-  | J 
+| 1cpr | A | albelig | 13 | 13 | L | 136 | 136 | A-136-  | A-136-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 6
+= 1 = l = 10
+= 1 = l = 12
+= 1 = l = 13
+= 2 = m = 5
+= 2 = l = 7
+= 2 = l = 8
+= 4 = l = 13
+= 5 = a = 6
+= 5 = l = 11
+= 5 = l = 12
+= 5 = l = 13
+= 6 = l = 9
+= 6 = l = 13
+= 7 = l = 8
+= 9 = l = 13
+= 10 = l = 13
+# Listed 18 contacts. EOF.

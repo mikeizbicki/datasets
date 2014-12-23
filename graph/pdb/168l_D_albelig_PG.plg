@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 168l, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (O-GLYCOSYL)
+> pdb_mol_name > T4 LYSOZYME
+> graphtype > albelig
+> resolution > 2.9
+> date > 24-MAR-95
+> header > HYDROLASE (O-GLYCOSYL)
+> pdb_org_common > UNKNOWN
+> title > PROTEIN FLEXIBILITY AND ADAPTABILITY SEEN IN 25 CRYSTALFORMS OF T4 LYSOZYME
+> format_version > 2
+> pdbid > 168l
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 168l | D | albelig | 1 | 1 | H | 498 | 505 | D-3-  | D-10-  | IFEMLRID 
+| 168l | D | albelig | 2 | 2 | E | 520 | 522 | D-25-  | D-27-  | YTI 
+| 168l | D | albelig | 3 | 3 | E | 526 | 529 | D-31-  | D-34-  | HLLT 
+| 168l | D | albelig | 4 | 4 | H | 534 | 545 | D-39-  | D-50-  | LNAAKSELDKAI 
+| 168l | D | albelig | 5 | 5 | H | 555 | 575 | D-60-  | D-80-  | KDEAEKLFNQDVDAAVRGILR 
+| 168l | D | albelig | 6 | 6 | H | 579 | 585 | D-84-  | D-90-  | LKPVYDS 
+| 168l | D | albelig | 7 | 7 | H | 588 | 608 | D-93-  | D-113-  | AVRRCALINMVFQMGETGVAG 
+| 168l | D | albelig | 8 | 8 | H | 610 | 617 | D-115-  | D-122-  | TNSLRMLQ 
+| 168l | D | albelig | 9 | 9 | H | 621 | 630 | D-126-  | D-135-  | WDAAAAALAA 
+| 168l | D | albelig | 10 | 10 | H | 633 | 636 | D-138-  | D-141-  | WYNQ 
+| 168l | D | albelig | 11 | 11 | H | 638 | 650 | D-143-  | D-155-  | PNRAKRVITTFRT 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 2 = a = 3
+= 3 = m = 4
+= 5 = m = 6
+= 6 = a = 7
+= 7 = a = 11
+= 8 = m = 9
+= 9 = m = 11
+= 10 = m = 11
+# Listed 9 contacts. EOF.

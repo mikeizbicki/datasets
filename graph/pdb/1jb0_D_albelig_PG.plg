@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jb0, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS
+> pdb_mol_name > PHOTOSYSTEM 1 REACTION CENTRE SUBUNIT II
+> graphtype > albelig
+> resolution > 2.5
+> date > 01-JUN-01
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PHOTOSYSTEM I: A PHOTOSYNTHETIC REACTION CENTERAND CORE ANTENNA SYSTEM FROM CYANOBACTERIA
+> format_version > 2
+> pdbid > 1jb0
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SYNECHOCOCCUS ELONGATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jb0 | D | albelig | 1 | 1 | H | 1583 | 1586 | D-20-  | D-23-  | AADT 
+| 1jb0 | D | albelig | 2 | 2 | E | 1589 | 1596 | D-26-  | D-33-  | KYAITWTS 
+| 1jb0 | D | albelig | 3 | 3 | E | 1600 | 1603 | D-37-  | D-40-  | QVFE 
+| 1jb0 | D | albelig | 4 | 4 | E | 1609 | 1612 | D-46-  | D-49-  | AAVM 
+| 1jb0 | D | albelig | 5 | 5 | E | 1615 | 1621 | D-52-  | D-58-  | GENLVYF 
+| 1jb0 | D | albelig | 6 | 6 | H | 1624 | 1635 | D-61-  | D-72-  | KEQCLALAAQQL 
+| 1jb0 | D | albelig | 7 | 7 | H | 1636 | 1638 | D-73-  | D-75-  | RPR 
+| 1jb0 | D | albelig | 8 | 8 | E | 1644 | 1648 | D-81-  | D-85-  | KIYRI 
+| 1jb0 | D | albelig | 9 | 9 | E | 1654 | 1658 | D-91-  | D-95-  | TVLIH 
+| 1jb0 | D | albelig | 10 | 10 | H | 1682 | 1684 | D-119-  | D-121-  | IGQ 
+| 1jb0 | D | albelig | 11 | 11 | H | 1688 | 1691 | D-125-  | D-128-  | PSQL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 5
+= 2 = p = 6
+= 2 = a = 8
+= 3 = a = 4
+= 6 = m = 7
+= 8 = a = 9
+# Listed 6 contacts. EOF.

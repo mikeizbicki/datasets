@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gvm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHOLINE-BINDING DOMAIN, CELL WALL ATTACHMENT
+> pdb_mol_name > AUTOLYSIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 15-FEB-02
+> header > CHOLINE-BINDING DOMAIN
+> pdb_org_common > PNEUMOCOCCUS
+> title > CHOLINE BINDING DOMAIN OF THE MAJOR AUTOLYSIN (C-LYTA) FROMSTREPTOCOCCUS PNEUMONIAE
+> format_version > 2
+> pdbid > 1gvm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PNEUMONIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gvm | A | albelig | 1 | 1 | E | 7 | 11 | A-198-  | A-202-  | KFEKI 
+| 1gvm | A | albelig | 2 | 2 | E | 14 | 18 | A-205-  | A-209-  | TWYYF 
+| 1gvm | A | albelig | 3 | 3 | E | 49 | 53 | A-240-  | A-244-  | GWKKI 
+| 1gvm | A | albelig | 4 | 4 | E | 56 | 60 | A-247-  | A-251-  | KWYYF 
+| 1gvm | A | albelig | 5 | 5 | E | 69 | 73 | A-260-  | A-264-  | GWVKY 
+| 1gvm | A | albelig | 6 | 6 | E | 76 | 80 | A-267-  | A-271-  | TWYYL 
+| 1gvm | A | albelig | 7 | 7 | E | 91 | 94 | A-282-  | A-285-  | AFIQ 
+| 1gvm | A | albelig | 8 | 8 | E | 101 | 104 | A-292-  | A-295-  | WYYL 
+| 1gvm | A | albelig | 9 | 9 | E | 116 | 118 | A-307-  | A-309-  | FTV 
+| 1gvm | A | albelig | 10 | 10 | E | 124 | 126 | A-315-  | A-317-  | ITV 
+| 1gvm | A | albelig | 11 | 11 | L | 775 | 775 | A-401-  | A-401-  | J 
+| 1gvm | A | albelig | 12 | 12 | L | 776 | 776 | A-402-  | A-402-  | J 
+| 1gvm | A | albelig | 13 | 13 | L | 777 | 777 | A-403-  | A-403-  | J 
+| 1gvm | A | albelig | 14 | 14 | L | 778 | 778 | A-404-  | A-404-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 11
+= 2 = l = 11
+= 3 = a = 4
+= 3 = l = 13
+= 4 = l = 12
+= 4 = l = 13
+= 5 = a = 6
+= 5 = l = 13
+= 5 = l = 14
+= 6 = l = 13
+= 6 = l = 14
+= 7 = a = 8
+= 8 = l = 14
+= 9 = a = 10
+# Listed 15 contacts. EOF.

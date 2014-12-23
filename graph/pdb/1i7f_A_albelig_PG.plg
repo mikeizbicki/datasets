@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i7f, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HSP33, REDOX SENSITIVE MOLECULAR CHAPERONE, CHAPERONE
+> pdb_mol_name > HEAT SHOCK PROTEIN 33
+> graphtype > albelig
+> resolution > 2.7
+> date > 09-MAR-01
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE HSP33 DOMAIN WITH CONSTITUTIVE CHAPERONEACTIVITY
+> format_version > 2
+> pdbid > 1i7f
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i7f | A | albelig | 1 | 1 | E | 4 | 9 | A-9-  | A-14-  | LHRYLF 
+| 1i7f | A | albelig | 2 | 2 | E | 14 | 21 | A-19-  | A-26-  | VRGELVTV 
+| 1i7f | A | albelig | 3 | 3 | H | 23 | 29 | A-28-  | A-34-  | ETLQQIL 
+| 1i7f | A | albelig | 4 | 4 | H | 36 | 53 | A-41-  | A-58-  | QPVKNVLAELLVATSLLT 
+| 1i7f | A | albelig | 5 | 5 | E | 60 | 67 | A-65-  | A-72-  | GDITVQLQ 
+| 1i7f | A | albelig | 6 | 6 | E | 74 | 80 | A-79-  | A-85-  | LAVINGN 
+| 1i7f | A | albelig | 7 | 7 | E | 86 | 90 | A-91-  | A-95-  | RGVAR 
+| 1i7f | A | albelig | 8 | 8 | H | 101 | 104 | A-106-  | A-109-  | LKTL 
+| 1i7f | A | albelig | 9 | 9 | E | 109 | 116 | A-114-  | A-121-  | YVVITITP 
+| 1i7f | A | albelig | 10 | 10 | E | 122 | 127 | A-127-  | A-132-  | YQGVVG 
+| 1i7f | A | albelig | 11 | 11 | H | 133 | 144 | A-138-  | A-149-  | LAADLEDYFXRS 
+| 1i7f | A | albelig | 12 | 12 | E | 149 | 158 | A-154-  | A-163-  | TRLFIRTGDV 
+| 1i7f | A | albelig | 13 | 13 | E | 161 | 171 | A-166-  | A-176-  | KPAAGGXLLQV 
+| 1i7f | A | albelig | 14 | 14 | H | 179 | 189 | A-184-  | A-194-  | QDDFDHLATLT 
+| 1i7f | A | albelig | 15 | 15 | H | 194 | 199 | A-199-  | A-204-  | TEELLT 
+| 1i7f | A | albelig | 16 | 16 | H | 202 | 210 | A-207-  | A-215-  | ANEVLWRLY 
+| 1i7f | A | albelig | 17 | 17 | L | 234 | 234 | A-400-  | A-400-  | J 
+| 1i7f | A | albelig | 18 | 18 | L | 235 | 235 | A-500-  | A-500-  | J 
+| 1i7f | A | albelig | 19 | 19 | L | 236 | 236 | A-529-  | A-529-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 13
+= 3 = l = 18
+= 4 = m = 5
+= 4 = p = 6
+= 4 = p = 11
+= 4 = m = 13
+= 4 = l = 18
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = m = 12
+= 12 = a = 13
+= 14 = m = 16
+# Listed 15 contacts. EOF.

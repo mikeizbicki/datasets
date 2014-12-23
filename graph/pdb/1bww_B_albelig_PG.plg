@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bww, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > REIV, STABILIZED IMMUNOGLOBULIN FRAGMENT, BENCE-JONESPROTEIN, IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (IG KAPPA CHAIN V-I REGION REI)
+> graphtype > albelig
+> resolution > 1.7
+> date > 29-SEP-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > BENCE-JONES IMMUNOGLOBULIN REI VARIABLE PORTION, T39K MUTANT
+> format_version > 2
+> pdbid > 1bww
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bww | B | albelig | 1 | 1 | E | 116 | 119 | B-6-  | B-9-  | MTQS 
+| 1bww | B | albelig | 2 | 2 | E | 122 | 125 | B-12-  | B-15-  | SLSA 
+| 1bww | B | albelig | 3 | 3 | E | 131 | 137 | B-21-  | B-27-  | VTITNQA 
+| 1bww | B | albelig | 4 | 4 | E | 145 | 150 | B-35-  | B-40-  | LNWYQQ 
+| 1bww | B | albelig | 5 | 5 | E | 157 | 161 | B-47-  | B-51-  | KLLIY 
+| 1bww | B | albelig | 6 | 6 | E | 174 | 179 | B-64-  | B-69-  | FSGSGS 
+| 1bww | B | albelig | 7 | 7 | E | 182 | 187 | B-72-  | B-77-  | DYTFTI 
+| 1bww | B | albelig | 8 | 8 | H | 192 | 194 | B-82-  | B-84-  | PED 
+| 1bww | B | albelig | 9 | 9 | E | 197 | 202 | B-87-  | B-92-  | TYYNQQ 
+| 1bww | B | albelig | 10 | 10 | E | 214 | 218 | B-104-  | B-108-  | TKLQI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 9
+= 6 = a = 7
+= 9 = p = 10
+# Listed 8 contacts. EOF.

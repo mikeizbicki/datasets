@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k7u, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEVEIN-TYPE FOLD, SUGAR BINDING PROTEIN
+> pdb_mol_name > AGGLUTININ ISOLECTIN 3
+> graphtype > albelig
+> resolution > 2.2
+> date > 22-OCT-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > BREAD WHEAT
+> title > CRYSTAL STRUCTURE ANALYSIS OF CROSSLINKED-WGA3/GLCNACBETA1,4GLCNACCOMPLEX
+> format_version > 2
+> pdbid > 1k7u
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TRITICUM AESTIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k7u | A | albelig | 1 | 1 | H | 13 | 15 | A-13-  | A-15-  | PNN 
+| 1k7u | A | albelig | 2 | 2 | H | 28 | 31 | A-28-  | A-31-  | GDYC 
+| 1k7u | A | albelig | 3 | 3 | H | 47 | 50 | A-47-  | A-50-  | GSQA 
+| 1k7u | A | albelig | 4 | 4 | H | 71 | 74 | A-71-  | A-74-  | AEYG 
+| 1k7u | A | albelig | 5 | 5 | H | 114 | 117 | A-114-  | A-117-  | SEFK 
+| 1k7u | A | albelig | 6 | 6 | H | 134 | 136 | A-134-  | A-136-  | KDA 
+| 1k7u | A | albelig | 7 | 7 | H | 157 | 160 | A-157-  | A-160-  | PGYC 
+| 1k7u | A | albelig | 8 | 8 | L | 346 | 346 | A-187-  | A-187-  | J 
+| 1k7u | A | albelig | 9 | 9 | L | 347 | 347 | A-188-  | A-188-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = l = 8
+= 8 = l = 9
+# Listed 2 contacts. EOF.

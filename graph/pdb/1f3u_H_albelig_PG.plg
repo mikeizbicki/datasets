@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f3u, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GENERAL TRANSCRIPTION INITIATION AND ELONGATION FACTOR, RNAPOLYMERASE II, NOVEL DIMERIZATION FOLD, BETA BARREL
+> pdb_mol_name > TRANSCRIPTION INITIATION FACTOR IIF, ALPHA
+> graphtype > albelig
+> resolution > 1.7
+> date > 06-JUN-00
+> header > TRANSCRIPTION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE RAP30/74 INTERACTION DOMAINS OFHUMAN TFIIF
+> format_version > 2
+> pdbid > 1f3u
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f3u | H | albelig | 1 | 1 | E | 934 | 939 | H-12-  | H-17-  | TEYVVR 
+| 1f3u | H | albelig | 2 | 2 | E | 947 | 954 | H-25-  | H-32-  | KYNIMAFN 
+| 1f3u | H | albelig | 3 | 3 | H | 955 | 957 | H-33-  | H-35-  | AAD 
+| 1f3u | H | albelig | 4 | 4 | H | 961 | 963 | H-39-  | H-41-  | FAT 
+| 1f3u | H | albelig | 5 | 5 | E | 967 | 971 | H-45-  | H-49-  | ARLER 
+| 1f3u | H | albelig | 6 | 6 | H | 974 | 976 | H-52-  | H-54-  | SNK 
+| 1f3u | H | albelig | 7 | 7 | E | 980 | 983 | H-58-  | H-61-  | QEEE 
+| 1f3u | H | albelig | 8 | 8 | H | 989 | 991 | H-76-  | H-78-  | REE 
+| 1f3u | H | albelig | 9 | 9 | E | 997 | 1000 | H-84-  | H-87-  | YGIV 
+| 1f3u | H | albelig | 10 | 10 | E | 1011 | 1015 | H-98-  | H-102-  | WLLRV 
+| 1f3u | H | albelig | 11 | 11 | E | 1022 | 1027 | H-109-  | H-114-  | KFKGIK 
+| 1f3u | H | albelig | 12 | 12 | E | 1035 | 1042 | H-122-  | H-129-  | TSYYIFTQ 
+| 1f3u | H | albelig | 13 | 13 | E | 1048 | 1061 | H-135-  | H-148-  | FEAFPVHNWYNFTP 
+| 1f3u | H | albelig | 14 | 14 | H | 1062 | 1064 | H-149-  | H-151-  | LAR 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 13
+= 2 = m = 3
+= 2 = p = 13
+= 5 = a = 10
+= 7 = a = 9
+= 10 = a = 11
+= 11 = a = 13
+= 12 = a = 13
+= 13 = m = 14
+# Listed 9 contacts. EOF.

@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hnc, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE(GLUTATHIONE)
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 15-OCT-93
+> header > TRANSFERASE(GLUTATHIONE)
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN CLASS MU GLUTATHIONE TRANSFERASEGSTM2-2: EFFECTS OF LATTICE PACKING ON CONFORMATIONALHETEROGENEITY
+> format_version > 2
+> pdbid > 1hnc
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hnc | D | albelig | 1 | 1 | E | 656 | 661 | D-2-  | D-7-  | MTLGYW 
+| 1hnc | D | albelig | 2 | 2 | H | 667 | 676 | D-13-  | D-22-  | AHSIRLLLEY 
+| 1hnc | D | albelig | 3 | 3 | E | 681 | 686 | D-27-  | D-32-  | YEEKKY 
+| 1hnc | D | albelig | 4 | 4 | H | 700 | 703 | D-46-  | D-49-  | LNEK 
+| 1hnc | D | albelig | 5 | 5 | E | 715 | 718 | D-61-  | D-64-  | YLID 
+| 1hnc | D | albelig | 6 | 6 | E | 721 | 724 | D-67-  | D-70-  | HKIT 
+| 1hnc | D | albelig | 7 | 7 | H | 726 | 736 | D-72-  | D-82-  | SNAILRYIARK 
+| 1hnc | D | albelig | 8 | 8 | H | 744 | 768 | D-90-  | D-114-  | EKEQIREDILENQFMDSRMQLAKLC 
+| 1hnc | D | albelig | 9 | 9 | H | 773 | 781 | D-119-  | D-127-  | FEKLKPEYL 
+| 1hnc | D | albelig | 10 | 10 | H | 784 | 795 | D-130-  | D-141-  | LPEMLKLYSQFL 
+| 1hnc | D | albelig | 11 | 11 | H | 810 | 823 | D-156-  | D-169-  | DFIAYDVLERNQVF 
+| 1hnc | D | albelig | 12 | 12 | H | 827 | 830 | D-173-  | D-176-  | CLDA 
+| 1hnc | D | albelig | 13 | 13 | H | 832 | 843 | D-178-  | D-189-  | PNLKDFISRFEG 
+| 1hnc | D | albelig | 14 | 14 | H | 845 | 851 | D-191-  | D-197-  | EKISAYM 
+| 1hnc | D | albelig | 15 | 15 | L | 875 | 875 | D-218-  | D-218-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 1 = l = 15
+= 2 = m = 7
+= 2 = m = 11
+= 2 = m = 14
+= 4 = l = 15
+= 5 = a = 6
+= 5 = m = 7
+= 7 = a = 8
+= 7 = l = 15
+= 8 = a = 10
+= 8 = m = 11
+= 8 = l = 15
+= 9 = m = 11
+= 10 = m = 13
+= 11 = m = 13
+# Listed 17 contacts. EOF.

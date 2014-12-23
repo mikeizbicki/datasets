@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h03, chain Q.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNE SYSTEM PROTEIN, COMPLEMENT DECAY ACCELERATINGFACTOR, ENTEROVIRAL RECEPTOR, BACTERIAL RECEPTOR, LIGANDFOR CD97, COMPLEMENT PATHWAY, ALTERNATIVE SPLICING,GPI-ANCHOR
+> pdb_mol_name > COMPLEMENT DECAY-ACCELERATING FACTOR
+> graphtype > albelig
+> resolution > 1.7
+> date > 11-JUN-02
+> header > IMMUNE SYSTEM PROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN CD55 DOMAINS 3 & 4
+> format_version > 2
+> pdbid > 1h03
+> experiment > X-RAY DIFFRACTION
+> chainid > Q
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h03 | Q | albelig | 1 | 1 | E | 138 | 141 | Q-16-  | Q-19-  | GQID 
+| 1h03 | Q | albelig | 2 | 2 | E | 151 | 156 | Q-29-  | Q-34-  | TISFSF 
+| 1h03 | Q | albelig | 3 | 3 | E | 160 | 163 | Q-38-  | Q-41-  | YKLF 
+| 1h03 | Q | albelig | 4 | 4 | E | 167 | 173 | Q-45-  | Q-51-  | SSFELIS 
+| 1h03 | Q | albelig | 5 | 5 | E | 176 | 179 | Q-54-  | Q-57-  | SVQW 
+| 1h03 | Q | albelig | 6 | 6 | E | 185 | 188 | Q-63-  | Q-66-  | EFRE 
+| 1h03 | Q | albelig | 7 | 7 | E | 200 | 202 | Q-78-  | Q-80-  | GII 
+| 1h03 | Q | albelig | 8 | 8 | E | 214 | 219 | Q-92-  | Q-97-  | SVTYAH 
+| 1h03 | Q | albelig | 9 | 9 | E | 224 | 226 | Q-102-  | Q-104-  | TMI 
+| 1h03 | Q | albelig | 10 | 10 | E | 230 | 236 | Q-108-  | Q-114-  | SIYGTVN 
+| 1h03 | Q | albelig | 11 | 11 | E | 239 | 242 | Q-117-  | Q-120-  | EGEW 
+| 1h03 | Q | albelig | 12 | 12 | E | 248 | 250 | Q-126-  | Q-128-  | EHR 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = a = 4
+= 2 = a = 6
+= 3 = a = 6
+= 4 = a = 5
+= 7 = a = 8
+= 8 = a = 9
+= 8 = a = 10
+= 9 = a = 12
+= 10 = a = 11
+# Listed 11 contacts. EOF.

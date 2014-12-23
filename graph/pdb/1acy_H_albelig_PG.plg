@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1acy, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX(ANTIBODY/HIV-1 FRAGMENT)
+> pdb_mol_name > IGG1-KAPPA 59.1 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 10-FEB-94
+> header > COMPLEX(ANTIBODY/HIV-1 FRAGMENT)
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE PRINCIPAL NEUTRALIZING SITE OF HIV-1
+> format_version > 2
+> pdbid > 1acy
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1acy | H | albelig | 1 | 1 | E | 219 | 223 | H-3-  | H-7-  | KLQES 
+| 1acy | H | albelig | 2 | 2 | E | 234 | 241 | H-18-  | H-25-  | LSLTCIVS 
+| 1acy | H | albelig | 3 | 3 | E | 250 | 257 | H-34-  | H-39-  | YDWHWIRQ 
+| 1acy | H | albelig | 4 | 4 | E | 263 | 270 | H-45-  | H-52-  | LEWMGRID 
+| 1acy | H | albelig | 5 | 5 | E | 275 | 277 | H-57-  | H-59-  | IYY 
+| 1acy | H | albelig | 6 | 6 | H | 282 | 284 | H-64-  | H-66-  | KSR 
+| 1acy | H | albelig | 7 | 7 | E | 285 | 290 | H-67-  | H-72-  | STISRD 
+| 1acy | H | albelig | 8 | 8 | E | 295 | 300 | H-77-  | H-82-  | KFFIQL 
+| 1acy | H | albelig | 9 | 9 | H | 305 | 307 | H-84-  | H-86-  | NED 
+| 1acy | H | albelig | 10 | 10 | E | 309 | 317 | H-88-  | H-96-  | AMYYCSREN 
+| 1acy | H | albelig | 11 | 11 | E | 324 | 327 | H-100-C | H-103-  | FDVW 
+| 1acy | H | albelig | 12 | 12 | E | 331 | 335 | H-107-  | H-111-  | TTVTV 
+| 1acy | H | albelig | 13 | 13 | E | 344 | 348 | H-120-  | H-124-  | SVYPL 
+| 1acy | H | albelig | 14 | 14 | E | 359 | 369 | H-137-  | H-147-  | MVTLGELVKGY 
+| 1acy | H | albelig | 15 | 15 | E | 375 | 378 | H-153-  | H-157-  | TVTW 
+| 1acy | H | albelig | 16 | 16 | H | 379 | 381 | H-162-  | H-164-  | NSG 
+| 1acy | H | albelig | 17 | 17 | E | 388 | 394 | H-172-  | H-178-  | HTFPAVL 
+| 1acy | H | albelig | 18 | 18 | E | 399 | 408 | H-185-  | H-194-  | YTLSSSVTVP 
+| 1acy | H | albelig | 19 | 19 | E | 418 | 423 | H-206-  | H-212-  | TENVAH 
+| 1acy | H | albelig | 20 | 20 | H | 424 | 426 | H-213-  | H-215-  | PAS 
+| 1acy | H | albelig | 21 | 21 | E | 428 | 433 | H-217-  | H-222-  | TKVDKK 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 2 = a = 8
+= 2 = p = 10
+= 3 = a = 4
+= 3 = p = 8
+= 3 = a = 10
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 6 = m = 7
+= 6 = m = 8
+= 7 = a = 8
+= 10 = a = 11
+= 10 = a = 12
+= 13 = a = 14
+= 14 = a = 18
+= 15 = m = 16
+= 15 = a = 19
+= 17 = a = 18
+= 19 = m = 20
+= 19 = a = 21
+# Listed 23 contacts. EOF.

@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b4a, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > REPRESSOR, ARGININE, HELIX TURN HELIX
+> pdb_mol_name > ARGININE REPRESSOR
+> graphtype > albelig
+> resolution > 2.5
+> date > 18-DEC-98
+> header > REPRESSOR
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE ARGININE REPRESSOR FROM BACILLUS STEAROTHERMOPHILUS
+> format_version > 2
+> pdbid > 1b4a
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > GEOBACILLUS STEAROTHERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b4a | D | albelig | 1 | 1 | H | 443 | 454 | D-5-  | D-16-  | QRHIKIREIIMS 
+| 1b4a | D | albelig | 2 | 2 | H | 460 | 469 | D-22-  | D-31-  | QDELVDRLRE 
+| 1b4a | D | albelig | 3 | 3 | H | 476 | 485 | D-38-  | D-47-  | QATVSRDIKE 
+| 1b4a | D | albelig | 4 | 4 | E | 489 | 492 | D-51-  | D-54-  | VKVP 
+| 1b4a | D | albelig | 5 | 5 | E | 498 | 501 | D-60-  | D-63-  | YKYS 
+| 1b4a | D | albelig | 6 | 6 | H | 510 | 521 | D-72-  | D-83-  | PLQKLKRALVDV 
+| 1b4a | D | albelig | 7 | 7 | E | 522 | 528 | D-84-  | D-90-  | FIKLDGT 
+| 1b4a | D | albelig | 8 | 8 | E | 531 | 536 | D-93-  | D-98-  | LLVLRT 
+| 1b4a | D | albelig | 9 | 9 | H | 541 | 551 | D-103-  | D-113-  | AHAIGVLLDNL 
+| 1b4a | D | albelig | 10 | 10 | E | 556 | 561 | D-118-  | D-123-  | IVGTIC 
+| 1b4a | D | albelig | 11 | 11 | E | 565 | 570 | D-127-  | D-132-  | TCLIIC 
+| 1b4a | D | albelig | 12 | 12 | H | 573 | 584 | D-135-  | D-146-  | PKDAKKVSNQLL 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = m = 3
+= 4 = a = 5
+= 6 = m = 7
+= 6 = m = 9
+= 7 = a = 8
+= 8 = a = 11
+= 9 = a = 10
+= 10 = a = 11
+# Listed 9 contacts. EOF.

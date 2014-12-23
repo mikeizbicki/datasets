@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c6v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA INTEGRATION, DNA BINDING PROTEIN
+> pdb_mol_name > PROTEIN (SIV INTEGRASE)
+> graphtype > albelig
+> resolution > 3.0
+> date > 21-DEC-99
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SIV INTEGRASE (CATALYTIC DOMAIN + DNA BIDING DOMAINCOMPRISING RESIDUES 50-293) MUTANT WITH PHE 185 REPLACEDBY HIS (F185H)
+> format_version > 2
+> pdbid > 1c6v
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SIMIAN IMMUNODEFICIENCY VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c6v | A | albelig | 1 | 1 | E | 6 | 14 | A-60-  | A-68-  | TWQMDCTHL 
+| 1c6v | A | albelig | 2 | 2 | E | 17 | 23 | A-71-  | A-77-  | KIVIVAV 
+| 1c6v | A | albelig | 3 | 3 | E | 30 | 34 | A-84-  | A-88-  | IEAEV 
+| 1c6v | A | albelig | 4 | 4 | H | 40 | 51 | A-94-  | A-105-  | GRQTALFLLKLA 
+| 1c6v | A | albelig | 5 | 5 | E | 58 | 60 | A-112-  | A-114-  | HLH 
+| 1c6v | A | albelig | 6 | 6 | H | 71 | 79 | A-125-  | A-133-  | EVKMVAWWA 
+| 1c6v | A | albelig | 7 | 7 | E | 82 | 84 | A-136-  | A-138-  | EHT 
+| 1c6v | A | albelig | 8 | 8 | H | 93 | 99 | A-157-  | A-163-  | HLKNQID 
+| 1c6v | A | albelig | 9 | 9 | H | 108 | 120 | A-172-  | A-184-  | VETIVLMAVHCMN 
+| 1c6v | A | albelig | 10 | 10 | H | 132 | 144 | A-196-  | A-208-  | PAERLINMITTEQ 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = a = 3
+= 3 = a = 9
+= 4 = p = 6
+= 5 = p = 7
+= 8 = m = 9
+= 9 = m = 10
+# Listed 8 contacts. EOF.

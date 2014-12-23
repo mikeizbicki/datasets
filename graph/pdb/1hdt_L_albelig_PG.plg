@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hdt, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEINASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > ALPHA-THROMBIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 25-JUL-94
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF A RETRO-BINDING PEPTIDE INHIBITOR COMPLEXED WITH HUMANALPHA-THROMBIN
+> format_version > 2
+> pdbid > 1hdt
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hdt | L | albelig | 1 | 1 | H | 13 | 15 | L-8-  | L-10-  | EKK 
+| 1hdt | L | albelig | 2 | 2 | H | 22 | 28 | L-14-C | L-14-I | ERELLES 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hy8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > APO-ACP, HOLO-ACP, ACPS, FATTY ACID BIOSYNTHESIS, 4'PHOSPHOPANTETHEINE PROSTHETIC GROUP, LIPID BINDING PROTEIN
+> pdb_mol_name > ACYL CARRIER PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-JAN-01
+> header > LIPID BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF B. SUBTILIS ACYL CARRIER PROTEIN
+> format_version > 2
+> pdbid > 1hy8
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hy8 | A | albelig | 1 | 1 | H | 2 | 16 | A-2-  | A-16-  | DTLERVTKIIVDRLG 
+| 1hy8 | A | albelig | 2 | 2 | H | 36 | 49 | A-36-  | A-49-  | SLDVVELVMELEDE 
+| 1hy8 | A | albelig | 3 | 3 | H | 56 | 61 | A-56-  | A-61-  | DEDAEK 
+| 1hy8 | A | albelig | 4 | 4 | H | 65 | 75 | A-65-  | A-75-  | VGDAVNYIQNQ 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = m = 3
+# Listed 3 contacts. EOF.

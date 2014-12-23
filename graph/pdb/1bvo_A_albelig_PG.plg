@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION FACTOR, REL PROTEIN, MORPHOGEN, IMMUNITY,DEVELOPMENT, INSECTS, COMPLEX (TRANSCRIPTION FACTOR/DNA)
+> pdb_mol_name > TRANSCRIPTION FACTOR GAMBIF1
+> graphtype > albelig
+> resolution > 2.7
+> date > 16-SEP-98
+> header > COMPLEX (TRANSCRIPTION FACTOR/DNA)
+> pdb_org_common > AFRICAN MALARIA MOSQUITO
+> title > DORSAL HOMOLOGUE GAMBIF1 BOUND TO DNA
+> format_version > 2
+> pdbid > 1bvo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ANOPHELES GAMBIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvo | A | albelig | 1 | 1 | E | 2 | 7 | A-49-  | A-54-  | YVEITE 
+| 1bvo | A | albelig | 2 | 2 | H | 19 | 21 | A-66-  | A-68-  | ECE 
+| 1bvo | A | albelig | 3 | 3 | E | 42 | 46 | A-89-  | A-93-  | SIQVH 
+| 1bvo | A | albelig | 4 | 4 | E | 52 | 59 | A-99-  | A-106-  | AVVVVSCV 
+| 1bvo | A | albelig | 5 | 5 | E | 72 | 74 | A-119-  | A-121-  | NLV 
+| 1bvo | A | albelig | 6 | 6 | E | 83 | 87 | A-130-  | A-134-  | VATVE 
+| 1bvo | A | albelig | 7 | 7 | E | 94 | 96 | A-141-  | A-143-  | SYT 
+| 1bvo | A | albelig | 8 | 8 | E | 101 | 103 | A-148-  | A-150-  | GIQ 
+| 1bvo | A | albelig | 9 | 9 | H | 107 | 120 | A-154-  | A-167-  | KKDVEEALRLRQEI 
+| 1bvo | A | albelig | 10 | 10 | H | 130 | 132 | A-177-  | A-179-  | GHA 
+| 1bvo | A | albelig | 11 | 11 | H | 135 | 137 | A-182-  | A-184-  | PGS 
+| 1bvo | A | albelig | 12 | 12 | E | 142 | 152 | A-189-  | A-199-  | AVRLCFQVFLE 
+| 1bvo | A | albelig | 13 | 13 | E | 159 | 162 | A-206-  | A-209-  | FTEP 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 3 = a = 7
+= 4 = a = 6
+= 4 = a = 12
+= 4 = a = 13
+= 5 = a = 8
+= 12 = a = 13
+# Listed 7 contacts. EOF.

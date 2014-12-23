@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1auo, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE
+> pdb_mol_name > CARBOXYLESTERASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 01-SEP-97
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CARBOXYLESTERASE FROM PSEUDOMONAS FLUORESCENS
+> format_version > 2
+> pdbid > 1auo
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS FLUORESCENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1auo | B | albelig | 1 | 1 | E | 224 | 226 | B-5-  | B-7-  | LIL 
+| 1auo | B | albelig | 2 | 2 | E | 234 | 239 | B-15-  | B-20-  | ACVIWL 
+| 1auo | B | albelig | 3 | 3 | H | 250 | 257 | B-31-  | B-38-  | MPVAEALQ 
+| 1auo | B | albelig | 4 | 4 | E | 263 | 267 | B-44-  | B-48-  | TRFVL 
+| 1auo | B | albelig | 5 | 5 | E | 272 | 274 | B-53-  | B-55-  | TRP 
+| 1auo | B | albelig | 6 | 6 | H | 276 | 278 | B-57-  | B-59-  | TIN 
+| 1auo | B | albelig | 7 | 7 | E | 282 | 284 | B-63-  | B-65-  | EMP 
+| 1auo | B | albelig | 8 | 8 | E | 289 | 291 | B-70-  | B-72-  | IKA 
+| 1auo | B | albelig | 9 | 9 | H | 300 | 320 | B-81-  | B-101-  | LEELEVSAKMVTDLIEAQKRT 
+| 1auo | B | albelig | 10 | 10 | H | 324 | 326 | B-105-  | B-107-  | ASR 
+| 1auo | B | albelig | 11 | 11 | E | 327 | 332 | B-108-  | B-113-  | IFLAGF 
+| 1auo | B | albelig | 12 | 12 | H | 334 | 346 | B-115-  | B-127-  | QGGAVVFHTAFIN 
+| 1auo | B | albelig | 13 | 13 | E | 353 | 357 | B-134-  | B-138-  | GVIAL 
+| 1auo | B | albelig | 14 | 14 | H | 374 | 376 | B-155-  | B-157-  | QQR 
+| 1auo | B | albelig | 15 | 15 | E | 379 | 384 | B-160-  | B-165-  | ALCLHG 
+| 1auo | B | albelig | 16 | 16 | H | 392 | 404 | B-173-  | B-185-  | NAMGRSAFEHLKS 
+| 1auo | B | albelig | 17 | 17 | E | 409 | 414 | B-190-  | B-195-  | VTWQEY 
+| 1auo | B | albelig | 18 | 18 | H | 422 | 435 | B-203-  | B-216-  | PQEIHDIGAWLAAR 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = p = 4
+= 2 = m = 10
+= 2 = p = 11
+= 3 = a = 4
+= 5 = a = 7
+= 6 = m = 8
+= 9 = m = 12
+= 10 = m = 11
+= 11 = a = 12
+= 11 = p = 13
+= 12 = m = 14
+= 13 = p = 15
+= 15 = a = 16
+= 15 = p = 17
+= 15 = m = 18
+= 16 = a = 17
+= 17 = m = 18
+# Listed 18 contacts. EOF.

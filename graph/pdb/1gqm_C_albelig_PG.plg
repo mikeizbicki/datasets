@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gqm, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIMICROBIAL PROTEIN, S100A12, S100 PROTEIN FAMILY, EF-HAND,CALCIUM BINDING
+> pdb_mol_name > CALGRANULIN C
+> graphtype > albelig
+> resolution > 2.7
+> date > 26-NOV-01
+> header > ANTIMICROBIAL PROTEIN
+> pdb_org_common > HUMAN
+> title > THE STRUCTURE OF S100A12 IN A HEXAMERIC FORM
+> format_version > 2
+> pdbid > 1gqm
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gqm | C | albelig | 1 | 1 | H | 179 | 195 | C-2-  | C-18-  | KLEEHLEGIVNIFHQYS 
+| 1gqm | C | albelig | 2 | 2 | H | 206 | 216 | C-29-  | C-39-  | KGELKQLLTKE 
+| 1gqm | C | albelig | 3 | 3 | H | 227 | 237 | C-50-  | C-60-  | KAVIDEIFQGL 
+| 1gqm | C | albelig | 4 | 4 | H | 247 | 263 | C-70-  | C-86-  | FQEFISLVAIALKAAHY 
+| 1gqm | C | albelig | 5 | 5 | L | 1063 | 1063 | C-1088-  | C-1088-  | J 
+| 1gqm | C | albelig | 6 | 6 | L | 1064 | 1064 | C-1089-  | C-1089-  | J 
+| 1gqm | C | albelig | 7 | 7 | L | 1065 | 1065 | C-1090-  | C-1090-  | J 
+| 1gqm | C | albelig | 8 | 8 | L | 1066 | 1066 | C-1091-  | C-1091-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 1 = l = 6
+= 2 = m = 3
+= 2 = l = 6
+= 3 = l = 5
+= 3 = l = 7
+= 3 = l = 8
+= 4 = l = 7
+# Listed 9 contacts. EOF.

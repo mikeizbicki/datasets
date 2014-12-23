@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1emw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MIXED ALPHA/BETA PROTEIN, RIBOSOME
+> pdb_mol_name > S16 RIBOSOMAL PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 20-MAR-00
+> header > RIBOSOME
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE RIBOSOMAL PROTEIN S16 FROMTHERMUS THERMOPHILUS
+> format_version > 2
+> pdbid > 1emw
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1emw | A | albelig | 1 | 1 | E | 3 | 8 | A-3-  | A-8-  | KIRLAR 
+| 1emw | A | albelig | 2 | 2 | E | 17 | 22 | A-17-  | A-22-  | YRIVVT 
+| 1emw | A | albelig | 3 | 3 | E | 32 | 39 | A-32-  | A-39-  | YIEKIGYY 
+| 1emw | A | albelig | 4 | 4 | H | 53 | 61 | A-53-  | A-61-  | VERARYWLS 
+| 1emw | A | albelig | 5 | 5 | H | 68 | 74 | A-68-  | A-74-  | DTARRLL 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 5
+= 2 = a = 3
+= 3 = m = 4
+# Listed 4 contacts. EOF.

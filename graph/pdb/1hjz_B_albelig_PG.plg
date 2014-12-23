@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MACRO_H2A DOMAIN/HYDROLASE, HISTONE MACROH2A, CRYSTALSTRUCTURE P-LOOP NUCLEOTIDE HYDROLASE
+> pdb_mol_name > HYPOTHETICAL PROTEIN AF1521
+> graphtype > albelig
+> resolution > 1.7
+> date > 05-MAR-03
+> header > MACRO_H2A DOMAIN/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AF1521 PROTEIN CONTAINING A MACROH2ADOMAIN
+> format_version > 2
+> pdbid > 1hjz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ARCHAEOGLOBUS FULGIDUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjz | B | albelig | 1 | 1 | E | 195 | 202 | B-2-  | B-9-  | EVLFEAKV 
+| 1hjz | B | albelig | 2 | 2 | E | 205 | 211 | B-12-  | B-18-  | ITLKLAQ 
+| 1hjz | B | albelig | 3 | 3 | H | 214 | 216 | B-21-  | B-23-  | ITQ 
+| 1hjz | B | albelig | 4 | 4 | E | 221 | 226 | B-28-  | B-33-  | AIVNAA 
+| 1hjz | B | albelig | 5 | 5 | H | 235 | 245 | B-42-  | B-52-  | GVAYAIAKACA 
+| 1hjz | B | albelig | 6 | 6 | H | 248 | 263 | B-55-  | B-70-  | AGLYTEISKKAMREQF 
+| 1hjz | B | albelig | 7 | 7 | E | 274 | 277 | B-81-  | B-84-  | VVTP 
+| 1hjz | B | albelig | 8 | 8 | H | 279 | 284 | B-86-  | B-91-  | MNLEER 
+| 1hjz | B | albelig | 9 | 9 | E | 288 | 293 | B-95-  | B-100-  | YVFHTV 
+| 1hjz | B | albelig | 10 | 10 | H | 303 | 323 | B-110-  | B-130-  | EELKEKLYKAFLGPLEKAEEM 
+| 1hjz | B | albelig | 11 | 11 | E | 327 | 330 | B-134-  | B-137-  | SIAF 
+| 1hjz | B | albelig | 12 | 12 | H | 342 | 355 | B-149-  | B-162-  | LEKVVETFLEAVKN 
+| 1hjz | B | albelig | 13 | 13 | E | 363 | 368 | B-170-  | B-175-  | EVALVI 
+| 1hjz | B | albelig | 14 | 14 | H | 371 | 384 | B-178-  | B-191-  | RKSAEVALKVFERS 
+| 1hjz | B | albelig | 15 | 15 | L | 387 | 387 | B-1193-  | B-1193-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 14
+= 2 = p = 13
+= 2 = a = 14
+= 4 = m = 5
+= 4 = p = 9
+= 4 = p = 11
+= 4 = l = 15
+= 5 = m = 6
+= 5 = l = 15
+= 6 = m = 7
+= 7 = a = 9
+= 9 = a = 10
+= 10 = m = 12
+= 11 = p = 13
+= 12 = p = 14
+# Listed 16 contacts. EOF.

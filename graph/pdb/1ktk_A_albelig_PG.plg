@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ktk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STREPTOCOCCUS, IMMUNITY, T CELL RECEPTOR BETA, IMMUNE SYSTEM
+> pdb_mol_name > EXOTOXIN TYPE C
+> graphtype > albelig
+> resolution > 3.0
+> date > 16-JAN-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > UNKNOWN
+> title > COMPLEX OF STREPTOCOCCAL PYROGENIC ENTEROTOXIN C (SPEC)WITH A HUMAN T CELL RECEPTOR BETA CHAIN (VBETA2.1)
+> format_version > 2
+> pdbid > 1ktk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ktk | A | albelig | 1 | 1 | H | 5 | 15 | A-7-  | A-17-  | SNVKSDLLYAY 
+| 1ktk | A | albelig | 2 | 2 | E | 20 | 30 | A-22-  | A-32-  | YDYKDCRVNFS 
+| 1ktk | A | albelig | 3 | 3 | E | 34 | 38 | A-36-  | A-40-  | TLNID 
+| 1ktk | A | albelig | 4 | 4 | E | 48 | 52 | A-50-  | A-54-  | YISSE 
+| 1ktk | A | albelig | 5 | 5 | E | 65 | 70 | A-68-  | A-73-  | HVDVFG 
+| 1ktk | A | albelig | 6 | 6 | E | 80 | 83 | A-83-  | A-86-  | GEYI 
+| 1ktk | A | albelig | 7 | 7 | E | 87 | 89 | A-90-  | A-92-  | ITP 
+| 1ktk | A | albelig | 8 | 8 | E | 101 | 105 | A-104-  | A-108-  | GNLFI 
+| 1ktk | A | albelig | 9 | 9 | E | 123 | 125 | A-126-  | A-128-  | IVT 
+| 1ktk | A | albelig | 10 | 10 | H | 126 | 141 | A-129-  | A-144-  | FQEIDFKIRKYLMDNY 
+| 1ktk | A | albelig | 11 | 11 | E | 152 | 159 | A-155-  | A-162-  | SGRIEIGT 
+| 1ktk | A | albelig | 12 | 12 | E | 165 | 168 | A-168-  | A-171-  | EQID 
+| 1ktk | A | albelig | 13 | 13 | H | 178 | 187 | A-181-  | A-190-  | RSDIFAKYKD 
+| 1ktk | A | albelig | 14 | 14 | E | 190 | 192 | A-193-  | A-195-  | IIN 
+| 1ktk | A | albelig | 15 | 15 | H | 193 | 195 | A-196-  | A-198-  | MKN 
+| 1ktk | A | albelig | 16 | 16 | E | 196 | 204 | A-199-  | A-207-  | FSHFDIYLE 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 3 = a = 4
+= 4 = p = 6
+= 5 = a = 7
+= 5 = m = 10
+= 7 = a = 9
+= 8 = p = 16
+= 9 = m = 10
+= 9 = a = 14
+= 10 = m = 13
+= 10 = p = 16
+= 11 = a = 12
+= 11 = a = 16
+= 14 = m = 15
+= 15 = m = 16
+# Listed 16 contacts. EOF.

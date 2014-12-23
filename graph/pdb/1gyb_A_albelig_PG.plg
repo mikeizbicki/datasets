@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gyb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR TRANSPORT
+> pdb_mol_name > NUCLEAR TRANSPORT FACTOR 2
+> graphtype > albelig
+> resolution > 1.9
+> date > 22-APR-02
+> header > NUCLEAR TRANSPORT
+> pdb_org_common > BAKER'S YEAST
+> title > N77Y POINT MUTANT OF YNTF2 BOUND TO FXFG NUCLEOPORIN REPEAT
+> format_version > 2
+> pdbid > 1gyb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gyb | A | albelig | 1 | 1 | H | 3 | 24 | A-5-  | A-26-  | FNTLAQNFTQFYYNQFDTDRSQ 
+| 1gyb | A | albelig | 2 | 2 | H | 26 | 28 | A-28-  | A-30-  | GNL 
+| 1gyb | A | albelig | 3 | 3 | E | 29 | 37 | A-31-  | A-39-  | YRNESMLTF 
+| 1gyb | A | albelig | 4 | 4 | E | 40 | 43 | A-42-  | A-45-  | SQLQ 
+| 1gyb | A | albelig | 5 | 5 | H | 45 | 54 | A-47-  | A-56-  | AKDIVEKLVS 
+| 1gyb | A | albelig | 6 | 6 | E | 60 | 71 | A-62-  | A-73-  | VQHRITTLDAQP 
+| 1gyb | A | albelig | 7 | 7 | E | 78 | 88 | A-80-  | A-90-  | VLVMITGDLLI 
+| 1gyb | A | albelig | 8 | 8 | E | 95 | 106 | A-97-  | A-108-  | QRFSQVFHLIPD 
+| 1gyb | A | albelig | 9 | 9 | E | 109 | 120 | A-111-  | A-122-  | SYYVFNDIFRLN 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = a = 6
+= 1 = a = 8
+= 2 = m = 3
+= 2 = m = 9
+= 3 = a = 4
+= 3 = p = 5
+= 3 = p = 9
+= 4 = m = 5
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+# Listed 12 contacts. EOF.

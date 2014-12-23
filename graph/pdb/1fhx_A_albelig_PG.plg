@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fhx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PLECKSTRIN, 3-PHOSPHOINOSITIDES, INOSITOL TETRAKISPHOSPHATE SIGNALTRANSDUCTION PROTEIN, GUANINE NUCLEOTIDE EXCHANGE FACTOR, SIGNALINGPROTEIN
+> pdb_mol_name > GUANINE NUCLEOTIDE EXCHANGE FACTOR AND INTEGRIN BINDING
+> graphtype > albelig
+> resolution > 2.5
+> date > 02-AUG-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > STRUCTURE OF THE PLECKSTRIN HOMOLOGY DOMAIN FROM GRP1 IN COMPLEX WITHINOSITOL 1,3,4,5-TETRAKISPHOSPHATE
+> format_version > 2
+> pdbid > 1fhx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fhx | A | albelig | 1 | 1 | E | 4 | 11 | A-267-  | A-274-  | REGWLLKL 
+| 1fhx | A | albelig | 2 | 2 | E | 18 | 26 | A-281-  | A-289-  | WKRRWFILT 
+| 1fhx | A | albelig | 3 | 3 | E | 29 | 33 | A-292-  | A-296-  | CLYYF 
+| 1fhx | A | albelig | 4 | 4 | E | 43 | 46 | A-306-  | A-309-  | GIIP 
+| 1fhx | A | albelig | 5 | 5 | E | 51 | 54 | A-314-  | A-317-  | SIRE 
+| 1fhx | A | albelig | 6 | 6 | E | 63 | 67 | A-326-  | A-330-  | CFELY 
+| 1fhx | A | albelig | 7 | 7 | H | 69 | 71 | A-332-  | A-334-  | PSH 
+| 1fhx | A | albelig | 8 | 8 | E | 79 | 81 | A-342-  | A-344-  | AKT 
+| 1fhx | A | albelig | 9 | 9 | E | 87 | 89 | A-350-  | A-352-  | VVE 
+| 1fhx | A | albelig | 10 | 10 | E | 95 | 98 | A-358-  | A-361-  | YRIS 
+| 1fhx | A | albelig | 11 | 11 | H | 102 | 117 | A-365-  | A-380-  | PEEKEEWXKSIKASIS 
+| 1fhx | A | albelig | 12 | 12 | L | 254 | 254 | A-1001-  | A-1001-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 1 = m = 11
+= 1 = l = 12
+= 2 = a = 3
+= 2 = m = 11
+= 2 = l = 12
+= 3 = a = 4
+= 3 = l = 12
+= 4 = a = 8
+= 5 = a = 6
+= 6 = a = 10
+= 8 = a = 9
+= 8 = l = 12
+= 10 = l = 12
+# Listed 15 contacts. EOF.

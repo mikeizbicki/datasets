@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hhc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC, GLYCOPEPTIDE
+> pdb_mol_name > DECAPLANIN
+> graphtype > albelig
+> resolution > 1.13
+> date > 22-DEC-00
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF DECAPLANIN - SPACE GROUP P21, SECOND FORM
+> format_version > 2
+> pdbid > 1hhc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNCULTURED ACTINOMYCETE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hhc | A | albelig | 1 | 1 | L | 56 | 56 | A-8-  | A-8-  | J 
+| 1hhc | A | albelig | 2 | 2 | L | 57 | 57 | A-9-  | A-9-  | J 
+| 1hhc | A | albelig | 3 | 3 | L | 58 | 58 | A-10-  | A-10-  | J 
+| 1hhc | A | albelig | 4 | 4 | L | 69 | 69 | A-1002-  | A-1002-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 3
+= 2 = l = 4
+= 3 = l = 4
+# Listed 3 contacts. EOF.

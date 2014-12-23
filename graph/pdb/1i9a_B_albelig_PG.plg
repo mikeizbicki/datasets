@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i9a, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA PROTEIN, ISOMERASE, MN2+, STRUCTURAL GENOMICS,PSI, PROTEIN STRUCTURE INITIATIVE, NEW YORK SGX RESEARCHCENTER FOR STRUCTURAL GENOMICS, NYSGXRC
+> pdb_mol_name > ISOPENTENYL-DIPHOSPHATE DELTA-ISOMERASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 18-MAR-01
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL STUDIES OF CHOLESTEROL BIOSYNTHESIS: MEVALONATE5-DIPHOSPHATE DECARBOXYLASE AND ISOPENTENYL DIPHOSPHATEISOMERASE
+> format_version > 2
+> pdbid > 1i9a
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i9a | B | albelig | 1 | 1 | E | 181 | 185 | B-1005-  | B-1009-  | HVILL 
+| 1i9a | B | albelig | 2 | 2 | E | 191 | 196 | B-1015-  | B-1020-  | PTGTLE 
+| 1i9a | B | albelig | 3 | 3 | H | 197 | 200 | B-1021-  | B-1024-  | KYAA 
+| 1i9a | B | albelig | 4 | 4 | E | 211 | 216 | B-1035-  | B-1040-  | FSSWLF 
+| 1i9a | B | albelig | 5 | 5 | E | 222 | 227 | B-1046-  | B-1051-  | LLVTRR 
+| 1i9a | B | albelig | 6 | 6 | E | 238 | 240 | B-1062-  | B-1064-  | WTN 
+| 1i9a | B | albelig | 7 | 7 | E | 242 | 244 | B-1066-  | B-1068-  | VCG 
+| 1i9a | B | albelig | 8 | 8 | H | 252 | 264 | B-1076-  | B-1088-  | NEDAVIRRCRYEL 
+| 1i9a | B | albelig | 9 | 9 | E | 272 | 275 | B-1096-  | B-1099-  | ESIY 
+| 1i9a | B | albelig | 10 | 10 | E | 279 | 283 | B-1103-  | B-1107-  | RYRAT 
+| 1i9a | B | albelig | 11 | 11 | E | 289 | 293 | B-1113-  | B-1117-  | VENEV 
+| 1i9a | B | albelig | 12 | 12 | E | 296 | 300 | B-1120-  | B-1124-  | VFAAR 
+| 1i9a | B | albelig | 13 | 13 | E | 312 | 318 | B-1136-  | B-1142-  | VXDYQWC 
+| 1i9a | B | albelig | 14 | 14 | H | 320 | 329 | B-1144-  | B-1153-  | LADVLHGIDA 
+| 1i9a | B | albelig | 15 | 15 | H | 331 | 333 | B-1155-  | B-1157-  | PWA 
+| 1i9a | B | albelig | 16 | 16 | H | 336 | 343 | B-1160-  | B-1167-  | PWXVXQAT 
+| 1i9a | B | albelig | 17 | 17 | H | 345 | 354 | B-1169-  | B-1178-  | REARKRLSAF 
+| 1i9a | B | albelig | 18 | 18 | L | 365 | 365 | B-2001-  | B-2001-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 18
+= 2 = m = 3
+= 4 = a = 5
+= 4 = a = 6
+= 4 = a = 7
+= 4 = p = 8
+= 4 = p = 12
+= 5 = a = 6
+= 5 = a = 13
+= 9 = a = 12
+= 9 = m = 17
+= 10 = a = 11
+= 11 = l = 18
+# Listed 14 contacts. EOF.

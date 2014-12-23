@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h15, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNE SYSTEM/TRANSFERASE, COMPLEX (MHC/ANTIGEN), IMMUNESYSTEM, MHC, HLA, CLASS II, DR2, DRB5, EBV, PEPTIDE, DNAPOLYMERASE, DNA-DIRECTED DNA POLYMERASE
+> pdb_mol_name > HLA CLASS II HISTOCOMPATIBILITY ANTIGEN, DR
+> graphtype > albelig
+> resolution > 3.1
+> date > 02-JUL-02
+> header > IMMUNE SYSTEM/TRANSFERASE
+> pdb_org_common > HUMAN
+> title > X-RAY CRYSTAL STRUCTURE OF HLA-DRA1*0101/DRB5*0101COMPLEXED WITH A PEPTIDE FROM EPSTEIN BARR VIRUS DNAPOLYMERASE
+> format_version > 2
+> pdbid > 1h15
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h15 | D | albelig | 1 | 1 | E | 389 | 398 | D-5-  | D-14-  | HVIIQAEFYL 
+| 1h15 | D | albelig | 2 | 2 | H | 399 | 401 | D-15-  | D-17-  | NPD 
+| 1h15 | D | albelig | 3 | 3 | E | 403 | 410 | D-19-  | D-26-  | SGEFMFDF 
+| 1h15 | D | albelig | 4 | 4 | E | 413 | 419 | D-29-  | D-35-  | DEIFHVD 
+| 1h15 | D | albelig | 5 | 5 | E | 424 | 427 | D-40-  | D-43-  | ETVW 
+| 1h15 | D | albelig | 6 | 6 | H | 430 | 435 | D-46-  | D-51-  | EEFGRF 
+| 1h15 | D | albelig | 7 | 7 | H | 440 | 459 | D-56-  | D-75-  | AQGALANIAVDKANLEIMTK 
+| 1h15 | D | albelig | 8 | 8 | E | 472 | 477 | D-88-  | D-93-  | EVTVLT 
+| 1h15 | D | albelig | 9 | 9 | E | 487 | 496 | D-103-  | D-112-  | NVLIDFIDKF 
+| 1h15 | D | albelig | 10 | 10 | E | 504 | 507 | D-120-  | D-123-  | TWLR 
+| 1h15 | D | albelig | 11 | 11 | E | 529 | 537 | D-145-  | D-153-  | FRKFHYLPF 
+| 1h15 | D | albelig | 12 | 12 | E | 545 | 549 | D-161-  | D-165-  | YDDRV 
+| 1h15 | D | albelig | 13 | 13 | E | 558 | 562 | D-174-  | D-178-  | LLKHW 
+| 1h15 | D | albelig | 14 | 14 | L | 775 | 775 | D-1183-  | D-1183-  | J 
+| 1h15 | D | albelig | 15 | 15 | L | 776 | 776 | D-1184-  | D-1184-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 3
+= 1 = m = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 7
+= 8 = a = 9
+= 8 = p = 13
+= 9 = a = 11
+= 9 = p = 12
+= 10 = a = 11
+= 10 = a = 12
+= 12 = a = 13
+# Listed 13 contacts. EOF.

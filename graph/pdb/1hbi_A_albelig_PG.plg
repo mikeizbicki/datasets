@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hbi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN (OXY)
+> graphtype > albelig
+> resolution > 1.7
+> date > 22-JUN-94
+> header > OXYGEN TRANSPORT
+> pdb_org_common > ARK CLAM
+> title > CRYSTAL STRUCTURE OF OXYGENATED SCAPHARCA DIMERICHEMOGLOBIN AT 1.7 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1hbi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SCAPHARCA INAEQUIVALVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hbi | A | albelig | 1 | 1 | H | 2 | 7 | A-3-  | A-8-  | VYDAAA 
+| 1hbi | A | albelig | 2 | 2 | H | 11 | 24 | A-12-  | A-25-  | ADVKKDLRDSWKVI 
+| 1hbi | A | albelig | 3 | 3 | H | 28 | 42 | A-29-  | A-43-  | KKGNGVALMTTLFAD 
+| 1hbi | A | albelig | 4 | 4 | H | 44 | 53 | A-45-  | A-54-  | QETIGYFKRL 
+| 1hbi | A | albelig | 5 | 5 | H | 56 | 61 | A-57-  | A-62-  | VSQGMA 
+| 1hbi | A | albelig | 6 | 6 | H | 63 | 81 | A-64-  | A-82-  | DKLRGHSITLMYALQNFID 
+| 1hbi | A | albelig | 7 | 7 | H | 86 | 101 | A-87-  | A-102-  | PDDLVCVVEKFAVNHI 
+| 1hbi | A | albelig | 8 | 8 | H | 107 | 113 | A-108-  | A-114-  | AAEFGKI 
+| 1hbi | A | albelig | 9 | 9 | H | 114 | 123 | A-115-  | A-124-  | NGPIKKVLAS 
+| 1hbi | A | albelig | 10 | 10 | H | 128 | 143 | A-129-  | A-144-  | DKYANAWAKLVAVVQA 
+| 1hbi | A | albelig | 11 | 11 | L | 292 | 292 | A-153-  | A-153-  | J 
+| 1hbi | A | albelig | 12 | 12 | L | 293 | 293 | A-154-  | A-154-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 6
+= 2 = m = 10
+= 3 = m = 4
+= 3 = a = 5
+= 3 = m = 6
+= 3 = m = 9
+= 3 = l = 11
+= 3 = l = 12
+= 4 = m = 8
+= 4 = l = 11
+= 4 = l = 12
+= 6 = m = 7
+= 6 = l = 11
+= 6 = l = 12
+= 7 = l = 11
+= 7 = l = 12
+= 8 = m = 9
+= 8 = l = 11
+= 9 = m = 10
+= 9 = l = 11
+= 10 = l = 11
+= 11 = l = 12
+# Listed 22 contacts. EOF.

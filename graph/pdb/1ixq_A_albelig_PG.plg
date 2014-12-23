@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ixq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TIM BARREL, ENZYME-LIGAND COMPLEX, OPEN-CLOSED TRANSITION,BIOSYNTHETIC PROTEIN
+> pdb_mol_name > PYRIDOXINE 5'-PHOSPHATE SYNTHASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 28-JUN-02
+> header > BIOSYNTHETIC PROTEIN
+> pdb_org_common > UNKNOWN
+> title > ENZYME-PHOSPHATE2 COMPLEX OF PYRIDOXINE 5'-PHOSPHATE SYNTHASE
+> format_version > 2
+> pdbid > 1ixq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ixq | A | albelig | 1 | 1 | E | 4 | 8 | A-5-  | A-9-  | LLGVN 
+| 1ixq | A | albelig | 2 | 2 | H | 10 | 17 | A-11-  | A-18-  | DHIATLRN 
+| 1ixq | A | albelig | 3 | 3 | H | 26 | 34 | A-27-  | A-35-  | PVQAAFIAE 
+| 1ixq | A | albelig | 4 | 4 | E | 40 | 44 | A-41-  | A-45-  | GITVH 
+| 1ixq | A | albelig | 5 | 5 | H | 54 | 63 | A-55-  | A-64-  | DRDVRILRQT 
+| 1ixq | A | albelig | 6 | 6 | E | 68 | 73 | A-69-  | A-74-  | MNLEMA 
+| 1ixq | A | albelig | 7 | 7 | H | 76 | 85 | A-77-  | A-86-  | EEMLAIAVET 
+| 1ixq | A | albelig | 8 | 8 | E | 89 | 93 | A-90-  | A-94-  | FCCLV 
+| 1ixq | A | albelig | 9 | 9 | H | 103 | 118 | A-110-  | A-125-  | AGQRDKMRDACKRLAD 
+| 1ixq | A | albelig | 10 | 10 | E | 122 | 127 | A-129-  | A-134-  | QVSLFI 
+| 1ixq | A | albelig | 11 | 11 | H | 131 | 140 | A-138-  | A-147-  | EEQIKAAAEV 
+| 1ixq | A | albelig | 12 | 12 | E | 144 | 147 | A-151-  | A-154-  | FIEI 
+| 1ixq | A | albelig | 13 | 13 | H | 150 | 153 | A-157-  | A-160-  | GCYA 
+| 1ixq | A | albelig | 14 | 14 | H | 158 | 177 | A-165-  | A-184-  | DAEQAQELARIAKAATFAAS 
+| 1ixq | A | albelig | 15 | 15 | E | 181 | 185 | A-188-  | A-192-  | KVNAG 
+| 1ixq | A | albelig | 16 | 16 | H | 193 | 198 | A-200-  | A-205-  | VKAIAA 
+| 1ixq | A | albelig | 17 | 17 | E | 202 | 207 | A-209-  | A-214-  | MHELNI 
+| 1ixq | A | albelig | 18 | 18 | H | 209 | 218 | A-216-  | A-225-  | HAIIGRAVMT 
+| 1ixq | A | albelig | 19 | 19 | H | 220 | 235 | A-227-  | A-242-  | LKDAVAEMKRLMLEAR 
+| 1ixq | A | albelig | 20 | 20 | L | 948 | 948 | A-1001-  | A-1001-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 17
+= 1 = l = 20
+= 3 = m = 19
+= 4 = p = 6
+= 6 = m = 7
+= 6 = p = 8
+= 8 = p = 10
+= 9 = p = 11
+= 10 = p = 12
+= 12 = p = 15
+= 13 = m = 14
+= 15 = p = 17
+= 15 = l = 20
+= 16 = m = 19
+= 17 = l = 20
+= 18 = m = 19
+= 18 = l = 20
+# Listed 18 contacts. EOF.

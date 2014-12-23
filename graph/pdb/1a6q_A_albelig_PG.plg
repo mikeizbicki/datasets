@@ -1,0 +1,82 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a6q, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CATALYTIC MECHANISM, METALLOENZYME, PROTEIN PHOSPHATASE 2C, SIGNALTRANSDUCTUIN, HYDROLASE
+> pdb_mol_name > PHOSPHATASE 2C
+> graphtype > albelig
+> resolution > 2.0
+> date > 27-FEB-98
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE PROTEIN SERINE/THREONINE PHOSPHATASE 2C AT 2A RESOLUTION
+> format_version > 2
+> pdbid > 1a6q
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a6q | A | albelig | 1 | 1 | E | 8 | 18 | A-9-  | A-19-  | KMEKHNAQGQG 
+| 1a6q | A | albelig | 2 | 2 | E | 21 | 30 | A-22-  | A-31-  | LRYGLSSMQG 
+| 1a6q | A | albelig | 3 | 3 | E | 37 | 45 | A-38-  | A-46-  | DAHTAVIGL 
+| 1a6q | A | albelig | 4 | 4 | E | 49 | 61 | A-50-  | A-62-  | LESWSFFAVYDGH 
+| 1a6q | A | albelig | 5 | 5 | H | 65 | 79 | A-66-  | A-80-  | QVAKYCCEHLLDHIT 
+| 1a6q | A | albelig | 6 | 6 | H | 82 | 85 | A-83-  | A-86-  | QDFK 
+| 1a6q | A | albelig | 7 | 7 | H | 93 | 117 | A-94-  | A-118-  | VENVKNGIRTGFLEIDEHMRVMSEK 
+| 1a6q | A | albelig | 8 | 8 | E | 128 | 133 | A-129-  | A-134-  | AVGVLI 
+| 1a6q | A | albelig | 9 | 9 | E | 137 | 143 | A-138-  | A-144-  | HTYFINC 
+| 1a6q | A | albelig | 10 | 10 | E | 147 | 152 | A-148-  | A-153-  | RGLLCR 
+| 1a6q | A | albelig | 11 | 11 | E | 155 | 159 | A-156-  | A-160-  | KVHFF 
+| 1a6q | A | albelig | 12 | 12 | H | 168 | 176 | A-169-  | A-177-  | PLEKERIQN 
+| 1a6q | A | albelig | 13 | 13 | H | 199 | 201 | A-200-  | A-202-  | FDY 
+| 1a6q | A | albelig | 14 | 14 | H | 209 | 211 | A-210-  | A-212-  | PTE 
+| 1a6q | A | albelig | 15 | 15 | E | 219 | 224 | A-220-  | A-225-  | EVHDIE 
+| 1a6q | A | albelig | 16 | 16 | E | 230 | 236 | A-231-  | A-237-  | DQFIILA 
+| 1a6q | A | albelig | 17 | 17 | H | 238 | 241 | A-239-  | A-242-  | DGIW 
+| 1a6q | A | albelig | 18 | 18 | H | 246 | 257 | A-247-  | A-258-  | NEELCDFVRSRL 
+| 1a6q | A | albelig | 19 | 19 | H | 263 | 276 | A-264-  | A-277-  | LEKVCNEVVDTCLY 
+| 1a6q | A | albelig | 20 | 20 | E | 283 | 289 | A-284-  | A-290-  | MSVILIC 
+| 1a6q | A | albelig | 21 | 21 | H | 298 | 318 | A-299-  | A-319-  | PEAVKKEAELDKYLECRVEEI 
+| 1a6q | A | albelig | 22 | 22 | H | 326 | 335 | A-330-  | A-339-  | LVHVMRTLAS 
+| 1a6q | A | albelig | 23 | 23 | H | 346 | 361 | A-350-  | A-365-  | ELASKRNVIEAVYNRL 
+| 1a6q | A | albelig | 24 | 24 | L | 365 | 365 | A-383-  | A-383-  | J 
+| 1a6q | A | albelig | 25 | 25 | L | 366 | 366 | A-384-  | A-384-  | J 
+| 1a6q | A | albelig | 26 | 26 | L | 367 | 367 | A-701-  | A-701-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 19
+= 2 = p = 19
+= 2 = a = 20
+= 3 = a = 4
+= 3 = p = 5
+= 3 = p = 20
+= 3 = l = 24
+= 3 = l = 25
+= 4 = a = 5
+= 4 = a = 8
+= 4 = a = 16
+= 4 = a = 20
+= 4 = l = 24
+= 4 = l = 25
+= 4 = l = 26
+= 5 = a = 7
+= 7 = p = 9
+= 8 = a = 9
+= 9 = a = 10
+= 9 = a = 15
+= 10 = a = 11
+= 10 = a = 16
+= 11 = m = 18
+= 16 = m = 18
+= 16 = a = 20
+= 17 = l = 24
+= 18 = a = 19
+= 19 = a = 20
+= 19 = m = 23
+= 21 = p = 23
+= 22 = a = 23
+= 24 = l = 25
+= 24 = l = 26
+= 25 = l = 26
+# Listed 35 contacts. EOF.

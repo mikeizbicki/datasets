@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1juo, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM-BINDING PROTEINS, PENTA-EF-HAND, PEF, X-RAY, METALTRANSPORT
+> pdb_mol_name > SORCIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 24-AUG-01
+> header > METAL TRANSPORT
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF CALCIUM-FREE HUMAN SORCIN: A MEMBER OFTHE PENTA-EF-HAND PROTEIN FAMILY
+> format_version > 2
+> pdbid > 1juo
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1juo | B | albelig | 1 | 1 | H | 183 | 190 | B-36-  | B-43-  | YGYFAAVA 
+| 1juo | B | albelig | 2 | 2 | H | 198 | 207 | B-51-  | B-60-  | ADELQRCLTQ 
+| 1juo | B | albelig | 3 | 3 | H | 219 | 229 | B-72-  | B-82-  | LETCRLMVSML 
+| 1juo | B | albelig | 4 | 4 | H | 239 | 259 | B-92-  | B-112-  | FNEFKELWAVLNGWRQHFISF 
+| 1juo | B | albelig | 5 | 5 | H | 269 | 278 | B-122-  | B-131-  | PQELQKALTT 
+| 1juo | B | albelig | 6 | 6 | H | 285 | 294 | B-138-  | B-147-  | PQAVNSIAKR 
+| 1juo | B | albelig | 7 | 7 | H | 303 | 323 | B-156-  | B-176-  | FDDYIACCVKLRALTDSFRRR 
+| 1juo | B | albelig | 8 | 8 | E | 330 | 334 | B-183-  | B-187-  | VVNFP 
+| 1juo | B | albelig | 9 | 9 | H | 335 | 343 | B-188-  | B-196-  | YDDFIQCVM 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 2 = m = 3
+= 3 = m = 4
+= 3 = p = 7
+= 4 = m = 5
+= 4 = a = 7
+= 7 = m = 8
+= 8 = m = 9
+# Listed 9 contacts. EOF.

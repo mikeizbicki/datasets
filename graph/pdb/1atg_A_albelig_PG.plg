@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1atg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLYBDATE, TUNGSTATE, BINDING PROTEIN, PERIPLASM, ABCTRANSPORTER
+> pdb_mol_name > PERIPLASMIC MOLYBDATE-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 1.2
+> date > 14-AUG-97
+> header > BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > AZOTOBACTER VINELANDII PERIPLASMIC MOLYBDATE-BINDING PROTEIN
+> format_version > 2
+> pdbid > 1atg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AZOTOBACTER VINELANDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1atg | A | albelig | 1 | 1 | E | 2 | 7 | A-3-  | A-8-  | LKVVTA 
+| 1atg | A | albelig | 2 | 2 | H | 8 | 25 | A-9-  | A-26-  | TNFLGTLEQLAGQFAKQT 
+| 1atg | A | albelig | 3 | 3 | E | 29 | 34 | A-30-  | A-35-  | VVISSG 
+| 1atg | A | albelig | 4 | 4 | H | 36 | 44 | A-37-  | A-45-  | SGPVYAQIV 
+| 1atg | A | albelig | 5 | 5 | E | 51 | 53 | A-52-  | A-54-  | VFF 
+| 1atg | A | albelig | 6 | 6 | H | 58 | 65 | A-59-  | A-66-  | KSPEKLDN 
+| 1atg | A | albelig | 7 | 7 | E | 75 | 79 | A-76-  | A-80-  | FTYAI 
+| 1atg | A | albelig | 8 | 8 | E | 82 | 86 | A-83-  | A-87-  | LVLWS 
+| 1atg | A | albelig | 9 | 9 | H | 97 | 100 | A-98-  | A-101-  | KVLA 
+| 1atg | A | albelig | 10 | 10 | E | 107 | 110 | A-108-  | A-111-  | IAIS 
+| 1atg | A | albelig | 11 | 11 | H | 116 | 127 | A-117-  | A-128-  | PYGLAGTQVLTH 
+| 1atg | A | albelig | 12 | 12 | H | 131 | 136 | A-132-  | A-137-  | LDKLTA 
+| 1atg | A | albelig | 13 | 13 | E | 140 | 143 | A-141-  | A-144-  | IVEA 
+| 1atg | A | albelig | 14 | 14 | H | 146 | 154 | A-147-  | A-155-  | VGQAHSQTA 
+| 1atg | A | albelig | 15 | 15 | E | 160 | 164 | A-161-  | A-165-  | LGFVA 
+| 1atg | A | albelig | 16 | 16 | H | 165 | 167 | A-166-  | A-168-  | LAQ 
+| 1atg | A | albelig | 17 | 17 | E | 178 | 180 | A-179-  | A-181-  | SHW 
+| 1atg | A | albelig | 18 | 18 | H | 184 | 186 | A-185-  | A-187-  | ANY 
+| 1atg | A | albelig | 19 | 19 | E | 191 | 196 | A-192-  | A-197-  | VQQAVI 
+| 1atg | A | albelig | 20 | 20 | H | 203 | 212 | A-204-  | A-213-  | KANAEQFMSW 
+| 1atg | A | albelig | 21 | 21 | H | 216 | 224 | A-217-  | A-225-  | PKAVAIIKA 
+| 1atg | A | albelig | 22 | 22 | L | 232 | 232 | A-250-  | A-250-  | J 
+| 1atg | A | albelig | 23 | 23 | L | 233 | 233 | A-301-  | A-301-  | J 
+| 1atg | A | albelig | 24 | 24 | L | 234 | 234 | A-451-  | A-451-  | J 
+| 1atg | A | albelig | 25 | 25 | L | 235 | 235 | A-401-  | A-401-  | J 
+| 1atg | A | albelig | 26 | 26 | L | 236 | 236 | A-402-  | A-402-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = p = 5
+= 1 = l = 22
+= 1 = l = 26
+= 2 = a = 3
+= 2 = m = 20
+= 2 = m = 21
+= 2 = l = 22
+= 2 = l = 25
+= 3 = l = 22
+= 3 = l = 26
+= 4 = m = 6
+= 4 = l = 22
+= 4 = l = 26
+= 5 = a = 19
+= 7 = a = 19
+= 8 = m = 14
+= 8 = a = 15
+= 8 = a = 17
+= 10 = m = 11
+= 10 = p = 13
+= 10 = m = 14
+= 10 = p = 15
+= 10 = l = 22
+= 11 = l = 22
+= 14 = m = 15
+= 14 = m = 16
+= 14 = l = 22
+= 14 = l = 24
+= 15 = m = 16
+= 16 = l = 25
+= 19 = m = 20
+= 21 = l = 25
+# Listed 34 contacts. EOF.

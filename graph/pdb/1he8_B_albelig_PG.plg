@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1he8, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE/HYDROLASE, COMPLEX (PHOSPHOINOSITIDE KINASE/RAS),PHOSPHOINOSITIDE 3-KINASE GAMMA - H-RAS G12V COMPLEX,PHOSPHATIDYLINOSITOL 3-KINASE, PI3K, PI 3-K, PI 3-KINASE,SECOND MESSENGER GENERATION, RAS EFFECTOR, H-RAS G12V,ONCOGENE PROTEIN, GMPPNP, GTP, RAS-BINDING DOMAIN, HEATDOMAIN
+> pdb_mol_name > TRANSFORMING PROTEIN P21/H-RAS-1
+> graphtype > albelig
+> resolution > 3.0
+> date > 20-NOV-00
+> header > KINASE/HYDROLASE
+> pdb_org_common > HUMAN
+> title > RAS G12V - PI 3-KINASE GAMMA COMPLEX
+> format_version > 2
+> pdbid > 1he8
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1he8 | B | albelig | 1 | 1 | E | 762 | 769 | B-3-  | B-10-  | EYKLVVVG 
+| 1he8 | B | albelig | 2 | 2 | H | 775 | 784 | B-16-  | B-25-  | KSALTIQLIQ 
+| 1he8 | B | albelig | 3 | 3 | E | 797 | 803 | B-38-  | B-44-  | DSYRKQV 
+| 1he8 | B | albelig | 4 | 4 | E | 810 | 816 | B-51-  | B-57-  | CLLDILD 
+| 1he8 | B | albelig | 5 | 5 | H | 821 | 833 | B-62-  | B-74-  | EEYSAMRDQYMRT 
+| 1he8 | B | albelig | 6 | 6 | E | 836 | 842 | B-77-  | B-83-  | GFLCVFA 
+| 1he8 | B | albelig | 7 | 7 | H | 846 | 862 | B-87-  | B-103-  | TKSFEDIHQYREQIKRV 
+| 1he8 | B | albelig | 8 | 8 | E | 870 | 875 | B-111-  | B-116-  | MVLVGN 
+| 1he8 | B | albelig | 9 | 9 | H | 886 | 896 | B-127-  | B-137-  | SRQAQDLARSY 
+| 1he8 | B | albelig | 10 | 10 | E | 900 | 902 | B-141-  | B-143-  | YIE 
+| 1he8 | B | albelig | 11 | 11 | H | 911 | 923 | B-152-  | B-164-  | VEDAFYTLVREIR 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 1 = p = 6
+= 1 = m = 11
+= 2 = m = 11
+= 3 = a = 4
+= 5 = m = 7
+= 6 = a = 7
+= 6 = p = 8
+= 6 = m = 11
+= 7 = p = 9
+= 8 = p = 10
+# Listed 12 contacts. EOF.

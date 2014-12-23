@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f0s, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, HYDROLASE
+> pdb_mol_name > COAGULATION FACTOR XA
+> graphtype > albelig
+> resolution > 2.1
+> date > 17-MAY-00
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN COAGULATION FACTOR XA COMPLEXEDWITH RPR208707
+> format_version > 2
+> pdbid > 1f0s
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f0s | A | albelig | 1 | 1 | E | 15 | 20 | A-30-  | A-35-  | QALLIN 
+| 1f0s | A | albelig | 2 | 2 | E | 25 | 31 | A-40-  | A-46-  | GFNGGTI 
+| 1f0s | A | albelig | 3 | 3 | E | 36 | 39 | A-51-  | A-54-  | YILT 
+| 1f0s | A | albelig | 4 | 4 | H | 41 | 45 | A-56-  | A-60-  | AHNLY 
+| 1f0s | A | albelig | 5 | 5 | E | 50 | 54 | A-64-  | A-68-  | FKVRV 
+| 1f0s | A | albelig | 6 | 6 | E | 67 | 76 | A-81-  | A-90-  | AVHEVEVVIK 
+| 1f0s | A | albelig | 7 | 7 | E | 90 | 94 | A-104-  | A-108-  | AVLRL 
+| 1f0s | A | albelig | 8 | 8 | H | 112 | 119 | A-125-  | A-131-A | RDWAESTL 
+| 1f0s | A | albelig | 9 | 9 | E | 124 | 129 | A-135-  | A-140-  | TGIVSG 
+| 1f0s | A | albelig | 10 | 10 | E | 144 | 149 | A-156-  | A-161-  | KMLEVP 
+| 1f0s | A | albelig | 11 | 11 | H | 153 | 159 | A-165-  | A-171-  | RNSDKLS 
+| 1f0s | A | albelig | 12 | 12 | E | 168 | 171 | A-180-  | A-183-  | MFDA 
+| 1f0s | A | albelig | 13 | 13 | E | 188 | 192 | A-198-  | A-202-  | PHVTR 
+| 1f0s | A | albelig | 14 | 14 | E | 197 | 206 | A-207-  | A-216-  | YFVTGIVSWG 
+| 1f0s | A | albelig | 15 | 15 | E | 216 | 220 | A-226-  | A-230-  | GIYTK 
+| 1f0s | A | albelig | 16 | 16 | H | 221 | 231 | A-231-  | A-241-  | VTAFLKWIDRS 
+| 1f0s | A | albelig | 17 | 17 | L | 287 | 287 | A-301-  | A-301-  | J 
+| 1f0s | A | albelig | 18 | 18 | L | 288 | 288 | A-401-  | A-401-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 8 = m = 16
+= 9 = a = 10
+= 9 = a = 13
+= 11 = m = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 14 = m = 16
+= 14 = l = 18
+= 15 = m = 16
+# Listed 16 contacts. EOF.

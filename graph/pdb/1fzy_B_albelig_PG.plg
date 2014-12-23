@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fzy, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA ROLL, LIGASE
+> pdb_mol_name > UBIQUITIN-CONJUGATING ENZYME E2-24 KDA
+> graphtype > albelig
+> resolution > 1.9
+> date > 04-OCT-00
+> header > LIGASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF SACCHAROMYCES CEREVISIAE UBIQUITINCONJUGATING ENZYME 1
+> format_version > 2
+> pdbid > 1fzy
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fzy | B | albelig | 1 | 1 | H | 152 | 164 | B-3-  | B-15-  | RAKRIMKEIQAVK 
+| 1fzy | B | albelig | 2 | 2 | H | 167 | 169 | B-18-  | B-20-  | PAA 
+| 1fzy | B | albelig | 3 | 3 | E | 172 | 175 | B-23-  | B-26-  | TLEF 
+| 1fzy | B | albelig | 4 | 4 | E | 183 | 189 | B-34-  | B-40-  | HLKGTFL 
+| 1fzy | B | albelig | 5 | 5 | E | 200 | 206 | B-51-  | B-57-  | KFVVDIE 
+| 1fzy | B | albelig | 6 | 6 | E | 217 | 220 | B-68-  | B-71-  | KMQF 
+| 1fzy | B | albelig | 7 | 7 | H | 239 | 241 | B-90-  | B-92-  | DIL 
+| 1fzy | B | albelig | 8 | 8 | H | 251 | 263 | B-102-  | B-114-  | LKSALISLQALLQ 
+| 1fzy | B | albelig | 9 | 9 | H | 273 | 281 | B-124-  | B-132-  | AEVAQHYLR 
+| 1fzy | B | albelig | 10 | 10 | H | 283 | 298 | B-134-  | B-149-  | RESFNKTAALWTRLYA 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 8
+= 3 = a = 4
+= 4 = a = 5
+= 4 = m = 8
+= 5 = a = 6
+= 9 = m = 10
+# Listed 7 contacts. EOF.

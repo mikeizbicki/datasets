@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1brm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CRYSTAL STRUCTURE, DEHYDROGENASE, ESCHERICHIA COLI, ENZYME,NADP, OXIDOREDUCTASE
+> pdb_mol_name > ASPARTATE-SEMIALDEHYDE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 24-AUG-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > ASPARTATE BETA-SEMIALDEHYDE DEHYDROGENASE FROM ESCHERICHIACOLI
+> format_version > 2
+> pdbid > 1brm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1brm | A | albelig | 1 | 1 | E | 2 | 7 | A-2-  | A-7-  | KNVGFI 
+| 1brm | A | albelig | 2 | 2 | H | 12 | 23 | A-12-  | A-23-  | MVGSVLMQRMVE 
+| 1brm | A | albelig | 3 | 3 | E | 30 | 34 | A-30-  | A-34-  | IRPVF 
+| 1brm | A | albelig | 4 | 4 | H | 37 | 39 | A-37-  | A-39-  | TSQ 
+| 1brm | A | albelig | 5 | 5 | H | 60 | 64 | A-60-  | A-64-  | LEALK 
+| 1brm | A | albelig | 6 | 6 | E | 68 | 71 | A-68-  | A-71-  | IIVT 
+| 1brm | A | albelig | 7 | 7 | H | 75 | 86 | A-75-  | A-86-  | GDYTNEIYPKLR 
+| 1brm | A | albelig | 8 | 8 | E | 93 | 96 | A-93-  | A-96-  | YWID 
+| 1brm | A | albelig | 9 | 9 | E | 107 | 110 | A-107-  | A-110-  | AIII 
+| 1brm | A | albelig | 10 | 10 | H | 112 | 124 | A-112-  | A-124-  | DPVNQDVITDGLN 
+| 1brm | A | albelig | 11 | 11 | E | 129 | 132 | A-129-  | A-132-  | TFVG 
+| 1brm | A | albelig | 12 | 12 | H | 135 | 148 | A-135-  | A-148-  | CTVSLMLMSLGGLF 
+| 1brm | A | albelig | 13 | 13 | E | 153 | 162 | A-153-  | A-162-  | VDWVSVATYQ 
+| 1brm | A | albelig | 14 | 14 | H | 169 | 185 | A-169-  | A-185-  | ARHMRELLTQMGHLYGH 
+| 1brm | A | albelig | 15 | 15 | H | 187 | 191 | A-187-  | A-191-  | ADELA 
+| 1brm | A | albelig | 16 | 16 | H | 197 | 210 | A-197-  | A-210-  | ILDIERKVTTLTRS 
+| 1brm | A | albelig | 17 | 17 | H | 236 | 242 | A-246-  | A-252-  | QAETNKI 
+| 1brm | A | albelig | 18 | 18 | E | 251 | 257 | A-261-  | A-267-  | VDGLCVR 
+| 1brm | A | albelig | 19 | 19 | E | 263 | 272 | A-273-  | A-282-  | CHSQAFTIKL 
+| 1brm | A | albelig | 20 | 20 | H | 278 | 288 | A-288-  | A-298-  | IPTVEELLAAH 
+| 1brm | A | albelig | 21 | 21 | H | 299 | 305 | A-309-  | A-315-  | REITMRE 
+| 1brm | A | albelig | 22 | 22 | H | 308 | 311 | A-318-  | A-321-  | PAAV 
+| 1brm | A | albelig | 23 | 23 | E | 319 | 324 | A-329-  | A-334-  | VGRLRK 
+| 1brm | A | albelig | 24 | 24 | E | 331 | 339 | A-341-  | A-349-  | FLSAFTVGD 
+| 1brm | A | albelig | 25 | 25 | H | 342 | 356 | A-352-  | A-366-  | LWGAAEPLRRMLRQL 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 6
+= 2 = m = 25
+= 5 = m = 7
+= 6 = p = 8
+= 7 = m = 8
+= 8 = p = 11
+= 8 = m = 25
+= 9 = m = 10
+= 9 = p = 11
+= 10 = p = 25
+= 12 = p = 19
+= 12 = m = 20
+= 12 = a = 24
+= 13 = p = 18
+= 13 = a = 19
+= 14 = m = 16
+= 19 = a = 24
+= 22 = m = 24
+= 23 = a = 24
+= 24 = m = 25
+# Listed 21 contacts. EOF.

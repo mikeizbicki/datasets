@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ksg, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SMALL GTPASE, SMALL GTP-BINDING PROTEIN, ARF FAMILY,EFFECTOR MOLECULE, IMMUNOGLOBULINE-LIKE FOLD, GDI,SIGNALING PROTEIN/HYDROLASE COMPLEX
+> pdb_mol_name > RETINAL ROD RHODOPSIN-SENSITIVE CGMP 3',5'-
+> graphtype > albelig
+> resolution > 2.3
+> date > 13-JAN-02
+> header > SIGNALING PROTEIN/HYDROLASE
+> pdb_org_common > HUMAN
+> title > COMPLEX OF ARL2 AND PDE DELTA, CRYSTAL FORM 1
+> format_version > 2
+> pdbid > 1ksg
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ksg | B | albelig | 1 | 1 | H | 184 | 192 | B-6-  | B-14-  | ERAREILRG 
+| 1ksg | B | albelig | 2 | 2 | E | 193 | 202 | B-15-  | B-24-  | FKLNWMNLRD 
+| 1ksg | B | albelig | 3 | 3 | E | 207 | 212 | B-29-  | B-34-  | KILWQG 
+| 1ksg | B | albelig | 4 | 4 | H | 229 | 233 | B-51-  | B-55-  | KKILK 
+| 1ksg | B | albelig | 5 | 5 | E | 237 | 245 | B-59-  | B-67-  | VSRELNFSS 
+| 1ksg | B | albelig | 6 | 6 | E | 249 | 258 | B-71-  | B-80-  | MEKFRLEQKV 
+| 1ksg | B | albelig | 7 | 7 | E | 266 | 275 | B-88-  | B-97-  | EEWFFEFGFV 
+| 1ksg | B | albelig | 8 | 8 | E | 279 | 286 | B-101-  | B-108-  | STNTWQSL 
+| 1ksg | B | albelig | 9 | 9 | E | 290 | 295 | B-130-  | B-135-  | ETKFFD 
+| 1ksg | B | albelig | 10 | 10 | E | 298 | 304 | B-138-  | B-144-  | LLVSTSR 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 5
+= 2 = a = 3
+= 2 = a = 5
+= 2 = p = 10
+= 5 = a = 8
+= 6 = a = 7
+= 6 = a = 9
+= 9 = a = 10
+# Listed 9 contacts. EOF.

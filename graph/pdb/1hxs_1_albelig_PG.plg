@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hxs, chain 1.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PICORNAVIRUS, POLIOVIRUS, COAT PROTEIN, AB INITIO PHASE DETERMINAION,ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > GENOME POLYPROTEIN, COAT PROTEIN VP1
+> graphtype > albelig
+> resolution > 2.2
+> date > 16-JAN-01
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF MAHONEY STRAIN OF POLIOVIRUS AT 2.2A RESOLUTION
+> format_version > 2
+> pdbid > 1hxs
+> experiment > X-RAY DIFFRACTION
+> chainid > 1
+> graphclass > protein graph
+> pdb_org_sci > HUMAN POLIOVIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hxs | 1 | albelig | 1 | 1 | E | 2 | 4 | 1-7-  | 1-9-  | SSS 
+| 1hxs | 1 | albelig | 2 | 2 | H | 34 | 36 | 1-47-  | 1-49-  | VET 
+| 1hxs | 1 | albelig | 3 | 3 | H | 44 | 46 | 1-57-  | 1-59-  | PSD 
+| 1hxs | 1 | albelig | 4 | 4 | H | 60 | 62 | 1-73-  | 1-75-  | SES 
+| 1hxs | 1 | albelig | 5 | 5 | H | 64 | 68 | 1-77-  | 1-81-  | IESFF 
+| 1hxs | 1 | albelig | 6 | 6 | E | 72 | 81 | 1-85-  | 1-94-  | ACVTIMTVDN 
+| 1hxs | 1 | albelig | 7 | 7 | E | 93 | 96 | 1-106-  | 1-109-  | AVWK 
+| 1hxs | 1 | albelig | 8 | 8 | H | 104 | 109 | 1-117-  | 1-122-  | QLRRKL 
+| 1hxs | 1 | albelig | 9 | 9 | E | 112 | 129 | 1-125-  | 1-142-  | FTYSRFDMELTFVVTANF 
+| 1hxs | 1 | albelig | 10 | 10 | E | 141 | 147 | 1-154-  | 1-160-  | VYQIMYV 
+| 1hxs | 1 | albelig | 11 | 11 | H | 160 | 163 | 1-173-  | 1-176-  | YTWQ 
+| 1hxs | 1 | albelig | 12 | 12 | E | 169 | 173 | 1-182-  | 1-186-  | SIFYT 
+| 1hxs | 1 | albelig | 13 | 13 | E | 179 | 183 | 1-192-  | 1-196-  | ARISV 
+| 1hxs | 1 | albelig | 14 | 14 | H | 220 | 222 | 1-233-  | 1-235-  | SLN 
+| 1hxs | 1 | albelig | 15 | 15 | E | 226 | 231 | 1-239-  | 1-244-  | ILAVRV 
+| 1hxs | 1 | albelig | 16 | 16 | E | 240 | 258 | 1-253-  | 1-271-  | VTSKIRVYLKPKHIRVWCP 
+| 1hxs | 1 | albelig | 17 | 17 | L | 864 | 864 | 1-2000-  | 1-2000-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = m = 8
+= 5 = m = 16
+= 6 = a = 7
+= 6 = p = 15
+= 6 = a = 16
+= 7 = a = 15
+= 9 = a = 13
+= 9 = a = 16
+= 9 = l = 17
+= 10 = a = 12
+= 10 = a = 15
+= 10 = l = 17
+= 11 = m = 15
+= 12 = l = 17
+= 13 = l = 17
+= 14 = l = 17
+= 15 = l = 17
+= 16 = l = 17
+# Listed 18 contacts. EOF.

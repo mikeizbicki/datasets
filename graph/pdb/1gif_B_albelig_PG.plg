@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gif, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MACROPHAGE, INFLAMMATORY RESPONSE, CYTOKINE
+> pdb_mol_name > GLYCOSYLATION-INHIBITING FACTOR
+> graphtype > albelig
+> resolution > 1.9
+> date > 27-FEB-96
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > HUMAN GLYCOSYLATION-INHIBITING FACTOR
+> format_version > 2
+> pdbid > 1gif
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gif | B | albelig | 1 | 1 | E | 119 | 124 | B-3-  | B-8-  | MFIVNT 
+| 1gif | B | albelig | 2 | 2 | H | 128 | 130 | B-12-  | B-14-  | RAS 
+| 1gif | B | albelig | 3 | 3 | H | 135 | 147 | B-19-  | B-31-  | FLSELTQQLAQAT 
+| 1gif | B | albelig | 4 | 4 | H | 151 | 153 | B-35-  | B-37-  | PQY 
+| 1gif | B | albelig | 5 | 5 | E | 155 | 159 | B-39-  | B-43-  | AVHVV 
+| 1gif | B | albelig | 6 | 6 | E | 163 | 166 | B-47-  | B-50-  | LMAF 
+| 1gif | B | albelig | 7 | 7 | E | 174 | 180 | B-58-  | B-64-  | ALCSLHS 
+| 1gif | B | albelig | 8 | 8 | H | 186 | 204 | B-70-  | B-88-  | GAQNRSYSKLLCGLLAERL 
+| 1gif | B | albelig | 9 | 9 | H | 208 | 210 | B-92-  | B-94-  | PDR 
+| 1gif | B | albelig | 10 | 10 | E | 211 | 217 | B-95-  | B-101-  | VYINYYD 
+| 1gif | B | albelig | 11 | 11 | H | 220 | 222 | B-104-  | B-106-  | AAN 
+| 1gif | B | albelig | 12 | 12 | E | 223 | 225 | B-107-  | B-109-  | VGW 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = a = 7
+= 3 = a = 8
+= 7 = p = 10
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+# Listed 7 contacts. EOF.

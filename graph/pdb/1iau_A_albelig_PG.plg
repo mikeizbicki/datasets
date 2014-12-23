@@ -1,0 +1,78 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iau, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > GRANZYME B
+> graphtype > albelig
+> resolution > 2.0
+> date > 23-MAR-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > HUMAN GRANZYME B IN COMPLEX WITH AC-IEPD-CHO
+> format_version > 2
+> pdbid > 1iau
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iau | A | albelig | 1 | 1 | E | 15 | 21 | A-30-  | A-36-  | MAYLMIW 
+| 1iau | A | albelig | 2 | 2 | E | 26 | 35 | A-39-  | A-48-  | LKRAGGFLIR 
+| 1iau | A | albelig | 3 | 3 | E | 38 | 41 | A-51-  | A-54-  | FVLT 
+| 1iau | A | albelig | 4 | 4 | H | 43 | 45 | A-56-  | A-58-  | AHA 
+| 1iau | A | albelig | 5 | 5 | E | 49 | 54 | A-63-  | A-68-  | SINVTL 
+| 1iau | A | albelig | 6 | 6 | E | 67 | 76 | A-81-  | A-90-  | QFIPVKRPIP 
+| 1iau | A | albelig | 7 | 7 | E | 90 | 94 | A-104-  | A-108-  | MLLQL 
+| 1iau | A | albelig | 8 | 8 | E | 121 | 126 | A-135-  | A-140-  | TNSVAG 
+| 1iau | A | albelig | 9 | 9 | E | 141 | 146 | A-156-  | A-161-  | QEVKMT 
+| 1iau | A | albelig | 10 | 10 | H | 150 | 156 | A-165-  | A-171-  | DRKCESD 
+| 1iau | A | albelig | 11 | 11 | E | 166 | 169 | A-180-  | A-183-  | ELCV 
+| 1iau | A | albelig | 12 | 12 | E | 186 | 189 | A-198-  | A-201-  | PLVN 
+| 1iau | A | albelig | 13 | 13 | E | 192 | 200 | A-204-  | A-216-  | VAQGIVSYG 
+| 1iau | A | albelig | 14 | 14 | E | 208 | 212 | A-226-  | A-230-  | RACTK 
+| 1iau | A | albelig | 15 | 15 | H | 213 | 225 | A-231-  | A-243-  | VSSFVHWIKKTMK 
+| 1iau | A | albelig | 16 | 16 | L | 234 | 234 | A-301-  | A-301-  | J 
+| 1iau | A | albelig | 17 | 17 | L | 235 | 235 | A-302-  | A-302-  | J 
+| 1iau | A | albelig | 18 | 18 | L | 236 | 236 | A-303-  | A-303-  | J 
+| 1iau | A | albelig | 19 | 19 | L | 237 | 237 | A-304-  | A-304-  | J 
+| 1iau | A | albelig | 20 | 20 | L | 238 | 238 | A-305-  | A-305-  | J 
+| 1iau | A | albelig | 21 | 21 | L | 239 | 239 | A-306-  | A-306-  | J 
+| 1iau | A | albelig | 22 | 22 | L | 240 | 240 | A-307-  | A-307-  | J 
+| 1iau | A | albelig | 23 | 23 | L | 241 | 241 | A-501-  | A-501-  | J 
+| 1iau | A | albelig | 24 | 24 | L | 242 | 242 | A-502-  | A-502-  | J 
+| 1iau | A | albelig | 25 | 25 | L | 243 | 243 | A-503-  | A-503-  | J 
+| 1iau | A | albelig | 26 | 26 | L | 244 | 244 | A-504-  | A-504-  | J 
+| 1iau | A | albelig | 27 | 27 | L | 245 | 245 | A-505-  | A-505-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 1 = l = 16
+= 2 = a = 3
+= 2 = m = 4
+= 2 = l = 16
+= 3 = a = 7
+= 5 = a = 6
+= 5 = l = 16
+= 6 = a = 7
+= 6 = l = 16
+= 8 = a = 9
+= 8 = a = 12
+= 9 = l = 26
+= 10 = l = 25
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+= 17 = l = 18
+= 17 = l = 19
+= 18 = l = 19
+= 18 = l = 20
+= 19 = l = 20
+= 19 = l = 21
+= 19 = l = 22
+= 20 = l = 21
+= 20 = l = 22
+= 21 = l = 22
+# Listed 30 contacts. EOF.

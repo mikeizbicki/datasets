@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jri, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, HEPTAMERIC, 35-STRANDED BETA TOROID,UNKNOWN FUNCTION
+> pdb_mol_name > SM-LIKE ARCHAEAL PROTEIN 1 (SMAP1)
+> graphtype > albelig
+> resolution > 2.8
+> date > 13-AUG-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF AN SM-LIKE ARCHAEAL PROTEIN WITHTWO HEPTAMERS IN THE ASYMMETRIC UNIT.
+> format_version > 2
+> pdbid > 1jri
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jri | H | albelig | 1 | 1 | H | 529 | 535 | H-14-  | H-20-  | PLDALGN 
+| 1jri | H | albelig | 2 | 2 | E | 540 | 545 | H-25-  | H-30-  | PVIIKL 
+| 1jri | H | albelig | 3 | 3 | E | 550 | 558 | H-35-  | H-43-  | EFRGVLKSF 
+| 1jri | H | albelig | 4 | 4 | E | 564 | 572 | H-49-  | H-57-  | LVLNDAEEL 
+| 1jri | H | albelig | 5 | 5 | E | 577 | 586 | H-62-  | H-71-  | VTRRLGTVLI 
+| 1jri | H | albelig | 6 | 6 | H | 588 | 590 | H-73-  | H-75-  | GDN 
+| 1jri | H | albelig | 7 | 7 | E | 591 | 595 | H-76-  | H-80-  | IVYIS 
+| 1jri | H | albelig | 8 | 8 | L | 1050 | 1050 | H-111-  | H-111-  | J 
+| 1jri | H | albelig | 9 | 9 | L | 1051 | 1051 | H-112-  | H-112-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = l = 8
+= 1 = l = 9
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 3 = l = 8
+= 4 = a = 5
+= 6 = m = 7
+# Listed 9 contacts. EOF.

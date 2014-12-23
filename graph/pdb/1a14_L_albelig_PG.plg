@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a14, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ANTIBODY-ANTIGEN), SINGLE-CHAIN ANTIBODY, GLYCOSYLATEDPROTEIN, COMPLEX (ANTIBODY-ANTIGEN) COMPLEX
+> pdb_mol_name > NC10 FV (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 2.5
+> date > 21-DEC-97
+> header > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_org_common > HOUSE MOUSE
+> title > COMPLEX BETWEEN NC10 ANTI-INFLUENZA VIRUS NEURAMINIDASE SINGLE CHAINANTIBODY WITH A 5 RESIDUE LINKER AND INFLUENZA VIRUS NEURAMINIDASE
+> format_version > 2
+> pdbid > 1a14
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a14 | L | albelig | 1 | 1 | E | 514 | 517 | L-4-  | L-7-  | LTQT 
+| 1a14 | L | albelig | 2 | 2 | E | 529 | 535 | L-19-  | L-25-  | VTISKRA 
+| 1a14 | L | albelig | 3 | 3 | E | 543 | 548 | L-33-  | L-38-  | LNWYQQ 
+| 1a14 | L | albelig | 4 | 4 | E | 554 | 559 | L-44-  | L-49-  | VKLLIY 
+| 1a14 | L | albelig | 5 | 5 | E | 572 | 577 | L-62-  | L-67-  | FSGSGS 
+| 1a14 | L | albelig | 6 | 6 | E | 580 | 585 | L-70-  | L-75-  | DYSLTI 
+| 1a14 | L | albelig | 7 | 7 | H | 590 | 592 | L-80-  | L-82-  | QED 
+| 1a14 | L | albelig | 8 | 8 | E | 595 | 600 | L-85-  | L-90-  | TYFKQQ 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 8
+= 2 = a = 6
+= 3 = a = 4
+= 3 = p = 6
+= 3 = a = 8
+= 5 = a = 6
+# Listed 7 contacts. EOF.

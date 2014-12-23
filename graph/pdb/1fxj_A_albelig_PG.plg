@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fxj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACETYLTRANSFERASE, BIFUNCTIONAL, CRYSTALLOGRAPHY, DRUGDESIGN, PYROPHOSPHORYLASE
+> pdb_mol_name > UDP-N-ACETYLGLUCOSAMINE PYROPHOSPHORYLASE
+> graphtype > albelig
+> resolution > 2.25
+> date > 26-SEP-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF N-ACETYLGLUCOSAMINE 1-PHOSPHATEURIDYLTRANSFERASE
+> format_version > 2
+> pdbid > 1fxj
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fxj | A | albelig | 1 | 1 | E | 4 | 10 | A-6-  | A-12-  | MSVVILA 
+| 1fxj | A | albelig | 2 | 2 | H | 15 | 17 | A-17-  | A-19-  | TRM 
+| 1fxj | A | albelig | 3 | 3 | H | 23 | 25 | A-25-  | A-27-  | KVL 
+| 1fxj | A | albelig | 4 | 4 | H | 33 | 44 | A-35-  | A-46-  | MVQHVIDAANEL 
+| 1fxj | A | albelig | 5 | 5 | E | 49 | 53 | A-51-  | A-55-  | VHLVY 
+| 1fxj | A | albelig | 6 | 6 | H | 57 | 63 | A-59-  | A-65-  | GDLLKQA 
+| 1fxj | A | albelig | 7 | 7 | E | 70 | 73 | A-72-  | A-75-  | NWVL 
+| 1fxj | A | albelig | 8 | 8 | H | 79 | 90 | A-81-  | A-92-  | GTGHAMQQAAPF 
+| 1fxj | A | albelig | 9 | 9 | E | 96 | 101 | A-98-  | A-103-  | DILMLY 
+| 1fxj | A | albelig | 10 | 10 | H | 109 | 117 | A-111-  | A-119-  | VETLQRLRD 
+| 1fxj | A | albelig | 11 | 11 | E | 124 | 130 | A-126-  | A-132-  | IGLLTVK 
+| 1fxj | A | albelig | 12 | 12 | E | 139 | 143 | A-141-  | A-145-  | RITRE 
+| 1fxj | A | albelig | 13 | 13 | E | 146 | 151 | A-148-  | A-153-  | KVTGIV 
+| 1fxj | A | albelig | 14 | 14 | H | 153 | 155 | A-155-  | A-157-  | HKD 
+| 1fxj | A | albelig | 15 | 15 | E | 165 | 174 | A-167-  | A-176-  | EINTGILIAN 
+| 1fxj | A | albelig | 16 | 16 | H | 175 | 183 | A-177-  | A-185-  | GADMKRWLA 
+| 1fxj | A | albelig | 17 | 17 | H | 196 | 205 | A-198-  | A-207-  | ITDIIALAYQ 
+| 1fxj | A | albelig | 18 | 18 | E | 210 | 213 | A-212-  | A-215-  | IVAV 
+| 1fxj | A | albelig | 19 | 19 | H | 218 | 221 | A-220-  | A-223-  | LSEV 
+| 1fxj | A | albelig | 20 | 20 | H | 227 | 247 | A-229-  | A-249-  | RLQLSRLERVYQSEQAEKLLL 
+| 1fxj | A | albelig | 21 | 21 | H | 255 | 257 | A-257-  | A-259-  | PAR 
+| 1fxj | A | albelig | 22 | 22 | E | 258 | 266 | A-260-  | A-268-  | FDLRGTLTH 
+| 1fxj | A | albelig | 23 | 23 | E | 276 | 284 | A-278-  | A-286-  | VIIEGNVTL 
+| 1fxj | A | albelig | 24 | 24 | E | 295 | 297 | A-297-  | A-299-  | VIK 
+| 1fxj | A | albelig | 25 | 25 | E | 312 | 314 | A-314-  | A-316-  | VVE 
+| 1fxj | A | albelig | 26 | 26 | E | 316 | 318 | A-318-  | A-320-  | ANL 
+| 1fxj | A | albelig | 27 | 27 | L | 653 | 653 | A-332-  | A-332-  | J 
+| 1fxj | A | albelig | 28 | 28 | L | 654 | 654 | A-333-  | A-333-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = p = 9
+= 1 = l = 28
+= 2 = l = 27
+= 3 = l = 28
+= 4 = m = 10
+= 5 = p = 7
+= 7 = m = 8
+= 8 = m = 16
+= 8 = l = 28
+= 9 = a = 15
+= 9 = l = 28
+= 11 = a = 15
+= 11 = p = 18
+= 12 = a = 13
+= 12 = a = 15
+= 13 = m = 17
+= 15 = m = 16
+= 20 = p = 22
+= 20 = l = 27
+= 21 = m = 22
+= 22 = p = 23
+= 23 = p = 24
+= 24 = p = 25
+= 27 = l = 28
+# Listed 25 contacts. EOF.

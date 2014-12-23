@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1epa, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RETINOIC ACID-BINDING PROTEIN
+> pdb_mol_name > EPIDIDYMAL RETINOIC ACID-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 15-JUN-93
+> header > RETINOIC ACID-BINDING PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > STRUCTURE OF THE EPIDIDYMAL RETINOIC ACID-BINDING PROTEINAT 2.1 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1epa
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1epa | B | albelig | 1 | 1 | H | 161 | 163 | B-8-  | B-10-  | ISK 
+| 1epa | B | albelig | 2 | 2 | E | 166 | 174 | B-13-  | B-21-  | GFWYEIAFA 
+| 1epa | B | albelig | 3 | 3 | E | 182 | 189 | B-37-  | B-44-  | GAMVVELK 
+| 1epa | B | albelig | 4 | 4 | E | 192 | 201 | B-47-  | B-56-  | LLALTTTYYS 
+| 1epa | B | albelig | 5 | 5 | E | 204 | 214 | B-59-  | B-69-  | HNVLEKVTATE 
+| 1epa | B | albelig | 6 | 6 | E | 220 | 224 | B-75-  | B-79-  | KFQVT 
+| 1epa | B | albelig | 7 | 7 | E | 229 | 237 | B-84-  | B-92-  | KKEVVVEAT 
+| 1epa | B | albelig | 8 | 8 | E | 242 | 249 | B-97-  | B-104-  | YAIIDITS 
+| 1epa | B | albelig | 9 | 9 | E | 256 | 263 | B-111-  | B-118-  | HRTMKLYS 
+| 1epa | B | albelig | 10 | 10 | H | 270 | 282 | B-125-  | B-137-  | GEALYNFRKITSD 
+| 1epa | B | albelig | 11 | 11 | H | 287 | 289 | B-142-  | B-144-  | ETD 
+| 1epa | B | albelig | 12 | 12 | E | 290 | 292 | B-145-  | B-147-  | LYI 
+| 1epa | B | albelig | 13 | 13 | H | 298 | 308 | B-153-  | B-163-  | TNVKVLQSAAE 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 9
+= 2 = m = 10
+= 2 = m = 11
+= 2 = a = 12
+= 2 = m = 13
+= 3 = a = 4
+= 3 = m = 13
+= 4 = a = 5
+= 4 = m = 13
+= 5 = a = 6
+= 5 = m = 13
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 9 = m = 10
+= 11 = m = 12
+# Listed 17 contacts. EOF.

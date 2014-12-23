@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hi7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR, CELL MOTILITY, TUMOR SUPPRESSOR, TREFOILDOMAIN, SIGNAL
+> pdb_mol_name > PS2 PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 03-JAN-01
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > NMR SOLUTION STRUCTURE OF THE DISULPHIDE-LINKED DIMERICOF HUMAN TFF1, 10 STRUCTURES
+> format_version > 2
+> pdbid > 1hi7
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hi7 | A | albelig | 1 | 1 | E | 4 | 6 | A-4-  | A-6-  | TET 
+| 1hi7 | A | albelig | 2 | 2 | E | 16 | 18 | A-16-  | A-18-  | NNG 
+| 1hi7 | A | albelig | 3 | 3 | H | 24 | 28 | A-24-  | A-28-  | PSQCA 
+| 1hi7 | A | albelig | 4 | 4 | E | 48 | 50 | A-48-  | A-50-  | NTI 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+# Listed 1 contacts. EOF.

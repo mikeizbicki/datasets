@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aou, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SH2 DOMAIN, SIGNAL TRANSDUCTION, PEPTIDE COMPLEX, COMPLEX(PROTO-ONCOGENE/EARLY PROTEIN)
+> pdb_mol_name > FYN PROTEIN-TYROSINE KINASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 10-JUL-97
+> header > COMPLEX (PROTO-ONCOGENE/EARLY PROTEIN)
+> pdb_org_common > HUMAN
+> title > NMR STRUCTURE OF THE FYN SH2 DOMAIN COMPLEXED WITH APHOSPHOTYROSYL PEPTIDE, 22 STRUCTURES
+> format_version > 2
+> pdbid > 1aou
+> experiment > SOLUTION NMR
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aou | F | albelig | 1 | 1 | H | 14 | 22 | F-14-  | F-22-  | RKDAERQLL 
+| 1aou | F | albelig | 2 | 2 | E | 43 | 48 | F-43-  | F-48-  | YSLSIR 
+| 1aou | F | albelig | 3 | 3 | E | 58 | 65 | F-58-  | F-65-  | VKHYKIRK 
+| 1aou | F | albelig | 4 | 4 | E | 71 | 74 | F-71-  | F-74-  | YYIT 
+| 1aou | F | albelig | 5 | 5 | E | 77 | 79 | F-77-  | F-79-  | AQF 
+| 1aou | F | albelig | 6 | 6 | H | 82 | 91 | F-82-  | F-91-  | LQQLVQHYSE 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 6
+# Listed 6 contacts. EOF.

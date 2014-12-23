@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kqm, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN-DETACHED, MYOSIN, MECHANICS OF MOTOR, CONTRACTILEPROTEIN
+> pdb_mol_name > MYOSIN REGULATORY LIGHT CHAIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 07-JAN-02
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SCALLOP MYOSIN S1-AMPPNP IN THE ACTIN-DETACHED CONFORMATION
+> format_version > 2
+> pdbid > 1kqm
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ARGOPECTEN IRRADIANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kqm | B | albelig | 1 | 1 | H | 790 | 802 | B-15-  | B-27-  | KQIQEMKEAFSMI 
+| 1kqm | B | albelig | 2 | 2 | H | 812 | 819 | B-37-  | B-44-  | KEDIKAIS 
+| 1kqm | B | albelig | 3 | 3 | H | 828 | 835 | B-53-  | B-60-  | DKELTAML 
+| 1kqm | B | albelig | 4 | 4 | H | 844 | 852 | B-69-  | B-77-  | FTMFLSIFS 
+| 1kqm | B | albelig | 5 | 5 | H | 869 | 871 | B-94-  | B-96-  | AMF 
+| 1kqm | B | albelig | 6 | 6 | H | 884 | 890 | B-109-  | B-115-  | IKDLLEN 
+| 1kqm | B | albelig | 7 | 7 | H | 897 | 904 | B-122-  | B-129-  | KDEMRMTF 
+| 1kqm | B | albelig | 8 | 8 | H | 916 | 921 | B-141-  | B-146-  | YVKFTA 
+| 1kqm | B | albelig | 9 | 9 | L | 1086 | 1086 | B-502-  | B-502-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = m = 3
+= 2 = l = 9
+= 6 = m = 7
+# Listed 4 contacts. EOF.

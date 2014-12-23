@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcs, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MICROBIAL PEPTIDE ALDEHYDE INHIBITOR, COMPLEX (SERINE PROTEASE-INHIBITOR) COMPLEX, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > SERINE CARBOXYPEPTIDASE II
+> graphtype > albelig
+> resolution > 2.08
+> date > 03-NOV-95
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > BREAD WHEAT
+> title > COMPLEX OF THE WHEAT SERINE CARBOXYPEPTIDASE, CPDW-II, WITH THEMICROBIAL PEPTIDE ALDEHYDE INHIBITOR, CHYMOSTATIN, AND ARGININE AT100 DEGREES KELVIN
+> format_version > 2
+> pdbid > 1bcs
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > TRITICUM AESTIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcs | B | albelig | 1 | 1 | H | 262 | 270 | B-271-  | B-279-  | TERYSTAYY 
+| 1bcs | B | albelig | 2 | 2 | H | 273 | 279 | B-282-  | B-288-  | RDVQMAL 
+| 1bcs | B | albelig | 3 | 3 | H | 296 | 300 | B-303-B | B-307-  | DTINT 
+| 1bcs | B | albelig | 4 | 4 | H | 310 | 318 | B-314-  | B-322-  | LPIYRELIA 
+| 1bcs | B | albelig | 5 | 5 | E | 322 | 328 | B-329-  | B-335-  | RIWVFSG 
+| 1bcs | B | albelig | 6 | 6 | H | 336 | 344 | B-343-  | B-351-  | LTATRYSIG 
+| 1bcs | B | albelig | 7 | 7 | E | 350 | 359 | B-365-  | B-374-  | TTTSWYPWYD 
+| 1bcs | B | albelig | 8 | 8 | E | 362 | 370 | B-376-  | B-384-  | EVGGWSQVY 
+| 1bcs | B | albelig | 9 | 9 | E | 373 | 378 | B-387-  | B-392-  | LTLVSV 
+| 1bcs | B | albelig | 10 | 10 | H | 385 | 388 | B-399-  | B-402-  | VPLH 
+| 1bcs | B | albelig | 11 | 11 | H | 390 | 402 | B-404-  | B-416-  | PRQALVLFQYFLQ 
+| 1bcs | B | albelig | 12 | 12 | L | 423 | 423 | B-2911-  | B-2911-  | J 
+| 1bcs | B | albelig | 13 | 13 | L | 424 | 424 | B-2912-  | B-2912-  | J 
+| 1bcs | B | albelig | 14 | 14 | L | 425 | 425 | B-461-  | B-461-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 12
+= 2 = l = 12
+= 2 = l = 13
+= 5 = p = 9
+= 5 = a = 11
+= 7 = a = 8
+= 8 = a = 9
+= 8 = l = 14
+= 12 = l = 13
+# Listed 10 contacts. EOF.

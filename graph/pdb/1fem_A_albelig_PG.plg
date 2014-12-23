@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fem, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSPORT PROTEIN
+> pdb_mol_name > RETINOL BINDING PROTEIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 29-AUG-94
+> header > TRANSPORT PROTEIN
+> pdb_org_common > CATTLE
+> title > CRYSTALLOGRAPHIC STUDIES ON COMPLEXES BETWEEN RETINOIDS ANDPLASMA RETINOL-BINDING PROTEIN
+> format_version > 2
+> pdbid > 1fem
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fem | A | albelig | 1 | 1 | H | 18 | 20 | A-18-  | A-20-  | ARF 
+| 1fem | A | albelig | 2 | 2 | E | 22 | 30 | A-22-  | A-30-  | GTWYAMAKK 
+| 1fem | A | albelig | 3 | 3 | E | 42 | 47 | A-42-  | A-47-  | VAEFSV 
+| 1fem | A | albelig | 4 | 4 | E | 53 | 62 | A-53-  | A-62-  | MSATAKGRVR 
+| 1fem | A | albelig | 5 | 5 | E | 68 | 78 | A-68-  | A-78-  | DVCADMVGTFT 
+| 1fem | A | albelig | 6 | 6 | E | 85 | 92 | A-85-  | A-92-  | KFKMKYWG 
+| 1fem | A | albelig | 7 | 7 | E | 100 | 109 | A-100-  | A-109-  | GNDDHWIIDT 
+| 1fem | A | albelig | 8 | 8 | E | 114 | 123 | A-114-  | A-123-  | FAVQYSCRLL 
+| 1fem | A | albelig | 9 | 9 | E | 129 | 138 | A-129-  | A-138-  | CADSYSFVFA 
+| 1fem | A | albelig | 10 | 10 | H | 146 | 158 | A-146-  | A-158-  | PEVQKIVRQRQEE 
+| 1fem | A | albelig | 11 | 11 | L | 177 | 177 | A-184-  | A-184-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 9
+= 3 = a = 4
+= 3 = l = 11
+= 4 = a = 5
+= 4 = l = 11
+= 5 = a = 6
+= 5 = l = 11
+= 6 = a = 7
+= 6 = l = 11
+= 7 = a = 8
+= 7 = l = 11
+= 8 = a = 9
+= 8 = l = 11
+= 9 = l = 11
+# Listed 15 contacts. EOF.

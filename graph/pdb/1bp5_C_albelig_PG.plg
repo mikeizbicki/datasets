@@ -1,0 +1,78 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bp5, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IRON TRANSPORT, GLYCOPROTEIN, TRANSFERRIN, NLOBE, IRON-RELEASE, CARBONATE, METAL TRANSPORT
+> pdb_mol_name > PROTEIN (SERUM TRANSFERRIN)
+> graphtype > albelig
+> resolution > 2.2
+> date > 12-AUG-98
+> header > METAL TRANSPORT
+> pdb_org_common > HUMAN
+> title > HUMAN SERUM TRANSFERRIN, RECOMBINANT N-TERMINAL LOBE, APOFORM
+> format_version > 2
+> pdbid > 1bp5
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bp5 | C | albelig | 1 | 1 | E | 660 | 665 | C-5-  | C-10-  | TVRWQA 
+| 1bp5 | C | albelig | 2 | 2 | H | 668 | 684 | C-13-  | C-29-  | EHEATKRQSFRDHMKSV 
+| 1bp5 | C | albelig | 3 | 3 | E | 691 | 696 | C-36-  | C-41-  | SVARVK 
+| 1bp5 | C | albelig | 4 | 4 | H | 700 | 708 | C-45-  | C-53-  | YLDQIRAIA 
+| 1bp5 | C | albelig | 5 | 5 | E | 715 | 717 | C-60-  | C-62-  | VTL 
+| 1bp5 | C | albelig | 6 | 6 | H | 719 | 726 | C-64-  | C-71-  | AGLVYDAY 
+| 1bp5 | C | albelig | 7 | 7 | E | 732 | 739 | C-77-  | C-84-  | LKPVVAEF 
+| 1bp5 | C | albelig | 8 | 8 | E | 749 | 757 | C-94-  | C-102-  | FYYAVAVVK 
+| 1bp5 | C | albelig | 9 | 9 | H | 764 | 766 | C-109-  | C-111-  | MNQ 
+| 1bp5 | C | albelig | 10 | 10 | E | 771 | 774 | C-116-  | C-119-  | KSSH 
+| 1bp5 | C | albelig | 11 | 11 | H | 780 | 790 | C-125-  | C-135-  | SAGWNIPIGLL 
+| 1bp5 | C | albelig | 12 | 12 | H | 791 | 793 | C-136-  | C-138-  | YTD 
+| 1bp5 | C | albelig | 13 | 13 | H | 801 | 806 | C-146-  | C-151-  | LEKAVA 
+| 1bp5 | C | albelig | 14 | 14 | E | 811 | 813 | C-156-  | C-158-  | GSC 
+| 1bp5 | C | albelig | 15 | 15 | H | 823 | 826 | C-168-  | C-171-  | PQLW 
+| 1bp5 | C | albelig | 16 | 16 | H | 842 | 851 | C-187-  | C-196-  | GYSGAFKSLK 
+| 1bp5 | C | albelig | 17 | 17 | E | 857 | 861 | C-202-  | C-206-  | VAFVK 
+| 1bp5 | C | albelig | 18 | 18 | H | 864 | 868 | C-209-  | C-213-  | TIFEN 
+| 1bp5 | C | albelig | 19 | 19 | H | 872 | 875 | C-217-  | C-220-  | KADR 
+| 1bp5 | C | albelig | 20 | 20 | E | 878 | 882 | C-223-  | C-227-  | YELLX 
+| 1bp5 | C | albelig | 21 | 21 | E | 886 | 889 | C-231-  | C-234-  | TRKP 
+| 1bp5 | C | albelig | 22 | 22 | H | 890 | 895 | C-235-  | C-240-  | VDEYKD 
+| 1bp5 | C | albelig | 23 | 23 | E | 899 | 902 | C-244-  | C-247-  | AQVP 
+| 1bp5 | C | albelig | 24 | 24 | E | 905 | 909 | C-250-  | C-254-  | TVVAR 
+| 1bp5 | C | albelig | 25 | 25 | H | 915 | 929 | C-260-  | C-274-  | EDLIWELLNQAQEHF 
+| 1bp5 | C | albelig | 26 | 26 | E | 956 | 959 | C-301-  | C-304-  | GFLK 
+| 1bp5 | C | albelig | 27 | 27 | H | 966 | 970 | C-311-  | C-315-  | AKMYL 
+| 1bp5 | C | albelig | 28 | 28 | H | 972 | 983 | C-317-  | C-328-  | YEYVTAIRNLRE 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = m = 25
+= 2 = a = 3
+= 2 = m = 25
+= 5 = a = 24
+= 6 = m = 7
+= 6 = m = 27
+= 6 = m = 28
+= 7 = a = 24
+= 7 = a = 26
+= 7 = m = 27
+= 8 = p = 16
+= 8 = a = 17
+= 8 = a = 20
+= 8 = a = 23
+= 10 = p = 14
+= 10 = m = 16
+= 10 = p = 17
+= 11 = m = 17
+= 11 = m = 28
+= 14 = m = 15
+= 16 = m = 17
+= 16 = m = 18
+= 17 = m = 18
+= 20 = a = 21
+= 21 = m = 22
+= 23 = m = 28
+= 25 = m = 26
+# Listed 29 contacts. EOF.

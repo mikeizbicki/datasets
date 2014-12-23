@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gn3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE
+> pdb_mol_name > SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 4.0
+> date > 02-OCT-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > H145Q MUTANT OF MYCOBACTERIUM TUBERCULOSIS IRON-SUPEROXIDEDISMUTASE.
+> format_version > 2
+> pdbid > 1gn3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gn3 | A | albelig | 1 | 1 | H | 12 | 15 | A-13-  | A-16-  | YGAL 
+| 1gn3 | A | albelig | 2 | 2 | H | 21 | 32 | A-22-  | A-33-  | GQINELHHSKHH 
+| 1gn3 | A | albelig | 3 | 3 | H | 33 | 51 | A-34-  | A-52-  | ATYVKGANDAVAKLEEARA 
+| 1gn3 | A | albelig | 4 | 4 | H | 58 | 81 | A-59-  | A-82-  | ILLNEKNLAFNLAGHVNHTIWWKN 
+| 1gn3 | A | albelig | 5 | 5 | H | 92 | 102 | A-93-  | A-103-  | GELAAAIADAF 
+| 1gn3 | A | albelig | 6 | 6 | H | 105 | 117 | A-106-  | A-118-  | FDKFRAQFHAAAT 
+| 1gn3 | A | albelig | 7 | 7 | E | 123 | 130 | A-124-  | A-131-  | GWAALGWD 
+| 1gn3 | A | albelig | 8 | 8 | E | 135 | 142 | A-136-  | A-143-  | KLLIFQVY 
+| 1gn3 | A | albelig | 9 | 9 | E | 152 | 159 | A-153-  | A-160-  | IVPLLLLD 
+| 1gn3 | A | albelig | 10 | 10 | H | 162 | 164 | A-163-  | A-165-  | EHA 
+| 1gn3 | A | albelig | 11 | 11 | H | 173 | 183 | A-174-  | A-184-  | KVDFAKAFWNV 
+| 1gn3 | A | albelig | 12 | 12 | H | 186 | 197 | A-187-  | A-198-  | WADVQSRYAAAT 
+| 1gn3 | A | albelig | 13 | 13 | L | 398 | 398 | A-1200-  | A-1200-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 4
+= 2 = l = 13
+= 3 = a = 4
+= 4 = m = 9
+= 4 = l = 13
+= 5 = m = 6
+= 5 = m = 12
+= 6 = m = 7
+= 7 = a = 8
+= 7 = a = 9
+= 7 = l = 13
+= 9 = a = 12
+= 9 = l = 13
+= 10 = l = 13
+# Listed 15 contacts. EOF.

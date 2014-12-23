@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jba, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EF-HAND, CALCIUM-BINDING PROTEIN, GUANYLYL CYCLASEREGULATION, LYASE
+> pdb_mol_name > PROTEIN (GUANYLATE CYCLASE ACTIVATING PROTEIN 2)
+> graphtype > albelig
+> resolution > -1.0
+> date > 03-APR-99
+> header > LYASE
+> pdb_org_common > CATTLE
+> title > UNMYRISTOYLATED GCAP-2 WITH THREE CALCIUM IONS BOUND
+> format_version > 2
+> pdbid > 1jba
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jba | A | albelig | 1 | 1 | H | 7 | 11 | A-8-  | A-12-  | EEAEE 
+| 1jba | A | albelig | 2 | 2 | H | 17 | 31 | A-18-  | A-32-  | AADAAQLQEWYKKFL 
+| 1jba | A | albelig | 3 | 3 | H | 41 | 49 | A-42-  | A-50-  | MHEFKRFFK 
+| 1jba | A | albelig | 4 | 4 | H | 57 | 67 | A-58-  | A-68-  | TQYVEAMFRAF 
+| 1jba | A | albelig | 5 | 5 | H | 77 | 87 | A-78-  | A-88-  | FLEYVAALNLV 
+| 1jba | A | albelig | 6 | 6 | H | 94 | 103 | A-95-  | A-104-  | HKLKWTFKIY 
+| 1jba | A | albelig | 7 | 7 | H | 113 | 129 | A-114-  | A-130-  | RQELLDIVESIYKLKKA 
+| 1jba | A | albelig | 8 | 8 | H | 145 | 156 | A-146-  | A-157-  | PEEVVDRIFLLV 
+| 1jba | A | albelig | 9 | 9 | H | 166 | 173 | A-167-  | A-174-  | LNEFVEGA 
+| 1jba | A | albelig | 10 | 10 | H | 179 | 184 | A-180-  | A-185-  | VMKMLQ 
+| 1jba | A | albelig | 11 | 11 | L | 190 | 190 | A-500-  | A-500-  | J 
+| 1jba | A | albelig | 12 | 12 | L | 191 | 191 | A-501-  | A-501-  | J 
+| 1jba | A | albelig | 13 | 13 | L | 192 | 192 | A-502-  | A-502-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 6
+= 5 = l = 11
+= 6 = m = 7
+= 6 = m = 9
+= 6 = l = 12
+= 7 = m = 8
+= 7 = l = 12
+= 9 = l = 13
+# Listed 8 contacts. EOF.

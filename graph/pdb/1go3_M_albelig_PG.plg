@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1go3, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, TRANSFERASE; TRANSCRIPTION; DNA-DIRECTED RNAPOLYMERASE
+> pdb_mol_name > DNA-DIRECTED RNA POLYMERASE SUBUNIT E
+> graphtype > albelig
+> resolution > 1.75
+> date > 17-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF AN ARCHEAL HOMOLOG OF THE EUKARYOTIC RNAPOLYMERASE II RPB4/RPB7 COMPLEX
+> format_version > 2
+> pdbid > 1go3
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > METHANOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1go3 | M | albelig | 1 | 1 | E | 290 | 301 | M-2-  | M-13-  | YKILEIADVVKV 
+| 1go3 | M | albelig | 2 | 2 | H | 303 | 305 | M-15-  | M-17-  | PEE 
+| 1go3 | M | albelig | 3 | 3 | H | 310 | 322 | M-22-  | M-34-  | LKETVKKILMEKY 
+| 1go3 | M | albelig | 4 | 4 | E | 331 | 342 | M-43-  | M-54-  | GFVLSIVDVKDI 
+| 1go3 | M | albelig | 5 | 5 | E | 354 | 365 | M-66-  | M-77-  | AYHPVVFETLVY 
+| 1go3 | M | albelig | 6 | 6 | E | 372 | 381 | M-84-  | M-93-  | LIEGEVVDVV 
+| 1go3 | M | albelig | 7 | 7 | E | 384 | 388 | M-96-  | M-100-  | GSFVR 
+| 1go3 | M | albelig | 8 | 8 | E | 393 | 397 | M-105-  | M-109-  | DGLIH 
+| 1go3 | M | albelig | 9 | 9 | H | 398 | 400 | M-110-  | M-112-  | VSQ 
+| 1go3 | M | albelig | 10 | 10 | E | 406 | 409 | M-118-  | M-121-  | VSYD 
+| 1go3 | M | albelig | 11 | 11 | E | 414 | 417 | M-126-  | M-129-  | AIIG 
+| 1go3 | M | albelig | 12 | 12 | E | 423 | 425 | M-135-  | M-137-  | VLE 
+| 1go3 | M | albelig | 13 | 13 | E | 429 | 438 | M-141-  | M-150-  | YVRARIVAIS 
+| 1go3 | M | albelig | 14 | 14 | E | 442 | 446 | M-160-  | M-164-  | KIALT 
+| 1go3 | M | albelig | 15 | 15 | H | 455 | 462 | M-173-  | M-180-  | LEWIEEEK 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 3 = a = 4
+= 4 = a = 5
+= 6 = a = 7
+= 6 = p = 11
+= 6 = a = 13
+= 7 = a = 8
+= 8 = m = 9
+= 8 = p = 14
+= 10 = a = 11
+= 11 = a = 12
+= 13 = a = 14
+# Listed 12 contacts. EOF.

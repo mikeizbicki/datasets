@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ksx, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PAPILLOMAVIRUS, DNA-BINDING DOMAIN, REPLICATION, INITIATORPROTEIN, HELICASE, REPLICATION/DNA COMPLEX
+> pdb_mol_name > REPLICATION PROTEIN E1
+> graphtype > albelig
+> resolution > 3.2
+> date > 14-JAN-02
+> header > REPLICATION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF TWO INTERMEDIATES IN THE ASSEMBLY OFTHE PAPILLOMAVIRUS REPLICATION INITIATION COMPLEX
+> format_version > 2
+> pdbid > 1ksx
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > BOVINE PAPILLOMAVIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ksx | F | albelig | 1 | 1 | H | 440 | 451 | F-160-  | F-171-  | TVFKLGLFKSLF 
+| 1ksx | F | albelig | 2 | 2 | H | 455 | 458 | F-175-  | F-178-  | FHDI 
+| 1ksx | F | albelig | 3 | 3 | E | 468 | 477 | F-188-  | F-197-  | TNQQWVLAVF 
+| 1ksx | F | albelig | 4 | 4 | H | 481 | 494 | F-201-  | F-214-  | EVFFEASFELLKKQ 
+| 1ksx | F | albelig | 5 | 5 | E | 495 | 505 | F-215-  | F-225-  | CSFLQMQKRSH 
+| 1ksx | F | albelig | 6 | 6 | E | 508 | 522 | F-228-  | F-242-  | GTCAVYLICFNTAKS 
+| 1ksx | F | albelig | 7 | 7 | H | 523 | 534 | F-243-  | F-254-  | RETVRNLMANML 
+| 1ksx | F | albelig | 8 | 8 | H | 538 | 540 | F-258-  | F-260-  | EEC 
+| 1ksx | F | albelig | 9 | 9 | E | 541 | 544 | F-261-  | F-264-  | LMLQ 
+| 1ksx | F | albelig | 10 | 10 | H | 551 | 560 | F-271-  | F-280-  | LSAALFWFKS 
+| 1ksx | F | albelig | 11 | 11 | E | 567 | 569 | F-287-  | F-289-  | LKH 
+| 1ksx | F | albelig | 12 | 12 | H | 574 | 578 | F-294-  | F-298-  | EWIRA 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 6
+= 3 = a = 6
+= 3 = p = 7
+= 3 = m = 8
+= 3 = a = 9
+= 4 = a = 5
+= 4 = p = 6
+= 4 = m = 7
+= 5 = a = 6
+= 5 = a = 11
+= 6 = a = 7
+= 7 = m = 9
+= 8 = m = 9
+# Listed 14 contacts. EOF.

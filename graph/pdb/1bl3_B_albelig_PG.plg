@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bl3, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA INTEGRATION, AIDS, POLYPROTEIN, HYDROLASE, ENDONUCLEASE,POLYNUCLEOTIDYL TRANSFERASE, DNA BINDING (VIRAL)
+> pdb_mol_name > INTEGRASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 23-JUL-98
+> header > DNA INTEGRATION
+> pdb_org_common > UNKNOWN
+> title > CATALYTIC DOMAIN OF HIV-1 INTEGRASE
+> format_version > 2
+> pdbid > 1bl3
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bl3 | B | albelig | 1 | 1 | E | 148 | 156 | B-60-  | B-68-  | IWQLDCTHL 
+| 1bl3 | B | albelig | 2 | 2 | E | 159 | 166 | B-71-  | B-78-  | KVILVAVH 
+| 1bl3 | B | albelig | 3 | 3 | E | 172 | 177 | B-84-  | B-89-  | IEAEVI 
+| 1bl3 | B | albelig | 4 | 4 | H | 182 | 195 | B-94-  | B-107-  | GQETAYFLLKLAGR 
+| 1bl3 | B | albelig | 5 | 5 | E | 200 | 202 | B-112-  | B-114-  | TVH 
+| 1bl3 | B | albelig | 6 | 6 | H | 212 | 221 | B-124-  | B-133-  | TTVKAACWWA 
+| 1bl3 | B | albelig | 7 | 7 | E | 224 | 226 | B-136-  | B-138-  | KQE 
+| 1bl3 | B | albelig | 8 | 8 | H | 230 | 245 | B-151-  | B-166-  | IESMNKELKKIIGQVR 
+| 1bl3 | B | albelig | 9 | 9 | H | 251 | 264 | B-172-  | B-185-  | LKTAVQMAVFIHNH 
+| 1bl3 | B | albelig | 10 | 10 | H | 275 | 287 | B-196-  | B-208-  | AGERIVDIIATDI 
+| 1bl3 | B | albelig | 11 | 11 | L | 451 | 451 | B-503-  | B-503-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 1 = p = 8
+= 1 = l = 11
+= 2 = a = 3
+= 2 = m = 4
+= 2 = m = 8
+= 3 = a = 9
+= 4 = p = 6
+= 5 = p = 7
+= 8 = a = 9
+# Listed 11 contacts. EOF.

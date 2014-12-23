@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hkn, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR, MITOGEN, ANGIOGENESIS, HEPARIN-BINDING
+> pdb_mol_name > HEPARIN-BINDING GROWTH FACTOR 1
+> graphtype > albelig
+> resolution > 2.0
+> date > 10-MAR-03
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > A COMPLEX BETWEEN ACIDIC FIBROBLAST GROWTH FACTOR AND5-AMINO-2-NAPHTHALENESULFONATE
+> format_version > 2
+> pdbid > 1hkn
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hkn | E | albelig | 1 | 1 | E | 523 | 526 | E-5013-  | E-5016-  | LLYC 
+| 1hkn | E | albelig | 2 | 2 | E | 531 | 535 | E-5021-  | E-5025-  | HFLRI 
+| 1hkn | E | albelig | 3 | 3 | E | 541 | 544 | E-5031-  | E-5034-  | VDGT 
+| 1hkn | E | albelig | 4 | 4 | E | 554 | 557 | E-5044-  | E-5047-  | LQLS 
+| 1hkn | E | albelig | 5 | 5 | E | 563 | 568 | E-5053-  | E-5058-  | EVYIKS 
+| 1hkn | E | albelig | 6 | 6 | E | 574 | 577 | E-5064-  | E-5067-  | YLAM 
+| 1hkn | E | albelig | 7 | 7 | E | 583 | 586 | E-5073-  | E-5076-  | LYGS 
+| 1hkn | E | albelig | 8 | 8 | H | 591 | 593 | E-5081-  | E-5083-  | EEC 
+| 1hkn | E | albelig | 9 | 9 | E | 595 | 599 | E-5085-  | E-5089-  | FLERL 
+| 1hkn | E | albelig | 10 | 10 | E | 605 | 609 | E-5095-  | E-5099-  | NTYIS 
+| 1hkn | E | albelig | 11 | 11 | H | 613 | 615 | E-5103-  | E-5105-  | AEK 
+| 1hkn | E | albelig | 12 | 12 | H | 630 | 632 | E-5120-  | E-5122-  | GPR 
+| 1hkn | E | albelig | 13 | 13 | H | 638 | 640 | E-5128-  | E-5130-  | KAI 
+| 1hkn | E | albelig | 14 | 14 | E | 642 | 645 | E-5132-  | E-5135-  | FLPL 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 14
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 5
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 7
+= 6 = m = 8
+= 9 = a = 10
+= 10 = m = 13
+# Listed 11 contacts. EOF.

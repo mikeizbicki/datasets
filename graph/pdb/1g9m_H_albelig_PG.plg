@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g9m, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (HIV ENVELOPE PROTEIN-CD4-FAB), HIV-1 EXTERIOR ENVELOPE GP120FROM LABORATORY-ADAPTED ISOLATE, HXBC2, SURFACE T-CELL GLYCOPROTEINCD4, ANTIGEN-BINDING FRAGMENT OF HUMAN IMMUNOGLOBULIN 17B, VIRALPROTEIN-IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > ANTIBODY 17B, HEAVY CHAIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 24-NOV-00
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > HIV-1 HXBC2 GP120 ENVELOPE GLYCOPROTEIN COMPLEXED WITH CD4 AND INDUCEDNEUTRALIZING ANTIBODY 17B
+> format_version > 2
+> pdbid > 1g9m
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g9m | H | albelig | 1 | 1 | E | 707 | 710 | H-3-  | H-6-  | QLLE 
+| 1g9m | H | albelig | 2 | 2 | E | 714 | 716 | H-10-  | H-12-  | EVK 
+| 1g9m | H | albelig | 3 | 3 | E | 722 | 729 | H-18-  | H-25-  | VKVSLKAS 
+| 1g9m | H | albelig | 4 | 4 | H | 733 | 735 | H-29-  | H-31-  | FIR 
+| 1g9m | H | albelig | 5 | 5 | E | 736 | 743 | H-32-  | H-39-  | YSFTWVRQ 
+| 1g9m | H | albelig | 6 | 6 | E | 750 | 756 | H-46-  | H-52-  | EWMGRII 
+| 1g9m | H | albelig | 7 | 7 | E | 761 | 764 | H-57-  | H-60-  | VAHY 
+| 1g9m | H | albelig | 8 | 8 | E | 772 | 777 | H-68-  | H-73-  | VTITAD 
+| 1g9m | H | albelig | 9 | 9 | E | 782 | 787 | H-78-  | H-83-  | TVYLEL 
+| 1g9m | H | albelig | 10 | 10 | H | 792 | 794 | H-88-  | H-90-  | SDD 
+| 1g9m | H | albelig | 11 | 11 | E | 796 | 804 | H-92-  | H-100-  | AVYFLAGVY 
+| 1g9m | H | albelig | 12 | 12 | H | 808 | 810 | H-104-  | H-106-  | ADE 
+| 1g9m | H | albelig | 13 | 13 | E | 826 | 830 | H-122-  | H-126-  | TLVTV 
+| 1g9m | H | albelig | 14 | 14 | E | 839 | 843 | H-135-  | H-139-  | SVFPL 
+| 1g9m | H | albelig | 15 | 15 | E | 854 | 864 | H-150-  | H-160-  | TAALGMLVKDY 
+| 1g9m | H | albelig | 16 | 16 | E | 870 | 873 | H-166-  | H-169-  | TVSW 
+| 1g9m | H | albelig | 17 | 17 | H | 874 | 876 | H-170-  | H-172-  | NSG 
+| 1g9m | H | albelig | 18 | 18 | E | 882 | 884 | H-178-  | H-180-  | VHT 
+| 1g9m | H | albelig | 19 | 19 | E | 895 | 904 | H-191-  | H-200-  | YSLSSVVTVP 
+| 1g9m | H | albelig | 20 | 20 | H | 905 | 907 | H-201-  | H-203-  | SSS 
+| 1g9m | H | albelig | 21 | 21 | E | 914 | 919 | H-210-  | H-215-  | IMNVNH 
+| 1g9m | H | albelig | 22 | 22 | H | 920 | 922 | H-216-  | H-218-  | KPS 
+| 1g9m | H | albelig | 23 | 23 | E | 924 | 929 | H-220-  | H-225-  | TKVDKK 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 11
+= 2 = p = 13
+= 3 = a = 9
+= 4 = m = 5
+= 5 = a = 6
+= 5 = a = 11
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 10 = m = 13
+= 11 = a = 13
+= 14 = a = 15
+= 15 = a = 19
+= 15 = m = 20
+= 16 = m = 17
+= 16 = a = 21
+= 18 = a = 19
+= 19 = m = 20
+= 21 = m = 22
+= 21 = a = 23
+# Listed 21 contacts. EOF.

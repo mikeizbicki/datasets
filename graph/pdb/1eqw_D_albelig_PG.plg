@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqw, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SUPEROXIDE DISMUTASE, GREEK KEY B-BARREL, OXIDOREDUCTASE
+> pdb_mol_name > CU,ZN SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 06-APR-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF SALMONELLA TYPHIMURIUM CU,ZNSUPEROXIDE DISMUTASE
+> format_version > 2
+> pdbid > 1eqw
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SALMONELLA TYPHIMURIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqw | D | albelig | 1 | 1 | E | 470 | 479 | D-3-  | D-9-C | TLTVKMNDAL 
+| 1eqw | D | albelig | 2 | 2 | E | 482 | 495 | D-10-  | D-23-  | GTGENIGEITVSET 
+| 1eqw | D | albelig | 3 | 3 | E | 498 | 505 | D-26-  | D-33-  | GLLFTPHL 
+| 1eqw | D | albelig | 4 | 4 | E | 511 | 513 | D-39-  | D-41-  | GIH 
+| 1eqw | D | albelig | 5 | 5 | E | 515 | 518 | D-43-  | D-46-  | FHVH 
+| 1eqw | D | albelig | 6 | 6 | H | 536 | 538 | D-56-  | D-58-  | LMA 
+| 1eqw | D | albelig | 7 | 7 | E | 566 | 568 | D-85-  | D-87-  | LVV 
+| 1eqw | D | albelig | 8 | 8 | E | 578 | 580 | D-97-  | D-99-  | LLA 
+| 1eqw | D | albelig | 9 | 9 | H | 586 | 588 | D-107-  | D-109-  | LSE 
+| 1eqw | D | albelig | 10 | 10 | E | 593 | 597 | D-114-  | D-118-  | SLMIH 
+| 1eqw | D | albelig | 11 | 11 | H | 609 | 612 | D-134-  | D-137-  | PLGG 
+| 1eqw | D | albelig | 12 | 12 | E | 616 | 621 | D-141-  | D-146-  | RFADGV 
+| 1eqw | D | albelig | 13 | 13 | L | 629 | 629 | D-507-  | D-507-  | J 
+| 1eqw | D | albelig | 14 | 14 | L | 630 | 630 | D-508-  | D-508-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 12
+= 2 = a = 3
+= 3 = a = 8
+= 4 = a = 7
+= 5 = a = 10
+= 5 = l = 13
+= 5 = l = 14
+= 10 = a = 12
+= 10 = l = 14
+# Listed 10 contacts. EOF.

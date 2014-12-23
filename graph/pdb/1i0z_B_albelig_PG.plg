@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i0z, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEHYDROGENASE, ROSSMANN FOLD, OXIDOREDUCTASE
+> pdb_mol_name > L-LACTATE DEHYDROGENASE H CHAIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 30-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > HUMAN HEART L-LACTATE DEHYDROGENASE H CHAIN, TERNARY COMPLEX WITH NADHAND OXAMATE
+> format_version > 2
+> pdbid > 1i0z
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i0z | B | albelig | 1 | 1 | H | 336 | 340 | B-3-  | B-7-  | LKEKL 
+| 1i0z | B | albelig | 2 | 2 | E | 355 | 359 | B-22-  | B-26-  | KITVV 
+| 1i0z | B | albelig | 3 | 3 | H | 363 | 374 | B-30-  | B-41-  | QVGMACAISILG 
+| 1i0z | B | albelig | 4 | 4 | E | 380 | 384 | B-47-  | B-51-  | ELALV 
+| 1i0z | B | albelig | 5 | 5 | H | 388 | 400 | B-55-  | B-67-  | EDKLKGEMMDLQH 
+| 1i0z | B | albelig | 6 | 6 | H | 402 | 404 | B-69-  | B-71-  | SLF 
+| 1i0z | B | albelig | 7 | 7 | E | 410 | 412 | B-77-  | B-79-  | IVA 
+| 1i0z | B | albelig | 8 | 8 | H | 416 | 419 | B-83-  | B-86-  | YSVT 
+| 1i0z | B | albelig | 9 | 9 | E | 424 | 427 | B-91-  | B-94-  | IVVV 
+| 1i0z | B | albelig | 10 | 10 | H | 440 | 460 | B-107-  | B-127-  | LNLVQRNVNVFKFIIPQIVKY 
+| 1i0z | B | albelig | 11 | 11 | E | 465 | 468 | B-132-  | B-135-  | IIIV 
+| 1i0z | B | albelig | 12 | 12 | H | 473 | 484 | B-140-  | B-151-  | VDILTYVTWKLS 
+| 1i0z | B | albelig | 13 | 13 | H | 488 | 490 | B-155-  | B-157-  | KHR 
+| 1i0z | B | albelig | 14 | 14 | E | 491 | 493 | B-158-  | B-160-  | VIG 
+| 1i0z | B | albelig | 15 | 15 | H | 497 | 511 | B-164-  | B-178-  | NLDSARFRYLMAEKL 
+| 1i0z | B | albelig | 16 | 16 | H | 515 | 517 | B-182-  | B-184-  | PSS 
+| 1i0z | B | albelig | 17 | 17 | H | 534 | 536 | B-201-  | B-203-  | WSG 
+| 1i0z | B | albelig | 18 | 18 | H | 544 | 547 | B-211-  | B-214-  | LQEL 
+| 1i0z | B | albelig | 19 | 19 | H | 560 | 578 | B-227-  | B-245-  | WKEVHKMVVESAYEVIKLK 
+| 1i0z | B | albelig | 20 | 20 | H | 583 | 597 | B-250-  | B-264-  | WAIGLSVADLIESML 
+| 1i0z | B | albelig | 21 | 21 | E | 602 | 609 | B-269-  | B-276-  | RIHPVSTM 
+| 1i0z | B | albelig | 22 | 22 | E | 621 | 629 | B-288-  | B-296-  | FLSLPCILN 
+| 1i0z | B | albelig | 23 | 23 | E | 632 | 636 | B-299-  | B-303-  | GLTSV 
+| 1i0z | B | albelig | 24 | 24 | H | 643 | 660 | B-310-  | B-327-  | DDEVAQLKKSADTLWDIQ 
+| 1i0z | B | albelig | 25 | 25 | L | 668 | 668 | B-411-  | B-411-  | J 
+| 1i0z | B | albelig | 26 | 26 | L | 669 | 669 | B-412-  | B-412-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 9
+= 2 = l = 25
+= 3 = p = 20
+= 3 = l = 25
+= 4 = p = 7
+= 5 = m = 7
+= 8 = m = 10
+= 8 = l = 25
+= 9 = p = 11
+= 10 = p = 12
+= 10 = l = 25
+= 11 = m = 13
+= 11 = p = 14
+= 12 = l = 25
+= 13 = m = 14
+= 13 = m = 23
+= 14 = p = 21
+= 15 = m = 19
+= 15 = l = 25
+= 15 = l = 26
+= 19 = l = 26
+= 20 = m = 21
+= 20 = m = 22
+= 20 = l = 25
+= 21 = a = 22
+= 22 = a = 23
+= 25 = l = 26
+# Listed 28 contacts. EOF.

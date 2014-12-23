@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a0z, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN (BETA CHAIN)
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-DEC-97
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > HEMOGLOBIN (VAL BETA1 MET) MUTANT
+> format_version > 2
+> pdbid > 1a0z
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a0z | D | albelig | 1 | 1 | H | 436 | 446 | D-5-  | D-15-  | PEEKSAVTALW 
+| 1a0z | D | albelig | 2 | 2 | H | 451 | 465 | D-20-  | D-34-  | VDEVGGEALGRLLVV 
+| 1a0z | D | albelig | 3 | 3 | H | 467 | 472 | D-36-  | D-41-  | PWTQRF 
+| 1a0z | D | albelig | 4 | 4 | H | 474 | 476 | D-43-  | D-45-  | ESF 
+| 1a0z | D | albelig | 5 | 5 | H | 482 | 486 | D-51-  | D-55-  | PDAVM 
+| 1a0z | D | albelig | 6 | 6 | H | 489 | 508 | D-58-  | D-77-  | PKVKAHGKKVLGAFSDGLAH 
+| 1a0z | D | albelig | 7 | 7 | H | 512 | 526 | D-81-  | D-95-  | LKGTFATLSELHCDK 
+| 1a0z | D | albelig | 8 | 8 | H | 532 | 552 | D-101-  | D-121-  | ENFRLLGNVLVCVLAHHFGKE 
+| 1a0z | D | albelig | 9 | 9 | H | 555 | 573 | D-124-  | D-142-  | PPVQAAYQKVVAGVANALA 
+| 1a0z | D | albelig | 10 | 10 | L | 581 | 581 | D-147-  | D-147-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = m = 3
+= 2 = m = 5
+= 2 = a = 6
+= 2 = m = 8
+= 2 = l = 10
+= 3 = l = 10
+= 4 = m = 6
+= 4 = l = 10
+= 6 = m = 7
+= 6 = l = 10
+= 7 = m = 9
+= 7 = l = 10
+= 8 = a = 9
+= 8 = l = 10
+= 9 = l = 10
+# Listed 16 contacts. EOF.

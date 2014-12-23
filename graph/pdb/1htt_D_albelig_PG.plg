@@ -1,0 +1,85 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1htt, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (TRNA SYNTHETASE/HIS-ADENYLATE), AMINOACYL-TRNASYNTHASE, LIGASE, SYNTHETASE
+> pdb_mol_name > HISTIDYL-TRNA SYNTHETASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 09-MAR-96
+> header > COMPLEX (TRNA SYNTHETASE/HIS-ADENYLATE)
+> pdb_org_common > UNKNOWN
+> title > HISTIDYL-TRNA SYNTHETASE
+> format_version > 2
+> pdbid > 1htt
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1htt | D | albelig | 1 | 1 | H | 1111 | 1130 | D-16-  | D-35-  | PGETAIWQRIEGTLKNVLGS 
+| 1htt | D | albelig | 2 | 2 | E | 1141 | 1143 | D-46-  | D-48-  | VEQ 
+| 1htt | D | albelig | 3 | 3 | H | 1144 | 1151 | D-49-  | D-56-  | TPLFKRAI 
+| 1htt | D | albelig | 4 | 4 | H | 1157 | 1161 | D-62-  | D-66-  | VVEKE 
+| 1htt | D | albelig | 5 | 5 | E | 1163 | 1166 | D-68-  | D-71-  | YTFE 
+| 1htt | D | albelig | 6 | 6 | E | 1172 | 1175 | D-77-  | D-80-  | SLTL 
+| 1htt | D | albelig | 7 | 7 | H | 1180 | 1190 | D-85-  | D-95-  | TAGCVRAGIEH 
+| 1htt | D | albelig | 8 | 8 | E | 1198 | 1207 | D-103-  | D-112-  | QRLWYIGPMF 
+| 1htt | D | albelig | 9 | 9 | E | 1219 | 1228 | D-124-  | D-133-  | QFHQLGCEVF 
+| 1htt | D | albelig | 10 | 10 | H | 1233 | 1250 | D-138-  | D-155-  | PDIDAELIMLTARWWRAL 
+| 1htt | D | albelig | 11 | 11 | E | 1256 | 1262 | D-161-  | D-167-  | VTLELNS 
+| 1htt | D | albelig | 12 | 12 | H | 1267 | 1281 | D-231-  | D-245-  | EESREHFAGLCKLLE 
+| 1htt | D | albelig | 13 | 13 | E | 1287 | 1289 | D-251-  | D-253-  | YTV 
+| 1htt | D | albelig | 14 | 14 | E | 1303 | 1309 | D-267-  | D-273-  | TVFEWVT 
+| 1htt | D | albelig | 15 | 15 | E | 1314 | 1320 | D-281-  | D-287-  | TVCAGGR 
+| 1htt | D | albelig | 16 | 16 | H | 1324 | 1327 | D-291-  | D-294-  | LVEQ 
+| 1htt | D | albelig | 17 | 17 | E | 1335 | 1341 | D-302-  | D-308-  | AVGFAMG 
+| 1htt | D | albelig | 18 | 18 | H | 1342 | 1352 | D-309-  | D-319-  | LERLVLLVQAV 
+| 1htt | D | albelig | 19 | 19 | E | 1364 | 1368 | D-331-  | D-335-  | IYLVA 
+| 1htt | D | albelig | 20 | 20 | H | 1374 | 1387 | D-341-  | D-354-  | QSAAMALAERLRDE 
+| 1htt | D | albelig | 21 | 21 | E | 1393 | 1395 | D-360-  | D-362-  | LMT 
+| 1htt | D | albelig | 22 | 22 | H | 1402 | 1412 | D-369-  | D-379-  | FKKQFARADKW 
+| 1htt | D | albelig | 23 | 23 | E | 1416 | 1420 | D-383-  | D-387-  | VAVVL 
+| 1htt | D | albelig | 24 | 24 | H | 1422 | 1427 | D-389-  | D-394-  | ESEVAN 
+| 1htt | D | albelig | 25 | 25 | E | 1429 | 1434 | D-396-  | D-401-  | TAVVKD 
+| 1htt | D | albelig | 26 | 26 | E | 1440 | 1444 | D-407-  | D-411-  | QTAVA 
+| 1htt | D | albelig | 27 | 27 | H | 1445 | 1456 | D-412-  | D-423-  | QDSVAAHLRTLL 
+| 1htt | D | albelig | 28 | 28 | L | 1464 | 1464 | D-450-  | D-450-  | J 
+| 1htt | D | albelig | 29 | 29 | L | 1465 | 1465 | D-451-  | D-451-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 10
+= 2 = m = 3
+= 2 = a = 6
+= 3 = m = 6
+= 5 = a = 6
+= 7 = m = 9
+= 7 = l = 28
+= 8 = a = 9
+= 8 = l = 28
+= 9 = a = 17
+= 9 = l = 28
+= 9 = l = 29
+= 10 = m = 12
+= 10 = m = 17
+= 11 = a = 12
+= 11 = p = 13
+= 11 = a = 14
+= 14 = a = 15
+= 15 = a = 17
+= 15 = l = 28
+= 15 = l = 29
+= 17 = m = 18
+= 17 = l = 28
+= 17 = l = 29
+= 18 = l = 29
+= 19 = p = 21
+= 19 = m = 22
+= 19 = p = 23
+= 20 = m = 21
+= 20 = m = 27
+= 23 = a = 25
+= 24 = m = 25
+= 25 = a = 26
+= 26 = m = 27
+= 28 = l = 29
+# Listed 35 contacts. EOF.

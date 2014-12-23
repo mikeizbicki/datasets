@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gff, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COAT PROTEIN, ICOSAHEDRAL VIRUS
+> pdb_mol_name > BACTERIOPHAGE G4 CAPSID PROTEINS GPF, GPG, GPJ
+> graphtype > albelig
+> resolution > 3.0
+> date > 06-NOV-95
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > THE ATOMIC STRUCTURE OF THE DEGRADED PROCAPSID PARTICLE OFTHE BACTERIOPHAGE G4: INDUCED STRUCTURAL CHANGES IN THEPRESENCE OF CALCIUM IONS AND FUNCTIONAL IMPLICATIONS
+> format_version > 2
+> pdbid > 1gff
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE G4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gff | 2 | albelig | 1 | 1 | E | 437 | 440 | 2-19-  | 2-22-  | AATK 
+| 1gff | 2 | albelig | 2 | 2 | E | 456 | 459 | 2-38-  | 2-41-  | RSTI 
+| 1gff | 2 | albelig | 3 | 3 | E | 462 | 465 | 2-44-  | 2-47-  | NATT 
+| 1gff | 2 | albelig | 4 | 4 | E | 473 | 479 | 2-55-  | 2-61-  | GLCHVVR 
+| 1gff | 2 | albelig | 5 | 5 | E | 488 | 497 | 2-70-  | 2-79-  | HHALSIAGSL 
+| 1gff | 2 | albelig | 6 | 6 | E | 505 | 514 | 2-87-  | 2-96-  | IAFAIRFEVA 
+| 1gff | 2 | albelig | 7 | 7 | E | 527 | 529 | 2-109-  | 2-111-  | DVY 
+| 1gff | 2 | albelig | 8 | 8 | E | 533 | 535 | 2-115-  | 2-117-  | TFN 
+| 1gff | 2 | albelig | 9 | 9 | E | 540 | 542 | 2-122-  | 2-124-  | ISF 
+| 1gff | 2 | albelig | 10 | 10 | E | 544 | 549 | 2-126-  | 2-131-  | DAVTID 
+| 1gff | 2 | albelig | 11 | 11 | E | 557 | 566 | 2-139-  | 2-148-  | NDVYAGIMLW 
+| 1gff | 2 | albelig | 12 | 12 | E | 573 | 575 | 2-155-  | 2-157-  | STI 
+| 1gff | 2 | albelig | 13 | 13 | E | 577 | 584 | 2-159-  | 2-166-  | GVLSVNQV 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = a = 13
+= 3 = a = 12
+= 4 = a = 11
+= 5 = a = 9
+= 5 = a = 10
+= 5 = a = 13
+= 6 = a = 7
+= 6 = a = 11
+= 8 = a = 9
+# Listed 10 contacts. EOF.

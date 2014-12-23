@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i9r, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-SHEET SANDWICH, IMMUNOGLOBULIN, CYTOKINE/IMMUNE SYSTEMCOMPLEX
+> pdb_mol_name > CD40 LIGAND
+> graphtype > albelig
+> resolution > 3.1
+> date > 20-MAR-01
+> header > CYTOKINE/IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF CD40L IN COMPLEX WITH THE FAB FRAGMENT OFHUMANIZED 5C8 ANTIBODY
+> format_version > 2
+> pdbid > 1i9r
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i9r | A | albelig | 1 | 1 | E | 5 | 11 | A-123-  | A-129-  | AAHVISE 
+| 1i9r | A | albelig | 2 | 2 | E | 21 | 23 | A-139-  | A-141-  | QWA 
+| 1i9r | A | albelig | 3 | 3 | E | 35 | 38 | A-153-  | A-156-  | VTLE 
+| 1i9r | A | albelig | 4 | 4 | E | 42 | 45 | A-160-  | A-163-  | QLTV 
+| 1i9r | A | albelig | 5 | 5 | E | 49 | 61 | A-167-  | A-179-  | GLYYIYAQVTFAS 
+| 1i9r | A | albelig | 6 | 6 | E | 71 | 78 | A-189-  | A-196-  | FIASLCLK 
+| 1i9r | A | albelig | 7 | 7 | E | 85 | 92 | A-203-  | A-210-  | RILLRAAN 
+| 1i9r | A | albelig | 8 | 8 | E | 101 | 107 | A-219-  | A-225-  | GQQSIHL 
+| 1i9r | A | albelig | 9 | 9 | E | 110 | 113 | A-228-  | A-231-  | VFEL 
+| 1i9r | A | albelig | 10 | 10 | E | 118 | 123 | A-236-  | A-241-  | SVFVNV 
+| 1i9r | A | albelig | 11 | 11 | H | 126 | 128 | A-244-  | A-246-  | PSQ 
+| 1i9r | A | albelig | 12 | 12 | E | 137 | 142 | A-255-  | A-260-  | SFGLLK 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 12
+= 3 = a = 4
+= 4 = a = 10
+= 5 = a = 6
+= 5 = a = 8
+= 5 = p = 9
+= 5 = m = 11
+= 5 = a = 12
+= 6 = a = 7
+= 6 = a = 10
+= 7 = a = 8
+# Listed 12 contacts. EOF.

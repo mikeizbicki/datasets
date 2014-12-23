@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eu4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA GRASP, OB FOLD, SUPERANTIGEN FOLD, IMMUNE SYSTEM
+> pdb_mol_name > SUPERANTIGEN SPE-H
+> graphtype > albelig
+> resolution > 2.5
+> date > 13-APR-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE SUPERANTIGEN SPE-H (ZINC BOUND)FROM STREPTOCOCCUS PYOGENES
+> format_version > 2
+> pdbid > 1eu4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eu4 | A | albelig | 1 | 1 | H | 5 | 16 | A-5-  | A-16-  | TTNRHNLESLYK 
+| 1eu4 | A | albelig | 2 | 2 | H | 18 | 20 | A-18-  | A-20-  | DSN 
+| 1eu4 | A | albelig | 3 | 3 | E | 21 | 28 | A-21-  | A-28-  | LIEADSIK 
+| 1eu4 | A | albelig | 4 | 4 | E | 38 | 43 | A-38-  | A-43-  | MLKYSV 
+| 1eu4 | A | albelig | 5 | 5 | E | 46 | 51 | A-46-  | A-51-  | KNLSVF 
+| 1eu4 | A | albelig | 6 | 6 | H | 56 | 59 | A-56-  | A-59-  | WISQ 
+| 1eu4 | A | albelig | 7 | 7 | E | 65 | 71 | A-65-  | A-71-  | EVDIYAL 
+| 1eu4 | A | albelig | 8 | 8 | E | 83 | 87 | A-83-  | A-87-  | RYEAF 
+| 1eu4 | A | albelig | 9 | 9 | E | 90 | 92 | A-90-  | A-92-  | ITL 
+| 1eu4 | A | albelig | 10 | 10 | E | 100 | 108 | A-100-  | A-108-  | IKVPVNVWD 
+| 1eu4 | A | albelig | 11 | 11 | E | 116 | 120 | A-116-  | A-120-  | MFITV 
+| 1eu4 | A | albelig | 12 | 12 | E | 124 | 126 | A-124-  | A-126-  | KVT 
+| 1eu4 | A | albelig | 13 | 13 | H | 127 | 142 | A-127-  | A-142-  | AQEVDIKVRKLLIKKY 
+| 1eu4 | A | albelig | 14 | 14 | E | 155 | 161 | A-155-  | A-161-  | GTVTLDL 
+| 1eu4 | A | albelig | 15 | 15 | E | 166 | 170 | A-166-  | A-170-  | DIVFD 
+| 1eu4 | A | albelig | 16 | 16 | H | 179 | 186 | A-179-  | A-186-  | FNSMLKIY 
+| 1eu4 | A | albelig | 17 | 17 | E | 191 | 193 | A-191-  | A-193-  | RID 
+| 1eu4 | A | albelig | 18 | 18 | E | 197 | 203 | A-197-  | A-203-  | FHVDVSI 
+| 1eu4 | A | albelig | 19 | 19 | L | 205 | 205 | A-400-  | A-400-  | J 
+| 1eu4 | A | albelig | 20 | 20 | L | 206 | 206 | A-401-  | A-401-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 16
+= 2 = m = 3
+= 3 = a = 7
+= 4 = a = 5
+= 5 = p = 8
+= 7 = a = 9
+= 7 = m = 13
+= 8 = m = 16
+= 10 = a = 11
+= 10 = p = 18
+= 10 = l = 19
+= 11 = m = 13
+= 12 = m = 13
+= 12 = a = 17
+= 13 = m = 15
+= 14 = a = 15
+= 14 = a = 18
+= 14 = l = 19
+= 14 = l = 20
+= 15 = l = 20
+= 18 = l = 19
+= 19 = l = 20
+# Listed 22 contacts. EOF.

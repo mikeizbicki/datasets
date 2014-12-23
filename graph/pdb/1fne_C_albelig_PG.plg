@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fne, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTOCOMPATIBILITY ANTIGEN, MHC, IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (MHC CLASS II I-EK, ALPHA CHAIN)
+> graphtype > albelig
+> resolution > 1.9
+> date > 21-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > HISTOCOMPATIBILITY ANTIGEN
+> format_version > 2
+> pdbid > 1fne
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fne | C | albelig | 1 | 1 | E | 402 | 412 | C-5-  | C-15-  | HTIIQAEFYLL 
+| 1fne | C | albelig | 2 | 2 | E | 416 | 423 | C-19-  | C-26-  | RGEFMFDF 
+| 1fne | C | albelig | 3 | 3 | E | 426 | 432 | C-29-  | C-35-  | DEIFHVD 
+| 1fne | C | albelig | 4 | 4 | E | 437 | 440 | C-40-  | C-43-  | ETIW 
+| 1fne | C | albelig | 5 | 5 | H | 443 | 447 | C-46-  | C-50-  | EEFAK 
+| 1fne | C | albelig | 6 | 6 | H | 453 | 473 | C-56-  | C-76-  | AQGALANIAVDKANLDVMKER 
+| 1fne | C | albelig | 7 | 7 | E | 485 | 490 | C-88-  | C-93-  | EVTVLS 
+| 1fne | C | albelig | 8 | 8 | E | 500 | 509 | C-103-  | C-112-  | NILIDFIDKF 
+| 1fne | C | albelig | 9 | 9 | E | 515 | 520 | C-118-  | C-123-  | NVTWLR 
+| 1fne | C | albelig | 10 | 10 | E | 529 | 531 | C-132-  | C-134-  | VSE 
+| 1fne | C | albelig | 11 | 11 | E | 542 | 550 | C-145-  | C-153-  | FRKFHYLTF 
+| 1fne | C | albelig | 12 | 12 | E | 557 | 563 | C-160-  | C-166-  | FYDDEVD 
+| 1fne | C | albelig | 13 | 13 | E | 571 | 576 | C-174-  | C-179-  | LRKHWE 
+| 1fne | C | albelig | 14 | 14 | L | 797 | 797 | C-604-  | C-604-  | J 
+| 1fne | C | albelig | 15 | 15 | L | 798 | 798 | C-605-  | C-605-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = a = 3
+= 3 = a = 4
+= 7 = a = 8
+= 7 = p = 13
+= 8 = a = 11
+= 8 = p = 12
+= 9 = p = 11
+= 9 = a = 12
+= 9 = l = 15
+= 10 = a = 11
+= 12 = a = 13
+= 12 = l = 15
+# Listed 14 contacts. EOF.

@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iie, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MAJOR HISTOCOMPATIBILITY COMPLEX, ANTIGEN PROCESSING,OLIGOMERIZATION, CHAPERONIN
+> pdb_mol_name > PROTEIN (HLA-DR ANTIGENS ASSOCIATED INVARIANT
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-FEB-99
+> header > MAJOR HISTOCOMPATIBILITY COMPLEX
+> pdb_org_common > HUMAN
+> title > HLA-DR ANTIGENS ASSOCIATED INVARIANT CHAIN
+> format_version > 2
+> pdbid > 1iie
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iie | A | albelig | 1 | 1 | H | 6 | 16 | A-123-  | A-133-  | EDHVMHLLQNA 
+| 1iie | A | albelig | 2 | 2 | H | 29 | 39 | A-146-  | A-156-  | FPENLRHLKNT 
+| 1iie | A | albelig | 3 | 3 | H | 42 | 61 | A-159-  | A-178-  | TIDWKVFESWMHHWLLFEMS 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+# Listed 1 contacts. EOF.

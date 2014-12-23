@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gug, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLYBDATE BINDING PROTEIN, MOLBINDIN, MOLYBDATE BINDING, MOP
+> pdb_mol_name > MOLYBDATE BINDING PROTEIN II
+> graphtype > albelig
+> resolution > 1.6
+> date > 25-JAN-02
+> header > MOLYBDATE BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > MOPII FROM CLOSTRIDIUM PASTEURIANUM COMPLEXED WITHTUNGSTATE
+> format_version > 2
+> pdbid > 1gug
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM PASTEURIANUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gug | D | albelig | 1 | 1 | E | 210 | 221 | D-7-  | D-18-  | NQLKGKVVGLKK 
+| 1gug | D | albelig | 2 | 2 | E | 225 | 232 | D-22-  | D-29-  | TAEVVLEI 
+| 1gug | D | albelig | 3 | 3 | H | 233 | 235 | D-30-  | D-32-  | AGG 
+| 1gug | D | albelig | 4 | 4 | E | 236 | 243 | D-33-  | D-40-  | NKITSIIS 
+| 1gug | D | albelig | 5 | 5 | H | 244 | 250 | D-41-  | D-47-  | LDSVEEL 
+| 1gug | D | albelig | 6 | 6 | E | 257 | 262 | D-54-  | D-59-  | ELTAVV 
+| 1gug | D | albelig | 7 | 7 | H | 264 | 266 | D-61-  | D-63-  | STD 
+| 1gug | D | albelig | 8 | 8 | L | 414 | 414 | D-1069-  | D-1069-  | J 
+| 1gug | D | albelig | 9 | 9 | L | 415 | 415 | D-1070-  | D-1070-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = m = 3
+= 2 = a = 4
+= 2 = l = 9
+= 3 = m = 4
+= 4 = m = 5
+= 4 = l = 8
+= 5 = l = 8
+# Listed 9 contacts. EOF.

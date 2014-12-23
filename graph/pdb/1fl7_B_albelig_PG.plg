@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fl7, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYSTEINE KNOT, HETERODIMER, HORMONE-GROWTH FACTOR COMPLEX
+> pdb_mol_name > FOLLICLE STIMULATING PROTEIN BETA CHAIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 11-AUG-00
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > HUMAN FOLLICLE STIMULATING HORMONE
+> format_version > 2
+> pdbid > 1fl7
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fl7 | B | albelig | 1 | 1 | E | 89 | 91 | B-5-  | B-7-  | LTN 
+| 1fl7 | B | albelig | 2 | 2 | E | 94 | 98 | B-10-  | B-14-  | IAIEK 
+| 1fl7 | B | albelig | 3 | 3 | H | 99 | 101 | B-15-  | B-17-  | EEG 
+| 1fl7 | B | albelig | 4 | 4 | E | 103 | 107 | B-19-  | B-23-  | FHISI 
+| 1fl7 | B | albelig | 5 | 5 | E | 110 | 119 | B-26-  | B-35-  | AWIAGYJYTR 
+| 1fl7 | B | albelig | 6 | 6 | E | 136 | 147 | B-52-  | B-63-  | TFKELVYETVRV 
+| 1fl7 | B | albelig | 7 | 7 | E | 156 | 167 | B-72-  | B-83-  | SLYTYPVATQIH 
+| 1fl7 | B | albelig | 8 | 8 | E | 176 | 179 | B-92-  | B-95-  | TDKT 
+| 1fl7 | B | albelig | 9 | 9 | L | 395 | 395 | B-112-  | B-112-  | J 
+| 1fl7 | B | albelig | 10 | 10 | L | 396 | 396 | B-113-  | B-113-  | J 
+| 1fl7 | B | albelig | 11 | 11 | L | 405 | 405 | B-510-  | B-510-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 7
+= 1 = l = 9
+= 2 = m = 3
+= 2 = a = 4
+= 5 = a = 6
+= 5 = p = 7
+= 5 = l = 9
+= 6 = a = 7
+= 9 = l = 10
+# Listed 10 contacts. EOF.

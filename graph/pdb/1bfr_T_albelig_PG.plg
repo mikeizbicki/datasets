@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bfr, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, IRON STORAGE
+> pdb_mol_name > UNKNOWN
+> graphtype > albelig
+> resolution > 2.94
+> date > 16-DEC-94
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > IRON STORAGE AND ELECTRON TRANSPORT
+> format_version > 2
+> pdbid > 1bfr
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bfr | T | albelig | 1 | 1 | H | 3026 | 3055 | T-5-  | T-34-  | TKVINYLNKLLGNELVAINQYFLHARMFKN 
+| 1bfr | T | albelig | 2 | 2 | H | 3059 | 3085 | T-38-  | T-64-  | KRLNDVEYHESIDEMKHADRYIERILF 
+| 1bfr | T | albelig | 3 | 3 | H | 3104 | 3131 | T-83-  | T-110-  | VEEMLRSDLALELDGAKNLREAIGYADS 
+| 1bfr | T | albelig | 4 | 4 | H | 3135 | 3165 | T-114-  | T-144-  | YVSRDMMIEILRDEEGHIDWLETELDLIQKM 
+| 1bfr | T | albelig | 5 | 5 | H | 3167 | 3172 | T-146-  | T-151-  | LQNYLQ 
+| 1bfr | T | albelig | 6 | 6 | L | 3854 | 3854 | T-201-  | T-201-  | J 
+| 1bfr | T | albelig | 7 | 7 | L | 3855 | 3855 | T-202-  | T-202-  | J 
+| 1bfr | T | albelig | 8 | 8 | L | 3873 | 3873 | T-200-  | T-200-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = p = 4
+= 1 = l = 6
+= 1 = l = 7
+= 1 = l = 8
+= 2 = a = 4
+= 2 = l = 6
+= 2 = l = 7
+= 2 = l = 8
+= 3 = a = 4
+= 3 = l = 6
+= 4 = l = 6
+= 4 = l = 7
+= 6 = l = 7
+# Listed 15 contacts. EOF.

@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a25, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM++/PHOSPHOLIPID BINDING PROTEIN, CALCIUM-BINDINGPROTEIN
+> pdb_mol_name > PROTEIN KINASE C (BETA)
+> graphtype > albelig
+> resolution > 2.7
+> date > 16-JAN-98
+> header > CALCIUM-BINDING PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > C2 DOMAIN FROM PROTEIN KINASE C (BETA)
+> format_version > 2
+> pdbid > 1a25
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a25 | A | albelig | 1 | 1 | E | 5 | 12 | A-161-  | A-168-  | RIYIQAHI 
+| 1a25 | A | albelig | 2 | 2 | E | 16 | 25 | A-172-  | A-181-  | VLIVVVRDAK 
+| 1a25 | A | albelig | 3 | 3 | E | 38 | 45 | A-194-  | A-201-  | PYVKLKLI 
+| 1a25 | A | albelig | 4 | 4 | E | 66 | 74 | A-222-  | A-230-  | EWNETFRFQ 
+| 1a25 | A | albelig | 5 | 5 | H | 78 | 81 | A-234-  | A-237-  | SDKD 
+| 1a25 | A | albelig | 6 | 6 | E | 83 | 90 | A-239-  | A-246-  | RLSVEIWD 
+| 1a25 | A | albelig | 7 | 7 | E | 98 | 106 | A-254-  | A-262-  | DFMGSLSFG 
+| 1a25 | A | albelig | 8 | 8 | H | 107 | 110 | A-263-  | A-266-  | ISEL 
+| 1a25 | A | albelig | 9 | 9 | E | 115 | 120 | A-271-  | A-276-  | VDGWFK 
+| 1a25 | A | albelig | 10 | 10 | H | 124 | 127 | A-280-  | A-283-  | QEEG 
+| 1a25 | A | albelig | 11 | 11 | L | 266 | 266 | A-290-  | A-290-  | J 
+| 1a25 | A | albelig | 12 | 12 | L | 267 | 267 | A-291-  | A-291-  | J 
+| 1a25 | A | albelig | 13 | 13 | L | 268 | 268 | A-292-  | A-292-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 4
+= 3 = p = 4
+= 3 = a = 6
+= 6 = a = 7
+= 6 = l = 11
+= 6 = l = 12
+= 7 = m = 8
+= 7 = m = 10
+= 7 = l = 12
+= 7 = l = 13
+= 11 = l = 12
+= 12 = l = 13
+# Listed 14 contacts. EOF.

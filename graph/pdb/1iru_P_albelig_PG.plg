@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iru, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 20S PROTEASOME, CELL CYCLE, IMMUNE RESPONSE, PROTEOLYSIS,UBIQUITIN, HYDROLASE
+> pdb_mol_name > 20S PROTEASOME
+> graphtype > albelig
+> resolution > 2.75
+> date > 24-OCT-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE MAMMALIAN 20S PROTEASOME AT 2.75 ARESOLUTION
+> format_version > 2
+> pdbid > 1iru
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iru | P | albelig | 1 | 1 | H | 3421 | 3431 | P-19-  | P-29-  | VQIEYALAAVA 
+| 1iru | P | albelig | 2 | 2 | E | 3436 | 3440 | P-34-  | P-38-  | SVGIK 
+| 1iru | P | albelig | 3 | 3 | E | 3445 | 3450 | P-43-  | P-48-  | VVLATE 
+| 1iru | P | albelig | 4 | 4 | E | 3473 | 3479 | P-71-  | P-77-  | IGLVYSG 
+| 1iru | P | albelig | 5 | 5 | H | 3481 | 3502 | P-79-  | P-100-  | GPDYRVLVHRARKLAQQYYLVY 
+| 1iru | P | albelig | 6 | 6 | H | 3508 | 3521 | P-106-  | P-119-  | TAQLVQRVASVMQE 
+| 1iru | P | albelig | 7 | 7 | E | 3533 | 3540 | P-131-  | P-138-  | VSLLICGW 
+| 1iru | P | albelig | 8 | 8 | E | 3545 | 3550 | P-143-  | P-148-  | PYLFQS 
+| 1iru | P | albelig | 9 | 9 | E | 3556 | 3558 | P-154-  | P-156-  | YFA 
+| 1iru | P | albelig | 10 | 10 | E | 3561 | 3564 | P-159-  | P-162-  | ATAM 
+| 1iru | P | albelig | 11 | 11 | H | 3568 | 3578 | P-166-  | P-176-  | YVNGKTFLEKR 
+| 1iru | P | albelig | 12 | 12 | H | 3585 | 3597 | P-183-  | P-195-  | LEDAIHTAILTLK 
+| 1iru | P | albelig | 13 | 13 | E | 3609 | 3615 | P-207-  | P-213-  | IEVGICN 
+| 1iru | P | albelig | 14 | 14 | E | 3618 | 3621 | P-216-  | P-219-  | GFRR 
+| 1iru | P | albelig | 15 | 15 | H | 3624 | 3631 | P-222-  | P-229-  | PTEVKDYL 
+| 1iru | P | albelig | 16 | 16 | L | 6330 | 6330 | P-416-  | P-416-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = a = 3
+= 2 = a = 8
+= 2 = a = 10
+= 2 = l = 16
+= 3 = a = 13
+= 3 = l = 16
+= 4 = m = 5
+= 4 = a = 7
+= 4 = l = 16
+= 5 = m = 6
+= 7 = a = 8
+= 7 = p = 13
+= 8 = a = 9
+= 10 = m = 11
+= 11 = m = 12
+= 13 = a = 14
+# Listed 17 contacts. EOF.

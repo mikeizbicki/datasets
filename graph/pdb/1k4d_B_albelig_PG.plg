@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k4d, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > K CHANNEL, PROTEIN-ANTIBODY FAB COMPLEX, MEMBRANE PROTEIN
+> pdb_mol_name > ANTIBODY FAB FRAGMENT LIGHT CHAIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 07-OCT-01
+> header > MEMBRANE PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > POTASSIUM CHANNEL KCSA-FAB COMPLEX IN LOW CONCENTRATION OF K+
+> format_version > 2
+> pdbid > 1k4d
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k4d | B | albelig | 1 | 1 | E | 230 | 233 | B-10-  | B-13-  | ILSV 
+| 1k4d | B | albelig | 2 | 2 | E | 239 | 245 | B-19-  | B-25-  | VSFSCRA 
+| 1k4d | B | albelig | 3 | 3 | E | 253 | 258 | B-33-  | B-38-  | IHWYQQ 
+| 1k4d | B | albelig | 4 | 4 | E | 265 | 269 | B-45-  | B-49-  | RLLIK 
+| 1k4d | B | albelig | 5 | 5 | E | 282 | 287 | B-62-  | B-67-  | FSGSGS 
+| 1k4d | B | albelig | 6 | 6 | E | 290 | 295 | B-70-  | B-75-  | DFTLSI 
+| 1k4d | B | albelig | 7 | 7 | H | 300 | 302 | B-80-  | B-82-  | SED 
+| 1k4d | B | albelig | 8 | 8 | E | 305 | 310 | B-85-  | B-90-  | NYYCQQ 
+| 1k4d | B | albelig | 9 | 9 | E | 322 | 326 | B-102-  | B-106-  | TKLEI 
+| 1k4d | B | albelig | 10 | 10 | E | 334 | 338 | B-114-  | B-118-  | TVSIF 
+| 1k4d | B | albelig | 11 | 11 | H | 342 | 345 | B-122-  | B-125-  | SEQL 
+| 1k4d | B | albelig | 12 | 12 | E | 349 | 359 | B-129-  | B-139-  | GASVVDFLNNF 
+| 1k4d | B | albelig | 13 | 13 | E | 365 | 370 | B-145-  | B-150-  | NVKWKI 
+| 1k4d | B | albelig | 14 | 14 | E | 373 | 375 | B-153-  | B-155-  | SER 
+| 1k4d | B | albelig | 15 | 15 | E | 379 | 383 | B-159-  | B-163-  | VLNSW 
+| 1k4d | B | albelig | 16 | 16 | E | 393 | 402 | B-173-  | B-182-  | YSMSSTLTLT 
+| 1k4d | B | albelig | 17 | 17 | H | 403 | 407 | B-183-  | B-187-  | KDEYE 
+| 1k4d | B | albelig | 18 | 18 | E | 411 | 418 | B-191-  | B-198-  | SYTDEATH 
+| 1k4d | B | albelig | 19 | 19 | E | 421 | 430 | B-201-  | B-210-  | STSPIVKSFN 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 2 = a = 6
+= 3 = a = 4
+= 3 = p = 6
+= 3 = a = 8
+= 5 = a = 6
+= 8 = p = 9
+= 10 = a = 12
+= 10 = p = 19
+= 11 = m = 12
+= 12 = a = 16
+= 12 = p = 18
+= 13 = a = 14
+= 13 = a = 18
+= 15 = a = 16
+= 16 = m = 17
+= 18 = a = 19
+# Listed 17 contacts. EOF.

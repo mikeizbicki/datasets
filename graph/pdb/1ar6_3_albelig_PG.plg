@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ar6, chain 3.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PICORNAVIRUS, POLIOVIRUS, COAT PROTEIN, ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > P1/MAHONEY POLIOVIRUS
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-AUG-97
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > P1/MAHONEY POLIOVIRUS, DOUBLE MUTANT V1160I +P1095S
+> format_version > 2
+> pdbid > 1ar6
+> experiment > X-RAY DIFFRACTION
+> chainid > 3
+> graphclass > protein graph
+> pdb_org_sci > HUMAN POLIOVIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ar6 | 3 | albelig | 1 | 1 | H | 602 | 606 | 3-43-  | 3-47-  | MMELA 
+| 1ar6 | 3 | albelig | 2 | 2 | H | 624 | 627 | 3-65-  | 3-68-  | MEMY 
+| 1ar6 | 3 | albelig | 3 | 3 | E | 629 | 632 | 3-70-  | 3-73-  | VRLS 
+| 1ar6 | 3 | albelig | 4 | 4 | E | 642 | 645 | 3-83-  | 3-86-  | LCLS 
+| 1ar6 | 3 | albelig | 5 | 5 | H | 658 | 663 | 3-99-  | 3-104-  | MLGEIL 
+| 1ar6 | 3 | albelig | 6 | 6 | E | 666 | 670 | 3-107-  | 3-111-  | YTHWA 
+| 1ar6 | 3 | albelig | 7 | 7 | E | 673 | 679 | 3-114-  | 3-120-  | LKFTFLF 
+| 1ar6 | 3 | albelig | 8 | 8 | E | 688 | 694 | 3-129-  | 3-135-  | KLLVSYA 
+| 1ar6 | 3 | albelig | 9 | 9 | H | 704 | 707 | 3-145-  | 3-148-  | RKEA 
+| 1ar6 | 3 | albelig | 10 | 10 | E | 711 | 716 | 3-152-  | 3-157-  | THVIWD 
+| 1ar6 | 3 | albelig | 11 | 11 | E | 722 | 727 | 3-163-  | 3-168-  | SCTMVV 
+| 1ar6 | 3 | albelig | 12 | 12 | H | 742 | 744 | 3-183-  | 3-185-  | SFT 
+| 1ar6 | 3 | albelig | 13 | 13 | E | 748 | 753 | 3-189-  | 3-194-  | YISVFY 
+| 1ar6 | 3 | albelig | 14 | 14 | E | 766 | 775 | 3-207-  | 3-216-  | EMDILGFVSA 
+| 1ar6 | 3 | albelig | 15 | 15 | E | 780 | 784 | 3-221-  | 3-225-  | SVRLL 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 14
+= 3 = a = 14
+= 4 = a = 13
+= 5 = m = 6
+= 6 = a = 15
+= 7 = a = 11
+= 7 = a = 14
+= 8 = a = 10
+= 8 = p = 11
+= 8 = a = 13
+= 9 = m = 13
+= 10 = a = 11
+# Listed 13 contacts. EOF.

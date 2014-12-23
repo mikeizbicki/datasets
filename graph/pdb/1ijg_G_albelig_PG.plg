@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ijg, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-HELICAL BUNDLE, RNA BINDING MOTIF, VIRAL PROTEIN
+> pdb_mol_name > UPPER COLLAR PROTEIN
+> graphtype > albelig
+> resolution > 2.9
+> date > 26-APR-01
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE BACTERIOPHAGE PHI29 HEAD-TAIL CONNECTORPROTEIN
+> format_version > 2
+> pdbid > 1ijg
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS PHAGE PHI29
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ijg | G | albelig | 1 | 1 | H | 1557 | 1581 | G-13-  | G-37-  | NEIQRQKRNRWFIHYLNYLQSLAYQ 
+| 1ijg | G | albelig | 2 | 2 | E | 1583 | 1586 | G-39-  | G-42-  | FEWE 
+| 1ijg | G | albelig | 3 | 3 | H | 1594 | 1604 | G-50-  | G-60-  | PSFLEKSIHQF 
+| 1ijg | G | albelig | 4 | 4 | E | 1606 | 1612 | G-62-  | G-68-  | YVGFYKD 
+| 1ijg | G | albelig | 5 | 5 | E | 1616 | 1620 | G-72-  | G-76-  | SYIAC 
+| 1ijg | G | albelig | 6 | 6 | E | 1622 | 1625 | G-78-  | G-81-  | GALS 
+| 1ijg | G | albelig | 7 | 7 | E | 1636 | 1640 | G-92-  | G-96-  | VFRAA 
+| 1ijg | G | albelig | 8 | 8 | E | 1645 | 1650 | G-101-  | G-106-  | QKEFKL 
+| 1ijg | G | albelig | 9 | 9 | E | 1661 | 1666 | G-117-  | G-122-  | MGVVIY 
+| 1ijg | G | albelig | 10 | 10 | H | 1675 | 1698 | G-131-  | G-154-  | TPTLELFAAELAELKEIISVNQNA 
+| 1ijg | G | albelig | 11 | 11 | E | 1703 | 1707 | G-159-  | G-163-  | VLIRA 
+| 1ijg | G | albelig | 12 | 12 | H | 1715 | 1721 | G-171-  | G-177-  | LKQVYNQ 
+| 1ijg | G | albelig | 13 | 13 | E | 1728 | 1731 | G-184-  | G-187-  | VIFA 
+| 1ijg | G | albelig | 14 | 14 | E | 1740 | 1744 | G-196-  | G-200-  | IEVFK 
+| 1ijg | G | albelig | 15 | 15 | H | 1751 | 1768 | G-207-  | G-224-  | VDKLNAQKNAVWNEMMTF 
+| 1ijg | G | albelig | 16 | 16 | H | 1775 | 1798 | G-248-  | G-271-  | EQIESSGTVFLKSREEACEKINEL 
+| 1ijg | G | albelig | 17 | 17 | E | 1804 | 1807 | G-277-  | G-280-  | KVKF 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = a = 10
+= 1 = m = 15
+= 2 = a = 17
+= 3 = m = 4
+= 4 = a = 5
+= 4 = a = 9
+= 6 = a = 7
+= 7 = a = 8
+= 8 = p = 9
+= 9 = a = 16
+= 10 = a = 15
+= 11 = a = 14
+= 16 = m = 17
+# Listed 14 contacts. EOF.

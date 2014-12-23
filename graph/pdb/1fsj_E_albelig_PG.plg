@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fsj, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ZINC CONTAINING ENZYME, HNH-MOTIF, HYDROLASE
+> pdb_mol_name > COLICIN E9
+> graphtype > albelig
+> resolution > 1.8
+> date > 11-SEP-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE E9 DNASE DOMAIN
+> format_version > 2
+> pdbid > 1fsj
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fsj | E | albelig | 1 | 1 | H | 403 | 405 | E-604-  | E-606-  | KRN 
+| 1fsj | E | albelig | 2 | 2 | H | 421 | 424 | E-622-  | E-625-  | WLDD 
+| 1fsj | E | albelig | 3 | 3 | H | 435 | 441 | E-636-  | E-642-  | DRIADKL 
+| 1fsj | E | albelig | 4 | 4 | H | 449 | 462 | E-650-  | E-663-  | FDDFRKAVWEEVSK 
+| 1fsj | E | albelig | 5 | 5 | H | 472 | 479 | E-673-  | E-680-  | PSNKSSVS 
+| 1fsj | E | albelig | 6 | 6 | H | 488 | 490 | E-689-  | E-691-  | KNQ 
+| 1fsj | E | albelig | 7 | 7 | E | 499 | 502 | E-700-  | E-703-  | ELHH 
+| 1fsj | E | albelig | 8 | 8 | H | 506 | 508 | E-707-  | E-709-  | ISQ 
+| 1fsj | E | albelig | 9 | 9 | E | 518 | 521 | E-719-  | E-722-  | IRVT 
+| 1fsj | E | albelig | 10 | 10 | H | 523 | 529 | E-724-  | E-730-  | PKRHIDI 
+| 1fsj | E | albelig | 11 | 11 | L | 540 | 540 | E-804-  | E-804-  | J 
+| 1fsj | E | albelig | 12 | 12 | L | 541 | 541 | E-904-  | E-904-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 11
+= 3 = m = 4
+= 4 = m = 5
+= 7 = a = 9
+= 7 = m = 10
+= 7 = l = 11
+= 7 = l = 12
+= 8 = l = 11
+= 10 = l = 11
+= 10 = l = 12
+= 11 = l = 12
+# Listed 11 contacts. EOF.

@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bj7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALLERGEN, LIPOCALIN
+> pdb_mol_name > D 2
+> graphtype > albelig
+> resolution > 1.8
+> date > 02-JUL-98
+> header > ALLERGEN
+> pdb_org_common > CATTLE
+> title > BOVINE LIPOCALIN ALLERGEN BOS D 2
+> format_version > 2
+> pdbid > 1bj7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bj7 | A | albelig | 1 | 1 | H | 3 | 5 | A-9-  | A-11-  | PSK 
+| 1bj7 | A | albelig | 2 | 2 | E | 11 | 17 | A-17-  | A-23-  | RIIYAAA 
+| 1bj7 | A | albelig | 3 | 3 | H | 20 | 22 | A-26-  | A-28-  | KDK 
+| 1bj7 | A | albelig | 4 | 4 | E | 32 | 39 | A-38-  | A-45-  | YYRRIEAI 
+| 1bj7 | A | albelig | 5 | 5 | E | 44 | 53 | A-50-  | A-59-  | SLSITFYLKD 
+| 1bj7 | A | albelig | 6 | 6 | E | 56 | 68 | A-62-  | A-74-  | TNLLLTEVAKRQE 
+| 1bj7 | A | albelig | 7 | 7 | E | 71 | 75 | A-77-  | A-81-  | VYVLE 
+| 1bj7 | A | albelig | 8 | 8 | E | 79 | 87 | A-85-  | A-93-  | TNTLEVIHV 
+| 1bj7 | A | albelig | 9 | 9 | E | 91 | 99 | A-97-  | A-105-  | MLVTYVENY 
+| 1bj7 | A | albelig | 10 | 10 | E | 104 | 112 | A-110-  | A-118-  | ITKMTEGLA 
+| 1bj7 | A | albelig | 11 | 11 | H | 119 | 132 | A-125-  | A-138-  | PEELEKYQQLNSER 
+| 1bj7 | A | albelig | 12 | 12 | H | 136 | 138 | A-142-  | A-144-  | NEN 
+| 1bj7 | A | albelig | 13 | 13 | E | 139 | 141 | A-145-  | A-147-  | IEN 
+| 1bj7 | A | albelig | 14 | 14 | H | 143 | 145 | A-149-  | A-151-  | IKT 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 10
+= 2 = m = 11
+= 2 = m = 12
+= 2 = a = 13
+= 2 = m = 14
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 9 = p = 11
+= 12 = m = 13
+= 13 = m = 14
+# Listed 14 contacts. EOF.

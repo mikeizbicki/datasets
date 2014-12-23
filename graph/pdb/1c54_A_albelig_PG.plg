@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c54, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA+BETA PROTEIN, HYDROLASE
+> pdb_mol_name > RIBONUCLEASE SA
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-OCT-99
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF RIBONUCLEASE SA
+> format_version > 2
+> pdbid > 1c54
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES AUREOFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c54 | A | albelig | 1 | 1 | E | 5 | 7 | A-5-  | A-7-  | TVA 
+| 1c54 | A | albelig | 2 | 2 | H | 8 | 10 | A-8-  | A-10-  | LSA 
+| 1c54 | A | albelig | 3 | 3 | H | 15 | 23 | A-15-  | A-23-  | ATDTLNLIA 
+| 1c54 | A | albelig | 4 | 4 | E | 52 | 54 | A-52-  | A-54-  | YHE 
+| 1c54 | A | albelig | 5 | 5 | E | 70 | 73 | A-70-  | A-73-  | IITG 
+| 1c54 | A | albelig | 6 | 6 | E | 91 | 93 | A-91-  | A-93-  | LID 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 6
+= 4 = a = 5
+# Listed 3 contacts. EOF.

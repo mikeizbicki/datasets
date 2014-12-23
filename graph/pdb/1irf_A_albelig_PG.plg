@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1irf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION REGULATION, WINGED HELIX-TURN-HELIX
+> pdb_mol_name > INTERFERON REGULATORY FACTOR-2
+> graphtype > albelig
+> resolution > -1.0
+> date > 24-NOV-97
+> header > TRANSCRIPTION REGULATION
+> pdb_org_common > HOUSE MOUSE
+> title > INTERFERON REGULATORY FACTOR-2 DNA BINDING DOMAIN, NMR,MINIMIZED AVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1irf
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1irf | A | albelig | 1 | 1 | H | 7 | 17 | A-8-  | A-18-  | MRPWLEEQINS 
+| 1irf | A | albelig | 2 | 2 | E | 24 | 27 | A-25-  | A-28-  | KWLN 
+| 1irf | A | albelig | 3 | 3 | H | 28 | 30 | A-29-  | A-31-  | KEK 
+| 1irf | A | albelig | 4 | 4 | E | 32 | 35 | A-33-  | A-36-  | IFQI 
+| 1irf | A | albelig | 5 | 5 | H | 51 | 60 | A-52-  | A-61-  | APLFRNWAIH 
+| 1irf | A | albelig | 6 | 6 | H | 73 | 84 | A-74-  | A-85-  | PKTWKANFRCAM 
+| 1irf | A | albelig | 7 | 7 | E | 90 | 93 | A-91-  | A-94-  | IEEV 
+| 1irf | A | albelig | 8 | 8 | E | 106 | 110 | A-107-  | A-111-  | RVYRM 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 5
+= 2 = m = 3
+= 2 = a = 4
+= 4 = a = 8
+= 5 = m = 6
+= 7 = a = 8
+# Listed 7 contacts. EOF.

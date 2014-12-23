@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gdt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, DOUBLE HELIX, OVERHANGING BASE, DNABINDING PROTEIN/DNA COMPLEX
+> pdb_mol_name > PROTEIN (GAMMA DELTA RESOLVASE)
+> graphtype > albelig
+> resolution > 3.0
+> date > 11-APR-95
+> header > DNA BINDING PROTEIN/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A SITE-SPECIFIC RECOMBINASE, GAMMA-DELTA RESOLVASE COMPLEXED WITH A 34 BP CLEAVAGE SITE
+> format_version > 2
+> pdbid > 1gdt
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gdt | A | albelig | 1 | 1 | E | 3 | 9 | A-3-  | A-9-  | LFGYARV 
+| 1gdt | A | albelig | 2 | 2 | H | 13 | 26 | A-13-  | A-26-  | QQSLDIQVRALKDA 
+| 1gdt | A | albelig | 3 | 3 | E | 33 | 37 | A-33-  | A-37-  | IFTDK 
+| 1gdt | A | albelig | 4 | 4 | H | 46 | 54 | A-46-  | A-54-  | KGLDLLRMK 
+| 1gdt | A | albelig | 5 | 5 | E | 60 | 63 | A-60-  | A-63-  | VILV 
+| 1gdt | A | albelig | 6 | 6 | H | 66 | 68 | A-66-  | A-68-  | LDR 
+| 1gdt | A | albelig | 7 | 7 | H | 73 | 85 | A-73-  | A-85-  | TADMIQLIKEFDA 
+| 1gdt | A | albelig | 8 | 8 | E | 89 | 92 | A-89-  | A-92-  | SIRF 
+| 1gdt | A | albelig | 9 | 9 | H | 93 | 95 | A-93-  | A-95-  | IDD 
+| 1gdt | A | albelig | 10 | 10 | H | 102 | 136 | A-102-  | A-136-  | EMGKMVVTILSAVAQAERQRILERTNEGRQEAMAK 
+| 1gdt | A | albelig | 11 | 11 | H | 148 | 156 | A-148-  | A-156-  | RDAVLNMWQ 
+| 1gdt | A | albelig | 12 | 12 | H | 161 | 168 | A-161-  | A-168-  | ASHISKTM 
+| 1gdt | A | albelig | 13 | 13 | H | 172 | 180 | A-172-  | A-180-  | RSTVYKVIN 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = m = 4
+= 1 = p = 5
+= 2 = a = 3
+= 3 = m = 4
+= 5 = p = 8
+= 7 = a = 10
+= 8 = m = 9
+= 11 = m = 12
+= 11 = m = 13
+= 12 = m = 13
+# Listed 12 contacts. EOF.

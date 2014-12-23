@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bsp, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METHYLTRANSFERASE, DTMP SYNTHASE
+> pdb_mol_name > THYMIDYLATE SYNTHASE A
+> graphtype > albelig
+> resolution > 2.5
+> date > 09-JUL-98
+> header > METHYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > THERMOSTABLE THYMIDYLATE SYNTHASE A FROM BACILLUS SUBTILIS
+> format_version > 2
+> pdbid > 1bsp
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bsp | B | albelig | 1 | 1 | H | 282 | 296 | B-4-  | B-18-  | FDKQYNSIIKDIINN 
+| 1bsp | B | albelig | 2 | 2 | E | 318 | 328 | B-40-  | B-50-  | TLSVISKQMRF 
+| 1bsp | B | albelig | 3 | 3 | H | 343 | 355 | B-65-  | B-77-  | WKTAIKELLWIWQ 
+| 1bsp | B | albelig | 4 | 4 | H | 361 | 365 | B-83-  | B-87-  | VNDLN 
+| 1bsp | B | albelig | 5 | 5 | H | 373 | 375 | B-95-  | B-97-  | DQW 
+| 1bsp | B | albelig | 6 | 6 | H | 387 | 390 | B-109-  | B-112-  | GFQL 
+| 1bsp | B | albelig | 7 | 7 | E | 395 | 397 | B-117-  | B-119-  | RSL 
+| 1bsp | B | albelig | 8 | 8 | E | 400 | 402 | B-122-  | B-124-  | EKV 
+| 1bsp | B | albelig | 9 | 9 | H | 404 | 414 | B-126-  | B-136-  | QVDYLLHQLKN 
+| 1bsp | B | albelig | 10 | 10 | E | 422 | 424 | B-144-  | B-146-  | ITM 
+| 1bsp | B | albelig | 11 | 11 | H | 431 | 433 | B-153-  | B-155-  | LDA 
+| 1bsp | B | albelig | 12 | 12 | E | 440 | 448 | B-162-  | B-170-  | VYETQWYVK 
+| 1bsp | B | albelig | 13 | 13 | E | 451 | 462 | B-173-  | B-184-  | KLHLEVRARSND 
+| 1bsp | B | albelig | 14 | 14 | H | 467 | 484 | B-189-  | B-206-  | NPFNVFQYNVLQRMIAQV 
+| 1bsp | B | albelig | 15 | 15 | E | 488 | 502 | B-210-  | B-224-  | ELGEYIFNIGDCHVY 
+| 1bsp | B | albelig | 16 | 16 | H | 503 | 513 | B-225-  | B-235-  | TRHIDNLKIQM 
+| 1bsp | B | albelig | 17 | 17 | E | 522 | 525 | B-244-  | B-247-  | ELWI 
+| 1bsp | B | albelig | 18 | 18 | H | 532 | 534 | B-254-  | B-256-  | FYD 
+| 1bsp | B | albelig | 19 | 19 | H | 537 | 539 | B-259-  | B-261-  | IDD 
+| 1bsp | B | albelig | 20 | 20 | E | 540 | 543 | B-262-  | B-265-  | FKLI 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 14
+= 2 = a = 15
+= 3 = p = 14
+= 3 = m = 18
+= 7 = a = 8
+= 7 = m = 9
+= 10 = a = 12
+= 12 = a = 13
+= 12 = p = 14
+= 13 = a = 14
+= 13 = p = 15
+= 14 = a = 15
+= 15 = m = 16
+= 17 = m = 19
+= 17 = a = 20
+= 19 = m = 20
+# Listed 17 contacts. EOF.

@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kke, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > REOVIRUS, SIGMA1, FIBER, BETA-SPIRAL, BETA-BARREL, TRIMER,RECEPTOR-BINDING, VIRAL PROTEIN
+> pdb_mol_name > SIGMA 1 PROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 07-DEC-01
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF REOVIRUS ATTACHMENT PROTEIN SIGMA1TRIMER
+> format_version > 2
+> pdbid > 1kke
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MAMMALIAN ORTHOREOVIRUS 3
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kke | C | albelig | 1 | 1 | E | 425 | 427 | C-261-  | C-263-  | LRL 
+| 1kke | C | albelig | 2 | 2 | E | 434 | 436 | C-270-  | C-272-  | LDM 
+| 1kke | C | albelig | 3 | 3 | E | 443 | 445 | C-279-  | C-281-  | LEI 
+| 1kke | C | albelig | 4 | 4 | E | 451 | 453 | C-287-  | C-289-  | LTV 
+| 1kke | C | albelig | 5 | 5 | E | 464 | 467 | C-300-  | C-303-  | IADV 
+| 1kke | C | albelig | 6 | 6 | E | 470 | 473 | C-306-  | C-309-  | GIGM 
+| 1kke | C | albelig | 7 | 7 | H | 475 | 478 | C-311-  | C-314-  | PNYR 
+| 1kke | C | albelig | 8 | 8 | E | 480 | 492 | C-316-  | C-328-  | RQSMWIGIVSYSG 
+| 1kke | C | albelig | 9 | 9 | E | 495 | 508 | C-331-  | C-344-  | LNWRVQVNSDIFIV 
+| 1kke | C | albelig | 10 | 10 | E | 511 | 516 | C-347-  | C-352-  | YIHICL 
+| 1kke | C | albelig | 11 | 11 | E | 519 | 522 | C-355-  | C-358-  | FDGF 
+| 1kke | C | albelig | 12 | 12 | E | 527 | 533 | C-363-  | C-369-  | GGDLSLN 
+| 1kke | C | albelig | 13 | 13 | H | 544 | 547 | C-380-  | C-383-  | TGDT 
+| 1kke | C | albelig | 14 | 14 | E | 558 | 568 | C-394-  | C-404-  | YGAQTVAIGLS 
+| 1kke | C | albelig | 15 | 15 | E | 574 | 586 | C-410-  | C-422-  | QYMSKNLWVEQWQ 
+| 1kke | C | albelig | 16 | 16 | E | 589 | 595 | C-425-  | C-431-  | VLRLRVE 
+| 1kke | C | albelig | 17 | 17 | E | 604 | 607 | C-440-  | C-443-  | NSKW 
+| 1kke | C | albelig | 18 | 18 | E | 610 | 615 | C-446-  | C-451-  | MTVSYP 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = a = 4
+= 5 = a = 6
+= 7 = m = 9
+= 8 = a = 9
+= 8 = a = 12
+= 9 = a = 10
+= 9 = a = 11
+= 10 = a = 18
+= 11 = a = 17
+= 12 = a = 16
+= 14 = a = 15
+= 14 = a = 17
+= 14 = a = 18
+= 15 = a = 16
+# Listed 15 contacts. EOF.

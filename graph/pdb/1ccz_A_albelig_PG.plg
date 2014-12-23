@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ccz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CD58, LFA-3, GLYCOPROTEIN
+> pdb_mol_name > PROTEIN (CD58)
+> graphtype > albelig
+> resolution > 1.8
+> date > 02-MAR-99
+> header > GLYCOPROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE CD2-BINDING DOMAIN OF CD58 (LYMPHOCYTEFUNCTION-ASSOCIATED ANTIGEN 3) AT 1.8-A RESOLUTION
+> format_version > 2
+> pdbid > 1ccz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ccz | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | SQQIYGV 
+| 1ccz | A | albelig | 2 | 2 | E | 13 | 15 | A-13-  | A-15-  | VTF 
+| 1ccz | A | albelig | 3 | 3 | E | 26 | 30 | A-26-  | A-30-  | VLWKK 
+| 1ccz | A | albelig | 4 | 4 | E | 33 | 39 | A-33-  | A-39-  | DKVAELE 
+| 1ccz | A | albelig | 5 | 5 | E | 42 | 45 | A-42-  | A-45-  | EFRA 
+| 1ccz | A | albelig | 6 | 6 | H | 47 | 49 | A-47-  | A-49-  | SSF 
+| 1ccz | A | albelig | 7 | 7 | E | 53 | 55 | A-53-  | A-55-  | VYL 
+| 1ccz | A | albelig | 8 | 8 | E | 62 | 64 | A-62-  | A-64-  | LTI 
+| 1ccz | A | albelig | 9 | 9 | H | 69 | 71 | A-69-  | A-71-  | SSD 
+| 1ccz | A | albelig | 10 | 10 | E | 73 | 78 | A-73-  | A-78-  | DEYEME 
+| 1ccz | A | albelig | 11 | 11 | E | 86 | 93 | A-86-  | A-93-  | MKFFLYVL 
+| 1ccz | A | albelig | 12 | 12 | E | 100 | 104 | A-100-  | A-104-  | MIYWE 
+| 1ccz | A | albelig | 13 | 13 | E | 109 | 113 | A-109-  | A-113-  | TLTNE 
+| 1ccz | A | albelig | 14 | 14 | E | 121 | 126 | A-121-  | A-126-  | ELKLYQ 
+| 1ccz | A | albelig | 15 | 15 | E | 129 | 134 | A-129-  | A-134-  | EHLRSL 
+| 1ccz | A | albelig | 16 | 16 | E | 138 | 142 | A-138-  | A-142-  | TMSYQ 
+| 1ccz | A | albelig | 17 | 17 | E | 150 | 156 | A-150-  | A-156-  | FKNKAVN 
+| 1ccz | A | albelig | 18 | 18 | E | 159 | 165 | A-159-  | A-165-  | SQESEME 
+| 1ccz | A | albelig | 19 | 19 | L | 172 | 172 | A-501-  | A-501-  | J 
+| 1ccz | A | albelig | 20 | 20 | L | 173 | 173 | A-502-  | A-502-  | J 
+| 1ccz | A | albelig | 21 | 21 | L | 174 | 174 | A-503-  | A-503-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 11
+= 2 = a = 8
+= 3 = a = 4
+= 3 = a = 10
+= 4 = a = 5
+= 7 = a = 8
+= 10 = a = 11
+= 12 = a = 13
+= 12 = l = 21
+= 13 = a = 16
+= 13 = l = 21
+= 14 = a = 15
+= 14 = p = 16
+= 14 = a = 17
+= 15 = a = 16
+= 16 = l = 21
+= 17 = a = 18
+# Listed 17 contacts. EOF.

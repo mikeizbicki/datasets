@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kiu, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADHESIN-CHAPERONE COMPLEX, MANNOSE-BOUND, CHAPERONE/CELLADHESION COMPLEX
+> pdb_mol_name > CHAPERONE PROTEIN FIMC
+> graphtype > albelig
+> resolution > 3.0
+> date > 03-DEC-01
+> header > CHAPERONE/CELL ADHESION
+> pdb_org_common > UNKNOWN
+> title > FIMH ADHESIN Q133N MUTANT-FIMC CHAPERONE COMPLEX WITHMETHYL-ALPHA-D-MANNOSE
+> format_version > 2
+> pdbid > 1kiu
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kiu | I | albelig | 1 | 1 | E | 1952 | 1955 | I-8-  | I-11-  | RVIY 
+| 1kiu | I | albelig | 2 | 2 | E | 1975 | 1981 | I-31-  | I-37-  | YLIQSWV 
+| 1kiu | I | albelig | 3 | 3 | E | 1993 | 1995 | I-49-  | I-51-  | IVT 
+| 1kiu | I | albelig | 4 | 4 | E | 1998 | 2000 | I-54-  | I-56-  | LFA 
+| 1kiu | I | albelig | 5 | 5 | E | 2010 | 2012 | I-66-  | I-68-  | RIL 
+| 1kiu | I | albelig | 6 | 6 | E | 2028 | 2035 | I-84-  | I-91-  | WMNVKAIP 
+| 1kiu | I | albelig | 7 | 7 | H | 2041 | 2043 | I-97-  | I-99-  | KLT 
+| 1kiu | I | albelig | 8 | 8 | E | 2053 | 2059 | I-109-  | I-115-  | SRIKLYY 
+| 1kiu | I | albelig | 9 | 9 | E | 2076 | 2079 | I-132-  | I-135-  | RFRR 
+| 1kiu | I | albelig | 10 | 10 | E | 2084 | 2087 | I-140-  | I-143-  | LTLI 
+| 1kiu | I | albelig | 11 | 11 | E | 2094 | 2100 | I-150-  | I-156-  | LTVTELN 
+| 1kiu | I | albelig | 12 | 12 | E | 2130 | 2134 | I-186-  | I-190-  | TYRTI 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 2 = a = 3
+= 2 = a = 4
+= 2 = a = 6
+= 3 = a = 5
+= 6 = a = 8
+= 9 = a = 10
+= 11 = a = 12
+# Listed 8 contacts. EOF.

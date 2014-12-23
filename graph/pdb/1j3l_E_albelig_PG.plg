@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j3l, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VITAMINE K2, STRUCTURAL GENOMICS, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, TRANSFERASE
+> pdb_mol_name > DEMETHYLMENAQUINONE METHYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 04-FEB-03
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE RNA-PROCESSING INHIBITOR RRAA FROM THERMUSTHERMOPHILIS
+> format_version > 2
+> pdbid > 1j3l
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j3l | E | albelig | 1 | 1 | H | 662 | 668 | E-5-  | E-11-  | TTDLSDL 
+| 1j3l | E | albelig | 2 | 2 | E | 673 | 676 | E-16-  | E-19-  | EALP 
+| 1j3l | E | albelig | 3 | 3 | E | 688 | 692 | E-31-  | E-35-  | FAGRV 
+| 1j3l | E | albelig | 4 | 4 | H | 702 | 707 | E-45-  | E-50-  | ALVRKV 
+| 1j3l | E | albelig | 5 | 5 | E | 715 | 720 | E-58-  | E-63-  | QVLFVD 
+| 1j3l | E | albelig | 6 | 6 | H | 732 | 740 | E-75-  | E-83-  | GNLARRAWE 
+| 1j3l | E | albelig | 7 | 7 | E | 745 | 752 | E-88-  | E-95-  | GVVVHGAV 
+| 1j3l | E | albelig | 8 | 8 | H | 755 | 758 | E-98-  | E-101-  | TEEL 
+| 1j3l | E | albelig | 9 | 9 | E | 764 | 770 | E-107-  | E-113-  | GLLALAA 
+| 1j3l | E | albelig | 10 | 10 | E | 799 | 803 | E-142-  | E-146-  | FLLAD 
+| 1j3l | E | albelig | 11 | 11 | E | 806 | 810 | E-149-  | E-153-  | GLLLL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 11
+= 2 = a = 11
+= 3 = p = 5
+= 3 = a = 10
+= 5 = p = 7
+= 7 = p = 9
+= 10 = a = 11
+# Listed 7 contacts. EOF.

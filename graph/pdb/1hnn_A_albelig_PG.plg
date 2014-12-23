@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hnn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METHYLTRANSFERASE, ADRENALINE SYNTHESIS, S-ADENOSYLMETHIONINE
+> pdb_mol_name > PHENYLETHANOLAMINE N-METHYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 07-DEC-00
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN PNMT COMPLEXED WITH SK&F 29661AND ADOHCY(SAH)
+> format_version > 2
+> pdbid > 1hnn
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hnn | A | albelig | 1 | 1 | H | 2 | 6 | A-23-  | A-27-  | VASAY 
+| 1hnn | A | albelig | 2 | 2 | H | 11 | 19 | A-32-  | A-40-  | PRAYLRNNY 
+| 1hnn | A | albelig | 3 | 3 | H | 32 | 45 | A-53-  | A-66-  | VGPWKLRCLAQTFA 
+| 1hnn | A | albelig | 4 | 4 | E | 53 | 57 | A-74-  | A-78-  | TLIDI 
+| 1hnn | A | albelig | 5 | 5 | H | 64 | 66 | A-85-  | A-87-  | YQL 
+| 1hnn | A | albelig | 6 | 6 | H | 70 | 72 | A-91-  | A-93-  | CSH 
+| 1hnn | A | albelig | 7 | 7 | E | 75 | 79 | A-96-  | A-100-  | DITMT 
+| 1hnn | A | albelig | 8 | 8 | H | 83 | 93 | A-104-  | A-114-  | EVNRQELGRWL 
+| 1hnn | A | albelig | 9 | 9 | H | 103 | 113 | A-124-  | A-134-  | SMYSQHACLIE 
+| 1hnn | A | albelig | 10 | 10 | H | 119 | 129 | A-140-  | A-150-  | WQDKERQLRAR 
+| 1hnn | A | albelig | 11 | 11 | E | 130 | 134 | A-151-  | A-155-  | VKRVL 
+| 1hnn | A | albelig | 12 | 12 | E | 154 | 160 | A-175-  | A-181-  | ADALVSA 
+| 1hnn | A | albelig | 13 | 13 | H | 163 | 166 | A-184-  | A-187-  | LEAV 
+| 1hnn | A | albelig | 14 | 14 | H | 170 | 181 | A-191-  | A-202-  | LASFQRALDHIT 
+| 1hnn | A | albelig | 15 | 15 | E | 184 | 196 | A-205-  | A-217-  | LRPGGHLLLIGAL 
+| 1hnn | A | albelig | 16 | 16 | E | 200 | 203 | A-221-  | A-224-  | WYLA 
+| 1hnn | A | albelig | 17 | 17 | E | 206 | 209 | A-227-  | A-230-  | ARLT 
+| 1hnn | A | albelig | 18 | 18 | H | 215 | 224 | A-236-  | A-245-  | EEEVREALVR 
+| 1hnn | A | albelig | 19 | 19 | E | 227 | 236 | A-248-  | A-257-  | YKVRDLRTYI 
+| 1hnn | A | albelig | 20 | 20 | H | 239 | 241 | A-260-  | A-262-  | AHL 
+| 1hnn | A | albelig | 21 | 21 | E | 250 | 258 | A-271-  | A-279-  | GVFFAWAQK 
+| 1hnn | A | albelig | 22 | 22 | L | 530 | 530 | A-2001-  | A-2001-  | J 
+| 1hnn | A | albelig | 23 | 23 | L | 531 | 531 | A-3001-  | A-3001-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 22
+= 2 = l = 22
+= 2 = l = 23
+= 3 = m = 9
+= 3 = m = 19
+= 3 = p = 21
+= 3 = l = 23
+= 4 = p = 7
+= 4 = p = 12
+= 4 = l = 22
+= 5 = l = 22
+= 6 = m = 10
+= 7 = m = 10
+= 7 = p = 11
+= 8 = l = 22
+= 9 = m = 10
+= 10 = m = 11
+= 12 = p = 15
+= 12 = l = 22
+= 13 = l = 22
+= 14 = m = 15
+= 14 = m = 18
+= 15 = a = 21
+= 15 = l = 23
+= 16 = a = 17
+= 16 = l = 22
+= 16 = l = 23
+= 18 = a = 19
+= 19 = a = 21
+= 21 = l = 23
+= 22 = l = 23
+# Listed 31 contacts. EOF.

@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1igp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACID ANHYDRIDE HYDROLASE
+> pdb_mol_name > INORGANIC PYROPHOSPHATASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 01-AUG-94
+> header > ACID ANHYDRIDE HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY CRYSTALLOGRAPHIC STUDIES OF RECOMBINANT INORGANICPYROPHOSPHATASE FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1igp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1igp | A | albelig | 1 | 1 | E | 8 | 10 | A-8-  | A-10-  | GKD 
+| 1igp | A | albelig | 2 | 2 | E | 14 | 21 | A-14-  | A-21-  | DIYVVIEI 
+| 1igp | A | albelig | 3 | 3 | E | 28 | 32 | A-28-  | A-32-  | IKYEI 
+| 1igp | A | albelig | 4 | 4 | E | 39 | 44 | A-39-  | A-44-  | LFVDRF 
+| 1igp | A | albelig | 5 | 5 | E | 54 | 57 | A-54-  | A-57-  | NYGY 
+| 1igp | A | albelig | 6 | 6 | E | 70 | 73 | A-70-  | A-73-  | DVLV 
+| 1igp | A | albelig | 7 | 7 | E | 84 | 96 | A-84-  | A-96-  | VTRCRPVGVLKMT 
+| 1igp | A | albelig | 8 | 8 | E | 104 | 109 | A-104-  | A-109-  | KLVAVP 
+| 1igp | A | albelig | 9 | 9 | H | 123 | 125 | A-123-  | A-125-  | VND 
+| 1igp | A | albelig | 10 | 10 | H | 128 | 140 | A-128-  | A-140-  | ELLKAQIAHFFEH 
+| 1igp | A | albelig | 11 | 11 | E | 151 | 156 | A-151-  | A-156-  | KVEGWE 
+| 1igp | A | albelig | 12 | 12 | H | 158 | 172 | A-158-  | A-172-  | AEAAKAEIVASFERA 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = a = 5
+= 2 = a = 7
+= 3 = a = 4
+= 5 = a = 6
+= 6 = p = 8
+= 7 = a = 8
+= 7 = m = 9
+= 7 = a = 11
+= 7 = m = 12
+= 10 = a = 11
+# Listed 12 contacts. EOF.

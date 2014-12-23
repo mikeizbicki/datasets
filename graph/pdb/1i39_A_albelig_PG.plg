@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i39, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MIXED BETA SHEET, HELIX-LOOP-HELIX, HYDROLASE
+> pdb_mol_name > RIBONUCLEASE HII
+> graphtype > albelig
+> resolution > 1.95
+> date > 13-FEB-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > RNASE HII FROM ARCHAEOGLOBUS FULGIDUS
+> format_version > 2
+> pdbid > 1i39
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ARCHAEOGLOBUS FULGIDUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i39 | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | KAGIDEA 
+| 1i39 | A | albelig | 2 | 2 | E | 17 | 24 | A-17-  | A-24-  | LVVAGVAA 
+| 1i39 | A | albelig | 3 | 3 | H | 27 | 32 | A-27-  | A-32-  | EDRLRK 
+| 1i39 | A | albelig | 4 | 4 | H | 43 | 56 | A-43-  | A-56-  | QGRREELAEEIRKI 
+| 1i39 | A | albelig | 5 | 5 | E | 57 | 64 | A-57-  | A-64-  | ARTEVLKV 
+| 1i39 | A | albelig | 6 | 6 | H | 66 | 72 | A-66-  | A-72-  | PENLDER 
+| 1i39 | A | albelig | 7 | 7 | H | 78 | 93 | A-78-  | A-93-  | INEILKECYAEIILRL 
+| 1i39 | A | albelig | 8 | 8 | E | 97 | 102 | A-97-  | A-102-  | IAYVDS 
+| 1i39 | A | albelig | 9 | 9 | H | 108 | 118 | A-108-  | A-118-  | ERLSRELEEIT 
+| 1i39 | A | albelig | 10 | 10 | E | 121 | 126 | A-121-  | A-126-  | RVVAEH 
+| 1i39 | A | albelig | 11 | 11 | H | 128 | 130 | A-128-  | A-130-  | ADE 
+| 1i39 | A | albelig | 12 | 12 | H | 133 | 157 | A-133-  | A-157-  | PLVAAASIIAKVEREREIERLKEKF 
+| 1i39 | A | albelig | 13 | 13 | H | 168 | 180 | A-168-  | A-180-  | PRTREVLKEWIAS 
+| 1i39 | A | albelig | 14 | 14 | H | 192 | 198 | A-192-  | A-198-  | KTVSNLR 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 7
+= 1 = p = 8
+= 1 = p = 12
+= 2 = a = 5
+= 2 = m = 7
+= 2 = a = 12
+= 4 = m = 5
+= 4 = a = 12
+= 5 = a = 7
+= 8 = p = 10
+= 9 = m = 10
+= 10 = m = 11
+# Listed 13 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fbi, chain Q.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_mol_name > IGG1 F9.13.7 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 19-JAN-95
+> header > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF A CROSS-REACTION COMPLEX BETWEEN FABF9.13.7 AND GUINEA-FOWL LYSOZYME
+> format_version > 2
+> pdbid > 1fbi
+> experiment > X-RAY DIFFRACTION
+> chainid > Q
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fbi | Q | albelig | 1 | 1 | E | 785 | 787 | Q-3-  | Q-5-  | QLQ 
+| 1fbi | Q | albelig | 2 | 2 | E | 800 | 807 | Q-18-  | Q-25-  | VKLSKKAS 
+| 1fbi | Q | albelig | 3 | 3 | E | 815 | 821 | Q-33-  | Q-39-  | WMHWVKQ 
+| 1fbi | Q | albelig | 4 | 4 | E | 828 | 834 | Q-46-  | Q-52-  | EWIGEID 
+| 1fbi | Q | albelig | 5 | 5 | H | 835 | 837 | Q-53-  | Q-55-  | PSD 
+| 1fbi | Q | albelig | 6 | 6 | H | 844 | 846 | Q-62-  | Q-64-  | EKF 
+| 1fbi | Q | albelig | 7 | 7 | E | 853 | 855 | Q-71-  | Q-73-  | TVD 
+| 1fbi | Q | albelig | 8 | 8 | E | 860 | 865 | Q-78-  | Q-83-  | TAYMQL 
+| 1fbi | Q | albelig | 9 | 9 | E | 875 | 881 | Q-93-  | Q-99-  | VYYKASL 
+| 1fbi | Q | albelig | 10 | 10 | H | 886 | 888 | Q-104-  | Q-106-  | TSY 
+| 1fbi | Q | albelig | 11 | 11 | E | 911 | 915 | Q-129-  | Q-133-  | SVYPL 
+| 1fbi | Q | albelig | 12 | 12 | E | 926 | 936 | Q-144-  | Q-154-  | MVTLGLLVKGY 
+| 1fbi | Q | albelig | 13 | 13 | E | 942 | 945 | Q-160-  | Q-163-  | TVTW 
+| 1fbi | Q | albelig | 14 | 14 | E | 954 | 960 | Q-172-  | Q-178-  | VHTFPAV 
+| 1fbi | Q | albelig | 15 | 15 | H | 962 | 964 | Q-180-  | Q-182-  | QSD 
+| 1fbi | Q | albelig | 16 | 16 | E | 966 | 975 | Q-184-  | Q-193-  | YTLSSSVTVP 
+| 1fbi | Q | albelig | 17 | 17 | E | 985 | 989 | Q-203-  | Q-207-  | TLNVA 
+| 1fbi | Q | albelig | 18 | 18 | H | 992 | 994 | Q-210-  | Q-212-  | ASS 
+| 1fbi | Q | albelig | 19 | 19 | E | 996 | 1000 | Q-214-  | Q-218-  | KVDKK 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = a = 8
+= 2 = p = 9
+= 3 = a = 4
+= 3 = p = 8
+= 3 = a = 9
+= 4 = m = 5
+= 7 = a = 8
+= 11 = a = 12
+= 12 = a = 16
+= 13 = p = 16
+= 13 = a = 17
+= 14 = a = 16
+= 17 = a = 19
+# Listed 15 contacts. EOF.

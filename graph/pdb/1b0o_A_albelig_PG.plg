@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b0o, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPOCALIN, MILK WHEY PROTEIN, BOVINE, PALMITATE-BINDING
+> pdb_mol_name > BETA-LACTOGLOBULIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 11-NOV-98
+> header > LIPOCALIN
+> pdb_org_common > CATTLE
+> title > BOVINE BETA-LACTOGLOBULIN COMPLEXED WITH PALMITATE, LATTICEZ
+> format_version > 2
+> pdbid > 1b0o
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b0o | A | albelig | 1 | 1 | H | 11 | 14 | A-12-  | A-15-  | IQKV 
+| 1b0o | A | albelig | 2 | 2 | E | 19 | 25 | A-20-  | A-26-  | YSLAMAA 
+| 1b0o | A | albelig | 3 | 3 | H | 28 | 30 | A-29-  | A-31-  | ISL 
+| 1b0o | A | albelig | 4 | 4 | E | 41 | 47 | A-42-  | A-48-  | YVEELKP 
+| 1b0o | A | albelig | 5 | 5 | E | 53 | 60 | A-54-  | A-61-  | LEILLQKW 
+| 1b0o | A | albelig | 6 | 6 | E | 65 | 74 | A-66-  | A-75-  | AAQKKIIAEK 
+| 1b0o | A | albelig | 7 | 7 | E | 80 | 83 | A-81-  | A-84-  | VFKI 
+| 1b0o | A | albelig | 8 | 8 | E | 89 | 96 | A-90-  | A-97-  | NKVLVLDT 
+| 1b0o | A | albelig | 9 | 9 | E | 101 | 107 | A-102-  | A-108-  | YLLFNME 
+| 1b0o | A | albelig | 10 | 10 | E | 116 | 122 | A-117-  | A-123-  | LANQCLV 
+| 1b0o | A | albelig | 11 | 11 | H | 129 | 139 | A-130-  | A-140-  | DEALEKFDKAL 
+| 1b0o | A | albelig | 12 | 12 | E | 146 | 149 | A-147-  | A-150-  | IRLS 
+| 1b0o | A | albelig | 13 | 13 | H | 152 | 155 | A-153-  | A-156-  | PTQL 
+| 1b0o | A | albelig | 14 | 14 | L | 162 | 162 | A-180-  | A-180-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = a = 10
+= 2 = m = 11
+= 2 = a = 12
+= 4 = a = 5
+= 4 = l = 14
+= 5 = a = 6
+= 5 = l = 14
+= 6 = a = 7
+= 6 = l = 14
+= 7 = a = 8
+= 7 = l = 14
+= 8 = a = 9
+= 8 = l = 14
+= 9 = a = 10
+= 9 = l = 14
+= 10 = m = 11
+= 10 = l = 14
+# Listed 18 contacts. EOF.

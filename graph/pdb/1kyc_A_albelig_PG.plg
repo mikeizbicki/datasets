@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COILED COIL, DE NOVO DESIGN, ALPHA-HELIX, TRIMER, DE NOVOPROTEIN
+> pdb_mol_name > SIN-GLU-GLU-LEU-ARG-ARG-ARG-ILE-GLU-GLU-LEU-GLU-
+> graphtype > albelig
+> resolution > 1.45
+> date > 04-FEB-02
+> header > DE NOVO PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A DE NOVO DESIGNED TRIMERIC COILED-COIL PEPTIDE STABLIZED BY IONIC INTERACTIONS
+> format_version > 2
+> pdbid > 1kyc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyc | A | albelig | 1 | 1 | H | 2 | 14 | A-2-  | A-14-  | ELRRRIEELERRI 
+| 1kyc | A | albelig | 2 | 2 | L | 16 | 16 | A-16-  | A-16-  | J 
+| 1kyc | A | albelig | 3 | 3 | L | 17 | 17 | A-101-  | A-101-  | J 
+| 1kyc | A | albelig | 4 | 4 | L | 18 | 18 | A-102-  | A-102-  | J 
+| 1kyc | A | albelig | 5 | 5 | L | 19 | 19 | A-0-  | A-0-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 1 = l = 3
+= 1 = l = 4
+= 1 = l = 5
+= 2 = l = 3
+# Listed 5 contacts. EOF.

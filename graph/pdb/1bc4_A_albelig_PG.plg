@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bc4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, PHOSPHORIC DIESTER, RC-RNASE, CYTOTOXIC PROTEIN,SIALIC ACID BINDING LECTIN
+> pdb_mol_name > RIBONUCLEASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 05-MAY-98
+> header > HYDROLASE
+> pdb_org_common > BULLFROG
+> title > THE SOLUTION STRUCTURE OF A CYTOTOXIC RIBONUCLEASE FROM THEOOCYTES OF RANA CATESBEIANA (BULLFROG), NMR, 15 STRUCTURES
+> format_version > 2
+> pdbid > 1bc4
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RANA CATESBEIANA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bc4 | A | albelig | 1 | 1 | H | 3 | 10 | A-3-  | A-10-  | WATFQQKH 
+| 1bc4 | A | albelig | 2 | 2 | H | 19 | 23 | A-19-  | A-23-  | ANTIM 
+| 1bc4 | A | albelig | 3 | 3 | E | 37 | 41 | A-37-  | A-41-  | VNTFI 
+| 1bc4 | A | albelig | 4 | 4 | H | 45 | 51 | A-45-  | A-51-  | ATTVKAI 
+| 1bc4 | A | albelig | 5 | 5 | E | 57 | 62 | A-57-  | A-62-  | NMNVLS 
+| 1bc4 | A | albelig | 6 | 6 | E | 68 | 73 | A-68-  | A-73-  | LNTATR 
+| 1bc4 | A | albelig | 7 | 7 | E | 83 | 88 | A-83-  | A-88-  | YSSRTE 
+| 1bc4 | A | albelig | 8 | 8 | E | 92 | 97 | A-92-  | A-97-  | IDVKCE 
+| 1bc4 | A | albelig | 9 | 9 | E | 100 | 107 | A-100-  | A-107-  | YPVHFAGI 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 3 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+# Listed 5 contacts. EOF.

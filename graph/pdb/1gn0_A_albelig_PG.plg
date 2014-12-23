@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gn0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, RHODANESE, SULFURTRANSFERASE, GLYCEROL METABOLISM
+> pdb_mol_name > THIOSULFATE SULFURTRANSFERASE GLPE
+> graphtype > albelig
+> resolution > 1.8
+> date > 01-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > ESCHERICHIA COLI GLPE SULFURTRANSFERASE SOAKED WITH KCN
+> format_version > 2
+> pdbid > 1gn0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gn0 | A | albelig | 1 | 1 | E | 5 | 7 | A-5-  | A-7-  | ECI 
+| 1gn0 | A | albelig | 2 | 2 | H | 9 | 17 | A-9-  | A-17-  | VADAHQKLQ 
+| 1gn0 | A | albelig | 3 | 3 | E | 22 | 25 | A-22-  | A-25-  | VLVD 
+| 1gn0 | A | albelig | 4 | 4 | H | 29 | 34 | A-29-  | A-34-  | PQSFAM 
+| 1gn0 | A | albelig | 5 | 5 | H | 48 | 54 | A-48-  | A-54-  | LGAFMRD 
+| 1gn0 | A | albelig | 6 | 6 | E | 61 | 64 | A-61-  | A-64-  | VMVM 
+| 1gn0 | A | albelig | 7 | 7 | H | 70 | 81 | A-70-  | A-81-  | SSKGAAQYLLQQ 
+| 1gn0 | A | albelig | 8 | 8 | E | 86 | 89 | A-86-  | A-89-  | VYSI 
+| 1gn0 | A | albelig | 9 | 9 | H | 92 | 99 | A-92-  | A-99-  | GFEAWQRQ 
+| 1gn0 | A | albelig | 10 | 10 | H | 101 | 103 | A-101-  | A-103-  | PAE 
+| 1gn0 | A | albelig | 11 | 11 | L | 109 | 109 | A-1109-  | A-1109-  | J 
+| 1gn0 | A | albelig | 12 | 12 | L | 110 | 110 | A-1110-  | A-1110-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 2 = m = 9
+= 3 = p = 6
+= 6 = p = 8
+= 7 = m = 8
+= 7 = l = 11
+= 9 = m = 10
+# Listed 7 contacts. EOF.

@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ep2, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HETEROTETRAMER, OXIDOREDUCTASE
+> pdb_mol_name > DIHYDROOROTATE DEHYDROGENASE B (PYRK SUBUNIT)
+> graphtype > albelig
+> resolution > 2.4
+> date > 27-MAR-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF LACTOCOCCUS LACTIS DIHYDROOROTATE DEHYDROGENASE BCOMPLEXED WITH OROTATE
+> format_version > 2
+> pdbid > 1ep2
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > LACTOCOCCUS LACTIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ep2 | B | albelig | 1 | 1 | E | 311 | 323 | B-5-  | B-17-  | QEMMTVVSQREVA 
+| 1ep2 | B | albelig | 2 | 2 | E | 326 | 332 | B-20-  | B-26-  | IFEMVLK 
+| 1ep2 | B | albelig | 3 | 3 | H | 334 | 338 | B-28-  | B-32-  | TLVDE 
+| 1ep2 | B | albelig | 4 | 4 | E | 345 | 348 | B-39-  | B-42-  | FLHL 
+| 1ep2 | B | albelig | 5 | 5 | E | 359 | 362 | B-53-  | B-56-  | RPIS 
+| 1ep2 | B | albelig | 6 | 6 | E | 365 | 367 | B-59-  | B-61-  | SWD 
+| 1ep2 | B | albelig | 7 | 7 | E | 372 | 378 | B-66-  | B-72-  | TCTILYR 
+| 1ep2 | B | albelig | 8 | 8 | H | 385 | 389 | B-79-  | B-83-  | GTYKL 
+| 1ep2 | B | albelig | 9 | 9 | E | 397 | 404 | B-91-  | B-98-  | KVDVMGPL 
+| 1ep2 | B | albelig | 10 | 10 | E | 419 | 424 | B-113-  | B-118-  | ILIIGG 
+| 1ep2 | B | albelig | 11 | 11 | H | 425 | 439 | B-119-  | B-133-  | GIGVPPLYELAKQLE 
+| 1ep2 | B | albelig | 12 | 12 | E | 445 | 453 | B-139-  | B-147-  | MTILLGFAS 
+| 1ep2 | B | albelig | 13 | 13 | H | 460 | 463 | B-154-  | B-157-  | ENEF 
+| 1ep2 | B | albelig | 14 | 14 | E | 469 | 478 | B-163-  | B-172-  | VTLKIATDDG 
+| 1ep2 | B | albelig | 15 | 15 | H | 486 | 492 | B-180-  | B-186-  | VGMLMNE 
+| 1ep2 | B | albelig | 16 | 16 | E | 499 | 503 | B-193-  | B-197-  | ALYTC 
+| 1ep2 | B | albelig | 17 | 17 | H | 506 | 515 | B-200-  | B-209-  | PAMLKAVAKK 
+| 1ep2 | B | albelig | 18 | 18 | E | 522 | 525 | B-216-  | B-219-  | LYIS 
+| 1ep2 | B | albelig | 19 | 19 | E | 541 | 543 | B-235-  | B-237-  | VEH 
+| 1ep2 | B | albelig | 20 | 20 | E | 551 | 553 | B-245-  | B-247-  | ALK 
+| 1ep2 | B | albelig | 21 | 21 | L | 571 | 571 | B-503-  | B-503-  | J 
+| 1ep2 | B | albelig | 22 | 22 | L | 572 | 572 | B-504-  | B-504-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 7
+= 4 = a = 5
+= 4 = a = 9
+= 4 = l = 21
+= 5 = a = 7
+= 5 = l = 21
+= 6 = a = 7
+= 7 = l = 21
+= 8 = l = 21
+= 10 = a = 11
+= 10 = p = 12
+= 10 = p = 16
+= 11 = a = 12
+= 11 = l = 21
+= 12 = p = 14
+= 12 = m = 15
+= 16 = m = 17
+= 16 = p = 18
+= 19 = a = 20
+= 20 = l = 22
+# Listed 22 contacts. EOF.

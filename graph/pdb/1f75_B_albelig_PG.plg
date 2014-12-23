@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f75, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PARALLEL BETA SHEET, NEW FOLD FOR ISOPRENOID SYNTHASE,PEPTIDOGLYCAN SYNTHESIS, TRANSFERASE
+> pdb_mol_name > UNDECAPRENYL PYROPHOSPHATE SYNTHETASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 26-JUN-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF UNDECAPRENYL DIPHOSPHATE SYNTHASE FROMMICROCOCCUS LUTEUS B-P 26
+> format_version > 2
+> pdbid > 1f75
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MICROCOCCUS LUTEUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f75 | B | albelig | 1 | 1 | E | 224 | 229 | B-23-  | B-28-  | HIAIIM 
+| 1f75 | B | albelig | 2 | 2 | H | 232 | 239 | B-31-  | B-38-  | NGRWAKQK 
+| 1f75 | B | albelig | 3 | 3 | H | 243 | 264 | B-42-  | B-63-  | RIKGHYEGMQTVRKITRYASDL 
+| 1f75 | B | albelig | 4 | 4 | E | 268 | 273 | B-67-  | B-72-  | YLTLYA 
+| 1f75 | B | albelig | 5 | 5 | H | 281 | 295 | B-91-  | B-105-  | LPGDFLNTFLPELIE 
+| 1f75 | B | albelig | 6 | 6 | E | 299 | 303 | B-109-  | B-113-  | KVETI 
+| 1f75 | B | albelig | 7 | 7 | H | 306 | 308 | B-116-  | B-118-  | IDD 
+| 1f75 | B | albelig | 8 | 8 | H | 311 | 324 | B-121-  | B-134-  | DHTKKAVLEAKEKT 
+| 1f75 | B | albelig | 9 | 9 | E | 331 | 335 | B-141-  | B-145-  | TLVFA 
+| 1f75 | B | albelig | 10 | 10 | H | 340 | 357 | B-150-  | B-167-  | GRKEIISAVQLIAERYKS 
+| 1f75 | B | albelig | 11 | 11 | H | 362 | 364 | B-172-  | B-174-  | LDE 
+| 1f75 | B | albelig | 12 | 12 | H | 370 | 373 | B-180-  | B-183-  | FNEY 
+| 1f75 | B | albelig | 13 | 13 | E | 384 | 387 | B-194-  | B-197-  | LLIR 
+| 1f75 | B | albelig | 14 | 14 | E | 406 | 409 | B-216-  | B-219-  | EFVF 
+| 1f75 | B | albelig | 15 | 15 | H | 414 | 416 | B-224-  | B-226-  | WPD 
+| 1f75 | B | albelig | 16 | 16 | H | 419 | 430 | B-229-  | B-240-  | EESLAQCISIYQ 
+| 1f75 | B | albelig | 17 | 17 | L | 434 | 434 | B-902-  | B-902-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 13
+= 2 = m = 15
+= 2 = l = 17
+= 3 = p = 5
+= 3 = m = 15
+= 3 = p = 16
+= 4 = p = 9
+= 6 = m = 8
+= 6 = p = 9
+= 10 = m = 12
+= 13 = p = 14
+# Listed 12 contacts. EOF.

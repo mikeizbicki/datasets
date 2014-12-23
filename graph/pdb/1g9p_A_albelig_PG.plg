@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g9p, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYSTINE KNOT, TOXIN
+> pdb_mol_name > OMEGA-ATRACOTOXIN-HV2A
+> graphtype > albelig
+> resolution > -1.0
+> date > 27-NOV-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE INSECTICIDAL CALCIUM CHANNELBLOCKER OMEGA-ATRACOTOXIN-HV2A
+> format_version > 2
+> pdbid > 1g9p
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HADRONYCHE VERSUTA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g9p | A | albelig | 1 | 1 | H | 14 | 16 | A-14-  | A-16-  | NRD 
+| 1g9p | A | albelig | 2 | 2 | E | 23 | 25 | A-23-  | A-25-  | VNK 
+| 1g9p | A | albelig | 3 | 3 | E | 28 | 30 | A-28-  | A-30-  | SCV 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+# Listed 1 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1grw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOSKETAL PROTEIN, CYTOSKELETON, SPERM, CELL MOTILITY
+> pdb_mol_name > MAJOR SPERM PROTEIN 31/40/142
+> graphtype > albelig
+> resolution > 2.6
+> date > 18-DEC-01
+> header > CYTOSKETAL PROTEIN
+> pdb_org_common > C.ELEGANS
+> title > C. ELEGANS MAJOR SPERM PROTEIN
+> format_version > 2
+> pdbid > 1grw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CAENORHABDITIS ELEGANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1grw | B | albelig | 1 | 1 | E | 132 | 135 | B-9-  | B-12-  | IQTQ 
+| 1grw | B | albelig | 2 | 2 | E | 140 | 143 | B-17-  | B-20-  | IVFN 
+| 1grw | B | albelig | 3 | 3 | E | 150 | 158 | B-27-  | B-35-  | HTYHIKVIN 
+| 1grw | B | albelig | 4 | 4 | E | 164 | 170 | B-41-  | B-47-  | IGYGIKT 
+| 1grw | B | albelig | 5 | 5 | E | 176 | 179 | B-53-  | B-56-  | LGVD 
+| 1grw | B | albelig | 6 | 6 | E | 182 | 185 | B-59-  | B-62-  | CGVL 
+| 1grw | B | albelig | 7 | 7 | E | 190 | 197 | B-67-  | B-74-  | AVLLAVSC 
+| 1grw | B | albelig | 8 | 8 | E | 211 | 218 | B-88-  | B-95-  | RITVEWTN 
+| 1grw | B | albelig | 9 | 9 | H | 230 | 233 | B-107-  | B-110-  | EWFQ 
+| 1grw | B | albelig | 10 | 10 | E | 236 | 248 | B-113-  | B-125-  | GMVRRKNLPIEYN 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 3
+= 2 = p = 10
+= 3 = a = 7
+= 4 = a = 6
+= 4 = a = 8
+= 5 = a = 7
+= 8 = a = 10
+# Listed 8 contacts. EOF.

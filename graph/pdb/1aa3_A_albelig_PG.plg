@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aa3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOUBLE-STRANDED DNA BINDING DOMAIN, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS
+> pdb_mol_name > RECA
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-JAN-97
+> header > DOUBLE-STRANDED DNA BINDING DOMAIN
+> pdb_org_common > UNKNOWN
+> title > C-TERMINAL DOMAIN OF THE E. COLI RECA, NMR, MINIMIZED AVERAGESTRUCTURE
+> format_version > 2
+> pdbid > 1aa3
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aa3 | A | albelig | 1 | 1 | H | 7 | 11 | A-274-  | A-278-  | LVDLG 
+| 1aa3 | A | albelig | 2 | 2 | H | 40 | 43 | A-307-  | A-310-  | AWLK 
+| 1aa3 | A | albelig | 3 | 3 | H | 49 | 60 | A-316-  | A-327-  | AKEIEKKVRELL 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

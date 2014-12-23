@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0v, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FUMARATE REDUCTASE, SUCCINATE DEHYDROGENASE, COMPLEX II, QUINOL,MEMBRANE PROTEIN, OXIDOREDUCTASE
+> pdb_mol_name > FUMARATE REDUCTASE 15 KDA HYDROPHOBIC PROTEIN
+> graphtype > albelig
+> resolution > 3.3
+> date > 13-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > QUINOL-FUMARATE REDUCTASE WITH MENAQUINOL MOLECULES
+> format_version > 2
+> pdbid > 1l0v
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0v | C | albelig | 1 | 1 | H | 837 | 839 | C-15-  | C-17-  | WWK 
+| 1l0v | C | albelig | 2 | 2 | H | 842 | 852 | C-20-  | C-30-  | PFYRFYMLREG 
+| 1l0v | C | albelig | 3 | 3 | H | 854 | 872 | C-32-  | C-50-  | AVPAVWFSIELIFGLFALK 
+| 1l0v | C | albelig | 4 | 4 | H | 874 | 885 | C-52-  | C-63-  | GPEAWAGFVDFL 
+| 1l0v | C | albelig | 5 | 5 | H | 889 | 915 | C-67-  | C-93-  | VIVIINLITLAAALLHTKTWFELAPKA 
+| 1l0v | C | albelig | 6 | 6 | H | 928 | 951 | C-106-  | C-129-  | EPIIKSLWAVTVVATIVILFVALY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 5
+= 3 = a = 4
+= 3 = a = 5
+= 5 = m = 6
+# Listed 4 contacts. EOF.

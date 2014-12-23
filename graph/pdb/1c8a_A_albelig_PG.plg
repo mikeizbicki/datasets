@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c8a, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIFREEZE, ANTIFREEZE PROTEIN, THERMAL HYSTERESIS PROTEIN,ICE BINDING PROTEIN
+> pdb_mol_name > PROTEIN (ANTIFREEZE PROTEIN TYPE III)
+> graphtype > albelig
+> resolution > -1.0
+> date > 04-MAY-00
+> header > ANTIFREEZE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF INTRAMOLECULAR DIMER ANTIFREEZE PROTEINRD3, 40 SA STRUCTURES
+> format_version > 2
+> pdbid > 1c8a
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PACHYCARA BRACHYCEPHALUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c8a | A | albelig | 1 | 1 | E | 4 | 7 | A-4-  | A-7-  | SVVA 
+| 1c8a | A | albelig | 2 | 2 | E | 22 | 25 | A-22-  | A-25-  | MKAE 
+| 1c8a | A | albelig | 3 | 3 | H | 37 | 40 | A-37-  | A-40-  | IPNL 
+| 1c8a | A | albelig | 4 | 4 | E | 73 | 77 | A-73-  | A-77-  | KSVVA 
+| 1c8a | A | albelig | 5 | 5 | E | 92 | 96 | A-92-  | A-96-  | MKAEE 
+| 1c8a | A | albelig | 6 | 6 | H | 107 | 110 | A-107-  | A-110-  | ISKL 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 4 = a = 5
+# Listed 2 contacts. EOF.

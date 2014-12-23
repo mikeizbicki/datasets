@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i9r, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-SHEET SANDWICH, IMMUNOGLOBULIN, CYTOKINE/IMMUNE SYSTEMCOMPLEX
+> pdb_mol_name > IMMUNOGLOBULIN L
+> graphtype > albelig
+> resolution > 3.1
+> date > 20-MAR-01
+> header > CYTOKINE/IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF CD40L IN COMPLEX WITH THE FAB FRAGMENT OFHUMANIZED 5C8 ANTIBODY
+> format_version > 2
+> pdbid > 1i9r
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i9r | M | albelig | 1 | 1 | E | 1098 | 1101 | M-10-  | M-13-  | TLSV 
+| 1i9r | M | albelig | 2 | 2 | E | 1107 | 1112 | M-19-  | M-24-  | ATISJR 
+| 1i9r | M | albelig | 3 | 3 | E | 1125 | 1130 | M-37-  | M-42-  | MHWYQQ 
+| 1i9r | M | albelig | 4 | 4 | E | 1137 | 1141 | M-49-  | M-53-  | KLLIK 
+| 1i9r | M | albelig | 5 | 5 | E | 1156 | 1159 | M-68-  | M-71-  | GSGS 
+| 1i9r | M | albelig | 6 | 6 | E | 1162 | 1167 | M-74-  | M-79-  | DFTLTI 
+| 1i9r | M | albelig | 7 | 7 | H | 1172 | 1174 | M-84-  | M-86-  | PED 
+| 1i9r | M | albelig | 8 | 8 | E | 1177 | 1182 | M-89-  | M-94-  | TYYJQH 
+| 1i9r | M | albelig | 9 | 9 | E | 1194 | 1198 | M-106-  | M-110-  | TKLEI 
+| 1i9r | M | albelig | 10 | 10 | E | 1206 | 1210 | M-118-  | M-122-  | SVFIF 
+| 1i9r | M | albelig | 11 | 11 | H | 1214 | 1217 | M-126-  | M-129-  | DEQL 
+| 1i9r | M | albelig | 12 | 12 | E | 1221 | 1231 | M-133-  | M-143-  | TASVVKLLNNF 
+| 1i9r | M | albelig | 13 | 13 | E | 1237 | 1242 | M-149-  | M-154-  | KVQWKV 
+| 1i9r | M | albelig | 14 | 14 | E | 1265 | 1274 | M-177-  | M-186-  | YSLSSTLTLS 
+| 1i9r | M | albelig | 15 | 15 | H | 1275 | 1279 | M-187-  | M-191-  | KADYE 
+| 1i9r | M | albelig | 16 | 16 | E | 1283 | 1289 | M-195-  | M-201-  | VYAKEVT 
+| 1i9r | M | albelig | 17 | 17 | E | 1297 | 1302 | M-209-  | M-214-  | VTKSFN 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 2 = a = 6
+= 2 = p = 8
+= 3 = a = 4
+= 3 = p = 6
+= 3 = a = 8
+= 5 = a = 6
+= 8 = p = 9
+= 10 = a = 12
+= 10 = p = 17
+= 11 = m = 12
+= 12 = a = 14
+= 12 = m = 15
+= 12 = p = 16
+= 13 = p = 14
+= 13 = a = 16
+= 14 = m = 15
+= 16 = a = 17
+# Listed 18 contacts. EOF.

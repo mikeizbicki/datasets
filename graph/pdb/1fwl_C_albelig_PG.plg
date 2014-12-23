@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fwl, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE, TRANSFERASE
+> pdb_mol_name > HOMOSERINE KINASE
+> graphtype > albelig
+> resolution > 2.25
+> date > 22-SEP-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF HOMOSERINE KINASE
+> format_version > 2
+> pdbid > 1fwl
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > METHANOCALDOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fwl | C | albelig | 1 | 1 | E | 596 | 606 | C-6-  | C-16-  | KVRVKAPCTSA 
+| 1fwl | C | albelig | 2 | 2 | H | 609 | 611 | C-19-  | C-21-  | GVG 
+| 1fwl | C | albelig | 3 | 3 | E | 615 | 631 | C-25-  | C-41-  | FGLCLKEPYDVIEVEAI 
+| 1fwl | C | albelig | 4 | 4 | E | 636 | 640 | C-46-  | C-50-  | IIIEV 
+| 1fwl | C | albelig | 5 | 5 | H | 653 | 664 | C-63-  | C-74-  | VAGIVAKKMIDD 
+| 1fwl | C | albelig | 6 | 6 | E | 670 | 676 | C-80-  | C-86-  | GVKITIK 
+| 1fwl | C | albelig | 7 | 7 | H | 687 | 702 | C-97-  | C-112-  | SSAASSAGTAYAINEL 
+| 1fwl | C | albelig | 8 | 8 | H | 709 | 724 | C-119-  | C-134-  | KLKLVDYASYGELASS 
+| 1fwl | C | albelig | 9 | 9 | H | 732 | 737 | C-142-  | C-147-  | VAPAIF 
+| 1fwl | C | albelig | 10 | 10 | E | 740 | 745 | C-150-  | C-155-  | FTMVTN 
+| 1fwl | C | albelig | 11 | 11 | E | 750 | 754 | C-160-  | C-164-  | EVLHI 
+| 1fwl | C | albelig | 12 | 12 | E | 761 | 765 | C-171-  | C-175-  | DILIA 
+| 1fwl | C | albelig | 13 | 13 | E | 783 | 785 | C-193-  | C-195-  | AVG 
+| 1fwl | C | albelig | 14 | 14 | H | 786 | 804 | C-196-  | C-214-  | LKDLVNNVGKACGMVYALY 
+| 1fwl | C | albelig | 15 | 15 | H | 808 | 815 | C-218-  | C-225-  | KSLFGRYM 
+| 1fwl | C | albelig | 16 | 16 | H | 822 | 828 | C-232-  | C-238-  | EPVRGKL 
+| 1fwl | C | albelig | 17 | 17 | H | 832 | 839 | C-242-  | C-249-  | YFKIKEEV 
+| 1fwl | C | albelig | 18 | 18 | E | 843 | 848 | C-253-  | C-258-  | VYGITI 
+| 1fwl | C | albelig | 19 | 19 | E | 855 | 859 | C-265-  | C-269-  | IIAFP 
+| 1fwl | C | albelig | 20 | 20 | H | 864 | 874 | C-274-  | C-284-  | IDEVENILRDY 
+| 1fwl | C | albelig | 21 | 21 | E | 878 | 882 | C-288-  | C-292-  | TIRTE 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 7
+= 1 = m = 9
+= 3 = a = 6
+= 3 = p = 7
+= 3 = m = 9
+= 3 = a = 10
+= 3 = a = 21
+= 4 = p = 6
+= 5 = p = 7
+= 5 = a = 8
+= 7 = a = 8
+= 8 = a = 9
+= 9 = m = 10
+= 10 = a = 11
+= 12 = a = 19
+= 12 = m = 20
+= 12 = a = 21
+= 13 = m = 14
+= 14 = m = 15
+= 15 = m = 18
+= 16 = m = 17
+= 17 = a = 18
+= 17 = m = 20
+= 18 = a = 19
+= 20 = m = 21
+# Listed 26 contacts. EOF.

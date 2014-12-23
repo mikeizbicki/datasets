@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jb0, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS
+> pdb_mol_name > PHOTOSYSTEM I IRON-SULFUR CENTER
+> graphtype > albelig
+> resolution > 2.5
+> date > 01-JUN-01
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PHOTOSYSTEM I: A PHOTOSYNTHETIC REACTION CENTERAND CORE ANTENNA SYSTEM FROM CYANOBACTERIA
+> format_version > 2
+> pdbid > 1jb0
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SYNECHOCOCCUS ELONGATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jb0 | C | albelig | 1 | 1 | E | 1485 | 1489 | C-3-  | C-7-  | TVKIY 
+| 1jb0 | C | albelig | 2 | 2 | H | 1497 | 1501 | C-15-  | C-19-  | QCVRA 
+| 1jb0 | C | albelig | 3 | 3 | E | 1508 | 1511 | C-26-  | C-29-  | EMVP 
+| 1jb0 | C | albelig | 4 | 4 | E | 1519 | 1522 | C-37-  | C-40-  | QIAS 
+| 1jb0 | C | albelig | 5 | 5 | H | 1526 | 1528 | C-44-  | C-46-  | TED 
+| 1jb0 | C | albelig | 6 | 6 | H | 1534 | 1538 | C-52-  | C-56-  | RCETA 
+| 1jb0 | C | albelig | 7 | 7 | E | 1546 | 1549 | C-64-  | C-67-  | IRVY 
+| 1jb0 | C | albelig | 8 | 8 | L | 2365 | 2365 | C-3002-  | C-3002-  | J 
+| 1jb0 | C | albelig | 9 | 9 | L | 2366 | 2366 | C-3003-  | C-3003-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 1 = l = 8
+= 1 = l = 9
+= 2 = l = 8
+= 2 = l = 9
+= 3 = a = 4
+= 3 = l = 9
+= 4 = l = 9
+= 5 = l = 8
+= 6 = m = 7
+= 6 = l = 8
+= 6 = l = 9
+= 7 = l = 8
+= 7 = l = 9
+# Listed 14 contacts. EOF.

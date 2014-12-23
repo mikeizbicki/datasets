@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jza, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CRYSTAL STRUCTURE, SCORPION TOXIN, NONCRYSTALLOGRAPHICSYMMETRY
+> pdb_mol_name > NEUROTOXIN 2
+> graphtype > albelig
+> resolution > 2.2
+> date > 14-SEP-01
+> header > TOXIN
+> pdb_org_common > BARK SCORPION
+> title > CRYSTAL STRUCTURE OF VARIANT 2 SCORPION TOXIN FROMCENTRUROIDES SCULPTURATUS EWING
+> format_version > 2
+> pdbid > 1jza
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CENTRUROIDES SCULPTURATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jza | A | albelig | 1 | 1 | H | 23 | 30 | A-23-  | A-30-  | EGCDKEDK 
+| 1jza | A | albelig | 2 | 2 | E | 38 | 41 | A-38-  | A-41-  | YGYN 
+| 1jza | A | albelig | 3 | 3 | E | 46 | 49 | A-46-  | A-49-  | CWDE 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 2 = a = 3
+# Listed 3 contacts. EOF.

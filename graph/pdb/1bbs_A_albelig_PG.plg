@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bbs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ASPARTIC PROTEINASE
+> pdb_mol_name > RENIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 21-MAY-92
+> header > ASPARTIC PROTEINASE
+> pdb_org_common > HUMAN
+> title > X-RAY ANALYSES OF PEPTIDE INHIBITOR COMPLEXES DEFINE THESTRUCTURAL BASIS OF SPECIFICITY FOR HUMAN AND MOUSE RENINS
+> format_version > 2
+> pdbid > 1bbs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bbs | A | albelig | 1 | 1 | E | 3 | 10 | A-2-  | A-9-  | SSVILTNY 
+| 1bbs | A | albelig | 2 | 2 | E | 14 | 22 | A-13-  | A-21-  | QYYGEIGIG 
+| 1bbs | A | albelig | 3 | 3 | E | 25 | 33 | A-24-  | A-32-  | PQTFKVVFD 
+| 1bbs | A | albelig | 4 | 4 | E | 39 | 42 | A-38-  | A-41-  | VWVP 
+| 1bbs | A | albelig | 5 | 5 | H | 51 | 55 | A-48-  | A-52-  | TAAVY 
+| 1bbs | A | albelig | 6 | 6 | H | 61 | 63 | A-58-  | A-60-  | ASD 
+| 1bbs | A | albelig | 7 | 7 | E | 73 | 77 | A-70-  | A-74-  | ELTLR 
+| 1bbs | A | albelig | 8 | 8 | E | 82 | 94 | A-79-  | A-91-  | TVSGFLSQDIITV 
+| 1bbs | A | albelig | 9 | 9 | E | 97 | 108 | A-94-  | A-106-  | ITVTQMFGEVTE 
+| 1bbs | A | albelig | 10 | 10 | H | 111 | 114 | A-109-  | A-112-  | ALPF 
+| 1bbs | A | albelig | 11 | 11 | E | 121 | 124 | A-119-  | A-122-  | GVVG 
+| 1bbs | A | albelig | 12 | 12 | H | 138 | 145 | A-136-  | A-143-  | IFDNIISQ 
+| 1bbs | A | albelig | 13 | 13 | E | 152 | 157 | A-150-  | A-155-  | VFSFYY 
+| 1bbs | A | albelig | 14 | 14 | E | 166 | 170 | A-163-  | A-167-  | GQIVL 
+| 1bbs | A | albelig | 15 | 15 | E | 178 | 186 | A-175-  | A-183-  | YEGNFHYIN 
+| 1bbs | A | albelig | 16 | 16 | E | 194 | 197 | A-191-  | A-194-  | QIQM 
+| 1bbs | A | albelig | 17 | 17 | E | 200 | 202 | A-197-  | A-199-  | VSV 
+| 1bbs | A | albelig | 18 | 18 | E | 205 | 208 | A-202-  | A-205-  | STLL 
+| 1bbs | A | albelig | 19 | 19 | E | 213 | 217 | A-210-  | A-214-  | NLALV 
+| 1bbs | A | albelig | 20 | 20 | E | 224 | 226 | A-221-  | A-223-  | ISG 
+| 1bbs | A | albelig | 21 | 21 | H | 228 | 238 | A-225-  | A-235-  | TSSIEKLMEAL 
+| 1bbs | A | albelig | 22 | 22 | E | 247 | 250 | A-245-  | A-248-  | YVVK 
+| 1bbs | A | albelig | 23 | 23 | H | 254 | 256 | A-252-  | A-254-  | GPT 
+| 1bbs | A | albelig | 24 | 24 | E | 260 | 264 | A-258-  | A-262-  | ISFHL 
+| 1bbs | A | albelig | 25 | 25 | E | 267 | 271 | A-265-  | A-269-  | KEYTL 
+| 1bbs | A | albelig | 26 | 26 | H | 273 | 276 | A-271-  | A-274-  | SADY 
+| 1bbs | A | albelig | 27 | 27 | E | 287 | 289 | A-281-  | A-283-  | LCT 
+| 1bbs | A | albelig | 28 | 28 | E | 292 | 294 | A-286-  | A-288-  | IHA 
+| 1bbs | A | albelig | 29 | 29 | E | 305 | 307 | A-299-  | A-301-  | WAL 
+| 1bbs | A | albelig | 30 | 30 | H | 309 | 312 | A-303-  | A-306-  | ATFI 
+| 1bbs | A | albelig | 31 | 31 | E | 315 | 320 | A-309-  | A-314-  | FYTEFD 
+| 1bbs | A | albelig | 32 | 32 | E | 325 | 331 | A-319-  | A-325-  | RIGFALA 
+# Printed info on 32 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 14
+= 2 = a = 3
+= 2 = a = 8
+= 3 = p = 11
+= 4 = p = 9
+= 4 = a = 11
+= 7 = a = 8
+= 8 = a = 9
+= 9 = m = 12
+= 13 = a = 14
+= 13 = a = 31
+= 15 = p = 31
+= 15 = a = 32
+= 16 = a = 19
+= 17 = a = 18
+= 17 = a = 24
+= 18 = m = 21
+= 19 = p = 29
+= 20 = p = 28
+= 20 = a = 29
+= 21 = m = 28
+= 22 = a = 27
+= 24 = a = 25
+= 30 = m = 31
+= 31 = a = 32
+# Listed 26 contacts. EOF.

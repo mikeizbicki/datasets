@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fbu, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HELICAL BULGE, HELICAL KINK, HELIX-TURN-HELIX, TRANSCRIPTION
+> pdb_mol_name > HEAT SHOCK FACTOR PROTEIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 16-JUL-00
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > HEAT SHOCK TRANSCRIPTION FACTOR DNA BINDING DOMAIN
+> format_version > 2
+> pdbid > 1fbu
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > KLUYVEROMYCES LACTIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fbu | B | albelig | 1 | 1 | H | 91 | 100 | B-196-  | B-205-  | AFVNKLWSMV 
+| 1fbu | B | albelig | 2 | 2 | H | 103 | 105 | B-208-  | B-210-  | KSN 
+| 1fbu | B | albelig | 3 | 3 | E | 118 | 120 | B-223-  | B-225-  | IVV 
+| 1fbu | B | albelig | 4 | 4 | H | 123 | 129 | B-228-  | B-234-  | RERFVQE 
+| 1fbu | B | albelig | 5 | 5 | H | 131 | 134 | B-236-  | B-239-  | LPKY 
+| 1fbu | B | albelig | 6 | 6 | H | 140 | 149 | B-245-  | B-254-  | FASFVRQLNM 
+| 1fbu | B | albelig | 7 | 7 | E | 152 | 154 | B-257-  | B-259-  | WHK 
+| 1fbu | B | albelig | 8 | 8 | E | 171 | 175 | B-276-  | B-280-  | WEFEN 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 3 = a = 8
+= 6 = m = 7
+= 7 = a = 8
+# Listed 4 contacts. EOF.

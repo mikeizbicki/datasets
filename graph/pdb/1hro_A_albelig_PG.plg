@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hro, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, PHOTOSYNTHESIS, HEME
+> pdb_mol_name > CYTOCHROME C2
+> graphtype > albelig
+> resolution > 2.2
+> date > 10-JUL-96
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > MOLECULAR STRUCTURE OF A HIGH POTENTIAL CYTOCHROME C2ISOLATED FROM RHODOPILA GLOBIFORMIS
+> format_version > 2
+> pdbid > 1hro
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RHODOPILA GLOBIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hro | A | albelig | 1 | 1 | H | 7 | 14 | A-8-  | A-15-  | PVEGKHLF 
+| 1hro | A | albelig | 2 | 2 | H | 18 | 20 | A-19-  | A-21-  | CIT 
+| 1hro | A | albelig | 3 | 3 | H | 53 | 58 | A-54-  | A-59-  | EANIKS 
+| 1hro | A | albelig | 4 | 4 | H | 64 | 72 | A-65-  | A-73-  | PDVLFKYIE 
+| 1hro | A | albelig | 5 | 5 | H | 74 | 77 | A-75-  | A-78-  | PQKI 
+| 1hro | A | albelig | 6 | 6 | H | 91 | 101 | A-92-  | A-102-  | PQKRADIIAYL 
+| 1hro | A | albelig | 7 | 7 | L | 212 | 212 | A-107-  | A-107-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 2 = l = 7
+= 3 = l = 7
+= 4 = m = 5
+= 4 = m = 6
+= 4 = l = 7
+= 6 = l = 7
+# Listed 7 contacts. EOF.

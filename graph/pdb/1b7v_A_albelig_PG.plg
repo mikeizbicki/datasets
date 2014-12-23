@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b7v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME, ELECTRON TRANSFER
+> pdb_mol_name > PROTEIN (CYTOCHROME C-553)
+> graphtype > albelig
+> resolution > 1.7
+> date > 22-JAN-99
+> header > ELECTRON TRANSFER
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE C-553 CYTOCHROME FROM BACILLUS PASTERUII TO 1.7 ARESOLUTION
+> format_version > 2
+> pdbid > 1b7v
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SPOROSARCINA PASTEURII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b7v | A | albelig | 1 | 1 | H | 3 | 10 | A-24-  | A-31-  | AEAVVQQK 
+| 1b7v | A | albelig | 2 | 2 | H | 12 | 15 | A-33-  | A-36-  | ISCH 
+| 1b7v | A | albelig | 3 | 3 | H | 30 | 33 | A-51-  | A-54-  | AGAN 
+| 1b7v | A | albelig | 4 | 4 | H | 36 | 45 | A-57-  | A-66-  | EEEILDIILN 
+| 1b7v | A | albelig | 5 | 5 | H | 57 | 68 | A-78-  | A-89-  | GAEAEAVAAWLA 
+| 1b7v | A | albelig | 6 | 6 | L | 72 | 72 | A-93-  | A-93-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = l = 6
+= 2 = l = 6
+= 3 = l = 6
+= 4 = a = 5
+= 4 = l = 6
+= 5 = l = 6
+# Listed 7 contacts. EOF.

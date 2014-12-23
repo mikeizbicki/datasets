@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ejm, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX, HYDROLASE/INHIBITOR COMPLEX
+> pdb_mol_name > PANCREATIC TRYPSIN INHIBITOR
+> graphtype > albelig
+> resolution > 1.85
+> date > 03-MAR-00
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE BPTI ALA16LEU MUTANT IN COMPLEXWITH BOVINE TRYPSIN
+> format_version > 2
+> pdbid > 1ejm
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ejm | D | albelig | 1 | 1 | H | 510 | 513 | D-503-  | D-506-  | DFPL 
+| 1ejm | D | albelig | 2 | 2 | E | 525 | 531 | D-518-  | D-524-  | IIRYFYN 
+| 1ejm | D | albelig | 3 | 3 | E | 536 | 542 | D-529-  | D-535-  | LRQTFVY 
+| 1ejm | D | albelig | 4 | 4 | H | 555 | 562 | D-548-  | D-555-  | AEDRLRTP 
+| 1ejm | D | albelig | 5 | 5 | L | 854 | 854 | D-3601-  | D-3601-  | J 
+| 1ejm | D | albelig | 6 | 6 | L | 855 | 855 | D-3604-  | D-3604-  | J 
+| 1ejm | D | albelig | 7 | 7 | L | 856 | 856 | D-3606-  | D-3606-  | J 
+| 1ejm | D | albelig | 8 | 8 | L | 857 | 857 | D-3611-  | D-3611-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 4
+= 2 = l = 5
+= 2 = l = 6
+= 3 = l = 6
+= 5 = l = 6
+# Listed 6 contacts. EOF.

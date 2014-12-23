@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bkc, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ZN-ENDOPEPTIDASE, HYDROLASE, TNF-ALPHA
+> pdb_mol_name > TUMOR NECROSIS FACTOR-ALPHA-CONVERTING ENZYME
+> graphtype > albelig
+> resolution > 2.0
+> date > 23-APR-98
+> header > ZN-ENDOPEPTIDASE
+> pdb_org_common > HUMAN
+> title > CATALYTIC DOMAIN OF TNF-ALPHA CONVERTING ENZYME (TACE)
+> format_version > 2
+> pdbid > 1bkc
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bkc | I | albelig | 1 | 1 | E | 772 | 779 | I-224-  | I-231-  | TJKLLVVA 
+| 1bkc | I | albelig | 2 | 2 | H | 781 | 786 | I-233-  | I-238-  | HRFYRY 
+| 1bkc | I | albelig | 3 | 3 | H | 792 | 811 | I-244-  | I-263-  | ESTTTNYLIELIDRVDDIYR 
+| 1bkc | I | albelig | 4 | 4 | E | 824 | 832 | I-276-  | I-284-  | GIQIEQIRI 
+| 1bkc | I | albelig | 5 | 5 | H | 862 | 877 | I-314-  | I-329-  | VKMLLEQFSFDIAEEA 
+| 1bkc | I | albelig | 6 | 6 | E | 882 | 887 | I-334-  | I-339-  | LAHLFT 
+| 1bkc | I | albelig | 7 | 7 | H | 892 | 894 | I-344-  | I-346-  | DMG 
+| 1bkc | I | albelig | 8 | 8 | E | 897 | 899 | I-349-  | I-351-  | GLA 
+| 1bkc | I | albelig | 9 | 9 | E | 917 | 919 | I-369-  | I-371-  | YYS 
+| 1bkc | I | albelig | 10 | 10 | E | 924 | 926 | I-376-  | I-378-  | KNI 
+| 1bkc | I | albelig | 11 | 11 | E | 930 | 934 | I-382-  | I-386-  | SGLTS 
+| 1bkc | I | albelig | 12 | 12 | H | 944 | 958 | I-396-  | I-410-  | TKEADLVTTHELGHN 
+| 1bkc | I | albelig | 13 | 13 | H | 993 | 996 | I-445-  | I-448-  | ENNK 
+| 1bkc | I | albelig | 14 | 14 | H | 1000 | 1017 | I-452-  | I-469-  | QLSKQSIYKTIESKAQEK 
+| 1bkc | I | albelig | 15 | 15 | L | 1029 | 1029 | I-1-  | I-1-  | J 
+| 1bkc | I | albelig | 16 | 16 | L | 1030 | 1030 | I-2-  | I-2-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = m = 3
+= 3 = a = 4
+= 3 = p = 12
+= 5 = m = 11
+= 6 = p = 11
+= 7 = l = 16
+= 8 = a = 11
+= 8 = m = 12
+= 8 = l = 16
+= 9 = a = 10
+= 11 = a = 12
+= 12 = l = 15
+= 12 = l = 16
+= 15 = l = 16
+# Listed 16 contacts. EOF.

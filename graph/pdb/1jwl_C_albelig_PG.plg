@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jwl, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LAC REPRESSOR, GENE REGULATION, DNA-BENDING,TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > LACTOSE OPERON REPRESSOR
+> graphtype > albelig
+> resolution > 4.0
+> date > 04-SEP-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE DIMERIC LAC REPRESSOR/OPERATOR O1/ONPFCOMPLEX
+> format_version > 2
+> pdbid > 1jwl
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jwl | C | albelig | 1 | 1 | E | 662 | 667 | C-63-  | C-68-  | LIGVAT 
+| 1jwl | C | albelig | 2 | 2 | H | 673 | 688 | C-74-  | C-89-  | HAPSQIVAAIKSRADQ 
+| 1jwl | C | albelig | 3 | 3 | E | 692 | 697 | C-93-  | C-98-  | SVVVSM 
+| 1jwl | C | albelig | 4 | 4 | H | 703 | 715 | C-104-  | C-116-  | VEACKTAVHNLLA 
+| 1jwl | C | albelig | 5 | 5 | E | 720 | 724 | C-121-  | C-125-  | GLIIN 
+| 1jwl | C | albelig | 6 | 6 | H | 729 | 738 | C-130-  | C-139-  | DQDAIAVEAA 
+| 1jwl | C | albelig | 7 | 7 | E | 744 | 746 | C-145-  | C-147-  | ALF 
+| 1jwl | C | albelig | 8 | 8 | E | 757 | 760 | C-158-  | C-161-  | SIIF 
+| 1jwl | C | albelig | 9 | 9 | H | 762 | 775 | C-163-  | C-176-  | HEDGTRLGVEHLVA 
+| 1jwl | C | albelig | 10 | 10 | E | 781 | 785 | C-182-  | C-186-  | IALLA 
+| 1jwl | C | albelig | 11 | 11 | H | 791 | 805 | C-192-  | C-206-  | VSARLRLAGWHKYLT 
+| 1jwl | C | albelig | 12 | 12 | E | 813 | 816 | C-214-  | C-217-  | AERE 
+| 1jwl | C | albelig | 13 | 13 | H | 821 | 833 | C-222-  | C-234-  | AMSGFQQTMQMLN 
+| 1jwl | C | albelig | 14 | 14 | E | 840 | 843 | C-241-  | C-244-  | AMLV 
+| 1jwl | C | albelig | 15 | 15 | H | 846 | 857 | C-247-  | C-258-  | DQMALGAMRAIT 
+| 1jwl | C | albelig | 16 | 16 | E | 868 | 873 | C-269-  | C-274-  | SVVGYD 
+| 1jwl | C | albelig | 17 | 17 | H | 877 | 880 | C-278-  | C-281-  | DSSC 
+| 1jwl | C | albelig | 18 | 18 | E | 886 | 889 | C-287-  | C-290-  | TTIK 
+| 1jwl | C | albelig | 19 | 19 | H | 892 | 907 | C-293-  | C-308-  | FRLLGQTSVDRLLQLS 
+| 1jwl | C | albelig | 20 | 20 | E | 915 | 918 | C-316-  | C-319-  | NQLL 
+| 1jwl | C | albelig | 21 | 21 | E | 921 | 923 | C-322-  | C-324-  | SLV 
+| 1jwl | C | albelig | 22 | 22 | L | 931 | 931 | C-334-  | C-334-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = p = 19
+= 2 = l = 22
+= 4 = m = 5
+= 5 = p = 7
+= 5 = l = 22
+= 7 = a = 8
+= 8 = p = 20
+= 8 = l = 22
+= 9 = m = 11
+= 10 = p = 12
+= 10 = p = 14
+= 11 = l = 22
+= 12 = m = 13
+= 13 = p = 15
+= 14 = p = 16
+= 15 = l = 22
+= 16 = p = 18
+= 16 = l = 22
+= 18 = a = 21
+= 19 = l = 22
+# Listed 22 contacts. EOF.

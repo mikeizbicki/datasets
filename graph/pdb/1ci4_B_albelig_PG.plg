@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ci4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA BINDING PROTEIN, RETROVIRAL INTEGRATION, PREINTEGRATIONCOMPLEX
+> pdb_mol_name > PROTEIN (BARRIER-TO-AUTOINTEGRATION FACTOR (BAF)
+> graphtype > albelig
+> resolution > 1.9
+> date > 07-APR-99
+> header > DNA BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > THE CRYSTAL STRUCTURE OF HUMAN BARRIER-TO-AUTOINTEGRATIONFACTOR (BAF)
+> format_version > 2
+> pdbid > 1ci4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ci4 | B | albelig | 1 | 1 | H | 94 | 100 | B-5-  | B-11-  | QKHRDFV 
+| 1ci4 | B | albelig | 2 | 2 | H | 109 | 111 | B-20-  | B-22-  | VGS 
+| 1ci4 | B | albelig | 3 | 3 | H | 117 | 125 | B-28-  | B-36-  | EVLGKKLEE 
+| 1ci4 | B | albelig | 4 | 4 | H | 131 | 140 | B-42-  | B-51-  | AYVVLGQFLV 
+| 1ci4 | B | albelig | 5 | 5 | H | 145 | 156 | B-56-  | B-67-  | EDLFREWLKDTC 
+| 1ci4 | B | albelig | 6 | 6 | H | 160 | 177 | B-71-  | B-88-  | AKQSRDCFGCLREWCDAF 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 4 = m = 6
+= 5 = m = 6
+# Listed 3 contacts. EOF.

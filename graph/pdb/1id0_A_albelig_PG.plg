@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1id0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTIDINE KINASE, PHOQ/PHOP, SIGNAL TRANSDUCTION,TRANSFERASE
+> pdb_mol_name > PHOQ HISTIDINE KINASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 02-APR-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE NUCLEOTIDE BOND CONFORMATION OFPHOQ KINASE DOMAIN
+> format_version > 2
+> pdbid > 1id0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1id0 | A | albelig | 1 | 1 | E | 3 | 5 | A-337-  | A-339-  | LHP 
+| 1id0 | A | albelig | 2 | 2 | H | 6 | 20 | A-340-  | A-354-  | VAPLLDNLTSALNKV 
+| 1id0 | A | albelig | 3 | 3 | E | 27 | 31 | A-361-  | A-365-  | NISLD 
+| 1id0 | A | albelig | 4 | 4 | E | 37 | 39 | A-371-  | A-373-  | SFV 
+| 1id0 | A | albelig | 5 | 5 | H | 42 | 59 | A-376-  | A-393-  | QNDFVEVMGNVLDNACKY 
+| 1id0 | A | albelig | 6 | 6 | E | 63 | 70 | A-397-  | A-404-  | FVEISARQ 
+| 1id0 | A | albelig | 7 | 7 | E | 75 | 81 | A-409-  | A-415-  | LYIVVED 
+| 1id0 | A | albelig | 8 | 8 | H | 88 | 90 | A-422-  | A-424-  | LSK 
+| 1id0 | A | albelig | 9 | 9 | H | 93 | 95 | A-427-  | A-429-  | VIF 
+| 1id0 | A | albelig | 10 | 10 | H | 112 | 121 | A-446-  | A-455-  | LAVAREITEQ 
+| 1id0 | A | albelig | 11 | 11 | E | 125 | 130 | A-459-  | A-464-  | KIVAGE 
+| 1id0 | A | albelig | 12 | 12 | E | 136 | 142 | A-470-  | A-476-  | ARMEVIF 
+| 1id0 | A | albelig | 13 | 13 | L | 147 | 147 | A-700-  | A-700-  | J 
+| 1id0 | A | albelig | 14 | 14 | L | 148 | 148 | A-487-  | A-487-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 2 = p = 5
+= 3 = p = 6
+= 5 = p = 7
+= 5 = a = 10
+= 5 = l = 13
+= 5 = l = 14
+= 6 = a = 7
+= 7 = a = 12
+= 7 = l = 14
+= 9 = l = 14
+= 10 = m = 11
+= 10 = l = 14
+= 11 = a = 12
+= 12 = l = 14
+= 13 = l = 14
+# Listed 17 contacts. EOF.

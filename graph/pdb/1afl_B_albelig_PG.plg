@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1afl, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, RIBONUCLEASE, ENDONUCLEASE, NUCLEOTIDE INHIBITOR
+> pdb_mol_name > RIBONUCLEASE A
+> graphtype > albelig
+> resolution > 1.7
+> date > 08-MAR-97
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > RIBONUCLEASE A IN COMPLEX WITH 5'-DIPHOSPHOADENOSINE 2'-PHOSPHATE AT 1.7 ANGSTROM RESOLUTION
+> format_version > 2
+> pdbid > 1afl
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1afl | B | albelig | 1 | 1 | H | 129 | 137 | B-4-  | B-12-  | AAAKFERQH 
+| 1afl | B | albelig | 2 | 2 | H | 150 | 157 | B-25-  | B-32-  | YENQMMKS 
+| 1afl | B | albelig | 3 | 3 | E | 168 | 172 | B-43-  | B-47-  | VNTFV 
+| 1afl | B | albelig | 4 | 4 | H | 176 | 184 | B-51-  | B-59-  | LADVQAVGS 
+| 1afl | B | albelig | 5 | 5 | E | 186 | 188 | B-61-  | B-63-  | KNV 
+| 1afl | B | albelig | 6 | 6 | E | 197 | 199 | B-72-  | B-74-  | HYQ 
+| 1afl | B | albelig | 7 | 7 | E | 204 | 211 | B-79-  | B-86-  | MSITDERE 
+| 1afl | B | albelig | 8 | 8 | E | 222 | 229 | B-97-  | B-104-  | YKTTQANK 
+| 1afl | B | albelig | 9 | 9 | E | 231 | 236 | B-106-  | B-111-  | IIVAGE 
+| 1afl | B | albelig | 10 | 10 | E | 241 | 248 | B-116-  | B-123-  | VPVHFDAS 
+| 1afl | B | albelig | 11 | 11 | L | 252 | 252 | B-125-  | B-125-  | J 
+| 1afl | B | albelig | 12 | 12 | L | 253 | 253 | B-998-  | B-998-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 10
+= 1 = l = 11
+= 2 = m = 7
+= 2 = m = 8
+= 3 = a = 7
+= 4 = m = 6
+= 4 = m = 10
+= 5 = a = 6
+= 6 = a = 9
+= 6 = l = 11
+= 7 = a = 8
+= 9 = a = 10
+= 9 = l = 11
+= 10 = l = 11
+# Listed 15 contacts. EOF.

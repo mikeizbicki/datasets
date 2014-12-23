@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1byi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BIOTIN SYNTHESIS, CYCLO-LIGASE, LIGASE
+> pdb_mol_name > DETHIOBIOTIN SYNTHASE
+> graphtype > albelig
+> resolution > 0.97
+> date > 15-OCT-98
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF APO-DETHIOBIOTIN SYNTHASE AT 0.97 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1byi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1byi | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | KRYFVTG 
+| 1byi | A | albelig | 2 | 2 | H | 15 | 28 | A-15-  | A-28-  | KTVASCALLQAAKA 
+| 1byi | A | albelig | 3 | 3 | E | 33 | 36 | A-33-  | A-36-  | TAGY 
+| 1byi | A | albelig | 4 | 4 | E | 39 | 41 | A-39-  | A-41-  | VAS 
+| 1byi | A | albelig | 5 | 5 | H | 53 | 60 | A-53-  | A-60-  | SDALALQR 
+| 1byi | A | albelig | 6 | 6 | H | 68 | 71 | A-68-  | A-71-  | YATV 
+| 1byi | A | albelig | 7 | 7 | E | 74 | 76 | A-74-  | A-76-  | YTF 
+| 1byi | A | albelig | 8 | 8 | H | 82 | 89 | A-82-  | A-89-  | PHIISAQE 
+| 1byi | A | albelig | 9 | 9 | H | 95 | 106 | A-95-  | A-106-  | SLVMSAGLRALE 
+| 1byi | A | albelig | 10 | 10 | E | 111 | 115 | A-111-  | A-115-  | WVLVE 
+| 1byi | A | albelig | 11 | 11 | E | 123 | 125 | A-123-  | A-125-  | PLS 
+| 1byi | A | albelig | 12 | 12 | H | 130 | 137 | A-130-  | A-137-  | FADWVTQE 
+| 1byi | A | albelig | 13 | 13 | E | 141 | 146 | A-141-  | A-146-  | VILVVG 
+| 1byi | A | albelig | 14 | 14 | H | 151 | 164 | A-151-  | A-164-  | CINHAMLTAQVIQH 
+| 1byi | A | albelig | 15 | 15 | E | 169 | 175 | A-169-  | A-175-  | LAGWVAN 
+| 1byi | A | albelig | 16 | 16 | H | 184 | 194 | A-184-  | A-194-  | HAEYMTTLTRM 
+| 1byi | A | albelig | 17 | 17 | E | 199 | 203 | A-199-  | A-203-  | LLGEI 
+| 1byi | A | albelig | 18 | 18 | H | 216 | 218 | A-216-  | A-218-  | GKY 
+| 1byi | A | albelig | 19 | 19 | H | 221 | 223 | A-221-  | A-223-  | LAL 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 10
+= 1 = p = 13
+= 2 = m = 3
+= 2 = m = 5
+= 2 = a = 10
+= 3 = m = 6
+= 3 = m = 9
+= 3 = p = 10
+= 4 = p = 7
+= 8 = m = 11
+= 9 = m = 12
+= 13 = p = 15
+= 15 = p = 17
+= 16 = a = 17
+= 17 = m = 18
+# Listed 15 contacts. EOF.

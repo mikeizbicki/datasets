@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hpc, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSIT PEPTIDE
+> pdb_mol_name > H PROTEIN OF THE GLYCINE CLEAVAGE SYSTEM
+> graphtype > albelig
+> resolution > 2.0
+> date > 17-FEB-94
+> header > TRANSIT PEPTIDE
+> pdb_org_common > PEA
+> title > REFINED STRUCTURES AT 2 ANGSTROMS AND 2.2 ANGSTROMS OF THE TWO FORMSOF THE H-PROTEIN, A LIPOAMIDE-CONTAINING PROTEIN OF THE GLYCINEDECARBOXYLASE
+> format_version > 2
+> pdbid > 1hpc
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PISUM SATIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hpc | B | albelig | 1 | 1 | E | 146 | 151 | B-14-  | B-19-  | EWVKHE 
+| 1hpc | B | albelig | 2 | 2 | E | 154 | 159 | B-22-  | B-27-  | VATIGI 
+| 1hpc | B | albelig | 3 | 3 | H | 161 | 167 | B-29-  | B-35-  | DHAQDHL 
+| 1hpc | B | albelig | 4 | 4 | E | 170 | 174 | B-38-  | B-42-  | VVFVE 
+| 1hpc | B | albelig | 5 | 5 | E | 187 | 193 | B-55-  | B-61-  | GFGAVES 
+| 1hpc | B | albelig | 6 | 6 | E | 197 | 201 | B-65-  | B-69-  | TSDVN 
+| 1hpc | B | albelig | 7 | 7 | E | 206 | 211 | B-74-  | B-79-  | GEVIEV 
+| 1hpc | B | albelig | 8 | 8 | H | 214 | 217 | B-82-  | B-85-  | GLTG 
+| 1hpc | B | albelig | 9 | 9 | H | 221 | 224 | B-89-  | B-92-  | LINS 
+| 1hpc | B | albelig | 10 | 10 | E | 233 | 237 | B-101-  | B-105-  | IKIKP 
+| 1hpc | B | albelig | 11 | 11 | H | 240 | 245 | B-108-  | B-113-  | PDELES 
+| 1hpc | B | albelig | 12 | 12 | H | 249 | 260 | B-117-  | B-128-  | AKEYTKFCEEED 
+| 1hpc | B | albelig | 13 | 13 | L | 265 | 265 | B-132-  | B-132-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 10
+= 3 = l = 13
+= 4 = a = 5
+= 5 = a = 6
+= 7 = a = 10
+= 12 = l = 13
+# Listed 7 contacts. EOF.

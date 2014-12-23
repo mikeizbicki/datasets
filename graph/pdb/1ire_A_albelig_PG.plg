@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ire, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYSTEINE-SULFINIC ACID, CYSTEINE-SULFENIC ACID, POST-TRANSLATIONALMODIFICATION, NON-CORRIN COBALT, NITRILE, HYDRATION, LYASE
+> pdb_mol_name > NITRILE HYDRATASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 01-OCT-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CO-TYPE NITRILE HYDRATASE FROM PSEUDONOCARDIATHERMOPHILA
+> format_version > 2
+> pdbid > 1ire
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDONOCARDIA THERMOPHILA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ire | A | albelig | 1 | 1 | H | 9 | 29 | A-10-  | A-30-  | DEEIQKEITARVKALESMLIE 
+| 1ire | A | albelig | 2 | 2 | H | 35 | 48 | A-36-  | A-49-  | TSMIDRMAEIYENE 
+| 1ire | A | albelig | 3 | 3 | H | 51 | 63 | A-52-  | A-64-  | PHLGAKVVVKAWT 
+| 1ire | A | albelig | 4 | 4 | H | 65 | 73 | A-66-  | A-74-  | PEFKKRLLA 
+| 1ire | A | albelig | 5 | 5 | H | 75 | 80 | A-76-  | A-81-  | GTEACK 
+| 1ire | A | albelig | 6 | 6 | E | 91 | 96 | A-92-  | A-97-  | DMMWVE 
+| 1ire | A | albelig | 7 | 7 | E | 101 | 106 | A-102-  | A-107-  | VHHVVV 
+| 1ire | A | albelig | 8 | 8 | H | 115 | 118 | A-116-  | A-119-  | WPVL 
+| 1ire | A | albelig | 9 | 9 | H | 123 | 126 | A-124-  | A-127-  | NWFK 
+| 1ire | A | albelig | 10 | 10 | H | 128 | 134 | A-129-  | A-135-  | PQYRSRV 
+| 1ire | A | albelig | 11 | 11 | H | 138 | 146 | A-139-  | A-147-  | PRQLLKEEF 
+| 1ire | A | albelig | 12 | 12 | E | 155 | 160 | A-156-  | A-161-  | EIKVWD 
+| 1ire | A | albelig | 13 | 13 | E | 165 | 170 | A-166-  | A-171-  | MRFVVL 
+| 1ire | A | albelig | 14 | 14 | H | 182 | 186 | A-183-  | A-187-  | EEELA 
+| 1ire | A | albelig | 15 | 15 | H | 191 | 195 | A-192-  | A-196-  | RESMI 
+| 1ire | A | albelig | 16 | 16 | L | 435 | 435 | A-301-  | A-301-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 4
+= 3 = m = 14
+= 5 = m = 6
+= 6 = a = 7
+= 6 = p = 13
+= 7 = p = 12
+= 7 = m = 15
+= 10 = m = 11
+= 13 = m = 15
+# Listed 9 contacts. EOF.

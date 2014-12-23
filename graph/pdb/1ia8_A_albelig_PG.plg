@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ia8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN KINASE, TRANSFERASE
+> pdb_mol_name > CHK1 CHECKPOINT KINASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 22-MAR-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > THE 1.7 A CRYSTAL STRUCTURE OF HUMAN CELL CYCLE CHECKPOINTKINASE CHK1
+> format_version > 2
+> pdbid > 1ia8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ia8 | A | albelig | 1 | 1 | H | 3 | 6 | A-4-  | A-7-  | PFVE 
+| 1ia8 | A | albelig | 2 | 2 | E | 8 | 15 | A-9-  | A-16-  | WDLVQTLG 
+| 1ia8 | A | albelig | 3 | 3 | E | 21 | 27 | A-22-  | A-28-  | EVQLAVN 
+| 1ia8 | A | albelig | 4 | 4 | E | 33 | 40 | A-34-  | A-41-  | AVAVKIVD 
+| 1ia8 | A | albelig | 5 | 5 | H | 46 | 58 | A-49-  | A-61-  | PENIKKEICINKM 
+| 1ia8 | A | albelig | 6 | 6 | E | 67 | 71 | A-70-  | A-74-  | FYGHR 
+| 1ia8 | A | albelig | 7 | 7 | E | 76 | 82 | A-79-  | A-85-  | IQYLFLE 
+| 1ia8 | A | albelig | 8 | 8 | H | 89 | 92 | A-92-  | A-95-  | LFDR 
+| 1ia8 | A | albelig | 9 | 9 | H | 101 | 120 | A-104-  | A-123-  | EPDAQRFFHQLMAGVVYLHG 
+| 1ia8 | A | albelig | 10 | 10 | H | 130 | 132 | A-133-  | A-135-  | PEN 
+| 1ia8 | A | albelig | 11 | 11 | E | 133 | 135 | A-136-  | A-138-  | LLL 
+| 1ia8 | A | albelig | 12 | 12 | E | 141 | 143 | A-144-  | A-146-  | LKI 
+| 1ia8 | A | albelig | 13 | 13 | H | 168 | 170 | A-171-  | A-173-  | LPY 
+| 1ia8 | A | albelig | 14 | 14 | H | 173 | 177 | A-176-  | A-180-  | PELLK 
+| 1ia8 | A | albelig | 15 | 15 | H | 183 | 200 | A-186-  | A-203-  | AEPVDVWSCGIVLTAMLA 
+| 1ia8 | A | albelig | 16 | 16 | H | 213 | 219 | A-216-  | A-222-  | QEYSDWK 
+| 1ia8 | A | albelig | 17 | 17 | H | 228 | 230 | A-231-  | A-233-  | WKK 
+| 1ia8 | A | albelig | 18 | 18 | H | 234 | 242 | A-237-  | A-245-  | APLALLHKI 
+| 1ia8 | A | albelig | 19 | 19 | H | 253 | 256 | A-256-  | A-259-  | IPDI 
+| 1ia8 | A | albelig | 20 | 20 | L | 274 | 274 | A-901-  | A-901-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 7
+= 5 = m = 6
+= 5 = p = 7
+= 5 = l = 20
+= 6 = a = 7
+= 9 = m = 12
+= 9 = a = 15
+= 10 = m = 11
+= 10 = m = 12
+= 11 = a = 12
+= 13 = m = 15
+= 15 = a = 18
+# Listed 14 contacts. EOF.

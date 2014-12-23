@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fsj, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ZINC CONTAINING ENZYME, HNH-MOTIF, HYDROLASE
+> pdb_mol_name > COLICIN E9
+> graphtype > albelig
+> resolution > 1.8
+> date > 11-SEP-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE E9 DNASE DOMAIN
+> format_version > 2
+> pdbid > 1fsj
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fsj | D | albelig | 1 | 1 | H | 270 | 272 | D-404-  | D-406-  | KRN 
+| 1fsj | D | albelig | 2 | 2 | H | 288 | 293 | D-422-  | D-427-  | WLDDAG 
+| 1fsj | D | albelig | 3 | 3 | H | 302 | 308 | D-436-  | D-442-  | DRIADKL 
+| 1fsj | D | albelig | 4 | 4 | H | 316 | 328 | D-450-  | D-462-  | FDDFRKAVWEEVS 
+| 1fsj | D | albelig | 5 | 5 | H | 331 | 334 | D-465-  | D-468-  | PELS 
+| 1fsj | D | albelig | 6 | 6 | H | 339 | 346 | D-473-  | D-480-  | PSNKSSVS 
+| 1fsj | D | albelig | 7 | 7 | H | 355 | 357 | D-489-  | D-491-  | KNQ 
+| 1fsj | D | albelig | 8 | 8 | E | 366 | 369 | D-500-  | D-503-  | ELHH 
+| 1fsj | D | albelig | 9 | 9 | H | 373 | 375 | D-507-  | D-509-  | ISQ 
+| 1fsj | D | albelig | 10 | 10 | E | 385 | 388 | D-519-  | D-522-  | IRVT 
+| 1fsj | D | albelig | 11 | 11 | H | 390 | 396 | D-524-  | D-530-  | PKRHIDI 
+| 1fsj | D | albelig | 12 | 12 | L | 538 | 538 | D-803-  | D-803-  | J 
+| 1fsj | D | albelig | 13 | 13 | L | 539 | 539 | D-903-  | D-903-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 12
+= 2 = m = 10
+= 3 = m = 4
+= 8 = a = 10
+= 8 = m = 11
+= 8 = l = 12
+= 8 = l = 13
+= 9 = l = 12
+= 11 = l = 12
+= 11 = l = 13
+= 12 = l = 13
+# Listed 11 contacts. EOF.

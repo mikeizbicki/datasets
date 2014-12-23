@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g2w, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MUTANT, PYRIDOXAL-5'-PHOSPHATE, WATER MOLECULE, INTERNAL ALDIMINE,AMINOTRANSFERASE, BACTERIAL CELL WALL BIOSYNTHESIS, TRANSFERASE
+> pdb_mol_name > D-ALANINE AMINOTRANSFERASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 21-OCT-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > E177S MUTANT OF THE PYRIDOXAL-5'-PHOSPHATE ENZYME D-AMINO ACIDAMINOTRANSFERASE
+> format_version > 2
+> pdbid > 1g2w
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GEOBACILLUS STEAROTHERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g2w | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | YTLW 
+| 1g2w | A | albelig | 2 | 2 | E | 8 | 11 | A-8-  | A-11-  | QIVK 
+| 1g2w | A | albelig | 3 | 3 | H | 12 | 14 | A-12-  | A-14-  | DEE 
+| 1g2w | A | albelig | 4 | 4 | H | 22 | 25 | A-22-  | A-25-  | RGYQ 
+| 1g2w | A | albelig | 5 | 5 | E | 29 | 37 | A-29-  | A-37-  | GVYEVVKVY 
+| 1g2w | A | albelig | 6 | 6 | H | 44 | 57 | A-44-  | A-57-  | VNEHIDRLYASAEK 
+| 1g2w | A | albelig | 7 | 7 | H | 66 | 80 | A-66-  | A-80-  | KDKFHQLLHELVEKN 
+| 1g2w | A | albelig | 8 | 8 | E | 85 | 92 | A-85-  | A-92-  | GHIYFQVT 
+| 1g2w | A | albelig | 9 | 9 | E | 110 | 117 | A-110-  | A-117-  | VIIGYTKE 
+| 1g2w | A | albelig | 10 | 10 | H | 122 | 127 | A-122-  | A-127-  | LENLEK 
+| 1g2w | A | albelig | 11 | 11 | E | 129 | 135 | A-129-  | A-135-  | VKATFVE 
+| 1g2w | A | albelig | 12 | 12 | H | 150 | 160 | A-150-  | A-160-  | LGAVLAKQEAH 
+| 1g2w | A | albelig | 13 | 13 | E | 166 | 171 | A-166-  | A-171-  | EAILHR 
+| 1g2w | A | albelig | 14 | 14 | E | 174 | 178 | A-174-  | A-178-  | TVTSG 
+| 1g2w | A | albelig | 15 | 15 | E | 182 | 187 | A-182-  | A-187-  | NVFGIK 
+| 1g2w | A | albelig | 16 | 16 | E | 190 | 193 | A-190-  | A-193-  | ILYT 
+| 1g2w | A | albelig | 17 | 17 | H | 204 | 215 | A-204-  | A-215-  | ITRDVVIACANE 
+| 1g2w | A | albelig | 18 | 18 | H | 227 | 231 | A-227-  | A-231-  | THEAL 
+| 1g2w | A | albelig | 19 | 19 | E | 235 | 240 | A-235-  | A-240-  | ELFVTS 
+| 1g2w | A | albelig | 20 | 20 | E | 244 | 251 | A-244-  | A-251-  | EITPVIEI 
+| 1g2w | A | albelig | 21 | 21 | H | 263 | 273 | A-263-  | A-273-  | EWTRKLQKQFE 
+| 1g2w | A | albelig | 22 | 22 | L | 556 | 556 | A-900-  | A-900-  | J 
+| 1g2w | A | albelig | 23 | 23 | L | 557 | 557 | A-901-  | A-901-  | J 
+| 1g2w | A | albelig | 24 | 24 | L | 558 | 558 | A-285-  | A-285-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = m = 7
+= 1 = a = 9
+= 2 = m = 3
+= 5 = a = 6
+= 5 = a = 8
+= 5 = l = 23
+= 5 = l = 24
+= 6 = a = 7
+= 6 = l = 24
+= 8 = a = 9
+= 10 = m = 20
+= 11 = p = 13
+= 11 = p = 20
+= 12 = m = 13
+= 13 = a = 14
+= 14 = l = 24
+= 15 = a = 16
+= 15 = a = 19
+= 15 = l = 24
+= 17 = m = 19
+= 17 = m = 21
+= 17 = l = 24
+= 19 = a = 20
+= 19 = m = 21
+= 19 = l = 24
+= 20 = m = 21
+= 23 = l = 24
+# Listed 29 contacts. EOF.

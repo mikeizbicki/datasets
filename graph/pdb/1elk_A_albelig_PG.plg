@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1elk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SUPERHELIX OF HELICES, ENDOCYTOSIS/EXOCYTOSIS COMPLEX
+> pdb_mol_name > TARGET OF MYB1
+> graphtype > albelig
+> resolution > 1.5
+> date > 13-MAR-00
+> header > ENDOCYTOSIS/EXOCYTOSIS
+> pdb_org_common > HUMAN
+> title > VHS DOMAIN OF TOM1 PROTEIN FROM H. SAPIENS
+> format_version > 2
+> pdbid > 1elk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1elk | A | albelig | 1 | 1 | H | 8 | 10 | A-8-  | A-10-  | PFS 
+| 1elk | A | albelig | 2 | 2 | H | 12 | 20 | A-12-  | A-20-  | PVGQRIEKA 
+| 1elk | A | albelig | 3 | 3 | H | 30 | 42 | A-30-  | A-42-  | WALNMEICDIINE 
+| 1elk | A | albelig | 4 | 4 | H | 46 | 58 | A-46-  | A-58-  | GPKDALRAVKKRI 
+| 1elk | A | albelig | 5 | 5 | H | 64 | 80 | A-64-  | A-80-  | FHEVMLALTVLETCVKN 
+| 1elk | A | albelig | 6 | 6 | H | 83 | 89 | A-83-  | A-89-  | HRFHVLV 
+| 1elk | A | albelig | 7 | 7 | H | 92 | 100 | A-92-  | A-100-  | QDFVESVLV 
+| 1elk | A | albelig | 8 | 8 | H | 101 | 103 | A-101-  | A-103-  | RTI 
+| 1elk | A | albelig | 9 | 9 | H | 111 | 128 | A-111-  | A-128-  | TIVHDKVLNLIQSWADAF 
+| 1elk | A | albelig | 10 | 10 | H | 135 | 147 | A-135-  | A-147-  | TGVVTIYEDLRRK 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 2 = m = 3
+= 2 = p = 4
+= 3 = p = 5
+= 4 = m = 6
+= 4 = p = 7
+= 5 = m = 6
+= 5 = p = 9
+= 7 = m = 8
+= 7 = m = 10
+= 9 = m = 10
+# Listed 12 contacts. EOF.

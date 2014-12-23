@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g4a, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HSLVU, PEPTIDASE-ATPASE COMPLEX, CHAPERONE/HYDROLASE COMPLEX
+> pdb_mol_name > ATP-DEPENDENT PROTEASE HSLV
+> graphtype > albelig
+> resolution > 3.0
+> date > 26-OCT-00
+> header > CHAPERONE/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF THE HSLVU PEPTIDASE-ATPASE COMPLEXREVEAL AN ATP-DEPENDENT PROTEOLYSIS MECHANISM
+> format_version > 2
+> pdbid > 1g4a
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g4a | D | albelig | 1 | 1 | E | 1066 | 1069 | D-2-  | D-5-  | TIVS 
+| 1g4a | D | albelig | 2 | 2 | E | 1078 | 1080 | D-14-  | D-16-  | IAG 
+| 1g4a | D | albelig | 3 | 3 | E | 1098 | 1100 | D-34-  | D-36-  | VRR 
+| 1g4a | D | albelig | 4 | 4 | E | 1107 | 1109 | D-43-  | D-45-  | IAG 
+| 1g4a | D | albelig | 5 | 5 | H | 1114 | 1117 | D-50-  | D-53-  | TADA 
+| 1g4a | D | albelig | 6 | 6 | H | 1119 | 1130 | D-55-  | D-66-  | TLFELFERKLEM 
+| 1g4a | D | albelig | 7 | 7 | H | 1136 | 1139 | D-72-  | D-75-  | VKAA 
+| 1g4a | D | albelig | 8 | 8 | H | 1143 | 1145 | D-79-  | D-81-  | AKD 
+| 1g4a | D | albelig | 9 | 9 | E | 1184 | 1187 | D-120-  | D-123-  | IAIG 
+| 1g4a | D | albelig | 10 | 10 | H | 1190 | 1200 | D-126-  | D-136-  | GPYAQAAARAL 
+| 1g4a | D | albelig | 11 | 11 | H | 1208 | 1222 | D-144-  | D-158-  | AREIAEKALDIAGDI 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 3
+= 2 = a = 4
+= 3 = a = 4
+= 9 = m = 10
+= 10 = a = 11
+# Listed 7 contacts. EOF.

@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kn2, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ABZYME, TRANSITION STATE ANALOG, IMMUNE SYSTEM
+> pdb_mol_name > IG ANTIBODY D2.3 (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 1.9
+> date > 18-DEC-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CATALYTIC ANTIBODY D2.3 COMPLEX
+> format_version > 2
+> pdbid > 1kn2
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kn2 | L | albelig | 1 | 1 | E | 4 | 7 | L-4-  | L-7-  | MTQS 
+| 1kn2 | L | albelig | 2 | 2 | E | 10 | 13 | L-10-  | L-13-  | TLSV 
+| 1kn2 | L | albelig | 3 | 3 | E | 19 | 25 | L-19-  | L-25-  | ASISAKS 
+| 1kn2 | L | albelig | 4 | 4 | E | 38 | 43 | L-33-  | L-38-  | LNWLLQ 
+| 1kn2 | L | albelig | 5 | 5 | E | 49 | 54 | L-44-  | L-49-  | PKRLIH 
+| 1kn2 | L | albelig | 6 | 6 | E | 67 | 72 | L-62-  | L-67-  | ITGSGS 
+| 1kn2 | L | albelig | 7 | 7 | E | 75 | 80 | L-70-  | L-75-  | DFTLKI 
+| 1kn2 | L | albelig | 8 | 8 | H | 85 | 87 | L-80-  | L-82-  | AAD 
+| 1kn2 | L | albelig | 9 | 9 | E | 89 | 95 | L-84-  | L-90-  | GVYYAVQ 
+| 1kn2 | L | albelig | 10 | 10 | E | 107 | 111 | L-102-  | L-106-  | TKLEI 
+| 1kn2 | L | albelig | 11 | 11 | E | 119 | 123 | L-114-  | L-118-  | TVSIF 
+| 1kn2 | L | albelig | 12 | 12 | H | 127 | 131 | L-122-  | L-126-  | SEQLT 
+| 1kn2 | L | albelig | 13 | 13 | E | 134 | 144 | L-129-  | L-139-  | GASVVNFLNNF 
+| 1kn2 | L | albelig | 14 | 14 | E | 150 | 155 | L-145-  | L-150-  | NVKWKI 
+| 1kn2 | L | albelig | 15 | 15 | E | 158 | 160 | L-153-  | L-155-  | SER 
+| 1kn2 | L | albelig | 16 | 16 | E | 164 | 168 | L-159-  | L-163-  | VLNSW 
+| 1kn2 | L | albelig | 17 | 17 | E | 178 | 187 | L-173-  | L-182-  | YSMSSTLTLT 
+| 1kn2 | L | albelig | 18 | 18 | H | 188 | 191 | L-183-  | L-186-  | KDEY 
+| 1kn2 | L | albelig | 19 | 19 | E | 196 | 202 | L-191-  | L-197-  | SYTNEAT 
+| 1kn2 | L | albelig | 20 | 20 | E | 210 | 215 | L-205-  | L-210-  | IVKSFN 
+| 1kn2 | L | albelig | 21 | 21 | L | 443 | 443 | L-553-  | L-553-  | J 
+| 1kn2 | L | albelig | 22 | 22 | L | 444 | 444 | L-554-  | L-554-  | J 
+| 1kn2 | L | albelig | 23 | 23 | L | 445 | 445 | L-555-  | L-555-  | J 
+| 1kn2 | L | albelig | 24 | 24 | L | 446 | 446 | L-556-  | L-556-  | J 
+| 1kn2 | L | albelig | 25 | 25 | L | 447 | 447 | L-557-  | L-557-  | J 
+| 1kn2 | L | albelig | 26 | 26 | L | 448 | 448 | L-558-  | L-558-  | J 
+| 1kn2 | L | albelig | 27 | 27 | L | 449 | 449 | L-559-  | L-559-  | J 
+| 1kn2 | L | albelig | 28 | 28 | L | 450 | 450 | L-551-  | L-551-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = a = 9
+= 4 = l = 28
+= 5 = l = 21
+= 6 = a = 7
+= 9 = a = 10
+= 9 = l = 28
+= 11 = a = 13
+= 11 = p = 20
+= 12 = m = 13
+= 13 = a = 17
+= 13 = p = 19
+= 14 = a = 15
+= 14 = a = 19
+= 14 = l = 23
+= 15 = l = 25
+= 16 = a = 17
+= 17 = m = 18
+= 19 = a = 20
+= 22 = l = 27
+= 23 = l = 24
+= 23 = l = 25
+= 23 = l = 26
+= 24 = l = 25
+= 24 = l = 26
+= 25 = l = 26
+# Listed 31 contacts. EOF.

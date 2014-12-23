@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eaq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION/DNA, ACUTE MYELOID LEUKEMIA, AML, RUNX1, RUNTDOMAIN, CHLORIDE BINDING, TRANSCRIPTION FACTOR, IG FOLD
+> pdb_mol_name > RUNT-RELATED TRANSCRIPTION FACTOR 1
+> graphtype > albelig
+> resolution > 1.25
+> date > 14-JUL-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > MOUSE
+> title > THE RUNX1 RUNT DOMAIN AT 1.25A RESOLUTION: A STRUCTURALSWITCH AND SPECIFICALLY BOUND CHLORIDE IONS MODULATEDNA BINDING
+> format_version > 2
+> pdbid > 1eaq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eaq | B | albelig | 1 | 1 | H | 128 | 134 | B-51-  | B-57-  | XVEVLAD 
+| 1eaq | B | albelig | 2 | 2 | E | 147 | 149 | B-70-  | B-72-  | FLS 
+| 1eaq | B | albelig | 3 | 3 | E | 155 | 157 | B-78-  | B-80-  | HWR 
+| 1eaq | B | albelig | 4 | 4 | E | 167 | 170 | B-90-  | B-93-  | KVVA 
+| 1eaq | B | albelig | 5 | 5 | E | 179 | 185 | B-102-  | B-108-  | LVTVXAG 
+| 1eaq | B | albelig | 6 | 6 | E | 198 | 202 | B-121-  | B-125-  | TAAXK 
+| 1eaq | B | albelig | 7 | 7 | E | 205 | 207 | B-128-  | B-130-  | VAR 
+| 1eaq | B | albelig | 8 | 8 | E | 224 | 229 | B-147-  | B-152-  | TLTITV 
+| 1eaq | B | albelig | 9 | 9 | E | 235 | 238 | B-158-  | B-161-  | QVAT 
+| 1eaq | B | albelig | 10 | 10 | E | 244 | 246 | B-167-  | B-169-  | KIT 
+| 1eaq | B | albelig | 11 | 11 | L | 259 | 259 | B-1174-  | B-1174-  | J 
+| 1eaq | B | albelig | 12 | 12 | L | 260 | 260 | B-1175-  | B-1175-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 3 = p = 10
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+= 10 = l = 11
+# Listed 8 contacts. EOF.

@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b2s, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNASE-INHIBITOR COMPLEX, INTERFACIAL DOUBLE MUTANT,HYDROLASE/HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > PROTEIN (BARSTAR)
+> graphtype > albelig
+> resolution > 1.82
+> date > 30-NOV-98
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL RESPONSE TO MUTATION AT A PROTEIN-PROTEININTERFACE
+> format_version > 2
+> pdbid > 1b2s
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b2s | E | albelig | 1 | 1 | E | 424 | 427 | E-4-  | E-7-  | AVIN 
+| 1b2s | E | albelig | 2 | 2 | H | 428 | 430 | E-8-  | E-10-  | GEQ 
+| 1b2s | E | albelig | 3 | 3 | H | 434 | 444 | E-14-  | E-24-  | ISDLHQTLKKE 
+| 1b2s | E | albelig | 4 | 4 | H | 455 | 464 | E-35-  | E-44-  | LDALWDCLAG 
+| 1b2s | E | albelig | 5 | 5 | E | 470 | 475 | E-50-  | E-55-  | LVLEWR 
+| 1b2s | E | albelig | 6 | 6 | H | 477 | 482 | E-57-  | E-62-  | FEQSKQ 
+| 1b2s | E | albelig | 7 | 7 | H | 487 | 500 | E-67-  | E-80-  | GAESVLQVFREAKA 
+| 1b2s | E | albelig | 8 | 8 | E | 505 | 508 | E-85-  | E-88-  | ITII 
+| 1b2s | E | albelig | 9 | 9 | L | 600 | 600 | E-591-  | E-591-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 5
+= 1 = l = 9
+= 4 = p = 7
+= 5 = p = 8
+= 5 = l = 9
+= 6 = m = 7
+= 7 = m = 8
+# Listed 8 contacts. EOF.

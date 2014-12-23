@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iaq, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GTP-BINDING, PROTO-ONCOGENE, SIGNALING PROTEIN
+> pdb_mol_name > TRANSFORMING PROTEIN P21/H-RAS-1
+> graphtype > albelig
+> resolution > 2.9
+> date > 23-MAR-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > C-H-RAS P21 PROTEIN MUTANT WITH THR 35 REPLACED BY SER(T35S) COMPLEXED WITH GUANOSINE-5'-[B,G-IMIDO] TRIPHOSPHATE
+> format_version > 2
+> pdbid > 1iaq
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iaq | C | albelig | 1 | 1 | E | 308 | 316 | C-2-  | C-10-  | TEYKLVVVG 
+| 1iaq | C | albelig | 2 | 2 | H | 322 | 330 | C-16-  | C-24-  | KSALTIQLI 
+| 1iaq | C | albelig | 3 | 3 | E | 344 | 346 | C-43-  | C-45-  | QVV 
+| 1iaq | C | albelig | 4 | 4 | E | 351 | 358 | C-50-  | C-57-  | TCLLDILD 
+| 1iaq | C | albelig | 5 | 5 | E | 372 | 378 | C-77-  | C-83-  | GFLCVFA 
+| 1iaq | C | albelig | 6 | 6 | H | 382 | 386 | C-87-  | C-91-  | TKSFE 
+| 1iaq | C | albelig | 7 | 7 | H | 388 | 397 | C-93-  | C-102-  | IHQYREQIKR 
+| 1iaq | C | albelig | 8 | 8 | E | 406 | 411 | C-111-  | C-116-  | MVLVGN 
+| 1iaq | C | albelig | 9 | 9 | H | 422 | 430 | C-127-  | C-135-  | SRQAQDLAR 
+| 1iaq | C | albelig | 10 | 10 | E | 436 | 438 | C-141-  | C-143-  | YIE 
+| 1iaq | C | albelig | 11 | 11 | H | 447 | 458 | C-152-  | C-163-  | VEDAFYTLVREI 
+| 1iaq | C | albelig | 12 | 12 | L | 464 | 464 | C-2168-  | C-2168-  | J 
+| 1iaq | C | albelig | 13 | 13 | L | 467 | 467 | C-2167-  | C-2167-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 5
+= 1 = m = 11
+= 2 = m = 4
+= 2 = l = 12
+= 2 = l = 13
+= 3 = a = 4
+= 4 = l = 12
+= 5 = m = 6
+= 5 = p = 8
+= 8 = p = 10
+= 8 = l = 13
+= 12 = l = 13
+# Listed 13 contacts. EOF.

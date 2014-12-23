@@ -1,0 +1,87 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j96, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALDO-KETO REDUCTASE, STEROID METABOLISM, OXIDOREDUCTASE
+> pdb_mol_name > 3ALPHA-HYDROXYSTEROID DEHYDROGENASE TYPE 3
+> graphtype > albelig
+> resolution > 1.25
+> date > 23-MAY-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > HUMAN 3ALPHA-HSD TYPE 3 IN TERNARY COMPLEX WITH NADP ANDTESTOSTERONE
+> format_version > 2
+> pdbid > 1j96
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j96 | B | albelig | 1 | 1 | E | 331 | 333 | B-7-  | B-9-  | CVK 
+| 1j96 | B | albelig | 2 | 2 | E | 339 | 341 | B-15-  | B-17-  | FMP 
+| 1j96 | B | albelig | 3 | 3 | E | 343 | 346 | B-19-  | B-22-  | LGFG 
+| 1j96 | B | albelig | 4 | 4 | H | 356 | 368 | B-32-  | B-44-  | SKALEAVKLAIEA 
+| 1j96 | B | albelig | 5 | 5 | E | 372 | 374 | B-48-  | B-50-  | HID 
+| 1j96 | B | albelig | 6 | 6 | H | 377 | 379 | B-53-  | B-55-  | HVY 
+| 1j96 | B | albelig | 7 | 7 | H | 382 | 394 | B-58-  | B-70-  | EEQVGLAIRSKIA 
+| 1j96 | B | albelig | 8 | 8 | H | 400 | 402 | B-76-  | B-78-  | RED 
+| 1j96 | B | albelig | 9 | 9 | E | 404 | 409 | B-80-  | B-85-  | FYTSKL 
+| 1j96 | B | albelig | 10 | 10 | H | 411 | 413 | B-87-  | B-89-  | SNS 
+| 1j96 | B | albelig | 11 | 11 | H | 416 | 430 | B-92-  | B-106-  | PELVRPALERSLKNL 
+| 1j96 | B | albelig | 12 | 12 | E | 435 | 440 | B-111-  | B-116-  | VDLYLI 
+| 1j96 | B | albelig | 13 | 13 | H | 464 | 476 | B-144-  | B-156-  | LCATWEAMEKCKD 
+| 1j96 | B | albelig | 14 | 14 | E | 480 | 486 | B-160-  | B-166-  | AKSIGVS 
+| 1j96 | B | albelig | 15 | 15 | H | 490 | 497 | B-170-  | B-177-  | HRLLEMIL 
+| 1j96 | B | albelig | 16 | 16 | E | 508 | 512 | B-188-  | B-192-  | CNQVE 
+| 1j96 | B | albelig | 17 | 17 | H | 520 | 528 | B-200-  | B-208-  | RKLLDFCKS 
+| 1j96 | B | albelig | 18 | 18 | E | 532 | 536 | B-212-  | B-216-  | VLVAY 
+| 1j96 | B | albelig | 19 | 19 | H | 555 | 557 | B-235-  | B-237-  | LLE 
+| 1j96 | B | albelig | 20 | 20 | H | 559 | 568 | B-239-  | B-248-  | PVLCALAKKH 
+| 1j96 | B | albelig | 21 | 21 | H | 572 | 582 | B-252-  | B-262-  | PALIALRYQLQ 
+| 1j96 | B | albelig | 22 | 22 | E | 586 | 590 | B-266-  | B-270-  | VVLAK 
+| 1j96 | B | albelig | 23 | 23 | H | 594 | 605 | B-274-  | B-285-  | EQRIRQNVQVFE 
+| 1j96 | B | albelig | 24 | 24 | H | 610 | 617 | B-290-  | B-297-  | SEEMKAID 
+| 1j96 | B | albelig | 25 | 25 | H | 629 | 631 | B-309-  | B-311-  | DIF 
+| 1j96 | B | albelig | 26 | 26 | L | 647 | 647 | B-906-  | B-906-  | J 
+| 1j96 | B | albelig | 27 | 27 | L | 648 | 648 | B-902-  | B-902-  | J 
+| 1j96 | B | albelig | 28 | 28 | L | 649 | 649 | B-904-  | B-904-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 9
+= 3 = p = 5
+= 3 = p = 22
+= 3 = l = 27
+= 4 = p = 7
+= 4 = m = 23
+= 5 = p = 9
+= 5 = l = 27
+= 6 = l = 26
+= 6 = l = 27
+= 6 = l = 28
+= 7 = m = 9
+= 7 = m = 11
+= 9 = p = 12
+= 9 = l = 27
+= 11 = p = 13
+= 12 = p = 14
+= 13 = a = 14
+= 13 = m = 15
+= 14 = p = 16
+= 14 = l = 27
+= 15 = m = 17
+= 16 = p = 18
+= 16 = l = 27
+= 18 = p = 22
+= 18 = l = 27
+= 19 = l = 27
+= 20 = m = 21
+= 20 = m = 24
+= 21 = m = 22
+= 21 = m = 23
+= 21 = m = 24
+= 21 = l = 27
+= 22 = l = 27
+= 23 = l = 27
+= 26 = l = 27
+= 26 = l = 28
+# Listed 38 contacts. EOF.

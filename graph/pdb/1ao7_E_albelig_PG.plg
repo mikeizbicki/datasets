@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ao7, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CLASS I MHC, T-CELL RECEPTOR, VIRAL PEPTIDE, COMPLEX(MHC/VIRAL PEPTIDE/RECEPTOR, COMPLEX (MHC/VIRALPEPTIDE/RECEPTOR) COMPLEX
+> pdb_mol_name > T CELL RECEPTOR BETA
+> graphtype > albelig
+> resolution > 2.6
+> date > 21-JUL-97
+> header > COMPLEX (MHC/VIRAL PEPTIDE/RECEPTOR)
+> pdb_org_common > HUMAN
+> title > COMPLEX BETWEEN HUMAN T-CELL RECEPTOR, VIRAL PEPTIDE (TAX),AND HLA-A 0201
+> format_version > 2
+> pdbid > 1ao7
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ao7 | E | albelig | 1 | 1 | E | 504 | 507 | E-4-  | E-7-  | VTQT 
+| 1ao7 | E | albelig | 2 | 2 | E | 510 | 514 | E-10-  | E-14-  | FQVLK 
+| 1ao7 | E | albelig | 3 | 3 | E | 519 | 525 | E-19-  | E-25-  | MTLQEAQ 
+| 1ao7 | E | albelig | 4 | 4 | E | 531 | 538 | E-31-  | E-38-  | YMSWYRQD 
+| 1ao7 | E | albelig | 5 | 5 | E | 542 | 551 | E-42-  | E-51-  | GLRLIHYSVG 
+| 1ao7 | E | albelig | 6 | 6 | E | 554 | 557 | E-54-  | E-57-  | ITDQ 
+| 1ao7 | E | albelig | 7 | 7 | E | 564 | 566 | E-65-  | E-67-  | YNV 
+| 1ao7 | E | albelig | 8 | 8 | E | 576 | 578 | E-77-  | E-79-  | LRL 
+| 1ao7 | E | albelig | 9 | 9 | H | 583 | 585 | E-84-  | E-86-  | PSQ 
+| 1ao7 | E | albelig | 10 | 10 | E | 587 | 594 | E-88-  | E-95-  | SVYFEASR 
+| 1ao7 | E | albelig | 11 | 11 | H | 596 | 598 | E-97-  | E-99-  | GLA 
+| 1ao7 | E | albelig | 12 | 12 | E | 610 | 615 | E-112-  | E-116-A | TRLTVT 
+| 1ao7 | E | albelig | 13 | 13 | E | 632 | 636 | E-146-  | E-150-  | VFLAT 
+| 1ao7 | E | albelig | 14 | 14 | E | 643 | 649 | E-157-  | E-163-  | VELSWWV 
+| 1ao7 | E | albelig | 15 | 15 | E | 652 | 654 | E-166-  | E-168-  | KEV 
+| 1ao7 | E | albelig | 16 | 16 | E | 658 | 660 | E-172-  | E-174-  | VST 
+| 1ao7 | E | albelig | 17 | 17 | E | 668 | 673 | E-191-  | E-196-  | ALSSRL 
+| 1ao7 | E | albelig | 18 | 18 | H | 677 | 680 | E-200-  | E-203-  | ATFW 
+| 1ao7 | E | albelig | 19 | 19 | E | 686 | 693 | E-209-  | E-216-  | HFRFQVQF 
+| 1ao7 | E | albelig | 20 | 20 | E | 703 | 710 | E-235-  | E-242-  | QIVSAEAW 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 10
+= 2 = p = 12
+= 3 = a = 8
+= 3 = p = 10
+= 4 = a = 5
+= 4 = a = 10
+= 5 = a = 6
+= 5 = p = 7
+= 7 = a = 8
+= 10 = a = 12
+= 13 = a = 17
+= 14 = a = 15
+= 14 = p = 17
+= 14 = a = 19
+= 16 = a = 17
+= 19 = a = 20
+# Listed 17 contacts. EOF.

@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aaz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT
+> pdb_mol_name > GLUTAREDOXIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 24-APR-92
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF OXIDIZED BACTERIOPHAGE T4 GLUTAREDOXIN(THIOREDOXIN)
+> format_version > 2
+> pdbid > 1aaz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aaz | B | albelig | 1 | 1 | E | 90 | 94 | B-2-  | B-6-  | FKVYG 
+| 1aaz | B | albelig | 2 | 2 | H | 103 | 114 | B-15-  | B-26-  | VYNDNAKRLLTV 
+| 1aaz | B | albelig | 3 | 3 | E | 119 | 123 | B-31-  | B-35-  | FEFIN 
+| 1aaz | B | albelig | 4 | 4 | H | 133 | 143 | B-45-  | B-55-  | DEKIAELLTKL 
+| 1aaz | B | albelig | 5 | 5 | E | 155 | 157 | B-67-  | B-69-  | QVF 
+| 1aaz | B | albelig | 6 | 6 | E | 163 | 165 | B-75-  | B-77-  | HIG 
+| 1aaz | B | albelig | 7 | 7 | H | 167 | 173 | B-79-  | B-85-  | FDQLREY 
+| 1aaz | B | albelig | 8 | 8 | L | 176 | 176 | B-188-  | B-188-  | J 
+| 1aaz | B | albelig | 9 | 9 | L | 177 | 177 | B-189-  | B-189-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = m = 4
+= 1 = a = 5
+= 2 = m = 7
+= 5 = a = 6
+= 6 = l = 8
+# Listed 6 contacts. EOF.

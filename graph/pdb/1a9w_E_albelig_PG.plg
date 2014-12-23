@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a9w, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN (BETA CHAIN)
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-APR-98
+> header > OXYGEN TRANSPORT
+> pdb_org_common > HUMAN
+> title > HUMAN EMBRYONIC GOWER II CARBONMONOXY HEMOGLOBIN
+> format_version > 2
+> pdbid > 1a9w
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a9w | E | albelig | 1 | 1 | H | 147 | 159 | E-5-  | E-17-  | AEEKAAVTSLWSK 
+| 1a9w | E | albelig | 2 | 2 | H | 164 | 176 | E-22-  | E-34-  | EAGGEALGRLLVV 
+| 1a9w | E | albelig | 3 | 3 | H | 178 | 182 | E-36-  | E-40-  | PWTQR 
+| 1a9w | E | albelig | 4 | 4 | H | 185 | 187 | E-43-  | E-45-  | DSF 
+| 1a9w | E | albelig | 5 | 5 | H | 193 | 198 | E-51-  | E-56-  | PSAILG 
+| 1a9w | E | albelig | 6 | 6 | H | 200 | 217 | E-58-  | E-75-  | PKVKAHGKKVLTSFGDAI 
+| 1a9w | E | albelig | 7 | 7 | H | 228 | 238 | E-86-  | E-96-  | AKLSELHCDKL 
+| 1a9w | E | albelig | 8 | 8 | H | 243 | 263 | E-101-  | E-121-  | ENFKLLGNVMVIILATHFGKE 
+| 1a9w | E | albelig | 9 | 9 | H | 266 | 283 | E-124-  | E-141-  | PEVQAAWQKLVSAVAIAL 
+| 1a9w | E | albelig | 10 | 10 | L | 578 | 578 | E-147-  | E-147-  | J 
+| 1a9w | E | albelig | 11 | 11 | L | 579 | 579 | E-148-  | E-148-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 6
+= 2 = m = 8
+= 2 = l = 10
+= 2 = l = 11
+= 3 = l = 10
+= 4 = l = 10
+= 6 = l = 10
+= 6 = l = 11
+= 7 = l = 10
+= 7 = l = 11
+= 8 = a = 9
+= 8 = l = 10
+= 8 = l = 11
+= 9 = l = 10
+= 10 = l = 11
+# Listed 16 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxp, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTIONAL ACTIVATOR, HELIX-WINGED-HELIX, SENSORYTRANSDUCTION, PHOSPHORYLATION, DNA BINDING, ACTIVATOR,TWO- COMPONENT SIGNAL TRANSDUCTION
+> pdb_mol_name > PHOSPHATE REGULON TRANSCRIPTIONAL REGULATORY
+> graphtype > albelig
+> resolution > 2.5
+> date > 08-APR-02
+> header > TRANSCRIPTIONAL ACTIVATOR
+> pdb_org_common > UNKNOWN
+> title > PHOB EFFECTOR DOMAIN IN COMPLEX WITH PHO BOX DNA.
+> format_version > 2
+> pdbid > 1gxp
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxp | F | albelig | 1 | 1 | E | 314 | 316 | F-132-  | F-134-  | IEM 
+| 1gxp | F | albelig | 2 | 2 | E | 319 | 322 | F-137-  | F-140-  | LSLD 
+| 1gxp | F | albelig | 3 | 3 | E | 327 | 330 | F-145-  | F-148-  | RVMA 
+| 1gxp | F | albelig | 4 | 4 | H | 339 | 348 | F-157-  | F-166-  | PTEFKLLHFF 
+| 1gxp | F | albelig | 5 | 5 | H | 358 | 366 | F-176-  | F-184-  | REQLLNHVW 
+| 1gxp | F | albelig | 6 | 6 | H | 376 | 391 | F-194-  | F-209-  | TVDVHIRRLRKALEPG 
+| 1gxp | F | albelig | 7 | 7 | H | 393 | 396 | F-211-  | F-214-  | HDRM 
+| 1gxp | F | albelig | 8 | 8 | E | 397 | 400 | F-215-  | F-218-  | VQTV 
+| 1gxp | F | albelig | 9 | 9 | E | 404 | 407 | F-222-  | F-225-  | GYRF 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 4 = m = 5
+= 4 = m = 6
+= 6 = m = 7
+= 6 = m = 8
+= 7 = m = 8
+= 7 = m = 9
+= 8 = a = 9
+# Listed 9 contacts. EOF.

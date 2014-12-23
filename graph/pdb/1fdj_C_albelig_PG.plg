@@ -1,0 +1,76 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fdj, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALDOLASE, LYASE (ALDEHYDE), SCHIFF BASE, GLYCOLYSIS
+> pdb_mol_name > FRUCTOSE 1,6-BISPHOSPHATE ALDOLASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 20-JUL-00
+> header > LYASE
+> pdb_org_common > RABBIT
+> title > FRUCTOSE 1,6-BISPHOSPHATE ALDOLASE FROM RABBIT LIVER
+> format_version > 2
+> pdbid > 1fdj
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ORYCTOLAGUS CUNICULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fdj | C | albelig | 1 | 1 | H | 737 | 754 | C-3009-  | C-3026-  | PEQKKELSDIAQRIVANG 
+| 1fdj | C | albelig | 2 | 2 | E | 756 | 760 | C-3028-  | C-3032-  | GILAA 
+| 1fdj | C | albelig | 3 | 3 | H | 764 | 773 | C-3036-  | C-3045-  | VGTMGNRLQR 
+| 1fdj | C | albelig | 4 | 4 | H | 780 | 791 | C-3052-  | C-3063-  | EENRRQFREILF 
+| 1fdj | C | albelig | 5 | 5 | H | 795 | 799 | C-3067-  | C-3071-  | NSINQ 
+| 1fdj | C | albelig | 6 | 6 | E | 801 | 806 | C-3073-  | C-3078-  | IGGVIL 
+| 1fdj | C | albelig | 7 | 7 | H | 810 | 812 | C-3082-  | C-3084-  | TLY 
+| 1fdj | C | albelig | 8 | 8 | H | 821 | 827 | C-3093-  | C-3099-  | FRNILKE 
+| 1fdj | C | albelig | 9 | 9 | E | 831 | 835 | C-3103-  | C-3107-  | VVGIK 
+| 1fdj | C | albelig | 10 | 10 | E | 840 | 842 | C-3112-  | C-3114-  | GAP 
+| 1fdj | C | albelig | 11 | 11 | E | 850 | 852 | C-3122-  | C-3124-  | TTI 
+| 1fdj | C | albelig | 12 | 12 | H | 858 | 867 | C-3130-  | C-3139-  | LSERCAQYKK 
+| 1fdj | C | albelig | 13 | 13 | E | 872 | 879 | C-3144-  | C-3151-  | FGKWRAVL 
+| 1fdj | C | albelig | 14 | 14 | H | 888 | 907 | C-3160-  | C-3179-  | SLAIQENANTLARYASICQQ 
+| 1fdj | C | albelig | 15 | 15 | E | 911 | 918 | C-3183-  | C-3190-  | VPIVEPEV 
+| 1fdj | C | albelig | 16 | 16 | H | 926 | 946 | C-3198-  | C-3218-  | LEHCQYVTEKVLAAVYKALND 
+| 1fdj | C | albelig | 17 | 17 | H | 951 | 953 | C-3223-  | C-3225-  | LEG 
+| 1fdj | C | albelig | 18 | 18 | H | 973 | 987 | C-3245-  | C-3259-  | PEQVAMATVTALHRT 
+| 1fdj | C | albelig | 19 | 19 | E | 994 | 997 | C-3266-  | C-3269-  | GICF 
+| 1fdj | C | albelig | 20 | 20 | H | 1004 | 1016 | C-3276-  | C-3288-  | EEDATLNLNAINL 
+| 1fdj | C | albelig | 21 | 21 | E | 1024 | 1029 | C-3296-  | C-3301-  | KLSFSY 
+| 1fdj | C | albelig | 22 | 22 | H | 1031 | 1041 | C-3303-  | C-3313-  | RALQASALAAW 
+| 1fdj | C | albelig | 23 | 23 | H | 1045 | 1065 | C-3317-  | C-3337-  | AENKKATQEAFMKRAVVNCQA 
+| 1fdj | C | albelig | 24 | 24 | L | 1462 | 1462 | C-7000-  | C-7000-  | J 
+| 1fdj | C | albelig | 25 | 25 | L | 1463 | 1463 | C-7001-  | C-7001-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 15
+= 2 = p = 6
+= 2 = p = 21
+= 2 = m = 22
+= 2 = l = 25
+= 3 = m = 22
+= 3 = l = 25
+= 4 = m = 8
+= 4 = m = 22
+= 4 = m = 23
+= 5 = m = 6
+= 6 = p = 9
+= 9 = p = 13
+= 10 = a = 11
+= 11 = a = 13
+= 11 = m = 14
+= 13 = a = 14
+= 13 = p = 15
+= 13 = l = 25
+= 14 = a = 15
+= 14 = p = 16
+= 16 = m = 18
+= 16 = l = 24
+= 18 = l = 24
+= 19 = p = 21
+= 20 = a = 21
+= 20 = p = 23
+= 21 = l = 25
+= 22 = a = 23
+= 22 = l = 25
+# Listed 30 contacts. EOF.

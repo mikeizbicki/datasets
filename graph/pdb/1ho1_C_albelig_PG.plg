@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ho1, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TIM BARREL, BIOSYNTHETIC PROTEIN
+> pdb_mol_name > PYRIDOXINE 5'-PHOSPHATE SYNTHASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-DEC-00
+> header > BIOSYNTHETIC PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PYRIDOXINE 5'-PHOSPHATE SYNTHASE
+> format_version > 2
+> pdbid > 1ho1
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ho1 | C | albelig | 1 | 1 | E | 478 | 482 | C-5-  | C-9-  | LLGVN 
+| 1ho1 | C | albelig | 2 | 2 | H | 484 | 491 | C-11-  | C-18-  | DHIATLRN 
+| 1ho1 | C | albelig | 3 | 3 | H | 500 | 508 | C-27-  | C-35-  | PVQAAFIAE 
+| 1ho1 | C | albelig | 4 | 4 | E | 514 | 518 | C-41-  | C-45-  | GITVH 
+| 1ho1 | C | albelig | 5 | 5 | H | 528 | 537 | C-55-  | C-64-  | DRDVRILRQT 
+| 1ho1 | C | albelig | 6 | 6 | E | 542 | 546 | C-69-  | C-73-  | MNLEM 
+| 1ho1 | C | albelig | 7 | 7 | H | 550 | 559 | C-77-  | C-86-  | EEMLAIAVET 
+| 1ho1 | C | albelig | 8 | 8 | E | 563 | 566 | C-90-  | C-93-  | FCCL 
+| 1ho1 | C | albelig | 9 | 9 | H | 586 | 598 | C-113-  | C-125-  | RDKMRDACKRLAD 
+| 1ho1 | C | albelig | 10 | 10 | E | 602 | 607 | C-129-  | C-134-  | QVSLFI 
+| 1ho1 | C | albelig | 11 | 11 | H | 611 | 619 | C-138-  | C-146-  | EEQIKAAAE 
+| 1ho1 | C | albelig | 12 | 12 | E | 624 | 627 | C-151-  | C-154-  | FIEI 
+| 1ho1 | C | albelig | 13 | 13 | H | 630 | 634 | C-157-  | C-161-  | GCYAD 
+| 1ho1 | C | albelig | 14 | 14 | H | 638 | 657 | C-165-  | C-184-  | DAEQAQELARIAKAATFAAS 
+| 1ho1 | C | albelig | 15 | 15 | E | 661 | 664 | C-188-  | C-191-  | KVNA 
+| 1ho1 | C | albelig | 16 | 16 | H | 673 | 677 | C-200-  | C-204-  | VKAIA 
+| 1ho1 | C | albelig | 17 | 17 | E | 682 | 687 | C-209-  | C-214-  | MHELNI 
+| 1ho1 | C | albelig | 18 | 18 | H | 689 | 698 | C-216-  | C-225-  | HAIIGRAVMT 
+| 1ho1 | C | albelig | 19 | 19 | H | 700 | 715 | C-227-  | C-242-  | LKDAVAEMKRLMLEAR 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 17
+= 3 = m = 5
+= 3 = m = 19
+= 4 = p = 6
+= 6 = p = 8
+= 8 = p = 10
+= 10 = p = 12
+= 12 = p = 15
+= 13 = m = 14
+= 15 = p = 17
+= 16 = m = 19
+= 18 = m = 19
+# Listed 13 contacts. EOF.

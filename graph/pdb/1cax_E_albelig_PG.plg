@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cax, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SEED STORAGE PROTEIN
+> pdb_mol_name > CANAVALIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 10-JUN-93
+> header > SEED STORAGE PROTEIN
+> pdb_org_common > JACK BEAN
+> title > DETERMINATION OF THREE CRYSTAL STRUCTURES OF CANAVALIN BYMOLECULAR REPLACEMENT
+> format_version > 2
+> pdbid > 1cax
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cax | E | albelig | 1 | 1 | E | 747 | 753 | E-56-  | E-62-  | FLTLFKN 
+| 1cax | E | albelig | 2 | 2 | E | 756 | 761 | E-65-  | E-70-  | GSLRLL 
+| 1cax | E | albelig | 3 | 3 | H | 769 | 776 | E-78-  | E-85-  | EKLENLRD 
+| 1cax | E | albelig | 4 | 4 | E | 777 | 784 | E-86-  | E-93-  | YRVLEYCS 
+| 1cax | E | albelig | 5 | 5 | E | 788 | 790 | E-97-  | E-99-  | TLL 
+| 1cax | E | albelig | 6 | 6 | E | 793 | 795 | E-102-  | E-104-  | HHS 
+| 1cax | E | albelig | 7 | 7 | E | 798 | 805 | E-107-  | E-114-  | DLLVLVLE 
+| 1cax | E | albelig | 8 | 8 | E | 808 | 813 | E-117-  | E-122-  | AILVLV 
+| 1cax | E | albelig | 9 | 9 | E | 818 | 823 | E-127-  | E-132-  | RDTYKL 
+| 1cax | E | albelig | 10 | 10 | E | 828 | 831 | E-137-  | E-140-  | AIKI 
+| 1cax | E | albelig | 11 | 11 | E | 836 | 840 | E-145-  | E-149-  | PFYLI 
+| 1cax | E | albelig | 12 | 12 | E | 848 | 855 | E-157-  | E-164-  | LRILKFAI 
+| 1cax | E | albelig | 13 | 13 | E | 865 | 867 | E-174-  | E-176-  | DFF 
+| 1cax | E | albelig | 14 | 14 | H | 877 | 879 | E-186-  | E-188-  | YLS 
+| 1cax | E | albelig | 15 | 15 | H | 883 | 890 | E-192-  | E-199-  | KNFLEASY 
+| 1cax | E | albelig | 16 | 16 | H | 894 | 897 | E-203-  | E-206-  | YDEI 
+| 1cax | E | albelig | 17 | 17 | E | 910 | 912 | E-219-  | E-221-  | IVK 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 3 = m = 4
+= 4 = a = 12
+= 5 = a = 11
+= 5 = a = 17
+= 6 = a = 11
+= 6 = a = 13
+= 7 = a = 10
+= 7 = a = 12
+= 8 = a = 9
+= 8 = a = 11
+= 15 = m = 16
+# Listed 13 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f8a, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PEPTIDYL-PROLINE ISOMERASE, WW DOMAIN, PHOSPHOSERINE BINDING,ISOMERASE
+> pdb_mol_name > PEPTIDYL-PROLYL CIS-TRANS ISOMERASE NIMA-INTERACTING 1
+> graphtype > albelig
+> resolution > 1.84
+> date > 29-JUN-00
+> header > ISOMERASE
+> pdb_org_common > HUMAN
+> title > STRUCTURAL BASIS FOR THE PHOSPHOSERINE-PROLINE RECOGNITION BY GROUP IVWW DOMAINS
+> format_version > 2
+> pdbid > 1f8a
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f8a | B | albelig | 1 | 1 | E | 15 | 19 | B-15-  | B-19-  | WEKRM 
+| 1f8a | B | albelig | 2 | 2 | E | 26 | 30 | B-26-  | B-30-  | VYYFN 
+| 1f8a | B | albelig | 3 | 3 | E | 48 | 55 | B-59-  | B-66-  | VRCSHLLV 
+| 1f8a | B | albelig | 4 | 4 | H | 75 | 90 | B-86-  | B-101-  | KEEALELINGYIQKIK 
+| 1f8a | B | albelig | 5 | 5 | H | 96 | 103 | B-107-  | B-114-  | FESLASQF 
+| 1f8a | B | albelig | 6 | 6 | H | 107 | 111 | B-118-  | B-122-  | SSAKA 
+| 1f8a | B | albelig | 7 | 7 | E | 114 | 118 | B-125-  | B-129-  | DLGAF 
+| 1f8a | B | albelig | 8 | 8 | H | 125 | 133 | B-136-  | B-144-  | KPFEDASFA 
+| 1f8a | B | albelig | 9 | 9 | E | 143 | 145 | B-154-  | B-156-  | VFT 
+| 1f8a | B | albelig | 10 | 10 | E | 148 | 154 | B-159-  | B-165-  | GIHIILR 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = m = 5
+= 3 = a = 7
+= 3 = a = 10
+= 4 = m = 10
+= 6 = m = 7
+= 7 = m = 8
+= 9 = a = 10
+# Listed 8 contacts. EOF.

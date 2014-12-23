@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iwp, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > B12, GLYCEROL DEHYDRATASE, KLEBSIELLA PNEUMONIAE, COBALAMIN, RADICALCATALYSIS, LYASE
+> pdb_mol_name > GLYCEROL DEHYDRATASE GAMMA SUBUNIT
+> graphtype > albelig
+> resolution > 2.1
+> date > 28-MAY-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > GLYCEROL DEHYDRATASE-CYANOCOBALAMIN COMPLEX OF KLEBSIELLA PNEUMONIAE
+> format_version > 2
+> pdbid > 1iwp
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA PNEUMONIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iwp | G | albelig | 1 | 1 | H | 746 | 748 | G-8-  | G-10-  | VQD 
+| 1iwp | G | albelig | 2 | 2 | H | 751 | 754 | G-13-  | G-16-  | LATR 
+| 1iwp | G | albelig | 3 | 3 | H | 756 | 758 | G-18-  | G-20-  | PEH 
+| 1iwp | G | albelig | 4 | 4 | H | 767 | 769 | G-29-  | G-31-  | LTD 
+| 1iwp | G | albelig | 5 | 5 | H | 772 | 777 | G-34-  | G-39-  | LEKVLS 
+| 1iwp | G | albelig | 6 | 6 | H | 782 | 784 | G-44-  | G-46-  | PQD 
+| 1iwp | G | albelig | 7 | 7 | H | 789 | 800 | G-51-  | G-62-  | RQTLEYQAQIAE 
+| 1iwp | G | albelig | 8 | 8 | H | 805 | 815 | G-67-  | G-77-  | HAVARNFRRAA 
+| 1iwp | G | albelig | 9 | 9 | H | 822 | 832 | G-84-  | G-94-  | DERILAIYNAL 
+| 1iwp | G | albelig | 10 | 10 | H | 839 | 852 | G-101-  | G-114-  | QAELLAIADELEHT 
+| 1iwp | G | albelig | 11 | 11 | H | 856 | 871 | G-118-  | G-133-  | TVNAAFVRESAEVYQQ 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 7 = a = 8
+= 10 = a = 11
+# Listed 3 contacts. EOF.

@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ezm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE
+> pdb_mol_name > PSEUDOMONAS ELASTASE
+> graphtype > albelig
+> resolution > 1.5
+> date > 13-JAN-92
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > THREE-DIMENSIONAL STRUCTURE OF THE ELASTASE OF PSEUDOMONASAERUGINOSA AT 1.5 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1ezm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ezm | A | albelig | 1 | 1 | E | 5 | 9 | A-5-  | A-9-  | GPGGN 
+| 1ezm | A | albelig | 2 | 2 | E | 13 | 17 | A-13-  | A-17-  | GKYTY 
+| 1ezm | A | albelig | 3 | 3 | E | 37 | 41 | A-37-  | A-41-  | VITVD 
+| 1ezm | A | albelig | 4 | 4 | H | 72 | 91 | A-72-  | A-91-  | PLNDAHFFGGVVFKLYRDWF 
+| 1ezm | A | albelig | 5 | 5 | E | 100 | 104 | A-100-  | A-104-  | LYMKV 
+| 1ezm | A | albelig | 6 | 6 | E | 113 | 115 | A-113-  | A-115-  | AYW 
+| 1ezm | A | albelig | 7 | 7 | E | 119 | 122 | A-119-  | A-122-  | AMLF 
+| 1ezm | A | albelig | 8 | 8 | H | 135 | 149 | A-135-  | A-149-  | LDVAAHEVSHGFTEQ 
+| 1ezm | A | albelig | 9 | 9 | H | 157 | 179 | A-157-  | A-179-  | GQSGGMNEAFSDMAGEAAEFYMR 
+| 1ezm | A | albelig | 10 | 10 | H | 203 | 206 | A-203-  | A-206-  | PSRD 
+| 1ezm | A | albelig | 11 | 11 | H | 213 | 215 | A-213-  | A-215-  | ASQ 
+| 1ezm | A | albelig | 12 | 12 | H | 222 | 225 | A-222-  | A-225-  | VHHS 
+| 1ezm | A | albelig | 13 | 13 | H | 227 | 237 | A-227-  | A-237-  | GVYNRAFYLLA 
+| 1ezm | A | albelig | 14 | 14 | H | 244 | 258 | A-244-  | A-258-  | TRKAFEVFVDANRYY 
+| 1ezm | A | albelig | 15 | 15 | H | 265 | 278 | A-265-  | A-278-  | YNSGANGVIRSAQN 
+| 1ezm | A | albelig | 16 | 16 | H | 283 | 292 | A-283-  | A-292-  | AADVTRAFST 
+| 1ezm | A | albelig | 17 | 17 | L | 299 | 299 | A-302-  | A-302-  | J 
+| 1ezm | A | albelig | 18 | 18 | L | 300 | 300 | A-400-  | A-400-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = m = 4
+= 3 = m = 4
+= 3 = p = 5
+= 4 = a = 5
+= 4 = p = 8
+= 4 = m = 9
+= 4 = m = 14
+= 5 = p = 7
+= 6 = a = 7
+= 8 = a = 9
+= 8 = l = 17
+= 8 = l = 18
+= 9 = m = 12
+= 9 = m = 13
+= 9 = a = 14
+= 9 = l = 17
+= 9 = l = 18
+= 12 = l = 17
+= 13 = m = 14
+= 13 = m = 15
+= 13 = m = 16
+= 14 = m = 15
+= 15 = a = 16
+# Listed 25 contacts. EOF.

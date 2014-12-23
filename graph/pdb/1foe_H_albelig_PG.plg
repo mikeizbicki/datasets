@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1foe, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DBL HOMOLOGY DOMAIN, PLECKSTRIN HOMOLOGY DOMAIN, GTPASE,GUANINE NUCLEOTIDE EXCHANGE FACTOR, SIGNALING PROTEIN,IMMUNE SYSTEM/SIGNALING PROTEIN COMPLEX
+> pdb_mol_name > RAS-RELATED C3 BOTULINUM TOXIN SUBSTRATE
+> graphtype > albelig
+> resolution > 2.8
+> date > 27-AUG-00
+> header > SIGNALING PROTEIN, IMMUNE SYSTEM/SIGNALI
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF RAC1 IN COMPLEX WITH THE GUANINENUCLEOTIDE EXCHANGE REGION OF TIAM1
+> format_version > 2
+> pdbid > 1foe
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1foe | H | albelig | 1 | 1 | E | 2009 | 2015 | H-3-  | H-9-  | AIKCVVV 
+| 1foe | H | albelig | 2 | 2 | H | 2022 | 2031 | H-16-  | H-25-  | KTCLLISYTT 
+| 1foe | H | albelig | 3 | 3 | E | 2046 | 2052 | H-40-  | H-46-  | YSANVMV 
+| 1foe | H | albelig | 4 | 4 | E | 2055 | 2062 | H-49-  | H-56-  | KPVNLGLW 
+| 1foe | H | albelig | 5 | 5 | H | 2074 | 2076 | H-68-  | H-70-  | RPL 
+| 1foe | H | albelig | 6 | 6 | E | 2083 | 2089 | H-77-  | H-83-  | VFLICFS 
+| 1foe | H | albelig | 7 | 7 | H | 2093 | 2103 | H-87-  | H-97-  | PASFENVRAKW 
+| 1foe | H | albelig | 8 | 8 | H | 2104 | 2110 | H-98-  | H-104-  | YPEVRHH 
+| 1foe | H | albelig | 9 | 9 | E | 2116 | 2121 | H-110-  | H-115-  | IILVGT 
+| 1foe | H | albelig | 10 | 10 | H | 2123 | 2125 | H-117-  | H-119-  | LDL 
+| 1foe | H | albelig | 11 | 11 | H | 2129 | 2137 | H-123-  | H-131-  | KDTIEKLKE 
+| 1foe | H | albelig | 12 | 12 | H | 2145 | 2154 | H-139-  | H-148-  | YPQGLAMAKE 
+| 1foe | H | albelig | 13 | 13 | E | 2159 | 2162 | H-153-  | H-156-  | KYLE 
+| 1foe | H | albelig | 14 | 14 | H | 2171 | 2182 | H-165-  | H-176-  | LKTVFDEAIRAV 
+| 1foe | H | albelig | 15 | 15 | L | 2211 | 2211 | H-4004-  | H-4004-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = m = 14
+= 2 = l = 15
+= 3 = a = 4
+= 3 = m = 14
+= 4 = m = 14
+= 6 = m = 7
+= 6 = p = 9
+= 7 = m = 8
+= 7 = m = 12
+= 9 = p = 13
+= 12 = m = 13
+= 13 = m = 14
+# Listed 14 contacts. EOF.

@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ceg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > D-AMINO ACID PEPTIDASE, PENICILLIN TARGET, HYDROLASE-TRANSPEPTIDASE
+> pdb_mol_name > D-ALANYL-D-ALANINE CARBOXYPEPTIDASE TRANSPEPTIDASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 12-JAN-95
+> header > HYDROLASE-TRANSPEPTIDASE
+> pdb_org_common > UNKNOWN
+> title > CEPHALOTHIN COMPLEXED WITH DD-PEPTIDASE
+> format_version > 2
+> pdbid > 1ceg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ceg | A | albelig | 1 | 1 | H | 8 | 20 | A-8-  | A-20-  | DTGLQAVLHTALS 
+| 1ceg | A | albelig | 2 | 2 | E | 25 | 32 | A-25-  | A-32-  | GAMVRVDD 
+| 1ceg | A | albelig | 3 | 3 | E | 35 | 42 | A-35-  | A-42-  | TIHQLSEG 
+| 1ceg | A | albelig | 4 | 4 | H | 61 | 77 | A-61-  | A-77-  | GSVTKSFSAVVLLQLVD 
+| 1ceg | A | albelig | 5 | 5 | H | 87 | 90 | A-87-  | A-90-  | VNTY 
+| 1ceg | A | albelig | 6 | 6 | H | 102 | 106 | A-102-  | A-106-  | VRQVM 
+| 1ceg | A | albelig | 7 | 7 | H | 116 | 119 | A-116-  | A-119-  | TNDM 
+| 1ceg | A | albelig | 8 | 8 | H | 123 | 130 | A-123-  | A-130-  | TVPGFESV 
+| 1ceg | A | albelig | 9 | 9 | H | 137 | 145 | A-137-  | A-145-  | YQDLITLSL 
+| 1ceg | A | albelig | 10 | 10 | H | 162 | 175 | A-162-  | A-175-  | TNFVVAGMLIEKLT 
+| 1ceg | A | albelig | 11 | 11 | H | 179 | 188 | A-179-  | A-188-  | VATEYQNRIF 
+| 1ceg | A | albelig | 12 | 12 | H | 189 | 191 | A-189-  | A-191-  | TPL 
+| 1ceg | A | albelig | 13 | 13 | H | 235 | 237 | A-235-  | A-237-  | QSA 
+| 1ceg | A | albelig | 14 | 14 | H | 244 | 255 | A-244-  | A-255-  | TQDLDTFFSALM 
+| 1ceg | A | albelig | 15 | 15 | H | 262 | 268 | A-262-  | A-268-  | AAQLAQM 
+| 1ceg | A | albelig | 16 | 16 | E | 272 | 275 | A-272-  | A-275-  | TTVN 
+| 1ceg | A | albelig | 17 | 17 | E | 278 | 280 | A-278-  | A-280-  | QGY 
+| 1ceg | A | albelig | 18 | 18 | E | 285 | 288 | A-285-  | A-288-  | RRRD 
+| 1ceg | A | albelig | 19 | 19 | E | 294 | 302 | A-294-  | A-302-  | SVYGHTGTV 
+| 1ceg | A | albelig | 20 | 20 | E | 305 | 311 | A-305-  | A-311-  | YYTYAFA 
+| 1ceg | A | albelig | 21 | 21 | E | 317 | 323 | A-317-  | A-323-  | RSVTALA 
+| 1ceg | A | albelig | 22 | 22 | H | 329 | 335 | A-329-  | A-335-  | VNVLNTM 
+| 1ceg | A | albelig | 23 | 23 | H | 337 | 344 | A-337-  | A-344-  | RTLESAFA 
+| 1ceg | A | albelig | 24 | 24 | L | 348 | 348 | A-400-  | A-400-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = m = 22
+= 1 = m = 23
+= 2 = a = 3
+= 2 = m = 14
+= 2 = a = 21
+= 4 = p = 10
+= 4 = m = 11
+= 4 = m = 13
+= 4 = m = 14
+= 4 = a = 15
+= 4 = m = 19
+= 4 = l = 24
+= 7 = l = 24
+= 9 = a = 10
+= 10 = m = 11
+= 11 = m = 12
+= 13 = l = 24
+= 14 = m = 21
+= 16 = a = 17
+= 17 = a = 18
+= 18 = a = 19
+= 18 = l = 24
+= 19 = a = 20
+= 19 = l = 24
+= 20 = a = 21
+= 21 = m = 22
+= 21 = m = 23
+= 22 = l = 24
+# Listed 30 contacts. EOF.

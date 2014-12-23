@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b24, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTRON-ENCODED, ENDONUCLEASE, HOMING, THERMOSTABLE
+> pdb_mol_name > PROTEIN (I-DMOI)
+> graphtype > albelig
+> resolution > 2.2
+> date > 03-DEC-98
+> header > INTRON-ENCODED
+> pdb_org_common > UNKNOWN
+> title > I-DMOI, INTRON-ENCODED ENDONUCLEASE
+> format_version > 2
+> pdbid > 1b24
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DESULFUROCOCCUS MOBILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b24 | A | albelig | 1 | 1 | H | 2 | 14 | A-8-  | A-20-  | SGISAYLLGLIIG 
+| 1b24 | A | albelig | 2 | 2 | E | 16 | 22 | A-22-  | A-28-  | GGLYKLK 
+| 1b24 | A | albelig | 3 | 3 | E | 28 | 36 | A-34-  | A-42-  | SEYRVVITQ 
+| 1b24 | A | albelig | 4 | 4 | H | 39 | 46 | A-45-  | A-52-  | ENLIKQHI 
+| 1b24 | A | albelig | 5 | 5 | H | 47 | 56 | A-53-  | A-62-  | APLXQFLIDE 
+| 1b24 | A | albelig | 6 | 6 | E | 64 | 67 | A-70-  | A-73-  | QIVK 
+| 1b24 | A | albelig | 7 | 7 | E | 72 | 77 | A-78-  | A-83-  | YELRVS 
+| 1b24 | A | albelig | 8 | 8 | H | 79 | 88 | A-85-  | A-94-  | KKLYYYFANX 
+| 1b24 | A | albelig | 9 | 9 | H | 92 | 94 | A-98-  | A-100-  | IRL 
+| 1b24 | A | albelig | 10 | 10 | H | 97 | 111 | A-103-  | A-117-  | XREQIAFIKGLYVAE 
+| 1b24 | A | albelig | 11 | 11 | E | 120 | 123 | A-126-  | A-129-  | RIWN 
+| 1b24 | A | albelig | 12 | 12 | H | 126 | 138 | A-132-  | A-144-  | KALLEIVSRWLNN 
+| 1b24 | A | albelig | 13 | 13 | E | 143 | 149 | A-149-  | A-155-  | NTIHLDD 
+| 1b24 | A | albelig | 14 | 14 | E | 154 | 159 | A-160-  | A-165-  | VYVLNI 
+| 1b24 | A | albelig | 15 | 15 | H | 161 | 171 | A-167-  | A-177-  | LRDRIKFVHTI 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 5
+= 1 = m = 8
+= 1 = p = 10
+= 2 = a = 3
+= 3 = a = 7
+= 3 = m = 8
+= 4 = m = 5
+= 6 = a = 7
+= 10 = m = 12
+= 11 = a = 14
+= 12 = m = 13
+= 12 = m = 14
+= 13 = a = 14
+# Listed 14 contacts. EOF.

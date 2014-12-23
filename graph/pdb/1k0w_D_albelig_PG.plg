@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k0w, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EPIMERASE, RIBULOSE, ALDOLASE, ISOMERASE
+> pdb_mol_name > L-RIBULOSE 5 PHOSPHATE 4-EPIMERASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 21-SEP-01
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF L-RIBULOSE-5-PHOSPHATE 4-EPIMERASE
+> format_version > 2
+> pdbid > 1k0w
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k0w | D | albelig | 1 | 1 | H | 675 | 690 | D-3-  | D-18-  | EDLKRQVLEANLALPK 
+| 1k0w | D | albelig | 2 | 2 | E | 700 | 705 | D-28-  | D-33-  | NVSAVD 
+| 1k0w | D | albelig | 3 | 3 | E | 710 | 713 | D-38-  | D-41-  | VFVI 
+| 1k0w | D | albelig | 4 | 4 | H | 725 | 727 | D-53-  | D-55-  | ADD 
+| 1k0w | D | albelig | 5 | 5 | E | 729 | 732 | D-57-  | D-60-  | VVVS 
+| 1k0w | D | albelig | 6 | 6 | E | 738 | 740 | D-66-  | D-68-  | VVE 
+| 1k0w | D | albelig | 7 | 7 | H | 749 | 758 | D-77-  | D-86-  | TPTHRLLYQA 
+| 1k0w | D | albelig | 8 | 8 | E | 764 | 767 | D-92-  | D-95-  | GIVH 
+| 1k0w | D | albelig | 9 | 9 | H | 771 | 779 | D-99-  | D-107-  | RHATIWAQA 
+| 1k0w | D | albelig | 10 | 10 | H | 788 | 791 | D-116-  | D-119-  | TTHA 
+| 1k0w | D | albelig | 11 | 11 | H | 806 | 810 | D-134-  | D-138-  | DAEIN 
+| 1k0w | D | albelig | 12 | 12 | H | 813 | 828 | D-141-  | D-156-  | YEWETGNVIVETFEKQ 
+| 1k0w | D | albelig | 13 | 13 | E | 837 | 840 | D-165-  | D-168-  | GVLV 
+| 1k0w | D | albelig | 14 | 14 | E | 844 | 849 | D-172-  | D-177-  | GPFAWG 
+| 1k0w | D | albelig | 15 | 15 | H | 852 | 875 | D-180-  | D-203-  | AEDAVHNAIVLEEVAYMGIFCRQL 
+| 1k0w | D | albelig | 16 | 16 | H | 884 | 893 | D-212-  | D-221-  | QTLLNKHYLR 
+| 1k0w | D | albelig | 17 | 17 | L | 1347 | 1347 | D-304-  | D-304-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = m = 7
+= 2 = a = 8
+= 3 = a = 5
+= 3 = m = 7
+= 5 = a = 6
+= 7 = m = 8
+= 7 = m = 12
+= 8 = a = 14
+= 8 = l = 17
+= 9 = m = 14
+= 9 = m = 15
+= 12 = m = 13
+= 13 = a = 14
+= 14 = a = 15
+# Listed 16 contacts. EOF.

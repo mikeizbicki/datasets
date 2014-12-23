@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bey, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY, FAB, CAMPATH-1H, CD52
+> pdb_mol_name > CAMPATH-1H ANTIBODY
+> graphtype > albelig
+> resolution > 3.25
+> date > 18-MAY-98
+> header > ANTIBODY
+> pdb_org_common > HUMAN
+> title > ANTIBODY TO CAMPATH-1H HUMANIZED FAB
+> format_version > 2
+> pdbid > 1bey
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bey | H | albelig | 1 | 1 | E | 218 | 220 | H-3-  | H-5-  | QLQ 
+| 1bey | H | albelig | 2 | 2 | E | 232 | 235 | H-17-  | H-20-  | TLSL 
+| 1bey | H | albelig | 3 | 3 | E | 238 | 240 | H-23-  | H-25-  | TVS 
+| 1bey | H | albelig | 4 | 4 | H | 244 | 246 | H-29-  | H-31-  | FTD 
+| 1bey | H | albelig | 5 | 5 | E | 248 | 254 | H-33-  | H-39-  | YMNWVRQ 
+| 1bey | H | albelig | 6 | 6 | E | 261 | 266 | H-46-  | H-51-  | EWIGFI 
+| 1bey | H | albelig | 7 | 7 | E | 275 | 277 | H-60-  | H-62-  | TEY 
+| 1bey | H | albelig | 8 | 8 | E | 298 | 301 | H-83-  | H-86-  | LRLS 
+| 1bey | H | albelig | 9 | 9 | E | 309 | 316 | H-94-  | H-101-  | AVYYCARE 
+| 1bey | H | albelig | 10 | 10 | E | 331 | 334 | H-116-  | H-119-  | LVTV 
+| 1bey | H | albelig | 11 | 11 | E | 343 | 347 | H-128-  | H-132-  | SVFPL 
+| 1bey | H | albelig | 12 | 12 | E | 354 | 360 | H-147-  | H-153-  | GDLVKDY 
+| 1bey | H | albelig | 13 | 13 | E | 366 | 369 | H-159-  | H-162-  | TVSW 
+| 1bey | H | albelig | 14 | 14 | E | 391 | 393 | H-184-  | H-186-  | YSL 
+| 1bey | H | albelig | 15 | 15 | E | 411 | 415 | H-204-  | H-208-  | DNVNH 
+| 1bey | H | albelig | 16 | 16 | E | 420 | 422 | H-213-  | H-215-  | TKV 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 8
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 7
+= 9 = p = 10
+= 11 = a = 12
+= 12 = a = 14
+= 12 = p = 15
+= 13 = a = 15
+= 15 = a = 16
+# Listed 11 contacts. EOF.

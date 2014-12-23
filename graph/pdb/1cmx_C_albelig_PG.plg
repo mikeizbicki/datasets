@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cmx, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUITIN HYDROLASE, UBIQUITIN, DEUBIQUITINATING ENZYME,CYSTEINE PROTEASE, ENZYME SPECIFICITY
+> pdb_mol_name > PROTEIN (UBIQUITIN YUH1-UBAL)
+> graphtype > albelig
+> resolution > 2.25
+> date > 12-MAY-99
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL BASIS FOR THE SPECIFICITY OF UBIQUITIN C-TERMINAL HYDROLASES
+> format_version > 2
+> pdbid > 1cmx
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cmx | C | albelig | 1 | 1 | H | 302 | 312 | C-415-  | C-425-  | PEVFTNFAHKL 
+| 1cmx | C | albelig | 2 | 2 | E | 318 | 323 | C-431-  | C-436-  | WAYFDI 
+| 1cmx | C | albelig | 3 | 3 | H | 330 | 332 | C-443-  | C-445-  | ELL 
+| 1cmx | C | albelig | 4 | 4 | E | 341 | 346 | C-454-  | C-459-  | AIVLLF 
+| 1cmx | C | albelig | 5 | 5 | H | 360 | 370 | C-490-  | C-500-  | CGLYAILHSLS 
+| 1cmx | C | albelig | 6 | 6 | H | 373 | 375 | C-503-  | C-505-  | QSL 
+| 1cmx | C | albelig | 7 | 7 | H | 381 | 391 | C-511-  | C-521-  | DLDNFLKSQSD 
+| 1cmx | C | albelig | 8 | 8 | H | 402 | 414 | C-532-  | C-544-  | VTTDQFVLNVIKE 
+| 1cmx | C | albelig | 9 | 9 | H | 416 | 420 | C-546-  | C-550-  | VQTFS 
+| 1cmx | C | albelig | 10 | 10 | E | 436 | 443 | C-566-  | C-573-  | HYITYVEE 
+| 1cmx | C | albelig | 11 | 11 | E | 446 | 450 | C-576-  | C-580-  | GIFEL 
+| 1cmx | C | albelig | 12 | 12 | E | 459 | 463 | C-589-  | C-593-  | LYLGK 
+| 1cmx | C | albelig | 13 | 13 | H | 471 | 473 | C-601-  | C-603-  | LIE 
+| 1cmx | C | albelig | 14 | 14 | H | 475 | 490 | C-605-  | C-620-  | ELVRVRVASYMENANE 
+| 1cmx | C | albelig | 15 | 15 | E | 497 | 503 | C-627-  | C-633-  | AMLGLGP 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 15
+= 4 = a = 10
+= 4 = a = 15
+= 5 = m = 10
+= 7 = m = 8
+= 10 = a = 11
+= 10 = m = 14
+= 11 = a = 12
+= 12 = m = 14
+# Listed 10 contacts. EOF.

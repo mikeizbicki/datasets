@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ha7, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOTOSYNTHESIS, CYANOBACTERIA, LIGHT-HARVESTING PROTEIN,PIGMENT PROTEIN, PHYCOCYANOBILIN, CHROMOPHORE
+> pdb_mol_name > C-PHYCOCYANIN ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 29-MAR-01
+> header > PHOTOSYNTHESIS
+> pdb_org_common > CYANOBACTERIUM, BLUE-GREEN ALGA
+> title > STRUCTURE OF A LIGHT-HARVESTING PHYCOBILIPROTEIN,C-PHYCOCYANIN FROM SPIRULINA PLATENSIS AT 2.2A RESOLUTION
+> format_version > 2
+> pdbid > 1ha7
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > SPIRULINA PLATENSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ha7 | M | albelig | 1 | 1 | H | 2020 | 2030 | M-4-  | M-14-  | PLTEAVSIADS 
+| 1ha7 | M | albelig | 2 | 2 | H | 2037 | 2062 | M-21-  | M-46-  | STEIQVAFGRFRQAKAGLEAAKALTS 
+| 1ha7 | M | albelig | 3 | 3 | H | 2064 | 2078 | M-48-  | M-62-  | ADSLISGAAQAVYNK 
+| 1ha7 | M | albelig | 4 | 4 | H | 2080 | 2083 | M-64-  | M-67-  | PYTT 
+| 1ha7 | M | albelig | 5 | 5 | H | 2094 | 2117 | M-78-  | M-101-  | QRGKDKCARDIGYYLRMVTYCLIA 
+| 1ha7 | M | albelig | 6 | 6 | H | 2121 | 2128 | M-105-  | M-112-  | GPMDEYLI 
+| 1ha7 | M | albelig | 7 | 7 | H | 2131 | 2137 | M-115-  | M-121-  | IDEINRT 
+| 1ha7 | M | albelig | 8 | 8 | H | 2142 | 2155 | M-126-  | M-139-  | PSWYIEALKYIKAN 
+| 1ha7 | M | albelig | 9 | 9 | H | 2160 | 2176 | M-156-  | M-172-  | GDAATEANSYLDYAINA 
+| 1ha7 | M | albelig | 10 | 10 | L | 4062 | 4062 | M-184-  | M-184-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 5
+= 3 = a = 5
+= 3 = a = 8
+= 3 = l = 10
+= 4 = l = 10
+= 5 = a = 6
+= 5 = m = 9
+= 5 = l = 10
+= 6 = l = 10
+= 7 = l = 10
+= 8 = m = 9
+= 8 = l = 10
+# Listed 12 contacts. EOF.

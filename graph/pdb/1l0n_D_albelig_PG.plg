@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0n, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME BC1, MEMBRANE PROTEIN, HEME PROTEIN, IRON SULFUR PROTEIN,CYTOCHROME B, CYTOCHROME C1, MITOCHONDRIAL PROCESSING PROTEASE, MPP,OXIDOREDUCTASE
+> pdb_mol_name > CYTOCHROME C1, HEME PROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 11-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > CATTLE
+> title > NATIVE STRUCTURE OF BOVINE MITOCHONDRIAL CYTOCHROME BC1 COMPLEX
+> format_version > 2
+> pdbid > 1l0n
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0n | D | albelig | 1 | 1 | H | 1272 | 1286 | D-23-  | D-37-  | HTSIRRGFQVYKQVC 
+| 1l0n | D | albelig | 2 | 2 | H | 1300 | 1303 | D-51-  | D-54-  | LVGV 
+| 1l0n | D | albelig | 3 | 3 | H | 1307 | 1316 | D-58-  | D-67-  | EDEAKALAEE 
+| 1l0n | D | albelig | 4 | 4 | E | 1318 | 1323 | D-69-  | D-74-  | EVQDGP 
+| 1l0n | D | albelig | 5 | 5 | E | 1329 | 1333 | D-80-  | D-84-  | MFMRP 
+| 1l0n | D | albelig | 6 | 6 | H | 1348 | 1352 | D-99-  | D-103-  | EAARA 
+| 1l0n | D | albelig | 7 | 7 | H | 1373 | 1380 | D-124-  | D-131-  | EDYVFSLL 
+| 1l0n | D | albelig | 8 | 8 | H | 1428 | 1443 | D-179-  | D-194-  | MSQVAKDVCTFLRWAA 
+| 1l0n | D | albelig | 9 | 9 | H | 1447 | 1480 | D-198-  | D-231-  | HDHRKRMGLKMLLMMGLLLPLVYAMKRHKWSVLK 
+| 1l0n | D | albelig | 10 | 10 | E | 1483 | 1486 | D-234-  | D-237-  | KLAY 
+| 1l0n | D | albelig | 11 | 11 | L | 2110 | 2110 | D-242-  | D-242-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 1 = l = 11
+= 4 = a = 5
+= 7 = a = 8
+= 7 = l = 11
+= 8 = l = 11
+# Listed 6 contacts. EOF.

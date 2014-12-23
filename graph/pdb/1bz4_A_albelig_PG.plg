@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bz4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPID TRANSPORT, HEPARIN-BINDING, PLASMA PROTEIN, HDL, VLDL,LIPID BINDING PROTEIN
+> pdb_mol_name > PROTEIN (APOLIPOPROTEIN E)
+> graphtype > albelig
+> resolution > 1.85
+> date > 05-NOV-98
+> header > LIPID BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > APOLIPOPROTEIN E3 (APO-E3), TRUNCATION MUTANT 165
+> format_version > 2
+> pdbid > 1bz4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bz4 | A | albelig | 1 | 1 | H | 4 | 21 | A-25-  | A-42-  | RWELALGRFWDYLRWVQT 
+| 1bz4 | A | albelig | 2 | 2 | H | 24 | 31 | A-45-  | A-52-  | EQVQEELL 
+| 1bz4 | A | albelig | 3 | 3 | H | 34 | 57 | A-55-  | A-78-  | QVTQELRALMDETMKELKAYKSEL 
+| 1bz4 | A | albelig | 4 | 4 | H | 66 | 103 | A-87-  | A-124-  | EETRARLSKELQAAQARLGADMEDVCGRLVQYRGEVQA 
+| 1bz4 | A | albelig | 5 | 5 | H | 110 | 140 | A-131-  | A-161-  | EELRVRLASHLRKLRKRLLRDADDLQKRLAV 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 5
+= 3 = a = 4
+= 4 = a = 5
+# Listed 4 contacts. EOF.

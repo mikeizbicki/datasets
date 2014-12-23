@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kmi, chain Y.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR-HELIX BUNDLE, SIGNALING PROTEIN
+> pdb_mol_name > CHEMOTAXIS PROTEIN CHEY
+> graphtype > albelig
+> resolution > 2.9
+> date > 16-DEC-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN E.COLI CHEMOTAXIS PROTEIN, CHEZ
+> format_version > 2
+> pdbid > 1kmi
+> experiment > X-RAY DIFFRACTION
+> chainid > Y
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kmi | Y | albelig | 1 | 1 | E | 7 | 10 | Y-8-  | Y-11-  | FLVV 
+| 1kmi | Y | albelig | 2 | 2 | H | 14 | 26 | Y-15-  | Y-27-  | STMRRIVRNLLKE 
+| 1kmi | Y | albelig | 3 | 3 | E | 32 | 35 | Y-33-  | Y-36-  | VEEA 
+| 1kmi | Y | albelig | 4 | 4 | H | 38 | 47 | Y-39-  | Y-48-  | GVDALNKLQA 
+| 1kmi | Y | albelig | 5 | 5 | E | 52 | 55 | Y-53-  | Y-56-  | FVIS 
+| 1kmi | Y | albelig | 6 | 6 | H | 64 | 73 | Y-65-  | Y-74-  | GLELLKTIRA 
+| 1kmi | Y | albelig | 7 | 7 | E | 82 | 86 | Y-83-  | Y-87-  | VLMVT 
+| 1kmi | Y | albelig | 8 | 8 | H | 91 | 99 | Y-92-  | Y-100-  | KENIIAAAQ 
+| 1kmi | Y | albelig | 9 | 9 | E | 104 | 107 | Y-105-  | Y-108-  | GYVV 
+| 1kmi | Y | albelig | 10 | 10 | H | 112 | 125 | Y-113-  | Y-126-  | AATLEEKLNKIFEK 
+| 1kmi | Y | albelig | 11 | 11 | L | 308 | 308 | Y-301-  | Y-301-  | J 
+| 1kmi | Y | albelig | 12 | 12 | L | 309 | 309 | Y-201-  | Y-201-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 5 = p = 7
+= 7 = p = 9
+= 7 = l = 12
+= 11 = l = 12
+# Listed 7 contacts. EOF.

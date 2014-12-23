@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ktl, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HLA-E, MHC, NON-CLASSICAL MHC, HLA, BETA 2 MICROGLOBULIN,IMMUNE SYSTEM
+> pdb_mol_name > HLA CLASS I HISTOCOMPATIBILITY ANTIGEN, ALPHA
+> graphtype > albelig
+> resolution > 3.1
+> date > 16-JAN-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > THE HUMAN NON-CLASSICAL MAJOR HISTOCOMPATIBILITY COMPLEXMOLECULE HLA-E
+> format_version > 2
+> pdbid > 1ktl
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ktl | C | albelig | 1 | 1 | E | 380 | 388 | C-4-  | C-12-  | SLKYFHTSV 
+| 1ktl | C | albelig | 2 | 2 | E | 397 | 404 | C-21-  | C-28-  | RFISVGYV 
+| 1ktl | C | albelig | 3 | 3 | E | 407 | 413 | C-31-  | C-37-  | TQFVRFD 
+| 1ktl | C | albelig | 4 | 4 | E | 421 | 423 | C-45-  | C-47-  | MVP 
+| 1ktl | C | albelig | 5 | 5 | H | 426 | 428 | C-50-  | C-52-  | PWM 
+| 1ktl | C | albelig | 6 | 6 | H | 433 | 460 | C-57-  | C-84-  | SEYWDRETRSARDTAQIFRVNLRTLRGY 
+| 1ktl | C | albelig | 7 | 7 | E | 470 | 479 | C-94-  | C-103-  | TLQWMHGDEL 
+| 1ktl | C | albelig | 8 | 8 | E | 485 | 494 | C-109-  | C-118-  | FLRGYEQFAY 
+| 1ktl | C | albelig | 9 | 9 | E | 497 | 502 | C-121-  | C-126-  | KDYLTL 
+| 1ktl | C | albelig | 10 | 10 | E | 509 | 511 | C-133-  | C-135-  | WTA 
+| 1ktl | C | albelig | 11 | 11 | H | 515 | 526 | C-139-  | C-150-  | AAQISEQKSNDA 
+| 1ktl | C | albelig | 12 | 12 | H | 528 | 537 | C-152-  | C-161-  | EAEHQRAYLE 
+| 1ktl | C | albelig | 13 | 13 | H | 539 | 550 | C-163-  | C-174-  | TDVEWLHKYLEK 
+| 1ktl | C | albelig | 14 | 14 | H | 552 | 555 | C-176-  | C-179-  | KETL 
+| 1ktl | C | albelig | 15 | 15 | E | 562 | 569 | C-186-  | C-193-  | KTHVTHHP 
+| 1ktl | C | albelig | 16 | 16 | E | 574 | 584 | C-198-  | C-208-  | EATLREWALGF 
+| 1ktl | C | albelig | 17 | 17 | E | 590 | 595 | C-214-  | C-219-  | TLTWQQ 
+| 1ktl | C | albelig | 18 | 18 | E | 617 | 626 | C-241-  | C-250-  | FQKWAAVVVP 
+| 1ktl | C | albelig | 19 | 19 | H | 629 | 631 | C-253-  | C-255-  | EEQ 
+| 1ktl | C | albelig | 20 | 20 | E | 633 | 638 | C-257-  | C-262-  | YTEHVQ 
+| 1ktl | C | albelig | 21 | 21 | E | 646 | 649 | C-270-  | C-273-  | VTLR 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 1 = m = 13
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 6
+= 7 = a = 8
+= 7 = m = 13
+= 8 = a = 9
+= 8 = m = 12
+= 9 = a = 10
+= 9 = m = 11
+= 10 = m = 11
+= 15 = a = 16
+= 15 = a = 21
+= 16 = a = 17
+= 16 = a = 18
+= 17 = p = 18
+= 17 = a = 20
+= 18 = m = 19
+= 19 = m = 20
+= 20 = a = 21
+# Listed 22 contacts. EOF.

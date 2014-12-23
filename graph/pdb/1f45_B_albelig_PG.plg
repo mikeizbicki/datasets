@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f45, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTERLEUKIN, CYTOKINE, CYTOKINE-CYTOKINE COMPLEX
+> pdb_mol_name > INTERLEUKIN-12 ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 07-JUN-00
+> header > CYTOKINE/CYTOKINE
+> pdb_org_common > HUMAN
+> title > HUMAN INTERLEUKIN-12
+> format_version > 2
+> pdbid > 1f45
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f45 | B | albelig | 1 | 1 | H | 289 | 307 | B-21-  | B-39-  | NLLRAVSNMLQKARQTLEF 
+| 1f45 | B | albelig | 2 | 2 | H | 313 | 316 | B-59-  | B-62-  | TVEA 
+| 1f45 | B | albelig | 3 | 3 | H | 320 | 324 | B-66-  | B-70-  | LELTK 
+| 1f45 | B | albelig | 4 | 4 | H | 340 | 367 | B-96-  | B-123-  | FMMALGLSSIYEDLKMYQVEFKTMNAKL 
+| 1f45 | B | albelig | 5 | 5 | H | 377 | 391 | B-133-  | B-147-  | LDQNMLAVIDELMQA 
+| 1f45 | B | albelig | 6 | 6 | H | 395 | 422 | B-168-  | B-195-  | KTKIKLFILLHAFRIRAVTIDRVMSYLN 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 6
+= 4 = a = 5
+= 4 = a = 6
+= 5 = p = 6
+# Listed 5 contacts. EOF.

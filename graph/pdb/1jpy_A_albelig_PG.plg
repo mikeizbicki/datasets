@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jpy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYSTINE-KNOT, CYTOKINE, T-CELL DERIVED, DIMER, IMMUNE SYSTEM
+> pdb_mol_name > INTERLEUKIN 17F
+> graphtype > albelig
+> resolution > 2.85
+> date > 03-AUG-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF IL-17F
+> format_version > 2
+> pdbid > 1jpy
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jpy | A | albelig | 1 | 1 | H | 2 | 4 | A-9-  | A-11-  | TFF 
+| 1jpy | A | albelig | 2 | 2 | E | 17 | 25 | A-24-  | A-32-  | SMKLDIGII 
+| 1jpy | A | albelig | 3 | 3 | H | 37 | 40 | A-44-  | A-47-  | IESR 
+| 1jpy | A | albelig | 4 | 4 | E | 45 | 51 | A-52-  | A-58-  | WNYTVTW 
+| 1jpy | A | albelig | 5 | 5 | E | 59 | 65 | A-66-  | A-72-  | EVVQAQN 
+| 1jpy | A | albelig | 6 | 6 | E | 82 | 96 | A-89-  | A-103-  | NSVPIQQETLVVRRK 
+| 1jpy | A | albelig | 7 | 7 | H | 99 | 101 | A-106-  | A-108-  | GDS 
+| 1jpy | A | albelig | 8 | 8 | E | 103 | 118 | A-110-  | A-125-  | SFQLEKVLVTVGNTCV 
+| 1jpy | A | albelig | 9 | 9 | L | 485 | 485 | A-241-  | A-241-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = a = 5
+= 4 = a = 8
+= 4 = l = 9
+= 5 = a = 6
+= 5 = p = 8
+= 6 = a = 8
+# Listed 6 contacts. EOF.

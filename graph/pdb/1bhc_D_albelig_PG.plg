@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bhc, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEASE INHIBITOR, TRYPSIN
+> pdb_mol_name > BOVINE PANCREATIC TRYPSIN INHIBITOR
+> graphtype > albelig
+> resolution > 2.7
+> date > 05-JUN-98
+> header > PROTEASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > BOVINE PANCREATIC TRYPSIN INHIBITOR CRYSTALLIZED FROMTHIOCYANATE
+> format_version > 2
+> pdbid > 1bhc
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bhc | D | albelig | 1 | 1 | H | 174 | 177 | D-3-  | D-6-  | DFJL 
+| 1bhc | D | albelig | 2 | 2 | E | 189 | 195 | D-18-  | D-24-  | IIRYFYN 
+| 1bhc | D | albelig | 3 | 3 | E | 200 | 206 | D-29-  | D-35-  | LLQTFVY 
+| 1bhc | D | albelig | 4 | 4 | H | 219 | 226 | D-48-  | D-55-  | AEDLMRTJ 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 4
+# Listed 2 contacts. EOF.

@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fr0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR-HELIX BUNDLE MOTIF,ANAEROBIC SENSOR KINASE,,TRANSFERASE
+> pdb_mol_name > ARCB
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-SEP-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE HISTIDINE-CONTAININGPHOSPHOTRANSFER DOMAIN OF ANAEROBIC SENSOR KINASE ARCBFROM ESCHERICHIA COLI.
+> format_version > 2
+> pdbid > 1fr0
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fr0 | A | albelig | 1 | 1 | H | 14 | 23 | A-667-  | A-676-  | IPMLEQYLEL 
+| 1fr0 | A | albelig | 2 | 2 | H | 26 | 53 | A-679-  | A-706-  | PKLITDGLAVFEKMMPGYVSVLESNLTA 
+| 1fr0 | A | albelig | 3 | 3 | H | 56 | 72 | A-709-  | A-725-  | KKGIVEEGHKIKGAAGS 
+| 1fr0 | A | albelig | 4 | 4 | H | 76 | 85 | A-729-  | A-738-  | RHLQQLGQQI 
+| 1fr0 | A | albelig | 5 | 5 | H | 93 | 122 | A-746-  | A-775-  | WEDNVGEWIEEMKEEWRHDVEVLKAWVAKA 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 2 = a = 3
+= 2 = a = 5
+= 3 = a = 4
+= 4 = a = 5
+# Listed 5 contacts. EOF.

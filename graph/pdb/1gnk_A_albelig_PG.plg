@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gnk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNALING PROTEIN
+> pdb_mol_name > PROTEIN (GLNK)
+> graphtype > albelig
+> resolution > 2.0
+> date > 14-JUL-98
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > GLNK, A SIGNAL PROTEIN FROM E. COLI
+> format_version > 2
+> pdbid > 1gnk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gnk | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | KLVTVII 
+| 1gnk | A | albelig | 2 | 2 | H | 10 | 22 | A-10-  | A-22-  | PFKLEDVREALSS 
+| 1gnk | A | albelig | 3 | 3 | E | 29 | 37 | A-29-  | A-37-  | TVTEVKGFG 
+| 1gnk | A | albelig | 4 | 4 | E | 41 | 52 | A-54-  | A-65-  | NFLPKVKIDVAI 
+| 1gnk | A | albelig | 5 | 5 | H | 54 | 68 | A-67-  | A-81-  | DDQLDEVIDIVSKAA 
+| 1gnk | A | albelig | 6 | 6 | E | 77 | 82 | A-90-  | A-95-  | KIFVAE 
+| 1gnk | A | albelig | 7 | 7 | H | 95 | 97 | A-108-  | A-110-  | DEA 
+| 1gnk | A | albelig | 8 | 8 | L | 213 | 213 | A-135-  | A-135-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 2 = m = 5
+= 3 = a = 4
+= 6 = l = 8
+# Listed 5 contacts. EOF.

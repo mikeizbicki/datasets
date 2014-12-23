@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kip, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN V REGION, SIGNAL, HYDROLASE, GLYCOSIDASE,BACTERIOLYTIC ENZYME, EGG WHITE, COMPLEX(IMMUNOGLOBULIN/HYDROLASE)
+> pdb_mol_name > LYSOZYME
+> graphtype > albelig
+> resolution > 2.1
+> date > 23-OCT-96
+> header > COMPLEX (IMMUNOGLOBULIN/HYDROLASE)
+> pdb_org_common > CHICKEN
+> title > FV MUTANT Y(B 32)A (VH DOMAIN) OF MOUSE MONOCLONAL ANTIBODYD1.3 COMPLEXED WITH HEN EGG WHITE LYSOZYME
+> format_version > 2
+> pdbid > 1kip
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kip | C | albelig | 1 | 1 | H | 230 | 239 | C-5-  | C-14-  | RCELAAAMKR 
+| 1kip | C | albelig | 2 | 2 | H | 250 | 261 | C-25-  | C-36-  | LGNWVDAAKFES 
+| 1kip | C | albelig | 3 | 3 | E | 268 | 270 | C-43-  | C-45-  | TNR 
+| 1kip | C | albelig | 4 | 4 | E | 276 | 278 | C-51-  | C-53-  | TDY 
+| 1kip | C | albelig | 5 | 5 | H | 307 | 309 | C-82-  | C-84-  | ALL 
+| 1kip | C | albelig | 6 | 6 | H | 314 | 323 | C-89-  | C-98-  | TASVNFAKKI 
+| 1kip | C | albelig | 7 | 7 | H | 329 | 332 | C-104-  | C-107-  | GMNA 
+| 1kip | C | albelig | 8 | 8 | H | 336 | 340 | C-111-  | C-115-  | WRNRD 
+| 1kip | C | albelig | 9 | 9 | H | 345 | 348 | C-120-  | C-123-  | VQAW 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = m = 8
+= 2 = m = 9
+= 3 = a = 4
+# Listed 4 contacts. EOF.

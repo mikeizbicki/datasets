@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hsk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PEPTIDOGLYCAN SYNTHESIS, CELL WALL, CELL DIVISION,OXIDOREDUCTASE, NADP, FLAVOPROTEIN, FAD
+> pdb_mol_name > UDP-N-ACETYLENOLPYRUVOYLGLUCOSAMINE REDUCTASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-DEC-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF S. AUREUS MURB
+> format_version > 2
+> pdbid > 1hsk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hsk | A | albelig | 1 | 1 | H | 2 | 11 | A-16-  | A-25-  | KDIYQALQQL 
+| 1hsk | A | albelig | 2 | 2 | H | 14 | 16 | A-28-  | A-30-  | NEK 
+| 1hsk | A | albelig | 3 | 3 | E | 17 | 22 | A-31-  | A-36-  | IKVDEP 
+| 1hsk | A | albelig | 4 | 4 | H | 23 | 25 | A-37-  | A-39-  | LKR 
+| 1hsk | A | albelig | 5 | 5 | E | 34 | 39 | A-48-  | A-53-  | NADFYI 
+| 1hsk | A | albelig | 6 | 6 | H | 44 | 56 | A-58-  | A-70-  | NEEVQAVVKYAYQ 
+| 1hsk | A | albelig | 7 | 7 | E | 61 | 64 | A-75-  | A-78-  | VTYL 
+| 1hsk | A | albelig | 8 | 8 | E | 70 | 72 | A-84-  | A-86-  | III 
+| 1hsk | A | albelig | 9 | 9 | E | 77 | 83 | A-91-  | A-97-  | IRGIVIS 
+| 1hsk | A | albelig | 10 | 10 | E | 90 | 93 | A-104-  | A-107-  | IEVS 
+| 1hsk | A | albelig | 11 | 11 | E | 96 | 100 | A-110-  | A-114-  | AIIAG 
+| 1hsk | A | albelig | 12 | 12 | H | 105 | 114 | A-119-  | A-128-  | IIDVSRVARD 
+| 1hsk | A | albelig | 13 | 13 | H | 121 | 123 | A-135-  | A-137-  | EFA 
+| 1hsk | A | albelig | 14 | 14 | H | 130 | 136 | A-144-  | A-150-  | IGGAVYM 
+| 1hsk | A | albelig | 15 | 15 | H | 145 | 148 | A-159-  | A-162-  | VKDC 
+| 1hsk | A | albelig | 16 | 16 | E | 149 | 155 | A-163-  | A-169-  | IDYALCV 
+| 1hsk | A | albelig | 17 | 17 | E | 161 | 165 | A-175-  | A-179-  | LIKLT 
+| 1hsk | A | albelig | 18 | 18 | H | 177 | 180 | A-191-  | A-194-  | IIQK 
+| 1hsk | A | albelig | 19 | 19 | E | 184 | 191 | A-198-  | A-205-  | VVLEAAFT 
+| 1hsk | A | albelig | 20 | 20 | H | 197 | 214 | A-211-  | A-228-  | MTEIQAKMDDLTERRESK 
+| 1hsk | A | albelig | 21 | 21 | H | 234 | 240 | A-248-  | A-254-  | AGKLIQD 
+| 1hsk | A | albelig | 22 | 22 | E | 251 | 253 | A-265-  | A-267-  | VEV 
+| 1hsk | A | albelig | 23 | 23 | E | 261 | 263 | A-275-  | A-277-  | MVN 
+| 1hsk | A | albelig | 24 | 24 | H | 269 | 287 | A-283-  | A-301-  | ATDYENLIHYVQKTVKEKF 
+| 1hsk | A | albelig | 25 | 25 | E | 296 | 298 | A-310-  | A-312-  | RII 
+| 1hsk | A | albelig | 26 | 26 | L | 304 | 304 | A-401-  | A-401-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 2 = m = 3
+= 2 = m = 5
+= 3 = m = 4
+= 3 = a = 5
+= 5 = p = 9
+= 7 = p = 9
+= 7 = l = 26
+= 8 = p = 25
+= 8 = l = 26
+= 10 = a = 11
+= 11 = a = 19
+= 13 = m = 20
+= 14 = m = 18
+= 14 = l = 26
+= 15 = m = 16
+= 15 = m = 19
+= 16 = a = 17
+= 16 = a = 19
+= 18 = l = 26
+= 19 = l = 26
+= 20 = l = 26
+= 22 = a = 23
+= 22 = m = 24
+= 25 = l = 26
+# Listed 25 contacts. EOF.

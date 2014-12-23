@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j3y, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TERTIARY STRUCTURE CHANGES, CRYSTAL PHOTOLYSIS, RIKENSTRUCTURAL GENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURALGENOMICS, OXYGEN STORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN ALPHA CHAIN
+> graphtype > albelig
+> resolution > 1.55
+> date > 21-FEB-03
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > HUMAN
+> title > DIRECT OBSERVATION OF PHOTOLYSIS-INDUCED TERTIARYSTRUCTURAL CHANGES IN HUMAN HEMOGLOBIN; CRYSTAL STRUCTUREOF ALPHA(FE)-BETA(NI) HEMOGLOBIN (LASER PHOTOLYSED)
+> format_version > 2
+> pdbid > 1j3y
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j3y | E | albelig | 1 | 1 | H | 582 | 598 | E-4-  | E-20-  | PADKTNVKAAWGKVGAH 
+| 1j3y | E | albelig | 2 | 2 | H | 599 | 613 | E-21-  | E-35-  | AGEYGAEALERMFLS 
+| 1j3y | E | albelig | 3 | 3 | H | 615 | 620 | E-37-  | E-42-  | PTTKTY 
+| 1j3y | E | albelig | 4 | 4 | H | 631 | 649 | E-53-  | E-71-  | AQVKGHGKKVADALTNAVA 
+| 1j3y | E | albelig | 5 | 5 | H | 651 | 657 | E-73-  | E-79-  | VDDMPNA 
+| 1j3y | E | albelig | 6 | 6 | H | 659 | 669 | E-81-  | E-91-  | SALSDLHAHKL 
+| 1j3y | E | albelig | 7 | 7 | H | 675 | 690 | E-97-  | E-112-  | NFKLLSHCLLVTLAAH 
+| 1j3y | E | albelig | 8 | 8 | H | 697 | 714 | E-119-  | E-136-  | PAVHASLDKFLASVSTVL 
+| 1j3y | E | albelig | 9 | 9 | L | 1163 | 1163 | E-142-  | E-142-  | J 
+| 1j3y | E | albelig | 10 | 10 | L | 1164 | 1164 | E-5143-  | E-5143-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 8
+= 2 = m = 3
+= 2 = a = 7
+= 2 = l = 9
+= 2 = l = 10
+= 3 = l = 9
+= 4 = l = 9
+= 4 = l = 10
+= 6 = m = 8
+= 6 = l = 9
+= 7 = a = 8
+= 7 = l = 9
+= 7 = l = 10
+= 8 = l = 9
+= 9 = l = 10
+# Listed 16 contacts. EOF.

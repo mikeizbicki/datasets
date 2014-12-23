@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kjn, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYPOTETHICAL PROTEIN, STRUCTURAL GENOMICS, PSI, PROTEINSTRUCTURE INITIATIVE, MIDWEST CENTER FOR STRUCTURALGENOMICS, MCSG, UNKNOWN FUNCTION
+> pdb_mol_name > MTH0777
+> graphtype > albelig
+> resolution > 2.2
+> date > 04-DEC-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF MT0777
+> format_version > 2
+> pdbid > 1kjn
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kjn | B | albelig | 1 | 1 | E | 155 | 160 | B-7-  | B-12-  | GKALXV 
+| 1kjn | B | albelig | 2 | 2 | H | 169 | 181 | B-21-  | B-33-  | QIPLAIYTSHKLK 
+| 1kjn | B | albelig | 3 | 3 | E | 185 | 191 | B-37-  | B-43-  | FRVTVTA 
+| 1kjn | B | albelig | 4 | 4 | H | 193 | 202 | B-45-  | B-54-  | PAALRLVQVA 
+| 1kjn | B | albelig | 5 | 5 | E | 211 | 214 | B-63-  | B-66-  | EXVD 
+| 1kjn | B | albelig | 6 | 6 | H | 215 | 221 | B-67-  | B-73-  | LESCINE 
+| 1kjn | B | albelig | 7 | 7 | E | 229 | 234 | B-81-  | B-86-  | FLAGFV 
+| 1kjn | B | albelig | 8 | 8 | H | 237 | 250 | B-89-  | B-102-  | DAAAAYLVTFAGIL 
+| 1kjn | B | albelig | 9 | 9 | E | 253 | 259 | B-105-  | B-111-  | ETLAIIF 
+| 1kjn | B | albelig | 10 | 10 | H | 263 | 276 | B-115-  | B-128-  | ADVLEELVNEIXET 
+| 1kjn | B | albelig | 11 | 11 | E | 280 | 284 | B-132-  | B-136-  | EIIAA 
+| 1kjn | B | albelig | 12 | 12 | H | 291 | 303 | B-143-  | B-155-  | APLRVRIDRFXEE 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = m = 3
+= 2 = m = 4
+= 2 = p = 12
+= 3 = p = 5
+= 3 = m = 6
+= 5 = m = 6
+= 6 = m = 8
+= 7 = a = 8
+= 7 = p = 9
+= 9 = p = 11
+= 11 = a = 12
+# Listed 13 contacts. EOF.

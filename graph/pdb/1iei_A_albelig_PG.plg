@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iei, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, NADP, OXIDOREDUCTASE
+> pdb_mol_name > ALDOSE REDUCTASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 09-APR-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN ALDOSE REDUCTASE COMPLEXED WITHTHE INHIBITOR ZENARESTAT.
+> format_version > 2
+> pdbid > 1iei
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iei | A | albelig | 1 | 1 | E | 3 | 5 | A-3-  | A-5-  | RLL 
+| 1iei | A | albelig | 2 | 2 | E | 11 | 13 | A-11-  | A-13-  | KMP 
+| 1iei | A | albelig | 3 | 3 | E | 16 | 18 | A-16-  | A-18-  | GLG 
+| 1iei | A | albelig | 4 | 4 | H | 27 | 37 | A-27-  | A-37-  | VTEAVKVAIDV 
+| 1iei | A | albelig | 5 | 5 | E | 41 | 43 | A-41-  | A-43-  | HID 
+| 1iei | A | albelig | 6 | 6 | H | 51 | 64 | A-51-  | A-64-  | ENEVGVAIQEKLRE 
+| 1iei | A | albelig | 7 | 7 | H | 69 | 71 | A-69-  | A-71-  | REE 
+| 1iei | A | albelig | 8 | 8 | E | 73 | 78 | A-73-  | A-78-  | FIVSKL 
+| 1iei | A | albelig | 9 | 9 | H | 80 | 82 | A-80-  | A-82-  | CTY 
+| 1iei | A | albelig | 10 | 10 | H | 85 | 99 | A-85-  | A-99-  | KGLVKGACQKTLSDL 
+| 1iei | A | albelig | 11 | 11 | E | 106 | 109 | A-106-  | A-109-  | LYLI 
+| 1iei | A | albelig | 12 | 12 | H | 138 | 141 | A-138-  | A-141-  | LDTW 
+| 1iei | A | albelig | 13 | 13 | H | 143 | 149 | A-143-  | A-149-  | AMEELVD 
+| 1iei | A | albelig | 14 | 14 | E | 156 | 159 | A-156-  | A-159-  | IGIS 
+| 1iei | A | albelig | 15 | 15 | H | 163 | 169 | A-163-  | A-169-  | HLQVEMI 
+| 1iei | A | albelig | 16 | 16 | E | 181 | 185 | A-181-  | A-185-  | VNQIE 
+| 1iei | A | albelig | 17 | 17 | H | 193 | 196 | A-193-  | A-196-  | EKLI 
+| 1iei | A | albelig | 18 | 18 | E | 205 | 209 | A-205-  | A-209-  | VVTAY 
+| 1iei | A | albelig | 19 | 19 | H | 227 | 229 | A-227-  | A-229-  | LLE 
+| 1iei | A | albelig | 20 | 20 | H | 231 | 239 | A-231-  | A-239-  | PRIKAIAAK 
+| 1iei | A | albelig | 21 | 21 | H | 244 | 253 | A-244-  | A-253-  | TAQVLIRFPM 
+| 1iei | A | albelig | 22 | 22 | H | 266 | 272 | A-266-  | A-272-  | PERIAEN 
+| 1iei | A | albelig | 23 | 23 | H | 282 | 290 | A-282-  | A-290-  | SQDMTTLLS 
+| 1iei | A | albelig | 24 | 24 | L | 316 | 316 | A-350-  | A-350-  | J 
+| 1iei | A | albelig | 25 | 25 | L | 317 | 317 | A-351-  | A-351-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 8
+= 3 = p = 5
+= 3 = l = 24
+= 4 = p = 6
+= 5 = p = 8
+= 5 = l = 24
+= 8 = p = 11
+= 8 = l = 24
+= 8 = l = 25
+= 9 = l = 25
+= 11 = p = 14
+= 14 = p = 16
+= 14 = l = 24
+= 16 = p = 18
+= 16 = l = 24
+= 18 = l = 24
+= 18 = l = 25
+= 19 = l = 24
+= 20 = m = 21
+= 21 = l = 24
+= 22 = l = 24
+= 24 = l = 25
+# Listed 23 contacts. EOF.

@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hgx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, GLYCOSYLTRANSFERASE, PURINE SALVAGE,TRANSFERASE (GLYCOSYLTRANSFERASE)
+> pdb_mol_name > HYPOXANTHINE-GUANINE-XANTHINE
+> graphtype > albelig
+> resolution > 1.9
+> date > 12-MAR-96
+> header > TRANSFERASE (GLYCOSYLTRANSFERASE)
+> pdb_org_common > UNKNOWN
+> title > HYPOXANTHINE-GUANINE-XANTHINE PHOSPHORIBOSYLTRANSFERASE(HGXPRTASE)
+> format_version > 2
+> pdbid > 1hgx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TRITRICHOMONAS FOETUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hgx | A | albelig | 1 | 1 | E | 4 | 9 | A-10-  | A-15-  | LERVLY 
+| 1hgx | A | albelig | 2 | 2 | H | 11 | 29 | A-17-  | A-35-  | QDDIQKRIRELAAELTEFY 
+| 1hgx | A | albelig | 3 | 3 | E | 35 | 39 | A-41-  | A-45-  | VMICV 
+| 1hgx | A | albelig | 4 | 4 | H | 44 | 51 | A-50-  | A-57-  | VFFYTDLL 
+| 1hgx | A | albelig | 5 | 5 | E | 59 | 66 | A-65-  | A-72-  | EPDYIICS 
+| 1hgx | A | albelig | 6 | 6 | E | 70 | 73 | A-84-  | A-87-  | TISK 
+| 1hgx | A | albelig | 7 | 7 | E | 83 | 91 | A-97-  | A-105-  | HVLVVEDII 
+| 1hgx | A | albelig | 8 | 8 | H | 95 | 105 | A-109-  | A-119-  | LTMYQLLNNLQ 
+| 1hgx | A | albelig | 9 | 9 | E | 111 | 120 | A-125-  | A-134-  | SLKVCTLCDK 
+| 1hgx | A | albelig | 10 | 10 | E | 133 | 138 | A-147-  | A-152-  | YCGFVV 
+| 1hgx | A | albelig | 11 | 11 | E | 160 | 163 | A-174-  | A-177-  | IGIL 
+| 1hgx | A | albelig | 12 | 12 | L | 332 | 332 | A-600-  | A-600-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 2 = m = 4
+= 2 = a = 10
+= 3 = m = 4
+= 3 = p = 5
+= 3 = p = 7
+= 5 = a = 6
+= 7 = p = 9
+= 7 = l = 12
+= 8 = l = 12
+= 9 = p = 10
+= 9 = l = 12
+# Listed 12 contacts. EOF.

@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fyh, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE-RECEPTOR COMPLEX, FIBRONECTIN TYPE-III, IMMUNESYSTEM
+> pdb_mol_name > INTERFERON-GAMMA RECEPTOR ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.04
+> date > 29-SEP-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > 1:1 COMPLEX BETWEEN AN INTERFERON GAMMA SINGLE-CHAINVARIANT AND ITS RECEPTOR
+> format_version > 2
+> pdbid > 1fyh
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fyh | B | albelig | 1 | 1 | E | 249 | 254 | B-16-  | B-21-  | TNVTIE 
+| 1fyh | B | albelig | 2 | 2 | E | 261 | 265 | B-28-  | B-32-  | IVYWE 
+| 1fyh | B | albelig | 3 | 3 | E | 274 | 281 | B-41-  | B-48-  | VFTVEVKN 
+| 1fyh | B | albelig | 4 | 4 | E | 290 | 296 | B-57-  | B-63-  | IDACINI 
+| 1fyh | B | albelig | 5 | 5 | E | 300 | 302 | B-67-  | B-69-  | YCN 
+| 1fyh | B | albelig | 6 | 6 | H | 304 | 306 | B-71-  | B-73-  | SDH 
+| 1fyh | B | albelig | 7 | 7 | E | 314 | 322 | B-81-  | B-89-  | LWVRVKARV 
+| 1fyh | B | albelig | 8 | 8 | H | 337 | 340 | B-104-  | B-107-  | VARD 
+| 1fyh | B | albelig | 9 | 9 | E | 347 | 352 | B-114-  | B-119-  | KLDIRK 
+| 1fyh | B | albelig | 10 | 10 | E | 356 | 362 | B-123-  | B-129-  | QIMIDIF 
+| 1fyh | B | albelig | 11 | 11 | H | 365 | 367 | B-132-  | B-134-  | SVF 
+| 1fyh | B | albelig | 12 | 12 | E | 375 | 384 | B-152-  | B-161-  | IRVYNVYVRM 
+| 1fyh | B | albelig | 13 | 13 | E | 387 | 394 | B-164-  | B-171-  | SEIQYKIL 
+| 1fyh | B | albelig | 14 | 14 | E | 405 | 411 | B-182-  | B-188-  | QNQLAIP 
+| 1fyh | B | albelig | 15 | 15 | E | 418 | 427 | B-195-  | B-204-  | QYCVSAEGVL 
+| 1fyh | B | albelig | 16 | 16 | E | 440 | 443 | B-217-  | B-220-  | VCIT 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 7
+= 4 = a = 5
+= 9 = a = 10
+= 9 = p = 16
+= 10 = a = 14
+= 12 = a = 13
+= 12 = a = 15
+= 15 = a = 16
+# Listed 11 contacts. EOF.

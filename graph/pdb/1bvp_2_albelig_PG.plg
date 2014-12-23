@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvp, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS, VP7, TRIMER, VIRAL PROTEIN
+> pdb_mol_name > BLUETONGUE VIRUS COAT PROTEIN VP7
+> graphtype > albelig
+> resolution > 2.6
+> date > 17-FEB-95
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF BLUETONGUE VIRUS VP7
+> format_version > 2
+> pdbid > 1bvp
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > BLUETONGUE VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvp | 2 | albelig | 1 | 1 | H | 352 | 365 | 2-2-  | 2-15-  | DTIAARALTVMRAC 
+| 1bvp | 2 | albelig | 2 | 2 | H | 377 | 394 | 2-27-  | 2-44-  | ANVMEILGIAINRYNGLT 
+| 1bvp | 2 | albelig | 3 | 3 | H | 405 | 423 | 2-55-  | 2-73-  | LAQRNEMFFMCLDMMLSAA 
+| 1bvp | 2 | albelig | 4 | 4 | H | 440 | 444 | 2-90-  | 2-94-  | TIGVL 
+| 1bvp | 2 | albelig | 5 | 5 | H | 453 | 466 | 2-103-  | 2-116-  | TEAANEIARVTGET 
+| 1bvp | 2 | albelig | 6 | 6 | E | 484 | 486 | 2-134-  | 2-136-  | ETF 
+| 1bvp | 2 | albelig | 7 | 7 | E | 499 | 505 | 2-149-  | 2-155-  | VTAVVCG 
+| 1bvp | 2 | albelig | 8 | 8 | E | 508 | 513 | 2-158-  | 2-163-  | MIQVSL 
+| 1bvp | 2 | albelig | 9 | 9 | E | 518 | 520 | 2-168-  | 2-170-  | RGD 
+| 1bvp | 2 | albelig | 10 | 10 | H | 522 | 524 | 2-172-  | 2-174-  | QQI 
+| 1bvp | 2 | albelig | 11 | 11 | E | 533 | 545 | 2-183-  | 2-195-  | MIYLVWRRIENFA 
+| 1bvp | 2 | albelig | 12 | 12 | E | 551 | 553 | 2-201-  | 2-203-  | SQQ 
+| 1bvp | 2 | albelig | 13 | 13 | E | 559 | 562 | 2-209-  | 2-212-  | TVSV 
+| 1bvp | 2 | albelig | 14 | 14 | E | 565 | 567 | 2-215-  | 2-217-  | VDM 
+| 1bvp | 2 | albelig | 15 | 15 | E | 573 | 575 | 2-223-  | 2-225-  | IAW 
+| 1bvp | 2 | albelig | 16 | 16 | E | 581 | 584 | 2-231-  | 2-234-  | LHVH 
+| 1bvp | 2 | albelig | 17 | 17 | E | 591 | 602 | 2-241-  | 2-252-  | AMVQIQVVFYIS 
+| 1bvp | 2 | albelig | 18 | 18 | H | 613 | 621 | 2-263-  | 2-271-  | LTAEIFNVY 
+| 1bvp | 2 | albelig | 19 | 19 | H | 626 | 636 | 2-276-  | 2-286-  | HTWHGLRTAIL 
+| 1bvp | 2 | albelig | 20 | 20 | H | 654 | 673 | 2-304-  | 2-323-  | RDSILTLLLLSTLADVYTVL 
+| 1bvp | 2 | albelig | 21 | 21 | H | 691 | 696 | 2-341-  | 2-346-  | RAIARA 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 5
+= 1 = p = 20
+= 2 = m = 4
+= 3 = m = 4
+= 3 = a = 20
+= 5 = a = 20
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 17
+= 9 = a = 16
+= 11 = a = 12
+= 11 = a = 15
+= 11 = a = 17
+= 13 = a = 14
+= 13 = a = 16
+= 18 = p = 20
+= 19 = m = 20
+# Listed 18 contacts. EOF.

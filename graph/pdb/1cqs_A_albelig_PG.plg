@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cqs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KSI, EQUILENIN, PUTIDA LBHB, ISOMERASE
+> pdb_mol_name > PROTEIN : KETOSTEROID ISOMERASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 11-AUG-99
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF D103E MUTANT WITH EQUILENINEOF KSI INPSEUDOMONAS PUTIDA
+> format_version > 2
+> pdbid > 1cqs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS PUTIDA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cqs | A | albelig | 1 | 1 | H | 5 | 21 | A-6-  | A-22-  | AQEVQGLMARYIELVDV 
+| 1cqs | A | albelig | 2 | 2 | H | 24 | 28 | A-25-  | A-29-  | IEAIV 
+| 1cqs | A | albelig | 3 | 3 | E | 31 | 38 | A-32-  | A-39-  | YADDATVE 
+| 1cqs | A | albelig | 4 | 4 | H | 48 | 60 | A-49-  | A-61-  | GREQIAAFYRQGL 
+| 1cqs | A | albelig | 5 | 5 | E | 65 | 68 | A-67-  | A-70-  | RACL 
+| 1cqs | A | albelig | 6 | 6 | E | 79 | 90 | A-81-  | A-92-  | CGAMPFRVEMVW 
+| 1cqs | A | albelig | 7 | 7 | E | 93 | 105 | A-95-  | A-107-  | QPCALDVIEVMRF 
+| 1cqs | A | albelig | 8 | 8 | E | 111 | 117 | A-113-  | A-119-  | IQTMQAY 
+| 1cqs | A | albelig | 9 | 9 | H | 120 | 122 | A-122-  | A-124-  | EVN 
+| 1cqs | A | albelig | 10 | 10 | L | 252 | 252 | A-801-  | A-801-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = p = 6
+= 1 = m = 7
+= 1 = l = 10
+= 2 = m = 3
+= 2 = m = 4
+= 3 = m = 4
+= 3 = p = 8
+= 4 = l = 10
+= 5 = a = 6
+= 6 = a = 7
+= 6 = l = 10
+= 7 = a = 8
+= 7 = m = 9
+= 7 = l = 10
+= 8 = l = 10
+# Listed 16 contacts. EOF.

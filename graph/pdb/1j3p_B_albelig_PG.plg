@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j3p, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOGLUCOSE ISOMERASE, CUPIN SUPERFAMILY, IRON ION,ARCHAEA
+> pdb_mol_name > PHOSPHOGLUCOSE ISOMERASE
+> graphtype > albelig
+> resolution > 2.02
+> date > 11-FEB-03
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THERMOCOCCUS LITORALIS PHOSPHOGLUCOSEISOMERASE
+> format_version > 2
+> pdbid > 1j3p
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > THERMOCOCCUS LITORALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j3p | B | albelig | 1 | 1 | E | 193 | 196 | B-7-  | B-10-  | FGVK 
+| 1j3p | B | albelig | 2 | 2 | E | 208 | 213 | B-22-  | B-27-  | KKSVRR 
+| 1j3p | B | albelig | 3 | 3 | H | 214 | 217 | B-28-  | B-31-  | LSDM 
+| 1j3p | B | albelig | 4 | 4 | H | 224 | 232 | B-38-  | B-46-  | EEAWKKMVE 
+| 1j3p | B | albelig | 5 | 5 | E | 237 | 244 | B-51-  | B-58-  | VVYEVYAI 
+| 1j3p | B | albelig | 6 | 6 | E | 253 | 260 | B-67-  | B-74-  | LNFATTVL 
+| 1j3p | B | albelig | 7 | 7 | E | 284 | 290 | B-98-  | B-104-  | EVYFALK 
+| 1j3p | B | albelig | 8 | 8 | E | 293 | 298 | B-107-  | B-112-  | GGMLLQ 
+| 1j3p | B | albelig | 9 | 9 | E | 304 | 309 | B-118-  | B-123-  | ARFIEM 
+| 1j3p | B | albelig | 10 | 10 | E | 313 | 317 | B-127-  | B-131-  | TIVYV 
+| 1j3p | B | albelig | 11 | 11 | E | 322 | 327 | B-136-  | B-141-  | AHRTIN 
+| 1j3p | B | albelig | 12 | 12 | E | 333 | 340 | B-147-  | B-154-  | FIFLALYP 
+| 1j3p | B | albelig | 13 | 13 | H | 348 | 352 | B-162-  | B-166-  | GTIAE 
+| 1j3p | B | albelig | 14 | 14 | E | 357 | 361 | B-171-  | B-175-  | KIVVE 
+| 1j3p | B | albelig | 15 | 15 | E | 365 | 369 | B-179-  | B-183-  | KVVVK 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 5
+= 5 = a = 6
+= 6 = a = 11
+= 6 = a = 12
+= 7 = a = 10
+= 7 = a = 12
+= 8 = a = 9
+= 8 = a = 11
+= 11 = a = 12
+= 14 = a = 15
+# Listed 11 contacts. EOF.

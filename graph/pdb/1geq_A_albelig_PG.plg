@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1geq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRYPTOPHAN SYNTHASE ALPHA-SUBUNIT, HYPERTHERMOPHILE, PYROCOCCUSFURIOSUS, X-RAY ANALYSIS, STABILITY, CALORIMETRY, LYASE
+> pdb_mol_name > TRYPTOPHAN SYNTHASE ALPHA-SUBUNIT
+> graphtype > albelig
+> resolution > 2.0
+> date > 21-NOV-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > ENTROPIC STABILIZATION OF THE TRYPTOPHAN SYNTHASE A-SUBUNIT FROM AHYPERTHERMOPHILE, PYROCOCCUS FURIOSUS: X-RAY ANALYSIS AND CALORIMETRY
+> format_version > 2
+> pdbid > 1geq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS FURIOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1geq | A | albelig | 1 | 1 | E | 6 | 12 | A-6-  | A-12-  | SLIPYLT 
+| 1geq | A | albelig | 2 | 2 | H | 18 | 31 | A-18-  | A-31-  | KQSTLNFLLALDEY 
+| 1geq | A | albelig | 3 | 3 | E | 35 | 38 | A-35-  | A-38-  | IELG 
+| 1geq | A | albelig | 4 | 4 | H | 49 | 60 | A-49-  | A-60-  | KTIQESHYRALK 
+| 1geq | A | albelig | 5 | 5 | H | 65 | 76 | A-65-  | A-76-  | LREAFWIVKEFR 
+| 1geq | A | albelig | 6 | 6 | E | 83 | 87 | A-83-  | A-87-  | IVLMT 
+| 1geq | A | albelig | 7 | 7 | H | 89 | 95 | A-89-  | A-95-  | YNPIYRA 
+| 1geq | A | albelig | 8 | 8 | H | 97 | 107 | A-97-  | A-107-  | VRNFLAEAKAS 
+| 1geq | A | albelig | 9 | 9 | E | 111 | 114 | A-111-  | A-114-  | GILV 
+| 1geq | A | albelig | 10 | 10 | H | 119 | 132 | A-119-  | A-132-  | VFHAKEFTEIAREE 
+| 1geq | A | albelig | 11 | 11 | E | 135 | 140 | A-135-  | A-140-  | KTVFLA 
+| 1geq | A | albelig | 12 | 12 | H | 146 | 155 | A-146-  | A-155-  | DERLKVIDDM 
+| 1geq | A | albelig | 13 | 13 | E | 159 | 163 | A-159-  | A-163-  | FVYLV 
+| 1geq | A | albelig | 14 | 14 | H | 171 | 183 | A-177-  | A-189-  | KTAYDLLRRAKRI 
+| 1geq | A | albelig | 15 | 15 | E | 188 | 191 | A-194-  | A-197-  | VAVG 
+| 1geq | A | albelig | 16 | 16 | H | 197 | 205 | A-203-  | A-211-  | REHVVSLLK 
+| 1geq | A | albelig | 17 | 17 | E | 210 | 213 | A-216-  | A-219-  | GVVV 
+| 1geq | A | albelig | 18 | 18 | H | 215 | 227 | A-221-  | A-233-  | SALVKIIGEKGRE 
+| 1geq | A | albelig | 19 | 19 | H | 229 | 240 | A-235-  | A-246-  | TEFLKKKVEELL 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 17
+= 2 = p = 5
+= 2 = p = 19
+= 3 = p = 6
+= 5 = p = 8
+= 6 = p = 9
+= 8 = m = 10
+= 9 = p = 11
+= 11 = a = 12
+= 11 = p = 13
+= 12 = m = 14
+= 13 = m = 14
+= 13 = p = 15
+= 15 = p = 17
+= 16 = m = 19
+= 18 = a = 19
+# Listed 17 contacts. EOF.

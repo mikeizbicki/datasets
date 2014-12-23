@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1azr, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSFER(CUPROPROTEIN)
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 04-MAR-93
+> header > ELECTRON TRANSFER(CUPROPROTEIN)
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PSEUDOMONAS AERUGINOSA ZINC AZURINMUTANT ASP47ASP AT 2.4 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1azr
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1azr | D | albelig | 1 | 1 | E | 391 | 395 | D-4-  | D-8-  | SVDIQ 
+| 1azr | D | albelig | 2 | 2 | E | 406 | 409 | D-19-  | D-22-  | AITV 
+| 1azr | D | albelig | 3 | 3 | E | 415 | 421 | D-28-  | D-34-  | QFTVNLS 
+| 1azr | D | albelig | 4 | 4 | H | 428 | 431 | D-41-  | D-44-  | KNVM 
+| 1azr | D | albelig | 5 | 5 | E | 436 | 439 | D-49-  | D-52-  | VLST 
+| 1azr | D | albelig | 6 | 6 | H | 443 | 453 | D-56-  | D-66-  | MQGVVTDGMAS 
+| 1azr | D | albelig | 7 | 7 | H | 455 | 457 | D-68-  | D-70-  | LDK 
+| 1azr | D | albelig | 8 | 8 | E | 479 | 485 | D-92-  | D-98-  | KDSVTFD 
+| 1azr | D | albelig | 9 | 9 | H | 486 | 488 | D-99-  | D-101-  | VSK 
+| 1azr | D | albelig | 10 | 10 | E | 495 | 498 | D-108-  | D-111-  | YMFF 
+| 1azr | D | albelig | 11 | 11 | H | 504 | 506 | D-117-  | D-119-  | HSA 
+| 1azr | D | albelig | 12 | 12 | E | 509 | 514 | D-122-  | D-127-  | KGTLTL 
+| 1azr | D | albelig | 13 | 13 | L | 520 | 520 | D-129-  | D-129-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 12
+= 3 = a = 8
+= 4 = l = 13
+= 5 = a = 10
+= 6 = m = 10
+= 8 = m = 9
+= 10 = a = 12
+= 11 = l = 13
+# Listed 9 contacts. EOF.

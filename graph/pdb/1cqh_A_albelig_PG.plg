@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cqh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX, ELECTRON TRANSPORT/PEPTIDE, COMPLEX (ELECTRONTRANSPORT/PEPTIDE) COMPLEX
+> pdb_mol_name > THIOREDOXIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-APR-96
+> header > COMPLEX (ELECTRON TRANSPORT/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > HIGH RESOLUTION SOLUTION NMR STRUCTURE OF MIXED DISULFIDEINTERMEDIATE BETWEEN HUMAN THIOREDOXIN (C35A, C62A, C69A,C73A) MUTANT AND A 13 RESIDUE PEPTIDE COMPRISING ITSTARGET SITE IN HUMAN REF-1 (RESIDUES 59-71 OF THE P50SUBUNIT OF NFKB), NMR, MINIMIZED AVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1cqh
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cqh | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | VKQI 
+| 1cqh | A | albelig | 2 | 2 | H | 8 | 18 | A-8-  | A-18-  | KTAFQEALDAA 
+| 1cqh | A | albelig | 3 | 3 | E | 23 | 26 | A-23-  | A-26-  | VVVD 
+| 1cqh | A | albelig | 4 | 4 | H | 33 | 36 | A-33-  | A-36-  | GPAK 
+| 1cqh | A | albelig | 5 | 5 | H | 39 | 48 | A-39-  | A-48-  | KPFFHSLSEK 
+| 1cqh | A | albelig | 6 | 6 | E | 53 | 57 | A-53-  | A-57-  | IFLEV 
+| 1cqh | A | albelig | 7 | 7 | H | 63 | 69 | A-63-  | A-69-  | QDVASEA 
+| 1cqh | A | albelig | 8 | 8 | E | 76 | 81 | A-76-  | A-81-  | TFQFFK 
+| 1cqh | A | albelig | 9 | 9 | E | 84 | 90 | A-84-  | A-90-  | QKVGEFS 
+| 1cqh | A | albelig | 10 | 10 | H | 94 | 104 | A-94-  | A-104-  | KEKLEATINEL 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 6
+= 3 = p = 6
+= 3 = a = 8
+= 5 = m = 6
+= 8 = a = 9
+= 8 = p = 10
+# Listed 6 contacts. EOF.

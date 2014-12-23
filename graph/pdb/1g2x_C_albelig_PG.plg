@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g2x, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURE, PHOSPHOLIPASE A2, HOMOTRIMER, BUNGARUS CAERULEUS,TOXIN
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 2.5
+> date > 22-OCT-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > SEQUENCE INDUCED TRIMERIZATION OF KRAIT PLA2: CRYSTALSTRUCTURE OF THE TRIMERIC FORM OF KRAIT PLA2
+> format_version > 2
+> pdbid > 1g2x
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BUNGARUS CAERULEUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g2x | C | albelig | 1 | 1 | H | 240 | 250 | C-2-  | C-12-  | LQQFKNMIQCA 
+| 1g2x | C | albelig | 2 | 2 | H | 255 | 258 | C-19-  | C-22-  | WTAY 
+| 1g2x | C | albelig | 3 | 3 | H | 276 | 291 | C-40-  | C-55-  | KLDRRQYTHDHSYNQA 
+| 1g2x | C | albelig | 4 | 4 | E | 306 | 309 | C-70-  | C-73-  | YTCT 
+| 1g2x | C | albelig | 5 | 5 | E | 312 | 315 | C-76-  | C-79-  | NITC 
+| 1g2x | C | albelig | 6 | 6 | H | 321 | 339 | C-85-  | C-103-  | ATAKFLCDSDRTAAIRFAS 
+| 1g2x | C | albelig | 7 | 7 | H | 344 | 346 | C-108-  | C-110-  | INN 
+| 1g2x | C | albelig | 8 | 8 | H | 353 | 355 | C-117-  | C-119-  | NSP 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 6
+= 3 = a = 6
+= 4 = a = 5
+= 5 = m = 6
+# Listed 5 contacts. EOF.

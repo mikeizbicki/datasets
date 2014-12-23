@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ht9, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOMAIN SWAPPING, CALBINDIN D9K, EF-HAND, CALCIUM BINDING,FOLDING, METAL BINDING PROTEIN
+> pdb_mol_name > CALBINDIN D9K
+> graphtype > albelig
+> resolution > 1.76
+> date > 29-DEC-00
+> header > METAL BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > DOMAIN SWAPPING EF-HANDS
+> format_version > 2
+> pdbid > 1ht9
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ht9 | B | albelig | 1 | 1 | H | 81 | 92 | B-3-  | B-14-  | PEELKGIFEKYA 
+| 1ht9 | B | albelig | 2 | 2 | H | 103 | 113 | B-25-  | B-35-  | KEELKLLLQTE 
+| 1ht9 | B | albelig | 3 | 3 | H | 117 | 120 | B-39-  | B-42-  | LLKG 
+| 1ht9 | B | albelig | 4 | 4 | H | 123 | 131 | B-45-  | B-53-  | TLDELFEEL 
+| 1ht9 | B | albelig | 5 | 5 | H | 141 | 150 | B-63-  | B-72-  | FEEFQVLVKK 
+| 1ht9 | B | albelig | 6 | 6 | L | 156 | 156 | B-1002-  | B-1002-  | J 
+| 1ht9 | B | albelig | 7 | 7 | L | 157 | 157 | B-1004-  | B-1004-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 7
+= 2 = l = 7
+= 5 = l = 6
+# Listed 4 contacts. EOF.

@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BAFF, TALL-1, THANK, ZTNF4, CYTOKINE, TNF SUPERFAMILY,JELLYROLL, BETA-SANDWICH
+> pdb_mol_name > B LYMPHOCYTE STIMULATOR
+> graphtype > albelig
+> resolution > 2.0
+> date > 31-JAN-02
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > THE 2.0 ANG RESOLUTION STRUCTURE OF BLYS, B LYMPHOCYTESTIMULATOR.
+> format_version > 2
+> pdbid > 1kxg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxg | A | albelig | 1 | 1 | E | 5 | 10 | A-146-  | A-151-  | CLQLIA 
+| 1kxg | A | albelig | 2 | 2 | E | 17 | 19 | A-158-  | A-160-  | IQK 
+| 1kxg | A | albelig | 3 | 3 | E | 22 | 24 | A-163-  | A-165-  | YTF 
+| 1kxg | A | albelig | 4 | 4 | E | 27 | 33 | A-168-  | A-174-  | WLLSFKR 
+| 1kxg | A | albelig | 5 | 5 | E | 37 | 40 | A-178-  | A-181-  | LEEK 
+| 1kxg | A | albelig | 6 | 6 | E | 43 | 46 | A-184-  | A-187-  | KILV 
+| 1kxg | A | albelig | 7 | 7 | E | 50 | 60 | A-191-  | A-201-  | GYFFIYGQVLY 
+| 1kxg | A | albelig | 8 | 8 | E | 66 | 74 | A-207-  | A-215-  | AMGHLIQRK 
+| 1kxg | A | albelig | 9 | 9 | E | 85 | 94 | A-226-  | A-235-  | LVTLFRAIQN 
+| 1kxg | A | albelig | 10 | 10 | E | 102 | 112 | A-243-  | A-253-  | NSAYSAGIAKL 
+| 1kxg | A | albelig | 11 | 11 | E | 117 | 122 | A-258-  | A-263-  | ELQLAI 
+| 1kxg | A | albelig | 12 | 12 | E | 137 | 142 | A-278-  | A-283-  | FFGALK 
+| 1kxg | A | albelig | 13 | 13 | L | 870 | 870 | A-701-  | A-701-  | J 
+| 1kxg | A | albelig | 14 | 14 | L | 871 | 871 | A-901-  | A-901-  | J 
+| 1kxg | A | albelig | 15 | 15 | L | 872 | 872 | A-903-  | A-903-  | J 
+| 1kxg | A | albelig | 16 | 16 | L | 873 | 873 | A-889-  | A-889-  | J 
+| 1kxg | A | albelig | 17 | 17 | L | 874 | 874 | A-1001-  | A-1001-  | J 
+| 1kxg | A | albelig | 18 | 18 | L | 875 | 875 | A-1002-  | A-1002-  | J 
+| 1kxg | A | albelig | 19 | 19 | L | 876 | 876 | A-1004-  | A-1004-  | J 
+| 1kxg | A | albelig | 20 | 20 | L | 877 | 877 | A-1015-  | A-1015-  | J 
+| 1kxg | A | albelig | 21 | 21 | L | 878 | 878 | A-1017-  | A-1017-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = p = 5
+= 1 = a = 12
+= 2 = a = 3
+= 2 = l = 17
+= 3 = a = 11
+= 3 = l = 17
+= 5 = a = 6
+= 6 = a = 11
+= 6 = l = 17
+= 7 = a = 8
+= 7 = a = 10
+= 7 = a = 12
+= 8 = a = 9
+= 8 = p = 10
+= 8 = a = 11
+= 8 = l = 15
+= 8 = l = 16
+= 8 = l = 21
+= 9 = a = 10
+= 9 = l = 13
+= 9 = l = 18
+= 10 = l = 13
+= 10 = l = 14
+= 10 = l = 15
+= 10 = l = 18
+= 11 = a = 12
+= 11 = l = 17
+= 11 = l = 21
+= 14 = l = 15
+= 14 = l = 16
+= 15 = l = 16
+# Listed 32 contacts. EOF.

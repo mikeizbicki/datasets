@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1byn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SYNAPTOTAGMIN, C2-DOMAIN, EXOCYTOSIS, NEUROTRANSMITTERRELEASE, ENDOCYTOSIS/EXOCYTOSIS COMPLEX
+> pdb_mol_name > PROTEIN (SYNAPTOTAGMIN I)
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-OCT-98
+> header > ENDOCYTOSIS/EXOCYTOSIS
+> pdb_org_common > NORWAY RAT
+> title > SOLUTION STRUCTURE OF THE CALCIUM-BOUND FIRST C2-DOMAIN OFSYNAPTOTAGMIN I
+> format_version > 2
+> pdbid > 1byn
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1byn | A | albelig | 1 | 1 | E | 5 | 13 | A-144-  | A-152-  | KLQYSLDYD 
+| 1byn | A | albelig | 2 | 2 | E | 18 | 27 | A-157-  | A-166-  | QLLVGIIQAA 
+| 1byn | A | albelig | 3 | 3 | E | 40 | 47 | A-179-  | A-186-  | PYVKVFLL 
+| 1byn | A | albelig | 4 | 4 | E | 66 | 73 | A-205-  | A-212-  | VFNEQFTF 
+| 1byn | A | albelig | 5 | 5 | H | 77 | 80 | A-216-  | A-219-  | YSEL 
+| 1byn | A | albelig | 6 | 6 | E | 84 | 91 | A-223-  | A-230-  | TLVMAVYD 
+| 1byn | A | albelig | 7 | 7 | E | 100 | 107 | A-239-  | A-246-  | IIGEFKVP 
+| 1byn | A | albelig | 8 | 8 | H | 108 | 110 | A-247-  | A-249-  | MNT 
+| 1byn | A | albelig | 9 | 9 | E | 116 | 122 | A-255-  | A-261-  | VTEEWRD 
+| 1byn | A | albelig | 10 | 10 | L | 129 | 129 | A-272-  | A-272-  | J 
+| 1byn | A | albelig | 11 | 11 | L | 130 | 130 | A-273-  | A-273-  | J 
+| 1byn | A | albelig | 12 | 12 | L | 131 | 131 | A-274-  | A-274-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 4
+= 3 = p = 4
+= 3 = a = 6
+= 6 = a = 7
+= 6 = l = 10
+= 6 = l = 11
+= 7 = m = 8
+= 10 = l = 11
+= 11 = l = 12
+# Listed 11 contacts. EOF.

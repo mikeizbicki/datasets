@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g72, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > QUINOPROTEIN, OXIDOREDUCTASE
+> pdb_mol_name > METHANOL DEHYDROGENASE LIGHT SUBUNIT
+> graphtype > albelig
+> resolution > 1.9
+> date > 08-NOV-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CATALYTIC MECHANISM OF QUINOPROTEIN METHANOL DEHYDROGENASE: ATHEORETICAL AND X-RAY CRYSTALLOGRAPHIC INVESTIGATION
+> format_version > 2
+> pdbid > 1g72
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > METHYLOPHILUS METHYLOTROPHUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g72 | B | albelig | 1 | 1 | H | 606 | 609 | B-34-  | B-37-  | PVEL 
+| 1g72 | B | albelig | 2 | 2 | H | 611 | 628 | B-39-  | B-56-  | KQEESIKAMDARNAKRIA 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

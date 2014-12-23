@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eod, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > POTASSIUM CHANNELS, APLYSIA KV1.1, PROTON TRANSPORT,MEMBRANE PROTEIN
+> pdb_mol_name > POTASSIUM CHANNEL KV1.1
+> graphtype > albelig
+> resolution > 2.45
+> date > 22-MAR-00
+> header > MEMBRANE PROTEIN
+> pdb_org_common > CALIFORNIA SEA HARE
+> title > CRYSTAL STRUCTURE OF THE N136D MUTANT OF A SHAKER T1 DOMAIN
+> format_version > 2
+> pdbid > 1eod
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > APLYSIA CALIFORNICA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eod | A | albelig | 1 | 1 | E | 2 | 7 | A-67-  | A-72-  | RVVINV 
+| 1eod | A | albelig | 2 | 2 | E | 10 | 15 | A-75-  | A-80-  | LRFETQ 
+| 1eod | A | albelig | 3 | 3 | H | 16 | 20 | A-81-  | A-85-  | LKTLN 
+| 1eod | A | albelig | 4 | 4 | H | 30 | 36 | A-95-  | A-101-  | PQKRNRY 
+| 1eod | A | albelig | 5 | 5 | E | 43 | 46 | A-108-  | A-111-  | EYFF 
+| 1eod | A | albelig | 6 | 6 | H | 53 | 61 | A-118-  | A-126-  | FDAILYFYQ 
+| 1eod | A | albelig | 7 | 7 | H | 74 | 83 | A-139-  | A-148-  | LDVFSEEIKF 
+| 1eod | A | albelig | 8 | 8 | H | 88 | 98 | A-153-  | A-163-  | ENAFERYREDE 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = m = 3
+= 2 = m = 6
+= 3 = m = 6
+= 4 = m = 5
+= 7 = m = 8
+# Listed 7 contacts. EOF.

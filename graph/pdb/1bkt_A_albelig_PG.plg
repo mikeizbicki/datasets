@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bkt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SCORPION, NEUROTOXIN, NMR, STRUCTURE, LARGE CONDUCTANCEPOTASSIUM CHANNEL, VOLTAGE GATED POTASSIUM CHANNEL, BUTHUSMARTENSII
+> pdb_mol_name > BMKTX
+> graphtype > albelig
+> resolution > -1.0
+> date > 03-JUL-98
+> header > NEUROTOXIN
+> pdb_org_common > CHINESE SCORPION
+> title > BMKTX TOXIN FROM SCORPION BUTHUS MARTENSII KARSCH, NMR, 25STRUCTURES
+> format_version > 2
+> pdbid > 1bkt
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MESOBUTHUS MARTENSII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bkt | A | albelig | 1 | 1 | H | 14 | 20 | A-14-  | A-20-  | LKPCKDA 
+| 1bkt | A | albelig | 2 | 2 | E | 25 | 27 | A-25-  | A-27-  | GKA 
+| 1bkt | A | albelig | 3 | 3 | E | 32 | 34 | A-32-  | A-34-  | NDC 
+| 1bkt | A | albelig | 4 | 4 | L | 38 | 38 | A-38-  | A-38-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+# Listed 1 contacts. EOF.

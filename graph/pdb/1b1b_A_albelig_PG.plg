@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b1b, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IDER, IRON DEPEDENT REGULATOR, MYCOBACTERIUM TUBERCULOSIS,METAL BINDING PROTEIN
+> pdb_mol_name > PROTEIN (IRON DEPENDENT REGULATOR)
+> graphtype > albelig
+> resolution > 2.6
+> date > 19-NOV-98
+> header > METAL BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > IRON DEPENDENT REGULATOR
+> format_version > 2
+> pdbid > 1b1b
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b1b | A | albelig | 1 | 1 | H | 7 | 20 | A-7-  | A-20-  | TTEMYLRTIYDLEE 
+| 1b1b | A | albelig | 2 | 2 | H | 27 | 34 | A-27-  | A-34-  | RARIAERL 
+| 1b1b | A | albelig | 3 | 3 | H | 38 | 49 | A-38-  | A-49-  | GPTVSQTVSRME 
+| 1b1b | A | albelig | 4 | 4 | E | 54 | 56 | A-54-  | A-56-  | LRV 
+| 1b1b | A | albelig | 5 | 5 | E | 62 | 64 | A-62-  | A-64-  | LEL 
+| 1b1b | A | albelig | 6 | 6 | H | 66 | 90 | A-66-  | A-90-  | EKGRALAIAVMRKHRLAERLLVDVI 
+| 1b1b | A | albelig | 7 | 7 | H | 97 | 104 | A-97-  | A-104-  | VHAEACRW 
+| 1b1b | A | albelig | 8 | 8 | H | 110 | 119 | A-110-  | A-119-  | EDVERRLVKV 
+| 1b1b | A | albelig | 9 | 9 | H | 135 | 138 | A-135-  | A-138-  | LVEL 
+| 1b1b | A | albelig | 10 | 10 | L | 141 | 141 | A-301-  | A-301-  | J 
+| 1b1b | A | albelig | 11 | 11 | L | 142 | 142 | A-302-  | A-302-  | J 
+| 1b1b | A | albelig | 12 | 12 | L | 143 | 143 | A-303-  | A-303-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = p = 6
+= 1 = l = 11
+= 1 = l = 12
+= 3 = m = 4
+= 4 = a = 5
+= 6 = m = 7
+= 6 = p = 8
+= 6 = l = 10
+= 6 = l = 12
+= 7 = l = 10
+= 7 = l = 11
+= 7 = l = 12
+= 10 = l = 12
+# Listed 15 contacts. EOF.

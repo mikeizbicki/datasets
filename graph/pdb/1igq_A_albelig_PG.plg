@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1igq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SH3 DOMAIN, DIMERIZATION DOMAIN, TRANSCRIPTION
+> pdb_mol_name > TRANSCRIPTIONAL REPRESSOR PROTEIN KORB
+> graphtype > albelig
+> resolution > 1.7
+> date > 18-APR-01
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > C-TERMINAL DOMAIN OF TRANSCRIPTIONAL REPRESSOR PROTEIN KORB
+> format_version > 2
+> pdbid > 1igq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1igq | A | albelig | 1 | 1 | E | 4 | 9 | A-308-  | A-313-  | IVQVEH 
+| 1igq | A | albelig | 2 | 2 | E | 12 | 16 | A-316-  | A-320-  | RPARL 
+| 1igq | A | albelig | 3 | 3 | E | 27 | 32 | A-331-  | A-336-  | YAWLKY 
+| 1igq | A | albelig | 4 | 4 | E | 38 | 42 | A-342-  | A-346-  | EFEAN 
+| 1igq | A | albelig | 5 | 5 | H | 43 | 45 | A-347-  | A-349-  | LAD 
+| 1igq | A | albelig | 6 | 6 | E | 47 | 52 | A-351-  | A-356-  | KLVALI 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+# Listed 5 contacts. EOF.

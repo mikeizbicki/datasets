@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iyu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOLYSIS, TRANSFERASE, ACYLTRANSFERASE, LIPOYL
+> pdb_mol_name > DIHYDROLIPOAMIDE ACETYLTRANSFERASE COMPONENT OF
+> graphtype > albelig
+> resolution > -1.0
+> date > 25-SEP-96
+> header > ACYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > LIPOYL DOMAIN OF PYRUVATE DEHYDROGENASE COMPLEX, NMR,MINIMIZED AVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1iyu
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AZOTOBACTER VINELANDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iyu | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | EIIR 
+| 1iyu | A | albelig | 2 | 2 | E | 12 | 18 | A-12-  | A-18-  | DGEVIEL 
+| 1iyu | A | albelig | 3 | 3 | E | 31 | 36 | A-31-  | A-36-  | GLVVLE 
+| 1iyu | A | albelig | 4 | 4 | E | 41 | 45 | A-41-  | A-45-  | SMEVP 
+| 1iyu | A | albelig | 5 | 5 | E | 51 | 55 | A-51-  | A-55-  | VVKSV 
+| 1iyu | A | albelig | 6 | 6 | E | 62 | 64 | A-62-  | A-64-  | KLK 
+| 1iyu | A | albelig | 7 | 7 | E | 68 | 73 | A-68-  | A-73-  | AIIELE 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 2 = a = 3
+= 3 = a = 4
+= 5 = a = 7
+# Listed 4 contacts. EOF.

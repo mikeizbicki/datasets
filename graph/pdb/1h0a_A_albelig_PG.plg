@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h0a, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDOCYTOSIS, EPSIN, ENTH, CLATHRIN, TRISKELION, COATEDVESICLES, ALPHA-ALPHA SUPERHELIX, INS(1, 4, 5)P3
+> pdb_mol_name > EPSIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 12-JUN-02
+> header > ENDOCYTOSIS
+> pdb_org_common > RAT
+> title > EPSIN ENTH BOUND TO INS(1,4,5)P3
+> format_version > 2
+> pdbid > 1h0a
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h0a | A | albelig | 1 | 1 | H | 2 | 15 | A-2-  | A-15-  | STSSLRRQMKNIVH 
+| 1h0a | A | albelig | 2 | 2 | H | 19 | 27 | A-19-  | A-27-  | EAEIKVREA 
+| 1h0a | A | albelig | 3 | 3 | H | 37 | 46 | A-37-  | A-46-  | SSLMSEIADL 
+| 1h0a | A | albelig | 4 | 4 | H | 50 | 64 | A-50-  | A-64-  | VVAFSEIMSMIWKRL 
+| 1h0a | A | albelig | 5 | 5 | H | 68 | 87 | A-68-  | A-87-  | GKNWRHVYKAMTLMEYLIKT 
+| 1h0a | A | albelig | 6 | 6 | H | 90 | 98 | A-90-  | A-98-  | ERVSQQCKE 
+| 1h0a | A | albelig | 7 | 7 | H | 100 | 108 | A-100-  | A-108-  | MYAVQTLKD 
+| 1h0a | A | albelig | 8 | 8 | H | 121 | 134 | A-121-  | A-134-  | VNVREKAKQLVALL 
+| 1h0a | A | albelig | 9 | 9 | H | 137 | 156 | A-137-  | A-156-  | EDRLREERAHALKTKEKLAQ 
+| 1h0a | A | albelig | 10 | 10 | L | 159 | 159 | A-1159-  | A-1159-  | J 
+| 1h0a | A | albelig | 11 | 11 | L | 160 | 160 | A-1160-  | A-1160-  | J 
+| 1h0a | A | albelig | 12 | 12 | L | 161 | 161 | A-1161-  | A-1161-  | J 
+| 1h0a | A | albelig | 13 | 13 | L | 162 | 162 | A-1162-  | A-1162-  | J 
+| 1h0a | A | albelig | 14 | 14 | L | 163 | 163 | A-1163-  | A-1163-  | J 
+| 1h0a | A | albelig | 15 | 15 | L | 164 | 164 | A-1164-  | A-1164-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 15
+= 2 = m = 3
+= 2 = p = 4
+= 2 = l = 15
+= 3 = m = 5
+= 4 = a = 5
+= 4 = m = 6
+= 4 = l = 10
+= 4 = l = 15
+= 5 = p = 8
+= 5 = l = 12
+= 5 = l = 15
+= 6 = l = 10
+= 7 = a = 8
+= 7 = l = 10
+= 7 = l = 13
+= 8 = l = 13
+= 9 = l = 11
+= 9 = l = 12
+= 9 = l = 14
+# Listed 21 contacts. EOF.

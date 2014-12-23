@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i8l, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RECEPTORS, INHIBITORY COMPLEX, IMMUNE SYSTEM
+> pdb_mol_name > CYTOTOXIC T-LYMPHOCYTE PROTEIN 4
+> graphtype > albelig
+> resolution > 3.0
+> date > 14-MAR-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > HUMAN B7-1/CTLA-4 CO-STIMULATORY COMPLEX
+> format_version > 2
+> pdbid > 1i8l
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i8l | D | albelig | 1 | 1 | E | 527 | 529 | D-10-  | D-12-  | VVL 
+| 1i8l | D | albelig | 2 | 2 | E | 538 | 542 | D-21-  | D-25-  | FVGEY 
+| 1i8l | D | albelig | 3 | 3 | E | 550 | 559 | D-33-  | D-42-  | EVRVTVLRQA 
+| 1i8l | D | albelig | 4 | 4 | E | 562 | 571 | D-45-  | D-54-  | QVTEVHAATY 
+| 1i8l | D | albelig | 5 | 5 | E | 593 | 596 | D-76-  | D-79-  | QVNL 
+| 1i8l | D | albelig | 6 | 6 | E | 607 | 609 | D-90-  | D-92-  | GLY 
+| 1i8l | D | albelig | 7 | 7 | E | 611 | 617 | D-94-  | D-100-  | GKVELMY 
+| 1i8l | D | albelig | 8 | 8 | E | 622 | 625 | D-105-  | D-108-  | YLGI 
+| 1i8l | D | albelig | 9 | 9 | E | 629 | 632 | D-112-  | D-115-  | AQIY 
+| 1i8l | D | albelig | 10 | 10 | L | 656 | 656 | D-127-  | D-127-  | J 
+| 1i8l | D | albelig | 11 | 11 | L | 657 | 657 | D-128-  | D-128-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 2 = a = 5
+= 2 = l = 10
+= 3 = a = 4
+= 3 = a = 6
+= 3 = a = 7
+= 5 = l = 10
+= 6 = a = 9
+= 7 = a = 8
+# Listed 9 contacts. EOF.

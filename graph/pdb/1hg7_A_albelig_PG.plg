@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hg7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIFREEZE PROTEIN, OCEAN POUT, MACROZOARCES AMERICANUS,ICE-BINDING PROTEIN
+> pdb_mol_name > HPLC-12 TYPE III ANTIFREEZE PROTEIN
+> graphtype > albelig
+> resolution > 1.15
+> date > 13-DEC-00
+> header > ANTIFREEZE PROTEIN
+> pdb_org_common > OCEAN POUT
+> title > HIGH RESOLUTION STRUCTURE OF HPLC-12 TYPE III ANTIFREEZEPROTEIN FROM OCEAN POUT MACROZOARCES AMERICANUS
+> format_version > 2
+> pdbid > 1hg7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MACROZOARCES AMERICANUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hg7 | A | albelig | 1 | 1 | E | 5 | 8 | A-1004-  | A-1007-  | SVVA 
+| 1hg7 | A | albelig | 2 | 2 | H | 20 | 22 | A-1019-  | A-1021-  | LVM 
+| 1hg7 | A | albelig | 3 | 3 | E | 23 | 26 | A-1022-  | A-1025-  | MRSE 
+| 1hg7 | A | albelig | 4 | 4 | H | 35 | 41 | A-1034-  | A-1040-  | AEDIPRL 
+| 1hg7 | A | albelig | 5 | 5 | H | 58 | 60 | A-1057-  | A-1059-  | PDM 
+| 1hg7 | A | albelig | 6 | 6 | L | 67 | 67 | A-3001-  | A-3001-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 3
+= 2 = m = 3
+# Listed 3 contacts. EOF.

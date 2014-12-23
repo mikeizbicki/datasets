@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jbm, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RING-SHAPED HOMOHEPTAMER, ALL BETA-STRAND, STRUCTURALGENOMICS
+> pdb_mol_name > PUTATIVE SNRNP SM-LIKE PROTEIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 06-JUN-01
+> header > STRUCTURAL GENOMICS
+> pdb_org_common > UNKNOWN
+> title > HEPTAMERIC CRYSTAL STRUCTURE OF MTH649, AN SM-LIKE ARCHAEALPROTEIN FROM METHANOBACTERIUM THERMAUTOTROPHICUM
+> format_version > 2
+> pdbid > 1jbm
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jbm | G | albelig | 1 | 1 | H | 456 | 461 | G-14-  | G-19-  | PLDALG 
+| 1jbm | G | albelig | 2 | 2 | E | 467 | 472 | G-25-  | G-30-  | PVIIKL 
+| 1jbm | G | albelig | 3 | 3 | E | 477 | 485 | G-35-  | G-43-  | EFRGVLKSF 
+| 1jbm | G | albelig | 4 | 4 | E | 491 | 500 | G-49-  | G-58-  | LVLNDAEELE 
+| 1jbm | G | albelig | 5 | 5 | E | 503 | 513 | G-61-  | G-71-  | EVTRRLGTVLI 
+| 1jbm | G | albelig | 6 | 6 | H | 515 | 517 | G-73-  | G-75-  | GDN 
+| 1jbm | G | albelig | 7 | 7 | E | 518 | 522 | G-76-  | G-80-  | IVYIS 
+| 1jbm | G | albelig | 8 | 8 | L | 542 | 542 | G-2010-  | G-2010-  | J 
+| 1jbm | G | albelig | 9 | 9 | L | 543 | 543 | G-2011-  | G-2011-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 6 = m = 7
+= 6 = l = 9
+= 8 = l = 9
+# Listed 8 contacts. EOF.

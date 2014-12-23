@@ -1,0 +1,86 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i5r, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEHYDROGENASE, 17BETA-HYDROXYSTEROID, HYBRID, INHIBITOR,OXIDOREDUCTASE
+> pdb_mol_name > TYPE 1 17 BETA-HYDROXYSTEROID DEHYDROGENASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 28-FEB-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > TYPE 1 17-BETA HYDROXYSTEROID DEHYDROGENASE EM1745 COMPLEX
+> format_version > 2
+> pdbid > 1i5r
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i5r | A | albelig | 1 | 1 | E | 3 | 7 | A-3-  | A-7-  | TVVLI 
+| 1i5r | A | albelig | 2 | 2 | H | 13 | 23 | A-13-  | A-23-  | GIGLHLAVRLA 
+| 1i5r | A | albelig | 3 | 3 | E | 30 | 36 | A-30-  | A-36-  | FKVYATL 
+| 1i5r | A | albelig | 4 | 4 | H | 39 | 41 | A-39-  | A-41-  | LKT 
+| 1i5r | A | albelig | 5 | 5 | H | 43 | 51 | A-43-  | A-51-  | GRLWEAARA 
+| 1i5r | A | albelig | 6 | 6 | E | 59 | 63 | A-59-  | A-63-  | LETLQ 
+| 1i5r | A | albelig | 7 | 7 | H | 69 | 77 | A-69-  | A-77-  | SKSVAAARE 
+| 1i5r | A | albelig | 8 | 8 | E | 86 | 89 | A-86-  | A-89-  | VLVC 
+| 1i5r | A | albelig | 9 | 9 | H | 99 | 101 | A-99-  | A-101-  | LEA 
+| 1i5r | A | albelig | 10 | 10 | H | 104 | 116 | A-104-  | A-116-  | EDAVASVLDVNVV 
+| 1i5r | A | albelig | 11 | 11 | H | 117 | 132 | A-117-  | A-132-  | GTVRMLQAFLPDMKRR 
+| 1i5r | A | albelig | 12 | 12 | E | 135 | 142 | A-135-  | A-142-  | GRVLVTGS 
+| 1i5r | A | albelig | 13 | 13 | H | 143 | 145 | A-143-  | A-145-  | VGG 
+| 1i5r | A | albelig | 14 | 14 | H | 153 | 176 | A-153-  | A-176-  | DVYCASKFALEGLCESLAVLLLPF 
+| 1i5r | A | albelig | 15 | 15 | E | 178 | 185 | A-178-  | A-185-  | VHLSLIEC 
+| 1i5r | A | albelig | 16 | 16 | H | 200 | 205 | A-200-  | A-205-  | PEEVLD 
+| 1i5r | A | albelig | 17 | 17 | H | 209 | 229 | A-209-  | A-229-  | IHTFHRFYQYLAHSKQVFREA 
+| 1i5r | A | albelig | 18 | 18 | H | 233 | 245 | A-233-  | A-245-  | PEEVAEVFLTALR 
+| 1i5r | A | albelig | 19 | 19 | E | 252 | 254 | A-252-  | A-254-  | RYF 
+| 1i5r | A | albelig | 20 | 20 | H | 260 | 268 | A-260-  | A-268-  | LPLLRMRLD 
+| 1i5r | A | albelig | 21 | 21 | H | 273 | 284 | A-273-  | A-284-  | SNYVTAMHREVF 
+| 1i5r | A | albelig | 22 | 22 | L | 286 | 286 | A-328-  | A-328-  | J 
+| 1i5r | A | albelig | 23 | 23 | L | 287 | 287 | A-401-  | A-401-  | J 
+| 1i5r | A | albelig | 24 | 24 | L | 288 | 288 | A-402-  | A-402-  | J 
+| 1i5r | A | albelig | 25 | 25 | L | 289 | 289 | A-403-  | A-403-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 2 = m = 3
+= 2 = m = 5
+= 2 = m = 18
+= 2 = l = 23
+= 3 = p = 6
+= 3 = l = 22
+= 7 = p = 11
+= 8 = m = 11
+= 8 = p = 12
+= 10 = m = 11
+= 10 = p = 14
+= 11 = p = 14
+= 12 = m = 13
+= 12 = a = 14
+= 12 = p = 15
+= 12 = m = 18
+= 12 = l = 22
+= 12 = l = 23
+= 13 = m = 14
+= 13 = l = 22
+= 13 = l = 25
+= 14 = a = 15
+= 14 = l = 22
+= 14 = l = 23
+= 14 = l = 25
+= 15 = a = 19
+= 15 = l = 22
+= 15 = l = 23
+= 17 = m = 21
+= 17 = l = 22
+= 17 = l = 23
+= 20 = m = 21
+= 20 = l = 22
+= 20 = l = 24
+= 20 = l = 25
+= 21 = l = 22
+= 22 = l = 23
+= 24 = l = 25
+# Listed 40 contacts. EOF.

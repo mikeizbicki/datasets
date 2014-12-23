@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ijd, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PIGMENT-PROTEIN COMPLEX, ALPHA-HELIX APOPROTEINS, INTERGRAL MEMBRANEPROTEIN, LIGHT HARVESTING, PHOTOSYNTHESIS
+> pdb_mol_name > LIGHT-HARVESTING PROTEIN B-800/820, ALPHA CHAIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 25-APR-01
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTALLOGRAPHIC STRUCTURE OF THE LH3 COMPLEX FROM RHODOPSEUDOMONASACIDOPHILA STRAIN 7050
+> format_version > 2
+> pdbid > 1ijd
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > RHODOBLASTUS ACIDOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ijd | E | albelig | 1 | 1 | H | 180 | 184 | E-4-  | E-8-  | GKIWT 
+| 1ijd | E | albelig | 2 | 2 | H | 188 | 212 | E-12-  | E-36-  | PAFGLPLMLGAVAITALLVHAAVLT 
+| 1ijd | E | albelig | 3 | 3 | H | 216 | 220 | E-40-  | E-44-  | WYAAF 
+| 1ijd | E | albelig | 4 | 4 | L | 279 | 279 | E-54-  | E-54-  | J 
+| 1ijd | E | albelig | 5 | 5 | L | 281 | 281 | E-55-  | E-55-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 4
+= 2 = l = 5
+= 3 = l = 4
+= 4 = l = 5
+# Listed 4 contacts. EOF.

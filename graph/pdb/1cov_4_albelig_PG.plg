@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cov, chain 4.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COXSACKIEVIRUS B3, ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > COXSACKIEVIRUS COAT PROTEIN
+> graphtype > albelig
+> resolution > 3.5
+> date > 19-OCT-94
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > COXSACKIEVIRUS B3 COAT PROTEIN
+> format_version > 2
+> pdbid > 1cov
+> experiment > X-RAY DIFFRACTION
+> chainid > 4
+> graphclass > protein graph
+> pdb_org_sci > HUMAN COXSACKIEVIRUS B3
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cov | 4 | albelig | 1 | 1 | E | 769 | 772 | 4-4-  | 4-7-  | QVST 
+| 1cov | 4 | albelig | 2 | 2 | E | 779 | 782 | 4-26-  | 4-29-  | HYTN 
+| 1cov | 4 | albelig | 3 | 3 | H | 789 | 791 | 4-36-  | 4-38-  | AAS 
+| 1cov | 4 | albelig | 4 | 4 | H | 803 | 805 | 4-50-  | 4-52-  | PSK 
+| 1cov | 4 | albelig | 5 | 5 | L | 823 | 823 | 4-1-  | 4-1-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

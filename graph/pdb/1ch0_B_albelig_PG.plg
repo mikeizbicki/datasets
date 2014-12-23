@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ch0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBONUCLEASE, HYDROLASE
+> pdb_mol_name > PROTEIN (RIBONUCLEASE T1)
+> graphtype > albelig
+> resolution > 2.3
+> date > 30-MAR-99
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > RNASE T1 VARIANT WITH ALTERED GUANINE BINDING SEGMENT
+> format_version > 2
+> pdbid > 1ch0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ASPERGILLUS ORYZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ch0 | B | albelig | 1 | 1 | E | 109 | 111 | B-4-  | B-6-  | YTE 
+| 1ch0 | B | albelig | 2 | 2 | E | 114 | 116 | B-9-  | B-11-  | NNY 
+| 1ch0 | B | albelig | 3 | 3 | H | 118 | 134 | B-13-  | B-29-  | SSDVSTAQAAGYKLHED 
+| 1ch0 | B | albelig | 4 | 4 | E | 161 | 165 | B-56-  | B-60-  | YYEWP 
+| 1ch0 | B | albelig | 5 | 5 | E | 181 | 186 | B-76-  | B-81-  | DRVVFN 
+| 1ch0 | B | albelig | 6 | 6 | E | 191 | 196 | B-86-  | B-91-  | LAGVIT 
+| 1ch0 | B | albelig | 7 | 7 | L | 317 | 317 | B-108-  | B-108-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 4 = a = 5
+= 4 = l = 7
+= 5 = a = 6
+= 5 = l = 7
+# Listed 5 contacts. EOF.

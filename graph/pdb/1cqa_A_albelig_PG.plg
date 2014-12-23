@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cqa, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN-BINDING PROTEIN, ALLERGEN, CONTRACTILE PROTEIN
+> pdb_mol_name > PROFILIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 26-JUL-96
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > EUROPEAN WHITE BIRCH
+> title > BIRCH POLLEN PROFILIN
+> format_version > 2
+> pdbid > 1cqa
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BETULA PENDULA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cqa | A | albelig | 1 | 1 | H | 2 | 10 | A-3-  | A-11-  | WQTYVDEHL 
+| 1cqa | A | albelig | 2 | 2 | E | 15 | 20 | A-24-  | A-29-  | ASAIVG 
+| 1cqa | A | albelig | 3 | 3 | E | 25 | 28 | A-34-  | A-37-  | VWAQ 
+| 1cqa | A | albelig | 4 | 4 | H | 37 | 48 | A-46-  | A-57-  | PQEITGIMKDFE 
+| 1cqa | A | albelig | 5 | 5 | E | 58 | 60 | A-67-  | A-69-  | LHL 
+| 1cqa | A | albelig | 6 | 6 | E | 63 | 71 | A-72-  | A-80-  | IKYMVIQGE 
+| 1cqa | A | albelig | 7 | 7 | E | 75 | 80 | A-84-  | A-89-  | VIRGKK 
+| 1cqa | A | albelig | 8 | 8 | E | 83 | 89 | A-92-  | A-98-  | GGITIKK 
+| 1cqa | A | albelig | 9 | 9 | E | 93 | 99 | A-102-  | A-108-  | ALVFGIY 
+| 1cqa | A | albelig | 10 | 10 | H | 105 | 121 | A-114-  | A-130-  | PGQCNMVVERLGDYLID 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 9
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = a = 10
+# Listed 8 contacts. EOF.

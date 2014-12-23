@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eba, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ERYTHROPOIETIN RECEPTOR, SIGNAL TRANSDUCTION, PROTEINMINIMIZATION, DRUG DESIGN, CYTOKINE RECEPTOR CLASS 1,COMPLEX (CYTOKINE RECEPTOR/PEPTIDE), SIGNALING PROTEIN
+> pdb_mol_name > PROTEIN (EPO MIMETICS PEPTIDE 33)
+> graphtype > albelig
+> resolution > 2.7
+> date > 02-OCT-98
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > COMPLEX BETWEEN THE EXTRACELLULAR DOMAIN OF ERYTHROPOIETIN(EPO) RECEPTOR [EBP] AND AN INACTIVE PEPTIDE [EMP33]CONTAINS 3,5-DIBROMOTYROSINE IN POSITION 4 (DENOTED DBY)
+> format_version > 2
+> pdbid > 1eba
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eba | C | albelig | 1 | 1 | E | 426 | 429 | C-4-  | C-7-  | XSEH 
+| 1eba | C | albelig | 2 | 2 | E | 436 | 439 | C-14-  | C-17-  | VEKP 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1knx, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HPR KINASE, HPR KINASE/PHOSPHATASE, HPRK/P, KINASE,PHOSPHATASE, P-LOOP, WALKER A BOX, CATABOLITE REPRESSION,TRANSFERASE/HYDROLASE COMPLEX
+> pdb_mol_name > PROBABLE HPR(SER) KINASE/PHOSPHATASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 19-DEC-01
+> header > TRANSFERASE/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > HPR KINASE/PHOSPHATASE FROM MYCOPLASMA PNEUMONIAE
+> format_version > 2
+> pdbid > 1knx
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MYCOPLASMA PNEUMONIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1knx | E | albelig | 1 | 1 | H | 1225 | 1231 | E-6-  | E-12-  | VKELIEQ 
+| 1knx | E | albelig | 2 | 2 | E | 1237 | 1240 | E-18-  | E-21-  | NLID 
+| 1knx | E | albelig | 3 | 3 | H | 1242 | 1244 | E-23-  | E-25-  | HTN 
+| 1knx | E | albelig | 4 | 4 | H | 1258 | 1261 | E-39-  | E-42-  | VFEM 
+| 1knx | E | albelig | 5 | 5 | E | 1273 | 1275 | E-54-  | E-56-  | AIL 
+| 1knx | E | albelig | 6 | 6 | H | 1277 | 1284 | E-58-  | E-65-  | KREFGFLS 
+| 1knx | E | albelig | 7 | 7 | H | 1288 | 1300 | E-69-  | E-81-  | LVEQQQILHNLLK 
+| 1knx | E | albelig | 8 | 8 | E | 1306 | 1308 | E-87-  | E-89-  | IIL 
+| 1knx | E | albelig | 9 | 9 | H | 1316 | 1325 | E-97-  | E-106-  | TVLLQVNQTY 
+| 1knx | E | albelig | 10 | 10 | E | 1329 | 1331 | E-110-  | E-112-  | ILK 
+| 1knx | E | albelig | 11 | 11 | H | 1336 | 1340 | E-117-  | E-121-  | STELS 
+| 1knx | E | albelig | 12 | 12 | H | 1343 | 1350 | E-124-  | E-131-  | VETYINEQ 
+| 1knx | E | albelig | 13 | 13 | E | 1354 | 1364 | E-135-  | E-145-  | VAQIHGVLLEV 
+| 1knx | E | albelig | 14 | 14 | E | 1367 | 1372 | E-148-  | E-153-  | VGVLLT 
+| 1knx | E | albelig | 15 | 15 | H | 1376 | 1387 | E-157-  | E-168-  | GIGKSECALDLI 
+| 1knx | E | albelig | 16 | 16 | E | 1392 | 1404 | E-173-  | E-185-  | LFVGDDAIEIYRL 
+| 1knx | E | albelig | 17 | 17 | E | 1407 | 1412 | E-188-  | E-193-  | RLFGRA 
+| 1knx | E | albelig | 18 | 18 | E | 1419 | 1422 | E-200-  | E-203-  | FMEI 
+| 1knx | E | albelig | 19 | 19 | E | 1426 | 1429 | E-207-  | E-210-  | GIIN 
+| 1knx | E | albelig | 20 | 20 | H | 1430 | 1434 | E-211-  | E-215-  | VERFY 
+| 1knx | E | albelig | 21 | 21 | H | 1436 | 1438 | E-217-  | E-219-  | LQI 
+| 1knx | E | albelig | 22 | 22 | E | 1443 | 1452 | E-224-  | E-233-  | TEIQLMVNLL 
+| 1knx | E | albelig | 23 | 23 | E | 1470 | 1474 | E-251-  | E-255-  | KKQRL 
+| 1knx | E | albelig | 24 | 24 | E | 1477 | 1485 | E-258-  | E-266-  | VDLSFYEIP 
+| 1knx | E | albelig | 25 | 25 | H | 1492 | 1507 | E-273-  | E-288-  | TSEIIESAVIDFKLKH 
+| 1knx | E | albelig | 26 | 26 | H | 1512 | 1527 | E-293-  | E-308-  | SALDFIENQKAILKRK 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 12
+= 2 = m = 3
+= 2 = a = 10
+= 5 = p = 8
+= 7 = p = 9
+= 8 = p = 10
+= 13 = a = 14
+= 13 = a = 16
+= 14 = p = 22
+= 14 = m = 25
+= 15 = m = 18
+= 15 = m = 25
+= 16 = a = 17
+= 16 = m = 21
+= 17 = a = 22
+= 18 = a = 19
+= 19 = m = 20
+= 22 = p = 24
+= 22 = m = 25
+= 23 = a = 24
+= 24 = a = 25
+# Listed 21 contacts. EOF.

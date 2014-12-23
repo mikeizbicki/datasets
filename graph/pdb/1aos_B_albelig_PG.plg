@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aos, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ARGININE BIOSYNTHESIS, LYASE, UREA CYCLE
+> pdb_mol_name > ARGININOSUCCINATE LYASE
+> graphtype > albelig
+> resolution > 4.2
+> date > 10-JUL-97
+> header > LYASE
+> pdb_org_common > HUMAN
+> title > HUMAN ARGININOSUCCINATE LYASE
+> format_version > 2
+> pdbid > 1aos
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aos | B | albelig | 1 | 1 | H | 439 | 442 | B-22-  | B-25-  | EKFN 
+| 1aos | B | albelig | 2 | 2 | H | 448 | 468 | B-31-  | B-51-  | DRHLWEVDVQGSKAYSRGLEK 
+| 1aos | B | albelig | 3 | 3 | H | 474 | 483 | B-57-  | B-66-  | KAEMDQILHG 
+| 1aos | B | albelig | 4 | 4 | H | 497 | 508 | B-88-  | B-99-  | IHTANERRLKEL 
+| 1aos | B | albelig | 5 | 5 | H | 511 | 516 | B-102-  | B-107-  | ATAGKL 
+| 1aos | B | albelig | 6 | 6 | H | 522 | 559 | B-113-  | B-150-  | RNDQVVTDLRLWMRQTCSTLSGLLWELIRTMVDRAEAE 
+| 1aos | B | albelig | 7 | 7 | E | 563 | 567 | B-154-  | B-158-  | LFPGY 
+| 1aos | B | albelig | 8 | 8 | E | 572 | 577 | B-163-  | B-168-  | RAQPIR 
+| 1aos | B | albelig | 9 | 9 | H | 579 | 582 | B-170-  | B-173-  | SHWI 
+| 1aos | B | albelig | 10 | 10 | H | 584 | 603 | B-175-  | B-194-  | SHAVALTRDSERLLEVRKRI 
+| 1aos | B | albelig | 11 | 11 | H | 622 | 628 | B-213-  | B-219-  | RELLRAE 
+| 1aos | B | albelig | 12 | 12 | H | 638 | 643 | B-229-  | B-234-  | SMDATS 
+| 1aos | B | albelig | 13 | 13 | H | 646 | 672 | B-237-  | B-263-  | DFVAEFLFWRSLCMTHLSRMAEDLILY 
+| 1aos | B | albelig | 14 | 14 | H | 701 | 722 | B-292-  | B-313-  | SLELIRSKAGRVFGRCAGLLMT 
+| 1aos | B | albelig | 15 | 15 | H | 732 | 759 | B-323-  | B-350-  | KDLQEDKEAVFEVSDTMSAVLQVATGVI 
+| 1aos | B | albelig | 16 | 16 | H | 766 | 770 | B-357-  | B-361-  | QENMG 
+| 1aos | B | albelig | 17 | 17 | H | 775 | 778 | B-366-  | B-369-  | PDML 
+| 1aos | B | albelig | 18 | 18 | H | 780 | 788 | B-371-  | B-379-  | TDLAYYLVR 
+| 1aos | B | albelig | 19 | 19 | H | 793 | 810 | B-384-  | B-401-  | FRQAHEASGKAVFMAETK 
+| 1aos | B | albelig | 20 | 20 | H | 814 | 816 | B-405-  | B-407-  | LNQ 
+| 1aos | B | albelig | 21 | 21 | H | 819 | 825 | B-410-  | B-416-  | LQELQTI 
+| 1aos | B | albelig | 22 | 22 | H | 831 | 837 | B-422-  | B-428-  | GDVICVW 
+| 1aos | B | albelig | 23 | 23 | H | 839 | 843 | B-430-  | B-434-  | YRHSV 
+| 1aos | B | albelig | 24 | 24 | H | 854 | 869 | B-445-  | B-460-  | RSSVDWQIRQVRALLQ 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 4
+= 2 = m = 6
+= 2 = m = 11
+= 3 = m = 5
+= 4 = m = 6
+= 6 = a = 10
+= 6 = p = 13
+= 6 = p = 15
+= 6 = a = 24
+= 7 = a = 8
+= 7 = m = 16
+= 8 = m = 9
+= 10 = a = 13
+= 13 = a = 14
+= 13 = p = 15
+= 14 = a = 15
+= 17 = m = 18
+= 18 = m = 19
+= 18 = m = 22
+# Listed 20 contacts. EOF.

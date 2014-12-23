@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hwr, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ASPARTYL PROTEASE, HYDROLASE, ACID PROTEINASE
+> pdb_mol_name > HIV-1 PROTEASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 20-MAR-98
+> header > ASPARTYL PROTEASE
+> pdb_org_common > UNKNOWN
+> title > MOLECULAR RECOGNITION OF CYCLIC UREA HIV PROTEASE INHIBITORS
+> format_version > 2
+> pdbid > 1hwr
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hwr | B | albelig | 1 | 1 | E | 110 | 115 | B-10-  | B-15-  | LVTIKI 
+| 1hwr | B | albelig | 2 | 2 | E | 118 | 124 | B-18-  | B-24-  | QLKEALL 
+| 1hwr | B | albelig | 3 | 3 | E | 131 | 134 | B-31-  | B-34-  | TVLE 
+| 1hwr | B | albelig | 4 | 4 | E | 143 | 148 | B-43-  | B-48-  | KPKMIG 
+| 1hwr | B | albelig | 5 | 5 | E | 153 | 166 | B-53-  | B-66-  | FIKVRQYDQILIEI 
+| 1hwr | B | albelig | 6 | 6 | E | 169 | 178 | B-69-  | B-78-  | HKAIGTVLVG 
+| 1hwr | B | albelig | 7 | 7 | H | 187 | 190 | B-87-  | B-90-  | RNLL 
+| 1hwr | B | albelig | 8 | 8 | E | 196 | 198 | B-96-  | B-98-  | TLN 
+| 1hwr | B | albelig | 9 | 9 | L | 200 | 200 | B-216-  | B-216-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = l = 9
+= 3 = p = 6
+= 4 = a = 5
+= 4 = l = 9
+= 5 = a = 6
+# Listed 7 contacts. EOF.

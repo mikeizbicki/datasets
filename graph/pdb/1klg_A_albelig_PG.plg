@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1klg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HLA-DR1/TPI, ENTEROTOXIN C3, HUMAN MELANOMA ANTIGEN, CD4+ TCELLS, IMMUNE SYSTEM/TOXIN COMPLEX
+> pdb_mol_name > HLA CLASS II HISTOCOMPATIBILITY ANTIGEN, DR
+> graphtype > albelig
+> resolution > 2.4
+> date > 11-DEC-01
+> header > IMMUNE SYSTEM/TOXIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HLA-DR1/TPI(23-37, THR28-->ILE MUTANT)COMPLEXED WITH STAPHYLOCOCCAL ENTEROTOXIN C3 VARIANT 3B2(SEC3-3B2)
+> format_version > 2
+> pdbid > 1klg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1klg | A | albelig | 1 | 1 | E | 3 | 12 | A-6-  | A-15-  | VIIQAEFYLN 
+| 1klg | A | albelig | 2 | 2 | E | 16 | 23 | A-19-  | A-26-  | SGEFMFDF 
+| 1klg | A | albelig | 3 | 3 | E | 26 | 32 | A-29-  | A-35-  | DEIFHVD 
+| 1klg | A | albelig | 4 | 4 | E | 37 | 40 | A-40-  | A-43-  | ETVW 
+| 1klg | A | albelig | 5 | 5 | H | 45 | 48 | A-48-  | A-51-  | FGRF 
+| 1klg | A | albelig | 6 | 6 | H | 54 | 73 | A-57-  | A-76-  | QGALANIAVDKANLEIMTKR 
+| 1klg | A | albelig | 7 | 7 | E | 85 | 90 | A-88-  | A-93-  | EVTVLT 
+| 1klg | A | albelig | 8 | 8 | E | 100 | 109 | A-103-  | A-112-  | NVLIAFIDKF 
+| 1klg | A | albelig | 9 | 9 | E | 115 | 120 | A-118-  | A-123-  | NVTWLR 
+| 1klg | A | albelig | 10 | 10 | E | 142 | 150 | A-145-  | A-153-  | FRKFHYLPF 
+| 1klg | A | albelig | 11 | 11 | E | 157 | 163 | A-160-  | A-166-  | VYDARVE 
+| 1klg | A | albelig | 12 | 12 | E | 171 | 176 | A-174-  | A-179-  | LLKHWE 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = a = 3
+= 3 = a = 4
+= 7 = a = 8
+= 8 = a = 9
+= 8 = a = 10
+= 8 = p = 11
+= 9 = p = 10
+= 9 = a = 11
+= 11 = a = 12
+# Listed 11 contacts. EOF.

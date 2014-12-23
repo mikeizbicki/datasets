@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ksr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN BINDING PROTEIN, STRUCTURE, IMMUNOGLOBULIN, GELATIONFACTOR, ABP-120
+> pdb_mol_name > GELATION FACTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-FEB-97
+> header > ACTIN BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THE REPEATING SEGMENTS OF THE F-ACTIN CROSS-LINKINGGELATION FACTOR (ABP-120) HAVE AN IMMUNOGLOBULIN FOLD, NMR,20 STRUCTURES
+> format_version > 2
+> pdbid > 1ksr
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DICTYOSTELIUM DISCOIDEUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ksr | A | albelig | 1 | 1 | E | 6 | 9 | A-6-  | A-9-  | SYAE 
+| 1ksr | A | albelig | 2 | 2 | E | 22 | 28 | A-22-  | A-28-  | SKFKIHA 
+| 1ksr | A | albelig | 3 | 3 | E | 43 | 48 | A-43-  | A-48-  | FVVTIE 
+| 1ksr | A | albelig | 4 | 4 | E | 57 | 59 | A-57-  | A-59-  | MVD 
+| 1ksr | A | albelig | 5 | 5 | E | 64 | 69 | A-64-  | A-69-  | TYDVEF 
+| 1ksr | A | albelig | 6 | 6 | E | 75 | 83 | A-75-  | A-83-  | GDYVINLTL 
+| 1ksr | A | albelig | 7 | 7 | E | 94 | 97 | A-94-  | A-97-  | TVTV 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = a = 5
+= 3 = p = 5
+= 3 = a = 6
+= 4 = a = 5
+= 6 = a = 7
+# Listed 7 contacts. EOF.

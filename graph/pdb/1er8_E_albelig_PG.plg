@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1er8, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, ACID PROTEINASE
+> pdb_mol_name > ENDOTHIAPEPSIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 16-OCT-89
+> header > HYDROLASE
+> pdb_org_common > CHESNUT BLIGHT FUNGUS
+> title > THE ACTIVE SITE OF ASPARTIC PROTEINASES
+> format_version > 2
+> pdbid > 1er8
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > CRYPHONECTRIA PARASITICA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1er8 | E | albelig | 1 | 1 | E | 3 | 9 | E-0-  | E-6-  | GSATTTP 
+| 1er8 | E | albelig | 2 | 2 | E | 17 | 23 | E-14-  | E-20-  | YITPVQI 
+| 1er8 | E | albelig | 3 | 3 | E | 28 | 35 | E-25-  | E-32-  | QTLNLDFD 
+| 1er8 | E | albelig | 4 | 4 | E | 41 | 43 | E-38-  | E-40-  | LWV 
+| 1er8 | E | albelig | 5 | 5 | H | 50 | 52 | E-47-  | E-49-  | ASE 
+| 1er8 | E | albelig | 6 | 6 | H | 61 | 63 | E-58-  | E-60-  | PSK 
+| 1er8 | E | albelig | 7 | 7 | E | 68 | 78 | E-64-  | E-74-  | KLLSGATWSIS 
+| 1er8 | E | albelig | 8 | 8 | E | 84 | 96 | E-80-  | E-91-  | SSSGDVYTDTVSV 
+| 1er8 | E | albelig | 9 | 9 | E | 99 | 112 | E-94-  | E-107-  | LTVTGQAVESAKKV 
+| 1er8 | E | albelig | 10 | 10 | H | 114 | 117 | E-109-  | E-112-  | SSFT 
+| 1er8 | E | albelig | 11 | 11 | E | 124 | 127 | E-119-  | E-122-  | GLLG 
+| 1er8 | E | albelig | 12 | 12 | H | 131 | 133 | E-126-  | E-128-  | STL 
+| 1er8 | E | albelig | 13 | 13 | H | 144 | 151 | E-138-  | E-145-  | FFDNAKAS 
+| 1er8 | E | albelig | 14 | 14 | E | 156 | 160 | E-150-  | E-154-  | VFTAD 
+| 1er8 | E | albelig | 15 | 15 | E | 167 | 171 | E-163-  | E-167-  | GTYNF 
+| 1er8 | E | albelig | 16 | 16 | E | 184 | 187 | E-180-  | E-183-  | TYTA 
+| 1er8 | E | albelig | 17 | 17 | E | 196 | 204 | E-191-  | E-199-  | EWTSTGYAV 
+| 1er8 | E | albelig | 18 | 18 | E | 210 | 218 | E-204-  | E-214-  | KSTSIDGIA 
+| 1er8 | E | albelig | 19 | 19 | E | 225 | 227 | E-221-  | E-223-  | LYL 
+| 1er8 | E | albelig | 20 | 20 | H | 229 | 236 | E-225-  | E-232-  | ATVVSAYW 
+| 1er8 | E | albelig | 21 | 21 | E | 243 | 245 | E-238-A | E-240-  | KSS 
+| 1er8 | E | albelig | 22 | 22 | E | 250 | 254 | E-245-  | E-249-  | GYVFP 
+| 1er8 | E | albelig | 23 | 23 | E | 262 | 266 | E-257-  | E-261-  | FTFGV 
+| 1er8 | E | albelig | 24 | 24 | E | 269 | 273 | E-264-  | E-268-  | ARIVI 
+| 1er8 | E | albelig | 25 | 25 | H | 275 | 278 | E-270-  | E-273-  | GDYI 
+| 1er8 | E | albelig | 26 | 26 | E | 279 | 282 | E-274-  | E-277-  | DFGP 
+| 1er8 | E | albelig | 27 | 27 | E | 289 | 292 | E-282-B | E-285-  | SAFG 
+| 1er8 | E | albelig | 28 | 28 | E | 294 | 296 | E-287-  | E-289-  | IQS 
+| 1er8 | E | albelig | 29 | 29 | E | 303 | 305 | E-300-  | E-302-  | NIF 
+| 1er8 | E | albelig | 30 | 30 | H | 307 | 310 | E-304-  | E-307-  | DVAL 
+| 1er8 | E | albelig | 31 | 31 | E | 313 | 318 | E-310-  | E-315-  | AFVVFN 
+| 1er8 | E | albelig | 32 | 32 | E | 324 | 329 | E-320-  | E-325-  | TLGFAS 
+# Printed info on 32 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 15
+= 2 = a = 3
+= 2 = a = 8
+= 3 = p = 11
+= 4 = p = 9
+= 4 = a = 11
+= 7 = a = 8
+= 7 = a = 9
+= 8 = a = 9
+= 9 = m = 13
+= 14 = a = 15
+= 14 = a = 31
+= 16 = a = 17
+= 16 = a = 32
+= 17 = a = 18
+= 17 = a = 23
+= 18 = p = 29
+= 19 = p = 28
+= 19 = a = 29
+= 20 = m = 28
+= 21 = a = 22
+= 22 = a = 27
+= 23 = a = 24
+= 25 = m = 26
+= 26 = a = 27
+= 30 = m = 31
+= 31 = a = 32
+# Listed 28 contacts. EOF.

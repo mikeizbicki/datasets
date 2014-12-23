@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k9i, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C-TYPE LECTIN, PROTEIN CARBOHYDRATE COMPLEX, SUGAR BINDING PROTEIN
+> pdb_mol_name > MDC-SIGN1B TYPE I ISOFORM
+> graphtype > albelig
+> resolution > 2.5
+> date > 29-OCT-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > COMPLEX OF DC-SIGN AND GLCNAC2MAN3
+> format_version > 2
+> pdbid > 1k9i
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k9i | B | albelig | 1 | 1 | E | 136 | 138 | B-261-  | B-263-  | TFF 
+| 1k9i | B | albelig | 2 | 2 | E | 141 | 145 | B-266-  | B-270-  | NDYFM 
+| 1k9i | B | albelig | 3 | 3 | H | 152 | 160 | B-277-  | B-285-  | WHDSITAEK 
+| 1k9i | B | albelig | 4 | 4 | H | 172 | 183 | B-297-  | B-308-  | AEEQNFLQLQSS 
+| 1k9i | B | albelig | 5 | 5 | E | 189 | 194 | B-314-  | B-319-  | TWMGLS 
+| 1k9i | B | albelig | 6 | 6 | H | 212 | 217 | B-337-  | B-342-  | PSFKQY 
+| 1k9i | B | albelig | 7 | 7 | E | 231 | 235 | B-356-  | B-360-  | FAEFS 
+| 1k9i | B | albelig | 8 | 8 | E | 238 | 242 | B-363-  | B-367-  | GWNDD 
+| 1k9i | B | albelig | 9 | 9 | E | 249 | 255 | B-374-  | B-380-  | FWIEKKS 
+| 1k9i | B | albelig | 10 | 10 | L | 1301 | 1301 | B-501-  | B-501-  | J 
+| 1k9i | B | albelig | 11 | 11 | L | 1302 | 1302 | B-502-  | B-502-  | J 
+| 1k9i | B | albelig | 12 | 12 | L | 1303 | 1303 | B-503-  | B-503-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = a = 9
+= 3 = m = 9
+= 4 = m = 7
+= 5 = a = 7
+= 5 = a = 9
+= 6 = m = 8
+= 7 = a = 8
+= 8 = l = 10
+= 8 = l = 11
+= 10 = l = 12
+# Listed 12 contacts. EOF.

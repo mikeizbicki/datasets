@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jts, chain V.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DODECAMER, DNA BINDING PROTEIN
+> pdb_mol_name > UNKNOWN
+> graphtype > albelig
+> resolution > 2.6
+> date > 22-AUG-01
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > DNA PROTECTION AND BINDING BY E. COLI DPS PROTEIN
+> format_version > 2
+> pdbid > 1jts
+> experiment > X-RAY DIFFRACTION
+> chainid > V
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jts | V | albelig | 1 | 1 | H | 3292 | 3322 | V-23-  | V-53-  | DSEKKATVELLNRQVIQFIDLSLITKQAHWN 
+| 1jts | V | albelig | 2 | 2 | H | 3328 | 3355 | V-59-  | V-86-  | FIAVHEMLDGFRTALICHLATMAERAVQ 
+| 1jts | V | albelig | 3 | 3 | H | 3364 | 3370 | V-95-  | V-101-  | TQVINSK 
+| 1jts | V | albelig | 4 | 4 | H | 3383 | 3407 | V-114-  | V-138-  | VQDHLKELADRYAIVANDVRKAIGE 
+| 1jts | V | albelig | 5 | 5 | H | 3411 | 3434 | V-142-  | V-165-  | DDTADILTAASRDLDKFLWFIESN 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = a = 4
+= 1 = p = 5
+= 2 = p = 4
+= 2 = a = 5
+= 4 = a = 5
+# Listed 7 contacts. EOF.

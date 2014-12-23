@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ery, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHEROMONE
+> pdb_mol_name > PHEROMONE ER-11
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-MAR-96
+> header > PHEROMONE
+> pdb_org_common > UNKNOWN
+> title > PHEROMONE ER-11, NMR
+> format_version > 2
+> pdbid > 1ery
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > EUPLOTES RAIKOVI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ery | A | albelig | 1 | 1 | H | 2 | 8 | A-2-  | A-8-  | EAANAAA 
+| 1ery | A | albelig | 2 | 2 | H | 12 | 18 | A-12-  | A-18-  | ITLCNLY 
+| 1ery | A | albelig | 3 | 3 | H | 20 | 33 | A-20-  | A-33-  | GPLIEICELTVMQN 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+# Listed 1 contacts. EOF.

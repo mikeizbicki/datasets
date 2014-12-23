@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jy0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA TREFOIL, HORMONE/GROWTH FACTOR COMPLEX
+> pdb_mol_name > ACIDIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > 1.7
+> date > 10-SEP-01
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > HUMAN ACIDIC FIBROBLAST GROWTH FACTOR. 141 AMINO ACID FORMWITH AMINO TERMINAL HIS TAG AND CYS 117 REPLACED WITH VAL(C117V).
+> format_version > 2
+> pdbid > 1jy0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jy0 | B | albelig | 1 | 1 | E | 157 | 161 | B-12-  | B-16-  | KLLYC 
+| 1jy0 | B | albelig | 2 | 2 | E | 166 | 170 | B-21-  | B-25-  | HFLRI 
+| 1jy0 | B | albelig | 3 | 3 | E | 176 | 179 | B-31-  | B-34-  | VDGT 
+| 1jy0 | B | albelig | 4 | 4 | E | 189 | 193 | B-44-  | B-48-  | LQLSA 
+| 1jy0 | B | albelig | 5 | 5 | E | 198 | 203 | B-53-  | B-58-  | EVYIKS 
+| 1jy0 | B | albelig | 6 | 6 | E | 209 | 212 | B-64-  | B-67-  | YLAM 
+| 1jy0 | B | albelig | 7 | 7 | E | 218 | 221 | B-73-  | B-76-  | LYGS 
+| 1jy0 | B | albelig | 8 | 8 | H | 226 | 228 | B-81-  | B-83-  | EEC 
+| 1jy0 | B | albelig | 9 | 9 | E | 230 | 235 | B-85-  | B-90-  | FLERLE 
+| 1jy0 | B | albelig | 10 | 10 | E | 239 | 244 | B-94-  | B-99-  | YNTYIS 
+| 1jy0 | B | albelig | 11 | 11 | H | 248 | 250 | B-103-  | B-105-  | AEK 
+| 1jy0 | B | albelig | 12 | 12 | H | 265 | 267 | B-120-  | B-122-  | GPR 
+| 1jy0 | B | albelig | 13 | 13 | E | 277 | 281 | B-132-  | B-136-  | FLPLP 
+| 1jy0 | B | albelig | 14 | 14 | L | 284 | 284 | B-161-  | B-161-  | J 
+| 1jy0 | B | albelig | 15 | 15 | L | 285 | 285 | B-162-  | B-162-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 13
+= 2 = a = 3
+= 3 = a = 7
+= 4 = a = 5
+= 5 = a = 6
+= 5 = m = 8
+= 5 = p = 9
+= 6 = a = 7
+= 6 = m = 8
+= 9 = a = 10
+= 9 = l = 14
+= 10 = p = 13
+= 11 = l = 14
+# Listed 14 contacts. EOF.

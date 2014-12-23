@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ae9, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA RECOMBINATION, INTEGRASE, SITE-SPECIFIC RECOMBINATION
+> pdb_mol_name > LAMBDA INTEGRASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 06-MAR-97
+> header > DNA RECOMBINATION
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE LAMBDA INTEGRASE CATALYTIC CORE
+> format_version > 2
+> pdbid > 1ae9
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE LAMBDA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ae9 | B | albelig | 1 | 1 | H | 179 | 191 | B-182-  | B-194-  | ADEYLKIYQAAES 
+| 1ae9 | B | albelig | 2 | 2 | H | 194 | 206 | B-197-  | B-209-  | CWLRLAMELAVVT 
+| 1ae9 | B | albelig | 3 | 3 | H | 210 | 215 | B-213-  | B-218-  | VGDLCE 
+| 1ae9 | B | albelig | 4 | 4 | H | 218 | 220 | B-221-  | B-223-  | WSD 
+| 1ae9 | B | albelig | 5 | 5 | E | 225 | 229 | B-228-  | B-232-  | YLYVE 
+| 1ae9 | B | albelig | 6 | 6 | E | 236 | 240 | B-239-  | B-243-  | KIAIP 
+| 1ae9 | B | albelig | 7 | 7 | H | 252 | 263 | B-255-  | B-266-  | MKETLDKCKEIL 
+| 1ae9 | B | albelig | 8 | 8 | H | 279 | 292 | B-282-  | B-295-  | SGTVSRYFMRARKA 
+| 1ae9 | B | albelig | 9 | 9 | H | 306 | 318 | B-309-  | B-321-  | ELRSLSARLYEKQ 
+| 1ae9 | B | albelig | 10 | 10 | H | 321 | 328 | B-324-  | B-331-  | DKFAQHLL 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 7
+= 2 = m = 8
+= 2 = m = 9
+= 3 = m = 8
+= 4 = m = 5
+= 5 = a = 6
+= 9 = a = 10
+# Listed 8 contacts. EOF.

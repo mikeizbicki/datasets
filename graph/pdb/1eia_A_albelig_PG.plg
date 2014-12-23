@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eia, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRAL CAPSID, EIAV, HIV, LENTIVIRUS, CRYSTAL STRUCTURE,VIRAL PROTEIN
+> pdb_mol_name > EIAV CAPSID PROTEIN P26
+> graphtype > albelig
+> resolution > 2.7
+> date > 15-JUL-98
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > X-RAY CRYSTAL STRUCTURE OF EQUINE INFECTIOUS ANEMIA VIRUS(EIAV) CAPSID PROTEIN P26
+> format_version > 2
+> pdbid > 1eia
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > EQUINE INFECTIOUS ANEMIA VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eia | A | albelig | 1 | 1 | H | 7 | 13 | A-22-  | A-28-  | TWVNTIQ 
+| 1eia | A | albelig | 2 | 2 | H | 20 | 29 | A-35-  | A-44-  | EASQNLFGIL 
+| 1eia | A | albelig | 3 | 3 | H | 35 | 44 | A-50-  | A-59-  | SEEMNAFLDV 
+| 1eia | A | albelig | 4 | 4 | H | 49 | 69 | A-64-  | A-84-  | AGQKQILLDAIDKIADDWDNR 
+| 1eia | A | albelig | 5 | 5 | H | 89 | 92 | A-104-  | A-107-  | ARFI 
+| 1eia | A | albelig | 6 | 6 | H | 99 | 103 | A-114-  | A-118-  | RERQM 
+| 1eia | A | albelig | 7 | 7 | H | 105 | 130 | A-120-  | A-145-  | PAFDQFRQTYRQWIIEAMSEGIKVMI 
+| 1eia | A | albelig | 8 | 8 | H | 135 | 137 | A-150-  | A-152-  | AQN 
+| 1eia | A | albelig | 9 | 9 | H | 146 | 158 | A-161-  | A-173-  | YPEFVDRLLSQIK 
+| 1eia | A | albelig | 10 | 10 | H | 166 | 177 | A-181-  | A-192-  | ISKFLTDTLTIQ 
+| 1eia | A | albelig | 11 | 11 | H | 181 | 186 | A-196-  | A-201-  | EEARNA 
+| 1eia | A | albelig | 12 | 12 | H | 196 | 202 | A-211-  | A-217-  | LEEKMYA 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 7
+= 3 = m = 7
+= 4 = a = 7
+= 5 = m = 7
+= 9 = a = 10
+= 9 = m = 12
+# Listed 7 contacts. EOF.

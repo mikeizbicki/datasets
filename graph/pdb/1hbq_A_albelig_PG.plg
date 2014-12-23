@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hbq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RETINOL TRANSPORT
+> pdb_mol_name > RETINOL BINDING PROTEIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 05-FEB-93
+> header > RETINOL TRANSPORT
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF LIGANDED AND UNLIGANDED FORMS OFBOVINE PLASMA RETINOL-BINDING PROTEIN
+> format_version > 2
+> pdbid > 1hbq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hbq | A | albelig | 1 | 1 | H | 6 | 8 | A-6-  | A-8-  | VSS 
+| 1hbq | A | albelig | 2 | 2 | E | 22 | 30 | A-22-  | A-30-  | GTWYAMAKK 
+| 1hbq | A | albelig | 3 | 3 | E | 39 | 47 | A-39-  | A-47-  | DNIVAEFSV 
+| 1hbq | A | albelig | 4 | 4 | E | 53 | 62 | A-53-  | A-62-  | MSATAKGRVR 
+| 1hbq | A | albelig | 5 | 5 | E | 68 | 79 | A-68-  | A-79-  | DVNADMVGTFTD 
+| 1hbq | A | albelig | 6 | 6 | E | 85 | 92 | A-85-  | A-92-  | KFKMKYWG 
+| 1hbq | A | albelig | 7 | 7 | E | 100 | 109 | A-100-  | A-109-  | GNDDHWIIDT 
+| 1hbq | A | albelig | 8 | 8 | E | 114 | 123 | A-114-  | A-123-  | FAVQYSCRLL 
+| 1hbq | A | albelig | 9 | 9 | E | 129 | 138 | A-129-  | A-138-  | CADSYSFVFA 
+| 1hbq | A | albelig | 10 | 10 | H | 146 | 158 | A-146-  | A-158-  | PEVQKIVRQRQEE 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 9
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+# Listed 8 contacts. EOF.

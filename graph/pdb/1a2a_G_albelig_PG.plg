@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a2a, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PRESYNAPTIC NEUROTOXIN, PHOSPHOLIPASE A2, HYDROLASE, LIPIDDEGRADATION
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 2.8
+> date > 25-DEC-97
+> header > PRESYNAPTIC NEUROTOXIN
+> pdb_org_common > HALYS VIPER
+> title > AGKISTROTOXIN, A PHOSPHOLIPASE A2-TYPE PRESYNAPTICNEUROTOXIN FROM AGKISTRODON HALYS PALLAS
+> format_version > 2
+> pdbid > 1a2a
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > GLOYDIUS HALYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a2a | G | albelig | 1 | 1 | H | 740 | 751 | G-2-  | G-14-  | LLQFNKMIKEET 
+| 1a2a | G | albelig | 2 | 2 | H | 777 | 791 | G-40-  | G-54-  | GTDRMLFVHDNCYGR 
+| 1a2a | G | albelig | 3 | 3 | H | 818 | 840 | G-90-  | G-112-  | NPEEQIQECDRVAAEMFRRNLDT 
+| 1a2a | G | albelig | 4 | 4 | H | 843 | 845 | G-115-  | G-117-  | NGY 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = a = 3
+# Listed 2 contacts. EOF.

@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kph, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MIXED ALPHA BETA FOLD, STRUCTURAL GENOMICS, PSI, PROTEINSTRUCTURE INITIATIVE, TB STRUCTURAL GENOMICS CONSORTIUM,TBSGC, TRANSFERASE
+> pdb_mol_name > CYCLOPROPANE-FATTY-ACYL-PHOSPHOLIPID SYNTHASE 1
+> graphtype > albelig
+> resolution > 2.0
+> date > 30-DEC-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF MYCOLIC ACID CYCLOPROPANE SYNTHASECMAA1 COMPLEXED WITH SAH AND DDDMAB
+> format_version > 2
+> pdbid > 1kph
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kph | A | albelig | 1 | 1 | H | 5 | 12 | A-9-  | A-16-  | FANVQAHY 
+| 1kph | A | albelig | 2 | 2 | H | 16 | 19 | A-20-  | A-23-  | DDFF 
+| 1kph | A | albelig | 3 | 3 | H | 41 | 53 | A-45-  | A-57-  | LQEAQIAKIDLAL 
+| 1kph | A | albelig | 4 | 4 | E | 63 | 67 | A-67-  | A-71-  | TLLDV 
+| 1kph | A | albelig | 5 | 5 | H | 73 | 82 | A-77-  | A-86-  | ATMMRAVEKY 
+| 1kph | A | albelig | 6 | 6 | E | 85 | 89 | A-89-  | A-93-  | NVVGL 
+| 1kph | A | albelig | 7 | 7 | H | 93 | 105 | A-97-  | A-109-  | KNQANHVQQLVAN 
+| 1kph | A | albelig | 8 | 8 | E | 112 | 115 | A-116-  | A-119-  | KRVL 
+| 1kph | A | albelig | 9 | 9 | H | 119 | 121 | A-123-  | A-125-  | WEQ 
+| 1kph | A | albelig | 10 | 10 | E | 128 | 132 | A-132-  | A-136-  | RIVSI 
+| 1kph | A | albelig | 11 | 11 | H | 135 | 137 | A-139-  | A-141-  | FEH 
+| 1kph | A | albelig | 12 | 12 | H | 140 | 153 | A-144-  | A-157-  | HERYDAFFSLAHRL 
+| 1kph | A | albelig | 13 | 13 | E | 159 | 167 | A-163-  | A-171-  | VMLLHTITG 
+| 1kph | A | albelig | 14 | 14 | H | 170 | 176 | A-174-  | A-180-  | PKEIHER 
+| 1kph | A | albelig | 15 | 15 | H | 182 | 195 | A-186-  | A-199-  | FTFARFLKFIVTEI 
+| 1kph | A | albelig | 16 | 16 | H | 204 | 213 | A-208-  | A-217-  | IPMVQECASA 
+| 1kph | A | albelig | 17 | 17 | E | 217 | 223 | A-221-  | A-227-  | TVTRVQS 
+| 1kph | A | albelig | 18 | 18 | H | 225 | 241 | A-229-  | A-245-  | QPHYAKTLDLWSAALQA 
+| 1kph | A | albelig | 19 | 19 | H | 243 | 249 | A-247-  | A-253-  | KGQAIAL 
+| 1kph | A | albelig | 20 | 20 | H | 252 | 271 | A-256-  | A-275-  | EEVYERYMKYLTGCAEMFRI 
+| 1kph | A | albelig | 21 | 21 | E | 274 | 282 | A-278-  | A-286-  | IDVNQFTCQ 
+| 1kph | A | albelig | 22 | 22 | L | 1142 | 1142 | A-1902-  | A-1902-  | J 
+| 1kph | A | albelig | 23 | 23 | L | 1143 | 1143 | A-1900-  | A-1900-  | J 
+| 1kph | A | albelig | 24 | 24 | L | 1144 | 1144 | A-1901-  | A-1901-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 23
+= 1 = l = 24
+= 3 = m = 5
+= 4 = p = 6
+= 4 = p = 10
+= 4 = l = 23
+= 6 = p = 8
+= 6 = l = 23
+= 7 = m = 8
+= 7 = l = 23
+= 9 = m = 12
+= 9 = l = 23
+= 10 = p = 13
+= 10 = l = 22
+= 10 = l = 23
+= 11 = m = 13
+= 11 = l = 22
+= 11 = l = 23
+= 11 = l = 24
+= 13 = a = 21
+= 13 = l = 22
+= 13 = l = 24
+= 15 = a = 20
+= 15 = l = 24
+= 17 = a = 21
+= 18 = a = 20
+= 18 = m = 21
+= 18 = l = 22
+= 18 = l = 24
+= 20 = m = 21
+= 20 = l = 24
+= 21 = l = 22
+= 21 = l = 24
+= 22 = l = 24
+= 23 = l = 24
+# Listed 35 contacts. EOF.

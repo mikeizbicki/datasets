@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1arq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GENE-REGULATING PROTEIN
+> pdb_mol_name > ARC REPRESSOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 24-AUG-93
+> header > GENE-REGULATING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > RELAXATION MATRIX REFINEMENT OF THE SOLUTION STRUCTURE OFTHE ARC REPRESSOR
+> format_version > 2
+> pdbid > 1arq
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE P22
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1arq | A | albelig | 1 | 1 | E | 9 | 13 | A-9-  | A-13-  | QFNLR 
+| 1arq | A | albelig | 2 | 2 | H | 16 | 29 | A-16-  | A-29-  | REVLDLVRKVAEEN 
+| 1arq | A | albelig | 3 | 3 | H | 33 | 45 | A-33-  | A-45-  | VNSEIYQRVMESF 
+| 1arq | A | albelig | 4 | 4 | H | 49 | 52 | A-49-  | A-52-  | GRIG 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+# Listed 1 contacts. EOF.

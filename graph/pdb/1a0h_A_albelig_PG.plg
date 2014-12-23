@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a0h, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, COAGULATION, THROMBIN, PROTHROMBIN, MEIZOTHROMBIN,HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > MEIZOTHROMBIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 30-NOV-97
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > THE X-RAY CRYSTAL STRUCTURE OF PPACK-MEIZOTHROMBIN DESF1:KRINGLE/THROMBIN AND CARBOHYDRATE/KRINGLE/THROMBIN INTERACTIONS ANDLOCATION OF THE LINKER CHAIN
+> format_version > 2
+> pdbid > 1a0h
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a0h | A | albelig | 1 | 1 | H | 10 | 12 | A-173-  | A-175-  | DRG 
+| 1a0h | A | albelig | 2 | 2 | H | 36 | 39 | A-199-  | A-202-  | AKAL 
+| 1a0h | A | albelig | 3 | 3 | E | 67 | 69 | A-230-  | A-232-  | WNY 
+| 1a0h | A | albelig | 4 | 4 | E | 77 | 79 | A-240-  | A-242-  | FEY 
+| 1a0h | A | albelig | 5 | 5 | H | 129 | 131 | A-290-  | A-292-  | EAD 
+| 1a0h | A | albelig | 6 | 6 | H | 148 | 155 | A-309-  | A-316-  | EKELFESY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+# Listed 1 contacts. EOF.

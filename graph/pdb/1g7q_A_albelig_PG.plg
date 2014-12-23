@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g7q, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC CLASS I, H-2KB, MUC1, VNTR, MUCIN, IMMUNE SYSTEM
+> pdb_mol_name > H-2 CLASS I HISTOCOMPATIBILITY ANTIGEN, K-B ALPHA CHAIN
+> graphtype > albelig
+> resolution > 1.6
+> date > 13-NOV-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF MHC CLASS I H-2KB HEAVY CHAIN COMPLEXED WITHBETA-2 MICROGLOBULIN AND MUC1 VNTR PEPTIDE SAPDTRPA
+> format_version > 2
+> pdbid > 1g7q
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g7q | A | albelig | 1 | 1 | E | 3 | 12 | A-3-  | A-12-  | HSLRYFVTAV 
+| 1g7q | A | albelig | 2 | 2 | E | 21 | 28 | A-21-  | A-28-  | RYMEVGYV 
+| 1g7q | A | albelig | 3 | 3 | E | 31 | 37 | A-31-  | A-37-  | TEFVRFD 
+| 1g7q | A | albelig | 4 | 4 | H | 50 | 54 | A-50-  | A-54-  | RWMEQ 
+| 1g7q | A | albelig | 5 | 5 | H | 57 | 84 | A-57-  | A-84-  | PEYWERETQKAKGNEQSFRVDLRTLLGY 
+| 1g7q | A | albelig | 6 | 6 | E | 94 | 103 | A-94-  | A-103-  | TIQVISGAEV 
+| 1g7q | A | albelig | 7 | 7 | E | 109 | 118 | A-109-  | A-118-  | LLRGYQQYAY 
+| 1g7q | A | albelig | 8 | 8 | E | 121 | 126 | A-121-  | A-126-  | CDYIAL 
+| 1g7q | A | albelig | 9 | 9 | E | 133 | 135 | A-133-  | A-135-  | WTA 
+| 1g7q | A | albelig | 10 | 10 | H | 138 | 150 | A-138-  | A-150-  | MAALITKHKWEQA 
+| 1g7q | A | albelig | 11 | 11 | H | 152 | 164 | A-152-  | A-164-  | EAERLRAYLEGTA 
+| 1g7q | A | albelig | 12 | 12 | H | 165 | 174 | A-165-  | A-174-  | VEWLRRYLKN 
+| 1g7q | A | albelig | 13 | 13 | H | 176 | 179 | A-176-  | A-179-  | NATL 
+| 1g7q | A | albelig | 14 | 14 | E | 186 | 194 | A-186-  | A-194-  | KAHVTHHSR 
+| 1g7q | A | albelig | 15 | 15 | E | 198 | 208 | A-198-  | A-208-  | KVTLRNWALGF 
+| 1g7q | A | albelig | 16 | 16 | E | 214 | 219 | A-214-  | A-219-  | TLTWQL 
+| 1g7q | A | albelig | 17 | 17 | E | 241 | 250 | A-241-  | A-250-  | FQKWASVVVP 
+| 1g7q | A | albelig | 18 | 18 | H | 254 | 256 | A-254-  | A-256-  | EQY 
+| 1g7q | A | albelig | 19 | 19 | E | 257 | 262 | A-257-  | A-262-  | YTNHVY 
+| 1g7q | A | albelig | 20 | 20 | E | 270 | 272 | A-270-  | A-272-  | LTL 
+| 1g7q | A | albelig | 21 | 21 | L | 384 | 384 | A-900-  | A-900-  | J 
+| 1g7q | A | albelig | 22 | 22 | L | 385 | 385 | A-951-  | A-951-  | J 
+| 1g7q | A | albelig | 23 | 23 | L | 386 | 386 | A-952-  | A-952-  | J 
+| 1g7q | A | albelig | 24 | 24 | L | 387 | 387 | A-953-  | A-953-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 12
+= 2 = a = 3
+= 2 = m = 5
+= 4 = l = 24
+= 5 = m = 6
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+= 12 = m = 13
+= 12 = l = 22
+= 12 = l = 24
+= 13 = l = 22
+= 13 = l = 24
+= 14 = a = 15
+= 15 = a = 17
+= 16 = p = 17
+= 16 = a = 19
+= 18 = m = 19
+= 19 = a = 20
+= 22 = l = 23
+= 22 = l = 24
+= 23 = l = 24
+# Listed 27 contacts. EOF.

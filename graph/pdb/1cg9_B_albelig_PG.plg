@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cg9, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC CLASS I, HISTOCOMPATIBILITY COMPLEX, HLA B3501, COMPLEX(MHC CLASS I/ PEPTIDE), SFR8-B6 EPITOPE
+> pdb_mol_name > PROTEIN (BETA-2-MICROGLOBULIN)
+> graphtype > albelig
+> resolution > 2.7
+> date > 25-MAR-99
+> header > MHC CLASS I
+> pdb_org_common > HUMAN
+> title > COMPLEX RECOGNITION OF THE SUPERTYPIC BW6-DETERMINANT ONHLA-B AND-C MOLECULES BY THE MONOCLONAL ANTIBODY SFR8-B6
+> format_version > 2
+> pdbid > 1cg9
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cg9 | B | albelig | 1 | 1 | E | 285 | 290 | B-7-  | B-12-  | KIQVYS 
+| 1cg9 | B | albelig | 2 | 2 | E | 300 | 309 | B-22-  | B-31-  | NFLNCYVSGF 
+| 1cg9 | B | albelig | 3 | 3 | E | 315 | 320 | B-37-  | B-42-  | EVDLLK 
+| 1cg9 | B | albelig | 4 | 4 | E | 341 | 349 | B-63-  | B-71-  | FYLLYYTEF 
+| 1cg9 | B | albelig | 5 | 5 | E | 357 | 362 | B-79-  | B-84-  | YACRVN 
+| 1cg9 | B | albelig | 6 | 6 | E | 370 | 373 | B-92-  | B-95-  | KIVK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = p = 5
+= 3 = a = 5
+= 5 = a = 6
+# Listed 5 contacts. EOF.

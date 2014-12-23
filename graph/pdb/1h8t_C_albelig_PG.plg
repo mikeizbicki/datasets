@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h8t, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS, ECHOVIRUS COAT PROTEIN, ECHOVIRUS, ICOSAHEDRAL VIRUS
+> pdb_mol_name > ECHOVIRUS 11 COAT PROTEIN VP3
+> graphtype > albelig
+> resolution > 2.9
+> date > 15-FEB-01
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > ECHOVIRUS 11
+> format_version > 2
+> pdbid > 1h8t
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ECHOVIRUS 11
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h8t | C | albelig | 1 | 1 | H | 586 | 590 | C-2043-  | C-2047-  | LMEIA 
+| 1h8t | C | albelig | 2 | 2 | H | 608 | 611 | C-2065-  | C-2068-  | MDIY 
+| 1h8t | C | albelig | 3 | 3 | E | 613 | 616 | C-2070-  | C-2073-  | IPVQ 
+| 1h8t | C | albelig | 4 | 4 | E | 624 | 629 | C-2081-  | C-2086-  | QVFGFQ 
+| 1h8t | C | albelig | 5 | 5 | H | 636 | 639 | C-2093-  | C-2096-  | GVFK 
+| 1h8t | C | albelig | 6 | 6 | H | 642 | 647 | C-2099-  | C-2104-  | LLGEIL 
+| 1h8t | C | albelig | 7 | 7 | E | 650 | 654 | C-2107-  | C-2111-  | YAHWS 
+| 1h8t | C | albelig | 8 | 8 | E | 657 | 663 | C-2114-  | C-2120-  | IKLTFVF 
+| 1h8t | C | albelig | 9 | 9 | E | 670 | 678 | C-2127-  | C-2135-  | TGKFLLAYA 
+| 1h8t | C | albelig | 10 | 10 | H | 688 | 691 | C-2145-  | C-2148-  | RKDA 
+| 1h8t | C | albelig | 11 | 11 | E | 695 | 700 | C-2152-  | C-2157-  | THIIWD 
+| 1h8t | C | albelig | 12 | 12 | E | 706 | 711 | C-2163-  | C-2168-  | SCVLCI 
+| 1h8t | C | albelig | 13 | 13 | E | 732 | 742 | C-2189-  | C-2199-  | NVTCWYQTGIV 
+| 1h8t | C | albelig | 14 | 14 | E | 750 | 759 | C-2207-  | C-2216-  | SCSIMCFVSA 
+| 1h8t | C | albelig | 15 | 15 | E | 764 | 768 | C-2221-  | C-2225-  | SVRLL 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 14
+= 3 = a = 14
+= 4 = a = 13
+= 7 = a = 15
+= 8 = a = 12
+= 8 = a = 14
+= 9 = a = 11
+= 9 = a = 13
+= 10 = m = 13
+= 11 = a = 12
+# Listed 10 contacts. EOF.

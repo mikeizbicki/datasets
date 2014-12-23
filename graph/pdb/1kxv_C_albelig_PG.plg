@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxv, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA 8 ALPHA 8, BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+> pdb_mol_name > CAMELID VHH DOMAIN CAB10
+> graphtype > albelig
+> resolution > 1.6
+> date > 01-FEB-02
+> header > HYDROLASE, IMMUNE SYSTEM
+> pdb_org_common > ARABIAN CAMEL
+> title > CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATICALPHA-AMYLASE
+> format_version > 2
+> pdbid > 1kxv
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CAMELUS DROMEDARIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxv | C | albelig | 1 | 1 | E | 996 | 1000 | C-3-  | C-7-  | QLVES 
+| 1kxv | C | albelig | 2 | 2 | E | 1003 | 1005 | C-10-  | C-12-  | GTV 
+| 1kxv | C | albelig | 3 | 3 | E | 1011 | 1018 | C-18-  | C-25-  | LRLSKAAS 
+| 1kxv | C | albelig | 4 | 4 | E | 1025 | 1032 | C-32-  | C-39-  | YDMSWYRR 
+| 1kxv | C | albelig | 5 | 5 | E | 1038 | 1044 | C-45-  | C-51-  | RDFVSGI 
+| 1kxv | C | albelig | 6 | 6 | E | 1050 | 1052 | C-57-  | C-59-  | TTY 
+| 1kxv | C | albelig | 7 | 7 | H | 1054 | 1056 | C-61-  | C-63-  | DSV 
+| 1kxv | C | albelig | 8 | 8 | E | 1060 | 1064 | C-67-  | C-71-  | FTISQ 
+| 1kxv | C | albelig | 9 | 9 | E | 1070 | 1075 | C-77-  | C-82-  | TAYLQM 
+| 1kxv | C | albelig | 10 | 10 | H | 1080 | 1082 | C-87-  | C-89-  | PDD 
+| 1kxv | C | albelig | 11 | 11 | E | 1084 | 1092 | C-91-  | C-99-  | AMYYKKPSL 
+| 1kxv | C | albelig | 12 | 12 | E | 1108 | 1112 | C-115-  | C-119-  | TQVTV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 11
+= 2 = p = 12
+= 3 = a = 4
+= 3 = a = 9
+= 3 = p = 11
+= 4 = a = 5
+= 4 = p = 9
+= 4 = a = 11
+= 5 = a = 6
+= 5 = p = 8
+= 6 = a = 8
+= 8 = a = 9
+= 11 = a = 12
+# Listed 14 contacts. EOF.

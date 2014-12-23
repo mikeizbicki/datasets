@@ -1,0 +1,87 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1buc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACYL-COA DEHYDROGENASE SHORT-CHAIN ACYL-COA DEHYDROGENASE,FLAVOPROTEIN, OXIDOREDUCTASE
+> pdb_mol_name > BUTYRYL-COA DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 06-SEP-94
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THREE-DIMENSIONAL STRUCTURE OF BUTYRYL-COA DEHYDROGENASE FROMMEGASPHAERA ELSDENII
+> format_version > 2
+> pdbid > 1buc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MEGASPHAERA ELSDENII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1buc | A | albelig | 1 | 1 | H | 7 | 24 | A-7-  | A-24-  | DIQQDFLKLAHDFGEKKL 
+| 1buc | A | albelig | 2 | 2 | H | 28 | 34 | A-28-  | A-34-  | VTERDHK 
+| 1buc | A | albelig | 3 | 3 | H | 39 | 46 | A-39-  | A-46-  | KELIDELL 
+| 1buc | A | albelig | 4 | 4 | H | 50 | 52 | A-50-  | A-52-  | ITG 
+| 1buc | A | albelig | 5 | 5 | H | 57 | 59 | A-57-  | A-59-  | EKY 
+| 1buc | A | albelig | 6 | 6 | H | 62 | 65 | A-62-  | A-65-  | SGDD 
+| 1buc | A | albelig | 7 | 7 | H | 69 | 82 | A-69-  | A-82-  | VLSYILAVEELAKY 
+| 1buc | A | albelig | 8 | 8 | H | 84 | 98 | A-84-  | A-98-  | AGVAITLSATVSLCA 
+| 1buc | A | albelig | 9 | 9 | H | 99 | 104 | A-99-  | A-104-  | NPIWQF 
+| 1buc | A | albelig | 10 | 10 | H | 107 | 114 | A-107-  | A-114-  | EAQKEKFL 
+| 1buc | A | albelig | 11 | 11 | H | 115 | 119 | A-115-  | A-119-  | VPLVE 
+| 1buc | A | albelig | 12 | 12 | E | 124 | 127 | A-124-  | A-127-  | GAFG 
+| 1buc | A | albelig | 13 | 13 | H | 137 | 139 | A-137-  | A-139-  | ASG 
+| 1buc | A | albelig | 14 | 14 | E | 143 | 146 | A-143-  | A-146-  | IATK 
+| 1buc | A | albelig | 15 | 15 | E | 152 | 162 | A-152-  | A-162-  | YTLNGSKIFIT 
+| 1buc | A | albelig | 16 | 16 | E | 169 | 175 | A-169-  | A-175-  | IYIVFAM 
+| 1buc | A | albelig | 17 | 17 | E | 185 | 191 | A-185-  | A-191-  | ITAFILE 
+| 1buc | A | albelig | 18 | 18 | E | 197 | 202 | A-197-  | A-202-  | FTYGKK 
+| 1buc | A | albelig | 19 | 19 | E | 213 | 223 | A-213-  | A-223-  | TMELVFQDVKV 
+| 1buc | A | albelig | 20 | 20 | H | 225 | 227 | A-225-  | A-227-  | AEN 
+| 1buc | A | albelig | 21 | 21 | H | 235 | 271 | A-235-  | A-271-  | GFKIAMMTLDGGRIGVAAQALGIAEAALADAVEYSKQ 
+| 1buc | A | albelig | 22 | 22 | H | 279 | 281 | A-279-  | A-281-  | LCK 
+| 1buc | A | albelig | 23 | 23 | H | 283 | 312 | A-283-  | A-312-  | QSISFKLADMKMQIEAARNLVYKAACKKQE 
+| 1buc | A | albelig | 24 | 24 | H | 317 | 347 | A-317-  | A-347-  | TVDAAIAKRVASDVAMRVTTEAVQIFGGYGY 
+| 1buc | A | albelig | 25 | 25 | H | 353 | 364 | A-353-  | A-364-  | VARHMRDAKITQ 
+| 1buc | A | albelig | 26 | 26 | H | 370 | 381 | A-370-  | A-381-  | NEVQLMVTGGAL 
+| 1buc | A | albelig | 27 | 27 | L | 768 | 768 | A-384-  | A-384-  | J 
+| 1buc | A | albelig | 28 | 28 | L | 770 | 770 | A-385-  | A-385-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 7 = a = 8
+= 7 = p = 21
+= 7 = a = 23
+= 8 = m = 9
+= 8 = m = 12
+= 8 = a = 21
+= 8 = l = 27
+= 9 = m = 10
+= 9 = m = 21
+= 10 = m = 11
+= 10 = m = 17
+= 12 = a = 15
+= 12 = p = 16
+= 12 = l = 27
+= 12 = l = 28
+= 13 = l = 27
+= 14 = a = 15
+= 14 = a = 16
+= 15 = a = 19
+= 15 = l = 27
+= 15 = l = 28
+= 16 = a = 17
+= 17 = m = 20
+= 18 = a = 19
+= 19 = l = 28
+= 21 = a = 23
+= 21 = p = 24
+= 21 = a = 25
+= 21 = l = 27
+= 23 = a = 24
+= 24 = a = 25
+= 24 = a = 26
+= 24 = l = 27
+= 25 = l = 28
+= 26 = l = 27
+= 26 = l = 28
+= 27 = l = 28
+# Listed 38 contacts. EOF.

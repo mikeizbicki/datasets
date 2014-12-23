@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fqv, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SKP1, SKP2, F-BOX, LRR, LEUCINE-RICH REPEAT, SCF, UBIQUITIN,E3, UBIQUITIN PROTEIN LIGASE
+> pdb_mol_name > SKP1
+> graphtype > albelig
+> resolution > 2.8
+> date > 06-SEP-00
+> header > LIGASE
+> pdb_org_common > HUMAN
+> title > INSIGHTS INTO SCF UBIQUITIN LIGASES FROM THE STRUCTURE OFTHE SKP1-SKP2 COMPLEX
+> format_version > 2
+> pdbid > 1fqv
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fqv | P | albelig | 1 | 1 | E | 3583 | 3588 | P-3-  | P-8-  | SIKLQS 
+| 1fqv | P | albelig | 2 | 2 | E | 3593 | 3597 | P-13-  | P-17-  | IFEVD 
+| 1fqv | P | albelig | 3 | 3 | H | 3598 | 3601 | P-18-  | P-21-  | VEIA 
+| 1fqv | P | albelig | 4 | 4 | H | 3605 | 3613 | P-25-  | P-33-  | VTIKTMLED 
+| 1fqv | P | albelig | 5 | 5 | E | 3619 | 3621 | P-45-  | P-47-  | VPL 
+| 1fqv | P | albelig | 6 | 6 | H | 3626 | 3638 | P-52-  | P-64-  | AAILKKVIQWCTH 
+| 1fqv | P | albelig | 7 | 7 | H | 3646 | 3651 | P-87-  | P-92-  | VWDQEF 
+| 1fqv | P | albelig | 8 | 8 | H | 3656 | 3669 | P-97-  | P-110-  | QGTLFELILAANYL 
+| 1fqv | P | albelig | 9 | 9 | H | 3672 | 3686 | P-113-  | P-127-  | KGLLDVTCKTVANMI 
+| 1fqv | P | albelig | 10 | 10 | H | 3691 | 3698 | P-132-  | P-139-  | PEEIRKTF 
+| 1fqv | P | albelig | 11 | 11 | H | 3708 | 3715 | P-149-  | P-156-  | EEAQVRKE 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = m = 3
+= 6 = m = 7
+= 6 = p = 8
+= 8 = a = 9
+= 9 = m = 10
+# Listed 7 contacts. EOF.

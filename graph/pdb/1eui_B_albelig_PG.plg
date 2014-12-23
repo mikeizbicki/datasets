@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eui, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOSYLASE, INHIBITOR, DNA REPAIR, BASE EXCISION, COMPLEX(HYDROLASE/INHIBITOR)
+> pdb_mol_name > URACIL-DNA GLYCOSYLASE
+> graphtype > albelig
+> resolution > 3.2
+> date > 18-JUN-98
+> header > COMPLEX (HYDROLASE/INHIBITOR)
+> pdb_org_common > UNKNOWN
+> title > ESCHERICHIA COLI URACIL-DNA GLYCOSYLASE COMPLEX WITH URACIL-DNA GLYCOSYLASE INHIBITOR PROTEIN
+> format_version > 2
+> pdbid > 1eui
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eui | B | albelig | 1 | 1 | H | 228 | 231 | B-11-  | B-14-  | LAEE 
+| 1eui | B | albelig | 2 | 2 | H | 235 | 250 | B-18-  | B-33-  | PYFLNTLQTVASERQS 
+| 1eui | B | albelig | 3 | 3 | H | 263 | 267 | B-46-  | B-50-  | NAFRF 
+| 1eui | B | albelig | 4 | 4 | H | 270 | 272 | B-53-  | B-55-  | LGD 
+| 1eui | B | albelig | 5 | 5 | E | 275 | 279 | B-58-  | B-62-  | VVILG 
+| 1eui | B | albelig | 6 | 6 | H | 304 | 316 | B-87-  | B-99-  | PSLLNMYKELENT 
+| 1eui | B | albelig | 7 | 7 | H | 329 | 332 | B-112-  | B-115-  | ESWA 
+| 1eui | B | albelig | 8 | 8 | E | 336 | 340 | B-119-  | B-123-  | VLLLN 
+| 1eui | B | albelig | 9 | 9 | H | 358 | 372 | B-141-  | B-155-  | WETFTDKVISLINQH 
+| 1eui | B | albelig | 10 | 10 | E | 377 | 381 | B-160-  | B-164-  | VFLLW 
+| 1eui | B | albelig | 11 | 11 | H | 384 | 388 | B-167-  | B-171-  | HAQKK 
+| 1eui | B | albelig | 12 | 12 | E | 398 | 402 | B-181-  | B-185-  | HVLKA 
+| 1eui | B | albelig | 13 | 13 | H | 407 | 410 | B-190-  | B-193-  | PLSA 
+| 1eui | B | albelig | 14 | 14 | H | 419 | 429 | B-202-  | B-212-  | HFVLANQWLEQ 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 9
+= 5 = p = 8
+= 5 = p = 10
+= 7 = m = 8
+= 10 = m = 11
+= 10 = p = 12
+= 10 = a = 14
+= 12 = a = 14
+# Listed 8 contacts. EOF.

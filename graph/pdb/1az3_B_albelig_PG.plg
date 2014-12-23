@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1az3, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDONUCLEASE
+> pdb_mol_name > ECORV ENDONUCLEASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 24-NOV-97
+> header > ENDONUCLEASE
+> pdb_org_common > UNKNOWN
+> title > ECORV ENDONUCLEASE, UNLIGANDED, FORM B
+> format_version > 2
+> pdbid > 1az3
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1az3 | B | albelig | 1 | 1 | H | 195 | 204 | B-3-  | B-12-  | LRSDLINALY 
+| 1az3 | B | albelig | 2 | 2 | E | 211 | 214 | B-22-  | B-25-  | GIIS 
+| 1az3 | B | albelig | 3 | 3 | H | 228 | 248 | B-39-  | B-59-  | VLSTIFELFSRPIINKIAEKH 
+| 1az3 | B | albelig | 4 | 4 | E | 251 | 253 | B-62-  | B-64-  | IVE 
+| 1az3 | B | albelig | 5 | 5 | E | 264 | 267 | B-75-  | B-78-  | FTLY 
+| 1az3 | B | albelig | 6 | 6 | E | 275 | 285 | B-86-  | B-96-  | KIAIDIKTTYT 
+| 1az3 | B | albelig | 7 | 7 | H | 302 | 305 | B-113-  | B-116-  | FIRN 
+| 1az3 | B | albelig | 8 | 8 | H | 314 | 316 | B-125-  | B-127-  | FDQ 
+| 1az3 | B | albelig | 9 | 9 | E | 317 | 329 | B-128-  | B-140-  | YIAHWIIGYVYTR 
+| 1az3 | B | albelig | 10 | 10 | H | 336 | 338 | B-153-  | B-155-  | INE 
+| 1az3 | B | albelig | 11 | 11 | E | 346 | 355 | B-163-  | B-172-  | YKGVKVFLQD 
+| 1az3 | B | albelig | 12 | 12 | H | 357 | 359 | B-174-  | B-176-  | WVI 
+| 1az3 | B | albelig | 13 | 13 | E | 360 | 364 | B-177-  | B-181-  | AGDLA 
+| 1az3 | B | albelig | 14 | 14 | E | 368 | 370 | B-189-  | B-191-  | IGS 
+| 1az3 | B | albelig | 15 | 15 | H | 375 | 379 | B-196-  | B-200-  | YKDFV 
+| 1az3 | B | albelig | 16 | 16 | H | 388 | 396 | B-209-  | B-217-  | EDEFLDYWR 
+| 1az3 | B | albelig | 17 | 17 | H | 405 | 412 | B-233-  | B-240-  | ISEYRNWI 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = p = 9
+= 1 = a = 11
+= 3 = m = 6
+= 4 = a = 5
+= 5 = a = 6
+= 6 = p = 9
+= 8 = m = 9
+= 9 = a = 11
+= 11 = m = 12
+= 11 = m = 15
+= 12 = m = 13
+= 13 = a = 14
+= 13 = m = 16
+= 16 = m = 17
+# Listed 15 contacts. EOF.

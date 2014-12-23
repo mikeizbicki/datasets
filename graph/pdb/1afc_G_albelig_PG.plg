@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1afc, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR
+> pdb_mol_name > ACIDIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > 2.7
+> date > 13-JUL-93
+> header > GROWTH FACTOR
+> pdb_org_common > CATTLE
+> title > STRUCTURAL STUDIES OF THE BINDING OF THE ANTI-ULCER DRUGSUCROSE OCTASULFATE TO ACIDIC FIBROBLAST GROWTH FACTOR
+> format_version > 2
+> pdbid > 1afc
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1afc | G | albelig | 1 | 1 | E | 782 | 784 | G-23-  | G-25-  | LRI 
+| 1afc | G | albelig | 2 | 2 | E | 790 | 792 | G-31-  | G-33-  | VDG 
+| 1afc | G | albelig | 3 | 3 | H | 799 | 801 | G-40-  | G-42-  | QHI 
+| 1afc | G | albelig | 4 | 4 | H | 840 | 842 | G-81-  | G-83-  | EEC 
+| 1afc | G | albelig | 5 | 5 | H | 879 | 881 | G-120-  | G-122-  | GPR 
+| 1afc | G | albelig | 6 | 6 | L | 1030 | 1030 | G-141-  | G-141-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 5 = l = 6
+# Listed 3 contacts. EOF.

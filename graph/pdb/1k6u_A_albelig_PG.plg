@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k6u, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BPTI, CYCLIC PROTEIN, ATOMIC RESOLUTION, HYDROLASE INHIBITOR
+> pdb_mol_name > PANCREATIC TRYPSIN INHIBITOR
+> graphtype > albelig
+> resolution > 1.0
+> date > 17-OCT-01
+> header > HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CYCLIC BOVINE PANCREATIC TRYPSININHIBITOR
+> format_version > 2
+> pdbid > 1k6u
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k6u | A | albelig | 1 | 1 | H | 3 | 6 | A-3-  | A-6-  | DFAL 
+| 1k6u | A | albelig | 2 | 2 | E | 18 | 24 | A-18-  | A-24-  | IIRYFYN 
+| 1k6u | A | albelig | 3 | 3 | E | 29 | 35 | A-29-  | A-35-  | LCQTFVY 
+| 1k6u | A | albelig | 4 | 4 | H | 48 | 55 | A-48-  | A-55-  | AEDCLRTA 
+| 1k6u | A | albelig | 5 | 5 | L | 59 | 59 | A-59-  | A-59-  | J 
+| 1k6u | A | albelig | 6 | 6 | L | 60 | 60 | A-60-  | A-60-  | J 
+| 1k6u | A | albelig | 7 | 7 | L | 61 | 61 | A-61-  | A-61-  | J 
+| 1k6u | A | albelig | 8 | 8 | L | 62 | 62 | A-62-  | A-62-  | J 
+| 1k6u | A | albelig | 9 | 9 | L | 63 | 63 | A-63-  | A-63-  | J 
+| 1k6u | A | albelig | 10 | 10 | L | 64 | 64 | A-64-  | A-64-  | J 
+| 1k6u | A | albelig | 11 | 11 | L | 65 | 65 | A-65-  | A-65-  | J 
+| 1k6u | A | albelig | 12 | 12 | L | 66 | 66 | A-66-  | A-66-  | J 
+| 1k6u | A | albelig | 13 | 13 | L | 67 | 67 | A-67-  | A-67-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 5
+= 1 = l = 11
+= 1 = l = 13
+= 2 = a = 3
+= 2 = m = 4
+= 2 = l = 6
+= 2 = l = 9
+= 3 = l = 6
+= 3 = l = 8
+= 5 = l = 12
+= 6 = l = 8
+= 9 = l = 13
+# Listed 12 contacts. EOF.

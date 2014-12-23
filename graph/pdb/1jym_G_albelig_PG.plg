@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jym, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PDF, MALARIA, PLASMODIUM, DEFORMYLATION, METALLOENZYME,HYDROLASE
+> pdb_mol_name > PEPTIDE DEFORMYLASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 12-SEP-01
+> header > HYDROLASE
+> pdb_org_common > MALARIA PARASITE P. FALCIPARUM
+> title > CRYSTALS OF PEPTIDE DEFORMYLASE FROM PLASMODIUM FALCIPARUMWITH TEN SUBUNITS PER ASYMMETRIC UNIT REVEAL CRITICALCHARACTERISTICS OF THE ACTIVE SITE FOR DRUG DESIGN
+> format_version > 2
+> pdbid > 1jym
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > PLASMODIUM FALCIPARUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jym | G | albelig | 1 | 1 | H | 1064 | 1067 | G-73-  | G-76-  | PILR 
+| 1jym | G | albelig | 2 | 2 | H | 1080 | 1092 | G-89-  | G-101-  | KRVVRKXFDIXYE 
+| 1jym | G | albelig | 3 | 3 | E | 1097 | 1099 | G-106-  | G-108-  | GLS 
+| 1jym | G | albelig | 4 | 4 | H | 1100 | 1103 | G-109-  | G-112-  | APQV 
+| 1jym | G | albelig | 5 | 5 | E | 1109 | 1112 | G-118-  | G-121-  | IIVW 
+| 1jym | G | albelig | 6 | 6 | E | 1125 | 1135 | G-134-  | G-144-  | RIFINPSIVEQ 
+| 1jym | G | albelig | 7 | 7 | E | 1139 | 1146 | G-148-  | G-155-  | KLKLIEGC 
+| 1jym | G | albelig | 8 | 8 | E | 1149 | 1158 | G-158-  | G-167-  | FGIEGKVERP 
+| 1jym | G | albelig | 9 | 9 | E | 1160 | 1166 | G-169-  | G-175-  | IVSISYY 
+| 1jym | G | albelig | 10 | 10 | E | 1172 | 1178 | G-181-  | G-187-  | KHLKILK 
+| 1jym | G | albelig | 11 | 11 | H | 1181 | 1191 | G-190-  | G-200-  | HSRIFQHEFDH 
+| 1jym | G | albelig | 12 | 12 | H | 1203 | 1221 | G-212-  | G-230-  | QVDKKKVRPKLNELIRDYK 
+| 1jym | G | albelig | 13 | 13 | L | 1782 | 1782 | G-6300-  | G-6300-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 3 = m = 4
+= 3 = a = 5
+= 3 = m = 11
+= 4 = l = 13
+= 5 = a = 6
+= 5 = m = 11
+= 6 = a = 9
+= 7 = a = 8
+= 7 = p = 11
+= 7 = l = 13
+= 8 = m = 11
+= 8 = a = 12
+= 9 = a = 10
+= 10 = m = 11
+= 11 = l = 13
+# Listed 16 contacts. EOF.

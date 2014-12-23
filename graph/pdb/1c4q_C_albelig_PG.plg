@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c4q, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN, RECEPTOR BINDING, PROTEIN-CARBOHYDRATE RECOGNITION,OB-FOLD
+> pdb_mol_name > PROTEIN (SHIGA-LIKE TOXIN I SUBUNIT B)
+> graphtype > albelig
+> resolution > 1.52
+> date > 31-AUG-99
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > MUTATED SHIGA-LIKE TOXIN B SUBUNIT (F30A/W34A) COMPLEXEDWITH RECEPTOR GB3 ANALOGUE
+> format_version > 2
+> pdbid > 1c4q
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c4q | C | albelig | 1 | 1 | E | 143 | 154 | C-303-  | C-314-  | DCVTGKVEYTKY 
+| 1c4q | C | albelig | 2 | 2 | E | 160 | 164 | C-320-  | C-324-  | FTVKV 
+| 1c4q | C | albelig | 3 | 3 | E | 167 | 171 | C-327-  | C-331-  | KELAT 
+| 1c4q | C | albelig | 4 | 4 | H | 175 | 186 | C-335-  | C-346-  | NLQSLLLSAQIT 
+| 1c4q | C | albelig | 5 | 5 | E | 189 | 193 | C-349-  | C-353-  | TVTIK 
+| 1c4q | C | albelig | 6 | 6 | E | 205 | 208 | C-365-  | C-368-  | EVIF 
+| 1c4q | C | albelig | 7 | 7 | L | 356 | 356 | C-390-  | C-390-  | J 
+| 1c4q | C | albelig | 8 | 8 | L | 357 | 357 | C-391-  | C-391-  | J 
+| 1c4q | C | albelig | 9 | 9 | L | 358 | 358 | C-392-  | C-392-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = a = 5
+= 2 = a = 3
+= 3 = l = 7
+= 5 = a = 6
+= 7 = l = 8
+= 7 = l = 9
+= 8 = l = 9
+# Listed 9 contacts. EOF.

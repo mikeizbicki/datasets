@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h9m, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BINDING PROTEIN, MOLYBDATE HOMEOSTASIS
+> pdb_mol_name > MOLYBDENUM-BINDING-PROTEIN
+> graphtype > albelig
+> resolution > 1.65
+> date > 13-MAR-01
+> header > BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > TWO CRYSTAL STRUCTURES OF THE CYTOPLASMIC MOLYBDATE-BINDINGPROTEIN MODG SUGGEST A NOVEL COOPERATIVE BINDING MECHANISMAND PROVIDE INSIGHTS INTO LIGAND-BINDING SPECIFICITY.PEG-GROWN FORM WITH MOLYBDATE BOUND
+> format_version > 2
+> pdbid > 1h9m
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > AZOTOBACTER VINELANDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h9m | B | albelig | 1 | 1 | E | 149 | 160 | B-7-  | B-18-  | NVFKGTVSALKE 
+| 1h9m | B | albelig | 2 | 2 | E | 164 | 171 | B-22-  | B-29-  | NAEVDILL 
+| 1h9m | B | albelig | 3 | 3 | E | 176 | 182 | B-34-  | B-40-  | KLAAVVT 
+| 1h9m | B | albelig | 4 | 4 | H | 183 | 188 | B-41-  | B-46-  | LESARS 
+| 1h9m | B | albelig | 5 | 5 | E | 196 | 201 | B-54-  | B-59-  | EVVAVV 
+| 1h9m | B | albelig | 6 | 6 | H | 203 | 205 | B-61-  | B-63-  | APW 
+| 1h9m | B | albelig | 7 | 7 | E | 207 | 209 | B-65-  | B-67-  | LLM 
+| 1h9m | B | albelig | 8 | 8 | E | 221 | 232 | B-79-  | B-90-  | NILTGTVKTIET 
+| 1h9m | B | albelig | 9 | 9 | E | 236 | 242 | B-94-  | B-100-  | NAEVTLA 
+| 1h9m | B | albelig | 10 | 10 | E | 248 | 254 | B-106-  | B-112-  | EITSMVT 
+| 1h9m | B | albelig | 11 | 11 | H | 255 | 260 | B-113-  | B-118-  | KEAVAE 
+| 1h9m | B | albelig | 12 | 12 | E | 268 | 273 | B-126-  | B-131-  | SASAVI 
+| 1h9m | B | albelig | 13 | 13 | H | 275 | 277 | B-133-  | B-135-  | ASN 
+| 1h9m | B | albelig | 14 | 14 | E | 279 | 281 | B-137-  | B-139-  | ILG 
+| 1h9m | B | albelig | 15 | 15 | L | 288 | 288 | B-1142-  | B-1142-  | J 
+| 1h9m | B | albelig | 16 | 16 | L | 289 | 289 | B-1143-  | B-1143-  | J 
+| 1h9m | B | albelig | 17 | 17 | L | 290 | 290 | B-1144-  | B-1144-  | J 
+| 1h9m | B | albelig | 18 | 18 | L | 291 | 291 | B-1145-  | B-1145-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 1 = a = 10
+= 2 = a = 3
+= 2 = m = 4
+= 2 = l = 15
+= 3 = m = 4
+= 3 = m = 13
+= 3 = l = 18
+= 4 = l = 18
+= 5 = a = 14
+= 6 = m = 10
+= 7 = a = 12
+= 7 = l = 17
+= 8 = a = 9
+= 8 = a = 12
+= 9 = a = 10
+= 9 = l = 16
+= 10 = m = 11
+= 10 = l = 17
+= 11 = l = 17
+= 14 = l = 18
+# Listed 22 contacts. EOF.

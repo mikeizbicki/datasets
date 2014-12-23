@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1en4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTON SHUTTLE, Q146H, MUTANT, MANGANESE SUPEROXIDEDISMUTASE, OXIDOREDUCTASE
+> pdb_mol_name > MANGANESE SUPEROXIDE DISMUTASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 20-MAR-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE E. COLI MANGANESESUPEROXIDE DISMUTASE Q146H MUTANT
+> format_version > 2
+> pdbid > 1en4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1en4 | A | albelig | 1 | 1 | H | 20 | 31 | A-20-  | A-31-  | KQTMEIHHTKHH 
+| 1en4 | A | albelig | 2 | 2 | H | 32 | 42 | A-32-  | A-42-  | QTYVNNANAAL 
+| 1en4 | A | albelig | 3 | 3 | H | 46 | 49 | A-46-  | A-49-  | PEFA 
+| 1en4 | A | albelig | 4 | 4 | H | 53 | 56 | A-53-  | A-56-  | VEEL 
+| 1en4 | A | albelig | 5 | 5 | H | 60 | 62 | A-60-  | A-62-  | LDQ 
+| 1en4 | A | albelig | 6 | 6 | H | 68 | 86 | A-68-  | A-86-  | KTVLRNNAGGHANHSLFWK 
+| 1en4 | A | albelig | 7 | 7 | H | 96 | 106 | A-96-  | A-106-  | GDLKAAIERDF 
+| 1en4 | A | albelig | 8 | 8 | H | 109 | 122 | A-109-  | A-122-  | VDNFKAEFEKAAAS 
+| 1en4 | A | albelig | 9 | 9 | E | 127 | 134 | A-127-  | A-134-  | GWAWLVLK 
+| 1en4 | A | albelig | 10 | 10 | E | 137 | 144 | A-137-  | A-144-  | KLAVVSTA 
+| 1en4 | A | albelig | 11 | 11 | H | 149 | 151 | A-149-  | A-151-  | PLM 
+| 1en4 | A | albelig | 12 | 12 | H | 153 | 156 | A-153-  | A-156-  | EAIS 
+| 1en4 | A | albelig | 13 | 13 | E | 161 | 167 | A-161-  | A-167-  | FPIMGLD 
+| 1en4 | A | albelig | 14 | 14 | H | 170 | 172 | A-170-  | A-172-  | EHA 
+| 1en4 | A | albelig | 15 | 15 | H | 174 | 177 | A-174-  | A-177-  | YLKF 
+| 1en4 | A | albelig | 16 | 16 | H | 181 | 188 | A-181-  | A-188-  | RPDYIKEF 
+| 1en4 | A | albelig | 17 | 17 | H | 194 | 203 | A-194-  | A-203-  | WDEAAARFAA 
+| 1en4 | A | albelig | 18 | 18 | L | 824 | 824 | A-501-  | A-501-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 6
+= 1 = m = 14
+= 1 = l = 18
+= 2 = a = 6
+= 2 = l = 18
+= 6 = l = 18
+= 7 = m = 10
+= 7 = m = 17
+= 8 = m = 16
+= 9 = a = 10
+= 9 = a = 13
+= 9 = l = 18
+= 13 = m = 17
+= 13 = l = 18
+= 14 = l = 18
+# Listed 16 contacts. EOF.

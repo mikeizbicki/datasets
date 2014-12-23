@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jty, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTIDRUG BINDING, MULTIDRUG RECOGNITION MECHANISM, CATIONICLIPOPHILIC DRUGS, QACR, QACA, REPRESSOR, TRANSCRIPTION
+> pdb_mol_name > HYPOTHETICAL TRANSCRIPTIONAL REGULATOR IN QACA
+> graphtype > albelig
+> resolution > 2.97
+> date > 22-AUG-01
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE MULTIDRUG BINDING TRANSCRIPTIONALREGULATOR QACR BOUND TO ETHIDIUM
+> format_version > 2
+> pdbid > 1jty
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jty | B | albelig | 1 | 1 | H | 2 | 5 | B-3-  | B-6-  | LKDK 
+| 1jty | B | albelig | 2 | 2 | H | 7 | 16 | B-8-  | B-17-  | LGVAKELFIK 
+| 1jty | B | albelig | 3 | 3 | H | 24 | 31 | B-25-  | B-32-  | TGEIVKLS 
+| 1jty | B | albelig | 4 | 4 | H | 37 | 41 | B-38-  | B-42-  | NLYYH 
+| 1jty | B | albelig | 5 | 5 | H | 45 | 68 | B-46-  | B-69-  | KENLFLEILNIEESKWQEQWKKEQ 
+| 1jty | B | albelig | 6 | 6 | H | 74 | 87 | B-75-  | B-88-  | NREKFYLYNELSLT 
+| 1jty | B | albelig | 7 | 7 | H | 92 | 104 | B-93-  | B-105-  | YPLQNAIIEFYTE 
+| 1jty | B | albelig | 8 | 8 | H | 115 | 121 | B-116-  | B-122-  | MNKLENK 
+| 1jty | B | albelig | 9 | 9 | H | 124 | 135 | B-125-  | B-136-  | DAYHVIFKEGNL 
+| 1jty | B | albelig | 10 | 10 | H | 144 | 160 | B-145-  | B-161-  | VNAVSKIAANAVNGIVT 
+| 1jty | B | albelig | 11 | 11 | H | 167 | 185 | B-168-  | B-186-  | INERIKLMNKFSQIFLNGL 
+| 1jty | B | albelig | 12 | 12 | L | 748 | 748 | B-195-  | B-195-  | J 
+| 1jty | B | albelig | 13 | 13 | L | 749 | 749 | B-199-  | B-199-  | J 
+| 1jty | B | albelig | 14 | 14 | L | 750 | 750 | B-1000-  | B-1000-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 5
+= 5 = m = 6
+= 5 = a = 7
+= 5 = p = 8
+= 5 = l = 13
+= 5 = l = 14
+= 6 = a = 9
+= 6 = a = 11
+= 7 = m = 10
+= 9 = a = 10
+= 9 = l = 12
+= 10 = a = 11
+= 13 = l = 14
+# Listed 13 contacts. EOF.

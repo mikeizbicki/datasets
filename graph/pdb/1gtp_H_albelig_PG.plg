@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gtp, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GTP, PURINE HYDROLYSIS, PTERINE SYNTHESIS, HYDROLASE
+> pdb_mol_name > GTP CYCLOHYDROLASE I
+> graphtype > albelig
+> resolution > 3.0
+> date > 16-SEP-95
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > GTP CYCLOHYDROLASE I
+> format_version > 2
+> pdbid > 1gtp
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gtp | H | albelig | 1 | 1 | H | 1559 | 1571 | H-5-  | H-17-  | KEAALVHEALVAR 
+| 1gtp | H | albelig | 2 | 2 | H | 1586 | 1603 | H-32-  | H-49-  | NETRKSLIAGHMTEIMQL 
+| 1gtp | H | albelig | 3 | 3 | H | 1611 | 1614 | H-57-  | H-60-  | DSLM 
+| 1gtp | H | albelig | 4 | 4 | H | 1616 | 1628 | H-62-  | H-74-  | TPHRIAKMYVDEI 
+| 1gtp | H | albelig | 5 | 5 | H | 1630 | 1632 | H-76-  | H-78-  | SGL 
+| 1gtp | H | albelig | 6 | 6 | H | 1634 | 1636 | H-80-  | H-82-  | YAN 
+| 1gtp | H | albelig | 7 | 7 | E | 1642 | 1644 | H-88-  | H-90-  | LIE 
+| 1gtp | H | albelig | 8 | 8 | E | 1653 | 1664 | H-99-  | H-110-  | VTVRDITLTSTH 
+| 1gtp | H | albelig | 9 | 9 | E | 1669 | 1679 | H-115-  | H-125-  | VTIDGKATVAY 
+| 1gtp | H | albelig | 10 | 10 | E | 1684 | 1686 | H-130-  | H-132-  | SVI 
+| 1gtp | H | albelig | 11 | 11 | H | 1688 | 1699 | H-134-  | H-145-  | LSKINRIVQFFA 
+| 1gtp | H | albelig | 12 | 12 | H | 1705 | 1720 | H-151-  | H-166-  | QERLTQQILIALQTLL 
+| 1gtp | H | albelig | 13 | 13 | E | 1725 | 1733 | H-171-  | H-179-  | VAVSIDAVH 
+| 1gtp | H | albelig | 14 | 14 | H | 1734 | 1737 | H-180-  | H-183-  | YHVK 
+| 1gtp | H | albelig | 15 | 15 | E | 1747 | 1753 | H-193-  | H-199-  | ATTTTSL 
+| 1gtp | H | albelig | 16 | 16 | H | 1756 | 1759 | H-202-  | H-205-  | LFKS 
+| 1gtp | H | albelig | 17 | 17 | H | 1761 | 1770 | H-207-  | H-216-  | QNTRHEFLRA 
+| 1gtp | H | albelig | 18 | 18 | L | 4447 | 4447 | H-222-  | H-222-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 2 = a = 4
+= 3 = m = 4
+= 7 = a = 10
+= 8 = a = 9
+= 8 = p = 11
+= 9 = a = 13
+= 11 = a = 12
+= 11 = l = 18
+= 12 = a = 13
+= 12 = p = 15
+= 13 = m = 14
+= 13 = a = 15
+= 15 = m = 16
+# Listed 14 contacts. EOF.

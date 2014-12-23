@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hzh, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, ANTIBODY, B12, IMMUNE SYSTEM
+> pdb_mol_name > IMMUNOGLOBULIN LIGHT CHAIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 24-JAN-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE INTACT HUMAN IGG B12 WITH BROAD AND POTENTACTIVITY AGAINST PRIMARY HIV-1 ISOLATES: A TEMPLATE FOR HIV VACCINEDESIGN
+> format_version > 2
+> pdbid > 1hzh
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hzh | L | albelig | 1 | 1 | E | 909 | 912 | L-4-  | L-7-  | LTQS 
+| 1hzh | L | albelig | 2 | 2 | E | 915 | 918 | L-10-  | L-13-  | TLSL 
+| 1hzh | L | albelig | 3 | 3 | E | 924 | 930 | L-19-  | L-25-  | ATFSLRS 
+| 1hzh | L | albelig | 4 | 4 | E | 939 | 944 | L-33-  | L-38-  | VAWYQH 
+| 1hzh | L | albelig | 5 | 5 | E | 951 | 954 | L-45-  | L-48-  | RLVI 
+| 1hzh | L | albelig | 6 | 6 | E | 968 | 973 | L-62-  | L-67-  | FSGSGS 
+| 1hzh | L | albelig | 7 | 7 | E | 976 | 981 | L-70-  | L-75-  | DFTLTI 
+| 1hzh | L | albelig | 8 | 8 | E | 991 | 996 | L-85-  | L-90-  | LYYLQV 
+| 1hzh | L | albelig | 9 | 9 | E | 1008 | 1012 | L-102-  | L-106-  | TKLER 
+| 1hzh | L | albelig | 10 | 10 | E | 1020 | 1024 | L-114-  | L-118-  | SVFIF 
+| 1hzh | L | albelig | 11 | 11 | H | 1030 | 1032 | L-124-  | L-126-  | QLK 
+| 1hzh | L | albelig | 12 | 12 | E | 1035 | 1045 | L-129-  | L-139-  | TASVVMLLNNF 
+| 1hzh | L | albelig | 13 | 13 | E | 1051 | 1056 | L-145-  | L-150-  | KVQWKV 
+| 1hzh | L | albelig | 14 | 14 | E | 1079 | 1088 | L-173-  | L-182-  | YSLSSTLTLS 
+| 1hzh | L | albelig | 15 | 15 | H | 1089 | 1092 | L-183-  | L-186-  | KADY 
+| 1hzh | L | albelig | 16 | 16 | E | 1097 | 1103 | L-191-  | L-197-  | VYAMEVT 
+| 1hzh | L | albelig | 17 | 17 | E | 1111 | 1116 | L-205-  | L-210-  | VTKSFN 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 1 = a = 9
+= 2 = p = 9
+= 3 = a = 7
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 8
+= 6 = a = 7
+= 8 = p = 9
+= 10 = a = 12
+= 10 = p = 17
+= 12 = a = 13
+= 12 = a = 14
+= 13 = p = 14
+= 13 = a = 16
+= 14 = m = 15
+= 16 = a = 17
+# Listed 18 contacts. EOF.

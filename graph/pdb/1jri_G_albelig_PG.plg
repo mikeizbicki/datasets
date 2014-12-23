@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jri, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, HEPTAMERIC, 35-STRANDED BETA TOROID,UNKNOWN FUNCTION
+> pdb_mol_name > SM-LIKE ARCHAEAL PROTEIN 1 (SMAP1)
+> graphtype > albelig
+> resolution > 2.8
+> date > 13-AUG-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF AN SM-LIKE ARCHAEAL PROTEIN WITHTWO HEPTAMERS IN THE ASYMMETRIC UNIT.
+> format_version > 2
+> pdbid > 1jri
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jri | G | albelig | 1 | 1 | H | 455 | 458 | G-16-  | G-19-  | DALG 
+| 1jri | G | albelig | 2 | 2 | E | 464 | 469 | G-25-  | G-30-  | PVIIKL 
+| 1jri | G | albelig | 3 | 3 | E | 473 | 482 | G-34-  | G-43-  | REFRGVLKSF 
+| 1jri | G | albelig | 4 | 4 | E | 488 | 497 | G-49-  | G-58-  | LVLNDAEELE 
+| 1jri | G | albelig | 5 | 5 | E | 500 | 510 | G-61-  | G-71-  | EVTRRLGTVLI 
+| 1jri | G | albelig | 6 | 6 | H | 512 | 514 | G-73-  | G-75-  | GDN 
+| 1jri | G | albelig | 7 | 7 | E | 515 | 519 | G-76-  | G-80-  | IVYIS 
+| 1jri | G | albelig | 8 | 8 | L | 1048 | 1048 | G-203-  | G-203-  | J 
+| 1jri | G | albelig | 9 | 9 | L | 1049 | 1049 | G-104-  | G-104-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 9
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = l = 8
+= 6 = m = 7
+# Listed 7 contacts. EOF.

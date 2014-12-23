@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a1i, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ZINC FINGER-DNA COMPLEX, ZINC FINGER, DNA-BINDING PROTEIN,TRANSCRIPTION-DNA COMPLEX
+> pdb_mol_name > RADR ZIF268 ZINC FINGER PEPTIDE
+> graphtype > albelig
+> resolution > 1.6
+> date > 10-DEC-97
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HOUSE MOUSE
+> title > RADR (ZIF268 VARIANT) ZINC FINGER-DNA COMPLEX (GCAC SITE)
+> format_version > 2
+> pdbid > 1a1i
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a1i | A | albelig | 1 | 1 | H | 17 | 23 | A-119-  | A-125-  | SADLTRH 
+| 1a1i | A | albelig | 2 | 2 | H | 25 | 28 | A-127-  | A-130-  | RIHT 
+| 1a1i | A | albelig | 3 | 3 | H | 45 | 56 | A-147-  | A-158-  | SDHLTTHIRTHT 
+| 1a1i | A | albelig | 4 | 4 | H | 73 | 83 | A-175-  | A-185-  | SDERKRHTKIH 
+| 1a1i | A | albelig | 5 | 5 | L | 86 | 86 | A-201-  | A-201-  | J 
+| 1a1i | A | albelig | 6 | 6 | L | 87 | 87 | A-202-  | A-202-  | J 
+| 1a1i | A | albelig | 7 | 7 | L | 88 | 88 | A-203-  | A-203-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 5
+= 2 = l = 5
+= 3 = l = 6
+= 4 = l = 7
+# Listed 4 contacts. EOF.

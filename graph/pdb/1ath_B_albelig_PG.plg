@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ath, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMAN ANTITHROMBIN-III
+> pdb_mol_name > ANTITHROMBIN III
+> graphtype > albelig
+> resolution > 3.2
+> date > 14-DEC-93
+> header > HUMAN ANTITHROMBIN-III
+> pdb_org_common > HUMAN
+> title > THE INTACT AND CLEAVED HUMAN ANTITHROMBIN III COMPLEX AS AMODEL FOR SERPIN-PROTEINASE INTERACTIONS
+> format_version > 2
+> pdbid > 1ath
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ath | B | albelig | 1 | 1 | H | 401 | 419 | B-49-  | B-67-  | WELSKANSRFATTFYQHLA 
+| 1ath | B | albelig | 2 | 2 | E | 428 | 430 | B-76-  | B-78-  | IFL 
+| 1ath | B | albelig | 3 | 3 | H | 432 | 445 | B-80-  | B-93-  | PLSISTAFAMTKLG 
+| 1ath | B | albelig | 4 | 4 | H | 448 | 457 | B-96-  | B-105-  | NDTLQQLMEV 
+| 1ath | B | albelig | 5 | 5 | H | 460 | 462 | B-108-  | B-110-  | FDT 
+| 1ath | B | albelig | 6 | 6 | H | 466 | 479 | B-117-  | B-130-  | DQIHFFFAKLNCRL 
+| 1ath | B | albelig | 7 | 7 | E | 484 | 494 | B-139-  | B-149-  | KLVSANRLFGD 
+| 1ath | B | albelig | 8 | 8 | H | 501 | 511 | B-156-  | B-166-  | ETYQDISELVY 
+| 1ath | B | albelig | 9 | 9 | E | 514 | 518 | B-169-  | B-173-  | KLQPL 
+| 1ath | B | albelig | 10 | 10 | H | 520 | 538 | B-175-  | B-193-  | FKENAEQSRAAINKWVSNK 
+| 1ath | B | albelig | 11 | 11 | E | 558 | 569 | B-213-  | B-224-  | LVLVNTIYFKGL 
+| 1ath | B | albelig | 12 | 12 | H | 576 | 578 | B-231-  | B-233-  | PEN 
+| 1ath | B | albelig | 13 | 13 | E | 580 | 586 | B-235-  | B-241-  | RKELFYK 
+| 1ath | B | albelig | 14 | 14 | E | 590 | 608 | B-245-  | B-263-  | ESESASMMYQEGKFRYRRV 
+| 1ath | B | albelig | 15 | 15 | H | 609 | 611 | B-264-  | B-266-  | AEG 
+| 1ath | B | albelig | 16 | 16 | E | 612 | 618 | B-267-  | B-273-  | TQVLELP 
+| 1ath | B | albelig | 17 | 17 | E | 624 | 630 | B-279-  | B-285-  | ITMVLIL 
+| 1ath | B | albelig | 18 | 18 | H | 636 | 641 | B-293-  | B-298-  | AKVEKE 
+| 1ath | B | albelig | 19 | 19 | H | 644 | 652 | B-301-  | B-309-  | PEVLQEWLD 
+| 1ath | B | albelig | 20 | 20 | E | 655 | 664 | B-312-  | B-321-  | EEMMLVVHMP 
+| 1ath | B | albelig | 21 | 21 | E | 666 | 673 | B-323-  | B-330-  | FRIEDGFS 
+| 1ath | B | albelig | 22 | 22 | H | 675 | 679 | B-332-  | B-336-  | KEQLQ 
+| 1ath | B | albelig | 23 | 23 | H | 685 | 687 | B-342-  | B-344-  | DLF 
+| 1ath | B | albelig | 24 | 24 | E | 704 | 713 | B-366-  | B-375-  | DAFHKAFLEV 
+| 1ath | B | albelig | 25 | 25 | E | 717 | 727 | B-379-  | B-389-  | GSEAAASTAVV 
+| 1ath | B | albelig | 26 | 26 | E | 739 | 745 | B-408-  | B-414-  | FLVFIRE 
+| 1ath | B | albelig | 27 | 27 | E | 750 | 757 | B-419-  | B-426-  | TIIFMGRV 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 18
+= 1 = m = 27
+= 2 = p = 21
+= 2 = a = 24
+= 2 = a = 27
+= 3 = m = 4
+= 3 = m = 6
+= 3 = a = 11
+= 3 = m = 25
+= 4 = m = 23
+= 7 = p = 9
+= 7 = a = 10
+= 7 = a = 11
+= 9 = m = 10
+= 11 = a = 25
+= 13 = a = 14
+= 14 = m = 15
+= 14 = a = 16
+= 14 = a = 20
+= 15 = m = 16
+= 16 = a = 17
+= 17 = a = 26
+= 21 = a = 24
+= 24 = a = 25
+= 26 = a = 27
+# Listed 26 contacts. EOF.

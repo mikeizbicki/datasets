@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aox, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTEGRIN, CELL ADHESION, GLYCOPROTEIN
+> pdb_mol_name > INTEGRIN ALPHA 2 BETA
+> graphtype > albelig
+> resolution > 2.1
+> date > 13-JUL-97
+> header > INTEGRIN
+> pdb_org_common > HUMAN
+> title > I DOMAIN FROM INTEGRIN ALPHA2-BETA1
+> format_version > 2
+> pdbid > 1aox
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aox | B | albelig | 1 | 1 | E | 210 | 217 | B-144-  | B-151-  | IDVVVVCD 
+| 1aox | B | albelig | 2 | 2 | H | 225 | 236 | B-159-  | B-170-  | WDAVKNFLEKFV 
+| 1aox | B | albelig | 3 | 3 | E | 247 | 253 | B-181-  | B-187-  | QVGLIQY 
+| 1aox | B | albelig | 4 | 4 | E | 257 | 261 | B-191-  | B-195-  | PRVVF 
+| 1aox | B | albelig | 5 | 5 | H | 269 | 277 | B-203-  | B-211-  | KEEMIVATS 
+| 1aox | B | albelig | 6 | 6 | H | 289 | 300 | B-223-  | B-234-  | TFGAIQYARKYA 
+| 1aox | B | albelig | 7 | 7 | H | 303 | 305 | B-237-  | B-239-  | AAS 
+| 1aox | B | albelig | 8 | 8 | E | 312 | 319 | B-246-  | B-253-  | TKVMVVVT 
+| 1aox | B | albelig | 9 | 9 | H | 326 | 338 | B-260-  | B-272-  | GSMLKAVIDQCNH 
+| 1aox | B | albelig | 10 | 10 | E | 341 | 348 | B-275-  | B-282-  | ILRFGIAV 
+| 1aox | B | albelig | 11 | 11 | H | 351 | 354 | B-285-  | B-288-  | YLNR 
+| 1aox | B | albelig | 12 | 12 | H | 360 | 369 | B-294-  | B-303-  | KNLIKEIKAI 
+| 1aox | B | albelig | 13 | 13 | H | 374 | 377 | B-308-  | B-311-  | TERY 
+| 1aox | B | albelig | 14 | 14 | E | 378 | 381 | B-312-  | B-315-  | FFNV 
+| 1aox | B | albelig | 15 | 15 | H | 384 | 399 | B-318-  | B-333-  | EAALLEKAGTLGEQIF 
+| 1aox | B | albelig | 16 | 16 | L | 405 | 405 | B-401-  | B-401-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 1 = l = 16
+= 2 = m = 5
+= 2 = p = 15
+= 3 = a = 4
+= 3 = m = 6
+= 6 = p = 9
+= 8 = p = 10
+= 10 = a = 12
+= 10 = m = 13
+= 10 = p = 14
+= 10 = a = 15
+= 13 = m = 14
+# Listed 14 contacts. EOF.

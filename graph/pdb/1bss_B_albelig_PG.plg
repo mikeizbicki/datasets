@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bss, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ENDONUCLEASE ECORV/DNA), HYDROLASE/DNA COMPLEX
+> pdb_mol_name > ECORV ENDONUCLEASE
+> graphtype > albelig
+> resolution > 2.15
+> date > 30-AUG-98
+> header > HYDROLASE/DNA
+> pdb_org_common > UNKNOWN
+> title > ECORV-T93A/DNA/CA2+
+> format_version > 2
+> pdbid > 1bss
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bss | B | albelig | 1 | 1 | H | 235 | 242 | B-3-  | B-10-  | LRSDLINA 
+| 1bss | B | albelig | 2 | 2 | E | 247 | 252 | B-20-  | B-25-  | VCGIIS 
+| 1bss | B | albelig | 3 | 3 | E | 256 | 259 | B-29-  | B-32-  | KIYP 
+| 1bss | B | albelig | 4 | 4 | H | 265 | 285 | B-38-  | B-58-  | KVLSTIFELFSRPIINKIAEK 
+| 1bss | B | albelig | 5 | 5 | E | 289 | 291 | B-62-  | B-64-  | IVE 
+| 1bss | B | albelig | 6 | 6 | E | 302 | 305 | B-75-  | B-78-  | FTLY 
+| 1bss | B | albelig | 7 | 7 | E | 313 | 323 | B-86-  | B-96-  | KIAIDIKATYT 
+| 1bss | B | albelig | 8 | 8 | E | 330 | 333 | B-106-  | B-109-  | TLGG 
+| 1bss | B | albelig | 9 | 9 | H | 349 | 351 | B-125-  | B-127-  | FDQ 
+| 1bss | B | albelig | 10 | 10 | E | 352 | 363 | B-128-  | B-139-  | YIAHWIIGYVYT 
+| 1bss | B | albelig | 11 | 11 | H | 372 | 377 | B-153-  | B-158-  | INELNE 
+| 1bss | B | albelig | 12 | 12 | E | 383 | 391 | B-164-  | B-172-  | KGVKVFLQD 
+| 1bss | B | albelig | 13 | 13 | H | 392 | 395 | B-173-  | B-176-  | KWVI 
+| 1bss | B | albelig | 14 | 14 | E | 396 | 400 | B-177-  | B-181-  | AGDLA 
+| 1bss | B | albelig | 15 | 15 | E | 407 | 410 | B-188-  | B-191-  | NIGS 
+| 1bss | B | albelig | 16 | 16 | H | 415 | 420 | B-196-  | B-201-  | YKDFVE 
+| 1bss | B | albelig | 17 | 17 | H | 428 | 436 | B-209-  | B-217-  | EDEFLDYWR 
+| 1bss | B | albelig | 18 | 18 | H | 442 | 445 | B-223-  | B-226-  | SQLR 
+| 1bss | B | albelig | 19 | 19 | H | 452 | 460 | B-233-  | B-241-  | ISEYRNWIY 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 12
+= 2 = a = 3
+= 4 = m = 10
+= 5 = a = 6
+= 6 = a = 7
+= 7 = p = 10
+= 8 = a = 15
+= 9 = m = 10
+= 10 = a = 12
+= 12 = m = 13
+= 12 = m = 16
+= 13 = m = 14
+= 14 = a = 15
+= 14 = m = 17
+= 17 = m = 19
+# Listed 15 contacts. EOF.

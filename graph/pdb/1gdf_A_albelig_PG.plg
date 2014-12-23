@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gdf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RHO-GTPASE INHIBITOR, NUCLEOTIDE EXCHANGE, ISOPRENE BINDING
+> pdb_mol_name > RHOGDI
+> graphtype > albelig
+> resolution > -1.0
+> date > 11-MAY-97
+> header > RHO-GTPASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > STRUCTURE OF RHOGDI: A C-TERMINAL BINDING DOMAIN TARGETS ANN-TERMINAL INHIBITORY PEPTIDE TO GTPASES, NMR, MINIMIZEDAVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1gdf
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gdf | A | albelig | 1 | 1 | E | 11 | 19 | A-70-  | A-78-  | VVVTRLTLV 
+| 1gdf | A | albelig | 2 | 2 | H | 37 | 40 | A-96-  | A-99-  | SFKK 
+| 1gdf | A | albelig | 3 | 3 | E | 42 | 44 | A-101-  | A-103-  | SFV 
+| 1gdf | A | albelig | 4 | 4 | E | 50 | 59 | A-109-  | A-118-  | EYRIKISFRV 
+| 1gdf | A | albelig | 5 | 5 | E | 64 | 74 | A-123-  | A-133-  | VSGMKYIQHTY 
+| 1gdf | A | albelig | 6 | 6 | E | 79 | 90 | A-138-  | A-149-  | KIDKTDYMVGSY 
+| 1gdf | A | albelig | 7 | 7 | E | 96 | 98 | A-155-  | A-157-  | EYE 
+| 1gdf | A | albelig | 8 | 8 | E | 101 | 105 | A-160-  | A-164-  | TPMEE 
+| 1gdf | A | albelig | 9 | 9 | E | 117 | 123 | A-176-  | A-182-  | NIKSRFT 
+| 1gdf | A | albelig | 10 | 10 | E | 129 | 138 | A-188-  | A-197-  | DHLSWEWNLT 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 3 = p = 10
+= 4 = a = 7
+= 4 = a = 8
+= 5 = a = 6
+= 5 = a = 9
+= 9 = a = 10
+# Listed 7 contacts. EOF.

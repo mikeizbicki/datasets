@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eq9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHYMOTRYPSIN, FIRE ANT, SERINE PROTEINASE, HYDROLASE
+> pdb_mol_name > CHYMOTRYPSIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 03-APR-00
+> header > HYDROLASE
+> pdb_org_common > RED FIRE ANT
+> title > CRYSTAL STRUCTURE OF FIRE ANT CHYMOTRYPSIN COMPLEXED TO PMSF
+> format_version > 2
+> pdbid > 1eq9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SOLENOPSIS INVICTA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eq9 | A | albelig | 1 | 1 | E | 15 | 20 | A-30-  | A-35-  | QVSLRL 
+| 1eq9 | A | albelig | 2 | 2 | E | 23 | 30 | A-39-  | A-46-  | SHRAGASI 
+| 1eq9 | A | albelig | 3 | 3 | E | 35 | 38 | A-51-  | A-54-  | NVLT 
+| 1eq9 | A | albelig | 4 | 4 | H | 40 | 43 | A-56-  | A-59-  | AHAV 
+| 1eq9 | A | albelig | 5 | 5 | H | 49 | 51 | A-61-  | A-63-  | LNR 
+| 1eq9 | A | albelig | 6 | 6 | E | 52 | 56 | A-63-A | A-67-  | LKVHV 
+| 1eq9 | A | albelig | 7 | 7 | E | 66 | 75 | A-79-  | A-90-  | DVYDVEDAVV 
+| 1eq9 | A | albelig | 8 | 8 | E | 89 | 93 | A-104-  | A-108-  | ALVHL 
+| 1eq9 | A | albelig | 9 | 9 | E | 119 | 124 | A-135-  | A-140-  | PCTLTG 
+| 1eq9 | A | albelig | 10 | 10 | E | 139 | 146 | A-156-  | A-163-  | QEIELIVH 
+| 1eq9 | A | albelig | 11 | 11 | H | 148 | 154 | A-165-  | A-171-  | QKQNERD 
+| 1eq9 | A | albelig | 12 | 12 | E | 162 | 165 | A-180-  | A-183-  | HINT 
+| 1eq9 | A | albelig | 13 | 13 | E | 181 | 184 | A-198-  | A-201-  | PLVA 
+| 1eq9 | A | albelig | 14 | 14 | E | 187 | 194 | A-208-  | A-215-  | AQIGIVSF 
+| 1eq9 | A | albelig | 15 | 15 | E | 204 | 208 | A-226-  | A-230-  | DVYTR 
+| 1eq9 | A | albelig | 16 | 16 | H | 209 | 218 | A-231-  | A-240-  | VSSFVSWINA 
+| 1eq9 | A | albelig | 17 | 17 | L | 446 | 446 | A-1201-  | A-1201-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 5
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 8
+= 4 = l = 17
+= 5 = m = 6
+= 6 = a = 7
+= 7 = a = 8
+= 9 = a = 10
+= 9 = a = 13
+= 10 = a = 12
+= 11 = m = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 14 = m = 16
+= 14 = l = 17
+= 15 = m = 16
+= 15 = l = 17
+# Listed 20 contacts. EOF.

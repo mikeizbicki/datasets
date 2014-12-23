@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fd9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FKBP DOMAIN, LONG ALPHA HELIX, DIMERISATION VIA HELICAL INTERACTIONS,ISOMERASE
+> pdb_mol_name > PROTEIN (MACROPHAGE INFECTIVITY POTENTIATOR PROTEIN)
+> graphtype > albelig
+> resolution > 2.41
+> date > 20-JUL-00
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE MACROPHAGE INFECTIVITY POTENTIATOR PROTEIN(MIP) A MAJOR VIRULENCE FACTOR FROM LEGIONELLA PNEUMOPHILA
+> format_version > 2
+> pdbid > 1fd9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LEGIONELLA PNEUMOPHILA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fd9 | A | albelig | 1 | 1 | H | 2 | 21 | A-10-  | A-29-  | DKDKLSYSIGADLGKNFKNQ 
+| 1fd9 | A | albelig | 2 | 2 | H | 27 | 39 | A-35-  | A-47-  | PEAMAKGMQDAMS 
+| 1fd9 | A | albelig | 3 | 3 | H | 47 | 89 | A-55-  | A-97-  | EQQMKDVLNKFQKDLMAKRTAEFNKKADENKVKGEAFLTENKN 
+| 1fd9 | A | albelig | 4 | 4 | E | 93 | 95 | A-101-  | A-103-  | VVV 
+| 1fd9 | A | albelig | 5 | 5 | E | 101 | 106 | A-109-  | A-114-  | QYKVIN 
+| 1fd9 | A | albelig | 6 | 6 | E | 118 | 127 | A-126-  | A-135-  | TVTVEYTGRL 
+| 1fd9 | A | albelig | 7 | 7 | E | 132 | 135 | A-140-  | A-143-  | VFDS 
+| 1fd9 | A | albelig | 8 | 8 | H | 136 | 139 | A-144-  | A-147-  | TEKT 
+| 1fd9 | A | albelig | 9 | 9 | E | 143 | 146 | A-151-  | A-154-  | ATFQ 
+| 1fd9 | A | albelig | 10 | 10 | H | 147 | 149 | A-155-  | A-157-  | VSQ 
+| 1fd9 | A | albelig | 11 | 11 | H | 152 | 158 | A-160-  | A-166-  | PGWTEAL 
+| 1fd9 | A | albelig | 12 | 12 | E | 166 | 171 | A-174-  | A-179-  | TWEIYV 
+| 1fd9 | A | albelig | 13 | 13 | H | 173 | 175 | A-181-  | A-183-  | SGL 
+| 1fd9 | A | albelig | 14 | 14 | E | 192 | 202 | A-200-  | A-210-  | LIFKIHLISVK 
+| 1fd9 | A | albelig | 15 | 15 | L | 205 | 205 | A-401-  | A-401-  | J 
+| 1fd9 | A | albelig | 16 | 16 | L | 206 | 206 | A-402-  | A-402-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = a = 5
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 9
+= 6 = a = 14
+= 6 = l = 15
+= 7 = m = 8
+= 9 = m = 10
+= 12 = a = 14
+= 14 = l = 15
+= 14 = l = 16
+= 15 = l = 16
+# Listed 12 contacts. EOF.

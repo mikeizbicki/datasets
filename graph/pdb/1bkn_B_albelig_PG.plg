@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bkn, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA REPAIR, ATPASE, DNA BINDING
+> pdb_mol_name > MUTL
+> graphtype > albelig
+> resolution > 2.9
+> date > 09-JUL-98
+> header > DNA REPAIR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN N-TERMINAL 40KD FRAGMENT OF E. COLIDNA MISMATCH REPAIR PROTEIN MUTL
+> format_version > 2
+> pdbid > 1bkn
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI K12
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bkn | B | albelig | 1 | 1 | H | 281 | 294 | B-423-  | B-436-  | PASVVKELVENSLD 
+| 1bkn | B | albelig | 2 | 2 | E | 299 | 305 | B-441-  | B-447-  | RIDIDIE 
+| 1bkn | B | albelig | 3 | 3 | E | 311 | 316 | B-453-  | B-458-  | LIRIRD 
+| 1bkn | B | albelig | 4 | 4 | H | 323 | 330 | B-465-  | B-472-  | KDELALAL 
+| 1bkn | B | albelig | 5 | 5 | H | 336 | 338 | B-490-  | B-492-  | ISL 
+| 1bkn | B | albelig | 6 | 6 | H | 340 | 349 | B-494-  | B-503-  | FRGEALASIS 
+| 1bkn | B | albelig | 7 | 7 | E | 355 | 359 | B-509-  | B-513-  | TLTSR 
+| 1bkn | B | albelig | 8 | 8 | E | 366 | 368 | B-520-  | B-522-  | AWQ 
+| 1bkn | B | albelig | 9 | 9 | E | 377 | 379 | B-535-  | B-537-  | KPA 
+| 1bkn | B | albelig | 10 | 10 | E | 384 | 388 | B-542-  | B-546-  | GTTLE 
+| 1bkn | B | albelig | 11 | 11 | H | 398 | 414 | B-565-  | B-581-  | KTEFNHIDEIIRRIALA 
+| 1bkn | B | albelig | 12 | 12 | E | 419 | 424 | B-586-  | B-591-  | TINLSH 
+| 1bkn | B | albelig | 13 | 13 | E | 427 | 432 | B-594-  | B-599-  | KIVRQY 
+| 1bkn | B | albelig | 14 | 14 | H | 441 | 456 | B-608-  | B-623-  | KERRLGAICGTAFLEQ 
+| 1bkn | B | albelig | 15 | 15 | E | 457 | 464 | B-624-  | B-631-  | ALAIEWQH 
+| 1bkn | B | albelig | 16 | 16 | E | 467 | 474 | B-634-  | B-641-  | LTLRGWVA 
+| 1bkn | B | albelig | 17 | 17 | H | 476 | 478 | B-643-  | B-645-  | PNH 
+| 1bkn | B | albelig | 18 | 18 | H | 483 | 485 | B-650-  | B-652-  | LAE 
+| 1bkn | B | albelig | 19 | 19 | E | 487 | 491 | B-654-  | B-658-  | QYCYV 
+| 1bkn | B | albelig | 20 | 20 | E | 494 | 496 | B-661-  | B-663-  | RMM 
+| 1bkn | B | albelig | 21 | 21 | H | 499 | 512 | B-666-  | B-679-  | RLINHAIRQACEDK 
+| 1bkn | B | albelig | 22 | 22 | E | 521 | 526 | B-688-  | B-693-  | FVLYLE 
+| 1bkn | B | albelig | 23 | 23 | H | 537 | 551 | B-716-  | B-730-  | RLVHDFIYQGVLSVL 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 11
+= 2 = a = 3
+= 2 = p = 12
+= 3 = a = 10
+= 7 = a = 8
+= 7 = a = 10
+= 8 = a = 9
+= 11 = a = 12
+= 11 = m = 19
+= 12 = a = 13
+= 14 = m = 15
+= 14 = m = 16
+= 15 = a = 16
+= 15 = a = 23
+= 16 = a = 22
+= 16 = m = 23
+= 19 = a = 20
+= 19 = p = 22
+= 21 = p = 23
+# Listed 19 contacts. EOF.

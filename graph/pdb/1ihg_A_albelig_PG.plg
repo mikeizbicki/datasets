@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ihg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PPIASE IMMUNOPHILIN TETRATRICOPEPTIDE, ISOMERASE
+> pdb_mol_name > CYCLOPHILIN 40
+> graphtype > albelig
+> resolution > 1.8
+> date > 19-APR-01
+> header > ISOMERASE
+> pdb_org_common > CATTLE
+> title > BOVINE CYCLOPHILIN 40, MONOCLINIC FORM
+> format_version > 2
+> pdbid > 1ihg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ihg | A | albelig | 1 | 1 | E | 16 | 23 | A-17-  | A-24-  | RVFFDVDI 
+| 1ihg | A | albelig | 2 | 2 | E | 26 | 35 | A-27-  | A-36-  | ERVGRIVLEL 
+| 1ihg | A | albelig | 3 | 3 | H | 41 | 52 | A-42-  | A-53-  | PKTAENFRALCT 
+| 1ihg | A | albelig | 4 | 4 | E | 72 | 76 | A-73-  | A-77-  | FHRII 
+| 1ihg | A | albelig | 5 | 5 | E | 80 | 83 | A-81-  | A-84-  | MIQG 
+| 1ihg | A | albelig | 6 | 6 | E | 116 | 119 | A-117-  | A-120-  | LLSM 
+| 1ihg | A | albelig | 7 | 7 | E | 131 | 134 | A-132-  | A-135-  | FFIT 
+| 1ihg | A | albelig | 8 | 8 | H | 139 | 141 | A-140-  | A-142-  | PHL 
+| 1ihg | A | albelig | 9 | 9 | E | 147 | 153 | A-148-  | A-154-  | VFGQVIK 
+| 1ihg | A | albelig | 10 | 10 | H | 155 | 162 | A-156-  | A-163-  | MGVAKILE 
+| 1ihg | A | albelig | 11 | 11 | E | 175 | 183 | A-176-  | A-184-  | CVIAECGEL 
+| 1ihg | A | albelig | 12 | 12 | H | 205 | 207 | A-206-  | A-208-  | PED 
+| 1ihg | A | albelig | 13 | 13 | H | 215 | 234 | A-216-  | A-235-  | VDKILLISEDLKNIGNTFFK 
+| 1ihg | A | albelig | 14 | 14 | H | 238 | 258 | A-239-  | A-259-  | WEMAIKKYTKVLRYVEGSRAA 
+| 1ihg | A | albelig | 15 | 15 | H | 261 | 267 | A-262-  | A-268-  | DADGAKL 
+| 1ihg | A | albelig | 16 | 16 | H | 268 | 284 | A-269-  | A-285-  | QPVALSCVLNIGACKLK 
+| 1ihg | A | albelig | 17 | 17 | H | 288 | 299 | A-289-  | A-300-  | WQGAVDSCLEAL 
+| 1ihg | A | albelig | 18 | 18 | H | 306 | 318 | A-307-  | A-319-  | TKALYRRAQGWQG 
+| 1ihg | A | albelig | 19 | 19 | H | 322 | 335 | A-323-  | A-336-  | YDQALADLKKAQEI 
+| 1ihg | A | albelig | 20 | 20 | H | 340 | 361 | A-341-  | A-362-  | KAIQAELLKVKQKIKAQKDKEK 
+| 1ihg | A | albelig | 21 | 21 | L | 365 | 365 | A-371-  | A-371-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 9
+= 2 = m = 10
+= 3 = m = 11
+= 4 = a = 5
+= 5 = a = 7
+= 6 = a = 7
+= 6 = a = 9
+= 10 = l = 21
+= 12 = l = 21
+= 13 = a = 14
+= 13 = m = 15
+= 13 = p = 16
+= 14 = a = 16
+= 14 = l = 21
+= 15 = m = 16
+= 16 = a = 17
+= 16 = m = 18
+= 17 = a = 18
+= 18 = a = 19
+= 18 = p = 20
+= 19 = a = 20
+# Listed 23 contacts. EOF.

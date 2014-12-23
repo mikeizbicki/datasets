@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gsf, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > A1-1, TRANSFERASE (GLUTATHIONE)
+> pdb_mol_name > GLUTATHIONE TRANSFERASE A1-1
+> graphtype > albelig
+> resolution > 2.7
+> date > 09-JUN-95
+> header > TRANSFERASE (GLUTATHIONE)
+> pdb_org_common > HUMAN
+> title > GLUTATHIONE TRANSFERASE A1-1 COMPLEXED WITH ETHACRYNIC ACID
+> format_version > 2
+> pdbid > 1gsf
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gsf | C | albelig | 1 | 1 | E | 449 | 452 | C-6-  | C-9-  | KLHY 
+| 1gsf | C | albelig | 2 | 2 | H | 460 | 469 | C-17-  | C-26-  | ESTRWLLAAA 
+| 1gsf | C | albelig | 3 | 3 | E | 474 | 477 | C-31-  | C-34-  | EEKF 
+| 1gsf | C | albelig | 4 | 4 | H | 481 | 490 | C-38-  | C-47-  | AEDLDKLRND 
+| 1gsf | C | albelig | 5 | 5 | E | 500 | 503 | C-57-  | C-60-  | MVEI 
+| 1gsf | C | albelig | 6 | 6 | E | 506 | 509 | C-63-  | C-66-  | MKLV 
+| 1gsf | C | albelig | 7 | 7 | H | 511 | 521 | C-68-  | C-78-  | TRAILNYIASK 
+| 1gsf | C | albelig | 8 | 8 | H | 529 | 554 | C-86-  | C-111-  | IKERALIDMYIEGIADLGEMILLLPV 
+| 1gsf | C | albelig | 9 | 9 | H | 560 | 575 | C-117-  | C-132-  | KDAKLALIKEKIKNRY 
+| 1gsf | C | albelig | 10 | 10 | H | 576 | 586 | C-133-  | C-143-  | FPAFEKVLKSH 
+| 1gsf | C | albelig | 11 | 11 | H | 598 | 611 | C-155-  | C-168-  | RADIHLVELLYYVE 
+| 1gsf | C | albelig | 12 | 12 | H | 617 | 620 | C-174-  | C-177-  | LISS 
+| 1gsf | C | albelig | 13 | 13 | H | 622 | 632 | C-179-  | C-189-  | PLLKALKTRIS 
+| 1gsf | C | albelig | 14 | 14 | H | 635 | 641 | C-192-  | C-198-  | PTVKKFL 
+| 1gsf | C | albelig | 15 | 15 | H | 653 | 664 | C-210-  | C-221-  | EKSLEEARKIFR 
+| 1gsf | C | albelig | 16 | 16 | L | 890 | 890 | C-223-  | C-223-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 1 = l = 16
+= 2 = m = 7
+= 2 = m = 11
+= 2 = m = 14
+= 5 = a = 6
+= 8 = a = 9
+= 8 = p = 11
+= 8 = l = 16
+= 9 = m = 10
+= 10 = m = 13
+= 11 = m = 13
+= 12 = m = 13
+= 15 = l = 16
+# Listed 15 contacts. EOF.

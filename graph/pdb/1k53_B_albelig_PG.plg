@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k53, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN L B1 DOMAIN, STRAINED BETA-HAIRPIN TURN, POSITIVE PHI ANGLES,DOMAIN SWAPPING, AMYLOID FORMATION, PROTEIN BINDING
+> pdb_mol_name > PROTEIN L
+> graphtype > albelig
+> resolution > 2.1
+> date > 09-OCT-01
+> header > PROTEIN BINDING
+> pdb_org_common > UNKNOWN
+> title > MONOMERIC PROTEIN L B1 DOMAIN WITH A G15A MUTATION
+> format_version > 2
+> pdbid > 1k53
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > FINEGOLDIA MAGNA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k53 | B | albelig | 1 | 1 | E | 85 | 92 | B-4-  | B-11-  | VTIKANLI 
+| 1k53 | B | albelig | 2 | 2 | E | 98 | 105 | B-17-  | B-24-  | TQTAEFKG 
+| 1k53 | B | albelig | 3 | 3 | H | 107 | 125 | B-26-  | B-44-  | FEKATSEAYAYADTLKKDN 
+| 1k53 | B | albelig | 4 | 4 | E | 128 | 133 | B-47-  | B-52-  | WTVDVA 
+| 1k53 | B | albelig | 5 | 5 | H | 134 | 136 | B-53-  | B-55-  | DKG 
+| 1k53 | B | albelig | 6 | 6 | E | 138 | 143 | B-57-  | B-62-  | TLNIKF 
+| 1k53 | B | albelig | 7 | 7 | L | 152 | 152 | B-1006-  | B-1006-  | J 
+| 1k53 | B | albelig | 8 | 8 | L | 153 | 153 | B-1008-  | B-1008-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = p = 6
+= 2 = m = 3
+= 3 = p = 6
+= 3 = l = 7
+= 3 = l = 8
+= 4 = m = 5
+= 4 = a = 6
+# Listed 9 contacts. EOF.

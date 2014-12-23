@@ -1,0 +1,78 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cev, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME, HYDROLASE, ARGININE HYDROLYSIS, NITROGEN METABOLISM,MANGANESE METALLOENZYME
+> pdb_mol_name > PROTEIN (ARGINASE)
+> graphtype > albelig
+> resolution > 2.4
+> date > 12-MAR-99
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > ARGINASE FROM BACILLUS CALDOVELOX, NATIVE STRUCTURE AT PH 5.6
+> format_version > 2
+> pdbid > 1cev
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS CALDOVELOX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cev | E | albelig | 1 | 1 | E | 1204 | 1209 | E-4-  | E-9-  | ISIIGV 
+| 1cev | E | albelig | 2 | 2 | H | 1220 | 1229 | E-20-  | E-29-  | VDMGPSAMRY 
+| 1cev | E | albelig | 3 | 3 | H | 1232 | 1238 | E-32-  | E-38-  | VIERLER 
+| 1cev | E | albelig | 4 | 4 | E | 1243 | 1248 | E-43-  | E-48-  | IEDLGD 
+| 1cev | E | albelig | 5 | 5 | H | 1268 | 1287 | E-68-  | E-87-  | LKAVAEANEKLAAAVDQVVQ 
+| 1cev | E | albelig | 6 | 6 | E | 1291 | 1296 | E-91-  | E-96-  | FPLVLG 
+| 1cev | E | albelig | 7 | 7 | H | 1299 | 1310 | E-99-  | E-110-  | HSIAIGTLAGVA 
+| 1cev | E | albelig | 8 | 8 | E | 1316 | 1321 | E-116-  | E-121-  | LGVIWY 
+| 1cev | E | albelig | 9 | 9 | H | 1338 | 1340 | E-138-  | E-140-  | IHG 
+| 1cev | E | albelig | 10 | 10 | H | 1342 | 1346 | E-142-  | E-146-  | PLAAS 
+| 1cev | E | albelig | 11 | 11 | H | 1352 | 1355 | E-152-  | E-155-  | PALT 
+| 1cev | E | albelig | 12 | 12 | H | 1357 | 1359 | E-157-  | E-159-  | IGG 
+| 1cev | E | albelig | 13 | 13 | H | 1366 | 1368 | E-166-  | E-168-  | PEH 
+| 1cev | E | albelig | 14 | 14 | E | 1369 | 1374 | E-169-  | E-174-  | VVLIGV 
+| 1cev | E | albelig | 15 | 15 | H | 1379 | 1388 | E-179-  | E-188-  | EGEKKFIREK 
+| 1cev | E | albelig | 16 | 16 | E | 1391 | 1394 | E-191-  | E-194-  | KIYT 
+| 1cev | E | albelig | 17 | 17 | H | 1395 | 1401 | E-195-  | E-201-  | MHEVDRL 
+| 1cev | E | albelig | 18 | 18 | H | 1403 | 1415 | E-203-  | E-215-  | MTRVMEETIAYLK 
+| 1cev | E | albelig | 19 | 19 | E | 1420 | 1426 | E-220-  | E-226-  | GVHLSLD 
+| 1cev | E | albelig | 20 | 20 | H | 1427 | 1429 | E-227-  | E-229-  | LDG 
+| 1cev | E | albelig | 21 | 21 | H | 1448 | 1461 | E-248-  | E-261-  | YRESHLAMEMLAEA 
+| 1cev | E | albelig | 22 | 22 | E | 1464 | 1470 | E-264-  | E-270-  | ITSAEFV 
+| 1cev | E | albelig | 23 | 23 | H | 1481 | 1493 | E-281-  | E-293-  | KTASVAVALMGSL 
+| 1cev | E | albelig | 24 | 24 | L | 1808 | 1808 | E-300-  | E-300-  | J 
+| 1cev | E | albelig | 25 | 25 | L | 1809 | 1809 | E-301-  | E-301-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = a = 5
+= 1 = p = 6
+= 2 = m = 6
+= 3 = m = 23
+= 5 = p = 7
+= 5 = m = 12
+= 6 = p = 22
+= 7 = a = 8
+= 7 = m = 10
+= 7 = a = 19
+= 7 = a = 22
+= 7 = l = 24
+= 8 = m = 13
+= 8 = p = 14
+= 8 = p = 19
+= 8 = l = 24
+= 9 = l = 24
+= 10 = l = 24
+= 13 = m = 14
+= 14 = p = 16
+= 14 = m = 18
+= 16 = m = 17
+= 16 = m = 18
+= 18 = p = 21
+= 19 = m = 20
+= 19 = p = 22
+= 19 = l = 24
+= 19 = l = 25
+= 20 = l = 25
+= 21 = p = 23
+= 24 = l = 25
+# Listed 32 contacts. EOF.

@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i56, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM BINDING LYSOZYME, ENZYME, HYDROLASE
+> pdb_mol_name > LYSOZYME C
+> graphtype > albelig
+> resolution > -1.0
+> date > 25-FEB-01
+> header > HYDROLASE
+> pdb_org_common > DOG
+> title > SOLUTION STRUCTURE OF CA2+-BOUND STATE OF CANINE MILKLYSOZYME
+> format_version > 2
+> pdbid > 1i56
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CANIS LUPUS FAMILIARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i56 | A | albelig | 1 | 1 | H | 6 | 16 | A-6-  | A-16-  | KCELARKLKSM 
+| 1i56 | A | albelig | 2 | 2 | H | 26 | 36 | A-26-  | A-36-  | LANWVAMAEYE 
+| 1i56 | A | albelig | 3 | 3 | H | 91 | 101 | A-91-  | A-101-  | DDIACAKRVVK 
+| 1i56 | A | albelig | 4 | 4 | H | 105 | 108 | A-105-  | A-108-  | GMSA 
+| 1i56 | A | albelig | 5 | 5 | H | 110 | 115 | A-110-  | A-115-  | VAWVKH 
+| 1i56 | A | albelig | 6 | 6 | H | 125 | 127 | A-125-  | A-127-  | LAS 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = m = 5
+# Listed 2 contacts. EOF.

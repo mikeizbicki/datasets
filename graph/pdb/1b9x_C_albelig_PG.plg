@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b9x, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSDUCIN, TRANSDUCIN, BETA-GAMMA, SIGNAL TRANSDUCTION,REGULATION, PHOSPHORYLATION, G PROTEINS, THIOREDOXIN,VISION, MEKA, COMPLEX (TRANSDUCER/ TRANSDUCTION), SIGNALINGPROTEIN
+> pdb_mol_name > PROTEIN (PHOSDUCIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 16-FEB-99
+> header > SIGNALING PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > STRUCTURAL ANALYSIS OF PHOSDUCIN AND ITS PHOSPHORYLATION-REGULATED INTERACTION WITH TRANSDUCIN
+> format_version > 2
+> pdbid > 1b9x
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b9x | C | albelig | 1 | 1 | H | 418 | 433 | C-21-  | C-36-  | GPKGVINDWRKFKLES 
+| 1b9x | C | albelig | 2 | 2 | H | 438 | 455 | C-88-  | C-105-  | GCLRKYRRQCMQDMHQKL 
+| 1b9x | C | albelig | 3 | 3 | E | 464 | 466 | C-114-  | C-116-  | VYE 
+| 1b9x | C | albelig | 4 | 4 | H | 470 | 478 | C-120-  | C-128-  | GEQFLETIE 
+| 1b9x | C | albelig | 5 | 5 | E | 485 | 491 | C-135-  | C-141-  | TIVVNIY 
+| 1b9x | C | albelig | 6 | 6 | H | 498 | 511 | C-148-  | C-161-  | CDALNSSLECLAAE 
+| 1b9x | C | albelig | 7 | 7 | E | 516 | 521 | C-166-  | C-171-  | KFCKIR 
+| 1b9x | C | albelig | 8 | 8 | H | 522 | 525 | C-172-  | C-175-  | ASNT 
+| 1b9x | C | albelig | 9 | 9 | E | 538 | 543 | C-188-  | C-193-  | TLLVYK 
+| 1b9x | C | albelig | 10 | 10 | E | 546 | 551 | C-196-  | C-201-  | ELISNF 
+| 1b9x | C | albelig | 11 | 11 | H | 554 | 557 | C-204-  | C-207-  | VAEQ 
+| 1b9x | C | albelig | 12 | 12 | H | 564 | 572 | C-214-  | C-222-  | AADVESFLN 
+| 1b9x | C | albelig | 13 | 13 | L | 585 | 585 | C-247-  | C-247-  | J 
+| 1b9x | C | albelig | 14 | 14 | L | 586 | 586 | C-248-  | C-248-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = a = 7
+= 5 = m = 6
+= 5 = p = 7
+= 5 = a = 9
+= 6 = l = 13
+= 7 = m = 8
+= 9 = a = 10
+= 12 = l = 13
+# Listed 9 contacts. EOF.

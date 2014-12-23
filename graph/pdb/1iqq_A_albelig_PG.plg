@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iqq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PYRUS PYRIFOLIA, JAPANESE PEAR, S-RNASE, SELF-INCOMPATIBILITY, T2FAMILY RIBONUCLEASE, HYDROLASE
+> pdb_mol_name > S3-RNASE
+> graphtype > albelig
+> resolution > 1.5
+> date > 25-JUL-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF JAPANESE PEAR S3-RNASE
+> format_version > 2
+> pdbid > 1iqq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PYRUS PYRIFOLIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iqq | A | albelig | 1 | 1 | E | 3 | 10 | A-3-  | A-10-  | YFQFTQQY 
+| 1iqq | A | albelig | 2 | 2 | H | 11 | 14 | A-11-  | A-14-  | QLAV 
+| 1iqq | A | albelig | 3 | 3 | E | 30 | 38 | A-30-  | A-38-  | FTVHGLWPS 
+| 1iqq | A | albelig | 4 | 4 | H | 58 | 67 | A-58-  | A-67-  | KLLEHQLEII 
+| 1iqq | A | albelig | 5 | 5 | H | 74 | 87 | A-74-  | A-87-  | RTKNNLFWDKEWMK 
+| 1iqq | A | albelig | 6 | 6 | H | 89 | 91 | A-89-  | A-91-  | GSN 
+| 1iqq | A | albelig | 7 | 7 | H | 99 | 112 | A-99-  | A-112-  | ENHYFETVIKMYIS 
+| 1iqq | A | albelig | 8 | 8 | H | 117 | 123 | A-117-  | A-123-  | VSRILSK 
+| 1iqq | A | albelig | 9 | 9 | H | 135 | 143 | A-135-  | A-143-  | LLDIENAIR 
+| 1iqq | A | albelig | 10 | 10 | E | 152 | 158 | A-152-  | A-158-  | KLKCQKK 
+| 1iqq | A | albelig | 11 | 11 | E | 161 | 171 | A-161-  | A-171-  | TTELVEITLDS 
+| 1iqq | A | albelig | 12 | 12 | L | 201 | 201 | A-201-  | A-201-  | J 
+| 1iqq | A | albelig | 13 | 13 | L | 202 | 202 | A-202-  | A-202-  | J 
+| 1iqq | A | albelig | 14 | 14 | L | 203 | 203 | A-203-  | A-203-  | J 
+| 1iqq | A | albelig | 15 | 15 | L | 204 | 204 | A-204-  | A-204-  | J 
+| 1iqq | A | albelig | 16 | 16 | L | 205 | 205 | A-205-  | A-205-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 3
+= 1 = a = 11
+= 3 = m = 4
+= 3 = a = 7
+= 3 = m = 8
+= 4 = m = 5
+= 4 = p = 7
+= 4 = l = 12
+= 5 = m = 6
+= 5 = m = 7
+= 7 = l = 12
+= 8 = l = 12
+= 10 = a = 11
+= 12 = l = 13
+= 13 = l = 14
+= 13 = l = 15
+= 13 = l = 16
+= 14 = l = 15
+= 14 = l = 16
+= 15 = l = 16
+# Listed 21 contacts. EOF.

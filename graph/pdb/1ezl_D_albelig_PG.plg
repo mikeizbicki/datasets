@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ezl, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MUTANT, DISULPHIDE BOND, CRYSTAL STRUCTURE, PROTEIN FOLDING,GREEK KEY FOLD, ELECTRON TRANSPORT
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 11-MAY-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE DISULPHIDE BOND-DEFICIENT AZURINMUTANT C3A/C26A: HOW IMPORTANT IS THE S-S BOND FOR FOLDINGAND STABILITY?
+> format_version > 2
+> pdbid > 1ezl
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ezl | D | albelig | 1 | 1 | E | 391 | 395 | D-394-  | D-398-  | SVDIQ 
+| 1ezl | D | albelig | 2 | 2 | E | 406 | 409 | D-409-  | D-412-  | AITV 
+| 1ezl | D | albelig | 3 | 3 | E | 415 | 421 | D-418-  | D-424-  | QFTVNLS 
+| 1ezl | D | albelig | 4 | 4 | H | 428 | 431 | D-431-  | D-434-  | KNVM 
+| 1ezl | D | albelig | 5 | 5 | E | 436 | 439 | D-439-  | D-442-  | VLST 
+| 1ezl | D | albelig | 6 | 6 | H | 443 | 451 | D-446-  | D-454-  | MQGVVTDGM 
+| 1ezl | D | albelig | 7 | 7 | E | 479 | 485 | D-482-  | D-488-  | KDSVTFD 
+| 1ezl | D | albelig | 8 | 8 | H | 486 | 488 | D-489-  | D-491-  | VSK 
+| 1ezl | D | albelig | 9 | 9 | E | 495 | 498 | D-498-  | D-501-  | YMFF 
+| 1ezl | D | albelig | 10 | 10 | E | 509 | 514 | D-512-  | D-517-  | KGTLTL 
+| 1ezl | D | albelig | 11 | 11 | L | 519 | 519 | D-1001-  | D-1001-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 10
+= 3 = a = 7
+= 5 = a = 9
+= 7 = m = 8
+= 9 = a = 10
+# Listed 6 contacts. EOF.

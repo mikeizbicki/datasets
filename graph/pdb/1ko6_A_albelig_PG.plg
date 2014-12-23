@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ko6, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOPORIN, AUTOPROTEOLYSIS, NUCLEAR PORE, TRANSFERASE
+> pdb_mol_name > NUCLEAR PORE COMPLEX PROTEIN NUP98
+> graphtype > albelig
+> resolution > 3.0
+> date > 20-DEC-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF C-TERMINAL AUTOPROTEOLYTIC DOMAIN OFNUCLEOPORIN NUP98
+> format_version > 2
+> pdbid > 1ko6
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ko6 | A | albelig | 1 | 1 | E | 13 | 16 | A-724-  | A-727-  | YYTI 
+| 1ko6 | A | albelig | 2 | 2 | H | 19 | 25 | A-730-  | A-736-  | MDDLAKI 
+| 1ko6 | A | albelig | 3 | 3 | E | 37 | 41 | A-748-  | A-752-  | FTIGR 
+| 1ko6 | A | albelig | 4 | 4 | E | 45 | 49 | A-756-  | A-760-  | GSIYF 
+| 1ko6 | A | albelig | 5 | 5 | H | 60 | 63 | A-771-  | A-774-  | LDDI 
+| 1ko6 | A | albelig | 6 | 6 | E | 64 | 67 | A-775-  | A-778-  | VHIR 
+| 1ko6 | A | albelig | 7 | 7 | E | 70 | 73 | A-781-  | A-784-  | EVVV 
+| 1ko6 | A | albelig | 8 | 8 | E | 91 | 95 | A-802-  | A-806-  | AEVTL 
+| 1ko6 | A | albelig | 9 | 9 | H | 112 | 118 | A-823-  | A-829-  | PDRLADI 
+| 1ko6 | A | albelig | 10 | 10 | H | 120 | 130 | A-831-  | A-841-  | YEGRLEAVSRK 
+| 1ko6 | A | albelig | 11 | 11 | E | 134 | 139 | A-845-  | A-850-  | QFKEYR 
+| 1ko6 | A | albelig | 12 | 12 | H | 140 | 142 | A-851-  | A-853-  | PET 
+| 1ko6 | A | albelig | 13 | 13 | E | 144 | 149 | A-855-  | A-860-  | SWVFKV 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 6
+= 3 = a = 4
+= 3 = p = 6
+= 4 = a = 8
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 8 = a = 13
+= 11 = m = 12
+= 11 = a = 13
+# Listed 11 contacts. EOF.

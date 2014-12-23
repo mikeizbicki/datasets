@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1il5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURE-BASED DESIGN, TOXIN-INHIBITOR COMPLEX,GLYCOSIDASE, HYDROLASE, RIBOSOME-INHIBITING PROTEIN
+> pdb_mol_name > RICIN A CHAIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 07-MAY-01
+> header > HYDROLASE
+> pdb_org_common > CASTOR BEAN
+> title > STRUCTURE OF RICIN A CHAIN BOUND WITH INHIBITOR 2,5-DIAMINO-4,6-DIHYDROXYPYRIMIDINE (DDP)
+> format_version > 2
+> pdbid > 1il5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RICINUS COMMUNIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1il5 | A | albelig | 1 | 1 | E | 8 | 12 | A-8-  | A-12-  | IINFT 
+| 1il5 | A | albelig | 2 | 2 | H | 18 | 32 | A-18-  | A-32-  | VQSYTNFIRAVRGRL 
+| 1il5 | A | albelig | 3 | 3 | H | 48 | 50 | A-48-  | A-50-  | RVG 
+| 1il5 | A | albelig | 4 | 4 | H | 53 | 55 | A-53-  | A-55-  | INQ 
+| 1il5 | A | albelig | 5 | 5 | E | 57 | 63 | A-57-  | A-63-  | FILVELS 
+| 1il5 | A | albelig | 6 | 6 | E | 69 | 75 | A-69-  | A-75-  | SVTLALD 
+| 1il5 | A | albelig | 7 | 7 | E | 81 | 86 | A-81-  | A-86-  | VVGYRA 
+| 1il5 | A | albelig | 8 | 8 | E | 89 | 92 | A-89-  | A-92-  | SAYF 
+| 1il5 | A | albelig | 9 | 9 | H | 98 | 104 | A-98-  | A-104-  | QEDAEAI 
+| 1il5 | A | albelig | 10 | 10 | E | 113 | 116 | A-113-  | A-116-  | NRYT 
+| 1il5 | A | albelig | 11 | 11 | H | 123 | 130 | A-123-  | A-130-  | YDRLEQLA 
+| 1il5 | A | albelig | 12 | 12 | H | 141 | 153 | A-141-  | A-153-  | NGPLEEAISALYY 
+| 1il5 | A | albelig | 13 | 13 | H | 161 | 177 | A-161-  | A-177-  | LPTLARSFIICIQMISE 
+| 1il5 | A | albelig | 14 | 14 | H | 178 | 180 | A-178-  | A-180-  | AAR 
+| 1il5 | A | albelig | 15 | 15 | H | 182 | 193 | A-182-  | A-193-  | QYIEGEMRTRIR 
+| 1il5 | A | albelig | 16 | 16 | H | 202 | 219 | A-202-  | A-219-  | PSVITLENSWGRLSTAIQ 
+| 1il5 | A | albelig | 17 | 17 | E | 225 | 233 | A-225-  | A-233-  | AFASPIQLQ 
+| 1il5 | A | albelig | 18 | 18 | E | 239 | 244 | A-239-  | A-244-  | KFSVYD 
+| 1il5 | A | albelig | 19 | 19 | H | 246 | 248 | A-246-  | A-248-  | SIL 
+| 1il5 | A | albelig | 20 | 20 | L | 535 | 535 | A-301-  | A-301-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 2 = m = 14
+= 2 = a = 15
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 7 = a = 13
+= 8 = p = 10
+= 11 = a = 13
+= 11 = l = 20
+= 12 = a = 13
+= 14 = l = 20
+= 15 = m = 16
+= 16 = a = 17
+= 16 = l = 20
+= 17 = a = 18
+# Listed 16 contacts. EOF.

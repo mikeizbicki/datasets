@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eap, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CATALYTIC ANTIBODY
+> pdb_mol_name > IGG2B-KAPPA 17E8 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.4
+> date > 10-AUG-94
+> header > CATALYTIC ANTIBODY
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF A CATALYTIC ANTIBODY WITH A SERINEPROTEASE ACTIVE SITE
+> format_version > 2
+> pdbid > 1eap
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eap | B | albelig | 1 | 1 | E | 217 | 220 | B-3-  | B-6-  | QLQE 
+| 1eap | B | albelig | 2 | 2 | E | 224 | 226 | B-10-  | B-12-  | ELV 
+| 1eap | B | albelig | 3 | 3 | E | 232 | 239 | B-18-  | B-25-  | VKISDKAS 
+| 1eap | B | albelig | 4 | 4 | H | 243 | 245 | B-29-  | B-31-  | STD 
+| 1eap | B | albelig | 5 | 5 | E | 248 | 253 | B-34-  | B-39-  | IHWVKQ 
+| 1eap | B | albelig | 6 | 6 | E | 259 | 265 | B-45-  | B-51-  | LEWIGYI 
+| 1eap | B | albelig | 7 | 7 | E | 272 | 274 | B-58-  | B-60-  | IKY 
+| 1eap | B | albelig | 8 | 8 | H | 276 | 278 | B-62-  | B-64-  | EKF 
+| 1eap | B | albelig | 9 | 9 | E | 282 | 287 | B-68-  | B-73-  | ATLTAD 
+| 1eap | B | albelig | 10 | 10 | H | 288 | 290 | B-74-  | B-76-  | QSS 
+| 1eap | B | albelig | 11 | 11 | E | 292 | 297 | B-78-  | B-83-  | TAYMQL 
+| 1eap | B | albelig | 12 | 12 | H | 302 | 304 | B-88-  | B-90-  | SED 
+| 1eap | B | albelig | 13 | 13 | E | 306 | 312 | B-92-  | B-98-  | AVYFDKR 
+| 1eap | B | albelig | 14 | 14 | E | 327 | 331 | B-118-  | B-122-  | TTLTV 
+| 1eap | B | albelig | 15 | 15 | E | 340 | 344 | B-131-  | B-135-  | SVYPL 
+| 1eap | B | albelig | 16 | 16 | E | 356 | 365 | B-147-  | B-156-  | VTLGELVKGY 
+| 1eap | B | albelig | 17 | 17 | E | 371 | 374 | B-162-  | B-165-  | TVTW 
+| 1eap | B | albelig | 18 | 18 | H | 375 | 377 | B-166-  | B-168-  | NSG 
+| 1eap | B | albelig | 19 | 19 | E | 383 | 391 | B-174-  | B-182-  | VHTFPALLQ 
+| 1eap | B | albelig | 20 | 20 | E | 394 | 403 | B-185-  | B-194-  | LYTMSSSVTV 
+| 1eap | B | albelig | 21 | 21 | E | 415 | 419 | B-206-  | B-210-  | ESVAH 
+| 1eap | B | albelig | 22 | 22 | E | 424 | 428 | B-215-  | B-219-  | TTVDK 
+| 1eap | B | albelig | 23 | 23 | L | 431 | 431 | B-222-  | B-222-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 13
+= 2 = p = 14
+= 3 = a = 5
+= 3 = a = 11
+= 5 = a = 6
+= 5 = p = 11
+= 5 = a = 13
+= 5 = l = 23
+= 6 = a = 7
+= 6 = p = 9
+= 6 = l = 23
+= 7 = a = 9
+= 9 = m = 10
+= 9 = a = 11
+= 13 = a = 14
+= 13 = l = 23
+= 15 = a = 16
+= 16 = a = 20
+= 17 = m = 18
+= 17 = a = 21
+= 19 = a = 20
+= 21 = a = 22
+# Listed 23 contacts. EOF.

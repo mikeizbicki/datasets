@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hqi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AROMATIC HYDROCARBONS CATABOLISM, OXIDOREDUCTASE, MONOOXYGENASEFLAVOPROTEIN, FAD, IRON, HYDROXYLASE
+> pdb_mol_name > PHENOL HYDROXYLASE P2 PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 19-SEP-96
+> header > HYDROXYLASE
+> pdb_org_common > UNKNOWN
+> title > COMPONENT P2 FROM THE MULTICOMPONENT PHENOL HYDROXYLASE, NMR, 11STRUCTURES
+> format_version > 2
+> pdbid > 1hqi
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hqi | A | albelig | 1 | 1 | E | 8 | 10 | A-8-  | A-10-  | AFQ 
+| 1hqi | A | albelig | 2 | 2 | H | 14 | 25 | A-14-  | A-25-  | NARYVVEAIIQD 
+| 1hqi | A | albelig | 3 | 3 | E | 45 | 48 | A-45-  | A-48-  | RLEI 
+| 1hqi | A | albelig | 4 | 4 | H | 50 | 58 | A-50-  | A-58-  | RETVEENLG 
+| 1hqi | A | albelig | 5 | 5 | H | 60 | 68 | A-60-  | A-68-  | AWDVQEMLV 
+| 1hqi | A | albelig | 6 | 6 | E | 70 | 72 | A-70-  | A-72-  | VIT 
+| 1hqi | A | albelig | 7 | 7 | E | 84 | 87 | A-84-  | A-87-  | FVLE 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 3 = a = 7
+# Listed 2 contacts. EOF.

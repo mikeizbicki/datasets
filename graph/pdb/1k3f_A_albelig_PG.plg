@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k3f, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOSIDE PHOSPHORYLASE, HEXAMER, TRANSFERASE
+> pdb_mol_name > URIDINE PHOSPHORYLASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 02-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > URIDINE PHOSPHORYLASE FROM E. COLI, REFINED IN THEMONOCLINIC CRYSTAL LATTICE
+> format_version > 2
+> pdbid > 1k3f
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k3f | A | albelig | 1 | 1 | E | 21 | 23 | A-21-  | A-23-  | LAI 
+| 1k3f | A | albelig | 2 | 2 | H | 31 | 35 | A-31-  | A-35-  | VEKIA 
+| 1k3f | A | albelig | 3 | 3 | E | 39 | 47 | A-39-  | A-47-  | DKPVKLASH 
+| 1k3f | A | albelig | 4 | 4 | E | 50 | 57 | A-50-  | A-57-  | FTTWRAEL 
+| 1k3f | A | albelig | 5 | 5 | E | 60 | 65 | A-60-  | A-65-  | KPVIVC 
+| 1k3f | A | albelig | 6 | 6 | H | 71 | 84 | A-71-  | A-84-  | GPSTSIAVEELAQL 
+| 1k3f | A | albelig | 7 | 7 | E | 88 | 97 | A-88-  | A-97-  | TFLRIGTTGA 
+| 1k3f | A | albelig | 8 | 8 | E | 107 | 113 | A-107-  | A-113-  | VLVTTAS 
+| 1k3f | A | albelig | 9 | 9 | H | 120 | 122 | A-120-  | A-122-  | SLH 
+| 1k3f | A | albelig | 10 | 10 | H | 134 | 145 | A-134-  | A-145-  | FECTTALVEAAK 
+| 1k3f | A | albelig | 11 | 11 | E | 151 | 158 | A-151-  | A-158-  | THVGVTAS 
+| 1k3f | A | albelig | 12 | 12 | H | 183 | 190 | A-183-  | A-190-  | SMEEWQAM 
+| 1k3f | A | albelig | 13 | 13 | E | 192 | 196 | A-192-  | A-196-  | VMNYE 
+| 1k3f | A | albelig | 14 | 14 | H | 199 | 204 | A-199-  | A-204-  | SATLLT 
+| 1k3f | A | albelig | 15 | 15 | E | 215 | 222 | A-215-  | A-222-  | MVAGVIVN 
+| 1k3f | A | albelig | 16 | 16 | H | 233 | 236 | A-233-  | A-236-  | TMKQ 
+| 1k3f | A | albelig | 17 | 17 | H | 238 | 252 | A-238-  | A-252-  | ESHAVKIVVEAARRL 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = p = 7
+= 2 = m = 4
+= 3 = a = 4
+= 4 = a = 5
+= 7 = a = 13
+= 7 = p = 15
+= 8 = p = 11
+= 8 = a = 15
+= 10 = a = 17
+= 11 = p = 13
+= 12 = m = 13
+# Listed 12 contacts. EOF.

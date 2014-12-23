@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c16, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NON-CLASSICAL MHC-LIKE, MAJOR HISTOCOMPATIBILITY, BETA2-MICROGLOBULIN, IMMUNE SYSTEM
+> pdb_mol_name > MHC-LIKE PROTEIN T22
+> graphtype > albelig
+> resolution > 3.1
+> date > 20-JUL-99
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE GAMMA/DELTA T CELL LIGANDT22
+> format_version > 2
+> pdbid > 1c16
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c16 | G | albelig | 1 | 1 | E | 1081 | 1090 | G-3-  | G-12-  | HSLRYFYTAV 
+| 1c16 | G | albelig | 2 | 2 | E | 1099 | 1106 | G-21-  | G-28-  | WFIIVGYV 
+| 1c16 | G | albelig | 3 | 3 | E | 1109 | 1115 | G-31-  | G-37-  | MQVLRFS 
+| 1c16 | G | albelig | 4 | 4 | H | 1136 | 1160 | G-61-  | G-85-  | EQQTRIVTIQGQLSERNLMTLVHFY 
+| 1c16 | G | albelig | 5 | 5 | E | 1169 | 1179 | G-94-  | G-104-  | TLQWLQGMDVE 
+| 1c16 | G | albelig | 6 | 6 | H | 1180 | 1182 | G-105-  | G-107-  | PDR 
+| 1c16 | G | albelig | 7 | 7 | E | 1184 | 1193 | G-109-  | G-118-  | LNLWYNQLAY 
+| 1c16 | G | albelig | 8 | 8 | E | 1205 | 1207 | G-130-  | G-132-  | PSS 
+| 1c16 | G | albelig | 9 | 9 | H | 1223 | 1241 | G-161-  | G-179-  | KSHMSDLLQKYLEKGKERL 
+| 1c16 | G | albelig | 10 | 10 | E | 1248 | 1256 | G-186-  | G-194-  | KAHVTRHPR 
+| 1c16 | G | albelig | 11 | 11 | E | 1260 | 1270 | G-198-  | G-208-  | DVTLRCWALGF 
+| 1c16 | G | albelig | 12 | 12 | E | 1276 | 1281 | G-214-  | G-219-  | TLTWQL 
+| 1c16 | G | albelig | 13 | 13 | E | 1290 | 1292 | G-228-  | G-230-  | MEL 
+| 1c16 | G | albelig | 14 | 14 | E | 1303 | 1311 | G-241-  | G-249-  | FQKWAAVVV 
+| 1c16 | G | albelig | 15 | 15 | H | 1316 | 1318 | G-254-  | G-256-  | EQS 
+| 1c16 | G | albelig | 16 | 16 | E | 1319 | 1324 | G-257-  | G-262-  | YTCHVY 
+| 1c16 | G | albelig | 17 | 17 | E | 1332 | 1335 | G-270-  | G-273-  | LILR 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 1 = a = 5
+= 1 = m = 9
+= 2 = a = 3
+= 5 = m = 6
+= 5 = a = 7
+= 5 = m = 9
+= 7 = a = 8
+= 10 = a = 11
+= 10 = p = 17
+= 11 = a = 12
+= 11 = a = 14
+= 12 = p = 14
+= 12 = a = 16
+= 13 = a = 14
+= 15 = m = 16
+= 16 = a = 17
+# Listed 18 contacts. EOF.

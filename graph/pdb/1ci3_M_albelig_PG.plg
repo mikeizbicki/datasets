@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ci3, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSFER PROTEIN, COMPLEX SUBUNIT, ELECTRON TRANSPORT
+> pdb_mol_name > PROTEIN (CYTOCHROME F)
+> graphtype > albelig
+> resolution > 1.9
+> date > 07-APR-99
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CYTOCHROME F FROM THE B6F COMPLEX OF PHORMIDIUM LAMINOSUM
+> format_version > 2
+> pdbid > 1ci3
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > PHORMIDIUM LAMINOSUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ci3 | M | albelig | 1 | 1 | H | 2 | 8 | M-2-  | M-8-  | PFWAQQN 
+| 1ci3 | M | albelig | 2 | 2 | H | 20 | 23 | M-20-  | M-23-  | VCAN 
+| 1ci3 | M | albelig | 3 | 3 | E | 32 | 34 | M-32-  | M-34-  | EIE 
+| 1ci3 | M | albelig | 4 | 4 | E | 44 | 50 | M-44-  | M-50-  | VFKAVVK 
+| 1ci3 | M | albelig | 5 | 5 | E | 70 | 76 | M-70-  | M-76-  | NVGAVLM 
+| 1ci3 | M | albelig | 6 | 6 | H | 86 | 88 | M-86-  | M-88-  | EDR 
+| 1ci3 | M | albelig | 7 | 7 | H | 91 | 94 | M-91-  | M-94-  | EEMK 
+| 1ci3 | M | albelig | 8 | 8 | H | 100 | 102 | M-100-  | M-102-  | SYL 
+| 1ci3 | M | albelig | 9 | 9 | E | 113 | 120 | M-113-  | M-120-  | IVLVGPLP 
+| 1ci3 | M | albelig | 10 | 10 | E | 127 | 132 | M-127-  | M-132-  | IVFPVL 
+| 1ci3 | M | albelig | 11 | 11 | E | 145 | 155 | M-145-  | M-155-  | GKYSIHLGANR 
+| 1ci3 | M | albelig | 12 | 12 | E | 178 | 185 | M-178-  | M-185-  | GVITAIAK 
+| 1ci3 | M | albelig | 13 | 13 | E | 191 | 196 | M-191-  | M-196-  | AEVKIR 
+| 1ci3 | M | albelig | 14 | 14 | E | 202 | 207 | M-202-  | M-207-  | TIVDKI 
+| 1ci3 | M | albelig | 15 | 15 | E | 235 | 245 | M-235-  | M-245-  | GFGQKDTEIVL 
+| 1ci3 | M | albelig | 16 | 16 | L | 250 | 250 | M-256-  | M-256-  | J 
+| 1ci3 | M | albelig | 17 | 17 | L | 251 | 251 | M-257-  | M-257-  | J 
+| 1ci3 | M | albelig | 18 | 18 | L | 252 | 252 | M-254-  | M-254-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 18
+= 2 = l = 18
+= 3 = a = 4
+= 4 = a = 10
+= 5 = a = 9
+= 5 = a = 11
+= 5 = l = 18
+= 8 = m = 9
+= 9 = l = 18
+= 11 = a = 15
+= 11 = l = 17
+= 11 = l = 18
+= 12 = a = 13
+= 13 = a = 14
+= 15 = l = 18
+# Listed 15 contacts. EOF.

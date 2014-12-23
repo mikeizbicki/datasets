@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cdk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (TRANSFERASE-INHIBITOR), TRANSFERASE-TRANSFERASE INHIBITORCOMPLEX
+> pdb_mol_name > CAMP-DEPENDENT PROTEIN KINASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 04-JUL-94
+> header > TRANSFERASE/TRANSFERASE INHIBITOR
+> pdb_org_common > PIG
+> title > CAMP-DEPENDENT PROTEIN KINASE CATALYTIC SUBUNIT (E.C.2.7.1.37)(PROTEIN KINASE A) COMPLEXED WITH PROTEIN KINASE INHIBITOR PEPTIDEFRAGMENT 5-24 (PKI(5-24) ISOELECTRIC VARIANT CA) AND MN2+ ADENYLYLIMIDODIPHOSPHATE (MNAMP-PNP) AT PH 5.6 AND 7C AND 4C
+> format_version > 2
+> pdbid > 1cdk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SUS SCROFA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cdk | A | albelig | 1 | 1 | H | 3 | 24 | A-10-  | A-31-  | SEQESVKEFLAKAKEDFLKKWE 
+| 1cdk | A | albelig | 2 | 2 | H | 33 | 35 | A-40-  | A-42-  | LDQ 
+| 1cdk | A | albelig | 3 | 3 | E | 36 | 44 | A-43-  | A-51-  | FERIKTLGT 
+| 1cdk | A | albelig | 4 | 4 | E | 49 | 55 | A-56-  | A-62-  | RVMLVKH 
+| 1cdk | A | albelig | 5 | 5 | E | 61 | 68 | A-68-  | A-75-  | HFAMKILD 
+| 1cdk | A | albelig | 6 | 6 | H | 69 | 74 | A-76-  | A-81-  | KQKVVK 
+| 1cdk | A | albelig | 7 | 7 | H | 78 | 90 | A-85-  | A-97-  | IEHTLNEKRILQA 
+| 1cdk | A | albelig | 8 | 8 | E | 99 | 104 | A-106-  | A-111-  | LEYSFK 
+| 1cdk | A | albelig | 9 | 9 | E | 108 | 113 | A-115-  | A-120-  | NLYMVM 
+| 1cdk | A | albelig | 10 | 10 | H | 121 | 128 | A-128-  | A-135-  | MFSHLRRI 
+| 1cdk | A | albelig | 11 | 11 | H | 133 | 152 | A-140-  | A-159-  | EPHARFYAAQIVLTFEYLHS 
+| 1cdk | A | albelig | 12 | 12 | H | 162 | 164 | A-169-  | A-171-  | PEN 
+| 1cdk | A | albelig | 13 | 13 | E | 165 | 167 | A-172-  | A-174-  | LLI 
+| 1cdk | A | albelig | 14 | 14 | E | 173 | 175 | A-180-  | A-182-  | IQV 
+| 1cdk | A | albelig | 15 | 15 | H | 195 | 197 | A-202-  | A-204-  | PEY 
+| 1cdk | A | albelig | 16 | 16 | H | 200 | 203 | A-207-  | A-210-  | PEII 
+| 1cdk | A | albelig | 17 | 17 | H | 212 | 226 | A-219-  | A-233-  | VDWWALGVLIYEMAA 
+| 1cdk | A | albelig | 18 | 18 | H | 236 | 245 | A-243-  | A-252-  | PIQIYEKIVS 
+| 1cdk | A | albelig | 19 | 19 | H | 256 | 265 | A-263-  | A-272-  | SDLKDLLRNL 
+| 1cdk | A | albelig | 20 | 20 | H | 282 | 285 | A-289-  | A-292-  | NDIK 
+| 1cdk | A | albelig | 21 | 21 | H | 288 | 290 | A-295-  | A-297-  | KWF 
+| 1cdk | A | albelig | 22 | 22 | H | 295 | 299 | A-302-  | A-306-  | WIAIY 
+| 1cdk | A | albelig | 23 | 23 | H | 338 | 340 | A-345-  | A-347-  | KEF 
+| 1cdk | A | albelig | 24 | 24 | L | 732 | 732 | A-401-  | A-401-  | J 
+| 1cdk | A | albelig | 25 | 25 | L | 733 | 733 | A-402-  | A-402-  | J 
+| 1cdk | A | albelig | 26 | 26 | L | 734 | 734 | A-400-  | A-400-  | J 
+| 1cdk | A | albelig | 27 | 27 | L | 735 | 735 | A-403-  | A-403-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 1 = l = 27
+= 2 = m = 3
+= 2 = m = 4
+= 3 = a = 4
+= 3 = l = 26
+= 4 = a = 5
+= 4 = l = 26
+= 5 = m = 6
+= 5 = a = 9
+= 5 = l = 25
+= 5 = l = 26
+= 8 = a = 9
+= 9 = l = 26
+= 10 = m = 17
+= 11 = a = 17
+= 11 = m = 20
+= 11 = m = 21
+= 11 = m = 22
+= 11 = l = 27
+= 12 = m = 13
+= 12 = m = 14
+= 12 = l = 24
+= 12 = l = 26
+= 13 = a = 14
+= 13 = l = 26
+= 15 = m = 17
+= 16 = m = 18
+= 17 = a = 19
+= 22 = l = 27
+= 24 = l = 25
+= 24 = l = 26
+= 25 = l = 26
+# Listed 33 contacts. EOF.

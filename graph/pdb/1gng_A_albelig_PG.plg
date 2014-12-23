@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gng, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, PROTEIN KINASE, GSK3/FRATTIDE COMPLEX,PHOSPHORYLATED, ACTIVE
+> pdb_mol_name > GLYCOGEN SYNTHASE KINASE-3 BETA
+> graphtype > albelig
+> resolution > 2.6
+> date > 04-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > GLYCOGEN SYNTHASE KINASE-3 BETA (GSK3) COMPLEX WITH FRATTIDEPEPTIDE
+> format_version > 2
+> pdbid > 1gng
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gng | A | albelig | 1 | 1 | E | 3 | 9 | A-38-  | A-44-  | TTVVATP 
+| 1gng | A | albelig | 2 | 2 | E | 17 | 29 | A-52-  | A-64-  | QEVSYTDTKVIGN 
+| 1gng | A | albelig | 3 | 3 | E | 34 | 40 | A-69-  | A-75-  | VVYQAKL 
+| 1gng | A | albelig | 4 | 4 | E | 46 | 55 | A-81-  | A-90-  | LVAIKKVLQD 
+| 1gng | A | albelig | 5 | 5 | H | 61 | 68 | A-96-  | A-103-  | RELQIMRK 
+| 1gng | A | albelig | 6 | 6 | E | 77 | 83 | A-112-  | A-118-  | LRYFFYS 
+| 1gng | A | albelig | 7 | 7 | E | 90 | 98 | A-125-  | A-133-  | EVYLNLVLD 
+| 1gng | A | albelig | 8 | 8 | H | 104 | 113 | A-139-  | A-148-  | VYRVARHYSR 
+| 1gng | A | albelig | 9 | 9 | H | 120 | 139 | A-155-  | A-174-  | VIYVKLYMYQLFRSLAYIHS 
+| 1gng | A | albelig | 10 | 10 | H | 149 | 151 | A-184-  | A-186-  | PQN 
+| 1gng | A | albelig | 11 | 11 | E | 152 | 154 | A-187-  | A-189-  | LLL 
+| 1gng | A | albelig | 12 | 12 | E | 161 | 163 | A-196-  | A-198-  | LKL 
+| 1gng | A | albelig | 13 | 13 | H | 185 | 187 | A-220-  | A-222-  | RYY 
+| 1gng | A | albelig | 14 | 14 | H | 190 | 193 | A-225-  | A-228-  | PELI 
+| 1gng | A | albelig | 15 | 15 | H | 202 | 217 | A-237-  | A-252-  | SIDVWSAGCVLAELLL 
+| 1gng | A | albelig | 16 | 16 | H | 227 | 238 | A-262-  | A-273-  | GVDQLVEIIKVL 
+| 1gng | A | albelig | 17 | 17 | H | 243 | 249 | A-278-  | A-284-  | REQIREM 
+| 1gng | A | albelig | 18 | 18 | H | 266 | 269 | A-301-  | A-304-  | WTKV 
+| 1gng | A | albelig | 19 | 19 | H | 276 | 285 | A-311-  | A-320-  | PEAIALCSRL 
+| 1gng | A | albelig | 20 | 20 | H | 290 | 292 | A-325-  | A-327-  | PTA 
+| 1gng | A | albelig | 21 | 21 | H | 296 | 300 | A-331-  | A-335-  | PLEAC 
+| 1gng | A | albelig | 22 | 22 | H | 303 | 309 | A-338-  | A-344-  | SFFDELR 
+| 1gng | A | albelig | 23 | 23 | H | 329 | 332 | A-364-  | A-367-  | TQEL 
+| 1gng | A | albelig | 24 | 24 | H | 336 | 342 | A-371-  | A-377-  | PPLATIL 
+| 1gng | A | albelig | 25 | 25 | L | 761 | 761 | A-1385-  | A-1385-  | J 
+| 1gng | A | albelig | 26 | 26 | L | 762 | 762 | A-1386-  | A-1386-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 7
+= 5 = l = 25
+= 6 = a = 7
+= 9 = m = 12
+= 9 = a = 15
+= 9 = m = 21
+= 9 = m = 22
+= 10 = m = 11
+= 10 = m = 12
+= 11 = a = 12
+= 13 = m = 15
+= 15 = a = 19
+= 19 = m = 22
+# Listed 17 contacts. EOF.

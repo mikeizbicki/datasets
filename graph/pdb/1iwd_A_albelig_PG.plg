@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iwd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYSTEINE PROTEASE, ALPHA-BETA PROTEIN, CATALYTIC DYAD, L-DOMAIN, R-DOMAIN., HYDROLASE
+> pdb_mol_name > ERVATAMIN B
+> graphtype > albelig
+> resolution > 1.63
+> date > 02-MAY-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > PROPOSED AMINO ACID SEQUENCE AND THE 1.63 ANGSTROM X-RAY CRYSTALSTRUCTURE OF A PLANT CYSTEINE PROTEASE ERVATAMIN B: INSIGHT INTO THESTRUCTURAL BASIS OF ITS STABILITY AND SUBSTRATE SPECIFICITY.
+> format_version > 2
+> pdbid > 1iwd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TABERNAEMONTANA DIVARICATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iwd | A | albelig | 1 | 1 | H | 7 | 10 | A-7-  | A-10-  | WRSK 
+| 1iwd | A | albelig | 2 | 2 | H | 25 | 42 | A-25-  | A-42-  | CWAFSAVAAVESINKIRT 
+| 1iwd | A | albelig | 3 | 3 | H | 50 | 56 | A-50-  | A-56-  | EQELVDN 
+| 1iwd | A | albelig | 4 | 4 | H | 68 | 78 | A-68-  | A-78-  | MNNAFQYIITN 
+| 1iwd | A | albelig | 5 | 5 | E | 108 | 111 | A-108-  | A-111-  | GFQR 
+| 1iwd | A | albelig | 6 | 6 | H | 117 | 126 | A-117-  | A-126-  | ESALQSAVAS 
+| 1iwd | A | albelig | 7 | 7 | E | 129 | 133 | A-129-  | A-133-  | VSVTV 
+| 1iwd | A | albelig | 8 | 8 | H | 138 | 141 | A-138-  | A-141-  | APFQ 
+| 1iwd | A | albelig | 9 | 9 | E | 158 | 168 | A-158-  | A-168-  | HGVVIVGYGTQ 
+| 1iwd | A | albelig | 10 | 10 | E | 171 | 177 | A-171-  | A-177-  | KNYWIVR 
+| 1iwd | A | albelig | 11 | 11 | E | 189 | 193 | A-189-  | A-193-  | YIWME 
+| 1iwd | A | albelig | 12 | 12 | H | 202 | 204 | A-202-  | A-204-  | LCG 
+| 1iwd | A | albelig | 13 | 13 | E | 210 | 213 | A-210-  | A-213-  | SYPT 
+| 1iwd | A | albelig | 14 | 14 | L | 216 | 216 | A-601-  | A-601-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = p = 4
+= 2 = m = 9
+= 2 = l = 14
+= 3 = m = 4
+= 4 = m = 5
+= 5 = a = 13
+= 6 = m = 9
+= 7 = a = 9
+= 7 = m = 12
+= 7 = a = 13
+= 9 = a = 10
+= 9 = l = 14
+= 10 = a = 11
+# Listed 14 contacts. EOF.

@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gmg, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION REGULATION
+> pdb_mol_name > REGULATORY PROTEIN ROP
+> graphtype > albelig
+> resolution > 1.9
+> date > 13-SEP-01
+> header > TRANSCRIPTION REGULATION
+> pdb_org_common > UNKNOWN
+> title > ALANINE 31 PROLINE MUTANT OF ROP PROTEIN, MONOCLINIC FORM
+> format_version > 2
+> pdbid > 1gmg
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gmg | B | albelig | 1 | 1 | H | 58 | 80 | B-4-  | B-26-  | QEKTALNMARFIRSQTLTLLEKL 
+| 1gmg | B | albelig | 2 | 2 | H | 85 | 108 | B-31-  | B-54-  | PDEQADICESLHDHADELYRSCLA 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

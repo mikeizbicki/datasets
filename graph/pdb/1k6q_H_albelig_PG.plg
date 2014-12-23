@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k6q, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIGEN-ANTIBODY RECOGNITION, CRYSTAL STRUCTURE, BLOODCOAGULATION, TISSUE FACTOR, IMMUNE SYSTEM
+> pdb_mol_name > IMMUNOGLOBULIN FAB D3, HEAVY CHAIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 17-OCT-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF ANTIBODY FAB FRAGMENT D3
+> format_version > 2
+> pdbid > 1k6q
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k6q | H | albelig | 1 | 1 | E | 209 | 212 | H-3-  | H-6-  | QLQQ 
+| 1k6q | H | albelig | 2 | 2 | E | 216 | 218 | H-10-  | H-12-  | ELV 
+| 1k6q | H | albelig | 3 | 3 | E | 224 | 231 | H-18-  | H-25-  | VKLSCKAS 
+| 1k6q | H | albelig | 4 | 4 | H | 235 | 237 | H-29-  | H-31-  | IKD 
+| 1k6q | H | albelig | 5 | 5 | E | 239 | 245 | H-33-  | H-39-  | YMHWVKQ 
+| 1k6q | H | albelig | 6 | 6 | E | 252 | 258 | H-46-  | H-52-  | ELIGWID 
+| 1k6q | H | albelig | 7 | 7 | E | 263 | 266 | H-57-  | H-60-  | NTIY 
+| 1k6q | H | albelig | 8 | 8 | H | 268 | 270 | H-62-  | H-64-  | PKF 
+| 1k6q | H | albelig | 9 | 9 | E | 274 | 279 | H-68-  | H-73-  | ASITAD 
+| 1k6q | H | albelig | 10 | 10 | E | 284 | 289 | H-78-  | H-83-  | TAYLQL 
+| 1k6q | H | albelig | 11 | 11 | H | 294 | 296 | H-88-  | H-90-  | SED 
+| 1k6q | H | albelig | 12 | 12 | E | 298 | 305 | H-92-  | H-99-  | AVYYCARD 
+| 1k6q | H | albelig | 13 | 13 | E | 310 | 313 | H-104-  | H-107-  | FDYW 
+| 1k6q | H | albelig | 14 | 14 | E | 317 | 321 | H-111-  | H-115-  | TTLTV 
+| 1k6q | H | albelig | 15 | 15 | E | 330 | 334 | H-124-  | H-128-  | SVYPL 
+| 1k6q | H | albelig | 16 | 16 | E | 343 | 353 | H-139-  | H-149-  | MVTLGDLVKGY 
+| 1k6q | H | albelig | 17 | 17 | E | 359 | 362 | H-155-  | H-158-  | TVTW 
+| 1k6q | H | albelig | 18 | 18 | H | 363 | 365 | H-159-  | H-161-  | NSG 
+| 1k6q | H | albelig | 19 | 19 | E | 371 | 373 | H-167-  | H-169-  | VHT 
+| 1k6q | H | albelig | 20 | 20 | E | 383 | 392 | H-179-  | H-188-  | YTLSSSVTVP 
+| 1k6q | H | albelig | 21 | 21 | H | 395 | 398 | H-191-  | H-194-  | TWPS 
+| 1k6q | H | albelig | 22 | 22 | E | 402 | 407 | H-198-  | H-203-  | TDNVAH 
+| 1k6q | H | albelig | 23 | 23 | H | 408 | 410 | H-204-  | H-206-  | PAS 
+| 1k6q | H | albelig | 24 | 24 | E | 412 | 417 | H-208-  | H-213-  | TKVDKK 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 2 = p = 14
+= 3 = a = 10
+= 3 = p = 12
+= 5 = a = 6
+= 5 = a = 10
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 9
+= 7 = a = 9
+= 9 = a = 10
+= 12 = a = 13
+= 12 = a = 14
+= 15 = a = 16
+= 16 = a = 20
+= 16 = p = 22
+= 17 = m = 18
+= 17 = a = 22
+= 19 = a = 20
+= 20 = m = 21
+= 22 = m = 23
+= 22 = a = 24
+# Listed 23 contacts. EOF.

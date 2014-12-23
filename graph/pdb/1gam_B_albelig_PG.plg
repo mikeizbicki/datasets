@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gam, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GAMMA CRYSTALLIN B, EYE LENS PROTEIN, MULTIGENE FAMILY, EYE-LENS PROTEIN
+> pdb_mol_name > GAMMA B CRYSTALLIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 02-FEB-96
+> header > EYE-LENS PROTEIN
+> pdb_org_common > CATTLE
+> title > GAMMA B CRYSTALLIN TRUNCATED C-TERMINAL DOMAIN
+> format_version > 2
+> pdbid > 1gam
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gam | B | albelig | 1 | 1 | E | 90 | 94 | B-89-  | B-93-  | RMRIY 
+| 1gam | B | albelig | 2 | 2 | H | 97 | 99 | B-96-  | B-98-  | DDF 
+| 1gam | B | albelig | 3 | 3 | E | 103 | 106 | B-102-  | B-105-  | MSEI 
+| 1gam | B | albelig | 4 | 4 | H | 113 | 117 | B-112-  | B-116-  | LQDRF 
+| 1gam | B | albelig | 5 | 5 | E | 124 | 129 | B-123-  | B-128-  | SLNVLE 
+| 1gam | B | albelig | 6 | 6 | E | 132 | 137 | B-131-  | B-136-  | WVLYEM 
+| 1gam | B | albelig | 7 | 7 | E | 141 | 147 | B-140-  | B-146-  | RGRQYLL 
+| 1gam | B | albelig | 8 | 8 | E | 150 | 152 | B-149-  | B-151-  | GEY 
+| 1gam | B | albelig | 9 | 9 | H | 155 | 158 | B-154-  | B-157-  | YLDW 
+| 1gam | B | albelig | 10 | 10 | E | 167 | 170 | B-166-  | B-169-  | SLRR 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 5
+= 2 = m = 5
+= 5 = a = 8
+= 6 = a = 7
+= 6 = a = 10
+# Listed 6 contacts. EOF.

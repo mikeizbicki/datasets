@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1byh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE
+> pdb_mol_name > HYBRID
+> graphtype > albelig
+> resolution > 2.8
+> date > 31-DEC-92
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > MOLECULAR AND ACTIVE-SITE STRUCTURE OF A BACILLUS (1-3,1-4)-BETA-GLUCANASE
+> format_version > 2
+> pdbid > 1byh
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SYNTHETIC CONSTRUCT
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1byh | A | albelig | 1 | 1 | E | 6 | 8 | A-6-  | A-8-  | FFE 
+| 1byh | A | albelig | 2 | 2 | E | 18 | 20 | A-18-  | A-20-  | WEK 
+| 1byh | A | albelig | 3 | 3 | H | 36 | 38 | A-36-  | A-38-  | ANN 
+| 1byh | A | albelig | 4 | 4 | E | 39 | 41 | A-39-  | A-41-  | VNF 
+| 1byh | A | albelig | 5 | 5 | E | 47 | 55 | A-47-  | A-55-  | LKLGLTSSA 
+| 1byh | A | albelig | 6 | 6 | E | 58 | 66 | A-58-  | A-66-  | KFDAAEYRS 
+| 1byh | A | albelig | 7 | 7 | E | 73 | 80 | A-73-  | A-80-  | GLYEVSMK 
+| 1byh | A | albelig | 8 | 8 | E | 87 | 95 | A-87-  | A-95-  | IVSSFFTYT 
+| 1byh | A | albelig | 9 | 9 | H | 97 | 99 | A-97-  | A-99-  | PAH 
+| 1byh | A | albelig | 10 | 10 | E | 104 | 111 | A-104-  | A-111-  | DEIDIEFL 
+| 1byh | A | albelig | 11 | 11 | E | 114 | 123 | A-114-  | A-123-  | DTTKVQFNYY 
+| 1byh | A | albelig | 12 | 12 | E | 132 | 135 | A-132-  | A-135-  | KVIS 
+| 1byh | A | albelig | 13 | 13 | E | 145 | 151 | A-145-  | A-151-  | HTYAFDW 
+| 1byh | A | albelig | 14 | 14 | E | 156 | 160 | A-156-  | A-160-  | IKWYV 
+| 1byh | A | albelig | 15 | 15 | E | 163 | 168 | A-163-  | A-168-  | VLKHTA 
+| 1byh | A | albelig | 16 | 16 | E | 178 | 185 | A-178-  | A-185-  | KIMMNLWN 
+| 1byh | A | albelig | 17 | 17 | E | 202 | 213 | A-202-  | A-213-  | LYAEYDWVKYTS 
+| 1byh | A | albelig | 18 | 18 | L | 215 | 215 | A-216-  | A-216-  | J 
+| 1byh | A | albelig | 19 | 19 | L | 216 | 216 | A-217-  | A-217-  | J 
+| 1byh | A | albelig | 20 | 20 | L | 217 | 217 | A-218-  | A-218-  | J 
+| 1byh | A | albelig | 21 | 21 | L | 218 | 218 | A-215-  | A-215-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 17
+= 1 = l = 20
+= 2 = a = 6
+= 3 = m = 4
+= 3 = m = 5
+= 3 = m = 6
+= 4 = a = 5
+= 5 = a = 6
+= 5 = p = 16
+= 5 = a = 17
+= 6 = a = 16
+= 6 = l = 18
+= 6 = l = 19
+= 7 = a = 13
+= 7 = a = 17
+= 8 = a = 10
+= 8 = a = 16
+= 8 = l = 18
+= 8 = l = 19
+= 8 = l = 21
+= 9 = l = 18
+= 9 = l = 19
+= 10 = a = 11
+= 10 = l = 18
+= 10 = l = 21
+= 11 = a = 12
+= 11 = a = 14
+= 11 = p = 15
+= 11 = l = 21
+= 13 = a = 14
+= 14 = a = 15
+= 16 = a = 17
+= 16 = l = 18
+= 16 = l = 19
+= 17 = l = 20
+= 18 = l = 19
+= 18 = l = 21
+# Listed 37 contacts. EOF.

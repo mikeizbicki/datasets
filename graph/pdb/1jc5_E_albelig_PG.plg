@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jc5, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EPIMERISATION, METHYLMALONYL-COA, VICINAL OXYGEN CHELATESUPERFAMILY, METAL-ASSISTED CATALYSIS, ISOMERASE
+> pdb_mol_name > METHYLMALONYL-COA EPIMERASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 07-JUN-01
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF NATIVE METHYLMALONYL-COA EPIMERASE
+> format_version > 2
+> pdbid > 1jc5
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > PROPIONIBACTERIUM FREUDENREICHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jc5 | E | albelig | 1 | 1 | E | 592 | 599 | E-9-  | E-16-  | CIDHVAYA 
+| 1jc5 | E | albelig | 2 | 2 | H | 603 | 612 | E-20-  | E-29-  | ADEASKYYQE 
+| 1jc5 | E | albelig | 3 | 3 | E | 617 | 624 | E-34-  | E-41-  | HELHREEN 
+| 1jc5 | E | albelig | 4 | 4 | E | 629 | 635 | E-46-  | E-52-  | VVEIMMA 
+| 1jc5 | E | albelig | 5 | 5 | E | 646 | 652 | E-63-  | E-69-  | QVQVMAP 
+| 1jc5 | E | albelig | 6 | 6 | H | 658 | 665 | E-75-  | E-82-  | TVAKWLAK 
+| 1jc5 | E | albelig | 7 | 7 | E | 671 | 678 | E-88-  | E-95-  | GLHHMAWR 
+| 1jc5 | E | albelig | 8 | 8 | H | 682 | 691 | E-99-  | E-108-  | IDAVSATLRE 
+| 1jc5 | E | albelig | 9 | 9 | H | 705 | 707 | E-122-  | E-124-  | TGG 
+| 1jc5 | E | albelig | 10 | 10 | E | 709 | 713 | E-126-  | E-130-  | RINFM 
+| 1jc5 | E | albelig | 11 | 11 | H | 715 | 718 | E-132-  | E-135-  | PKSG 
+| 1jc5 | E | albelig | 12 | 12 | E | 723 | 727 | E-140-  | E-144-  | IELTQ 
+| 1jc5 | E | albelig | 13 | 13 | L | 884 | 884 | E-207-  | E-207-  | J 
+| 1jc5 | E | albelig | 14 | 14 | L | 885 | 885 | E-208-  | E-208-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = a = 7
+= 1 = l = 14
+= 2 = p = 4
+= 3 = a = 4
+= 4 = a = 5
+= 4 = l = 14
+= 5 = l = 14
+= 7 = p = 12
+= 7 = l = 14
+= 9 = l = 14
+= 10 = m = 11
+= 10 = a = 12
+= 10 = l = 14
+= 12 = l = 14
+# Listed 15 contacts. EOF.

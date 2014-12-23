@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ete, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR-HELIX BUNDLE, CYTOKINE
+> pdb_mol_name > FLT3 LIGAND
+> graphtype > albelig
+> resolution > 2.2
+> date > 12-APR-00
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE FLT3 LIGAND
+> format_version > 2
+> pdbid > 1ete
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ete | C | albelig | 1 | 1 | H | 284 | 292 | C-15-  | C-23-  | FAVKIRELS 
+| 1ete | C | albelig | 2 | 2 | E | 300 | 304 | C-31-  | C-35-  | PVTVA 
+| 1ete | C | albelig | 3 | 3 | H | 314 | 331 | C-45-  | C-62-  | GGLWRLVLAQRWMERLKT 
+| 1ete | C | albelig | 4 | 4 | H | 335 | 353 | C-66-  | C-84-  | SKMQGLLERVNTEIHFVTK 
+| 1ete | C | albelig | 5 | 5 | E | 365 | 369 | C-96-  | C-100-  | FVQTN 
+| 1ete | C | albelig | 6 | 6 | H | 370 | 384 | C-101-  | C-115-  | ISRLLQETSEQLVAL 
+| 1ete | C | albelig | 7 | 7 | H | 394 | 396 | C-125-  | C-127-  | SRH 
+| 1ete | C | albelig | 8 | 8 | L | 539 | 539 | C-2135-  | C-2135-  | J 
+| 1ete | C | albelig | 9 | 9 | L | 540 | 540 | C-2136-  | C-2136-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 1 = l = 9
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 6
+= 3 = l = 8
+= 4 = l = 8
+= 4 = l = 9
+= 5 = m = 6
+# Listed 10 contacts. EOF.

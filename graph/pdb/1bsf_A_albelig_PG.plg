@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bsf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METHYLTRANSFERASE, DTMP SYNTHASE
+> pdb_mol_name > THYMIDYLATE SYNTHASE A
+> graphtype > albelig
+> resolution > 2.2
+> date > 10-JUL-98
+> header > METHYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > THERMOSTABLE THYMIDYLATE SYNTHASE A FROM BACILLUS SUBTILIS
+> format_version > 2
+> pdbid > 1bsf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bsf | A | albelig | 1 | 1 | H | 3 | 17 | A-4-  | A-18-  | FDKQYNSIIKDIINN 
+| 1bsf | A | albelig | 2 | 2 | H | 21 | 23 | A-22-  | A-24-  | DEE 
+| 1bsf | A | albelig | 3 | 3 | E | 39 | 49 | A-40-  | A-50-  | TLSVISKQMRF 
+| 1bsf | A | albelig | 4 | 4 | H | 64 | 77 | A-65-  | A-78-  | WKTAIKELLWIWQL 
+| 1bsf | A | albelig | 5 | 5 | H | 82 | 87 | A-83-  | A-88-  | VNDLNM 
+| 1bsf | A | albelig | 6 | 6 | H | 94 | 96 | A-95-  | A-97-  | DQW 
+| 1bsf | A | albelig | 7 | 7 | H | 108 | 111 | A-109-  | A-112-  | GFQL 
+| 1bsf | A | albelig | 8 | 8 | H | 125 | 135 | A-126-  | A-136-  | QVDYLLHQLKN 
+| 1bsf | A | albelig | 9 | 9 | E | 143 | 145 | A-144-  | A-146-  | ITM 
+| 1bsf | A | albelig | 10 | 10 | H | 152 | 154 | A-153-  | A-155-  | LDA 
+| 1bsf | A | albelig | 11 | 11 | E | 161 | 168 | A-162-  | A-169-  | VYETQWYV 
+| 1bsf | A | albelig | 12 | 12 | E | 172 | 183 | A-173-  | A-184-  | KLHLEVRARSND 
+| 1bsf | A | albelig | 13 | 13 | H | 188 | 206 | A-189-  | A-207-  | NPFNVFQYNVLQRMIAQVT 
+| 1bsf | A | albelig | 14 | 14 | E | 209 | 223 | A-210-  | A-224-  | ELGEYIFNIGDCHVY 
+| 1bsf | A | albelig | 15 | 15 | H | 225 | 235 | A-226-  | A-236-  | RHIDNLKIQME 
+| 1bsf | A | albelig | 16 | 16 | H | 253 | 255 | A-254-  | A-256-  | FYD 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 15
+= 3 = a = 14
+= 4 = m = 5
+= 4 = p = 13
+= 4 = m = 16
+= 9 = a = 11
+= 11 = a = 12
+= 12 = a = 13
+= 12 = p = 14
+= 13 = a = 14
+= 14 = m = 15
+# Listed 12 contacts. EOF.

@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN BINDING PROTEIN, ACTOPHORIN
+> pdb_mol_name > ACTOPHORIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 10-APR-97
+> header > ACTIN BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > RECOMBINANT ACTOPHORIN
+> format_version > 2
+> pdbid > 1ahq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ACANTHAMOEBA CASTELLANII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahq | A | albelig | 1 | 1 | H | 6 | 18 | A-7-  | A-19-  | DDCVQKFNELKLG 
+| 1ahq | A | albelig | 2 | 2 | E | 23 | 28 | A-24-  | A-29-  | YVTFKM 
+| 1ahq | A | albelig | 3 | 3 | E | 34 | 41 | A-35-  | A-42-  | EVVVEHVG 
+| 1ahq | A | albelig | 4 | 4 | H | 47 | 52 | A-48-  | A-53-  | YEDFKS 
+| 1ahq | A | albelig | 5 | 5 | E | 60 | 67 | A-61-  | A-68-  | RYAIFDYE 
+| 1ahq | A | albelig | 6 | 6 | E | 76 | 83 | A-77-  | A-84-  | NKITFILW 
+| 1ahq | A | albelig | 7 | 7 | H | 90 | 98 | A-91-  | A-99-  | IKSKMMYTS 
+| 1ahq | A | albelig | 8 | 8 | H | 100 | 106 | A-101-  | A-107-  | KDSIKKK 
+| 1ahq | A | albelig | 9 | 9 | E | 112 | 116 | A-113-  | A-117-  | VEVQA 
+| 1ahq | A | albelig | 10 | 10 | H | 124 | 131 | A-125-  | A-132-  | EDAVSERA 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 3
+= 2 = a = 5
+= 2 = m = 7
+= 5 = a = 6
+= 6 = p = 9
+# Listed 6 contacts. EOF.

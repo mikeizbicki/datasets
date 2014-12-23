@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bfc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR, MITOGEN, VASCULARIZATION, HEPARIN-BINDING,
+> pdb_mol_name > BASIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > 2.2
+> date > 12-DEC-95
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > BASIC FIBROBLAST GROWTH FACTOR COMPLEXED WITH HEPARIN HEXAMER FRAGMENT
+> format_version > 2
+> pdbid > 1bfc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bfc | A | albelig | 1 | 1 | E | 4 | 6 | A-24-  | A-26-  | LYC 
+| 1bfc | A | albelig | 2 | 2 | E | 11 | 15 | A-31-  | A-35-  | FFLRI 
+| 1bfc | A | albelig | 3 | 3 | E | 21 | 24 | A-41-  | A-44-  | VDGV 
+| 1bfc | A | albelig | 4 | 4 | H | 30 | 32 | A-50-  | A-52-  | PHI 
+| 1bfc | A | albelig | 5 | 5 | E | 34 | 38 | A-54-  | A-58-  | LQLQA 
+| 1bfc | A | albelig | 6 | 6 | E | 43 | 48 | A-63-  | A-68-  | VVSIKG 
+| 1bfc | A | albelig | 7 | 7 | E | 53 | 57 | A-73-  | A-77-  | RYLAM 
+| 1bfc | A | albelig | 8 | 8 | E | 63 | 66 | A-83-  | A-86-  | LLAS 
+| 1bfc | A | albelig | 9 | 9 | H | 71 | 73 | A-91-  | A-93-  | DEC 
+| 1bfc | A | albelig | 10 | 10 | E | 75 | 79 | A-95-  | A-99-  | FFERL 
+| 1bfc | A | albelig | 11 | 11 | H | 81 | 83 | A-101-  | A-103-  | SNN 
+| 1bfc | A | albelig | 12 | 12 | E | 85 | 89 | A-105-  | A-109-  | NTYRS 
+| 1bfc | A | albelig | 13 | 13 | H | 108 | 110 | A-128-  | A-130-  | GSK 
+| 1bfc | A | albelig | 14 | 14 | E | 120 | 122 | A-140-  | A-142-  | FLP 
+| 1bfc | A | albelig | 15 | 15 | L | 125 | 125 | A-301-  | A-301-  | J 
+| 1bfc | A | albelig | 16 | 16 | L | 126 | 126 | A-302-  | A-302-  | J 
+| 1bfc | A | albelig | 17 | 17 | L | 127 | 127 | A-303-  | A-303-  | J 
+| 1bfc | A | albelig | 18 | 18 | L | 128 | 128 | A-304-  | A-304-  | J 
+| 1bfc | A | albelig | 19 | 19 | L | 129 | 129 | A-305-  | A-305-  | J 
+| 1bfc | A | albelig | 20 | 20 | L | 130 | 130 | A-306-  | A-306-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 14
+= 2 = a = 3
+= 2 = m = 4
+= 3 = a = 8
+= 5 = a = 6
+= 6 = a = 7
+= 6 = m = 9
+= 6 = a = 10
+= 7 = a = 8
+= 7 = m = 9
+= 10 = a = 12
+= 11 = l = 20
+= 13 = l = 15
+= 15 = l = 16
+= 15 = l = 18
+= 16 = l = 17
+= 16 = l = 18
+= 17 = l = 18
+= 17 = l = 19
+= 18 = l = 19
+= 18 = l = 20
+= 19 = l = 20
+# Listed 23 contacts. EOF.

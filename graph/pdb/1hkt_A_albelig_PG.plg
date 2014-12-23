@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hkt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION REGULATION
+> pdb_mol_name > HEAT-SHOCK TRANSCRIPTION FACTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-JUL-94
+> header > TRANSCRIPTION REGULATION
+> pdb_org_common > FRUIT FLY
+> title > SOLUTION STRUCTURE OF THE DNA-BINDING DOMAIN OF DROSOPHILAHEAT SHOCK TRANSCRIPTION FACTOR
+> format_version > 2
+> pdbid > 1hkt
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DROSOPHILA MELANOGASTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hkt | A | albelig | 1 | 1 | H | 6 | 14 | A-48-  | A-56-  | AFLAKLWRL 
+| 1hkt | A | albelig | 2 | 2 | E | 25 | 27 | A-67-  | A-69-  | CWT 
+| 1hkt | A | albelig | 3 | 3 | E | 32 | 34 | A-74-  | A-76-  | SFV 
+| 1hkt | A | albelig | 4 | 4 | H | 56 | 65 | A-98-  | A-107-  | ASFIRQLNMY 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+# Listed 1 contacts. EOF.

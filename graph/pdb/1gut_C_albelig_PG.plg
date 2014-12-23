@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gut, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSPORT PROTEIN, MOLYBDATE BINDING, MOP
+> pdb_mol_name > MOLYBDATE BINDING PROTEIN II
+> graphtype > albelig
+> resolution > 1.5
+> date > 28-JAN-02
+> header > TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > MOPII FROM CLOSTRIDIUM PASTEURIANUM (APO2)
+> format_version > 2
+> pdbid > 1gut
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM PASTEURIANUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gut | C | albelig | 1 | 1 | E | 143 | 153 | C-8-  | C-18-  | QLKGKVVGLKK 
+| 1gut | C | albelig | 2 | 2 | E | 157 | 164 | C-22-  | C-29-  | TAEVVLEI 
+| 1gut | C | albelig | 3 | 3 | E | 169 | 175 | C-34-  | C-40-  | KITSIIS 
+| 1gut | C | albelig | 4 | 4 | H | 176 | 182 | C-41-  | C-47-  | LDSVEEL 
+| 1gut | C | albelig | 5 | 5 | E | 189 | 193 | C-54-  | C-58-  | ELTAV 
+| 1gut | C | albelig | 6 | 6 | H | 196 | 198 | C-61-  | C-63-  | STD 
+| 1gut | C | albelig | 7 | 7 | E | 200 | 202 | C-65-  | C-67-  | MIL 
+| 1gut | C | albelig | 8 | 8 | L | 413 | 413 | C-1069-  | C-1069-  | J 
+| 1gut | C | albelig | 9 | 9 | L | 414 | 414 | C-1070-  | C-1070-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 1 = l = 9
+= 2 = a = 3
+= 3 = m = 4
+= 6 = l = 8
+# Listed 6 contacts. EOF.

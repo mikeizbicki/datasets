@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j4a, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NAD-DEPENDENT DEHYDROGENASE, REVERSIBLE INTERCONVERSION OFPYRUVATE INTO D-LACTATE, OXIDOREDUCTASE
+> pdb_mol_name > D-LACTATE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 18-AUG-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > INSIGHTS INTO DOMAIN CLOSURE, SUBSTRATE SPECIFICITY ANDCATALYSIS OF D-LACTATE DEHYDROGENASE FROM LACTOBACILLUSBULGARICUS
+> format_version > 2
+> pdbid > 1j4a
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > LACTOBACILLUS DELBRUECKII SUBSP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j4a | D | albelig | 1 | 1 | E | 998 | 1001 | D-3-  | D-6-  | KIFA 
+| 1j4a | D | albelig | 2 | 2 | H | 1006 | 1017 | D-11-  | D-22-  | EDEKPFLKEWED 
+| 1j4a | D | albelig | 3 | 3 | E | 1023 | 1026 | D-28-  | D-31-  | EVEY 
+| 1j4a | D | albelig | 4 | 4 | H | 1036 | 1039 | D-41-  | D-44-  | VALA 
+| 1j4a | D | albelig | 5 | 5 | E | 1044 | 1047 | D-49-  | D-52-  | GVVV 
+| 1j4a | D | albelig | 6 | 6 | H | 1055 | 1063 | D-60-  | D-68-  | AETLQALAD 
+| 1j4a | D | albelig | 7 | 7 | E | 1068 | 1071 | D-73-  | D-76-  | KMSL 
+| 1j4a | D | albelig | 8 | 8 | H | 1081 | 1086 | D-86-  | D-91-  | MAKAKE 
+| 1j4a | D | albelig | 9 | 9 | E | 1090 | 1092 | D-95-  | D-97-  | QIT 
+| 1j4a | D | albelig | 10 | 10 | H | 1099 | 1115 | D-104-  | D-120-  | PNAIAEHAAIQAARILR 
+| 1j4a | D | albelig | 11 | 11 | H | 1117 | 1125 | D-122-  | D-130-  | DKAMDEKVA 
+| 1j4a | D | albelig | 12 | 12 | H | 1139 | 1141 | D-144-  | D-146-  | VRD 
+| 1j4a | D | albelig | 13 | 13 | E | 1143 | 1147 | D-148-  | D-152-  | VVGVV 
+| 1j4a | D | albelig | 14 | 14 | H | 1151 | 1162 | D-156-  | D-167-  | HIGQVFMQIMEG 
+| 1j4a | D | albelig | 15 | 15 | E | 1166 | 1170 | D-171-  | D-175-  | KVITY 
+| 1j4a | D | albelig | 16 | 16 | H | 1176 | 1180 | D-181-  | D-185-  | PELEK 
+| 1j4a | D | albelig | 17 | 17 | H | 1188 | 1194 | D-193-  | D-199-  | LDDLYKQ 
+| 1j4a | D | albelig | 18 | 18 | E | 1197 | 1200 | D-202-  | D-205-  | VISL 
+| 1j4a | D | albelig | 19 | 19 | H | 1206 | 1208 | D-211-  | D-213-  | PAN 
+| 1j4a | D | albelig | 20 | 20 | H | 1214 | 1219 | D-219-  | D-224-  | DESIAK 
+| 1j4a | D | albelig | 21 | 21 | E | 1224 | 1228 | D-229-  | D-233-  | VVIVN 
+| 1j4a | D | albelig | 22 | 22 | H | 1232 | 1234 | D-237-  | D-239-  | GPL 
+| 1j4a | D | albelig | 23 | 23 | H | 1237 | 1245 | D-242-  | D-250-  | TDAVIRGLD 
+| 1j4a | D | albelig | 24 | 24 | E | 1249 | 1254 | D-254-  | D-259-  | IFGYAM 
+| 1j4a | D | albelig | 25 | 25 | H | 1276 | 1283 | D-281-  | D-288-  | ARLADLIA 
+| 1j4a | D | albelig | 26 | 26 | E | 1287 | 1289 | D-292-  | D-294-  | VLV 
+| 1j4a | D | albelig | 27 | 27 | H | 1298 | 1316 | D-303-  | D-321-  | THAVRNMVVKAFDNNLELV 
+| 1j4a | D | albelig | 28 | 28 | L | 1338 | 1338 | D-4400-  | D-4400-  | J 
+| 1j4a | D | albelig | 29 | 29 | L | 1339 | 1339 | D-4401-  | D-4401-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 2 = p = 27
+= 5 = p = 7
+= 7 = p = 9
+= 7 = m = 27
+= 10 = p = 14
+= 10 = l = 28
+= 13 = p = 15
+= 13 = p = 18
+= 14 = l = 28
+= 18 = p = 21
+= 21 = p = 24
+= 23 = m = 24
+= 24 = p = 26
+= 25 = m = 26
+# Listed 17 contacts. EOF.

@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ema, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-BARREL, AUTOCATALYTIC, FLUOROPHORE, BIOLUMINESCENSEFLUORESCENT PROTEIN
+> pdb_mol_name > GREEN FLUORESCENT PROTEIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 01-AUG-96
+> header > FLUORESCENT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > GREEN FLUORESCENT PROTEIN FROM AEQUOREA VICTORIA
+> format_version > 2
+> pdbid > 1ema
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AEQUOREA VICTORIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ema | A | albelig | 1 | 1 | H | 3 | 7 | A-4-  | A-8-  | GEELF 
+| 1ema | A | albelig | 2 | 2 | E | 11 | 21 | A-12-  | A-22-  | VPILVELDGDV 
+| 1ema | A | albelig | 3 | 3 | E | 24 | 35 | A-25-  | A-36-  | HKFSVSGEGEGD 
+| 1ema | A | albelig | 4 | 4 | E | 40 | 47 | A-41-  | A-48-  | KLTLKFIC 
+| 1ema | A | albelig | 5 | 5 | H | 56 | 59 | A-57-  | A-60-  | WPTL 
+| 1ema | A | albelig | 6 | 6 | H | 66 | 68 | A-69-  | A-71-  | QCF 
+| 1ema | A | albelig | 7 | 7 | H | 73 | 78 | A-76-  | A-81-  | DHXKRH 
+| 1ema | A | albelig | 8 | 8 | H | 80 | 83 | A-83-  | A-86-  | FFKS 
+| 1ema | A | albelig | 9 | 9 | E | 89 | 97 | A-92-  | A-100-  | YVQERTIFF 
+| 1ema | A | albelig | 10 | 10 | E | 102 | 112 | A-105-  | A-115-  | NYKTRAEVKFE 
+| 1ema | A | albelig | 11 | 11 | E | 115 | 125 | A-118-  | A-128-  | TLVNRIELKGI 
+| 1ema | A | albelig | 12 | 12 | E | 145 | 152 | A-148-  | A-155-  | HNVYIXAD 
+| 1ema | A | albelig | 13 | 13 | E | 157 | 167 | A-160-  | A-170-  | GIKVNFKIRHN 
+| 1ema | A | albelig | 14 | 14 | E | 173 | 184 | A-176-  | A-187-  | VQLADHYQQNTP 
+| 1ema | A | albelig | 15 | 15 | E | 196 | 205 | A-199-  | A-208-  | HYLSTQSALS 
+| 1ema | A | albelig | 16 | 16 | E | 214 | 224 | A-217-  | A-227-  | HXVLLEFVTAA 
+| 1ema | A | albelig | 17 | 17 | L | 227 | 227 | A-66-  | A-66-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 11
+= 3 = a = 4
+= 4 = a = 16
+= 4 = l = 17
+= 5 = l = 17
+= 6 = l = 17
+= 9 = a = 10
+= 9 = a = 14
+= 9 = l = 17
+= 10 = a = 11
+= 10 = l = 17
+= 11 = l = 17
+= 12 = a = 13
+= 12 = a = 15
+= 12 = l = 17
+= 13 = a = 14
+= 13 = l = 17
+= 14 = l = 17
+= 15 = a = 16
+= 15 = l = 17
+= 16 = l = 17
+# Listed 22 contacts. EOF.

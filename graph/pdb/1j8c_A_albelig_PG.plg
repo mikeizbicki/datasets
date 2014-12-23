@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j8c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUITIN-LIKE DOMAIN, STRUCTURAL GENOMICS
+> pdb_mol_name > UBIQUITIN-LIKE PROTEIN HPLIC-2
+> graphtype > albelig
+> resolution > -1.0
+> date > 21-MAY-01
+> header > STRUCTURAL GENOMICS
+> pdb_org_common > HUMAN
+> title > SOLUTION STRUCTURE OF THE UBIQUITIN-LIKE DOMAIN OF HPLIC-2
+> format_version > 2
+> pdbid > 1j8c
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j8c | A | albelig | 1 | 1 | E | 33 | 38 | A-33-  | A-38-  | IKVTVK 
+| 1j8c | A | albelig | 2 | 2 | E | 43 | 48 | A-43-  | A-48-  | KEEFAV 
+| 1j8c | A | albelig | 3 | 3 | H | 54 | 65 | A-54-  | A-65-  | VQQFKEAISKRF 
+| 1j8c | A | albelig | 4 | 4 | E | 72 | 76 | A-72-  | A-76-  | LVLIF 
+| 1j8c | A | albelig | 5 | 5 | E | 79 | 81 | A-79-  | A-81-  | KIL 
+| 1j8c | A | albelig | 6 | 6 | H | 87 | 89 | A-87-  | A-89-  | LIQ 
+| 1j8c | A | albelig | 7 | 7 | E | 96 | 102 | A-96-  | A-102-  | LTVHLVI 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 7
+= 4 = a = 5
+= 4 = a = 7
+# Listed 4 contacts. EOF.

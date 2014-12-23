@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bgy, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CYTOCHROME, MEMBRANE PROTEIN
+> pdb_mol_name > CYTOCHROME BC1 COMPLEX
+> graphtype > albelig
+> resolution > 3.0
+> date > 02-JUN-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > CATTLE
+> title > CYTOCHROME BC1 COMPLEX FROM BOVINE
+> format_version > 2
+> pdbid > 1bgy
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bgy | F | albelig | 1 | 1 | H | 1574 | 1584 | F-13-  | F-23-  | LEGIRKWYYNA 
+| 1bgy | F | albelig | 2 | 2 | H | 1586 | 1588 | F-25-  | F-27-  | GFN 
+| 1bgy | F | albelig | 3 | 3 | H | 1594 | 1597 | F-33-  | F-36-  | RDDT 
+| 1bgy | F | albelig | 4 | 4 | H | 1602 | 1610 | F-41-  | F-49-  | DDVKEAIRR 
+| 1bgy | F | albelig | 5 | 5 | H | 1613 | 1632 | F-52-  | F-71-  | ENLYDDRVFRIKRALDLSMR 
+| 1bgy | F | albelig | 6 | 6 | H | 1638 | 1640 | F-77-  | F-79-  | KEQ 
+| 1bgy | F | albelig | 7 | 7 | H | 1644 | 1646 | F-83-  | F-85-  | YEE 
+| 1bgy | F | albelig | 8 | 8 | H | 1651 | 1668 | F-90-  | F-107-  | LEPYLKEVIRERKEREEW 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 8
+# Listed 1 contacts. EOF.

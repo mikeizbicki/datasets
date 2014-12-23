@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f9e, chain K.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYSTEINE PROTEASE, CASPASE-8, FLICE, MCH5, MACH, APOPTOSIS,HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > CASPASE-8 ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.9
+> date > 10-JUL-00
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > CASPASE-8 SPECIFICITY PROBED AT SUBSITE S4: CRYSTAL STRUCTURE OF THECASPASE-8-Z-DEVD-CHO
+> format_version > 2
+> pdbid > 1f9e
+> experiment > X-RAY DIFFRACTION
+> chainid > K
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f9e | K | albelig | 1 | 1 | E | 1259 | 1264 | K-164-  | K-169-  | YCLIIN 
+| 1f9e | K | albelig | 2 | 2 | H | 1271 | 1274 | K-175-A | K-175-D | AREK 
+| 1f9e | K | albelig | 3 | 3 | H | 1287 | 1300 | K-182-  | K-195-  | THLDAGALTTTFEE 
+| 1f9e | K | albelig | 4 | 4 | E | 1304 | 1309 | K-199-  | K-204-  | EIKPHH 
+| 1f9e | K | albelig | 5 | 5 | H | 1313 | 1325 | K-208-  | K-220-  | VEQIYEILKIYQL 
+| 1f9e | K | albelig | 6 | 6 | E | 1334 | 1339 | K-230-  | K-235-  | FICCIL 
+| 1f9e | K | albelig | 7 | 7 | E | 1346 | 1348 | K-242-  | K-244-  | IIY 
+| 1f9e | K | albelig | 8 | 8 | E | 1354 | 1356 | K-255-  | K-257-  | EAP 
+| 1f9e | K | albelig | 9 | 9 | H | 1357 | 1364 | K-258-  | K-265-  | IYELTSQF 
+| 1f9e | K | albelig | 10 | 10 | H | 1370 | 1372 | K-271-  | K-273-  | PSL 
+| 1f9e | K | albelig | 11 | 11 | E | 1377 | 1382 | K-278-  | K-283-  | KVFFIQ 
+| 1f9e | K | albelig | 12 | 12 | E | 1392 | 1395 | K-293-  | K-296-  | GIPV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = p = 4
+= 1 = a = 5
+= 1 = p = 6
+= 3 = m = 4
+= 5 = m = 9
+= 6 = p = 11
+= 7 = a = 8
+= 8 = m = 9
+# Listed 9 contacts. EOF.

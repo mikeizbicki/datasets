@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j7q, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EF-HAND FAMILY, CALCIUM BINDING PROTEIN, NMR, METAL BINDINGPROTEIN
+> pdb_mol_name > CALCIUM VECTOR PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-MAY-01
+> header > METAL BINDING PROTEIN
+> pdb_org_common > AMPHIOXUS
+> title > SOLUTION STRUCTURE AND BACKBONE DYNAMICS OF THE DEFUNCT EF-HAND DOMAIN OF CALCIUM VECTOR PROTEIN
+> format_version > 2
+> pdbid > 1j7q
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BRANCHIOSTOMA LANCEOLATUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j7q | A | albelig | 1 | 1 | H | 12 | 23 | A-12-  | A-23-  | EKDECMKIFDIF 
+| 1j7q | A | albelig | 2 | 2 | H | 33 | 43 | A-33-  | A-43-  | VSDTMDMLTKL 
+| 1j7q | A | albelig | 3 | 3 | H | 49 | 60 | A-49-  | A-60-  | KRETEAIMKEAR 
+| 1j7q | A | albelig | 4 | 4 | H | 73 | 82 | A-73-  | A-82-  | EWLTLCSKWV 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 3 = a = 4
+# Listed 3 contacts. EOF.

@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1agr, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GI-ALPHA-1, HYDROLASE, SIGNAL TRANSDUCTION, RGS4, COMPLEX(SIGNAL TRANSDUCTION/REGULATOR), GTP-BINDING, GTPASEACTIVATING PROTEIN
+> pdb_mol_name > RGS4
+> graphtype > albelig
+> resolution > 2.8
+> date > 25-MAR-97
+> header > COMPLEX (SIGNAL TRANSDUCTION/REGULATOR)
+> pdb_org_common > NORWAY RAT
+> title > COMPLEX OF ALF4-ACTIVATED GI-ALPHA-1 WITH RGS4
+> format_version > 2
+> pdbid > 1agr
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1agr | E | albelig | 1 | 1 | H | 697 | 703 | E-53-  | E-59-  | QEEVKKW 
+| 1agr | E | albelig | 2 | 2 | H | 707 | 712 | E-63-  | E-68-  | LENLIN 
+| 1agr | E | albelig | 3 | 3 | H | 714 | 726 | E-70-  | E-82-  | ECGLAAFKAFLKS 
+| 1agr | E | albelig | 4 | 4 | H | 731 | 744 | E-87-  | E-100-  | ENIDFWISCEEYKK 
+| 1agr | E | albelig | 5 | 5 | H | 751 | 763 | E-107-  | E-119-  | LSPKAKKIYNEFI 
+| 1agr | E | albelig | 6 | 6 | H | 775 | 784 | E-131-  | E-140-  | SCTREETSRN 
+| 1agr | E | albelig | 7 | 7 | H | 794 | 809 | E-150-  | E-165-  | DEAQKKIFNLMEKDSY 
+| 1agr | E | albelig | 8 | 8 | H | 810 | 812 | E-166-  | E-168-  | RRF 
+| 1agr | E | albelig | 9 | 9 | H | 816 | 819 | E-172-  | E-175-  | RFYL 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 2 = m = 7
+= 3 = m = 8
+= 4 = a = 5
+= 4 = a = 7
+= 7 = m = 8
+# Listed 7 contacts. EOF.

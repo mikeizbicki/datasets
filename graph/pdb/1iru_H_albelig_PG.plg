@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iru, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 20S PROTEASOME, CELL CYCLE, IMMUNE RESPONSE, PROTEOLYSIS,UBIQUITIN, HYDROLASE
+> pdb_mol_name > 20S PROTEASOME
+> graphtype > albelig
+> resolution > 2.75
+> date > 24-OCT-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE MAMMALIAN 20S PROTEASOME AT 2.75 ARESOLUTION
+> format_version > 2
+> pdbid > 1iru
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iru | H | albelig | 1 | 1 | E | 1697 | 1702 | H-3-  | H-8-  | IMAVQF 
+| 1iru | H | albelig | 2 | 2 | E | 1705 | 1710 | H-11-  | H-16-  | GVVLGA 
+| 1iru | H | albelig | 3 | 3 | E | 1714 | 1716 | H-20-  | H-22-  | TTT 
+| 1iru | H | albelig | 4 | 4 | E | 1719 | 1722 | H-25-  | H-28-  | YIAN 
+| 1iru | H | albelig | 5 | 5 | E | 1728 | 1732 | H-34-  | H-38-  | LTPIH 
+| 1iru | H | albelig | 6 | 6 | E | 1735 | 1741 | H-41-  | H-47-  | IFCCRSG 
+| 1iru | H | albelig | 7 | 7 | H | 1743 | 1764 | H-49-  | H-70-  | AADTQAVADAVTYQLGFHSIEL 
+| 1iru | H | albelig | 8 | 8 | H | 1770 | 1783 | H-76-  | H-89-  | VHTAASLFKEMCYR 
+| 1iru | H | albelig | 9 | 9 | E | 1790 | 1798 | H-96-  | H-104-  | AGIIIAGWD 
+| 1iru | H | albelig | 10 | 10 | E | 1802 | 1808 | H-108-  | H-114-  | GGQVYSV 
+| 1iru | H | albelig | 11 | 11 | E | 1819 | 1822 | H-125-  | H-128-  | FAIG 
+| 1iru | H | albelig | 12 | 12 | H | 1824 | 1836 | H-130-  | H-142-  | SGSSYIYGYVDAT 
+| 1iru | H | albelig | 13 | 13 | H | 1843 | 1860 | H-149-  | H-166-  | KEECLQFTANALALAMER 
+| 1iru | H | albelig | 14 | 14 | E | 1868 | 1874 | H-174-  | H-180-  | IRLAAIA 
+| 1iru | H | albelig | 15 | 15 | E | 1877 | 1883 | H-183-  | H-189-  | GVERQVL 
+| 1iru | H | albelig | 16 | 16 | H | 1885 | 1887 | H-191-  | H-193-  | GDQ 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = a = 11
+= 1 = a = 13
+= 2 = m = 13
+= 2 = a = 14
+= 3 = a = 4
+= 5 = a = 6
+= 6 = m = 7
+= 6 = a = 9
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = a = 10
+= 12 = a = 13
+= 13 = a = 14
+= 14 = a = 15
+# Listed 17 contacts. EOF.

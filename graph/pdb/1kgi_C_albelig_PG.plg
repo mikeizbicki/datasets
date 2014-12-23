@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgi, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PREALBUMIN, TRANSPORT, TETRAIODOTHYROACETIC ACID, THYROIDHO, TRANSPORT PROTEIN
+> pdb_mol_name > TRANSTHYRETIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 27-NOV-01
+> header > TRANSPORT PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > RAT TRANSTHYRETIN (ALSO CALLED PREALBUMIN) COMPLEX WITH 3,3',5,5'-TETRAIODOTHYROACETIC ACID (T4AC)
+> format_version > 2
+> pdbid > 1kgi
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgi | C | albelig | 1 | 1 | E | 248 | 254 | C-412-  | C-418-  | LMVKVLD 
+| 1kgi | C | albelig | 2 | 2 | E | 265 | 271 | C-429-  | C-435-  | AVKVFKK 
+| 1kgi | C | albelig | 3 | 3 | E | 277 | 284 | C-441-  | C-448-  | WEPFASGK 
+| 1kgi | C | albelig | 4 | 4 | E | 303 | 309 | C-467-  | C-473-  | GVYRVEL 
+| 1kgi | C | albelig | 5 | 5 | H | 311 | 316 | C-475-  | C-480-  | TKSYWK 
+| 1kgi | C | albelig | 6 | 6 | E | 327 | 333 | C-491-  | C-497-  | AEVVFTA 
+| 1kgi | C | albelig | 7 | 7 | E | 340 | 348 | C-504-  | C-512-  | HYTIAALLS 
+| 1kgi | C | albelig | 8 | 8 | E | 351 | 359 | C-515-  | C-523-  | SYSTTAVVS 
+| 1kgi | C | albelig | 9 | 9 | L | 485 | 485 | C-128-  | C-128-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 1 = l = 9
+= 2 = a = 3
+= 2 = a = 4
+= 3 = a = 4
+= 4 = a = 6
+= 7 = a = 8
+= 7 = l = 9
+= 8 = l = 9
+# Listed 9 contacts. EOF.

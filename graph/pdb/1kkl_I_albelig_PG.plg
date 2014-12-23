@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kkl, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHORYLATION, PROTEIN KINASE, BACTERIA, PROTEIN/PROTEININTERACTION, TRANSFERASE, HYDROLASE/TRANSPORT PROTEINCOMPLEX, TRANSFERASE,HYDROLASE/TRANSPORT PROTEIN COMPLEX
+> pdb_mol_name > PHOSPHOCARRIER PROTEIN HPR
+> graphtype > albelig
+> resolution > 2.8
+> date > 10-DEC-01
+> header > TRANSFERASE,HYDROLASE/TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > L.CASEI HPRK/P IN COMPLEX WITH B.SUBTILIS HPR
+> format_version > 2
+> pdbid > 1kkl
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kkl | I | albelig | 1 | 1 | E | 596 | 600 | I-3-  | I-7-  | QKTFK 
+| 1kkl | I | albelig | 2 | 2 | H | 609 | 620 | I-16-  | I-27-  | ARPATVLVQTAS 
+| 1kkl | I | albelig | 3 | 3 | E | 625 | 630 | I-32-  | I-37-  | DVNLEY 
+| 1kkl | I | albelig | 4 | 4 | E | 633 | 636 | I-40-  | I-43-  | KTVN 
+| 1kkl | I | albelig | 5 | 5 | H | 640 | 645 | I-47-  | I-52-  | IMGVMS 
+| 1kkl | I | albelig | 6 | 6 | E | 653 | 659 | I-60-  | I-66-  | EITISAS 
+| 1kkl | I | albelig | 7 | 7 | H | 663 | 676 | I-70-  | I-83-  | ENDALNALEETMKS 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = m = 7
+= 2 = m = 5
+= 2 = m = 7
+= 3 = a = 4
+= 3 = a = 6
+# Listed 6 contacts. EOF.

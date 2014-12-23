@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ggx, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FLUORESCENT PROTEIN, CHROMOPHORE, GFP, RFP, FP583,LUMINESCENT PROTEIN
+> pdb_mol_name > PROTEIN (FLUORESCENT PROTEIN FP583)
+> graphtype > albelig
+> resolution > 1.9
+> date > 05-OCT-00
+> header > LUMINESCENT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > RED FLUORESCENT PROTEIN (FP583 OR DSRED(CLONTECH)) FROMDISCOSOMA SP.
+> format_version > 2
+> pdbid > 1ggx
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > DISCOSOMA SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ggx | B | albelig | 1 | 1 | E | 224 | 234 | B-12-  | B-22-  | MRFKVRMEGTV 
+| 1ggx | B | albelig | 2 | 2 | E | 237 | 248 | B-25-  | B-36-  | HEFEIEGEGEGR 
+| 1ggx | B | albelig | 3 | 3 | E | 253 | 262 | B-41-  | B-50-  | HNTVKLKVTK 
+| 1ggx | B | albelig | 4 | 4 | H | 270 | 272 | B-58-  | B-60-  | WDI 
+| 1ggx | B | albelig | 5 | 5 | H | 274 | 276 | B-62-  | B-64-  | SPQ 
+| 1ggx | B | albelig | 6 | 6 | H | 280 | 282 | B-70-  | B-72-  | KVY 
+| 1ggx | B | albelig | 7 | 7 | H | 292 | 295 | B-82-  | B-85-  | YKKL 
+| 1ggx | B | albelig | 8 | 8 | E | 301 | 309 | B-91-  | B-99-  | FKWERVMNF 
+| 1ggx | B | albelig | 9 | 9 | E | 314 | 324 | B-104-  | B-114-  | VVTVTQDSSLQ 
+| 1ggx | B | albelig | 10 | 10 | E | 327 | 337 | B-117-  | B-127-  | CFIYKVKFIGV 
+| 1ggx | B | albelig | 11 | 11 | E | 350 | 353 | B-140-  | B-143-  | TMGW 
+| 1ggx | B | albelig | 12 | 12 | E | 356 | 363 | B-146-  | B-153-  | STERLYPR 
+| 1ggx | B | albelig | 13 | 13 | E | 366 | 377 | B-156-  | B-167-  | VLKGEIHKALKL 
+| 1ggx | B | albelig | 14 | 14 | E | 382 | 393 | B-172-  | B-183-  | HYLVEFKSIYMA 
+| 1ggx | B | albelig | 15 | 15 | E | 403 | 414 | B-193-  | B-204-  | YYVDSKLDITSH 
+| 1ggx | B | albelig | 16 | 16 | E | 420 | 430 | B-210-  | B-220-  | IVEQYERTEGR 
+| 1ggx | B | albelig | 17 | 17 | L | 873 | 873 | B-68-  | B-68-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 10
+= 2 = a = 3
+= 3 = a = 16
+= 3 = l = 17
+= 4 = m = 5
+= 4 = m = 11
+= 5 = l = 17
+= 6 = m = 10
+= 6 = l = 17
+= 8 = a = 9
+= 8 = a = 14
+= 8 = l = 17
+= 9 = a = 10
+= 9 = l = 17
+= 10 = l = 17
+= 11 = a = 13
+= 12 = a = 13
+= 12 = a = 15
+= 12 = l = 17
+= 13 = a = 14
+= 13 = l = 17
+= 14 = l = 17
+= 15 = a = 16
+= 15 = l = 17
+= 16 = l = 17
+# Listed 26 contacts. EOF.

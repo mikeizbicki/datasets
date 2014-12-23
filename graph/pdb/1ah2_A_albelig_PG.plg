@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ah2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, SUBTILASE, INDUSTRIAL ENZYME, MAXACAL(TM),APPLICATION IN WASHING POWDERS
+> pdb_mol_name > SERINE PROTEASE PB92
+> graphtype > albelig
+> resolution > -1.0
+> date > 11-APR-97
+> header > SERINE PROTEASE
+> pdb_org_common > UNKNOWN
+> title > SERINE PROTEASE PB92 FROM BACILLUS ALCALOPHILUS, NMR, 18STRUCTURES
+> format_version > 2
+> pdbid > 1ah2
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS ALCALOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ah2 | A | albelig | 1 | 1 | H | 6 | 9 | A-6-  | A-9-  | WGIS 
+| 1ah2 | A | albelig | 2 | 2 | H | 14 | 19 | A-14-  | A-19-  | PAAHNR 
+| 1ah2 | A | albelig | 3 | 3 | E | 27 | 31 | A-27-  | A-31-  | KVAVL 
+| 1ah2 | A | albelig | 4 | 4 | H | 62 | 71 | A-62-  | A-71-  | HGTHVAGTIA 
+| 1ah2 | A | albelig | 5 | 5 | E | 87 | 90 | A-87-  | A-90-  | ELYA 
+| 1ah2 | A | albelig | 6 | 6 | H | 102 | 115 | A-102-  | A-115-  | VSSIAQGLEWAGNN 
+| 1ah2 | A | albelig | 7 | 7 | E | 119 | 122 | A-119-  | A-122-  | VANL 
+| 1ah2 | A | albelig | 8 | 8 | H | 131 | 141 | A-131-  | A-141-  | ATLEQAVNSAT 
+| 1ah2 | A | albelig | 9 | 9 | E | 171 | 174 | A-171-  | A-174-  | VGAT 
+| 1ah2 | A | albelig | 10 | 10 | E | 192 | 195 | A-192-  | A-195-  | IVAP 
+| 1ah2 | A | albelig | 11 | 11 | E | 199 | 203 | A-199-  | A-203-  | VQSTY 
+| 1ah2 | A | albelig | 12 | 12 | E | 207 | 211 | A-207-  | A-211-  | TYASL 
+| 1ah2 | A | albelig | 13 | 13 | H | 214 | 231 | A-214-  | A-231-  | TSMATPHVAGAAALVKQK 
+| 1ah2 | A | albelig | 14 | 14 | H | 237 | 247 | A-237-  | A-247-  | NVQIRNHLKNT 
+| 1ah2 | A | albelig | 15 | 15 | H | 264 | 268 | A-264-  | A-268-  | AEAAT 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 5
+= 3 = p = 7
+= 4 = m = 11
+= 4 = p = 13
+= 6 = m = 8
+= 9 = p = 10
+= 9 = m = 13
+= 10 = m = 13
+= 11 = a = 12
+# Listed 9 contacts. EOF.

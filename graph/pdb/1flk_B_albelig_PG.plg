@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1flk, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TNF SIGNALING, TRAF3, CD40-BINDING PROTEIN, APOPTOSIS
+> pdb_mol_name > TNF RECEPTOR ASSOCIATED FACTOR 3
+> graphtype > albelig
+> resolution > 2.8
+> date > 14-AUG-00
+> header > APOPTOSIS
+> pdb_org_common > HUMAN
+> title > MOLECULAR BASIS FOR CD40 SIGNALING MEDIATED BY TRAF3
+> format_version > 2
+> pdbid > 1flk
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1flk | B | albelig | 1 | 1 | H | 208 | 214 | B-301-  | B-307-  | ESVDKSA 
+| 1flk | B | albelig | 2 | 2 | H | 217 | 253 | B-310-  | B-346-  | VARNTGLLESQLSRHDQMLSVHDIRLADMDLRFQVLE 
+| 1flk | B | albelig | 3 | 3 | E | 263 | 266 | B-356-  | B-359-  | WKIR 
+| 1flk | B | albelig | 4 | 4 | H | 268 | 276 | B-361-  | B-369-  | YKRRKQEAV 
+| 1flk | B | albelig | 5 | 5 | E | 296 | 302 | B-389-  | B-395-  | KMCARVY 
+| 1flk | B | albelig | 6 | 6 | E | 313 | 321 | B-406-  | B-414-  | HLSLFFVIM 
+| 1flk | B | albelig | 7 | 7 | E | 337 | 342 | B-430-  | B-435-  | VTLMLM 
+| 1flk | B | albelig | 8 | 8 | E | 351 | 355 | B-444-  | B-448-  | LGDAF 
+| 1flk | B | albelig | 9 | 9 | E | 375 | 382 | B-468-  | B-475-  | SGCPVFVA 
+| 1flk | B | albelig | 10 | 10 | H | 383 | 387 | B-476-  | B-480-  | QTVLE 
+| 1flk | B | albelig | 11 | 11 | E | 396 | 400 | B-489-  | B-493-  | TIFIK 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 11
+= 4 = m = 10
+= 5 = a = 6
+= 6 = a = 9
+= 7 = a = 8
+= 7 = p = 9
+= 7 = a = 11
+= 8 = a = 9
+= 9 = m = 10
+# Listed 9 contacts. EOF.

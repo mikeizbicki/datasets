@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b0f, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, FLUOROETHYL KETONES, HYDROLASE
+> pdb_mol_name > PROTEIN (ELASTASE)
+> graphtype > albelig
+> resolution > 3.0
+> date > 09-NOV-98
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN NEUTROPHIL ELASTASE WITH MDL 101, 146
+> format_version > 2
+> pdbid > 1b0f
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b0f | A | albelig | 1 | 1 | E | 15 | 20 | A-30-  | A-35-  | MVSLQL 
+| 1b0f | A | albelig | 2 | 2 | E | 23 | 32 | A-39-  | A-48-  | GHFAGATLIA 
+| 1b0f | A | albelig | 3 | 3 | E | 35 | 38 | A-51-  | A-54-  | FVMS 
+| 1b0f | A | albelig | 4 | 4 | H | 40 | 43 | A-56-  | A-59-  | AHAV 
+| 1b0f | A | albelig | 5 | 5 | H | 48 | 50 | A-62-B | A-64-  | VRA 
+| 1b0f | A | albelig | 6 | 6 | E | 51 | 55 | A-65-  | A-68-  | VRVVL 
+| 1b0f | A | albelig | 7 | 7 | E | 68 | 77 | A-81-  | A-90-  | QVFAVQRIFE 
+| 1b0f | A | albelig | 8 | 8 | E | 90 | 94 | A-104-  | A-108-  | VILQL 
+| 1b0f | A | albelig | 9 | 9 | E | 121 | 126 | A-135-  | A-140-  | QNLAMG 
+| 1b0f | A | albelig | 10 | 10 | E | 141 | 148 | A-156-  | A-164-  | QELNVTVV 
+| 1b0f | A | albelig | 11 | 11 | E | 157 | 160 | A-181-  | A-184-  | VCTL 
+| 1b0f | A | albelig | 12 | 12 | E | 176 | 179 | A-198-  | A-201-  | PLVN 
+| 1b0f | A | albelig | 13 | 13 | E | 182 | 189 | A-208-  | A-215-  | LIHGIASF 
+| 1b0f | A | albelig | 14 | 14 | E | 201 | 204 | A-226-  | A-229-  | DAFA 
+| 1b0f | A | albelig | 15 | 15 | H | 206 | 217 | A-231-  | A-242-  | VAQFVNWIDSII 
+| 1b0f | A | albelig | 16 | 16 | L | 219 | 219 | A-401-  | A-401-  | J 
+| 1b0f | A | albelig | 17 | 17 | L | 220 | 220 | A-402-  | A-402-  | J 
+| 1b0f | A | albelig | 18 | 18 | L | 221 | 221 | A-403-  | A-403-  | J 
+| 1b0f | A | albelig | 19 | 19 | L | 222 | 222 | A-411-  | A-411-  | J 
+| 1b0f | A | albelig | 20 | 20 | L | 223 | 223 | A-412-  | A-412-  | J 
+| 1b0f | A | albelig | 21 | 21 | L | 224 | 224 | A-413-  | A-413-  | J 
+| 1b0f | A | albelig | 22 | 22 | L | 225 | 225 | A-300-  | A-300-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 2 = l = 22
+= 3 = a = 8
+= 4 = l = 22
+= 5 = m = 6
+= 5 = l = 17
+= 6 = a = 7
+= 6 = l = 16
+= 6 = l = 17
+= 6 = l = 18
+= 7 = a = 8
+= 7 = l = 16
+= 7 = l = 17
+= 7 = l = 18
+= 9 = a = 10
+= 9 = a = 12
+= 9 = l = 19
+= 9 = l = 20
+= 10 = a = 11
+= 10 = l = 19
+= 11 = a = 14
+= 12 = a = 13
+= 12 = l = 20
+= 13 = a = 14
+= 13 = m = 15
+= 13 = l = 22
+= 16 = l = 17
+= 16 = l = 18
+= 17 = l = 18
+= 19 = l = 20
+= 19 = l = 21
+= 20 = l = 21
+# Listed 34 contacts. EOF.

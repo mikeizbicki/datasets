@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h8e, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, ATP PHOSPHORYLASE, ATP PHOSPHORYLASE (H+TRANSPORTING), ATP SYNTHASE, F1FO ATP SYNTHASE, F1-ATPASE
+> pdb_mol_name > BOVINE MITOCHONDRIAL F1-ATPASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 02-FEB-01
+> header > HYDROLASE
+> pdb_org_common > BOVINE
+> title > (ADP.ALF4)2(ADP.SO4) BOVINE F1-ATPASE(ALL THREE CATALYTIC SITES OCCUPIED)
+> format_version > 2
+> pdbid > 1h8e
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h8e | H | albelig | 1 | 1 | E | 3100 | 3105 | H-16-  | H-21-  | MSFTFA 
+| 1h8e | H | albelig | 2 | 2 | E | 3110 | 3117 | H-26-  | H-33-  | VFFNSANV 
+| 1h8e | H | albelig | 3 | 3 | E | 3119 | 3123 | H-35-  | H-39-  | QVDVP 
+| 1h8e | H | albelig | 4 | 4 | E | 3128 | 3132 | H-44-  | H-48-  | AFGIL 
+| 1h8e | H | albelig | 5 | 5 | E | 3138 | 3141 | H-54-  | H-57-  | TLQV 
+| 1h8e | H | albelig | 6 | 6 | E | 3145 | 3151 | H-61-  | H-67-  | GLVVVHA 
+| 1h8e | H | albelig | 7 | 7 | E | 3154 | 3161 | H-70-  | H-77-  | GTTSKYFV 
+| 1h8e | H | albelig | 8 | 8 | E | 3164 | 3168 | H-80-  | H-84-  | GSVTV 
+| 1h8e | H | albelig | 9 | 9 | E | 3174 | 3178 | H-90-  | H-94-  | VQLLA 
+| 1h8e | H | albelig | 10 | 10 | H | 3184 | 3186 | H-100-  | H-102-  | LDM 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 9
+= 3 = a = 4
+= 3 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+# Listed 7 contacts. EOF.

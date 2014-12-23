@@ -1,0 +1,76 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kv5, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TIM BARREL, MUTANT, SALT BRIDGE, ISOMERASE
+> pdb_mol_name > TRIOSEPHOSPHATE ISOMERASE, GLYCOSOMAL
+> graphtype > albelig
+> resolution > 1.65
+> date > 25-JAN-02
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF TRYPANOSOMA BRUCEI BRUCEI TIM WITH THE SALT-BRIDGE-FORMING RESIDUE ARG191 MUTATED TO SER
+> format_version > 2
+> pdbid > 1kv5
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > TRYPANOSOMA BRUCEI BRUCEI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kv5 | B | albelig | 1 | 1 | E | 256 | 260 | B-7-  | B-11-  | IAAAN 
+| 1kv5 | B | albelig | 2 | 2 | H | 267 | 278 | B-18-  | B-29-  | QQSLSELIDLFN 
+| 1kv5 | B | albelig | 3 | 3 | E | 287 | 291 | B-38-  | B-42-  | QCVVA 
+| 1kv5 | B | albelig | 4 | 4 | H | 294 | 303 | B-45-  | B-54-  | FVHLAMTKER 
+| 1kv5 | B | albelig | 5 | 5 | E | 309 | 313 | B-60-  | B-64-  | FVIAA 
+| 1kv5 | B | albelig | 6 | 6 | H | 329 | 334 | B-80-  | B-85-  | LPILKD 
+| 1kv5 | B | albelig | 7 | 7 | E | 339 | 342 | B-90-  | B-93-  | WIVL 
+| 1kv5 | B | albelig | 8 | 8 | H | 345 | 350 | B-96-  | B-101-  | SERRAY 
+| 1kv5 | B | albelig | 9 | 9 | H | 355 | 367 | B-106-  | B-118-  | NEIVADKVAAAVA 
+| 1kv5 | B | albelig | 10 | 10 | E | 371 | 376 | B-122-  | B-127-  | MVIACI 
+| 1kv5 | B | albelig | 11 | 11 | H | 380 | 384 | B-131-  | B-135-  | LQERE 
+| 1kv5 | B | albelig | 12 | 12 | H | 388 | 401 | B-139-  | B-152-  | TAVVVLTQIAAIAK 
+| 1kv5 | B | albelig | 13 | 13 | H | 405 | 410 | B-156-  | B-161-  | KADWAK 
+| 1kv5 | B | albelig | 14 | 14 | E | 411 | 415 | B-162-  | B-166-  | VVIAY 
+| 1kv5 | B | albelig | 15 | 15 | H | 418 | 420 | B-169-  | B-171-  | VWA 
+| 1kv5 | B | albelig | 16 | 16 | H | 429 | 446 | B-180-  | B-197-  | PQQAQEAHALISSWVSSK 
+| 1kv5 | B | albelig | 17 | 17 | H | 449 | 454 | B-200-  | B-205-  | ADVAGE 
+| 1kv5 | B | albelig | 18 | 18 | E | 457 | 460 | B-208-  | B-211-  | ILYG 
+| 1kv5 | B | albelig | 19 | 19 | H | 468 | 472 | B-219-  | B-223-  | ARTLY 
+| 1kv5 | B | albelig | 20 | 20 | E | 479 | 482 | B-230-  | B-233-  | GFLV 
+| 1kv5 | B | albelig | 21 | 21 | H | 484 | 487 | B-235-  | B-238-  | GASL 
+| 1kv5 | B | albelig | 22 | 22 | H | 491 | 496 | B-242-  | B-247-  | FVDIIK 
+| 1kv5 | B | albelig | 23 | 23 | L | 504 | 504 | B-2350-  | B-2350-  | J 
+| 1kv5 | B | albelig | 24 | 24 | L | 505 | 505 | B-5600-  | B-5600-  | J 
+| 1kv5 | B | albelig | 25 | 25 | L | 506 | 506 | B-4501-  | B-4501-  | J 
+| 1kv5 | B | albelig | 26 | 26 | L | 507 | 507 | B-4502-  | B-4502-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 20
+= 1 = m = 22
+= 1 = l = 23
+= 2 = p = 4
+= 3 = p = 5
+= 3 = l = 26
+= 5 = p = 7
+= 5 = l = 26
+= 7 = p = 10
+= 7 = l = 26
+= 8 = l = 23
+= 10 = m = 13
+= 10 = p = 14
+= 10 = l = 26
+= 11 = l = 25
+= 12 = p = 16
+= 13 = m = 14
+= 14 = p = 18
+= 15 = l = 23
+= 15 = l = 25
+= 16 = m = 18
+= 16 = l = 25
+= 18 = p = 20
+= 18 = l = 23
+= 19 = m = 20
+= 20 = l = 23
+= 21 = l = 23
+= 22 = l = 24
+# Listed 29 contacts. EOF.

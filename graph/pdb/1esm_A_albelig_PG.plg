@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1esm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, TRANSFERASE
+> pdb_mol_name > PANTOTHENATE KINASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 10-APR-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL BASIS FOR THE FEEDBACK REGULATION OF ESCHERICHIACOLI PANTOTHENATE KINASE BY COENZYME A
+> format_version > 2
+> pdbid > 1esm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1esm | A | albelig | 1 | 1 | E | 7 | 11 | A-12-  | A-16-  | YLQFD 
+| 1esm | A | albelig | 2 | 2 | H | 12 | 19 | A-17-  | A-24-  | RNQWAALR 
+| 1esm | A | albelig | 3 | 3 | H | 28 | 32 | A-33-  | A-37-  | EDEIA 
+| 1esm | A | albelig | 4 | 4 | H | 43 | 50 | A-48-  | A-55-  | LEEVAEIY 
+| 1esm | A | albelig | 5 | 5 | H | 51 | 75 | A-56-  | A-80-  | LPLSRLLNFYISSNLRRQAVLEQFL 
+| 1esm | A | albelig | 6 | 6 | E | 84 | 90 | A-89-  | A-95-  | YIISIAG 
+| 1esm | A | albelig | 7 | 7 | H | 96 | 109 | A-101-  | A-114-  | KSTTARVLQALLSR 
+| 1esm | A | albelig | 8 | 8 | E | 117 | 120 | A-122-  | A-125-  | ELIT 
+| 1esm | A | albelig | 9 | 9 | H | 121 | 124 | A-126-  | A-129-  | TDGF 
+| 1esm | A | albelig | 10 | 10 | H | 128 | 133 | A-133-  | A-138-  | NQVLKE 
+| 1esm | A | albelig | 11 | 11 | H | 143 | 145 | A-148-  | A-150-  | PES 
+| 1esm | A | albelig | 12 | 12 | H | 148 | 159 | A-153-  | A-164-  | XHRLVKFVSDLK 
+| 1esm | A | albelig | 13 | 13 | E | 165 | 167 | A-170-  | A-172-  | VTA 
+| 1esm | A | albelig | 14 | 14 | E | 183 | 185 | A-188-  | A-190-  | KTV 
+| 1esm | A | albelig | 15 | 15 | E | 190 | 194 | A-195-  | A-199-  | ILILE 
+| 1esm | A | albelig | 16 | 16 | H | 214 | 216 | A-219-  | A-221-  | VSD 
+| 1esm | A | albelig | 17 | 17 | E | 220 | 225 | A-225-  | A-230-  | FSIYVD 
+| 1esm | A | albelig | 18 | 18 | H | 228 | 244 | A-233-  | A-249-  | EDLLQTWYINRFLKFRE 
+| 1esm | A | albelig | 19 | 19 | H | 246 | 248 | A-251-  | A-253-  | AFT 
+| 1esm | A | albelig | 20 | 20 | H | 255 | 258 | A-260-  | A-263-  | HNYA 
+| 1esm | A | albelig | 21 | 21 | H | 262 | 277 | A-267-  | A-282-  | KEEAIKTAXTLWKEIN 
+| 1esm | A | albelig | 22 | 22 | H | 278 | 285 | A-283-  | A-290-  | WLNLKQNI 
+| 1esm | A | albelig | 23 | 23 | H | 286 | 291 | A-291-  | A-296-  | LPTRER 
+| 1esm | A | albelig | 24 | 24 | E | 294 | 298 | A-299-  | A-303-  | LILTK 
+| 1esm | A | albelig | 25 | 25 | E | 304 | 310 | A-309-  | A-315-  | VEEVRLR 
+| 1esm | A | albelig | 26 | 26 | L | 1260 | 1260 | A-401-  | A-401-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 25
+= 2 = m = 4
+= 2 = m = 5
+= 4 = m = 5
+= 6 = p = 15
+= 6 = p = 17
+= 6 = l = 26
+= 7 = m = 15
+= 7 = l = 26
+= 8 = m = 9
+= 8 = p = 15
+= 9 = m = 12
+= 9 = l = 26
+= 12 = m = 13
+= 13 = a = 14
+= 15 = l = 26
+= 17 = m = 23
+= 17 = p = 24
+= 18 = m = 19
+= 18 = a = 21
+= 18 = l = 26
+= 19 = l = 26
+= 20 = l = 26
+= 21 = m = 22
+= 21 = l = 26
+= 22 = m = 23
+= 24 = a = 25
+# Listed 28 contacts. EOF.

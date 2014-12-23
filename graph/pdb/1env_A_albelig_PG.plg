@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1env, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRAL FUSION, COAT PROTEIN, VIRAL PROTEIN
+> pdb_mol_name > HIV-1 ENVELOPE PROTEIN CHIMERA CONSISTING OF A FRAGMENT OF
+> graphtype > albelig
+> resolution > 2.6
+> date > 27-JUN-97
+> header > VIRAL PROTEIN
+> pdb_org_common > BAKER'S YEAST
+> title > ATOMIC STRUCTURE OF THE ECTODOMAIN FROM HIV-1 GP41
+> format_version > 2
+> pdbid > 1env
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1env | A | albelig | 1 | 1 | H | 2 | 76 | A-2-  | A-76-  | IEDKIEEILSKIYHIENEIARIKKLIGEARQLLSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARILAVERYL 
+| 1env | A | albelig | 2 | 2 | H | 80 | 114 | A-118-  | A-152-  | MEWDREINNYTSLIHSLIEESQNQQEKNEQELLEL 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

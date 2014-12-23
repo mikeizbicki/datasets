@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1beb, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPOCALIN, MILK WHEY PROTEIN, BOVINE, RETINOL-BINDING
+> pdb_mol_name > BETA-LACTOGLOBULIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 20-DEC-96
+> header > LIPOCALIN
+> pdb_org_common > CATTLE
+> title > BOVINE BETA-LACTOGLOBULIN, LATTICE X
+> format_version > 2
+> pdbid > 1beb
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1beb | B | albelig | 1 | 1 | H | 165 | 168 | B-12-  | B-15-  | IQKV 
+| 1beb | B | albelig | 2 | 2 | E | 173 | 179 | B-20-  | B-26-  | YSLAMAA 
+| 1beb | B | albelig | 3 | 3 | H | 182 | 184 | B-29-  | B-31-  | ISL 
+| 1beb | B | albelig | 4 | 4 | E | 194 | 201 | B-41-  | B-48-  | VYVEELKP 
+| 1beb | B | albelig | 5 | 5 | E | 207 | 214 | B-54-  | B-61-  | LEILLQKW 
+| 1beb | B | albelig | 6 | 6 | E | 219 | 228 | B-66-  | B-75-  | CAQKKIIAEK 
+| 1beb | B | albelig | 7 | 7 | E | 234 | 239 | B-81-  | B-86-  | VFKIDA 
+| 1beb | B | albelig | 8 | 8 | E | 242 | 250 | B-89-  | B-97-  | ENKVLVLDT 
+| 1beb | B | albelig | 9 | 9 | E | 255 | 261 | B-102-  | B-108-  | YLLFDME 
+| 1beb | B | albelig | 10 | 10 | H | 266 | 268 | B-113-  | B-115-  | PEQ 
+| 1beb | B | albelig | 11 | 11 | E | 271 | 276 | B-118-  | B-123-  | VDQCLV 
+| 1beb | B | albelig | 12 | 12 | H | 283 | 295 | B-130-  | B-142-  | DEALEKFDKALKA 
+| 1beb | B | albelig | 13 | 13 | E | 300 | 303 | B-147-  | B-150-  | IRLS 
+| 1beb | B | albelig | 14 | 14 | H | 306 | 311 | B-153-  | B-158-  | PTQLEE 
+| 1beb | B | albelig | 15 | 15 | L | 314 | 314 | B-163-  | B-163-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = a = 4
+= 2 = a = 11
+= 2 = a = 13
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 6 = l = 15
+= 7 = a = 8
+= 7 = l = 15
+= 8 = a = 9
+= 9 = a = 11
+= 11 = m = 12
+# Listed 13 contacts. EOF.

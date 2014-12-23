@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvs, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOLLIDAY JUNCTION RESOLVASE COMPONENT, BRANCH MIGRATION, DNA REPAIR,DNA BINDING PROTEIN
+> pdb_mol_name > PROTEIN (HOLLIDAY JUNCTION DNA HELICASE RUVA)
+> graphtype > albelig
+> resolution > 3.0
+> date > 17-SEP-98
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > RUVA COMPLEXED TO A HOLLIDAY JUNCTION.
+> format_version > 2
+> pdbid > 1bvs
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM LEPRAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvs | H | albelig | 1 | 1 | E | 1297 | 1300 | H-2-  | H-5-  | IFSV 
+| 1bvs | H | albelig | 2 | 2 | E | 1302 | 1304 | H-7-  | H-9-  | GEV 
+| 1bvs | H | albelig | 3 | 3 | E | 1313 | 1316 | H-18-  | H-21-  | VIEA 
+| 1bvs | H | albelig | 4 | 4 | E | 1319 | 1322 | H-24-  | H-27-  | IGYR 
+| 1bvs | H | albelig | 5 | 5 | H | 1327 | 1331 | H-32-  | H-36-  | PSALA 
+| 1bvs | H | albelig | 6 | 6 | E | 1345 | 1348 | H-50-  | H-53-  | MVVR 
+| 1bvs | H | albelig | 7 | 7 | E | 1351 | 1356 | H-56-  | H-61-  | SMTLYG 
+| 1bvs | H | albelig | 8 | 8 | H | 1360 | 1371 | H-65-  | H-76-  | AENRDLFLALLS 
+| 1bvs | H | albelig | 9 | 9 | H | 1376 | 1385 | H-81-  | H-90-  | GPRLAMATLA 
+| 1bvs | H | albelig | 10 | 10 | H | 1391 | 1396 | H-96-  | H-101-  | ALRQAL 
+| 1bvs | H | albelig | 11 | 11 | H | 1402 | 1405 | H-107-  | H-110-  | ASLT 
+| 1bvs | H | albelig | 12 | 12 | H | 1412 | 1420 | H-117-  | H-125-  | RRGAERIVL 
+| 1bvs | H | albelig | 13 | 13 | H | 1432 | 1443 | H-149-  | H-160-  | AVRGSVVEALVG 
+| 1bvs | H | albelig | 14 | 14 | H | 1452 | 1459 | H-169-  | H-176-  | EEATDQVL 
+| 1bvs | H | albelig | 15 | 15 | H | 1465 | 1469 | H-188-  | H-192-  | TSSAL 
+| 1bvs | H | albelig | 16 | 16 | H | 1472 | 1476 | H-195-  | H-199-  | ALSLL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 4
+= 6 = a = 7
+= 8 = a = 9
+= 13 = m = 14
+= 13 = p = 15
+# Listed 6 contacts. EOF.

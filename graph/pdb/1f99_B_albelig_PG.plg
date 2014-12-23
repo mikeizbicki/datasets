@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f99, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGHT HARVESTING PROTEIN, R-PHYCOCYANIN, PHOTOSYNTHESIS, ELECTRONTRASNPORT
+> pdb_mol_name > R-PHYCOCYANIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 09-JUL-00
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF R-PHYCOCYANIN FROM POLYSIPHONIA AT 2.4 ARESOLUTION
+> format_version > 2
+> pdbid > 1f99
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > POLYSIPHONIA URCEOLATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f99 | B | albelig | 1 | 1 | H | 167 | 177 | B-4-  | B-14-  | AFAKVVAQADA 
+| 1f99 | B | albelig | 2 | 2 | H | 184 | 195 | B-21-  | B-32-  | NTQIDALLAIVS 
+| 1f99 | B | albelig | 3 | 3 | H | 197 | 208 | B-34-  | B-45-  | GNKRLDVVNKIT 
+| 1f99 | B | albelig | 4 | 4 | H | 211 | 225 | B-48-  | B-62-  | ASAIVTNAARALFAE 
+| 1f99 | B | albelig | 5 | 5 | H | 227 | 229 | B-64-  | B-66-  | PQL 
+| 1f99 | B | albelig | 6 | 6 | H | 239 | 262 | B-76-  | B-99-  | SRRMAACLRDMEIVLRYVSYAMIA 
+| 1f99 | B | albelig | 7 | 7 | H | 266 | 273 | B-103-  | B-110-  | SVLDDRCL 
+| 1f99 | B | albelig | 8 | 8 | H | 276 | 283 | B-113-  | B-120-  | LRETYQAL 
+| 1f99 | B | albelig | 9 | 9 | H | 287 | 305 | B-124-  | B-142-  | GASVAVAIQKMKDAALALV 
+| 1f99 | B | albelig | 10 | 10 | H | 317 | 334 | B-154-  | B-171-  | ASLVAEIATYFDRAAAAV 
+| 1f99 | B | albelig | 11 | 11 | L | 1009 | 1009 | B-385-  | B-385-  | J 
+| 1f99 | B | albelig | 12 | 12 | L | 1010 | 1010 | B-355-  | B-355-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 12
+= 3 = m = 6
+= 3 = m = 10
+= 3 = l = 12
+= 4 = a = 6
+= 4 = l = 11
+= 5 = l = 11
+= 6 = m = 7
+= 6 = a = 10
+= 6 = l = 11
+= 7 = m = 10
+= 7 = l = 11
+= 8 = m = 10
+= 8 = l = 11
+= 9 = a = 10
+= 9 = l = 11
+= 9 = l = 12
+# Listed 17 contacts. EOF.

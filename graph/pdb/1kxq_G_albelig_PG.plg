@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxq, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA 8 BETA 8, BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+> pdb_mol_name > ANTIBODY VHH FRAGMENT CABAMD9
+> graphtype > albelig
+> resolution > 1.6
+> date > 01-FEB-02
+> header > HYDROLASE, IMMUNE SYSTEM
+> pdb_org_common > ARABIAN CAMEL
+> title > CAMELID VHH DOMAIN IN COMPLEX WITH PORCINE PANCREATIC ALPHA-AMYLASE
+> format_version > 2
+> pdbid > 1kxq
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > CAMELUS DROMEDARIUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxq | G | albelig | 1 | 1 | E | 2234 | 2237 | G-4-  | G-7-  | LVES 
+| 1kxq | G | albelig | 2 | 2 | E | 2240 | 2243 | G-10-  | G-13-  | GSVQ 
+| 1kxq | G | albelig | 3 | 3 | E | 2248 | 2254 | G-18-  | G-24-  | LSLSWAA 
+| 1kxq | G | albelig | 4 | 4 | E | 2260 | 2266 | G-30-  | G-36-  | TVGWFRQ 
+| 1kxq | G | albelig | 5 | 5 | E | 2273 | 2279 | G-43-  | G-49-  | EGVAAIY 
+| 1kxq | G | albelig | 6 | 6 | E | 2284 | 2287 | G-54-  | G-57-  | YTYS 
+| 1kxq | G | albelig | 7 | 7 | E | 2295 | 2299 | G-65-  | G-69-  | FTLSQ 
+| 1kxq | G | albelig | 8 | 8 | E | 2305 | 2310 | G-75-  | G-80-  | TVYLQM 
+| 1kxq | G | albelig | 9 | 9 | H | 2315 | 2317 | G-85-  | G-87-  | PED 
+| 1kxq | G | albelig | 10 | 10 | E | 2319 | 2326 | G-89-  | G-96-  | GIYYWATG 
+| 1kxq | G | albelig | 11 | 11 | H | 2331 | 2333 | G-101-  | G-103-  | LAS 
+| 1kxq | G | albelig | 12 | 12 | E | 2337 | 2340 | G-107-  | G-110-  | YFYW 
+| 1kxq | G | albelig | 13 | 13 | E | 2344 | 2349 | G-114-  | G-119-  | TQVTVS 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 10
+= 2 = p = 13
+= 3 = a = 4
+= 3 = a = 8
+= 3 = p = 10
+= 4 = a = 5
+= 4 = a = 10
+= 5 = a = 6
+= 5 = p = 7
+= 7 = a = 8
+= 10 = a = 12
+= 10 = a = 13
+# Listed 13 contacts. EOF.

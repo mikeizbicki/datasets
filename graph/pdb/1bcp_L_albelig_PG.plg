@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcp, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN, ADP-RIBOSYLTRANSFERASE, TRANSFERASE, WHOOPING COUGH
+> pdb_mol_name > PERTUSSIS TOXIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 21-NOV-95
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > BINARY COMPLEX OF PERTUSSIS TOXIN AND ATP
+> format_version > 2
+> pdbid > 1bcp
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > BORDETELLA PERTUSSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcp | L | albelig | 1 | 1 | E | 1791 | 1804 | L-7-  | L-20-  | YKNFTVQELALKLK 
+| 1bcp | L | albelig | 2 | 2 | E | 1807 | 1815 | L-23-  | L-31-  | NQEFYLTAF 
+| 1bcp | L | albelig | 3 | 3 | E | 1822 | 1827 | L-38-  | L-43-  | VRAYLS 
+| 1bcp | L | albelig | 4 | 4 | H | 1836 | 1850 | L-52-  | L-66-  | WFDTMLGFAISAYAL 
+| 1bcp | L | albelig | 5 | 5 | E | 1853 | 1856 | L-69-  | L-72-  | RIAL 
+| 1bcp | L | albelig | 6 | 6 | E | 1873 | 1875 | L-89-  | L-91-  | LQI 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 2 = m = 4
+= 5 = a = 6
+# Listed 5 contacts. EOF.

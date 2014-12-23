@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c28, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACRP30 C1Q TNF TRIMER ALL-BETA, SERUM PROTEIN
+> pdb_mol_name > PROTEIN (30 KD ADIPOCYTE COMPLEMENT-RELATED
+> graphtype > albelig
+> resolution > 2.1
+> date > 22-JUL-99
+> header > SERUM PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > THE CRYSTAL STRUCTURE OF A COMPLMENT-1Q FAMILY PROTEINSUGGESTS AN EVOLUTIONARY LINK TO TUMOR NECROSIS FACTOR
+> format_version > 2
+> pdbid > 1c28
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c28 | C | albelig | 1 | 1 | E | 246 | 250 | C-117-  | C-121-  | AFSVG 
+| 1c28 | C | albelig | 2 | 2 | E | 264 | 267 | C-137-  | C-140-  | KIFY 
+| 1c28 | C | albelig | 3 | 3 | E | 279 | 281 | C-152-  | C-154-  | KFY 
+| 1c28 | C | albelig | 4 | 4 | E | 286 | 294 | C-159-  | C-167-  | GLYYFSYHI 
+| 1c28 | C | albelig | 5 | 5 | E | 302 | 305 | C-177-  | C-180-  | SLFK 
+| 1c28 | C | albelig | 6 | 6 | E | 308 | 312 | C-183-  | C-187-  | KAVLF 
+| 1c28 | C | albelig | 7 | 7 | E | 316 | 324 | C-200-  | C-208-  | ASGSVLLHL 
+| 1c28 | C | albelig | 8 | 8 | E | 329 | 332 | C-213-  | C-216-  | QVWL 
+| 1c28 | C | albelig | 9 | 9 | E | 338 | 346 | C-236-  | C-244-  | TFTGFLLYH 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 3 = a = 8
+= 4 = a = 7
+= 4 = a = 9
+= 5 = a = 6
+= 5 = a = 8
+# Listed 7 contacts. EOF.

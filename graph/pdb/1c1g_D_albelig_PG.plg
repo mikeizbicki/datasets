@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c1g, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TROPOMYOSIN COILED-COIL ALPHA-HELICAL, CONTRACTILE PROTEIN
+> pdb_mol_name > TROPOMYOSIN
+> graphtype > albelig
+> resolution > 7.0
+> date > 22-JUL-99
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > PIG
+> title > CRYSTAL STRUCTURE OF TROPOMYOSIN AT 7 ANGSTROMS RESOLUTIONIN THE SPERMINE-INDUCED CRYSTAL FORM
+> format_version > 2
+> pdbid > 1c1g
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SUS SCROFA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c1g | D | albelig | 1 | 1 | H | 857 | 963 | D-854-  | D-960-  | DAIKKKMQMLKLDKENALDRADEAEADKKAAEDRSKQLEDELVSLQKKLKATEDELDKYSEALKDAQEKLELAEKKATDAEADVASLNRRIQLFEEELDRAQERLAT 
+| 1c1g | D | albelig | 2 | 2 | H | 965 | 991 | D-962-  | D-988-  | LQKLEEAEKAADESERGMKVIESRAQK 
+| 1c1g | D | albelig | 3 | 3 | H | 993 | 1019 | D-990-  | D-1016-  | EEKMEIQEIQLKEAKHIAEDADRKYEE 
+| 1c1g | D | albelig | 4 | 4 | H | 1021 | 1089 | D-1018-  | D-1086-  | ARKLVIIESDLERAEERAELSEGKCAELEEEIKTVTNNLKSLEAQAEKYSQKEDKYEEEIKVLSDKLKE 
+| 1c1g | D | albelig | 5 | 5 | H | 1091 | 1136 | D-1088-  | D-1133-  | ETRAEFAERSVTKLEKSIDDLEDELYAQKLKYKAISEELDHALNDM 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 4 = m = 5
+# Listed 2 contacts. EOF.

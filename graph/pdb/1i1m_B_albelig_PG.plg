@@ -1,0 +1,84 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i1m, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AMINOTRANSFERASE, HEXAMER, PLP, 4-METHYLVARELATE, TRANSFERASE
+> pdb_mol_name > BRANCHED-CHAIN AMINO ACID AMINOTRANSFERASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 02-FEB-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ESCHERICHIA COLI BRANCHED-CHAIN AMINO ACIDAMINOTRANSFERASE.
+> format_version > 2
+> pdbid > 1i1m
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i1m | B | albelig | 1 | 1 | E | 309 | 312 | B-507-  | B-510-  | YIWF 
+| 1i1m | B | albelig | 2 | 2 | E | 315 | 318 | B-513-  | B-516-  | EMVR 
+| 1i1m | B | albelig | 3 | 3 | H | 319 | 321 | B-517-  | B-519-  | WED 
+| 1i1m | B | albelig | 4 | 4 | H | 329 | 333 | B-527-  | B-531-  | HALHY 
+| 1i1m | B | albelig | 5 | 5 | E | 336 | 338 | B-534-  | B-536-  | SVF 
+| 1i1m | B | albelig | 6 | 6 | E | 341 | 346 | B-539-  | B-544-  | IRCYDS 
+| 1i1m | B | albelig | 7 | 7 | E | 349 | 353 | B-547-  | B-551-  | GPVVF 
+| 1i1m | B | albelig | 8 | 8 | H | 355 | 369 | B-553-  | B-567-  | HREHMQRLHDSAKIY 
+| 1i1m | B | albelig | 9 | 9 | H | 377 | 390 | B-575-  | B-588-  | IDELMEACRDVIRK 
+| 1i1m | B | albelig | 10 | 10 | E | 396 | 403 | B-594-  | B-601-  | AYIRPLIF 
+| 1i1m | B | albelig | 11 | 11 | E | 420 | 426 | B-618-  | B-624-  | DVIIAAF 
+| 1i1m | B | albelig | 12 | 12 | H | 436 | 439 | B-634-  | B-637-  | ALEQ 
+| 1i1m | B | albelig | 13 | 13 | E | 441 | 445 | B-639-  | B-643-  | IDAMV 
+| 1i1m | B | albelig | 14 | 14 | H | 463 | 478 | B-661-  | B-676-  | GGNYLSSLLVGSEARR 
+| 1i1m | B | albelig | 15 | 15 | E | 483 | 487 | B-681-  | B-685-  | EGIAL 
+| 1i1m | B | albelig | 16 | 16 | E | 493 | 496 | B-691-  | B-694-  | ISEG 
+| 1i1m | B | albelig | 17 | 17 | E | 500 | 505 | B-698-  | B-703-  | NLFEVK 
+| 1i1m | B | albelig | 18 | 18 | E | 508 | 511 | B-706-  | B-709-  | VLFT 
+| 1i1m | B | albelig | 19 | 19 | H | 514 | 516 | B-712-  | B-714-  | FTS 
+| 1i1m | B | albelig | 20 | 20 | H | 522 | 533 | B-720-  | B-731-  | ITRDAIIKLAKE 
+| 1i1m | B | albelig | 21 | 21 | E | 538 | 540 | B-736-  | B-738-  | VRE 
+| 1i1m | B | albelig | 22 | 22 | H | 547 | 550 | B-745-  | B-748-  | SLYL 
+| 1i1m | B | albelig | 23 | 23 | E | 553 | 558 | B-751-  | B-756-  | EVFMSG 
+| 1i1m | B | albelig | 24 | 24 | E | 562 | 569 | B-760-  | B-767-  | EITPVRSV 
+| 1i1m | B | albelig | 25 | 25 | H | 581 | 594 | B-779-  | B-792-  | PVTKRIQQAFFGLF 
+| 1i1m | B | albelig | 26 | 26 | E | 605 | 607 | B-803-  | B-805-  | LDQ 
+| 1i1m | B | albelig | 27 | 27 | L | 917 | 917 | B-913-  | B-913-  | J 
+| 1i1m | B | albelig | 28 | 28 | L | 918 | 918 | B-914-  | B-914-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = m = 3
+= 5 = a = 10
+= 5 = l = 28
+= 6 = a = 7
+= 6 = a = 10
+= 7 = m = 8
+= 7 = a = 26
+= 8 = m = 9
+= 8 = l = 27
+= 9 = m = 11
+= 10 = a = 11
+= 10 = l = 28
+= 12 = m = 24
+= 13 = p = 15
+= 13 = p = 24
+= 14 = m = 15
+= 14 = l = 27
+= 14 = l = 28
+= 15 = a = 16
+= 16 = m = 19
+= 16 = l = 27
+= 17 = a = 18
+= 17 = a = 23
+= 17 = l = 27
+= 18 = p = 21
+= 20 = m = 23
+= 20 = l = 27
+= 23 = a = 24
+= 23 = m = 25
+= 23 = l = 27
+= 23 = l = 28
+= 24 = m = 25
+= 27 = l = 28
+# Listed 35 contacts. EOF.

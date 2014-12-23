@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f51, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TWO COMPONENT SYSTEM, SINGAL TRANDUCTION, RESPONSEREGULATOR, PHOSPHOTRANSFERASE, SPORULATION, PHOSPHORELAY,3D-STRUCTURE
+> pdb_mol_name > SPORULATION INITIATION PHOSPHOTRANSFERASE B
+> graphtype > albelig
+> resolution > 3.0
+> date > 11-JUN-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > A TRANSIENT INTERACTION BETWEEN TWO PHOSPHORELAY PROTEINSTRAPPED IN A CRYSTAL LATTICE REVEALS THE MECHANISM OFMOLECULAR RECOGNITION AND PHOSPHOTRANSFER IN SINGALTRANSDUCTION
+> format_version > 2
+> pdbid > 1f51
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f51 | C | albelig | 1 | 1 | H | 374 | 399 | C-420-  | C-445-  | ELIHLLGHSRHDWMNKLQLIKGNLSL 
+| 1f51 | C | albelig | 2 | 2 | H | 402 | 422 | C-448-  | C-468-  | YDRVFEMIEEMVIDAKHESKL 
+| 1f51 | C | albelig | 3 | 3 | H | 428 | 435 | C-474-  | C-481-  | PHLAFDFL 
+| 1f51 | C | albelig | 4 | 4 | E | 444 | 451 | C-490-  | C-497-  | MTLEYEVL 
+| 1f51 | C | albelig | 5 | 5 | H | 458 | 478 | C-504-  | C-524-  | SAYDQKLAKLMRKLFHLFDQA 
+| 1f51 | C | albelig | 6 | 6 | E | 485 | 492 | C-531-  | C-538-  | NHLTVSLQ 
+| 1f51 | C | albelig | 7 | 7 | E | 500 | 507 | C-546-  | C-553-  | LILYLDFH 
+| 1f51 | C | albelig | 8 | 8 | H | 513 | 516 | C-559-  | C-562-  | PSAF 
+| 1f51 | C | albelig | 9 | 9 | E | 531 | 534 | C-577-  | C-580-  | RFEI 
+| 1f51 | C | albelig | 10 | 10 | E | 538 | 545 | C-584-  | C-591-  | ECLIEIGL 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = m = 4
+= 3 = p = 5
+= 4 = p = 6
+= 5 = p = 7
+= 5 = a = 10
+= 6 = a = 7
+= 7 = a = 10
+= 9 = a = 10
+# Listed 9 contacts. EOF.

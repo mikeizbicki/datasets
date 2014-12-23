@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1atz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COLLAGEN-BINDING, HEMOSTASIS, DINUCLEOTIDE BINDING FOLD
+> pdb_mol_name > VON WILLEBRAND FACTOR
+> graphtype > albelig
+> resolution > 1.8
+> date > 15-AUG-97
+> header > COLLAGEN-BINDING
+> pdb_org_common > HUMAN
+> title > HUMAN VON WILLEBRAND FACTOR A3 DOMAIN
+> format_version > 2
+> pdbid > 1atz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1atz | A | albelig | 1 | 1 | E | 3 | 10 | A-927-  | A-934-  | LDVILLLD 
+| 1atz | A | albelig | 2 | 2 | H | 17 | 33 | A-941-  | A-957-  | ASYFDEMKSFAKAFISK 
+| 1atz | A | albelig | 3 | 3 | E | 41 | 48 | A-965-  | A-972-  | TQVSVLQY 
+| 1atz | A | albelig | 4 | 4 | E | 52 | 56 | A-976-  | A-980-  | TTIDV 
+| 1atz | A | albelig | 5 | 5 | H | 64 | 72 | A-988-  | A-996-  | KAHLLSLVD 
+| 1atz | A | albelig | 6 | 6 | H | 83 | 95 | A-1007-  | A-1019-  | IGDALGFAVRYLT 
+| 1atz | A | albelig | 7 | 7 | E | 106 | 113 | A-1030-  | A-1037-  | SKAVVILV 
+| 1atz | A | albelig | 8 | 8 | H | 122 | 130 | A-1046-  | A-1054-  | DAAADAARS 
+| 1atz | A | albelig | 9 | 9 | E | 133 | 140 | A-1057-  | A-1064-  | VTVFPIGI 
+| 1atz | A | albelig | 10 | 10 | H | 146 | 152 | A-1070-  | A-1076-  | AAQLRIL 
+| 1atz | A | albelig | 11 | 11 | H | 154 | 160 | A-1078-  | A-1084-  | GPAGDSN 
+| 1atz | A | albelig | 12 | 12 | E | 162 | 164 | A-1086-  | A-1088-  | VKL 
+| 1atz | A | albelig | 13 | 13 | H | 169 | 175 | A-1093-  | A-1099-  | DLPTMVT 
+| 1atz | A | albelig | 14 | 14 | H | 179 | 183 | A-1103-  | A-1107-  | SFLHK 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = a = 6
+= 1 = p = 7
+= 2 = a = 5
+= 2 = m = 13
+= 3 = a = 4
+= 6 = a = 7
+= 6 = m = 8
+= 7 = p = 9
+= 9 = m = 10
+= 9 = m = 11
+= 9 = p = 12
+# Listed 13 contacts. EOF.

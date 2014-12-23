@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ic8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION REGULATION; DNA-BINDING; POU DOMAIN;DIABETES; DISEASE MUTATION; MODY3, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > HEPATOCYTE NUCLEAR FACTOR 1-ALPHA
+> graphtype > albelig
+> resolution > 2.6
+> date > 30-MAR-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HUMAN
+> title > HEPATOCYTE NUCLEAR FACTOR 1A BOUND TO DNA : MODY3 GENEPRODUCT
+> format_version > 2
+> pdbid > 1ic8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ic8 | A | albelig | 1 | 1 | H | 8 | 21 | A-94-  | A-107-  | PEEAAHQKAVVETL 
+| 1ic8 | A | albelig | 2 | 2 | H | 26 | 39 | A-112-  | A-125-  | PWRVAKMVKSYLQQ 
+| 1ic8 | A | albelig | 3 | 3 | H | 44 | 51 | A-130-  | A-137-  | QREVVDTT 
+| 1ic8 | A | albelig | 4 | 4 | H | 55 | 63 | A-141-  | A-149-  | QSHLSQHLN 
+| 1ic8 | A | albelig | 5 | 5 | H | 70 | 83 | A-156-  | A-169-  | TQKRAALYTWYVRK 
+| 1ic8 | A | albelig | 6 | 6 | H | 88 | 91 | A-174-  | A-177-  | AQQF 
+| 1ic8 | A | albelig | 7 | 7 | H | 103 | 116 | A-208-  | A-221-  | PASQQILFQAYERQ 
+| 1ic8 | A | albelig | 8 | 8 | H | 125 | 138 | A-230-  | A-243-  | ETLVEECNRAECIQ 
+| 1ic8 | A | albelig | 9 | 9 | H | 150 | 152 | A-255-  | A-257-  | GSN 
+| 1ic8 | A | albelig | 10 | 10 | H | 156 | 169 | A-261-  | A-274-  | EVRVYNWFANRRKE 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 2 = m = 4
+= 2 = p = 5
+= 3 = m = 5
+= 7 = a = 8
+= 7 = m = 10
+# Listed 6 contacts. EOF.

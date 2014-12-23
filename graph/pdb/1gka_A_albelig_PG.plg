@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gka, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPOCALIN, CRUSTACYANIN, LOBSTER, ASTAXANTHIN,BATHOCHROMIC, COLORATION
+> pdb_mol_name > CRUSTACYANIN A1 SUBUNIT
+> graphtype > albelig
+> resolution > 3.23
+> date > 10-AUG-01
+> header > LIPOCALIN
+> pdb_org_common > EUROPEAN LOBSTER
+> title > THE MOLECULAR BASIS OF THE COLORATION MECHANISM IN LOBSTERSHELL. BETA-CRUSTACYANIN AT 3.2 A RESOLUTION
+> format_version > 2
+> pdbid > 1gka
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMARUS GAMMARUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gka | A | albelig | 1 | 1 | H | 16 | 23 | A-17-  | A-24-  | RNKLWAEQ 
+| 1gka | A | albelig | 2 | 2 | H | 28 | 30 | A-29-  | A-31-  | NSY 
+| 1gka | A | albelig | 3 | 3 | E | 32 | 39 | A-33-  | A-40-  | GVWYQFAL 
+| 1gka | A | albelig | 4 | 4 | E | 47 | 57 | A-48-  | A-58-  | IEKNVRNEYSF 
+| 1gka | A | albelig | 5 | 5 | E | 62 | 70 | A-63-  | A-71-  | FVIKSTGIA 
+| 1gka | A | albelig | 6 | 6 | E | 75 | 84 | A-76-  | A-85-  | LLKRNGKLYP 
+| 1gka | A | albelig | 7 | 7 | E | 92 | 94 | A-93-  | A-95-  | LSI 
+| 1gka | A | albelig | 8 | 8 | E | 102 | 109 | A-103-  | A-110-  | APLVILET 
+| 1gka | A | albelig | 9 | 9 | E | 114 | 122 | A-115-  | A-123-  | YACLYSAID 
+| 1gka | A | albelig | 10 | 10 | E | 127 | 136 | A-128-  | A-137-  | YHSDFSFIFS 
+| 1gka | A | albelig | 11 | 11 | H | 146 | 153 | A-147-  | A-154-  | VKKCEAAF 
+| 1gka | A | albelig | 12 | 12 | H | 160 | 162 | A-161-  | A-163-  | TTR 
+| 1gka | A | albelig | 13 | 13 | H | 174 | 177 | A-175-  | A-178-  | YDTQ 
+| 1gka | A | albelig | 14 | 14 | L | 356 | 356 | A-1182-  | A-1182-  | J 
+| 1gka | A | albelig | 15 | 15 | L | 357 | 357 | A-1183-  | A-1183-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = a = 10
+= 4 = a = 5
+= 4 = l = 14
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 7 = l = 14
+= 8 = a = 9
+= 8 = l = 14
+= 9 = a = 10
+= 9 = m = 11
+= 9 = l = 14
+= 9 = l = 15
+= 10 = l = 14
+= 14 = l = 15
+# Listed 16 contacts. EOF.

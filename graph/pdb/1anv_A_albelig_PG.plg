@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1anv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EARLY PROTEIN, DNA-BINDING PROTEIN, ZINC-FINGER,PHOSPHORYLATION, NUCLEAR PROTEIN
+> pdb_mol_name > ADENOVIRUS SINGLE-STRANDED DNA-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 14-MAR-96
+> header > DNA-BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > ADENOVIRUS 5 DBP/URANYL FLUORIDE SOAK
+> format_version > 2
+> pdbid > 1anv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN ADENOVIRUS 5
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1anv | A | albelig | 1 | 1 | H | 2 | 16 | A-180-  | A-194-  | AWEKGMEAARALMDK 
+| 1anv | A | albelig | 2 | 2 | H | 21 | 25 | A-199-  | A-203-  | NDLKA 
+| 1anv | A | albelig | 3 | 3 | H | 35 | 49 | A-213-  | A-227-  | EALAAVCKTWLNEEH 
+| 1anv | A | albelig | 4 | 4 | H | 59 | 78 | A-237-  | A-256-  | NKTFVTMMGRFLQAYLQSFA 
+| 1anv | A | albelig | 5 | 5 | E | 90 | 93 | A-268-  | A-271-  | CALW 
+| 1anv | A | albelig | 6 | 6 | H | 135 | 137 | A-340-  | A-342-  | VHD 
+| 1anv | A | albelig | 7 | 7 | H | 157 | 174 | A-362-  | A-379-  | GAKAQVAFKQIKAFMQAL 
+| 1anv | A | albelig | 8 | 8 | E | 185 | 188 | A-390-  | A-393-  | LLMP 
+| 1anv | A | albelig | 9 | 9 | E | 210 | 214 | A-415-  | A-419-  | LTPFA 
+| 1anv | A | albelig | 10 | 10 | H | 216 | 219 | A-421-  | A-424-  | SNAE 
+| 1anv | A | albelig | 11 | 11 | H | 229 | 236 | A-434-  | A-441-  | KSVLASVH 
+| 1anv | A | albelig | 12 | 12 | E | 239 | 243 | A-444-  | A-448-  | ALIVF 
+| 1anv | A | albelig | 13 | 13 | H | 260 | 275 | A-473-  | A-488-  | APDLLNALVMVRSLWS 
+| 1anv | A | albelig | 14 | 14 | H | 293 | 295 | A-506-  | A-508-  | TKH 
+| 1anv | A | albelig | 15 | 15 | L | 317 | 317 | A-530-  | A-530-  | J 
+| 1anv | A | albelig | 16 | 16 | L | 318 | 318 | A-531-  | A-531-  | J 
+| 1anv | A | albelig | 17 | 17 | L | 319 | 319 | A-532-  | A-532-  | J 
+| 1anv | A | albelig | 18 | 18 | L | 320 | 320 | A-533-  | A-533-  | J 
+| 1anv | A | albelig | 19 | 19 | L | 321 | 321 | A-534-  | A-534-  | J 
+| 1anv | A | albelig | 20 | 20 | L | 322 | 322 | A-535-  | A-535-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 3 = m = 4
+= 3 = l = 20
+= 4 = p = 13
+= 5 = a = 8
+= 6 = l = 15
+= 7 = m = 12
+= 7 = p = 13
+= 8 = a = 12
+= 9 = a = 12
+# Listed 10 contacts. EOF.

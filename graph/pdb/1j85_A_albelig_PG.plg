@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j85, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METHYLTRANSFERASE, STRUCTURAL GENOMICS, HYPOTHETICAL PROTEIN,STRUCTURE 2 FUNCTION PROJECT, S2F, TRANSFERASE
+> pdb_mol_name > YIBK
+> graphtype > albelig
+> resolution > 2.0
+> date > 20-MAY-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF YIBK FROM HAEMOPHILUS INFLUENZAE (HI0766), A TRUNCATEDSEQUENCE HOMOLOG OF TRNA (GUANOSINE-2'-O-) METHYLTRANSFERASE (SPOU)
+> format_version > 2
+> pdbid > 1j85
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE RD
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j85 | A | albelig | 1 | 1 | E | 3 | 7 | A-3-  | A-7-  | DIVLY 
+| 1j85 | A | albelig | 2 | 2 | H | 12 | 25 | A-12-  | A-25-  | PQNTGNIIRLCANT 
+| 1j85 | A | albelig | 3 | 3 | E | 28 | 32 | A-28-  | A-32-  | RLHLI 
+| 1j85 | A | albelig | 4 | 4 | H | 42 | 45 | A-42-  | A-45-  | KRLR 
+| 1j85 | A | albelig | 5 | 5 | H | 51 | 53 | A-51-  | A-53-  | YHE 
+| 1j85 | A | albelig | 6 | 6 | E | 58 | 60 | A-58-  | A-60-  | KRH 
+| 1j85 | A | albelig | 7 | 7 | H | 63 | 70 | A-63-  | A-70-  | FEAFLESE 
+| 1j85 | A | albelig | 8 | 8 | E | 74 | 78 | A-74-  | A-78-  | RLFAL 
+| 1j85 | A | albelig | 9 | 9 | E | 95 | 99 | A-95-  | A-99-  | DYLMF 
+| 1j85 | A | albelig | 10 | 10 | H | 108 | 111 | A-108-  | A-111-  | MSIL 
+| 1j85 | A | albelig | 11 | 11 | H | 116 | 118 | A-116-  | A-118-  | MEQ 
+| 1j85 | A | albelig | 12 | 12 | H | 133 | 147 | A-133-  | A-147-  | LSNSVAVTVYEAWRQ 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 9
+= 2 = p = 12
+= 3 = p = 6
+= 6 = m = 7
+= 8 = p = 9
+= 8 = m = 11
+# Listed 7 contacts. EOF.

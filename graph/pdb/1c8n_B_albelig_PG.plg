@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c8n, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRUS, ICOSAHEDRAL VIRUS
+> pdb_mol_name > COAT PROTEIN
+> graphtype > albelig
+> resolution > 2.25
+> date > 20-MAY-00
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > TOBACCO NECROSIS VIRUS
+> format_version > 2
+> pdbid > 1c8n
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > UNIDENTIFIED TOBACCO NECROSIS VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c8n | B | albelig | 1 | 1 | E | 192 | 202 | B-89-  | B-99-  | TVVSNSELILN 
+| 1c8n | B | albelig | 2 | 2 | E | 211 | 216 | B-108-  | B-113-  | TVQSLP 
+| 1c8n | B | albelig | 3 | 3 | H | 223 | 229 | B-120-  | B-126-  | AWLGTIA 
+| 1c8n | B | albelig | 4 | 4 | E | 232 | 246 | B-129-  | B-143-  | YSKWRWVSLRIIYSP 
+| 1c8n | B | albelig | 5 | 5 | E | 255 | 261 | B-152-  | B-158-  | TVAMCLS 
+| 1c8n | B | albelig | 6 | 6 | H | 272 | 276 | B-169-  | B-173-  | RVQLS 
+| 1c8n | B | albelig | 7 | 7 | E | 282 | 284 | B-179-  | B-181-  | INF 
+| 1c8n | B | albelig | 8 | 8 | H | 293 | 296 | B-190-  | B-193-  | AAIL 
+| 1c8n | B | albelig | 9 | 9 | E | 307 | 309 | B-204-  | B-206-  | YVD 
+| 1c8n | B | albelig | 10 | 10 | H | 312 | 314 | B-209-  | B-211-  | VTR 
+| 1c8n | B | albelig | 11 | 11 | H | 325 | 329 | B-222-  | B-226-  | TAAFA 
+| 1c8n | B | albelig | 12 | 12 | H | 333 | 339 | B-230-  | B-236-  | AFDQNQF 
+| 1c8n | B | albelig | 13 | 13 | E | 343 | 349 | B-240-  | B-246-  | TVHIGSD 
+| 1c8n | B | albelig | 14 | 14 | E | 359 | 372 | B-256-  | B-269-  | GDIFFKYVIELIEP 
+| 1c8n | B | albelig | 15 | 15 | H | 375 | 378 | B-272-  | B-275-  | PTMN 
+| 1c8n | B | albelig | 16 | 16 | L | 602 | 602 | B-302-  | B-302-  | J 
+| 1c8n | B | albelig | 17 | 17 | L | 603 | 603 | B-304-  | B-304-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = a = 14
+= 2 = a = 13
+= 3 = m = 4
+= 3 = p = 14
+= 4 = a = 9
+= 4 = a = 14
+= 5 = m = 6
+= 5 = a = 7
+= 5 = a = 13
+= 15 = l = 17
+# Listed 11 contacts. EOF.

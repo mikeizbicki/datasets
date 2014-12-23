@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k44, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOSIDE TRIPHOSPHATE, NUCLEOSIDE DIPHOSPHATE, TRANSFERASE
+> pdb_mol_name > NUCLEOSIDE DIPHOSPHATE KINASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 05-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > MYCOBACTERIUM TUBERCULOSIS NUCLEOSIDE DIPHOSPHATE KINASE
+> format_version > 2
+> pdbid > 1k44
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k44 | E | albelig | 1 | 1 | E | 546 | 552 | E-3-  | E-9-  | ERTLVLI 
+| 1k44 | E | albelig | 2 | 2 | H | 554 | 558 | E-11-  | E-15-  | PDGIE 
+| 1k44 | E | albelig | 3 | 3 | H | 562 | 571 | E-19-  | E-28-  | IGEIISRIER 
+| 1k44 | E | albelig | 4 | 4 | E | 575 | 582 | E-32-  | E-39-  | TIAALQLR 
+| 1k44 | E | albelig | 5 | 5 | H | 586 | 592 | E-43-  | E-49-  | AELASQH 
+| 1k44 | E | albelig | 6 | 6 | H | 594 | 596 | E-51-  | E-53-  | AEH 
+| 1k44 | E | albelig | 7 | 7 | H | 602 | 611 | E-59-  | E-68-  | FGSLLEFITS 
+| 1k44 | E | albelig | 8 | 8 | E | 614 | 621 | E-71-  | E-78-  | VVAAIVEG 
+| 1k44 | E | albelig | 9 | 9 | H | 624 | 632 | E-81-  | E-89-  | AIAAVRQLA 
+| 1k44 | E | albelig | 10 | 10 | H | 646 | 650 | E-103-  | E-107-  | IRGDF 
+| 1k44 | E | albelig | 11 | 11 | E | 659 | 661 | E-116-  | E-118-  | VHG 
+| 1k44 | E | albelig | 12 | 12 | H | 665 | 675 | E-122-  | E-132-  | AESAQREIALW 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 8
+= 1 = m = 9
+= 1 = a = 11
+= 1 = p = 12
+= 3 = m = 10
+= 4 = a = 8
+= 5 = m = 12
+# Listed 7 contacts. EOF.

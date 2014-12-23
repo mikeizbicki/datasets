@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iru, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 20S PROTEASOME, CELL CYCLE, IMMUNE RESPONSE, PROTEOLYSIS,UBIQUITIN, HYDROLASE
+> pdb_mol_name > 20S PROTEASOME
+> graphtype > albelig
+> resolution > 2.75
+> date > 24-OCT-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE MAMMALIAN 20S PROTEASOME AT 2.75 ARESOLUTION
+> format_version > 2
+> pdbid > 1iru
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iru | D | albelig | 1 | 1 | H | 746 | 756 | D-17-  | D-27-  | FQVEYAQEAVK 
+| 1iru | D | albelig | 2 | 2 | E | 761 | 764 | D-32-  | D-35-  | AVGV 
+| 1iru | D | albelig | 3 | 3 | E | 769 | 774 | D-40-  | D-45-  | IVVLGV 
+| 1iru | D | albelig | 4 | 4 | H | 785 | 788 | D-56-  | D-59-  | ERTV 
+| 1iru | D | albelig | 5 | 5 | E | 791 | 793 | D-62-  | D-64-  | ICA 
+| 1iru | D | albelig | 6 | 6 | E | 799 | 804 | D-70-  | D-75-  | CMAFAG 
+| 1iru | D | albelig | 7 | 7 | H | 806 | 826 | D-77-  | D-97-  | TADARIVINRARVECQSHRLT 
+| 1iru | D | albelig | 8 | 8 | H | 833 | 846 | D-104-  | D-117-  | VEYITRYIASLKQR 
+| 1iru | D | albelig | 9 | 9 | E | 858 | 865 | D-129-  | D-136-  | ISALIVGF 
+| 1iru | D | albelig | 10 | 10 | E | 871 | 876 | D-142-  | D-147-  | PRLYQT 
+| 1iru | D | albelig | 11 | 11 | E | 882 | 884 | D-153-  | D-155-  | YHA 
+| 1iru | D | albelig | 12 | 12 | E | 887 | 890 | D-158-  | D-161-  | ANAI 
+| 1iru | D | albelig | 13 | 13 | H | 894 | 901 | D-165-  | D-172-  | AKSVREFL 
+| 1iru | D | albelig | 14 | 14 | H | 913 | 925 | D-184-  | D-196-  | DDLTIKLVIKALL 
+| 1iru | D | albelig | 15 | 15 | E | 937 | 941 | D-208-  | D-212-  | LAVMR 
+| 1iru | D | albelig | 16 | 16 | H | 951 | 957 | D-222-  | D-228-  | PEEIEKY 
+| 1iru | D | albelig | 17 | 17 | L | 6317 | 6317 | D-309-  | D-309-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 2 = a = 3
+= 2 = a = 12
+= 3 = a = 15
+= 5 = a = 6
+= 6 = a = 9
+= 7 = a = 8
+= 8 = a = 9
+= 8 = p = 10
+= 9 = a = 10
+= 10 = a = 11
+= 12 = m = 13
+= 12 = l = 17
+= 13 = m = 14
+# Listed 14 contacts. EOF.

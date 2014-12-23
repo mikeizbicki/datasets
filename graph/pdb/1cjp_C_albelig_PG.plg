@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cjp, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LEGUME LECTIN
+> pdb_mol_name > CONCANAVALIN A
+> graphtype > albelig
+> resolution > 2.78
+> date > 03-OCT-96
+> header > LECTIN
+> pdb_org_common > JACK BEAN
+> title > CONCANAVALIN A COMPLEX WITH 4'-METHYLUMBELLIFERYL-ALPHA-D-GLUCOPYRANOSIDE
+> format_version > 2
+> pdbid > 1cjp
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cjp | C | albelig | 1 | 1 | E | 480 | 486 | C-4-  | C-10-  | IVAVELD 
+| 1cjp | C | albelig | 2 | 2 | H | 491 | 493 | C-15-  | C-17-  | TDI 
+| 1cjp | C | albelig | 3 | 3 | E | 500 | 505 | C-24-  | C-29-  | HIGIDI 
+| 1cjp | C | albelig | 4 | 4 | E | 512 | 515 | C-36-  | C-39-  | KTAK 
+| 1cjp | C | albelig | 5 | 5 | E | 523 | 531 | C-47-  | C-55-  | VGTAHIIYN 
+| 1cjp | C | albelig | 6 | 6 | E | 536 | 542 | C-60-  | C-66-  | RLSAVVS 
+| 1cjp | C | albelig | 7 | 7 | E | 549 | 554 | C-73-  | C-78-  | ATVSYD 
+| 1cjp | C | albelig | 8 | 8 | H | 557 | 559 | C-81-  | C-83-  | LDN 
+| 1cjp | C | albelig | 9 | 9 | E | 564 | 572 | C-88-  | C-96-  | WVRVGLSAS 
+| 1cjp | C | albelig | 10 | 10 | E | 579 | 593 | C-103-  | C-117-  | TNTILSWSFTSKLKS 
+| 1cjp | C | albelig | 11 | 11 | E | 599 | 606 | C-123-  | C-130-  | TNALHFMF 
+| 1cjp | C | albelig | 12 | 12 | E | 616 | 620 | C-140-  | C-144-  | LILQG 
+| 1cjp | C | albelig | 13 | 13 | H | 626 | 628 | C-150-  | C-152-  | TDG 
+| 1cjp | C | albelig | 14 | 14 | E | 646 | 651 | C-170-  | C-175-  | VGRALF 
+| 1cjp | C | albelig | 15 | 15 | E | 662 | 676 | C-186-  | C-200-  | AVVASFEATFTFLIK 
+| 1cjp | C | albelig | 16 | 16 | E | 685 | 692 | C-209-  | C-216-  | GIAFFISN 
+| 1cjp | C | albelig | 17 | 17 | H | 703 | 705 | C-227-  | C-229-  | GRL 
+| 1cjp | C | albelig | 18 | 18 | L | 958 | 958 | C-240-  | C-240-  | J 
+| 1cjp | C | albelig | 19 | 19 | L | 959 | 959 | C-238-  | C-238-  | J 
+| 1cjp | C | albelig | 20 | 20 | L | 960 | 960 | C-239-  | C-239-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 16
+= 1 = l = 19
+= 1 = l = 20
+= 3 = a = 4
+= 3 = p = 7
+= 3 = l = 19
+= 3 = l = 20
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 15
+= 6 = a = 7
+= 9 = a = 10
+= 9 = a = 14
+= 9 = a = 16
+= 10 = a = 11
+= 10 = a = 15
+= 12 = a = 14
+= 15 = a = 16
+= 17 = l = 18
+= 17 = l = 20
+= 18 = l = 20
+= 19 = l = 20
+# Listed 23 contacts. EOF.

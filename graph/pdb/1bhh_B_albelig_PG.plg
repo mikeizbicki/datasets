@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bhh, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SH2 DOMAIN, PHOSPHORYLATION, TRANSFERASE
+> pdb_mol_name > P56 LCK TYROSINE KINASE SH2 DOMAIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 08-JUN-98
+> header > SH2 DOMAIN
+> pdb_org_common > HUMAN
+> title > FREE P56LCK SH2 DOMAIN
+> format_version > 2
+> pdbid > 1bhh
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bhh | B | albelig | 1 | 1 | H | 116 | 123 | B-134-  | B-141-  | RKDAERQL 
+| 1bhh | B | albelig | 2 | 2 | E | 133 | 137 | B-151-  | B-155-  | FLIRE 
+| 1bhh | B | albelig | 3 | 3 | E | 145 | 153 | B-163-  | B-171-  | FSLSVRDFD 
+| 1bhh | B | albelig | 4 | 4 | E | 157 | 167 | B-175-  | B-185-  | GEVVKHYKIRN 
+| 1bhh | B | albelig | 5 | 5 | H | 184 | 192 | B-202-  | B-210-  | LHELVRHYT 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 4
+= 2 = a = 3
+= 3 = a = 4
+# Listed 4 contacts. EOF.

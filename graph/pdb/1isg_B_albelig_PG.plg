@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1isg, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADP RIBOSYLCYCLASE, NAD GLYCOHYDROLASE, CNS, ATPGAMMAS, HYDROLASE
+> pdb_mol_name > BONE MARROW STROMAL CELL ANTIGEN 1
+> graphtype > albelig
+> resolution > 2.6
+> date > 05-DEC-01
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF BST-1/CD157 WITH ATPGAMMAS
+> format_version > 2
+> pdbid > 1isg
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1isg | B | albelig | 1 | 1 | H | 261 | 274 | B-11-  | B-24-  | LRDIFLGRFAEYRA 
+| 1isg | B | albelig | 2 | 2 | H | 278 | 280 | B-28-  | B-30-  | PEQ 
+| 1isg | B | albelig | 3 | 3 | H | 285 | 296 | B-35-  | B-46-  | FTAIWEAFKVAL 
+| 1isg | B | albelig | 4 | 4 | H | 305 | 315 | B-55-  | B-65-  | PSDYDLFITLS 
+| 1isg | B | albelig | 5 | 5 | E | 325 | 327 | B-75-  | B-77-  | LFW 
+| 1isg | B | albelig | 6 | 6 | H | 331 | 338 | B-81-  | B-88-  | HLLVNSFA 
+| 1isg | B | albelig | 7 | 7 | H | 347 | 349 | B-97-  | B-99-  | LSD 
+| 1isg | B | albelig | 8 | 8 | H | 351 | 354 | B-101-  | B-104-  | LYGR 
+| 1isg | B | albelig | 9 | 9 | H | 385 | 399 | B-135-  | B-149-  | PVDSFWKRASIQYSK 
+| 1isg | B | albelig | 10 | 10 | E | 403 | 410 | B-153-  | B-160-  | GVIHVMLN 
+| 1isg | B | albelig | 11 | 11 | H | 424 | 431 | B-174-  | B-181-  | FADYEIPN 
+| 1isg | B | albelig | 12 | 12 | H | 434 | 436 | B-184-  | B-186-  | KEK 
+| 1isg | B | albelig | 13 | 13 | E | 437 | 445 | B-187-  | B-195-  | ITRIEIWVM 
+| 1isg | B | albelig | 14 | 14 | H | 460 | 471 | B-210-  | B-221-  | SMKVLEKRLKDM 
+| 1isg | B | albelig | 15 | 15 | E | 475 | 479 | B-225-  | B-229-  | YSIIN 
+| 1isg | B | albelig | 16 | 16 | H | 482 | 489 | B-232-  | B-239-  | RPVKLLQJ 
+| 1isg | B | albelig | 17 | 17 | H | 496 | 498 | B-246-  | B-248-  | PDJ 
+| 1isg | B | albelig | 18 | 18 | L | 505 | 505 | B-266-  | B-266-  | J 
+| 1isg | B | albelig | 19 | 19 | L | 506 | 506 | B-267-  | B-267-  | J 
+| 1isg | B | albelig | 20 | 20 | L | 507 | 507 | B-1001-  | B-1001-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 3 = a = 4
+= 4 = m = 8
+= 4 = m = 9
+= 5 = p = 10
+= 5 = l = 20
+= 6 = l = 18
+= 6 = l = 20
+= 7 = l = 20
+= 8 = m = 9
+= 9 = m = 11
+= 9 = l = 20
+= 10 = p = 13
+= 10 = l = 18
+= 11 = m = 14
+= 12 = m = 13
+= 13 = p = 15
+= 14 = m = 15
+= 18 = l = 19
+= 18 = l = 20
+# Listed 20 contacts. EOF.

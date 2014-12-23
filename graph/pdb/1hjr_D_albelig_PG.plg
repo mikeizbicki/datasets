@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjr, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SITE-SPECIFIC RECOMBINASE
+> pdb_mol_name > HOLLIDAY JUNCTION RESOLVASE (RUVC)
+> graphtype > albelig
+> resolution > 2.5
+> date > 02-DEC-94
+> header > SITE-SPECIFIC RECOMBINASE
+> pdb_org_common > UNKNOWN
+> title > ATOMIC STRUCTURE OF THE RUVC RESOLVASE: A HOLLIDAY JUNCTION-SPECIFIC ENDONUCLEASE FROM E. COLI
+> format_version > 2
+> pdbid > 1hjr
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjr | D | albelig | 1 | 1 | E | 480 | 484 | D-3-  | D-7-  | ILGID 
+| 1hjr | D | albelig | 2 | 2 | E | 490 | 498 | D-13-  | D-21-  | TGYGVIRQV 
+| 1hjr | D | albelig | 3 | 3 | E | 501 | 510 | D-24-  | D-33-  | QLSYLGSGCI 
+| 1hjr | D | albelig | 4 | 4 | H | 517 | 534 | D-40-  | D-57-  | LPSRLKLIYAGVTEIITQ 
+| 1hjr | D | albelig | 5 | 5 | E | 539 | 544 | D-62-  | D-67-  | YFAIEQ 
+| 1hjr | D | albelig | 6 | 6 | H | 551 | 570 | D-74-  | D-93-  | ADSALKLGQARGVAIVAAVN 
+| 1hjr | D | albelig | 7 | 7 | E | 575 | 579 | D-98-  | D-102-  | VFEYA 
+| 1hjr | D | albelig | 8 | 8 | H | 580 | 587 | D-103-  | D-110-  | ARQVKQTV 
+| 1hjr | D | albelig | 9 | 9 | H | 595 | 597 | D-118-  | D-120-  | KSQ 
+| 1hjr | D | albelig | 10 | 10 | H | 599 | 605 | D-122-  | D-128-  | QHMVRTL 
+| 1hjr | D | albelig | 11 | 11 | H | 617 | 629 | D-140-  | D-152-  | ADALAIAITHCHV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 1 = a = 11
+= 2 = a = 3
+= 2 = p = 11
+= 4 = p = 6
+= 5 = p = 7
+= 5 = m = 11
+= 7 = m = 8
+= 8 = m = 11
+= 10 = m = 11
+# Listed 11 contacts. EOF.

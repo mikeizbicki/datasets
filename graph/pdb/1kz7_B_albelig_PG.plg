@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kz7, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GUANINE NUCLEOTIDE EXCHANGE FACTOR (GEF), SMALL G-PROTEIN,SIGNALING PROTEIN
+> pdb_mol_name > CDC42 HOMOLOG
+> graphtype > albelig
+> resolution > 2.4
+> date > 06-FEB-02
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE DH/PH FRAGMENT OF MURINE DBS INCOMPLEX WITH THE PLACENTAL ISOFORM OF HUMAN CDC42
+> format_version > 2
+> pdbid > 1kz7
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kz7 | B | albelig | 1 | 1 | E | 342 | 349 | B-3-  | B-10-  | TIKCVVVG 
+| 1kz7 | B | albelig | 2 | 2 | H | 355 | 364 | B-16-  | B-25-  | KTCLLISYTT 
+| 1kz7 | B | albelig | 3 | 3 | E | 379 | 385 | B-40-  | B-46-  | YAVTVMI 
+| 1kz7 | B | albelig | 4 | 4 | E | 388 | 395 | B-49-  | B-56-  | EPYTLGLF 
+| 1kz7 | B | albelig | 5 | 5 | H | 407 | 410 | B-68-  | B-71-  | RPLS 
+| 1kz7 | B | albelig | 6 | 6 | E | 416 | 422 | B-77-  | B-83-  | VFLVCFS 
+| 1kz7 | B | albelig | 7 | 7 | H | 426 | 436 | B-87-  | B-97-  | PSSFENVKEKW 
+| 1kz7 | B | albelig | 8 | 8 | H | 437 | 443 | B-98-  | B-104-  | VPEITHH 
+| 1kz7 | B | albelig | 9 | 9 | E | 449 | 454 | B-110-  | B-115-  | FLLVGT 
+| 1kz7 | B | albelig | 10 | 10 | H | 456 | 460 | B-117-  | B-121-  | IDLRD 
+| 1kz7 | B | albelig | 11 | 11 | H | 462 | 469 | B-123-  | B-130-  | PSTIEKLA 
+| 1kz7 | B | albelig | 12 | 12 | H | 478 | 487 | B-139-  | B-148-  | PETAEKLARD 
+| 1kz7 | B | albelig | 13 | 13 | E | 493 | 495 | B-154-  | B-156-  | YVE 
+| 1kz7 | B | albelig | 14 | 14 | H | 504 | 516 | B-165-  | B-177-  | LKNVFDEAILAAL 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = m = 14
+= 3 = a = 4
+= 6 = m = 7
+= 6 = p = 9
+= 6 = m = 14
+= 7 = m = 8
+= 9 = p = 13
+# Listed 9 contacts. EOF.

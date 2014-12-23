@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1koe, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANGIOGENESIS INHIBITOR, COLLAGEN XVIII, NON-COLLAGENEOUSDOMAIN, HEPARIN-BINDING DOMAIN
+> pdb_mol_name > ENDOSTATIN
+> graphtype > albelig
+> resolution > 1.5
+> date > 22-JAN-98
+> header > ANGIOGENESIS INHIBITOR
+> pdb_org_common > HOUSE MOUSE
+> title > ENDOSTATIN
+> format_version > 2
+> pdbid > 1koe
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1koe | A | albelig | 1 | 1 | E | 4 | 8 | A-141-  | A-145-  | LHLVA 
+| 1koe | A | albelig | 2 | 2 | H | 19 | 33 | A-156-  | A-170-  | GIRGADFQAFQQARA 
+| 1koe | A | albelig | 3 | 3 | E | 40 | 42 | A-177-  | A-179-  | FRA 
+| 1koe | A | albelig | 4 | 4 | H | 51 | 54 | A-188-  | A-191-  | LYSI 
+| 1koe | A | albelig | 5 | 5 | H | 57 | 59 | A-194-  | A-196-  | RAD 
+| 1koe | A | albelig | 6 | 6 | E | 72 | 74 | A-209-  | A-211-  | VLS 
+| 1koe | A | albelig | 7 | 7 | H | 77 | 80 | A-214-  | A-217-  | WDSL 
+| 1koe | A | albelig | 8 | 8 | E | 112 | 114 | A-249-  | A-251-  | SVW 
+| 1koe | A | albelig | 9 | 9 | H | 129 | 132 | A-266-  | A-269-  | NETW 
+| 1koe | A | albelig | 10 | 10 | E | 140 | 145 | A-277-  | A-282-  | TGQASS 
+| 1koe | A | albelig | 11 | 11 | H | 146 | 148 | A-283-  | A-285-  | LLS 
+| 1koe | A | albelig | 12 | 12 | E | 155 | 158 | A-292-  | A-295-  | KAAS 
+| 1koe | A | albelig | 13 | 13 | E | 166 | 169 | A-303-  | A-306-  | LAIE 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 13
+= 2 = m = 3
+= 3 = a = 13
+= 8 = a = 10
+= 9 = m = 10
+= 10 = m = 11
+= 10 = a = 12
+# Listed 7 contacts. EOF.

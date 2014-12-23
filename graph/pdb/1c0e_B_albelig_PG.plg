@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c0e, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TYROSINE PHOSPHATASE, PHOSPHATASE DIMER, HYDROLASE
+> pdb_mol_name > PROTEIN (TYROSINE PHOSPHATASE (ORTHOPHOSPHORIC
+> graphtype > albelig
+> resolution > 2.2
+> date > 15-JUL-99
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > ACTIVE SITE S19A MUTANT OF BOVINE HEART PHOSPHOTYROSYLPHOSPHATASE
+> format_version > 2
+> pdbid > 1c0e
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c0e | B | albelig | 1 | 1 | E | 158 | 164 | B-206-  | B-212-  | KSVLFVC 
+| 1c0e | B | albelig | 2 | 2 | H | 170 | 183 | B-218-  | B-231-  | RAPIAEAVFRKLVT 
+| 1c0e | B | albelig | 3 | 3 | H | 188 | 190 | B-236-  | B-238-  | SDN 
+| 1c0e | B | albelig | 4 | 4 | E | 191 | 197 | B-239-  | B-245-  | WVIDSGA 
+| 1c0e | B | albelig | 5 | 5 | H | 209 | 217 | B-257-  | B-265-  | PRAVSCLRN 
+| 1c0e | B | albelig | 6 | 6 | H | 233 | 236 | B-281-  | B-284-  | DFVT 
+| 1c0e | B | albelig | 7 | 7 | E | 239 | 242 | B-287-  | B-290-  | YILC 
+| 1c0e | B | albelig | 8 | 8 | H | 245 | 256 | B-293-  | B-304-  | ESNLRDLNRKSN 
+| 1c0e | B | albelig | 9 | 9 | E | 264 | 267 | B-312-  | B-315-  | KIEL 
+| 1c0e | B | albelig | 10 | 10 | H | 268 | 271 | B-316-  | B-319-  | LGSY 
+| 1c0e | B | albelig | 11 | 11 | H | 287 | 308 | B-335-  | B-356-  | DADFETVYQQCVRCCRAFLEKV 
+| 1c0e | B | albelig | 12 | 12 | L | 311 | 311 | B-358-  | B-358-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 1 = p = 7
+= 1 = l = 12
+= 2 = m = 4
+= 2 = p = 11
+= 2 = l = 12
+= 3 = m = 4
+= 5 = m = 11
+= 7 = p = 9
+= 8 = m = 9
+= 9 = m = 10
+= 10 = m = 11
+# Listed 13 contacts. EOF.

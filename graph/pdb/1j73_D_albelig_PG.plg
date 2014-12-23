@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j73, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > A8-DIAMINOBUTYRIC ACID HUMAN INSULIN, HORMONE-RECEPTOR INTERFACE,HORMONE-GROWTH FACTOR COMPLEX
+> pdb_mol_name > INSULIN B
+> graphtype > albelig
+> resolution > 2.0
+> date > 15-MAY-01
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN UNSTABLE INSULIN ANALOG WITH NATIVE ACTIVITY.
+> format_version > 2
+> pdbid > 1j73
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j73 | D | albelig | 1 | 1 | H | 79 | 97 | D-4-  | D-22-  | QHLEGSHLVEALYLVFGER 
+| 1j73 | D | albelig | 2 | 2 | E | 99 | 101 | D-24-  | D-26-  | FFY 
+| 1j73 | D | albelig | 3 | 3 | L | 109 | 109 | D-31-  | D-31-  | J 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 3
+# Listed 2 contacts. EOF.

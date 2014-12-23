@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gzf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, ADP-RIBOSYLTRANSFERASE, BACTERIAL TOXIN, C3EXOENZYME
+> pdb_mol_name > MONO-ADP-RIBOSYLTRANSFERASE C3
+> graphtype > albelig
+> resolution > 1.95
+> date > 21-MAY-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE CLOSTRIDIUM BOTULINUM C3 EXOENZYME(WILD-TYPE) IN COMPLEX WITH NAD
+> format_version > 2
+> pdbid > 1gzf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM BOTULINUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gzf | A | albelig | 1 | 1 | H | 8 | 22 | A-52-  | A-66-  | IDQAKAWGNAQYKKY 
+| 1gzf | A | albelig | 2 | 2 | H | 26 | 48 | A-70-  | A-92-  | KSEKEAIVSYTKSASEINGKLRQ 
+| 1gzf | A | albelig | 3 | 3 | H | 58 | 70 | A-102-  | A-114-  | SNLIKQVELLDKS 
+| 1gzf | A | albelig | 4 | 4 | E | 80 | 86 | A-124-  | A-130-  | IMLFRGD 
+| 1gzf | A | albelig | 5 | 5 | H | 88 | 91 | A-132-  | A-135-  | PAYL 
+| 1gzf | A | albelig | 6 | 6 | H | 93 | 95 | A-137-  | A-139-  | TEF 
+| 1gzf | A | albelig | 7 | 7 | H | 108 | 118 | A-152-  | A-162-  | KTAFEKAKAKF 
+| 1gzf | A | albelig | 8 | 8 | E | 122 | 125 | A-166-  | A-169-  | DRLE 
+| 1gzf | A | albelig | 9 | 9 | E | 129 | 132 | A-173-  | A-176-  | ISTS 
+| 1gzf | A | albelig | 10 | 10 | H | 137 | 140 | A-181-  | A-184-  | SQFA 
+| 1gzf | A | albelig | 11 | 11 | E | 144 | 150 | A-188-  | A-194-  | IITKFKV 
+| 1gzf | A | albelig | 12 | 12 | H | 160 | 162 | A-204-  | A-206-  | DPI 
+| 1gzf | A | albelig | 13 | 13 | E | 170 | 173 | A-214-  | A-217-  | EMLL 
+| 1gzf | A | albelig | 14 | 14 | E | 177 | 186 | A-221-  | A-230-  | STYHIDDMRL 
+| 1gzf | A | albelig | 15 | 15 | E | 193 | 199 | A-237-  | A-243-  | IIITATM 
+| 1gzf | A | albelig | 16 | 16 | L | 829 | 829 | A-1248-  | A-1248-  | J 
+| 1gzf | A | albelig | 17 | 17 | L | 830 | 830 | A-1249-  | A-1249-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 17
+= 2 = a = 3
+= 2 = l = 16
+= 4 = a = 9
+= 4 = a = 11
+= 4 = l = 16
+= 5 = l = 16
+= 7 = a = 14
+= 8 = a = 14
+= 8 = l = 16
+= 9 = a = 13
+= 9 = l = 16
+= 10 = l = 16
+= 11 = p = 15
+= 12 = l = 17
+= 13 = l = 16
+= 14 = a = 15
+# Listed 17 contacts. EOF.

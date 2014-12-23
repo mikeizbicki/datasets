@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ioh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HORMONE, HUMAN INSULIN MUTANT, MONOMER, NEUTRAL PH,HORMONE/GROWTH FACTOR COMPLEX
+> pdb_mol_name > PROTEIN (INSULIN PRECURSOR)
+> graphtype > albelig
+> resolution > -1.0
+> date > 13-AUG-98
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > INSULIN MUTANT A8 HIS,(B1, B10, B16, B27)GLU, DES-B30, NMR,26 STRUCTURES
+> format_version > 2
+> pdbid > 1ioh
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ioh | A | albelig | 1 | 1 | H | 3 | 7 | A-3-  | A-7-  | VEQAN 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

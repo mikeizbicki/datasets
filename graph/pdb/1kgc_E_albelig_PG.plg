@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgc, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > T-CELL RECEPTOR, LC13 CLONE, IMMUNE SYSTEM
+> pdb_mol_name > T-CELL RECEPTOR BETA CHAIN
+> graphtype > albelig
+> resolution > 1.5
+> date > 26-NOV-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > IMMUNE RECEPTOR
+> format_version > 2
+> pdbid > 1kgc
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgc | E | albelig | 1 | 1 | E | 205 | 207 | E-5-  | E-7-  | SQS 
+| 1kgc | E | albelig | 2 | 2 | E | 210 | 214 | E-10-  | E-14-  | YKVAK 
+| 1kgc | E | albelig | 3 | 3 | E | 219 | 224 | E-19-  | E-24-  | VALRCD 
+| 1kgc | E | albelig | 4 | 4 | E | 231 | 237 | E-31-  | E-37-  | SLFWYQQ 
+| 1kgc | E | albelig | 5 | 5 | E | 244 | 250 | E-44-  | E-50-  | EFLTYFQ 
+| 1kgc | E | albelig | 6 | 6 | E | 253 | 256 | E-53-  | E-56-  | AQLD 
+| 1kgc | E | albelig | 7 | 7 | E | 265 | 268 | E-65-  | E-68-  | FFAE 
+| 1kgc | E | albelig | 8 | 8 | E | 275 | 279 | E-75-  | E-79-  | STLKI 
+| 1kgc | E | albelig | 9 | 9 | H | 284 | 286 | E-84-  | E-86-  | QED 
+| 1kgc | E | albelig | 10 | 10 | E | 288 | 295 | E-88-  | E-95-  | AVYLCASS 
+| 1kgc | E | albelig | 11 | 11 | E | 308 | 313 | E-112-  | E-117-  | TRLTVT 
+| 1kgc | E | albelig | 12 | 12 | H | 316 | 318 | E-120-  | E-122-  | LKN 
+| 1kgc | E | albelig | 13 | 13 | E | 323 | 327 | E-127-  | E-131-  | EVAVF 
+| 1kgc | E | albelig | 14 | 14 | H | 331 | 337 | E-135-  | E-141-  | EAEISHT 
+| 1kgc | E | albelig | 15 | 15 | E | 339 | 349 | E-143-  | E-153-  | KATLVDLATGF 
+| 1kgc | E | albelig | 16 | 16 | E | 354 | 360 | E-158-  | E-164-  | VELSWWV 
+| 1kgc | E | albelig | 17 | 17 | E | 363 | 365 | E-167-  | E-169-  | KEV 
+| 1kgc | E | albelig | 18 | 18 | E | 369 | 371 | E-173-  | E-175-  | VST 
+| 1kgc | E | albelig | 19 | 19 | E | 387 | 396 | E-191-  | E-200-  | YCLSSRLRVS 
+| 1kgc | E | albelig | 20 | 20 | H | 397 | 400 | E-201-  | E-204-  | ATFW 
+| 1kgc | E | albelig | 21 | 21 | E | 406 | 413 | E-210-  | E-217-  | HFRDQVQF 
+| 1kgc | E | albelig | 22 | 22 | E | 432 | 439 | E-236-  | E-243-  | QIVSAEAW 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = p = 11
+= 3 = a = 8
+= 3 = p = 10
+= 4 = a = 5
+= 4 = p = 8
+= 4 = a = 10
+= 5 = a = 6
+= 7 = a = 8
+= 10 = a = 11
+= 13 = a = 15
+= 13 = p = 22
+= 14 = m = 15
+= 15 = a = 19
+= 15 = m = 20
+= 15 = p = 21
+= 16 = a = 17
+= 16 = p = 19
+= 16 = a = 21
+= 18 = a = 19
+= 19 = m = 20
+= 21 = a = 22
+# Listed 22 contacts. EOF.

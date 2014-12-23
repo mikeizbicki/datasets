@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kqr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROTAVIRUS, VP4, VP8*, SPIKE PROTEIN, OUTER CAPSID, SIALIC ACID,HEMAGGLUTININ, CELL ATTACHMENT, NEUTRALIZATION ANTIGEN, LECTIN,GALECTIN FOLD, VIRAL PROTEIN
+> pdb_mol_name > VP4
+> graphtype > albelig
+> resolution > 1.4
+> date > 07-JAN-02
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE RHESUS ROTAVIRUS VP4 SIALIC ACID BINDINGDOMAIN IN COMPLEX WITH 2-O-METHYL-ALPHA-D-N-ACETYL NEURAMINIC ACID
+> format_version > 2
+> pdbid > 1kqr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RHESUS ROTAVIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kqr | A | albelig | 1 | 1 | E | 2 | 5 | A-66-  | A-69-  | DGPY 
+| 1kqr | A | albelig | 2 | 2 | E | 8 | 10 | A-72-  | A-74-  | TTF 
+| 1kqr | A | albelig | 3 | 3 | E | 16 | 20 | A-80-  | A-84-  | YWMLL 
+| 1kqr | A | albelig | 4 | 4 | E | 26 | 32 | A-90-  | A-96-  | GVVVEGT 
+| 1kqr | A | albelig | 5 | 5 | E | 38 | 44 | A-102-  | A-108-  | WLATILV 
+| 1kqr | A | albelig | 6 | 6 | E | 48 | 57 | A-112-  | A-121-  | VTSETRSYTL 
+| 1kqr | A | albelig | 7 | 7 | E | 60 | 68 | A-124-  | A-132-  | TQEQITIAN 
+| 1kqr | A | albelig | 8 | 8 | E | 74 | 81 | A-138-  | A-145-  | WKFIDVVK 
+| 1kqr | A | albelig | 9 | 9 | E | 89 | 96 | A-153-  | A-160-  | SQYGPLQS 
+| 1kqr | A | albelig | 10 | 10 | E | 101 | 106 | A-165-  | A-170-  | YAVMKH 
+| 1kqr | A | albelig | 11 | 11 | E | 109 | 116 | A-173-  | A-180-  | KIYTYNGE 
+| 1kqr | A | albelig | 12 | 12 | E | 121 | 126 | A-185-  | A-190-  | TTKYYS 
+| 1kqr | A | albelig | 13 | 13 | H | 130 | 132 | A-194-  | A-196-  | YDS 
+| 1kqr | A | albelig | 14 | 14 | E | 134 | 137 | A-198-  | A-201-  | NMTA 
+| 1kqr | A | albelig | 15 | 15 | E | 141 | 145 | A-205-  | A-209-  | FYIIP 
+| 1kqr | A | albelig | 16 | 16 | H | 146 | 158 | A-210-  | A-222-  | REEESTCTEYINN 
+| 1kqr | A | albelig | 17 | 17 | L | 161 | 161 | A-3000-  | A-3000-  | J 
+| 1kqr | A | albelig | 18 | 18 | L | 162 | 162 | A-1000-  | A-1000-  | J 
+| 1kqr | A | albelig | 19 | 19 | L | 163 | 163 | A-4000-  | A-4000-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 15
+= 2 = a = 14
+= 3 = a = 10
+= 3 = p = 14
+= 3 = a = 15
+= 3 = m = 16
+= 3 = l = 19
+= 4 = a = 5
+= 4 = a = 14
+= 5 = a = 8
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 8 = l = 18
+= 9 = p = 11
+= 9 = l = 18
+= 10 = a = 11
+= 10 = m = 13
+= 10 = a = 16
+= 10 = l = 19
+= 11 = a = 12
+= 11 = m = 16
+= 11 = l = 19
+= 12 = l = 18
+= 12 = l = 19
+= 15 = m = 16
+= 16 = l = 19
+# Listed 27 contacts. EOF.

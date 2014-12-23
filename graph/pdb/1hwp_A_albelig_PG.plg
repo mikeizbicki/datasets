@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hwp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOSOME-INACTIVATING PROTEIN, RICIN-LIKE, INHIBITOR, HYDROLASE
+> pdb_mol_name > EBULIN
+> graphtype > albelig
+> resolution > 3.1
+> date > 09-JAN-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > EBULIN COMPLEXED WITH PTEROIC ACID, TRIGONAL CRYSTAL FORM
+> format_version > 2
+> pdbid > 1hwp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SAMBUCUS EBULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hwp | A | albelig | 1 | 1 | E | 5 | 9 | A-5-  | A-9-  | SVSFN 
+| 1hwp | A | albelig | 2 | 2 | H | 15 | 29 | A-15-  | A-29-  | STTYRDFLKNLRDRV 
+| 1hwp | A | albelig | 3 | 3 | E | 39 | 42 | A-39-  | A-42-  | LPVL 
+| 1hwp | A | albelig | 4 | 4 | H | 45 | 47 | A-45-  | A-47-  | ESE 
+| 1hwp | A | albelig | 5 | 5 | H | 50 | 52 | A-50-  | A-52-  | VKN 
+| 1hwp | A | albelig | 6 | 6 | E | 54 | 60 | A-54-  | A-60-  | FVLVRLT 
+| 1hwp | A | albelig | 7 | 7 | E | 66 | 72 | A-66-  | A-72-  | TVTSAVD 
+| 1hwp | A | albelig | 8 | 8 | E | 77 | 82 | A-77-  | A-82-  | YLVAFS 
+| 1hwp | A | albelig | 9 | 9 | E | 86 | 89 | A-86-  | A-89-  | NSYF 
+| 1hwp | A | albelig | 10 | 10 | H | 95 | 98 | A-95-  | A-98-  | ELQK 
+| 1hwp | A | albelig | 11 | 11 | H | 116 | 123 | A-116-  | A-123-  | YDNLETAA 
+| 1hwp | A | albelig | 12 | 12 | H | 127 | 129 | A-127-  | A-129-  | RES 
+| 1hwp | A | albelig | 13 | 13 | H | 134 | 145 | A-134-  | A-145-  | PNPLDGAITSLW 
+| 1hwp | A | albelig | 14 | 14 | H | 151 | 163 | A-151-  | A-163-  | ARSLLVLIQMVPE 
+| 1hwp | A | albelig | 15 | 15 | H | 164 | 166 | A-164-  | A-166-  | AAR 
+| 1hwp | A | albelig | 16 | 16 | H | 168 | 179 | A-168-  | A-179-  | RYIEQEVRRSLQ 
+| 1hwp | A | albelig | 17 | 17 | H | 188 | 195 | A-188-  | A-195-  | ALMLSMEN 
+| 1hwp | A | albelig | 18 | 18 | H | 197 | 207 | A-197-  | A-207-  | WSSMSLEVQLS 
+| 1hwp | A | albelig | 19 | 19 | E | 213 | 221 | A-213-  | A-221-  | PFSGTVQLQ 
+| 1hwp | A | albelig | 20 | 20 | E | 227 | 232 | A-227-  | A-232-  | PRLVDN 
+| 1hwp | A | albelig | 21 | 21 | H | 233 | 240 | A-233-  | A-240-  | FEELYKIT 
+| 1hwp | A | albelig | 22 | 22 | L | 517 | 517 | A-321-  | A-321-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 6
+= 2 = m = 15
+= 2 = a = 16
+= 6 = a = 7
+= 7 = a = 8
+= 7 = m = 13
+= 8 = a = 9
+= 8 = l = 22
+= 11 = a = 14
+= 11 = l = 22
+= 12 = m = 17
+= 13 = m = 14
+= 14 = l = 22
+= 15 = l = 22
+= 17 = m = 19
+= 17 = l = 22
+= 18 = a = 19
+= 18 = l = 22
+= 19 = a = 20
+= 20 = m = 21
+# Listed 21 contacts. EOF.

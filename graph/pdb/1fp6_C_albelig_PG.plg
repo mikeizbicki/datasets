@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fp6, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NITROGENASE, NITROGEN FIXATION, NUCLOTIDE, MGADP, FEPROTEIN, AV2, OXIDOREDUCTASE
+> pdb_mol_name > NITROGENASE IRON PROTEIN
+> graphtype > albelig
+> resolution > 2.15
+> date > 30-AUG-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THE NITROGENASE FE PROTEIN FROM AZOTOBACTER VINELANDIICOMPLEXED WITH MGADP
+> format_version > 2
+> pdbid > 1fp6
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > AZOTOBACTER VINELANDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fp6 | C | albelig | 1 | 1 | E | 583 | 589 | C-3-  | C-9-  | RQCAIYG 
+| 1fp6 | C | albelig | 2 | 2 | H | 595 | 608 | C-15-  | C-28-  | KSTTTQNLVAALAE 
+| 1fp6 | C | albelig | 3 | 3 | E | 613 | 618 | C-33-  | C-38-  | VMIVGC 
+| 1fp6 | C | albelig | 4 | 4 | H | 626 | 629 | C-46-  | C-49-  | RLIL 
+| 1fp6 | C | albelig | 5 | 5 | H | 637 | 643 | C-57-  | C-63-  | IMEMAAE 
+| 1fp6 | C | albelig | 6 | 6 | H | 652 | 655 | C-72-  | C-75-  | LEDV 
+| 1fp6 | C | albelig | 7 | 7 | H | 660 | 662 | C-80-  | C-82-  | YGG 
+| 1fp6 | C | albelig | 8 | 8 | E | 664 | 667 | C-84-  | C-87-  | KCVE 
+| 1fp6 | C | albelig | 9 | 9 | H | 680 | 691 | C-100-  | C-111-  | RGVITAINFLEE 
+| 1fp6 | C | albelig | 10 | 10 | E | 701 | 707 | C-121-  | C-127-  | FVFYDVL 
+| 1fp6 | C | albelig | 11 | 11 | H | 713 | 720 | C-133-  | C-140-  | GGFAMPIR 
+| 1fp6 | C | albelig | 12 | 12 | E | 726 | 731 | C-146-  | C-151-  | EIYIVC 
+| 1fp6 | C | albelig | 13 | 13 | H | 735 | 750 | C-155-  | C-170-  | MMAMYAANNISKGIVK 
+| 1fp6 | C | albelig | 14 | 14 | E | 758 | 765 | C-178-  | C-185-  | RLGGLICN 
+| 1fp6 | C | albelig | 15 | 15 | H | 772 | 783 | C-192-  | C-203-  | EDELIIALANKL 
+| 1fp6 | C | albelig | 16 | 16 | E | 787 | 791 | C-207-  | C-211-  | MIHFV 
+| 1fp6 | C | albelig | 17 | 17 | H | 796 | 801 | C-216-  | C-221-  | VVQRAE 
+| 1fp6 | C | albelig | 18 | 18 | H | 807 | 810 | C-227-  | C-230-  | VIEY 
+| 1fp6 | C | albelig | 19 | 19 | H | 815 | 829 | C-235-  | C-249-  | KQADEYRALARKVVD 
+| 1fp6 | C | albelig | 20 | 20 | H | 841 | 850 | C-261-  | C-270-  | MDELEELLME 
+| 1fp6 | C | albelig | 21 | 21 | L | 1157 | 1157 | C-7292-  | C-7292-  | J 
+| 1fp6 | C | albelig | 22 | 22 | L | 1158 | 1158 | C-7290-  | C-7290-  | J 
+| 1fp6 | C | albelig | 23 | 23 | L | 1159 | 1159 | C-7291-  | C-7291-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 10
+= 1 = p = 12
+= 2 = m = 4
+= 2 = m = 10
+= 2 = m = 18
+= 2 = m = 19
+= 2 = l = 21
+= 2 = l = 23
+= 3 = p = 8
+= 3 = p = 10
+= 6 = m = 8
+= 10 = l = 21
+= 10 = l = 23
+= 11 = l = 22
+= 12 = p = 14
+= 13 = p = 15
+= 13 = m = 20
+= 14 = p = 16
+= 14 = l = 23
+= 15 = m = 16
+= 16 = m = 19
+= 16 = l = 23
+= 17 = m = 18
+= 17 = l = 23
+= 19 = l = 23
+= 21 = l = 23
+# Listed 27 contacts. EOF.

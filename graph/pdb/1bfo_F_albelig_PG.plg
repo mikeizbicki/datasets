@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bfo, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY, FAB, CAMPATH-1G, CD52
+> pdb_mol_name > CAMPATH-1G ANTIBODY
+> graphtype > albelig
+> resolution > 2.6
+> date > 20-MAY-98
+> header > ANTIBODY
+> pdb_org_common > BLACK RAT
+> title > CAMPATH-1G IGG2B RAT MONOCLONAL FAB
+> format_version > 2
+> pdbid > 1bfo
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > RATTUS RATTUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bfo | F | albelig | 1 | 1 | E | 1082 | 1086 | F-3-  | F-7-  | KLLES 
+| 1bfo | F | albelig | 2 | 2 | E | 1097 | 1104 | F-18-  | F-25-  | MRLSKAGS 
+| 1bfo | F | albelig | 3 | 3 | H | 1108 | 1110 | F-29-  | F-31-  | FTD 
+| 1bfo | F | albelig | 4 | 4 | E | 1113 | 1118 | F-34-  | F-39-  | MNWIRQ 
+| 1bfo | F | albelig | 5 | 5 | E | 1125 | 1130 | F-46-  | F-51-  | EWLGFI 
+| 1bfo | F | albelig | 6 | 6 | E | 1139 | 1141 | F-60-  | F-62-  | TEY 
+| 1bfo | F | albelig | 7 | 7 | E | 1149 | 1153 | F-70-  | F-74-  | FTISR 
+| 1bfo | F | albelig | 8 | 8 | H | 1155 | 1157 | F-76-  | F-78-  | NTQ 
+| 1bfo | F | albelig | 9 | 9 | E | 1159 | 1164 | F-80-  | F-85-  | MLYLQM 
+| 1bfo | F | albelig | 10 | 10 | H | 1169 | 1171 | F-90-  | F-92-  | AED 
+| 1bfo | F | albelig | 11 | 11 | E | 1173 | 1179 | F-94-  | F-100-  | ATYYKAR 
+| 1bfo | F | albelig | 12 | 12 | E | 1194 | 1198 | F-115-  | F-119-  | VMVTV 
+| 1bfo | F | albelig | 13 | 13 | E | 1207 | 1211 | F-128-  | F-132-  | SVYPL 
+| 1bfo | F | albelig | 14 | 14 | E | 1222 | 1232 | F-143-  | F-153-  | TVTLGLLVKGY 
+| 1bfo | F | albelig | 15 | 15 | E | 1238 | 1241 | F-159-  | F-162-  | TVTW 
+| 1bfo | F | albelig | 16 | 16 | H | 1242 | 1244 | F-163-  | F-165-  | NSG 
+| 1bfo | F | albelig | 17 | 17 | E | 1250 | 1252 | F-171-  | F-173-  | VHT 
+| 1bfo | F | albelig | 18 | 18 | E | 1256 | 1258 | F-177-  | F-179-  | VLQ 
+| 1bfo | F | albelig | 19 | 19 | E | 1261 | 1271 | F-182-  | F-192-  | LYTLTSSVTSS 
+| 1bfo | F | albelig | 20 | 20 | E | 1279 | 1284 | F-200-  | F-205-  | TLNVAH 
+| 1bfo | F | albelig | 21 | 21 | H | 1285 | 1287 | F-206-  | F-208-  | PAS 
+| 1bfo | F | albelig | 22 | 22 | E | 1289 | 1294 | F-210-  | F-215-  | TKVDKK 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 9
+= 2 = p = 11
+= 4 = a = 5
+= 4 = p = 9
+= 4 = a = 11
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = a = 9
+= 11 = a = 12
+= 13 = a = 14
+= 14 = a = 19
+= 15 = m = 16
+= 15 = p = 19
+= 15 = a = 20
+= 17 = a = 19
+= 18 = a = 19
+= 20 = m = 21
+= 20 = a = 22
+# Listed 21 contacts. EOF.

@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b04, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGASE, DNA REPLICATION
+> pdb_mol_name > PROTEIN (DNA LIGASE)
+> graphtype > albelig
+> resolution > 2.8
+> date > 16-NOV-98
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE ADENYLATION DOMAIN OF AN NAD+ DEPENDENTLIGASE
+> format_version > 2
+> pdbid > 1b04
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GEOBACILLUS STEAROTHERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b04 | A | albelig | 1 | 1 | H | 2 | 26 | A-3-  | A-27-  | RQQAERRAAELRELLNRYGYEYYVL 
+| 1b04 | A | albelig | 2 | 2 | H | 34 | 49 | A-35-  | A-50-  | AEYDRLMQELIAIEEQ 
+| 1b04 | A | albelig | 3 | 3 | H | 51 | 53 | A-52-  | A-54-  | PEL 
+| 1b04 | A | albelig | 4 | 4 | H | 59 | 62 | A-60-  | A-63-  | PTQR 
+| 1b04 | A | albelig | 5 | 5 | H | 91 | 103 | A-92-  | A-104-  | DLRDFDRRVRQEV 
+| 1b04 | A | albelig | 6 | 6 | E | 108 | 114 | A-109-  | A-115-  | YVCELAI 
+| 1b04 | A | albelig | 7 | 7 | E | 117 | 124 | A-118-  | A-125-  | LAVSVRYE 
+| 1b04 | A | albelig | 8 | 8 | E | 127 | 133 | A-128-  | A-134-  | YFVQGAT 
+| 1b04 | A | albelig | 9 | 9 | H | 144 | 148 | A-145-  | A-149-  | TENLK 
+| 1b04 | A | albelig | 10 | 10 | E | 163 | 170 | A-164-  | A-171-  | LEARGEAF 
+| 1b04 | A | albelig | 11 | 11 | H | 173 | 185 | A-174-  | A-186-  | KASFLRLNEERKA 
+| 1b04 | A | albelig | 12 | 12 | H | 193 | 202 | A-195-  | A-204-  | PRNAAAGSLR 
+| 1b04 | A | albelig | 13 | 13 | H | 206 | 211 | A-208-  | A-213-  | PKVAAS 
+| 1b04 | A | albelig | 14 | 14 | E | 215 | 221 | A-217-  | A-223-  | DLFVYGL 
+| 1b04 | A | albelig | 15 | 15 | H | 232 | 241 | A-234-  | A-243-  | HSEALDYLQA 
+| 1b04 | A | albelig | 16 | 16 | E | 251 | 253 | A-253-  | A-255-  | RRC 
+| 1b04 | A | albelig | 17 | 17 | H | 256 | 269 | A-258-  | A-271-  | IDEVIAFVSEWHDK 
+| 1b04 | A | albelig | 18 | 18 | E | 277 | 284 | A-279-  | A-286-  | IDGIVIKV 
+| 1b04 | A | albelig | 19 | 19 | H | 287 | 293 | A-289-  | A-295-  | FAQQRAL 
+| 1b04 | A | albelig | 20 | 20 | E | 303 | 307 | A-305-  | A-309-  | AIAYK 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 5 = m = 19
+= 6 = a = 16
+= 6 = p = 17
+= 6 = a = 18
+= 7 = a = 8
+= 7 = a = 10
+= 8 = m = 9
+= 10 = a = 14
+= 16 = m = 17
+= 18 = a = 20
+# Listed 12 contacts. EOF.

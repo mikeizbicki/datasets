@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1auq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > WILLEBRAND, BLOOD COAGULATION, PLATELET, GLYCOPROTEIN
+> pdb_mol_name > A1 DOMAIN OF VON WILLEBRAND FACTOR
+> graphtype > albelig
+> resolution > 2.3
+> date > 01-SEP-97
+> header > WILLEBRAND
+> pdb_org_common > HUMAN
+> title > A1 DOMAIN OF VON WILLEBRAND FACTOR
+> format_version > 2
+> pdbid > 1auq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1auq | A | albelig | 1 | 1 | E | 16 | 23 | A-513-  | A-520-  | LDLVFLLD 
+| 1auq | A | albelig | 2 | 2 | H | 30 | 45 | A-527-  | A-542-  | EAEFEVLKAFVVDMME 
+| 1auq | A | albelig | 3 | 3 | E | 54 | 61 | A-551-  | A-558-  | VRVAVVEY 
+| 1auq | A | albelig | 4 | 4 | E | 65 | 69 | A-562-  | A-566-  | SHAYI 
+| 1auq | A | albelig | 5 | 5 | H | 77 | 85 | A-574-  | A-582-  | PSELRRIAS 
+| 1auq | A | albelig | 6 | 6 | H | 97 | 108 | A-594-  | A-605-  | TSEVLKYTLFQI 
+| 1auq | A | albelig | 7 | 7 | E | 118 | 125 | A-615-  | A-622-  | SRIALLLM 
+| 1auq | A | albelig | 8 | 8 | H | 131 | 134 | A-628-  | A-631-  | QRMS 
+| 1auq | A | albelig | 9 | 9 | H | 137 | 146 | A-634-  | A-643-  | FVRYVQGLKK 
+| 1auq | A | albelig | 10 | 10 | E | 149 | 156 | A-646-  | A-653-  | VIVIPVGI 
+| 1auq | A | albelig | 11 | 11 | H | 162 | 171 | A-659-  | A-668-  | LKQIRLIEKQ 
+| 1auq | A | albelig | 12 | 12 | E | 178 | 180 | A-675-  | A-677-  | FVL 
+| 1auq | A | albelig | 13 | 13 | H | 183 | 200 | A-680-  | A-697-  | VDELEQQRDEIVSYLADL 
+| 1auq | A | albelig | 14 | 14 | L | 209 | 209 | A-400-  | A-400-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = p = 7
+= 2 = m = 5
+= 2 = p = 13
+= 3 = a = 4
+= 4 = l = 14
+= 6 = m = 9
+= 7 = p = 10
+= 9 = p = 11
+= 10 = m = 11
+= 10 = p = 12
+= 12 = m = 13
+# Listed 13 contacts. EOF.

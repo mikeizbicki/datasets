@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1icu, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA, OXIDOREDUCTASE
+> pdb_mol_name > OXYGEN-INSENSITIVE NAD(P)H NITROREDUCTASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 02-APR-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF ESCHERICHIA COLI NITROREDUCTASE COMPLEXEDWITH NICOTINIC ACID
+> format_version > 2
+> pdbid > 1icu
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1icu | C | albelig | 1 | 1 | H | 437 | 443 | C-3-  | C-9-  | IISVALK 
+| 1icu | C | albelig | 2 | 2 | H | 458 | 469 | C-24-  | C-35-  | PEQAEQIKTLLQ 
+| 1icu | C | albelig | 3 | 3 | H | 474 | 476 | C-40-  | C-42-  | STN 
+| 1icu | C | albelig | 4 | 4 | E | 480 | 485 | C-46-  | C-51-  | WHFIVA 
+| 1icu | C | albelig | 5 | 5 | H | 488 | 495 | C-54-  | C-61-  | EEGKARVA 
+| 1icu | C | albelig | 6 | 6 | H | 503 | 511 | C-69-  | C-77-  | VFNERKMLD 
+| 1icu | C | albelig | 7 | 7 | E | 514 | 521 | C-80-  | C-87-  | HVVVFCAK 
+| 1icu | C | albelig | 8 | 8 | H | 526 | 538 | C-92-  | C-104-  | DVWLKLVVDQEDA 
+| 1icu | C | albelig | 9 | 9 | H | 545 | 566 | C-111-  | C-132-  | PEAKAANDKGRKFFADMHRKDL 
+| 1icu | C | albelig | 10 | 10 | H | 569 | 590 | C-135-  | C-156-  | DAEWMAKQVYLNVGNFLLGVAA 
+| 1icu | C | albelig | 11 | 11 | H | 603 | 609 | C-169-  | C-175-  | AAILDAE 
+| 1icu | C | albelig | 12 | 12 | H | 612 | 615 | C-178-  | C-181-  | LKEK 
+| 1icu | C | albelig | 13 | 13 | E | 617 | 626 | C-183-  | C-192-  | YTSLVVVPVG 
+| 1icu | C | albelig | 14 | 14 | H | 633 | 636 | C-199-  | C-202-  | FNAT 
+| 1icu | C | albelig | 15 | 15 | H | 644 | 647 | C-210-  | C-213-  | QNIT 
+| 1icu | C | albelig | 16 | 16 | E | 648 | 650 | C-214-  | C-216-  | LTE 
+| 1icu | C | albelig | 17 | 17 | L | 874 | 874 | C-222-  | C-222-  | J 
+| 1icu | C | albelig | 18 | 18 | L | 875 | 875 | C-225-  | C-225-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 10
+= 3 = l = 18
+= 4 = m = 5
+= 4 = a = 7
+= 5 = m = 6
+= 6 = l = 17
+= 7 = a = 10
+= 7 = a = 13
+= 8 = a = 9
+= 9 = l = 18
+= 10 = p = 13
+= 10 = l = 17
+= 11 = m = 13
+= 12 = m = 13
+= 13 = l = 17
+= 14 = l = 17
+= 15 = m = 16
+# Listed 17 contacts. EOF.

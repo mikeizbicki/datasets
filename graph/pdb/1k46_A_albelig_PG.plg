@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k46, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOMAIN-SWAP, PHOSPHOPEPTIDE-BINDING DOMAIN, TYPE III SECRETIONDOMAIN, HYDROLASE
+> pdb_mol_name > PROTEIN-TYROSINE PHOSPHATASE YOPH
+> graphtype > albelig
+> resolution > 2.2
+> date > 05-OCT-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE TYPE III SECRETORY DOMAIN OF YERSINIA YOPHREVEALS A DOMAIN-SWAPPED DIMER
+> format_version > 2
+> pdbid > 1k46
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > YERSINIA PSEUDOTUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k46 | A | albelig | 1 | 1 | H | 4 | 16 | A-5-  | A-17-  | LSDLHRQVSRLVQ 
+| 1k46 | A | albelig | 2 | 2 | H | 43 | 45 | A-44-  | A-46-  | IAS 
+| 1k46 | A | albelig | 3 | 3 | H | 49 | 61 | A-50-  | A-62-  | ESEKVFAQTVLSH 
+| 1k46 | A | albelig | 4 | 4 | H | 69 | 81 | A-70-  | A-82-  | QEDTAKLLQSTVK 
+| 1k46 | A | albelig | 5 | 5 | E | 87 | 93 | A-88-  | A-94-  | YDLRSVG 
+| 1k46 | A | albelig | 6 | 6 | E | 96 | 102 | A-97-  | A-103-  | NSVLVSL 
+| 1k46 | A | albelig | 7 | 7 | H | 109 | 123 | A-110-  | A-124-  | LQDAKVLLEAALRQE 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = a = 6
+# Listed 1 contacts. EOF.

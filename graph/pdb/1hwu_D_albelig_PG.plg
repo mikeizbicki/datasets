@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hwu, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HERBASPIRILLUM SEROPEDICAE PII, BETA-ALPHA-BETA MOTIF,SIGNAL TRANSDUCTION PROTEIN, SIGNALING PROTEIN
+> pdb_mol_name > PII PROTEIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 10-JAN-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF PII PROTEIN FROM HERBASPIRILLUM SEROPEDICAE
+> format_version > 2
+> pdbid > 1hwu
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HERBASPIRILLUM SEROPEDICAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hwu | D | albelig | 1 | 1 | E | 300 | 306 | D-2-  | D-8-  | KQVTAII 
+| 1hwu | D | albelig | 2 | 2 | H | 308 | 319 | D-10-  | D-21-  | PFKLDEVRESLA 
+| 1hwu | D | albelig | 3 | 3 | E | 327 | 333 | D-29-  | D-35-  | TVTEVKG 
+| 1hwu | D | albelig | 4 | 4 | E | 342 | 351 | D-56-  | D-65-  | LPKVKIEVVV 
+| 1hwu | D | albelig | 5 | 5 | H | 353 | 367 | D-67-  | D-81-  | DKVVEQAVDAIIKAA 
+| 1hwu | D | albelig | 6 | 6 | E | 376 | 381 | D-90-  | D-95-  | KIFVQE 
+| 1hwu | D | albelig | 7 | 7 | E | 384 | 387 | D-98-  | D-101-  | QVIR 
+| 1hwu | D | albelig | 8 | 8 | H | 394 | 397 | D-108-  | D-111-  | GPDA 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 2 = a = 5
+= 3 = a = 4
+= 7 = m = 8
+# Listed 5 contacts. EOF.

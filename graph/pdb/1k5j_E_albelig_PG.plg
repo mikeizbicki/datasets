@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k5j, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-BARREL, JELLYROLL, BETA-BULGE, PENTAMER, CHAPERONE
+> pdb_mol_name > NUCLEOPLASMIN CORE
+> graphtype > albelig
+> resolution > 2.3
+> date > 10-OCT-01
+> header > CHAPERONE
+> pdb_org_common > AFRICAN CLAWED FROG
+> title > THE CRYSTAL STRUCTURE OF NUCLEOPLASMIN-CORE
+> format_version > 2
+> pdbid > 1k5j
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > XENOPUS LAEVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k5j | E | albelig | 1 | 1 | E | 382 | 389 | E-16-  | E-23-  | SLIWGCEL 
+| 1k5j | E | albelig | 2 | 2 | E | 395 | 398 | E-29-  | E-32-  | TFEF 
+| 1k5j | E | albelig | 3 | 3 | E | 403 | 411 | E-44-  | E-52-  | QLALRTVCL 
+| 1k5j | E | albelig | 4 | 4 | E | 420 | 425 | E-61-  | E-66-  | HIVEIV 
+| 1k5j | E | albelig | 5 | 5 | E | 431 | 437 | E-75-  | E-81-  | SVPIATL 
+| 1k5j | E | albelig | 6 | 6 | E | 444 | 446 | E-88-  | E-90-  | MAT 
+| 1k5j | E | albelig | 7 | 7 | E | 456 | 462 | E-100-  | E-106-  | VTFRLKA 
+| 1k5j | E | albelig | 8 | 8 | E | 467 | 474 | E-111-  | E-118-  | LYISGQHV 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 7
+= 1 = a = 8
+= 2 = a = 7
+= 3 = a = 6
+= 3 = a = 8
+= 4 = a = 5
+= 4 = a = 7
+# Listed 8 contacts. EOF.

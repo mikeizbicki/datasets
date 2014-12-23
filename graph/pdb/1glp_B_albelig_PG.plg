@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1glp, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE(GLUTATHIONE)
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE YFYF
+> graphtype > albelig
+> resolution > 1.9
+> date > 07-MAR-94
+> header > TRANSFERASE(GLUTATHIONE)
+> pdb_org_common > HOUSE MOUSE
+> title > 1.8 ANGSTROMS MOLECULAR STRUCTURE OF MOUSE LIVER CLASS PIGLUTATHIONE S-TRANSFERASE COMPLEXED WITH S-(P-NITROBENZYL)GLUTATHIONE AND OTHER INHIBITORS
+> format_version > 2
+> pdbid > 1glp
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1glp | B | albelig | 1 | 1 | E | 213 | 217 | B-3-  | B-7-  | YTIVY 
+| 1glp | B | albelig | 2 | 2 | H | 225 | 233 | B-15-  | B-23-  | EAMRMLLAD 
+| 1glp | B | albelig | 3 | 3 | E | 239 | 242 | B-29-  | B-32-  | KEEV 
+| 1glp | B | albelig | 4 | 4 | H | 245 | 249 | B-35-  | B-39-  | IDTWM 
+| 1glp | B | albelig | 5 | 5 | H | 254 | 256 | B-44-  | B-46-  | KPT 
+| 1glp | B | albelig | 6 | 6 | E | 264 | 267 | B-54-  | B-57-  | KFED 
+| 1glp | B | albelig | 7 | 7 | E | 270 | 273 | B-60-  | B-63-  | LTLY 
+| 1glp | B | albelig | 8 | 8 | H | 275 | 285 | B-65-  | B-75-  | SNAILRHLGRS 
+| 1glp | B | albelig | 9 | 9 | H | 293 | 319 | B-83-  | B-109-  | QREAAQMDMVNDGVEDLRGKYVTLIYT 
+| 1glp | B | albelig | 10 | 10 | H | 321 | 345 | B-111-  | B-135-  | YENGKNDYVKALPGHLKPFETLLSQ 
+| 1glp | B | albelig | 11 | 11 | H | 347 | 349 | B-137-  | B-139-  | QGG 
+| 1glp | B | albelig | 12 | 12 | H | 360 | 375 | B-150-  | B-165-  | FADYNLLDLLLIHQVL 
+| 1glp | B | albelig | 13 | 13 | H | 384 | 395 | B-174-  | B-185-  | PLLSAYVARLSA 
+| 1glp | B | albelig | 14 | 14 | H | 397 | 403 | B-187-  | B-193-  | PKIKAFL 
+| 1glp | B | albelig | 15 | 15 | H | 406 | 409 | B-196-  | B-199-  | PEHV 
+| 1glp | B | albelig | 16 | 16 | L | 421 | 421 | B-210-  | B-210-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 6
+= 1 = l = 16
+= 2 = m = 12
+= 2 = m = 14
+= 4 = l = 16
+= 5 = l = 16
+= 6 = a = 7
+= 8 = m = 9
+= 8 = l = 16
+= 9 = a = 10
+= 9 = p = 12
+= 9 = l = 16
+= 10 = a = 12
+= 10 = m = 13
+= 12 = m = 13
+# Listed 16 contacts. EOF.

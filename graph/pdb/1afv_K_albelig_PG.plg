@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1afv, chain K.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (VIRAL CAPSID/IMMUNOGLOBULIN), HIV, CAPSID PROTEIN,P24, VIRAL PROTEIN/IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > ANTIBODY FAB25.3 FRAGMENT (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 3.7
+> date > 14-MAR-97
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > HIV-1 CAPSID PROTEIN (P24) COMPLEX WITH FAB25.3
+> format_version > 2
+> pdbid > 1afv
+> experiment > X-RAY DIFFRACTION
+> chainid > K
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1afv | K | albelig | 1 | 1 | E | 964 | 966 | K-3-  | K-5-  | QLQ 
+| 1afv | K | albelig | 2 | 2 | E | 970 | 973 | K-9-  | K-12-  | SVLV 
+| 1afv | K | albelig | 3 | 3 | E | 979 | 981 | K-18-  | K-20-  | VKL 
+| 1afv | K | albelig | 4 | 4 | E | 984 | 986 | K-23-  | K-25-  | KAS 
+| 1afv | K | albelig | 5 | 5 | H | 990 | 992 | K-29-  | K-31-  | FTS 
+| 1afv | K | albelig | 6 | 6 | E | 994 | 1000 | K-33-  | K-39-  | WIHWAKQ 
+| 1afv | K | albelig | 7 | 7 | E | 1007 | 1012 | K-46-  | K-51-  | EWIGEI 
+| 1afv | K | albelig | 8 | 8 | E | 1019 | 1021 | K-58-  | K-60-  | TNY 
+| 1afv | K | albelig | 9 | 9 | E | 1029 | 1034 | K-68-  | K-73-  | ATLTVD 
+| 1afv | K | albelig | 10 | 10 | H | 1035 | 1037 | K-74-  | K-76-  | TSS 
+| 1afv | K | albelig | 11 | 11 | E | 1039 | 1044 | K-78-  | K-83-  | TAYVDL 
+| 1afv | K | albelig | 12 | 12 | H | 1049 | 1051 | K-88-  | K-90-  | SED 
+| 1afv | K | albelig | 13 | 13 | E | 1054 | 1060 | K-93-  | K-99-  | VYYGARW 
+| 1afv | K | albelig | 14 | 14 | E | 1068 | 1071 | K-107-  | K-110-  | FDYW 
+| 1afv | K | albelig | 15 | 15 | E | 1075 | 1079 | K-114-  | K-118-  | TTLTV 
+| 1afv | K | albelig | 16 | 16 | E | 1088 | 1092 | K-127-  | K-131-  | SVYPL 
+| 1afv | K | albelig | 17 | 17 | E | 1104 | 1113 | K-143-  | K-152-  | VTLGHLVKGY 
+| 1afv | K | albelig | 18 | 18 | E | 1119 | 1122 | K-158-  | K-161-  | TVTW 
+| 1afv | K | albelig | 19 | 19 | H | 1123 | 1125 | K-162-  | K-164-  | NSG 
+| 1afv | K | albelig | 20 | 20 | E | 1143 | 1151 | K-182-  | K-190-  | YTLSSSVTV 
+| 1afv | K | albelig | 21 | 21 | H | 1156 | 1158 | K-195-  | K-197-  | WPS 
+| 1afv | K | albelig | 22 | 22 | E | 1162 | 1167 | K-201-  | K-206-  | THNVAH 
+| 1afv | K | albelig | 23 | 23 | H | 1168 | 1170 | K-207-  | K-209-  | PAS 
+| 1afv | K | albelig | 24 | 24 | E | 1172 | 1177 | K-211-  | K-216-  | TKVDKK 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 13
+= 2 = p = 15
+= 3 = a = 11
+= 6 = a = 7
+= 6 = p = 11
+= 6 = a = 13
+= 7 = a = 8
+= 7 = p = 9
+= 8 = a = 9
+= 9 = m = 10
+= 9 = a = 11
+= 13 = a = 14
+= 13 = p = 15
+= 16 = a = 17
+= 17 = a = 20
+= 17 = p = 22
+= 18 = m = 19
+= 18 = p = 20
+= 18 = a = 22
+= 22 = m = 23
+= 22 = a = 24
+# Listed 22 contacts. EOF.

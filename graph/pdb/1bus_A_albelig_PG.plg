@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bus, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEINASE INHIBITOR
+> pdb_mol_name > PROTEINASE INHIBITOR IIA
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-MAY-90
+> header > PROTEINASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > SOLUTION CONFORMATION OF PROTEINASE INHIBITOR IIA FROM BULLSEMINAL PLASMA BY 1H NUCLEAR MAGNETIC RESONANCE ANDDISTANCE GEOMETRY
+> format_version > 2
+> pdbid > 1bus
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bus | A | albelig | 1 | 1 | H | 35 | 43 | A-35-  | A-43-  | KNAFAKAVM 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

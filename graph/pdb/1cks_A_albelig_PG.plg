@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cks, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL DIVISION
+> pdb_mol_name > CYCLIN-DEPENDENT KINASE SUBUNIT, TYPE 2
+> graphtype > albelig
+> resolution > 2.1
+> date > 16-SEP-93
+> header > CELL DIVISION
+> pdb_org_common > HUMAN
+> title > HUMAN CKSHS2 ATOMIC STRUCTURE: A ROLE FOR ITS HEXAMERIC ASSEMBLY INCELL CYCLE CONTROL
+> format_version > 2
+> pdbid > 1cks
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cks | A | albelig | 1 | 1 | H | 25 | 29 | A-26-  | A-30-  | RELSK 
+| 1cks | A | albelig | 2 | 2 | H | 39 | 45 | A-40-  | A-46-  | EEEWRRL 
+| 1cks | A | albelig | 3 | 3 | L | 233 | 233 | A-300-  | A-300-  | J 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

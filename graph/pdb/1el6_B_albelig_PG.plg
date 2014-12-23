@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1el6, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA ANNULUS, COILED COIL, A FIBER ATTACHMENT PROTEIN,STRUCTURAL PROTEIN
+> pdb_mol_name > BASEPLATE STRUCTURAL PROTEIN GP11
+> graphtype > albelig
+> resolution > 2.0
+> date > 13-MAR-00
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF BACTERIOPHAGE T4 GENE PRODUCT 11, THEINTERFACE BETWEEN THE BASEPLATE AND SHORT TAIL FIBERS
+> format_version > 2
+> pdbid > 1el6
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1el6 | B | albelig | 1 | 1 | H | 212 | 215 | B-14-  | B-17-  | LADF 
+| 1el6 | B | albelig | 2 | 2 | H | 238 | 241 | B-40-  | B-43-  | ISQL 
+| 1el6 | B | albelig | 3 | 3 | H | 250 | 261 | B-52-  | B-63-  | IESAINDVHNFS 
+| 1el6 | B | albelig | 4 | 4 | E | 268 | 271 | B-70-  | B-73-  | IITN 
+| 1el6 | B | albelig | 5 | 5 | E | 283 | 290 | B-85-  | B-92-  | TDYWAFSG 
+| 1el6 | B | albelig | 6 | 6 | E | 302 | 307 | B-104-  | B-109-  | PITVLV 
+| 1el6 | B | albelig | 7 | 7 | E | 310 | 315 | B-112-  | B-117-  | LPVSAT 
+| 1el6 | B | albelig | 8 | 8 | H | 320 | 336 | B-122-  | B-138-  | AIEFVAKVRVALQEAIA 
+| 1el6 | B | albelig | 9 | 9 | E | 341 | 346 | B-143-  | B-148-  | INSYKD 
+| 1el6 | B | albelig | 10 | 10 | E | 353 | 358 | B-155-  | B-160-  | KLEVTY 
+| 1el6 | B | albelig | 11 | 11 | E | 369 | 371 | B-171-  | B-173-  | YST 
+| 1el6 | B | albelig | 12 | 12 | E | 374 | 382 | B-176-  | B-184-  | ITISQEIIS 
+| 1el6 | B | albelig | 13 | 13 | E | 391 | 400 | B-193-  | B-202-  | WNLLGAQTVT 
+| 1el6 | B | albelig | 14 | 14 | E | 407 | 415 | B-209-  | B-217-  | PTVFYHFER 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = a = 14
+= 5 = a = 8
+= 5 = a = 10
+= 5 = a = 12
+= 6 = a = 7
+= 6 = a = 11
+= 7 = m = 8
+= 8 = m = 9
+= 8 = m = 10
+= 9 = a = 10
+= 11 = a = 12
+= 13 = a = 14
+# Listed 12 contacts. EOF.

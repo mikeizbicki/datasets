@@ -1,0 +1,86 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jt1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MONOMER WITH ALPHA-BETA/BETA-ALPHA FOLD, HYDROLASE
+> pdb_mol_name > FEZ-1, CLASS B3 METALLO-BETA-LACTAMASE
+> graphtype > albelig
+> resolution > 1.78
+> date > 20-AUG-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > FEZ-1 METALLO-BETA-LACTAMASE FROM LEGIONELLA GORMANII MODELLED WITH D-CAPTOPRIL
+> format_version > 2
+> pdbid > 1jt1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > FLUORIBACTER GORMANII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jt1 | A | albelig | 1 | 1 | E | 10 | 13 | A-45-  | A-49-  | FRIA 
+| 1jt1 | A | albelig | 2 | 2 | E | 16 | 18 | A-52-  | A-54-  | LYY 
+| 1jt1 | A | albelig | 3 | 3 | E | 27 | 31 | A-71-  | A-75-  | YLIVT 
+| 1jt1 | A | albelig | 4 | 4 | E | 34 | 38 | A-79-  | A-83-  | GNILI 
+| 1jt1 | A | albelig | 5 | 5 | H | 43 | 55 | A-89-  | A-101-  | EANVPMIKASIKK 
+| 1jt1 | A | albelig | 6 | 6 | H | 60 | 62 | A-106-  | A-108-  | FSD 
+| 1jt1 | A | albelig | 7 | 7 | E | 63 | 67 | A-109-  | A-113-  | TKILL 
+| 1jt1 | A | albelig | 8 | 8 | H | 73 | 76 | A-119-  | A-122-  | FDHA 
+| 1jt1 | A | albelig | 9 | 9 | H | 79 | 86 | A-125-  | A-132-  | SELIKQQT 
+| 1jt1 | A | albelig | 10 | 10 | E | 89 | 93 | A-135-  | A-139-  | KYMVM 
+| 1jt1 | A | albelig | 11 | 11 | H | 94 | 101 | A-140-  | A-147-  | DEDVSVIL 
+| 1jt1 | A | albelig | 12 | 12 | H | 114 | 116 | A-161-  | A-163-  | SST 
+| 1jt1 | A | albelig | 13 | 13 | E | 125 | 127 | A-172-  | A-174-  | KVL 
+| 1jt1 | A | albelig | 14 | 14 | E | 132 | 135 | A-179-  | A-182-  | RVEL 
+| 1jt1 | A | albelig | 15 | 15 | E | 138 | 144 | A-185-  | A-191-  | TVLTAHL 
+| 1jt1 | A | albelig | 16 | 16 | E | 153 | 161 | A-201-  | A-209-  | TTWTMKLKD 
+| 1jt1 | A | albelig | 17 | 17 | E | 164 | 171 | A-212-  | A-219-  | KQYQAVII 
+| 1jt1 | A | albelig | 18 | 18 | H | 191 | 203 | A-239-  | A-251-  | IAEDYKHSIKVLE 
+| 1jt1 | A | albelig | 19 | 19 | E | 209 | 212 | A-258-  | A-261-  | IFLG 
+| 1jt1 | A | albelig | 20 | 20 | H | 215 | 217 | A-264-  | A-266-  | AGM 
+| 1jt1 | A | albelig | 21 | 21 | H | 220 | 228 | A-269-  | A-277-  | LKNKYVLLS 
+| 1jt1 | A | albelig | 22 | 22 | H | 238 | 261 | A-287-  | A-310-  | PTGAKNYIEQKANDFYTELKKQET 
+| 1jt1 | A | albelig | 23 | 23 | L | 263 | 263 | A-400-  | A-400-  | J 
+| 1jt1 | A | albelig | 24 | 24 | L | 264 | 264 | A-401-  | A-401-  | J 
+| 1jt1 | A | albelig | 25 | 25 | L | 265 | 265 | A-500-  | A-500-  | J 
+| 1jt1 | A | albelig | 26 | 26 | L | 266 | 266 | A-501-  | A-501-  | J 
+| 1jt1 | A | albelig | 27 | 27 | L | 267 | 267 | A-502-  | A-502-  | J 
+| 1jt1 | A | albelig | 28 | 28 | L | 268 | 268 | A-503-  | A-503-  | J 
+| 1jt1 | A | albelig | 29 | 29 | L | 269 | 269 | A-600-  | A-600-  | J 
+| 1jt1 | A | albelig | 30 | 30 | L | 270 | 270 | A-700-  | A-700-  | J 
+| 1jt1 | A | albelig | 31 | 31 | L | 271 | 271 | A-601-  | A-601-  | J 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 6
+= 4 = p = 7
+= 5 = l = 26
+= 6 = m = 7
+= 6 = l = 26
+= 7 = p = 10
+= 7 = l = 31
+= 8 = l = 23
+= 8 = l = 24
+= 8 = l = 25
+= 10 = m = 11
+= 10 = p = 13
+= 10 = l = 31
+= 13 = l = 29
+= 13 = l = 31
+= 14 = a = 15
+= 14 = l = 27
+= 14 = l = 31
+= 15 = a = 16
+= 16 = a = 17
+= 17 = p = 19
+= 18 = a = 22
+= 20 = l = 30
+= 22 = l = 28
+= 22 = l = 30
+= 23 = l = 24
+= 23 = l = 25
+= 23 = l = 30
+= 24 = l = 25
+= 24 = l = 30
+= 25 = l = 30
+# Listed 34 contacts. EOF.

@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h6p, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TELOMERE BINDING, TRF2, TELOMERE, DIMERISATION, TRFH,DNA-BINDING, NUCLEAR PROTEIN
+> pdb_mol_name > TELOMERIC REPEAT BINDING FACTOR 2
+> graphtype > albelig
+> resolution > 2.2
+> date > 20-JUN-01
+> header > TELOMERE BINDING
+> pdb_org_common > HUMAN
+> title > DIMERISTION DOMAIN FROM HUMAN TRF2
+> format_version > 2
+> pdbid > 1h6p
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h6p | B | albelig | 1 | 1 | H | 194 | 217 | B-1046-  | B-1069-  | ARLEEAVNRWVLKFYFHEALRAFR 
+| 1h6p | B | albelig | 2 | 2 | H | 221 | 234 | B-1073-  | B-1086-  | YGDFRQIRDIMQAL 
+| 1h6p | B | albelig | 3 | 3 | H | 245 | 260 | B-1097-  | B-1112-  | VSRLLRVMQCLSRIEE 
+| 1h6p | B | albelig | 4 | 4 | H | 274 | 288 | B-1128-  | B-1142-  | PLESAINVLEMIKTE 
+| 1h6p | B | albelig | 5 | 5 | H | 293 | 313 | B-1147-  | B-1167-  | EAVVESSRKLVKEAAVIICIK 
+| 1h6p | B | albelig | 6 | 6 | H | 317 | 326 | B-1171-  | B-1180-  | FEKASKILKK 
+| 1h6p | B | albelig | 7 | 7 | H | 331 | 339 | B-1193-  | B-1201-  | NDLLNIIRE 
+| 1h6p | B | albelig | 8 | 8 | H | 352 | 364 | B-1214-  | B-1226-  | YETFQQKMLRFLE 
+| 1h6p | B | albelig | 9 | 9 | H | 373 | 380 | B-1235-  | B-1242-  | YLLTMAKK 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = m = 8
+= 1 = m = 9
+= 2 = a = 3
+= 3 = a = 4
+= 3 = m = 8
+= 4 = a = 5
+= 4 = p = 8
+= 5 = m = 6
+= 5 = a = 8
+# Listed 11 contacts. EOF.

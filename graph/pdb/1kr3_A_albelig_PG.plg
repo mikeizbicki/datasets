@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kr3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA SANDWICH, PROTEIN-INHIBITOR COMPLEX, METALLO, BETA-LACTAMASE, HYDROLASE
+> pdb_mol_name > BETA-LACTAMASE, TYPE II
+> graphtype > albelig
+> resolution > 2.5
+> date > 08-JAN-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE METALLO BETA-LACTAMASE FROMBACTEROIDES FRAGILIS (CFIA) IN COMPLEX WITH THE TRICYCLICINHIBITOR SB-236050.
+> format_version > 2
+> pdbid > 1kr3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACTEROIDES FRAGILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kr3 | A | albelig | 1 | 1 | E | 8 | 12 | A-28-  | A-32-  | ISITQ 
+| 1kr3 | A | albelig | 2 | 2 | E | 17 | 26 | A-37-  | A-46-  | VYTYVSLAEI 
+| 1kr3 | A | albelig | 3 | 3 | E | 30 | 41 | A-50-  | A-61-  | GMVPSNGMIVIN 
+| 1kr3 | A | albelig | 4 | 4 | E | 44 | 48 | A-64-  | A-68-  | QAALL 
+| 1kr3 | A | albelig | 5 | 5 | H | 54 | 68 | A-74-  | A-88-  | DAQTEMLVNWVTDSL 
+| 1kr3 | A | albelig | 6 | 6 | E | 71 | 76 | A-91-  | A-96-  | KVTTFI 
+| 1kr3 | A | albelig | 7 | 7 | H | 82 | 85 | A-102-  | A-105-  | GDCI 
+| 1kr3 | A | albelig | 8 | 8 | H | 88 | 93 | A-108-  | A-113-  | LGYLQR 
+| 1kr3 | A | albelig | 9 | 9 | E | 97 | 101 | A-117-  | A-121-  | QSYAN 
+| 1kr3 | A | albelig | 10 | 10 | H | 102 | 109 | A-122-  | A-129-  | QMTIDLAK 
+| 1kr3 | A | albelig | 11 | 11 | E | 118 | 120 | A-138-  | A-140-  | HGF 
+| 1kr3 | A | albelig | 12 | 12 | E | 123 | 128 | A-143-  | A-148-  | SLTVSL 
+| 1kr3 | A | albelig | 13 | 13 | E | 131 | 136 | A-151-  | A-156-  | MPLQCY 
+| 1kr3 | A | albelig | 14 | 14 | E | 148 | 151 | A-168-  | A-171-  | VVWL 
+| 1kr3 | A | albelig | 15 | 15 | E | 156 | 160 | A-176-  | A-180-  | ILFGG 
+| 1kr3 | A | albelig | 16 | 16 | H | 182 | 192 | A-202-  | A-212-  | WPKTLDKVKAK 
+| 1kr3 | A | albelig | 17 | 17 | E | 198 | 201 | A-218-  | A-221-  | YVVP 
+| 1kr3 | A | albelig | 18 | 18 | H | 210 | 226 | A-230-  | A-246-  | ELIEHTKQIVNQYIEST 
+| 1kr3 | A | albelig | 19 | 19 | L | 456 | 456 | A-301-  | A-301-  | J 
+| 1kr3 | A | albelig | 20 | 20 | L | 457 | 457 | A-302-  | A-302-  | J 
+| 1kr3 | A | albelig | 21 | 21 | L | 458 | 458 | A-501-  | A-501-  | J 
+| 1kr3 | A | albelig | 22 | 22 | L | 459 | 459 | A-602-  | A-602-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = l = 21
+= 2 = l = 22
+= 3 = a = 4
+= 3 = l = 21
+= 3 = l = 22
+= 4 = p = 6
+= 4 = a = 12
+= 5 = m = 8
+= 6 = p = 9
+= 7 = l = 19
+= 7 = l = 20
+= 7 = l = 21
+= 7 = l = 22
+= 9 = m = 10
+= 9 = p = 11
+= 10 = m = 11
+= 11 = a = 12
+= 12 = a = 13
+= 13 = a = 14
+= 14 = a = 15
+= 15 = p = 17
+= 16 = a = 18
+= 19 = l = 20
+= 19 = l = 22
+= 20 = l = 22
+# Listed 27 contacts. EOF.

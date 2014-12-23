@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iiq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HIV PROTEASE, PEPTIDOMIMETICS, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > PROTEASE RETROPEPSIN
+> graphtype > albelig
+> resolution > 1.83
+> date > 24-APR-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF HIV-1 PROTEASE COMPLEXED WITH A HYDROXYETHYLAMINEPEPTIDOMIMETIC INHIBITOR
+> format_version > 2
+> pdbid > 1iiq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iiq | A | albelig | 1 | 1 | E | 10 | 15 | A-10-  | A-15-  | LVTIKI 
+| 1iiq | A | albelig | 2 | 2 | E | 18 | 24 | A-18-  | A-24-  | QLKEALL 
+| 1iiq | A | albelig | 3 | 3 | E | 43 | 49 | A-43-  | A-49-  | KPKMIGG 
+| 1iiq | A | albelig | 4 | 4 | E | 52 | 66 | A-52-  | A-66-  | GFIKVRQYDQILIEI 
+| 1iiq | A | albelig | 5 | 5 | E | 69 | 77 | A-69-  | A-77-  | HKAIGTVLV 
+| 1iiq | A | albelig | 6 | 6 | H | 87 | 90 | A-87-  | A-90-  | RNLL 
+| 1iiq | A | albelig | 7 | 7 | E | 96 | 98 | A-96-  | A-98-  | TLN 
+| 1iiq | A | albelig | 8 | 8 | L | 200 | 200 | A-201-  | A-201-  | J 
+| 1iiq | A | albelig | 9 | 9 | L | 201 | 201 | A-701-  | A-701-  | J 
+| 1iiq | A | albelig | 10 | 10 | L | 202 | 202 | A-702-  | A-702-  | J 
+| 1iiq | A | albelig | 11 | 11 | L | 203 | 203 | A-704-  | A-704-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = l = 8
+= 2 = l = 9
+= 3 = a = 4
+= 3 = l = 8
+= 3 = l = 10
+= 4 = a = 5
+= 4 = l = 8
+= 5 = m = 6
+= 5 = l = 8
+= 8 = l = 10
+# Listed 12 contacts. EOF.

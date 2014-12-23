@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INHIBITOR, INHIBITOR PROTEIN OF DNASE COLICIN E8,BACTERIOCIN IMMUNITY, PLASMID, DNASE INHIBITOR
+> pdb_mol_name > COLICIN E8 IMMUNITY PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 05-APR-02
+> header > INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > COLICIN E8 DNASE IMMUNITY PROTEIN: IM8
+> format_version > 2
+> pdbid > 1gxh
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxh | A | albelig | 1 | 1 | H | 12 | 24 | A-12-  | A-24-  | ETEFKKIIEDIIN 
+| 1gxh | A | albelig | 2 | 2 | H | 30 | 41 | A-30-  | A-41-  | KKQDDNLEHFIS 
+| 1gxh | A | albelig | 3 | 3 | H | 50 | 53 | A-50-  | A-53-  | DLIY 
+| 1gxh | A | albelig | 4 | 4 | H | 64 | 76 | A-64-  | A-76-  | EAVIKEIKEWRAA 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+# Listed 2 contacts. EOF.

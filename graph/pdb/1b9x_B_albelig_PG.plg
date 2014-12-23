@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b9x, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSDUCIN, TRANSDUCIN, BETA-GAMMA, SIGNAL TRANSDUCTION,REGULATION, PHOSPHORYLATION, G PROTEINS, THIOREDOXIN,VISION, MEKA, COMPLEX (TRANSDUCER/ TRANSDUCTION), SIGNALINGPROTEIN
+> pdb_mol_name > PROTEIN (TRANSDUCIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 16-FEB-99
+> header > SIGNALING PROTEIN
+> pdb_org_common > CATTLE
+> title > STRUCTURAL ANALYSIS OF PHOSDUCIN AND ITS PHOSPHORYLATION-REGULATED INTERACTION WITH TRANSDUCIN
+> format_version > 2
+> pdbid > 1b9x
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b9x | B | albelig | 1 | 1 | H | 352 | 367 | B-511-  | B-526-  | EKDKLKMEVDQLKKEV 
+| 1b9x | B | albelig | 2 | 2 | H | 374 | 389 | B-533-  | B-548-  | VSKCCEEFRDYVEERS 
+| 1b9x | B | albelig | 3 | 3 | H | 393 | 396 | B-552-  | B-555-  | PLVK 
+| 1b9x | B | albelig | 4 | 4 | H | 400 | 402 | B-559-  | B-561-  | EDK 
+| 1b9x | B | albelig | 5 | 5 | L | 583 | 583 | B-102-  | B-102-  | J 
+| 1b9x | B | albelig | 6 | 6 | L | 584 | 584 | B-104-  | B-104-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 5
+= 2 = l = 6
+= 5 = l = 6
+# Listed 3 contacts. EOF.

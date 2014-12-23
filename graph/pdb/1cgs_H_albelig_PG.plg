@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cgs, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG2B-KAPPA NC6.8 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.6
+> date > 06-OCT-93
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > LOCAL AND TRANSMITTED CONFORMATIONAL CHANGES ON COMPLEXATION OF ANANTI-SWEETENER FAB
+> format_version > 2
+> pdbid > 1cgs
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cgs | H | albelig | 1 | 1 | E | 223 | 226 | H-3-  | H-6-  | QLLE 
+| 1cgs | H | albelig | 2 | 2 | E | 230 | 232 | H-10-  | H-12-  | ELM 
+| 1cgs | H | albelig | 3 | 3 | E | 238 | 245 | H-18-  | H-25-  | VQISDKAT 
+| 1cgs | H | albelig | 4 | 4 | E | 253 | 260 | H-33-  | H-40-  | WIEWVKER 
+| 1cgs | H | albelig | 5 | 5 | E | 264 | 267 | H-44-  | H-47-  | GLEW 
+| 1cgs | H | albelig | 6 | 6 | H | 282 | 284 | H-62-  | H-64-  | EKF 
+| 1cgs | H | albelig | 7 | 7 | E | 298 | 303 | H-78-  | H-83-  | TAYMQL 
+| 1cgs | H | albelig | 8 | 8 | E | 312 | 319 | H-92-  | H-99-  | AVYYDTRG 
+| 1cgs | H | albelig | 9 | 9 | E | 330 | 334 | H-110-  | H-114-  | TSVTV 
+| 1cgs | H | albelig | 10 | 10 | E | 343 | 345 | H-123-  | H-125-  | SVY 
+| 1cgs | H | albelig | 11 | 11 | E | 358 | 366 | H-138-  | H-146-  | SVTLGELVK 
+| 1cgs | H | albelig | 12 | 12 | E | 374 | 376 | H-154-  | H-156-  | TVT 
+| 1cgs | H | albelig | 13 | 13 | H | 394 | 396 | H-174-  | H-176-  | QSG 
+| 1cgs | H | albelig | 14 | 14 | E | 400 | 407 | H-180-  | H-187-  | MSSSVTVP 
+| 1cgs | H | albelig | 15 | 15 | H | 410 | 413 | H-190-  | H-193-  | TWPS 
+| 1cgs | H | albelig | 16 | 16 | E | 417 | 422 | H-197-  | H-202-  | TESVAH 
+| 1cgs | H | albelig | 17 | 17 | E | 427 | 432 | H-207-  | H-212-  | TTVDKK 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 2 = p = 9
+= 3 = a = 7
+= 3 = p = 8
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 8
+= 8 = a = 9
+= 10 = a = 11
+= 11 = a = 14
+= 12 = a = 16
+= 14 = m = 15
+= 16 = a = 17
+# Listed 14 contacts. EOF.

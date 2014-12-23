@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gk0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, CEPHALOSPORIN ACYLASE, GLUTARYL ACYLASE,CEPHALOSPORIN C, CATALYTIC TRIAD, NTN-HYDROLASE, X-RAZSTRUCTURE
+> pdb_mol_name > CEPHALOSPORIN ACYLASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 07-AUG-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE-BASED PREDICTION OF MODIFICATIONS INGLUTARYLAMIDASE TO ALLOW SINGLE-STEP ENZYMATIC PRODUCTIONOF 7-AMINOCEPHALOSPORANIC ACID FROM CEPHALOSPORIN C
+> format_version > 2
+> pdbid > 1gk0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gk0 | A | albelig | 1 | 1 | E | 13 | 16 | A-20-  | A-23-  | EILW 
+| 1gk0 | A | albelig | 2 | 2 | E | 22 | 25 | A-29-  | A-32-  | PHIY 
+| 1gk0 | A | albelig | 3 | 3 | H | 29 | 55 | A-36-  | A-62-  | APSAFYGYGWAQARSHGDNILRLYGEA 
+| 1gk0 | A | albelig | 4 | 4 | H | 59 | 63 | A-66-  | A-70-  | GAEYW 
+| 1gk0 | A | albelig | 5 | 5 | H | 65 | 76 | A-72-  | A-83-  | PDYEQTTVWLLT 
+| 1gk0 | A | albelig | 6 | 6 | H | 79 | 88 | A-86-  | A-95-  | VPERAQQWYA 
+| 1gk0 | A | albelig | 7 | 7 | H | 92 | 111 | A-99-  | A-118-  | PDFRANLDAFAAGINAYAQQ 
+| 1gk0 | A | albelig | 8 | 8 | H | 113 | 115 | A-120-  | A-122-  | PDD 
+| 1gk0 | A | albelig | 9 | 9 | H | 118 | 123 | A-125-  | A-130-  | PEVRQV 
+| 1gk0 | A | albelig | 10 | 10 | H | 128 | 144 | A-135-  | A-151-  | GADVVAHAHRLXNFLYV 
+| 1gk0 | A | albelig | 11 | 11 | H | 147 | 151 | A-154-  | A-158-  | PGRTL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = m = 7
+= 3 = m = 9
+= 3 = m = 10
+= 4 = m = 5
+= 4 = m = 9
+= 6 = a = 10
+= 7 = m = 8
+# Listed 8 contacts. EOF.

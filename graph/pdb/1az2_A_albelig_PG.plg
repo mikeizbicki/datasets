@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1az2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, ALDO-KETO REDUCTASE, INHIBITOR BINDING
+> pdb_mol_name > ALDOSE REDUCTASE
+> graphtype > albelig
+> resolution > 2.9
+> date > 24-NOV-97
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > CITRATE BOUND, C298A/W219Y MUTANT HUMAN ALDOSE REDUCTASE
+> format_version > 2
+> pdbid > 1az2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1az2 | A | albelig | 1 | 1 | E | 2 | 4 | A-3-  | A-5-  | RLL 
+| 1az2 | A | albelig | 2 | 2 | E | 10 | 12 | A-11-  | A-13-  | KMP 
+| 1az2 | A | albelig | 3 | 3 | H | 23 | 36 | A-24-  | A-37-  | PGQVTEAVKVAIDV 
+| 1az2 | A | albelig | 4 | 4 | E | 40 | 42 | A-41-  | A-43-  | HID 
+| 1az2 | A | albelig | 5 | 5 | H | 50 | 62 | A-51-  | A-63-  | ENEVGVAIQEKLR 
+| 1az2 | A | albelig | 6 | 6 | E | 72 | 77 | A-73-  | A-78-  | FIVSKL 
+| 1az2 | A | albelig | 7 | 7 | H | 84 | 97 | A-85-  | A-98-  | KGLVKGACQKTLSD 
+| 1az2 | A | albelig | 8 | 8 | E | 103 | 108 | A-104-  | A-109-  | LDLYLI 
+| 1az2 | A | albelig | 9 | 9 | H | 136 | 143 | A-137-  | A-144-  | ILDTWAAM 
+| 1az2 | A | albelig | 10 | 10 | E | 152 | 158 | A-153-  | A-159-  | VKAIGIS 
+| 1az2 | A | albelig | 11 | 11 | H | 162 | 169 | A-163-  | A-170-  | HLQVEMIL 
+| 1az2 | A | albelig | 12 | 12 | E | 180 | 184 | A-181-  | A-185-  | VNQIE 
+| 1az2 | A | albelig | 13 | 13 | H | 192 | 198 | A-193-  | A-199-  | EKLIQYC 
+| 1az2 | A | albelig | 14 | 14 | E | 204 | 208 | A-205-  | A-209-  | VVTAY 
+| 1az2 | A | albelig | 15 | 15 | H | 230 | 238 | A-231-  | A-239-  | PRIKAIAAK 
+| 1az2 | A | albelig | 16 | 16 | H | 243 | 252 | A-244-  | A-253-  | TAQVLIRFPM 
+| 1az2 | A | albelig | 17 | 17 | H | 265 | 270 | A-266-  | A-271-  | PERIAE 
+| 1az2 | A | albelig | 18 | 18 | H | 281 | 288 | A-282-  | A-289-  | SQDMTTLL 
+| 1az2 | A | albelig | 19 | 19 | L | 315 | 315 | A-316-  | A-316-  | J 
+| 1az2 | A | albelig | 20 | 20 | L | 316 | 316 | A-700-  | A-700-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = p = 5
+= 4 = p = 6
+= 4 = l = 19
+= 6 = p = 8
+= 6 = l = 19
+= 8 = p = 10
+= 10 = p = 12
+= 10 = l = 19
+= 11 = m = 13
+= 12 = p = 14
+= 12 = l = 19
+= 14 = l = 19
+= 15 = m = 16
+= 16 = m = 18
+= 16 = l = 19
+= 17 = l = 19
+= 19 = l = 20
+# Listed 18 contacts. EOF.

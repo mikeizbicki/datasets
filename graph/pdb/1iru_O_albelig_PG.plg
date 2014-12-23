@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iru, chain O.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 20S PROTEASOME, CELL CYCLE, IMMUNE RESPONSE, PROTEOLYSIS,UBIQUITIN, HYDROLASE
+> pdb_mol_name > 20S PROTEASOME
+> graphtype > albelig
+> resolution > 2.75
+> date > 24-OCT-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE MAMMALIAN 20S PROTEASOME AT 2.75 ARESOLUTION
+> format_version > 2
+> pdbid > 1iru
+> experiment > X-RAY DIFFRACTION
+> chainid > O
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iru | O | albelig | 1 | 1 | H | 3179 | 3189 | O-23-  | O-33-  | YQVEYAFKAIN 
+| 1iru | O | albelig | 2 | 2 | E | 3194 | 3199 | O-38-  | O-43-  | TSVAVR 
+| 1iru | O | albelig | 3 | 3 | E | 3203 | 3209 | O-47-  | O-53-  | CAVIVTQ 
+| 1iru | O | albelig | 4 | 4 | H | 3219 | 3221 | O-63-  | O-65-  | SST 
+| 1iru | O | albelig | 5 | 5 | E | 3225 | 3227 | O-69-  | O-71-  | LFK 
+| 1iru | O | albelig | 6 | 6 | E | 3233 | 3238 | O-77-  | O-82-  | GCVMTG 
+| 1iru | O | albelig | 7 | 7 | H | 3240 | 3261 | O-84-  | O-105-  | TADSRSQVQRARYEAANWKYKY 
+| 1iru | O | albelig | 8 | 8 | H | 3267 | 3283 | O-111-  | O-127-  | VDMLCKRIADISQVYTQ 
+| 1iru | O | albelig | 9 | 9 | E | 3292 | 3300 | O-136-  | O-144-  | CCMILIGID 
+| 1iru | O | albelig | 10 | 10 | E | 3304 | 3310 | O-148-  | O-154-  | GPQVYKC 
+| 1iru | O | albelig | 11 | 11 | E | 3316 | 3318 | O-160-  | O-162-  | YCG 
+| 1iru | O | albelig | 12 | 12 | E | 3321 | 3325 | O-165-  | O-169-  | ATAAG 
+| 1iru | O | albelig | 13 | 13 | H | 3328 | 3338 | O-172-  | O-182-  | QTESTSFLEKK 
+| 1iru | O | albelig | 14 | 14 | H | 3347 | 3361 | O-191-  | O-205-  | FEQTVETAITCLSTV 
+| 1iru | O | albelig | 15 | 15 | E | 3371 | 3377 | O-215-  | O-221-  | IEVGVVT 
+| 1iru | O | albelig | 16 | 16 | E | 3380 | 3385 | O-224-  | O-229-  | NPKFRI 
+| 1iru | O | albelig | 17 | 17 | H | 3388 | 3399 | O-232-  | O-243-  | EAEIDAHLVALA 
+| 1iru | O | albelig | 18 | 18 | L | 6329 | 6329 | O-401-  | O-401-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 12
+= 3 = p = 10
+= 3 = p = 14
+= 3 = a = 15
+= 5 = a = 6
+= 5 = a = 15
+= 6 = m = 7
+= 6 = a = 9
+= 7 = a = 8
+= 7 = m = 9
+= 8 = l = 18
+= 9 = a = 10
+= 9 = p = 15
+= 10 = a = 11
+= 12 = a = 13
+= 13 = a = 14
+= 14 = a = 15
+= 15 = a = 16
+# Listed 19 contacts. EOF.

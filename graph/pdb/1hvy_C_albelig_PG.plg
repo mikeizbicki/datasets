@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hvy, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOMUDEX, RALTITREXED, TRANSFERASE
+> pdb_mol_name > THYMIDYLATE SYNTHASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 08-JAN-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > HUMAN THYMIDYLATE SYNTHASE COMPLEXED WITH DUMP AND RALTITREXED, ANANTIFOLATE DRUG, IS IN THE CLOSED CONFORMATION
+> format_version > 2
+> pdbid > 1hvy
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hvy | C | albelig | 1 | 1 | H | 583 | 596 | C-30-  | C-43-  | ELQYLGQIQHILRX 
+| 1hvy | C | albelig | 2 | 2 | E | 598 | 600 | C-45-  | C-47-  | VRK 
+| 1hvy | C | albelig | 3 | 3 | E | 608 | 619 | C-55-  | C-66-  | TLSVFGMQARYS 
+| 1hvy | C | albelig | 4 | 4 | H | 634 | 645 | C-81-  | C-92-  | WKGVLEELLWFI 
+| 1hvy | C | albelig | 5 | 5 | H | 651 | 655 | C-98-  | C-102-  | AKELS 
+| 1hvy | C | albelig | 6 | 6 | H | 664 | 666 | C-111-  | C-113-  | ANG 
+| 1hvy | C | albelig | 7 | 7 | H | 668 | 672 | C-115-  | C-119-  | RDFLD 
+| 1hvy | C | albelig | 8 | 8 | H | 688 | 694 | C-135-  | C-141-  | YGFQWRH 
+| 1hvy | C | albelig | 9 | 9 | H | 713 | 723 | C-160-  | C-170-  | QLQRVIDTIKT 
+| 1hvy | C | albelig | 10 | 10 | E | 731 | 733 | C-178-  | C-180-  | IMC 
+| 1hvy | C | albelig | 11 | 11 | H | 740 | 742 | C-187-  | C-189-  | LPL 
+| 1hvy | C | albelig | 12 | 12 | E | 749 | 757 | C-196-  | C-204-  | HALCQFYVV 
+| 1hvy | C | albelig | 13 | 13 | E | 760 | 771 | C-207-  | C-218-  | ELSCQLYQRSGD 
+| 1hvy | C | albelig | 14 | 14 | H | 775 | 794 | C-222-  | C-241-  | GVPFNIASYALLTYMIAHIT 
+| 1hvy | C | albelig | 15 | 15 | E | 797 | 811 | C-244-  | C-258-  | KPGDFIHTLGDAHIY 
+| 1hvy | C | albelig | 16 | 16 | H | 812 | 821 | C-259-  | C-268-  | LNHIEPLKIQ 
+| 1hvy | C | albelig | 17 | 17 | E | 831 | 834 | C-278-  | C-281-  | KLRI 
+| 1hvy | C | albelig | 18 | 18 | H | 841 | 843 | C-288-  | C-290-  | IDD 
+| 1hvy | C | albelig | 19 | 19 | H | 846 | 848 | C-293-  | C-295-  | AED 
+| 1hvy | C | albelig | 20 | 20 | E | 849 | 852 | C-296-  | C-299-  | FQIE 
+| 1hvy | C | albelig | 21 | 21 | L | 1166 | 1166 | C-416-  | C-416-  | J 
+| 1hvy | C | albelig | 22 | 22 | L | 1167 | 1167 | C-316-  | C-316-  | J 
+| 1hvy | C | albelig | 23 | 23 | L | 1168 | 1168 | C-1516-  | C-1516-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 3
+= 3 = a = 15
+= 4 = m = 5
+= 4 = m = 14
+= 4 = l = 21
+= 6 = m = 7
+= 6 = l = 21
+= 8 = l = 22
+= 9 = m = 10
+= 9 = m = 14
+= 9 = l = 23
+= 10 = a = 12
+= 10 = l = 23
+= 12 = a = 13
+= 12 = p = 14
+= 12 = l = 22
+= 13 = a = 14
+= 13 = p = 15
+= 13 = l = 21
+= 13 = l = 22
+= 14 = a = 15
+= 14 = l = 21
+= 14 = l = 22
+= 15 = m = 16
+= 15 = l = 21
+= 15 = l = 22
+= 17 = m = 19
+= 17 = a = 20
+= 19 = m = 20
+= 21 = l = 22
+# Listed 31 contacts. EOF.

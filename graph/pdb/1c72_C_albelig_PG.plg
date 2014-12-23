@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c72, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUTATHIONE S-TRANSFERASE, 1, 2-EPOXY-3-(P-NITROPHENOXY)PROPANE, EPOXIDASE ACTIVITY, STEADY-STATE KINETICS, X-RAYCRYSTALLOGRAPHY
+> pdb_mol_name > PROTEIN (GLUTATHIONE S-TRANSFERASE)
+> graphtype > albelig
+> resolution > 2.8
+> date > 02-FEB-00
+> header > TRANSFERASE
+> pdb_org_common > CHICKEN
+> title > TYR115, GLN165 AND TRP209 CONTRIBUTE TO THE 1,2-EPOXY-3-(P-NITROPHENOXY)PROPANE CONJUGATING ACTIVITIES OF GLUTATHIONES-TRANSFERASE CGSTM1-1
+> format_version > 2
+> pdbid > 1c72
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c72 | C | albelig | 1 | 1 | E | 438 | 443 | C-2-  | C-7-  | VTLGYW 
+| 1c72 | C | albelig | 2 | 2 | H | 447 | 458 | C-11-  | C-22-  | GLAHAIRLLLEY 
+| 1c72 | C | albelig | 3 | 3 | E | 463 | 468 | C-27-  | C-32-  | YQERRY 
+| 1c72 | C | albelig | 4 | 4 | H | 479 | 482 | C-43-  | C-46-  | SDWT 
+| 1c72 | C | albelig | 5 | 5 | E | 497 | 500 | C-61-  | C-64-  | YLID 
+| 1c72 | C | albelig | 6 | 6 | E | 503 | 506 | C-67-  | C-70-  | VKLT 
+| 1c72 | C | albelig | 7 | 7 | H | 508 | 518 | C-72-  | C-82-  | SNAILRYIARK 
+| 1c72 | C | albelig | 8 | 8 | H | 526 | 551 | C-90-  | C-115-  | EVEKQRVDVLENHLMDLRMAFARLCY 
+| 1c72 | C | albelig | 9 | 9 | H | 555 | 577 | C-119-  | C-141-  | FEKLKPAYLELLPGKLRQLSRFL 
+| 1c72 | C | albelig | 10 | 10 | H | 590 | 605 | C-154-  | C-169-  | FVDFLAYDVLDQQRMF 
+| 1c72 | C | albelig | 11 | 11 | H | 610 | 612 | C-174-  | C-176-  | PEL 
+| 1c72 | C | albelig | 12 | 12 | H | 615 | 624 | C-179-  | C-188-  | NLSQFLQRFE 
+| 1c72 | C | albelig | 13 | 13 | H | 627 | 633 | C-191-  | C-197-  | EKISAYM 
+| 1c72 | C | albelig | 14 | 14 | L | 874 | 874 | C-222-  | C-222-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 1 = l = 14
+= 2 = m = 7
+= 2 = a = 10
+= 2 = l = 14
+= 4 = l = 14
+= 5 = a = 6
+= 5 = m = 7
+= 7 = m = 8
+= 7 = l = 14
+= 8 = a = 9
+= 8 = p = 10
+= 8 = l = 14
+= 9 = m = 12
+= 10 = m = 12
+# Listed 16 contacts. EOF.

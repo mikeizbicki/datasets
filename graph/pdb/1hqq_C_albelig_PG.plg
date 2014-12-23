@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hqq, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CONFORMATIONAL ENSEMBLE, MINI-PROTEINS, DISULPHIDECONSTRAINED LOOPS, ENTROPICALLY RESTRAINED PROTEINS,PEPTIDES, UNKNOWN FUNCTION
+> pdb_mol_name > STREPTAVIDIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 19-DEC-00
+> header > UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > MINIPROTEIN MP-2 (M9A) COMPLEX WITH STREPTAVIDIN
+> format_version > 2
+> pdbid > 1hqq
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES AVIDINII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hqq | C | albelig | 1 | 1 | E | 272 | 275 | C-19-  | C-22-  | GTWY 
+| 1hqq | C | albelig | 2 | 2 | E | 280 | 286 | C-27-  | C-33-  | STFIVTA 
+| 1hqq | C | albelig | 3 | 3 | E | 291 | 298 | C-38-  | C-45-  | ALTGTYES 
+| 1hqq | C | albelig | 4 | 4 | H | 303 | 305 | C-50-  | C-52-  | AES 
+| 1hqq | C | albelig | 5 | 5 | E | 307 | 313 | C-54-  | C-60-  | YVLTGRY 
+| 1hqq | C | albelig | 6 | 6 | E | 324 | 333 | C-71-  | C-80-  | TALGWTVAWK 
+| 1hqq | C | albelig | 7 | 7 | E | 338 | 350 | C-85-  | C-97-  | NAHSATTWSGQYV 
+| 1hqq | C | albelig | 8 | 8 | E | 356 | 365 | C-103-  | C-112-  | RINTQWLLTS 
+| 1hqq | C | albelig | 9 | 9 | H | 369 | 374 | C-116-  | C-121-  | EANAWK 
+| 1hqq | C | albelig | 10 | 10 | E | 376 | 384 | C-123-  | C-131-  | TLVGHDTFT 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 3 = m = 4
+= 3 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 10
+# Listed 9 contacts. EOF.

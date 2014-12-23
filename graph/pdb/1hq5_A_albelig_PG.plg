@@ -1,0 +1,80 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hq5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BINUCLEAR MANGANESE CLUSTER, BORONIC ACID INHIBITOR, PERFECTLYTWINNED CRYSTAL, HYDROLASE
+> pdb_mol_name > ARGINASE 1
+> graphtype > albelig
+> resolution > 2.3
+> date > 14-DEC-00
+> header > HYDROLASE
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF THE BINUCLEAR MANGANESE METALLOENZYME ARGINASECOMPLEXED WITH S-(2-BORONOETHYL)-L-CYSTEINE, AN L-ARGININE ANALOGUE
+> format_version > 2
+> pdbid > 1hq5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hq5 | A | albelig | 1 | 1 | E | 2 | 8 | A-7-  | A-13-  | PIEIIGA 
+| 1hq5 | A | albelig | 2 | 2 | H | 17 | 28 | A-22-  | A-33-  | GGVEKGPAALRK 
+| 1hq5 | A | albelig | 3 | 3 | H | 31 | 35 | A-36-  | A-40-  | LVEKL 
+| 1hq5 | A | albelig | 4 | 4 | E | 41 | 47 | A-46-  | A-52-  | NVRDHGD 
+| 1hq5 | A | albelig | 5 | 5 | H | 65 | 84 | A-70-  | A-89-  | PRSVGKANEQLAAVVAETQK 
+| 1hq5 | A | albelig | 6 | 6 | E | 88 | 93 | A-93-  | A-98-  | ISVVLG 
+| 1hq5 | A | albelig | 7 | 7 | H | 96 | 109 | A-101-  | A-114-  | HSMAIGSISGHARV 
+| 1hq5 | A | albelig | 8 | 8 | E | 114 | 118 | A-119-  | A-123-  | CVIWV 
+| 1hq5 | A | albelig | 9 | 9 | H | 135 | 137 | A-140-  | A-142-  | LHG 
+| 1hq5 | A | albelig | 10 | 10 | H | 139 | 143 | A-144-  | A-148-  | PVAFL 
+| 1hq5 | A | albelig | 11 | 11 | H | 145 | 147 | A-150-  | A-152-  | KEL 
+| 1hq5 | A | albelig | 12 | 12 | H | 166 | 168 | A-171-  | A-173-  | AKD 
+| 1hq5 | A | albelig | 13 | 13 | E | 169 | 172 | A-174-  | A-177-  | IVYI 
+| 1hq5 | A | albelig | 14 | 14 | H | 179 | 188 | A-184-  | A-193-  | PGEHYIIKTL 
+| 1hq5 | A | albelig | 15 | 15 | E | 191 | 193 | A-196-  | A-198-  | KYF 
+| 1hq5 | A | albelig | 16 | 16 | H | 195 | 201 | A-200-  | A-206-  | MTEVDKL 
+| 1hq5 | A | albelig | 17 | 17 | H | 203 | 215 | A-208-  | A-220-  | IGKVMEETFSYLL 
+| 1hq5 | A | albelig | 18 | 18 | E | 222 | 227 | A-227-  | A-232-  | IHLSFD 
+| 1hq5 | A | albelig | 19 | 19 | H | 228 | 230 | A-233-  | A-235-  | VDG 
+| 1hq5 | A | albelig | 20 | 20 | H | 249 | 262 | A-254-  | A-267-  | YREGLYITEEIYKT 
+| 1hq5 | A | albelig | 21 | 21 | E | 265 | 271 | A-270-  | A-276-  | LSGLDIM 
+| 1hq5 | A | albelig | 22 | 22 | H | 281 | 298 | A-286-  | A-303-  | PEEVTRTVNTAVALTLSC 
+| 1hq5 | A | albelig | 23 | 23 | L | 618 | 618 | A-500-  | A-500-  | J 
+| 1hq5 | A | albelig | 24 | 24 | L | 619 | 619 | A-501-  | A-501-  | J 
+| 1hq5 | A | albelig | 25 | 25 | L | 620 | 620 | A-551-  | A-551-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = m = 5
+= 1 = p = 6
+= 2 = m = 6
+= 5 = m = 6
+= 5 = p = 7
+= 6 = p = 21
+= 7 = p = 10
+= 7 = a = 18
+= 7 = a = 21
+= 7 = l = 23
+= 7 = l = 25
+= 8 = m = 12
+= 8 = p = 13
+= 8 = p = 18
+= 8 = l = 23
+= 9 = l = 23
+= 9 = l = 25
+= 12 = m = 13
+= 13 = p = 15
+= 14 = l = 25
+= 15 = m = 17
+= 17 = p = 20
+= 18 = m = 19
+= 18 = p = 21
+= 18 = l = 23
+= 18 = l = 24
+= 18 = l = 25
+= 19 = l = 24
+= 19 = l = 25
+= 20 = p = 22
+= 23 = l = 24
+= 23 = l = 25
+= 24 = l = 25
+# Listed 34 contacts. EOF.

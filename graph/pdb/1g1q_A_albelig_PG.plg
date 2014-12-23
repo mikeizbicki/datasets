@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g1q, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, EGF, ADHESION MOLECULE, IMMUNE SYSTEM, MEMBRANEPROTEIN
+> pdb_mol_name > P-SELECTIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 13-OCT-00
+> header > IMMUNE SYSTEM, MEMBRANE PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF P-SELECTIN LECTIN/EGF DOMAINS
+> format_version > 2
+> pdbid > 1g1q
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g1q | A | albelig | 1 | 1 | E | 2 | 10 | A-2-  | A-10-  | TYHYSTKAY 
+| 1g1q | A | albelig | 2 | 2 | H | 12 | 22 | A-12-  | A-22-  | WNISRKYAQNR 
+| 1g1q | A | albelig | 3 | 3 | H | 32 | 41 | A-32-  | A-41-  | KNEIDYLNKV 
+| 1g1q | A | albelig | 4 | 4 | E | 49 | 51 | A-49-  | A-51-  | YWI 
+| 1g1q | A | albelig | 5 | 5 | E | 53 | 56 | A-53-  | A-56-  | IRKN 
+| 1g1q | A | albelig | 6 | 6 | E | 59 | 62 | A-59-  | A-62-  | TWTW 
+| 1g1q | A | albelig | 7 | 7 | E | 90 | 93 | A-90-  | A-93-  | NVEI 
+| 1g1q | A | albelig | 8 | 8 | E | 104 | 107 | A-104-  | A-107-  | WNDE 
+| 1g1q | A | albelig | 9 | 9 | E | 113 | 119 | A-113-  | A-119-  | KHALAYT 
+| 1g1q | A | albelig | 10 | 10 | H | 126 | 129 | A-126-  | A-129-  | SDSK 
+| 1g1q | A | albelig | 11 | 11 | E | 131 | 136 | A-131-  | A-136-  | GECLET 
+| 1g1q | A | albelig | 12 | 12 | E | 139 | 144 | A-139-  | A-144-  | NYTDSE 
+| 1g1q | A | albelig | 13 | 13 | L | 643 | 643 | A-801-  | A-801-  | J 
+| 1g1q | A | albelig | 14 | 14 | L | 644 | 644 | A-806-  | A-806-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 1 = l = 14
+= 2 = m = 4
+= 2 = m = 9
+= 3 = l = 14
+= 4 = a = 7
+= 4 = a = 9
+= 5 = a = 6
+= 7 = a = 8
+= 8 = l = 13
+= 10 = m = 11
+= 11 = a = 12
+# Listed 13 contacts. EOF.

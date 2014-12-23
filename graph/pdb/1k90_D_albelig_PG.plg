@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k90, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OEDEMA FACTOR ADENYLYL CYCLASE ANTHRAX CALMODULIN, TOXIN,LYASE-METALBINDING PROTEIN COMPLEX
+> pdb_mol_name > CALMODULIN
+> graphtype > albelig
+> resolution > 2.75
+> date > 26-OCT-01
+> header > TOXIN,LYASE/METAL BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE ADENYLYL CYCLASE DOMAIN OF ANTHRAX EDEMAFACTOR (EF) IN COMPLEX WITH CALMODULIN AND 3' DEOXY-ATP
+> format_version > 2
+> pdbid > 1k90
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k90 | D | albelig | 1 | 1 | H | 490 | 502 | D-6-  | D-18-  | EEQIAEFKEAFSL 
+| 1k90 | D | albelig | 2 | 2 | H | 517 | 520 | D-33-  | D-36-  | GTVM 
+| 1k90 | D | albelig | 3 | 3 | H | 531 | 538 | D-47-  | D-54-  | ELQDMINE 
+| 1k90 | D | albelig | 4 | 4 | H | 550 | 556 | D-66-  | D-72-  | PEFLTMM 
+| 1k90 | D | albelig | 5 | 5 | H | 559 | 561 | D-75-  | D-77-  | KMK 
+| 1k90 | D | albelig | 6 | 6 | H | 566 | 576 | D-82-  | D-92-  | EEEIREAFRVF 
+| 1k90 | D | albelig | 7 | 7 | H | 586 | 595 | D-102-  | D-111-  | AAELRHVMTN 
+| 1k90 | D | albelig | 8 | 8 | H | 602 | 612 | D-118-  | D-128-  | DEEVDEMIREA 
+| 1k90 | D | albelig | 9 | 9 | H | 622 | 630 | D-138-  | D-146-  | YEEFVQMMT 
+| 1k90 | D | albelig | 10 | 10 | L | 1896 | 1896 | D-800-  | D-800-  | J 
+| 1k90 | D | albelig | 11 | 11 | L | 1897 | 1897 | D-801-  | D-801-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 6 = m = 9
+= 7 = m = 8
+= 7 = l = 11
+= 9 = l = 10
+# Listed 4 contacts. EOF.

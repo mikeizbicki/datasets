@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fcc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_mol_name > IGG1 MO61 FC
+> graphtype > albelig
+> resolution > 3.2
+> date > 17-JAN-95
+> header > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE C2 FRAGMENT OF STREPTOCOCCALPROTEIN G IN COMPLEX WITH THE FC DOMAIN OF HUMAN IGG
+> format_version > 2
+> pdbid > 1fcc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fcc | A | albelig | 1 | 1 | E | 2 | 6 | A-239-  | A-243-  | SVFLF 
+| 1fcc | A | albelig | 2 | 2 | H | 10 | 14 | A-247-  | A-251-  | PKDTL 
+| 1fcc | A | albelig | 3 | 3 | E | 21 | 27 | A-258-  | A-264-  | EVTAVVV 
+| 1fcc | A | albelig | 4 | 4 | E | 37 | 42 | A-274-  | A-279-  | KFNWYV 
+| 1fcc | A | albelig | 5 | 5 | E | 66 | 70 | A-303-  | A-307-  | VSVLT 
+| 1fcc | A | albelig | 6 | 6 | H | 73 | 76 | A-310-  | A-313-  | HQNW 
+| 1fcc | A | albelig | 7 | 7 | E | 82 | 87 | A-319-  | A-324-  | YKAKVS 
+| 1fcc | A | albelig | 8 | 8 | E | 95 | 97 | A-332-  | A-334-  | IEK 
+| 1fcc | A | albelig | 9 | 9 | E | 110 | 114 | A-347-  | A-351-  | QVYTL 
+| 1fcc | A | albelig | 10 | 10 | H | 118 | 122 | A-355-  | A-359-  | REEMT 
+| 1fcc | A | albelig | 11 | 11 | E | 125 | 135 | A-362-  | A-372-  | QVSLTNLVKGF 
+| 1fcc | A | albelig | 12 | 12 | E | 141 | 145 | A-378-  | A-382-  | AVEWE 
+| 1fcc | A | albelig | 13 | 13 | E | 154 | 156 | A-391-  | A-393-  | YKT 
+| 1fcc | A | albelig | 14 | 14 | E | 167 | 176 | A-404-  | A-413-  | FFLYSKLTVD 
+| 1fcc | A | albelig | 15 | 15 | H | 177 | 182 | A-414-  | A-419-  | KSRWQQ 
+| 1fcc | A | albelig | 16 | 16 | E | 187 | 191 | A-424-  | A-428-  | SNSVM 
+| 1fcc | A | albelig | 17 | 17 | H | 196 | 198 | A-433-  | A-435-  | HNH 
+| 1fcc | A | albelig | 18 | 18 | E | 200 | 202 | A-437-  | A-439-  | TQK 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 3 = a = 4
+= 3 = a = 5
+= 4 = a = 7
+= 7 = a = 8
+= 9 = a = 11
+= 11 = a = 14
+= 12 = a = 16
+= 13 = a = 14
+= 14 = m = 15
+= 16 = a = 18
+# Listed 12 contacts. EOF.

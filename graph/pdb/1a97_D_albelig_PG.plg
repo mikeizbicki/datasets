@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a97, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHORIBOSYLTRANSFERASE, TRANSFERASE, PURINE SALVAGEENZYME, GLYCOSYLTRANSFERASE
+> pdb_mol_name > XANTHINE-GUANINE PHOSPHORIBOSYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 16-APR-98
+> header > PHOSPHORIBOSYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > XPRTASE FROM E. COLI COMPLEXED WITH GMP
+> format_version > 2
+> pdbid > 1a97
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a97 | D | albelig | 1 | 1 | E | 446 | 448 | D-4-  | D-6-  | KYI 
+| 1a97 | D | albelig | 2 | 2 | H | 451 | 464 | D-9-  | D-22-  | WDMLQIHARKLASR 
+| 1a97 | D | albelig | 3 | 3 | H | 468 | 470 | D-26-  | D-28-  | SEQ 
+| 1a97 | D | albelig | 4 | 4 | E | 473 | 477 | D-31-  | D-35-  | GIIAV 
+| 1a97 | D | albelig | 5 | 5 | H | 482 | 491 | D-40-  | D-49-  | LVPGALLARE 
+| 1a97 | D | albelig | 6 | 6 | E | 497 | 500 | D-55-  | D-58-  | VDTV 
+| 1a97 | D | albelig | 7 | 7 | E | 520 | 527 | D-84-  | D-91-  | FIVIDDLV 
+| 1a97 | D | albelig | 8 | 8 | H | 531 | 539 | D-95-  | D-103-  | GTAVAIREM 
+| 1a97 | D | albelig | 9 | 9 | E | 544 | 550 | D-108-  | D-114-  | HFVTIFA 
+| 1a97 | D | albelig | 10 | 10 | H | 555 | 557 | D-119-  | D-121-  | RPL 
+| 1a97 | D | albelig | 11 | 11 | E | 570 | 572 | D-134-  | D-136-  | WIE 
+| 1a97 | D | albelig | 12 | 12 | H | 574 | 576 | D-138-  | D-140-  | PWD 
+| 1a97 | D | albelig | 13 | 13 | E | 577 | 581 | D-141-  | D-145-  | MGVVF 
+| 1a97 | D | albelig | 14 | 14 | L | 592 | 592 | D-301-  | D-301-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 11
+= 4 = p = 6
+= 4 = p = 7
+= 4 = l = 14
+= 7 = p = 9
+= 7 = l = 14
+= 8 = l = 14
+= 12 = m = 13
+# Listed 8 contacts. EOF.

@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cax, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SEED STORAGE PROTEIN
+> pdb_mol_name > CANAVALIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 10-JUN-93
+> header > SEED STORAGE PROTEIN
+> pdb_org_common > JACK BEAN
+> title > DETERMINATION OF THREE CRYSTAL STRUCTURES OF CANAVALIN BYMOLECULAR REPLACEMENT
+> format_version > 2
+> pdbid > 1cax
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cax | B | albelig | 1 | 1 | E | 200 | 202 | B-258-  | B-260-  | YSN 
+| 1cax | B | albelig | 2 | 2 | E | 205 | 210 | B-263-  | B-268-  | GKLYEI 
+| 1cax | B | albelig | 3 | 3 | H | 216 | 219 | B-274-  | B-277-  | SQLR 
+| 1cax | B | albelig | 4 | 4 | E | 223 | 230 | B-281-  | B-288-  | ILLNCLQM 
+| 1cax | B | albelig | 5 | 5 | E | 234 | 241 | B-292-  | B-299-  | ALFVPHYN 
+| 1cax | B | albelig | 6 | 6 | E | 245 | 252 | B-303-  | B-310-  | TVILVANE 
+| 1cax | B | albelig | 7 | 7 | E | 255 | 262 | B-313-  | B-320-  | AEVELVGL 
+| 1cax | B | albelig | 8 | 8 | E | 275 | 282 | B-333-  | B-340-  | LRRYAATL 
+| 1cax | B | albelig | 9 | 9 | E | 287 | 290 | B-345-  | B-348-  | IIVI 
+| 1cax | B | albelig | 10 | 10 | E | 295 | 300 | B-353-  | B-358-  | PVALKA 
+| 1cax | B | albelig | 11 | 11 | E | 304 | 311 | B-362-  | B-369-  | LNMVGIGV 
+| 1cax | B | albelig | 12 | 12 | E | 318 | 320 | B-376-  | B-378-  | RNF 
+| 1cax | B | albelig | 13 | 13 | H | 328 | 331 | B-386-  | B-389-  | VIRQ 
+| 1cax | B | albelig | 14 | 14 | H | 334 | 340 | B-392-  | B-398-  | RQVSDLT 
+| 1cax | B | albelig | 15 | 15 | H | 345 | 352 | B-403-  | B-410-  | GEEVEELL 
+| 1cax | B | albelig | 16 | 16 | E | 360 | 362 | B-418-  | B-420-  | FVD 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = a = 16
+= 4 = a = 5
+= 4 = a = 11
+= 5 = a = 10
+= 5 = a = 12
+= 5 = a = 16
+= 6 = a = 9
+= 6 = a = 11
+= 7 = a = 8
+= 7 = a = 10
+= 14 = m = 15
+# Listed 13 contacts. EOF.

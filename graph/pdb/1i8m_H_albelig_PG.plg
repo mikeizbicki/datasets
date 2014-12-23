@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i8m, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAB, ANTIBODY, ANTI-DNA ANTIBODY, AUTOANTIBODY, LUPUS,IMMUNE SYSTEM/DNA COMPLEX
+> pdb_mol_name > ANTIBODY HEAVY CHAIN FAB
+> graphtype > albelig
+> resolution > 2.1
+> date > 14-MAR-01
+> header > IMMUNE SYSTEM/DNA
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF A RECOMBINANT ANTI-SINGLE-STRANDED DNAANTIBODY FRAGMENT COMPLEXED WITH DT5
+> format_version > 2
+> pdbid > 1i8m
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i8m | H | albelig | 1 | 1 | E | 217 | 220 | H-3-  | H-6-  | KLLE 
+| 1i8m | H | albelig | 2 | 2 | E | 224 | 226 | H-10-  | H-12-  | ELV 
+| 1i8m | H | albelig | 3 | 3 | E | 232 | 239 | H-18-  | H-25-  | VKMSCKAS 
+| 1i8m | H | albelig | 4 | 4 | H | 243 | 245 | H-29-  | H-31-  | FTS 
+| 1i8m | H | albelig | 5 | 5 | E | 248 | 253 | H-34-  | H-39-  | MHWVKQ 
+| 1i8m | H | albelig | 6 | 6 | E | 260 | 266 | H-46-  | H-52-  | EWIGYIN 
+| 1i8m | H | albelig | 7 | 7 | E | 271 | 274 | H-56-  | H-59-  | GTKY 
+| 1i8m | H | albelig | 8 | 8 | H | 276 | 278 | H-61-  | H-63-  | EKF 
+| 1i8m | H | albelig | 9 | 9 | E | 282 | 287 | H-67-  | H-72-  | ATLTSD 
+| 1i8m | H | albelig | 10 | 10 | E | 292 | 297 | H-77-  | H-82-  | TAYMEL 
+| 1i8m | H | albelig | 11 | 11 | H | 302 | 304 | H-84-  | H-86-  | SED 
+| 1i8m | H | albelig | 12 | 12 | E | 306 | 312 | H-88-  | H-94-  | AVYYCVR 
+| 1i8m | H | albelig | 13 | 13 | E | 328 | 332 | H-107-  | H-111-  | TSVTV 
+| 1i8m | H | albelig | 14 | 14 | E | 341 | 345 | H-120-  | H-124-  | SVYPL 
+| 1i8m | H | albelig | 15 | 15 | E | 350 | 360 | H-135-  | H-145-  | MVTLGDLVKGY 
+| 1i8m | H | albelig | 16 | 16 | E | 366 | 369 | H-151-  | H-154-  | TVTW 
+| 1i8m | H | albelig | 17 | 17 | H | 370 | 372 | H-155-  | H-157-  | NSG 
+| 1i8m | H | albelig | 18 | 18 | E | 378 | 380 | H-163-  | H-165-  | VHT 
+| 1i8m | H | albelig | 19 | 19 | E | 384 | 386 | H-169-  | H-171-  | VLQ 
+| 1i8m | H | albelig | 20 | 20 | E | 389 | 399 | H-174-  | H-184-  | LYTLSSSVTVP 
+| 1i8m | H | albelig | 21 | 21 | H | 400 | 402 | H-185-  | H-187-  | SST 
+| 1i8m | H | albelig | 22 | 22 | E | 409 | 414 | H-194-  | H-199-  | TDNVAH 
+| 1i8m | H | albelig | 23 | 23 | H | 415 | 417 | H-200-  | H-202-  | PAS 
+| 1i8m | H | albelig | 24 | 24 | E | 419 | 424 | H-204-  | H-209-  | TKVDKK 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 2 = p = 13
+= 3 = a = 10
+= 3 = p = 12
+= 5 = a = 6
+= 5 = p = 10
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 9
+= 7 = a = 9
+= 9 = a = 10
+= 12 = a = 13
+= 14 = a = 15
+= 14 = p = 24
+= 15 = a = 20
+= 16 = m = 17
+= 16 = a = 22
+= 18 = a = 20
+= 19 = a = 20
+= 20 = m = 21
+= 22 = m = 23
+= 22 = a = 24
+# Listed 23 contacts. EOF.

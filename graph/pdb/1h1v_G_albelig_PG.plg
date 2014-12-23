@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h1v, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN-BINDING, SEVERING, CAPPING, CALCIUM, AMYLOID, MUSCLECONTRACTION
+> pdb_mol_name > GELSOLIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 23-JUL-02
+> header > ACTIN-BINDING
+> pdb_org_common > HUMAN
+> title > GELSOLIN G4-G6/ACTIN COMPLEX
+> format_version > 2
+> pdbid > 1h1v
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h1v | G | albelig | 1 | 1 | E | 378 | 384 | G-419-  | G-425-  | QKQIWRI 
+| 1h1v | G | albelig | 2 | 2 | E | 389 | 391 | G-430-  | G-432-  | KVP 
+| 1h1v | G | albelig | 3 | 3 | E | 405 | 411 | G-446-  | G-452-  | SYIILYN 
+| 1h1v | G | albelig | 4 | 4 | E | 417 | 423 | G-461-  | G-467-  | QIIYNWQ 
+| 1h1v | G | albelig | 5 | 5 | H | 429 | 445 | G-473-  | G-489-  | QDEVAASAILTAQLDEE 
+| 1h1v | G | albelig | 6 | 6 | E | 451 | 456 | G-495-  | G-500-  | VQSRVV 
+| 1h1v | G | albelig | 7 | 7 | H | 464 | 466 | G-508-  | G-510-  | LMS 
+| 1h1v | G | albelig | 8 | 8 | E | 473 | 476 | G-517-  | G-520-  | MIIY 
+| 1h1v | G | albelig | 9 | 9 | E | 493 | 499 | G-537-  | G-543-  | RLFQVRA 
+| 1h1v | G | albelig | 10 | 10 | E | 505 | 510 | G-549-  | G-554-  | TRAVEV 
+| 1h1v | G | albelig | 11 | 11 | H | 514 | 516 | G-558-  | G-560-  | AGA 
+| 1h1v | G | albelig | 12 | 12 | E | 522 | 527 | G-566-  | G-571-  | AFVLKT 
+| 1h1v | G | albelig | 13 | 13 | E | 530 | 532 | G-574-  | G-576-  | AAY 
+| 1h1v | G | albelig | 14 | 14 | H | 541 | 554 | G-585-  | G-598-  | EAEKTGAQELLRVL 
+| 1h1v | G | albelig | 15 | 15 | H | 570 | 573 | G-614-  | G-617-  | FWEA 
+| 1h1v | G | albelig | 16 | 16 | E | 597 | 602 | G-641-  | G-646-  | RLFACS 
+| 1h1v | G | albelig | 17 | 17 | E | 609 | 612 | G-653-  | G-656-  | VIEE 
+| 1h1v | G | albelig | 18 | 18 | H | 619 | 621 | G-663-  | G-665-  | QED 
+| 1h1v | G | albelig | 19 | 19 | E | 627 | 631 | G-671-  | G-675-  | VMLLD 
+| 1h1v | G | albelig | 20 | 20 | E | 636 | 640 | G-680-  | G-684-  | VFVWV 
+| 1h1v | G | albelig | 21 | 21 | H | 646 | 659 | G-690-  | G-703-  | EEEKTEALTSAKRY 
+| 1h1v | G | albelig | 22 | 22 | E | 673 | 677 | G-717-  | G-721-  | ITVVK 
+| 1h1v | G | albelig | 23 | 23 | H | 683 | 686 | G-727-  | G-730-  | PSFV 
+| 1h1v | G | albelig | 24 | 24 | L | 701 | 701 | G-1743-  | G-1743-  | J 
+| 1h1v | G | albelig | 25 | 25 | L | 702 | 702 | G-1744-  | G-1744-  | J 
+| 1h1v | G | albelig | 26 | 26 | L | 703 | 703 | G-1745-  | G-1745-  | J 
+| 1h1v | G | albelig | 27 | 27 | L | 704 | 704 | G-1746-  | G-1746-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 3 = a = 4
+= 3 = p = 5
+= 4 = a = 5
+= 4 = p = 6
+= 5 = l = 24
+= 5 = l = 25
+= 6 = l = 24
+= 8 = p = 10
+= 8 = m = 14
+= 9 = a = 10
+= 9 = a = 12
+= 9 = m = 14
+= 9 = l = 26
+= 12 = a = 13
+= 12 = p = 14
+= 14 = l = 26
+= 16 = a = 17
+= 16 = a = 19
+= 16 = l = 27
+= 19 = a = 20
+= 19 = p = 21
+= 20 = p = 22
+= 21 = l = 27
+# Listed 25 contacts. EOF.

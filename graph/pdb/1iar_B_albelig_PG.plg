@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iar, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE RECEPTOR,INTERLEUKIN-4, CYTOKINE/RECEPTOR COMPLEX
+> pdb_mol_name > PROTEIN (INTERLEUKIN-4 RECEPTOR ALPHA CHAIN)
+> graphtype > albelig
+> resolution > 2.3
+> date > 25-FEB-99
+> header > CYTOKINE/RECEPTOR
+> pdb_org_common > HUMAN
+> title > INTERLEUKIN-4 / RECEPTOR ALPHA CHAIN COMPLEX
+> format_version > 2
+> pdbid > 1iar
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iar | B | albelig | 1 | 1 | E | 133 | 141 | B-3-  | B-11-  | VLQEPTDVS 
+| 1iar | B | albelig | 2 | 2 | E | 146 | 153 | B-16-  | B-23-  | ISTDEWKM 
+| 1iar | B | albelig | 3 | 3 | H | 159 | 162 | B-29-  | B-32-  | FSTE 
+| 1iar | B | albelig | 4 | 4 | E | 163 | 169 | B-33-  | B-39-  | LRLLYQL 
+| 1iar | B | albelig | 5 | 5 | E | 177 | 179 | B-47-  | B-49-  | HTE 
+| 1iar | B | albelig | 6 | 6 | E | 188 | 194 | B-58-  | B-64-  | GFVEHLL 
+| 1iar | B | albelig | 7 | 7 | E | 204 | 210 | B-74-  | B-80-  | YTLDLWA 
+| 1iar | B | albelig | 8 | 8 | E | 213 | 220 | B-83-  | B-90-  | QLLWKGSF 
+| 1iar | B | albelig | 9 | 9 | H | 222 | 224 | B-92-  | B-94-  | PSE 
+| 1iar | B | albelig | 10 | 10 | E | 232 | 236 | B-102-  | B-106-  | GNLTV 
+| 1iar | B | albelig | 11 | 11 | E | 241 | 246 | B-114-  | B-119-  | LLLTWS 
+| 1iar | B | albelig | 12 | 12 | H | 256 | 258 | B-129-  | B-131-  | YNH 
+| 1iar | B | albelig | 13 | 13 | E | 260 | 267 | B-133-  | B-140-  | TYAVNIWS 
+| 1iar | B | albelig | 14 | 14 | E | 274 | 279 | B-147-  | B-152-  | FRIYNV 
+| 1iar | B | albelig | 15 | 15 | E | 285 | 288 | B-158-  | B-161-  | SLRI 
+| 1iar | B | albelig | 16 | 16 | E | 295 | 302 | B-172-  | B-179-  | YRARVRAW 
+| 1iar | B | albelig | 17 | 17 | H | 304 | 306 | B-181-  | B-183-  | QAY 
+| 1iar | B | albelig | 18 | 18 | E | 317 | 319 | B-194-  | B-196-  | TKW 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 6
+= 3 = m = 4
+= 3 = m = 7
+= 4 = a = 5
+= 4 = p = 6
+= 4 = a = 7
+= 5 = a = 6
+= 7 = a = 8
+= 10 = a = 11
+= 11 = a = 15
+= 13 = a = 14
+= 13 = a = 16
+= 16 = a = 18
+# Listed 14 contacts. EOF.

@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k24, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADHESIN, INVASIN, MEMBRANE PROTEIN, OUTER MEMBRANE, BETA BARREL
+> pdb_mol_name > OUTER MEMBRANE PROTEIN
+> graphtype > albelig
+> resolution > 2.03
+> date > 26-SEP-01
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE OPCA OUTER MEMBRANE ADHESIN/INVASIN FROMNEISSERIA MENINGITIDIS
+> format_version > 2
+> pdbid > 1k24
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NEISSERIA MENINGITIDIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k24 | A | albelig | 1 | 1 | E | 5 | 16 | A-9-  | A-20-  | EFTVHTDLSSIS 
+| 1k24 | A | albelig | 2 | 2 | E | 26 | 39 | A-30-  | A-43-  | HKAAKHIGVRADIP 
+| 1k24 | A | albelig | 3 | 3 | E | 44 | 55 | A-48-  | A-59-  | QGIRLEAGFGRS 
+| 1k24 | A | albelig | 4 | 4 | E | 84 | 99 | A-88-  | A-103-  | NRIDLYTGYTYTQTLS 
+| 1k24 | A | albelig | 5 | 5 | E | 102 | 120 | A-106-  | A-124-  | LNFRVGAGLGFESSKDSIK 
+| 1k24 | A | albelig | 6 | 6 | E | 125 | 146 | A-129-  | A-150-  | TLHSSRQSWLAKVHADLLSQLG 
+| 1k24 | A | albelig | 7 | 7 | E | 149 | 167 | A-153-  | A-171-  | WYINPWSEVKFDLNSRYKL 
+| 1k24 | A | albelig | 8 | 8 | H | 169 | 171 | A-173-  | A-175-  | TGV 
+| 1k24 | A | albelig | 9 | 9 | E | 178 | 181 | A-182-  | A-185-  | INQK 
+| 1k24 | A | albelig | 10 | 10 | E | 184 | 197 | A-188-  | A-201-  | GWGFGLGANIGKKL 
+| 1k24 | A | albelig | 11 | 11 | E | 201 | 214 | A-205-  | A-218-  | ASIEAGPFYKQRTY 
+| 1k24 | A | albelig | 12 | 12 | E | 220 | 224 | A-224-  | A-228-  | FSVTT 
+| 1k24 | A | albelig | 13 | 13 | E | 227 | 231 | A-231-  | A-235-  | GDVSL 
+| 1k24 | A | albelig | 14 | 14 | E | 236 | 248 | A-240-  | A-252-  | TSIREYGLRVGIK 
+| 1k24 | A | albelig | 15 | 15 | L | 250 | 250 | A-401-  | A-401-  | J 
+| 1k24 | A | albelig | 16 | 16 | L | 251 | 251 | A-402-  | A-402-  | J 
+| 1k24 | A | albelig | 17 | 17 | L | 252 | 252 | A-403-  | A-403-  | J 
+| 1k24 | A | albelig | 18 | 18 | L | 253 | 253 | A-301-  | A-301-  | J 
+| 1k24 | A | albelig | 19 | 19 | L | 254 | 254 | A-302-  | A-302-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 14
+= 1 = l = 15
+= 2 = a = 3
+= 2 = l = 15
+= 2 = l = 16
+= 2 = l = 19
+= 3 = a = 4
+= 3 = l = 19
+= 4 = a = 5
+= 4 = l = 19
+= 5 = a = 6
+= 6 = a = 7
+= 6 = l = 18
+= 7 = a = 9
+= 7 = a = 10
+= 7 = p = 11
+= 7 = l = 18
+= 10 = a = 11
+= 10 = l = 18
+= 11 = a = 14
+= 12 = a = 13
+= 14 = l = 15
+# Listed 23 contacts. EOF.

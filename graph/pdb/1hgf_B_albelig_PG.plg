@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hgf, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INFLUENZA VIRUS HEMAGGLUTININ, VIRAL PROTEIN
+> pdb_mol_name > HEMAGGLUTININ, CHAIN HA1
+> graphtype > albelig
+> resolution > 3.0
+> date > 01-NOV-91
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > BINDING OF INFLUENZA VIRUS HEMAGGLUTININ TO ANALOGS OF ITS CELL-SURFACE RECEPTOR, SIALIC ACID: ANALYSIS BY PROTON NUCLEAR MAGNETICRESONANCE SPECTROSCOPY AND X-RAY CRYSTALLOGRAPHY
+> format_version > 2
+> pdbid > 1hgf
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > INFLUENZA A VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hgf | B | albelig | 1 | 1 | E | 351 | 357 | B-22-  | B-28-  | YGFRHQN 
+| 1hgf | B | albelig | 2 | 2 | E | 360 | 366 | B-31-  | B-37-  | GTGQAAD 
+| 1hgf | B | albelig | 3 | 3 | H | 367 | 385 | B-38-  | B-56-  | LKSTQAAIDQINGKLNRVI 
+| 1hgf | B | albelig | 4 | 4 | H | 405 | 458 | B-76-  | B-129-  | RIQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLREN 
+| 1hgf | B | albelig | 5 | 5 | E | 459 | 461 | B-130-  | B-132-  | AEE 
+| 1hgf | B | albelig | 6 | 6 | E | 466 | 469 | B-137-  | B-140-  | AFKI 
+| 1hgf | B | albelig | 7 | 7 | H | 475 | 482 | B-146-  | B-153-  | NAFIESIR 
+| 1hgf | B | albelig | 8 | 8 | H | 488 | 499 | B-159-  | B-170-  | HDVYRDEALNNR 
+| 1hgf | B | albelig | 9 | 9 | L | 1521 | 1521 | B-401-  | B-401-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = m = 4
+= 1 = a = 7
+= 2 = m = 3
+= 3 = a = 4
+= 4 = m = 5
+= 4 = m = 6
+= 4 = m = 8
+= 5 = a = 6
+= 7 = l = 9
+# Listed 11 contacts. EOF.

@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j4t, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALL BETA, GREEK KEY MOTIF, BETA PRISM I FOLD, PLANT PROTEIN
+> pdb_mol_name > ARTOCARPIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 30-OCT-01
+> header > PLANT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF ARTOCARPIN: A LECTIN WITH MANNOSE SPECIFICITY(FORM 2)
+> format_version > 2
+> pdbid > 1j4t
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ARTOCARPUS INTEGER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j4t | D | albelig | 1 | 1 | E | 455 | 461 | D-5-  | D-11-  | ITVGSWG 
+| 1j4t | D | albelig | 2 | 2 | E | 466 | 469 | D-16-  | D-19-  | NGWD 
+| 1j4t | D | albelig | 3 | 3 | E | 475 | 483 | D-25-  | D-33-  | GIRQIELSY 
+| 1j4t | D | albelig | 4 | 4 | E | 487 | 495 | D-37-  | D-45-  | IGSFSVIYD 
+| 1j4t | D | albelig | 5 | 5 | E | 500 | 502 | D-50-  | D-52-  | PFS 
+| 1j4t | D | albelig | 6 | 6 | E | 513 | 518 | D-63-  | D-68-  | KNVKIE 
+| 1j4t | D | albelig | 7 | 7 | E | 528 | 535 | D-78-  | D-85-  | SVSGYTGP 
+| 1j4t | D | albelig | 8 | 8 | E | 544 | 552 | D-94-  | D-102-  | PVVRSLTFK 
+| 1j4t | D | albelig | 9 | 9 | E | 568 | 576 | D-118-  | D-126-  | TYFNLPIEN 
+| 1j4t | D | albelig | 10 | 10 | E | 578 | 586 | D-128-  | D-136-  | LIVGFKGRT 
+| 1j4t | D | albelig | 11 | 11 | E | 590 | 598 | D-140-  | D-148-  | LDAIGIHMS 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 2 = a = 10
+= 3 = a = 4
+= 3 = a = 6
+= 4 = a = 5
+= 4 = p = 8
+= 4 = a = 11
+= 7 = a = 8
+= 7 = a = 9
+= 8 = p = 11
+= 10 = a = 11
+# Listed 11 contacts. EOF.

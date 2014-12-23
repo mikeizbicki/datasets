@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bjf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM-BINDING, MYRISTOYLATION, NEURONAL SPECIFICGUANYLATE CYCLASE ACTIVATOR
+> pdb_mol_name > NEUROCALCIN DELTA
+> graphtype > albelig
+> resolution > 2.4
+> date > 25-JUN-98
+> header > CALCIUM-BINDING
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF RECOMBINANT BOVINE NEUROCALCIN DELTAAT 2.4 ANGSTROMS
+> format_version > 2
+> pdbid > 1bjf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bjf | A | albelig | 1 | 1 | H | 6 | 15 | A-10-  | A-19-  | PEVMQDLLES 
+| 1bjf | A | albelig | 2 | 2 | H | 20 | 33 | A-24-  | A-37-  | EHEIQEWYKGFLRD 
+| 1bjf | A | albelig | 3 | 3 | E | 38 | 40 | A-42-  | A-44-  | HLS 
+| 1bjf | A | albelig | 4 | 4 | H | 41 | 48 | A-45-  | A-52-  | MEEFKKIY 
+| 1bjf | A | albelig | 5 | 5 | H | 58 | 68 | A-62-  | A-72-  | SKFAEHVFRTF 
+| 1bjf | A | albelig | 6 | 6 | E | 75 | 77 | A-79-  | A-81-  | TID 
+| 1bjf | A | albelig | 7 | 7 | H | 78 | 88 | A-82-  | A-92-  | FREFIIALSVT 
+| 1bjf | A | albelig | 8 | 8 | H | 93 | 104 | A-97-  | A-108-  | LEQKLKWAFSMY 
+| 1bjf | A | albelig | 9 | 9 | H | 114 | 125 | A-118-  | A-129-  | KAEMLEIVQAIY 
+| 1bjf | A | albelig | 10 | 10 | H | 136 | 138 | A-140-  | A-142-  | EDE 
+| 1bjf | A | albelig | 11 | 11 | H | 141 | 151 | A-145-  | A-155-  | PEKRTEKIFRQ 
+| 1bjf | A | albelig | 12 | 12 | H | 162 | 171 | A-166-  | A-175-  | LEEFIRGAKS 
+| 1bjf | A | albelig | 13 | 13 | H | 174 | 177 | A-178-  | A-181-  | SIVR 
+| 1bjf | A | albelig | 14 | 14 | L | 364 | 364 | A-402-  | A-402-  | J 
+| 1bjf | A | albelig | 15 | 15 | L | 365 | 365 | A-403-  | A-403-  | J 
+| 1bjf | A | albelig | 16 | 16 | L | 366 | 366 | A-404-  | A-404-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 2 = m = 7
+= 3 = m = 4
+= 3 = a = 6
+= 4 = m = 5
+= 5 = m = 8
+= 5 = m = 9
+= 6 = m = 7
+= 6 = l = 14
+= 7 = l = 14
+= 8 = m = 9
+= 8 = a = 12
+= 9 = a = 11
+= 9 = l = 15
+= 12 = l = 16
+# Listed 15 contacts. EOF.

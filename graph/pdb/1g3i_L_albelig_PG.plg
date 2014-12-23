@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g3i, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE/HYDROLASE
+> pdb_mol_name > ATP-DEPENDENT PROTEASE HSLV
+> graphtype > albelig
+> resolution > 3.41
+> date > 24-OCT-00
+> header > CHAPERONE/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE HSLUV PROTEASE-CHAPERONE COMPLEX
+> format_version > 2
+> pdbid > 1g3i
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g3i | L | albelig | 1 | 1 | E | 2822 | 2827 | L-2-  | L-7-  | TIVSVR 
+| 1g3i | L | albelig | 2 | 2 | E | 2832 | 2836 | L-12-  | L-16-  | VVVGG 
+| 1g3i | L | albelig | 3 | 3 | E | 2840 | 2842 | L-20-  | L-22-  | VSL 
+| 1g3i | L | albelig | 4 | 4 | E | 2845 | 2848 | L-25-  | L-28-  | TVMK 
+| 1g3i | L | albelig | 5 | 5 | E | 2854 | 2857 | L-34-  | L-37-  | VRRL 
+| 1g3i | L | albelig | 6 | 6 | E | 2862 | 2868 | L-42-  | L-48-  | VLAGFAG 
+| 1g3i | L | albelig | 7 | 7 | H | 2870 | 2886 | L-50-  | L-66-  | TADAFTLFELFERKLEM 
+| 1g3i | L | albelig | 8 | 8 | H | 2891 | 2900 | L-71-  | L-80-  | LLKSAVELAK 
+| 1g3i | L | albelig | 9 | 9 | E | 2913 | 2919 | L-93-  | L-99-  | AMLIVAD 
+| 1g3i | L | albelig | 10 | 10 | E | 2923 | 2927 | L-103-  | L-107-  | SLIIT 
+| 1g3i | L | albelig | 11 | 11 | E | 2940 | 2944 | L-120-  | L-124-  | ILAIG 
+| 1g3i | L | albelig | 12 | 12 | H | 2947 | 2959 | L-127-  | L-139-  | GNYALSAARALVE 
+| 1g3i | L | albelig | 13 | 13 | H | 2965 | 2979 | L-145-  | L-159-  | AHEIVEKSLRIAGDI 
+| 1g3i | L | albelig | 14 | 14 | E | 2988 | 2991 | L-168-  | L-171-  | TIEE 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = p = 9
+= 1 = a = 11
+= 2 = m = 13
+= 2 = a = 14
+= 3 = a = 4
+= 5 = a = 6
+= 5 = m = 7
+= 6 = a = 9
+= 7 = m = 8
+= 7 = p = 9
+= 9 = a = 10
+= 9 = a = 11
+= 11 = a = 12
+= 12 = a = 13
+# Listed 16 contacts. EOF.

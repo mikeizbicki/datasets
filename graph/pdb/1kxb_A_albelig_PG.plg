@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SINDBIS VIRUS CAPSID PROTEIN, CHYMOTRYPSIN-LIKE SERINEPROTEINASE, WILD TYPE, COAT PROTEIN, VIRAL PROTEIN
+> pdb_mol_name > SINDBIS VIRUS CAPSID PROTEIN
+> graphtype > albelig
+> resolution > 2.9
+> date > 05-MAY-96
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SINDBIS VIRUS CAPSID (S215A MUTANT), TETRAGONAL CRYSTAL FORM
+> format_version > 2
+> pdbid > 1kxb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SINDBIS VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxb | A | albelig | 1 | 1 | E | 9 | 13 | A-115-  | A-119-  | LFDVK 
+| 1kxb | A | albelig | 2 | 2 | E | 19 | 26 | A-125-  | A-132-  | VIGHALAM 
+| 1kxb | A | albelig | 3 | 3 | E | 29 | 33 | A-135-  | A-139-  | KVMKP 
+| 1kxb | A | albelig | 4 | 4 | H | 45 | 47 | A-151-  | A-153-  | LSK 
+| 1kxb | A | albelig | 5 | 5 | E | 51 | 53 | A-157-  | A-159-  | TKS 
+| 1kxb | A | albelig | 6 | 6 | H | 54 | 56 | A-160-  | A-162-  | SAY 
+| 1kxb | A | albelig | 7 | 7 | E | 58 | 62 | A-164-  | A-168-  | MEFAQ 
+| 1kxb | A | albelig | 8 | 8 | H | 67 | 69 | A-173-  | A-175-  | MRS 
+| 1kxb | A | albelig | 9 | 9 | E | 81 | 85 | A-187-  | A-191-  | GFYNW 
+| 1kxb | A | albelig | 10 | 10 | E | 88 | 93 | A-194-  | A-199-  | GAVQYS 
+| 1kxb | A | albelig | 11 | 11 | E | 96 | 100 | A-202-  | A-206-  | RFTIP 
+| 1kxb | A | albelig | 12 | 12 | E | 112 | 114 | A-218-  | A-220-  | PIM 
+| 1kxb | A | albelig | 13 | 13 | E | 120 | 130 | A-226-  | A-236-  | VVAIVLGGADE 
+| 1kxb | A | albelig | 14 | 14 | E | 133 | 141 | A-239-  | A-247-  | RTALSVVTW 
+| 1kxb | A | albelig | 15 | 15 | E | 147 | 150 | A-253-  | A-256-  | TIKT 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 7
+= 5 = m = 6
+= 5 = a = 7
+= 6 = m = 15
+= 9 = a = 10
+= 9 = a = 12
+= 10 = a = 11
+= 11 = a = 14
+= 12 = p = 13
+= 13 = a = 14
+= 14 = a = 15
+# Listed 13 contacts. EOF.

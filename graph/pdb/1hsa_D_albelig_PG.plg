@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hsa, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTOCOMPATIBILITY ANTIGEN
+> pdb_mol_name > CLASS I HISTOCOMPATIBILITY ANTIGEN (HLA-B*2705)
+> graphtype > albelig
+> resolution > 2.1
+> date > 11-AUG-92
+> header > HISTOCOMPATIBILITY ANTIGEN
+> pdb_org_common > HUMAN
+> title > THE THREE-DIMENSIONAL STRUCTURE OF HLA-B27 AT 2.1 ANGSTROMSRESOLUTION SUGGESTS A GENERAL MECHANISM FOR TIGHT PEPTIDEBINDING TO MHC
+> format_version > 2
+> pdbid > 1hsa
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hsa | D | albelig | 1 | 1 | E | 390 | 401 | D-3-  | D-14-  | HSMRYFHTSVSR 
+| 1hsa | D | albelig | 2 | 2 | E | 405 | 415 | D-18-  | D-28-  | GEPRFITVGYV 
+| 1hsa | D | albelig | 3 | 3 | E | 418 | 424 | D-31-  | D-37-  | TLFVRFD 
+| 1hsa | D | albelig | 4 | 4 | H | 437 | 439 | D-50-  | D-52-  | PWI 
+| 1hsa | D | albelig | 5 | 5 | H | 444 | 471 | D-57-  | D-84-  | PEYWDRETQICKAKAQTDREDLRTLLRY 
+| 1hsa | D | albelig | 6 | 6 | E | 481 | 490 | D-94-  | D-103-  | TLQNMYGDDV 
+| 1hsa | D | albelig | 7 | 7 | E | 496 | 505 | D-109-  | D-118-  | LLRGYHQDAY 
+| 1hsa | D | albelig | 8 | 8 | E | 508 | 513 | D-121-  | D-126-  | KDYIAL 
+| 1hsa | D | albelig | 9 | 9 | E | 520 | 522 | D-133-  | D-135-  | WTA 
+| 1hsa | D | albelig | 10 | 10 | H | 525 | 536 | D-138-  | D-149-  | TAAQITQRKWEA 
+| 1hsa | D | albelig | 11 | 11 | H | 539 | 551 | D-152-  | D-164-  | VAEQLRAYLEGED 
+| 1hsa | D | albelig | 12 | 12 | H | 552 | 561 | D-165-  | D-174-  | VEWLRRYLEN 
+| 1hsa | D | albelig | 13 | 13 | H | 563 | 566 | D-176-  | D-179-  | KETL 
+| 1hsa | D | albelig | 14 | 14 | E | 573 | 580 | D-186-  | D-193-  | KTHVTHHP 
+| 1hsa | D | albelig | 15 | 15 | E | 585 | 595 | D-198-  | D-208-  | EATLREWALGF 
+| 1hsa | D | albelig | 16 | 16 | E | 601 | 606 | D-214-  | D-219-  | TLTWQR 
+| 1hsa | D | albelig | 17 | 17 | H | 612 | 614 | D-225-  | D-227-  | TQD 
+| 1hsa | D | albelig | 18 | 18 | E | 628 | 637 | D-241-  | D-250-  | FQKWAAVVVP 
+| 1hsa | D | albelig | 19 | 19 | H | 641 | 643 | D-254-  | D-256-  | EQR 
+| 1hsa | D | albelig | 20 | 20 | E | 644 | 649 | D-257-  | D-262-  | YTEHVQ 
+| 1hsa | D | albelig | 21 | 21 | E | 657 | 659 | D-270-  | D-272-  | LTL 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 2 = a = 5
+= 3 = p = 5
+= 6 = a = 7
+= 6 = m = 11
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+= 14 = a = 15
+= 14 = p = 21
+= 15 = a = 16
+= 15 = a = 18
+= 15 = p = 20
+= 16 = p = 18
+= 16 = m = 19
+= 16 = a = 20
+= 19 = m = 20
+= 20 = a = 21
+# Listed 22 contacts. EOF.

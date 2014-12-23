@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ehl, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, PROTEIN-DNA COMPLEX, DNA PHOTOPRODUCT,IMMUNE SYSTEM
+> pdb_mol_name > ANTI-(6-4) PHOTOPRODUCT ANTIBODY 64M-2 FAB
+> graphtype > albelig
+> resolution > 2.4
+> date > 21-FEB-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > 64M-2 ANTIBODY FAB COMPLEXED WITH D(5HT)(6-4)T
+> format_version > 2
+> pdbid > 1ehl
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ehl | L | albelig | 1 | 1 | E | 4 | 7 | L-4-  | L-7-  | MTQT 
+| 1ehl | L | albelig | 2 | 2 | E | 10 | 13 | L-10-  | L-13-  | SLPV 
+| 1ehl | L | albelig | 3 | 3 | E | 19 | 25 | L-19-  | L-25-  | ASISARS 
+| 1ehl | L | albelig | 4 | 4 | E | 38 | 43 | L-33-  | L-38-  | LEWYLQ 
+| 1ehl | L | albelig | 5 | 5 | E | 50 | 54 | L-45-  | L-49-  | KLLIY 
+| 1ehl | L | albelig | 6 | 6 | E | 75 | 80 | L-70-  | L-75-  | DFTLKI 
+| 1ehl | L | albelig | 7 | 7 | E | 90 | 95 | L-85-  | L-90-  | VYYAFQ 
+| 1ehl | L | albelig | 8 | 8 | E | 106 | 110 | L-102-  | L-106-  | TKLEI 
+| 1ehl | L | albelig | 9 | 9 | E | 118 | 122 | L-114-  | L-118-  | TVSIF 
+| 1ehl | L | albelig | 10 | 10 | H | 126 | 130 | L-122-  | L-126-  | SEQLT 
+| 1ehl | L | albelig | 11 | 11 | E | 133 | 143 | L-129-  | L-139-  | GASVVNFLNNF 
+| 1ehl | L | albelig | 12 | 12 | E | 148 | 154 | L-144-  | L-150-  | INVKWKI 
+| 1ehl | L | albelig | 13 | 13 | E | 177 | 186 | L-173-  | L-182-  | YSMSSTLTLT 
+| 1ehl | L | albelig | 14 | 14 | H | 187 | 190 | L-183-  | L-186-  | KDEY 
+| 1ehl | L | albelig | 15 | 15 | E | 196 | 202 | L-192-  | L-198-  | YTNEATH 
+| 1ehl | L | albelig | 16 | 16 | E | 209 | 211 | L-205-  | L-207-  | IVK 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 7
+= 2 = p = 8
+= 3 = a = 4
+= 3 = a = 6
+= 3 = p = 7
+= 4 = a = 5
+= 4 = p = 6
+= 4 = a = 7
+= 7 = p = 8
+= 9 = a = 11
+= 9 = p = 16
+= 10 = m = 11
+= 11 = a = 12
+= 11 = a = 13
+= 11 = p = 15
+= 12 = p = 13
+= 12 = a = 15
+= 13 = m = 14
+= 15 = a = 16
+# Listed 20 contacts. EOF.

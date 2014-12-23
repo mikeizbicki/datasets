@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ixr, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HETEROOLIGOMERIC COMPLEX, OCTAMERIC RUVA, AAA-ATPASE DOMAIN,COMPLEX WITH NUCLEOTIDE, HYDROLASE
+> pdb_mol_name > HOLLIDAY JUNCTION DNA HELICASE RUVA
+> graphtype > albelig
+> resolution > 3.3
+> date > 04-JUL-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > RUVA-RUVB COMPLEX
+> format_version > 2
+> pdbid > 1ixr
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ixr | B | albelig | 1 | 1 | E | 138 | 148 | B-2-  | B-12-  | IRYLRGLVLKK 
+| 1ixr | B | albelig | 2 | 2 | E | 152 | 157 | B-16-  | B-21-  | GFVLLA 
+| 1ixr | B | albelig | 3 | 3 | E | 160 | 165 | B-24-  | B-29-  | VGFFLQ 
+| 1ixr | B | albelig | 4 | 4 | H | 168 | 172 | B-32-  | B-36-  | TPFLQ 
+| 1ixr | B | albelig | 5 | 5 | E | 179 | 183 | B-43-  | B-47-  | EVGVH 
+| 1ixr | B | albelig | 6 | 6 | H | 201 | 212 | B-65-  | B-76-  | EENLALFELLLS 
+| 1ixr | B | albelig | 7 | 7 | H | 218 | 227 | B-82-  | B-91-  | PKVALALLSA 
+| 1ixr | B | albelig | 8 | 8 | H | 230 | 239 | B-94-  | B-103-  | PRLLARALLE 
+| 1ixr | B | albelig | 9 | 9 | H | 242 | 246 | B-106-  | B-110-  | ARLLT 
+| 1ixr | B | albelig | 10 | 10 | H | 253 | 263 | B-117-  | B-127-  | RRLAERIALEL 
+| 1ixr | B | albelig | 11 | 11 | H | 281 | 291 | B-145-  | B-155-  | AAEEAVMALAA 
+| 1ixr | B | albelig | 12 | 12 | H | 296 | 309 | B-160-  | B-173-  | EAQARAVVLDLLAQ 
+| 1ixr | B | albelig | 13 | 13 | H | 315 | 325 | B-179-  | B-189-  | AQDLIKEALKR 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 6 = m = 7
+= 11 = a = 12
+= 11 = p = 13
+= 12 = m = 13
+# Listed 7 contacts. EOF.

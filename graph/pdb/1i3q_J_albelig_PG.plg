@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i3q, chain J.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION, MRNA, MULTIPROTEIN COMPLEX, MOLECULARMACHINE, ZINC MOTIFS
+> pdb_mol_name > DNA-DIRECTED RNA POLYMERASE II 8.3KD POLYPEPTIDE
+> graphtype > albelig
+> resolution > 3.1
+> date > 15-FEB-01
+> header > TRANSCRIPTION
+> pdb_org_common > BAKER'S YEAST
+> title > RNA POLYMERASE II CRYSTAL FORM I AT 3.1 A RESOLUTION
+> format_version > 2
+> pdbid > 1i3q
+> experiment > X-RAY DIFFRACTION
+> chainid > J
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i3q | J | albelig | 1 | 1 | H | 3356 | 3363 | J-18-  | J-25-  | WESYLNLL 
+| 1i3q | J | albelig | 2 | 2 | H | 3370 | 3376 | J-32-  | J-38-  | EGTALSR 
+| 1i3q | J | albelig | 3 | 3 | H | 3382 | 3389 | J-44-  | J-51-  | YCCRRMIL 
+| 1i3q | J | albelig | 4 | 4 | H | 3395 | 3398 | J-57-  | J-60-  | IEKF 
+| 1i3q | J | albelig | 5 | 5 | L | 3566 | 3566 | J-2001-  | J-2001-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 3 = l = 5
+# Listed 2 contacts. EOF.

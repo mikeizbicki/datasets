@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ep5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, HYDROLASE
+> pdb_mol_name > CAPSID PROTEIN C
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-MAR-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE CONSERVED CORE DOMAIN OFVENEZUALAN EQUINE ENCEPHALITIS CAPSID PROTEIN
+> format_version > 2
+> pdbid > 1ep5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > VENEZUELAN EQUINE ENCEPHALITIS VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ep5 | A | albelig | 1 | 1 | E | 166 | 171 | A-127-  | A-132-  | TFPIML 
+| 1ep5 | A | albelig | 2 | 2 | E | 174 | 182 | A-135-  | A-143-  | KINGYACVV 
+| 1ep5 | A | albelig | 3 | 3 | E | 185 | 189 | A-146-  | A-150-  | KLFRP 
+| 1ep5 | A | albelig | 4 | 4 | H | 199 | 202 | A-160-  | A-163-  | DVLA 
+| 1ep5 | A | albelig | 5 | 5 | E | 207 | 209 | A-168-  | A-170-  | KKA 
+| 1ep5 | A | albelig | 6 | 6 | H | 210 | 212 | A-171-  | A-173-  | SKY 
+| 1ep5 | A | albelig | 7 | 7 | E | 214 | 218 | A-175-  | A-179-  | LEYAD 
+| 1ep5 | A | albelig | 8 | 8 | H | 221 | 224 | A-182-  | A-185-  | QNMR 
+| 1ep5 | A | albelig | 9 | 9 | E | 237 | 241 | A-198-  | A-202-  | GYYSW 
+| 1ep5 | A | albelig | 10 | 10 | E | 244 | 249 | A-205-  | A-210-  | GAVQYE 
+| 1ep5 | A | albelig | 11 | 11 | E | 252 | 256 | A-213-  | A-217-  | RFTVP 
+| 1ep5 | A | albelig | 12 | 12 | E | 268 | 270 | A-229-  | A-231-  | PIL 
+| 1ep5 | A | albelig | 13 | 13 | E | 276 | 285 | A-237-  | A-246-  | VVAIVLGGVN 
+| 1ep5 | A | albelig | 14 | 14 | E | 289 | 297 | A-250-  | A-258-  | RTALSVVMW 
+| 1ep5 | A | albelig | 15 | 15 | E | 303 | 306 | A-264-  | A-267-  | TVKY 
+| 1ep5 | A | albelig | 16 | 16 | L | 473 | 473 | A-759-  | A-759-  | J 
+| 1ep5 | A | albelig | 17 | 17 | L | 474 | 474 | A-859-  | A-859-  | J 
+| 1ep5 | A | albelig | 18 | 18 | L | 475 | 475 | A-943-  | A-943-  | J 
+| 1ep5 | A | albelig | 19 | 19 | L | 476 | 476 | A-944-  | A-944-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 7
+= 3 = l = 18
+= 5 = m = 6
+= 5 = a = 7
+= 5 = l = 18
+= 6 = m = 15
+= 6 = l = 18
+= 7 = l = 18
+= 8 = l = 16
+= 8 = l = 17
+= 9 = a = 10
+= 9 = a = 12
+= 10 = a = 11
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 14 = a = 15
+= 15 = l = 18
+# Listed 20 contacts. EOF.

@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1efa, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, HELIX-TURN-HELIX, GENE REGULATION, MOLECULARSWITCH, TRANSCRIPTION-DNA COMPLEX
+> pdb_mol_name > LAC REPRESSOR
+> graphtype > albelig
+> resolution > 2.6
+> date > 07-FEB-00
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE LAC REPRESSOR DIMER BOUND TO OPERATOR AND THEANTI-INDUCER ONPF
+> format_version > 2
+> pdbid > 1efa
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1efa | C | albelig | 1 | 1 | H | 666 | 671 | C-51-  | C-56-  | RVAQQL 
+| 1efa | C | albelig | 2 | 2 | E | 678 | 684 | C-63-  | C-69-  | LIGVATS 
+| 1efa | C | albelig | 3 | 3 | H | 689 | 704 | C-74-  | C-89-  | HAPSQIVAAIKSRADQ 
+| 1efa | C | albelig | 4 | 4 | E | 708 | 714 | C-93-  | C-99-  | SVVVSMV 
+| 1efa | C | albelig | 5 | 5 | H | 719 | 731 | C-104-  | C-116-  | VEACKTAVHNLLA 
+| 1efa | C | albelig | 6 | 6 | E | 736 | 740 | C-121-  | C-125-  | GLIIN 
+| 1efa | C | albelig | 7 | 7 | H | 745 | 754 | C-130-  | C-139-  | DQDAIAVEAA 
+| 1efa | C | albelig | 8 | 8 | E | 760 | 762 | C-145-  | C-147-  | ALF 
+| 1efa | C | albelig | 9 | 9 | E | 773 | 776 | C-158-  | C-161-  | SIIF 
+| 1efa | C | albelig | 10 | 10 | H | 778 | 791 | C-163-  | C-176-  | HEDGTRLGVEHLVA 
+| 1efa | C | albelig | 11 | 11 | E | 797 | 801 | C-182-  | C-186-  | IALLA 
+| 1efa | C | albelig | 12 | 12 | H | 807 | 821 | C-192-  | C-206-  | VSARLRLAGWHKYLT 
+| 1efa | C | albelig | 13 | 13 | E | 829 | 832 | C-214-  | C-217-  | AERE 
+| 1efa | C | albelig | 14 | 14 | H | 837 | 849 | C-222-  | C-234-  | AMSGFQQTMQMLN 
+| 1efa | C | albelig | 15 | 15 | E | 856 | 859 | C-241-  | C-244-  | AMLV 
+| 1efa | C | albelig | 16 | 16 | H | 862 | 873 | C-247-  | C-258-  | DQMALGAMRAIT 
+| 1efa | C | albelig | 17 | 17 | E | 884 | 889 | C-269-  | C-274-  | SVVGYD 
+| 1efa | C | albelig | 18 | 18 | H | 893 | 896 | C-278-  | C-281-  | DSSC 
+| 1efa | C | albelig | 19 | 19 | E | 902 | 905 | C-287-  | C-290-  | TTIK 
+| 1efa | C | albelig | 20 | 20 | H | 908 | 923 | C-293-  | C-308-  | FRLLGQTSVDRLLQLS 
+| 1efa | C | albelig | 21 | 21 | E | 931 | 934 | C-316-  | C-319-  | NQLL 
+| 1efa | C | albelig | 22 | 22 | E | 937 | 939 | C-322-  | C-324-  | SLV 
+| 1efa | C | albelig | 23 | 23 | L | 949 | 949 | C-903-  | C-903-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 6
+= 3 = p = 20
+= 3 = l = 23
+= 4 = m = 5
+= 5 = m = 6
+= 6 = p = 8
+= 6 = l = 23
+= 8 = a = 9
+= 9 = m = 20
+= 9 = p = 21
+= 9 = l = 23
+= 10 = m = 12
+= 11 = a = 12
+= 11 = p = 13
+= 11 = p = 15
+= 12 = l = 23
+= 13 = m = 14
+= 14 = p = 16
+= 15 = p = 17
+= 16 = l = 23
+= 17 = p = 19
+= 17 = l = 23
+= 19 = a = 22
+= 20 = l = 23
+# Listed 25 contacts. EOF.

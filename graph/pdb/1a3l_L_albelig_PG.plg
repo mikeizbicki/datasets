@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a3l, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIELS-ALDER, DISFAVORED REACTION, CATALYTIC ANTIBODY,IMMUNOGLOBULIN
+> pdb_mol_name > IMMUNOGLOBULIN FAB 13G5 (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 1.95
+> date > 22-JAN-98
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > CATALYSIS OF A DISFAVORED REACTION: AN ANTIBODY EXO DIELS-ALDERASE-TSA-INHIBITOR COMPLEX AT 1.95 A RESOLUTION
+> format_version > 2
+> pdbid > 1a3l
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a3l | L | albelig | 1 | 1 | E | 19 | 25 | L-19-  | L-25-  | ASISARS 
+| 1a3l | L | albelig | 2 | 2 | E | 38 | 43 | L-33-  | L-38-  | MYWYLQ 
+| 1a3l | L | albelig | 3 | 3 | E | 50 | 54 | L-45-  | L-49-  | QLLIY 
+| 1a3l | L | albelig | 4 | 4 | E | 67 | 71 | L-62-  | L-66-  | FSGSG 
+| 1a3l | L | albelig | 5 | 5 | E | 75 | 80 | L-70-  | L-75-  | DFTLRI 
+| 1a3l | L | albelig | 6 | 6 | H | 85 | 87 | L-80-  | L-82-  | AED 
+| 1a3l | L | albelig | 7 | 7 | E | 89 | 95 | L-84-  | L-90-  | GVYYAAQ 
+| 1a3l | L | albelig | 8 | 8 | E | 107 | 109 | L-102-  | L-104-  | TKL 
+| 1a3l | L | albelig | 9 | 9 | E | 119 | 123 | L-114-  | L-118-  | TVSIF 
+| 1a3l | L | albelig | 10 | 10 | H | 127 | 131 | L-122-  | L-126-  | SEQLT 
+| 1a3l | L | albelig | 11 | 11 | E | 134 | 144 | L-129-  | L-139-  | GASVVNFLNNF 
+| 1a3l | L | albelig | 12 | 12 | E | 150 | 155 | L-145-  | L-150-  | NVKWKI 
+| 1a3l | L | albelig | 13 | 13 | E | 158 | 160 | L-153-  | L-155-  | SER 
+| 1a3l | L | albelig | 14 | 14 | E | 164 | 168 | L-159-  | L-163-  | VLNSW 
+| 1a3l | L | albelig | 15 | 15 | E | 178 | 187 | L-173-  | L-182-  | YSMSSTLTLT 
+| 1a3l | L | albelig | 16 | 16 | H | 188 | 192 | L-183-  | L-187-  | KDEYE 
+| 1a3l | L | albelig | 17 | 17 | E | 196 | 203 | L-191-  | L-198-  | SYTNEATH 
+| 1a3l | L | albelig | 18 | 18 | E | 206 | 215 | L-201-  | L-210-  | STSPIVKSFN 
+| 1a3l | L | albelig | 19 | 19 | L | 437 | 437 | L-213-  | L-213-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 2 = a = 7
+= 2 = l = 19
+= 4 = a = 5
+= 7 = a = 8
+= 7 = l = 19
+= 9 = a = 11
+= 9 = p = 18
+= 10 = m = 11
+= 11 = a = 15
+= 11 = p = 17
+= 12 = a = 13
+= 12 = a = 17
+= 14 = a = 15
+= 15 = m = 16
+= 17 = a = 18
+# Listed 18 contacts. EOF.

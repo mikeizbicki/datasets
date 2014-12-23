@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k0k, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIN-BINDING PROTEIN, PIP2 BINDING PROTEIN, POLY-L-PROLINE BINDINGPROTEIN, CONTRACTILE PROTEIN
+> pdb_mol_name > PROFILIN
+> graphtype > albelig
+> resolution > 2.35
+> date > 19-SEP-01
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > BAKER'S YEAST
+> title > YEAST PROFILIN, CUBIC CRYSTAL FORM
+> format_version > 2
+> pdbid > 1k0k
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k0k | A | albelig | 1 | 1 | H | 2 | 11 | A-2-  | A-11-  | WQAYTDNLIG 
+| 1k0k | A | albelig | 2 | 2 | E | 17 | 22 | A-17-  | A-22-  | KAVIYS 
+| 1k0k | A | albelig | 3 | 3 | E | 28 | 32 | A-28-  | A-32-  | VWATS 
+| 1k0k | A | albelig | 4 | 4 | H | 41 | 50 | A-41-  | A-50-  | EIGEIVQGFD 
+| 1k0k | A | albelig | 5 | 5 | H | 52 | 56 | A-52-  | A-56-  | PAGLQ 
+| 1k0k | A | albelig | 6 | 6 | E | 60 | 62 | A-60-  | A-62-  | LHI 
+| 1k0k | A | albelig | 7 | 7 | E | 65 | 72 | A-65-  | A-72-  | QKFMLLRA 
+| 1k0k | A | albelig | 8 | 8 | E | 76 | 81 | A-76-  | A-81-  | SIYGRH 
+| 1k0k | A | albelig | 9 | 9 | E | 84 | 90 | A-84-  | A-90-  | EGVVCVR 
+| 1k0k | A | albelig | 10 | 10 | E | 94 | 100 | A-94-  | A-100-  | TVIIAHY 
+| 1k0k | A | albelig | 11 | 11 | H | 106 | 122 | A-106-  | A-122-  | AGEATKIVEQLADYLIG 
+| 1k0k | A | albelig | 12 | 12 | L | 126 | 126 | A-301-  | A-301-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = a = 11
+= 1 = l = 12
+= 2 = a = 3
+= 2 = a = 10
+= 4 = m = 8
+= 4 = m = 9
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 11 = l = 12
+# Listed 13 contacts. EOF.

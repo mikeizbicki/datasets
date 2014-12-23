@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kxp, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DBP, VITAMIN D-BINDING PROTEIN, ACTIN SCAVENGER SYSTEM, ACTIN-BINDINGPROTEIN, CONTRACTILE PROTEIN-PROTEIN BINDING COMPLEX
+> pdb_mol_name > HUMAN VITAMIN D-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 01-FEB-02
+> header > CONTRACTILE PROTEIN/PROTEIN BINDING
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN VITAMIN D-BINDING PROTEIN IN COMPLEX WITHSKELETAL ACTIN
+> format_version > 2
+> pdbid > 1kxp
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kxp | D | albelig | 1 | 1 | H | 358 | 370 | D-23-  | D-35-  | YEKNKVAKEFSHL 
+| 1kxp | D | albelig | 2 | 2 | H | 372 | 386 | D-37-  | D-51-  | KEDFTSLSLVLYSRK 
+| 1kxp | D | albelig | 3 | 3 | H | 392 | 409 | D-57-  | D-74-  | FEQVSQLVKEVVSLTEAN 
+| 1kxp | D | albelig | 4 | 4 | H | 418 | 429 | D-83-  | D-94-  | NYDTRTSALSAK 
+| 1kxp | D | albelig | 5 | 5 | H | 458 | 467 | D-141-  | D-150-  | NDEICEAFRK 
+| 1kxp | D | albelig | 6 | 6 | H | 469 | 483 | D-152-  | D-166-  | PKEYANQFMWEYSTN 
+| 1kxp | D | albelig | 7 | 7 | H | 489 | 507 | D-172-  | D-190-  | LSLLVSYTKSYLSMVGSDC 
+| 1kxp | D | albelig | 8 | 8 | H | 512 | 543 | D-195-  | D-226-  | PTVDFLKERLQLKHLSLLTTLSNRVESQYAAY 
+| 1kxp | D | albelig | 9 | 9 | H | 545 | 559 | D-228-  | D-242-  | EKKSRLSNLIKLAQK 
+| 1kxp | D | albelig | 10 | 10 | H | 565 | 582 | D-248-  | D-265-  | LEDVLPLAEDITNILSKF 
+| 1kxp | D | albelig | 11 | 11 | H | 590 | 606 | D-273-  | D-289-  | FMAKELPEHTVKLGDNL 
+| 1kxp | D | albelig | 12 | 12 | H | 611 | 616 | D-294-  | D-299-  | SKFEDH 
+| 1kxp | D | albelig | 13 | 13 | H | 622 | 631 | D-305-  | D-314-  | AMDVFVHTYF 
+| 1kxp | D | albelig | 14 | 14 | H | 648 | 652 | D-331-  | D-335-  | NKDVI 
+| 1kxp | D | albelig | 15 | 15 | H | 657 | 668 | D-340-  | D-351-  | TKVMDKYTFELS 
+| 1kxp | D | albelig | 16 | 16 | H | 675 | 690 | D-358-  | D-373-  | EVFLSKVLEPTLKSLG 
+| 1kxp | D | albelig | 17 | 17 | H | 698 | 723 | D-381-  | D-406-  | STTJFNAKGPLLKKELSSFIDKGQEL 
+| 1kxp | D | albelig | 18 | 18 | H | 732 | 746 | D-415-  | D-429-  | FTEYKKKLAERLKAK 
+| 1kxp | D | albelig | 19 | 19 | H | 752 | 769 | D-435-  | D-452-  | PKELAKLVNKRSDFASNL 
+| 1kxp | D | albelig | 20 | 20 | H | 776 | 787 | D-459-  | D-470-  | PLYLDSEIDAEL 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 2 = m = 6
+= 3 = a = 4
+= 3 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 7 = a = 8
+= 8 = m = 9
+= 8 = m = 10
+= 8 = p = 13
+= 9 = a = 10
+= 9 = p = 15
+= 9 = a = 16
+= 10 = a = 11
+= 10 = m = 15
+= 11 = m = 13
+= 12 = m = 13
+= 15 = a = 16
+= 16 = a = 17
+= 16 = m = 20
+= 18 = a = 19
+= 19 = m = 20
+# Listed 23 contacts. EOF.

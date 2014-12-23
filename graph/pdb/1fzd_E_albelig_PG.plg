@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fzd, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLOOD COAGULATION, FIBRINOGEN-420, ALPHAEC DOMAIN, FIBRINOGEN RELATEDDOMAIN, GLYCOSYLATED PROTEIN
+> pdb_mol_name > FIBRINOGEN-420
+> graphtype > albelig
+> resolution > 2.1
+> date > 22-JUN-98
+> header > BLOOD COAGULATION
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF RECOMBINANT ALPHAEC DOMAIN FROM HUMAN FIBRINOGEN-420
+> format_version > 2
+> pdbid > 1fzd
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fzd | E | albelig | 1 | 1 | E | 796 | 801 | E-654-  | E-659-  | LLIQQR 
+| 1fzd | E | albelig | 2 | 2 | H | 812 | 817 | E-670-  | E-675-  | WQDYKR 
+| 1fzd | E | albelig | 3 | 3 | H | 834 | 841 | E-692-  | E-699-  | NDYLHLLT 
+| 1fzd | E | albelig | 4 | 4 | E | 846 | 852 | E-704-  | E-710-  | VLRVELE 
+| 1fzd | E | albelig | 5 | 5 | E | 858 | 867 | E-716-  | E-725-  | EAYAEYHFRV 
+| 1fzd | E | albelig | 6 | 6 | E | 876 | 883 | E-734-  | E-741-  | LQVSSYEG 
+| 1fzd | E | albelig | 7 | 7 | H | 898 | 901 | E-756-  | E-759-  | AEYT 
+| 1fzd | E | albelig | 8 | 8 | H | 922 | 926 | E-780-  | E-784-  | EAEVY 
+| 1fzd | E | albelig | 9 | 9 | H | 952 | 954 | E-810-  | E-812-  | PRN 
+| 1fzd | E | albelig | 10 | 10 | H | 967 | 970 | E-825-  | E-828-  | VSFR 
+| 1fzd | E | albelig | 11 | 11 | E | 978 | 984 | E-836-  | E-842-  | AVRMKIR 
+| 1fzd | E | albelig | 12 | 12 | L | 1612 | 1612 | E-10-  | E-10-  | J 
+| 1fzd | E | albelig | 13 | 13 | L | 1613 | 1613 | E-11-  | E-11-  | J 
+| 1fzd | E | albelig | 14 | 14 | L | 1614 | 1614 | E-1-  | E-1-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 3 = m = 5
+= 4 = a = 5
+= 4 = a = 11
+= 5 = a = 6
+= 8 = l = 12
+= 8 = l = 13
+= 12 = l = 13
+# Listed 8 contacts. EOF.

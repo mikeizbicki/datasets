@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c2y, chain R.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOFLAVIN BIOSYNTHESIS, TRANSFERASE
+> pdb_mol_name > PROTEIN (LUMAZINE SYNTHASE)
+> graphtype > albelig
+> resolution > 3.3
+> date > 27-JUL-99
+> header > TRANSFERASE
+> pdb_org_common > SPINACH
+> title > CRYSTAL STRUCTURES OF A PENTAMERIC FUNGAL AND AN ICOSAHEDRAL PLANTLUMAZINE SYNTHASE REVEALS THE STRUCTURAL BASIS FOR DIFFERENCES INASSEMBLY
+> format_version > 2
+> pdbid > 1c2y
+> experiment > X-RAY DIFFRACTION
+> chainid > R
+> graphclass > protein graph
+> pdb_org_sci > SPINACIA OLERACEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c2y | R | albelig | 1 | 1 | E | 2654 | 2656 | R-2-  | R-4-  | NEL 
+| 1c2y | R | albelig | 2 | 2 | E | 2668 | 2673 | R-16-  | R-21-  | FAIVVA 
+| 1c2y | R | albelig | 3 | 3 | H | 2677 | 2693 | R-25-  | R-41-  | EFVTRRLMEGALDTFKK 
+| 1c2y | R | albelig | 4 | 4 | E | 2701 | 2705 | R-49-  | R-53-  | DVVWV 
+| 1c2y | R | albelig | 5 | 5 | H | 2708 | 2720 | R-56-  | R-68-  | AYELGVTAQALGK 
+| 1c2y | R | albelig | 6 | 6 | E | 2726 | 2732 | R-74-  | R-80-  | AIVCLGA 
+| 1c2y | R | albelig | 7 | 7 | H | 2740 | 2759 | R-88-  | R-107-  | HYDAVVNSASSGVLSAGLNS 
+| 1c2y | R | albelig | 8 | 8 | E | 2763 | 2768 | R-111-  | R-116-  | CVFGVL 
+| 1c2y | R | albelig | 9 | 9 | H | 2773 | 2779 | R-121-  | R-127-  | MDQAINR 
+| 1c2y | R | albelig | 10 | 10 | E | 2780 | 2782 | R-128-  | R-130-  | AGG 
+| 1c2y | R | albelig | 11 | 11 | H | 2787 | 2802 | R-135-  | R-150-  | KGAESALTAIEMASLF 
+| 1c2y | R | albelig | 12 | 12 | L | 3137 | 3137 | R-218-  | R-218-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 4
+= 2 = p = 6
+= 2 = l = 12
+= 3 = m = 6
+= 3 = m = 11
+= 4 = m = 5
+= 5 = l = 12
+= 6 = p = 8
+= 6 = l = 12
+= 7 = m = 8
+= 7 = l = 12
+= 8 = m = 11
+= 9 = m = 10
+# Listed 14 contacts. EOF.

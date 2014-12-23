@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i9b, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PENTAMER, IGG FOLD, LIGAND BINDING PROTEIN
+> pdb_mol_name > ACETYLCHOLINE BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 18-MAR-01
+> header > LIGAND BINDING PROTEIN
+> pdb_org_common > GREAT POND SNAIL
+> title > X-RAY STRUCTURE OF ACETYLCHOLINE BINDING PROTEIN (ACHBP)
+> format_version > 2
+> pdbid > 1i9b
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > LYMNAEA STAGNALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i9b | E | albelig | 1 | 1 | H | 827 | 837 | E-3-  | E-13-  | RADILYNIRQT 
+| 1i9b | E | albelig | 2 | 2 | E | 851 | 866 | E-27-  | E-42-  | VAVSVSLKFINILEVN 
+| 1i9b | E | albelig | 3 | 3 | E | 871 | 883 | E-47-  | E-59-  | EVDVVFWQQTTWS 
+| 1i9b | E | albelig | 4 | 4 | H | 885 | 887 | E-61-  | E-63-  | RTL 
+| 1i9b | E | albelig | 5 | 5 | E | 897 | 901 | E-73-  | E-77-  | QVSVP 
+| 1i9b | E | albelig | 6 | 6 | H | 902 | 904 | E-78-  | E-80-  | ISS 
+| 1i9b | E | albelig | 7 | 7 | E | 910 | 912 | E-86-  | E-88-  | LAA 
+| 1i9b | E | albelig | 8 | 8 | E | 926 | 930 | E-102-  | E-106-  | LARVV 
+| 1i9b | E | albelig | 9 | 9 | E | 934 | 937 | E-110-  | E-113-  | EVLY 
+| 1i9b | E | albelig | 10 | 10 | E | 940 | 946 | E-116-  | E-122-  | SIRQRFS 
+| 1i9b | E | albelig | 11 | 11 | E | 958 | 966 | E-134-  | E-142-  | ATIRIKIGS 
+| 1i9b | E | albelig | 12 | 12 | E | 974 | 977 | E-150-  | E-153-  | ISVD 
+| 1i9b | E | albelig | 13 | 13 | E | 995 | 1009 | E-171-  | E-185-  | FEILDVTQKKNSVTY 
+| 1i9b | E | albelig | 14 | 14 | E | 1012 | 1027 | E-188-  | E-203-  | JPEAYEDVEVSLNFRK 
+| 1i9b | E | albelig | 15 | 15 | L | 1039 | 1039 | E-305-  | E-305-  | J 
+| 1i9b | E | albelig | 16 | 16 | L | 1040 | 1040 | E-306-  | E-306-  | J 
+| 1i9b | E | albelig | 17 | 17 | L | 1041 | 1041 | E-310-  | E-310-  | J 
+| 1i9b | E | albelig | 18 | 18 | L | 1042 | 1042 | E-1054-  | E-1054-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = l = 17
+= 2 = a = 3
+= 2 = p = 12
+= 2 = a = 13
+= 3 = a = 9
+= 3 = a = 10
+= 5 = m = 6
+= 5 = a = 8
+= 7 = a = 11
+= 8 = a = 9
+= 11 = a = 14
+= 12 = p = 14
+= 13 = a = 14
+= 13 = l = 15
+= 13 = l = 18
+= 14 = l = 18
+# Listed 17 contacts. EOF.

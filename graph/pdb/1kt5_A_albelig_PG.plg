@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kt5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RBP, RETINOL BINDING, TRANSPORT PROTEIN
+> pdb_mol_name > PLASMA RETINOL-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 1.46
+> date > 15-JAN-02
+> header > TRANSPORT PROTEIN
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF BOVINE HOLO-RBP AT PH 4.0
+> format_version > 2
+> pdbid > 1kt5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kt5 | A | albelig | 1 | 1 | H | 6 | 8 | A-6-  | A-8-  | VSS 
+| 1kt5 | A | albelig | 2 | 2 | H | 17 | 20 | A-17-  | A-20-  | KARF 
+| 1kt5 | A | albelig | 3 | 3 | E | 22 | 30 | A-22-  | A-30-  | GTWYAMAKK 
+| 1kt5 | A | albelig | 4 | 4 | E | 39 | 47 | A-39-  | A-47-  | DNIVAEFSV 
+| 1kt5 | A | albelig | 5 | 5 | E | 53 | 62 | A-53-  | A-62-  | MSATAKGRVR 
+| 1kt5 | A | albelig | 6 | 6 | E | 68 | 79 | A-68-  | A-79-  | DVNADMVGTFTD 
+| 1kt5 | A | albelig | 7 | 7 | E | 85 | 92 | A-85-  | A-92-  | KFKMKYWG 
+| 1kt5 | A | albelig | 8 | 8 | E | 100 | 109 | A-100-  | A-109-  | GNDDHWIIDT 
+| 1kt5 | A | albelig | 9 | 9 | E | 114 | 123 | A-114-  | A-123-  | FAVQYSCRLL 
+| 1kt5 | A | albelig | 10 | 10 | E | 129 | 138 | A-129-  | A-138-  | CADSYSFVFA 
+| 1kt5 | A | albelig | 11 | 11 | H | 146 | 158 | A-146-  | A-158-  | PEVQKIVRQRQEE 
+| 1kt5 | A | albelig | 12 | 12 | L | 176 | 176 | A-176-  | A-176-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = a = 10
+= 4 = a = 5
+= 4 = l = 12
+= 5 = a = 6
+= 5 = l = 12
+= 6 = a = 7
+= 6 = l = 12
+= 7 = a = 8
+= 7 = l = 12
+= 8 = a = 9
+= 8 = l = 12
+= 9 = a = 10
+= 9 = l = 12
+= 10 = l = 12
+# Listed 15 contacts. EOF.

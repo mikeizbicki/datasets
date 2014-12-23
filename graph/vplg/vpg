@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## check for java in PATH
+which java > /dev/null
+if [ $? -ne 0 ]; then
+    echo "ERROR: Could not find 'java' executable in PATH. Is the JRE installed?"
+    exit 1
+fi
+
+## k, run
+java -jar vpg.jar $@

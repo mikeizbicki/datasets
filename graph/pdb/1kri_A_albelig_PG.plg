@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kri, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROTAVIRUS, VP4, VP8*, SPIKE PROTEIN, OUTER CAPSID, SIALICACID, HEMAGGLUTININ, CELL ATTACHMENT, NEUTRALIZATIONANTIGEN, LECTIN, GALECTIN FOLD, VIRAL PROTEIN
+> pdb_mol_name > VP4
+> graphtype > albelig
+> resolution > -1.0
+> date > 09-JAN-02
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > NMR SOLUTION STRUCTURES OF THE RHESUS ROTAVIRUS VP4 SIALICACID BINDING DOMAIN WITHOUT LIGAND
+> format_version > 2
+> pdbid > 1kri
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RHESUS ROTAVIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kri | A | albelig | 1 | 1 | E | 16 | 20 | A-80-  | A-84-  | YWMLL 
+| 1kri | A | albelig | 2 | 2 | E | 26 | 32 | A-90-  | A-96-  | GVVVEGT 
+| 1kri | A | albelig | 3 | 3 | E | 38 | 44 | A-102-  | A-108-  | WLATILV 
+| 1kri | A | albelig | 4 | 4 | E | 48 | 57 | A-112-  | A-121-  | VTSETRSYTL 
+| 1kri | A | albelig | 5 | 5 | E | 60 | 68 | A-124-  | A-132-  | TQEQITIAN 
+| 1kri | A | albelig | 6 | 6 | E | 74 | 81 | A-138-  | A-145-  | WKFIDVVK 
+| 1kri | A | albelig | 7 | 7 | E | 89 | 96 | A-153-  | A-160-  | SQYGPLQS 
+| 1kri | A | albelig | 8 | 8 | E | 101 | 106 | A-165-  | A-170-  | YAVMKH 
+| 1kri | A | albelig | 9 | 9 | E | 109 | 116 | A-173-  | A-180-  | KIYTYNGE 
+| 1kri | A | albelig | 10 | 10 | E | 120 | 126 | A-184-  | A-190-  | VTTKYYS 
+| 1kri | A | albelig | 11 | 11 | H | 130 | 132 | A-194-  | A-196-  | YDS 
+| 1kri | A | albelig | 12 | 12 | E | 134 | 137 | A-198-  | A-201-  | NMTA 
+| 1kri | A | albelig | 13 | 13 | E | 141 | 145 | A-205-  | A-209-  | FYIIP 
+| 1kri | A | albelig | 14 | 14 | H | 146 | 158 | A-210-  | A-222-  | REEESTCTEYINN 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 8
+= 1 = a = 13
+= 1 = m = 14
+= 2 = a = 3
+= 2 = a = 12
+= 3 = a = 5
+= 3 = a = 6
+= 4 = a = 5
+= 6 = a = 7
+= 7 = p = 9
+= 8 = a = 9
+= 8 = m = 14
+= 9 = a = 10
+= 13 = m = 14
+# Listed 14 contacts. EOF.

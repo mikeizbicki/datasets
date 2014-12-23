@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ftp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BINDING PROTEIN(FATTY ACID)
+> pdb_mol_name > MUSCLE FATTY ACID BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 06-JUL-94
+> header > BINDING PROTEIN(FATTY ACID)
+> pdb_org_common > UNKNOWN
+> title > THREE-DIMENSIONAL STRUCTURE OF THE MUSCLE FATTY-ACID-BINDING PROTEIN ISOLATED FROM THE DESERT LOCUST,SCHISTOCERCA GREGARIA
+> format_version > 2
+> pdbid > 1ftp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SCHISTOCERCA GREGARIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ftp | A | albelig | 1 | 1 | H | 2 | 4 | A-2-  | A-4-  | KEF 
+| 1ftp | A | albelig | 2 | 2 | E | 8 | 15 | A-8-  | A-15-  | KYKLDSQT 
+| 1ftp | A | albelig | 3 | 3 | H | 17 | 23 | A-17-  | A-23-  | FEEYMKA 
+| 1ftp | A | albelig | 4 | 4 | H | 28 | 34 | A-28-  | A-34-  | AIERKAG 
+| 1ftp | A | albelig | 5 | 5 | E | 40 | 45 | A-40-  | A-45-  | VIELEI 
+| 1ftp | A | albelig | 6 | 6 | E | 50 | 56 | A-50-  | A-56-  | KFKLTSK 
+| 1ftp | A | albelig | 7 | 7 | E | 61 | 67 | A-61-  | A-67-  | NTEFTFK 
+| 1ftp | A | albelig | 8 | 8 | E | 72 | 75 | A-72-  | A-75-  | FDEE 
+| 1ftp | A | albelig | 9 | 9 | E | 81 | 88 | A-81-  | A-88-  | KVKSTITQ 
+| 1ftp | A | albelig | 10 | 10 | E | 93 | 98 | A-93-  | A-98-  | KLVHEQ 
+| 1ftp | A | albelig | 11 | 11 | E | 104 | 110 | A-104-  | A-110-  | TIIIREF 
+| 1ftp | A | albelig | 12 | 12 | E | 114 | 121 | A-114-  | A-121-  | QCVITIKL 
+| 1ftp | A | albelig | 13 | 13 | E | 124 | 132 | A-124-  | A-132-  | LVATRIYKA 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 5
+= 2 = a = 13
+= 3 = m = 4
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 11 = a = 12
+= 12 = a = 13
+# Listed 10 contacts. EOF.

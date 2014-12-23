@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gul, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDATIVE STRESS, ALKENAL DEGRADATION, TRANSFERASE-TRANSFERASEINHIBITOR COMPLEX
+> pdb_mol_name > GLUTATHIONE TRANSFERASE A4-4
+> graphtype > albelig
+> resolution > 2.7
+> date > 10-JUN-98
+> header > TRANSFERASE/TRANSFERASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > HUMAN GLUTATHIONE TRANSFERASE A4-4 COMPLEX WITH IODOBENZYL GLUTATHIONE
+> format_version > 2
+> pdbid > 1gul
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gul | G | albelig | 1 | 1 | E | 1341 | 1345 | G-6-  | G-10-  | KLHYP 
+| 1gul | G | albelig | 2 | 2 | H | 1352 | 1360 | G-17-  | G-25-  | ESVRWVLAA 
+| 1gul | G | albelig | 3 | 3 | E | 1366 | 1370 | G-31-  | G-35-  | DEEFL 
+| 1gul | G | albelig | 4 | 4 | H | 1373 | 1381 | G-38-  | G-46-  | KEQLYKLQD 
+| 1gul | G | albelig | 5 | 5 | E | 1392 | 1395 | G-57-  | G-60-  | MVEI 
+| 1gul | G | albelig | 6 | 6 | E | 1398 | 1401 | G-63-  | G-66-  | MKLV 
+| 1gul | G | albelig | 7 | 7 | H | 1403 | 1413 | G-68-  | G-78-  | TRSILHYIADK 
+| 1gul | G | albelig | 8 | 8 | H | 1421 | 1446 | G-86-  | G-111-  | LKERTLIDMYVEGTLDLLELLIMHPF 
+| 1gul | G | albelig | 9 | 9 | H | 1449 | 1467 | G-114-  | G-132-  | PDDQQKEVVNMAQKAIIRY 
+| 1gul | G | albelig | 10 | 10 | H | 1468 | 1478 | G-133-  | G-143-  | FPVFEKILRGH 
+| 1gul | G | albelig | 11 | 11 | H | 1490 | 1505 | G-155-  | G-170-  | LADVILLQTILALEEK 
+| 1gul | G | albelig | 12 | 12 | H | 1514 | 1523 | G-179-  | G-188-  | PFLQEYTVKL 
+| 1gul | G | albelig | 13 | 13 | H | 1527 | 1533 | G-192-  | G-198-  | PTIKRFL 
+| 1gul | G | albelig | 14 | 14 | H | 1545 | 1554 | G-210-  | G-219-  | EIYVRTVYNI 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 2 = m = 11
+= 2 = m = 13
+= 4 = m = 14
+= 5 = a = 6
+= 8 = a = 9
+= 8 = p = 11
+= 8 = m = 14
+= 9 = m = 10
+= 10 = m = 12
+# Listed 11 contacts. EOF.

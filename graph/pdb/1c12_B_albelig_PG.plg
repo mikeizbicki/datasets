@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c12, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY-ANTIGEN COMPLEX, SCFV FRAGMENT, CDRH3, MUSKODORANT, ODORANT SPECIFICITY, IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (ANTIBODY FRAGMENT FAB)
+> graphtype > albelig
+> resolution > 2.6
+> date > 20-JUL-99
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > INSIGHT IN ODORANT PERCEPTION: THE CRYSTAL STRUCTURE ANDBINDING CHARACTERISTICS OF ANTIBODY FRAGMENTS DIRECTEDAGAINST THE MUSK ODORANT TRASEOLIDE
+> format_version > 2
+> pdbid > 1c12
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c12 | B | albelig | 1 | 1 | E | 218 | 222 | B-303-  | B-307-  | QLQES 
+| 1c12 | B | albelig | 2 | 2 | E | 233 | 240 | B-318-  | B-325-  | LSLTCTVT 
+| 1c12 | B | albelig | 3 | 3 | E | 250 | 255 | B-334-  | B-339-  | WNWIRQ 
+| 1c12 | B | albelig | 4 | 4 | E | 261 | 267 | B-345-  | B-351-  | LEWMGYI 
+| 1c12 | B | albelig | 5 | 5 | E | 273 | 275 | B-357-  | B-359-  | TSY 
+| 1c12 | B | albelig | 6 | 6 | H | 277 | 279 | B-361-  | B-363-  | PSL 
+| 1c12 | B | albelig | 7 | 7 | E | 283 | 288 | B-367-  | B-372-  | ISLTRD 
+| 1c12 | B | albelig | 8 | 8 | H | 289 | 291 | B-373-  | B-375-  | TSK 
+| 1c12 | B | albelig | 9 | 9 | E | 293 | 298 | B-377-  | B-382-  | QFFLQL 
+| 1c12 | B | albelig | 10 | 10 | H | 303 | 305 | B-384-  | B-386-  | TED 
+| 1c12 | B | albelig | 11 | 11 | E | 307 | 313 | B-388-  | B-394-  | ATYYCVT 
+| 1c12 | B | albelig | 12 | 12 | E | 330 | 334 | B-407-  | B-411-  | TTVTV 
+| 1c12 | B | albelig | 13 | 13 | E | 343 | 347 | B-420-  | B-424-  | SVYPL 
+| 1c12 | B | albelig | 14 | 14 | E | 358 | 368 | B-435-  | B-445-  | MVTLGDLVKGY 
+| 1c12 | B | albelig | 15 | 15 | E | 374 | 377 | B-451-  | B-454-  | TVTW 
+| 1c12 | B | albelig | 16 | 16 | E | 387 | 389 | B-463-  | B-465-  | VHT 
+| 1c12 | B | albelig | 17 | 17 | E | 393 | 395 | B-469-  | B-471-  | VLQ 
+| 1c12 | B | albelig | 18 | 18 | E | 398 | 408 | B-474-  | B-484-  | LYTLSSSVTVP 
+| 1c12 | B | albelig | 19 | 19 | H | 411 | 414 | B-487-  | B-490-  | PRPS 
+| 1c12 | B | albelig | 20 | 20 | E | 418 | 423 | B-494-  | B-499-  | TDNVAH 
+| 1c12 | B | albelig | 21 | 21 | H | 424 | 426 | B-500-  | B-502-  | PAS 
+| 1c12 | B | albelig | 22 | 22 | E | 428 | 433 | B-504-  | B-509-  | TKVDKK 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 9
+= 2 = p = 11
+= 3 = a = 4
+= 3 = p = 9
+= 3 = a = 11
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 7 = m = 8
+= 7 = a = 9
+= 11 = a = 12
+= 13 = a = 14
+= 13 = p = 22
+= 14 = a = 18
+= 15 = p = 18
+= 15 = a = 20
+= 16 = a = 18
+= 17 = a = 18
+= 18 = m = 19
+= 20 = m = 21
+= 20 = a = 22
+# Listed 23 contacts. EOF.

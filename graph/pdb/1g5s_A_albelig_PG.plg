@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g5s, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, CELL CYCLE/TRANSFERASE COMPLEX
+> pdb_mol_name > CELL DIVISION PROTEIN KINASE 2
+> graphtype > albelig
+> resolution > 2.61
+> date > 02-NOV-00
+> header > CELL CYCLE/TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN CYCLIN DEPENDENT KINASE 2 (CDK2)IN COMPLEX WITH THE INHIBITOR H717
+> format_version > 2
+> pdbid > 1g5s
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g5s | A | albelig | 1 | 1 | E | 4 | 12 | A-4-  | A-12-  | FQKVEKIGE 
+| 1g5s | A | albelig | 2 | 2 | E | 16 | 23 | A-16-  | A-23-  | GVVYKARN 
+| 1g5s | A | albelig | 3 | 3 | E | 29 | 35 | A-29-  | A-35-  | VVALKKI 
+| 1g5s | A | albelig | 4 | 4 | H | 39 | 48 | A-47-  | A-56-  | TAIREISLLK 
+| 1g5s | A | albelig | 5 | 5 | E | 58 | 60 | A-66-  | A-68-  | LLD 
+| 1g5s | A | albelig | 6 | 6 | E | 68 | 73 | A-76-  | A-81-  | LYLVFE 
+| 1g5s | A | albelig | 7 | 7 | H | 79 | 85 | A-87-  | A-93-  | LKKFMDA 
+| 1g5s | A | albelig | 8 | 8 | H | 93 | 112 | A-101-  | A-120-  | LPLIKSYLFQLLQGLAFCHS 
+| 1g5s | A | albelig | 9 | 9 | H | 122 | 124 | A-130-  | A-132-  | PQN 
+| 1g5s | A | albelig | 10 | 10 | E | 125 | 127 | A-133-  | A-135-  | LLI 
+| 1g5s | A | albelig | 11 | 11 | E | 133 | 135 | A-141-  | A-143-  | IKL 
+| 1g5s | A | albelig | 12 | 12 | H | 150 | 153 | A-171-  | A-174-  | PEIL 
+| 1g5s | A | albelig | 13 | 13 | H | 162 | 177 | A-183-  | A-198-  | AVDIWSLGCIFAEMVT 
+| 1g5s | A | albelig | 14 | 14 | H | 187 | 198 | A-208-  | A-219-  | EIDQLFRIFRTL 
+| 1g5s | A | albelig | 15 | 15 | H | 209 | 211 | A-230-  | A-232-  | VTS 
+| 1g5s | A | albelig | 16 | 16 | H | 227 | 230 | A-248-  | A-251-  | FSKV 
+| 1g5s | A | albelig | 17 | 17 | H | 236 | 245 | A-257-  | A-266-  | EDGRSLLSQM 
+| 1g5s | A | albelig | 18 | 18 | H | 256 | 259 | A-277-  | A-280-  | AKAA 
+| 1g5s | A | albelig | 19 | 19 | H | 263 | 265 | A-284-  | A-286-  | PFF 
+| 1g5s | A | albelig | 20 | 20 | L | 278 | 278 | A-400-  | A-400-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 20
+= 2 = a = 3
+= 2 = l = 20
+= 3 = a = 6
+= 3 = l = 20
+= 5 = a = 6
+= 6 = l = 20
+= 8 = m = 11
+= 8 = a = 13
+= 8 = m = 19
+= 9 = m = 10
+= 9 = m = 11
+= 9 = l = 20
+= 10 = a = 11
+= 10 = l = 20
+= 13 = a = 17
+# Listed 17 contacts. EOF.

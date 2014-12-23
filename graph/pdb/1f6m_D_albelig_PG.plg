@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f6m, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALTERNATE CONFORMATION, TERNARY COMPLEX, DOMAIN MOTION,REDOX-ACTIVE CENTER, NADP, FAD, ELECTRON TRANSPORT,OXIDOREDUCTASE
+> pdb_mol_name > THIOREDOXIN 1
+> graphtype > albelig
+> resolution > 2.95
+> date > 22-JUN-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A COMPLEX BETWEEN THIOREDOXINREDUCTASE, THIOREDOXIN, AND THE NADP+ ANALOG, AADP+
+> format_version > 2
+> pdbid > 1f6m
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f6m | D | albelig | 1 | 1 | H | 764 | 768 | D-13-  | D-17-  | DTDVL 
+| 1f6m | D | albelig | 2 | 2 | E | 774 | 779 | D-23-  | D-28-  | ILVDFW 
+| 1f6m | D | albelig | 3 | 3 | H | 784 | 787 | D-33-  | D-36-  | GPSK 
+| 1f6m | D | albelig | 4 | 4 | H | 790 | 797 | D-39-  | D-46-  | APILDEIA 
+| 1f6m | D | albelig | 5 | 5 | E | 805 | 810 | D-54-  | D-59-  | TVAKLN 
+| 1f6m | D | albelig | 6 | 6 | H | 817 | 821 | D-66-  | D-70-  | TAPKY 
+| 1f6m | D | albelig | 7 | 7 | E | 828 | 831 | D-77-  | D-80-  | TLLL 
+| 1f6m | D | albelig | 8 | 8 | E | 839 | 842 | D-88-  | D-91-  | ATKV 
+| 1f6m | D | albelig | 9 | 9 | H | 847 | 857 | D-96-  | D-106-  | KGQLKEFLDAN 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 5
+= 2 = a = 7
+= 4 = m = 9
+= 7 = a = 8
+# Listed 4 contacts. EOF.

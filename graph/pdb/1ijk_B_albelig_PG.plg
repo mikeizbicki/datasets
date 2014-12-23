@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ijk, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DINUCLEOTIDE-BINDING FOLD, C-TYPE LECTIN FOLD, BLOODCLOTTING/TOXIN COMPLEX
+> pdb_mol_name > BOTROCETIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 26-APR-01
+> header > BLOOD CLOTTING/TOXIN
+> pdb_org_common > JARARACA
+> title > THE VON WILLEBRAND FACTOR MUTANT (I546V) A1 DOMAIN-BOTROCETIN COMPLEX
+> format_version > 2
+> pdbid > 1ijk
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOTHROPS JARARACA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ijk | B | albelig | 1 | 1 | E | 207 | 209 | B-7-  | B-9-  | SSY 
+| 1ijk | B | albelig | 2 | 2 | E | 212 | 221 | B-12-  | B-21-  | NNYKFFQQKM 
+| 1ijk | B | albelig | 3 | 3 | H | 223 | 232 | B-23-  | B-32-  | WADAERFCSE 
+| 1ijk | B | albelig | 4 | 4 | H | 248 | 257 | B-48-  | B-57-  | EKDFVGDLVT 
+| 1ijk | B | albelig | 5 | 5 | E | 266 | 273 | B-66-  | B-73-  | YAWIGLRV 
+| 1ijk | B | albelig | 6 | 6 | H | 297 | 299 | B-97-  | B-99-  | ERT 
+| 1ijk | B | albelig | 7 | 7 | E | 303 | 307 | B-103-  | B-107-  | EFALE 
+| 1ijk | B | albelig | 8 | 8 | E | 315 | 318 | B-115-  | B-118-  | WINL 
+| 1ijk | B | albelig | 9 | 9 | E | 324 | 330 | B-124-  | B-130-  | NPFVCKS 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = a = 9
+= 3 = m = 5
+= 3 = m = 9
+= 5 = a = 7
+= 5 = p = 9
+= 7 = a = 8
+# Listed 8 contacts. EOF.

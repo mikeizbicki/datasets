@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jqp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CATHEPSIN C, DPP I, PAPAIN, TETRAMER, CHLORIDE, CYSTEINE PROTEASE,HYDROLASE
+> pdb_mol_name > DIPEPTIDYL PEPTIDASE I
+> graphtype > albelig
+> resolution > 2.4
+> date > 08-AUG-01
+> header > HYDROLASE
+> pdb_org_common > NORWAY RAT
+> title > DIPEPTIDYL PEPTIDASE I (CATHEPSIN C), A TETRAMERIC CYSTEINE PROTEASEOF THE PAPAIN FAMILY
+> format_version > 2
+> pdbid > 1jqp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jqp | A | albelig | 1 | 1 | H | 8 | 11 | A-8-  | A-11-  | YPDL 
+| 1jqp | A | albelig | 2 | 2 | E | 13 | 19 | A-13-  | A-19-  | GTWVFQV 
+| 1jqp | A | albelig | 3 | 3 | E | 38 | 45 | A-38-  | A-45-  | EKVVIHLK 
+| 1jqp | A | albelig | 4 | 4 | E | 49 | 51 | A-49-  | A-51-  | TAY 
+| 1jqp | A | albelig | 5 | 5 | E | 57 | 63 | A-57-  | A-63-  | SGYFTLI 
+| 1jqp | A | albelig | 6 | 6 | E | 67 | 72 | A-67-  | A-72-  | GFEIVL 
+| 1jqp | A | albelig | 7 | 7 | E | 75 | 86 | A-75-  | A-86-  | YKWFAFFKYEVK 
+| 1jqp | A | albelig | 8 | 8 | E | 89 | 97 | A-89-  | A-97-  | RAISYAHET 
+| 1jqp | A | albelig | 9 | 9 | E | 100 | 104 | A-100-  | A-104-  | GWVHD 
+| 1jqp | A | albelig | 10 | 10 | E | 110 | 117 | A-110-  | A-117-  | WANFVGKK 
+| 1jqp | A | albelig | 11 | 11 | H | 149 | 165 | A-233-  | A-249-  | CYSFASLGMLEARIRIL 
+| 1jqp | A | albelig | 12 | 12 | H | 176 | 182 | A-260-  | A-266-  | PQEVVSD 
+| 1jqp | A | albelig | 13 | 13 | H | 195 | 204 | A-279-  | A-288-  | YLIAGKYAQD 
+| 1jqp | A | albelig | 14 | 14 | H | 210 | 212 | A-294-  | A-296-  | ENE 
+| 1jqp | A | albelig | 15 | 15 | E | 230 | 238 | A-314-  | A-322-  | RYYSSEYYY 
+| 1jqp | A | albelig | 16 | 16 | H | 248 | 258 | A-332-  | A-342-  | EALMKLELVKH 
+| 1jqp | A | albelig | 17 | 17 | E | 261 | 265 | A-345-  | A-349-  | MAVAF 
+| 1jqp | A | albelig | 18 | 18 | H | 269 | 272 | A-353-  | A-356-  | DDFL 
+| 1jqp | A | albelig | 19 | 19 | E | 292 | 301 | A-380-  | A-389-  | HAVLLVGYGK 
+| 1jqp | A | albelig | 20 | 20 | E | 308 | 313 | A-396-  | A-401-  | DYWIVK 
+| 1jqp | A | albelig | 21 | 21 | E | 325 | 329 | A-413-  | A-417-  | YFRIR 
+| 1jqp | A | albelig | 22 | 22 | H | 334 | 336 | A-422-  | A-424-  | ECA 
+| 1jqp | A | albelig | 23 | 23 | E | 342 | 347 | A-430-  | A-435-  | MAAIPI 
+| 1jqp | A | albelig | 24 | 24 | L | 351 | 351 | A-501-  | A-501-  | J 
+| 1jqp | A | albelig | 25 | 25 | L | 352 | 352 | A-502-  | A-502-  | J 
+| 1jqp | A | albelig | 26 | 26 | L | 353 | 353 | A-503-  | A-503-  | J 
+| 1jqp | A | albelig | 27 | 27 | L | 354 | 354 | A-504-  | A-504-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 8
+= 2 = a = 10
+= 3 = a = 4
+= 3 = a = 5
+= 4 = a = 5
+= 4 = p = 6
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 7 = a = 9
+= 7 = a = 13
+= 8 = a = 10
+= 9 = a = 10
+= 11 = m = 12
+= 11 = m = 13
+= 11 = m = 19
+= 11 = m = 23
+= 13 = a = 15
+= 15 = a = 23
+= 16 = m = 19
+= 17 = a = 19
+= 17 = m = 22
+= 17 = a = 23
+= 18 = l = 27
+= 19 = a = 20
+= 20 = a = 21
+# Listed 27 contacts. EOF.

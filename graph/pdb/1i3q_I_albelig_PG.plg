@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i3q, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION, MRNA, MULTIPROTEIN COMPLEX, MOLECULARMACHINE, ZINC MOTIFS
+> pdb_mol_name > DNA-DIRECTED RNA POLYMERASE II 14.2KD
+> graphtype > albelig
+> resolution > 3.1
+> date > 15-FEB-01
+> header > TRANSCRIPTION
+> pdb_org_common > BAKER'S YEAST
+> title > RNA POLYMERASE II CRYSTAL FORM I AT 3.1 A RESOLUTION
+> format_version > 2
+> pdbid > 1i3q
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i3q | I | albelig | 1 | 1 | E | 3229 | 3234 | I-14-  | I-19-  | LYPRED 
+| 1i3q | I | albelig | 2 | 2 | E | 3239 | 3244 | I-24-  | I-29-  | RLLFEC 
+| 1i3q | I | albelig | 3 | 3 | E | 3250 | 3252 | I-35-  | I-37-  | VEE 
+| 1i3q | I | albelig | 4 | 4 | E | 3257 | 3260 | I-42-  | I-45-  | LVYR 
+| 1i3q | I | albelig | 5 | 5 | H | 3277 | 3279 | I-62-  | I-64-  | IGS 
+| 1i3q | I | albelig | 6 | 6 | E | 3314 | 3317 | I-99-  | I-102-  | LFFV 
+| 1i3q | I | albelig | 7 | 7 | E | 3324 | 3326 | I-109-  | I-111-  | IFT 
+| 1i3q | I | albelig | 8 | 8 | L | 3568 | 3568 | I-2003-  | I-2003-  | J 
+| 1i3q | I | albelig | 9 | 9 | L | 3569 | 3569 | I-2004-  | I-2004-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = l = 8
+= 6 = a = 7
+# Listed 4 contacts. EOF.

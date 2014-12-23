@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jx7, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NEW FOLD, HEXAMER, STRUCTURAL GENOMICS, BSGC STRUCTUREFUNDED BY NIH, PROTEIN STRUCTURE INITIATIVE, PSI, BERKELEYSTRUCTURAL GENOMICS CENTER, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL PROTEIN YCHN
+> graphtype > albelig
+> resolution > 2.8
+> date > 05-SEP-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF YCHN PROTEIN FROM E.COLI
+> format_version > 2
+> pdbid > 1jx7
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jx7 | F | albelig | 1 | 1 | E | 593 | 598 | F-1003-  | F-1008-  | KIVIVA 
+| 1jx7 | F | albelig | 2 | 2 | H | 606 | 621 | F-1016-  | F-1031-  | ESLFNSLRLAIALREQ 
+| 1jx7 | F | albelig | 3 | 3 | E | 626 | 631 | F-1036-  | F-1041-  | DLRLFL 
+| 1jx7 | F | albelig | 4 | 4 | H | 633 | 639 | F-1043-  | F-1049-  | SDAVTAG 
+| 1jx7 | F | albelig | 5 | 5 | H | 651 | 659 | F-1061-  | F-1069-  | IQQXLEILT 
+| 1jx7 | F | albelig | 6 | 6 | E | 665 | 668 | F-1075-  | F-1078-  | VKLC 
+| 1jx7 | F | albelig | 7 | 7 | H | 669 | 675 | F-1079-  | F-1085-  | KTCTDGR 
+| 1jx7 | F | albelig | 8 | 8 | E | 686 | 689 | F-1096-  | F-1099-  | VEIG 
+| 1jx7 | F | albelig | 9 | 9 | H | 691 | 700 | F-1101-  | F-1110-  | LVELAQWTLS 
+| 1jx7 | F | albelig | 10 | 10 | E | 703 | 706 | F-1113-  | F-1116-  | KVLT 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 10
+= 2 = m = 5
+= 3 = p = 6
+= 3 = m = 9
+= 4 = m = 7
+= 6 = m = 7
+= 6 = p = 8
+# Listed 8 contacts. EOF.

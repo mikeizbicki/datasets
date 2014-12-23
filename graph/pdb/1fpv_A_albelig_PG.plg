@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fpv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PANLEUKEMIA VIRUS COAT PROTEIN, ICOSAHEDRAL VIRUS
+> pdb_mol_name > FELINE PANLEUKOPENIA VIRUS (STRAIN B) VIRAL
+> graphtype > albelig
+> resolution > 3.3
+> date > 04-MAR-93
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE DETERMINATION OF FELINE PANLEUKOPENIA VIRUS EMPTYPARTICLES
+> format_version > 2
+> pdbid > 1fpv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > FELINE PANLEUKOPENIA VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fpv | A | albelig | 1 | 1 | E | 13 | 17 | A-49-  | A-53-  | TEFKF 
+| 1fpv | A | albelig | 2 | 2 | E | 22 | 28 | A-58-  | A-64-  | WVEITAN 
+| 1fpv | A | albelig | 3 | 3 | E | 31 | 35 | A-67-  | A-71-  | RLVHL 
+| 1fpv | A | albelig | 4 | 4 | E | 67 | 76 | A-103-  | A-112-  | VEIVTPWSLV 
+| 1fpv | A | albelig | 5 | 5 | H | 87 | 96 | A-123-  | A-132-  | PGDWQLIVNT 
+| 1fpv | A | albelig | 6 | 6 | E | 97 | 120 | A-133-  | A-156-  | MSELHLVSFEQEIFNVVLKTVSES 
+| 1fpv | A | albelig | 7 | 7 | E | 126 | 131 | A-162-  | A-167-  | TKVYNN 
+| 1fpv | A | albelig | 8 | 8 | E | 137 | 141 | A-173-  | A-177-  | LMVAL 
+| 1fpv | A | albelig | 9 | 9 | E | 170 | 175 | A-206-  | A-211-  | TPWRYY 
+| 1fpv | A | albelig | 10 | 10 | E | 179 | 182 | A-215-  | A-218-  | DRTL 
+| 1fpv | A | albelig | 11 | 11 | E | 195 | 199 | A-231-  | A-235-  | NVYHG 
+| 1fpv | A | albelig | 12 | 12 | H | 210 | 213 | A-246-  | A-249-  | IENS 
+| 1fpv | A | albelig | 13 | 13 | E | 216 | 219 | A-252-  | A-255-  | VHLL 
+| 1fpv | A | albelig | 14 | 14 | H | 274 | 276 | A-310-  | A-312-  | QDK 
+| 1fpv | A | albelig | 15 | 15 | E | 342 | 344 | A-378-  | A-380-  | YAF 
+| 1fpv | A | albelig | 16 | 16 | E | 360 | 362 | A-396-  | A-398-  | ERF 
+| 1fpv | A | albelig | 17 | 17 | H | 390 | 392 | A-426-  | A-428-  | NDN 
+| 1fpv | A | albelig | 18 | 18 | E | 462 | 466 | A-498-  | A-502-  | LFVKV 
+| 1fpv | A | albelig | 19 | 19 | E | 487 | 503 | A-523-  | A-539-  | TYSDFWWKGKLVFKAKL 
+| 1fpv | A | albelig | 20 | 20 | H | 522 | 524 | A-558-  | A-560-  | QFN 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 19
+= 3 = a = 19
+= 4 = a = 9
+= 4 = a = 18
+= 5 = m = 6
+= 6 = a = 7
+= 6 = a = 19
+= 8 = a = 13
+= 8 = a = 18
+= 10 = a = 11
+= 15 = a = 16
+# Listed 12 contacts. EOF.

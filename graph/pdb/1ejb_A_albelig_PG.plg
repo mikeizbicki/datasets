@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ejb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LUMAZINE SYNTHASE, SACCHAROMYCES CEREVISIAE, X-RAY STRUCTUREANALYSIS, INHIBITOR COMPLEX, VITAMIN BIOSYNTHESIS, TRANSFERASE
+> pdb_mol_name > LUMAZINE SYNTHASE
+> graphtype > albelig
+> resolution > 1.85
+> date > 02-MAR-00
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > LUMAZINE SYNTHASE FROM SACCHAROMYCES CEREVISIAE
+> format_version > 2
+> pdbid > 1ejb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ejb | A | albelig | 1 | 1 | E | 19 | 23 | A-19-  | A-23-  | VGIIH 
+| 1ejb | A | albelig | 2 | 2 | H | 28 | 44 | A-28-  | A-44-  | RVIIDALVKGAIERMAS 
+| 1ejb | A | albelig | 3 | 3 | H | 49 | 51 | A-49-  | A-51-  | ENN 
+| 1ejb | A | albelig | 4 | 4 | E | 52 | 56 | A-52-  | A-56-  | IIIET 
+| 1ejb | A | albelig | 5 | 5 | H | 60 | 76 | A-60-  | A-76-  | SYELPWGTKRFVDRQAK 
+| 1ejb | A | albelig | 6 | 6 | E | 83 | 91 | A-83-  | A-91-  | VVIPIGVLI 
+| 1ejb | A | albelig | 7 | 7 | H | 97 | 116 | A-97-  | A-116-  | HFEYISDSTTHALMNLQEKV 
+| 1ejb | A | albelig | 8 | 8 | E | 123 | 127 | A-123-  | A-127-  | GLLTC 
+| 1ejb | A | albelig | 9 | 9 | H | 130 | 136 | A-130-  | A-136-  | EEQALAR 
+| 1ejb | A | albelig | 10 | 10 | H | 148 | 163 | A-148-  | A-163-  | HGEDWGAAAVEMAVKF 
+| 1ejb | A | albelig | 11 | 11 | L | 845 | 845 | A-200-  | A-200-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 1 = m = 5
+= 1 = p = 6
+= 2 = m = 6
+= 2 = m = 10
+= 3 = m = 4
+= 5 = a = 6
+= 5 = p = 7
+= 5 = l = 11
+= 6 = a = 7
+= 6 = p = 8
+= 6 = a = 10
+= 6 = l = 11
+= 7 = l = 11
+= 8 = m = 9
+# Listed 16 contacts. EOF.

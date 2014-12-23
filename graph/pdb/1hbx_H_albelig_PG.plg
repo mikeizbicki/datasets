@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hbx, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GENE REGULATION, TRANSCRIPTION COMPLEX, SERUM RESPONSEFACTOR, TERNARY COMPLEX FACTOR
+> pdb_mol_name > ETS-DOMAIN PROTEIN ELK-4
+> graphtype > albelig
+> resolution > 3.15
+> date > 20-APR-01
+> header > GENE REGULATION
+> pdb_org_common > HUMAN
+> title > TERNARY COMPLEX OF SAP-1 AND SRF WITH SPECIFIC SRE DNA
+> format_version > 2
+> pdbid > 1hbx
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hbx | H | albelig | 1 | 1 | H | 472 | 478 | H-8-  | H-14-  | WQFLLQL 
+| 1hbx | H | albelig | 2 | 2 | H | 482 | 484 | H-18-  | H-20-  | PQN 
+| 1hbx | H | albelig | 3 | 3 | E | 496 | 498 | H-32-  | H-34-  | QFK 
+| 1hbx | H | albelig | 4 | 4 | H | 503 | 510 | H-39-  | H-46-  | EEVARLWG 
+| 1hbx | H | albelig | 5 | 5 | H | 520 | 533 | H-56-  | H-69-  | YDKLSRALRYYYVK 
+| 1hbx | H | albelig | 6 | 6 | E | 545 | 547 | H-81-  | H-83-  | VYK 
+| 1hbx | H | albelig | 7 | 7 | H | 564 | 566 | H-142-  | H-144-  | IHS 
+| 1hbx | H | albelig | 8 | 8 | E | 569 | 573 | H-147-  | H-151-  | YSSFT 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 6
+# Listed 1 contacts. EOF.

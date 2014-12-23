@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gub, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SUGAR-BINDING PROTEIN, PERIPLASMIC BINDING PROTEIN, ALLOSE,X-RAY CRYSTALLOGRAPHY, HINGE BENDING, CONFORMATIONALCHANGE
+> pdb_mol_name > D-ALLOSE-BINDING PERIPLASMIC PROTEIN
+> graphtype > albelig
+> resolution > 3.1
+> date > 24-JAN-02
+> header > SUGAR-BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > HINGE-BENDING MOTION OF D-ALLOSE BINDING PROTEIN FROMESCHERICHIA COLI: THREE OPEN CONFORMATIONS
+> format_version > 2
+> pdbid > 1gub
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gub | A | albelig | 1 | 1 | E | 4 | 8 | A-4-  | A-8-  | YAVVL 
+| 1gub | A | albelig | 2 | 2 | H | 14 | 30 | A-14-  | A-30-  | PFWVDMKKGIEDEAKTL 
+| 1gub | A | albelig | 3 | 3 | E | 34 | 38 | A-34-  | A-38-  | VDIFA 
+| 1gub | A | albelig | 4 | 4 | H | 45 | 56 | A-45-  | A-56-  | FQSQLQLFEDLS 
+| 1gub | A | albelig | 5 | 5 | E | 62 | 65 | A-62-  | A-65-  | GIAF 
+| 1gub | A | albelig | 6 | 6 | H | 74 | 83 | A-74-  | A-83-  | VMPVARAWKK 
+| 1gub | A | albelig | 7 | 7 | E | 86 | 90 | A-86-  | A-90-  | YLVNL 
+| 1gub | A | albelig | 8 | 8 | H | 96 | 102 | A-96-  | A-102-  | MDNLKKA 
+| 1gub | A | albelig | 9 | 9 | E | 108 | 111 | A-108-  | A-111-  | AFVT 
+| 1gub | A | albelig | 10 | 10 | H | 114 | 129 | A-114-  | A-129-  | NVAVGAKGASFIIDKL 
+| 1gub | A | albelig | 11 | 11 | E | 134 | 139 | A-134-  | A-139-  | GEVAII 
+| 1gub | A | albelig | 12 | 12 | H | 146 | 161 | A-146-  | A-161-  | ASGEARRNGATEAFKK 
+| 1gub | A | albelig | 13 | 13 | E | 165 | 171 | A-165-  | A-171-  | IKLVASQ 
+| 1gub | A | albelig | 14 | 14 | H | 177 | 190 | A-177-  | A-190-  | RIKALDVATNVLQR 
+| 1gub | A | albelig | 15 | 15 | E | 194 | 199 | A-194-  | A-199-  | IKAIYC 
+| 1gub | A | albelig | 16 | 16 | H | 202 | 215 | A-202-  | A-215-  | DTMAMGVAQAVANA 
+| 1gub | A | albelig | 17 | 17 | E | 222 | 227 | A-222-  | A-227-  | LVVGTD 
+| 1gub | A | albelig | 18 | 18 | H | 230 | 238 | A-230-  | A-238-  | PEARKMVEA 
+| 1gub | A | albelig | 19 | 19 | E | 243 | 246 | A-243-  | A-246-  | ATVA 
+| 1gub | A | albelig | 20 | 20 | H | 249 | 266 | A-249-  | A-266-  | PADIGATGLKLMVDAEKS 
+| 1gub | A | albelig | 21 | 21 | E | 277 | 280 | A-277-  | A-280-  | EFKL 
+| 1gub | A | albelig | 22 | 22 | E | 284 | 287 | A-284-  | A-287-  | ILVT 
+| 1gub | A | albelig | 23 | 23 | L | 289 | 289 | A-1289-  | A-1289-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = p = 20
+= 4 = p = 6
+= 5 = p = 7
+= 6 = m = 8
+= 7 = p = 9
+= 7 = a = 20
+= 9 = p = 21
+= 10 = p = 12
+= 10 = a = 15
+= 11 = p = 13
+= 11 = p = 15
+= 14 = p = 16
+= 15 = p = 17
+= 16 = m = 17
+= 17 = p = 19
+= 19 = a = 22
+# Listed 18 contacts. EOF.

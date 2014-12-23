@@ -1,0 +1,76 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fiw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTI-PARALLEL BETA-BARREL, HYDROLASE
+> pdb_mol_name > BETA-ACROSIN HEAVY CHAIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 07-AUG-00
+> header > HYDROLASE
+> pdb_org_common > SHEEP
+> title > THREE-DIMENSIONAL STRUCTURE OF BETA-ACROSIN FROM RAM SPERMATOZOA
+> format_version > 2
+> pdbid > 1fiw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > OVIS ARIES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fiw | A | albelig | 1 | 1 | E | 15 | 22 | A-30-  | A-37-B | MVSLQIFT 
+| 1fiw | A | albelig | 2 | 2 | E | 27 | 38 | A-37-G | A-48-  | RRYHVAGGSLLN 
+| 1fiw | A | albelig | 3 | 3 | E | 41 | 44 | A-51-  | A-54-  | WLLT 
+| 1fiw | A | albelig | 4 | 4 | H | 46 | 49 | A-56-  | A-59-  | AHAF 
+| 1fiw | A | albelig | 5 | 5 | H | 55 | 57 | A-61-D | A-62-  | VTD 
+| 1fiw | A | albelig | 6 | 6 | E | 58 | 62 | A-63-  | A-66-  | WRLIF 
+| 1fiw | A | albelig | 7 | 7 | E | 80 | 89 | A-81-  | A-90-  | QERYVEKIII 
+| 1fiw | A | albelig | 8 | 8 | E | 103 | 108 | A-104-  | A-109-  | ALMKIT 
+| 1fiw | A | albelig | 9 | 9 | E | 135 | 140 | A-135-  | A-140-  | TDWVAG 
+| 1fiw | A | albelig | 10 | 10 | E | 156 | 163 | A-156-  | A-163-  | QEARVDLI 
+| 1fiw | A | albelig | 11 | 11 | H | 165 | 168 | A-165-  | A-168-  | LGLE 
+| 1fiw | A | albelig | 12 | 12 | E | 182 | 186 | A-180-  | A-184-  | NVEAG 
+| 1fiw | A | albelig | 13 | 13 | E | 202 | 206 | A-198-  | A-201-A | PLMDK 
+| 1fiw | A | albelig | 14 | 14 | E | 213 | 221 | A-203-  | A-215-  | YVVVGITSW 
+| 1fiw | A | albelig | 15 | 15 | E | 232 | 236 | A-226-  | A-230-  | GVYTS 
+| 1fiw | A | albelig | 16 | 16 | H | 238 | 248 | A-232-  | A-242-  | WSYLNWIASKI 
+| 1fiw | A | albelig | 17 | 17 | H | 250 | 255 | A-244-  | A-249-  | STAVHM 
+| 1fiw | A | albelig | 18 | 18 | L | 276 | 276 | A-301-  | A-301-  | J 
+| 1fiw | A | albelig | 19 | 19 | L | 277 | 277 | A-300-  | A-300-  | J 
+| 1fiw | A | albelig | 20 | 20 | L | 278 | 278 | A-302-  | A-302-  | J 
+| 1fiw | A | albelig | 21 | 21 | L | 279 | 279 | A-303-  | A-303-  | J 
+| 1fiw | A | albelig | 22 | 22 | L | 280 | 280 | A-304-  | A-304-  | J 
+| 1fiw | A | albelig | 23 | 23 | L | 281 | 281 | A-305-  | A-305-  | J 
+| 1fiw | A | albelig | 24 | 24 | L | 282 | 282 | A-306-  | A-306-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 5
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 8
+= 4 = l = 23
+= 5 = m = 6
+= 5 = l = 24
+= 6 = a = 7
+= 6 = l = 24
+= 7 = a = 8
+= 7 = l = 24
+= 8 = l = 24
+= 9 = a = 10
+= 9 = a = 13
+= 10 = a = 12
+= 11 = m = 12
+= 11 = l = 18
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 14 = l = 23
+= 15 = m = 16
+= 15 = l = 23
+= 18 = l = 19
+= 18 = l = 20
+= 18 = l = 21
+= 19 = l = 20
+= 20 = l = 21
+= 20 = l = 22
+= 21 = l = 22
+# Listed 31 contacts. EOF.

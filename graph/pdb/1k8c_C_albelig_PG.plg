@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k8c, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA BARREL, ALDO-KETO REDUCTASE, NADP(H), OXIDOREDUCTASE
+> pdb_mol_name > XYLOSE REDUCTASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 23-OCT-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF DIMERIC XYLOSE REDUCTASE IN COMPLEX WITH NADP(H)
+> format_version > 2
+> pdbid > 1k8c
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CANDIDA TENUIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k8c | C | albelig | 1 | 1 | E | 643 | 645 | C-7-  | C-9-  | DIK 
+| 1k8c | C | albelig | 2 | 2 | E | 651 | 653 | C-15-  | C-17-  | LMP 
+| 1k8c | C | albelig | 3 | 3 | H | 664 | 676 | C-28-  | C-40-  | NATAGEQVYQAIK 
+| 1k8c | C | albelig | 4 | 4 | E | 681 | 683 | C-45-  | C-47-  | LFD 
+| 1k8c | C | albelig | 5 | 5 | H | 686 | 688 | C-50-  | C-52-  | EDY 
+| 1k8c | C | albelig | 6 | 6 | H | 691 | 703 | C-55-  | C-67-  | EKEVGDGVKRAID 
+| 1k8c | C | albelig | 7 | 7 | H | 709 | 711 | C-73-  | C-75-  | REE 
+| 1k8c | C | albelig | 8 | 8 | E | 713 | 718 | C-77-  | C-82-  | FLTSKL 
+| 1k8c | C | albelig | 9 | 9 | H | 720 | 722 | C-84-  | C-86-  | NNY 
+| 1k8c | C | albelig | 10 | 10 | H | 725 | 739 | C-89-  | C-103-  | PKNVETALNKTLADL 
+| 1k8c | C | albelig | 11 | 11 | E | 744 | 749 | C-108-  | C-113-  | VDLFLI 
+| 1k8c | C | albelig | 12 | 12 | H | 783 | 795 | C-147-  | C-159-  | ILETWKALEKLVA 
+| 1k8c | C | albelig | 13 | 13 | E | 799 | 805 | C-163-  | C-169-  | IKSIGVS 
+| 1k8c | C | albelig | 14 | 14 | H | 809 | 818 | C-173-  | C-182-  | GALLLDLLRG 
+| 1k8c | C | albelig | 15 | 15 | E | 825 | 829 | C-189-  | C-193-  | VLQVE 
+| 1k8c | C | albelig | 16 | 16 | H | 837 | 845 | C-201-  | C-209-  | PKLIEFAQK 
+| 1k8c | C | albelig | 17 | 17 | E | 849 | 853 | C-213-  | C-217-  | TITAY 
+| 1k8c | C | albelig | 18 | 18 | H | 859 | 862 | C-223-  | C-226-  | QSFV 
+| 1k8c | C | albelig | 19 | 19 | H | 867 | 870 | C-231-  | C-234-  | GRAL 
+| 1k8c | C | albelig | 20 | 20 | H | 879 | 888 | C-243-  | C-252-  | DTIKAIAAKY 
+| 1k8c | C | albelig | 21 | 21 | H | 892 | 901 | C-256-  | C-265-  | PAEVLLRWAA 
+| 1k8c | C | albelig | 22 | 22 | H | 914 | 919 | C-278-  | C-283-  | PERLVQ 
+| 1k8c | C | albelig | 23 | 23 | H | 930 | 937 | C-294-  | C-301-  | KEDFEEIA 
+| 1k8c | C | albelig | 24 | 24 | H | 949 | 952 | C-313-  | C-316-  | WDWD 
+| 1k8c | C | albelig | 25 | 25 | L | 1281 | 1281 | C-3350-  | C-3350-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 8
+= 3 = p = 6
+= 4 = p = 8
+= 4 = l = 25
+= 5 = l = 25
+= 6 = m = 10
+= 8 = p = 11
+= 8 = l = 25
+= 10 = m = 11
+= 10 = p = 12
+= 11 = p = 13
+= 12 = m = 13
+= 13 = p = 15
+= 13 = l = 25
+= 15 = p = 17
+= 15 = l = 25
+= 17 = l = 25
+= 18 = l = 25
+= 21 = l = 25
+= 22 = l = 25
+# Listed 21 contacts. EOF.

@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jzk, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INVERTEBRATE, HEMOGLOBIN, ALLOSTERY, COOPERATIVITY, OXYGEN-BINDING, OXYGEN-TRANSPORT, HEME PROTEIN, OXYGENSTORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > GLOBIN I - ARK SHELL
+> graphtype > albelig
+> resolution > 2.2
+> date > 16-SEP-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > ARK CLAM
+> title > CRYSTAL STRUCTURE OF SCAPHARCA INAEQUIVALVIS HBI, I114FMUTANT (DEOXY)
+> format_version > 2
+> pdbid > 1jzk
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SCAPHARCA INAEQUIVALVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jzk | B | albelig | 1 | 1 | H | 148 | 152 | B-3-  | B-7-  | VYDAA 
+| 1jzk | B | albelig | 2 | 2 | H | 157 | 170 | B-12-  | B-25-  | ADVKKDLRDSWKVI 
+| 1jzk | B | albelig | 3 | 3 | H | 174 | 188 | B-29-  | B-43-  | KKGNGVALMTTLFAD 
+| 1jzk | B | albelig | 4 | 4 | H | 190 | 199 | B-45-  | B-54-  | QETIGYFKRL 
+| 1jzk | B | albelig | 5 | 5 | H | 202 | 207 | B-57-  | B-62-  | VSQGMA 
+| 1jzk | B | albelig | 6 | 6 | H | 209 | 227 | B-64-  | B-82-  | DKLRGHSITLMYALQNFID 
+| 1jzk | B | albelig | 7 | 7 | H | 232 | 248 | B-87-  | B-103-  | PDDLVCVVEKFAVNHIT 
+| 1jzk | B | albelig | 8 | 8 | H | 253 | 259 | B-108-  | B-114-  | AAEFGKF 
+| 1jzk | B | albelig | 9 | 9 | H | 260 | 269 | B-115-  | B-124-  | NGPIKKVLAS 
+| 1jzk | B | albelig | 10 | 10 | H | 274 | 288 | B-129-  | B-143-  | DKYANAWAKLVAVVQ 
+| 1jzk | B | albelig | 11 | 11 | L | 585 | 585 | B-147-  | B-147-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 6
+= 2 = m = 10
+= 3 = m = 4
+= 3 = m = 6
+= 3 = m = 9
+= 3 = l = 11
+= 4 = l = 11
+= 6 = l = 11
+= 7 = l = 11
+= 8 = m = 9
+= 8 = l = 11
+= 9 = m = 10
+= 9 = l = 11
+# Listed 13 contacts. EOF.

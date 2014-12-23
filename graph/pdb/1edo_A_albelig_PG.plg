@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1edo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOTIDE FOLD, ROSSMANN FOLD, OXIDOREDUCTASE
+> pdb_mol_name > BETA-KETO ACYL CARRIER PROTEIN REDUCTASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 28-JAN-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > RAPE
+> title > THE X-RAY STRUCTURE OF BETA-KETO ACYL CARRIER PROTEIN REDUCTASE FROMBRASSICA NAPUS COMPLEXED WITH NADP+
+> format_version > 2
+> pdbid > 1edo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BRASSICA NAPUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1edo | A | albelig | 1 | 1 | E | 3 | 6 | A-19-  | A-22-  | VVVV 
+| 1edo | A | albelig | 2 | 2 | H | 12 | 23 | A-28-  | A-39-  | GIGKAIALSLGK 
+| 1edo | A | albelig | 3 | 3 | E | 27 | 32 | A-43-  | A-48-  | KVLVNY 
+| 1edo | A | albelig | 4 | 4 | H | 36 | 49 | A-52-  | A-65-  | AKAAEEVSKQIEAY 
+| 1edo | A | albelig | 5 | 5 | E | 52 | 57 | A-68-  | A-73-  | QAITFG 
+| 1edo | A | albelig | 6 | 6 | H | 63 | 76 | A-79-  | A-92-  | EADVEAMMKTAIDA 
+| 1edo | A | albelig | 7 | 7 | E | 82 | 85 | A-98-  | A-101-  | VVVN 
+| 1edo | A | albelig | 8 | 8 | H | 95 | 97 | A-111-  | A-113-  | LIR 
+| 1edo | A | albelig | 9 | 9 | H | 100 | 112 | A-116-  | A-128-  | KSQWDEVIDLNLT 
+| 1edo | A | albelig | 10 | 10 | H | 113 | 128 | A-129-  | A-144-  | GVFLCTQAATKIMMKK 
+| 1edo | A | albelig | 11 | 11 | E | 131 | 136 | A-147-  | A-152-  | GRIINI 
+| 1edo | A | albelig | 12 | 12 | H | 140 | 143 | A-156-  | A-159-  | VGLI 
+| 1edo | A | albelig | 13 | 13 | H | 149 | 170 | A-165-  | A-186-  | ANYAAAKAGVIGFSKTAAREGA 
+| 1edo | A | albelig | 14 | 14 | E | 174 | 181 | A-190-  | A-197-  | INVNVVCP 
+| 1edo | A | albelig | 15 | 15 | H | 187 | 190 | A-203-  | A-206-  | DMTA 
+| 1edo | A | albelig | 16 | 16 | H | 194 | 201 | A-210-  | A-217-  | EDMEKKIL 
+| 1edo | A | albelig | 17 | 17 | H | 212 | 224 | A-228-  | A-240-  | PENVAGLVEFLAL 
+| 1edo | A | albelig | 18 | 18 | H | 227 | 230 | A-243-  | A-246-  | AASY 
+| 1edo | A | albelig | 19 | 19 | E | 235 | 238 | A-251-  | A-254-  | AFTI 
+| 1edo | A | albelig | 20 | 20 | L | 245 | 245 | A-301-  | A-301-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = p = 4
+= 2 = p = 17
+= 2 = l = 20
+= 3 = p = 5
+= 3 = l = 20
+= 4 = m = 5
+= 5 = m = 6
+= 6 = p = 10
+= 7 = p = 11
+= 9 = m = 10
+= 9 = p = 13
+= 9 = l = 20
+= 10 = a = 11
+= 10 = p = 13
+= 11 = m = 13
+= 11 = p = 14
+= 11 = m = 17
+= 11 = l = 20
+= 13 = a = 14
+= 13 = l = 20
+= 14 = p = 19
+= 14 = l = 20
+= 15 = l = 20
+# Listed 25 contacts. EOF.

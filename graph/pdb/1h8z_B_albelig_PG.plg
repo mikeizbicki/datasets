@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h8z, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, BETA-LACTAMASE, CLASS D, OXACILLINASE, OXA-13
+> pdb_mol_name > BETA-LACTAMASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 17-FEB-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE CLASS D BETA-LACTAMASE OXA-13
+> format_version > 2
+> pdbid > 1h8z
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h8z | B | albelig | 1 | 1 | H | 245 | 254 | B-26-  | B-35-  | TSWNKEFSAE 
+| 1h8z | B | albelig | 2 | 2 | E | 258 | 264 | B-39-  | B-45-  | GVFVLNK 
+| 1h8z | B | albelig | 3 | 3 | E | 270 | 272 | B-51-  | B-53-  | NAT 
+| 1h8z | B | albelig | 4 | 4 | H | 275 | 279 | B-56-  | B-60-  | LARAS 
+| 1h8z | B | albelig | 5 | 5 | H | 285 | 299 | B-66-  | B-80-  | ASTFKIPSAIIGLET 
+| 1h8z | B | albelig | 6 | 6 | H | 319 | 324 | B-108-  | B-113-  | LRGAIQ 
+| 1h8z | B | albelig | 7 | 7 | H | 328 | 338 | B-117-  | B-127-  | VPVFQQIAREV 
+| 1h8z | B | albelig | 8 | 8 | H | 340 | 349 | B-129-  | B-138-  | EVRMQKYLKK 
+| 1h8z | B | albelig | 9 | 9 | H | 374 | 385 | B-163-  | B-174-  | AVNQVEFLESLF 
+| 1h8z | B | albelig | 10 | 10 | H | 393 | 402 | B-182-  | B-191-  | KENQLIVKEA 
+| 1h8z | B | albelig | 11 | 11 | E | 404 | 408 | B-193-  | B-197-  | VTEAA 
+| 1h8z | B | albelig | 12 | 12 | E | 411 | 419 | B-200-  | B-208-  | YLVHSKTGF 
+| 1h8z | B | albelig | 13 | 13 | E | 427 | 439 | B-216-  | B-228-  | NPGVAWWVGWVEK 
+| 1h8z | B | albelig | 14 | 14 | E | 442 | 452 | B-231-  | B-241-  | EVYFFAFNMDI 
+| 1h8z | B | albelig | 15 | 15 | H | 455 | 457 | B-244-  | B-246-  | ENK 
+| 1h8z | B | albelig | 16 | 16 | H | 460 | 471 | B-249-  | B-260-  | LRKSIPTKIMAS 
+| 1h8z | B | albelig | 17 | 17 | L | 480 | 480 | B-1267-  | B-1267-  | J 
+| 1h8z | B | albelig | 18 | 18 | L | 481 | 481 | B-1268-  | B-1268-  | J 
+| 1h8z | B | albelig | 19 | 19 | L | 482 | 482 | B-1269-  | B-1269-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 16
+= 2 = a = 3
+= 2 = m = 4
+= 2 = a = 14
+= 5 = p = 7
+= 5 = m = 8
+= 5 = m = 9
+= 5 = m = 10
+= 5 = m = 12
+= 5 = l = 17
+= 6 = l = 17
+= 7 = m = 8
+= 9 = m = 10
+= 9 = p = 13
+= 9 = a = 14
+= 10 = m = 11
+= 10 = l = 18
+= 11 = a = 12
+= 12 = a = 13
+= 12 = l = 17
+= 12 = l = 19
+= 13 = a = 14
+= 13 = m = 16
+= 16 = l = 17
+= 16 = l = 19
+= 17 = l = 19
+# Listed 27 contacts. EOF.

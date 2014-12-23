@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1em8, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA POL III, HETERODIMER, CLAMP-LOADER, ALPHA-BETA FOLD,GENE REGULATION
+> pdb_mol_name > DNA POLYMERASE III PSI SUBUNIT
+> graphtype > albelig
+> resolution > 2.1
+> date > 16-MAR-00
+> header > GENE REGULATION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CHI AND PSI SUBUNIT HETERODIMER FROMDNA POL III
+> format_version > 2
+> pdbid > 1em8
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1em8 | D | albelig | 1 | 1 | E | 421 | 424 | D-39-  | D-42-  | LVMV 
+| 1em8 | D | albelig | 2 | 2 | H | 434 | 442 | D-52-  | D-60-  | PLVSDVLRA 
+| 1em8 | D | albelig | 3 | 3 | H | 447 | 449 | D-65-  | D-67-  | PDQ 
+| 1em8 | D | albelig | 4 | 4 | E | 450 | 453 | D-68-  | D-71-  | VLQL 
+| 1em8 | D | albelig | 5 | 5 | H | 455 | 460 | D-73-  | D-78-  | PEKIAM 
+| 1em8 | D | albelig | 6 | 6 | E | 469 | 472 | D-87-  | D-90-  | SWRL 
+| 1em8 | D | albelig | 7 | 7 | E | 484 | 487 | D-102-  | D-105-  | QVAS 
+| 1em8 | D | albelig | 8 | 8 | H | 490 | 495 | D-108-  | D-113-  | LTDLRA 
+| 1em8 | D | albelig | 9 | 9 | H | 497 | 509 | D-115-  | D-127-  | PTARAALWQQICT 
+| 1em8 | D | albelig | 10 | 10 | H | 511 | 514 | D-129-  | D-132-  | EHDF 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 3 = m = 4
+= 6 = p = 7
+= 7 = m = 9
+= 8 = m = 9
+# Listed 6 contacts. EOF.

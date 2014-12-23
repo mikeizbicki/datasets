@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jt0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTIDRUG BINDING PROTEIN, COOPERATIVE DNA BINDING, DIMEROF DIMERS, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > HYPOTHETICAL TRANSCRIPTIONAL REGULATOR IN QACA
+> graphtype > albelig
+> resolution > 2.9
+> date > 20-AUG-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A COOPERATIVE QACR-DNA COMPLEX
+> format_version > 2
+> pdbid > 1jt0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jt0 | B | albelig | 1 | 1 | H | 191 | 206 | B-3-  | B-18-  | LKDKILGVAKELFIKN 
+| 1jt0 | B | albelig | 2 | 2 | H | 213 | 220 | B-25-  | B-32-  | TGEIVKLS 
+| 1jt0 | B | albelig | 3 | 3 | H | 224 | 230 | B-36-  | B-42-  | KGNLYYH 
+| 1jt0 | B | albelig | 4 | 4 | H | 234 | 256 | B-46-  | B-68-  | KENLFLEILNIEESKWQEQWKKE 
+| 1jt0 | B | albelig | 5 | 5 | H | 263 | 273 | B-75-  | B-85-  | NREKFYLYNEL 
+| 1jt0 | B | albelig | 6 | 6 | H | 281 | 293 | B-93-  | B-105-  | YPLQNAIIEFYTE 
+| 1jt0 | B | albelig | 7 | 7 | H | 298 | 324 | B-110-  | B-136-  | NSINEKMNKLENKYIDAYHVIFKEGNL 
+| 1jt0 | B | albelig | 8 | 8 | H | 333 | 349 | B-145-  | B-161-  | VNAVSKIAANAVNGIVT 
+| 1jt0 | B | albelig | 9 | 9 | H | 356 | 372 | B-168-  | B-184-  | INERIKLMNKFSQIFLN 
+| 1jt0 | B | albelig | 10 | 10 | L | 754 | 754 | B-299-  | B-299-  | J 
+| 1jt0 | B | albelig | 11 | 11 | L | 755 | 755 | B-399-  | B-399-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = m = 4
+= 1 = m = 6
+= 4 = m = 5
+= 4 = a = 6
+= 4 = p = 7
+= 4 = l = 10
+= 5 = a = 7
+= 5 = a = 9
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+# Listed 13 contacts. EOF.

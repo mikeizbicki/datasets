@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1egm, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYANOCOBALAMIN, PROPANEDIOL, POTASSIUM ION, TIM BARREL,LYASE
+> pdb_mol_name > PROPANEDIOL DEHYDRATASE
+> graphtype > albelig
+> resolution > 1.85
+> date > 15-FEB-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF DIOL DEHYDRATASE-CYANOCOBALAMINCOMPLEX AT 100K.
+> format_version > 2
+> pdbid > 1egm
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA OXYTOCA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1egm | E | albelig | 1 | 1 | E | 1440 | 1443 | E-64-  | E-67-  | IIAV 
+| 1egm | E | albelig | 2 | 2 | H | 1460 | 1473 | E-84-  | E-97-  | HKSILREVIAGIEE 
+| 1egm | E | albelig | 3 | 3 | E | 1479 | 1482 | E-103-  | E-106-  | RVIR 
+| 1egm | E | albelig | 4 | 4 | H | 1489 | 1497 | E-113-  | E-121-  | VAFVAVEGN 
+| 1egm | E | albelig | 5 | 5 | E | 1504 | 1508 | E-128-  | E-132-  | ISIGI 
+| 1egm | E | albelig | 6 | 6 | E | 1514 | 1518 | E-138-  | E-142-  | TVIHQ 
+| 1egm | E | albelig | 7 | 7 | E | 1528 | 1530 | E-152-  | E-154-  | ELF 
+| 1egm | E | albelig | 8 | 8 | H | 1533 | 1535 | E-157-  | E-159-  | APL 
+| 1egm | E | albelig | 9 | 9 | H | 1538 | 1552 | E-162-  | E-176-  | LETYRQIGKNAARYA 
+| 1egm | E | albelig | 10 | 10 | H | 1568 | 1586 | E-192-  | E-210-  | ARPKYQAKSAILHIKETKY 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = p = 9
+= 4 = m = 5
+= 5 = a = 6
+= 5 = m = 9
+= 6 = a = 7
+# Listed 7 contacts. EOF.

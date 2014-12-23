@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h64, chain X.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SM-LIKE PROTEIN, SM FOLD, SPLICEOSOME, SNRNP CORE
+> pdb_mol_name > UNKNOWN
+> graphtype > albelig
+> resolution > 1.9
+> date > 05-JUN-01
+> header > SM-LIKE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE SM-RELATED PROTEIN OF P. ABYSSITHE BIOLOGICAL UNIT IS A HEPTAMER
+> format_version > 2
+> pdbid > 1h64
+> experiment > X-RAY DIFFRACTION
+> chainid > X
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h64 | X | albelig | 1 | 1 | H | 1803 | 1809 | X-5-  | X-11-  | PLDVIHR 
+| 1h64 | X | albelig | 2 | 2 | E | 1813 | 1819 | X-15-  | X-21-  | KDVLVIL 
+| 1h64 | X | albelig | 3 | 3 | E | 1823 | 1832 | X-25-  | X-34-  | FEFRGRLIGY 
+| 1h64 | X | albelig | 4 | 4 | E | 1838 | 1847 | X-40-  | X-49-  | VVLADAEMIQ 
+| 1h64 | X | albelig | 5 | 5 | E | 1850 | 1860 | X-52-  | X-62-  | EVVKRYGKIVI 
+| 1h64 | X | albelig | 6 | 6 | H | 1862 | 1864 | X-64-  | X-66-  | GDN 
+| 1h64 | X | albelig | 7 | 7 | E | 1865 | 1870 | X-67-  | X-72-  | VLAISP 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 6 = m = 7
+# Listed 6 contacts. EOF.

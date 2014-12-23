@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1grw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOSKETAL PROTEIN, CYTOSKELETON, SPERM, CELL MOTILITY
+> pdb_mol_name > MAJOR SPERM PROTEIN 31/40/142
+> graphtype > albelig
+> resolution > 2.6
+> date > 18-DEC-01
+> header > CYTOSKETAL PROTEIN
+> pdb_org_common > C.ELEGANS
+> title > C. ELEGANS MAJOR SPERM PROTEIN
+> format_version > 2
+> pdbid > 1grw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CAENORHABDITIS ELEGANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1grw | A | albelig | 1 | 1 | E | 7 | 10 | A-9-  | A-12-  | IQTQ 
+| 1grw | A | albelig | 2 | 2 | E | 15 | 18 | A-17-  | A-20-  | IVFN 
+| 1grw | A | albelig | 3 | 3 | E | 25 | 33 | A-27-  | A-35-  | HTYHIKVIN 
+| 1grw | A | albelig | 4 | 4 | E | 39 | 45 | A-41-  | A-47-  | IGYGIKT 
+| 1grw | A | albelig | 5 | 5 | E | 51 | 54 | A-53-  | A-56-  | LGVD 
+| 1grw | A | albelig | 6 | 6 | E | 57 | 60 | A-59-  | A-62-  | CGVL 
+| 1grw | A | albelig | 7 | 7 | E | 65 | 72 | A-67-  | A-74-  | AVLLAVSC 
+| 1grw | A | albelig | 8 | 8 | H | 77 | 79 | A-79-  | A-81-  | FGQ 
+| 1grw | A | albelig | 9 | 9 | E | 86 | 93 | A-88-  | A-95-  | RITVEWTN 
+| 1grw | A | albelig | 10 | 10 | H | 104 | 107 | A-106-  | A-109-  | REWF 
+| 1grw | A | albelig | 11 | 11 | E | 114 | 123 | A-116-  | A-125-  | RRKNLPIEYN 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 3
+= 2 = p = 11
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 6
+= 4 = a = 9
+= 5 = a = 7
+= 9 = m = 10
+= 9 = a = 11
+# Listed 10 contacts. EOF.

@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0y, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TCR, SUPERANTIGEN, SPEA, IMMUNE SYSTEM
+> pdb_mol_name > 14.3.D T CELL RECEPTOR BETA CHAIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 14-FEB-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > T CELL RECEPTOR BETA CHAIN COMPLEXED WITH SUPERANTIGEN SPEA SOAKEDWITH ZINC
+> format_version > 2
+> pdbid > 1l0y
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0y | C | albelig | 1 | 1 | E | 460 | 463 | C-4-  | C-7-  | VTQS 
+| 1l0y | C | albelig | 2 | 2 | E | 466 | 470 | C-10-  | C-14-  | NKVAV 
+| 1l0y | C | albelig | 3 | 3 | E | 475 | 481 | C-19-  | C-25-  | VTLSDQQ 
+| 1l0y | C | albelig | 4 | 4 | E | 487 | 493 | C-31-  | C-37-  | NMYWYRQ 
+| 1l0y | C | albelig | 5 | 5 | E | 499 | 505 | C-43-  | C-49-  | LRLIHYS 
+| 1l0y | C | albelig | 6 | 6 | E | 521 | 523 | C-66-  | C-68-  | KAS 
+| 1l0y | C | albelig | 7 | 7 | E | 529 | 534 | C-74-  | C-79-  | QFSLIL 
+| 1l0y | C | albelig | 8 | 8 | H | 539 | 541 | C-84-  | C-86-  | PSQ 
+| 1l0y | C | albelig | 9 | 9 | E | 543 | 550 | C-88-  | C-95-  | SVYFDASG 
+| 1l0y | C | albelig | 10 | 10 | H | 556 | 558 | C-101-  | C-105-  | YAE 
+| 1l0y | C | albelig | 11 | 11 | E | 559 | 561 | C-106-  | C-108-  | QFF 
+| 1l0y | C | albelig | 12 | 12 | E | 565 | 570 | C-112-  | C-250-  | TRLTVL 
+| 1l0y | C | albelig | 13 | 13 | H | 573 | 575 | C-119-  | C-121-  | LRQ 
+| 1l0y | C | albelig | 14 | 14 | E | 580 | 584 | C-126-  | C-130-  | KVSLF 
+| 1l0y | C | albelig | 15 | 15 | H | 588 | 592 | C-134-  | C-138-  | KAEIA 
+| 1l0y | C | albelig | 16 | 16 | E | 596 | 606 | C-142-  | C-152-  | KATLVELARGF 
+| 1l0y | C | albelig | 17 | 17 | E | 611 | 617 | C-157-  | C-163-  | VELSWWV 
+| 1l0y | C | albelig | 18 | 18 | E | 620 | 622 | C-166-  | C-168-  | KEV 
+| 1l0y | C | albelig | 19 | 19 | E | 626 | 628 | C-172-  | C-174-  | VST 
+| 1l0y | C | albelig | 20 | 20 | E | 633 | 636 | C-179-  | C-182-  | YKES 
+| 1l0y | C | albelig | 21 | 21 | E | 639 | 649 | C-189-  | C-199-  | SYCLSSRLRVS 
+| 1l0y | C | albelig | 22 | 22 | E | 659 | 666 | C-209-  | C-216-  | HFREQVQF 
+| 1l0y | C | albelig | 23 | 23 | E | 685 | 692 | C-235-  | C-242-  | QNISAEAW 
+| 1l0y | C | albelig | 24 | 24 | L | 921 | 921 | C-703-  | C-703-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 12
+= 2 = l = 24
+= 3 = a = 4
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 5 = a = 7
+= 6 = a = 7
+= 9 = m = 10
+= 9 = a = 11
+= 9 = a = 12
+= 10 = m = 11
+= 14 = a = 16
+= 14 = p = 23
+= 16 = a = 21
+= 16 = p = 22
+= 17 = a = 18
+= 17 = p = 21
+= 17 = a = 22
+= 17 = l = 24
+= 19 = a = 21
+= 20 = a = 21
+= 22 = a = 23
+= 22 = l = 24
+# Listed 28 contacts. EOF.

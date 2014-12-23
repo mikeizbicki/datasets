@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ikn, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION FACTOR, IKB/NFKB COMPLEX
+> pdb_mol_name > PROTEIN (NF-KAPPA-B P50D SUBUNIT)
+> graphtype > albelig
+> resolution > 2.3
+> date > 13-NOV-98
+> header > TRANSCRIPTION FACTOR
+> pdb_org_common > HOUSE MOUSE
+> title > IKAPPABALPHA/NF-KAPPAB COMPLEX
+> format_version > 2
+> pdbid > 1ikn
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ikn | C | albelig | 1 | 1 | E | 290 | 293 | C-250-  | C-253-  | IVRM 
+| 1ikn | C | albelig | 2 | 2 | E | 297 | 299 | C-257-  | C-259-  | AGC 
+| 1ikn | C | albelig | 3 | 3 | E | 305 | 310 | C-265-  | C-270-  | EIYLLC 
+| 1ikn | C | albelig | 4 | 4 | E | 318 | 325 | C-278-  | C-285-  | IQIRFYEE 
+| 1ikn | C | albelig | 5 | 5 | E | 331 | 335 | C-291-  | C-295-  | VWEGF 
+| 1ikn | C | albelig | 6 | 6 | H | 340 | 342 | C-300-  | C-302-  | PTD 
+| 1ikn | C | albelig | 7 | 7 | E | 348 | 352 | C-308-  | C-312-  | AIVFK 
+| 1ikn | C | albelig | 8 | 8 | E | 365 | 373 | C-325-  | C-333-  | ASVFVQLRR 
+| 1ikn | C | albelig | 9 | 9 | E | 383 | 388 | C-343-  | C-348-  | KPFLYY 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = p = 9
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 8
+= 6 = m = 7
+= 8 = a = 9
+# Listed 7 contacts. EOF.

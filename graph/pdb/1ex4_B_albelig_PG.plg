@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ex4, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SH3-LIKE DOMAIN, NONSPECIFIC DNA BINDING BETA SHEET, CIS-PROLINE,VIRAL PROTEIN
+> pdb_mol_name > INTEGRASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 28-APR-00
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > HIV-1 INTEGRASE CATALYTIC CORE AND C-TERMINAL DOMAIN
+> format_version > 2
+> pdbid > 1ex4
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ex4 | B | albelig | 1 | 1 | E | 220 | 222 | B-60-  | B-62-  | IWQ 
+| 1ex4 | B | albelig | 2 | 2 | E | 224 | 228 | B-64-  | B-68-  | DCTHL 
+| 1ex4 | B | albelig | 3 | 3 | E | 231 | 238 | B-71-  | B-78-  | KVILVAVH 
+| 1ex4 | B | albelig | 4 | 4 | E | 243 | 249 | B-83-  | B-89-  | YIEAEVI 
+| 1ex4 | B | albelig | 5 | 5 | H | 256 | 267 | B-96-  | B-107-  | ETAYFLLKLAGR 
+| 1ex4 | B | albelig | 6 | 6 | E | 272 | 274 | B-112-  | B-114-  | TIH 
+| 1ex4 | B | albelig | 7 | 7 | H | 279 | 282 | B-119-  | B-122-  | SNFT 
+| 1ex4 | B | albelig | 8 | 8 | H | 284 | 292 | B-124-  | B-132-  | ATVRAACDW 
+| 1ex4 | B | albelig | 9 | 9 | H | 300 | 315 | B-151-  | B-166-  | VESMNKELKKIIGQVR 
+| 1ex4 | B | albelig | 10 | 10 | H | 321 | 334 | B-172-  | B-185-  | LKTAVQMAVFIHNK 
+| 1ex4 | B | albelig | 11 | 11 | H | 345 | 370 | B-196-  | B-221-  | AGERIVDIIATDIQTKELQKQITKIQ 
+| 1ex4 | B | albelig | 12 | 12 | E | 372 | 376 | B-223-  | B-227-  | FRVYY 
+| 1ex4 | B | albelig | 13 | 13 | E | 385 | 394 | B-236-  | B-245-  | KGPAKLLWKG 
+| 1ex4 | B | albelig | 14 | 14 | E | 397 | 401 | B-248-  | B-252-  | AVVIQ 
+| 1ex4 | B | albelig | 15 | 15 | E | 406 | 410 | B-257-  | B-261-  | IKVVP 
+| 1ex4 | B | albelig | 16 | 16 | H | 411 | 413 | B-262-  | B-264-  | RRK 
+| 1ex4 | B | albelig | 17 | 17 | E | 414 | 418 | B-265-  | B-269-  | AKIIR 
+| 1ex4 | B | albelig | 18 | 18 | L | 422 | 422 | B-301-  | B-301-  | J 
+| 1ex4 | B | albelig | 19 | 19 | L | 423 | 423 | B-303-  | B-303-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 6
+= 2 = a = 3
+= 3 = a = 4
+= 3 = a = 9
+= 4 = a = 10
+= 9 = a = 10
+= 11 = m = 12
+= 11 = m = 13
+= 11 = l = 19
+= 12 = a = 13
+= 12 = a = 17
+= 12 = l = 18
+= 12 = l = 19
+= 13 = a = 14
+= 13 = l = 19
+= 14 = a = 15
+= 14 = l = 19
+= 15 = m = 16
+= 16 = m = 17
+= 16 = l = 19
+= 17 = l = 18
+= 17 = l = 19
+# Listed 23 contacts. EOF.

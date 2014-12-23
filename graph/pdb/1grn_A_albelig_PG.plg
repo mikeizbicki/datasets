@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1grn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSITION-STATE, G-PROTEIN, CDC42, GAP, ALF3, GENEREGULATION
+> pdb_mol_name > PROTEIN (GTP BINDING PROTEIN)
+> graphtype > albelig
+> resolution > 2.1
+> date > 30-JUL-98
+> header > GENE REGULATION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE CDC42/CDC42GAP/ALF3 COMPLEX.
+> format_version > 2
+> pdbid > 1grn
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1grn | A | albelig | 1 | 1 | E | 2 | 10 | A-2-  | A-10-  | QTIKCVVVG 
+| 1grn | A | albelig | 2 | 2 | H | 16 | 25 | A-16-  | A-25-  | KTCLLISYTT 
+| 1grn | A | albelig | 3 | 3 | E | 38 | 46 | A-38-  | A-46-  | DNYAVTVMI 
+| 1grn | A | albelig | 4 | 4 | E | 49 | 57 | A-49-  | A-57-  | EPYTLGLFD 
+| 1grn | A | albelig | 5 | 5 | H | 62 | 64 | A-62-  | A-64-  | EDY 
+| 1grn | A | albelig | 6 | 6 | H | 68 | 71 | A-68-  | A-71-  | RPLS 
+| 1grn | A | albelig | 7 | 7 | E | 77 | 83 | A-77-  | A-83-  | VFLVCFS 
+| 1grn | A | albelig | 8 | 8 | H | 87 | 97 | A-87-  | A-97-  | PSSFENVKEKW 
+| 1grn | A | albelig | 9 | 9 | H | 98 | 104 | A-98-  | A-104-  | VPEITHH 
+| 1grn | A | albelig | 10 | 10 | E | 110 | 115 | A-110-  | A-115-  | FLLVGT 
+| 1grn | A | albelig | 11 | 11 | H | 117 | 121 | A-117-  | A-121-  | IDLRD 
+| 1grn | A | albelig | 12 | 12 | H | 123 | 131 | A-123-  | A-131-  | PSTIEKLAK 
+| 1grn | A | albelig | 13 | 13 | H | 139 | 149 | A-139-  | A-149-  | PETAEKLARDL 
+| 1grn | A | albelig | 14 | 14 | E | 154 | 156 | A-154-  | A-156-  | YVE 
+| 1grn | A | albelig | 15 | 15 | H | 165 | 176 | A-165-  | A-176-  | LKNVFDEAILAA 
+| 1grn | A | albelig | 16 | 16 | L | 390 | 390 | A-199-  | A-199-  | J 
+| 1grn | A | albelig | 17 | 17 | L | 391 | 391 | A-198-  | A-198-  | J 
+| 1grn | A | albelig | 18 | 18 | L | 392 | 392 | A-200-  | A-200-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 1 = l = 18
+= 2 = m = 3
+= 2 = m = 4
+= 2 = m = 15
+= 2 = l = 16
+= 2 = l = 17
+= 2 = l = 18
+= 3 = a = 4
+= 4 = l = 16
+= 4 = l = 17
+= 7 = m = 8
+= 7 = p = 10
+= 8 = m = 9
+= 8 = m = 13
+= 10 = p = 14
+= 11 = l = 17
+= 16 = l = 17
+= 16 = l = 18
+= 17 = l = 18
+# Listed 21 contacts. EOF.

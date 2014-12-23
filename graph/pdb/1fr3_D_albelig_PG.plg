@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fr3, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLYBDATE, TUNGSTATE, MOLYBDATE HOMEOSTASIS, METAL BINDINGPROTEIN
+> pdb_mol_name > MOLYBDATE/TUNGSTATE BINDING PROTEIN
+> graphtype > albelig
+> resolution > 1.5
+> date > 07-SEP-00
+> header > METAL BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THE HIGH RESOLUTION STRUCTURE OF A MOLYBDATE BINDINGPROTEIN FROM SPOROMUSA OVATA
+> format_version > 2
+> pdbid > 1fr3
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SPOROMUSA OVATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fr3 | D | albelig | 1 | 1 | E | 211 | 222 | D-7-  | D-18-  | NKLEATVKEIVK 
+| 1fr3 | D | albelig | 2 | 2 | E | 226 | 233 | D-22-  | D-29-  | MAKIVMDY 
+| 1fr3 | D | albelig | 3 | 3 | E | 236 | 243 | D-32-  | D-39-  | TELVAAIT 
+| 1fr3 | D | albelig | 4 | 4 | H | 244 | 250 | D-40-  | D-46-  | IDSVADL 
+| 1fr3 | D | albelig | 5 | 5 | E | 257 | 262 | D-53-  | D-58-  | KVTALV 
+| 1fr3 | D | albelig | 6 | 6 | H | 264 | 266 | D-60-  | D-62-  | ATE 
+| 1fr3 | D | albelig | 7 | 7 | E | 268 | 270 | D-64-  | D-66-  | EVL 
+| 1fr3 | D | albelig | 8 | 8 | L | 821 | 821 | D-406-  | D-406-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = m = 4
+= 5 = l = 8
+= 6 = l = 8
+# Listed 6 contacts. EOF.

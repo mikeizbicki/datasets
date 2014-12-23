@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1igc, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN G, STREPTOCOCCUS, COMPLEX (ANTIBODY/BINDINGPROTEIN) COMPLEX
+> pdb_mol_name > IGG1-KAPPA MOPC21 FAB (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 2.6
+> date > 05-AUG-94
+> header > COMPLEX (ANTIBODY/BINDING PROTEIN)
+> pdb_org_common > HOUSE MOUSE
+> title > IGG1 FAB FRAGMENT (MOPC21) COMPLEX WITH DOMAIN III OFPROTEIN G FROM STREPTOCOCCUS
+> format_version > 2
+> pdbid > 1igc
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1igc | L | albelig | 1 | 1 | E | 5 | 7 | L-5-  | L-7-  | TQS 
+| 1igc | L | albelig | 2 | 2 | E | 12 | 14 | L-12-  | L-14-  | SMS 
+| 1igc | L | albelig | 3 | 3 | E | 19 | 24 | L-19-  | L-24-  | VTLTAK 
+| 1igc | L | albelig | 4 | 4 | E | 33 | 38 | L-33-  | L-38-  | VSWYQQ 
+| 1igc | L | albelig | 5 | 5 | E | 45 | 49 | L-45-  | L-49-  | KLLIY 
+| 1igc | L | albelig | 6 | 6 | E | 64 | 66 | L-64-  | L-66-  | GSG 
+| 1igc | L | albelig | 7 | 7 | E | 70 | 75 | L-70-  | L-75-  | DFTLTI 
+| 1igc | L | albelig | 8 | 8 | E | 84 | 90 | L-84-  | L-90-  | ADYHAGQ 
+| 1igc | L | albelig | 9 | 9 | E | 103 | 107 | L-103-  | L-107-  | KLEIK 
+| 1igc | L | albelig | 10 | 10 | E | 114 | 118 | L-114-  | L-118-  | TVSIF 
+| 1igc | L | albelig | 11 | 11 | H | 122 | 126 | L-122-  | L-126-  | SEQLT 
+| 1igc | L | albelig | 12 | 12 | E | 129 | 137 | L-129-  | L-137-  | GASVVNFLN 
+| 1igc | L | albelig | 13 | 13 | E | 145 | 149 | L-145-  | L-149-  | NVKWK 
+| 1igc | L | albelig | 14 | 14 | E | 173 | 181 | L-173-  | L-181-  | SMSSTLTLT 
+| 1igc | L | albelig | 15 | 15 | H | 182 | 185 | L-182-  | L-185-  | KDEY 
+| 1igc | L | albelig | 16 | 16 | E | 192 | 197 | L-192-  | L-197-  | TNEATH 
+| 1igc | L | albelig | 17 | 17 | E | 200 | 206 | L-200-  | L-206-  | STSPIVK 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 2 = p = 9
+= 3 = a = 7
+= 3 = p = 8
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+= 10 = a = 12
+= 10 = a = 17
+= 11 = m = 12
+= 12 = a = 14
+= 12 = p = 16
+= 13 = p = 14
+= 13 = a = 16
+= 14 = m = 15
+= 16 = a = 17
+# Listed 19 contacts. EOF.

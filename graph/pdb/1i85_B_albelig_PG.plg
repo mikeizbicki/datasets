@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i85, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IG V-TYPE DOMAIN, IMMUNE SYSTEM
+> pdb_mol_name > T LYMPHOCYTE ACTIVATION ANTIGEN CD86
+> graphtype > albelig
+> resolution > 3.2
+> date > 12-MAR-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE CTLA-4/B7-2 COMPLEX
+> format_version > 2
+> pdbid > 1i85
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i85 | B | albelig | 1 | 1 | E | 113 | 117 | B-2-  | B-6-  | KIQAY 
+| 1i85 | B | albelig | 2 | 2 | E | 140 | 144 | B-29-  | B-33-  | VVFWQ 
+| 1i85 | B | albelig | 3 | 3 | E | 150 | 155 | B-39-  | B-44-  | VLNEVY 
+| 1i85 | B | albelig | 4 | 4 | E | 172 | 175 | B-61-  | B-64-  | TSFD 
+| 1i85 | B | albelig | 5 | 5 | E | 180 | 183 | B-69-  | B-72-  | TLRL 
+| 1i85 | B | albelig | 6 | 6 | E | 193 | 199 | B-82-  | B-88-  | LYQNIIH 
+| 1i85 | B | albelig | 7 | 7 | E | 208 | 219 | B-97-  | B-108-  | RIHQMNSELSVL 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 2 = a = 3
+= 2 = a = 6
+= 4 = a = 5
+= 6 = a = 7
+# Listed 5 contacts. EOF.

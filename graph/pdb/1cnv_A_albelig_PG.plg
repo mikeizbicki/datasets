@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cnv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PLANT CHITINASE, CHITIN BINDING PROTEIN, SEED PROTEIN
+> pdb_mol_name > CONCANAVALIN B
+> graphtype > albelig
+> resolution > 1.65
+> date > 20-FEB-95
+> header > SEED PROTEIN
+> pdb_org_common > JACK BEAN
+> title > CRYSTAL STRUCTURE OF CONCANAVALIN B AT 1.65 A RESOLUTION
+> format_version > 2
+> pdbid > 1cnv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cnv | A | albelig | 1 | 1 | H | 2 | 4 | A-2-  | A-4-  | ISS 
+| 1cnv | A | albelig | 2 | 2 | E | 6 | 11 | A-6-  | A-11-  | EIAVYW 
+| 1cnv | A | albelig | 3 | 3 | H | 14 | 16 | A-14-  | A-16-  | RED 
+| 1cnv | A | albelig | 4 | 4 | H | 19 | 24 | A-19-  | A-24-  | LRDTAK 
+| 1cnv | A | albelig | 5 | 5 | E | 30 | 36 | A-30-  | A-36-  | IVFISFL 
+| 1cnv | A | albelig | 6 | 6 | H | 62 | 74 | A-62-  | A-74-  | CSFLESQIKEAQR 
+| 1cnv | A | albelig | 7 | 7 | E | 78 | 84 | A-78-  | A-84-  | KVFLALG 
+| 1cnv | A | albelig | 8 | 8 | H | 95 | 109 | A-95-  | A-109-  | ADYAKDLAEYLHTYF 
+| 1cnv | A | albelig | 9 | 9 | E | 125 | 129 | A-125-  | A-129-  | GIHFD 
+| 1cnv | A | albelig | 10 | 10 | H | 139 | 153 | A-139-  | A-153-  | WDNLLEELYQIKDVY 
+| 1cnv | A | albelig | 11 | 11 | E | 158 | 161 | A-158-  | A-161-  | LLSA 
+| 1cnv | A | albelig | 12 | 12 | H | 173 | 176 | A-173-  | A-176-  | DNAI 
+| 1cnv | A | albelig | 13 | 13 | E | 183 | 187 | A-183-  | A-187-  | YIFVR 
+| 1cnv | A | albelig | 14 | 14 | H | 202 | 214 | A-202-  | A-214-  | QRIRNAWLSWTKS 
+| 1cnv | A | albelig | 15 | 15 | E | 222 | 227 | A-222-  | A-227-  | LFLELP 
+| 1cnv | A | albelig | 16 | 16 | H | 230 | 232 | A-230-  | A-232-  | QAT 
+| 1cnv | A | albelig | 17 | 17 | H | 241 | 248 | A-241-  | A-248-  | PSALIGQV 
+| 1cnv | A | albelig | 18 | 18 | H | 249 | 251 | A-249-  | A-251-  | LPY 
+| 1cnv | A | albelig | 19 | 19 | H | 255 | 258 | A-255-  | A-258-  | LQTR 
+| 1cnv | A | albelig | 20 | 20 | E | 259 | 265 | A-259-  | A-265-  | YAGIALW 
+| 1cnv | A | albelig | 21 | 21 | H | 267 | 273 | A-267-  | A-273-  | RQADKET 
+| 1cnv | A | albelig | 22 | 22 | H | 275 | 282 | A-275-  | A-282-  | YSTNIIRY 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 5
+= 2 = p = 20
+= 3 = m = 21
+= 4 = m = 6
+= 5 = p = 7
+= 7 = p = 9
+= 8 = p = 10
+= 9 = p = 11
+= 11 = p = 13
+= 13 = p = 15
+= 15 = p = 20
+= 17 = m = 18
+= 17 = m = 22
+= 19 = m = 20
+# Listed 14 contacts. EOF.

@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jx7, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NEW FOLD, HEXAMER, STRUCTURAL GENOMICS, BSGC STRUCTUREFUNDED BY NIH, PROTEIN STRUCTURE INITIATIVE, PSI, BERKELEYSTRUCTURAL GENOMICS CENTER, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL PROTEIN YCHN
+> graphtype > albelig
+> resolution > 2.8
+> date > 05-SEP-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF YCHN PROTEIN FROM E.COLI
+> format_version > 2
+> pdbid > 1jx7
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jx7 | B | albelig | 1 | 1 | E | 121 | 126 | B-203-  | B-208-  | KIVIVA 
+| 1jx7 | B | albelig | 2 | 2 | H | 134 | 149 | B-216-  | B-231-  | ESLFNSLRLAIALREQ 
+| 1jx7 | B | albelig | 3 | 3 | E | 154 | 159 | B-236-  | B-241-  | DLRLFL 
+| 1jx7 | B | albelig | 4 | 4 | H | 161 | 167 | B-243-  | B-249-  | SDAVTAG 
+| 1jx7 | B | albelig | 5 | 5 | H | 179 | 186 | B-261-  | B-268-  | IQQXLEIL 
+| 1jx7 | B | albelig | 6 | 6 | E | 193 | 196 | B-275-  | B-278-  | VKLC 
+| 1jx7 | B | albelig | 7 | 7 | H | 197 | 202 | B-279-  | B-284-  | KTCTDG 
+| 1jx7 | B | albelig | 8 | 8 | E | 214 | 217 | B-296-  | B-299-  | VEIG 
+| 1jx7 | B | albelig | 9 | 9 | H | 219 | 228 | B-301-  | B-310-  | LVELAQWTLS 
+| 1jx7 | B | albelig | 10 | 10 | E | 231 | 234 | B-313-  | B-316-  | KVLT 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 10
+= 2 = m = 5
+= 3 = p = 6
+= 3 = m = 9
+= 6 = m = 7
+= 6 = p = 8
+# Listed 7 contacts. EOF.

@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ckr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLECULAR CHAPERONE, HSP70, PEPTIDE BINDING, PROTEIN FOLDING
+> pdb_mol_name > HEAT SHOCK SUBSTRATE BINDING DOMAIN OF HSC-70
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-APR-99
+> header > CHAPERONE
+> pdb_org_common > NORWAY RAT
+> title > HIGH RESOLUTION SOLUTION STRUCTURE OF THE HEAT SHOCKCOGNATE-70 KD SUBSTRATE BINDING DOMAIN OBTAINED BYMULTIDIMENSIONAL NMR TECHNIQUES
+> format_version > 2
+> pdbid > 1ckr
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ckr | A | albelig | 1 | 1 | E | 17 | 21 | A-399-  | A-403-  | LGIET 
+| 1ckr | A | albelig | 2 | 2 | E | 25 | 27 | A-407-  | A-409-  | VMT 
+| 1ckr | A | albelig | 3 | 3 | E | 38 | 45 | A-420-  | A-427-  | TKQTQTFT 
+| 1ckr | A | albelig | 4 | 4 | E | 54 | 60 | A-436-  | A-442-  | VLIQVYE 
+| 1ckr | A | albelig | 5 | 5 | E | 70 | 77 | A-452-  | A-459-  | NLLGKFEL 
+| 1ckr | A | albelig | 6 | 6 | E | 89 | 97 | A-471-  | A-479-  | QIEVTFDID 
+| 1ckr | A | albelig | 7 | 7 | E | 101 | 108 | A-483-  | A-490-  | ILNVSAVD 
+| 1ckr | A | albelig | 8 | 8 | E | 113 | 119 | A-495-  | A-501-  | KENKITI 
+| 1ckr | A | albelig | 9 | 9 | H | 127 | 134 | A-508-  | A-515-  | SKEDIERM 
+| 1ckr | A | albelig | 10 | 10 | H | 138 | 143 | A-519-  | A-524-  | AEKYKA 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = a = 6
+= 3 = a = 6
+= 4 = a = 5
+= 5 = p = 7
+= 5 = a = 8
+= 6 = a = 7
+= 7 = a = 8
+# Listed 9 contacts. EOF.

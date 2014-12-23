@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1be3, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CYTOCHROME, MEMBRANE PROTEIN
+> pdb_mol_name > CYTOCHROME BC1 COMPLEX
+> graphtype > albelig
+> resolution > 3.0
+> date > 19-MAY-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > CATTLE
+> title > CYTOCHROME BC1 COMPLEX FROM BOVINE
+> format_version > 2
+> pdbid > 1be3
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1be3 | E | albelig | 1 | 1 | H | 1505 | 1507 | E-16-  | E-18-  | PEV 
+| 1be3 | E | albelig | 2 | 2 | H | 1515 | 1549 | E-26-  | E-60-  | KESSEARKGFSYLVTATTTVGVAYAAKNVVSQFVS 
+| 1be3 | E | albelig | 3 | 3 | H | 1555 | 1562 | E-66-  | E-73-  | ADVLAMSK 
+| 1be3 | E | albelig | 4 | 4 | E | 1578 | 1580 | E-89-  | E-91-  | FKW 
+| 1be3 | E | albelig | 5 | 5 | E | 1583 | 1589 | E-94-  | E-100-  | KPLFVRH 
+| 1be3 | E | albelig | 6 | 6 | H | 1592 | 1599 | E-103-  | E-110-  | KKEIDQEA 
+| 1be3 | E | albelig | 7 | 7 | H | 1612 | 1614 | E-123-  | E-125-  | DLE 
+| 1be3 | E | albelig | 8 | 8 | E | 1621 | 1625 | E-132-  | E-136-  | WVILI 
+| 1be3 | E | albelig | 9 | 9 | H | 1640 | 1642 | E-151-  | E-153-  | GDF 
+| 1be3 | E | albelig | 10 | 10 | E | 1645 | 1647 | E-156-  | E-158-  | YYC 
+| 1be3 | E | albelig | 11 | 11 | E | 1652 | 1654 | E-163-  | E-165-  | SHY 
+| 1be3 | E | albelig | 12 | 12 | E | 1660 | 1662 | E-171-  | E-173-  | IRK 
+| 1be3 | E | albelig | 13 | 13 | E | 1674 | 1676 | E-185-  | E-187-  | YEF 
+| 1be3 | E | albelig | 14 | 14 | E | 1682 | 1684 | E-193-  | E-195-  | VIV 
+| 1be3 | E | albelig | 15 | 15 | L | 2063 | 2063 | E-197-  | E-197-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = a = 5
+= 5 = a = 8
+= 10 = a = 11
+= 10 = l = 15
+= 11 = a = 12
+= 11 = l = 15
+= 13 = a = 14
+# Listed 7 contacts. EOF.

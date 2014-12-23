@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k66, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RESPONSE REGULATOR, CHEY HOMOLOGUE, HOMODIMER, APO-PROTEIN,(BETA/ALPHA)5, SIGNALING PROTEIN
+> pdb_mol_name > PHYTOCHROME RESPONSE REGULATOR RCPB
+> graphtype > albelig
+> resolution > 1.75
+> date > 15-OCT-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE CYANOBACTERIAL PHYTOCHROMERESPONSE REGULATOR, RCPB
+> format_version > 2
+> pdbid > 1k66
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TOLYPOTHRIX SP. PCC 7601
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k66 | A | albelig | 1 | 1 | E | 9 | 12 | A-9-  | A-12-  | LLVV 
+| 1k66 | A | albelig | 2 | 2 | H | 16 | 28 | A-16-  | A-28-  | DEDFSTFQRLLQR 
+| 1k66 | A | albelig | 3 | 3 | E | 35 | 38 | A-35-  | A-38-  | IYRC 
+| 1k66 | A | albelig | 4 | 4 | H | 41 | 49 | A-41-  | A-49-  | GDQALDFLY 
+| 1k66 | A | albelig | 5 | 5 | H | 57 | 59 | A-57-  | A-59-  | PDI 
+| 1k66 | A | albelig | 6 | 6 | E | 65 | 68 | A-65-  | A-68-  | VILL 
+| 1k66 | A | albelig | 7 | 7 | H | 77 | 84 | A-77-  | A-84-  | GREVLQEI 
+| 1k66 | A | albelig | 8 | 8 | H | 90 | 92 | A-90-  | A-92-  | LKK 
+| 1k66 | A | albelig | 9 | 9 | E | 95 | 99 | A-95-  | A-99-  | VVIMT 
+| 1k66 | A | albelig | 10 | 10 | H | 104 | 112 | A-104-  | A-112-  | PKDIEICYS 
+| 1k66 | A | albelig | 11 | 11 | E | 117 | 120 | A-117-  | A-120-  | SYIV 
+| 1k66 | A | albelig | 12 | 12 | H | 125 | 142 | A-125-  | A-142-  | IDRLTETVQTFIKYWLDI 
+| 1k66 | A | albelig | 13 | 13 | L | 300 | 300 | A-501-  | A-501-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 6
+= 2 = m = 12
+= 3 = m = 4
+= 3 = l = 13
+= 4 = l = 13
+= 6 = p = 9
+= 9 = p = 11
+= 10 = m = 11
+# Listed 9 contacts. EOF.

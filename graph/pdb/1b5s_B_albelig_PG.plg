@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b5s, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIHYDROLIPOYL TRANSACETYLASE, PYRUVATE DEHYDROGENASE, E2P,DIHYDROLIPOYL ACETYLTRANSFERASE, ACYLTRANSFERASE
+> pdb_mol_name > DIHYDROLIPOAMIDE ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 4.4
+> date > 10-JAN-99
+> header > ACYLTRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > DIHYDROLIPOYL TRANSACETYLASE (E.C.2.3.1.12) CATALYTIC DOMAIN (RESIDUES184-425) FROM BACILLUS STEAROTHERMOPHILUS
+> format_version > 2
+> pdbid > 1b5s
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GEOBACILLUS STEAROTHERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b5s | B | albelig | 1 | 1 | H | 264 | 276 | B-204-  | B-216-  | GIRRAIAKAMVHS 
+| 1b5s | B | albelig | 2 | 2 | E | 284 | 290 | B-224-  | B-230-  | TLMDEAD 
+| 1b5s | B | albelig | 3 | 3 | H | 292 | 300 | B-232-  | B-240-  | TKLVAHRKK 
+| 1b5s | B | albelig | 4 | 4 | H | 302 | 307 | B-242-  | B-247-  | KAIAAE 
+| 1b5s | B | albelig | 5 | 5 | H | 315 | 328 | B-255-  | B-268-  | LPYVVKALVSALRE 
+| 1b5s | B | albelig | 6 | 6 | H | 330 | 332 | B-270-  | B-272-  | PVL 
+| 1b5s | B | albelig | 7 | 7 | E | 351 | 353 | B-291-  | B-293-  | IGI 
+| 1b5s | B | albelig | 8 | 8 | H | 369 | 371 | B-309-  | B-311-  | ADR 
+| 1b5s | B | albelig | 9 | 9 | H | 374 | 389 | B-314-  | B-329-  | IFALAQEINELAEKAR 
+| 1b5s | B | albelig | 10 | 10 | H | 395 | 398 | B-335-  | B-338-  | PGEM 
+| 1b5s | B | albelig | 11 | 11 | E | 404 | 407 | B-344-  | B-347-  | TITN 
+| 1b5s | B | albelig | 12 | 12 | E | 426 | 430 | B-366-  | B-370-  | AILGI 
+| 1b5s | B | albelig | 13 | 13 | E | 434 | 439 | B-374-  | B-379-  | AEKPIV 
+| 1b5s | B | albelig | 14 | 14 | E | 444 | 456 | B-384-  | B-396-  | IVAAPMLALSLSF 
+| 1b5s | B | albelig | 15 | 15 | H | 464 | 478 | B-404-  | B-418-  | ATAQKALNHIKRLLS 
+| 1b5s | B | albelig | 16 | 16 | H | 480 | 482 | B-420-  | B-422-  | PEL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 14
+= 2 = p = 15
+= 7 = p = 11
+= 11 = p = 12
+= 12 = a = 14
+= 13 = a = 14
+# Listed 6 contacts. EOF.

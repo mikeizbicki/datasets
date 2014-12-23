@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1alx, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC, GRAMICIDIN, ANTIFUNGAL, ANTIBACTERIAL, ABTIBIOTIC,MEMBRANE ION CHANNEL, LINEAR GRAMICIDIN
+> pdb_mol_name > GRAMICIDIN A
+> graphtype > albelig
+> resolution > 1.2
+> date > 05-JUN-97
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > GRAMICIDIN D FROM BACILLUS BREVIS (METHANOL SOLVATE)
+> format_version > 2
+> pdbid > 1alx
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BREVIBACILLUS BREVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1alx | B | albelig | 1 | 1 | E | 18 | 30 | B-2-  | B-14-  | GAXAXVXWXWXWX 
+| 1alx | B | albelig | 2 | 2 | L | 47 | 47 | B-16-  | B-16-  | J 
+| 1alx | B | albelig | 3 | 3 | L | 57 | 57 | B-503-  | B-503-  | J 
+| 1alx | B | albelig | 4 | 4 | L | 58 | 58 | B-504-  | B-504-  | J 
+| 1alx | B | albelig | 5 | 5 | L | 59 | 59 | B-507-  | B-507-  | J 
+| 1alx | B | albelig | 6 | 6 | L | 60 | 60 | B-509-  | B-509-  | J 
+| 1alx | B | albelig | 7 | 7 | L | 61 | 61 | B-510-  | B-510-  | J 
+| 1alx | B | albelig | 8 | 8 | L | 62 | 62 | B-511-  | B-511-  | J 
+| 1alx | B | albelig | 9 | 9 | L | 63 | 63 | B-512-  | B-512-  | J 
+| 1alx | B | albelig | 10 | 10 | L | 64 | 64 | B-513-  | B-513-  | J 
+| 1alx | B | albelig | 11 | 11 | L | 65 | 65 | B-514-  | B-514-  | J 
+| 1alx | B | albelig | 12 | 12 | L | 66 | 66 | B-517-  | B-517-  | J 
+| 1alx | B | albelig | 13 | 13 | L | 67 | 67 | B-520-  | B-520-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 1 = l = 4
+= 1 = l = 5
+= 1 = l = 7
+= 1 = l = 8
+= 1 = l = 11
+= 1 = l = 12
+= 1 = l = 13
+= 2 = l = 9
+= 2 = l = 10
+= 3 = l = 6
+= 3 = l = 9
+= 4 = l = 8
+= 4 = l = 12
+= 4 = l = 13
+= 6 = l = 9
+= 8 = l = 12
+= 8 = l = 13
+# Listed 18 contacts. EOF.

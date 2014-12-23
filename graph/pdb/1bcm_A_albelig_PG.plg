@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > POLYNUCLEOTIDYL TRANSFERASE, DNA BINDING, ENDONUCLEASE,INTEGRASE, TRANSPOSASE
+> pdb_mol_name > BACTERIOPHAGE MU TRANSPOSASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 26-MAY-95
+> header > TRANSPOSASE
+> pdb_org_common > UNKNOWN
+> title > BACTERIOPHAGE MU TRANSPOSASE CORE DOMAIN WITH 2 MONOMERSPER ASYMMETRIC UNIT
+> format_version > 2
+> pdbid > 1bcm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE MU
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcm | A | albelig | 1 | 1 | E | 9 | 16 | A-265-  | A-272-  | WINGDGYL 
+| 1bcm | A | albelig | 2 | 2 | E | 32 | 38 | A-288-  | A-294-  | KTWFWQD 
+| 1bcm | A | albelig | 3 | 3 | E | 44 | 50 | A-300-  | A-306-  | ILGWRCD 
+| 1bcm | A | albelig | 4 | 4 | H | 55 | 69 | A-311-  | A-325-  | IDSIRLSFMDVVTRY 
+| 1bcm | A | albelig | 5 | 5 | E | 76 | 78 | A-332-  | A-334-  | HIT 
+| 1bcm | A | albelig | 6 | 6 | H | 107 | 114 | A-363-  | A-370-  | PKGLFLLM 
+| 1bcm | A | albelig | 7 | 7 | E | 117 | 119 | A-373-  | A-375-  | KMH 
+| 1bcm | A | albelig | 8 | 8 | H | 137 | 139 | A-393-  | A-395-  | RAF 
+| 1bcm | A | albelig | 9 | 9 | H | 141 | 145 | A-397-  | A-401-  | VGGLE 
+| 1bcm | A | albelig | 10 | 10 | H | 152 | 154 | A-408-  | A-410-  | PAL 
+| 1bcm | A | albelig | 11 | 11 | H | 168 | 170 | A-424-  | A-426-  | DNY 
+| 1bcm | A | albelig | 12 | 12 | H | 177 | 193 | A-433-  | A-449-  | AELFLKTLAEGVAMFNA 
+| 1bcm | A | albelig | 13 | 13 | H | 208 | 216 | A-464-  | A-472-  | FDDVFEREY 
+| 1bcm | A | albelig | 14 | 14 | H | 226 | 231 | A-482-  | A-487-  | EEQKRM 
+| 1bcm | A | albelig | 15 | 15 | E | 246 | 251 | A-502-  | A-507-  | EFTLKV 
+| 1bcm | A | albelig | 16 | 16 | E | 258 | 263 | A-514-  | A-519-  | AKNVYY 
+| 1bcm | A | albelig | 17 | 17 | H | 265 | 269 | A-521-  | A-525-  | MALMN 
+| 1bcm | A | albelig | 18 | 18 | E | 274 | 279 | A-530-  | A-535-  | KVVVRF 
+| 1bcm | A | albelig | 19 | 19 | E | 287 | 291 | A-543-  | A-547-  | TVYCY 
+| 1bcm | A | albelig | 20 | 20 | E | 297 | 303 | A-553-  | A-559-  | FICEAEC 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = a = 3
+= 2 = m = 4
+= 3 = a = 4
+= 3 = a = 12
+= 5 = p = 7
+= 15 = a = 16
+= 16 = a = 20
+= 18 = a = 19
+= 19 = a = 20
+# Listed 11 contacts. EOF.

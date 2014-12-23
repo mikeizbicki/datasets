@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ixv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANKYRIN REPEATS, PROTEIN BINDING
+> pdb_mol_name > PROBABLE 26S PROTEASOME REGULATORY SUBUNIT P28
+> graphtype > albelig
+> resolution > 2.3
+> date > 09-JUL-02
+> header > PROTEIN BINDING
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE ANALYSIS OF HOMOLOG OF ONCOPROTEINGANKYRIN, AN INTERACTOR OF RB AND CDK4/6
+> format_version > 2
+> pdbid > 1ixv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ixv | A | albelig | 1 | 1 | H | 3 | 10 | A-5-  | A-12-  | PLHQACME 
+| 1ixv | A | albelig | 2 | 2 | H | 13 | 22 | A-15-  | A-24-  | FFKVQELLHS 
+| 1ixv | A | albelig | 3 | 3 | H | 24 | 26 | A-26-  | A-28-  | PSL 
+| 1ixv | A | albelig | 4 | 4 | H | 37 | 43 | A-39-  | A-45-  | PLHWSVS 
+| 1ixv | A | albelig | 5 | 5 | H | 47 | 54 | A-49-  | A-56-  | HEITSFLL 
+| 1ixv | A | albelig | 6 | 6 | H | 62 | 64 | A-64-  | A-66-  | LDD 
+| 1ixv | A | albelig | 7 | 7 | H | 73 | 80 | A-75-  | A-82-  | PFHIACSV 
+| 1ixv | A | albelig | 8 | 8 | H | 83 | 90 | A-85-  | A-92-  | LEVVKSLY 
+| 1ixv | A | albelig | 9 | 9 | H | 108 | 114 | A-110-  | A-116-  | CLHLAVG 
+| 1ixv | A | albelig | 10 | 10 | H | 118 | 126 | A-120-  | A-128-  | FEVSQFLIE 
+| 1ixv | A | albelig | 11 | 11 | H | 141 | 148 | A-143-  | A-150-  | PLHRAASV 
+| 1ixv | A | albelig | 12 | 12 | H | 151 | 160 | A-153-  | A-162-  | LKLIELLCGL 
+| 1ixv | A | albelig | 13 | 13 | H | 175 | 181 | A-177-  | A-183-  | PLFHALA 
+| 1ixv | A | albelig | 14 | 14 | H | 185 | 195 | A-187-  | A-197-  | GDAAVLLVEKY 
+| 1ixv | A | albelig | 15 | 15 | H | 210 | 212 | A-212-  | A-214-  | EDV 
+| 1ixv | A | albelig | 16 | 16 | H | 216 | 225 | A-218-  | A-227-  | EQVKKFFLNN 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = m = 5
+= 4 = m = 5
+= 4 = m = 7
+= 5 = p = 8
+= 7 = m = 8
+= 9 = m = 10
+= 9 = m = 11
+= 10 = m = 12
+= 12 = p = 14
+= 14 = m = 16
+# Listed 11 contacts. EOF.

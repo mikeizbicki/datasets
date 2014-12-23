@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iul, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, RIKEN STRUCTURAL GENOMICS/PROTEOMICSINITIATIVE, RSGI, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL PROTEIN TT1466
+> graphtype > albelig
+> resolution > 2.0
+> date > 05-MAR-02
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF CELL-FREE ID.343 FROM THERMUS THERMOPHILUS
+> format_version > 2
+> pdbid > 1iul
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iul | A | albelig | 1 | 1 | H | 3 | 12 | A-3-  | A-12-  | DQELRAYLSQ 
+| 1iul | A | albelig | 2 | 2 | E | 15 | 19 | A-15-  | A-19-  | TIAVL 
+| 1iul | A | albelig | 3 | 3 | H | 28 | 37 | A-28-  | A-37-  | PAHYVPRYLR 
+| 1iul | A | albelig | 4 | 4 | E | 42 | 46 | A-42-  | A-46-  | RVLPV 
+| 1iul | A | albelig | 5 | 5 | H | 48 | 50 | A-48-  | A-50-  | PRF 
+| 1iul | A | albelig | 6 | 6 | H | 64 | 66 | A-64-  | A-66-  | LLD 
+| 1iul | A | albelig | 7 | 7 | E | 73 | 76 | A-73-  | A-76-  | ILDV 
+| 1iul | A | albelig | 8 | 8 | H | 80 | 82 | A-80-  | A-82-  | PSA 
+| 1iul | A | albelig | 9 | 9 | H | 84 | 93 | A-84-  | A-93-  | MDHLPEVLAL 
+| 1iul | A | albelig | 10 | 10 | E | 98 | 100 | A-98-  | A-100-  | VWL 
+| 1iul | A | albelig | 11 | 11 | H | 107 | 115 | A-107-  | A-115-  | PEFEKALKE 
+| 1iul | A | albelig | 12 | 12 | H | 126 | 133 | A-126-  | A-133-  | LMVEHKRL 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 7
+= 3 = m = 12
+= 7 = p = 10
+= 9 = m = 11
+# Listed 5 contacts. EOF.

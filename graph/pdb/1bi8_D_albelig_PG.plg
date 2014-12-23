@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bi8, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYCLIN DEPENDENT KINASE, CYCLIN DEPENDENT KINASE INHIBITORYPROTEIN, CDK, INK4, CELL CYCLE, COMPLEX (KINASE/INHIBITOR)
+> pdb_mol_name > CYCLIN-DEPENDENT KINASE INHIBITOR
+> graphtype > albelig
+> resolution > 2.8
+> date > 22-JUN-98
+> header > COMPLEX (KINASE/INHIBITOR)
+> pdb_org_common > HUMAN
+> title > MECHANISM OF G1 CYCLIN DEPENDENT KINASE INHIBITION FROM THESTRUCTURES CDK6-P19INK4D INHIBITOR COMPLEX
+> format_version > 2
+> pdbid > 1bi8
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bi8 | D | albelig | 1 | 1 | H | 692 | 702 | D-7-  | D-17-  | RAGDRLSGAAA 
+| 1bi8 | D | albelig | 2 | 2 | H | 706 | 713 | D-21-  | D-28-  | VQEVRRLL 
+| 1bi8 | D | albelig | 3 | 3 | H | 730 | 733 | D-45-  | D-48-  | ALQV 
+| 1bi8 | D | albelig | 4 | 4 | H | 739 | 747 | D-54-  | D-62-  | TAIALELLK 
+| 1bi8 | D | albelig | 5 | 5 | H | 762 | 769 | D-77-  | D-84-  | PVHDAART 
+| 1bi8 | D | albelig | 6 | 6 | H | 772 | 780 | D-87-  | D-95-  | LDTLKVLVE 
+| 1bi8 | D | albelig | 7 | 7 | H | 795 | 802 | D-110-  | D-117-  | PIHLAVQE 
+| 1bi8 | D | albelig | 8 | 8 | H | 805 | 814 | D-120-  | D-129-  | TAVVSFLAAE 
+| 1bi8 | D | albelig | 9 | 9 | H | 827 | 834 | D-142-  | D-149-  | PLELALQR 
+| 1bi8 | D | albelig | 10 | 10 | H | 837 | 844 | D-152-  | D-159-  | QDLVDILQ 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = m = 4
+= 4 = m = 6
+= 5 = m = 6
+= 6 = m = 8
+= 7 = m = 8
+= 8 = m = 10
+= 9 = m = 10
+# Listed 8 contacts. EOF.

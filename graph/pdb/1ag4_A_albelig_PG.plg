@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ag4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL PROTEIN, SPHERULATION-SPECIFIC PROTEIN,
+> pdb_mol_name > SPHERULIN 3A
+> graphtype > albelig
+> resolution > -1.0
+> date > 01-APR-97
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF SPHERULIN 3A (S3A) FROM PHYSARUMPOLYCEPHALUM, MINIMIZED AVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1ag4
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PHYSARUM POLYCEPHALUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ag4 | A | albelig | 1 | 1 | E | 16 | 19 | A-16-  | A-19-  | VFLY 
+| 1ag4 | A | albelig | 2 | 2 | E | 28 | 31 | A-28-  | A-31-  | SWKV 
+| 1ag4 | A | albelig | 3 | 3 | E | 34 | 36 | A-34-  | A-36-  | NVY 
+| 1ag4 | A | albelig | 4 | 4 | E | 50 | 53 | A-50-  | A-53-  | SVKV 
+| 1ag4 | A | albelig | 5 | 5 | E | 57 | 63 | A-57-  | A-63-  | TKAFIFK 
+| 1ag4 | A | albelig | 6 | 6 | E | 72 | 75 | A-72-  | A-75-  | IRLE 
+| 1ag4 | A | albelig | 7 | 7 | E | 78 | 80 | A-78-  | A-80-  | SQV 
+| 1ag4 | A | albelig | 8 | 8 | H | 84 | 87 | A-84-  | A-87-  | TTRN 
+| 1ag4 | A | albelig | 9 | 9 | E | 93 | 99 | A-93-  | A-99-  | SSIIVAT 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 3 = a = 9
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 9
+# Listed 6 contacts. EOF.

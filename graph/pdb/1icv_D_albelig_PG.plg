@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1icv, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA, OXIDOREDUCTASE
+> pdb_mol_name > OXYGEN-INSENSITIVE NAD(P)H NITROREDUCTASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 02-APR-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF ESCHERICHIA COLI NITROREDUCTASE COMPLEXEDWITH NICOTINIC ACID
+> format_version > 2
+> pdbid > 1icv
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1icv | D | albelig | 1 | 1 | H | 653 | 659 | D-3-  | D-9-  | IISVALK 
+| 1icv | D | albelig | 2 | 2 | H | 674 | 685 | D-24-  | D-35-  | PEQAEQIKTLLQ 
+| 1icv | D | albelig | 3 | 3 | H | 690 | 692 | D-40-  | D-42-  | STN 
+| 1icv | D | albelig | 4 | 4 | E | 696 | 701 | D-46-  | D-51-  | WHFIVA 
+| 1icv | D | albelig | 5 | 5 | H | 704 | 714 | D-54-  | D-64-  | EEGKARVAKSA 
+| 1icv | D | albelig | 6 | 6 | H | 719 | 727 | D-69-  | D-77-  | VFNERKXLD 
+| 1icv | D | albelig | 7 | 7 | E | 730 | 737 | D-80-  | D-87-  | HVVVFCAK 
+| 1icv | D | albelig | 8 | 8 | H | 742 | 754 | D-92-  | D-104-  | DVWLKLVVDQEDA 
+| 1icv | D | albelig | 9 | 9 | H | 761 | 782 | D-111-  | D-132-  | PEAKAANDKGRKFFADXHRKDL 
+| 1icv | D | albelig | 10 | 10 | H | 785 | 806 | D-135-  | D-156-  | DAEWXAKQVYLNVGNFLLGVAA 
+| 1icv | D | albelig | 11 | 11 | H | 819 | 825 | D-169-  | D-175-  | AAILDAE 
+| 1icv | D | albelig | 12 | 12 | H | 828 | 831 | D-178-  | D-181-  | LKEK 
+| 1icv | D | albelig | 13 | 13 | E | 833 | 842 | D-183-  | D-192-  | YTSLVVVPVG 
+| 1icv | D | albelig | 14 | 14 | H | 849 | 851 | D-199-  | D-201-  | FNA 
+| 1icv | D | albelig | 15 | 15 | H | 860 | 863 | D-210-  | D-213-  | QNIT 
+| 1icv | D | albelig | 16 | 16 | E | 864 | 866 | D-214-  | D-216-  | LTE 
+| 1icv | D | albelig | 17 | 17 | L | 890 | 890 | D-706-  | D-706-  | J 
+| 1icv | D | albelig | 18 | 18 | L | 891 | 891 | D-707-  | D-707-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 10
+= 3 = l = 17
+= 4 = m = 5
+= 4 = a = 7
+= 5 = a = 6
+= 5 = m = 11
+= 6 = l = 18
+= 7 = a = 10
+= 7 = a = 13
+= 8 = m = 9
+= 9 = l = 17
+= 10 = p = 13
+= 10 = l = 18
+= 11 = m = 13
+= 12 = m = 13
+= 13 = l = 18
+= 14 = l = 18
+= 15 = m = 16
+# Listed 18 contacts. EOF.

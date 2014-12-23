@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f11, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, ANTIBODY, FAB, HEPATITIS B, PRES2, IMMUNESYSTEM
+> pdb_mol_name > F124 IMMUNOGLOBULIN (IGG1 HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 18-MAY-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > F124 FAB FRAGMENT FROM A MONOCLONAL ANTI-PRES2 ANTIBODY
+> format_version > 2
+> pdbid > 1f11
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f11 | D | albelig | 1 | 1 | E | 656 | 659 | D-3-  | D-6-  | QLQQ 
+| 1f11 | D | albelig | 2 | 2 | E | 663 | 665 | D-10-  | D-12-  | ELV 
+| 1f11 | D | albelig | 3 | 3 | E | 671 | 678 | D-18-  | D-25-  | VKMSGKAS 
+| 1f11 | D | albelig | 4 | 4 | H | 682 | 684 | D-29-  | D-31-  | FTD 
+| 1f11 | D | albelig | 5 | 5 | E | 687 | 692 | D-34-  | D-39-  | MKWVKQ 
+| 1f11 | D | albelig | 6 | 6 | E | 698 | 705 | D-45-  | D-52-  | LEWIGDIN 
+| 1f11 | D | albelig | 7 | 7 | E | 710 | 713 | D-56-  | D-59-  | GTGY 
+| 1f11 | D | albelig | 8 | 8 | H | 715 | 717 | D-61-  | D-63-  | QKF 
+| 1f11 | D | albelig | 9 | 9 | E | 721 | 726 | D-67-  | D-72-  | ATLTVD 
+| 1f11 | D | albelig | 10 | 10 | H | 727 | 729 | D-73-  | D-75-  | KSS 
+| 1f11 | D | albelig | 11 | 11 | E | 731 | 736 | D-77-  | D-82-  | TAYMQL 
+| 1f11 | D | albelig | 12 | 12 | H | 741 | 743 | D-84-  | D-86-  | SED 
+| 1f11 | D | albelig | 13 | 13 | E | 745 | 751 | D-88-  | D-94-  | AVYYGAN 
+| 1f11 | D | albelig | 14 | 14 | E | 766 | 770 | D-107-  | D-111-  | TLVTV 
+| 1f11 | D | albelig | 15 | 15 | E | 779 | 783 | D-120-  | D-124-  | SVYPL 
+| 1f11 | D | albelig | 16 | 16 | E | 795 | 804 | D-138-  | D-147-  | VTLGHLVKGY 
+| 1f11 | D | albelig | 17 | 17 | E | 810 | 813 | D-153-  | D-157-  | TVTW 
+| 1f11 | D | albelig | 18 | 18 | H | 814 | 816 | D-162-  | D-164-  | NSG 
+| 1f11 | D | albelig | 19 | 19 | E | 828 | 830 | D-177-  | D-179-  | VLQ 
+| 1f11 | D | albelig | 20 | 20 | E | 833 | 842 | D-184-  | D-193-  | LYTLSSSVTV 
+| 1f11 | D | albelig | 21 | 21 | H | 846 | 849 | D-199-  | D-203-  | PRPS 
+| 1f11 | D | albelig | 22 | 22 | E | 853 | 858 | D-207-  | D-212-  | THNVAH 
+| 1f11 | D | albelig | 23 | 23 | H | 859 | 861 | D-213-  | D-215-  | PAS 
+| 1f11 | D | albelig | 24 | 24 | E | 863 | 868 | D-217-  | D-222-  | TKVDKK 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 13
+= 2 = p = 14
+= 3 = a = 11
+= 3 = p = 13
+= 5 = a = 6
+= 5 = p = 11
+= 5 = a = 13
+= 6 = a = 7
+= 6 = p = 9
+= 7 = a = 9
+= 9 = m = 10
+= 9 = a = 11
+= 13 = a = 14
+= 15 = a = 16
+= 15 = p = 24
+= 16 = a = 20
+= 17 = m = 18
+= 17 = p = 20
+= 17 = a = 22
+= 19 = a = 20
+= 22 = m = 23
+= 22 = a = 24
+# Listed 23 contacts. EOF.

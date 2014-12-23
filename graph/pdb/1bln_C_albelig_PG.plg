@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bln, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (MONOCLONAL ANTIBODY MRK-16 (LIGHT CHAIN))
+> graphtype > albelig
+> resolution > 2.8
+> date > 16-JUL-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > ANTI-P-GLYCOPROTEIN FAB MRK-16
+> format_version > 2
+> pdbid > 1bln
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bln | C | albelig | 1 | 1 | E | 437 | 440 | C-4-  | C-7-  | MTQT 
+| 1bln | C | albelig | 2 | 2 | E | 443 | 447 | C-10-  | C-14-  | SLSVS 
+| 1bln | C | albelig | 3 | 3 | E | 452 | 458 | C-19-  | C-25-  | ASISERS 
+| 1bln | C | albelig | 4 | 4 | E | 471 | 476 | C-33-  | C-38-  | LEWYLQ 
+| 1bln | C | albelig | 5 | 5 | E | 483 | 486 | C-45-  | C-48-  | KLLI 
+| 1bln | C | albelig | 6 | 6 | E | 500 | 505 | C-62-  | C-67-  | FSGSGS 
+| 1bln | C | albelig | 7 | 7 | E | 508 | 513 | C-70-  | C-75-  | DFTLKI 
+| 1bln | C | albelig | 8 | 8 | H | 518 | 520 | C-80-  | C-82-  | AED 
+| 1bln | C | albelig | 9 | 9 | E | 522 | 528 | C-84-  | C-90-  | GVYYEFQ 
+| 1bln | C | albelig | 10 | 10 | E | 540 | 545 | C-102-  | C-107-  | TKLEIK 
+| 1bln | C | albelig | 11 | 11 | E | 552 | 556 | C-114-  | C-118-  | TVSIF 
+| 1bln | C | albelig | 12 | 12 | H | 560 | 564 | C-122-  | C-126-  | SEQLT 
+| 1bln | C | albelig | 13 | 13 | E | 567 | 577 | C-129-  | C-139-  | GASVVFFLNNF 
+| 1bln | C | albelig | 14 | 14 | E | 584 | 588 | C-146-  | C-150-  | VKWKI 
+| 1bln | C | albelig | 15 | 15 | E | 592 | 594 | C-154-  | C-156-  | ERQ 
+| 1bln | C | albelig | 16 | 16 | E | 597 | 601 | C-159-  | C-163-  | VLNSW 
+| 1bln | C | albelig | 17 | 17 | E | 611 | 620 | C-173-  | C-182-  | YSMSSTLTLT 
+| 1bln | C | albelig | 18 | 18 | H | 621 | 625 | C-183-  | C-187-  | KDEYE 
+| 1bln | C | albelig | 19 | 19 | E | 630 | 634 | C-192-  | C-196-  | YTFEA 
+| 1bln | C | albelig | 20 | 20 | E | 639 | 643 | C-205-  | C-209-  | IVKSF 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 4 = a = 5
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 11 = p = 20
+= 12 = m = 13
+= 13 = a = 17
+= 13 = m = 18
+= 13 = p = 19
+= 14 = a = 15
+= 14 = a = 19
+= 16 = a = 17
+= 17 = m = 18
+= 19 = a = 20
+# Listed 19 contacts. EOF.

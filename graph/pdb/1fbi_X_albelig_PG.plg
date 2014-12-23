@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fbi, chain X.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_mol_name > GUINEA FOWL LYSOZYME
+> graphtype > albelig
+> resolution > 3.0
+> date > 19-JAN-95
+> header > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_org_common > HELMETED GUINEAFOWL
+> title > CRYSTAL STRUCTURE OF A CROSS-REACTION COMPLEX BETWEEN FABF9.13.7 AND GUINEA-FOWL LYSOZYME
+> format_version > 2
+> pdbid > 1fbi
+> experiment > X-RAY DIFFRACTION
+> chainid > X
+> graphclass > protein graph
+> pdb_org_sci > NUMIDA MELEAGRIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fbi | X | albelig | 1 | 1 | H | 442 | 451 | X-5-  | X-14-  | REELAAAMKR 
+| 1fbi | X | albelig | 2 | 2 | H | 462 | 473 | X-25-  | X-36-  | LGNWVFAAKFES 
+| 1fbi | X | albelig | 3 | 3 | E | 488 | 490 | X-51-  | X-53-  | TDY 
+| 1fbi | X | albelig | 4 | 4 | H | 517 | 520 | X-80-  | X-83-  | GSAL 
+| 1fbi | X | albelig | 5 | 5 | H | 526 | 536 | X-89-  | X-99-  | TATANHAKKIV 
+| 1fbi | X | albelig | 6 | 6 | H | 546 | 551 | X-109-  | X-114-  | VAWRKH 
+| 1fbi | X | albelig | 7 | 7 | H | 557 | 561 | X-120-  | X-124-  | VRVWI 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 7
+= 2 = m = 6
+= 2 = m = 7
+# Listed 4 contacts. EOF.

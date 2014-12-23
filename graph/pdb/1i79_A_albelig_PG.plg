@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i79, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SPERMIDINE BIOSYNTHESIS, LYASE, DECARBOXYLASE, PYRUVATE, S-ADENOSYLMETHIONINE, SANDWICH, ALLOSTERIC ENZYME, PYRUVOYL
+> pdb_mol_name > S-ADENOSYLMETHIONINE DECARBOXYLASE ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.01
+> date > 08-MAR-01
+> header > LYASE
+> pdb_org_common > HUMAN
+> title > HUMAN S-ADENOSYLMETHIONINE DECARBOXYLASE WITH COVALENTLY BOUNDPYRUVOYL GROUP AND COVALENTLY BOUND 5'-DEOXY-5'-[(3-HYDRAZINOPROPYL)METHYLAMINO]ADENOSINE
+> format_version > 2
+> pdbid > 1i79
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i79 | A | albelig | 1 | 1 | E | 65 | 68 | A-70-  | A-73-  | MFVS 
+| 1i79 | A | albelig | 2 | 2 | E | 71 | 76 | A-76-  | A-81-  | RFILKT 
+| 1i79 | A | albelig | 3 | 3 | H | 82 | 97 | A-87-  | A-102-  | LLKALVPLLKLARDYS 
+| 1i79 | A | albelig | 4 | 4 | E | 101 | 110 | A-106-  | A-115-  | SIQSFFYSRK 
+| 1i79 | A | albelig | 5 | 5 | H | 115 | 117 | A-120-  | A-122-  | PSH 
+| 1i79 | A | albelig | 6 | 6 | H | 125 | 133 | A-130-  | A-138-  | FQEEIEFLN 
+| 1i79 | A | albelig | 7 | 7 | E | 139 | 145 | A-144-  | A-150-  | GAGYCMG 
+| 1i79 | A | albelig | 8 | 8 | E | 151 | 157 | A-156-  | A-162-  | CWYLYTL 
+| 1i79 | A | albelig | 9 | 9 | E | 167 | 174 | A-175-  | A-182-  | QTLEILMS 
+| 1i79 | A | albelig | 10 | 10 | H | 178 | 184 | A-186-  | A-192-  | PAVMDQF 
+| 1i79 | A | albelig | 11 | 11 | H | 192 | 198 | A-200-  | A-206-  | AKDVTRE 
+| 1i79 | A | albelig | 12 | 12 | H | 202 | 204 | A-210-  | A-212-  | RDL 
+| 1i79 | A | albelig | 13 | 13 | E | 209 | 214 | A-217-  | A-222-  | VIDATM 
+| 1i79 | A | albelig | 14 | 14 | E | 220 | 225 | A-228-  | A-233-  | YSMNGM 
+| 1i79 | A | albelig | 15 | 15 | E | 231 | 237 | A-239-  | A-245-  | YWTIHIT 
+| 1i79 | A | albelig | 16 | 16 | E | 244 | 249 | A-252-  | A-257-  | YVSFET 
+| 1i79 | A | albelig | 17 | 17 | H | 257 | 267 | A-265-  | A-275-  | DDLIRKVVEVF 
+| 1i79 | A | albelig | 18 | 18 | E | 271 | 279 | A-279-  | A-287-  | KFVTTLFVN 
+| 1i79 | A | albelig | 19 | 19 | E | 293 | 302 | A-305-  | A-314-  | FKRLDCQSAM 
+| 1i79 | A | albelig | 20 | 20 | E | 306 | 315 | A-318-  | A-327-  | YNFVFTSFAK 
+| 1i79 | A | albelig | 21 | 21 | L | 317 | 317 | A-68-  | A-68-  | J 
+| 1i79 | A | albelig | 22 | 22 | L | 318 | 318 | A-368-  | A-368-  | J 
+| 1i79 | A | albelig | 23 | 23 | L | 319 | 319 | A-350-  | A-350-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 15
+= 1 = l = 21
+= 2 = l = 21
+= 2 = l = 22
+= 3 = a = 4
+= 4 = a = 8
+= 4 = l = 23
+= 6 = m = 8
+= 7 = a = 8
+= 7 = a = 19
+= 9 = a = 16
+= 9 = p = 17
+= 9 = a = 18
+= 9 = l = 23
+= 13 = a = 14
+= 14 = a = 15
+= 14 = l = 21
+= 14 = l = 22
+= 15 = a = 16
+= 15 = l = 21
+= 15 = l = 22
+= 16 = l = 23
+= 18 = a = 20
+= 18 = l = 23
+= 19 = a = 20
+= 20 = l = 23
+= 21 = l = 22
+# Listed 28 contacts. EOF.

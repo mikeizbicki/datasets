@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvk, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMANIZED ANTIBODY, ANTIBODY COMPLEX, FV, ANTI-LYSOZYME,COMPLEX (HUMANIZED ANTIBODY/HYDROLASE)
+> pdb_mol_name > LYSOZYME
+> graphtype > albelig
+> resolution > 2.7
+> date > 16-SEP-98
+> header > COMPLEX (HUMANIZED ANTIBODY/HYDROLASE)
+> pdb_org_common > CHICKEN
+> title > HUMANIZED ANTI-LYSOZYME FV COMPLEXED WITH LYSOZYME
+> format_version > 2
+> pdbid > 1bvk
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvk | C | albelig | 1 | 1 | H | 231 | 240 | C-5-  | C-14-  | RCELAAAMKR 
+| 1bvk | C | albelig | 2 | 2 | H | 251 | 260 | C-25-  | C-34-  | LGNWVDAAKF 
+| 1bvk | C | albelig | 3 | 3 | E | 269 | 271 | C-43-  | C-45-  | TNR 
+| 1bvk | C | albelig | 4 | 4 | E | 277 | 279 | C-51-  | C-53-  | TDY 
+| 1bvk | C | albelig | 5 | 5 | H | 306 | 309 | C-80-  | C-83-  | ESAL 
+| 1bvk | C | albelig | 6 | 6 | H | 315 | 324 | C-89-  | C-98-  | TASVNFAKKI 
+| 1bvk | C | albelig | 7 | 7 | H | 330 | 333 | C-104-  | C-107-  | GMNA 
+| 1bvk | C | albelig | 8 | 8 | H | 335 | 340 | C-109-  | C-114-  | VAWRNR 
+| 1bvk | C | albelig | 9 | 9 | H | 347 | 349 | C-121-  | C-123-  | QAW 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = a = 4
+= 7 = m = 8
+# Listed 3 contacts. EOF.

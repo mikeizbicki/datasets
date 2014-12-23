@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gav, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIOPHAGE, CAPSID, COAT PROTEIN, ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > BACTERIOPHAGE GA PROTEIN CAPSID
+> graphtype > albelig
+> resolution > 3.4
+> date > 28-JAN-97
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > BACTERIOPHAGE GA PROTEIN CAPSID
+> format_version > 2
+> pdbid > 1gav
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE GA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gav | T | albelig | 1 | 1 | E | 2476 | 2479 | T-7-  | T-10-  | FVLV 
+| 1gav | T | albelig | 2 | 2 | E | 2487 | 2493 | T-18-  | T-24-  | VTVVPVS 
+| 1gav | T | albelig | 3 | 3 | H | 2495 | 2497 | T-26-  | T-28-  | ANG 
+| 1gav | T | albelig | 4 | 4 | E | 2499 | 2502 | T-30-  | T-33-  | AEWL 
+| 1gav | T | albelig | 5 | 5 | H | 2507 | 2509 | T-38-  | T-40-  | RSQ 
+| 1gav | T | albelig | 6 | 6 | E | 2512 | 2520 | T-43-  | T-51-  | RVTASYRAS 
+| 1gav | T | albelig | 7 | 7 | E | 2524 | 2534 | T-55-  | T-65-  | KRKYTIKLEVP 
+| 1gav | T | albelig | 8 | 8 | H | 2548 | 2550 | T-79-  | T-81-  | VSA 
+| 1gav | T | albelig | 9 | 9 | E | 2552 | 2562 | T-83-  | T-93-  | KAYASIDLTIP 
+| 1gav | T | albelig | 10 | 10 | H | 2567 | 2581 | T-98-  | T-112-  | TDDVTVISKSLAGLF 
+| 1gav | T | albelig | 11 | 11 | H | 2586 | 2592 | T-117-  | T-123-  | PIAEAIS 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 3 = m = 6
+= 4 = a = 6
+= 6 = a = 7
+= 7 = a = 9
+= 8 = m = 9
+# Listed 7 contacts. EOF.

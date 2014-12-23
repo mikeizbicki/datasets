@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gv1, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEHYDROGENASE, OXIDOREDUCTASE, TRICARBOXYLIC ACID CYCLE, NAD
+> pdb_mol_name > MALATE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 04-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL BASIS FOR THERMOPHILIC PROTEIN STABILITY:STRUCTURES OF THERMOPHILIC AND MESOPHILIC MALATEDEHYDROGENASES
+> format_version > 2
+> pdbid > 1gv1
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CHLOROBIUM VIBRIOFORME
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gv1 | C | albelig | 1 | 1 | E | 600 | 604 | C-2-  | C-6-  | KITVI 
+| 1gv1 | C | albelig | 2 | 2 | H | 608 | 618 | C-10-  | C-20-  | NVGATTAFRIA 
+| 1gv1 | C | albelig | 3 | 3 | E | 625 | 629 | C-27-  | C-31-  | ELVLL 
+| 1gv1 | C | albelig | 4 | 4 | H | 635 | 644 | C-37-  | C-46-  | IPQGKGLDMY 
+| 1gv1 | C | albelig | 5 | 5 | H | 647 | 650 | C-49-  | C-52-  | GPVG 
+| 1gv1 | C | albelig | 6 | 6 | E | 655 | 659 | C-57-  | C-61-  | KITGS 
+| 1gv1 | C | albelig | 7 | 7 | H | 662 | 665 | C-64-  | C-67-  | YADT 
+| 1gv1 | C | albelig | 8 | 8 | E | 670 | 673 | C-72-  | C-75-  | IVII 
+| 1gv1 | C | albelig | 9 | 9 | H | 685 | 704 | C-87-  | C-106-  | REDLLMKNAGIVKEVTDNIM 
+| 1gv1 | C | albelig | 10 | 10 | E | 711 | 714 | C-113-  | C-116-  | IIIV 
+| 1gv1 | C | albelig | 11 | 11 | H | 719 | 730 | C-121-  | C-132-  | LDIMTHVAWVRS 
+| 1gv1 | C | albelig | 12 | 12 | H | 734 | 736 | C-136-  | C-138-  | KER 
+| 1gv1 | C | albelig | 13 | 13 | E | 737 | 739 | C-139-  | C-141-  | VIG 
+| 1gv1 | C | albelig | 14 | 14 | H | 742 | 757 | C-144-  | C-159-  | GVLDAARFRSFIAMEL 
+| 1gv1 | C | albelig | 15 | 15 | H | 761 | 763 | C-163-  | C-165-  | MQD 
+| 1gv1 | C | albelig | 16 | 16 | E | 768 | 770 | C-170-  | C-172-  | VLG 
+| 1gv1 | C | albelig | 17 | 17 | H | 773 | 775 | C-175-  | C-177-  | GDA 
+| 1gv1 | C | albelig | 18 | 18 | E | 776 | 778 | C-178-  | C-180-  | MVP 
+| 1gv1 | C | albelig | 19 | 19 | H | 790 | 792 | C-192-  | C-194-  | ISD 
+| 1gv1 | C | albelig | 20 | 20 | H | 796 | 807 | C-198-  | C-209-  | AETIDKLVERTR 
+| 1gv1 | C | albelig | 21 | 21 | H | 809 | 817 | C-211-  | C-219-  | GGAEIVEHL 
+| 1gv1 | C | albelig | 22 | 22 | H | 824 | 838 | C-226-  | C-240-  | YAPASSVVEMVESIV 
+| 1gv1 | C | albelig | 23 | 23 | E | 843 | 852 | C-245-  | C-254-  | RVLPCAVGLE 
+| 1gv1 | C | albelig | 24 | 24 | H | 854 | 856 | C-256-  | C-258-  | QYG 
+| 1gv1 | C | albelig | 25 | 25 | E | 858 | 869 | C-260-  | C-271-  | DKTFVGVPVKLG 
+| 1gv1 | C | albelig | 26 | 26 | E | 872 | 876 | C-274-  | C-278-  | GVEQI 
+| 1gv1 | C | albelig | 27 | 27 | H | 883 | 901 | C-285-  | C-303-  | QADLDLLQKSAKIVDENCK 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 3 = p = 6
+= 4 = m = 6
+= 8 = p = 10
+= 9 = p = 11
+= 10 = m = 11
+= 10 = m = 12
+= 10 = p = 13
+= 11 = m = 13
+= 11 = m = 25
+= 12 = m = 13
+= 12 = m = 26
+= 13 = a = 23
+= 14 = a = 20
+= 14 = m = 22
+= 14 = m = 23
+= 16 = p = 18
+= 16 = a = 25
+= 17 = m = 18
+= 22 = m = 23
+= 22 = m = 25
+= 23 = a = 25
+= 25 = a = 26
+# Listed 24 contacts. EOF.

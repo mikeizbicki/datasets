@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g50, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA HELICES, ESTRADIOL, STRUCTURAL PROTEOMICS IN EUROPE,SPINE, STRUCTURAL GENOMICS, DNA BINDING PROTEIN
+> pdb_mol_name > ESTROGEN RECEPTOR
+> graphtype > albelig
+> resolution > 2.9
+> date > 30-OCT-00
+> header > DNA BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A WILD TYPE HER ALPHA LBD AT 2.9ANGSTROM RESOLUTION
+> format_version > 2
+> pdbid > 1g50
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g50 | A | albelig | 1 | 1 | H | 9 | 18 | A-312-  | A-321-  | ADQMVSALLD 
+| 1g50 | A | albelig | 2 | 2 | H | 38 | 60 | A-341-  | A-363-  | SMMGLLTNLADRELVHMINWAKR 
+| 1g50 | A | albelig | 3 | 3 | H | 69 | 91 | A-372-  | A-394-  | LHDQVHLLECAWLEILMIGLVWR 
+| 1g50 | A | albelig | 4 | 4 | E | 98 | 100 | A-401-  | A-403-  | KLL 
+| 1g50 | A | albelig | 5 | 5 | E | 106 | 108 | A-409-  | A-411-  | LLD 
+| 1g50 | A | albelig | 6 | 6 | H | 109 | 114 | A-412-  | A-417-  | RNQGKC 
+| 1g50 | A | albelig | 7 | 7 | H | 118 | 133 | A-421-  | A-436-  | MVEIFDMLLATSSRFR 
+| 1g50 | A | albelig | 8 | 8 | H | 139 | 151 | A-442-  | A-454-  | GEEFVCLKSIILL 
+| 1g50 | A | albelig | 9 | 9 | H | 165 | 188 | A-468-  | A-491-  | SLEEKDHIHRVLDKITDTLIHLMA 
+| 1g50 | A | albelig | 10 | 10 | H | 194 | 226 | A-497-  | A-529-  | LQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMK 
+| 1g50 | A | albelig | 11 | 11 | H | 235 | 244 | A-538-  | A-547-  | DLLLEMLDAH 
+| 1g50 | A | albelig | 12 | 12 | L | 740 | 740 | A-600-  | A-600-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 2 = a = 3
+= 2 = m = 11
+= 2 = l = 12
+= 3 = m = 7
+= 3 = a = 8
+= 3 = m = 10
+= 3 = m = 11
+= 3 = l = 12
+= 4 = a = 5
+= 5 = m = 6
+= 7 = a = 10
+= 7 = l = 12
+= 8 = a = 9
+= 9 = m = 10
+= 10 = m = 11
+= 10 = l = 12
+# Listed 17 contacts. EOF.

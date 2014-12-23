@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fd4, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEFENSIN, HUMAN BETA-DEFENSIN 2, BETA-DEFENSIN,ANTIMICROBIAL PEPTIDE
+> pdb_mol_name > BETA-DEFENSIN 2
+> graphtype > albelig
+> resolution > 1.7
+> date > 19-JUL-00
+> header > ANTIMICROBIAL PEPTIDE
+> pdb_org_common > UNKNOWN
+> title > HUMAN BETA-DEFENSIN 2
+> format_version > 2
+> pdbid > 1fd4
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fd4 | E | albelig | 1 | 1 | H | 173 | 178 | E-5-  | E-10-  | PVTMLK 
+| 1fd4 | E | albelig | 2 | 2 | E | 182 | 184 | E-14-  | E-16-  | INH 
+| 1fd4 | E | albelig | 3 | 3 | E | 193 | 197 | E-25-  | E-29-  | KQIGT 
+| 1fd4 | E | albelig | 4 | 4 | E | 204 | 207 | E-36-  | E-39-  | KMCK 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 3 = a = 4
+# Listed 2 contacts. EOF.

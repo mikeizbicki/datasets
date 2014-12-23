@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ezu, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MACROMOLECULAR COMPLEX, PROTEASE INHIBITOR, PROTEIN-PROTEININTERACTIONS, HYDROLASE/INHIBITOR COMPLEX
+> pdb_mol_name > TRYPSIN II, ANIONIC
+> graphtype > albelig
+> resolution > 2.4
+> date > 11-MAY-00
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > NORWAY RAT
+> title > ECOTIN Y69F, D70P BOUND TO D102N TRYPSIN
+> format_version > 2
+> pdbid > 1ezu
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ezu | C | albelig | 1 | 1 | E | 297 | 301 | C-430-  | C-434-  | QVSLN 
+| 1ezu | C | albelig | 2 | 2 | E | 305 | 313 | C-440-  | C-448-  | HFDGGSLIN 
+| 1ezu | C | albelig | 3 | 3 | E | 316 | 319 | C-451-  | C-454-  | WVVS 
+| 1ezu | C | albelig | 4 | 4 | H | 321 | 323 | C-456-  | C-458-  | AHD 
+| 1ezu | C | albelig | 5 | 5 | E | 329 | 332 | C-464-  | C-468-  | QVRL 
+| 1ezu | C | albelig | 6 | 6 | E | 345 | 354 | C-481-  | C-490-  | QFVNAAKIIK 
+| 1ezu | C | albelig | 7 | 7 | E | 368 | 372 | C-504-  | C-508-  | MLIKL 
+| 1ezu | C | albelig | 8 | 8 | E | 397 | 402 | C-535-  | C-540-  | QFLISG 
+| 1ezu | C | albelig | 9 | 9 | E | 418 | 423 | C-556-  | C-561-  | QCLDAP 
+| 1ezu | C | albelig | 10 | 10 | H | 427 | 433 | C-565-  | C-571-  | QADGEAS 
+| 1ezu | C | albelig | 11 | 11 | E | 442 | 445 | C-580-  | C-583-  | MVGV 
+| 1ezu | C | albelig | 12 | 12 | E | 462 | 465 | C-598-  | C-601-  | PVVF 
+| 1ezu | C | albelig | 13 | 13 | E | 468 | 476 | C-604-  | C-616-  | ELQGIVSWG 
+| 1ezu | C | albelig | 14 | 14 | E | 486 | 489 | C-626-  | C-629-  | GVYT 
+| 1ezu | C | albelig | 15 | 15 | H | 491 | 493 | C-631-  | C-633-  | VEN 
+| 1ezu | C | albelig | 16 | 16 | H | 495 | 504 | C-635-  | C-644-  | VDWIQDTIAA 
+| 1ezu | C | albelig | 17 | 17 | L | 730 | 730 | C-650-  | C-650-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 12
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+# Listed 12 contacts. EOF.

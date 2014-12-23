@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1htd, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METALLOPROTEASE
+> pdb_mol_name > ATROLYSIN C
+> graphtype > albelig
+> resolution > 2.1
+> date > 20-JAN-94
+> header > METALLOPROTEASE
+> pdb_org_common > WESTERN DIAMONDBACK RATTLESNAKE
+> title > STRUCTURAL INTERACTION OF NATURAL AND SYNTHETIC INHIBITORSWITH THE VENOM METALLOPROTEINASE, ATROLYSIN C (HT-D)
+> format_version > 2
+> pdbid > 1htd
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CROTALUS ATROX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1htd | B | albelig | 1 | 1 | E | 205 | 213 | B-6-  | B-14-  | RYIELVVVA 
+| 1htd | B | albelig | 2 | 2 | H | 215 | 220 | B-16-  | B-21-  | HRVFMK 
+| 1htd | B | albelig | 3 | 3 | H | 225 | 246 | B-26-  | B-47-  | LNTIRTRVHEIVNFINGFYRSL 
+| 1htd | B | albelig | 4 | 4 | E | 248 | 257 | B-49-  | B-58-  | IHVSLTDLEI 
+| 1htd | B | albelig | 5 | 5 | H | 270 | 285 | B-71-  | B-86-  | SSDTLNAFAEWRETDL 
+| 1htd | B | albelig | 6 | 6 | H | 286 | 288 | B-87-  | B-89-  | LNR 
+| 1htd | B | albelig | 7 | 7 | E | 293 | 298 | B-94-  | B-99-  | NAQLLT 
+| 1htd | B | albelig | 8 | 8 | E | 322 | 326 | B-123-  | B-127-  | IGIVQ 
+| 1htd | B | albelig | 9 | 9 | H | 332 | 346 | B-133-  | B-147-  | NLLMGVTMAHELGHN 
+| 1htd | B | albelig | 10 | 10 | E | 361 | 363 | B-162-  | B-164-  | SLD 
+| 1htd | B | albelig | 11 | 11 | H | 379 | 390 | B-180-  | B-191-  | DDSMHYYERFLK 
+| 1htd | B | albelig | 12 | 12 | L | 404 | 404 | B-402-  | B-402-  | J 
+| 1htd | B | albelig | 13 | 13 | L | 405 | 405 | B-404-  | B-404-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 1 = l = 13
+= 3 = a = 4
+= 3 = p = 9
+= 5 = m = 7
+= 5 = m = 8
+= 7 = p = 8
+= 7 = a = 9
+= 8 = a = 9
+= 9 = l = 12
+# Listed 11 contacts. EOF.

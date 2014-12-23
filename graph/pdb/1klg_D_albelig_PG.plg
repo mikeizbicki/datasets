@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1klg, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HLA-DR1/TPI, ENTEROTOXIN C3, HUMAN MELANOMA ANTIGEN, CD4+ TCELLS, IMMUNE SYSTEM/TOXIN COMPLEX
+> pdb_mol_name > ENTEROTOXIN TYPE C-3
+> graphtype > albelig
+> resolution > 2.4
+> date > 11-DEC-01
+> header > IMMUNE SYSTEM/TOXIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF HLA-DR1/TPI(23-37, THR28-->ILE MUTANT)COMPLEXED WITH STAPHYLOCOCCAL ENTEROTOXIN C3 VARIANT 3B2(SEC3-3B2)
+> format_version > 2
+> pdbid > 1klg
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1klg | D | albelig | 1 | 1 | H | 391 | 393 | D-8-  | D-10-  | PDD 
+| 1klg | D | albelig | 2 | 2 | H | 397 | 399 | D-14-  | D-16-  | SSE 
+| 1klg | D | albelig | 3 | 3 | H | 405 | 411 | D-22-  | D-28-  | GNMKYLY 
+| 1klg | D | albelig | 4 | 4 | E | 416 | 421 | D-33-  | D-38-  | VSATKV 
+| 1klg | D | albelig | 5 | 5 | E | 431 | 434 | D-48-  | D-51-  | DLIY 
+| 1klg | D | albelig | 6 | 6 | E | 446 | 450 | D-63-  | D-67-  | KVKTE 
+| 1klg | D | albelig | 7 | 7 | H | 454 | 460 | D-71-  | D-77-  | EDLAKKY 
+| 1klg | D | albelig | 8 | 8 | E | 465 | 469 | D-82-  | D-86-  | VDVYG 
+| 1klg | D | albelig | 9 | 9 | E | 484 | 488 | D-108-  | D-112-  | KTDMY 
+| 1klg | D | albelig | 10 | 10 | E | 491 | 493 | D-115-  | D-117-  | ITK 
+| 1klg | D | albelig | 11 | 11 | E | 505 | 513 | D-129-  | D-137-  | QNVLVRVYE 
+| 1klg | D | albelig | 12 | 12 | E | 516 | 525 | D-140-  | D-149-  | RNTISFEVQT 
+| 1klg | D | albelig | 13 | 13 | E | 529 | 531 | D-153-  | D-155-  | SVT 
+| 1klg | D | albelig | 14 | 14 | H | 532 | 547 | D-156-  | D-171-  | AQELDIKARNFLINKK 
+| 1klg | D | albelig | 15 | 15 | E | 559 | 565 | D-183-  | D-189-  | TGYIKFI 
+| 1klg | D | albelig | 16 | 16 | E | 571 | 575 | D-195-  | D-199-  | TFWYD 
+| 1klg | D | albelig | 17 | 17 | H | 586 | 595 | D-210-  | D-219-  | QSKYLMMYND 
+| 1klg | D | albelig | 18 | 18 | E | 598 | 600 | D-222-  | D-224-  | TVD 
+| 1klg | D | albelig | 19 | 19 | E | 605 | 611 | D-229-  | D-235-  | KIEVHLT 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 14
+= 3 = m = 17
+= 4 = a = 8
+= 5 = a = 6
+= 6 = p = 9
+= 8 = p = 10
+= 8 = m = 14
+= 9 = m = 17
+= 11 = a = 12
+= 11 = p = 19
+= 12 = a = 14
+= 13 = m = 14
+= 13 = a = 18
+= 14 = m = 15
+= 14 = m = 17
+= 15 = a = 16
+= 15 = a = 19
+# Listed 17 contacts. EOF.

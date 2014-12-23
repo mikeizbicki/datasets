@@ -1,0 +1,87 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i10, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEHYDROGENASE, ROSSMANN FOLD, OXIDOREDUCTASE
+> pdb_mol_name > L-LACTATE DEHYDROGENASE M CHAIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 30-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > HUMAN MUSCLE L-LACTATE DEHYDROGENASE M CHAIN, TERNARY COMPLEX WITHNADH AND OXAMATE
+> format_version > 2
+> pdbid > 1i10
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i10 | G | albelig | 1 | 1 | H | 1995 | 1999 | G-3-  | G-7-  | LKDQL 
+| 1i10 | G | albelig | 2 | 2 | E | 2000 | 2002 | G-8-  | G-10-  | IYN 
+| 1i10 | G | albelig | 3 | 3 | E | 2013 | 2017 | G-21-  | G-25-  | KITVV 
+| 1i10 | G | albelig | 4 | 4 | H | 2021 | 2032 | G-29-  | G-40-  | AVGMACAISILM 
+| 1i10 | G | albelig | 5 | 5 | E | 2038 | 2042 | G-46-  | G-50-  | ELALV 
+| 1i10 | G | albelig | 6 | 6 | H | 2046 | 2057 | G-54-  | G-65-  | EDKLKGEMMDLQ 
+| 1i10 | G | albelig | 7 | 7 | H | 2060 | 2062 | G-68-  | G-70-  | SLF 
+| 1i10 | G | albelig | 8 | 8 | E | 2067 | 2070 | G-75-  | G-78-  | KIVS 
+| 1i10 | G | albelig | 9 | 9 | H | 2074 | 2077 | G-82-  | G-85-  | YNVT 
+| 1i10 | G | albelig | 10 | 10 | E | 2082 | 2085 | G-90-  | G-93-  | LVII 
+| 1i10 | G | albelig | 11 | 11 | H | 2095 | 2113 | G-108-  | G-126-  | LVQRNVNIFKFIIPNVVKY 
+| 1i10 | G | albelig | 12 | 12 | E | 2118 | 2121 | G-131-  | G-134-  | KLLI 
+| 1i10 | G | albelig | 13 | 13 | H | 2126 | 2137 | G-139-  | G-150-  | VDILTYVAWKIS 
+| 1i10 | G | albelig | 14 | 14 | H | 2141 | 2143 | G-154-  | G-156-  | KNR 
+| 1i10 | G | albelig | 15 | 15 | E | 2144 | 2146 | G-157-  | G-159-  | VIG 
+| 1i10 | G | albelig | 16 | 16 | H | 2150 | 2164 | G-163-  | G-177-  | NLDSARFRYLMGERL 
+| 1i10 | G | albelig | 17 | 17 | H | 2168 | 2170 | G-181-  | G-183-  | PLS 
+| 1i10 | G | albelig | 18 | 18 | E | 2175 | 2177 | G-188-  | G-190-  | VLG 
+| 1i10 | G | albelig | 19 | 19 | E | 2183 | 2185 | G-196-  | G-198-  | SVP 
+| 1i10 | G | albelig | 20 | 20 | H | 2187 | 2189 | G-200-  | G-202-  | WSG 
+| 1i10 | G | albelig | 21 | 21 | H | 2215 | 2231 | G-228-  | G-244-  | EVHKQVVESAYEVIKLK 
+| 1i10 | G | albelig | 22 | 22 | H | 2236 | 2250 | G-249-  | G-263-  | WAIGLSVADLAESIM 
+| 1i10 | G | albelig | 23 | 23 | E | 2255 | 2262 | G-268-  | G-275-  | RVHPVSTM 
+| 1i10 | G | albelig | 24 | 24 | E | 2274 | 2282 | G-287-  | G-295-  | FLSVPCILG 
+| 1i10 | G | albelig | 25 | 25 | E | 2285 | 2290 | G-298-  | G-303-  | GISDLV 
+| 1i10 | G | albelig | 26 | 26 | H | 2296 | 2314 | G-309-  | G-327-  | SEEEARLKKSADTLWGIQK 
+| 1i10 | G | albelig | 27 | 27 | L | 2669 | 2669 | G-821-  | G-821-  | J 
+| 1i10 | G | albelig | 28 | 28 | L | 2670 | 2670 | G-819-  | G-819-  | J 
+| 1i10 | G | albelig | 29 | 29 | L | 2671 | 2671 | G-820-  | G-820-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = p = 5
+= 3 = p = 10
+= 3 = l = 28
+= 4 = l = 28
+= 5 = p = 8
+= 5 = l = 28
+= 6 = m = 8
+= 9 = m = 11
+= 9 = l = 28
+= 10 = p = 12
+= 11 = p = 13
+= 11 = l = 28
+= 12 = m = 13
+= 12 = m = 14
+= 12 = p = 15
+= 13 = m = 24
+= 13 = l = 28
+= 14 = m = 15
+= 14 = m = 25
+= 15 = a = 23
+= 16 = a = 21
+= 16 = m = 22
+= 16 = m = 23
+= 16 = l = 27
+= 16 = l = 28
+= 16 = l = 29
+= 17 = l = 27
+= 18 = a = 19
+= 18 = a = 24
+= 21 = l = 29
+= 22 = m = 23
+= 22 = m = 24
+= 22 = l = 28
+= 23 = a = 24
+= 24 = a = 25
+= 28 = l = 29
+# Listed 37 contacts. EOF.

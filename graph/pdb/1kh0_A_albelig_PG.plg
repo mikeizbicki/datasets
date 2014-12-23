@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kh0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN L B1 DOMAIN, COMPUTATIONAL BASED PROTEIN DESIGN, TYPE 1' BETATURN, EXTENSIVE AMINO ACID MUTATIONS., PROTEIN BINDING
+> pdb_mol_name > PROTEIN L
+> graphtype > albelig
+> resolution > 1.9
+> date > 28-NOV-01
+> header > PROTEIN BINDING
+> pdb_org_common > UNKNOWN
+> title > ACCURATE COMPUTER BASE DESIGN OF A NEW BACKBONE CONFORMATION IN THESECOND TURN OF PROTEIN L
+> format_version > 2
+> pdbid > 1kh0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > FINEGOLDIA MAGNA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kh0 | A | albelig | 1 | 1 | E | 2 | 10 | A-3-  | A-11-  | EVTIKANLI 
+| 1kh0 | A | albelig | 2 | 2 | E | 16 | 24 | A-17-  | A-25-  | TQTAEFKGT 
+| 1kh0 | A | albelig | 3 | 3 | H | 25 | 43 | A-26-  | A-44-  | KEKALSEVLAYADTLKKDN 
+| 1kh0 | A | albelig | 4 | 4 | E | 46 | 53 | A-47-  | A-54-  | WTIDKRVT 
+| 1kh0 | A | albelig | 5 | 5 | E | 56 | 63 | A-57-  | A-64-  | VIILNIKF 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = m = 3
+= 4 = a = 5
+# Listed 4 contacts. EOF.

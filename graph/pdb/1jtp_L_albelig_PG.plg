@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jtp, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, HEAVY CHAIN ANTIBODY, VHH, INTERFACE,BINDING, ANTIBODY, HYDROLASE
+> pdb_mol_name > LYSOZYME C
+> graphtype > albelig
+> resolution > 1.9
+> date > 21-AUG-01
+> header > ANTIBODY, HYDROLASE
+> pdb_org_common > TURKEY
+> title > DEGENERATE INTERFACES IN ANTIGEN-ANTIBODY COMPLEXES
+> format_version > 2
+> pdbid > 1jtp
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MELEAGRIS GALLOPAVO
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jtp | L | albelig | 1 | 1 | H | 275 | 284 | L-5-  | L-14-  | REELAAAMKR 
+| 1jtp | L | albelig | 2 | 2 | H | 295 | 306 | L-25-  | L-36-  | LGNWVFAAKFES 
+| 1jtp | L | albelig | 3 | 3 | E | 313 | 315 | L-43-  | L-45-  | TNR 
+| 1jtp | L | albelig | 4 | 4 | E | 321 | 323 | L-51-  | L-53-  | TDY 
+| 1jtp | L | albelig | 5 | 5 | H | 350 | 354 | L-80-  | L-84-  | GSALL 
+| 1jtp | L | albelig | 6 | 6 | H | 359 | 369 | L-89-  | L-99-  | TASVNHAKKIA 
+| 1jtp | L | albelig | 7 | 7 | H | 374 | 377 | L-104-  | L-107-  | GMNA 
+| 1jtp | L | albelig | 8 | 8 | H | 379 | 384 | L-109-  | L-114-  | VAWRNR 
+| 1jtp | L | albelig | 9 | 9 | H | 390 | 394 | L-120-  | L-124-  | VHAWI 
+| 1jtp | L | albelig | 10 | 10 | L | 534 | 534 | L-503-  | L-503-  | J 
+| 1jtp | L | albelig | 11 | 11 | L | 535 | 535 | L-505-  | L-505-  | J 
+| 1jtp | L | albelig | 12 | 12 | L | 536 | 536 | L-406-  | L-406-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 8
+= 2 = m = 9
+= 2 = l = 11
+= 2 = l = 12
+= 3 = a = 4
+= 4 = l = 11
+= 8 = l = 12
+= 11 = l = 12
+# Listed 9 contacts. EOF.

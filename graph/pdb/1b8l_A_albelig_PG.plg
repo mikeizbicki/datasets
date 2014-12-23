@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b8l, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM BINDING PROTEIN, EF-HAND PROTEINS, PARVALBUMIN,CALCIUM-BINDING
+> pdb_mol_name > PROTEIN (PARVALBUMIN)
+> graphtype > albelig
+> resolution > 1.7
+> date > 01-FEB-99
+> header > CALCIUM BINDING PROTEIN
+> pdb_org_common > COMMON CARP
+> title > CALCIUM-BOUND D51A/E101D/F102W TRIPLE MUTANT OF BETA CARPPARVALBUMIN
+> format_version > 2
+> pdbid > 1b8l
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CYPRINUS CARPIO
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b8l | A | albelig | 1 | 1 | H | 8 | 17 | A-8-  | A-17-  | DADIAAALEA 
+| 1b8l | A | albelig | 2 | 2 | H | 26 | 33 | A-26-  | A-33-  | HKAFFAKV 
+| 1b8l | A | albelig | 3 | 3 | H | 40 | 50 | A-40-  | A-50-  | ADDVKKAFAII 
+| 1b8l | A | albelig | 4 | 4 | H | 60 | 63 | A-60-  | A-63-  | EDEL 
+| 1b8l | A | albelig | 5 | 5 | H | 66 | 69 | A-66-  | A-69-  | FLQN 
+| 1b8l | A | albelig | 6 | 6 | H | 79 | 89 | A-79-  | A-89-  | DGETKTFLKAG 
+| 1b8l | A | albelig | 7 | 7 | H | 99 | 107 | A-99-  | A-107-  | VDDWTALVK 
+| 1b8l | A | albelig | 8 | 8 | L | 109 | 109 | A-109-  | A-109-  | J 
+| 1b8l | A | albelig | 9 | 9 | L | 110 | 110 | A-110-  | A-110-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 3 = m = 7
+= 4 = m = 6
+= 7 = l = 8
+= 7 = l = 9
+# Listed 5 contacts. EOF.

@@ -1,0 +1,82 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g0i, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOMODIMER, COMPLEXED WITH MN2+, INOSITOL, AND PHOSPHATE,HYDROLASE
+> pdb_mol_name > INOSITOL MONOPHOSPHATASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 06-OCT-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF MJ0109 GENE PRODUCT INOSITOLMONOPHOSPHATASE-FRUCTOSE 1,6 BISPHOSPHATASE
+> format_version > 2
+> pdbid > 1g0i
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > METHANOCALDOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g0i | B | albelig | 1 | 1 | H | 256 | 271 | B-303-  | B-318-  | WDEIGKNIAKEIEKEI 
+| 1g0i | B | albelig | 2 | 2 | E | 283 | 286 | B-330-  | B-333-  | VVGT 
+| 1g0i | B | albelig | 3 | 3 | E | 292 | 294 | B-339-  | B-341-  | ETE 
+| 1g0i | B | albelig | 4 | 4 | H | 295 | 308 | B-342-  | B-355-  | IFDKISEDIALKYL 
+| 1g0i | B | albelig | 5 | 5 | E | 314 | 317 | B-361-  | B-364-  | NIVS 
+| 1g0i | B | albelig | 6 | 6 | E | 321 | 323 | B-368-  | B-370-  | GVI 
+| 1g0i | B | albelig | 7 | 7 | E | 329 | 334 | B-376-  | B-381-  | WTVVID 
+| 1g0i | B | albelig | 8 | 8 | H | 339 | 343 | B-386-  | B-390-  | SFNFI 
+| 1g0i | B | albelig | 9 | 9 | E | 351 | 357 | B-398-  | B-404-  | FCFGVFK 
+| 1g0i | B | albelig | 10 | 10 | E | 361 | 368 | B-408-  | B-415-  | PYYGLTYE 
+| 1g0i | B | albelig | 11 | 11 | E | 373 | 378 | B-420-  | B-425-  | SFYEAY 
+| 1g0i | B | albelig | 12 | 12 | E | 383 | 385 | B-430-  | B-432-  | AYL 
+| 1g0i | B | albelig | 13 | 13 | H | 412 | 418 | B-459-  | B-465-  | LEKLRNK 
+| 1g0i | B | albelig | 14 | 14 | H | 428 | 436 | B-475-  | B-483-  | FGLEMCYVA 
+| 1g0i | B | albelig | 15 | 15 | E | 442 | 445 | B-489-  | B-492-  | AVFD 
+| 1g0i | B | albelig | 16 | 16 | H | 452 | 463 | B-499-  | B-510-  | AVDIASSYIICK 
+| 1g0i | B | albelig | 17 | 17 | E | 468 | 470 | B-515-  | B-517-  | LIT 
+| 1g0i | B | albelig | 18 | 18 | E | 489 | 492 | B-536-  | B-539-  | IIVA 
+| 1g0i | B | albelig | 19 | 19 | H | 495 | 504 | B-542-  | B-551-  | KEMLDIILDL 
+| 1g0i | B | albelig | 20 | 20 | L | 511 | 511 | B-590-  | B-590-  | J 
+| 1g0i | B | albelig | 21 | 21 | L | 512 | 512 | B-591-  | B-591-  | J 
+| 1g0i | B | albelig | 22 | 22 | L | 513 | 513 | B-592-  | B-592-  | J 
+| 1g0i | B | albelig | 23 | 23 | L | 514 | 514 | B-593-  | B-593-  | J 
+| 1g0i | B | albelig | 24 | 24 | L | 515 | 515 | B-294-  | B-294-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 9
+= 1 = p = 10
+= 1 = m = 11
+= 2 = a = 3
+= 3 = m = 4
+= 3 = l = 22
+= 4 = m = 8
+= 4 = l = 20
+= 4 = l = 23
+= 5 = a = 6
+= 5 = p = 7
+= 7 = a = 9
+= 7 = m = 16
+= 7 = l = 20
+= 7 = l = 21
+= 7 = l = 23
+= 8 = l = 20
+= 8 = l = 22
+= 8 = l = 23
+= 9 = a = 10
+= 9 = m = 16
+= 10 = a = 11
+= 10 = m = 16
+= 11 = a = 12
+= 11 = m = 16
+= 14 = m = 16
+= 15 = a = 18
+= 16 = l = 21
+= 16 = l = 23
+= 17 = a = 18
+= 20 = l = 21
+= 20 = l = 22
+= 20 = l = 23
+= 21 = l = 22
+= 21 = l = 23
+= 22 = l = 23
+# Listed 37 contacts. EOF.

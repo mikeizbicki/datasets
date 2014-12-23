@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1blc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE(ACTING IN CYCLIC AMIDES)
+> pdb_mol_name > BETA-LACTAMASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 27-SEP-93
+> header > HYDROLASE(ACTING IN CYCLIC AMIDES)
+> pdb_org_common > UNKNOWN
+> title > INHIBITION OF BETA-LACTAMASE BY CLAVULANATE: TRAPPEDINTERMEDIATES IN CRYOCRYSTALLOGRAPHIC STUDIES
+> format_version > 2
+> pdbid > 1blc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1blc | A | albelig | 1 | 1 | H | 3 | 10 | A-33-  | A-40-  | LNDLEKKY 
+| 1blc | A | albelig | 2 | 2 | E | 13 | 20 | A-43-  | A-50-  | HIGVYALD 
+| 1blc | A | albelig | 3 | 3 | E | 26 | 29 | A-56-  | A-60-  | EVKF 
+| 1blc | A | albelig | 4 | 4 | H | 38 | 52 | A-69-  | A-83-  | ASTSKAINSAILLEQ 
+| 1blc | A | albelig | 5 | 5 | H | 55 | 57 | A-88-  | A-90-  | YNK 
+| 1blc | A | albelig | 6 | 6 | E | 61 | 64 | A-94-  | A-97-  | KVHI 
+| 1blc | A | albelig | 7 | 7 | H | 66 | 68 | A-99-  | A-101-  | KDD 
+| 1blc | A | albelig | 8 | 8 | H | 76 | 79 | A-109-  | A-112-  | LEKY 
+| 1blc | A | albelig | 9 | 9 | E | 82 | 85 | A-115-  | A-118-  | KDIT 
+| 1blc | A | albelig | 10 | 10 | H | 86 | 96 | A-119-  | A-129-  | LKALIEASMTY 
+| 1blc | A | albelig | 11 | 11 | H | 99 | 109 | A-132-  | A-142-  | NTANNKIIKEI 
+| 1blc | A | albelig | 12 | 12 | H | 112 | 122 | A-145-  | A-155-  | IKKVKQRLKEL 
+| 1blc | A | albelig | 13 | 13 | H | 135 | 137 | A-168-  | A-170-  | ELN 
+| 1blc | A | albelig | 14 | 14 | H | 150 | 162 | A-183-  | A-195-  | PAAFGKTLNKLIA 
+| 1blc | A | albelig | 15 | 15 | H | 168 | 180 | A-201-  | A-213-  | KENKKFLLDLMLN 
+| 1blc | A | albelig | 16 | 16 | H | 188 | 191 | A-221-  | A-224-  | IKDG 
+| 1blc | A | albelig | 17 | 17 | E | 197 | 204 | A-230-  | A-237-  | KVADKSGQ 
+| 1blc | A | albelig | 18 | 18 | E | 211 | 218 | A-244-  | A-251-  | RNDVAFVY 
+| 1blc | A | albelig | 19 | 19 | E | 226 | 233 | A-259-  | A-266-  | IVLVIFTN 
+| 1blc | A | albelig | 20 | 20 | H | 244 | 254 | A-277-  | A-287-  | KLISETAKSVM 
+| 1blc | A | albelig | 21 | 21 | L | 258 | 258 | A-300-  | A-300-  | J 
+| 1blc | A | albelig | 22 | 22 | L | 259 | 259 | A-301-  | A-301-  | J 
+| 1blc | A | albelig | 23 | 23 | L | 260 | 260 | A-626-  | A-626-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 20
+= 2 = a = 3
+= 2 = p = 14
+= 2 = a = 19
+= 2 = p = 20
+= 4 = m = 10
+= 4 = p = 11
+= 4 = p = 14
+= 4 = m = 17
+= 4 = l = 22
+= 4 = l = 23
+= 6 = a = 9
+= 8 = m = 9
+= 9 = m = 10
+= 10 = m = 11
+= 10 = m = 15
+= 10 = l = 22
+= 11 = l = 23
+= 13 = l = 22
+= 13 = l = 23
+= 14 = m = 18
+= 14 = m = 19
+= 15 = m = 17
+= 16 = m = 20
+= 16 = l = 21
+= 17 = a = 18
+= 17 = l = 22
+= 17 = l = 23
+= 18 = a = 19
+= 19 = a = 20
+= 20 = l = 21
+= 22 = l = 23
+# Listed 33 contacts. EOF.

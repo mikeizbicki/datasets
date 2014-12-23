@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1byl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC RESISTANCE, BLEOMYCIN, DRUG SEQUESTERING, CHAIN SWAPPING,ANTIBIOTIC
+> pdb_mol_name > PROTEIN (BLEOMYCIN RESISTANCE PROTEIN)
+> graphtype > albelig
+> resolution > 2.3
+> date > 17-OCT-98
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > BLEOMYCIN RESISTANCE PROTEIN FROM STREPTOALLOTEICHUS HINDUSTANUS
+> format_version > 2
+> pdbid > 1byl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOALLOTEICHUS HINDUSTANUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1byl | A | albelig | 1 | 1 | E | 11 | 14 | A-10-  | A-13-  | VLTA 
+| 1byl | A | albelig | 2 | 2 | H | 17 | 27 | A-16-  | A-26-  | VAGAVEFWTDR 
+| 1byl | A | albelig | 3 | 3 | E | 31 | 35 | A-30-  | A-34-  | SRDFV 
+| 1byl | A | albelig | 4 | 4 | E | 39 | 44 | A-38-  | A-43-  | FAGVVR 
+| 1byl | A | albelig | 5 | 5 | E | 47 | 53 | A-46-  | A-52-  | VTLFISA 
+| 1byl | A | albelig | 6 | 6 | H | 60 | 62 | A-59-  | A-61-  | PDN 
+| 1byl | A | albelig | 7 | 7 | E | 64 | 69 | A-63-  | A-68-  | LAWVWV 
+| 1byl | A | albelig | 8 | 8 | H | 72 | 80 | A-71-  | A-79-  | LDELYAEWS 
+| 1byl | A | albelig | 9 | 9 | E | 99 | 101 | A-98-  | A-100-  | GEQ 
+| 1byl | A | albelig | 10 | 10 | E | 104 | 110 | A-103-  | A-109-  | GREFALR 
+| 1byl | A | albelig | 11 | 11 | E | 116 | 121 | A-115-  | A-120-  | CVHFVA 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 2 = a = 5
+= 3 = a = 4
+= 4 = a = 5
+= 7 = p = 11
+= 8 = m = 10
+= 9 = a = 10
+= 10 = a = 11
+# Listed 8 contacts. EOF.

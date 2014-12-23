@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l1q, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADENINE, APRTASE, GIARDIA LAMBLIA, PURINE METABOLISM, CATALYTIC LOOP,TRANSFERASE
+> pdb_mol_name > ADENINE PHOSPHORIBOSYLTRANSFERASE
+> graphtype > albelig
+> resolution > 1.85
+> date > 19-FEB-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF APRTASE FROM GIARDIA LAMBLIA COMPLEXED WITH 9-DEAZAADENINE
+> format_version > 2
+> pdbid > 1l1q
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GIARDIA INTESTINALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l1q | A | albelig | 1 | 1 | H | 4 | 9 | A-5-  | A-10-  | VADAHA 
+| 1l1q | A | albelig | 2 | 2 | E | 12 | 14 | A-13-  | A-15-  | KTI 
+| 1l1q | A | albelig | 3 | 3 | E | 24 | 26 | A-25-  | A-27-  | FKD 
+| 1l1q | A | albelig | 4 | 4 | H | 28 | 31 | A-29-  | A-32-  | SDIL 
+| 1l1q | A | albelig | 5 | 5 | H | 34 | 47 | A-35-  | A-48-  | PAALDAVRKEVTAH 
+| 1l1q | A | albelig | 6 | 6 | E | 55 | 59 | A-56-  | A-60-  | KVVGI 
+| 1l1q | A | albelig | 7 | 7 | H | 61 | 74 | A-62-  | A-75-  | SRGFILGGIVANSL 
+| 1l1q | A | albelig | 8 | 8 | E | 77 | 83 | A-78-  | A-84-  | GFVALRK 
+| 1l1q | A | albelig | 9 | 9 | E | 91 | 98 | A-92-  | A-99-  | VCKCTFDM 
+| 1l1q | A | albelig | 10 | 10 | E | 101 | 109 | A-102-  | A-110-  | QKGVTIEVQ 
+| 1l1q | A | albelig | 11 | 11 | H | 110 | 112 | A-111-  | A-113-  | KRQ 
+| 1l1q | A | albelig | 12 | 12 | E | 119 | 126 | A-120-  | A-127-  | VLLHDDVL 
+| 1l1q | A | albelig | 13 | 13 | H | 130 | 141 | A-131-  | A-142-  | GTLLAAIELCET 
+| 1l1q | A | albelig | 14 | 14 | H | 146 | 148 | A-147-  | A-149-  | PEN 
+| 1l1q | A | albelig | 15 | 15 | E | 149 | 156 | A-150-  | A-157-  | IYINVLYE 
+| 1l1q | A | albelig | 16 | 16 | H | 158 | 160 | A-159-  | A-161-  | EAL 
+| 1l1q | A | albelig | 17 | 17 | H | 162 | 166 | A-163-  | A-167-  | GREKV 
+| 1l1q | A | albelig | 18 | 18 | E | 173 | 178 | A-174-  | A-179-  | LFSVIR 
+| 1l1q | A | albelig | 19 | 19 | L | 182 | 182 | A-301-  | A-301-  | J 
+| 1l1q | A | albelig | 20 | 20 | L | 183 | 183 | A-302-  | A-302-  | J 
+| 1l1q | A | albelig | 21 | 21 | L | 184 | 184 | A-303-  | A-303-  | J 
+| 1l1q | A | albelig | 22 | 22 | L | 185 | 185 | A-201-  | A-201-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 21
+= 2 = a = 3
+= 2 = l = 21
+= 3 = l = 21
+= 3 = l = 22
+= 5 = m = 7
+= 6 = a = 7
+= 6 = p = 8
+= 6 = p = 12
+= 7 = m = 12
+= 7 = l = 19
+= 7 = l = 20
+= 7 = l = 22
+= 8 = a = 10
+= 8 = l = 20
+= 9 = a = 10
+= 9 = a = 13
+= 9 = l = 19
+= 9 = l = 22
+= 10 = m = 11
+= 10 = m = 13
+= 12 = p = 15
+= 12 = l = 19
+= 12 = l = 22
+= 13 = m = 15
+= 13 = l = 19
+= 14 = m = 15
+= 15 = p = 18
+= 15 = l = 21
+= 18 = l = 21
+= 19 = l = 22
+# Listed 31 contacts. EOF.

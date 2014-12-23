@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gco, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SHORT-CHAIN DEHYDROGENASE/REDUCTASE, OXIDOREDUCTASE
+> pdb_mol_name > GLUCOSE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 07-AUG-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF GLUCOSE DEHYDROGENASE COMPLEXED WITH NAD+
+> format_version > 2
+> pdbid > 1gco
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS MEGATERIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gco | F | albelig | 1 | 1 | H | 789 | 791 | F-3-  | F-5-  | KDL 
+| 1gco | F | albelig | 2 | 2 | E | 795 | 798 | F-9-  | F-12-  | VVVI 
+| 1gco | F | albelig | 3 | 3 | H | 804 | 815 | F-18-  | F-29-  | GLGKSMAIRFAT 
+| 1gco | F | albelig | 4 | 4 | E | 819 | 824 | F-33-  | F-38-  | KVVVNY 
+| 1gco | F | albelig | 5 | 5 | H | 828 | 840 | F-42-  | F-54-  | EDEANSVLEEIKK 
+| 1gco | F | albelig | 6 | 6 | E | 844 | 849 | F-58-  | F-63-  | EAIAVK 
+| 1gco | F | albelig | 7 | 7 | H | 855 | 869 | F-69-  | F-83-  | ESDVINLVQSAIKEF 
+| 1gco | F | albelig | 8 | 8 | E | 874 | 877 | F-88-  | F-91-  | VMIN 
+| 1gco | F | albelig | 9 | 9 | H | 887 | 889 | F-101-  | F-103-  | SHE 
+| 1gco | F | albelig | 10 | 10 | H | 892 | 904 | F-106-  | F-118-  | LSDWNKVIDTNLT 
+| 1gco | F | albelig | 11 | 11 | H | 905 | 919 | F-119-  | F-133-  | GAFLGSREAIKYFVE 
+| 1gco | F | albelig | 12 | 12 | E | 925 | 929 | F-139-  | F-143-  | TVINM 
+| 1gco | F | albelig | 13 | 13 | H | 932 | 934 | F-146-  | F-148-  | VHE 
+| 1gco | F | albelig | 14 | 14 | H | 942 | 965 | F-156-  | F-179-  | VHYAASKGGMKLMTETLALEYAPK 
+| 1gco | F | albelig | 15 | 15 | E | 968 | 974 | F-182-  | F-188-  | RVNNIGP 
+| 1gco | F | albelig | 16 | 16 | H | 980 | 987 | F-194-  | F-201-  | PINAEKFA 
+| 1gco | F | albelig | 17 | 17 | H | 989 | 996 | F-203-  | F-210-  | PEQRADVE 
+| 1gco | F | albelig | 18 | 18 | H | 1007 | 1018 | F-221-  | F-232-  | PEEIAAVAAWLA 
+| 1gco | F | albelig | 19 | 19 | H | 1020 | 1022 | F-234-  | F-236-  | SEA 
+| 1gco | F | albelig | 20 | 20 | E | 1029 | 1032 | F-243-  | F-246-  | TLFA 
+| 1gco | F | albelig | 21 | 21 | H | 1036 | 1038 | F-250-  | F-252-  | MTQ 
+| 1gco | F | albelig | 22 | 22 | H | 1040 | 1045 | F-254-  | F-259-  | PSFQAG 
+| 1gco | F | albelig | 23 | 23 | L | 1051 | 1051 | F-901-  | F-901-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 8
+= 3 = p = 5
+= 3 = p = 18
+= 3 = l = 23
+= 4 = p = 6
+= 4 = l = 23
+= 5 = l = 23
+= 8 = m = 11
+= 8 = p = 12
+= 10 = p = 14
+= 10 = l = 23
+= 11 = p = 14
+= 12 = m = 14
+= 12 = p = 15
+= 12 = l = 23
+= 13 = l = 23
+= 14 = m = 15
+= 14 = l = 23
+= 15 = p = 20
+= 15 = l = 23
+= 16 = l = 23
+# Listed 22 contacts. EOF.

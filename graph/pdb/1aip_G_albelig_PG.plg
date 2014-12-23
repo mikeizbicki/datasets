@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aip, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELONGATION FACTOR, NUCLEOTIDE EXCHANGE, GTP-BINDING,COMPLEX OF TWO ELONGATION FACTORS
+> pdb_mol_name > ELONGATION FACTOR TS
+> graphtype > albelig
+> resolution > 3.0
+> date > 22-APR-97
+> header > COMPLEX OF TWO ELONGATION FACTORS
+> pdb_org_common > UNKNOWN
+> title > EF-TU EF-TS COMPLEX FROM THERMUS THERMOPHILUS
+> format_version > 2
+> pdbid > 1aip
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aip | G | albelig | 1 | 1 | H | 1894 | 1903 | G-5-  | G-14-  | ELIKKLREAT 
+| 1aip | G | albelig | 2 | 2 | H | 1907 | 1916 | G-18-  | G-27-  | MMDVKRALED 
+| 1aip | G | albelig | 3 | 3 | H | 1921 | 1939 | G-32-  | G-50-  | EEKAVQLLRERGAMKAAKK 
+| 1aip | G | albelig | 4 | 4 | E | 1946 | 1953 | G-57-  | G-64-  | EGIIGHYI 
+| 1aip | G | albelig | 5 | 5 | E | 1959 | 1967 | G-70-  | G-78-  | VGVLVELNC 
+| 1aip | G | albelig | 6 | 6 | H | 1970 | 1974 | G-81-  | G-85-  | DFVAR 
+| 1aip | G | albelig | 7 | 7 | H | 1976 | 1992 | G-87-  | G-103-  | ELFQNLAKDLAMHIAMM 
+| 1aip | G | albelig | 8 | 8 | H | 2004 | 2019 | G-115-  | G-130-  | AEELEKERQIYIQAAL 
+| 1aip | G | albelig | 9 | 9 | H | 2025 | 2043 | G-136-  | G-154-  | QQIAEKIAEGRLKKYLEEV 
+| 1aip | G | albelig | 10 | 10 | H | 2058 | 2069 | G-169-  | G-180-  | VKELIQQAIAKI 
+| 1aip | G | albelig | 11 | 11 | E | 2074 | 2082 | G-185-  | G-193-  | VVRRFNRFE 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 4 = a = 5
+= 4 = m = 6
+= 4 = p = 7
+= 5 = a = 7
+= 5 = a = 11
+= 6 = m = 7
+= 8 = a = 9
+# Listed 9 contacts. EOF.

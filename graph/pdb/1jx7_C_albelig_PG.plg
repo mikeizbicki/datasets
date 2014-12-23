@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jx7, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NEW FOLD, HEXAMER, STRUCTURAL GENOMICS, BSGC STRUCTUREFUNDED BY NIH, PROTEIN STRUCTURE INITIATIVE, PSI, BERKELEYSTRUCTURAL GENOMICS CENTER, UNKNOWN FUNCTION
+> pdb_mol_name > HYPOTHETICAL PROTEIN YCHN
+> graphtype > albelig
+> resolution > 2.8
+> date > 05-SEP-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF YCHN PROTEIN FROM E.COLI
+> format_version > 2
+> pdbid > 1jx7
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jx7 | C | albelig | 1 | 1 | E | 239 | 244 | C-403-  | C-408-  | KIVIVA 
+| 1jx7 | C | albelig | 2 | 2 | H | 253 | 267 | C-417-  | C-431-  | SLFNSLRLAIALREQ 
+| 1jx7 | C | albelig | 3 | 3 | E | 272 | 277 | C-436-  | C-441-  | DLRLFL 
+| 1jx7 | C | albelig | 4 | 4 | H | 279 | 285 | C-443-  | C-449-  | SDAVTAG 
+| 1jx7 | C | albelig | 5 | 5 | H | 297 | 306 | C-461-  | C-470-  | IQQXLEILTA 
+| 1jx7 | C | albelig | 6 | 6 | E | 311 | 314 | C-475-  | C-478-  | VKLC 
+| 1jx7 | C | albelig | 7 | 7 | H | 315 | 321 | C-479-  | C-485-  | KTCTDGR 
+| 1jx7 | C | albelig | 8 | 8 | E | 332 | 335 | C-496-  | C-499-  | VEIG 
+| 1jx7 | C | albelig | 9 | 9 | H | 337 | 345 | C-501-  | C-509-  | LVELAQWTL 
+| 1jx7 | C | albelig | 10 | 10 | E | 349 | 352 | C-513-  | C-516-  | KVLT 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 10
+= 2 = m = 5
+= 3 = p = 6
+= 3 = m = 9
+= 4 = m = 7
+= 6 = m = 7
+= 6 = p = 8
+# Listed 8 contacts. EOF.

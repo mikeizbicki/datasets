@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fx3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN TRASNPORT, TRANSLOCATION, TRANSPORT PROTEIN
+> pdb_mol_name > PROTEIN-EXPORT PROTEIN SECB
+> graphtype > albelig
+> resolution > 2.5
+> date > 25-SEP-00
+> header > TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF H. INFLUENZAE SECB
+> format_version > 2
+> pdbid > 1fx3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fx3 | A | albelig | 1 | 1 | E | 3 | 17 | A-17-  | A-31-  | VLQIQRIYVKDVSFE 
+| 1fx3 | A | albelig | 2 | 2 | H | 21 | 24 | A-35-  | A-38-  | LPHI 
+| 1fx3 | A | albelig | 3 | 3 | E | 37 | 45 | A-51-  | A-59-  | LSTETTQVG 
+| 1fx3 | A | albelig | 4 | 4 | E | 48 | 57 | A-62-  | A-71-  | LYEVVLNISV 
+| 1fx3 | A | albelig | 5 | 5 | E | 70 | 82 | A-84-  | A-96-  | ICEVKQAGVFTIS 
+| 1fx3 | A | albelig | 6 | 6 | H | 86 | 96 | A-100-  | A-110-  | DVQMAHCLTSQ 
+| 1fx3 | A | albelig | 7 | 7 | H | 97 | 115 | A-111-  | A-129-  | CPNMLFPYARELVSNLVNR 
+| 1fx3 | A | albelig | 8 | 8 | H | 128 | 142 | A-142-  | A-156-  | FDALFVEYMNRQQAE 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = p = 7
+= 3 = a = 4
+= 4 = a = 5
+= 4 = m = 7
+= 5 = a = 7
+= 6 = m = 7
+= 6 = m = 8
+# Listed 8 contacts. EOF.

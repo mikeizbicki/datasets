@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ij5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOURTY KDA CALCIUM BINDING PROTEIN, CBP40, METAL BINDINGPROTEIN
+> pdb_mol_name > PLASMODIAL SPECIFIC LAV1-2 PROTEIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 25-APR-01
+> header > METAL BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > METAL-FREE STRUCTURE OF MULTIDOMAIN EF-HAND PROTEIN, CBP40,FROM TRUE SLIME MOLD
+> format_version > 2
+> pdbid > 1ij5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PHYSARUM POLYCEPHALUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ij5 | A | albelig | 1 | 1 | H | 5 | 28 | A-37-  | A-60-  | QELTQREANVKKVHENLEELQKKL 
+| 1ij5 | A | albelig | 2 | 2 | H | 38 | 76 | A-74-  | A-112-  | LEAQIAQKEQEQKAKLAEYDQKVQNEFDARERAEREREA 
+| 1ij5 | A | albelig | 3 | 3 | H | 81 | 94 | A-117-  | A-130-  | AAAEKQRLASLLKD 
+| 1ij5 | A | albelig | 4 | 4 | H | 102 | 113 | A-150-  | A-161-  | EEDTNILRQLFL 
+| 1ij5 | A | albelig | 5 | 5 | H | 125 | 136 | A-173-  | A-184-  | FQDLKQVLAKYA 
+| 1ij5 | A | albelig | 6 | 6 | H | 143 | 153 | A-191-  | A-201-  | PLKKLFVMVEN 
+| 1ij5 | A | albelig | 7 | 7 | H | 159 | 166 | A-207-  | A-214-  | MSYITLVA 
+| 1ij5 | A | albelig | 8 | 8 | H | 168 | 172 | A-216-  | A-220-  | ANDLA 
+| 1ij5 | A | albelig | 9 | 9 | H | 178 | 181 | A-226-  | A-229-  | FRKI 
+| 1ij5 | A | albelig | 10 | 10 | H | 191 | 200 | A-239-  | A-248-  | RKEFREHFVR 
+| 1ij5 | A | albelig | 11 | 11 | H | 206 | 216 | A-254-  | A-264-  | KSVQDALFRYA 
+| 1ij5 | A | albelig | 12 | 12 | H | 226 | 245 | A-274-  | A-293-  | FSEYVHLGLCLLVLRILYAF 
+| 1ij5 | A | albelig | 13 | 13 | H | 256 | 265 | A-304-  | A-313-  | KEEVQKVLED 
+| 1ij5 | A | albelig | 14 | 14 | H | 270 | 272 | A-318-  | A-320-  | ESA 
+| 1ij5 | A | albelig | 15 | 15 | H | 276 | 283 | A-324-  | A-331-  | FEHQFSVV 
+| 1ij5 | A | albelig | 16 | 16 | H | 293 | 303 | A-341-  | A-351-  | YQEFVMLVLLM 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 7
+= 2 = m = 4
+= 2 = m = 7
+= 3 = m = 12
+= 4 = m = 5
+= 5 = a = 6
+= 5 = m = 7
+= 5 = a = 12
+= 6 = m = 12
+= 8 = m = 12
+= 9 = m = 12
+= 10 = m = 11
+= 11 = m = 12
+= 12 = m = 16
+= 13 = m = 15
+= 15 = a = 16
+# Listed 17 contacts. EOF.

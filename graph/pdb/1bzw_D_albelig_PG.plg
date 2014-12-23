@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bzw, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, LEGUME LECTIN, WATER BRIDGES, CARBOHYDRATESPECIFICITY, C-LACTOSE, PROTEIN CRYSTALLOGRAPHY,AGGLUTININ, SUGAR BINDING PROTEIN
+> pdb_mol_name > PROTEIN (PEANUT LECTIN)
+> graphtype > albelig
+> resolution > 2.7
+> date > 05-NOV-98
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > PEANUT
+> title > PEANUT LECTIN COMPLEXED WITH C-LACTOSE
+> format_version > 2
+> pdbid > 1bzw
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ARACHIS HYPOGAEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bzw | D | albelig | 1 | 1 | E | 701 | 707 | D-2-  | D-8-  | ETVSFNF 
+| 1bzw | D | albelig | 2 | 2 | E | 717 | 721 | D-18-  | D-22-  | INFQG 
+| 1bzw | D | albelig | 3 | 3 | E | 742 | 747 | D-43-  | D-48-  | VGRVLY 
+| 1bzw | D | albelig | 4 | 4 | E | 763 | 774 | D-64-  | D-75-  | SFLTSFSFEMKD 
+| 1bzw | D | albelig | 5 | 5 | E | 783 | 790 | D-84-  | D-91-  | GIIFFIAP 
+| 1bzw | D | albelig | 6 | 6 | H | 802 | 804 | D-103-  | D-105-  | GGT 
+| 1bzw | D | albelig | 7 | 7 | E | 813 | 822 | D-114-  | D-123-  | AGHFVGVEFD 
+| 1bzw | D | albelig | 8 | 8 | H | 827 | 829 | D-128-  | D-130-  | SEY 
+| 1bzw | D | albelig | 9 | 9 | E | 836 | 843 | D-137-  | D-144-  | HVGIDVNS 
+| 1bzw | D | albelig | 10 | 10 | E | 848 | 851 | D-149-  | D-152-  | KTVP 
+| 1bzw | D | albelig | 11 | 11 | E | 859 | 867 | D-160-  | D-168-  | VVKVTVIYD 
+| 1bzw | D | albelig | 12 | 12 | E | 872 | 878 | D-173-  | D-179-  | TLSVAVT 
+| 1bzw | D | albelig | 13 | 13 | E | 884 | 890 | D-185-  | D-191-  | ITTIAQV 
+| 1bzw | D | albelig | 14 | 14 | H | 893 | 896 | D-194-  | D-197-  | LKAK 
+| 1bzw | D | albelig | 15 | 15 | E | 900 | 908 | D-201-  | D-209-  | RVKFGFSAS 
+| 1bzw | D | albelig | 16 | 16 | E | 915 | 928 | D-216-  | D-229-  | QIHLIRSWSFTSTL 
+| 1bzw | D | albelig | 17 | 17 | L | 944 | 944 | D-406-  | D-406-  | J 
+| 1bzw | D | albelig | 18 | 18 | L | 945 | 945 | D-407-  | D-407-  | J 
+| 1bzw | D | albelig | 19 | 19 | L | 946 | 946 | D-414-  | D-414-  | J 
+| 1bzw | D | albelig | 20 | 20 | L | 947 | 947 | D-415-  | D-415-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 16
+= 2 = a = 3
+= 3 = a = 15
+= 4 = a = 11
+= 4 = a = 16
+= 5 = a = 7
+= 5 = a = 15
+= 6 = l = 17
+= 6 = l = 19
+= 7 = a = 9
+= 7 = l = 19
+= 7 = l = 20
+= 8 = l = 17
+= 9 = a = 10
+= 9 = l = 19
+= 9 = l = 20
+= 10 = a = 13
+= 11 = a = 12
+= 12 = a = 13
+= 15 = a = 16
+= 17 = l = 18
+= 17 = l = 19
+= 19 = l = 20
+# Listed 23 contacts. EOF.

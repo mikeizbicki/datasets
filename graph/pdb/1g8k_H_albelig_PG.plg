@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g8k, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDASE, ARSENITE, MOLYBDOPTERIN, [3FE-4S] CLUSTER, [2FE-2S] CLUSTER,RIESKE, OXIDOREDUCTASE
+> pdb_mol_name > ARSENITE OXIDASE
+> graphtype > albelig
+> resolution > 1.64
+> date > 17-NOV-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF ARSENITE OXIDASE FROM ALCALIGENESFAECALIS
+> format_version > 2
+> pdbid > 1g8k
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > ALCALIGENES FAECALIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g8k | H | albelig | 1 | 1 | E | 3703 | 3707 | H-9-  | H-13-  | TAVSV 
+| 1g8k | H | albelig | 2 | 2 | H | 3708 | 3710 | H-14-  | H-16-  | AKN 
+| 1g8k | H | albelig | 3 | 3 | E | 3717 | 3720 | H-23-  | H-26-  | VSFT 
+| 1g8k | H | albelig | 4 | 4 | E | 3727 | 3732 | H-33-  | H-38-  | PCVAVK 
+| 1g8k | H | albelig | 5 | 5 | E | 3747 | 3751 | H-53-  | H-57-  | IVAYS 
+| 1g8k | H | albelig | 6 | 6 | E | 3762 | 3764 | H-68-  | H-70-  | SYD 
+| 1g8k | H | albelig | 7 | 7 | E | 3769 | 3771 | H-75-  | H-77-  | TFS 
+| 1g8k | H | albelig | 8 | 8 | E | 3778 | 3780 | H-84-  | H-86-  | EFD 
+| 1g8k | H | albelig | 9 | 9 | E | 3786 | 3789 | H-92-  | H-95-  | QMIC 
+| 1g8k | H | albelig | 10 | 10 | E | 3798 | 3804 | H-104-  | H-110-  | RVLLRYD 
+| 1g8k | H | albelig | 11 | 11 | E | 3809 | 3816 | H-115-  | H-122-  | ALTAVGVD 
+| 1g8k | H | albelig | 12 | 12 | L | 3879 | 3879 | H-6004-  | H-6004-  | J 
+| 1g8k | H | albelig | 13 | 13 | L | 3880 | 3880 | H-5306-  | H-5306-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 11
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 10
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 9 = l = 12
+= 10 = a = 11
+# Listed 10 contacts. EOF.

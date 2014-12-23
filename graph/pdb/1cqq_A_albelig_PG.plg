@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cqq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRAL PROTEIN, HYDROLASE
+> pdb_mol_name > TYPE 2 RHINOVIRUS 3C PROTEASE
+> graphtype > albelig
+> resolution > 1.85
+> date > 10-AUG-99
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > TYPE 2 RHINOVIRUS 3C PROTEASE WITH AG7088 INHIBITOR
+> format_version > 2
+> pdbid > 1cqq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN RHINOVIRUS 2
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cqq | A | albelig | 1 | 1 | H | 2 | 14 | A-2-  | A-14-  | PEEEFGMSLIKHN 
+| 1cqq | A | albelig | 2 | 2 | E | 15 | 20 | A-15-  | A-20-  | SCVITT 
+| 1cqq | A | albelig | 3 | 3 | E | 23 | 31 | A-23-  | A-31-  | GKFTGLGVY 
+| 1cqq | A | albelig | 4 | 4 | E | 34 | 38 | A-34-  | A-38-  | FVVVP 
+| 1cqq | A | albelig | 5 | 5 | H | 39 | 41 | A-39-  | A-41-  | THA 
+| 1cqq | A | albelig | 6 | 6 | E | 46 | 49 | A-46-  | A-49-  | EIQV 
+| 1cqq | A | albelig | 7 | 7 | E | 52 | 63 | A-52-  | A-63-  | ITTKVIDSYDLY 
+| 1cqq | A | albelig | 8 | 8 | E | 69 | 77 | A-69-  | A-77-  | KLEITVLKL 
+| 1cqq | A | albelig | 9 | 9 | H | 86 | 89 | A-86-  | A-89-  | IRRY 
+| 1cqq | A | albelig | 10 | 10 | E | 97 | 104 | A-97-  | A-104-  | YPNCNLAL 
+| 1cqq | A | albelig | 11 | 11 | E | 112 | 121 | A-112-  | A-121-  | TIINVGDVVS 
+| 1cqq | A | albelig | 12 | 12 | E | 125 | 127 | A-125-  | A-127-  | ILL 
+| 1cqq | A | albelig | 13 | 13 | E | 130 | 132 | A-130-  | A-132-  | NQT 
+| 1cqq | A | albelig | 14 | 14 | E | 135 | 138 | A-135-  | A-138-  | MLKY 
+| 1cqq | A | albelig | 15 | 15 | E | 150 | 153 | A-150-  | A-153-  | VLYK 
+| 1cqq | A | albelig | 16 | 16 | E | 156 | 164 | A-156-  | A-164-  | QVLGIHVGG 
+| 1cqq | A | albelig | 17 | 17 | E | 169 | 173 | A-169-  | A-173-  | GFSAM 
+| 1cqq | A | albelig | 18 | 18 | H | 176 | 178 | A-176-  | A-178-  | RSY 
+| 1cqq | A | albelig | 19 | 19 | L | 181 | 181 | A-501-  | A-501-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = m = 15
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 4
+= 3 = m = 9
+= 3 = l = 19
+= 4 = m = 5
+= 4 = a = 8
+= 4 = p = 16
+= 5 = m = 8
+= 5 = l = 19
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 13
+= 8 = l = 19
+= 9 = m = 16
+= 10 = a = 11
+= 10 = a = 15
+= 11 = a = 14
+= 12 = a = 13
+= 12 = l = 19
+= 13 = l = 19
+= 14 = a = 17
+= 15 = a = 16
+= 16 = a = 17
+= 16 = l = 19
+= 17 = l = 19
+# Listed 29 contacts. EOF.

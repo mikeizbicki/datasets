@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1he1, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNALING PROTEIN, SIGNALLING COMPLEX, EXOS, RAC,PSEUDOMONAS AERUGINOSA, GAP, TOXIN, VIRULENCE FACTOR,TRANSITION STATE, PROTEIN-PROTEIN COMPLEX, GTPASE, SIGNALTRANSDUCTION
+> pdb_mol_name > RAS-RELATED C3 BOTULINUM TOXIN SUBSTRATE 1
+> graphtype > albelig
+> resolution > 2.0
+> date > 18-NOV-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE COMPLEX BETWEEN THE GAP DOMAIN OFTHE PSEUDOMONAS AERUGINOSA EXOS TOXIN AND HUMAN RAC
+> format_version > 2
+> pdbid > 1he1
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1he1 | C | albelig | 1 | 1 | E | 274 | 282 | C-2-  | C-10-  | QAIKCVVVG 
+| 1he1 | C | albelig | 2 | 2 | H | 288 | 297 | C-16-  | C-25-  | KTCLLISYTT 
+| 1he1 | C | albelig | 3 | 3 | E | 309 | 318 | C-37-  | C-46-  | FDNYSANVMV 
+| 1he1 | C | albelig | 4 | 4 | E | 321 | 330 | C-49-  | C-58-  | KPVNLGLWDT 
+| 1he1 | C | albelig | 5 | 5 | H | 334 | 336 | C-62-  | C-64-  | EDY 
+| 1he1 | C | albelig | 6 | 6 | H | 340 | 343 | C-68-  | C-71-  | RPLS 
+| 1he1 | C | albelig | 7 | 7 | E | 349 | 355 | C-77-  | C-83-  | VFLICFS 
+| 1he1 | C | albelig | 8 | 8 | H | 359 | 369 | C-87-  | C-97-  | PASFENVRAKW 
+| 1he1 | C | albelig | 9 | 9 | H | 370 | 376 | C-98-  | C-104-  | YPEVRHH 
+| 1he1 | C | albelig | 10 | 10 | E | 382 | 387 | C-110-  | C-115-  | IILVGT 
+| 1he1 | C | albelig | 11 | 11 | H | 389 | 393 | C-117-  | C-121-  | LDLRD 
+| 1he1 | C | albelig | 12 | 12 | H | 395 | 403 | C-123-  | C-131-  | KDTIEKLKE 
+| 1he1 | C | albelig | 13 | 13 | H | 411 | 420 | C-139-  | C-148-  | YPQGLAMAKE 
+| 1he1 | C | albelig | 14 | 14 | E | 425 | 428 | C-153-  | C-156-  | KYLE 
+| 1he1 | C | albelig | 15 | 15 | H | 437 | 446 | C-165-  | C-174-  | LKTVFDEAIR 
+| 1he1 | C | albelig | 16 | 16 | L | 627 | 627 | C-200-  | C-200-  | J 
+| 1he1 | C | albelig | 17 | 17 | L | 628 | 628 | C-201-  | C-201-  | J 
+| 1he1 | C | albelig | 18 | 18 | L | 629 | 629 | C-202-  | C-202-  | J 
+| 1he1 | C | albelig | 19 | 19 | L | 630 | 630 | C-203-  | C-203-  | J 
+| 1he1 | C | albelig | 20 | 20 | L | 631 | 631 | C-204-  | C-204-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 1 = p = 7
+= 1 = l = 17
+= 2 = m = 4
+= 2 = m = 15
+= 2 = l = 16
+= 2 = l = 17
+= 2 = l = 18
+= 3 = a = 4
+= 3 = m = 15
+= 4 = l = 16
+= 4 = l = 17
+= 4 = l = 18
+= 7 = m = 8
+= 7 = p = 10
+= 8 = m = 9
+= 8 = m = 13
+= 9 = l = 19
+= 10 = p = 14
+= 11 = l = 16
+= 13 = m = 14
+= 16 = l = 17
+= 16 = l = 18
+= 17 = l = 18
+# Listed 25 contacts. EOF.

@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eij, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-HELIX, STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTUREINITIATIVE, NORTHEAST STRUCTURAL GENOMICS CONSORTIUM, NESG,DNA BINDING PROTEIN
+> pdb_mol_name > HYPOTHETICAL PROTEIN MTH1615
+> graphtype > albelig
+> resolution > -1.0
+> date > 25-FEB-00
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > NMR ENSEMBLE OF METHANOBACTERIUM THERMOAUTOTROPHICUMPROTEIN 1615
+> format_version > 2
+> pdbid > 1eij
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eij | A | albelig | 1 | 1 | H | 10 | 13 | A-10-  | A-13-  | KQIM 
+| 1eij | A | albelig | 2 | 2 | H | 19 | 28 | A-19-  | A-28-  | PEARSRLANL 
+| 1eij | A | albelig | 3 | 3 | H | 33 | 48 | A-33-  | A-48-  | PDFVEQIELQLIQLAQ 
+| 1eij | A | albelig | 4 | 4 | H | 58 | 68 | A-58-  | A-68-  | DEQLKELLKRV 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 3 = m = 4
+# Listed 2 contacts. EOF.

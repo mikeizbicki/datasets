@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 148l, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > O-GLYCOSYL, HYDROLASE-HYDROLASE SUBSTRATE COMPLEX
+> pdb_mol_name > SUBSTRATE CLEAVED FROM CELL WALL OF ESCHERICHIA COLI
+> graphtype > albelig
+> resolution > 1.9
+> date > 27-OCT-93
+> header > HYDROLASE/HYDROLASE SUBSTRATE
+> pdb_org_common > UNKNOWN
+> title > A COVALENT ENZYME-SUBSTRATE INTERMEDIATE WITH SACCHARIDE DISTORTION INA MUTANT T4 LYSOZYME
+> format_version > 2
+> pdbid > 148l
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 148l | S | albelig | 1 | 1 | L | 169 | 169 | S-169-  | S-169-  | J 
+| 148l | S | albelig | 2 | 2 | L | 171 | 171 | S-164-  | S-164-  | J 
+| 148l | S | albelig | 3 | 3 | L | 172 | 172 | S-165-  | S-165-  | J 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 3
+# Listed 1 contacts. EOF.

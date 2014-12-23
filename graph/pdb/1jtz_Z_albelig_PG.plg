@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jtz, chain Z.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TUMOR NECROSIS FACTOR SUPERFAMILY MEMBER, JELLYROLL, BETA-SANDWICH, CYTOKINE
+> pdb_mol_name > TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER
+> graphtype > albelig
+> resolution > 2.6
+> date > 23-AUG-01
+> header > CYTOKINE
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF TRANCE/RANKL CYTOKINE.
+> format_version > 2
+> pdbid > 1jtz
+> experiment > X-RAY DIFFRACTION
+> chainid > Z
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jtz | Z | albelig | 1 | 1 | E | 315 | 320 | Z-164-  | Z-169-  | FAHLTI 
+| 1jtz | Z | albelig | 2 | 2 | E | 345 | 347 | Z-194-  | Z-196-  | KIS 
+| 1jtz | Z | albelig | 3 | 3 | E | 362 | 375 | Z-211-  | Z-224-  | GFYYLYANICFRHH 
+| 1jtz | Z | albelig | 4 | 4 | H | 376 | 378 | Z-225-  | Z-227-  | ETS 
+| 1jtz | Z | albelig | 5 | 5 | E | 385 | 395 | Z-234-  | Z-244-  | YLQLMVYVVKT 
+| 1jtz | Z | albelig | 6 | 6 | E | 402 | 413 | Z-251-  | Z-262-  | SHNLMKGGSTKN 
+| 1jtz | Z | albelig | 7 | 7 | E | 420 | 433 | Z-269-  | Z-282-  | FHFYSINVGGFFKL 
+| 1jtz | Z | albelig | 8 | 8 | E | 438 | 443 | Z-287-  | Z-292-  | EISIQV 
+| 1jtz | Z | albelig | 9 | 9 | H | 446 | 448 | Z-295-  | Z-297-  | PSL 
+| 1jtz | Z | albelig | 10 | 10 | E | 457 | 464 | Z-306-  | Z-313-  | YFGAFKVQ 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 3 = m = 4
+= 3 = a = 7
+= 3 = m = 9
+= 3 = a = 10
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+# Listed 9 contacts. EOF.

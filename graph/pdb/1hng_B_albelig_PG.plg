@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hng, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > T LYMPHOCYTE ADHESION GLYCOPROTEIN
+> pdb_mol_name > CD2
+> graphtype > albelig
+> resolution > 2.8
+> date > 10-AUG-94
+> header > T LYMPHOCYTE ADHESION GLYCOPROTEIN
+> pdb_org_common > BLACK RAT
+> title > CRYSTAL STRUCTURE AT 2.8 ANGSTROMS RESOLUTION OF A SOLUBLEFORM OF THE CELL ADHESION MOLECULE CD2
+> format_version > 2
+> pdbid > 1hng
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS RATTUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hng | B | albelig | 1 | 1 | E | 178 | 184 | B-3-  | B-9-  | SGTVWGA 
+| 1hng | B | albelig | 2 | 2 | E | 189 | 191 | B-14-  | B-16-  | INL 
+| 1hng | B | albelig | 3 | 3 | E | 202 | 209 | B-27-  | B-34-  | IDEVRWER 
+| 1hng | B | albelig | 4 | 4 | E | 212 | 218 | B-37-  | B-43-  | TLVAEFK 
+| 1hng | B | albelig | 5 | 5 | E | 230 | 232 | B-55-  | B-57-  | FEI 
+| 1hng | B | albelig | 6 | 6 | E | 238 | 240 | B-63-  | B-65-  | LKI 
+| 1hng | B | albelig | 7 | 7 | H | 245 | 247 | B-70-  | B-72-  | RDD 
+| 1hng | B | albelig | 8 | 8 | E | 249 | 257 | B-74-  | B-82-  | GTYNVTVYS 
+| 1hng | B | albelig | 9 | 9 | E | 262 | 273 | B-87-  | B-98-  | RILNKALDLRIL 
+| 1hng | B | albelig | 10 | 10 | E | 280 | 284 | B-105-  | B-109-  | MIYWE 
+| 1hng | B | albelig | 11 | 11 | E | 289 | 293 | B-114-  | B-118-  | TLTDE 
+| 1hng | B | albelig | 12 | 12 | E | 301 | 306 | B-126-  | B-131-  | ELKLYQ 
+| 1hng | B | albelig | 13 | 13 | E | 309 | 314 | B-134-  | B-139-  | EHLRSL 
+| 1hng | B | albelig | 14 | 14 | E | 318 | 322 | B-143-  | B-147-  | TMSYQ 
+| 1hng | B | albelig | 15 | 15 | E | 330 | 336 | B-155-  | B-161-  | FKDKAVN 
+| 1hng | B | albelig | 16 | 16 | E | 339 | 345 | B-164-  | B-170-  | SQESEME 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 2 = a = 6
+= 3 = a = 4
+= 3 = a = 8
+= 5 = a = 6
+= 8 = a = 9
+= 10 = a = 11
+= 10 = a = 16
+= 11 = a = 14
+= 12 = a = 13
+= 12 = p = 14
+= 12 = a = 15
+= 15 = a = 16
+# Listed 13 contacts. EOF.

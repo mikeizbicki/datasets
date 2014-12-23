@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bg8, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PERIPLASMIC, HDEA, SIGNAL
+> pdb_mol_name > HDEA
+> graphtype > albelig
+> resolution > 2.2
+> date > 05-JUN-98
+> header > PERIPLASMIC
+> pdb_org_common > UNKNOWN
+> title > HDEA FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1bg8
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bg8 | C | albelig | 1 | 1 | H | 158 | 160 | C-13-  | C-15-  | VNS 
+| 1bg8 | C | albelig | 2 | 2 | H | 163 | 167 | C-18-  | C-22-  | CEDFL 
+| 1bg8 | C | albelig | 3 | 3 | H | 174 | 184 | C-29-  | C-39-  | QPTAVGFAEAL 
+| 1bg8 | C | albelig | 4 | 4 | H | 197 | 212 | C-52-  | C-67-  | VQGIATVTPAIVQACT 
+| 1bg8 | C | albelig | 5 | 5 | H | 219 | 228 | C-74-  | C-83-  | FKDKVKGEWD 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 4
+= 4 = m = 5
+# Listed 2 contacts. EOF.

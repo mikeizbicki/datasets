@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eoh, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUTATHIONE TRANSFERASE, HELIX CAPPING MUTANT (D152A)
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 22-MAR-00
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > GLUTATHIONE TRANSFERASE P1-1
+> format_version > 2
+> pdbid > 1eoh
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eoh | G | albelig | 1 | 1 | E | 1263 | 1267 | G-3-  | G-7-  | YTVVY 
+| 1eoh | G | albelig | 2 | 2 | H | 1272 | 1283 | G-12-  | G-23-  | GRCAALRMLLAD 
+| 1eoh | G | albelig | 3 | 3 | E | 1288 | 1292 | G-28-  | G-32-  | WKEEV 
+| 1eoh | G | albelig | 4 | 4 | H | 1297 | 1300 | G-37-  | G-40-  | TWQE 
+| 1eoh | G | albelig | 5 | 5 | H | 1302 | 1305 | G-42-  | G-45-  | SLKA 
+| 1eoh | G | albelig | 6 | 6 | E | 1314 | 1317 | G-54-  | G-57-  | KFQD 
+| 1eoh | G | albelig | 7 | 7 | E | 1320 | 1323 | G-60-  | G-63-  | LTLY 
+| 1eoh | G | albelig | 8 | 8 | H | 1325 | 1335 | G-65-  | G-75-  | SNTILRHLGRT 
+| 1eoh | G | albelig | 9 | 9 | H | 1343 | 1369 | G-83-  | G-109-  | QQEAALVDMVNDGVEDLRCKYISLIYT 
+| 1eoh | G | albelig | 10 | 10 | H | 1371 | 1394 | G-111-  | G-134-  | YEAGKDDYVKALPGQLKPFETLLS 
+| 1eoh | G | albelig | 11 | 11 | H | 1397 | 1399 | G-137-  | G-139-  | QGG 
+| 1eoh | G | albelig | 12 | 12 | H | 1410 | 1425 | G-150-  | G-165-  | FAAYNLLDLLLIHEVL 
+| 1eoh | G | albelig | 13 | 13 | H | 1434 | 1444 | G-174-  | G-184-  | PLLSAYVGRLS 
+| 1eoh | G | albelig | 14 | 14 | H | 1447 | 1453 | G-187-  | G-193-  | PKLKAFL 
+| 1eoh | G | albelig | 15 | 15 | H | 1456 | 1459 | G-196-  | G-199-  | PEYV 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = a = 6
+= 2 = m = 12
+= 2 = m = 14
+= 6 = a = 7
+= 8 = m = 9
+= 9 = a = 10
+= 9 = p = 12
+= 10 = a = 12
+= 10 = m = 13
+= 12 = m = 13
+# Listed 12 contacts. EOF.

@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hbx, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GENE REGULATION, TRANSCRIPTION COMPLEX, SERUM RESPONSEFACTOR, TERNARY COMPLEX FACTOR
+> pdb_mol_name > ETS-DOMAIN PROTEIN ELK-4
+> graphtype > albelig
+> resolution > 3.15
+> date > 20-APR-01
+> header > GENE REGULATION
+> pdb_org_common > HUMAN
+> title > TERNARY COMPLEX OF SAP-1 AND SRF WITH SPECIFIC SRE DNA
+> format_version > 2
+> pdbid > 1hbx
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hbx | G | albelig | 1 | 1 | H | 358 | 361 | G-7-  | G-10-  | LWQF 
+| 1hbx | G | albelig | 2 | 2 | H | 369 | 371 | G-18-  | G-20-  | PQN 
+| 1hbx | G | albelig | 3 | 3 | E | 375 | 377 | G-24-  | G-26-  | ICW 
+| 1hbx | G | albelig | 4 | 4 | E | 384 | 386 | G-33-  | G-35-  | FKL 
+| 1hbx | G | albelig | 5 | 5 | H | 389 | 401 | G-38-  | G-50-  | AEEVARLWGIRKN 
+| 1hbx | G | albelig | 6 | 6 | H | 407 | 419 | G-56-  | G-68-  | YDKLSRALRYYYV 
+| 1hbx | G | albelig | 7 | 7 | E | 423 | 425 | G-72-  | G-74-  | IKK 
+| 1hbx | G | albelig | 8 | 8 | E | 432 | 435 | G-81-  | G-84-  | VYKF 
+| 1hbx | G | albelig | 9 | 9 | H | 440 | 442 | G-89-  | G-91-  | EIL 
+| 1hbx | G | albelig | 10 | 10 | H | 447 | 452 | G-138-  | G-143-  | RNDYIH 
+| 1hbx | G | albelig | 11 | 11 | E | 456 | 460 | G-147-  | G-151-  | YSSFT 
+| 1hbx | G | albelig | 12 | 12 | H | 462 | 464 | G-153-  | G-155-  | NSL 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 4 = a = 8
+= 5 = m = 6
+= 6 = m = 7
+= 6 = m = 8
+= 7 = a = 8
+= 10 = m = 11
+= 11 = m = 12
+# Listed 8 contacts. EOF.

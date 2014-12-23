@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hhp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE(ACID PROTEINASE)
+> pdb_mol_name > UNLIGANDED HIV-1 PROTEASE
+> graphtype > albelig
+> resolution > 2.7
+> date > 27-MAY-92
+> header > HYDROLASE(ACID PROTEINASE)
+> pdb_org_common > UNKNOWN
+> title > THE THREE-DIMENSIONAL STRUCTURE OF THE ASPARTYL PROTEASE FROM THE HIV-1 ISOLATE BRU
+> format_version > 2
+> pdbid > 1hhp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS TYPE 1 (BRU
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hhp | A | albelig | 1 | 1 | E | 10 | 14 | A-10-  | A-14-  | LVTIK 
+| 1hhp | A | albelig | 2 | 2 | E | 19 | 24 | A-19-  | A-24-  | LKEALL 
+| 1hhp | A | albelig | 3 | 3 | E | 32 | 34 | A-32-  | A-34-  | VLE 
+| 1hhp | A | albelig | 4 | 4 | E | 43 | 49 | A-43-  | A-49-  | KPKMIGG 
+| 1hhp | A | albelig | 5 | 5 | E | 52 | 66 | A-52-  | A-66-  | GFIKVRQYDQILIEI 
+| 1hhp | A | albelig | 6 | 6 | E | 69 | 78 | A-69-  | A-78-  | HKAIGTVLVG 
+| 1hhp | A | albelig | 7 | 7 | H | 87 | 93 | A-87-  | A-93-  | RNLLTQI 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 3 = p = 6
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+# Listed 6 contacts. EOF.

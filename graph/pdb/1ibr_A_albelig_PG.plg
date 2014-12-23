@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ibr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SMALL GTPASE; NUCLEAR TRANSPORT RECEPTOR, CELL CYCLE,TRANSLATION
+> pdb_mol_name > GTP-BINDING NUCLEAR PROTEIN RAN
+> graphtype > albelig
+> resolution > 2.3
+> date > 14-MAY-99
+> header > CELL CYCLE,TRANSLATION
+> pdb_org_common > HUMAN
+> title > COMPLEX OF RAN WITH IMPORTIN BETA
+> format_version > 2
+> pdbid > 1ibr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ibr | A | albelig | 1 | 1 | E | 2 | 9 | A-10-  | A-17-  | QFKLVLVG 
+| 1ibr | A | albelig | 2 | 2 | H | 15 | 24 | A-23-  | A-32-  | KTTFVKRHLT 
+| 1ibr | A | albelig | 3 | 3 | E | 37 | 44 | A-45-  | A-52-  | VEVHPLVF 
+| 1ibr | A | albelig | 4 | 4 | E | 51 | 58 | A-59-  | A-66-  | IKFNVWDT 
+| 1ibr | A | albelig | 5 | 5 | H | 62 | 64 | A-70-  | A-72-  | EKF 
+| 1ibr | A | albelig | 6 | 6 | H | 68 | 72 | A-76-  | A-80-  | RDGYY 
+| 1ibr | A | albelig | 7 | 7 | E | 77 | 83 | A-85-  | A-91-  | CAIIMFD 
+| 1ibr | A | albelig | 8 | 8 | H | 87 | 91 | A-95-  | A-99-  | RVTYK 
+| 1ibr | A | albelig | 9 | 9 | H | 93 | 101 | A-101-  | A-109-  | VPNWHRDLV 
+| 1ibr | A | albelig | 10 | 10 | E | 109 | 114 | A-117-  | A-122-  | IVLCGN 
+| 1ibr | A | albelig | 11 | 11 | H | 125 | 127 | A-133-  | A-135-  | AKS 
+| 1ibr | A | albelig | 12 | 12 | H | 130 | 134 | A-138-  | A-142-  | FHRKK 
+| 1ibr | A | albelig | 13 | 13 | E | 137 | 140 | A-145-  | A-148-  | QYYD 
+| 1ibr | A | albelig | 14 | 14 | H | 151 | 161 | A-159-  | A-169-  | KPFLWLARKLI 
+| 1ibr | A | albelig | 15 | 15 | L | 1236 | 1236 | A-251-  | A-251-  | J 
+| 1ibr | A | albelig | 16 | 16 | L | 1237 | 1237 | A-250-  | A-250-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 1 = m = 14
+= 1 = l = 16
+= 2 = l = 15
+= 2 = l = 16
+= 3 = a = 4
+= 4 = l = 16
+= 7 = m = 8
+= 7 = p = 10
+= 8 = m = 9
+= 9 = m = 12
+= 10 = p = 13
+= 10 = l = 16
+= 13 = m = 14
+= 15 = l = 16
+# Listed 16 contacts. EOF.

@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gmz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, PHOSPHOLIPASE A2, X-RAY STRUCTURE, NEUROTOXIC,BOTHROPS PIRAJAI
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 2.4
+> date > 27-SEP-01
+> header > HYDROLASE
+> pdb_org_common > SNAKE
+> title > CRYSTAL STRUCTURE OF THE D49 PHOSPHOLIPASE A2 PIRATOXIN IIIFROM BOTHROPS PIRAJAI.
+> format_version > 2
+> pdbid > 1gmz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOTHROPS PIRAJAI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gmz | B | albelig | 1 | 1 | H | 124 | 135 | B-2-  | B-13-  | LWQFGKMILKET 
+| 1gmz | B | albelig | 2 | 2 | H | 139 | 142 | B-17-  | B-20-  | PFPY 
+| 1gmz | B | albelig | 3 | 3 | H | 161 | 174 | B-39-  | B-52-  | ATDRJIFVHDKLYG 
+| 1gmz | B | albelig | 4 | 4 | H | 202 | 220 | B-80-  | B-98-  | PMRKEINELDKAAAVJFRE 
+| 1gmz | B | albelig | 5 | 5 | H | 222 | 224 | B-100-  | B-102-  | LDT 
+| 1gmz | B | albelig | 6 | 6 | L | 246 | 246 | B-200-  | B-200-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = l = 6
+= 3 = a = 4
+= 3 = l = 6
+= 4 = l = 6
+# Listed 5 contacts. EOF.

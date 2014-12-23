@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0l, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME BC1, MEMBRANE PROTEIN, HEME PROTEIN, IRON SULFUR PROTEIN,CYTOCHROME B, CYTOCHROME C1, MITOCHONDRIAL PROCESSING PROTEASE, MPP,OXIDOREDUCTASE
+> pdb_mol_name > CYTOCHROME B
+> graphtype > albelig
+> resolution > 2.35
+> date > 11-FEB-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > CATTLE
+> title > STRUCTURE OF BOVINE MITOCHONDRIAL CYTOCHROME BC1 COMPLEX WITH A BOUNDFUNGICIDE FAMOXADONE
+> format_version > 2
+> pdbid > 1l0l
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0l | C | albelig | 1 | 1 | H | 880 | 888 | C-11-  | C-19-  | MKIVNNAFI 
+| 1l0l | C | albelig | 2 | 2 | E | 891 | 893 | C-22-  | C-24-  | PAP 
+| 1l0l | C | albelig | 3 | 3 | H | 898 | 921 | C-29-  | C-52-  | SWWNFGSLLGICLILQILTGLFLA 
+| 1l0l | C | albelig | 4 | 4 | H | 930 | 941 | C-61-  | C-72-  | TAFSSVTHICRD 
+| 1l0l | C | albelig | 5 | 5 | H | 945 | 972 | C-76-  | C-103-  | GWIIRYMHANGASMFFICLYMHVGRGLY 
+| 1l0l | C | albelig | 6 | 6 | H | 975 | 977 | C-106-  | C-108-  | SYT 
+| 1l0l | C | albelig | 7 | 7 | H | 979 | 1001 | C-110-  | C-132-  | LETWNIGVILLLTVMATAFMGYV 
+| 1l0l | C | albelig | 8 | 8 | H | 1006 | 1021 | C-137-  | C-152-  | QMSFWGATVITNLLSA 
+| 1l0l | C | albelig | 9 | 9 | H | 1026 | 1034 | C-157-  | C-165-  | GTNLVEWIW 
+| 1l0l | C | albelig | 10 | 10 | H | 1041 | 1070 | C-172-  | C-201-  | KATLTRFFAFHFILPFIIMAIAMVHLLFLH 
+| 1l0l | C | albelig | 11 | 11 | E | 1086 | 1088 | C-217-  | C-219-  | KIP 
+| 1l0l | C | albelig | 12 | 12 | H | 1089 | 1114 | C-220-  | C-245-  | FHPYYTIKDILGALLLILALMLLVLF 
+| 1l0l | C | albelig | 13 | 13 | H | 1122 | 1125 | C-253-  | C-256-  | PDNY 
+| 1l0l | C | albelig | 14 | 14 | H | 1144 | 1152 | C-275-  | C-283-  | LFAYAILRS 
+| 1l0l | C | albelig | 15 | 15 | H | 1156 | 1171 | C-287-  | C-302-  | KLGGVLALAFSILILA 
+| 1l0l | C | albelig | 16 | 16 | H | 1173 | 1176 | C-304-  | C-307-  | IPLL 
+| 1l0l | C | albelig | 17 | 17 | H | 1188 | 1208 | C-319-  | C-339-  | PLSQCLFWALVADLLTLTWIG 
+| 1l0l | C | albelig | 18 | 18 | H | 1214 | 1234 | C-345-  | C-365-  | HPYITIGQLASVLYFLLILVL 
+| 1l0l | C | albelig | 19 | 19 | H | 1235 | 1245 | C-366-  | C-376-  | MPTAGTIENKL 
+| 1l0l | C | albelig | 20 | 20 | L | 2129 | 2129 | C-609-  | C-609-  | J 
+| 1l0l | C | albelig | 21 | 21 | L | 2130 | 2130 | C-610-  | C-610-  | J 
+| 1l0l | C | albelig | 22 | 22 | L | 2131 | 2131 | C-611-  | C-611-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 11
+= 3 = a = 5
+= 3 = p = 12
+= 3 = l = 20
+= 3 = l = 21
+= 4 = l = 21
+= 5 = a = 7
+= 5 = a = 12
+= 5 = l = 20
+= 5 = l = 21
+= 5 = l = 22
+= 6 = l = 20
+= 7 = m = 8
+= 7 = a = 10
+= 7 = l = 20
+= 7 = l = 21
+= 7 = l = 22
+= 8 = m = 9
+= 8 = m = 13
+= 8 = m = 15
+= 8 = l = 22
+= 9 = m = 10
+= 10 = l = 20
+= 10 = l = 21
+= 11 = m = 12
+= 14 = m = 15
+= 14 = m = 17
+= 14 = l = 22
+= 15 = m = 16
+= 15 = m = 18
+= 15 = l = 20
+= 15 = l = 22
+= 17 = a = 18
+= 17 = a = 19
+= 18 = m = 19
+= 21 = l = 22
+# Listed 36 contacts. EOF.

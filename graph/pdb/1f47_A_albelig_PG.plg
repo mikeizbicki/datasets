@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f47, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL DIVISION ZIPA, CELL DIVISION FTSZ, SEPARATION, INNERMEMBRANE, TRANSMEMBRANE, CELL CYCLE
+> pdb_mol_name > CELL DIVISION PROTEIN FTSZ
+> graphtype > albelig
+> resolution > 1.95
+> date > 07-JUN-00
+> header > CELL CYCLE
+> pdb_org_common > UNKNOWN
+> title > THE BACTERIAL CELL-DIVISION PROTEIN ZIPA AND ITSINTERACTION WITH AN FTSZ FRAGMENT REVEALED BY X-RAYCRYSTALLOGRAPHY
+> format_version > 2
+> pdbid > 1f47
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f47 | A | albelig | 1 | 1 | H | 153 | 161 | A-8-  | A-16-  | IPAFLRKQA 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

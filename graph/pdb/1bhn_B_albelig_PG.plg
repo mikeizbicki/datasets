@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bhn, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOTRANSFERASE
+> pdb_mol_name > NUCLEOSIDE DIPHOSPHATE TRANSFERASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 10-JUN-98
+> header > PHOSPHOTRANSFERASE
+> pdb_org_common > CATTLE
+> title > NUCLEOSIDE DIPHOSPHATE KINASE ISOFORM A FROM BOVINE RETINA
+> format_version > 2
+> pdbid > 1bhn
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bhn | B | albelig | 1 | 1 | E | 157 | 162 | B-6-  | B-11-  | RTFIAI 
+| 1bhn | B | albelig | 2 | 2 | H | 164 | 169 | B-13-  | B-18-  | PDGVQR 
+| 1bhn | B | albelig | 3 | 3 | H | 172 | 181 | B-21-  | B-30-  | IGEIIKRFEQ 
+| 1bhn | B | albelig | 4 | 4 | E | 185 | 193 | B-34-  | B-42-  | RLVAMKFMR 
+| 1bhn | B | albelig | 5 | 5 | H | 196 | 206 | B-45-  | B-55-  | EDLLKEHYIDL 
+| 1bhn | B | albelig | 6 | 6 | H | 212 | 220 | B-61-  | B-69-  | FAGLVKYMH 
+| 1bhn | B | albelig | 7 | 7 | E | 223 | 230 | B-72-  | B-79-  | PVVAMVWE 
+| 1bhn | B | albelig | 8 | 8 | H | 234 | 242 | B-83-  | B-91-  | VVKTGRVML 
+| 1bhn | B | albelig | 9 | 9 | H | 255 | 259 | B-104-  | B-108-  | IRGDF 
+| 1bhn | B | albelig | 10 | 10 | E | 268 | 270 | B-117-  | B-119-  | IHG 
+| 1bhn | B | albelig | 11 | 11 | H | 274 | 284 | B-123-  | B-133-  | VESAEKEIALW 
+| 1bhn | B | albelig | 12 | 12 | H | 298 | 301 | B-147-  | B-150-  | QNWI 
+| 1bhn | B | albelig | 13 | 13 | L | 914 | 914 | B-160-  | B-160-  | J 
+| 1bhn | B | albelig | 14 | 14 | L | 915 | 915 | B-161-  | B-161-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 1 = m = 8
+= 1 = a = 10
+= 1 = m = 11
+= 2 = m = 7
+= 4 = a = 7
+= 5 = a = 6
+= 5 = l = 13
+= 5 = l = 14
+= 6 = l = 13
+= 6 = l = 14
+= 8 = l = 14
+= 9 = l = 13
+= 9 = l = 14
+= 10 = l = 13
+= 10 = l = 14
+= 13 = l = 14
+# Listed 17 contacts. EOF.

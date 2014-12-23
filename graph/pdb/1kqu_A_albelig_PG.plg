@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kqu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOLIPASE A2, INHIBITOR, STRUCTURE, HYDROLASE
+> pdb_mol_name > PHOSPHOLIPASE A2, MEMBRANE ASSOCIATED
+> graphtype > albelig
+> resolution > 2.1
+> date > 07-JAN-02
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > HUMAN PHOSPHOLIPASE A2 COMPLEXED WITH A SUBSTRATE ANOLOGUE
+> format_version > 2
+> pdbid > 1kqu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kqu | A | albelig | 1 | 1 | H | 2 | 13 | A-2-  | A-13-  | LVNFHRMIKLTT 
+| 1kqu | A | albelig | 2 | 2 | H | 17 | 20 | A-17-  | A-20-  | AALS 
+| 1kqu | A | albelig | 3 | 3 | H | 39 | 56 | A-39-  | A-56-  | ATDRCNVTHDDEYKRLEK 
+| 1kqu | A | albelig | 4 | 4 | E | 68 | 70 | A-68-  | A-70-  | FSN 
+| 1kqu | A | albelig | 5 | 5 | E | 75 | 77 | A-75-  | A-77-  | ITG 
+| 1kqu | A | albelig | 6 | 6 | H | 82 | 100 | A-82-  | A-100-  | SFRSQLGEEDKAAATCFAR 
+| 1kqu | A | albelig | 7 | 7 | H | 102 | 104 | A-102-  | A-104-  | KTT 
+| 1kqu | A | albelig | 8 | 8 | H | 114 | 116 | A-114-  | A-116-  | NKH 
+| 1kqu | A | albelig | 9 | 9 | L | 125 | 125 | A-301-  | A-301-  | J 
+| 1kqu | A | albelig | 10 | 10 | L | 126 | 126 | A-302-  | A-302-  | J 
+| 1kqu | A | albelig | 11 | 11 | L | 127 | 127 | A-501-  | A-501-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 6
+= 1 = l = 11
+= 2 = l = 11
+= 3 = a = 6
+= 3 = l = 9
+= 3 = l = 11
+= 4 = a = 5
+= 5 = m = 6
+= 6 = l = 11
+= 8 = l = 10
+= 9 = l = 11
+# Listed 11 contacts. EOF.

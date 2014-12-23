@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g73, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HELIX BUNDLE, ZINC-BINDING DOMAIN, APOPTOSIS/APOPTOSISINHIBITOR COMPLEX
+> pdb_mol_name > SECOND MITOCHONDRIA-DERIVED ACTIVATOR OF
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-NOV-00
+> header > APOPTOSIS/APOPTOSIS INHIBITOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF SMAC BOUND TO XIAP-BIR3 DOMAIN
+> format_version > 2
+> pdbid > 1g73
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g73 | A | albelig | 1 | 1 | H | 14 | 64 | A-14-  | A-64-  | SSEALMRRAVSLVTDSTSTDLSQTTYALIEAITEYTKAVYTLTSLYRQYTS 
+| 1g73 | A | albelig | 2 | 2 | H | 72 | 118 | A-72-  | A-118-  | EEEDEVWQVIIGARAEMTSKHQEYLKLETTWMTAVGLSEMAAEAAYQ 
+| 1g73 | A | albelig | 3 | 3 | H | 122 | 156 | A-122-  | A-156-  | DQASITARNHIQLVKLQVEEVHQLSRKAETKLAEA 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 2 = a = 3
+# Listed 3 contacts. EOF.

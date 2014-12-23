@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b8z, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THERMOTOGA MARITIMA, THERMOSTABLE DNA BINDING PROTEIN
+> pdb_mol_name > PROTEIN (HISTONELIKE PROTEIN HU)
+> graphtype > albelig
+> resolution > 1.6
+> date > 03-FEB-99
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > HU FROM THERMOTOGA MARITIMA
+> format_version > 2
+> pdbid > 1b8z
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b8z | A | albelig | 1 | 1 | H | 3 | 14 | A-3-  | A-14-  | KKELIDRVAKKA 
+| 1b8z | A | albelig | 2 | 2 | H | 18 | 37 | A-18-  | A-37-  | KKDVKLILDTILETITEALA 
+| 1b8z | A | albelig | 3 | 3 | E | 42 | 44 | A-42-  | A-44-  | VQI 
+| 1b8z | A | albelig | 4 | 4 | E | 48 | 51 | A-48-  | A-51-  | GSFE 
+| 1b8z | A | albelig | 5 | 5 | E | 56 | 59 | A-78-  | A-81-  | KFKP 
+| 1b8z | A | albelig | 6 | 6 | H | 61 | 67 | A-83-  | A-89-  | KALKEKV 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = a = 4
+= 4 = a = 5
+# Listed 3 contacts. EOF.

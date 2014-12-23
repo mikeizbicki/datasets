@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvy, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FATTY ACID MONOOXYGENASE, HEMOPROTEIN, FLAVOPROTEIN,ELECTRON TRANSFER, OXIDOREDUCTASE
+> pdb_mol_name > PROTEIN (CYTOCHROME P450 BM-3)
+> graphtype > albelig
+> resolution > 2.03
+> date > 21-SEP-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > COMPLEX OF THE HEME AND FMN-BINDING DOMAINS OF THECYTOCHROME P450(BM-3)
+> format_version > 2
+> pdbid > 1bvy
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS MEGATERIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvy | F | albelig | 1 | 1 | E | 444 | 449 | F-482-  | F-487-  | LLVLYG 
+| 1bvy | F | albelig | 2 | 2 | H | 454 | 467 | F-492-  | F-505-  | TAEGTARDLADIAM 
+| 1bvy | F | albelig | 3 | 3 | E | 474 | 477 | F-512-  | F-515-  | QVAT 
+| 1bvy | F | albelig | 4 | 4 | H | 478 | 480 | F-516-  | F-518-  | LDS 
+| 1bvy | F | albelig | 5 | 5 | E | 490 | 495 | F-528-  | F-533-  | AVLIVT 
+| 1bvy | F | albelig | 6 | 6 | H | 507 | 514 | F-545-  | F-552-  | KQFVDWLD 
+| 1bvy | F | albelig | 7 | 7 | E | 526 | 532 | F-564-  | F-570-  | YSVFGCG 
+| 1bvy | F | albelig | 8 | 8 | H | 537 | 539 | F-575-  | F-577-  | ATT 
+| 1bvy | F | albelig | 9 | 9 | H | 542 | 552 | F-580-  | F-590-  | KVPAFIDETLA 
+| 1bvy | F | albelig | 10 | 10 | E | 560 | 566 | F-598-  | F-604-  | ADRGEAD 
+| 1bvy | F | albelig | 11 | 11 | H | 571 | 589 | F-609-  | F-627-  | FEGTYEEWREHMWSDVAAY 
+| 1bvy | F | albelig | 12 | 12 | L | 1035 | 1035 | F-1002-  | F-1002-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = p = 5
+= 1 = l = 12
+= 2 = p = 11
+= 2 = l = 12
+= 3 = m = 4
+= 5 = p = 7
+= 6 = m = 9
+= 7 = a = 9
+= 7 = p = 10
+= 7 = l = 12
+= 8 = l = 12
+= 9 = l = 12
+= 10 = a = 11
+# Listed 15 contacts. EOF.

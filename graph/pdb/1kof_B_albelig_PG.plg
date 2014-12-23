@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kof, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALFA/BETA, TRANSFERASE
+> pdb_mol_name > GLUCONATE KINASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 20-DEC-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF GLUCONATE KINASE
+> format_version > 2
+> pdbid > 1kof
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kof | B | albelig | 1 | 1 | E | 179 | 184 | B-9-  | B-14-  | HIYVLM 
+| 1kof | B | albelig | 2 | 2 | H | 191 | 202 | B-21-  | B-32-  | KSAVASEVAHQL 
+| 1kof | B | albelig | 3 | 3 | E | 205 | 208 | B-35-  | B-38-  | AFLD 
+| 1kof | B | albelig | 4 | 4 | H | 209 | 212 | B-39-  | B-42-  | GDFL 
+| 1kof | B | albelig | 5 | 5 | H | 215 | 222 | B-45-  | B-52-  | RRNIEKMA 
+| 1kof | B | albelig | 6 | 6 | H | 233 | 246 | B-63-  | B-76-  | KPWLQALNDAAFAM 
+| 1kof | B | albelig | 7 | 7 | E | 252 | 256 | B-82-  | B-86-  | VSLIV 
+| 1kof | B | albelig | 8 | 8 | H | 262 | 269 | B-92-  | B-99-  | KHYRDLLR 
+| 1kof | B | albelig | 9 | 9 | E | 275 | 281 | B-105-  | B-111-  | LSFIYLK 
+| 1kof | B | albelig | 10 | 10 | H | 284 | 292 | B-114-  | B-122-  | FDVIESRLK 
+| 1kof | B | albelig | 11 | 11 | H | 301 | 310 | B-131-  | B-140-  | TQMLVTQFET 
+| 1kof | B | albelig | 12 | 12 | E | 321 | 325 | B-151-  | B-155-  | VLVVD 
+| 1kof | B | albelig | 13 | 13 | H | 330 | 342 | B-160-  | B-172-  | LEGVVASTIEVIK 
+| 1kof | B | albelig | 14 | 14 | L | 346 | 346 | B-1002-  | B-1002-  | J 
+| 1kof | B | albelig | 15 | 15 | L | 347 | 347 | B-501-  | B-501-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 1 = p = 9
+= 2 = p = 13
+= 2 = l = 14
+= 2 = l = 15
+= 3 = m = 4
+= 3 = m = 6
+= 3 = p = 7
+= 3 = l = 14
+= 6 = m = 7
+= 6 = m = 8
+= 7 = l = 14
+= 9 = p = 12
+= 10 = m = 11
+= 10 = l = 15
+= 12 = m = 13
+= 13 = l = 15
+= 14 = l = 15
+# Listed 18 contacts. EOF.

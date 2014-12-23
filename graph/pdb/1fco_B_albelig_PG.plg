@@ -1,0 +1,85 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fco, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-LACTAMASE BETA-LACTAM COMPLEX, ENZYME INHIBITOR COMPLEX,HYDROLASE
+> pdb_mol_name > BETA-LACTAMASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 19-JUL-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE E. COLI AMPC BETA-LACTAMASE COVALENTLYACYLATED WITH THE INHIBITORY BETA-LACTAM, MOXALACTAM
+> format_version > 2
+> pdbid > 1fco
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fco | B | albelig | 1 | 1 | H | 358 | 375 | B-3-  | B-20-  | QQINDIVHRTITPLIEQQ 
+| 1fco | B | albelig | 2 | 2 | E | 379 | 386 | B-24-  | B-31-  | GMAVAVIY 
+| 1fco | B | albelig | 3 | 3 | E | 389 | 399 | B-34-  | B-44-  | KPYYFTWGYAD 
+| 1fco | B | albelig | 4 | 4 | E | 411 | 413 | B-56-  | B-58-  | LFE 
+| 1fco | B | albelig | 5 | 5 | H | 415 | 431 | B-60-  | B-76-  | GSVSKTFTGVLGGDAIA 
+| 1fco | B | albelig | 6 | 6 | H | 441 | 443 | B-86-  | B-88-  | TTK 
+| 1fco | B | albelig | 7 | 7 | H | 451 | 453 | B-96-  | B-98-  | KQW 
+| 1fco | B | albelig | 8 | 8 | H | 458 | 463 | B-103-  | B-108-  | LLHLAT 
+| 1fco | B | albelig | 9 | 9 | H | 480 | 489 | B-125-  | B-134-  | SSDLLRFYQN 
+| 1fco | B | albelig | 10 | 10 | H | 504 | 514 | B-149-  | B-159-  | NSSIGLFGALA 
+| 1fco | B | albelig | 11 | 11 | H | 522 | 531 | B-167-  | B-176-  | FEQAMQTRVF 
+| 1fco | B | albelig | 12 | 12 | H | 545 | 550 | B-190-  | B-195-  | PAEEKN 
+| 1fco | B | albelig | 13 | 13 | E | 554 | 556 | B-199-  | B-201-  | GYR 
+| 1fco | B | albelig | 14 | 14 | E | 559 | 561 | B-204-  | B-206-  | KAV 
+| 1fco | B | albelig | 15 | 15 | H | 569 | 573 | B-214-  | B-218-  | DAEAY 
+| 1fco | B | albelig | 16 | 16 | E | 576 | 578 | B-221-  | B-223-  | KST 
+| 1fco | B | albelig | 17 | 17 | H | 579 | 590 | B-224-  | B-235-  | IEDMARWVQSNL 
+| 1fco | B | albelig | 18 | 18 | H | 592 | 594 | B-237-  | B-239-  | PLD 
+| 1fco | B | albelig | 19 | 19 | H | 598 | 607 | B-243-  | B-252-  | KTLQQGIQLA 
+| 1fco | B | albelig | 20 | 20 | E | 610 | 614 | B-255-  | B-259-  | RYWQT 
+| 1fco | B | albelig | 21 | 21 | E | 617 | 619 | B-262-  | B-264-  | MYQ 
+| 1fco | B | albelig | 22 | 22 | E | 624 | 627 | B-269-  | B-272-  | EMLD 
+| 1fco | B | albelig | 23 | 23 | H | 632 | 638 | B-277-  | B-283-  | PDSIING 
+| 1fco | B | albelig | 24 | 24 | H | 641 | 644 | B-286-  | B-289-  | NKIA 
+| 1fco | B | albelig | 25 | 25 | E | 651 | 657 | B-296-  | B-302-  | KAITPPT 
+| 1fco | B | albelig | 26 | 26 | E | 663 | 671 | B-308-  | B-316-  | SWVHKTGAT 
+| 1fco | B | albelig | 27 | 27 | E | 674 | 681 | B-319-  | B-326-  | FGSYVAFI 
+| 1fco | B | albelig | 28 | 28 | H | 682 | 684 | B-327-  | B-329-  | PEK 
+| 1fco | B | albelig | 29 | 29 | E | 686 | 692 | B-331-  | B-337-  | LGIVMLA 
+| 1fco | B | albelig | 30 | 30 | H | 698 | 712 | B-343-  | B-357-  | NPARVDAAWQILNAL 
+| 1fco | B | albelig | 31 | 31 | L | 715 | 715 | B-961-  | B-961-  | J 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = a = 30
+= 2 = a = 3
+= 2 = p = 17
+= 2 = a = 29
+= 4 = a = 16
+= 5 = m = 11
+= 5 = m = 17
+= 5 = m = 19
+= 5 = m = 26
+= 5 = l = 31
+= 8 = m = 10
+= 10 = m = 15
+= 10 = l = 31
+= 13 = a = 14
+= 15 = l = 31
+= 16 = m = 17
+= 17 = a = 29
+= 18 = m = 19
+= 20 = a = 21
+= 20 = a = 25
+= 21 = a = 22
+= 22 = a = 26
+= 23 = m = 30
+= 24 = l = 31
+= 26 = a = 27
+= 26 = l = 31
+= 27 = m = 28
+= 27 = a = 29
+= 27 = p = 30
+= 29 = a = 30
+= 30 = l = 31
+# Listed 33 contacts. EOF.

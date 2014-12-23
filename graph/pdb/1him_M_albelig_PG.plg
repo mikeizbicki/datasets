@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1him, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG2A-KAPPA 17/9 FAB (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 2.9
+> date > 08-JUL-92
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > STRUCTURAL EVIDENCE FOR INDUCED FIT AS A MECHANISM FORANTIBODY-ANTIGEN RECOGNITION
+> format_version > 2
+> pdbid > 1him
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1him | M | albelig | 1 | 1 | E | 664 | 668 | M-3-  | M-7-  | QLVES 
+| 1him | M | albelig | 2 | 2 | E | 679 | 686 | M-18-  | M-25-  | LKLSGAAS 
+| 1him | M | albelig | 3 | 3 | H | 690 | 692 | M-29-  | M-31-  | FSS 
+| 1him | M | albelig | 4 | 4 | E | 694 | 700 | M-33-  | M-39-  | GMSWVRQ 
+| 1him | M | albelig | 5 | 5 | E | 706 | 712 | M-45-  | M-51-  | LEWVATI 
+| 1him | M | albelig | 6 | 6 | E | 729 | 734 | M-67-  | M-72-  | FTISRD 
+| 1him | M | albelig | 7 | 7 | E | 739 | 744 | M-77-  | M-82-  | TLYLQM 
+| 1him | M | albelig | 8 | 8 | H | 749 | 751 | M-84-  | M-86-  | SED 
+| 1him | M | albelig | 9 | 9 | E | 753 | 760 | M-88-  | M-95-  | AMYYGARR 
+| 1him | M | albelig | 10 | 10 | E | 775 | 779 | M-107-  | M-111-  | TLVTV 
+| 1him | M | albelig | 11 | 11 | E | 788 | 792 | M-120-  | M-124-  | SVYPL 
+| 1him | M | albelig | 12 | 12 | E | 799 | 809 | M-137-  | M-147-  | SVTLGHLVKGY 
+| 1him | M | albelig | 13 | 13 | E | 815 | 818 | M-153-  | M-157-  | TLTW 
+| 1him | M | albelig | 14 | 14 | H | 819 | 821 | M-162-  | M-164-  | NSG 
+| 1him | M | albelig | 15 | 15 | E | 827 | 829 | M-171-  | M-173-  | VHT 
+| 1him | M | albelig | 16 | 16 | E | 839 | 848 | M-185-  | M-194-  | YTLSSSVTVT 
+| 1him | M | albelig | 17 | 17 | E | 858 | 863 | M-206-  | M-212-  | THNVAH 
+| 1him | M | albelig | 18 | 18 | H | 864 | 866 | M-213-  | M-215-  | PAS 
+| 1him | M | albelig | 19 | 19 | E | 868 | 873 | M-217-  | M-222-  | TKVDKK 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 4
+= 2 = a = 7
+= 2 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 5 = p = 6
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 12
+= 12 = a = 16
+= 13 = m = 14
+= 13 = p = 16
+= 13 = a = 17
+= 15 = a = 16
+= 17 = m = 18
+= 17 = a = 19
+# Listed 19 contacts. EOF.

@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bdy, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN KINASE C, C2 DOMAIN, CALCIUM, CRYSTAL STRUCTURE,CALCIUM-BINDING, DUPLICATION, ATP-BINDING, TRANSFERASE
+> pdb_mol_name > PROTEIN KINASE C
+> graphtype > albelig
+> resolution > 2.2
+> date > 11-MAY-98
+> header > CALCIUM-BINDING
+> pdb_org_common > NORWAY RAT
+> title > C2 DOMAIN FROM PROTEIN KINASE C DELTA
+> format_version > 2
+> pdbid > 1bdy
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bdy | B | albelig | 1 | 1 | E | 128 | 137 | B-4-  | B-13-  | FLRISFNSYE 
+| 1bdy | B | albelig | 2 | 2 | E | 151 | 162 | B-27-  | B-38-  | FCAVKMKEALTT 
+| 1bdy | B | albelig | 3 | 3 | E | 165 | 169 | B-41-  | B-45-  | GKTLV 
+| 1bdy | B | albelig | 4 | 4 | E | 182 | 186 | B-58-  | B-62-  | TFDAH 
+| 1bdy | B | albelig | 5 | 5 | E | 192 | 200 | B-68-  | B-76-  | VIQIVLMRA 
+| 1bdy | B | albelig | 6 | 6 | E | 203 | 211 | B-79-  | B-87-  | DPMSEVTVG 
+| 1bdy | B | albelig | 7 | 7 | H | 212 | 220 | B-88-  | B-96-  | VSVLAERCK 
+| 1bdy | B | albelig | 8 | 8 | E | 225 | 231 | B-101-  | B-107-  | KAEFWLD 
+| 1bdy | B | albelig | 9 | 9 | E | 237 | 245 | B-113-  | B-121-  | KVLMCVQYF 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 9
+= 2 = a = 3
+= 2 = a = 5
+= 5 = a = 6
+= 6 = m = 7
+= 8 = a = 9
+# Listed 7 contacts. EOF.

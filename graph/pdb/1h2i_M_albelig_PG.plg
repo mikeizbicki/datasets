@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h2i, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA-BINDING PROTEIN, DNA REPAIR, DNA RECOMBINATION
+> pdb_mol_name > DNA REPAIR PROTEIN RAD52 HOMOLOG
+> graphtype > albelig
+> resolution > 2.7
+> date > 09-AUG-02
+> header > DNA-BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN RAD52 PROTEIN, N-TERMINAL DOMAIN
+> format_version > 2
+> pdbid > 1h2i
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h2i | M | albelig | 1 | 1 | H | 2254 | 2265 | M-33-  | M-44-  | AEEYQAIQKALR 
+| 1h2i | M | albelig | 2 | 2 | E | 2273 | 2277 | M-52-  | M-56-  | ISSRM 
+| 1h2i | M | albelig | 3 | 3 | E | 2283 | 2287 | M-62-  | M-66-  | KVCYI 
+| 1h2i | M | albelig | 4 | 4 | H | 2289 | 2300 | M-68-  | M-79-  | GHRVINLANEMF 
+| 1h2i | M | albelig | 5 | 5 | E | 2305 | 2319 | M-84-  | M-98-  | WAHSITQQNVDFVDL 
+| 1h2i | M | albelig | 6 | 6 | E | 2324 | 2336 | M-103-  | M-115-  | FYVGVCAFVRVQL 
+| 1h2i | M | albelig | 7 | 7 | E | 2341 | 2351 | M-120-  | M-130-  | YHEDVGYGVSE 
+| 1h2i | M | albelig | 8 | 8 | H | 2356 | 2377 | M-135-  | M-156-  | KALSLEKARKEAVTDGLKRALR 
+| 1h2i | M | albelig | 9 | 9 | H | 2381 | 2383 | M-160-  | M-162-  | NAL 
+| 1h2i | M | albelig | 10 | 10 | H | 2385 | 2388 | M-164-  | M-167-  | NCIL 
+| 1h2i | M | albelig | 11 | 11 | H | 2390 | 2397 | M-169-  | M-176-  | KDYLRSLN 
+| 1h2i | M | albelig | 12 | 12 | H | 2409 | 2411 | M-188-  | M-190-  | LTK 
+| 1h2i | M | albelig | 13 | 13 | H | 2419 | 2428 | M-198-  | M-207-  | PSVEEARYNS 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 6 = p = 8
+= 7 = a = 8
+# Listed 6 contacts. EOF.

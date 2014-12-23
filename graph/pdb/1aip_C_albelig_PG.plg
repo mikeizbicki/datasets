@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aip, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELONGATION FACTOR, NUCLEOTIDE EXCHANGE, GTP-BINDING,COMPLEX OF TWO ELONGATION FACTORS
+> pdb_mol_name > ELONGATION FACTOR TS
+> graphtype > albelig
+> resolution > 3.0
+> date > 22-APR-97
+> header > COMPLEX OF TWO ELONGATION FACTORS
+> pdb_org_common > UNKNOWN
+> title > EF-TU EF-TS COMPLEX FROM THERMUS THERMOPHILUS
+> format_version > 2
+> pdbid > 1aip
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aip | C | albelig | 1 | 1 | H | 752 | 763 | C-3-  | C-14-  | QMELIKKLREAT 
+| 1aip | C | albelig | 2 | 2 | H | 767 | 776 | C-18-  | C-27-  | MMDVKRALED 
+| 1aip | C | albelig | 3 | 3 | H | 781 | 799 | C-32-  | C-50-  | EEKAVQLLRERGAMKAAKK 
+| 1aip | C | albelig | 4 | 4 | E | 808 | 813 | C-59-  | C-64-  | IIGHYI 
+| 1aip | C | albelig | 5 | 5 | E | 819 | 826 | C-70-  | C-77-  | VGVLVELN 
+| 1aip | C | albelig | 6 | 6 | H | 830 | 833 | C-81-  | C-84-  | DFVA 
+| 1aip | C | albelig | 7 | 7 | H | 836 | 852 | C-87-  | C-103-  | ELFQNLAKDLAMHIAMM 
+| 1aip | C | albelig | 8 | 8 | H | 864 | 879 | C-115-  | C-130-  | AEELEKERQIYIQAAL 
+| 1aip | C | albelig | 9 | 9 | H | 885 | 903 | C-136-  | C-154-  | QQIAEKIAEGRLKKYLEEV 
+| 1aip | C | albelig | 10 | 10 | H | 918 | 929 | C-169-  | C-180-  | VKELIQQAIAKI 
+| 1aip | C | albelig | 11 | 11 | E | 934 | 942 | C-185-  | C-193-  | VVRRFARFE 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 2 = m = 3
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 5 = a = 11
+= 8 = m = 9
+# Listed 8 contacts. EOF.

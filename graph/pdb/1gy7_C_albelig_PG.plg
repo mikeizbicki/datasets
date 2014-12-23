@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gy7, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR TRANSPORT, NUCLEAR TRANSPORT FACTOR, PROTEINTRANSPORT
+> pdb_mol_name > NUCLEAR TRANSPORT FACTOR 2
+> graphtype > albelig
+> resolution > 1.6
+> date > 21-APR-02
+> header > NUCLEAR TRANSPORT
+> pdb_org_common > BAKER'S YEAST
+> title > N77Y POINT MUTANT OF S.CEREVISIAE NTF2
+> format_version > 2
+> pdbid > 1gy7
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gy7 | C | albelig | 1 | 1 | H | 248 | 266 | C-8-  | C-26-  | LAQNFTQFYYNQFDTDRSQ 
+| 1gy7 | C | albelig | 2 | 2 | H | 268 | 270 | C-28-  | C-30-  | GNL 
+| 1gy7 | C | albelig | 3 | 3 | E | 271 | 279 | C-31-  | C-39-  | YRNESMLTF 
+| 1gy7 | C | albelig | 4 | 4 | E | 282 | 285 | C-42-  | C-45-  | SQLQ 
+| 1gy7 | C | albelig | 5 | 5 | H | 287 | 296 | C-47-  | C-56-  | AKDIVEKLVS 
+| 1gy7 | C | albelig | 6 | 6 | E | 302 | 313 | C-62-  | C-73-  | VQHRITTLDAQP 
+| 1gy7 | C | albelig | 7 | 7 | E | 320 | 330 | C-80-  | C-90-  | VLVMITGDLLI 
+| 1gy7 | C | albelig | 8 | 8 | E | 337 | 348 | C-97-  | C-108-  | QRFSQVFHLIPD 
+| 1gy7 | C | albelig | 9 | 9 | E | 351 | 362 | C-111-  | C-122-  | SYYVFNDIFRLN 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = a = 6
+= 1 = a = 8
+= 1 = p = 9
+= 2 = m = 3
+= 2 = m = 9
+= 3 = a = 4
+= 3 = p = 5
+= 3 = p = 9
+= 4 = m = 5
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+# Listed 13 contacts. EOF.

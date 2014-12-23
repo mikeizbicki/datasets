@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fby, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR RECEPTOR, PROTEIN-LIGAND COMPLEX, RETINOID RECEPTOR,TRANSCRIPTION
+> pdb_mol_name > RETINOIC ACID RECEPTOR RXR-ALPHA
+> graphtype > albelig
+> resolution > 2.25
+> date > 17-JUL-00
+> header > TRANSCRIPTION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE HUMAN RXR ALPHA LIGAND BINDINGDOMAIN BOUND TO 9-CIS RETINOIC ACID
+> format_version > 2
+> pdbid > 1fby
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fby | B | albelig | 1 | 1 | H | 223 | 232 | B-1232-  | B-1241-  | VERILEAELA 
+| 1fby | B | albelig | 2 | 2 | H | 238 | 258 | B-1264-  | B-1284-  | PVTNICQAADKQLFTLVEWAK 
+| 1fby | B | albelig | 3 | 3 | H | 268 | 293 | B-1294-  | B-1319-  | LDDQVILLRAGWNELLIASFSHRSIA 
+| 1fby | B | albelig | 4 | 4 | E | 297 | 299 | B-1323-  | B-1325-  | GIL 
+| 1fby | B | albelig | 5 | 5 | E | 305 | 307 | B-1331-  | B-1333-  | HVH 
+| 1fby | B | albelig | 6 | 6 | H | 308 | 314 | B-1334-  | B-1340-  | RNSAHSA 
+| 1fby | B | albelig | 7 | 7 | H | 317 | 328 | B-1343-  | B-1354-  | GAIFDRVLTELV 
+| 1fby | B | albelig | 8 | 8 | H | 329 | 332 | B-1355-  | B-1358-  | SKMR 
+| 1fby | B | albelig | 9 | 9 | H | 338 | 349 | B-1364-  | B-1375-  | KTELGCLRAIVL 
+| 1fby | B | albelig | 10 | 10 | H | 360 | 381 | B-1386-  | B-1407-  | PAEVEALREKVYASLEAYCKHK 
+| 1fby | B | albelig | 11 | 11 | H | 388 | 392 | B-1414-  | B-1418-  | RFAKL 
+| 1fby | B | albelig | 12 | 12 | H | 395 | 415 | B-1421-  | B-1441-  | RLPALRSIGLKCLEHLFFFKL 
+| 1fby | B | albelig | 13 | 13 | H | 427 | 429 | B-1453-  | B-1455-  | EML 
+| 1fby | B | albelig | 14 | 14 | L | 434 | 434 | B-1500-  | B-1500-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = l = 14
+= 3 = m = 4
+= 3 = m = 7
+= 3 = m = 8
+= 3 = a = 9
+= 3 = m = 12
+= 3 = l = 14
+= 4 = a = 5
+= 4 = l = 14
+= 5 = m = 6
+= 7 = m = 8
+= 7 = a = 12
+= 7 = l = 14
+= 9 = a = 10
+= 12 = l = 14
+# Listed 16 contacts. EOF.

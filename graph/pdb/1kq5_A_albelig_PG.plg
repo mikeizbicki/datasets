@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kq5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIGHT-HANDED PARALLEL BETA-HELIX, INTERTWINED DIMER, ACTIN-BINDING,SIGNALING PROTEIN
+> pdb_mol_name > ADENYLYL CYCLASE-ASSOCIATED PROTEIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 03-JAN-02
+> header > SIGNALING PROTEIN
+> pdb_org_common > BAKER'S YEAST
+> title > C-TERMINAL DOMAIN OF CYCLASE ASSOCIATED PROTEIN WITH PRO 505 REPLACEDBY SER (P505S)
+> format_version > 2
+> pdbid > 1kq5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kq5 | A | albelig | 1 | 1 | E | 4 | 8 | A-1371-  | A-1375-  | RKELV 
+| 1kq5 | A | albelig | 2 | 2 | E | 11 | 17 | A-1378-  | A-1384-  | KWFIENY 
+| 1kq5 | A | albelig | 3 | 3 | E | 24 | 27 | A-1391-  | A-1394-  | LVID 
+| 1kq5 | A | albelig | 4 | 4 | E | 33 | 47 | A-1400-  | A-1414-  | SIFIGKCSQVLVQIK 
+| 1kq5 | A | albelig | 5 | 5 | E | 52 | 65 | A-1419-  | A-1432-  | AISLSETESCSVVL 
+| 1kq5 | A | albelig | 6 | 6 | E | 72 | 84 | A-1439-  | A-1451-  | MDVIKSNKFGIQV 
+| 1kq5 | A | albelig | 7 | 7 | E | 90 | 94 | A-1457-  | A-1461-  | QISID 
+| 1kq5 | A | albelig | 8 | 8 | E | 97 | 102 | A-1464-  | A-1469-  | DGGNIY 
+| 1kq5 | A | albelig | 9 | 9 | H | 106 | 108 | A-1473-  | A-1475-  | ESL 
+| 1kq5 | A | albelig | 10 | 10 | E | 111 | 115 | A-1478-  | A-1482-  | EIYTS 
+| 1kq5 | A | albelig | 11 | 11 | E | 118 | 123 | A-1485-  | A-1490-  | TAINVN 
+| 1kq5 | A | albelig | 12 | 12 | E | 141 | 146 | A-1508-  | A-1513-  | MKHSFA 
+| 1kq5 | A | albelig | 13 | 13 | E | 149 | 154 | A-1516-  | A-1521-  | KFKSAV 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = p = 4
+= 3 = p = 4
+= 4 = p = 5
+= 5 = p = 6
+= 6 = a = 7
+= 6 = p = 8
+= 7 = p = 10
+= 8 = p = 11
+= 12 = a = 13
+# Listed 10 contacts. EOF.

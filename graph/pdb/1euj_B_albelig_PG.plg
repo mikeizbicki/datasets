@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1euj, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EMAP 2, EMAP II, CYTOKINE, TRNA SYNTHETASE, APOPTOSIS, RNABINDING MOTIF
+> pdb_mol_name > ENDOTHELIAL MONOCYTE ACTIVATING POLYPEPTIDE 2
+> graphtype > albelig
+> resolution > 1.8
+> date > 17-APR-00
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > A NOVEL ANTI-TUMOR CYTOKINE CONTAINS A RNA-BINDING MOTIFPRESENT IN AMINOACYL-TRNA SYNTHETASES
+> format_version > 2
+> pdbid > 1euj
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1euj | B | albelig | 1 | 1 | H | 169 | 171 | B-6-  | B-8-  | VSR 
+| 1euj | B | albelig | 2 | 2 | E | 174 | 184 | B-11-  | B-21-  | LRIGCIITARK 
+| 1euj | B | albelig | 3 | 3 | E | 192 | 197 | B-29-  | B-34-  | YVEEVD 
+| 1euj | B | albelig | 4 | 4 | E | 204 | 208 | B-41-  | B-45-  | RTVVS 
+| 1euj | B | albelig | 5 | 5 | H | 216 | 218 | B-53-  | B-55-  | LEQ 
+| 1euj | B | albelig | 6 | 6 | E | 222 | 227 | B-59-  | B-64-  | RMVILL 
+| 1euj | B | albelig | 7 | 7 | E | 246 | 248 | B-83-  | B-85-  | CAS 
+| 1euj | B | albelig | 8 | 8 | E | 253 | 255 | B-90-  | B-92-  | IEI 
+| 1euj | B | albelig | 9 | 9 | H | 283 | 285 | B-120-  | B-122-  | PKK 
+| 1euj | B | albelig | 10 | 10 | H | 287 | 294 | B-124-  | B-131-  | IWEQIQPD 
+| 1euj | B | albelig | 11 | 11 | E | 295 | 297 | B-132-  | B-134-  | LHT 
+| 1euj | B | albelig | 12 | 12 | E | 303 | 305 | B-140-  | B-142-  | ATY 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 4
+= 7 = a = 8
+= 10 = m = 11
+= 10 = m = 12
+= 11 = a = 12
+# Listed 7 contacts. EOF.

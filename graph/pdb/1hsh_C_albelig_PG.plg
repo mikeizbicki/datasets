@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hsh, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (ACID PROTEINASE)
+> pdb_mol_name > HIV-1 PROTEASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 31-MAR-95
+> header > HYDROLASE (ACID PROTEINASE)
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE AT 1.9 ANGSTROMS RESOLUTION OF HUMANIMMUNODEFICIENCY VIRUS (HIV) II PROTEASE COMPLEXED WITH L-735,524, AN ORALLY BIOAVAILABLE INHIBITOR OF THE HIVPROTEASES
+> format_version > 2
+> pdbid > 1hsh
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hsh | C | albelig | 1 | 1 | E | 210 | 215 | C-10-  | C-15-  | VVTAYI 
+| 1hsh | C | albelig | 2 | 2 | E | 218 | 224 | C-18-  | C-24-  | QPVEVLL 
+| 1hsh | C | albelig | 3 | 3 | E | 243 | 249 | C-43-  | C-49-  | SPKIVGG 
+| 1hsh | C | albelig | 4 | 4 | E | 252 | 266 | C-52-  | C-66-  | GFINTKEYKNVEIEV 
+| 1hsh | C | albelig | 5 | 5 | E | 269 | 277 | C-69-  | C-77-  | KKVRATIMT 
+| 1hsh | C | albelig | 6 | 6 | H | 287 | 293 | C-87-  | C-93-  | RNILTAL 
+| 1hsh | C | albelig | 7 | 7 | E | 296 | 298 | C-96-  | C-98-  | SLN 
+| 1hsh | C | albelig | 8 | 8 | L | 401 | 401 | C-402-  | C-402-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = l = 8
+= 3 = a = 4
+= 3 = l = 8
+= 4 = a = 5
+= 5 = a = 6
+# Listed 7 contacts. EOF.

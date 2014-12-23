@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gp7, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOLIPASE A2, SNAKE VENOM, KING COBRA, CARDIOTOXICACTIVITY, MYOTOXIC ACTIVITY, PANCREATIC LOOP, CRYSTALSTRUCTURE, HYDROLASE, LIPID DEGRADATION, CALCIUM
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 2.6
+> date > 30-OCT-01
+> header > HYDROLASE
+> pdb_org_common > KING COBRA
+> title > ACIDIC PHOSPHOLIPASE A2 FROM VENOM OF OPHIOPHAGUS HANNAH
+> format_version > 2
+> pdbid > 1gp7
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > OPHIOPHAGUS HANNAH
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gp7 | C | albelig | 1 | 1 | H | 252 | 262 | C-2-  | C-12-  | LIQFGNMIQCT 
+| 1gp7 | C | albelig | 2 | 2 | H | 290 | 307 | C-40-  | C-57-  | KLDRRQQVHDNSYTQAQK 
+| 1gp7 | C | albelig | 3 | 3 | H | 309 | 311 | C-59-  | C-61-  | PAT 
+| 1gp7 | C | albelig | 4 | 4 | H | 317 | 320 | C-67-  | C-70-  | SPYV 
+| 1gp7 | C | albelig | 5 | 5 | E | 325 | 328 | C-75-  | C-78-  | YDCS 
+| 1gp7 | C | albelig | 6 | 6 | E | 331 | 334 | C-81-  | C-84-  | TVTC 
+| 1gp7 | C | albelig | 7 | 7 | H | 340 | 357 | C-90-  | C-107-  | ETAAFICNSDRVAAHRFA 
+| 1gp7 | C | albelig | 8 | 8 | H | 363 | 365 | C-113-  | C-115-  | NNN 
+| 1gp7 | C | albelig | 9 | 9 | H | 370 | 373 | C-120-  | C-123-  | TTTR 
+| 1gp7 | C | albelig | 10 | 10 | L | 377 | 377 | C-1125-  | C-1125-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 7
+= 2 = a = 7
+= 2 = l = 10
+= 5 = a = 6
+= 6 = m = 7
+# Listed 6 contacts. EOF.

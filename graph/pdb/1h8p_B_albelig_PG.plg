@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h8p, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHORYLCHOLINE-BINDING PROTEIN
+> pdb_mol_name > SEMINAL PLASMA PROTEIN PDC-109
+> graphtype > albelig
+> resolution > 1.82
+> date > 14-FEB-01
+> header > PHOSPHORYLCHOLINE-BINDING PROTEIN
+> pdb_org_common > BULL
+> title > BULL SEMINAL PLASMA  PDC-109  FIBRONECTIN TYPE II MODULE
+> format_version > 2
+> pdbid > 1h8p
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h8p | B | albelig | 1 | 1 | E | 96 | 98 | B-28-  | B-30-  | FVY 
+| 1h8p | B | albelig | 2 | 2 | E | 101 | 103 | B-33-  | B-35-  | RKH 
+| 1h8p | B | albelig | 3 | 3 | E | 115 | 117 | B-47-  | B-49-  | WES 
+| 1h8p | B | albelig | 4 | 4 | E | 126 | 128 | B-58-  | B-60-  | WKY 
+| 1h8p | B | albelig | 5 | 5 | H | 131 | 133 | B-63-  | B-65-  | QRD 
+| 1h8p | B | albelig | 6 | 6 | E | 141 | 143 | B-73-  | B-75-  | FIY 
+| 1h8p | B | albelig | 7 | 7 | E | 146 | 148 | B-78-  | B-80-  | KKY 
+| 1h8p | B | albelig | 8 | 8 | E | 161 | 163 | B-93-  | B-95-  | WGS 
+| 1h8p | B | albelig | 9 | 9 | H | 168 | 171 | B-100-  | B-103-  | YDKD 
+| 1h8p | B | albelig | 10 | 10 | E | 174 | 176 | B-106-  | B-108-  | WKY 
+| 1h8p | B | albelig | 11 | 11 | L | 180 | 180 | B-1110-  | B-1110-  | J 
+| 1h8p | B | albelig | 12 | 12 | L | 181 | 181 | B-1111-  | B-1111-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 11
+= 3 = a = 4
+= 3 = l = 11
+= 4 = l = 11
+= 6 = a = 7
+= 6 = m = 9
+= 6 = l = 12
+= 8 = a = 10
+= 8 = l = 12
+= 9 = l = 12
+= 10 = l = 12
+# Listed 12 contacts. EOF.

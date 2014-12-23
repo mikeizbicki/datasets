@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c8o, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERPIN FOLD, VIRAL PROTEIN
+> pdb_mol_name > ICE INHIBITOR
+> graphtype > albelig
+> resolution > 2.9
+> date > 01-JUN-00
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > 2.9 A STRUCTURE OF CLEAVED VIRAL SERPIN CRMA
+> format_version > 2
+> pdbid > 1c8o
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > COWPOX VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c8o | A | albelig | 1 | 1 | H | 2 | 10 | A-2-  | A-10-  | DIFREIASS 
+| 1c8o | A | albelig | 2 | 2 | E | 16 | 18 | A-16-  | A-18-  | VFI 
+| 1c8o | A | albelig | 3 | 3 | H | 20 | 33 | A-20-  | A-33-  | PPSISSVLTILYYG 
+| 1c8o | A | albelig | 4 | 4 | H | 37 | 43 | A-37-  | A-43-  | STAEQLS 
+| 1c8o | A | albelig | 5 | 5 | E | 59 | 68 | A-59-  | A-68-  | FKSMNKVYGR 
+| 1c8o | A | albelig | 6 | 6 | H | 75 | 81 | A-75-  | A-81-  | DSFLRKI 
+| 1c8o | A | albelig | 7 | 7 | E | 85 | 88 | A-85-  | A-88-  | FQTV 
+| 1c8o | A | albelig | 8 | 8 | H | 93 | 106 | A-93-  | A-106-  | SRTVDAINKSVDIF 
+| 1c8o | A | albelig | 9 | 9 | E | 125 | 136 | A-125-  | A-136-  | LLAISAVYFKAK 
+| 1c8o | A | albelig | 10 | 10 | H | 143 | 145 | A-143-  | A-145-  | KEF 
+| 1c8o | A | albelig | 11 | 11 | E | 147 | 152 | A-147-  | A-152-  | SDYPFY 
+| 1c8o | A | albelig | 12 | 12 | E | 158 | 166 | A-158-  | A-166-  | MVDVSMMSM 
+| 1c8o | A | albelig | 13 | 13 | E | 170 | 173 | A-170-  | A-173-  | AFNH 
+| 1c8o | A | albelig | 14 | 14 | E | 181 | 189 | A-181-  | A-189-  | GNFSIIELP 
+| 1c8o | A | albelig | 15 | 15 | E | 194 | 201 | A-194-  | A-201-  | TSMVVILP 
+| 1c8o | A | albelig | 16 | 16 | H | 207 | 211 | A-207-  | A-211-  | LESIE 
+| 1c8o | A | albelig | 17 | 17 | H | 216 | 224 | A-216-  | A-224-  | DTNFKKWSD 
+| 1c8o | A | albelig | 18 | 18 | E | 227 | 230 | A-227-  | A-230-  | DAMF 
+| 1c8o | A | albelig | 19 | 19 | E | 232 | 236 | A-232-  | A-236-  | DVHIP 
+| 1c8o | A | albelig | 20 | 20 | E | 239 | 245 | A-239-  | A-245-  | KVTGSYN 
+| 1c8o | A | albelig | 21 | 21 | H | 247 | 252 | A-247-  | A-252-  | VDALVK 
+| 1c8o | A | albelig | 22 | 22 | E | 278 | 286 | A-278-  | A-286-  | MIHKTYIDV 
+| 1c8o | A | albelig | 23 | 23 | E | 290 | 299 | A-290-  | A-299-  | YTEAAAATSA 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 22
+= 3 = m = 4
+= 3 = m = 6
+= 3 = m = 9
+= 3 = m = 23
+= 5 = p = 7
+= 5 = a = 8
+= 5 = a = 9
+= 9 = a = 23
+= 11 = a = 12
+= 12 = a = 19
+= 13 = a = 14
+= 13 = a = 18
+= 14 = a = 15
+= 20 = m = 21
+= 20 = a = 22
+= 22 = a = 23
+# Listed 17 contacts. EOF.

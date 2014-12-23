@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ie4, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSPORT PROTEIN, TRANSPORT OF THYROID HORMONES, RATTRANSTHYRETIN, PREALBUMIN, THYROXINE COMPLEX
+> pdb_mol_name > TRANSTHYRETIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 06-APR-01
+> header > TRANSPORT PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > RAT TRANSTHYRETIN COMPLEX WITH THYROXINE (T4)
+> format_version > 2
+> pdbid > 1ie4
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ie4 | D | albelig | 1 | 1 | E | 368 | 374 | D-12-  | D-18-  | LMVKVLD 
+| 1ie4 | D | albelig | 2 | 2 | E | 385 | 391 | D-29-  | D-35-  | AVKVFKK 
+| 1ie4 | D | albelig | 3 | 3 | E | 397 | 404 | D-41-  | D-48-  | WEPFASGK 
+| 1ie4 | D | albelig | 4 | 4 | E | 423 | 429 | D-67-  | D-73-  | GVYRVEL 
+| 1ie4 | D | albelig | 5 | 5 | H | 431 | 436 | D-75-  | D-80-  | TKSYWK 
+| 1ie4 | D | albelig | 6 | 6 | E | 444 | 453 | D-88-  | D-97-  | HEYAEVVFTA 
+| 1ie4 | D | albelig | 7 | 7 | E | 460 | 467 | D-104-  | D-111-  | HYTIAALL 
+| 1ie4 | D | albelig | 8 | 8 | E | 471 | 479 | D-115-  | D-123-  | SYSTTAVVS 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 2 = a = 3
+= 2 = a = 4
+= 4 = a = 6
+= 5 = m = 6
+= 7 = a = 8
+# Listed 6 contacts. EOF.

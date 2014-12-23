@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ej7, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TIM BARREL, ALPHA/BETA BARREL, LYASE
+> pdb_mol_name > RUBISCO (SMALL SUBUNIT)
+> graphtype > albelig
+> resolution > 2.45
+> date > 01-MAR-00
+> header > LYASE
+> pdb_org_common > COMMON TOBACCO
+> title > CRYSTAL STRUCTURE OF UNACTIVATED TOBACCO RUBISCO WITH BOUND PHOSPHATEIONS
+> format_version > 2
+> pdbid > 1ej7
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > NICOTIANA TABACUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ej7 | S | albelig | 1 | 1 | H | 481 | 494 | S-523-  | S-536-  | QEQLLSEVEYLLKN 
+| 1ej7 | S | albelig | 2 | 2 | E | 497 | 503 | S-539-  | S-545-  | VPCLEFE 
+| 1ej7 | S | albelig | 3 | 3 | E | 526 | 528 | S-568-  | S-570-  | TMW 
+| 1ej7 | S | albelig | 4 | 4 | H | 538 | 551 | S-580-  | S-593-  | ATQVLAEVEEAKKA 
+| 1ej7 | S | albelig | 5 | 5 | E | 556 | 563 | S-598-  | S-605-  | WIRIIGFD 
+| 1ej7 | S | albelig | 6 | 6 | E | 568 | 576 | S-610-  | S-618-  | VQCISFIAY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = a = 3
+= 2 = a = 5
+= 5 = a = 6
+# Listed 4 contacts. EOF.

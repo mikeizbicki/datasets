@@ -1,0 +1,82 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g0h, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOMODIMER, COMPLEXED WITH CA2+ AND I-1-P, HYDROLASE
+> pdb_mol_name > INOSITOL MONOPHOSPHATASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 06-OCT-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF MJ0109 GENE PRODUCT INOSITOLMONOPHOSPHATASE-FRUCTOSE 1,6 BISPHOSPHATASE
+> format_version > 2
+> pdbid > 1g0h
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > METHANOCALDOCOCCUS JANNASCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g0h | B | albelig | 1 | 1 | H | 256 | 274 | B-303-  | B-321-  | WDEIGKNIAKEIEKEILPY 
+| 1g0h | B | albelig | 2 | 2 | E | 283 | 287 | B-330-  | B-334-  | VVGTS 
+| 1g0h | B | albelig | 3 | 3 | E | 291 | 294 | B-338-  | B-341-  | DETE 
+| 1g0h | B | albelig | 4 | 4 | H | 295 | 309 | B-342-  | B-356-  | IFDKISEDIALKYLK 
+| 1g0h | B | albelig | 5 | 5 | E | 314 | 317 | B-361-  | B-364-  | NIVS 
+| 1g0h | B | albelig | 6 | 6 | E | 321 | 323 | B-368-  | B-370-  | GVI 
+| 1g0h | B | albelig | 7 | 7 | E | 329 | 337 | B-376-  | B-384-  | WTVVIDPID 
+| 1g0h | B | albelig | 8 | 8 | H | 339 | 343 | B-386-  | B-390-  | SFNFI 
+| 1g0h | B | albelig | 9 | 9 | E | 350 | 357 | B-397-  | B-404-  | AFCFGVFK 
+| 1g0h | B | albelig | 10 | 10 | E | 361 | 368 | B-408-  | B-415-  | PYYGLTYE 
+| 1g0h | B | albelig | 11 | 11 | H | 369 | 371 | B-416-  | B-418-  | FLT 
+| 1g0h | B | albelig | 12 | 12 | E | 373 | 378 | B-420-  | B-425-  | SFYEAY 
+| 1g0h | B | albelig | 13 | 13 | E | 382 | 385 | B-429-  | B-432-  | GAYL 
+| 1g0h | B | albelig | 14 | 14 | E | 401 | 405 | B-448-  | B-452-  | VISYY 
+| 1g0h | B | albelig | 15 | 15 | H | 412 | 418 | B-459-  | B-465-  | LEKLRNK 
+| 1g0h | B | albelig | 16 | 16 | H | 428 | 436 | B-475-  | B-483-  | FGLEMCYVA 
+| 1g0h | B | albelig | 17 | 17 | E | 442 | 445 | B-489-  | B-492-  | AVFD 
+| 1g0h | B | albelig | 18 | 18 | H | 452 | 464 | B-499-  | B-511-  | AVDIASSYIICKE 
+| 1g0h | B | albelig | 19 | 19 | E | 468 | 470 | B-515-  | B-517-  | LIT 
+| 1g0h | B | albelig | 20 | 20 | E | 489 | 492 | B-536-  | B-539-  | IIVA 
+| 1g0h | B | albelig | 21 | 21 | H | 495 | 503 | B-542-  | B-550-  | KEMLDIILD 
+| 1g0h | B | albelig | 22 | 22 | L | 509 | 509 | B-590-  | B-590-  | J 
+| 1g0h | B | albelig | 23 | 23 | L | 510 | 510 | B-591-  | B-591-  | J 
+| 1g0h | B | albelig | 24 | 24 | L | 511 | 511 | B-592-  | B-592-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 9
+= 1 = p = 10
+= 1 = m = 12
+= 2 = a = 3
+= 3 = m = 4
+= 4 = a = 7
+= 4 = l = 22
+= 5 = a = 6
+= 5 = p = 7
+= 7 = a = 9
+= 7 = m = 18
+= 7 = l = 22
+= 7 = l = 23
+= 7 = l = 24
+= 8 = l = 22
+= 8 = l = 24
+= 9 = a = 10
+= 9 = m = 18
+= 10 = m = 11
+= 10 = a = 12
+= 10 = m = 18
+= 12 = a = 13
+= 12 = m = 18
+= 13 = m = 18
+= 14 = p = 17
+= 14 = l = 24
+= 16 = m = 17
+= 16 = p = 18
+= 16 = l = 24
+= 17 = a = 20
+= 18 = l = 23
+= 18 = l = 24
+= 19 = a = 20
+= 22 = l = 23
+= 22 = l = 24
+= 23 = l = 24
+# Listed 37 contacts. EOF.

@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gml, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, CHAPERONIN, ACTIN, TUBULIN
+> pdb_mol_name > T-COMPLEX PROTEIN 1 SUBUNIT GAMMA
+> graphtype > albelig
+> resolution > 2.2
+> date > 17-SEP-01
+> header > CHAPERONE
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE OF THE MOUSE CCT GAMMA APICAL DOMAIN(TRICLINIC)
+> format_version > 2
+> pdbid > 1gml
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gml | A | albelig | 1 | 1 | E | 4 | 10 | A-214-  | A-220-  | VLRGVMI 
+| 1gml | A | albelig | 2 | 2 | E | 22 | 24 | A-232-  | A-234-  | YIK 
+| 1gml | A | albelig | 3 | 3 | E | 28 | 31 | A-238-  | A-241-  | IVLL 
+| 1gml | A | albelig | 4 | 4 | H | 41 | 60 | A-264-  | A-283-  | FTRILQMEEEYIHQLCEDII 
+| 1gml | A | albelig | 5 | 5 | E | 66 | 69 | A-289-  | A-292-  | VVIT 
+| 1gml | A | albelig | 6 | 6 | H | 75 | 83 | A-298-  | A-306-  | DLAQHYLMR 
+| 1gml | A | albelig | 7 | 7 | E | 87 | 89 | A-310-  | A-312-  | TAI 
+| 1gml | A | albelig | 8 | 8 | H | 94 | 104 | A-317-  | A-327-  | KTDNNRIARAC 
+| 1gml | A | albelig | 9 | 9 | H | 112 | 114 | A-335-  | A-337-  | PEE 
+| 1gml | A | albelig | 10 | 10 | H | 117 | 119 | A-340-  | A-342-  | EDD 
+| 1gml | A | albelig | 11 | 11 | E | 124 | 132 | A-347-  | A-355-  | AGLLEIKKI 
+| 1gml | A | albelig | 12 | 12 | E | 135 | 143 | A-358-  | A-366-  | EYFTFITDA 
+| 1gml | A | albelig | 13 | 13 | E | 150 | 154 | A-373-  | A-377-  | TILLR 
+| 1gml | A | albelig | 14 | 14 | L | 616 | 616 | A-1379-  | A-1379-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 1 = a = 12
+= 1 = a = 13
+= 1 = l = 14
+= 2 = a = 11
+= 3 = p = 5
+= 3 = m = 8
+= 4 = m = 6
+= 5 = p = 7
+= 11 = a = 12
+= 11 = l = 14
+= 12 = l = 14
+= 13 = l = 14
+# Listed 13 contacts. EOF.

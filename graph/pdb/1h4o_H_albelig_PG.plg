@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h4o, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIOXIDANT ENZYME, THIOREDOXIN PEROTHIOREDOXIN, FOLDXIDASE,OXIDOREDUCTASE
+> pdb_mol_name > PEROXIREDOXIN 5
+> graphtype > albelig
+> resolution > 1.95
+> date > 11-MAY-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > MONOCLINIC FORM OF HUMAN PEROXIREDOXIN 5
+> format_version > 2
+> pdbid > 1h4o
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h4o | H | albelig | 1 | 1 | E | 1147 | 1149 | H-13-  | H-15-  | EVF 
+| 1h4o | H | albelig | 2 | 2 | E | 1156 | 1158 | H-22-  | H-24-  | KVN 
+| 1h4o | H | albelig | 3 | 3 | H | 1159 | 1162 | H-25-  | H-28-  | LAEL 
+| 1h4o | H | albelig | 4 | 4 | E | 1167 | 1173 | H-33-  | H-39-  | KGVLFGV 
+| 1h4o | H | albelig | 5 | 5 | H | 1181 | 1191 | H-47-  | H-57-  | CSKTHLPGFVE 
+| 1h4o | H | albelig | 6 | 6 | H | 1193 | 1197 | H-59-  | H-63-  | AEALK 
+| 1h4o | H | albelig | 7 | 7 | E | 1201 | 1208 | H-67-  | H-74-  | VQVVACLS 
+| 1h4o | H | albelig | 8 | 8 | H | 1212 | 1221 | H-78-  | H-87-  | AFVTGEWGRA 
+| 1h4o | H | albelig | 9 | 9 | E | 1229 | 1232 | H-95-  | H-98-  | RLLA 
+| 1h4o | H | albelig | 10 | 10 | H | 1237 | 1242 | H-103-  | H-108-  | AFGKET 
+| 1h4o | H | albelig | 11 | 11 | H | 1251 | 1254 | H-117-  | H-120-  | VSIF 
+| 1h4o | H | albelig | 12 | 12 | E | 1262 | 1267 | H-128-  | H-133-  | FSMVVQ 
+| 1h4o | H | albelig | 13 | 13 | E | 1270 | 1276 | H-136-  | H-142-  | IVKALNV 
+| 1h4o | H | albelig | 14 | 14 | H | 1288 | 1294 | H-154-  | H-160-  | APNIISQ 
+| 1h4o | H | albelig | 15 | 15 | L | 1303 | 1303 | H-1162-  | H-1162-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = m = 3
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 12
+= 5 = l = 15
+= 6 = m = 7
+= 7 = p = 9
+= 8 = m = 9
+= 11 = l = 15
+= 12 = a = 13
+# Listed 12 contacts. EOF.

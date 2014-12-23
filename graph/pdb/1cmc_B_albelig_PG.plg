@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cmc, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA-BINDING REGULATORY PROTEIN
+> pdb_mol_name > MET REPRESSOR
+> graphtype > albelig
+> resolution > 1.8
+> date > 28-AUG-92
+> header > DNA-BINDING REGULATORY PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THREE DIMENSIONAL CRYSTAL STRUCTURES OF E. COLI METREPRESSOR WITH AND WITHOUT COREPRESSOR
+> format_version > 2
+> pdbid > 1cmc
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cmc | B | albelig | 1 | 1 | E | 126 | 134 | B-21-  | B-29-  | VKKITVSIP 
+| 1cmc | B | albelig | 2 | 2 | H | 135 | 150 | B-30-  | B-45-  | LKVLKILTDERTRRQV 
+| 1cmc | B | albelig | 3 | 3 | H | 158 | 171 | B-53-  | B-66-  | NSELLCEAFLHAFT 
+| 1cmc | B | albelig | 4 | 4 | H | 178 | 181 | B-73-  | B-76-  | DADL 
+| 1cmc | B | albelig | 5 | 5 | H | 191 | 199 | B-86-  | B-94-  | EAAKEIMRE 
+| 1cmc | B | albelig | 6 | 6 | L | 212 | 212 | B-106-  | B-106-  | J 
+| 1cmc | B | albelig | 7 | 7 | L | 213 | 213 | B-105-  | B-105-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 3
+= 3 = l = 7
+# Listed 3 contacts. EOF.

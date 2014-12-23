@@ -1,0 +1,82 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jrc, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOMODIMER, ALPHA-BETA BARREL, FLAVOPROTEIN, OROTATE COMPLEX,MUTANT ENZYME, OXIDOREDUCTASE
+> pdb_mol_name > DIHYDROOROTATE DEHYDROGENASE A
+> graphtype > albelig
+> resolution > 1.8
+> date > 13-AUG-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THE N67A MUTANT OF LACTOCOCCUS LACTIS DIHYDROOROTATEDEHYDROGENASE A
+> format_version > 2
+> pdbid > 1jrc
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > LACTOCOCCUS LACTIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jrc | B | albelig | 1 | 1 | E | 316 | 318 | B-4-  | B-6-  | TTF 
+| 1jrc | B | albelig | 2 | 2 | E | 321 | 323 | B-9-  | B-11-  | AKF 
+| 1jrc | B | albelig | 3 | 3 | E | 327 | 329 | B-15-  | B-17-  | FMN 
+| 1jrc | B | albelig | 4 | 4 | H | 338 | 346 | B-26-  | B-34-  | IEDLEELKA 
+| 1jrc | B | albelig | 5 | 5 | E | 370 | 373 | B-58-  | B-61-  | YVDL 
+| 1jrc | B | albelig | 6 | 6 | E | 376 | 379 | B-64-  | B-67-  | GSIA 
+| 1jrc | B | albelig | 7 | 7 | H | 388 | 401 | B-76-  | B-89-  | FDYYLDYVLKNQKE 
+| 1jrc | B | albelig | 8 | 8 | E | 409 | 412 | B-97-  | B-100-  | FFSI 
+| 1jrc | B | albelig | 9 | 9 | H | 417 | 429 | B-105-  | B-117-  | AAENIAMLKKIQE 
+| 1jrc | B | albelig | 10 | 10 | E | 435 | 439 | B-123-  | B-127-  | ITELN 
+| 1jrc | B | albelig | 11 | 11 | H | 451 | 453 | B-139-  | B-141-  | LAY 
+| 1jrc | B | albelig | 12 | 12 | H | 455 | 465 | B-143-  | B-153-  | FEATEKLLKEV 
+| 1jrc | B | albelig | 13 | 13 | E | 473 | 477 | B-161-  | B-165-  | LGVKL 
+| 1jrc | B | albelig | 14 | 14 | H | 483 | 494 | B-171-  | B-182-  | LVHFDIMAEILN 
+| 1jrc | B | albelig | 15 | 15 | E | 500 | 503 | B-188-  | B-191-  | YVNS 
+| 1jrc | B | albelig | 16 | 16 | E | 507 | 511 | B-195-  | B-199-  | IGNGL 
+| 1jrc | B | albelig | 17 | 17 | H | 524 | 527 | B-212-  | B-215-  | PKDG 
+| 1jrc | B | albelig | 18 | 18 | E | 528 | 532 | B-216-  | B-220-  | FGGIG 
+| 1jrc | B | albelig | 19 | 19 | H | 534 | 548 | B-222-  | B-236-  | AYIKPTALANVRAFY 
+| 1jrc | B | albelig | 20 | 20 | E | 556 | 560 | B-244-  | B-248-  | QIIGT 
+| 1jrc | B | albelig | 21 | 21 | H | 566 | 575 | B-254-  | B-263-  | GQDAFEHLLC 
+| 1jrc | B | albelig | 22 | 22 | E | 579 | 582 | B-267-  | B-270-  | MLQI 
+| 1jrc | B | albelig | 23 | 23 | H | 584 | 589 | B-272-  | B-277-  | TALHKE 
+| 1jrc | B | albelig | 24 | 24 | H | 592 | 607 | B-280-  | B-295-  | AIFDRIIKELEEIMNQ 
+| 1jrc | B | albelig | 25 | 25 | H | 613 | 615 | B-301-  | B-303-  | IAD 
+| 1jrc | B | albelig | 26 | 26 | L | 626 | 626 | B-2312-  | B-2312-  | J 
+| 1jrc | B | albelig | 27 | 27 | L | 627 | 627 | B-2313-  | B-2313-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 20
+= 3 = p = 22
+= 4 = m = 7
+= 5 = a = 6
+= 5 = l = 26
+= 6 = a = 18
+= 6 = m = 23
+= 6 = l = 26
+= 8 = p = 10
+= 8 = l = 26
+= 9 = m = 12
+= 10 = p = 13
+= 10 = l = 26
+= 10 = l = 27
+= 11 = m = 12
+= 12 = p = 14
+= 13 = p = 15
+= 13 = l = 26
+= 14 = m = 19
+= 15 = p = 20
+= 16 = a = 18
+= 17 = m = 18
+= 18 = l = 26
+= 19 = a = 20
+= 19 = p = 21
+= 19 = l = 26
+= 20 = p = 22
+= 20 = l = 26
+= 21 = m = 24
+= 22 = l = 26
+= 23 = m = 24
+= 23 = l = 26
+= 26 = l = 27
+# Listed 34 contacts. EOF.

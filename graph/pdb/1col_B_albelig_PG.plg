@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1col, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBACTERIAL PROTEIN
+> pdb_mol_name > COLICIN A
+> graphtype > albelig
+> resolution > 2.4
+> date > 06-JUL-91
+> header > ANTIBACTERIAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > REFINED STRUCTURE OF THE PORE-FORMING DOMAIN OF COLICIN AAT 2.4 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1col
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1col | B | albelig | 1 | 1 | H | 202 | 224 | B-8-  | B-30-  | ERELLEKTSELIAGMGDKIGEHL 
+| 1col | B | albelig | 2 | 2 | H | 226 | 240 | B-32-  | B-46-  | DKYKAIAKDIADNIK 
+| 1col | B | albelig | 3 | 3 | H | 250 | 261 | B-56-  | B-67-  | FDDAMASLNKIT 
+| 1col | B | albelig | 4 | 4 | H | 264 | 266 | B-70-  | B-72-  | PAM 
+| 1col | B | albelig | 5 | 5 | H | 270 | 281 | B-76-  | B-87-  | KADRDALVNAWK 
+| 1col | B | albelig | 6 | 6 | H | 285 | 295 | B-91-  | B-101-  | AQDMANKLGNL 
+| 1col | B | albelig | 7 | 7 | H | 297 | 299 | B-103-  | B-105-  | KAF 
+| 1col | B | albelig | 8 | 8 | H | 304 | 321 | B-110-  | B-127-  | VVMKVEKVREKSIEGYET 
+| 1col | B | albelig | 9 | 9 | H | 325 | 336 | B-131-  | B-142-  | GPLMLEVESWVL 
+| 1col | B | albelig | 10 | 10 | H | 341 | 357 | B-147-  | B-163-  | SSVALGIFSATLGAYAL 
+| 1col | B | albelig | 11 | 11 | H | 363 | 379 | B-169-  | B-185-  | AIAVGIAGILLAAVVGA 
+| 1col | B | albelig | 12 | 12 | H | 384 | 394 | B-190-  | B-200-  | KFADALNNEII 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 10
+= 1 = a = 11
+= 2 = a = 12
+= 3 = m = 9
+= 3 = m = 12
+= 5 = a = 8
+= 5 = m = 10
+= 7 = m = 10
+= 8 = a = 9
+= 8 = m = 10
+= 9 = a = 10
+= 10 = m = 11
+# Listed 13 contacts. EOF.

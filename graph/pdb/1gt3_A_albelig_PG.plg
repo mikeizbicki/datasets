@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gt3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPOCALIN, ODORANT BINDING PROTEIN
+> pdb_mol_name > ODORANT-BINDING PROTEIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 10-JAN-02
+> header > ODORANT BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > COMPLEX OF BOVINE ODORANT BINDING PROTEIN WITH DIHYDROMYRCENOL
+> format_version > 2
+> pdbid > 1gt3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gt3 | A | albelig | 1 | 1 | H | 11 | 13 | A-11-  | A-13-  | SEL 
+| 1gt3 | A | albelig | 2 | 2 | E | 15 | 24 | A-15-  | A-24-  | GPWRTVYIGS 
+| 1gt3 | A | albelig | 3 | 3 | H | 27 | 29 | A-27-  | A-29-  | PEK 
+| 1gt3 | A | albelig | 4 | 4 | E | 39 | 46 | A-39-  | A-46-  | YFRELVFD 
+| 1gt3 | A | albelig | 5 | 5 | E | 51 | 60 | A-51-  | A-60-  | TVDFYFSVKR 
+| 1gt3 | A | albelig | 6 | 6 | E | 63 | 73 | A-63-  | A-73-  | KWKNVHVKATK 
+| 1gt3 | A | albelig | 7 | 7 | E | 79 | 82 | A-79-  | A-82-  | YVAD 
+| 1gt3 | A | albelig | 8 | 8 | E | 86 | 94 | A-86-  | A-94-  | QNVFKIVSL 
+| 1gt3 | A | albelig | 9 | 9 | E | 98 | 106 | A-98-  | A-106-  | HLVAHNINV 
+| 1gt3 | A | albelig | 10 | 10 | E | 112 | 121 | A-112-  | A-121-  | TTELTELFVK 
+| 1gt3 | A | albelig | 11 | 11 | H | 126 | 138 | A-126-  | A-138-  | DEDLEKFWKLTED 
+| 1gt3 | A | albelig | 12 | 12 | H | 143 | 145 | A-143-  | A-145-  | KKN 
+| 1gt3 | A | albelig | 13 | 13 | E | 146 | 148 | A-146-  | A-148-  | VVN 
+| 1gt3 | A | albelig | 14 | 14 | L | 316 | 316 | A-1160-  | A-1160-  | J 
+| 1gt3 | A | albelig | 15 | 15 | L | 317 | 317 | A-1161-  | A-1161-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = a = 10
+= 2 = l = 14
+= 2 = l = 15
+= 4 = a = 5
+= 4 = l = 14
+= 4 = l = 15
+= 5 = a = 6
+= 5 = l = 14
+= 5 = l = 15
+= 6 = a = 7
+= 6 = l = 14
+= 6 = l = 15
+= 7 = a = 8
+= 7 = l = 14
+= 7 = l = 15
+= 8 = a = 9
+= 8 = l = 14
+= 8 = l = 15
+= 9 = a = 10
+= 9 = l = 14
+= 9 = l = 15
+= 10 = l = 14
+= 10 = l = 15
+= 12 = m = 13
+= 14 = l = 15
+# Listed 26 contacts. EOF.

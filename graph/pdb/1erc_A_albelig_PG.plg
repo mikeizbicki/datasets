@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1erc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHEROMONE
+> pdb_mol_name > PHEROMONE ER-1
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-FEB-94
+> header > PHEROMONE
+> pdb_org_common > UNKNOWN
+> title > THE NMR SOLUTION STRUCTURE OF THE PHEROMONE ER-1 FROM THECILIATED PROTOZOAN EUPLOTES RAIKOVI
+> format_version > 2
+> pdbid > 1erc
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > EUPLOTES RAIKOVI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1erc | A | albelig | 1 | 1 | H | 3 | 8 | A-3-  | A-8-  | AEQAAI 
+| 1erc | A | albelig | 2 | 2 | H | 12 | 18 | A-12-  | A-18-  | ESACESL 
+| 1erc | A | albelig | 3 | 3 | H | 24 | 35 | A-24-  | A-35-  | DRTGCYMYIYSN 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = m = 3
+# Listed 2 contacts. EOF.

@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hst, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHROMOSOMAL PROTEIN
+> pdb_mol_name > HISTONE H5
+> graphtype > albelig
+> resolution > 2.6
+> date > 30-MAR-93
+> header > CHROMOSOMAL PROTEIN
+> pdb_org_common > CHICKEN
+> title > CRYSTAL STRUCTURE OF GLOBULAR DOMAIN OF HISTONE H5 AND ITSIMPLICATIONS FOR NUCLEOSOME BINDING
+> format_version > 2
+> pdbid > 1hst
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hst | B | albelig | 1 | 1 | H | 80 | 89 | B-28-  | B-37-  | YSEMIAAAIR 
+| 1hst | B | albelig | 2 | 2 | H | 99 | 109 | B-47-  | B-57-  | RQSIQKYIKSH 
+| 1hst | B | albelig | 3 | 3 | H | 116 | 130 | B-64-  | B-78-  | ADLQIKLSIRRLLAA 
+| 1hst | B | albelig | 4 | 4 | E | 133 | 138 | B-81-  | B-86-  | LKQTKG 
+| 1hst | B | albelig | 5 | 5 | E | 143 | 147 | B-91-  | B-95-  | GSFRL 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 1 = m = 5
+= 3 = m = 4
+= 4 = a = 5
+# Listed 5 contacts. EOF.

@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gzh, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GENE REGULATION, ANTI-ONCOGENE, DNA-BINDING, TRANSCRIPTIONREGULATION, BCRT DOMAIN, REPEAT, APOPTOSIS, DISEASEMUTATION, ACTIVATOR, DNA- REPAIR
+> pdb_mol_name > CELLULAR TUMOR ANTIGEN P53
+> graphtype > albelig
+> resolution > 2.6
+> date > 22-MAY-02
+> header > GENE REGULATION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE BRCT DOMAINS OF HUMAN 53BP1 BOUNDTO THE P53 TUMOR SUPRESSOR
+> format_version > 2
+> pdbid > 1gzh
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gzh | C | albelig | 1 | 1 | E | 434 | 436 | C-110-  | C-112-  | RLG 
+| 1gzh | C | albelig | 2 | 2 | E | 448 | 451 | C-124-  | C-127-  | CTYS 
+| 1gzh | C | albelig | 3 | 3 | E | 456 | 459 | C-132-  | C-135-  | KMFC 
+| 1gzh | C | albelig | 4 | 4 | E | 465 | 470 | C-141-  | C-146-  | CPVQLW 
+| 1gzh | C | albelig | 5 | 5 | E | 480 | 487 | C-156-  | C-163-  | RVRAMAIY 
+| 1gzh | C | albelig | 6 | 6 | H | 490 | 493 | C-166-  | C-169-  | SQHM 
+| 1gzh | C | albelig | 7 | 7 | H | 501 | 504 | C-177-  | C-180-  | PHHE 
+| 1gzh | C | albelig | 8 | 8 | E | 519 | 522 | C-195-  | C-198-  | IRVE 
+| 1gzh | C | albelig | 9 | 9 | E | 528 | 531 | C-204-  | C-207-  | EYLD 
+| 1gzh | C | albelig | 10 | 10 | E | 538 | 543 | C-214-  | C-219-  | HSVVVP 
+| 1gzh | C | albelig | 11 | 11 | E | 554 | 560 | C-230-  | C-236-  | TTIHYNY 
+| 1gzh | C | albelig | 12 | 12 | E | 575 | 582 | C-251-  | C-258-  | ILTIITLE 
+| 1gzh | C | albelig | 13 | 13 | E | 588 | 598 | C-264-  | C-274-  | LLGRNSFEVRV 
+| 1gzh | C | albelig | 14 | 14 | H | 602 | 612 | C-278-  | C-288-  | PGRDRRTEEEN 
+| 1gzh | C | albelig | 15 | 15 | L | 831 | 831 | C-1290-  | C-1290-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = p = 13
+= 2 = a = 3
+= 2 = m = 14
+= 3 = p = 13
+= 3 = m = 14
+= 4 = a = 11
+= 5 = a = 10
+= 5 = a = 12
+= 7 = l = 15
+= 8 = a = 9
+= 8 = a = 11
+= 9 = a = 10
+= 12 = a = 13
+# Listed 14 contacts. EOF.

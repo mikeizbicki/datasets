@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eef, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENTEROTOXIN
+> pdb_mol_name > PROTEIN (HEAT-LABILE ENTEROTOXIN B CHAIN)
+> graphtype > albelig
+> resolution > 1.8
+> date > 31-JAN-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > HEAT-LABILE ENTEROTOXIN B-PENTAMER COMPLEXED WITH BOUNDLIGAND PEPG
+> format_version > 2
+> pdbid > 1eef
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eef | D | albelig | 1 | 1 | H | 5 | 9 | D-5-  | D-9-  | ITELA 
+| 1eef | D | albelig | 2 | 2 | E | 15 | 22 | D-15-  | D-22-  | TQIYTIND 
+| 1eef | D | albelig | 3 | 3 | E | 26 | 30 | D-26-  | D-30-  | SYTES 
+| 1eef | D | albelig | 4 | 4 | E | 37 | 41 | D-37-  | D-41-  | MVIIT 
+| 1eef | D | albelig | 5 | 5 | E | 47 | 50 | D-47-  | D-50-  | TFQV 
+| 1eef | D | albelig | 6 | 6 | H | 61 | 77 | D-61-  | D-77-  | QKKAIERMKDTLRITYL 
+| 1eef | D | albelig | 7 | 7 | E | 82 | 88 | D-82-  | D-88-  | IDKLAVW 
+| 1eef | D | albelig | 8 | 8 | E | 94 | 102 | D-94-  | D-102-  | NSIAAISMK 
+| 1eef | D | albelig | 9 | 9 | L | 1040 | 1040 | D-104-  | D-104-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 7
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 6
+= 5 = a = 8
+= 6 = m = 8
+= 6 = l = 9
+= 7 = a = 8
+= 7 = l = 9
+= 8 = l = 9
+# Listed 12 contacts. EOF.

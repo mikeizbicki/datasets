@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MICROBIAL PEPTIDE ALDEHYDE INHIBITOR, SERINE PROTEASE-INHIBITORCOMPLEX, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > SERINE CARBOXYPEPTIDASE II
+> graphtype > albelig
+> resolution > 2.5
+> date > 03-NOV-95
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > BREAD WHEAT
+> title > COMPLEX OF THE WHEAT SERINE CARBOXYPEPTIDASE, CPDW-II, WITH THEMICROBIAL PEPTIDE ALDEHYDE INHIBITOR, ANTIPAIN, AND ARGININE AT ROOMTEMPERATURE
+> format_version > 2
+> pdbid > 1bcr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > TRITICUM AESTIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcr | A | albelig | 1 | 1 | H | 2 | 4 | A--3-  | A--1-  | AAD 
+| 1bcr | A | albelig | 2 | 2 | E | 19 | 27 | A-16-  | A-23-A | MYSGYITVD 
+| 1bcr | A | albelig | 3 | 3 | E | 32 | 39 | A-28-  | A-35-  | RSLFYLLQ 
+| 1bcr | A | albelig | 4 | 4 | H | 43 | 45 | A-39-  | A-41-  | EDA 
+| 1bcr | A | albelig | 5 | 5 | E | 50 | 54 | A-46-  | A-50-  | LVLWL 
+| 1bcr | A | albelig | 6 | 6 | H | 63 | 67 | A-58-A | A-62-  | VAYGA 
+| 1bcr | A | albelig | 7 | 7 | E | 74 | 76 | A-69-  | A-71-  | FRV 
+| 1bcr | A | albelig | 8 | 8 | H | 78 | 80 | A-73-  | A-75-  | PRG 
+| 1bcr | A | albelig | 9 | 9 | E | 83 | 85 | A-77-  | A-79-  | LVL 
+| 1bcr | A | albelig | 10 | 10 | H | 90 | 92 | A-84-  | A-86-  | WNK 
+| 1bcr | A | albelig | 11 | 11 | E | 95 | 99 | A-89-  | A-93-  | NVLFL 
+| 1bcr | A | albelig | 12 | 12 | H | 113 | 117 | A-107-  | A-111-  | SSDIY 
+| 1bcr | A | albelig | 13 | 13 | H | 121 | 138 | A-112-C | A-129-  | DNRTAHDSYAFLAKWFER 
+| 1bcr | A | albelig | 14 | 14 | H | 140 | 142 | A-131-  | A-133-  | PHY 
+| 1bcr | A | albelig | 15 | 15 | E | 146 | 152 | A-139-  | A-145-  | DFYIAGE 
+| 1bcr | A | albelig | 16 | 16 | H | 155 | 169 | A-148-  | A-162-  | AGHYVPELSQLVHRS 
+| 1bcr | A | albelig | 17 | 17 | E | 175 | 182 | A-168-  | A-175-  | NLKGFMVG 
+| 1bcr | A | albelig | 18 | 18 | H | 188 | 200 | A-181-  | A-193-  | DYHDYVGTFEFWW 
+| 1bcr | A | albelig | 19 | 19 | H | 207 | 217 | A-200-  | A-210-  | DDTYRRLKEAN 
+| 1bcr | A | albelig | 20 | 20 | H | 227 | 240 | A-220-  | A-233-  | PANDAATDVATAEQ 
+| 1bcr | A | albelig | 21 | 21 | L | 411 | 411 | A-1131-  | A-1131-  | J 
+| 1bcr | A | albelig | 22 | 22 | L | 412 | 412 | A-1132-  | A-1132-  | J 
+| 1bcr | A | albelig | 23 | 23 | L | 413 | 413 | A-1133-  | A-1133-  | J 
+| 1bcr | A | albelig | 24 | 24 | L | 414 | 414 | A-1134-  | A-1134-  | J 
+| 1bcr | A | albelig | 25 | 25 | L | 415 | 415 | A-426-  | A-426-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 2 = m = 13
+= 2 = l = 23
+= 3 = a = 11
+= 3 = l = 23
+= 5 = p = 11
+= 5 = p = 15
+= 5 = l = 25
+= 6 = l = 25
+= 7 = a = 9
+= 13 = m = 14
+= 13 = p = 16
+= 13 = l = 21
+= 15 = m = 16
+= 15 = p = 17
+= 15 = l = 25
+= 16 = a = 17
+= 18 = a = 19
+= 19 = a = 20
+= 22 = l = 23
+= 22 = l = 24
+= 23 = l = 24
+# Listed 23 contacts. EOF.

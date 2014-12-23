@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1br1, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MUSCLE PROTEIN
+> pdb_mol_name > MYOSIN
+> graphtype > albelig
+> resolution > 3.5
+> date > 26-AUG-98
+> header > MUSCLE PROTEIN
+> pdb_org_common > CHICKEN
+> title > SMOOTH MUSCLE MYOSIN MOTOR DOMAIN-ESSENTIAL LIGHT CHAINCOMPLEX WITH MGADP.ALF4 BOUND AT THE ACTIVE SITE
+> format_version > 2
+> pdbid > 1br1
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1br1 | B | albelig | 1 | 1 | H | 794 | 805 | B-5-  | B-16-  | EEQTAEFKEAFQ 
+| 1br1 | B | albelig | 2 | 2 | H | 820 | 826 | B-31-  | B-37-  | CGDVMRA 
+| 1br1 | B | albelig | 3 | 3 | H | 833 | 840 | B-44-  | B-51-  | NAEVMKVL 
+| 1br1 | B | albelig | 4 | 4 | H | 845 | 848 | B-56-  | B-59-  | SDEM 
+| 1br1 | B | albelig | 5 | 5 | H | 855 | 866 | B-66-  | B-77-  | FEQFLPMMQTIA 
+| 1br1 | B | albelig | 6 | 6 | H | 874 | 884 | B-85-  | B-95-  | FEDYVEGLRVF 
+| 1br1 | B | albelig | 7 | 7 | H | 896 | 900 | B-107-  | B-111-  | EIRHV 
+| 1br1 | B | albelig | 8 | 8 | H | 910 | 917 | B-121-  | B-128-  | EEEVEQLV 
+| 1br1 | B | albelig | 9 | 9 | H | 929 | 938 | B-140-  | B-149-  | YEELVRMVLS 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 6 = a = 9
+= 7 = m = 8
+# Listed 3 contacts. EOF.

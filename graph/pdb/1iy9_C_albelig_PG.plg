@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iy9, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROSSMANN FOLD, STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTUREINITIATIVE, NORTHEAST STRUCTURAL GENOMICS CONSORTIUM, NESG,TRANSFERASE
+> pdb_mol_name > SPERMIDINE SYNTHASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 26-JUL-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF SPERMIDINE SYNTHASE
+> format_version > 2
+> pdbid > 1iy9
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iy9 | C | albelig | 1 | 1 | E | 553 | 560 | C-2004-  | C-2011-  | LWYTEKQT 
+| 1iy9 | C | albelig | 2 | 2 | E | 563 | 577 | C-2014-  | C-2028-  | FGITMKVNKTLHTEQ 
+| 1iy9 | C | albelig | 3 | 3 | E | 582 | 588 | C-2033-  | C-2039-  | HLEMVET 
+| 1iy9 | C | albelig | 4 | 4 | E | 592 | 597 | C-2043-  | C-2048-  | GNMLFL 
+| 1iy9 | C | albelig | 5 | 5 | E | 600 | 604 | C-2051-  | C-2055-  | MVMTS 
+| 1iy9 | C | albelig | 6 | 6 | H | 608 | 622 | C-2059-  | C-2073-  | EFVYHEMVAHVPLFT 
+| 1iy9 | C | albelig | 7 | 7 | E | 628 | 632 | C-2079-  | C-2083-  | HVLVV 
+| 1iy9 | C | albelig | 8 | 8 | H | 638 | 643 | C-2089-  | C-2094-  | GVIREI 
+| 1iy9 | C | albelig | 9 | 9 | E | 651 | 656 | C-2102-  | C-2107-  | KATLVD 
+| 1iy9 | C | albelig | 10 | 10 | H | 659 | 668 | C-2110-  | C-2119-  | GKVIEYSKKF 
+| 1iy9 | C | albelig | 11 | 11 | H | 670 | 673 | C-2121-  | C-2124-  | PSIA 
+| 1iy9 | C | albelig | 12 | 12 | E | 681 | 685 | C-2132-  | C-2136-  | VDVQV 
+| 1iy9 | C | albelig | 13 | 13 | H | 689 | 693 | C-2140-  | C-2144-  | FMHIA 
+| 1iy9 | C | albelig | 14 | 14 | E | 699 | 704 | C-2150-  | C-2155-  | YDVIMV 
+| 1iy9 | C | albelig | 15 | 15 | H | 720 | 728 | C-2171-  | C-2179-  | GFYAGIAKA 
+| 1iy9 | C | albelig | 16 | 16 | E | 729 | 738 | C-2180-  | C-2189-  | LKEDGIFVAQ 
+| 1iy9 | C | albelig | 17 | 17 | H | 746 | 757 | C-2197-  | C-2208-  | PELITNVQRDVK 
+| 1iy9 | C | albelig | 18 | 18 | E | 762 | 768 | C-2213-  | C-2219-  | ITKLYTA 
+| 1iy9 | C | albelig | 19 | 19 | H | 774 | 776 | C-2225-  | C-2227-  | PSG 
+| 1iy9 | C | albelig | 20 | 20 | E | 778 | 784 | C-2229-  | C-2235-  | WTFTIGS 
+| 1iy9 | C | albelig | 21 | 21 | H | 789 | 791 | C-2240-  | C-2242-  | PLA 
+| 1iy9 | C | albelig | 22 | 22 | H | 794 | 796 | C-2245-  | C-2247-  | DSR 
+| 1iy9 | C | albelig | 23 | 23 | H | 807 | 812 | C-2258-  | C-2263-  | KDIHKA 
+| 1iy9 | C | albelig | 24 | 24 | H | 818 | 821 | C-2269-  | C-2272-  | KFVS 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = a = 10
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 6
+= 6 = m = 8
+= 6 = m = 14
+= 6 = a = 16
+= 6 = m = 18
+= 7 = m = 8
+= 7 = p = 9
+= 7 = p = 14
+= 9 = p = 12
+= 14 = p = 16
+= 15 = a = 16
+= 16 = a = 20
+= 17 = m = 18
+= 18 = a = 20
+# Listed 19 contacts. EOF.

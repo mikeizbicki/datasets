@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kop, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, CARBONIC ANHYDRASE, NEISSERIA GONORRHOEAE,STRUCTURAL TRIMMING
+> pdb_mol_name > CARBONIC ANHYDRASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 22-MAR-98
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > NEISSERIA GONORRHOEAE CARBONIC ANHYDRASE
+> format_version > 2
+> pdbid > 1kop
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NEISSERIA GONORRHOEAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kop | A | albelig | 1 | 1 | H | 8 | 10 | A-11-  | A-13-  | GHD 
+| 1kop | A | albelig | 2 | 2 | H | 12 | 18 | A-15-  | A-21-  | PESWGNL 
+| 1kop | A | albelig | 3 | 3 | H | 20 | 22 | A-23-  | A-25-  | EEF 
+| 1kop | A | albelig | 4 | 4 | H | 24 | 27 | A-27-  | A-30-  | LAST 
+| 1kop | A | albelig | 5 | 5 | E | 47 | 50 | A-50-  | A-53-  | IKVN 
+| 1kop | A | albelig | 6 | 6 | E | 57 | 60 | A-60-  | A-63-  | DVEN 
+| 1kop | A | albelig | 7 | 7 | E | 65 | 68 | A-68-  | A-71-  | IQVN 
+| 1kop | A | albelig | 8 | 8 | E | 75 | 78 | A-78-  | A-81-  | TLTV 
+| 1kop | A | albelig | 9 | 9 | E | 81 | 91 | A-84-  | A-94-  | RTYTLKQFHFH 
+| 1kop | A | albelig | 10 | 10 | E | 105 | 112 | A-108-  | A-115-  | MEAHFVHL 
+| 1kop | A | albelig | 11 | 11 | E | 118 | 127 | A-121-  | A-130-  | PLVLAVLYEA 
+| 1kop | A | albelig | 12 | 12 | H | 135 | 138 | A-138-  | A-141-  | SSIW 
+| 1kop | A | albelig | 13 | 13 | E | 146 | 149 | A-149-  | A-152-  | GKVK 
+| 1kop | A | albelig | 14 | 14 | H | 156 | 159 | A-159-  | A-162-  | ASTL 
+| 1kop | A | albelig | 15 | 15 | E | 166 | 172 | A-169-  | A-175-  | YYRFAGS 
+| 1kop | A | albelig | 16 | 16 | E | 180 | 187 | A-183-  | A-190-  | EGVSWLVL 
+| 1kop | A | albelig | 17 | 17 | E | 191 | 193 | A-194-  | A-196-  | DHI 
+| 1kop | A | albelig | 18 | 18 | H | 195 | 205 | A-198-  | A-208-  | QAQAEKFTRAV 
+| 1kop | A | albelig | 19 | 19 | L | 448 | 448 | A-301-  | A-301-  | J 
+| 1kop | A | albelig | 20 | 20 | L | 449 | 449 | A-305-  | A-305-  | J 
+| 1kop | A | albelig | 21 | 21 | L | 450 | 450 | A-311-  | A-311-  | J 
+| 1kop | A | albelig | 22 | 22 | L | 451 | 451 | A-303-  | A-303-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = a = 8
+= 6 = a = 7
+= 6 = a = 13
+= 7 = a = 9
+= 8 = a = 9
+= 9 = a = 10
+= 9 = l = 19
+= 9 = l = 20
+= 10 = a = 11
+= 10 = l = 19
+= 10 = l = 20
+= 11 = p = 16
+= 11 = p = 17
+= 11 = l = 20
+= 15 = a = 16
+= 15 = l = 20
+= 16 = l = 20
+= 17 = l = 21
+= 19 = l = 20
+# Listed 19 contacts. EOF.

@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hom, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA-BINDING PROTEIN
+> pdb_mol_name > ANTENNAPEDIA PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 08-OCT-91
+> header > DNA-BINDING PROTEIN
+> pdb_org_common > FRUIT FLY
+> title > DETERMINATION OF THE THREE-DIMENSIONAL STRUCTURE OF THEANTENNAPEDIA HOMEODOMAIN FROM DROSOPHILA IN SOLUTION BY 1HNUCLEAR MAGNETIC RESONANCE SPECTROSCOPY
+> format_version > 2
+> pdbid > 1hom
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DROSOPHILA MELANOGASTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hom | A | albelig | 1 | 1 | H | 11 | 23 | A-10-  | A-22-  | RYQTLELEKEFHF 
+| 1hom | A | albelig | 2 | 2 | H | 29 | 38 | A-28-  | A-37-  | RRRRIEIAHA 
+| 1hom | A | albelig | 3 | 3 | H | 43 | 54 | A-42-  | A-53-  | ERQIKIWFQNRR 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+# Listed 1 contacts. EOF.

@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jqu, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCINE HELIX TERMINII, SCHELLMAN MOTIF, ALPHA-L MOTIF, HYDROLASE
+> pdb_mol_name > LYSOZYME
+> graphtype > albelig
+> resolution > 2.6
+> date > 08-AUG-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > ARE CARBOXY TERMINII OF HELICES CODED BY THE LOCAL SEQUENCE OR BYTERTIARY STRUCTURE CONTACTS
+> format_version > 2
+> pdbid > 1jqu
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jqu | D | albelig | 1 | 1 | H | 498 | 505 | D-3-  | D-10-  | IFEMLRID 
+| 1jqu | D | albelig | 2 | 2 | E | 520 | 522 | D-25-  | D-27-  | YTI 
+| 1jqu | D | albelig | 3 | 3 | E | 526 | 529 | D-31-  | D-34-  | HLLT 
+| 1jqu | D | albelig | 4 | 4 | H | 534 | 545 | D-39-  | D-50-  | LNAAKSELDKAI 
+| 1jqu | D | albelig | 5 | 5 | H | 555 | 575 | D-60-  | D-80-  | KDEAEKLFNQDVDAAVRGILR 
+| 1jqu | D | albelig | 6 | 6 | H | 580 | 585 | D-85-  | D-90-  | KPVYDS 
+| 1jqu | D | albelig | 7 | 7 | H | 591 | 607 | D-96-  | D-112-  | RAALINMVFQMGETGVA 
+| 1jqu | D | albelig | 8 | 8 | H | 611 | 617 | D-116-  | D-122-  | NSLRMLQ 
+| 1jqu | D | albelig | 9 | 9 | H | 623 | 629 | D-128-  | D-134-  | EAAVNLA 
+| 1jqu | D | albelig | 10 | 10 | H | 638 | 650 | D-143-  | D-155-  | PNRAKRVITTFRT 
+| 1jqu | D | albelig | 11 | 11 | H | 654 | 656 | D-159-  | D-161-  | DAY 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 7
+= 1 = m = 10
+= 2 = a = 3
+= 6 = m = 8
+= 7 = m = 10
+= 8 = m = 9
+# Listed 7 contacts. EOF.

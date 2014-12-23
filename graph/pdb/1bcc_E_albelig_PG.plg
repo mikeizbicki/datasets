@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcc, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UBIQUINONE, OXIDOREDUCTASE, REDOX ENZYME, MEMBRANE PROTEIN,RESPIRATORY CHAIN, ELECTRON TRANSPORT
+> pdb_mol_name > UBIQUINOL CYTOCHROME C OXIDOREDUCTASE
+> graphtype > albelig
+> resolution > 3.16
+> date > 23-MAR-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > CHICKEN
+> title > CYTOCHROME BC1 COMPLEX FROM CHICKEN
+> format_version > 2
+> pdbid > 1bcc
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcc | E | albelig | 1 | 1 | H | 1474 | 1476 | E-2-  | E-4-  | HTD 
+| 1bcc | E | albelig | 2 | 2 | H | 1497 | 1530 | E-25-  | E-58-  | SRESDPSRKGFSYLVTAVTTLGVAYAAKNVVTQF 
+| 1bcc | E | albelig | 3 | 3 | H | 1538 | 1541 | E-66-  | E-69-  | ADVL 
+| 1bcc | E | albelig | 4 | 4 | E | 1546 | 1549 | E-74-  | E-77-  | IEIK 
+| 1bcc | E | albelig | 5 | 5 | H | 1550 | 1552 | E-78-  | E-80-  | LSD 
+| 1bcc | E | albelig | 6 | 6 | E | 1558 | 1563 | E-86-  | E-91-  | NMAFKW 
+| 1bcc | E | albelig | 7 | 7 | E | 1566 | 1572 | E-94-  | E-100-  | KPLFVRH 
+| 1bcc | E | albelig | 8 | 8 | H | 1575 | 1582 | E-103-  | E-110-  | KKEIDQEA 
+| 1bcc | E | albelig | 9 | 9 | H | 1586 | 1588 | E-114-  | E-116-  | VSQ 
+| 1bcc | E | albelig | 10 | 10 | H | 1595 | 1597 | E-123-  | E-125-  | DLE 
+| 1bcc | E | albelig | 11 | 11 | E | 1604 | 1608 | E-132-  | E-136-  | WVILI 
+| 1bcc | E | albelig | 12 | 12 | E | 1619 | 1622 | E-147-  | E-150-  | IANA 
+| 1bcc | E | albelig | 13 | 13 | E | 1626 | 1630 | E-154-  | E-158-  | GGYYC 
+| 1bcc | E | albelig | 14 | 14 | E | 1635 | 1638 | E-163-  | E-166-  | SHYD 
+| 1bcc | E | albelig | 15 | 15 | E | 1643 | 1645 | E-171-  | E-173-  | IRK 
+| 1bcc | E | albelig | 16 | 16 | E | 1657 | 1659 | E-185-  | E-187-  | YEF 
+| 1bcc | E | albelig | 17 | 17 | E | 1664 | 1667 | E-192-  | E-195-  | MVIV 
+| 1bcc | E | albelig | 18 | 18 | L | 2016 | 2016 | E-197-  | E-197-  | J 
+| 1bcc | E | albelig | 19 | 19 | L | 2018 | 2018 | E-198-  | E-198-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 19
+= 4 = m = 5
+= 4 = a = 17
+= 6 = a = 7
+= 7 = a = 11
+= 7 = a = 13
+= 12 = a = 13
+= 13 = a = 14
+= 13 = l = 18
+= 14 = a = 15
+= 14 = l = 18
+= 16 = a = 17
+# Listed 12 contacts. EOF.

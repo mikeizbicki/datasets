@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bcp, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN, ADP-RIBOSYLTRANSFERASE, TRANSFERASE, WHOOPING COUGH
+> pdb_mol_name > PERTUSSIS TOXIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 21-NOV-95
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > BINARY COMPLEX OF PERTUSSIS TOXIN AND ATP
+> format_version > 2
+> pdbid > 1bcp
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BORDETELLA PERTUSSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bcp | G | albelig | 1 | 1 | E | 947 | 952 | G-6-  | G-11-  | TVYRYD 
+| 1bcp | G | albelig | 2 | 2 | H | 956 | 962 | G-15-  | G-21-  | PEDVFQN 
+| 1bcp | G | albelig | 3 | 3 | H | 973 | 978 | G-32-  | G-37-  | VLEHLT 
+| 1bcp | G | albelig | 4 | 4 | H | 980 | 982 | G-39-  | G-41-  | RSN 
+| 1bcp | G | albelig | 5 | 5 | E | 991 | 995 | G-50-  | G-54-  | FVSTS 
+| 1bcp | G | albelig | 6 | 6 | H | 998 | 1016 | G-57-  | G-75-  | RRYTEVYLEHRMQEAVEAE 
+| 1bcp | G | albelig | 7 | 7 | E | 1024 | 1033 | G-83-  | G-92-  | HFIGYIYEVR 
+| 1bcp | G | albelig | 8 | 8 | E | 1038 | 1040 | G-97-  | G-99-  | FYG 
+| 1bcp | G | albelig | 9 | 9 | H | 1041 | 1052 | G-100-  | G-111-  | AASSYFEYVDTY 
+| 1bcp | G | albelig | 10 | 10 | H | 1054 | 1056 | G-113-  | G-115-  | DNA 
+| 1bcp | G | albelig | 11 | 11 | H | 1059 | 1068 | G-118-  | G-127-  | ILAGALATYQ 
+| 1bcp | G | albelig | 12 | 12 | E | 1070 | 1074 | G-129-  | G-133-  | EYLAH 
+| 1bcp | G | albelig | 13 | 13 | H | 1079 | 1081 | G-138-  | G-140-  | PEN 
+| 1bcp | G | albelig | 14 | 14 | E | 1082 | 1091 | G-141-  | G-150-  | IRRVTRVYHN 
+| 1bcp | G | albelig | 15 | 15 | E | 1096 | 1101 | G-155-  | G-160-  | ETTTTE 
+| 1bcp | G | albelig | 16 | 16 | E | 1132 | 1134 | G-191-  | G-193-  | LVR 
+| 1bcp | G | albelig | 17 | 17 | H | 1141 | 1147 | G-200-  | G-206-  | ANMARQA 
+| 1bcp | G | albelig | 18 | 18 | E | 1157 | 1159 | G-225-  | G-227-  | LVY 
+| 1bcp | G | albelig | 19 | 19 | H | 1160 | 1163 | G-228-  | G-231-  | YESI 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = m = 6
+= 1 = a = 7
+= 1 = m = 17
+= 2 = m = 14
+= 3 = m = 4
+= 3 = m = 9
+= 5 = a = 12
+= 5 = m = 17
+= 6 = a = 7
+= 6 = p = 14
+= 7 = m = 13
+= 7 = a = 14
+= 8 = m = 9
+= 8 = a = 12
+= 9 = m = 11
+= 11 = m = 12
+= 11 = m = 19
+= 13 = m = 14
+= 14 = a = 15
+= 16 = m = 17
+= 16 = a = 18
+= 18 = m = 19
+# Listed 23 contacts. EOF.

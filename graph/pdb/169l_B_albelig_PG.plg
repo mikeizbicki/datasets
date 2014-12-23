@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 169l, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (O-GLYCOSYL)
+> pdb_mol_name > T4 LYSOZYME
+> graphtype > albelig
+> resolution > 3.0
+> date > 24-MAR-95
+> header > HYDROLASE (O-GLYCOSYL)
+> pdb_org_common > UNKNOWN
+> title > PROTEIN FLEXIBILITY AND ADAPTABILITY SEEN IN 25 CRYSTALFORMS OF T4 LYSOZYME
+> format_version > 2
+> pdbid > 169l
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 169l | B | albelig | 1 | 1 | H | 166 | 173 | B-3-  | B-10-  | IFEMLRID 
+| 169l | B | albelig | 2 | 2 | E | 177 | 182 | B-14-  | B-19-  | RLKIYK 
+| 169l | B | albelig | 3 | 3 | E | 188 | 191 | B-25-  | B-28-  | YTIG 
+| 169l | B | albelig | 4 | 4 | E | 194 | 197 | B-31-  | B-34-  | HLLT 
+| 169l | B | albelig | 5 | 5 | H | 203 | 214 | B-40-  | B-51-  | NAAKSELDKAIG 
+| 169l | B | albelig | 6 | 6 | H | 223 | 243 | B-60-  | B-80-  | KDEAEKLFNQDVDAAVRGILR 
+| 169l | B | albelig | 7 | 7 | H | 248 | 253 | B-85-  | B-90-  | KPVYDS 
+| 169l | B | albelig | 8 | 8 | H | 258 | 275 | B-95-  | B-112-  | RRCALINMVFQMGETGVA 
+| 169l | B | albelig | 9 | 9 | H | 278 | 285 | B-115-  | B-122-  | TNSLRMLQ 
+| 169l | B | albelig | 10 | 10 | H | 291 | 297 | B-128-  | B-134-  | AAAAALA 
+| 169l | B | albelig | 11 | 11 | H | 300 | 304 | B-137-  | B-141-  | AWAAA 
+| 169l | B | albelig | 12 | 12 | H | 306 | 315 | B-143-  | B-152-  | PNRAKRVITT 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 8
+= 1 = m = 12
+= 2 = a = 3
+= 3 = a = 4
+= 7 = m = 9
+= 8 = a = 12
+= 11 = m = 12
+# Listed 8 contacts. EOF.

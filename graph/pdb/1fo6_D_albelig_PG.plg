@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fo6, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR LAYER A/B FOLD, HYDROLASE
+> pdb_mol_name > N-CARBAMOYL-D-AMINO-ACID AMIDOHYDROLASE
+> graphtype > albelig
+> resolution > 1.95
+> date > 25-AUG-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF N-CARBAMOYL-D-AMINO-ACIDAMIDOHYDROLASE
+> format_version > 2
+> pdbid > 1fo6
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > AGROBACTERIUM TUMEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fo6 | D | albelig | 1 | 1 | E | 911 | 918 | D-4-  | D-11-  | QMILAVGQ 
+| 1fo6 | D | albelig | 2 | 2 | H | 928 | 944 | D-21-  | D-37-  | REQVVGRLLDMLTNAAS 
+| 1fo6 | D | albelig | 3 | 3 | E | 949 | 951 | D-42-  | D-44-  | FIV 
+| 1fo6 | D | albelig | 4 | 4 | H | 961 | 963 | D-54-  | D-56-  | FPR 
+| 1fo6 | D | albelig | 5 | 5 | H | 969 | 973 | D-62-  | D-66-  | EAELD 
+| 1fo6 | D | albelig | 6 | 6 | H | 986 | 995 | D-79-  | D-88-  | RPLFETAAEL 
+| 1fo6 | D | albelig | 7 | 7 | E | 998 | 1009 | D-91-  | D-102-  | GFNLGYAELVVE 
+| 1fo6 | D | albelig | 8 | 8 | E | 1012 | 1022 | D-105-  | D-115-  | VKRRFNTSILV 
+| 1fo6 | D | albelig | 9 | 9 | E | 1028 | 1033 | D-121-  | D-126-  | IVGKYR 
+| 1fo6 | D | albelig | 10 | 10 | H | 1053 | 1056 | D-146-  | D-149-  | EKRY 
+| 1fo6 | D | albelig | 11 | 11 | E | 1066 | 1069 | D-159-  | D-162-  | VYDV 
+| 1fo6 | D | albelig | 12 | 12 | E | 1072 | 1076 | D-165-  | D-169-  | AKMGM 
+| 1fo6 | D | albelig | 13 | 13 | H | 1079 | 1083 | D-172-  | D-176-  | CNDRR 
+| 1fo6 | D | albelig | 14 | 14 | H | 1085 | 1093 | D-178-  | D-186-  | PETWRVMGL 
+| 1fo6 | D | albelig | 15 | 15 | E | 1098 | 1103 | D-191-  | D-196-  | IICGGY 
+| 1fo6 | D | albelig | 16 | 16 | H | 1113 | 1134 | D-206-  | D-227-  | PQHDHLTSFHHLLSMQAGSYQN 
+| 1fo6 | D | albelig | 17 | 17 | E | 1137 | 1142 | D-230-  | D-235-  | WSAAAG 
+| 1fo6 | D | albelig | 18 | 18 | E | 1145 | 1147 | D-238-  | D-240-  | GME 
+| 1fo6 | D | albelig | 19 | 19 | E | 1150 | 1152 | D-243-  | D-245-  | CML 
+| 1fo6 | D | albelig | 20 | 20 | E | 1157 | 1159 | D-250-  | D-252-  | CIV 
+| 1fo6 | D | albelig | 21 | 21 | E | 1165 | 1168 | D-258-  | D-261-  | IVAL 
+| 1fo6 | D | albelig | 22 | 22 | E | 1175 | 1182 | D-268-  | D-275-  | EVITAALD 
+| 1fo6 | D | albelig | 23 | 23 | H | 1183 | 1186 | D-276-  | D-279-  | LDRC 
+| 1fo6 | D | albelig | 24 | 24 | H | 1189 | 1193 | D-282-  | D-286-  | LREHI 
+| 1fo6 | D | albelig | 25 | 25 | H | 1196 | 1199 | D-289-  | D-292-  | FKAH 
+| 1fo6 | D | albelig | 26 | 26 | H | 1202 | 1204 | D-295-  | D-297-  | PQH 
+| 1fo6 | D | albelig | 27 | 27 | H | 1206 | 1209 | D-299-  | D-302-  | GLIA 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 17
+= 1 = a = 22
+= 2 = m = 6
+= 2 = m = 22
+= 3 = a = 7
+= 5 = m = 8
+= 7 = a = 8
+= 8 = a = 9
+= 8 = a = 12
+= 9 = a = 11
+= 9 = a = 12
+= 11 = a = 12
+= 12 = p = 15
+= 13 = m = 15
+= 13 = m = 16
+= 14 = m = 16
+= 15 = p = 17
+= 16 = m = 17
+= 17 = a = 20
+= 18 = a = 19
+= 20 = a = 21
+= 20 = p = 22
+= 21 = a = 22
+= 22 = m = 23
+# Listed 25 contacts. EOF.

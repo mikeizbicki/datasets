@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k6y, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HIV-1, INTEGRASE, DOMAIN ORGANIZATION, TRANSFERASE
+> pdb_mol_name > INTEGRASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 17-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A TWO-DOMAIN FRAGMENT OF HIV-1 INTEGRASE
+> format_version > 2
+> pdbid > 1k6y
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k6y | B | albelig | 1 | 1 | H | 199 | 210 | B-4-  | B-15-  | GIDKAQEEHEKY 
+| 1k6y | B | albelig | 2 | 2 | H | 214 | 221 | B-19-  | B-26-  | WRAMASDF 
+| 1k6y | B | albelig | 3 | 3 | H | 225 | 234 | B-30-  | B-39-  | PVVAKEIVAS 
+| 1k6y | B | albelig | 4 | 4 | E | 247 | 255 | B-60-  | B-68-  | IWQLDCTHL 
+| 1k6y | B | albelig | 5 | 5 | E | 258 | 265 | B-71-  | B-78-  | KVILVAVH 
+| 1k6y | B | albelig | 6 | 6 | E | 270 | 276 | B-83-  | B-89-  | YIEAEVI 
+| 1k6y | B | albelig | 7 | 7 | H | 281 | 294 | B-94-  | B-107-  | GQETAYFLLKLAGR 
+| 1k6y | B | albelig | 8 | 8 | E | 299 | 301 | B-112-  | B-114-  | TVH 
+| 1k6y | B | albelig | 9 | 9 | H | 306 | 309 | B-119-  | B-122-  | SNFT 
+| 1k6y | B | albelig | 10 | 10 | H | 311 | 319 | B-124-  | B-132-  | TTVKAACDW 
+| 1k6y | B | albelig | 11 | 11 | E | 323 | 325 | B-136-  | B-138-  | KQE 
+| 1k6y | B | albelig | 12 | 12 | H | 329 | 347 | B-150-  | B-168-  | VIESMNKELKKIIGQVRDQ 
+| 1k6y | B | albelig | 13 | 13 | H | 351 | 364 | B-172-  | B-185-  | LKTAVQMAVFIHNK 
+| 1k6y | B | albelig | 14 | 14 | H | 375 | 388 | B-196-  | B-209-  | AGERIVDIIATDIQ 
+| 1k6y | B | albelig | 15 | 15 | L | 781 | 781 | B-402-  | B-402-  | J 
+| 1k6y | B | albelig | 16 | 16 | L | 782 | 782 | B-452-  | B-452-  | J 
+| 1k6y | B | albelig | 17 | 17 | L | 783 | 783 | B-502-  | B-502-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 15
+= 3 = l = 16
+= 4 = a = 5
+= 4 = p = 8
+= 4 = p = 12
+= 4 = l = 17
+= 5 = a = 6
+= 5 = m = 7
+= 6 = a = 7
+= 6 = a = 13
+= 6 = m = 14
+= 7 = m = 10
+= 8 = p = 11
+= 12 = a = 13
+= 12 = l = 17
+# Listed 16 contacts. EOF.

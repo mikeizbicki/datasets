@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ifv, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 7-STRANDED BETA SHEET, C-TERMINAL HELIX, ALLERGEN
+> pdb_mol_name > PROTEIN LLR18B
+> graphtype > albelig
+> resolution > 2.25
+> date > 13-APR-01
+> header > ALLERGEN
+> pdb_org_common > YELLOW LUPINE
+> title > CRYSTAL STRUCTURE OF PATHOGENESIS-RELATED PROTEIN LLPR10.1BFROM YELLOW LUPINE
+> format_version > 2
+> pdbid > 1ifv
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > LUPINUS LUTEUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ifv | B | albelig | 1 | 1 | E | 158 | 167 | B-2-  | B-11-  | VFAFEDEHPS 
+| 1ifv | B | albelig | 2 | 2 | H | 171 | 181 | B-15-  | B-25-  | QAKLFKALTKD 
+| 1ifv | B | albelig | 3 | 3 | H | 182 | 189 | B-26-  | B-33-  | SDDIIPKV 
+| 1ifv | B | albelig | 4 | 4 | E | 193 | 200 | B-37-  | B-44-  | IQSVEIVE 
+| 1ifv | B | albelig | 5 | 5 | E | 208 | 214 | B-52-  | B-58-  | VKKITAS 
+| 1ifv | B | albelig | 6 | 6 | E | 219 | 230 | B-63-  | B-74-  | TSYVLHKIDAID 
+| 1ifv | B | albelig | 7 | 7 | E | 235 | 242 | B-79-  | B-86-  | EYNYSIVG 
+| 1ifv | B | albelig | 8 | 8 | E | 250 | 261 | B-94-  | B-105-  | LEKITFESKLLS 
+| 1ifv | B | albelig | 9 | 9 | H | 263 | 265 | B-107-  | B-109-  | PDG 
+| 1ifv | B | albelig | 10 | 10 | E | 267 | 277 | B-111-  | B-121-  | SIGKIKVKFHT 
+| 1ifv | B | albelig | 11 | 11 | H | 284 | 307 | B-128-  | B-151-  | DAVREEAKARGTGLFKAVEGYVLA 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 10
+= 1 = p = 11
+= 2 = m = 7
+= 2 = m = 8
+= 2 = m = 11
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 10
+= 10 = a = 11
+# Listed 11 contacts. EOF.

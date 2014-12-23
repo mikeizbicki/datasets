@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f21, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RNASE H, NUCLEASE, RNASE H*, RIBNUCLEASE H, METAL-BINDINGPROTEIN, PROTEIN FOLDING, HYDROLASE
+> pdb_mol_name > RIBONUCLEASE HI
+> graphtype > albelig
+> resolution > 1.4
+> date > 22-MAY-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > DIVALENT METAL COFACTOR BINDING IN THE KINETIC FOLDINGTRAJECTORY OF E. COLI RIBONUCLEASE HI
+> format_version > 2
+> pdbid > 1f21
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f21 | A | albelig | 1 | 1 | E | 3 | 11 | A-5-  | A-13-  | VEIFTDGSA 
+| 1f21 | A | albelig | 2 | 2 | E | 16 | 26 | A-18-  | A-28-  | GPGGYGAILRY 
+| 1f21 | A | albelig | 3 | 3 | E | 29 | 40 | A-31-  | A-42-  | REKTFSAGYTRT 
+| 1f21 | A | albelig | 4 | 4 | H | 42 | 55 | A-44-  | A-57-  | NNRMELMAAIVALE 
+| 1f21 | A | albelig | 5 | 5 | E | 62 | 67 | A-64-  | A-69-  | EVILST 
+| 1f21 | A | albelig | 6 | 6 | H | 70 | 79 | A-72-  | A-81-  | QYVRQGITQW 
+| 1f21 | A | albelig | 7 | 7 | H | 80 | 85 | A-82-  | A-87-  | IHNWKK 
+| 1f21 | A | albelig | 8 | 8 | H | 99 | 109 | A-101-  | A-111-  | VDLWQRLDAAL 
+| 1f21 | A | albelig | 9 | 9 | E | 113 | 118 | A-115-  | A-120-  | QIKWEW 
+| 1f21 | A | albelig | 10 | 10 | H | 126 | 140 | A-128-  | A-142-  | PENERADELARAAAM 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = p = 5
+= 1 = p = 10
+= 2 = a = 3
+= 2 = p = 4
+= 2 = a = 10
+= 3 = p = 10
+= 4 = m = 6
+= 4 = p = 8
+= 5 = p = 9
+= 6 = m = 7
+= 6 = m = 9
+# Listed 13 contacts. EOF.

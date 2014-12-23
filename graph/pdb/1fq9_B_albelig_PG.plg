@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fq9, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > I-SET SUBGROUP WITHIN THE IMMUNOGLOBULIN SUPERFAMILY, B-TREFOIL FOLD,GROWTH FACTOR-GROWTH FACTOR RECEPTOR COMPLEX
+> pdb_mol_name > FIBROBLAST GROWTH FACTOR 2
+> graphtype > albelig
+> resolution > 3.0
+> date > 04-SEP-00
+> header > GROWTH FACTOR/GROWTH FACTOR RECEPTOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A TERNARY FGF2-FGFR1-HEPARIN COMPLEX
+> format_version > 2
+> pdbid > 1fq9
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fq9 | B | albelig | 1 | 1 | E | 136 | 140 | B-21-  | B-25-  | KRLYC 
+| 1fq9 | B | albelig | 2 | 2 | E | 145 | 149 | B-30-  | B-34-  | FFLRI 
+| 1fq9 | B | albelig | 3 | 3 | E | 155 | 158 | B-40-  | B-43-  | VDGV 
+| 1fq9 | B | albelig | 4 | 4 | E | 168 | 174 | B-53-  | B-59-  | LQLQAEE 
+| 1fq9 | B | albelig | 5 | 5 | E | 177 | 182 | B-62-  | B-67-  | VVSIKG 
+| 1fq9 | B | albelig | 6 | 6 | E | 187 | 191 | B-72-  | B-76-  | RYLAM 
+| 1fq9 | B | albelig | 7 | 7 | E | 197 | 200 | B-82-  | B-85-  | LLAS 
+| 1fq9 | B | albelig | 8 | 8 | E | 209 | 213 | B-94-  | B-98-  | FFERL 
+| 1fq9 | B | albelig | 9 | 9 | E | 219 | 223 | B-104-  | B-108-  | NTYRS 
+| 1fq9 | B | albelig | 10 | 10 | H | 242 | 244 | B-127-  | B-129-  | GSK 
+| 1fq9 | B | albelig | 11 | 11 | E | 254 | 258 | B-139-  | B-143-  | FLPMS 
+| 1fq9 | B | albelig | 12 | 12 | L | 678 | 678 | B-301-  | B-301-  | J 
+| 1fq9 | B | albelig | 13 | 13 | L | 679 | 679 | B-302-  | B-302-  | J 
+| 1fq9 | B | albelig | 14 | 14 | L | 680 | 680 | B-303-  | B-303-  | J 
+| 1fq9 | B | albelig | 15 | 15 | L | 681 | 681 | B-304-  | B-304-  | J 
+| 1fq9 | B | albelig | 16 | 16 | L | 682 | 682 | B-305-  | B-305-  | J 
+| 1fq9 | B | albelig | 17 | 17 | L | 683 | 683 | B-306-  | B-306-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 3
+= 4 = a = 5
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+= 10 = l = 16
+= 10 = l = 17
+= 12 = l = 13
+= 12 = l = 14
+= 13 = l = 14
+= 13 = l = 15
+= 14 = l = 15
+= 15 = l = 16
+= 15 = l = 17
+= 16 = l = 17
+# Listed 18 contacts. EOF.

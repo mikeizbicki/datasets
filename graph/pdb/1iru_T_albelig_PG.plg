@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iru, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 20S PROTEASOME, CELL CYCLE, IMMUNE RESPONSE, PROTEOLYSIS,UBIQUITIN, HYDROLASE
+> pdb_mol_name > 20S PROTEASOME
+> graphtype > albelig
+> resolution > 2.75
+> date > 24-OCT-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE MAMMALIAN 20S PROTEASOME AT 2.75 ARESOLUTION
+> format_version > 2
+> pdbid > 1iru
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iru | T | albelig | 1 | 1 | H | 4383 | 4394 | T-20-  | T-31-  | HQIEYAMEAVKQ 
+| 1iru | T | albelig | 2 | 2 | E | 4398 | 4402 | T-35-  | T-39-  | TVGLK 
+| 1iru | T | albelig | 3 | 3 | E | 4406 | 4412 | T-43-  | T-49-  | HAVLVAL 
+| 1iru | T | albelig | 4 | 4 | E | 4426 | 4430 | T-63-  | T-67-  | ILHVD 
+| 1iru | T | albelig | 5 | 5 | E | 4433 | 4439 | T-70-  | T-76-  | IGISIAG 
+| 1iru | T | albelig | 6 | 6 | H | 4441 | 4462 | T-78-  | T-99-  | TADARLLCNFMRQECLDSRFVF 
+| 1iru | T | albelig | 7 | 7 | H | 4468 | 4483 | T-105-  | T-120-  | VSRLVSLIGSKTQIPT 
+| 1iru | T | albelig | 8 | 8 | E | 4493 | 4501 | T-130-  | T-138-  | VGLLIAGYD 
+| 1iru | T | albelig | 9 | 9 | E | 4504 | 4510 | T-141-  | T-147-  | GPHIFQT 
+| 1iru | T | albelig | 10 | 10 | E | 4516 | 4519 | T-153-  | T-156-  | YFDC 
+| 1iru | T | albelig | 11 | 11 | E | 4521 | 4524 | T-158-  | T-161-  | AMSI 
+| 1iru | T | albelig | 12 | 12 | H | 4528 | 4542 | T-165-  | T-179-  | SQSARTYLERHMSEF 
+| 1iru | T | albelig | 13 | 13 | H | 4547 | 4560 | T-184-  | T-197-  | LNELVKHGLRALRE 
+| 1iru | T | albelig | 14 | 14 | E | 4573 | 4579 | T-210-  | T-216-  | VSIGIVG 
+| 1iru | T | albelig | 15 | 15 | E | 4582 | 4587 | T-219-  | T-224-  | LEFTIY 
+| 1iru | T | albelig | 16 | 16 | H | 4590 | 4596 | T-227-  | T-233-  | DDVSPFL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 2 = a = 3
+= 2 = a = 8
+= 2 = a = 9
+= 2 = a = 11
+= 3 = a = 5
+= 3 = a = 8
+= 3 = p = 9
+= 3 = p = 13
+= 3 = a = 14
+= 4 = a = 5
+= 4 = m = 6
+= 4 = a = 14
+= 4 = a = 15
+= 5 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 11
+= 8 = p = 14
+= 9 = a = 10
+= 11 = m = 12
+= 12 = a = 13
+= 14 = a = 15
+# Listed 23 contacts. EOF.

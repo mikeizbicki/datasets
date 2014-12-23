@@ -1,0 +1,86 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ild, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTI-PARALLEL BETA BARREL, MEMBRANE PHOSPHOLIPASE, MEMBRANEPROTEIN, SERINE HYDROLASE, N156A, HYDROLASE
+> pdb_mol_name > OUTER MEMBRANE PHOSPHOLIPASE A
+> graphtype > albelig
+> resolution > 2.8
+> date > 08-MAY-01
+> header > HYDROLASE, MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > OUTER MEMBRANE PHOSPHOLIPASE A FROM ESCHERICHIA COLI N156AACTIVE SITE MUTANT PH 4.6
+> format_version > 2
+> pdbid > 1ild
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ild | A | albelig | 1 | 1 | H | 6 | 11 | A-18-  | A-23-  | IIANML 
+| 1ild | A | albelig | 2 | 2 | E | 27 | 33 | A-39-  | A-45-  | YLIYTQT 
+| 1ild | A | albelig | 3 | 3 | E | 55 | 67 | A-67-  | A-79-  | VKFQLSLAFPLWR 
+| 1ild | A | albelig | 4 | 4 | E | 74 | 86 | A-86-  | A-98-  | SVLGASYTQKSWW 
+| 1ild | A | albelig | 5 | 5 | H | 91 | 93 | A-103-  | A-105-  | SEE 
+| 1ild | A | albelig | 6 | 6 | E | 97 | 116 | A-109-  | A-128-  | FRETNYEPQLFLGFATDYRF 
+| 1ild | A | albelig | 7 | 7 | E | 119 | 132 | A-131-  | A-144-  | WTLRDVEMGYNHDS 
+| 1ild | A | albelig | 8 | 8 | E | 142 | 154 | A-154-  | A-166-  | SWARLYTRLMAEN 
+| 1ild | A | albelig | 9 | 9 | E | 157 | 167 | A-169-  | A-179-  | WLVEVKPWYVV 
+| 1ild | A | albelig | 10 | 10 | H | 177 | 180 | A-189-  | A-192-  | TKYM 
+| 1ild | A | albelig | 11 | 11 | E | 183 | 191 | A-195-  | A-203-  | YQLKIGYHL 
+| 1ild | A | albelig | 12 | 12 | E | 194 | 202 | A-206-  | A-214-  | AVLSAKGQY 
+| 1ild | A | albelig | 13 | 13 | E | 209 | 218 | A-221-  | A-230-  | GGAELGLSYP 
+| 1ild | A | albelig | 14 | 14 | E | 224 | 232 | A-236-  | A-244-  | RLYTQVYSG 
+| 1ild | A | albelig | 15 | 15 | H | 237 | 239 | A-249-  | A-251-  | LID 
+| 1ild | A | albelig | 16 | 16 | E | 245 | 252 | A-257-  | A-264-  | TRVGVGVM 
+| 1ild | A | albelig | 17 | 17 | L | 258 | 258 | A-500-  | A-500-  | J 
+| 1ild | A | albelig | 18 | 18 | L | 259 | 259 | A-501-  | A-501-  | J 
+| 1ild | A | albelig | 19 | 19 | L | 260 | 260 | A-502-  | A-502-  | J 
+| 1ild | A | albelig | 20 | 20 | L | 261 | 261 | A-503-  | A-503-  | J 
+| 1ild | A | albelig | 21 | 21 | L | 262 | 262 | A-504-  | A-504-  | J 
+| 1ild | A | albelig | 22 | 22 | L | 263 | 263 | A-600-  | A-600-  | J 
+| 1ild | A | albelig | 23 | 23 | L | 264 | 264 | A-601-  | A-601-  | J 
+| 1ild | A | albelig | 24 | 24 | L | 265 | 265 | A-602-  | A-602-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 6
+= 2 = a = 3
+= 2 = a = 14
+= 2 = a = 16
+= 2 = l = 21
+= 3 = a = 4
+= 3 = l = 21
+= 3 = l = 22
+= 4 = a = 6
+= 4 = l = 21
+= 4 = l = 22
+= 6 = a = 7
+= 6 = m = 15
+= 6 = l = 17
+= 6 = l = 19
+= 6 = l = 21
+= 6 = l = 22
+= 6 = l = 24
+= 7 = a = 8
+= 7 = l = 17
+= 7 = l = 19
+= 7 = l = 24
+= 8 = a = 9
+= 8 = l = 18
+= 8 = l = 19
+= 9 = a = 11
+= 9 = l = 18
+= 9 = l = 20
+= 9 = l = 23
+= 10 = m = 12
+= 11 = a = 12
+= 11 = l = 18
+= 11 = l = 20
+= 12 = a = 13
+= 12 = l = 20
+= 13 = a = 14
+= 14 = a = 16
+= 18 = l = 23
+= 19 = l = 22
+= 19 = l = 24
+# Listed 41 contacts. EOF.

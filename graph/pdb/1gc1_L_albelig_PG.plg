@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gc1, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (HIV ENVELOPE PROTEIN-CD4-FAB), HIV-1 EXTERIOR ENVELOPEGP120, T-CELL SURFACE GLYCOPROTEIN CD4, ANTIGEN-BINDING FRAGMENT OFHUMAN IMMUNOGLOBULIN 17B, GLYCOSYLATED PROTEIN, VIRAL PROTEIN-RECEPTOR-IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > ANTIBODY 17B
+> graphtype > albelig
+> resolution > 2.5
+> date > 15-JUN-98
+> header > VIRAL PROTEIN/RECEPTOR/IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > HIV-1 GP120 CORE COMPLEXED WITH CD4 AND A NEUTRALIZING HUMAN ANTIBODY
+> format_version > 2
+> pdbid > 1gc1
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gc1 | L | albelig | 1 | 1 | E | 485 | 487 | L-4-  | L-6-  | LTQ 
+| 1gc1 | L | albelig | 2 | 2 | E | 491 | 494 | L-10-  | L-13-  | TLSV 
+| 1gc1 | L | albelig | 3 | 3 | E | 500 | 506 | L-19-  | L-25-  | ATLSKRA 
+| 1gc1 | L | albelig | 4 | 4 | E | 514 | 519 | L-33-  | L-38-  | LAWYQQ 
+| 1gc1 | L | albelig | 5 | 5 | E | 526 | 530 | L-45-  | L-49-  | RLLIY 
+| 1gc1 | L | albelig | 6 | 6 | E | 543 | 548 | L-62-  | L-67-  | FSGSGS 
+| 1gc1 | L | albelig | 7 | 7 | E | 551 | 556 | L-70-  | L-75-  | EFTLTI 
+| 1gc1 | L | albelig | 8 | 8 | E | 565 | 571 | L-84-  | L-90-  | AVYYKQQ 
+| 1gc1 | L | albelig | 9 | 9 | E | 585 | 589 | L-104-  | L-108-  | TRLEI 
+| 1gc1 | L | albelig | 10 | 10 | E | 597 | 601 | L-116-  | L-120-  | SVFIF 
+| 1gc1 | L | albelig | 11 | 11 | H | 605 | 610 | L-124-  | L-129-  | DEQLKS 
+| 1gc1 | L | albelig | 12 | 12 | E | 612 | 622 | L-131-  | L-141-  | TASVVLLLNNF 
+| 1gc1 | L | albelig | 13 | 13 | E | 628 | 631 | L-147-  | L-150-  | KVQW 
+| 1gc1 | L | albelig | 14 | 14 | E | 642 | 646 | L-161-  | L-165-  | SQESV 
+| 1gc1 | L | albelig | 15 | 15 | E | 656 | 665 | L-175-  | L-184-  | YSLSSTLTLS 
+| 1gc1 | L | albelig | 16 | 16 | H | 666 | 669 | L-185-  | L-188-  | KADY 
+| 1gc1 | L | albelig | 17 | 17 | E | 674 | 680 | L-193-  | L-199-  | VYALEVT 
+| 1gc1 | L | albelig | 18 | 18 | E | 688 | 693 | L-207-  | L-212-  | VTKSFN 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 2 = p = 9
+= 3 = a = 7
+= 3 = p = 8
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+= 10 = a = 12
+= 10 = a = 17
+= 11 = m = 12
+= 12 = a = 13
+= 12 = a = 15
+= 12 = m = 16
+= 13 = p = 15
+= 13 = a = 17
+= 14 = a = 15
+= 15 = m = 16
+= 17 = a = 18
+# Listed 21 contacts. EOF.

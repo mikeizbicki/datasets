@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h6t, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL ADHESION, LEUCINE RICH REPEAT, IG-LIKE DOMAIN, EF-HANDDOMAIN
+> pdb_mol_name > INTERNALIN B
+> graphtype > albelig
+> resolution > 1.6
+> date > 22-JUN-01
+> header > CELL ADHESION
+> pdb_org_common > UNKNOWN
+> title > INTERNALIN B: CRYSTAL STRUCTURE OF FUSED N-TERMINALDOMAINS.
+> format_version > 2
+> pdbid > 1h6t
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LISTERIA MONOCYTOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h6t | A | albelig | 1 | 1 | H | 4 | 6 | A-34-  | A-36-  | GSE 
+| 1h6t | A | albelig | 2 | 2 | H | 14 | 17 | A-44-  | A-47-  | IKQI 
+| 1h6t | A | albelig | 3 | 3 | H | 21 | 30 | A-51-  | A-60-  | DAFAETIKDN 
+| 1h6t | A | albelig | 4 | 4 | H | 42 | 46 | A-72-  | A-76-  | QNELN 
+| 1h6t | A | albelig | 5 | 5 | E | 50 | 52 | A-80-  | A-82-  | QII 
+| 1h6t | A | albelig | 6 | 6 | H | 64 | 66 | A-94-  | A-96-  | IQY 
+| 1h6t | A | albelig | 7 | 7 | E | 72 | 74 | A-102-  | A-104-  | KLF 
+| 1h6t | A | albelig | 8 | 8 | H | 84 | 86 | A-114-  | A-116-  | KPL 
+| 1h6t | A | albelig | 9 | 9 | E | 94 | 96 | A-124-  | A-126-  | WLF 
+| 1h6t | A | albelig | 10 | 10 | H | 105 | 108 | A-135-  | A-138-  | LSSL 
+| 1h6t | A | albelig | 11 | 11 | E | 116 | 118 | A-146-  | A-148-  | SLS 
+| 1h6t | A | albelig | 12 | 12 | H | 128 | 132 | A-158-  | A-162-  | NGLVH 
+| 1h6t | A | albelig | 13 | 13 | E | 138 | 140 | A-168-  | A-170-  | SLY 
+| 1h6t | A | albelig | 14 | 14 | H | 150 | 154 | A-180-  | A-184-  | TVLSR 
+| 1h6t | A | albelig | 15 | 15 | E | 160 | 162 | A-190-  | A-192-  | TLS 
+| 1h6t | A | albelig | 16 | 16 | H | 172 | 174 | A-202-  | A-204-  | VPL 
+| 1h6t | A | albelig | 17 | 17 | E | 182 | 184 | A-212-  | A-214-  | NLY 
+| 1h6t | A | albelig | 18 | 18 | H | 194 | 196 | A-224-  | A-226-  | RAL 
+| 1h6t | A | albelig | 19 | 19 | E | 204 | 213 | A-234-  | A-243-  | VLELFSQECL 
+| 1h6t | A | albelig | 20 | 20 | E | 222 | 226 | A-252-  | A-256-  | NLVVP 
+| 1h6t | A | albelig | 21 | 21 | E | 239 | 242 | A-269-  | A-272-  | PEII 
+| 1h6t | A | albelig | 22 | 22 | H | 243 | 245 | A-273-  | A-275-  | SDD 
+| 1h6t | A | albelig | 23 | 23 | E | 247 | 249 | A-277-  | A-279-  | DYE 
+| 1h6t | A | albelig | 24 | 24 | E | 252 | 256 | A-282-  | A-286-  | NVKWH 
+| 1h6t | A | albelig | 25 | 25 | E | 263 | 274 | A-293-  | A-304-  | EVSFIFYQPVTI 
+| 1h6t | A | albelig | 26 | 26 | E | 277 | 290 | A-307-  | A-320-  | AKARFHGRVTQPLK 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = p = 7
+= 7 = p = 9
+= 9 = p = 11
+= 11 = p = 13
+= 13 = p = 15
+= 15 = p = 17
+= 17 = p = 19
+= 19 = p = 26
+= 20 = a = 24
+= 21 = m = 22
+= 21 = a = 25
+= 23 = a = 24
+= 25 = a = 26
+# Listed 13 contacts. EOF.

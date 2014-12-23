@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f7p, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EIGHT STRANDED BETA BARREL PROTEIN, VIRAL PROTEIN, HYDROLASE
+> pdb_mol_name > POL POLYPROTEIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-JUN-00
+> header > VIRAL PROTEIN, HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF FELINE IMMUNODEFICIENCY VIRUS DUTPPYROPHOSPHATASE AND ITS NUCLEOTIDE COMPLEXES IN THREECRYSTAL FORMS.
+> format_version > 2
+> pdbid > 1f7p
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > FELINE IMMUNODEFICIENCY VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f7p | C | albelig | 1 | 1 | E | 236 | 238 | C-402-  | C-404-  | IIE 
+| 1f7p | C | albelig | 2 | 2 | E | 252 | 255 | C-418-  | C-421-  | YDLL 
+| 1f7p | C | albelig | 3 | 3 | E | 260 | 262 | C-426-  | C-428-  | IHL 
+| 1f7p | C | albelig | 4 | 4 | E | 267 | 277 | C-433-  | C-443-  | VKVIPTGVKLM 
+| 1f7p | C | albelig | 5 | 5 | E | 282 | 287 | C-448-  | C-453-  | YWGLII 
+| 1f7p | C | albelig | 6 | 6 | H | 290 | 293 | C-456-  | C-459-  | SSIG 
+| 1f7p | C | albelig | 7 | 7 | E | 297 | 299 | C-463-  | C-465-  | LDV 
+| 1f7p | C | albelig | 8 | 8 | E | 302 | 304 | C-468-  | C-470-  | GVI 
+| 1f7p | C | albelig | 9 | 9 | E | 311 | 318 | C-477-  | C-484-  | EIGVIMIN 
+| 1f7p | C | albelig | 10 | 10 | E | 324 | 326 | C-490-  | C-492-  | ITL 
+| 1f7p | C | albelig | 11 | 11 | E | 331 | 339 | C-497-  | C-505-  | KIAQLIILP 
+| 1f7p | C | albelig | 12 | 12 | L | 351 | 351 | C-702-  | C-702-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = a = 4
+= 2 = a = 11
+= 3 = a = 10
+= 4 = a = 9
+= 5 = a = 8
+= 5 = a = 11
+= 5 = l = 12
+= 6 = m = 7
+= 7 = a = 9
+= 8 = l = 12
+= 9 = l = 12
+# Listed 12 contacts. EOF.

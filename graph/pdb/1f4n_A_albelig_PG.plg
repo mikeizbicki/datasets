@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f4n, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROP, DIMER, HOMODIMER, HELIX-TURN-HELIX, TRANSCRIPTIONREGULATION, HYDROPHOBIC CORE PACKING, THERMODYNAMICSTABILITY
+> pdb_mol_name > ROP ALA2ILE2-6
+> graphtype > albelig
+> resolution > 1.9
+> date > 08-JUN-00
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > C2 CRYSTAL STRUCTURE OF ALA2ILE2-6, A VERSION OF ROP WITH AREPACKED HYDROPHOBIC CORE AND A NEW FOLD.
+> format_version > 2
+> pdbid > 1f4n
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f4n | A | albelig | 1 | 1 | H | 3 | 28 | A-3-  | A-28-  | KQEKTILNMARFIRSQALTILEKANE 
+| 1f4n | A | albelig | 2 | 2 | H | 32 | 54 | A-32-  | A-54-  | DEIADIAESIHDHADEIYRSALA 
+| 1f4n | A | albelig | 3 | 3 | L | 110 | 110 | A-101-  | A-101-  | J 
+| 1f4n | A | albelig | 4 | 4 | L | 111 | 111 | A-102-  | A-102-  | J 
+| 1f4n | A | albelig | 5 | 5 | L | 112 | 112 | A-103-  | A-103-  | J 
+| 1f4n | A | albelig | 6 | 6 | L | 113 | 113 | A-104-  | A-104-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 5
+= 1 = l = 6
+= 2 = l = 4
+= 2 = l = 5
+= 2 = l = 6
+= 3 = l = 4
+# Listed 7 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gl1, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE/INHIBITOR, COMPLEX (PROTEASE/INHIBITOR),HYDROLASE, SERINE PROTEASE, SERINE PROTEASE INHIBITOR
+> pdb_mol_name > ALPHA-CHYMOTRYPSIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 22-AUG-01
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > BOVINE
+> title > STRUCTURE OF THE COMPLEX BETWEEN BOVINE ALPHA-CHYMOTRYPSINAND PMP-C, AN INHIBITOR FROM THE INSECT LOCUSTA MIGRATORIA
+> format_version > 2
+> pdbid > 1gl1
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gl1 | C | albelig | 1 | 1 | E | 512 | 516 | C-30-  | C-34-  | QVSLQ 
+| 1gl1 | C | albelig | 2 | 2 | E | 522 | 530 | C-40-  | C-48-  | HFLGGSLIN 
+| 1gl1 | C | albelig | 3 | 3 | E | 533 | 536 | C-51-  | C-54-  | WVVT 
+| 1gl1 | C | albelig | 4 | 4 | H | 538 | 540 | C-56-  | C-58-  | AHL 
+| 1gl1 | C | albelig | 5 | 5 | E | 547 | 550 | C-65-  | C-68-  | VVVA 
+| 1gl1 | C | albelig | 6 | 6 | E | 563 | 572 | C-81-  | C-90-  | QKLKIAKVFK 
+| 1gl1 | C | albelig | 7 | 7 | E | 586 | 590 | C-104-  | C-108-  | TLLKL 
+| 1gl1 | C | albelig | 8 | 8 | E | 617 | 622 | C-135-  | C-140-  | TMVTTG 
+| 1gl1 | C | albelig | 9 | 9 | E | 636 | 643 | C-156-  | C-163-  | QQASLPLL 
+| 1gl1 | C | albelig | 10 | 10 | H | 645 | 655 | C-165-  | C-175-  | NTNNKKYWGTK 
+| 1gl1 | C | albelig | 11 | 11 | E | 660 | 664 | C-180-  | C-184-  | MINAG 
+| 1gl1 | C | albelig | 12 | 12 | E | 678 | 683 | C-198-  | C-203-  | PLVMKK 
+| 1gl1 | C | albelig | 13 | 13 | E | 686 | 697 | C-206-  | C-217-  | AWTLVGIVSWGS 
+| 1gl1 | C | albelig | 14 | 14 | E | 705 | 710 | C-225-  | C-230-  | PGVYAR 
+| 1gl1 | C | albelig | 15 | 15 | H | 711 | 713 | C-231-  | C-233-  | VTA 
+| 1gl1 | C | albelig | 16 | 16 | H | 715 | 723 | C-235-  | C-243-  | VNWVQQTLA 
+| 1gl1 | C | albelig | 17 | 17 | L | 833 | 833 | C-1246-  | C-1246-  | J 
+| 1gl1 | C | albelig | 18 | 18 | L | 834 | 834 | C-1247-  | C-1247-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 7 = l = 17
+= 8 = a = 9
+= 8 = a = 12
+= 9 = a = 11
+= 10 = m = 11
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+# Listed 16 contacts. EOF.

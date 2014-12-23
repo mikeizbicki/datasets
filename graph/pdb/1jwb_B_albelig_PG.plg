@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jwb, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOEB: MODIFIED ROSSMANN FOLD; (2) CYS-X-X-CYS ZINC-BINDING MOTIFS;MOAD: UBIQUITIN-LIKE FOLD, LIGASE
+> pdb_mol_name > MOLYBDOPTERIN BIOSYNTHESIS MOEB PROTEIN
+> graphtype > albelig
+> resolution > 2.1
+> date > 03-SEP-01
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE COVALENT ACYL-ADENYLATE FORM OF THE MOEB-MOAD PROTEINCOMPLEX
+> format_version > 2
+> pdbid > 1jwb
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jwb | B | albelig | 1 | 1 | H | 5 | 10 | B-6-  | B-11-  | DQEMLR 
+| 1jwb | B | albelig | 2 | 2 | H | 12 | 15 | B-13-  | B-16-  | NRQI 
+| 1jwb | B | albelig | 3 | 3 | H | 21 | 30 | B-22-  | B-31-  | DFDGQEALKD 
+| 1jwb | B | albelig | 4 | 4 | E | 32 | 36 | B-33-  | B-37-  | RVLIV 
+| 1jwb | B | albelig | 5 | 5 | H | 40 | 52 | B-41-  | B-53-  | GLGCAASQYLASA 
+| 1jwb | B | albelig | 6 | 6 | E | 56 | 61 | B-57-  | B-62-  | NLTLLD 
+| 1jwb | B | albelig | 7 | 7 | H | 67 | 71 | B-68-  | B-72-  | LSNLQ 
+| 1jwb | B | albelig | 8 | 8 | H | 78 | 80 | B-79-  | B-81-  | DAT 
+| 1jwb | B | albelig | 9 | 9 | H | 85 | 96 | B-86-  | B-97-  | KVESARDALTRI 
+| 1jwb | B | albelig | 10 | 10 | E | 101 | 106 | B-102-  | B-107-  | AITPVN 
+| 1jwb | B | albelig | 11 | 11 | H | 111 | 119 | B-112-  | B-120-  | DAELAALIA 
+| 1jwb | B | albelig | 12 | 12 | E | 123 | 126 | B-124-  | B-127-  | LVLD 
+| 1jwb | B | albelig | 13 | 13 | H | 131 | 144 | B-132-  | B-145-  | VAVRNQLNAGCFAA 
+| 1jwb | B | albelig | 14 | 14 | E | 148 | 154 | B-149-  | B-155-  | LVSGAAI 
+| 1jwb | B | albelig | 15 | 15 | E | 157 | 163 | B-158-  | B-164-  | EGQITVF 
+| 1jwb | B | albelig | 16 | 16 | H | 172 | 176 | B-173-  | B-177-  | YRCLS 
+| 1jwb | B | albelig | 17 | 17 | H | 187 | 206 | B-194-  | B-213-  | APLIGVIGSLQAMEAIKMLA 
+| 1jwb | B | albelig | 18 | 18 | E | 215 | 220 | B-222-  | B-227-  | KIVMYD 
+| 1jwb | B | albelig | 19 | 19 | E | 225 | 230 | B-232-  | B-237-  | QFREMK 
+| 1jwb | B | albelig | 20 | 20 | L | 323 | 323 | B-250-  | B-250-  | J 
+| 1jwb | B | albelig | 21 | 21 | L | 324 | 324 | B-251-  | B-251-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = p = 6
+= 4 = p = 12
+= 5 = m = 9
+= 5 = p = 17
+= 6 = m = 9
+= 6 = p = 10
+= 7 = l = 21
+= 9 = a = 10
+= 9 = l = 21
+= 12 = p = 14
+= 12 = m = 17
+= 13 = a = 14
+= 13 = m = 16
+= 14 = a = 15
+= 14 = a = 17
+= 15 = p = 17
+= 15 = a = 18
+= 16 = l = 20
+= 18 = a = 19
+# Listed 19 contacts. EOF.

@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hq8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOMODIMER, CIS-PROLINE, APOPTOSIS
+> pdb_mol_name > NKG2-D
+> graphtype > albelig
+> resolution > 1.95
+> date > 14-DEC-00
+> header > APOPTOSIS
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE MURINE NK CELL-ACTIVATING RECEPTORNKG2D AT 1.95 A
+> format_version > 2
+> pdbid > 1hq8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hq8 | A | albelig | 1 | 1 | E | 11 | 13 | A-120-  | A-122-  | IAH 
+| 1hq8 | A | albelig | 2 | 2 | E | 16 | 25 | A-125-  | A-134-  | NNYQFFNEEK 
+| 1hq8 | A | albelig | 3 | 3 | H | 27 | 35 | A-136-  | A-144-  | WNQSQASCL 
+| 1hq8 | A | albelig | 4 | 4 | H | 51 | 55 | A-160-  | A-164-  | DFLKL 
+| 1hq8 | A | albelig | 5 | 5 | E | 60 | 66 | A-169-  | A-175-  | HWMGLVQ 
+| 1hq8 | A | albelig | 6 | 6 | E | 73 | 75 | A-182-  | A-184-  | WQW 
+| 1hq8 | A | albelig | 7 | 7 | E | 87 | 89 | A-196-  | A-198-  | TLV 
+| 1hq8 | A | albelig | 8 | 8 | E | 96 | 99 | A-205-  | A-208-  | DAVY 
+| 1hq8 | A | albelig | 9 | 9 | E | 104 | 108 | A-213-  | A-217-  | KAYTE 
+| 1hq8 | A | albelig | 10 | 10 | E | 114 | 120 | A-223-  | A-229-  | NTYICMK 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = m = 3
+= 2 = a = 10
+= 3 = m = 10
+= 5 = a = 6
+= 5 = a = 8
+= 5 = a = 10
+= 7 = p = 9
+= 8 = a = 9
+# Listed 9 contacts. EOF.

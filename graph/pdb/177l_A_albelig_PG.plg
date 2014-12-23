@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 177l, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (O-GLYCOSYL)
+> pdb_mol_name > T4 LYSOZYME
+> graphtype > albelig
+> resolution > 2.5
+> date > 24-MAR-95
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > PROTEIN FLEXIBILITY AND ADAPTABILITY SEEN IN 25 CRYSTALFORMS OF T4 LYSOZYME
+> format_version > 2
+> pdbid > 177l
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACTERIOPHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 177l | A | albelig | 1 | 1 | H | 3 | 11 | A-3-  | A-11-  | IFEMLRIDE 
+| 177l | A | albelig | 2 | 2 | E | 25 | 27 | A-25-  | A-27-  | YTI 
+| 177l | A | albelig | 3 | 3 | E | 31 | 34 | A-31-  | A-34-  | HLLT 
+| 177l | A | albelig | 4 | 4 | H | 39 | 50 | A-39-  | A-50-  | LNAAKSELDKAI 
+| 177l | A | albelig | 5 | 5 | H | 60 | 79 | A-60-  | A-79-  | KDEAEKLFNQDVDAAVRGIL 
+| 177l | A | albelig | 6 | 6 | H | 85 | 90 | A-85-  | A-90-  | KPVYDS 
+| 177l | A | albelig | 7 | 7 | H | 93 | 111 | A-93-  | A-111-  | AVRRAALINMVFQMGETGV 
+| 177l | A | albelig | 8 | 8 | H | 115 | 123 | A-115-  | A-123-  | TNSLRMLQQ 
+| 177l | A | albelig | 9 | 9 | H | 126 | 134 | A-126-  | A-134-  | WCEAAVNLA 
+| 177l | A | albelig | 10 | 10 | H | 137 | 141 | A-137-  | A-141-  | RWYNQ 
+| 177l | A | albelig | 11 | 11 | H | 143 | 155 | A-143-  | A-155-  | PNRAKRVITTFCT 
+| 177l | A | albelig | 12 | 12 | H | 159 | 161 | A-159-  | A-161-  | DAY 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = p = 7
+= 1 = m = 11
+= 2 = a = 3
+= 3 = m = 4
+= 5 = m = 7
+= 6 = m = 8
+= 7 = a = 11
+= 8 = m = 9
+= 10 = m = 11
+= 11 = m = 12
+# Listed 11 contacts. EOF.

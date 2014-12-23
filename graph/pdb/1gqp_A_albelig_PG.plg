@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gqp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CELL CYCLE, APC10/DOC1, APC/CYCLOSOME, UBIQUITINATION, E3UBIQUITIN LIGASE, BETA SANDWICH, JELLY ROLL
+> pdb_mol_name > DOC1/APC10
+> graphtype > albelig
+> resolution > 2.2
+> date > 28-NOV-01
+> header > CELL CYCLE
+> pdb_org_common > BAKER'S YEAST
+> title > APC10/DOC1 SUBUNIT OF S. CEREVISIAE
+> format_version > 2
+> pdbid > 1gqp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gqp | A | albelig | 1 | 1 | E | 2 | 6 | A-64-  | A-68-  | VLVLD 
+| 1gqp | A | albelig | 2 | 2 | H | 12 | 14 | A-74-  | A-76-  | AAT 
+| 1gqp | A | albelig | 3 | 3 | H | 28 | 43 | A-95-  | A-110-  | PENLQHMFHQGIEILD 
+| 1gqp | A | albelig | 4 | 4 | E | 47 | 49 | A-114-  | A-116-  | MIN 
+| 1gqp | A | albelig | 5 | 5 | H | 51 | 53 | A-118-  | A-120-  | THL 
+| 1gqp | A | albelig | 6 | 6 | E | 55 | 58 | A-122-  | A-125-  | LWKP 
+| 1gqp | A | albelig | 7 | 7 | H | 67 | 70 | A-134-  | A-137-  | VDFA 
+| 1gqp | A | albelig | 8 | 8 | E | 87 | 99 | A-154-  | A-166-  | HQLDIMFSKRMDI 
+| 1gqp | A | albelig | 9 | 9 | E | 101 | 107 | A-168-  | A-174-  | VMAIFFS 
+| 1gqp | A | albelig | 10 | 10 | H | 108 | 114 | A-175-  | A-181-  | MIADESY 
+| 1gqp | A | albelig | 11 | 11 | E | 116 | 124 | A-183-  | A-191-  | PSLVKVYAG 
+| 1gqp | A | albelig | 12 | 12 | E | 131 | 140 | A-198-  | A-207-  | RFYKMLEVRN 
+| 1gqp | A | albelig | 13 | 13 | E | 142 | 147 | A-209-  | A-214-  | NGWVAL 
+| 1gqp | A | albelig | 14 | 14 | E | 152 | 164 | A-226-  | A-238-  | LKCQFIRLLFPVN 
+| 1gqp | A | albelig | 15 | 15 | E | 176 | 181 | A-250-  | A-255-  | IRLYVP 
+| 1gqp | A | albelig | 16 | 16 | L | 374 | 374 | A-1257-  | A-1257-  | J 
+| 1gqp | A | albelig | 17 | 17 | L | 375 | 375 | A-1258-  | A-1258-  | J 
+| 1gqp | A | albelig | 18 | 18 | L | 376 | 376 | A-1259-  | A-1259-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 12
+= 3 = m = 13
+= 4 = a = 15
+= 6 = a = 8
+= 8 = a = 14
+= 8 = p = 15
+= 8 = l = 18
+= 9 = m = 10
+= 9 = a = 13
+= 9 = a = 15
+= 11 = a = 12
+= 11 = a = 14
+= 11 = l = 18
+= 14 = l = 18
+# Listed 14 contacts. EOF.

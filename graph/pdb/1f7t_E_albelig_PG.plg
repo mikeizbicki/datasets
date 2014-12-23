@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f7t, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 9-STRAND PSEUDO BETA BARREL, LIPID SYNTHESIS, TRANSFERASE
+> pdb_mol_name > HOLO-(ACYL CARRIER PROTEIN) SYNTHASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 27-JUN-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > HOLO-(ACYL CARRIER PROTEIN) SYNTHASE AT 1.8A
+> format_version > 2
+> pdbid > 1f7t
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f7t | E | albelig | 1 | 1 | E | 482 | 491 | E-2-  | E-11-  | IYGIGLDITE 
+| 1f7t | E | albelig | 2 | 2 | H | 492 | 501 | E-12-  | E-21-  | LKRIASMAGR 
+| 1f7t | E | albelig | 3 | 3 | H | 505 | 509 | E-25-  | E-29-  | FAERI 
+| 1f7t | E | albelig | 4 | 4 | H | 512 | 518 | E-32-  | E-38-  | RSELDQY 
+| 1f7t | E | albelig | 5 | 5 | H | 523 | 544 | E-43-  | E-64-  | EKRKNEFLAGRFAAKEAFSKAF 
+| 1f7t | E | albelig | 6 | 6 | H | 554 | 556 | E-74-  | E-76-  | FQD 
+| 1f7t | E | albelig | 7 | 7 | E | 558 | 561 | E-78-  | E-81-  | EIRK 
+| 1f7t | E | albelig | 8 | 8 | E | 567 | 570 | E-87-  | E-90-  | PYII 
+| 1f7t | E | albelig | 9 | 9 | E | 578 | 585 | E-98-  | E-105-  | AVHVSITH 
+| 1f7t | E | albelig | 10 | 10 | E | 589 | 597 | E-109-  | E-117-  | YAAAQVVIE 
+| 1f7t | E | albelig | 11 | 11 | L | 747 | 747 | E-476-  | E-476-  | J 
+| 1f7t | E | albelig | 12 | 12 | L | 748 | 748 | E-482-  | E-482-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 5
+= 1 = a = 10
+= 1 = l = 12
+= 2 = m = 5
+= 2 = l = 12
+= 4 = m = 5
+= 5 = p = 10
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 9 = l = 11
+# Listed 12 contacts. EOF.

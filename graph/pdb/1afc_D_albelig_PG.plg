@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1afc, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR
+> pdb_mol_name > ACIDIC FIBROBLAST GROWTH FACTOR
+> graphtype > albelig
+> resolution > 2.7
+> date > 13-JUL-93
+> header > GROWTH FACTOR
+> pdb_org_common > CATTLE
+> title > STRUCTURAL STUDIES OF THE BINDING OF THE ANTI-ULCER DRUGSUCROSE OCTASULFATE TO ACIDIC FIBROBLAST GROWTH FACTOR
+> format_version > 2
+> pdbid > 1afc
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1afc | D | albelig | 1 | 1 | E | 397 | 401 | D-22-  | D-26-  | FLRIL 
+| 1afc | D | albelig | 2 | 2 | E | 405 | 409 | D-30-  | D-34-  | TVDGT 
+| 1afc | D | albelig | 3 | 3 | E | 419 | 422 | D-44-  | D-47-  | LQLA 
+| 1afc | D | albelig | 4 | 4 | E | 428 | 433 | D-53-  | D-58-  | EVYIKS 
+| 1afc | D | albelig | 5 | 5 | E | 439 | 442 | D-64-  | D-67-  | FLAM 
+| 1afc | D | albelig | 6 | 6 | E | 448 | 451 | D-73-  | D-76-  | LYGS 
+| 1afc | D | albelig | 7 | 7 | H | 495 | 497 | D-120-  | D-122-  | GPR 
+| 1afc | D | albelig | 8 | 8 | L | 1027 | 1027 | D-141-  | D-141-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 6
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+= 7 = l = 8
+# Listed 6 contacts. EOF.

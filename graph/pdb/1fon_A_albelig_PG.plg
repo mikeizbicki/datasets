@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fon, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRUNCATED ZYMOGEN E, SERINE PROTEASE
+> pdb_mol_name > PROCARBOXYPEPTIDASE A-S6
+> graphtype > albelig
+> resolution > 1.7
+> date > 01-FEB-96
+> header > SERINE PROTEASE
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF BOVINE PROCARBOXYPEPTIDASE A-S6SUBUNIT III, A HIGHLY STRUCTURED TRUNCATED ZYMOGEN E
+> format_version > 2
+> pdbid > 1fon
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fon | A | albelig | 1 | 1 | E | 2 | 12 | A-10-  | A-20-  | WSWQVSLQYEK 
+| 1fon | A | albelig | 2 | 2 | E | 15 | 20 | A-23-  | A-28-  | AFHHTA 
+| 1fon | A | albelig | 3 | 3 | E | 23 | 26 | A-31-  | A-34-  | SLIA 
+| 1fon | A | albelig | 4 | 4 | E | 29 | 32 | A-37-  | A-40-  | WVVT 
+| 1fon | A | albelig | 5 | 5 | H | 34 | 36 | A-42-  | A-44-  | GHA 
+| 1fon | A | albelig | 6 | 6 | E | 43 | 51 | A-51-  | A-59-  | YQVVLGEYD 
+| 1fon | A | albelig | 7 | 7 | E | 54 | 64 | A-62-  | A-72-  | VLEGSEQVIPI 
+| 1fon | A | albelig | 8 | 8 | E | 69 | 71 | A-77-  | A-79-  | LFV 
+| 1fon | A | albelig | 9 | 9 | H | 80 | 82 | A-88-  | A-90-  | VAN 
+| 1fon | A | albelig | 10 | 10 | E | 87 | 90 | A-95-  | A-98-  | ALVK 
+| 1fon | A | albelig | 11 | 11 | E | 120 | 123 | A-128-  | A-131-  | YISG 
+| 1fon | A | albelig | 12 | 12 | E | 138 | 141 | A-146-  | A-149-  | QQAL 
+| 1fon | A | albelig | 13 | 13 | H | 147 | 150 | A-155-  | A-158-  | YEHD 
+| 1fon | A | albelig | 14 | 14 | H | 157 | 159 | A-165-  | A-167-  | GIT 
+| 1fon | A | albelig | 15 | 15 | E | 164 | 167 | A-172-  | A-175-  | MVDA 
+| 1fon | A | albelig | 16 | 16 | E | 182 | 186 | A-190-  | A-194-  | PLNCP 
+| 1fon | A | albelig | 17 | 17 | E | 192 | 200 | A-200-  | A-208-  | WQVHGVTSF 
+| 1fon | A | albelig | 18 | 18 | E | 213 | 217 | A-221-  | A-225-  | TVFTR 
+| 1fon | A | albelig | 19 | 19 | H | 218 | 220 | A-226-  | A-228-  | VSA 
+| 1fon | A | albelig | 20 | 20 | H | 222 | 231 | A-230-  | A-239-  | IDWIDETIAS 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 3 = a = 4
+= 4 = a = 10
+= 6 = a = 7
+= 8 = a = 10
+= 11 = a = 12
+= 11 = a = 16
+= 15 = a = 18
+= 16 = a = 17
+= 17 = a = 18
+= 17 = m = 19
+= 18 = m = 19
+# Listed 13 contacts. EOF.

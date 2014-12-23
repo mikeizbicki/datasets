@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jya, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SPECIFIC CHAPERONE, TYPE III SECRETION
+> pdb_mol_name > YOPE REGULATOR
+> graphtype > albelig
+> resolution > 1.74
+> date > 11-SEP-01
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF SYCE
+> format_version > 2
+> pdbid > 1jya
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > YERSINIA PSEUDOTUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jya | B | albelig | 1 | 1 | H | 121 | 131 | B-4-  | B-14-  | FEQAITQLFQQ 
+| 1jya | B | albelig | 2 | 2 | E | 143 | 148 | B-26-  | B-31-  | VIGVKV 
+| 1jya | B | albelig | 3 | 3 | E | 151 | 157 | B-34-  | B-40-  | FACHITE 
+| 1jya | B | albelig | 4 | 4 | E | 162 | 167 | B-45-  | B-50-  | QILXFT 
+| 1jya | B | albelig | 5 | 5 | H | 177 | 184 | B-60-  | B-67-  | KETLLSHN 
+| 1jya | B | albelig | 6 | 6 | E | 194 | 198 | B-77-  | B-81-  | ILSWD 
+| 1jya | B | albelig | 7 | 7 | E | 203 | 211 | B-86-  | B-94-  | HPVLWNRQP 
+| 1jya | B | albelig | 8 | 8 | H | 212 | 214 | B-95-  | B-97-  | LNS 
+| 1jya | B | albelig | 9 | 9 | H | 219 | 236 | B-102-  | B-119-  | SLYTQLEXLVQGAERLQT 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 9
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 7
+= 4 = m = 9
+= 6 = a = 7
+= 7 = m = 8
+= 7 = a = 9
+# Listed 9 contacts. EOF.

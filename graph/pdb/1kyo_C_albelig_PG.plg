@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyo, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTISUBUNIT MEMBRANE PROTEIN COMPLEX, ENZYME SUBSTRATECOMPLEX, ELECTRON TRANSFER COMPLEX, ANTIBODY FV FRAGMENTMEDIATED CRYSTALLIZATION, OXIDOREDUCTASE/ELECTRON TRANSPORTCOMPLEX
+> pdb_mol_name > CYTOCHROME B
+> graphtype > albelig
+> resolution > 2.97
+> date > 05-FEB-02
+> header > OXIDOREDUCTASE/ELECTRON TRANSPORT
+> pdb_org_common > BAKER'S YEAST
+> title > YEAST CYTOCHROME BC1 COMPLEX WITH BOUND SUBSTRATECYTOCHROME C
+> format_version > 2
+> pdbid > 1kyo
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyo | C | albelig | 1 | 1 | H | 787 | 790 | C-3-  | C-6-  | FRKS 
+| 1kyo | C | albelig | 2 | 2 | H | 792 | 802 | C-8-  | C-18-  | VYLSLVNSYII 
+| 1kyo | C | albelig | 3 | 3 | E | 805 | 807 | C-21-  | C-23-  | PQP 
+| 1kyo | C | albelig | 4 | 4 | H | 812 | 835 | C-28-  | C-51-  | YWWNMGSLLGLCLVIQIVTGIFMA 
+| 1kyo | C | albelig | 5 | 5 | H | 845 | 854 | C-61-  | C-70-  | AFSSVEHIMR 
+| 1kyo | C | albelig | 6 | 6 | H | 859 | 886 | C-75-  | C-102-  | GYILRYLHANGASFFFMVMFMHMAKGLY 
+| 1kyo | C | albelig | 7 | 7 | H | 895 | 919 | C-111-  | C-135-  | VTLWNVGVIIFTLTIATAFLGYCCV 
+| 1kyo | C | albelig | 8 | 8 | H | 922 | 937 | C-138-  | C-153-  | QMSHWGATVITNLFSA 
+| 1kyo | C | albelig | 9 | 9 | H | 942 | 950 | C-158-  | C-166-  | GNDIVSWLW 
+| 1kyo | C | albelig | 10 | 10 | H | 957 | 988 | C-173-  | C-204-  | NPTIQRFFALHYLVPFIIAAMVIMHLMALHIH 
+| 1kyo | C | albelig | 11 | 11 | E | 1002 | 1004 | C-218-  | C-220-  | RIP 
+| 1kyo | C | albelig | 12 | 12 | H | 1009 | 1030 | C-225-  | C-246-  | FIFKDLVTVFLFMLILALFVFY 
+| 1kyo | C | albelig | 13 | 13 | H | 1038 | 1041 | C-254-  | C-257-  | PDNY 
+| 1kyo | C | albelig | 14 | 14 | H | 1057 | 1068 | C-273-  | C-284-  | WYLLPFYAILRS 
+| 1kyo | C | albelig | 15 | 15 | H | 1072 | 1088 | C-288-  | C-304-  | KLLGVITMFAAILVLLV 
+| 1kyo | C | albelig | 16 | 16 | H | 1089 | 1092 | C-305-  | C-308-  | LPFT 
+| 1kyo | C | albelig | 17 | 17 | H | 1104 | 1125 | C-320-  | C-341-  | VLSKFFFFIFVFNFVLLGQIGA 
+| 1kyo | C | albelig | 18 | 18 | H | 1130 | 1150 | C-346-  | C-366-  | VPYVLMGQIATFIYFAYFLII 
+| 1kyo | C | albelig | 19 | 19 | H | 1151 | 1164 | C-367-  | C-380-  | VPVISTIENVLFYI 
+| 1kyo | C | albelig | 20 | 20 | L | 4484 | 4484 | C-501-  | C-501-  | J 
+| 1kyo | C | albelig | 21 | 21 | L | 4485 | 4485 | C-502-  | C-502-  | J 
+| 1kyo | C | albelig | 22 | 22 | L | 4488 | 4488 | C-505-  | C-505-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 11
+= 4 = a = 6
+= 4 = p = 12
+= 4 = l = 20
+= 4 = l = 21
+= 5 = l = 20
+= 6 = a = 7
+= 6 = a = 12
+= 6 = m = 14
+= 6 = l = 20
+= 6 = l = 21
+= 7 = m = 8
+= 7 = a = 10
+= 7 = l = 20
+= 7 = l = 21
+= 7 = l = 22
+= 8 = m = 9
+= 8 = m = 13
+= 8 = l = 22
+= 9 = m = 10
+= 9 = l = 22
+= 10 = l = 20
+= 10 = l = 21
+= 10 = l = 22
+= 13 = l = 20
+= 14 = m = 15
+= 14 = m = 17
+= 14 = m = 18
+= 14 = l = 20
+= 14 = l = 22
+= 15 = m = 16
+= 15 = m = 18
+= 15 = l = 22
+= 17 = a = 18
+= 17 = m = 19
+= 18 = m = 19
+# Listed 36 contacts. EOF.

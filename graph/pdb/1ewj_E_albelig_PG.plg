@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ewj, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLEOMYCIN-BINDING PROTEIN, BLEOMYCIN, ANTIBIOTICSRESISTANCE, HOMODIMER, ANTIBIOTIC INHIBITOR
+> pdb_mol_name > BLEOMYCIN RESISTANCE DETERMINANT
+> graphtype > albelig
+> resolution > 2.5
+> date > 26-APR-00
+> header > ANTIBIOTIC INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF BLEOMYCIN-BINDING PROTEIN COMPLEXEDWITH BLEOMYCIN
+> format_version > 2
+> pdbid > 1ewj
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA PNEUMONIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ewj | E | albelig | 1 | 1 | E | 483 | 485 | E-4-  | E-6-  | QAT 
+| 1ewj | E | albelig | 2 | 2 | E | 488 | 490 | E-9-  | E-11-  | LPS 
+| 1ewj | E | albelig | 3 | 3 | H | 493 | 501 | E-14-  | E-22-  | FDSTAAFYE 
+| 1ewj | E | albelig | 4 | 4 | E | 506 | 510 | E-27-  | E-31-  | GIVFR 
+| 1ewj | E | albelig | 5 | 5 | E | 515 | 519 | E-36-  | E-40-  | MILQR 
+| 1ewj | E | albelig | 6 | 6 | E | 522 | 528 | E-43-  | E-49-  | LMLEFFA 
+| 1ewj | E | albelig | 7 | 7 | E | 540 | 545 | E-61-  | E-66-  | SCCLRL 
+| 1ewj | E | albelig | 8 | 8 | H | 548 | 557 | E-69-  | E-78-  | LAEFYRQCKS 
+| 1ewj | E | albelig | 9 | 9 | E | 569 | 575 | E-90-  | E-96-  | RIHAPEL 
+| 1ewj | E | albelig | 10 | 10 | E | 581 | 586 | E-102-  | E-107-  | TMAALV 
+| 1ewj | E | albelig | 11 | 11 | E | 592 | 597 | E-113-  | E-118-  | LLRLIQ 
+| 1ewj | E | albelig | 12 | 12 | L | 964 | 964 | E-2001-  | E-2001-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = p = 6
+= 4 = a = 5
+= 5 = a = 6
+= 7 = p = 11
+= 7 = l = 12
+= 8 = m = 11
+= 9 = a = 10
+= 9 = l = 12
+= 10 = a = 11
+= 10 = l = 12
+= 11 = l = 12
+# Listed 12 contacts. EOF.

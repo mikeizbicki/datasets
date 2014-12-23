@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hyr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIVATING NK CELL RECEPTOR, NKG2D, C-TYPE-LECTIN LIKE, MIC-A, MHC-I, COMPLEX, IMMUNE SYSTEM
+> pdb_mol_name > NKG2-D TYPE II INTEGRAL MEMBRANE PROTEIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 21-JAN-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN MICA IN COMPLEX WITH NATURALKILLER CELL RECEPTOR NKG2D
+> format_version > 2
+> pdbid > 1hyr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hyr | A | albelig | 1 | 1 | E | 133 | 137 | A-96-  | A-100-  | AGPNP 
+| 1hyr | A | albelig | 2 | 2 | E | 141 | 143 | A-104-  | A-106-  | IAY 
+| 1hyr | A | albelig | 3 | 3 | E | 146 | 155 | A-109-  | A-118-  | NNYQFFDESK 
+| 1hyr | A | albelig | 4 | 4 | H | 157 | 165 | A-120-  | A-128-  | WYESQASCM 
+| 1hyr | A | albelig | 5 | 5 | H | 181 | 185 | A-144-  | A-148-  | DLLKL 
+| 1hyr | A | albelig | 6 | 6 | E | 189 | 197 | A-152-  | A-160-  | YHWMGLVHI 
+| 1hyr | A | albelig | 7 | 7 | E | 202 | 205 | A-165-  | A-168-  | SWQW 
+| 1hyr | A | albelig | 8 | 8 | E | 217 | 220 | A-180-  | A-183-  | TIIE 
+| 1hyr | A | albelig | 9 | 9 | E | 226 | 230 | A-189-  | A-193-  | DALYA 
+| 1hyr | A | albelig | 10 | 10 | E | 234 | 238 | A-197-  | A-201-  | KGYIE 
+| 1hyr | A | albelig | 11 | 11 | E | 244 | 250 | A-207-  | A-213-  | NTYICMQ 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 2 = a = 3
+= 3 = a = 11
+= 4 = m = 11
+= 6 = a = 7
+= 6 = a = 9
+= 6 = p = 11
+= 8 = p = 10
+= 9 = a = 10
+# Listed 10 contacts. EOF.

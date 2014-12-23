@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i7a, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EVH1 DOMAIN, HOMER, VESL, X-RAY CRYSTAL STRUCTURE, BRAIN,SIGNALING PROTEIN
+> pdb_mol_name > HOMER 2B
+> graphtype > albelig
+> resolution > 2.24
+> date > 08-MAR-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > EVH1 DOMAIN FROM MURINE HOMER 2B/VESL 2
+> format_version > 2
+> pdbid > 1i7a
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i7a | B | albelig | 1 | 1 | E | 110 | 118 | B-7-  | B-15-  | FTTRAHVFQ 
+| 1i7a | B | albelig | 2 | 2 | E | 130 | 137 | B-32-  | B-39-  | VTVSYFYD 
+| 1i7a | B | albelig | 3 | 3 | E | 142 | 149 | B-44-  | B-51-  | SYRIISVD 
+| 1i7a | B | albelig | 4 | 4 | E | 152 | 158 | B-54-  | B-60-  | KVIINST 
+| 1i7a | B | albelig | 5 | 5 | E | 165 | 167 | B-67-  | B-69-  | FTK 
+| 1i7a | B | albelig | 6 | 6 | E | 172 | 177 | B-74-  | B-79-  | FGQWAD 
+| 1i7a | B | albelig | 7 | 7 | H | 178 | 180 | B-80-  | B-82-  | SRA 
+| 1i7a | B | albelig | 8 | 8 | E | 182 | 187 | B-84-  | B-89-  | TVFGLG 
+| 1i7a | B | albelig | 9 | 9 | H | 191 | 206 | B-93-  | B-108-  | ELQLTKFAEKFQEVRE 
+| 1i7a | B | albelig | 10 | 10 | L | 426 | 426 | B-302-  | B-302-  | J 
+| 1i7a | B | albelig | 11 | 11 | L | 427 | 427 | B-402-  | B-402-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 8
+= 2 = a = 3
+= 2 = l = 11
+= 3 = a = 4
+= 3 = l = 10
+= 3 = l = 11
+= 4 = l = 10
+= 5 = a = 6
+= 6 = m = 7
+= 6 = a = 8
+= 7 = l = 10
+# Listed 12 contacts. EOF.

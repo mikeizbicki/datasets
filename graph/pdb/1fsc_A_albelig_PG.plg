@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fsc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SNAKE TOXIN
+> pdb_mol_name > FASCICULIN 2
+> graphtype > albelig
+> resolution > 2.0
+> date > 27-MAR-95
+> header > SNAKE TOXIN
+> pdb_org_common > EASTERN GREEN MAMBA
+> title > CRYSTAL STRUCTURE OF FASCICULIN 2 FROM GREEN MAMBA SNAKEVENOM: EVIDENCE FOR UNUSUAL LOOP FLEXIBILITY
+> format_version > 2
+> pdbid > 1fsc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DENDROASPIS ANGUSTICEPS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fsc | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | MAYS 
+| 1fsc | A | albelig | 2 | 2 | E | 13 | 16 | A-13-  | A-16-  | ILTN 
+| 1fsc | A | albelig | 3 | 3 | E | 22 | 27 | A-22-  | A-27-  | AYRKSR 
+| 1fsc | A | albelig | 4 | 4 | E | 34 | 39 | A-34-  | A-39-  | VLGRGN 
+| 1fsc | A | albelig | 5 | 5 | E | 48 | 53 | A-48-  | A-53-  | LEVKCD 
+| 1fsc | A | albelig | 6 | 6 | L | 62 | 62 | A-156-  | A-156-  | J 
+| 1fsc | A | albelig | 7 | 7 | L | 63 | 63 | A-157-  | A-157-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = a = 4
+= 1 = l = 6
+= 1 = l = 7
+= 3 = a = 4
+= 3 = a = 5
+= 4 = l = 6
+= 4 = l = 7
+= 6 = l = 7
+# Listed 10 contacts. EOF.

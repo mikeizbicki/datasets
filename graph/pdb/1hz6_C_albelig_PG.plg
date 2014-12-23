@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hz6, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR STRANDED BETA-SHEET WITH CENTRAL ALPHA HELIX, BINDS KAPPA LIGHTCHAIN OF IMMUNOGLOBULINS, PROTEIN BINDING
+> pdb_mol_name > PROTEIN L
+> graphtype > albelig
+> resolution > 1.7
+> date > 23-JAN-01
+> header > PROTEIN BINDING
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF THE B1 DOMAIN OF PROTEIN L FROMPEPTOSTREPTOCOCCUS MAGNUS WITH A TYROSINE TO TRYPTOPHAN SUBSTITUTION
+> format_version > 2
+> pdbid > 1hz6
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > FINEGOLDIA MAGNA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hz6 | C | albelig | 1 | 1 | E | 135 | 142 | C-4-  | C-11-  | VTIKANLI 
+| 1hz6 | C | albelig | 2 | 2 | E | 148 | 155 | C-17-  | C-24-  | TQTAEFKG 
+| 1hz6 | C | albelig | 3 | 3 | H | 157 | 170 | C-26-  | C-39-  | FEKATSEAYAYADT 
+| 1hz6 | C | albelig | 4 | 4 | H | 172 | 175 | C-41-  | C-44-  | KKDN 
+| 1hz6 | C | albelig | 5 | 5 | E | 178 | 183 | C-47-  | C-52-  | WTVDVA 
+| 1hz6 | C | albelig | 6 | 6 | H | 184 | 186 | C-53-  | C-55-  | DKG 
+| 1hz6 | C | albelig | 7 | 7 | E | 188 | 193 | C-57-  | C-62-  | TLNIKF 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 7
+= 2 = a = 3
+= 5 = m = 6
+= 5 = a = 7
+# Listed 5 contacts. EOF.

@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fdp, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE, COMPLEMENT, FACTOR D, PROFACTOR D, ZYMOGEN,PROENZYME, HYDROLASE
+> pdb_mol_name > PROENZYME OF COMPLEMENT FACTOR D
+> graphtype > albelig
+> resolution > 2.1
+> date > 03-DEC-98
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > PROENZYME OF HUMAN COMPLEMENT FACTOR D, RECOMBINANT PROFACTOR D
+> format_version > 2
+> pdbid > 1fdp
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fdp | C | albelig | 1 | 1 | E | 432 | 437 | C-30-  | C-35-  | MASVQL 
+| 1fdp | C | albelig | 2 | 2 | E | 440 | 449 | C-39-  | C-48-  | AHLHGGVLVA 
+| 1fdp | C | albelig | 3 | 3 | E | 452 | 455 | C-51-  | C-54-  | WVLS 
+| 1fdp | C | albelig | 4 | 4 | H | 457 | 460 | C-56-  | C-59-  | AHHL 
+| 1fdp | C | albelig | 5 | 5 | E | 468 | 472 | C-64-  | C-68-  | VQVLL 
+| 1fdp | C | albelig | 6 | 6 | E | 485 | 494 | C-81-  | C-90-  | RLYDVLRAVP 
+| 1fdp | C | albelig | 7 | 7 | E | 508 | 512 | C-104-  | C-108-  | LLLQL 
+| 1fdp | C | albelig | 8 | 8 | E | 539 | 544 | C-135-  | C-140-  | LIDVAG 
+| 1fdp | C | albelig | 9 | 9 | E | 551 | 558 | C-156-  | C-163-  | QHVLLPVL 
+| 1fdp | C | albelig | 10 | 10 | H | 560 | 566 | C-165-  | C-170-A | RATJNRR 
+| 1fdp | C | albelig | 11 | 11 | E | 577 | 580 | C-180-  | C-183-  | LMJA 
+| 1fdp | C | albelig | 12 | 12 | E | 588 | 591 | C-198-  | C-201-  | PLVI 
+| 1fdp | C | albelig | 13 | 13 | E | 594 | 599 | C-208-  | C-213-  | VLEGVV 
+| 1fdp | C | albelig | 14 | 14 | E | 605 | 609 | C-226-  | C-230-  | GIYTR 
+| 1fdp | C | albelig | 15 | 15 | H | 610 | 621 | C-231-  | C-242-  | VASYAAWIDSVL 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 12
+= 9 = a = 11
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 14 = m = 15
+# Listed 13 contacts. EOF.

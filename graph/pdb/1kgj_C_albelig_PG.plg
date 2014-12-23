@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgj, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PREALBUMIN, TRANSPORT, DIBROMOFLAVONE, AURONE, THYROIDHORMONE, TRANSPORT PROTEIN
+> pdb_mol_name > TRANSTHYRETIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-NOV-01
+> header > TRANSPORT PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > RAT TRANSTHYRETIN (ALSO CALLED PREALBUMIN) COMPLEX WITH 3',5'-DIBROMOFLAVONE (EMD21388)
+> format_version > 2
+> pdbid > 1kgj
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgj | C | albelig | 1 | 1 | E | 252 | 258 | C-412-  | C-418-  | LMVKVLD 
+| 1kgj | C | albelig | 2 | 2 | E | 269 | 275 | C-429-  | C-435-  | AVKVFKK 
+| 1kgj | C | albelig | 3 | 3 | E | 281 | 288 | C-441-  | C-448-  | WEPFASGK 
+| 1kgj | C | albelig | 4 | 4 | E | 307 | 313 | C-467-  | C-473-  | GVYRVEL 
+| 1kgj | C | albelig | 5 | 5 | H | 315 | 321 | C-475-  | C-481-  | TKSYWKA 
+| 1kgj | C | albelig | 6 | 6 | E | 331 | 337 | C-491-  | C-497-  | AEVVFTA 
+| 1kgj | C | albelig | 7 | 7 | E | 345 | 352 | C-505-  | C-512-  | YTIAALLS 
+| 1kgj | C | albelig | 8 | 8 | E | 355 | 360 | C-515-  | C-520-  | SYSTTA 
+| 1kgj | C | albelig | 9 | 9 | L | 490 | 490 | C-128-  | C-128-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 1 = l = 9
+= 2 = a = 3
+= 2 = a = 4
+= 4 = a = 6
+= 7 = a = 8
+= 7 = l = 9
+= 8 = l = 9
+# Listed 8 contacts. EOF.

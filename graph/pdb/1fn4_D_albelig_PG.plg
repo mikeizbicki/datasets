@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fn4, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAB198, IMMUNE SYSTEM
+> pdb_mol_name > MONOCLONAL ANTIBODY AGAINST ACETYLCHOLINE RECEPTOR
+> graphtype > albelig
+> resolution > 2.8
+> date > 21-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF FAB198, AN EFFICIENT PROTECTOR OF ACETYLCHOLINERECEPTOR AGAINST MYASTHENOGENIC ANTIBODIES
+> format_version > 2
+> pdbid > 1fn4
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fn4 | D | albelig | 1 | 1 | E | 651 | 655 | D-3-  | D-7-  | QLLES 
+| 1fn4 | D | albelig | 2 | 2 | E | 665 | 673 | D-17-  | D-25-  | TLSLTITVS 
+| 1fn4 | D | albelig | 3 | 3 | E | 681 | 686 | D-33-  | D-38-  | SVSWVR 
+| 1fn4 | D | albelig | 4 | 4 | E | 694 | 699 | D-46-  | D-51-  | EWMGRM 
+| 1fn4 | D | albelig | 5 | 5 | E | 705 | 707 | D-57-  | D-59-  | TAY 
+| 1fn4 | D | albelig | 6 | 6 | H | 709 | 712 | D-61-  | D-64-  | SALK 
+| 1fn4 | D | albelig | 7 | 7 | E | 715 | 720 | D-67-  | D-72-  | LSISRD 
+| 1fn4 | D | albelig | 8 | 8 | H | 721 | 723 | D-73-  | D-75-  | TSK 
+| 1fn4 | D | albelig | 9 | 9 | E | 725 | 731 | D-77-  | D-82-A | QVFLKMN 
+| 1fn4 | D | albelig | 10 | 10 | E | 741 | 746 | D-90-  | D-95-  | YYITRD 
+| 1fn4 | D | albelig | 11 | 11 | E | 771 | 775 | D-113-  | D-117-  | SVFPL 
+| 1fn4 | D | albelig | 12 | 12 | E | 786 | 796 | D-128-  | D-138-  | MVTLGJLVKGY 
+| 1fn4 | D | albelig | 13 | 13 | H | 806 | 808 | D-148-  | D-150-  | NSG 
+| 1fn4 | D | albelig | 14 | 14 | E | 826 | 828 | D-168-  | D-170-  | YTL 
+| 1fn4 | D | albelig | 15 | 15 | E | 830 | 835 | D-172-  | D-177-  | SSVTVP 
+| 1fn4 | D | albelig | 16 | 16 | H | 836 | 839 | D-178-  | D-181-  | SSTW 
+| 1fn4 | D | albelig | 17 | 17 | E | 845 | 847 | D-187-  | D-189-  | TJN 
+| 1fn4 | D | albelig | 18 | 18 | H | 851 | 853 | D-193-  | D-195-  | PAS 
+| 1fn4 | D | albelig | 19 | 19 | E | 858 | 860 | D-200-  | D-202-  | DKK 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 2 = a = 9
+= 2 = p = 10
+= 3 = a = 4
+= 3 = p = 9
+= 3 = a = 10
+= 4 = a = 5
+= 4 = p = 7
+= 5 = m = 6
+= 5 = a = 7
+= 6 = m = 7
+= 7 = m = 8
+= 7 = a = 9
+= 11 = a = 12
+= 12 = a = 14
+= 12 = a = 15
+= 15 = m = 16
+= 17 = a = 19
+# Listed 20 contacts. EOF.

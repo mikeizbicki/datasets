@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1agf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HLA B8, HIV, MHC CLASS I, HISTOCOMPATIBILITY COMPLEX
+> pdb_mol_name > B*0801
+> graphtype > albelig
+> resolution > 2.2
+> date > 24-MAR-97
+> header > HISTOCOMPATIBILITY COMPLEX
+> pdb_org_common > HUMAN
+> title > ANTAGONIST HIV-1 GAG PEPTIDES INDUCE STRUCTURAL CHANGES INHLA B8-HIV-1 GAG PEPTIDE (GGKKRYKL-5R MUTATION)
+> format_version > 2
+> pdbid > 1agf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1agf | A | albelig | 1 | 1 | E | 3 | 12 | A-3-  | A-12-  | HSMRYFDTAM 
+| 1agf | A | albelig | 2 | 2 | E | 21 | 28 | A-21-  | A-28-  | RFISVGYV 
+| 1agf | A | albelig | 3 | 3 | E | 31 | 37 | A-31-  | A-37-  | TQFVRFD 
+| 1agf | A | albelig | 4 | 4 | H | 50 | 52 | A-50-  | A-52-  | PWI 
+| 1agf | A | albelig | 5 | 5 | H | 57 | 84 | A-57-  | A-84-  | PEYWDRNTQIFKTNTQTDRESLRNLRGY 
+| 1agf | A | albelig | 6 | 6 | E | 94 | 103 | A-94-  | A-103-  | TLQSMYGADV 
+| 1agf | A | albelig | 7 | 7 | E | 109 | 118 | A-109-  | A-118-  | LLRGHNQYAY 
+| 1agf | A | albelig | 8 | 8 | E | 121 | 126 | A-121-  | A-126-  | KDYIAL 
+| 1agf | A | albelig | 9 | 9 | E | 133 | 135 | A-133-  | A-135-  | WTA 
+| 1agf | A | albelig | 10 | 10 | H | 138 | 149 | A-138-  | A-149-  | TAAQITQRKWEA 
+| 1agf | A | albelig | 11 | 11 | H | 152 | 163 | A-152-  | A-163-  | VAEQDRAYLEGT 
+| 1agf | A | albelig | 12 | 12 | H | 164 | 174 | A-164-  | A-174-  | AVEWLRRYLEN 
+| 1agf | A | albelig | 13 | 13 | H | 176 | 179 | A-176-  | A-179-  | KDTL 
+| 1agf | A | albelig | 14 | 14 | E | 186 | 193 | A-186-  | A-193-  | KTHVTHHP 
+| 1agf | A | albelig | 15 | 15 | E | 198 | 208 | A-198-  | A-208-  | EATLRNWALGF 
+| 1agf | A | albelig | 16 | 16 | E | 214 | 219 | A-214-  | A-219-  | TLTWQR 
+| 1agf | A | albelig | 17 | 17 | H | 225 | 227 | A-225-  | A-227-  | TQD 
+| 1agf | A | albelig | 18 | 18 | E | 241 | 250 | A-241-  | A-250-  | FQKWAAVVVP 
+| 1agf | A | albelig | 19 | 19 | H | 254 | 256 | A-254-  | A-256-  | EQR 
+| 1agf | A | albelig | 20 | 20 | E | 257 | 262 | A-257-  | A-262-  | YTNHVQ 
+| 1agf | A | albelig | 21 | 21 | E | 270 | 272 | A-270-  | A-272-  | LTL 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 12
+= 2 = a = 3
+= 2 = m = 5
+= 6 = a = 7
+= 6 = m = 12
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+= 14 = a = 15
+= 14 = p = 21
+= 15 = a = 16
+= 15 = a = 18
+= 15 = p = 20
+= 16 = p = 18
+= 16 = m = 19
+= 16 = a = 20
+= 19 = m = 20
+= 20 = a = 21
+# Listed 22 contacts. EOF.

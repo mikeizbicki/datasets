@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ido, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTEGRIN, CELL ADHESION PROTEIN, GLYCOPROTEIN,EXTRACELLULAR MATRIX, CYTOSKELETON
+> pdb_mol_name > INTEGRIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 12-MAR-96
+> header > CELL ADHESION PROTEIN
+> pdb_org_common > HUMAN
+> title > I-DOMAIN FROM INTEGRIN CR3, MG2+ BOUND
+> format_version > 2
+> pdbid > 1ido
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ido | A | albelig | 1 | 1 | E | 2 | 9 | A-133-  | A-140-  | SDIAFLID 
+| 1ido | A | albelig | 2 | 2 | H | 16 | 32 | A-147-  | A-163-  | PHDFRRMKEFVSTVMEQ 
+| 1ido | A | albelig | 3 | 3 | E | 38 | 45 | A-169-  | A-176-  | TLFSLMQY 
+| 1ido | A | albelig | 4 | 4 | E | 49 | 53 | A-180-  | A-184-  | FRIHF 
+| 1ido | A | albelig | 5 | 5 | H | 55 | 60 | A-186-  | A-191-  | FKEFQN 
+| 1ido | A | albelig | 6 | 6 | H | 64 | 68 | A-195-  | A-199-  | PRSLV 
+| 1ido | A | albelig | 7 | 7 | H | 80 | 91 | A-211-  | A-222-  | TATGIRKVVREL 
+| 1ido | A | albelig | 8 | 8 | H | 94 | 96 | A-225-  | A-227-  | ITN 
+| 1ido | A | albelig | 9 | 9 | E | 103 | 110 | A-234-  | A-241-  | FKILVVIT 
+| 1ido | A | albelig | 10 | 10 | H | 121 | 123 | A-252-  | A-254-  | YED 
+| 1ido | A | albelig | 11 | 11 | H | 125 | 130 | A-256-  | A-261-  | IPEADR 
+| 1ido | A | albelig | 12 | 12 | E | 133 | 139 | A-264-  | A-270-  | VIRYVIG 
+| 1ido | A | albelig | 13 | 13 | H | 147 | 156 | A-278-  | A-287-  | EKSRQELNTI 
+| 1ido | A | albelig | 14 | 14 | H | 161 | 164 | A-292-  | A-295-  | PRDH 
+| 1ido | A | albelig | 15 | 15 | E | 165 | 167 | A-296-  | A-298-  | VFQ 
+| 1ido | A | albelig | 16 | 16 | H | 173 | 183 | A-304-  | A-314-  | ALKTIQNQLRE 
+| 1ido | A | albelig | 17 | 17 | L | 185 | 185 | A-400-  | A-400-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = m = 7
+= 1 = p = 9
+= 1 = l = 17
+= 2 = m = 6
+= 2 = m = 16
+= 3 = a = 4
+= 3 = m = 5
+= 9 = p = 12
+= 12 = m = 14
+= 12 = p = 15
+= 14 = m = 15
+# Listed 13 contacts. EOF.

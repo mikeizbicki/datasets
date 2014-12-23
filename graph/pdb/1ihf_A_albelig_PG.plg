@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ihf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (TRANSCRIPTION REGULATION-DNA), TRANSCRIPTION FACTOR, BETARIBBON MOTIF, DNA BENDING PROTEIN, TRANSCRIPTION-DNA COMPLEX
+> pdb_mol_name > PROTEIN (INTEGRATION HOST FACTOR (ALPHA) (IHF))
+> graphtype > albelig
+> resolution > 2.5
+> date > 21-AUG-96
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > UNKNOWN
+> title > INTEGRATION HOST FACTOR/DNA COMPLEX
+> format_version > 2
+> pdbid > 1ihf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ihf | A | albelig | 1 | 1 | H | 4 | 15 | A-5-  | A-16-  | KAEMSEYLFDKL 
+| 1ihf | A | albelig | 2 | 2 | H | 19 | 38 | A-20-  | A-39-  | KRDAKELVELFFEEIRRALE 
+| 1ihf | A | albelig | 3 | 3 | E | 43 | 45 | A-44-  | A-46-  | VKL 
+| 1ihf | A | albelig | 4 | 4 | E | 49 | 56 | A-50-  | A-57-  | GNFDLRDK 
+| 1ihf | A | albelig | 5 | 5 | E | 59 | 62 | A-60-  | A-63-  | RPGR 
+| 1ihf | A | albelig | 6 | 6 | E | 69 | 72 | A-70-  | A-73-  | DIPI 
+| 1ihf | A | albelig | 7 | 7 | E | 75 | 82 | A-76-  | A-83-  | RRVVTFRP 
+| 1ihf | A | albelig | 8 | 8 | H | 84 | 91 | A-85-  | A-92-  | QKLKSRVE 
+| 1ihf | A | albelig | 9 | 9 | L | 201 | 201 | A-307-  | A-307-  | J 
+| 1ihf | A | albelig | 10 | 10 | L | 202 | 202 | A-311-  | A-311-  | J 
+| 1ihf | A | albelig | 11 | 11 | L | 203 | 203 | A-312-  | A-312-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 9
+= 1 = l = 10
+= 2 = l = 11
+= 3 = a = 4
+= 4 = a = 7
+= 5 = a = 6
+# Listed 7 contacts. EOF.

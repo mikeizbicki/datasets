@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kq8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > WINGED HELIX PROTEIN, HFH-1, NMR, STRUCTURE, TRANSCRIPTION
+> pdb_mol_name > HEPATOCYTE NUCLEAR FACTOR 3 FORKHEAD HOMOLOG 1
+> graphtype > albelig
+> resolution > -1.0
+> date > 04-JAN-02
+> header > TRANSCRIPTION
+> pdb_org_common > NORWAY RAT
+> title > SOLUTION STRUCTURE OF WINGED HELIX PROTEIN HFH-1
+> format_version > 2
+> pdbid > 1kq8
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kq8 | A | albelig | 1 | 1 | H | 2 | 9 | A-9-  | A-16-  | IALITMAI 
+| 1kq8 | A | albelig | 2 | 2 | H | 19 | 29 | A-26-  | A-36-  | LAEINEYLMGK 
+| 1kq8 | A | albelig | 3 | 3 | H | 33 | 35 | A-40-  | A-42-  | FRG 
+| 1kq8 | A | albelig | 4 | 4 | H | 41 | 51 | A-48-  | A-58-  | RNSVRHNLSLN 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+# Listed 2 contacts. EOF.

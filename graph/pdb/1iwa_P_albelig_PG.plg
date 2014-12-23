@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iwa, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RUBISCO, PHOTOSYNTHESIS, LYASE
+> pdb_mol_name > RIBULOSE-1,5-BISPHOSPHATE CARBOXYLASE/OXYGENASE
+> graphtype > albelig
+> resolution > 2.6
+> date > 30-APR-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > RUBISCO FROM GALDIERIA PARTITA
+> format_version > 2
+> pdbid > 1iwa
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > GALDIERIA PARTITA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iwa | P | albelig | 1 | 1 | H | 4781 | 4793 | P-23-  | P-35-  | DEQIKKQIDYMIS 
+| 1iwa | P | albelig | 2 | 2 | E | 4797 | 4803 | P-39-  | P-45-  | AIGIEYT 
+| 1iwa | P | albelig | 3 | 3 | H | 4826 | 4839 | P-80-  | P-93-  | PAAVLFEINACRKA 
+| 1iwa | P | albelig | 4 | 4 | E | 4844 | 4851 | P-98-  | P-105-  | YIKVVGFS 
+| 1iwa | P | albelig | 5 | 5 | E | 4858 | 4866 | P-110-  | P-118-  | STIISFIVN 
+| 1iwa | P | albelig | 6 | 6 | E | 4874 | 4880 | P-126-  | P-132-  | FNLMRQE 
+| 1iwa | P | albelig | 7 | 7 | E | 4886 | 4892 | P-138-  | P-144-  | IKYTIHS 
+| 1iwa | P | albelig | 8 | 8 | H | 4894 | 4896 | P-146-  | P-148-  | ESY 
+| 1iwa | P | albelig | 9 | 9 | H | 4899 | 4901 | P-151-  | P-153-  | EDE 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 4
+= 4 = a = 5
+= 6 = a = 7
+= 7 = m = 8
+# Listed 5 contacts. EOF.

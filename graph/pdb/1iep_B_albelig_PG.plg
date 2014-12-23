@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iep, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > KINASE, KINASE INHIBITOR, STI-571, ACTIVATION LOOP,TRANSFERASE
+> pdb_mol_name > PROTO-ONCOGENE TYROSINE-PROTEIN KINASE ABL
+> graphtype > albelig
+> resolution > 2.1
+> date > 10-APR-01
+> header > TRANSFERASE
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE C-ABL KINASE DOMAIN IN COMPLEXWITH STI-571.
+> format_version > 2
+> pdbid > 1iep
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iep | B | albelig | 1 | 1 | H | 290 | 292 | B-239-  | B-241-  | RTD 
+| 1iep | B | albelig | 2 | 2 | E | 293 | 298 | B-242-  | B-247-  | ITMKHK 
+| 1iep | B | albelig | 3 | 3 | H | 299 | 302 | B-248-  | B-251-  | LGGG 
+| 1iep | B | albelig | 4 | 4 | E | 307 | 312 | B-256-  | B-261-  | VYEGVW 
+| 1iep | B | albelig | 5 | 5 | H | 313 | 315 | B-262-  | B-264-  | KKY 
+| 1iep | B | albelig | 6 | 6 | E | 317 | 323 | B-266-  | B-272-  | LTVAVKT 
+| 1iep | B | albelig | 7 | 7 | H | 331 | 341 | B-280-  | B-290-  | VEEFLKEAAVM 
+| 1iep | B | albelig | 8 | 8 | E | 352 | 356 | B-301-  | B-305-  | LLGVC 
+| 1iep | B | albelig | 9 | 9 | E | 363 | 367 | B-312-  | B-316-  | YIITE 
+| 1iep | B | albelig | 10 | 10 | H | 374 | 380 | B-323-  | B-329-  | LLDYLRE 
+| 1iep | B | albelig | 11 | 11 | H | 388 | 407 | B-337-  | B-356-  | AVVLLYMATQISSAMEYLEK 
+| 1iep | B | albelig | 12 | 12 | H | 417 | 419 | B-366-  | B-368-  | ARN 
+| 1iep | B | albelig | 13 | 13 | E | 420 | 422 | B-369-  | B-371-  | CLV 
+| 1iep | B | albelig | 14 | 14 | H | 424 | 426 | B-373-  | B-375-  | ENH 
+| 1iep | B | albelig | 15 | 15 | E | 428 | 430 | B-377-  | B-379-  | VKV 
+| 1iep | B | albelig | 16 | 16 | H | 435 | 437 | B-384-  | B-386-  | LSR 
+| 1iep | B | albelig | 17 | 17 | E | 445 | 447 | B-394-  | B-396-  | TAH 
+| 1iep | B | albelig | 18 | 18 | E | 450 | 452 | B-399-  | B-401-  | AKF 
+| 1iep | B | albelig | 19 | 19 | H | 454 | 456 | B-403-  | B-405-  | IKW 
+| 1iep | B | albelig | 20 | 20 | H | 459 | 464 | B-408-  | B-413-  | PESLAY 
+| 1iep | B | albelig | 21 | 21 | H | 469 | 484 | B-418-  | B-433-  | IKSDVWAFGVLLWEIA 
+| 1iep | B | albelig | 22 | 22 | H | 496 | 504 | B-445-  | B-453-  | LSQVYELLE 
+| 1iep | B | albelig | 23 | 23 | H | 517 | 526 | B-466-  | B-475-  | EKVYELMRAC 
+| 1iep | B | albelig | 24 | 24 | H | 531 | 533 | B-480-  | B-482-  | PSD 
+| 1iep | B | albelig | 25 | 25 | H | 537 | 546 | B-486-  | B-495-  | FAEIHQAFET 
+| 1iep | B | albelig | 26 | 26 | L | 555 | 555 | B-3-  | B-3-  | J 
+| 1iep | B | albelig | 27 | 27 | L | 556 | 556 | B-6-  | B-6-  | J 
+| 1iep | B | albelig | 28 | 28 | L | 557 | 557 | B-202-  | B-202-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 2 = m = 3
+= 2 = a = 4
+= 3 = m = 4
+= 3 = l = 28
+= 4 = m = 5
+= 4 = a = 6
+= 4 = l = 28
+= 6 = a = 9
+= 6 = l = 28
+= 7 = l = 28
+= 8 = a = 9
+= 9 = l = 28
+= 11 = a = 21
+= 11 = a = 25
+= 12 = m = 13
+= 13 = a = 15
+= 13 = l = 28
+= 17 = a = 18
+= 21 = m = 23
+= 21 = p = 25
+= 26 = l = 28
+= 27 = l = 28
+# Listed 24 contacts. EOF.

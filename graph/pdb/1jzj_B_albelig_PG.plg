@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jzj, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLUE-COPPER, ELECTRON TRANSFER, TUNNELING, OSMIUM, ELECTRONTRANSPORT
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 16-SEP-01
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > PSEUDOMONAS AERUGINOSA AZURIN OS(BPY)2(IM)(HIS83)
+> format_version > 2
+> pdbid > 1jzj
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jzj | B | albelig | 1 | 1 | E | 133 | 137 | B-204-  | B-208-  | SVDIQ 
+| 1jzj | B | albelig | 2 | 2 | E | 148 | 151 | B-219-  | B-222-  | AITV 
+| 1jzj | B | albelig | 3 | 3 | E | 157 | 163 | B-228-  | B-234-  | QFTVNLS 
+| 1jzj | B | albelig | 4 | 4 | H | 170 | 173 | B-241-  | B-244-  | KNVM 
+| 1jzj | B | albelig | 5 | 5 | E | 178 | 181 | B-249-  | B-252-  | VLST 
+| 1jzj | B | albelig | 6 | 6 | H | 185 | 194 | B-256-  | B-265-  | MQGVVTDGMA 
+| 1jzj | B | albelig | 7 | 7 | H | 197 | 199 | B-268-  | B-270-  | LDK 
+| 1jzj | B | albelig | 8 | 8 | E | 221 | 227 | B-292-  | B-298-  | KDSVTFD 
+| 1jzj | B | albelig | 9 | 9 | H | 228 | 230 | B-299-  | B-301-  | VSK 
+| 1jzj | B | albelig | 10 | 10 | E | 237 | 240 | B-308-  | B-311-  | YMFF 
+| 1jzj | B | albelig | 11 | 11 | H | 246 | 248 | B-317-  | B-319-  | HSA 
+| 1jzj | B | albelig | 12 | 12 | E | 251 | 256 | B-322-  | B-327-  | KGTLTL 
+| 1jzj | B | albelig | 13 | 13 | L | 262 | 262 | B-900-  | B-900-  | J 
+| 1jzj | B | albelig | 14 | 14 | L | 263 | 263 | B-902-  | B-902-  | J 
+| 1jzj | B | albelig | 15 | 15 | L | 264 | 264 | B-905-  | B-905-  | J 
+| 1jzj | B | albelig | 16 | 16 | L | 265 | 265 | B-906-  | B-906-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 12
+= 3 = a = 8
+= 5 = a = 10
+= 7 = l = 15
+= 7 = l = 16
+= 8 = m = 9
+= 10 = a = 12
+= 11 = l = 14
+= 15 = l = 16
+# Listed 10 contacts. EOF.

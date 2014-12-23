@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kn5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADR6, ARID DOMAIN, DNA-BINDING, DNA BINDING PROTEIN
+> pdb_mol_name > TRANSCRIPTION REGULATORY PROTEIN ADR6
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-DEC-01
+> header > DNA BINDING PROTEIN
+> pdb_org_common > BAKER'S YEAST
+> title > SOLUTION STRUCTURE OF ARID DOMAIN OF ADR6 FROMSACCHAROMYCES CEREVISIAE
+> format_version > 2
+> pdbid > 1kn5
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kn5 | A | albelig | 1 | 1 | H | 4 | 18 | A-6-  | A-20-  | QYELFMKSLIENCKK 
+| 1kn5 | A | albelig | 2 | 2 | H | 36 | 43 | A-38-  | A-45-  | LFYLYMLV 
+| 1kn5 | A | albelig | 3 | 3 | H | 49 | 52 | A-51-  | A-54-  | ADQV 
+| 1kn5 | A | albelig | 4 | 4 | H | 57 | 64 | A-59-  | A-66-  | QWSMVAQR 
+| 1kn5 | A | albelig | 5 | 5 | H | 70 | 87 | A-72-  | A-89-  | YQQLESIYFRILLPYERH 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 2 = m = 4
+= 2 = m = 5
+= 4 = m = 5
+# Listed 4 contacts. EOF.

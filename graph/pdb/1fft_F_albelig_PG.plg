@@ -1,0 +1,84 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fft, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, CYTOCHROME OXIDASE, MEMBRANE PROTEIN,OXIDOREDUCTASE
+> pdb_mol_name > UBIQUINOL OXIDASE
+> graphtype > albelig
+> resolution > 3.5
+> date > 26-JUL-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF UBIQUINOL OXIDASE FROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1fft
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fft | F | albelig | 1 | 1 | H | 1059 | 1084 | F-54-  | F-79-  | HKRLGIMYIIVAIVMLLRGFADAIMM 
+| 1fft | F | albelig | 2 | 2 | H | 1102 | 1119 | F-97-  | F-114-  | HHYDQIFTAHGVIMIFFV 
+| 1fft | F | albelig | 3 | 3 | H | 1122 | 1136 | F-117-  | F-131-  | PFVIGLMNLVVPLQI 
+| 1fft | F | albelig | 4 | 4 | H | 1144 | 1165 | F-139-  | F-160-  | PFLNNLSFWFTVVGVILVNVSL 
+| 1fft | F | albelig | 5 | 5 | H | 1191 | 1219 | F-186-  | F-214-  | GVDYWIWSLQLSGIGTTLTGINFFVTILK 
+| 1fft | F | albelig | 6 | 6 | H | 1227 | 1229 | F-222-  | F-224-  | MFK 
+| 1fft | F | albelig | 7 | 7 | H | 1232 | 1246 | F-227-  | F-241-  | VFTWASLCANVLIIA 
+| 1fft | F | albelig | 8 | 8 | H | 1249 | 1264 | F-244-  | F-259-  | PILTVTVALLTLDRYL 
+| 1fft | F | albelig | 9 | 9 | H | 1277 | 1294 | F-272-  | F-289-  | MMMYINLIWAWGHPEVYI 
+| 1fft | F | albelig | 10 | 10 | H | 1297 | 1311 | F-292-  | F-306-  | LPVFGVFSEIAATFS 
+| 1fft | F | albelig | 11 | 11 | H | 1318 | 1330 | F-313-  | F-325-  | YTSLVWATVCITV 
+| 1fft | F | albelig | 12 | 12 | H | 1336 | 1339 | F-331-  | F-334-  | WLHH 
+| 1fft | F | albelig | 13 | 13 | H | 1347 | 1359 | F-342-  | F-354-  | ANVNAFFGITTMI 
+| 1fft | F | albelig | 14 | 14 | H | 1362 | 1373 | F-357-  | F-368-  | IPTGVKIFNWLF 
+| 1fft | F | albelig | 15 | 15 | H | 1384 | 1406 | F-379-  | F-401-  | SAMLWTIGFIVTFSVGGMTGVLL 
+| 1fft | F | albelig | 16 | 16 | H | 1409 | 1413 | F-404-  | F-408-  | PGADF 
+| 1fft | F | albelig | 17 | 17 | H | 1419 | 1434 | F-414-  | F-429-  | LFLIAHFHNVIIGGVV 
+| 1fft | F | albelig | 18 | 18 | H | 1435 | 1444 | F-430-  | F-439-  | FGCFAGMTYW 
+| 1fft | F | albelig | 19 | 19 | H | 1446 | 1449 | F-441-  | F-444-  | PKAF 
+| 1fft | F | albelig | 20 | 20 | H | 1455 | 1481 | F-450-  | F-476-  | ETWGKRAFWFWIIGFFVAFMPLYALGF 
+| 1fft | F | albelig | 21 | 21 | H | 1496 | 1525 | F-491-  | F-520-  | FHTMLMIAASGAVLIALGILCLVIQMYVSI 
+| 1fft | F | albelig | 22 | 22 | L | 2113 | 2113 | F-1003-  | F-1003-  | J 
+| 1fft | F | albelig | 23 | 23 | L | 2116 | 2116 | F-1001-  | F-1001-  | J 
+| 1fft | F | albelig | 24 | 24 | L | 2117 | 2117 | F-1002-  | F-1002-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = p = 4
+= 1 = l = 23
+= 2 = l = 23
+= 3 = m = 5
+= 3 = m = 7
+= 4 = a = 5
+= 5 = a = 7
+= 5 = a = 8
+= 7 = a = 10
+= 7 = p = 11
+= 8 = a = 9
+= 9 = m = 12
+= 9 = l = 22
+= 9 = l = 24
+= 10 = m = 14
+= 10 = a = 15
+= 10 = p = 18
+= 11 = m = 14
+= 12 = m = 13
+= 12 = l = 22
+= 12 = l = 24
+= 13 = l = 24
+= 14 = m = 15
+= 14 = l = 24
+= 15 = a = 17
+= 15 = a = 18
+= 15 = p = 20
+= 15 = l = 24
+= 16 = l = 24
+= 17 = a = 20
+= 17 = l = 23
+= 17 = l = 24
+= 20 = a = 21
+= 20 = l = 23
+= 21 = l = 23
+= 22 = l = 24
+= 23 = l = 24
+# Listed 39 contacts. EOF.

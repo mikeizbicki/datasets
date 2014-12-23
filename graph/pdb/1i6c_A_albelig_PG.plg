@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i6c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROTAMASE, NUCLEAR PROTEIN, ISOMERASE
+> pdb_mol_name > PEPTIDYL-PROLYL CIS-TRANS ISOMERASE NIMA-
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-MAR-01
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF PIN1 WW DOMAIN
+> format_version > 2
+> pdbid > 1i6c
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i6c | A | albelig | 1 | 1 | E | 6 | 10 | A-6-  | A-10-  | WEKRM 
+| 1i6c | A | albelig | 2 | 2 | E | 17 | 21 | A-17-  | A-21-  | VYYFN 
+| 1i6c | A | albelig | 3 | 3 | E | 26 | 28 | A-26-  | A-28-  | ASQ 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+# Listed 2 contacts. EOF.

@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hko, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME, ELECTRON TRANSFER PROTEIN, HEME, ELECTRONTRANSPORT
+> pdb_mol_name > CYTOCHROME B5
+> graphtype > albelig
+> resolution > -1.0
+> date > 10-MAR-03
+> header > ELECTRON TRANSPORT
+> pdb_org_common > BOVINE
+> title > NMR STRUCTURE OF BOVINE CYTOCHROME B5
+> format_version > 2
+> pdbid > 1hko
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hko | A | albelig | 1 | 1 | E | 9 | 11 | A-9-  | A-11-  | KYY 
+| 1hko | A | albelig | 2 | 2 | H | 13 | 18 | A-13-  | A-18-  | LEEIQK 
+| 1hko | A | albelig | 3 | 3 | E | 26 | 29 | A-26-  | A-29-  | WLIL 
+| 1hko | A | albelig | 4 | 4 | E | 32 | 35 | A-32-  | A-35-  | KVYD 
+| 1hko | A | albelig | 5 | 5 | H | 36 | 39 | A-36-  | A-39-  | LTKF 
+| 1hko | A | albelig | 6 | 6 | H | 48 | 51 | A-48-  | A-51-  | EVLR 
+| 1hko | A | albelig | 7 | 7 | H | 59 | 62 | A-59-  | A-62-  | TENF 
+| 1hko | A | albelig | 8 | 8 | H | 69 | 75 | A-69-  | A-75-  | TDARELS 
+| 1hko | A | albelig | 9 | 9 | E | 79 | 83 | A-79-  | A-83-  | IIGEL 
+| 1hko | A | albelig | 10 | 10 | L | 105 | 105 | A-105-  | A-105-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 3 = a = 4
+= 3 = l = 10
+= 4 = m = 5
+= 4 = a = 9
+= 4 = l = 10
+= 5 = l = 10
+= 6 = l = 10
+= 7 = l = 10
+= 8 = l = 10
+# Listed 10 contacts. EOF.

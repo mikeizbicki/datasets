@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvl, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMANIZED ANTIBODY, FV, ANTI-LYSOZYME
+> pdb_mol_name > HULYS11
+> graphtype > albelig
+> resolution > 2.87
+> date > 16-SEP-98
+> header > HUMANIZED ANTIBODY
+> pdb_org_common > HUMAN, HOUSE MOUSE
+> title > HUMANIZED ANTI-LYSOZYME FV
+> format_version > 2
+> pdbid > 1bvl
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS, MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvl | C | albelig | 1 | 1 | E | 229 | 233 | C-3-  | C-7-  | QLQES 
+| 1bvl | C | albelig | 2 | 2 | E | 244 | 251 | C-18-  | C-25-  | LSLTCTVS 
+| 1bvl | C | albelig | 3 | 3 | E | 260 | 265 | C-34-  | C-39-  | VNWVRQ 
+| 1bvl | C | albelig | 4 | 4 | E | 272 | 277 | C-46-  | C-51-  | EWIGMI 
+| 1bvl | C | albelig | 5 | 5 | E | 283 | 285 | C-57-  | C-59-  | TDY 
+| 1bvl | C | albelig | 6 | 6 | H | 289 | 291 | C-63-  | C-65-  | LKS 
+| 1bvl | C | albelig | 7 | 7 | E | 303 | 308 | C-77-  | C-82-  | QFSLRL 
+| 1bvl | C | albelig | 8 | 8 | H | 313 | 315 | C-87-  | C-89-  | AAD 
+| 1bvl | C | albelig | 9 | 9 | E | 317 | 324 | C-91-  | C-98-  | AVYYCARE 
+| 1bvl | C | albelig | 10 | 10 | E | 329 | 332 | C-103-  | C-106-  | LDYW 
+| 1bvl | C | albelig | 11 | 11 | E | 336 | 340 | C-110-  | C-114-  | SLVTV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 2 = a = 7
+= 2 = p = 9
+= 3 = a = 4
+= 3 = p = 7
+= 3 = a = 9
+= 4 = a = 5
+= 9 = a = 10
+= 9 = a = 11
+# Listed 10 contacts. EOF.

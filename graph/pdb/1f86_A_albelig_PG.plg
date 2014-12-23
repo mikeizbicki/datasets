@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f86, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSTHYRETIN, PROTEIN STABILITY, X-RAY CRYSTAL STRUCTURE,AMYLOIDOGENESIS, TRANSPORT PROTEIN
+> pdb_mol_name > TRANSTHYRETIN THR119MET VARIANT
+> graphtype > albelig
+> resolution > 1.1
+> date > 29-JUN-00
+> header > TRANSPORT PROTEIN
+> pdb_org_common > HUMAN
+> title > TRANSTHYRETIN THR119MET PROTEIN STABILISATION
+> format_version > 2
+> pdbid > 1f86
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f86 | A | albelig | 1 | 1 | E | 3 | 9 | A-12-  | A-18-  | LMVKVLD 
+| 1f86 | A | albelig | 2 | 2 | E | 20 | 26 | A-29-  | A-35-  | AVHVFRK 
+| 1f86 | A | albelig | 3 | 3 | E | 32 | 39 | A-41-  | A-48-  | WEPFASGK 
+| 1f86 | A | albelig | 4 | 4 | E | 58 | 64 | A-67-  | A-73-  | GIYKVEI 
+| 1f86 | A | albelig | 5 | 5 | H | 66 | 72 | A-75-  | A-81-  | TKSYWKA 
+| 1f86 | A | albelig | 6 | 6 | E | 79 | 88 | A-88-  | A-97-  | HEHAEVVFTA 
+| 1f86 | A | albelig | 7 | 7 | E | 95 | 103 | A-104-  | A-112-  | RYTIAALLS 
+| 1f86 | A | albelig | 8 | 8 | E | 106 | 114 | A-115-  | A-123-  | SYSTMAVVT 
+| 1f86 | A | albelig | 9 | 9 | L | 232 | 232 | A-428-  | A-428-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 1 = l = 9
+= 2 = a = 3
+= 2 = a = 4
+= 3 = a = 4
+= 4 = a = 6
+= 5 = m = 6
+= 6 = p = 8
+= 7 = a = 8
+= 7 = l = 9
+= 8 = l = 9
+# Listed 11 contacts. EOF.

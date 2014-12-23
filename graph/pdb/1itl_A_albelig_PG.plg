@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1itl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE
+> pdb_mol_name > INTERLEUKIN-4
+> graphtype > albelig
+> resolution > -1.0
+> date > 08-FEB-92
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > HUMAN INTERLEUKIN 4: THE SOLUTION STRUCTURE OF A FOUR-HELIX-BUNDLE PROTEIN
+> format_version > 2
+> pdbid > 1itl
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1itl | A | albelig | 1 | 1 | H | 6 | 20 | A-5-  | A-19-  | ITLQEIIKTLNSLTE 
+| 1itl | A | albelig | 2 | 2 | H | 33 | 35 | A-32-  | A-34-  | IFA 
+| 1itl | A | albelig | 3 | 3 | H | 37 | 39 | A-36-  | A-38-  | SKN 
+| 1itl | A | albelig | 4 | 4 | H | 42 | 60 | A-41-  | A-59-  | EKETFCRAATVLRQFYSHH 
+| 1itl | A | albelig | 5 | 5 | H | 72 | 95 | A-71-  | A-94-  | QQFHRHKQLIRFLKRLDRNLWGLA 
+| 1itl | A | albelig | 6 | 6 | H | 111 | 128 | A-110-  | A-127-  | ENFLERLKTIMREKYSKA 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 6
+= 3 = m = 4
+= 4 = a = 5
+# Listed 4 contacts. EOF.

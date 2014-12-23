@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j3k, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BIFUNCTIONAL, OXIDOREDUCTASE, TRANSFERASE
+> pdb_mol_name > BIFUNCTIONAL DIHYDROFOLATE REDUCTASE-THYMIDYLATE
+> graphtype > albelig
+> resolution > 2.1
+> date > 03-FEB-03
+> header > OXIDOREDUCTASE, TRANSFERASE
+> pdb_org_common > MALARIA PARASITE P. FALCIPARUM
+> title > QUADRUPLE MUTANT (N51I+C59R+S108N+I164L) PLASMODIUMFALCIPARUM DIHYDROFOLATE REDUCTASE-THYMIDYLATE SYNTHASE(PFDHFR-TS) COMPLEXED WITH WR99210, NADPH, AND DUMP
+> format_version > 2
+> pdbid > 1j3k
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PLASMODIUM FALCIPARUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j3k | B | albelig | 1 | 1 | H | 228 | 231 | B-5-  | B-8-  | VCDV 
+| 1j3k | B | albelig | 2 | 2 | E | 234 | 243 | B-11-  | B-20-  | IYAICACCKV 
+| 1j3k | B | albelig | 3 | 3 | H | 257 | 259 | B-34-  | B-36-  | NYT 
+| 1j3k | B | albelig | 4 | 4 | E | 260 | 264 | B-37-  | B-41-  | FRGLG 
+| 1j3k | B | albelig | 5 | 5 | H | 275 | 286 | B-52-  | B-63-  | SLDMKYFRAVTT 
+| 1j3k | B | albelig | 6 | 6 | H | 290 | 303 | B-67-  | B-80-  | ESKYEKLKYKRCKY 
+| 1j3k | B | albelig | 7 | 7 | E | 312 | 318 | B-99-  | B-105-  | QNVVVMG 
+| 1j3k | B | albelig | 8 | 8 | H | 319 | 324 | B-106-  | B-111-  | RTNWES 
+| 1j3k | B | albelig | 9 | 9 | E | 335 | 340 | B-122-  | B-127-  | RINVIL 
+| 1j3k | B | albelig | 10 | 10 | H | 359 | 368 | B-146-  | B-155-  | VEDLIVLLGK 
+| 1j3k | B | albelig | 11 | 11 | E | 371 | 376 | B-158-  | B-163-  | YYKCFI 
+| 1j3k | B | albelig | 12 | 12 | H | 380 | 388 | B-167-  | B-175-  | SVVYQEFLE 
+| 1j3k | B | albelig | 13 | 13 | E | 394 | 404 | B-181-  | B-191-  | KIYFTRINSTY 
+| 1j3k | B | albelig | 14 | 14 | E | 418 | 428 | B-205-  | B-215-  | YQIISVSDVYT 
+| 1j3k | B | albelig | 15 | 15 | E | 433 | 441 | B-220-  | B-228-  | TLDFIIYKK 
+| 1j3k | B | albelig | 16 | 16 | L | 1102 | 1102 | B-709-  | B-709-  | J 
+| 1j3k | B | albelig | 17 | 17 | L | 1103 | 1103 | B-710-  | B-710-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 4
+= 2 = p = 11
+= 2 = p = 13
+= 2 = l = 16
+= 2 = l = 17
+= 3 = m = 4
+= 4 = a = 13
+= 4 = l = 17
+= 5 = l = 16
+= 6 = m = 11
+= 7 = m = 8
+= 7 = p = 9
+= 7 = p = 11
+= 7 = l = 17
+= 8 = l = 16
+= 8 = l = 17
+= 9 = l = 17
+= 10 = l = 17
+= 12 = l = 16
+= 12 = l = 17
+= 13 = a = 15
+= 13 = l = 16
+= 14 = a = 15
+= 16 = l = 17
+# Listed 25 contacts. EOF.

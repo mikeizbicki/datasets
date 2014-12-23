@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f2v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA WIND, DOUBLY WOUND SHEET, ISOMERASE
+> pdb_mol_name > PRECORRIN-8X METHYLMUTASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 29-MAY-00
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF PRECORRIN-8X METHYLMUTASE OF AEROBICVITAMIN B12 SYNTHESIS
+> format_version > 2
+> pdbid > 1f2v
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS DENITRIFICANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f2v | A | albelig | 1 | 1 | H | 9 | 23 | A-10-  | A-24-  | GNAIYERSFAIIRAE 
+| 1f2v | A | albelig | 2 | 2 | H | 31 | 44 | A-32-  | A-45-  | EEEADLAVRMVHAC 
+| 1f2v | A | albelig | 3 | 3 | H | 47 | 52 | A-48-  | A-53-  | VEATRQ 
+| 1f2v | A | albelig | 4 | 4 | E | 53 | 55 | A-54-  | A-56-  | FVF 
+| 1f2v | A | albelig | 5 | 5 | H | 59 | 68 | A-60-  | A-69-  | FVSSARAALK 
+| 1f2v | A | albelig | 6 | 6 | E | 73 | 75 | A-74-  | A-76-  | ILC 
+| 1f2v | A | albelig | 7 | 7 | H | 78 | 83 | A-79-  | A-84-  | EMVAHG 
+| 1f2v | A | albelig | 8 | 8 | H | 86 | 88 | A-87-  | A-89-  | RAR 
+| 1f2v | A | albelig | 9 | 9 | E | 95 | 97 | A-96-  | A-98-  | VIC 
+| 1f2v | A | albelig | 10 | 10 | H | 103 | 111 | A-104-  | A-112-  | RTPALAAEI 
+| 1f2v | A | albelig | 11 | 11 | H | 115 | 123 | A-116-  | A-124-  | RSAAALKLW 
+| 1f2v | A | albelig | 12 | 12 | H | 124 | 127 | A-125-  | A-128-  | SERL 
+| 1f2v | A | albelig | 13 | 13 | E | 131 | 134 | A-132-  | A-135-  | VVAI 
+| 1f2v | A | albelig | 14 | 14 | H | 138 | 149 | A-139-  | A-150-  | PTALFFLLEMLR 
+| 1f2v | A | albelig | 15 | 15 | E | 157 | 160 | A-158-  | A-161-  | AILG 
+| 1f2v | A | albelig | 16 | 16 | H | 168 | 177 | A-169-  | A-178-  | AAESKDALAE 
+| 1f2v | A | albelig | 17 | 17 | E | 184 | 187 | A-185-  | A-188-  | FAIV 
+| 1f2v | A | albelig | 18 | 18 | H | 194 | 205 | A-195-  | A-206-  | SAMTAAALNSLA 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 4
+= 2 = m = 5
+= 2 = a = 18
+= 3 = m = 4
+= 3 = m = 17
+= 4 = a = 17
+= 6 = p = 9
+= 6 = p = 13
+= 10 = m = 11
+= 13 = p = 15
+= 14 = p = 16
+= 15 = p = 17
+= 16 = m = 17
+# Listed 14 contacts. EOF.

@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gpd, chain R.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDO-REDUCTASE(ALDEHYDE/DONR,NAD/ACCPT), OXIDO-REDUCTASE(ALDEHYDE-DONR,NAD-ACCPT) COMPLEX, OXIDOREDUCTASE
+> pdb_mol_name > D-GLYCERALDEHYDE-3-PHOSPHATE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.9
+> date > 01-JUL-75
+> header > OXIDOREDUCTASE
+> pdb_org_common > AMERICAN LOBSTER
+> title > STUDIES OF ASYMMETRY IN THE THREE-DIMENSIONAL STRUCTURE OF LOBSTER D-GLYCERALDEHYDE-3-PHOSPHATE DEHYDROGENASE
+> format_version > 2
+> pdbid > 1gpd
+> experiment > X-RAY DIFFRACTION
+> chainid > R
+> graphclass > protein graph
+> pdb_org_sci > HOMARUS AMERICANUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gpd | R | albelig | 1 | 1 | E | 337 | 340 | R-3-  | R-6-  | IGIN 
+| 1gpd | R | albelig | 2 | 2 | H | 346 | 357 | R-12-  | R-23-  | GRLVLRAALSCG 
+| 1gpd | R | albelig | 3 | 3 | E | 362 | 364 | R-29-  | R-31-  | AVN 
+| 1gpd | R | albelig | 4 | 4 | H | 370 | 378 | R-37-  | R-45-  | LEYMVYMFK 
+| 1gpd | R | albelig | 5 | 5 | E | 390 | 393 | R-57-  | R-60-  | VKME 
+| 1gpd | R | albelig | 6 | 6 | E | 396 | 399 | R-63-  | R-66-  | ALVV 
+| 1gpd | R | albelig | 7 | 7 | E | 405 | 407 | R-72-  | R-74-  | TVF 
+| 1gpd | R | albelig | 8 | 8 | E | 424 | 427 | R-91-  | R-94-  | YIVE 
+| 1gpd | R | albelig | 9 | 9 | H | 435 | 445 | R-102-  | R-112-  | IEKASAHFKGG 
+| 1gpd | R | albelig | 10 | 10 | E | 448 | 452 | R-115-  | R-119-  | KVVIS 
+| 1gpd | R | albelig | 11 | 11 | H | 463 | 466 | R-130-  | R-133-  | CGVN 
+| 1gpd | R | albelig | 12 | 12 | E | 476 | 479 | R-143-  | R-146-  | VVSN 
+| 1gpd | R | albelig | 13 | 13 | H | 482 | 498 | R-149-  | R-165-  | CTTNCLAPVAKVLHENF 
+| 1gpd | R | albelig | 14 | 14 | E | 503 | 509 | R-170-  | R-176-  | GLMTTVH 
+| 1gpd | R | albelig | 15 | 15 | E | 537 | 540 | R-204-  | R-207-  | IPSS 
+| 1gpd | R | albelig | 16 | 16 | H | 544 | 547 | R-211-  | R-214-  | AKAV 
+| 1gpd | R | albelig | 17 | 17 | E | 558 | 564 | R-225-  | R-231-  | LTGMAFR 
+| 1gpd | R | albelig | 18 | 18 | E | 571 | 578 | R-238-  | R-245-  | SVVDLTVR 
+| 1gpd | R | albelig | 19 | 19 | H | 585 | 597 | R-252-  | R-264-  | YDDIKAAMKTASE 
+| 1gpd | R | albelig | 20 | 20 | E | 632 | 634 | R-299-  | R-301-  | QLS 
+| 1gpd | R | albelig | 21 | 21 | E | 637 | 644 | R-304-  | R-311-  | FVKVVSWY 
+| 1gpd | R | albelig | 22 | 22 | H | 646 | 666 | R-313-  | R-333-  | NEFGYSQRVIDLLKHMQKVDS 
+| 1gpd | R | albelig | 23 | 23 | L | 669 | 669 | R-0-  | R-0-  | J 
+| 1gpd | R | albelig | 24 | 24 | L | 670 | 670 | R-335-  | R-335-  | J 
+| 1gpd | R | albelig | 25 | 25 | L | 671 | 671 | R-336-  | R-336-  | J 
+| 1gpd | R | albelig | 26 | 26 | L | 672 | 672 | R-337-  | R-337-  | J 
+| 1gpd | R | albelig | 27 | 27 | L | 673 | 673 | R-338-  | R-338-  | J 
+| 1gpd | R | albelig | 28 | 28 | L | 675 | 675 | R-339-  | R-339-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 1 = l = 28
+= 2 = p = 22
+= 3 = p = 7
+= 3 = l = 28
+= 4 = m = 5
+= 5 = a = 6
+= 8 = p = 10
+= 8 = l = 28
+= 10 = p = 12
+= 10 = a = 22
+= 10 = l = 28
+= 12 = m = 22
+= 13 = p = 18
+= 13 = m = 21
+= 13 = l = 27
+= 13 = l = 28
+= 14 = p = 17
+= 14 = a = 18
+= 15 = a = 17
+= 16 = m = 17
+= 18 = a = 21
+= 20 = a = 21
+= 22 = l = 28
+= 26 = l = 28
+# Listed 26 contacts. EOF.

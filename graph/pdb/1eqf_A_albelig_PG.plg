@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eqf, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FOUR-HELIX BUNDLE, ACETYLATED HISTONE-TAIL BINDING PROTEIN,TRANSCRIPTION
+> pdb_mol_name > RNA POLYMERASE II TRANSCRIPTION INITIATION
+> graphtype > albelig
+> resolution > 2.1
+> date > 04-APR-00
+> header > TRANSCRIPTION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE DOUBLE BROMODOMAIN MODULE FROMHUMAN TAFII250
+> format_version > 2
+> pdbid > 1eqf
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eqf | A | albelig | 1 | 1 | H | 23 | 39 | A-1381-  | A-1397-  | PMVTLSSILESIINDMR 
+| 1eqf | A | albelig | 2 | 2 | H | 45 | 47 | A-1403-  | A-1405-  | YPF 
+| 1eqf | A | albelig | 3 | 3 | H | 59 | 62 | A-1417-  | A-1420-  | YYKI 
+| 1eqf | A | albelig | 4 | 4 | H | 69 | 77 | A-1427-  | A-1435-  | LQTLRENVR 
+| 1eqf | A | albelig | 5 | 5 | H | 84 | 101 | A-1442-  | A-1459-  | REEFREHLELIVKNSATY 
+| 1eqf | A | albelig | 6 | 6 | H | 107 | 125 | A-1465-  | A-1483-  | SLTQISQSMLDLCDEKLKE 
+| 1eqf | A | albelig | 7 | 7 | H | 127 | 137 | A-1485-  | A-1495-  | EDKLARLEKAI 
+| 1eqf | A | albelig | 8 | 8 | H | 139 | 142 | A-1497-  | A-1500-  | PLLD 
+| 1eqf | A | albelig | 9 | 9 | H | 144 | 161 | A-1502-  | A-1519-  | DDQVAFSFILDNIVTQKM 
+| 1eqf | A | albelig | 10 | 10 | H | 168 | 170 | A-1526-  | A-1528-  | WPF 
+| 1eqf | A | albelig | 11 | 11 | H | 182 | 185 | A-1540-  | A-1543-  | YYKV 
+| 1eqf | A | albelig | 12 | 12 | H | 192 | 200 | A-1550-  | A-1558-  | LETIRKNIS 
+| 1eqf | A | albelig | 13 | 13 | H | 207 | 225 | A-1565-  | A-1583-  | RESFLDDVNLILANSVKYN 
+| 1eqf | A | albelig | 14 | 14 | H | 230 | 248 | A-1588-  | A-1606-  | QYTKTAQEIVNVCYQTLTE 
+| 1eqf | A | albelig | 15 | 15 | H | 250 | 266 | A-1608-  | A-1624-  | DEHLTQLEKDIATAKEA 
+| 1eqf | A | albelig | 16 | 16 | L | 268 | 268 | A-400-  | A-400-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = m = 6
+= 1 = a = 7
+= 4 = m = 5
+= 5 = a = 6
+= 5 = m = 7
+= 7 = m = 8
+= 9 = a = 12
+= 9 = m = 14
+= 9 = m = 15
+= 11 = m = 13
+= 12 = m = 13
+= 13 = a = 14
+= 13 = m = 15
+= 13 = l = 16
+= 14 = l = 16
+# Listed 16 contacts. EOF.

@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gh0, chain W.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > C-PHYCOCYANIN FROM SPIRULINA PLATENSIS, PHOTOSYNTHESIS
+> pdb_mol_name > C-PHYCOCYANIN ALPHA SUBUNIT
+> graphtype > albelig
+> resolution > 2.2
+> date > 29-OCT-00
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF C-PHYCOCYANIN FROM SPIRULINA PLATENSIS
+> format_version > 2
+> pdbid > 1gh0
+> experiment > X-RAY DIFFRACTION
+> chainid > W
+> graphclass > protein graph
+> pdb_org_sci > ARTHROSPIRA PLATENSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gh0 | W | albelig | 1 | 1 | H | 3700 | 3710 | W-4-  | W-14-  | PLTEAVSVADS 
+| 1gh0 | W | albelig | 2 | 2 | H | 3717 | 3742 | W-21-  | W-46-  | STEIQVAFGRFRQAKAGLEAAKALTS 
+| 1gh0 | W | albelig | 3 | 3 | H | 3744 | 3758 | W-48-  | W-62-  | ADSLISGAAQAVYNK 
+| 1gh0 | W | albelig | 4 | 4 | H | 3760 | 3763 | W-64-  | W-67-  | PYTT 
+| 1gh0 | W | albelig | 5 | 5 | H | 3774 | 3797 | W-78-  | W-101-  | QRGKDKCARDIGYYLRMVTYCLIA 
+| 1gh0 | W | albelig | 6 | 6 | H | 3801 | 3808 | W-105-  | W-112-  | GPMDEYLI 
+| 1gh0 | W | albelig | 7 | 7 | H | 3811 | 3817 | W-115-  | W-121-  | IDEINRT 
+| 1gh0 | W | albelig | 8 | 8 | H | 3822 | 3835 | W-126-  | W-139-  | PSWYIEALKYIKAN 
+| 1gh0 | W | albelig | 9 | 9 | H | 3840 | 3856 | W-144-  | W-160-  | GDAAVEANSYLDYAINA 
+| 1gh0 | W | albelig | 10 | 10 | L | 4077 | 4077 | W-1084-  | W-1084-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 5
+= 3 = a = 5
+= 3 = a = 8
+= 3 = l = 10
+= 4 = l = 10
+= 5 = m = 6
+= 5 = m = 8
+= 5 = l = 10
+= 6 = l = 10
+= 7 = l = 10
+= 8 = m = 9
+= 8 = l = 10
+# Listed 12 contacts. EOF.

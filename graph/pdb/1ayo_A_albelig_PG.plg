@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ayo, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MACROGLOBULIN, RECEPTOR BINDING DOMAIN
+> pdb_mol_name > ALPHA-2-MACROGLOBULIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 07-NOV-97
+> header > MACROGLOBULIN
+> pdb_org_common > CATTLE
+> title > RECEPTOR BINDING DOMAIN OF BOVINE ALPHA-2-MACROGLOBULIN
+> format_version > 2
+> pdbid > 1ayo
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ayo | A | albelig | 1 | 1 | E | 4 | 11 | A-6-  | A-13-  | FALEVQTL 
+| 1ayo | A | albelig | 2 | 2 | H | 18 | 21 | A-20-  | A-23-  | PKAH 
+| 1ayo | A | albelig | 3 | 3 | E | 23 | 32 | A-25-  | A-34-  | SFQISLSVSY 
+| 1ayo | A | albelig | 4 | 4 | E | 42 | 47 | A-44-  | A-49-  | AIVDVK 
+| 1ayo | A | albelig | 5 | 5 | E | 52 | 54 | A-54-  | A-56-  | FIP 
+| 1ayo | A | albelig | 6 | 6 | H | 56 | 60 | A-58-  | A-62-  | KPTVK 
+| 1ayo | A | albelig | 7 | 7 | E | 67 | 73 | A-69-  | A-75-  | VSRTEVS 
+| 1ayo | A | albelig | 8 | 8 | E | 76 | 81 | A-78-  | A-83-  | HVLIYL 
+| 1ayo | A | albelig | 9 | 9 | E | 89 | 97 | A-91-  | A-99-  | LTLTFTVLQ 
+| 1ayo | A | albelig | 10 | 10 | E | 107 | 113 | A-109-  | A-115-  | AIVKVYD 
+| 1ayo | A | albelig | 11 | 11 | E | 120 | 125 | A-122-  | A-127-  | FAVAEY 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 10
+= 1 = p = 11
+= 2 = m = 3
+= 3 = a = 9
+= 4 = a = 8
+= 4 = a = 10
+= 5 = a = 9
+= 6 = m = 7
+= 6 = m = 9
+= 7 = a = 8
+= 10 = a = 11
+# Listed 12 contacts. EOF.

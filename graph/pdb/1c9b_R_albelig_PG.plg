@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c9b, chain R.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, CYCLIN-LIKE FOLD, HELIX-TURN-HELIX,TATA-BOX, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > TATA BOX BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.65
+> date > 01-AUG-99
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A HUMAN TBP CORE DOMAIN-HUMAN TFIIBCORE DOMAIN COMPLEX BOUND TO AN EXTENDED, MODIFIEDADENOVIRAL MAJOR LATE PROMOTER (ADMLP)
+> format_version > 2
+> pdbid > 1c9b
+> experiment > X-RAY DIFFRACTION
+> chainid > R
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c9b | R | albelig | 1 | 1 | E | 1771 | 1780 | R-164-  | R-173-  | QLQNIVSTVN 
+| 1c9b | R | albelig | 2 | 2 | H | 1787 | 1793 | R-180-  | R-186-  | LKTIALR 
+| 1c9b | R | albelig | 3 | 3 | E | 1807 | 1809 | R-200-  | R-202-  | VIM 
+| 1c9b | R | albelig | 4 | 4 | E | 1817 | 1820 | R-210-  | R-213-  | TALI 
+| 1c9b | R | albelig | 5 | 5 | E | 1825 | 1831 | R-218-  | R-224-  | KMVCTGA 
+| 1c9b | R | albelig | 6 | 6 | H | 1834 | 1850 | R-227-  | R-243-  | EEQSRLAARKYARVVQK 
+| 1c9b | R | albelig | 7 | 7 | E | 1858 | 1870 | R-251-  | R-263-  | LDFKIQNMVGSCD 
+| 1c9b | R | albelig | 8 | 8 | H | 1877 | 1884 | R-270-  | R-277-  | LEGLVLTH 
+| 1c9b | R | albelig | 9 | 9 | E | 1898 | 1902 | R-291-  | R-295-  | LIYRM 
+| 1c9b | R | albelig | 10 | 10 | E | 1907 | 1911 | R-300-  | R-304-  | IVLLI 
+| 1c9b | R | albelig | 11 | 11 | E | 1916 | 1922 | R-309-  | R-315-  | KVVLTGA 
+| 1c9b | R | albelig | 12 | 12 | H | 1925 | 1940 | R-318-  | R-333-  | RAEIYEAFENIYPILK 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = m = 6
+= 1 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 11
+= 8 = m = 9
+= 9 = a = 10
+= 10 = a = 11
+= 11 = a = 12
+# Listed 12 contacts. EOF.

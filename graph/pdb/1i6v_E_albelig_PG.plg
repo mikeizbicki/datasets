@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i6v, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, TRANSCRIPTION, DNA-DIRECTED RNA POLYMERASE, 3D-STRUCTURE
+> pdb_mol_name > DNA-DIRECTED RNA POLYMERASE
+> graphtype > albelig
+> resolution > 3.3
+> date > 05-MAR-01
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > THERMUS AQUATICUS CORE RNA POLYMERASE-RIFAMPICIN COMPLEX
+> format_version > 2
+> pdbid > 1i6v
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > THERMUS AQUATICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i6v | E | albelig | 1 | 1 | H | 2758 | 2764 | E-6-  | E-12-  | IDKLFGM 
+| 1i6v | E | albelig | 2 | 2 | H | 2768 | 2779 | E-16-  | E-27-  | KYRLTVVVAKRA 
+| 1i6v | E | albelig | 3 | 3 | H | 2812 | 2820 | E-60-  | E-68-  | AVTWAMKEL 
+| 1i6v | E | albelig | 4 | 4 | H | 2834 | 2839 | E-82-  | E-87-  | EDRLQK 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+# Listed 1 contacts. EOF.

@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h2i, chain U.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA-BINDING PROTEIN, DNA REPAIR, DNA RECOMBINATION
+> pdb_mol_name > UNKNOWN
+> graphtype > albelig
+> resolution > 2.7
+> date > 09-AUG-02
+> header > DNA-BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > HUMAN RAD52 PROTEIN, N-TERMINAL DOMAIN
+> format_version > 2
+> pdbid > 1h2i
+> experiment > X-RAY DIFFRACTION
+> chainid > U
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h2i | U | albelig | 1 | 1 | H | 3750 | 3761 | U-33-  | U-44-  | AEEYQAIQKALR 
+| 1h2i | U | albelig | 2 | 2 | E | 3769 | 3773 | U-52-  | U-56-  | ISSRM 
+| 1h2i | U | albelig | 3 | 3 | E | 3779 | 3783 | U-62-  | U-66-  | KVCYI 
+| 1h2i | U | albelig | 4 | 4 | H | 3785 | 3796 | U-68-  | U-79-  | GHRVINLANEMF 
+| 1h2i | U | albelig | 5 | 5 | E | 3801 | 3815 | U-84-  | U-98-  | WAHSITQQNVDFVDL 
+| 1h2i | U | albelig | 6 | 6 | E | 3820 | 3832 | U-103-  | U-115-  | FYVGVCAFVRVQL 
+| 1h2i | U | albelig | 7 | 7 | E | 3837 | 3847 | U-120-  | U-130-  | YHEDVGYGVSE 
+| 1h2i | U | albelig | 8 | 8 | H | 3852 | 3873 | U-135-  | U-156-  | KALSLEKARKEAVTDGLKRALR 
+| 1h2i | U | albelig | 9 | 9 | H | 3877 | 3879 | U-160-  | U-162-  | NAL 
+| 1h2i | U | albelig | 10 | 10 | H | 3882 | 3884 | U-165-  | U-167-  | CIL 
+| 1h2i | U | albelig | 11 | 11 | H | 3886 | 3893 | U-169-  | U-176-  | KDYLRSLN 
+| 1h2i | U | albelig | 12 | 12 | H | 3905 | 3907 | U-188-  | U-190-  | LTK 
+| 1h2i | U | albelig | 13 | 13 | H | 3915 | 3922 | U-198-  | U-205-  | PSVEEARY 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 4 = m = 9
+= 5 = a = 6
+= 5 = a = 8
+= 6 = a = 7
+= 6 = p = 8
+= 7 = a = 8
+# Listed 7 contacts. EOF.

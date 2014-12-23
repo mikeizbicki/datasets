@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fat, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOPROTEIN, PLANT DEFENSE PROTEIN, LECTIN
+> pdb_mol_name > PHYTOHEMAGGLUTININ-L
+> graphtype > albelig
+> resolution > 2.8
+> date > 12-JUN-96
+> header > LECTIN
+> pdb_org_common > UNKNOWN
+> title > PHYTOHEMAGGLUTININ-L
+> format_version > 2
+> pdbid > 1fat
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PHASEOLUS VULGARIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fat | A | albelig | 1 | 1 | E | 4 | 8 | A-4-  | A-8-  | IYFNF 
+| 1fat | A | albelig | 2 | 2 | H | 13 | 15 | A-13-  | A-15-  | ETN 
+| 1fat | A | albelig | 3 | 3 | E | 16 | 20 | A-16-  | A-20-  | LILQR 
+| 1fat | A | albelig | 4 | 4 | E | 46 | 56 | A-46-  | A-56-  | LGRAFYSAPIQ 
+| 1fat | A | albelig | 5 | 5 | E | 64 | 75 | A-64-  | A-75-  | TVASFATSFTFN 
+| 1fat | A | albelig | 6 | 6 | E | 86 | 94 | A-86-  | A-94-  | DGLAFALVP 
+| 1fat | A | albelig | 7 | 7 | H | 103 | 105 | A-103-  | A-105-  | GGF 
+| 1fat | A | albelig | 8 | 8 | E | 119 | 124 | A-119-  | A-124-  | VAVEFD 
+| 1fat | A | albelig | 9 | 9 | E | 137 | 142 | A-137-  | A-142-  | HIGIDV 
+| 1fat | A | albelig | 10 | 10 | E | 149 | 152 | A-149-  | A-152-  | KTTR 
+| 1fat | A | albelig | 11 | 11 | E | 160 | 168 | A-160-  | A-168-  | NAEVLITYD 
+| 1fat | A | albelig | 12 | 12 | E | 173 | 180 | A-173-  | A-180-  | LLVASLVY 
+| 1fat | A | albelig | 13 | 13 | E | 185 | 192 | A-185-  | A-192-  | TSFIVSDT 
+| 1fat | A | albelig | 14 | 14 | H | 195 | 198 | A-195-  | A-198-  | LKSV 
+| 1fat | A | albelig | 15 | 15 | E | 202 | 211 | A-202-  | A-211-  | WVSVGFSATT 
+| 1fat | A | albelig | 16 | 16 | E | 222 | 232 | A-222-  | A-232-  | DVLSWSFASKL 
+| 1fat | A | albelig | 17 | 17 | L | 935 | 935 | A-253-  | A-253-  | J 
+| 1fat | A | albelig | 18 | 18 | L | 936 | 936 | A-254-  | A-254-  | J 
+| 1fat | A | albelig | 19 | 19 | L | 937 | 937 | A-255-  | A-255-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 16
+= 2 = m = 3
+= 2 = m = 4
+= 2 = l = 17
+= 3 = a = 4
+= 4 = a = 15
+= 5 = a = 11
+= 5 = a = 16
+= 6 = m = 7
+= 6 = a = 8
+= 6 = a = 15
+= 6 = l = 19
+= 7 = m = 15
+= 7 = l = 19
+= 8 = a = 9
+= 8 = l = 18
+= 8 = l = 19
+= 9 = a = 10
+= 9 = p = 13
+= 9 = l = 18
+= 9 = l = 19
+= 10 = a = 13
+= 11 = a = 12
+= 12 = a = 13
+= 18 = l = 19
+# Listed 25 contacts. EOF.

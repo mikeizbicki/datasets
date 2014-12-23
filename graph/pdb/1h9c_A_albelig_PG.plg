@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h9c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, ENZYME IIB-CHITOBIOSE, PHOSPHOTRANSFERASESYSTEM, SUGAR TRANSPORT, PHOSPHORYLATION, IIB- CELLOBIOSE
+> pdb_mol_name > PTS SYSTEM, CHITOBIOSE-SPECIFIC IIB COMPONENT
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-MAR-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF CYSTEINYL-PHOSPHORYLATED ENZYME IIB OF THEN,N'-DIACETYLCHITOBIOSE SPECIFICPHOSPHOENOLPYRUVATE-DEPENDENT PHOSPHOTRANSFERASE SYSTEM OFESCHERICHIA COLI.
+> format_version > 2
+> pdbid > 1h9c
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h9c | A | albelig | 1 | 1 | E | 4 | 10 | A-4-  | A-10-  | KHIYLFX 
+| 1h9c | A | albelig | 2 | 2 | H | 17 | 29 | A-17-  | A-29-  | SLLVSKMRAQAEK 
+| 1h9c | A | albelig | 3 | 3 | E | 34 | 40 | A-34-  | A-40-  | VIIEAFP 
+| 1h9c | A | albelig | 4 | 4 | H | 41 | 48 | A-41-  | A-48-  | ETLAGEKG 
+| 1h9c | A | albelig | 5 | 5 | E | 53 | 56 | A-53-  | A-56-  | VVLL 
+| 1h9c | A | albelig | 6 | 6 | H | 58 | 70 | A-58-  | A-70-  | PQIAYMLPEIQRL 
+| 1h9c | A | albelig | 7 | 7 | E | 76 | 78 | A-76-  | A-78-  | VEV 
+| 1h9c | A | albelig | 8 | 8 | H | 81 | 86 | A-81-  | A-86-  | SLLYGK 
+| 1h9c | A | albelig | 9 | 9 | H | 89 | 104 | A-89-  | A-104-  | GLGVLKAAVAAIKKAA 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 4
+= 1 = p = 5
+= 2 = m = 3
+= 3 = m = 4
+= 5 = p = 7
+= 5 = m = 9
+# Listed 7 contacts. EOF.

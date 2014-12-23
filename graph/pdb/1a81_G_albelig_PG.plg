@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a81, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (TRANSFERASE-PEPTIDE), SYK, KINASE, SH2 DOMAIN, ITAM, COMPLEX(TRANSFERASE-PEPTIDE) COMPLEX
+> pdb_mol_name > SYK KINASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 31-MAR-98
+> header > COMPLEX (TRANSFERASE/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE TANDEM SH2 DOMAIN OF THE SYK KINASE BOUND TOA DUALLY TYROSINE-PHOSPHORYLATED ITAM
+> format_version > 2
+> pdbid > 1a81
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a81 | G | albelig | 1 | 1 | H | 791 | 793 | G-10-  | G-12-  | ANH 
+| 1a81 | G | albelig | 2 | 2 | H | 803 | 811 | G-22-  | G-30-  | REEAEDYLV 
+| 1a81 | G | albelig | 3 | 3 | E | 820 | 824 | G-39-  | G-43-  | YLLRQ 
+| 1a81 | G | albelig | 4 | 4 | E | 832 | 837 | G-51-  | G-56-  | FALSVA 
+| 1a81 | G | albelig | 5 | 5 | E | 842 | 849 | G-61-  | G-68-  | AHHYTIER 
+| 1a81 | G | albelig | 6 | 6 | E | 855 | 857 | G-74-  | G-76-  | YAI 
+| 1a81 | G | albelig | 7 | 7 | H | 866 | 875 | G-85-  | G-94-  | PADLCHYHSQ 
+| 1a81 | G | albelig | 8 | 8 | H | 902 | 908 | G-154-  | G-160-  | LEKLIAT 
+| 1a81 | G | albelig | 9 | 9 | H | 911 | 913 | G-163-  | G-165-  | HEK 
+| 1a81 | G | albelig | 10 | 10 | E | 917 | 920 | G-169-  | G-172-  | FHGK 
+| 1a81 | G | albelig | 11 | 11 | H | 923 | 931 | G-175-  | G-183-  | REESEQIVL 
+| 1a81 | G | albelig | 12 | 12 | E | 940 | 944 | G-192-  | G-196-  | FLIRA 
+| 1a81 | G | albelig | 13 | 13 | E | 951 | 957 | G-203-  | G-209-  | YALCLLH 
+| 1a81 | G | albelig | 14 | 14 | E | 960 | 966 | G-212-  | G-218-  | KVLHYRI 
+| 1a81 | G | albelig | 15 | 15 | H | 985 | 992 | G-237-  | G-244-  | LWQLVEHY 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+= 10 = p = 12
+= 11 = m = 14
+= 12 = a = 13
+= 13 = a = 14
+# Listed 7 contacts. EOF.

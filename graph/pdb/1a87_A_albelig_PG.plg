@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a87, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIOCIN, TOXIN, PORE-FORMING ACTIVITY
+> pdb_mol_name > COLICIN N
+> graphtype > albelig
+> resolution > 3.1
+> date > 03-APR-98
+> header > BACTERIOCIN
+> pdb_org_common > UNKNOWN
+> title > COLICIN N
+> format_version > 2
+> pdbid > 1a87
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI K12
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a87 | A | albelig | 1 | 1 | E | 7 | 11 | A-97-  | A-101-  | ITITP 
+| 1a87 | A | albelig | 2 | 2 | E | 18 | 21 | A-108-  | A-111-  | RYIS 
+| 1a87 | A | albelig | 3 | 3 | H | 24 | 26 | A-114-  | A-116-  | PEY 
+| 1a87 | A | albelig | 4 | 4 | E | 32 | 38 | A-122-  | A-128-  | LIDAESI 
+| 1a87 | A | albelig | 5 | 5 | E | 41 | 47 | A-131-  | A-137-  | TEVYTFH 
+| 1a87 | A | albelig | 6 | 6 | E | 53 | 58 | A-143-  | A-148-  | YVKVTV 
+| 1a87 | A | albelig | 7 | 7 | H | 59 | 61 | A-149-  | A-151-  | PDS 
+| 1a87 | A | albelig | 8 | 8 | H | 63 | 65 | A-153-  | A-155-  | IDK 
+| 1a87 | A | albelig | 9 | 9 | E | 67 | 71 | A-157-  | A-161-  | RVDYV 
+| 1a87 | A | albelig | 10 | 10 | H | 80 | 124 | A-170-  | A-214-  | NKLVKRFVSQFLLFRKEEKEKNEKEALLKASELVSGMGDKLGEYL 
+| 1a87 | A | albelig | 11 | 11 | H | 126 | 140 | A-216-  | A-230-  | VKYKNVAKEVANDIK 
+| 1a87 | A | albelig | 12 | 12 | H | 144 | 146 | A-234-  | A-236-  | GRN 
+| 1a87 | A | albelig | 13 | 13 | H | 150 | 161 | A-240-  | A-251-  | YNEAMASLNKVL 
+| 1a87 | A | albelig | 14 | 14 | H | 170 | 181 | A-260-  | A-271-  | KSDKDAIVNAWK 
+| 1a87 | A | albelig | 15 | 15 | H | 185 | 193 | A-275-  | A-283-  | AKDMANKIG 
+| 1a87 | A | albelig | 16 | 16 | H | 197 | 199 | A-287-  | A-289-  | KAF 
+| 1a87 | A | albelig | 17 | 17 | H | 204 | 219 | A-294-  | A-309-  | LAIKVEKIREKSIEGY 
+| 1a87 | A | albelig | 18 | 18 | H | 225 | 236 | A-315-  | A-326-  | GPLLLEVESWII 
+| 1a87 | A | albelig | 19 | 19 | H | 241 | 253 | A-331-  | A-343-  | AGVAISLFGAVLS 
+| 1a87 | A | albelig | 20 | 20 | H | 262 | 280 | A-352-  | A-370-  | VTALGVIGIMTISYLSSFI 
+| 1a87 | A | albelig | 21 | 21 | H | 282 | 295 | A-372-  | A-385-  | ANRVSNINNIISSV 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = m = 10
+= 4 = a = 5
+= 5 = a = 6
+= 5 = a = 10
+= 6 = m = 7
+= 6 = a = 9
+= 10 = a = 11
+= 10 = p = 19
+= 10 = a = 20
+= 11 = p = 20
+= 11 = a = 21
+= 13 = m = 18
+= 14 = a = 17
+= 17 = a = 18
+= 19 = a = 20
+= 20 = a = 21
+# Listed 18 contacts. EOF.

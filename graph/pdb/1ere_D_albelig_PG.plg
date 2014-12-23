@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ere, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR RECEPTOR, TRANSCRIPTION FACTOR, STEROID, AGONIST
+> pdb_mol_name > ESTROGEN RECEPTOR
+> graphtype > albelig
+> resolution > 3.1
+> date > 08-SEP-97
+> header > NUCLEAR RECEPTOR
+> pdb_org_common > HUMAN
+> title > HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEXWITH 17BETA-ESTRADIOL
+> format_version > 2
+> pdbid > 1ere
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ere | D | albelig | 1 | 1 | H | 722 | 732 | D-312-  | D-322-  | ADQMVSALLDA 
+| 1ere | D | albelig | 2 | 2 | H | 744 | 767 | D-339-  | D-362-  | EASMMGLLTNLADRELVHMINWAK 
+| 1ere | D | albelig | 3 | 3 | H | 772 | 774 | D-367-  | D-369-  | FVD 
+| 1ere | D | albelig | 4 | 4 | H | 777 | 799 | D-372-  | D-394-  | LHDQVHLLECAWLEILMIGLVWR 
+| 1ere | D | albelig | 5 | 5 | E | 806 | 810 | D-401-  | D-405-  | KLLFA 
+| 1ere | D | albelig | 6 | 6 | E | 813 | 816 | D-408-  | D-411-  | LLLD 
+| 1ere | D | albelig | 7 | 7 | H | 817 | 822 | D-412-  | D-417-  | RNQGKC 
+| 1ere | D | albelig | 8 | 8 | H | 826 | 842 | D-421-  | D-437-  | MVEIFDMLLATSSRFRM 
+| 1ere | D | albelig | 9 | 9 | H | 847 | 860 | D-442-  | D-455-  | GEEFVCLKSIILLN 
+| 1ere | D | albelig | 10 | 10 | H | 863 | 865 | D-458-  | D-460-  | VYT 
+| 1ere | D | albelig | 11 | 11 | H | 869 | 895 | D-466-  | D-492-  | LKSLEEKDHIHRVLDKITDTLIHLMAK 
+| 1ere | D | albelig | 12 | 12 | H | 900 | 933 | D-497-  | D-530-  | LQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKC 
+| 1ere | D | albelig | 13 | 13 | H | 941 | 950 | D-538-  | D-547-  | DLLLEMLDAH 
+| 1ere | D | albelig | 14 | 14 | L | 1431 | 1431 | D-600-  | D-600-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 11
+= 2 = a = 4
+= 2 = m = 13
+= 2 = l = 14
+= 4 = m = 5
+= 4 = m = 8
+= 4 = a = 9
+= 4 = m = 12
+= 4 = m = 13
+= 4 = l = 14
+= 5 = a = 6
+= 5 = l = 14
+= 6 = m = 7
+= 8 = a = 12
+= 8 = l = 14
+= 9 = a = 11
+= 9 = p = 12
+= 11 = m = 12
+= 12 = l = 14
+# Listed 19 contacts. EOF.

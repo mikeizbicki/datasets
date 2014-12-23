@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iid, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE
+> pdb_mol_name > PEPTIDE N-MYRISTOYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 22-APR-01
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF SACCHAROMYCES CEREVISIAE N-MYRISTOYLTRANSFERASE WITH BOUND S-(2-OXO)PENTADECYLCOA ANDTHE OCTAPEPTIDE GLYASKLA
+> format_version > 2
+> pdbid > 1iid
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iid | A | albelig | 1 | 1 | H | 8 | 10 | A-41-  | A-43-  | WRT 
+| 1iid | A | albelig | 2 | 2 | H | 32 | 34 | A-65-  | A-67-  | PED 
+| 1iid | A | albelig | 3 | 3 | E | 46 | 49 | A-79-  | A-82-  | FEWC 
+| 1iid | A | albelig | 4 | 4 | H | 56 | 69 | A-89-  | A-102-  | KKQLEDVFVLLNEN 
+| 1iid | A | albelig | 5 | 5 | H | 84 | 90 | A-117-  | A-123-  | KEFFNWA 
+| 1iid | A | albelig | 6 | 6 | E | 101 | 106 | A-134-  | A-139-  | HIGVRV 
+| 1iid | A | albelig | 7 | 7 | E | 112 | 125 | A-145-  | A-158-  | LVAFISAIPVTLGV 
+| 1iid | A | albelig | 8 | 8 | E | 128 | 140 | A-161-  | A-173-  | KQVPSVEINFLCV 
+| 1iid | A | albelig | 9 | 9 | H | 142 | 144 | A-175-  | A-177-  | KQL 
+| 1iid | A | albelig | 10 | 10 | H | 150 | 162 | A-183-  | A-195-  | TPVLIKEITRRVN 
+| 1iid | A | albelig | 11 | 11 | E | 169 | 173 | A-202-  | A-206-  | ALYTA 
+| 1iid | A | albelig | 12 | 12 | E | 182 | 190 | A-215-  | A-223-  | STCRYTHRP 
+| 1iid | A | albelig | 13 | 13 | H | 193 | 199 | A-226-  | A-232-  | WKKLYEV 
+| 1iid | A | albelig | 14 | 14 | H | 206 | 208 | A-239-  | A-241-  | DGH 
+| 1iid | A | albelig | 15 | 15 | H | 210 | 217 | A-243-  | A-250-  | EEDMIAEN 
+| 1iid | A | albelig | 16 | 16 | H | 233 | 247 | A-266-  | A-280-  | KEDIDQVFELFKRYQ 
+| 1iid | A | albelig | 17 | 17 | E | 252 | 254 | A-285-  | A-287-  | LIQ 
+| 1iid | A | albelig | 18 | 18 | H | 258 | 265 | A-291-  | A-298-  | KEEFEHNF 
+| 1iid | A | albelig | 19 | 19 | E | 278 | 284 | A-311-  | A-317-  | IFSYVVE 
+| 1iid | A | albelig | 20 | 20 | E | 290 | 298 | A-323-  | A-331-  | ITDFFSFYS 
+| 1iid | A | albelig | 21 | 21 | E | 314 | 322 | A-347-  | A-355-  | IGYLYYYAT 
+| 1iid | A | albelig | 22 | 22 | H | 324 | 327 | A-357-  | A-360-  | ADFQ 
+| 1iid | A | albelig | 23 | 23 | H | 336 | 357 | A-369-  | A-390-  | ATKALKTRLCELIYDACILAKN 
+| 1iid | A | albelig | 24 | 24 | E | 362 | 365 | A-395-  | A-398-  | VFNA 
+| 1iid | A | albelig | 25 | 25 | H | 371 | 375 | A-404-  | A-408-  | NTLFL 
+| 1iid | A | albelig | 26 | 26 | E | 381 | 392 | A-414-  | A-425-  | GPGDGFLNFYLF 
+| 1iid | A | albelig | 27 | 27 | L | 432 | 432 | A-1-  | A-1-  | J 
+| 1iid | A | albelig | 28 | 28 | L | 433 | 433 | A-2-  | A-2-  | J 
+| 1iid | A | albelig | 29 | 29 | L | 434 | 434 | A-500-  | A-500-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 29
+= 3 = a = 6
+= 4 = l = 29
+= 6 = a = 7
+= 7 = a = 8
+= 7 = a = 17
+= 7 = l = 29
+= 8 = p = 11
+= 8 = l = 29
+= 9 = l = 29
+= 10 = l = 29
+= 11 = a = 26
+= 11 = l = 29
+= 12 = a = 24
+= 12 = a = 26
+= 13 = m = 15
+= 16 = m = 18
+= 16 = m = 20
+= 16 = m = 21
+= 18 = l = 28
+= 19 = a = 20
+= 20 = a = 21
+= 20 = m = 23
+= 21 = a = 23
+= 21 = p = 24
+= 23 = m = 25
+= 26 = l = 29
+# Listed 27 contacts. EOF.

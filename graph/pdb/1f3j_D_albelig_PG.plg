@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f3j, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTOCOMPATIBILITY ANTIGEN, MHC, PEPTIDE COMPLEX, IMMUNE SYSTEM
+> pdb_mol_name > H-2 CLASS II HISTOCOMPATIBILITY ANTIGEN
+> graphtype > albelig
+> resolution > 3.1
+> date > 04-JUN-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > HISTOCOMPATIBILITY ANTIGEN I-AG7
+> format_version > 2
+> pdbid > 1f3j
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f3j | D | albelig | 1 | 1 | E | 391 | 402 | D-5-  | D-15-  | HVGFYGTTVYQS 
+| 1f3j | D | albelig | 2 | 2 | E | 406 | 413 | D-19-  | D-26-  | IGQYTHEF 
+| 1f3j | D | albelig | 3 | 3 | E | 416 | 422 | D-29-  | D-35-  | DELFYVD 
+| 1f3j | D | albelig | 4 | 4 | E | 427 | 430 | D-40-  | D-43-  | KTVW 
+| 1f3j | D | albelig | 5 | 5 | H | 444 | 463 | D-57-  | D-76-  | QGGLQNIAAEKHNLGILTKR 
+| 1f3j | D | albelig | 6 | 6 | E | 475 | 480 | D-88-  | D-93-  | QATVFP 
+| 1f3j | D | albelig | 7 | 7 | E | 490 | 499 | D-103-  | D-112-  | NTLIDFVDNI 
+| 1f3j | D | albelig | 8 | 8 | E | 505 | 510 | D-118-  | D-123-  | NITWLR 
+| 1f3j | D | albelig | 9 | 9 | E | 513 | 515 | D-126-  | D-128-  | KSV 
+| 1f3j | D | albelig | 10 | 10 | E | 519 | 521 | D-132-  | D-134-  | VYE 
+| 1f3j | D | albelig | 11 | 11 | E | 532 | 540 | D-145-  | D-153-  | FHKLSYLTF 
+| 1f3j | D | albelig | 12 | 12 | E | 548 | 553 | D-161-  | D-166-  | YDDKVE 
+| 1f3j | D | albelig | 13 | 13 | E | 561 | 565 | D-174-  | D-178-  | VLKHW 
+| 1f3j | D | albelig | 14 | 14 | L | 775 | 775 | D-1001-  | D-1001-  | J 
+| 1f3j | D | albelig | 15 | 15 | L | 776 | 776 | D-1002-  | D-1002-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = a = 3
+= 2 = m = 5
+= 3 = a = 4
+= 5 = l = 14
+= 6 = a = 7
+= 7 = a = 8
+= 7 = a = 11
+= 7 = p = 12
+= 8 = a = 9
+= 8 = p = 11
+= 8 = a = 12
+= 8 = l = 15
+= 10 = a = 11
+= 12 = a = 13
+= 12 = l = 15
+# Listed 17 contacts. EOF.

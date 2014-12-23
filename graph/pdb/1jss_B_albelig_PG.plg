@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jss, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > START DOMAIN, STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTUREINITIATIVE, NEW YORK SGX RESEARCH CENTER FOR STRUCTURALGENOMICS, NYSGXRC, LIPID BINDING PROTEIN
+> pdb_mol_name > CHOLESTEROL-REGULATED START PROTEIN 4
+> graphtype > albelig
+> resolution > 2.2
+> date > 17-AUG-01
+> header > LIPID BINDING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE MUS MUSCULUS CHOLESTEROL-REGULATEDSTART PROTEIN 4 (STARD4).
+> format_version > 2
+> pdbid > 1jss
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jss | B | albelig | 1 | 1 | H | 203 | 214 | B-26-  | B-37-  | ISTKLQNTLIQY 
+| 1jss | B | albelig | 2 | 2 | E | 223 | 228 | B-46-  | B-51-  | RVAKKA 
+| 1jss | B | albelig | 3 | 3 | E | 231 | 237 | B-54-  | B-60-  | VTVWRKP 
+| 1jss | B | albelig | 4 | 4 | E | 244 | 252 | B-67-  | B-75-  | YLYKAQGVM 
+| 1jss | B | albelig | 5 | 5 | H | 256 | 263 | B-79-  | B-86-  | VNNVIDHI 
+| 1jss | B | albelig | 6 | 6 | H | 269 | 272 | B-92-  | B-95-  | RLDW 
+| 1jss | B | albelig | 7 | 7 | E | 276 | 286 | B-99-  | B-109-  | MTSLDVLEHFE 
+| 1jss | B | albelig | 8 | 8 | E | 289 | 296 | B-112-  | B-119-  | CCVMRYTT 
+| 1jss | B | albelig | 9 | 9 | E | 307 | 318 | B-130-  | B-141-  | REFVDFSYTVGY 
+| 1jss | B | albelig | 10 | 10 | E | 321 | 328 | B-144-  | B-151-  | GLLSCGVS 
+| 1jss | B | albelig | 11 | 11 | E | 346 | 352 | B-169-  | B-175-  | CGWFCVP 
+| 1jss | B | albelig | 12 | 12 | E | 360 | 366 | B-183-  | B-189-  | SLLTGYI 
+| 1jss | B | albelig | 13 | 13 | H | 376 | 397 | B-199-  | B-220-  | QSAVDTAMASTLANFYSDLRKG 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 10
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 12
+= 4 = p = 13
+= 5 = a = 11
+= 6 = m = 13
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 11 = a = 12
+= 12 = a = 13
+# Listed 13 contacts. EOF.

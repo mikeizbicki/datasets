@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gnh, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PENTRAXIN, ACUTE-PHASE REACTANT, ACUTE-PHASE PROTEIN
+> pdb_mol_name > C-REACTIVE PROTEIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 01-MAR-96
+> header > ACUTE-PHASE PROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN C-REACTIVE PROTEIN
+> format_version > 2
+> pdbid > 1gnh
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gnh | E | albelig | 1 | 1 | E | 835 | 839 | E-7-  | E-11-  | KAFVF 
+| 1gnh | E | albelig | 2 | 2 | E | 847 | 850 | E-19-  | E-22-  | YVSL 
+| 1gnh | E | albelig | 3 | 3 | E | 860 | 869 | E-32-  | E-41-  | AFTVELHFYT 
+| 1gnh | E | albelig | 4 | 4 | H | 871 | 873 | E-43-  | E-45-  | LSS 
+| 1gnh | E | albelig | 5 | 5 | E | 877 | 883 | E-49-  | E-55-  | YSIFSYA 
+| 1gnh | E | albelig | 6 | 6 | E | 891 | 896 | E-63-  | E-68-  | ILIFWS 
+| 1gnh | E | albelig | 7 | 7 | E | 900 | 905 | E-72-  | E-77-  | GYSFTV 
+| 1gnh | E | albelig | 8 | 8 | E | 908 | 913 | E-80-  | E-85-  | SEILFE 
+| 1gnh | E | albelig | 9 | 9 | E | 922 | 929 | E-94-  | E-101-  | VHIETSWE 
+| 1gnh | E | albelig | 10 | 10 | E | 934 | 939 | E-106-  | E-111-  | IVEFWV 
+| 1gnh | E | albelig | 11 | 11 | E | 960 | 963 | E-132-  | E-135-  | SIIL 
+| 1gnh | E | albelig | 12 | 12 | H | 976 | 978 | E-148-  | E-150-  | GSQ 
+| 1gnh | E | albelig | 13 | 13 | E | 982 | 990 | E-154-  | E-162-  | GDIGNVNMW 
+| 1gnh | E | albelig | 14 | 14 | H | 996 | 1004 | E-168-  | E-176-  | PDEINTIYL 
+| 1gnh | E | albelig | 15 | 15 | H | 1015 | 1017 | E-187-  | E-189-  | WRA 
+| 1gnh | E | albelig | 16 | 16 | E | 1020 | 1023 | E-192-  | E-195-  | YEVQ 
+| 1gnh | E | albelig | 17 | 17 | E | 1027 | 1030 | E-199-  | E-202-  | FTKP 
+| 1gnh | E | albelig | 18 | 18 | L | 2076 | 2076 | E-501-  | E-501-  | J 
+| 1gnh | E | albelig | 19 | 19 | L | 2077 | 2077 | E-502-  | E-502-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 13
+= 1 = a = 17
+= 2 = a = 11
+= 2 = a = 16
+= 3 = a = 9
+= 3 = a = 13
+= 5 = a = 6
+= 5 = a = 11
+= 5 = m = 12
+= 6 = a = 7
+= 7 = a = 8
+= 9 = a = 10
+= 12 = l = 19
+= 13 = m = 15
+= 18 = l = 19
+# Listed 15 contacts. EOF.

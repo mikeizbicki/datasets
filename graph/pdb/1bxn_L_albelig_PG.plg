@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bxn, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE (CARBON-CARBON), LYASE
+> pdb_mol_name > PROTEIN (RIBULOSE BISPHOSPHATE CARBOXYLASE SMALL CHAIN)
+> graphtype > albelig
+> resolution > 2.7
+> date > 06-OCT-98
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF RUBISCO FROM ALCALIGENES EUTROPHUS TO 2.7ANGSTROMS.
+> format_version > 2
+> pdbid > 1bxn
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > CUPRIAVIDUS NECATOR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bxn | L | albelig | 1 | 1 | H | 2190 | 2203 | L-16-  | L-29-  | DEQITKQLEYCLNQ 
+| 1bxn | L | albelig | 2 | 2 | E | 2206 | 2212 | L-32-  | L-38-  | AVGLEYT 
+| 1bxn | L | albelig | 3 | 3 | H | 2235 | 2248 | L-61-  | L-74-  | AAGILMEINNARNT 
+| 1bxn | L | albelig | 4 | 4 | E | 2253 | 2260 | L-79-  | L-86-  | YIRVTAFD 
+| 1bxn | L | albelig | 5 | 5 | E | 2265 | 2271 | L-91-  | L-97-  | VESVVMS 
+| 1bxn | L | albelig | 6 | 6 | H | 2276 | 2278 | L-102-  | L-104-  | RPA 
+| 1bxn | L | albelig | 7 | 7 | E | 2284 | 2289 | L-110-  | L-115-  | RLVRQE 
+| 1bxn | L | albelig | 8 | 8 | E | 2295 | 2300 | L-121-  | L-126-  | LRYSIE 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 4
+= 4 = a = 5
+= 7 = a = 8
+# Listed 4 contacts. EOF.

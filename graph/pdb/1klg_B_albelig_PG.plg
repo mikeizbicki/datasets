@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1klg, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HLA-DR1/TPI, ENTEROTOXIN C3, HUMAN MELANOMA ANTIGEN, CD4+ TCELLS, IMMUNE SYSTEM/TOXIN COMPLEX
+> pdb_mol_name > HLA CLASS II HISTOCOMPATIBILITY ANTIGEN, DR-1
+> graphtype > albelig
+> resolution > 2.4
+> date > 11-DEC-01
+> header > IMMUNE SYSTEM/TOXIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HLA-DR1/TPI(23-37, THR28-->ILE MUTANT)COMPLEXED WITH STAPHYLOCOCCAL ENTEROTOXIN C3 VARIANT 3B2(SEC3-3B2)
+> format_version > 2
+> pdbid > 1klg
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1klg | B | albelig | 1 | 1 | E | 185 | 196 | B-7-  | B-18-  | FLWQLKFENHFF 
+| 1klg | B | albelig | 2 | 2 | E | 201 | 209 | B-23-  | B-31-  | RVRLLERCI 
+| 1klg | B | albelig | 3 | 3 | E | 214 | 219 | B-36-  | B-41-  | ESVRFD 
+| 1klg | B | albelig | 4 | 4 | E | 225 | 227 | B-47-  | B-49-  | YRA 
+| 1klg | B | albelig | 5 | 5 | H | 230 | 240 | B-52-  | B-62-  | ELGRPDAEYWN 
+| 1klg | B | albelig | 6 | 6 | H | 243 | 258 | B-65-  | B-80-  | KDLLEQRRAAVDTYNR 
+| 1klg | B | albelig | 7 | 7 | H | 259 | 267 | B-81-  | B-89-  | HNYGVGESF 
+| 1klg | B | albelig | 8 | 8 | E | 276 | 281 | B-98-  | B-103-  | KVTVYP 
+| 1klg | B | albelig | 9 | 9 | E | 289 | 298 | B-113-  | B-122-  | NLLVCSVSGF 
+| 1klg | B | albelig | 10 | 10 | E | 304 | 309 | B-128-  | B-133-  | EVRWFR 
+| 1klg | B | albelig | 11 | 11 | E | 318 | 320 | B-142-  | B-144-  | VVS 
+| 1klg | B | albelig | 12 | 12 | E | 331 | 339 | B-155-  | B-163-  | FQTLVMLET 
+| 1klg | B | albelig | 13 | 13 | E | 346 | 352 | B-170-  | B-176-  | VYTCQVE 
+| 1klg | B | albelig | 14 | 14 | E | 360 | 365 | B-184-  | B-189-  | LTVEWR 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = a = 3
+= 2 = m = 6
+= 3 = a = 4
+= 4 = m = 5
+= 5 = m = 6
+= 8 = a = 9
+= 9 = a = 12
+= 9 = p = 13
+= 10 = p = 12
+= 10 = a = 13
+= 11 = a = 12
+= 13 = a = 14
+# Listed 14 contacts. EOF.

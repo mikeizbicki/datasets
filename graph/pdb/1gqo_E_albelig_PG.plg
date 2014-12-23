@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gqo, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DEHYDRATASE, LYASE
+> pdb_mol_name > DEHYDROQUINASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 28-NOV-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > TYPE II DEHYDROQUINASE FROM BACILLUS SUBTILIS
+> format_version > 2
+> pdbid > 1gqo
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gqo | E | albelig | 1 | 1 | E | 574 | 579 | E-2-  | E-7-  | HFLILN 
+| 1gqo | E | albelig | 2 | 2 | H | 583 | 585 | E-11-  | E-13-  | VNR 
+| 1gqo | E | albelig | 3 | 3 | H | 599 | 612 | E-27-  | E-40-  | LTDIETDLFQFAEA 
+| 1gqo | E | albelig | 4 | 4 | E | 616 | 621 | E-44-  | E-49-  | QLTFFQ 
+| 1gqo | E | albelig | 5 | 5 | H | 625 | 635 | E-53-  | E-63-  | EGDLIDAIHEA 
+| 1gqo | E | albelig | 6 | 6 | E | 642 | 645 | E-70-  | E-73-  | IVLN 
+| 1gqo | E | albelig | 7 | 7 | H | 647 | 651 | E-75-  | E-79-  | GALSH 
+| 1gqo | E | albelig | 8 | 8 | H | 654 | 661 | E-82-  | E-89-  | YAIRDAVS 
+| 1gqo | E | albelig | 9 | 9 | E | 667 | 671 | E-95-  | E-99-  | VVEVH 
+| 1gqo | E | albelig | 10 | 10 | H | 675 | 677 | E-103-  | E-105-  | LYA 
+| 1gqo | E | albelig | 11 | 11 | H | 680 | 683 | E-108-  | E-111-  | EFRH 
+| 1gqo | E | albelig | 12 | 12 | H | 688 | 690 | E-116-  | E-118-  | APV 
+| 1gqo | E | albelig | 13 | 13 | E | 693 | 696 | E-121-  | E-124-  | GQIV 
+| 1gqo | E | albelig | 14 | 14 | H | 701 | 712 | E-129-  | E-140-  | EGYKLAVRYLLS 
+| 1gqo | E | albelig | 15 | 15 | L | 3400 | 3400 | E-150-  | E-150-  | J 
+| 1gqo | E | albelig | 16 | 16 | L | 3401 | 3401 | E-151-  | E-151-  | J 
+| 1gqo | E | albelig | 17 | 17 | L | 3402 | 3402 | E-152-  | E-152-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = l = 17
+= 3 = m = 4
+= 3 = m = 14
+= 5 = m = 8
+= 6 = p = 9
+= 6 = m = 14
+= 6 = l = 15
+= 7 = l = 15
+= 8 = m = 12
+= 9 = p = 13
+= 9 = l = 15
+= 10 = m = 11
+= 10 = l = 15
+= 11 = l = 15
+= 12 = l = 16
+= 15 = l = 17
+# Listed 18 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bye, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUTATHIONE S-TRANSFERASE, HERBICIDE
+> pdb_mol_name > PROTEIN (GLUTATHIONE S-TRANSFERASE)
+> graphtype > albelig
+> resolution > 2.8
+> date > 14-OCT-98
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > GLUTATHIONE S-TRANSFERASE I FROM MAIS IN COMPLEX WITHATRAZINE GLUTATHIONE CONJUGATE
+> format_version > 2
+> pdbid > 1bye
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ZEA MAYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bye | D | albelig | 1 | 1 | E | 645 | 648 | D-3-  | D-6-  | MKLY 
+| 1bye | D | albelig | 2 | 2 | H | 656 | 665 | D-14-  | D-23-  | LTRCATALEE 
+| 1bye | D | albelig | 3 | 3 | E | 670 | 673 | D-28-  | D-31-  | YEIV 
+| 1bye | D | albelig | 4 | 4 | H | 681 | 683 | D-39-  | D-41-  | EHK 
+| 1bye | D | albelig | 5 | 5 | H | 685 | 690 | D-43-  | D-48-  | PEHLVR 
+| 1bye | D | albelig | 6 | 6 | E | 698 | 701 | D-56-  | D-59-  | ALQD 
+| 1bye | D | albelig | 7 | 7 | E | 704 | 707 | D-62-  | D-65-  | LYLF 
+| 1bye | D | albelig | 8 | 8 | H | 711 | 715 | D-69-  | D-73-  | AICKY 
+| 1bye | D | albelig | 9 | 9 | H | 733 | 736 | D-91-  | D-94-  | AAMV 
+| 1bye | D | albelig | 10 | 10 | H | 742 | 746 | D-100-  | D-104-  | VEANQ 
+| 1bye | D | albelig | 11 | 11 | H | 748 | 750 | D-106-  | D-108-  | TAA 
+| 1bye | D | albelig | 12 | 12 | H | 753 | 760 | D-111-  | D-118-  | PILFQVLI 
+| 1bye | D | albelig | 13 | 13 | H | 761 | 764 | D-119-  | D-122-  | SPML 
+| 1bye | D | albelig | 14 | 14 | H | 771 | 793 | D-129-  | D-151-  | KVVDENLEKLKKVLEVYEARLTK 
+| 1bye | D | albelig | 15 | 15 | H | 804 | 807 | D-162-  | D-165-  | LADL 
+| 1bye | D | albelig | 16 | 16 | H | 810 | 818 | D-168-  | D-176-  | VSVTLCLFA 
+| 1bye | D | albelig | 17 | 17 | H | 820 | 823 | D-178-  | D-181-  | PYAS 
+| 1bye | D | albelig | 18 | 18 | H | 825 | 827 | D-183-  | D-185-  | LDA 
+| 1bye | D | albelig | 19 | 19 | H | 829 | 838 | D-187-  | D-196-  | PHVKAWWSGL 
+| 1bye | D | albelig | 20 | 20 | H | 844 | 847 | D-202-  | D-205-  | VQKV 
+| 1bye | D | albelig | 21 | 21 | L | 859 | 859 | D-1004-  | D-1004-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 1 = a = 6
+= 2 = m = 8
+= 2 = l = 21
+= 4 = l = 21
+= 6 = a = 7
+= 12 = m = 13
+= 12 = m = 14
+= 12 = l = 21
+= 13 = l = 21
+= 14 = m = 19
+= 16 = m = 19
+# Listed 13 contacts. EOF.

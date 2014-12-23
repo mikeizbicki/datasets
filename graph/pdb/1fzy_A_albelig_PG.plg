@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fzy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-BETA ROLL, LIGASE
+> pdb_mol_name > UBIQUITIN-CONJUGATING ENZYME E2-24 KDA
+> graphtype > albelig
+> resolution > 1.9
+> date > 04-OCT-00
+> header > LIGASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF SACCHAROMYCES CEREVISIAE UBIQUITINCONJUGATING ENZYME 1
+> format_version > 2
+> pdbid > 1fzy
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fzy | A | albelig | 1 | 1 | H | 2 | 14 | A-3-  | A-15-  | RAKRIMKEIQAVK 
+| 1fzy | A | albelig | 2 | 2 | H | 17 | 19 | A-18-  | A-20-  | PAA 
+| 1fzy | A | albelig | 3 | 3 | E | 21 | 25 | A-22-  | A-26-  | ITLEF 
+| 1fzy | A | albelig | 4 | 4 | E | 33 | 39 | A-34-  | A-40-  | HLKGTFL 
+| 1fzy | A | albelig | 5 | 5 | E | 50 | 56 | A-51-  | A-57-  | KFVVDIE 
+| 1fzy | A | albelig | 6 | 6 | E | 67 | 70 | A-68-  | A-71-  | KMQF 
+| 1fzy | A | albelig | 7 | 7 | H | 89 | 91 | A-90-  | A-92-  | DIL 
+| 1fzy | A | albelig | 8 | 8 | H | 101 | 113 | A-102-  | A-114-  | LKSALISLQALLQ 
+| 1fzy | A | albelig | 9 | 9 | H | 123 | 131 | A-124-  | A-132-  | AEVAQHYLR 
+| 1fzy | A | albelig | 10 | 10 | H | 133 | 147 | A-134-  | A-148-  | RESFNKTAALWTRLY 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 3 = a = 4
+= 4 = a = 5
+= 4 = m = 8
+= 5 = a = 6
+= 9 = m = 10
+# Listed 6 contacts. EOF.

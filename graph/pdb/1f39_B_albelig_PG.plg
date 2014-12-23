@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f39, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COOPERATIVE OPERATOR BINDING, RECA-MEDIATED SELF-CLEAVAGE,GENE REGULATION, VIRAL PROTEIN
+> pdb_mol_name > REPRESSOR PROTEIN CI
+> graphtype > albelig
+> resolution > 1.9
+> date > 01-JUN-00
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE LAMBDA REPRESSOR C-TERMINAL DOMAIN
+> format_version > 2
+> pdbid > 1f39
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE LAMBDA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f39 | B | albelig | 1 | 1 | E | 108 | 111 | B-141-  | B-144-  | FWLE 
+| 1f39 | B | albelig | 2 | 2 | E | 132 | 136 | B-165-  | B-169-  | LILVD 
+| 1f39 | B | albelig | 3 | 3 | E | 146 | 150 | B-179-  | B-183-  | FCIAR 
+| 1f39 | B | albelig | 4 | 4 | E | 156 | 164 | B-189-  | B-197-  | FTFKKLIRD 
+| 1f39 | B | albelig | 5 | 5 | E | 167 | 171 | B-200-  | B-204-  | QVFLQ 
+| 1f39 | B | albelig | 6 | 6 | E | 187 | 196 | B-220-  | B-229-  | SVVGKVIASQ 
+| 1f39 | B | albelig | 7 | 7 | H | 199 | 202 | B-232-  | B-235-  | EETF 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 6
+= 3 = a = 4
+= 3 = a = 6
+= 4 = a = 5
+# Listed 5 contacts. EOF.

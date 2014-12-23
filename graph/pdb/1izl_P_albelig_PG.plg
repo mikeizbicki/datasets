@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1izl, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOTOSYNTHESIS, PHOTOSYNTHETIC REACTION CENTER, CORE-ANTENNA,THERMOPHILIC CYANOBACTERIUM, MEMBRANE PROTEIN COMPLEX, ELECTRONTRANSFER, ENERGY TRANSFER
+> pdb_mol_name > PHOTOSYSTEM II: SUBUNIT PSBE
+> graphtype > albelig
+> resolution > 3.7
+> date > 04-OCT-02
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PHOTOSYSTEM II
+> format_version > 2
+> pdbid > 1izl
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > THERMOSYNECHOCOCCUS ELONGATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1izl | P | albelig | 1 | 1 | H | 3258 | 3261 | P-26-  | P-29-  | IPAL 
+| 1izl | P | albelig | 2 | 2 | H | 3268 | 3271 | P-36-  | P-39-  | FVST 
+| 1izl | P | albelig | 3 | 3 | L | 3912 | 3912 | P-92-  | P-92-  | J 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 3
+# Listed 1 contacts. EOF.

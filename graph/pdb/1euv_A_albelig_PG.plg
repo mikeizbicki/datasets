@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1euv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SUMO HYDROLASE, UBIQUITIN-LIKE PROTEASE 1, SMT3 HYDROLASEDESUMOYLATING ENZYME, CYSTEINE PROTEASE, SUMO PROCESSINGENZYME, SMT3 PROCESSING ENZYME, NABH4, THIOHEMIACETAL,COVALENT PROTEASE ADDUCT
+> pdb_mol_name > ULP1 PROTEASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 17-APR-00
+> header > HYDROLASE
+> pdb_org_common > BAKER'S YEAST
+> title > X-RAY STRUCTURE OF THE C-TERMINAL ULP1 PROTEASE DOMAIN INCOMPLEX WITH SMT3, THE YEAST ORTHOLOG OF SUMO.
+> format_version > 2
+> pdbid > 1euv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1euv | A | albelig | 1 | 1 | H | 9 | 19 | A-409-  | A-419-  | EKDDDQVQKAL 
+| 1euv | A | albelig | 2 | 2 | E | 26 | 30 | A-426-  | A-430-  | QLMNR 
+| 1euv | A | albelig | 3 | 3 | E | 33 | 36 | A-433-  | A-436-  | IEIT 
+| 1euv | A | albelig | 4 | 4 | H | 37 | 43 | A-437-  | A-443-  | VRDFKTL 
+| 1euv | A | albelig | 5 | 5 | H | 51 | 64 | A-451-  | A-464-  | DTIIEFFMKYIEKS 
+| 1euv | A | albelig | 6 | 6 | E | 68 | 70 | A-468-  | A-470-  | TVA 
+| 1euv | A | albelig | 7 | 7 | H | 74 | 82 | A-474-  | A-482-  | FFYTNLSER 
+| 1euv | A | albelig | 8 | 8 | H | 84 | 86 | A-484-  | A-486-  | YQG 
+| 1euv | A | albelig | 9 | 9 | H | 92 | 94 | A-492-  | A-494-  | KRK 
+| 1euv | A | albelig | 10 | 10 | H | 98 | 100 | A-498-  | A-500-  | IDK 
+| 1euv | A | albelig | 11 | 11 | E | 103 | 110 | A-503-  | A-510-  | KIFTPINL 
+| 1euv | A | albelig | 12 | 12 | E | 114 | 121 | A-514-  | A-521-  | HWALGIID 
+| 1euv | A | albelig | 13 | 13 | E | 126 | 130 | A-526-  | A-530-  | TIGYV 
+| 1euv | A | albelig | 14 | 14 | H | 139 | 155 | A-539-  | A-555-  | AMSFAILTDLQKYVMEE 
+| 1euv | A | albelig | 15 | 15 | E | 165 | 169 | A-565-  | A-569-  | DLIHL 
+| 1euv | A | albelig | 16 | 16 | H | 180 | 192 | A-580-  | A-592-  | CGIYVCMNTLYGS 
+| 1euv | A | albelig | 17 | 17 | H | 201 | 216 | A-601-  | A-616-  | YKDAIRMRRFIAHLIL 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 17
+= 2 = a = 3
+= 3 = m = 4
+= 4 = m = 17
+= 5 = m = 6
+= 5 = p = 16
+= 5 = m = 17
+= 6 = p = 11
+= 7 = m = 14
+= 11 = a = 12
+= 11 = m = 16
+= 12 = a = 13
+= 12 = m = 16
+= 13 = m = 14
+= 13 = p = 15
+= 16 = m = 17
+# Listed 17 contacts. EOF.

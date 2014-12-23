@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gwc, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, GLUTATHIONE S-TRANSFERASE, HERBICIDEDETOXIFICATION, PLANT, TAU CLASS
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE TSI-1
+> graphtype > albelig
+> resolution > 2.25
+> date > 14-MAR-02
+> header > TRANSFERASE
+> pdb_org_common > BREAD WHEAT
+> title > THE STRUCTURE OF A TAU CLASS GLUTATHIONE S-TRANSFERASE FROMWHEAT, ACTIVE IN HERBICIDE DETOXIFICATION
+> format_version > 2
+> pdbid > 1gwc
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > AEGILOPS TAUSCHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gwc | B | albelig | 1 | 1 | E | 226 | 230 | B-7-  | B-11-  | LKLLG 
+| 1gwc | B | albelig | 2 | 2 | H | 235 | 247 | B-16-  | B-28-  | PFVTRVKLALALK 
+| 1gwc | B | albelig | 3 | 3 | E | 252 | 255 | B-33-  | B-36-  | EDVE 
+| 1gwc | B | albelig | 4 | 4 | H | 263 | 268 | B-44-  | B-49-  | ELLLKS 
+| 1gwc | B | albelig | 5 | 5 | E | 277 | 280 | B-58-  | B-61-  | VLIH 
+| 1gwc | B | albelig | 6 | 6 | E | 283 | 286 | B-64-  | B-67-  | APVC 
+| 1gwc | B | albelig | 7 | 7 | H | 288 | 298 | B-69-  | B-79-  | SMIILQYIDEV 
+| 1gwc | B | albelig | 8 | 8 | H | 311 | 329 | B-92-  | B-110-  | PYERAIARFWVAYVDDKLV 
+| 1gwc | B | albelig | 9 | 9 | H | 330 | 337 | B-111-  | B-118-  | APWRQWLR 
+| 1gwc | B | albelig | 10 | 10 | H | 341 | 366 | B-122-  | B-147-  | EEEKSEGKKQAFAAVGVLEGALRECS 
+| 1gwc | B | albelig | 11 | 11 | H | 379 | 385 | B-160-  | B-166-  | LVDVALG 
+| 1gwc | B | albelig | 12 | 12 | H | 388 | 398 | B-169-  | B-179-  | LSWMKVTEALS 
+| 1gwc | B | albelig | 13 | 13 | H | 409 | 419 | B-190-  | B-200-  | PLLAAWVERFI 
+| 1gwc | B | albelig | 14 | 14 | H | 422 | 427 | B-203-  | B-208-  | DAAKAA 
+| 1gwc | B | albelig | 15 | 15 | H | 431 | 442 | B-212-  | B-223-  | VGRLLEFAKARE 
+| 1gwc | B | albelig | 16 | 16 | L | 669 | 669 | B-1225-  | B-1225-  | J 
+| 1gwc | B | albelig | 17 | 17 | L | 670 | 670 | B-1226-  | B-1226-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 2 = p = 7
+= 2 = a = 14
+= 2 = l = 16
+= 5 = a = 6
+= 7 = l = 16
+= 8 = m = 9
+= 8 = a = 10
+= 9 = m = 10
+= 9 = m = 12
+= 9 = l = 16
+= 9 = l = 17
+= 10 = m = 13
+= 11 = m = 13
+= 12 = m = 15
+= 12 = l = 16
+= 15 = l = 16
+= 16 = l = 17
+# Listed 19 contacts. EOF.

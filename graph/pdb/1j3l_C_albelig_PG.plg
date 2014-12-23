@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j3l, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VITAMINE K2, STRUCTURAL GENOMICS, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, TRANSFERASE
+> pdb_mol_name > DEMETHYLMENAQUINONE METHYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 04-FEB-03
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE RNA-PROCESSING INHIBITOR RRAA FROM THERMUSTHERMOPHILIS
+> format_version > 2
+> pdbid > 1j3l
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j3l | C | albelig | 1 | 1 | H | 335 | 341 | C-5-  | C-11-  | TTDLSDL 
+| 1j3l | C | albelig | 2 | 2 | E | 346 | 348 | C-16-  | C-18-  | EAL 
+| 1j3l | C | albelig | 3 | 3 | E | 361 | 369 | C-31-  | C-39-  | FAGRVRTLR 
+| 1j3l | C | albelig | 4 | 4 | H | 375 | 382 | C-45-  | C-52-  | ALVRKVLE 
+| 1j3l | C | albelig | 5 | 5 | E | 389 | 393 | C-59-  | C-63-  | VLFVD 
+| 1j3l | C | albelig | 6 | 6 | H | 405 | 413 | C-75-  | C-83-  | GNLARRAWE 
+| 1j3l | C | albelig | 7 | 7 | E | 418 | 425 | C-88-  | C-95-  | GVVVHGAV 
+| 1j3l | C | albelig | 8 | 8 | H | 428 | 431 | C-98-  | C-101-  | TEEL 
+| 1j3l | C | albelig | 9 | 9 | E | 437 | 443 | C-107-  | C-113-  | GLLALAA 
+| 1j3l | C | albelig | 10 | 10 | E | 460 | 462 | C-130-  | C-132-  | LKV 
+| 1j3l | C | albelig | 11 | 11 | E | 465 | 467 | C-135-  | C-137-  | VEV 
+| 1j3l | C | albelig | 12 | 12 | E | 472 | 476 | C-142-  | C-146-  | FLLAD 
+| 1j3l | C | albelig | 13 | 13 | E | 479 | 483 | C-149-  | C-153-  | GLLLL 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 13
+= 2 = a = 11
+= 2 = a = 13
+= 3 = p = 5
+= 3 = a = 12
+= 4 = m = 6
+= 5 = p = 7
+= 7 = p = 9
+= 10 = a = 11
+= 12 = a = 13
+# Listed 10 contacts. EOF.

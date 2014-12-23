@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h31, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, SULFUR CYCLE, SOXAX COMPLEX, THIOSULFATEOXIDATION, CYSTEINE PERSULFIDE HEME LIGAND
+> pdb_mol_name > CYTOCHROME C
+> graphtype > albelig
+> resolution > 2.55
+> date > 21-AUG-02
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > OXIDISED SOXAX COMPLEX FROM RHODOVULUM SULFIDOPHILUM
+> format_version > 2
+> pdbid > 1h31
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RHODOVULUM SULFIDOPHILUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h31 | B | albelig | 1 | 1 | H | 267 | 269 | B-5-  | B-7-  | PGD 
+| 1h31 | B | albelig | 2 | 2 | H | 289 | 295 | B-27-  | B-33-  | PVEGRRL 
+| 1h31 | B | albelig | 3 | 3 | H | 304 | 306 | B-42-  | B-44-  | CIA 
+| 1h31 | B | albelig | 4 | 4 | H | 329 | 332 | B-67-  | B-70-  | VAAR 
+| 1h31 | B | albelig | 5 | 5 | H | 335 | 348 | B-73-  | B-86-  | EAMIRGILVNSKNV 
+| 1h31 | B | albelig | 6 | 6 | H | 385 | 395 | B-123-  | B-133-  | AGQIEDVVAYL 
+| 1h31 | B | albelig | 7 | 7 | L | 1610 | 1610 | B-1139-  | B-1139-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 6
+= 3 = l = 7
+= 4 = l = 7
+= 5 = m = 6
+= 5 = l = 7
+= 6 = l = 7
+# Listed 6 contacts. EOF.

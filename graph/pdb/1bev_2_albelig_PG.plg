@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bev, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COAT PROTEIN, BOVINE ENTEROVIRUS VG-5-27, PICORNAVIRUS,ICOSAHEDRAL VIRUS
+> pdb_mol_name > BOVINE ENTEROVIRUS COAT PROTEINS VP1 TO VP4
+> graphtype > albelig
+> resolution > 3.0
+> date > 03-APR-96
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > BOVINE ENTEROVIRUS VG-5-27
+> format_version > 2
+> pdbid > 1bev
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > BOVINE ENTEROVIRUS (STRAIN VG-5-27)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bev | 2 | albelig | 1 | 1 | E | 279 | 283 | 2-14-  | 2-18-  | AQLTL 
+| 1bev | 2 | albelig | 2 | 2 | E | 286 | 290 | 2-21-  | 2-25-  | STITT 
+| 1bev | 2 | albelig | 3 | 3 | H | 299 | 301 | 2-34-  | 2-36-  | AYG 
+| 1bev | 2 | albelig | 4 | 4 | H | 322 | 324 | 2-57-  | 2-59-  | GVS 
+| 1bev | 2 | albelig | 5 | 5 | E | 343 | 347 | 2-78-  | 2-82-  | WYWKL 
+| 1bev | 2 | albelig | 6 | 6 | H | 349 | 351 | 2-84-  | 2-86-  | DAL 
+| 1bev | 2 | albelig | 7 | 7 | H | 355 | 363 | 2-90-  | 2-98-  | GMFGQNAQF 
+| 1bev | 2 | albelig | 8 | 8 | E | 364 | 376 | 2-99-  | 2-111-  | HYLYRGGWAVHVQ 
+| 1bev | 2 | albelig | 9 | 9 | E | 383 | 393 | 2-118-  | 2-128-  | HQGTLLVLAIP 
+| 1bev | 2 | albelig | 10 | 10 | H | 405 | 408 | 2-140-  | 2-143-  | FDRT 
+| 1bev | 2 | albelig | 11 | 11 | H | 411 | 413 | 2-146-  | 2-148-  | GSE 
+| 1bev | 2 | albelig | 12 | 12 | H | 420 | 422 | 2-155-  | 2-157-  | PFW 
+| 1bev | 2 | albelig | 13 | 13 | H | 430 | 434 | 2-165-  | 2-169-  | GNSLI 
+| 1bev | 2 | albelig | 14 | 14 | E | 437 | 441 | 2-172-  | 2-176-  | HQWIN 
+| 1bev | 2 | albelig | 15 | 15 | E | 447 | 452 | 2-182-  | 2-187-  | SATLIL 
+| 1bev | 2 | albelig | 16 | 16 | E | 469 | 481 | 2-204-  | 2-216-  | WTLAIIPVAPLKY 
+| 1bev | 2 | albelig | 17 | 17 | E | 490 | 505 | 2-225-  | 2-240-  | PITVTIAPMETEYNGL 
+| 1bev | 2 | albelig | 18 | 18 | L | 800 | 800 | 2-950-  | 2-950-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 5 = m = 6
+= 5 = a = 16
+= 6 = l = 18
+= 7 = a = 8
+= 7 = p = 17
+= 8 = a = 15
+= 8 = a = 17
+= 9 = a = 14
+= 9 = a = 16
+= 11 = l = 18
+= 14 = a = 15
+# Listed 12 contacts. EOF.

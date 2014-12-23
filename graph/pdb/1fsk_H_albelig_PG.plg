@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fsk, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BET V 1, BV16 FAB FRAGMENT, ANTIBODY ALLERGEN COMPLEX,IMMUNE SYSTEM
+> pdb_mol_name > IMMUNOGLOBULIN KAPPA LIGHT CHAIN
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-SEP-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > COMPLEX FORMATION BETWEEN A FAB FRAGMENT OF A MONOCLONALIGG ANTIBODY AND THE MAJOR ALLERGEN FROM BIRCH POLLEN BETV 1
+> format_version > 2
+> pdbid > 1fsk
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fsk | H | albelig | 1 | 1 | E | 1356 | 1359 | H-4-  | H-7-  | LTQS 
+| 1fsk | H | albelig | 2 | 2 | E | 1362 | 1366 | H-10-  | H-14-  | SMSVS 
+| 1fsk | H | albelig | 3 | 3 | E | 1371 | 1377 | H-19-  | H-25-  | VTLSIKA 
+| 1fsk | H | albelig | 4 | 4 | E | 1385 | 1390 | H-33-  | H-38-  | VFWFQQ 
+| 1fsk | H | albelig | 5 | 5 | E | 1398 | 1400 | H-46-  | H-48-  | LLL 
+| 1fsk | H | albelig | 6 | 6 | E | 1414 | 1419 | H-62-  | H-67-  | FTGSGS 
+| 1fsk | H | albelig | 7 | 7 | E | 1422 | 1427 | H-70-  | H-75-  | DFTLTI 
+| 1fsk | H | albelig | 8 | 8 | E | 1436 | 1442 | H-84-  | H-90-  | ADYHIGQ 
+| 1fsk | H | albelig | 9 | 9 | E | 1454 | 1459 | H-102-  | H-107-  | TKLEIK 
+| 1fsk | H | albelig | 10 | 10 | E | 1467 | 1470 | H-115-  | H-118-  | VSIF 
+| 1fsk | H | albelig | 11 | 11 | H | 1474 | 1477 | H-122-  | H-125-  | SEQL 
+| 1fsk | H | albelig | 12 | 12 | E | 1481 | 1491 | H-129-  | H-139-  | GASVVJFLNNF 
+| 1fsk | H | albelig | 13 | 13 | E | 1497 | 1502 | H-145-  | H-150-  | NVKWKI 
+| 1fsk | H | albelig | 14 | 14 | E | 1505 | 1507 | H-153-  | H-155-  | SER 
+| 1fsk | H | albelig | 15 | 15 | E | 1525 | 1534 | H-173-  | H-182-  | YSMSSTLTLT 
+| 1fsk | H | albelig | 16 | 16 | H | 1535 | 1539 | H-183-  | H-187-  | KDEYE 
+| 1fsk | H | albelig | 17 | 17 | E | 1543 | 1549 | H-191-  | H-197-  | SYTJEAT 
+| 1fsk | H | albelig | 18 | 18 | E | 1557 | 1562 | H-205-  | H-210-  | IVKSFN 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 2 = p = 9
+= 3 = a = 7
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+= 10 = a = 12
+= 10 = p = 18
+= 11 = m = 12
+= 12 = a = 13
+= 12 = a = 15
+= 12 = m = 16
+= 12 = p = 17
+= 13 = a = 14
+= 13 = p = 15
+= 13 = a = 17
+= 15 = m = 16
+= 17 = a = 18
+# Listed 21 contacts. EOF.

@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1it9, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, FAB, ANTI_FAS, AGONISTIC_ANTIBODY,APOPTOSIS, ANTIBODY_HUMANIZATION, IMMUNE SYSTEM
+> pdb_mol_name > HUMANIZED ANTIBODY HFE7A, HEAVY CHAIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 11-JAN-02
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE, HUMAN
+> title > CRYSTAL STRUCTURE OF AN ANTIGEN-BINDING FRAGMENT FROM AHUMANIZED VERSION OF THE ANTI-HUMAN FAS ANTIBODY HFE7A
+> format_version > 2
+> pdbid > 1it9
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS, HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1it9 | H | albelig | 1 | 1 | E | 218 | 221 | H-3-  | H-6-  | QLVQ 
+| 1it9 | H | albelig | 2 | 2 | E | 225 | 227 | H-10-  | H-12-  | EVK 
+| 1it9 | H | albelig | 3 | 3 | E | 232 | 240 | H-17-  | H-25-  | SVKVSCKAS 
+| 1it9 | H | albelig | 4 | 4 | H | 244 | 246 | H-29-  | H-31-  | FTS 
+| 1it9 | H | albelig | 5 | 5 | E | 249 | 254 | H-34-  | H-39-  | MQWVKQ 
+| 1it9 | H | albelig | 6 | 6 | E | 260 | 267 | H-45-  | H-52-  | LEWMGEID 
+| 1it9 | H | albelig | 7 | 7 | E | 272 | 275 | H-57-  | H-60-  | YTNY 
+| 1it9 | H | albelig | 8 | 8 | E | 283 | 288 | H-68-  | H-73-  | ATLTVD 
+| 1it9 | H | albelig | 9 | 9 | E | 293 | 299 | H-78-  | H-84-  | TAYMELS 
+| 1it9 | H | albelig | 10 | 10 | H | 303 | 305 | H-88-  | H-90-  | SED 
+| 1it9 | H | albelig | 11 | 11 | E | 307 | 317 | H-92-  | H-102-  | AVYYCARNRDY 
+| 1it9 | H | albelig | 12 | 12 | E | 320 | 326 | H-105-  | H-111-  | NWYFDVW 
+| 1it9 | H | albelig | 13 | 13 | E | 330 | 334 | H-115-  | H-119-  | TLVTV 
+| 1it9 | H | albelig | 14 | 14 | E | 343 | 346 | H-128-  | H-131-  | SVFP 
+| 1it9 | H | albelig | 15 | 15 | E | 358 | 360 | H-143-  | H-145-  | TAA 
+| 1it9 | H | albelig | 16 | 16 | E | 363 | 366 | H-148-  | H-151-  | DLVK 
+| 1it9 | H | albelig | 17 | 17 | E | 374 | 377 | H-159-  | H-162-  | TVSW 
+| 1it9 | H | albelig | 18 | 18 | E | 386 | 393 | H-171-  | H-178-  | VHTFPAVL 
+| 1it9 | H | albelig | 19 | 19 | E | 399 | 408 | H-184-  | H-193-  | YSLSSVVTVP 
+| 1it9 | H | albelig | 20 | 20 | H | 409 | 412 | H-194-  | H-197-  | SSSL 
+| 1it9 | H | albelig | 21 | 21 | E | 418 | 423 | H-203-  | H-208-  | IDNVNH 
+| 1it9 | H | albelig | 22 | 22 | E | 428 | 433 | H-213-  | H-218-  | TKVDKK 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 11
+= 2 = p = 13
+= 3 = a = 9
+= 5 = a = 6
+= 5 = a = 11
+= 6 = a = 7
+= 6 = p = 8
+= 7 = a = 8
+= 8 = a = 9
+= 11 = a = 12
+= 11 = a = 13
+= 14 = a = 16
+= 15 = a = 19
+= 16 = a = 19
+= 17 = p = 19
+= 17 = a = 21
+= 18 = a = 19
+= 19 = m = 20
+= 21 = a = 22
+# Listed 20 contacts. EOF.

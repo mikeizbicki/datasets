@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fzg, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLOOD COAGULATION, PLASMA, PLATELET, FIBRINOGEN, FIBRIN
+> pdb_mol_name > FIBRINOGEN
+> graphtype > albelig
+> resolution > 2.5
+> date > 01-JAN-99
+> header > BLOOD COAGULATION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF FRAGMENT D FROM HUMAN FIBRINOGEN WITH THE PEPTIDELIGAND GLY-HIS-ARG-PRO-AMIDE
+> format_version > 2
+> pdbid > 1fzg
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fzg | E | albelig | 1 | 1 | H | 720 | 745 | E-167-  | E-192-  | VLRSILENLRSKIQKLESDVSAQMEY 
+| 1fzg | E | albelig | 2 | 2 | H | 764 | 769 | E-211-  | E-216-  | MEEIIR 
+| 1fzg | E | albelig | 3 | 3 | E | 776 | 780 | E-223-  | E-227-  | EMYLI 
+| 1fzg | E | albelig | 4 | 4 | E | 789 | 794 | E-236-  | E-241-  | YRVYMD 
+| 1fzg | E | albelig | 5 | 5 | H | 797 | 799 | E-244-  | E-246-  | TEN 
+| 1fzg | E | albelig | 6 | 6 | E | 802 | 808 | E-249-  | E-255-  | WTVIQNR 
+| 1fzg | E | albelig | 7 | 7 | H | 819 | 824 | E-266-  | E-271-  | WDPYKQ 
+| 1fzg | E | albelig | 8 | 8 | H | 849 | 857 | E-296-  | E-304-  | NDKISQLTR 
+| 1fzg | E | albelig | 9 | 9 | E | 861 | 868 | E-308-  | E-315-  | TELLIEME 
+| 1fzg | E | albelig | 10 | 10 | E | 874 | 884 | E-321-  | E-331-  | KVKAHYGGFTV 
+| 1fzg | E | albelig | 11 | 11 | E | 893 | 900 | E-340-  | E-347-  | ISVNKYRG 
+| 1fzg | E | albelig | 12 | 12 | H | 905 | 908 | E-352-  | E-355-  | ALMD 
+| 1fzg | E | albelig | 13 | 13 | H | 916 | 919 | E-363-  | E-366-  | ENRT 
+| 1fzg | E | albelig | 14 | 14 | H | 991 | 994 | E-438-  | E-441-  | MNWK 
+| 1fzg | E | albelig | 15 | 15 | E | 1002 | 1009 | E-449-  | E-456-  | KMSMKIRP 
+| 1fzg | E | albelig | 16 | 16 | L | 1320 | 1320 | E-470-  | E-470-  | J 
+| 1fzg | E | albelig | 17 | 17 | L | 1321 | 1321 | E-471-  | E-471-  | J 
+| 1fzg | E | albelig | 18 | 18 | L | 1322 | 1322 | E-2-  | E-2-  | J 
+| 1fzg | E | albelig | 19 | 19 | L | 1323 | 1323 | E-3-  | E-3-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 6
+= 3 = a = 4
+= 4 = a = 6
+= 6 = a = 15
+= 8 = m = 10
+= 9 = a = 10
+= 9 = a = 15
+= 10 = a = 11
+= 13 = l = 16
+= 16 = l = 17
+# Listed 10 contacts. EOF.

@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ehy, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, ALPHA/BETA HYDROLASE FOLD, EPOXIDE DEGRADATION,EPICHLOROHYDRIN
+> pdb_mol_name > PROTEIN (SOLUBLE EPOXIDE HYDROLASE)
+> graphtype > albelig
+> resolution > 2.1
+> date > 17-OCT-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY STRUCTURE OF THE EPOXIDE HYDROLASE FROM AGROBACTERIUMRADIOBACTER AD1
+> format_version > 2
+> pdbid > 1ehy
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > AGROBACTERIUM TUMEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ehy | C | albelig | 1 | 1 | H | 573 | 575 | C-6-  | C-8-  | PED 
+| 1ehy | C | albelig | 2 | 2 | E | 578 | 582 | C-11-  | C-15-  | HYEVQ 
+| 1ehy | C | albelig | 3 | 3 | E | 587 | 594 | C-20-  | C-27-  | KIHYVREG 
+| 1ehy | C | albelig | 4 | 4 | E | 598 | 602 | C-31-  | C-35-  | TLLLL 
+| 1ehy | C | albelig | 5 | 5 | H | 609 | 619 | C-42-  | C-52-  | WWEWSKVIGPL 
+| 1ehy | C | albelig | 6 | 6 | E | 624 | 628 | C-57-  | C-61-  | DVIVP 
+| 1ehy | C | albelig | 7 | 7 | H | 644 | 647 | C-77-  | C-80-  | LSKY 
+| 1ehy | C | albelig | 8 | 8 | H | 649 | 662 | C-82-  | C-95-  | LDKAADDQAALLDA 
+| 1ehy | C | albelig | 9 | 9 | E | 668 | 673 | C-101-  | C-106-  | AYVVGH 
+| 1ehy | C | albelig | 10 | 10 | H | 675 | 686 | C-108-  | C-119-  | FAAIVLHKFIRK 
+| 1ehy | C | albelig | 11 | 11 | H | 688 | 690 | C-121-  | C-123-  | SDR 
+| 1ehy | C | albelig | 12 | 12 | E | 691 | 697 | C-124-  | C-130-  | VIKAAIF 
+| 1ehy | C | albelig | 13 | 13 | H | 708 | 712 | C-151-  | C-155-  | WYSQF 
+| 1ehy | C | albelig | 14 | 14 | H | 716 | 722 | C-159-  | C-165-  | DMAVEVV 
+| 1ehy | C | albelig | 15 | 15 | H | 726 | 739 | C-169-  | C-182-  | REVCKKYFKHFFDH 
+| 1ehy | C | albelig | 16 | 16 | H | 749 | 759 | C-192-  | C-202-  | EEELEVHVDNC 
+| 1ehy | C | albelig | 17 | 17 | H | 764 | 775 | C-207-  | C-218-  | NIHGGFNYYRAN 
+| 1ehy | C | albelig | 18 | 18 | H | 786 | 788 | C-229-  | C-231-  | LDH 
+| 1ehy | C | albelig | 19 | 19 | E | 795 | 800 | C-238-  | C-243-  | VTMIWG 
+| 1ehy | C | albelig | 20 | 20 | H | 809 | 817 | C-252-  | C-260-  | APLIEFVPK 
+| 1ehy | C | albelig | 21 | 21 | E | 822 | 827 | C-265-  | C-270-  | YTMETI 
+| 1ehy | C | albelig | 22 | 22 | H | 834 | 837 | C-277-  | C-280-  | LMVE 
+| 1ehy | C | albelig | 23 | 23 | H | 839 | 850 | C-282-  | C-293-  | PEIAIDRIKTAF 
+| 1ehy | C | albelig | 24 | 24 | L | 1138 | 1138 | C-297-  | C-297-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 6
+= 4 = p = 6
+= 4 = p = 9
+= 5 = m = 6
+= 5 = m = 16
+= 5 = m = 22
+= 5 = p = 23
+= 7 = m = 17
+= 8 = m = 10
+= 9 = m = 10
+= 9 = p = 12
+= 10 = m = 18
+= 11 = m = 12
+= 12 = p = 19
+= 12 = m = 23
+= 13 = m = 15
+= 15 = m = 16
+= 15 = l = 24
+= 19 = p = 21
+# Listed 20 contacts. EOF.

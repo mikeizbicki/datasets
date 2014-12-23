@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fs2, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SKP1, SKP2, F-BOX, LRRS, LEUCINE-RICH REPEATS, SCF,UBIQUITIN, E3, UBIQUITIN PROTEIN LIGASE
+> pdb_mol_name > SKP1
+> graphtype > albelig
+> resolution > 2.9
+> date > 08-SEP-00
+> header > LIGASE
+> pdb_org_common > HUMAN
+> title > INSIGHTS INTO SCF UBIQUITIN LIGASES FROM THE STRUCTURE OFTHE SKP1-SKP2 COMPLEX
+> format_version > 2
+> pdbid > 1fs2
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fs2 | D | albelig | 1 | 1 | E | 652 | 657 | D-3-  | D-8-  | SIKLQS 
+| 1fs2 | D | albelig | 2 | 2 | E | 662 | 666 | D-13-  | D-17-  | IFEVD 
+| 1fs2 | D | albelig | 3 | 3 | H | 667 | 670 | D-18-  | D-21-  | VEIA 
+| 1fs2 | D | albelig | 4 | 4 | H | 674 | 682 | D-25-  | D-33-  | VTIKTMLED 
+| 1fs2 | D | albelig | 5 | 5 | E | 687 | 690 | D-44-  | D-47-  | PVPL 
+| 1fs2 | D | albelig | 6 | 6 | H | 695 | 707 | D-52-  | D-64-  | AAILKKVIQWCTH 
+| 1fs2 | D | albelig | 7 | 7 | H | 720 | 725 | D-87-  | D-92-  | VWDQEF 
+| 1fs2 | D | albelig | 8 | 8 | H | 730 | 743 | D-97-  | D-110-  | QGTLFELILAANYL 
+| 1fs2 | D | albelig | 9 | 9 | H | 746 | 760 | D-113-  | D-127-  | KGLLDVTCKTVANMI 
+| 1fs2 | D | albelig | 10 | 10 | H | 765 | 772 | D-132-  | D-139-  | PEEIRKTF 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = m = 3
+= 6 = m = 7
+= 8 = a = 9
+# Listed 5 contacts. EOF.

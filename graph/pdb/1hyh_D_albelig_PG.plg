@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hyh, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > L-2-HYDROXYCARBOXYLATE DEHYDROGENASE, L-LACTATE DEHYDROGENASE,OXIDOREDUCTASE (CHOH(D)-NAD+(A))
+> pdb_mol_name > L-2-HYDROXYISOCAPROATE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 05-JUN-95
+> header > OXIDOREDUCTASE (CHOH(D)-NAD+(A))
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF L-2-HYDROXYISOCAPROATE DEHYDROGENASE FROMLACTOBACILLUS CONFUSUS AT 2.2 ANGSTROMS RESOLUTION-AN EXAMPLE OFSTRONG ASYMMETRY BETWEEN SUBUNITS
+> format_version > 2
+> pdbid > 1hyh
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > WEISSELLA CONFUSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hyh | D | albelig | 1 | 1 | E | 900 | 904 | D-23-  | D-27-  | KIGII 
+| 1hyh | D | albelig | 2 | 2 | H | 908 | 919 | D-31-  | D-42-  | NVGAAVAHGLIA 
+| 1hyh | D | albelig | 3 | 3 | E | 925 | 929 | D-48-  | D-52-  | DYVFI 
+| 1hyh | D | albelig | 4 | 4 | H | 933 | 947 | D-56-  | D-70-  | EAKVKADQIDFQDAM 
+| 1hyh | D | albelig | 5 | 5 | E | 955 | 958 | D-78-  | D-81-  | NIVI 
+| 1hyh | D | albelig | 6 | 6 | H | 961 | 964 | D-84-  | D-87-  | WAAL 
+| 1hyh | D | albelig | 7 | 7 | E | 969 | 972 | D-92-  | D-95-  | VVIS 
+| 1hyh | D | albelig | 8 | 8 | H | 978 | 1000 | D-110-  | D-132-  | DRFAELKFTSSMVQSVGTNLKES 
+| 1hyh | D | albelig | 9 | 9 | E | 1005 | 1008 | D-137-  | D-140-  | VLVV 
+| 1hyh | D | albelig | 10 | 10 | H | 1013 | 1024 | D-145-  | D-156-  | VDVITALFQHVT 
+| 1hyh | D | albelig | 11 | 11 | H | 1028 | 1030 | D-160-  | D-162-  | AHK 
+| 1hyh | D | albelig | 12 | 12 | E | 1031 | 1033 | D-163-  | D-165-  | VIG 
+| 1hyh | D | albelig | 13 | 13 | H | 1037 | 1051 | D-169-  | D-183-  | LLDTARMQRAVGEAF 
+| 1hyh | D | albelig | 14 | 14 | H | 1055 | 1057 | D-187-  | D-189-  | PRS 
+| 1hyh | D | albelig | 15 | 15 | E | 1061 | 1063 | D-193-  | D-195-  | YNL 
+| 1hyh | D | albelig | 16 | 16 | E | 1071 | 1073 | D-203-  | D-205-  | FVA 
+| 1hyh | D | albelig | 17 | 17 | H | 1074 | 1076 | D-206-  | D-208-  | WST 
+| 1hyh | D | albelig | 18 | 18 | H | 1084 | 1089 | D-216-  | D-221-  | IVTLAD 
+| 1hyh | D | albelig | 19 | 19 | H | 1094 | 1112 | D-227-  | D-245-  | LAAIEEEARKGGFTVLNGK 
+| 1hyh | D | albelig | 20 | 20 | H | 1117 | 1132 | D-250-  | D-265-  | YGVATSAIRIAKAVMA 
+| 1hyh | D | albelig | 21 | 21 | E | 1136 | 1143 | D-269-  | D-276-  | AELVVSNR 
+| 1hyh | D | albelig | 22 | 22 | E | 1150 | 1158 | D-283-  | D-291-  | YLSYPAIIG 
+| 1hyh | D | albelig | 23 | 23 | E | 1161 | 1165 | D-294-  | D-298-  | GVLAE 
+| 1hyh | D | albelig | 24 | 24 | H | 1172 | 1194 | D-305-  | D-327-  | TDEQEKLLQSRDYIQQRFDEIVD 
+| 1hyh | D | albelig | 25 | 25 | L | 1203 | 1203 | D-331-  | D-331-  | J 
+| 1hyh | D | albelig | 26 | 26 | L | 1204 | 1204 | D-330-  | D-330-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 1 = l = 26
+= 2 = l = 26
+= 3 = p = 5
+= 3 = l = 26
+= 4 = m = 5
+= 4 = l = 26
+= 7 = p = 9
+= 8 = p = 10
+= 8 = l = 26
+= 9 = m = 11
+= 9 = p = 12
+= 10 = m = 22
+= 10 = p = 24
+= 10 = l = 26
+= 11 = m = 12
+= 11 = m = 23
+= 12 = a = 21
+= 13 = m = 15
+= 13 = a = 19
+= 13 = m = 20
+= 13 = l = 25
+= 13 = l = 26
+= 15 = a = 16
+= 16 = m = 17
+= 16 = m = 24
+= 19 = l = 25
+= 20 = m = 22
+= 20 = l = 26
+= 21 = a = 22
+= 22 = a = 23
+= 22 = m = 24
+= 25 = l = 26
+# Listed 34 contacts. EOF.

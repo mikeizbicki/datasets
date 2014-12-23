@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cp9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC RESISTANCE, AMIDOHYDROLASE, NTN-HYDROLASE FOLD,N-TERMINAL PYROGLUTAMATE, PENICILLIN BINDING PROTEIN,CALCIUM BINDING PROTEIN
+> pdb_mol_name > PENICILLIN AMIDOHYDROLASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 12-JUN-99
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PENICILLIN G ACYLASE FROM THE BRO1MUTANT STRAIN OF PROVIDENCIA RETTGERI
+> format_version > 2
+> pdbid > 1cp9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PROVIDENCIA RETTGERI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cp9 | A | albelig | 1 | 1 | E | 2 | 9 | A-2-  | A-9-  | STQIKIER 
+| 1cp9 | A | albelig | 2 | 2 | E | 15 | 18 | A-15-  | A-18-  | PHIY 
+| 1cp9 | A | albelig | 3 | 3 | H | 22 | 49 | A-22-  | A-49-  | TYSLFYGYGYAVAQDRLFQMEMAKRSTQ 
+| 1cp9 | A | albelig | 4 | 4 | H | 53 | 56 | A-53-  | A-56-  | SEVF 
+| 1cp9 | A | albelig | 5 | 5 | H | 58 | 69 | A-58-  | A-69-  | KDYISFDKEIRN 
+| 1cp9 | A | albelig | 6 | 6 | H | 73 | 82 | A-73-  | A-82-  | PDSIHKQINQ 
+| 1cp9 | A | albelig | 7 | 7 | H | 85 | 107 | A-85-  | A-107-  | SQEQDILRGYADGMNAWIKQINT 
+| 1cp9 | A | albelig | 8 | 8 | H | 109 | 112 | A-109-  | A-112-  | PDDL 
+| 1cp9 | A | albelig | 9 | 9 | H | 115 | 120 | A-115-  | A-120-  | KQFIDY 
+| 1cp9 | A | albelig | 10 | 10 | H | 129 | 141 | A-129-  | A-141-  | SFDVAMIMVGTLA 
+| 1cp9 | A | albelig | 11 | 11 | H | 142 | 144 | A-142-  | A-144-  | NRF 
+| 1cp9 | A | albelig | 12 | 12 | H | 150 | 176 | A-150-  | A-176-  | EIDNLALLTALKDKYGEQLGVEFFNQI 
+| 1cp9 | A | albelig | 13 | 13 | L | 753 | 753 | A-255-  | A-255-  | J 
+| 1cp9 | A | albelig | 14 | 14 | L | 754 | 754 | A-269-  | A-269-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = l = 13
+= 2 = m = 3
+= 3 = m = 5
+= 3 = p = 7
+= 3 = m = 9
+= 3 = m = 10
+= 4 = m = 5
+= 6 = m = 10
+= 6 = l = 14
+= 7 = m = 8
+= 10 = l = 14
+# Listed 13 contacts. EOF.

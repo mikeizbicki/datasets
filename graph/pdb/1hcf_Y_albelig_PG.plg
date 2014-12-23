@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hcf, chain Y.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE/HORMONE, COMPLEX(TRANSFERASE/GROWTH FACTOR),NEUROTROPHIN-4/5, TRKB RECEPTOR, NGF-BETA SUPERFAMILY,IMMUNOGLOBULIN DOMAIN
+> pdb_mol_name > BDNF/NT-3 GROWTH FACTORS RECEPTOR
+> graphtype > albelig
+> resolution > 2.7
+> date > 03-MAY-01
+> header > TRANSFERASE/HORMONE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF TRKB-D5 BOUND TO NEUROTROPHIN-4/5
+> format_version > 2
+> pdbid > 1hcf
+> experiment > X-RAY DIFFRACTION
+> chainid > Y
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hcf | Y | albelig | 1 | 1 | E | 352 | 359 | Y-285-  | Y-292-  | MAPTITFL 
+| 1hcf | Y | albelig | 2 | 2 | E | 368 | 377 | Y-301-  | Y-310-  | WHIPFTVKGN 
+| 1hcf | Y | albelig | 3 | 3 | E | 381 | 386 | Y-314-  | Y-319-  | ALQWFY 
+| 1hcf | Y | albelig | 4 | 4 | E | 397 | 404 | Y-330-  | Y-337-  | ICTKIHVT 
+| 1hcf | Y | albelig | 5 | 5 | E | 408 | 415 | Y-341-  | Y-348-  | EYHGHLQL 
+| 1hcf | Y | albelig | 6 | 6 | H | 420 | 422 | Y-353-  | Y-355-  | HMN 
+| 1hcf | Y | albelig | 7 | 7 | E | 424 | 432 | Y-357-  | Y-365-  | GDYTLIAKN 
+| 1hcf | Y | albelig | 8 | 8 | E | 435 | 443 | Y-368-  | Y-376-  | GKDEKQISA 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 1 = p = 8
+= 2 = a = 5
+= 2 = p = 7
+= 3 = a = 7
+= 4 = a = 5
+= 7 = a = 8
+# Listed 8 contacts. EOF.

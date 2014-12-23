@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1guk, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUTATHIONE S-TRANSFERASE, GST, CRYSTAL STRUCTURE,OXIDATIVE STRESS, TRANSFERASE
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE A4-4
+> graphtype > albelig
+> resolution > 2.9
+> date > 11-DEC-97
+> header > TRANSFERASE
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF MURINE ALPHA-CLASS GSTA4-4
+> format_version > 2
+> pdbid > 1guk
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1guk | B | albelig | 1 | 1 | E | 218 | 221 | B-6-  | B-9-  | KLYY 
+| 1guk | B | albelig | 2 | 2 | H | 229 | 238 | B-17-  | B-26-  | ESIRWLLAAA 
+| 1guk | B | albelig | 3 | 3 | E | 243 | 246 | B-31-  | B-34-  | EEEF 
+| 1guk | B | albelig | 4 | 4 | H | 251 | 258 | B-39-  | B-46-  | EQYEKMQK 
+| 1guk | B | albelig | 5 | 5 | E | 269 | 272 | B-57-  | B-60-  | LVEI 
+| 1guk | B | albelig | 6 | 6 | E | 275 | 277 | B-63-  | B-65-  | MML 
+| 1guk | B | albelig | 7 | 7 | H | 280 | 290 | B-68-  | B-78-  | TRAILSYLAAK 
+| 1guk | B | albelig | 8 | 8 | H | 298 | 323 | B-86-  | B-111-  | LKERVRIDMYADGTQDLMMMIAVAPF 
+| 1guk | B | albelig | 9 | 9 | H | 328 | 339 | B-121-  | B-132-  | YDLILSRAKTRY 
+| 1guk | B | albelig | 10 | 10 | H | 340 | 350 | B-133-  | B-143-  | FPVFEKILKDH 
+| 1guk | B | albelig | 11 | 11 | H | 364 | 375 | B-157-  | B-168-  | DIQLLEAILMVE 
+| 1guk | B | albelig | 12 | 12 | H | 386 | 396 | B-179-  | B-189-  | PLLQAFKTRIS 
+| 1guk | B | albelig | 13 | 13 | H | 399 | 405 | B-192-  | B-198-  | PTIKKFL 
+| 1guk | B | albelig | 14 | 14 | H | 420 | 425 | B-213-  | B-218-  | VEVVRI 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 2 = m = 7
+= 2 = m = 11
+= 2 = m = 13
+= 5 = a = 6
+= 7 = m = 8
+= 8 = a = 9
+= 8 = p = 11
+= 9 = m = 10
+= 10 = m = 12
+= 11 = m = 12
+# Listed 12 contacts. EOF.

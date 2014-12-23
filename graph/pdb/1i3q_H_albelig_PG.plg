@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i3q, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION, MRNA, MULTIPROTEIN COMPLEX, MOLECULARMACHINE, ZINC MOTIFS
+> pdb_mol_name > DNA-DIRECTED RNA POLYMERASE II 14.5KD
+> graphtype > albelig
+> resolution > 3.1
+> date > 15-FEB-01
+> header > TRANSCRIPTION
+> pdb_org_common > BAKER'S YEAST
+> title > RNA POLYMERASE II CRYSTAL FORM I AT 3.1 A RESOLUTION
+> format_version > 2
+> pdbid > 1i3q
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i3q | H | albelig | 1 | 1 | E | 3086 | 3095 | H-7-  | H-16-  | DDIFQVSEVD 
+| 1i3q | H | albelig | 2 | 2 | E | 3102 | 3109 | H-23-  | H-30-  | VCRIEAAS 
+| 1i3q | H | albelig | 3 | 3 | E | 3116 | 3122 | H-37-  | H-43-  | KLTLDIN 
+| 1i3q | H | albelig | 4 | 4 | E | 3133 | 3137 | H-54-  | H-58-  | SLTVT 
+| 1i3q | H | albelig | 5 | 5 | H | 3152 | 3154 | H-84-  | H-86-  | AGD 
+| 1i3q | H | albelig | 6 | 6 | E | 3163 | 3166 | H-95-  | H-98-  | YVMY 
+| 1i3q | H | albelig | 7 | 7 | E | 3168 | 3171 | H-100-  | H-103-  | TAYK 
+| 1i3q | H | albelig | 8 | 8 | E | 3180 | 3186 | H-112-  | H-118-  | IAVYYSF 
+| 1i3q | H | albelig | 9 | 9 | E | 3189 | 3195 | H-121-  | H-127-  | LLMRLEG 
+| 1i3q | H | albelig | 10 | 10 | H | 3198 | 3201 | H-130-  | H-133-  | RNLN 
+| 1i3q | H | albelig | 11 | 11 | E | 3209 | 3213 | H-141-  | H-145-  | YLLIR 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = a = 3
+= 3 = a = 6
+= 3 = a = 9
+= 4 = a = 11
+= 6 = a = 11
+= 7 = a = 8
+= 8 = a = 9
+# Listed 9 contacts. EOF.

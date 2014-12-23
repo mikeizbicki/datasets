@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j7v, chain R.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE RECEPTOR COMPLEX, 4 HELIX BUNDLE, CLASS 2 RECEPTOR,INTERLEUKIN-10, CYTOKINE/RECEPTOR COMPLEX
+> pdb_mol_name > INTERLEUKIN-10 RECEPTOR ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.9
+> date > 18-MAY-01
+> header > CYTOKINE/RECEPTOR
+> pdb_org_common > HUMAN
+> title > HUMAN IL-10 / IL-10R1 COMPLEX
+> format_version > 2
+> pdbid > 1j7v
+> experiment > X-RAY DIFFRACTION
+> chainid > R
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j7v | R | albelig | 1 | 1 | E | 161 | 166 | R-11-  | R-16-  | VWFEAE 
+| 1j7v | R | albelig | 2 | 2 | E | 169 | 174 | R-19-  | R-24-  | HHILHW 
+| 1j7v | R | albelig | 3 | 3 | E | 185 | 192 | R-35-  | R-42-  | CYEVALLR 
+| 1j7v | R | albelig | 4 | 4 | E | 198 | 205 | R-48-  | R-55-  | WNSISQCS 
+| 1j7v | R | albelig | 5 | 5 | E | 209 | 211 | R-59-  | R-61-  | SYD 
+| 1j7v | R | albelig | 6 | 6 | H | 213 | 216 | R-63-  | R-66-  | TAVT 
+| 1j7v | R | albelig | 7 | 7 | E | 225 | 233 | R-75-  | R-83-  | YRARVRAVD 
+| 1j7v | R | albelig | 8 | 8 | H | 249 | 251 | R-99-  | R-101-  | VDE 
+| 1j7v | R | albelig | 9 | 9 | E | 258 | 263 | R-108-  | R-113-  | SVNLEI 
+| 1j7v | R | albelig | 10 | 10 | E | 267 | 273 | R-117-  | R-123-  | FILGKIQ 
+| 1j7v | R | albelig | 11 | 11 | H | 286 | 289 | R-136-  | R-139-  | YESI 
+| 1j7v | R | albelig | 12 | 12 | E | 294 | 302 | R-144-  | R-152-  | REYEIAIRK 
+| 1j7v | R | albelig | 13 | 13 | E | 310 | 314 | R-160-  | R-164-  | THKKV 
+| 1j7v | R | albelig | 14 | 14 | E | 318 | 322 | R-168-  | R-172-  | QFSLL 
+| 1j7v | R | albelig | 15 | 15 | E | 330 | 338 | R-180-  | R-188-  | FDVQVKPSV 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 2 = m = 6
+= 3 = a = 4
+= 3 = a = 7
+= 4 = a = 7
+= 9 = a = 10
+= 10 = a = 14
+= 12 = a = 13
+= 12 = a = 15
+# Listed 10 contacts. EOF.

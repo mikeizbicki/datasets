@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1enq, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CONCANAVALIN A, ZINC, PLANT LECTIN, AGGLUTININ, PLANTLECTIN (AGGLUTININ)
+> pdb_mol_name > CONCANAVALIN A
+> graphtype > albelig
+> resolution > 2.5
+> date > 20-MAR-96
+> header > PLANT LECTIN (AGGLUTININ)
+> pdb_org_common > JACK BEAN
+> title > CO-CRYSTALS OF DEMETALLIZED CONCANAVALIN A WITH ZINC HAVINGA ZINC ION BOUND IN THE S1 SITE
+> format_version > 2
+> pdbid > 1enq
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > CANAVALIA ENSIFORMIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1enq | D | albelig | 1 | 1 | E | 702 | 708 | D-4-  | D-10-  | IVAVELD 
+| 1enq | D | albelig | 2 | 2 | E | 718 | 723 | D-24-  | D-29-  | HIGIDI 
+| 1enq | D | albelig | 3 | 3 | E | 730 | 733 | D-36-  | D-39-  | KTAK 
+| 1enq | D | albelig | 4 | 4 | E | 741 | 749 | D-47-  | D-55-  | VGTAHIIYN 
+| 1enq | D | albelig | 5 | 5 | E | 754 | 760 | D-60-  | D-66-  | RLSAVVS 
+| 1enq | D | albelig | 6 | 6 | E | 767 | 772 | D-73-  | D-78-  | ATVSYD 
+| 1enq | D | albelig | 7 | 7 | H | 775 | 777 | D-81-  | D-83-  | LDN 
+| 1enq | D | albelig | 8 | 8 | E | 782 | 791 | D-88-  | D-97-  | WVRVGLSAST 
+| 1enq | D | albelig | 9 | 9 | E | 797 | 811 | D-103-  | D-117-  | TNTILSWSFTSKLKS 
+| 1enq | D | albelig | 10 | 10 | E | 818 | 824 | D-124-  | D-130-  | NALHFMF 
+| 1enq | D | albelig | 11 | 11 | E | 834 | 838 | D-140-  | D-144-  | LILQG 
+| 1enq | D | albelig | 12 | 12 | E | 841 | 844 | D-147-  | D-150-  | TTGT 
+| 1enq | D | albelig | 13 | 13 | E | 847 | 849 | D-153-  | D-155-  | NLE 
+| 1enq | D | albelig | 14 | 14 | E | 857 | 862 | D-170-  | D-175-  | VGRALF 
+| 1enq | D | albelig | 15 | 15 | E | 873 | 887 | D-186-  | D-200-  | AVVASFEATFTFLIK 
+| 1enq | D | albelig | 16 | 16 | E | 895 | 903 | D-208-  | D-216-  | DGIAFFISN 
+| 1enq | D | albelig | 17 | 17 | H | 914 | 916 | D-227-  | D-229-  | GRL 
+| 1enq | D | albelig | 18 | 18 | L | 928 | 928 | D-238-  | D-238-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 16
+= 1 = l = 18
+= 2 = a = 3
+= 2 = p = 6
+= 2 = l = 18
+= 3 = a = 6
+= 4 = a = 5
+= 4 = a = 15
+= 5 = a = 6
+= 8 = a = 9
+= 8 = a = 14
+= 8 = a = 16
+= 8 = m = 17
+= 9 = a = 10
+= 9 = a = 13
+= 9 = a = 15
+= 11 = a = 14
+= 12 = a = 13
+# Listed 19 contacts. EOF.

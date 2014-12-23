@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fa7, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA-BETA-BETA-BETA MOTIF, HOMODIMER, PROTEIN-CD(II)COMPLEX, LYASE
+> pdb_mol_name > GLYOXALASE I
+> graphtype > albelig
+> resolution > 1.9
+> date > 12-JUL-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CD(II)-BOUND GLYOXALASE I OFESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1fa7
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fa7 | B | albelig | 1 | 1 | E | 133 | 139 | B-3-  | B-9-  | LLHTMLR 
+| 1fa7 | B | albelig | 2 | 2 | H | 143 | 153 | B-13-  | B-23-  | LQRSIDFYTKV 
+| 1fa7 | B | albelig | 3 | 3 | E | 157 | 164 | B-27-  | B-34-  | KLLRTSEN 
+| 1fa7 | B | albelig | 4 | 4 | E | 169 | 175 | B-39-  | B-45-  | YSLAFVG 
+| 1fa7 | B | albelig | 5 | 5 | E | 184 | 190 | B-54-  | B-60-  | VIELTYN 
+| 1fa7 | B | albelig | 6 | 6 | E | 202 | 209 | B-72-  | B-79-  | YGHIALSV 
+| 1fa7 | B | albelig | 7 | 7 | H | 212 | 220 | B-82-  | B-90-  | AAEACEKIR 
+| 1fa7 | B | albelig | 8 | 8 | E | 225 | 232 | B-95-  | B-102-  | NVTREAGP 
+| 1fa7 | B | albelig | 9 | 9 | E | 239 | 244 | B-109-  | B-114-  | VIAFVE 
+| 1fa7 | B | albelig | 10 | 10 | E | 250 | 255 | B-120-  | B-125-  | KIELIE 
+| 1fa7 | B | albelig | 11 | 11 | L | 261 | 261 | B-1201-  | B-1201-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = l = 11
+= 3 = a = 4
+= 4 = a = 5
+= 5 = l = 11
+= 6 = p = 10
+= 7 = m = 8
+= 8 = a = 9
+= 9 = a = 10
+# Listed 9 contacts. EOF.

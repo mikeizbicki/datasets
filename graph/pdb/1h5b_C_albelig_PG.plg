@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h5b, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > T CELL RECEPTOR, IMMUNE RESPONSE, IMMUNOGLOBULIN FOLD
+> pdb_mol_name > MURINE T CELL RECEPTOR (TCR) VALPHA DOMAIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 21-MAY-01
+> header > T CELL RECEPTOR
+> pdb_org_common > UNKNOWN
+> title > T CELL RECEPTOR VALPHA11 (AV11S5) DOMAIN
+> format_version > 2
+> pdbid > 1h5b
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h5b | C | albelig | 1 | 1 | E | 230 | 233 | C-4-  | C-7-  | VEQS 
+| 1h5b | C | albelig | 2 | 2 | E | 236 | 240 | C-10-  | C-14-  | ALSLH 
+| 1h5b | C | albelig | 3 | 3 | E | 245 | 251 | C-19-  | C-25-  | SALRENF 
+| 1h5b | C | albelig | 4 | 4 | E | 255 | 263 | C-29-  | C-37-  | MRSVQWFRQ 
+| 1h5b | C | albelig | 5 | 5 | E | 269 | 275 | C-43-  | C-49-  | LISLFYL 
+| 1h5b | C | albelig | 6 | 6 | E | 278 | 282 | C-52-  | C-56-  | GTKEN 
+| 1h5b | C | albelig | 7 | 7 | E | 285 | 289 | C-59-  | C-63-  | LKSAF 
+| 1h5b | C | albelig | 8 | 8 | E | 296 | 301 | C-70-  | C-75-  | YSTLHI 
+| 1h5b | C | albelig | 9 | 9 | H | 306 | 308 | C-80-  | C-82-  | LED 
+| 1h5b | C | albelig | 10 | 10 | E | 310 | 318 | C-84-  | C-92-  | GTYFEAAEA 
+| 1h5b | C | albelig | 11 | 11 | E | 325 | 327 | C-99-  | C-101-  | LIF 
+| 1h5b | C | albelig | 12 | 12 | E | 331 | 336 | C-105-  | C-110-  | TQLTVM 
+| 1h5b | C | albelig | 13 | 13 | L | 454 | 454 | C-1114-  | C-1114-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 10
+= 2 = p = 12
+= 3 = a = 4
+= 3 = a = 8
+= 3 = p = 10
+= 4 = a = 5
+= 4 = a = 7
+= 4 = p = 8
+= 4 = a = 10
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = a = 8
+= 7 = l = 13
+= 8 = l = 13
+= 9 = m = 12
+= 10 = a = 11
+= 10 = a = 12
+# Listed 19 contacts. EOF.

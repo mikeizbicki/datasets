@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bav, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, CARBOXYPEPTIDASE, ZINC, ZYMOGEN, SIGNAL
+> pdb_mol_name > CARBOXYPEPTIDASE A
+> graphtype > albelig
+> resolution > 1.6
+> date > 14-NOV-96
+> header > CARBOXYPEPTIDASE
+> pdb_org_common > CATTLE
+> title > CARBOXYPEPTIDASE A COMPLEXED WITH 2-BENZYL-3-IODO-PROPANOICACID (BIP)
+> format_version > 2
+> pdbid > 1bav
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bav | D | albelig | 1 | 1 | H | 939 | 952 | D-15-  | D-28-  | LDEIYDFMDLLVAQ 
+| 1bav | D | albelig | 2 | 2 | E | 957 | 964 | D-33-  | D-40-  | VSKLQIGR 
+| 1bav | D | albelig | 3 | 3 | E | 970 | 976 | D-46-  | D-52-  | PIYVLKF 
+| 1bav | D | albelig | 4 | 4 | E | 985 | 990 | D-61-  | D-66-  | AIWIDL 
+| 1bav | D | albelig | 5 | 5 | H | 997 | 1016 | D-73-  | D-92-  | WITQATGVWFAKKFTENYGQ 
+| 1bav | D | albelig | 6 | 6 | H | 1018 | 1024 | D-94-  | D-100-  | PSFTAIL 
+| 1bav | D | albelig | 7 | 7 | E | 1028 | 1032 | D-104-  | D-108-  | DIFLE 
+| 1bav | D | albelig | 8 | 8 | H | 1037 | 1045 | D-113-  | D-121-  | PNGFAFTHS 
+| 1bav | D | albelig | 9 | 9 | H | 1067 | 1069 | D-143-  | D-145-  | ANR 
+| 1bav | D | albelig | 10 | 10 | H | 1098 | 1110 | D-174-  | D-186-  | VEVKSIVDFVKNH 
+| 1bav | D | albelig | 11 | 11 | E | 1113 | 1121 | D-189-  | D-197-  | FKAFLSIHS 
+| 1bav | D | albelig | 12 | 12 | E | 1125 | 1128 | D-201-  | D-204-  | LLLY 
+| 1bav | D | albelig | 13 | 13 | H | 1140 | 1158 | D-216-  | D-234-  | KTELNQVAKSAVAALKSLY 
+| 1bav | D | albelig | 14 | 14 | E | 1163 | 1166 | D-239-  | D-242-  | KYGS 
+| 1bav | D | albelig | 15 | 15 | H | 1167 | 1170 | D-243-  | D-246-  | IITT 
+| 1bav | D | albelig | 16 | 16 | H | 1178 | 1184 | D-254-  | D-260-  | SIDWSYN 
+| 1bav | D | albelig | 17 | 17 | E | 1189 | 1195 | D-265-  | D-271-  | YSFTFEL 
+| 1bav | D | albelig | 18 | 18 | H | 1202 | 1204 | D-278-  | D-280-  | GFL 
+| 1bav | D | albelig | 19 | 19 | H | 1207 | 1229 | D-283-  | D-305-  | ASQIIPTAQETWLGVLTIMEHTV 
+| 1bav | D | albelig | 20 | 20 | L | 1238 | 1238 | D-310-  | D-310-  | J 
+| 1bav | D | albelig | 21 | 21 | L | 1239 | 1239 | D-311-  | D-311-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 3
+= 2 = a = 3
+= 2 = m = 10
+= 3 = a = 7
+= 4 = p = 7
+= 4 = p = 11
+= 5 = m = 6
+= 5 = m = 8
+= 5 = m = 11
+= 5 = p = 19
+= 6 = m = 19
+= 9 = l = 21
+= 11 = m = 16
+= 11 = p = 17
+= 11 = l = 20
+= 11 = l = 21
+= 12 = p = 14
+= 12 = m = 15
+= 12 = a = 17
+= 12 = l = 21
+= 13 = a = 19
+= 14 = m = 15
+= 15 = l = 21
+= 16 = m = 17
+= 16 = l = 21
+= 17 = a = 19
+= 17 = l = 20
+= 17 = l = 21
+= 20 = l = 21
+# Listed 30 contacts. EOF.

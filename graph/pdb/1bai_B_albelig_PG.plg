@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bai, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-MEDIATED INTERACTION, VIRAL MATURATION, HYDROLASE-HYDROLASEINHIBITOR COMPLEX
+> pdb_mol_name > PROTEASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 17-APR-98
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ROUS SARCOMA VIRUS PROTEASE IN COMPLEX WITHINHIBITOR
+> format_version > 2
+> pdbid > 1bai
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ROUS SARCOMA VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bai | B | albelig | 1 | 1 | E | 127 | 129 | B-2-  | B-4-  | AMT 
+| 1bai | B | albelig | 2 | 2 | E | 137 | 144 | B-12-  | B-19-  | LVRVILTN 
+| 1bai | B | albelig | 3 | 3 | E | 154 | 162 | B-29-  | B-37-  | SVYITALLD 
+| 1bai | B | albelig | 4 | 4 | E | 169 | 171 | B-44-  | B-46-  | VIS 
+| 1bai | B | albelig | 5 | 5 | E | 199 | 201 | B-74-  | B-76-  | RKS 
+| 1bai | B | albelig | 6 | 6 | E | 205 | 210 | B-80-  | B-85-  | IELGVI 
+| 1bai | B | albelig | 7 | 7 | E | 220 | 222 | B-95-  | B-97-  | LLL 
+| 1bai | B | albelig | 8 | 8 | E | 225 | 227 | B-100-  | B-102-  | LVA 
+| 1bai | B | albelig | 9 | 9 | E | 232 | 235 | B-107-  | B-110-  | NILG 
+| 1bai | B | albelig | 10 | 10 | H | 236 | 239 | B-111-  | B-114-  | RDCL 
+| 1bai | B | albelig | 11 | 11 | E | 245 | 247 | B-120-  | B-122-  | RLT 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 6
+= 3 = p = 9
+= 4 = p = 8
+= 4 = a = 9
+= 5 = a = 8
+= 6 = a = 7
+= 9 = m = 10
+# Listed 8 contacts. EOF.

@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fpw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EF-HAND, CALCIUM, METAL BINDING PROTEIN
+> pdb_mol_name > CALCIUM-BINDING PROTEIN NCS-1
+> graphtype > albelig
+> resolution > -1.0
+> date > 31-AUG-00
+> header > METAL BINDING PROTEIN
+> pdb_org_common > BAKER'S YEAST
+> title > STRUCTURE OF YEAST FREQUENIN
+> format_version > 2
+> pdbid > 1fpw
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fpw | A | albelig | 1 | 1 | H | 11 | 16 | A-11-  | A-16-  | DDLTCL 
+| 1fpw | A | albelig | 2 | 2 | H | 24 | 37 | A-24-  | A-37-  | RREIQQWHKGFLRD 
+| 1fpw | A | albelig | 3 | 3 | H | 45 | 55 | A-45-  | A-55-  | REDFVKIYKQF 
+| 1fpw | A | albelig | 4 | 4 | H | 63 | 70 | A-63-  | A-70-  | DFANHLFT 
+| 1fpw | A | albelig | 5 | 5 | H | 82 | 92 | A-82-  | A-92-  | FEEFITVLSTT 
+| 1fpw | A | albelig | 6 | 6 | H | 99 | 108 | A-99-  | A-108-  | EKLSWAFELY 
+| 1fpw | A | albelig | 7 | 7 | E | 115 | 117 | A-115-  | A-117-  | YIT 
+| 1fpw | A | albelig | 8 | 8 | H | 118 | 129 | A-118-  | A-129-  | FDEMLTIVASVY 
+| 1fpw | A | albelig | 9 | 9 | H | 145 | 156 | A-145-  | A-156-  | PEMRVKKIFKLM 
+| 1fpw | A | albelig | 10 | 10 | E | 163 | 165 | A-163-  | A-165-  | YIT 
+| 1fpw | A | albelig | 11 | 11 | H | 166 | 174 | A-166-  | A-174-  | LDEFREGSK 
+| 1fpw | A | albelig | 12 | 12 | H | 179 | 187 | A-179-  | A-187-  | IIGALNLYD 
+| 1fpw | A | albelig | 13 | 13 | L | 191 | 191 | A-500-  | A-500-  | J 
+| 1fpw | A | albelig | 14 | 14 | L | 192 | 192 | A-501-  | A-501-  | J 
+| 1fpw | A | albelig | 15 | 15 | L | 193 | 193 | A-502-  | A-502-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 5
+= 4 = m = 8
+= 5 = l = 13
+= 7 = m = 8
+= 7 = a = 10
+= 7 = l = 14
+= 7 = l = 15
+= 8 = a = 9
+= 8 = m = 12
+= 8 = l = 14
+= 10 = m = 11
+= 10 = l = 15
+= 11 = l = 15
+# Listed 13 contacts. EOF.

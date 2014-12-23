@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b8d, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGHT-HARVESTING COMPLEX, RED ALGAE, PHYCOBILIPROTEIN,PHOTOSYNTHESIS
+> pdb_mol_name > PROTEIN (RHODOPHYTAN PHYCOERYTHRIN (BETA CHAIN))
+> graphtype > albelig
+> resolution > 1.9
+> date > 29-JAN-99
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A PHYCOUROBILIN-CONTAININGPHYCOERYTHRIN
+> format_version > 2
+> pdbid > 1b8d
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GRIFFITHSIA MONILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b8d | B | albelig | 1 | 1 | H | 169 | 178 | B-4-  | B-13-  | AFSRVVVTSD 
+| 1b8d | B | albelig | 2 | 2 | H | 187 | 197 | B-22-  | B-32-  | SDLQSLKSFIN 
+| 1b8d | B | albelig | 3 | 3 | H | 199 | 211 | B-34-  | B-46-  | GNKRLDAVNYIVS 
+| 1b8d | B | albelig | 4 | 4 | H | 213 | 227 | B-48-  | B-62-  | ASCIVSDAVSGMICE 
+| 1b8d | B | albelig | 5 | 5 | H | 229 | 232 | B-64-  | B-67-  | PGLI 
+| 1b8d | B | albelig | 6 | 6 | H | 241 | 264 | B-76-  | B-99-  | NRRMAACLRDGEIILRYVSYALLA 
+| 1b8d | B | albelig | 7 | 7 | H | 268 | 275 | B-103-  | B-110-  | SVLDDRCL 
+| 1b8d | B | albelig | 8 | 8 | H | 278 | 285 | B-113-  | B-120-  | LKETYIAL 
+| 1b8d | B | albelig | 9 | 9 | H | 289 | 307 | B-124-  | B-142-  | TASSSRAVSIMKATATAFI 
+| 1b8d | B | albelig | 10 | 10 | H | 324 | 341 | B-159-  | B-176-  | QALQAEAASYFDKVGSSI 
+| 1b8d | B | albelig | 11 | 11 | L | 695 | 695 | B-203-  | B-203-  | J 
+| 1b8d | B | albelig | 12 | 12 | L | 696 | 696 | B-204-  | B-204-  | J 
+| 1b8d | B | albelig | 13 | 13 | L | 697 | 697 | B-205-  | B-205-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = l = 12
+= 3 = a = 6
+= 3 = l = 12
+= 4 = m = 5
+= 4 = a = 6
+= 4 = a = 9
+= 4 = l = 11
+= 4 = l = 13
+= 5 = l = 11
+= 6 = m = 7
+= 6 = a = 10
+= 6 = l = 11
+= 7 = m = 10
+= 7 = l = 11
+= 8 = l = 11
+= 9 = a = 10
+= 9 = l = 11
+= 9 = l = 12
+= 9 = l = 13
+= 10 = l = 12
+# Listed 21 contacts. EOF.

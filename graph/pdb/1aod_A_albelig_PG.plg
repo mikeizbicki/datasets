@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aod, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, PHOSPHOLIPID DEGRADATION, VIRULENCE FACTOR OFHUMAN PATHOGEN
+> pdb_mol_name > PHOSPHATIDYLINOSITOL-SPECIFIC PHOSPHOLIPASE C
+> graphtype > albelig
+> resolution > 2.6
+> date > 02-JUL-97
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > PHOSPHATIDYLINOSITOL-SPECIFIC PHOSPHOLIPASE C FROM LISTERIAMONOCYTOGENES
+> format_version > 2
+> pdbid > 1aod
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LISTERIA MONOCYTOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aod | A | albelig | 1 | 1 | H | 6 | 9 | A-26-  | A-29-  | WMSA 
+| 1aod | A | albelig | 2 | 2 | H | 16 | 18 | A-36-  | A-38-  | LAA 
+| 1aod | A | albelig | 3 | 3 | E | 20 | 24 | A-40-  | A-44-  | SIPGT 
+| 1aod | A | albelig | 4 | 4 | H | 34 | 38 | A-54-  | A-58-  | ITWTL 
+| 1aod | A | albelig | 5 | 5 | H | 40 | 43 | A-60-  | A-63-  | KPLA 
+| 1aod | A | albelig | 6 | 6 | H | 50 | 55 | A-70-  | A-75-  | LYQQLE 
+| 1aod | A | albelig | 7 | 7 | E | 60 | 65 | A-80-  | A-85-  | YIDIRA 
+| 1aod | A | albelig | 8 | 8 | E | 70 | 73 | A-90-  | A-93-  | NIYH 
+| 1aod | A | albelig | 9 | 9 | E | 76 | 81 | A-96-  | A-101-  | IFLNAS 
+| 1aod | A | albelig | 10 | 10 | H | 82 | 95 | A-102-  | A-115-  | LSGVLETITQFLKK 
+| 1aod | A | albelig | 11 | 11 | E | 101 | 107 | A-121-  | A-127-  | IIMRLKD 
+| 1aod | A | albelig | 12 | 12 | H | 114 | 125 | A-134-  | A-145-  | SFDYRIQPLINI 
+| 1aod | A | albelig | 13 | 13 | H | 127 | 129 | A-147-  | A-149-  | KDY 
+| 1aod | A | albelig | 14 | 14 | E | 132 | 134 | A-152-  | A-154-  | TTP 
+| 1aod | A | albelig | 15 | 15 | H | 145 | 148 | A-165-  | A-168-  | LKDV 
+| 1aod | A | albelig | 16 | 16 | E | 152 | 157 | A-172-  | A-177-  | ILLLSE 
+| 1aod | A | albelig | 17 | 17 | E | 164 | 166 | A-184-  | A-186-  | LVI 
+| 1aod | A | albelig | 18 | 18 | E | 169 | 171 | A-189-  | A-191-  | RKF 
+| 1aod | A | albelig | 19 | 19 | E | 180 | 183 | A-200-  | A-203-  | QVIQ 
+| 1aod | A | albelig | 20 | 20 | H | 191 | 207 | A-211-  | A-227-  | VKTKFKEIVQTAYQASK 
+| 1aod | A | albelig | 21 | 21 | E | 212 | 216 | A-232-  | A-236-  | LFLNH 
+| 1aod | A | albelig | 22 | 22 | H | 226 | 246 | A-246-  | A-266-  | PRQYAAALNNKVEQFVLNLTS 
+| 1aod | A | albelig | 23 | 23 | E | 253 | 257 | A-273-  | A-277-  | GILIM 
+| 1aod | A | albelig | 24 | 24 | H | 262 | 269 | A-282-  | A-289-  | KQTIKNII 
+| 1aod | A | albelig | 25 | 25 | L | 275 | 275 | A-296-  | A-296-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 7
+= 3 = p = 23
+= 7 = a = 8
+= 7 = p = 11
+= 7 = l = 25
+= 8 = a = 9
+= 9 = m = 10
+= 11 = p = 16
+= 11 = l = 25
+= 12 = m = 17
+= 14 = a = 18
+= 16 = l = 25
+= 17 = a = 18
+= 19 = p = 21
+= 20 = a = 21
+= 20 = p = 22
+= 21 = p = 23
+= 21 = l = 25
+= 22 = m = 24
+# Listed 19 contacts. EOF.

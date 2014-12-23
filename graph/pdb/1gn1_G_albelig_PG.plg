@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gn1, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, CHAPERONIN, ACTIN, TUBULIN
+> pdb_mol_name > CCT-GAMMA
+> graphtype > albelig
+> resolution > 2.8
+> date > 01-OCT-01
+> header > CHAPERONE
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE OF THE MOUSE CCT GAMMA APICAL DOMAIN(MONOCLINIC)
+> format_version > 2
+> pdbid > 1gn1
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gn1 | G | albelig | 1 | 1 | E | 887 | 891 | G-216-  | G-220-  | RGVMI 
+| 1gn1 | G | albelig | 2 | 2 | E | 903 | 905 | G-232-  | G-234-  | YIK 
+| 1gn1 | G | albelig | 3 | 3 | E | 909 | 912 | G-238-  | G-241-  | IVLL 
+| 1gn1 | G | albelig | 4 | 4 | H | 923 | 942 | G-264-  | G-283-  | FTRILQMEEEYIHQLCEDII 
+| 1gn1 | G | albelig | 5 | 5 | E | 948 | 951 | G-289-  | G-292-  | VVIT 
+| 1gn1 | G | albelig | 6 | 6 | H | 957 | 965 | G-298-  | G-306-  | DLAQHYLMR 
+| 1gn1 | G | albelig | 7 | 7 | E | 969 | 971 | G-310-  | G-312-  | TAI 
+| 1gn1 | G | albelig | 8 | 8 | H | 976 | 986 | G-317-  | G-327-  | KTDNNRIARAC 
+| 1gn1 | G | albelig | 9 | 9 | H | 994 | 996 | G-335-  | G-337-  | PEE 
+| 1gn1 | G | albelig | 10 | 10 | E | 1006 | 1014 | G-347-  | G-355-  | AGLLEIKKI 
+| 1gn1 | G | albelig | 11 | 11 | E | 1017 | 1025 | G-358-  | G-366-  | EYFTFITDG 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 11
+= 2 = a = 10
+= 3 = p = 5
+= 3 = m = 8
+= 4 = m = 6
+= 5 = p = 7
+= 10 = a = 11
+# Listed 7 contacts. EOF.

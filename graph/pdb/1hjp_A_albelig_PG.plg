@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA RECOMBINATION, DNA REPAIR, HOLLIDAY JUNCTION BINDING
+> pdb_mol_name > RUVA
+> graphtype > albelig
+> resolution > 2.5
+> date > 21-AUG-97
+> header > DNA RECOMBINATION
+> pdb_org_common > UNKNOWN
+> title > HOLLIDAY JUNCTION BINDING PROTEIN RUVA FROM E. COLI
+> format_version > 2
+> pdbid > 1hjp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjp | A | albelig | 1 | 1 | E | 4 | 13 | A-4-  | A-13-  | RLRGIIIEKQ 
+| 1hjp | A | albelig | 2 | 2 | E | 16 | 21 | A-16-  | A-21-  | LVLIEV 
+| 1hjp | A | albelig | 3 | 3 | E | 24 | 29 | A-24-  | A-29-  | VGYEVH 
+| 1hjp | A | albelig | 4 | 4 | H | 32 | 35 | A-32-  | A-35-  | MTCF 
+| 1hjp | A | albelig | 5 | 5 | E | 44 | 53 | A-44-  | A-53-  | EAIVFTHFVV 
+| 1hjp | A | albelig | 6 | 6 | E | 58 | 63 | A-58-  | A-63-  | QLLYGF 
+| 1hjp | A | albelig | 7 | 7 | H | 66 | 76 | A-66-  | A-76-  | KQERTLFKELI 
+| 1hjp | A | albelig | 8 | 8 | H | 83 | 92 | A-83-  | A-92-  | PKLALAILSG 
+| 1hjp | A | albelig | 9 | 9 | H | 95 | 103 | A-95-  | A-103-  | AQQFVNAVE 
+| 1hjp | A | albelig | 10 | 10 | H | 119 | 133 | A-119-  | A-133-  | KTAERLIVEMKDRFK 
+| 1hjp | A | albelig | 11 | 11 | H | 143 | 154 | A-159-  | A-170-  | AEQEAVAALVAL 
+| 1hjp | A | albelig | 12 | 12 | H | 158 | 167 | A-174-  | A-183-  | PQEASRMVSK 
+| 1hjp | A | albelig | 13 | 13 | H | 175 | 184 | A-191-  | A-200-  | SETLIREALR 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = p = 6
+= 4 = m = 8
+= 5 = a = 6
+= 5 = m = 7
+= 6 = m = 7
+= 7 = m = 8
+= 9 = m = 10
+= 11 = a = 12
+= 11 = p = 13
+# Listed 12 contacts. EOF.

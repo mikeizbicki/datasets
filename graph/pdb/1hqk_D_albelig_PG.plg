@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hqk, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LUMAZINE SYNTHASE, AQUIFEX AEOLICUS, X-RAY STRUCTURE ANALYSIS, ENZYMESTABILITY, VITAMIN BIOSYNTHESIS, TRANSFERASE
+> pdb_mol_name > 6,7-DIMETHYL-8-RIBITYLLUMAZINE SYNTHASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 18-DEC-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF LUMAZINE SYNTHASE FROM AQUIFEX AEOLICUS
+> format_version > 2
+> pdbid > 1hqk
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > AQUIFEX AEOLICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hqk | D | albelig | 1 | 1 | E | 467 | 469 | D-2-  | D-4-  | QIY 
+| 1hqk | D | albelig | 2 | 2 | E | 480 | 485 | D-15-  | D-20-  | FGIVAS 
+| 1hqk | D | albelig | 3 | 3 | H | 489 | 505 | D-24-  | D-40-  | HALVDRLVEGAIDCIVR 
+| 1hqk | D | albelig | 4 | 4 | H | 510 | 512 | D-45-  | D-47-  | EED 
+| 1hqk | D | albelig | 5 | 5 | E | 513 | 518 | D-48-  | D-53-  | ITLVRV 
+| 1hqk | D | albelig | 6 | 6 | H | 521 | 532 | D-56-  | D-67-  | SWEIPVAAGELA 
+| 1hqk | D | albelig | 7 | 7 | E | 539 | 547 | D-74-  | D-82-  | AVIAIGVLI 
+| 1hqk | D | albelig | 8 | 8 | H | 553 | 572 | D-88-  | D-107-  | HFDYIASEVSKGLANLSLEL 
+| 1hqk | D | albelig | 9 | 9 | E | 576 | 583 | D-111-  | D-118-  | ITFGVITA 
+| 1hqk | D | albelig | 10 | 10 | H | 586 | 591 | D-121-  | D-126-  | LEQAIE 
+| 1hqk | D | albelig | 11 | 11 | E | 593 | 595 | D-128-  | D-130-  | AGT 
+| 1hqk | D | albelig | 12 | 12 | H | 600 | 618 | D-135-  | D-153-  | KGWEAALSAIEMANLFKSL 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 5
+= 2 = a = 6
+= 2 = p = 7
+= 3 = a = 7
+= 3 = m = 12
+= 4 = m = 5
+= 6 = a = 7
+= 6 = p = 8
+= 7 = a = 8
+= 7 = p = 9
+= 8 = a = 9
+= 9 = m = 10
+= 9 = a = 12
+= 10 = m = 11
+# Listed 14 contacts. EOF.

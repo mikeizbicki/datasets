@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1koi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NITRIC OXIDE TRANSPORT, FERRIC HEME, ANITHISTIMINE,LIPOCALIN, TRANSPORT PROTEIN
+> pdb_mol_name > NITROPHORIN 4
+> graphtype > albelig
+> resolution > 1.08
+> date > 03-MAY-01
+> header > TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF NITROPHORIN 4 FROM RHODNIUS PROLIXUSCOMPLEXED WITH NITRIC OXIDE AT 1.08 A RESOLUTION
+> format_version > 2
+> pdbid > 1koi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RHODNIUS PROLIXUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1koi | A | albelig | 1 | 1 | H | 14 | 17 | A-14-  | A-17-  | KDKY 
+| 1koi | A | albelig | 2 | 2 | E | 19 | 30 | A-19-  | A-30-  | NGDVWYVTDYLD 
+| 1koi | A | albelig | 3 | 3 | H | 33 | 35 | A-33-  | A-35-  | PDD 
+| 1koi | A | albelig | 4 | 4 | E | 41 | 49 | A-41-  | A-49-  | NAALAAGTA 
+| 1koi | A | albelig | 5 | 5 | E | 52 | 60 | A-52-  | A-60-  | KLKEALYHY 
+| 1koi | A | albelig | 6 | 6 | E | 67 | 78 | A-67-  | A-78-  | TFYDVSELQVES 
+| 1koi | A | albelig | 7 | 7 | E | 81 | 85 | A-81-  | A-85-  | KYTAN 
+| 1koi | A | albelig | 8 | 8 | E | 87 | 89 | A-87-  | A-89-  | KKV 
+| 1koi | A | albelig | 9 | 9 | E | 95 | 97 | A-95-  | A-97-  | VKV 
+| 1koi | A | albelig | 10 | 10 | E | 103 | 112 | A-103-  | A-112-  | NYYTFTVMYA 
+| 1koi | A | albelig | 11 | 11 | E | 116 | 125 | A-116-  | A-125-  | SALIHTALHK 
+| 1koi | A | albelig | 12 | 12 | E | 128 | 138 | A-128-  | A-138-  | KDLGDLYAVLN 
+| 1koi | A | albelig | 13 | 13 | H | 147 | 155 | A-147-  | A-155-  | DKVKSAVSA 
+| 1koi | A | albelig | 14 | 14 | H | 160 | 162 | A-160-  | A-162-  | FSK 
+| 1koi | A | albelig | 15 | 15 | H | 175 | 181 | A-175-  | A-181-  | NDSLKSL 
+| 1koi | A | albelig | 16 | 16 | L | 185 | 185 | A-185-  | A-185-  | J 
+| 1koi | A | albelig | 17 | 17 | L | 186 | 186 | A-186-  | A-186-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 4
+= 2 = a = 12
+= 2 = l = 16
+= 3 = l = 16
+= 4 = a = 5
+= 4 = l = 16
+= 5 = a = 6
+= 5 = m = 15
+= 5 = l = 16
+= 5 = l = 17
+= 6 = a = 7
+= 6 = a = 8
+= 6 = l = 16
+= 7 = a = 10
+= 8 = a = 9
+= 8 = l = 16
+= 10 = a = 11
+= 10 = l = 16
+= 11 = a = 12
+= 11 = l = 16
+= 11 = l = 17
+= 12 = l = 16
+= 12 = l = 17
+= 16 = l = 17
+# Listed 25 contacts. EOF.

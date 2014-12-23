@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1itb, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN FOLD, TRANSMEMBRANE, GLYCOPROTEIN, RECEPTOR,SIGNAL, COMPLEX (IMMUNOGLOBULIN/RECEPTOR)
+> pdb_mol_name > TYPE 1 INTERLEUKIN-1 RECEPTOR
+> graphtype > albelig
+> resolution > 2.5
+> date > 15-JAN-97
+> header > COMPLEX (IMMUNOGLOBULIN/RECEPTOR)
+> pdb_org_common > HUMAN
+> title > TYPE-1 INTERLEUKIN-1 RECEPTOR COMPLEXED WITH INTERLEUKIN-1BETA
+> format_version > 2
+> pdbid > 1itb
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1itb | B | albelig | 1 | 1 | E | 165 | 167 | B-16-  | B-18-  | VSS 
+| 1itb | B | albelig | 2 | 2 | H | 220 | 222 | B-71-  | B-73-  | VED 
+| 1itb | B | albelig | 3 | 3 | E | 244 | 246 | B-95-  | B-97-  | KFV 
+| 1itb | B | albelig | 4 | 4 | H | 256 | 258 | B-107-  | B-109-  | AQA 
+| 1itb | B | albelig | 5 | 5 | E | 259 | 265 | B-110-  | B-116-  | IFKQKLP 
+| 1itb | B | albelig | 6 | 6 | E | 270 | 273 | B-121-  | B-124-  | GGLV 
+| 1itb | B | albelig | 7 | 7 | E | 291 | 294 | B-142-  | B-145-  | QWYK 
+| 1itb | B | albelig | 8 | 8 | E | 306 | 309 | B-157-  | B-160-  | FSGV 
+| 1itb | B | albelig | 9 | 9 | E | 312 | 315 | B-163-  | B-166-  | RLIV 
+| 1itb | B | albelig | 10 | 10 | H | 320 | 322 | B-171-  | B-173-  | EKH 
+| 1itb | B | albelig | 11 | 11 | E | 324 | 334 | B-175-  | B-185-  | GNYTDHASYTY 
+| 1itb | B | albelig | 12 | 12 | E | 337 | 350 | B-188-  | B-201-  | KQYPITRVIEFITL 
+| 1itb | B | albelig | 13 | 13 | E | 366 | 369 | B-217-  | B-220-  | ETME 
+| 1itb | B | albelig | 14 | 14 | E | 376 | 384 | B-227-  | B-235-  | IQLIENVTG 
+| 1itb | B | albelig | 15 | 15 | E | 389 | 394 | B-240-  | B-245-  | IAYWKW 
+| 1itb | B | albelig | 16 | 16 | E | 406 | 413 | B-257-  | B-264-  | LGEDYYSV 
+| 1itb | B | albelig | 17 | 17 | H | 419 | 421 | B-270-  | B-272-  | KRR 
+| 1itb | B | albelig | 18 | 18 | E | 422 | 430 | B-273-  | B-281-  | STLITVLNI 
+| 1itb | B | albelig | 19 | 19 | H | 435 | 438 | B-286-  | B-289-  | SRFY 
+| 1itb | B | albelig | 20 | 20 | E | 442 | 447 | B-293-  | B-298-  | FTEFAK 
+| 1itb | B | albelig | 21 | 21 | E | 453 | 460 | B-304-  | B-311-  | DAAYIQLI 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = m = 4
+= 4 = m = 5
+= 5 = a = 6
+= 5 = p = 12
+= 6 = a = 9
+= 7 = a = 11
+= 8 = a = 9
+= 11 = a = 12
+= 13 = p = 21
+= 14 = a = 15
+= 14 = m = 17
+= 14 = a = 18
+= 15 = a = 16
+= 15 = p = 18
+= 15 = a = 20
+= 16 = a = 18
+= 17 = m = 18
+= 19 = m = 21
+= 20 = a = 21
+# Listed 20 contacts. EOF.

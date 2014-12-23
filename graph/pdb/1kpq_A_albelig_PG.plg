@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kpq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > E2 FOLD, CELL CYCLE
+> pdb_mol_name > TUMOR SUSCEPTIBILITY GENE 101 PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-JAN-02
+> header > CELL CYCLE
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE TSG101 UEV DOMAIN
+> format_version > 2
+> pdbid > 1kpq
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kpq | A | albelig | 1 | 1 | H | 3 | 10 | A-4-  | A-11-  | SESQLKKM 
+| 1kpq | A | albelig | 2 | 2 | H | 17 | 30 | A-18-  | A-31-  | RDLTVRETVNVITL 
+| 1kpq | A | albelig | 3 | 3 | E | 35 | 43 | A-36-  | A-44-  | KPVLDSYVF 
+| 1kpq | A | albelig | 4 | 4 | E | 47 | 62 | A-48-  | A-63-  | SSRELMNLTGTIPVPY 
+| 1kpq | A | albelig | 5 | 5 | E | 65 | 74 | A-66-  | A-75-  | NTYNIPICLW 
+| 1kpq | A | albelig | 6 | 6 | E | 85 | 87 | A-86-  | A-88-  | ICF 
+| 1kpq | A | albelig | 7 | 7 | H | 111 | 114 | A-112-  | A-115-  | PYLH 
+| 1kpq | A | albelig | 8 | 8 | H | 123 | 136 | A-124-  | A-137-  | LLGLIQVMIVVFGD 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 8
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+# Listed 4 contacts. EOF.

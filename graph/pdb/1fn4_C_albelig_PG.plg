@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fn4, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FAB198, IMMUNE SYSTEM
+> pdb_mol_name > MONOCLONAL ANTIBODY AGAINST ACETYLCHOLINE RECEPTOR
+> graphtype > albelig
+> resolution > 2.8
+> date > 21-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF FAB198, AN EFFICIENT PROTECTOR OF ACETYLCHOLINERECEPTOR AGAINST MYASTHENOGENIC ANTIBODIES
+> format_version > 2
+> pdbid > 1fn4
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fn4 | C | albelig | 1 | 1 | E | 446 | 448 | C-10-  | C-12-  | LLS 
+| 1fn4 | C | albelig | 2 | 2 | E | 454 | 461 | C-18-  | C-25-  | RVTLSFKG 
+| 1fn4 | C | albelig | 3 | 3 | E | 469 | 473 | C-33-  | C-37-  | LAWYQ 
+| 1fn4 | C | albelig | 4 | 4 | E | 481 | 485 | C-45-  | C-49-  | KLLIY 
+| 1fn4 | C | albelig | 5 | 5 | E | 500 | 503 | C-64-  | C-67-  | GSGS 
+| 1fn4 | C | albelig | 6 | 6 | E | 506 | 512 | C-70-  | C-76-  | DYTLTIS 
+| 1fn4 | C | albelig | 7 | 7 | E | 520 | 526 | C-84-  | C-90-  | ATYFFYQ 
+| 1fn4 | C | albelig | 8 | 8 | E | 537 | 540 | C-102-  | C-105-  | TKLE 
+| 1fn4 | C | albelig | 9 | 9 | E | 548 | 551 | C-112-  | C-115-  | VSIF 
+| 1fn4 | C | albelig | 10 | 10 | H | 555 | 558 | C-119-  | C-122-  | TEQL 
+| 1fn4 | C | albelig | 11 | 11 | E | 562 | 572 | C-126-  | C-136-  | GASVVGLMNNF 
+| 1fn4 | C | albelig | 12 | 12 | E | 580 | 583 | C-144-  | C-147-  | KWKI 
+| 1fn4 | C | albelig | 13 | 13 | E | 592 | 594 | C-156-  | C-158-  | VLD 
+| 1fn4 | C | albelig | 14 | 14 | E | 606 | 615 | C-170-  | C-179-  | YSMSSTLSLT 
+| 1fn4 | C | albelig | 15 | 15 | H | 616 | 620 | C-180-  | C-184-  | KADYE 
+| 1fn4 | C | albelig | 16 | 16 | E | 625 | 628 | C-189-  | C-192-  | YTGE 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 2 = a = 3
+= 2 = a = 6
+= 2 = p = 7
+= 3 = a = 4
+= 3 = p = 6
+= 3 = a = 7
+= 5 = a = 6
+= 7 = a = 8
+= 9 = a = 11
+= 10 = m = 11
+= 11 = a = 12
+= 11 = a = 14
+= 11 = m = 15
+= 12 = a = 16
+= 13 = a = 14
+= 14 = m = 15
+# Listed 17 contacts. EOF.

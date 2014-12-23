@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bey, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY, FAB, CAMPATH-1H, CD52
+> pdb_mol_name > CAMPATH-1H ANTIBODY
+> graphtype > albelig
+> resolution > 3.25
+> date > 18-MAY-98
+> header > ANTIBODY
+> pdb_org_common > HUMAN
+> title > ANTIBODY TO CAMPATH-1H HUMANIZED FAB
+> format_version > 2
+> pdbid > 1bey
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bey | L | albelig | 1 | 1 | E | 4 | 7 | L-4-  | L-7-  | MTQS 
+| 1bey | L | albelig | 2 | 2 | E | 19 | 25 | L-19-  | L-25-  | VTITAKA 
+| 1bey | L | albelig | 3 | 3 | E | 33 | 37 | L-33-  | L-37-  | LNWYQ 
+| 1bey | L | albelig | 4 | 4 | E | 45 | 49 | L-45-  | L-49-  | KLLIY 
+| 1bey | L | albelig | 5 | 5 | E | 62 | 65 | L-62-  | L-65-  | FSGS 
+| 1bey | L | albelig | 6 | 6 | E | 72 | 75 | L-72-  | L-75-  | TFTI 
+| 1bey | L | albelig | 7 | 7 | E | 85 | 90 | L-85-  | L-90-  | TYYALQ 
+| 1bey | L | albelig | 8 | 8 | E | 102 | 104 | L-102-  | L-104-  | TKV 
+| 1bey | L | albelig | 9 | 9 | E | 144 | 149 | L-144-  | L-149-  | AKVQWK 
+| 1bey | L | albelig | 10 | 10 | E | 161 | 163 | L-161-  | L-163-  | ESV 
+| 1bey | L | albelig | 11 | 11 | E | 175 | 177 | L-175-  | L-177-  | LSS 
+| 1bey | L | albelig | 12 | 12 | E | 193 | 198 | L-193-  | L-198-  | ANEVTH 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 2 = a = 6
+= 3 = a = 4
+= 3 = a = 7
+= 5 = a = 6
+= 7 = p = 8
+= 9 = a = 12
+= 10 = a = 11
+# Listed 9 contacts. EOF.

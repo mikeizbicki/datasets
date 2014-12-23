@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j1y, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THIOESTERASE, HOT DOG FOLD, PHENYLACETIC ACID DEGRADATION, STRUCTURALGENOMICS, RIKEN STRUCTURAL GENOMICS/PROTEOMICS INITIATIVE, RSGI,HYDROLASE
+> pdb_mol_name > PAAI PROTEIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 24-DEC-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PAAI FROM THERMUS THERMOPHILUS HB8
+> format_version > 2
+> pdbid > 1j1y
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j1y | B | albelig | 1 | 1 | H | 119 | 123 | B-4-  | B-8-  | PFMEA 
+| 1j1y | B | albelig | 2 | 2 | E | 127 | 132 | B-12-  | B-17-  | KVLHLA 
+| 1j1y | B | albelig | 3 | 3 | E | 135 | 141 | B-20-  | B-26-  | EAVVAGE 
+| 1j1y | B | albelig | 4 | 4 | H | 144 | 146 | B-29-  | B-31-  | ADH 
+| 1j1y | B | albelig | 5 | 5 | H | 155 | 171 | B-40-  | B-56-  | GGFLYALADSAFALASN 
+| 1j1y | B | albelig | 6 | 6 | E | 176 | 185 | B-61-  | B-70-  | AVALSCRMDY 
+| 1j1y | B | albelig | 7 | 7 | E | 194 | 204 | B-79-  | B-89-  | RVEARAVEVNL 
+| 1j1y | B | albelig | 8 | 8 | E | 208 | 217 | B-93-  | B-102-  | TATYRVEVVS 
+| 1j1y | B | albelig | 9 | 9 | E | 220 | 231 | B-105-  | B-116-  | KLVALFTGTVFR 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 5
+= 3 = a = 7
+= 5 = a = 6
+= 5 = p = 7
+= 5 = a = 8
+= 5 = m = 9
+= 6 = a = 9
+= 7 = a = 8
+= 8 = a = 9
+# Listed 10 contacts. EOF.

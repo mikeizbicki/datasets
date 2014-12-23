@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bsb, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDONUCLEASE
+> pdb_mol_name > BARNASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 19-JUL-93
+> header > ENDONUCLEASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURAL ANALYSIS OF MUTATIONS IN THE HYDROPHOBICCORES OF BARNASE
+> format_version > 2
+> pdbid > 1bsb
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bsb | C | albelig | 1 | 1 | H | 223 | 233 | C-7-  | C-17-  | FDGVADYLQTY 
+| 1bsb | C | albelig | 2 | 2 | H | 243 | 248 | C-27-  | C-32-  | KSEAQA 
+| 1bsb | C | albelig | 3 | 3 | H | 253 | 255 | C-37-  | C-39-  | ASK 
+| 1bsb | C | albelig | 4 | 4 | H | 258 | 261 | C-42-  | C-45-  | LADV 
+| 1bsb | C | albelig | 5 | 5 | E | 266 | 271 | C-50-  | C-55-  | SIGGDI 
+| 1bsb | C | albelig | 6 | 6 | E | 287 | 291 | C-71-  | C-75-  | WREAD 
+| 1bsb | C | albelig | 7 | 7 | E | 303 | 307 | C-87-  | C-91-  | RILYS 
+| 1bsb | C | albelig | 8 | 8 | E | 312 | 315 | C-96-  | C-99-  | IYKT 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 7
+= 5 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+# Listed 4 contacts. EOF.

@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnq, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTERRUPTION OF WATER CHAIN, PHOTOSYNTHESIS
+> pdb_mol_name > REACTION CENTER PROTEIN H CHAIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 23-AUG-00
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE MUTANT REACTION CENTER PRO L209->GLU FROM THE PHOTOSYNTHETIC PURPLE BACTERIUM RHODOBACTER SPHAEROIDES
+> format_version > 2
+> pdbid > 1fnq
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > RHODOBACTER SPHAEROIDES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnq | H | albelig | 1 | 1 | H | 587 | 609 | H-12-  | H-34-  | LASLAIYSFWIFLAGLIYYLQTE 
+| 1fnq | H | albelig | 2 | 2 | E | 637 | 640 | H-62-  | H-65-  | KTFI 
+| 1fnq | H | albelig | 3 | 3 | E | 647 | 650 | H-72-  | H-75-  | TLTV 
+| 1fnq | H | albelig | 4 | 4 | E | 662 | 664 | H-87-  | H-89-  | LAR 
+| 1fnq | H | albelig | 5 | 5 | E | 673 | 675 | H-98-  | H-100-  | HAP 
+| 1fnq | H | albelig | 6 | 6 | H | 679 | 682 | H-104-  | H-107-  | PMKD 
+| 1fnq | H | albelig | 7 | 7 | H | 685 | 687 | H-110-  | H-112-  | GPA 
+| 1fnq | H | albelig | 8 | 8 | E | 706 | 708 | H-131-  | H-133-  | IKP 
+| 1fnq | H | albelig | 9 | 9 | E | 716 | 719 | H-141-  | H-144-  | HVSA 
+| 1fnq | H | albelig | 10 | 10 | E | 727 | 729 | H-152-  | H-154-  | PVR 
+| 1fnq | H | albelig | 11 | 11 | E | 735 | 745 | H-160-  | H-170-  | IAGKVVDIWVD 
+| 1fnq | H | albelig | 12 | 12 | E | 750 | 757 | H-175-  | H-182-  | MARFLEVE 
+| 1fnq | H | albelig | 13 | 13 | E | 763 | 767 | H-188-  | H-192-  | TRLLP 
+| 1fnq | H | albelig | 14 | 14 | H | 768 | 770 | H-193-  | H-195-  | MQM 
+| 1fnq | H | albelig | 15 | 15 | H | 785 | 787 | H-210-  | H-212-  | SDL 
+| 1fnq | H | albelig | 16 | 16 | H | 802 | 813 | H-227-  | H-238-  | LLEEDKICGYVA 
+| 1fnq | H | albelig | 17 | 17 | H | 815 | 818 | H-240-  | H-243-  | GLMY 
+| 1fnq | H | albelig | 18 | 18 | H | 820 | 822 | H-245-  | H-247-  | APK 
+| 1fnq | H | albelig | 19 | 19 | L | 841 | 841 | H-702-  | H-702-  | J 
+| 1fnq | H | albelig | 20 | 20 | L | 842 | 842 | H-706-  | H-706-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 19
+= 1 = l = 20
+= 2 = a = 3
+= 4 = a = 5
+= 8 = a = 11
+= 10 = a = 11
+= 11 = a = 12
+= 12 = a = 13
+= 12 = m = 14
+= 13 = m = 14
+# Listed 10 contacts. EOF.

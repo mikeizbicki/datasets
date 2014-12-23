@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SITE-SPECIFIC RECOMBINASE
+> pdb_mol_name > HOLLIDAY JUNCTION RESOLVASE (RUVC)
+> graphtype > albelig
+> resolution > 2.5
+> date > 02-DEC-94
+> header > SITE-SPECIFIC RECOMBINASE
+> pdb_org_common > UNKNOWN
+> title > ATOMIC STRUCTURE OF THE RUVC RESOLVASE: A HOLLIDAY JUNCTION-SPECIFIC ENDONUCLEASE FROM E. COLI
+> format_version > 2
+> pdbid > 1hjr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjr | A | albelig | 1 | 1 | E | 2 | 7 | A-2-  | A-7-  | IILGID 
+| 1hjr | A | albelig | 2 | 2 | E | 12 | 21 | A-12-  | A-21-  | VTGYGVIRQV 
+| 1hjr | A | albelig | 3 | 3 | E | 24 | 34 | A-24-  | A-34-  | QLSYLGSGCIR 
+| 1hjr | A | albelig | 4 | 4 | H | 40 | 58 | A-40-  | A-58-  | LPSRLKLIYAGVTEIITQF 
+| 1hjr | A | albelig | 5 | 5 | E | 62 | 67 | A-62-  | A-67-  | YFAIEQ 
+| 1hjr | A | albelig | 6 | 6 | H | 77 | 92 | A-77-  | A-92-  | ALKLGQARGVAIVAAV 
+| 1hjr | A | albelig | 7 | 7 | E | 98 | 102 | A-98-  | A-102-  | VFEYA 
+| 1hjr | A | albelig | 8 | 8 | H | 103 | 110 | A-103-  | A-110-  | ARQVKQTV 
+| 1hjr | A | albelig | 9 | 9 | H | 118 | 128 | A-118-  | A-128-  | KSQVQHMVRTL 
+| 1hjr | A | albelig | 10 | 10 | H | 140 | 151 | A-140-  | A-151-  | ADALAIAITHCH 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 1 = a = 10
+= 2 = a = 3
+= 2 = m = 10
+= 4 = p = 6
+= 5 = p = 7
+= 7 = m = 8
+= 7 = m = 10
+# Listed 9 contacts. EOF.

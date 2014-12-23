@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j2c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-PRODUCT COMPLEX, BENT HELIX, OXIDOREDUCTASE
+> pdb_mol_name > HEME OXYGENASE-1
+> graphtype > albelig
+> resolution > 2.4
+> date > 29-DEC-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT HEME OXYGENASE-1 IN COMPLEX WITHBILIVERDIN IXALPHA-IRON CLUSTER
+> format_version > 2
+> pdbid > 1j2c
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j2c | A | albelig | 1 | 1 | H | 7 | 23 | A-13-  | A-29-  | LSEALKEATKEVHIRAE 
+| 1j2c | A | albelig | 2 | 2 | H | 26 | 32 | A-32-  | A-38-  | EFMRNFQ 
+| 1j2c | A | albelig | 3 | 3 | H | 38 | 61 | A-44-  | A-67-  | REGFKLVMASLYHIYTALEEEIER 
+| 1j2c | A | albelig | 4 | 4 | H | 69 | 71 | A-75-  | A-77-  | APL 
+| 1j2c | A | albelig | 5 | 5 | H | 80 | 91 | A-86-  | A-97-  | RAALEQDMAFWY 
+| 1j2c | A | albelig | 6 | 6 | H | 95 | 98 | A-101-  | A-104-  | WQEA 
+| 1j2c | A | albelig | 7 | 7 | H | 103 | 118 | A-109-  | A-124-  | PATQHYVKRLHEVGGT 
+| 1j2c | A | albelig | 8 | 8 | H | 120 | 127 | A-126-  | A-133-  | PELLVAHA 
+| 1j2c | A | albelig | 9 | 9 | H | 128 | 149 | A-134-  | A-155-  | YTRYLGDLSGGQVLKKIAQKAM 
+| 1j2c | A | albelig | 10 | 10 | H | 159 | 161 | A-165-  | A-167-  | AFF 
+| 1j2c | A | albelig | 11 | 11 | H | 169 | 180 | A-175-  | A-186-  | PTKFKQLYRARM 
+| 1j2c | A | albelig | 12 | 12 | H | 187 | 215 | A-193-  | A-221-  | PEVKHRVTEEAKTAFLLNIELFEELQALL 
+| 1j2c | A | albelig | 13 | 13 | L | 217 | 217 | A-1300-  | A-1300-  | J 
+| 1j2c | A | albelig | 14 | 14 | L | 218 | 218 | A-300-  | A-300-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 12
+= 1 = l = 13
+= 1 = l = 14
+= 2 = m = 9
+= 2 = m = 12
+= 2 = l = 14
+= 3 = a = 5
+= 3 = p = 7
+= 3 = a = 9
+= 3 = m = 10
+= 3 = a = 12
+= 4 = m = 11
+= 7 = a = 8
+= 7 = a = 12
+= 8 = m = 12
+= 9 = m = 10
+= 9 = a = 11
+= 9 = l = 13
+= 9 = l = 14
+= 11 = l = 14
+= 12 = l = 14
+= 13 = l = 14
+# Listed 22 contacts. EOF.

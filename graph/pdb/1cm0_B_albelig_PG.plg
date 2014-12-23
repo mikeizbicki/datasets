@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cm0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > P300/CBP ASSOCIATED FACTOR, COENZYME A, ACETYLTRANSFERASE,COACTIVATOR, SIGNALING PROTEIN
+> pdb_mol_name > P300/CBP ASSOCIATING FACTOR
+> graphtype > albelig
+> resolution > 2.3
+> date > 12-MAY-99
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE PCAF/COENZYME-A COMPLEX
+> format_version > 2
+> pdbid > 1cm0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cm0 | B | albelig | 1 | 1 | E | 3 | 8 | B-494-  | B-499-  | IEFHVV 
+| 1cm0 | B | albelig | 2 | 2 | H | 18 | 34 | B-509-  | B-525-  | KKILMWLVGLQNVFSHQ 
+| 1cm0 | B | albelig | 3 | 3 | H | 40 | 47 | B-531-  | B-538-  | KEYITRLV 
+| 1cm0 | B | albelig | 4 | 4 | E | 52 | 59 | B-543-  | B-550-  | HKTLALIK 
+| 1cm0 | B | albelig | 5 | 5 | E | 62 | 72 | B-553-  | B-563-  | RVIGGICFRMF 
+| 1cm0 | B | albelig | 6 | 6 | E | 77 | 85 | B-568-  | B-576-  | FTEIVFCAV 
+| 1cm0 | B | albelig | 7 | 7 | H | 87 | 89 | B-578-  | B-580-  | SNE 
+| 1cm0 | B | albelig | 8 | 8 | H | 94 | 108 | B-585-  | B-599-  | YGTHLMNHLKEYHIK 
+| 1cm0 | B | albelig | 9 | 9 | E | 113 | 118 | B-604-  | B-609-  | NFLTYA 
+| 1cm0 | B | albelig | 10 | 10 | H | 123 | 127 | B-614-  | B-618-  | IGYFK 
+| 1cm0 | B | albelig | 11 | 11 | H | 139 | 142 | B-630-  | B-633-  | KTKY 
+| 1cm0 | B | albelig | 12 | 12 | E | 153 | 158 | B-644-  | B-649-  | TLMGCE 
+| 1cm0 | B | albelig | 13 | 13 | L | 325 | 325 | B-700-  | B-700-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 2 = m = 3
+= 2 = p = 5
+= 2 = m = 6
+= 2 = l = 13
+= 4 = a = 5
+= 4 = a = 8
+= 5 = a = 6
+= 5 = p = 8
+= 6 = p = 9
+= 6 = l = 13
+= 7 = l = 13
+= 8 = l = 13
+= 9 = a = 12
+= 10 = l = 13
+# Listed 16 contacts. EOF.

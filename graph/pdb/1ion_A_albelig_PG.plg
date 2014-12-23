@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ion, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ADP-BINDING PROTEIN, P-LOOP, MIND, CELL DIVISION INHIBITOR, CELLCYCLE
+> pdb_mol_name > PROBABLE CELL DIVISION INHIBITOR MIND
+> graphtype > albelig
+> resolution > 2.3
+> date > 21-MAR-01
+> header > CELL CYCLE
+> pdb_org_common > UNKNOWN
+> title > THE SEPTUM SITE-DETERMINING PROTEIN MIND COMPLEXED WITH MG-ADP FROMPYROCOCCUS HORIKOSHII OT3
+> format_version > 2
+> pdbid > 1ion
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS HORIKOSHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ion | A | albelig | 1 | 1 | E | 3 | 8 | A-3-  | A-8-  | RIISIV 
+| 1ion | A | albelig | 2 | 2 | H | 16 | 29 | A-16-  | A-29-  | KTTVTANLSVALGE 
+| 1ion | A | albelig | 3 | 3 | E | 34 | 38 | A-34-  | A-38-  | VLAVD 
+| 1ion | A | albelig | 4 | 4 | H | 46 | 49 | A-46-  | A-49-  | LSLV 
+| 1ion | A | albelig | 5 | 5 | H | 59 | 63 | A-59-  | A-63-  | LHDVL 
+| 1ion | A | albelig | 6 | 6 | H | 69 | 72 | A-69-  | A-72-  | LEDA 
+| 1ion | A | albelig | 7 | 7 | E | 81 | 84 | A-81-  | A-84-  | VYIL 
+| 1ion | A | albelig | 8 | 8 | H | 90 | 95 | A-90-  | A-95-  | WEHVIK 
+| 1ion | A | albelig | 9 | 9 | H | 98 | 106 | A-98-  | A-106-  | PRKLPEVIK 
+| 1ion | A | albelig | 10 | 10 | E | 114 | 118 | A-114-  | A-118-  | FILID 
+| 1ion | A | albelig | 11 | 11 | H | 125 | 131 | A-125-  | A-131-  | LRAXSAX 
+| 1ion | A | albelig | 12 | 12 | E | 136 | 141 | A-136-  | A-141-  | EAILVT 
+| 1ion | A | albelig | 13 | 13 | H | 145 | 160 | A-145-  | A-160-  | ISCLTDTXKVGXVLKK 
+| 1ion | A | albelig | 14 | 14 | E | 164 | 173 | A-164-  | A-173-  | AILGFILNRY 
+| 1ion | A | albelig | 15 | 15 | H | 182 | 188 | A-182-  | A-188-  | PEAAQDV 
+| 1ion | A | albelig | 16 | 16 | E | 193 | 198 | A-193-  | A-198-  | LLAVIP 
+| 1ion | A | albelig | 17 | 17 | H | 201 | 209 | A-201-  | A-209-  | PVIREGTLE 
+| 1ion | A | albelig | 18 | 18 | H | 213 | 216 | A-213-  | A-216-  | AVKY 
+| 1ion | A | albelig | 19 | 19 | H | 221 | 233 | A-221-  | A-233-  | KGAQAFIKLAEEV 
+| 1ion | A | albelig | 20 | 20 | L | 253 | 253 | A-302-  | A-302-  | J 
+| 1ion | A | albelig | 21 | 21 | L | 254 | 254 | A-301-  | A-301-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 10
+= 1 = p = 12
+= 2 = m = 10
+= 2 = m = 18
+= 2 = p = 19
+= 2 = l = 20
+= 2 = l = 21
+= 3 = m = 4
+= 3 = p = 7
+= 3 = p = 10
+= 6 = m = 7
+= 10 = l = 20
+= 10 = l = 21
+= 12 = a = 13
+= 12 = p = 14
+= 14 = p = 16
+= 14 = l = 21
+= 16 = l = 21
+= 17 = l = 21
+= 20 = l = 21
+# Listed 21 contacts. EOF.

@@ -1,0 +1,81 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k4j, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACYL-HOMOSERINELACTONE SYNTHASE, MIXED ALPHA BETA, ENZYME,GNAT SIMILARITY, QUORUM SENSING, AUTOINDUCER SYNTHASE,LIGASE
+> pdb_mol_name > ACYL-HOMOSERINELACTONE SYNTHASE ESAI
+> graphtype > albelig
+> resolution > 2.5
+> date > 08-OCT-01
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE ACYL-HOMOSERINELACTONE SYNTHASEESAI COMPLEXED WITH RHENATE
+> format_version > 2
+> pdbid > 1k4j
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PANTOEA STEWARTII SUBSP. STEWARTII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k4j | A | albelig | 1 | 1 | E | 2 | 9 | A-1-  | A-8-  | MLELFDVS 
+| 1k4j | A | albelig | 2 | 2 | H | 10 | 12 | A-9-  | A-11-  | YEE 
+| 1k4j | A | albelig | 3 | 3 | H | 16 | 22 | A-32-  | A-38-  | LGWEVIC 
+| 1k4j | A | albelig | 4 | 4 | E | 37 | 43 | A-53-  | A-59-  | RYILGIC 
+| 1k4j | A | albelig | 5 | 5 | E | 46 | 55 | A-62-  | A-71-  | QLVCSVRFTS 
+| 1k4j | A | albelig | 6 | 6 | H | 61 | 65 | A-77-  | A-81-  | MITHT 
+| 1k4j | A | albelig | 7 | 7 | H | 67 | 70 | A-83-  | A-86-  | QHCF 
+| 1k4j | A | albelig | 8 | 8 | E | 80 | 87 | A-96-  | A-103-  | TESSRFFV 
+| 1k4j | A | albelig | 9 | 9 | H | 89 | 96 | A-105-  | A-112-  | KARARALL 
+| 1k4j | A | albelig | 10 | 10 | H | 102 | 116 | A-118-  | A-132-  | ISQVLFLAMVNWAQN 
+| 1k4j | A | albelig | 11 | 11 | E | 121 | 127 | A-137-  | A-143-  | NIYTIVS 
+| 1k4j | A | albelig | 12 | 12 | H | 128 | 136 | A-144-  | A-152-  | RAMLKILTR 
+| 1k4j | A | albelig | 13 | 13 | E | 142 | 148 | A-158-  | A-164-  | KVIKEAF 
+| 1k4j | A | albelig | 14 | 14 | E | 154 | 161 | A-170-  | A-177-  | RIYLLTLP 
+| 1k4j | A | albelig | 15 | 15 | H | 164 | 178 | A-180-  | A-194-  | QDDKQQLGGDVVSRT 
+| 1k4j | A | albelig | 16 | 16 | H | 182 | 185 | A-198-  | A-201-  | PVAV 
+| 1k4j | A | albelig | 17 | 17 | E | 190 | 193 | A-206-  | A-209-  | LTLP 
+| 1k4j | A | albelig | 18 | 18 | L | 195 | 195 | A-401-  | A-401-  | J 
+| 1k4j | A | albelig | 19 | 19 | L | 196 | 196 | A-402-  | A-402-  | J 
+| 1k4j | A | albelig | 20 | 20 | L | 197 | 197 | A-403-  | A-403-  | J 
+| 1k4j | A | albelig | 21 | 21 | L | 198 | 198 | A-404-  | A-404-  | J 
+| 1k4j | A | albelig | 22 | 22 | L | 199 | 199 | A-405-  | A-405-  | J 
+| 1k4j | A | albelig | 23 | 23 | L | 200 | 200 | A-406-  | A-406-  | J 
+| 1k4j | A | albelig | 24 | 24 | L | 201 | 201 | A-407-  | A-407-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 1 = a = 17
+= 4 = a = 5
+= 4 = l = 23
+= 5 = a = 8
+= 5 = p = 10
+= 5 = l = 23
+= 6 = l = 24
+= 7 = l = 19
+= 8 = a = 10
+= 8 = p = 11
+= 8 = l = 20
+= 8 = l = 21
+= 8 = l = 23
+= 9 = l = 21
+= 9 = l = 22
+= 10 = a = 15
+= 10 = l = 18
+= 10 = l = 21
+= 10 = l = 23
+= 11 = m = 12
+= 11 = a = 14
+= 11 = l = 20
+= 11 = l = 24
+= 12 = p = 14
+= 12 = l = 18
+= 12 = l = 20
+= 12 = l = 21
+= 13 = a = 14
+= 13 = l = 19
+= 14 = l = 24
+= 15 = l = 18
+= 15 = l = 22
+= 18 = l = 21
+= 20 = l = 24
+# Listed 36 contacts. EOF.

@@ -1,0 +1,86 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f88, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOTORECEPTOR, G PROTEIN-COUPLED RECEPTOR, MEMBRANE PROTEIN, RETINALPROTEIN, VISUAL PIGMENT, SIGNALING PROTEIN
+> pdb_mol_name > RHODOPSIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 29-JUN-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF BOVINE RHODOPSIN
+> format_version > 2
+> pdbid > 1f88
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f88 | B | albelig | 1 | 1 | H | 375 | 405 | B-34-  | B-64-  | PWQFSMLAAYMFLLIMLGFPINFLTLYVTVQ 
+| 1f88 | B | albelig | 2 | 2 | H | 412 | 431 | B-71-  | B-90-  | PLNYILLNLAVADLFMVFGG 
+| 1f88 | B | albelig | 3 | 3 | H | 432 | 439 | B-91-  | B-98-  | FTTTLYTS 
+| 1f88 | B | albelig | 4 | 4 | H | 448 | 478 | B-107-  | B-137-  | PTGNNLEGFFATLGGEIALWSLVVLAIERYV 
+| 1f88 | B | albelig | 5 | 5 | H | 490 | 505 | B-153-  | B-168-  | AIMGVAFTWVMALACA 
+| 1f88 | B | albelig | 6 | 6 | H | 507 | 510 | B-170-  | B-173-  | PPLV 
+| 1f88 | B | albelig | 7 | 7 | E | 515 | 518 | B-178-  | B-181-  | YIPE 
+| 1f88 | B | albelig | 8 | 8 | E | 523 | 526 | B-186-  | B-189-  | SNGI 
+| 1f88 | B | albelig | 9 | 9 | H | 537 | 550 | B-200-  | B-213-  | NESFVIYMFVVHFI 
+| 1f88 | B | albelig | 10 | 10 | H | 551 | 561 | B-214-  | B-224-  | IPLIVIFFCYG 
+| 1f88 | B | albelig | 11 | 11 | H | 569 | 599 | B-247-  | B-277-  | EKEVTRMVIIMVIAFLICWLPYAGVAFYIFT 
+| 1f88 | B | albelig | 12 | 12 | H | 607 | 619 | B-285-  | B-297-  | PIFMTIPAFFAKT 
+| 1f88 | B | albelig | 13 | 13 | H | 620 | 630 | B-298-  | B-308-  | SAVYNPVIYIM 
+| 1f88 | B | albelig | 14 | 14 | H | 633 | 644 | B-311-  | B-322-  | KQFRNCMVTTLC 
+| 1f88 | B | albelig | 15 | 15 | L | 659 | 659 | B-601-  | B-601-  | J 
+| 1f88 | B | albelig | 16 | 16 | L | 660 | 660 | B-602-  | B-602-  | J 
+| 1f88 | B | albelig | 17 | 17 | L | 661 | 661 | B-603-  | B-603-  | J 
+| 1f88 | B | albelig | 18 | 18 | L | 662 | 662 | B-801-  | B-801-  | J 
+| 1f88 | B | albelig | 19 | 19 | L | 663 | 663 | B-802-  | B-802-  | J 
+| 1f88 | B | albelig | 20 | 20 | L | 664 | 664 | B-902-  | B-902-  | J 
+| 1f88 | B | albelig | 21 | 21 | L | 665 | 665 | B-904-  | B-904-  | J 
+| 1f88 | B | albelig | 22 | 22 | L | 666 | 666 | B-906-  | B-906-  | J 
+| 1f88 | B | albelig | 23 | 23 | L | 667 | 667 | B-908-  | B-908-  | J 
+| 1f88 | B | albelig | 24 | 24 | L | 668 | 668 | B-909-  | B-909-  | J 
+| 1f88 | B | albelig | 25 | 25 | L | 669 | 669 | B-978-  | B-978-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = m = 12
+= 1 = p = 13
+= 1 = m = 14
+= 2 = m = 3
+= 2 = a = 4
+= 2 = p = 5
+= 2 = p = 11
+= 2 = a = 13
+= 4 = a = 5
+= 4 = m = 7
+= 4 = m = 8
+= 4 = p = 10
+= 4 = a = 11
+= 4 = l = 21
+= 4 = l = 25
+= 5 = m = 6
+= 5 = m = 9
+= 7 = a = 8
+= 7 = l = 25
+= 8 = l = 25
+= 9 = m = 10
+= 9 = a = 11
+= 9 = l = 23
+= 9 = l = 25
+= 10 = l = 21
+= 11 = a = 12
+= 11 = a = 13
+= 11 = l = 20
+= 11 = l = 23
+= 11 = l = 25
+= 12 = l = 20
+= 12 = l = 25
+= 13 = m = 14
+= 13 = l = 20
+= 14 = l = 22
+= 15 = l = 16
+= 16 = l = 17
+= 18 = l = 19
+# Listed 40 contacts. EOF.

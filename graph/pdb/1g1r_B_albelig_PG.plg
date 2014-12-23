@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g1r, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, EGF, ADHESION MOLECULE, SLEX, IMMUNE SYSTEM,MEMBRANE PROTEIN
+> pdb_mol_name > P-SELECTIN
+> graphtype > albelig
+> resolution > 3.4
+> date > 13-OCT-00
+> header > IMMUNE SYSTEM, MEMBRANE PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF P-SELECTIN LECTIN/EGF DOMAINSCOMPLEXED WITH SLEX
+> format_version > 2
+> pdbid > 1g1r
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g1r | B | albelig | 1 | 1 | E | 163 | 166 | B-2-  | B-5-  | TYHY 
+| 1g1r | B | albelig | 2 | 2 | H | 174 | 183 | B-13-  | B-22-  | NISRKYFQNR 
+| 1g1r | B | albelig | 3 | 3 | H | 193 | 202 | B-32-  | B-41-  | KNEIDYLNKV 
+| 1g1r | B | albelig | 4 | 4 | E | 214 | 217 | B-53-  | B-56-  | IRKN 
+| 1g1r | B | albelig | 5 | 5 | E | 220 | 223 | B-59-  | B-62-  | TWTW 
+| 1g1r | B | albelig | 6 | 6 | E | 251 | 254 | B-90-  | B-93-  | GVEI 
+| 1g1r | B | albelig | 7 | 7 | E | 265 | 268 | B-104-  | B-107-  | WNDE 
+| 1g1r | B | albelig | 8 | 8 | E | 275 | 280 | B-114-  | B-119-  | HALFYT 
+| 1g1r | B | albelig | 9 | 9 | H | 288 | 290 | B-127-  | B-129-  | ISK 
+| 1g1r | B | albelig | 10 | 10 | E | 292 | 297 | B-131-  | B-136-  | GEHLET 
+| 1g1r | B | albelig | 11 | 11 | E | 300 | 305 | B-139-  | B-144-  | NYTISJ 
+| 1g1r | B | albelig | 12 | 12 | L | 647 | 647 | B-901-  | B-901-  | J 
+| 1g1r | B | albelig | 13 | 13 | L | 648 | 648 | B-902-  | B-902-  | J 
+| 1g1r | B | albelig | 14 | 14 | L | 649 | 649 | B-903-  | B-903-  | J 
+| 1g1r | B | albelig | 15 | 15 | L | 650 | 650 | B-904-  | B-904-  | J 
+| 1g1r | B | albelig | 16 | 16 | L | 656 | 656 | B-802-  | B-802-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 8
+= 2 = m = 8
+= 4 = a = 5
+= 6 = a = 7
+= 6 = l = 13
+= 7 = l = 13
+= 7 = l = 14
+= 7 = l = 15
+= 7 = l = 16
+= 9 = m = 10
+= 10 = a = 11
+= 12 = l = 13
+= 12 = l = 14
+= 13 = l = 14
+= 13 = l = 15
+= 14 = l = 15
+= 15 = l = 16
+# Listed 17 contacts. EOF.

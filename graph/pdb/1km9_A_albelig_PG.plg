@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1km9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RC-RNASE, HYDROLASE
+> pdb_mol_name > RIBONUCLEASE, OOCYTES
+> graphtype > albelig
+> resolution > 1.96
+> date > 14-DEC-01
+> header > HYDROLASE
+> pdb_org_common > BULLFROG
+> title > THE STRUCTURE OF A CYTOTOXIC RIBONUCLEASE FROM THE OOCYTEOF RANA CATESBEIANA (BULLFROG)
+> format_version > 2
+> pdbid > 1km9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RANA CATESBEIANA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1km9 | A | albelig | 1 | 1 | H | 3 | 10 | A-3-  | A-10-  | WATFQQKH 
+| 1km9 | A | albelig | 2 | 2 | H | 19 | 22 | A-19-  | A-22-  | ANTI 
+| 1km9 | A | albelig | 3 | 3 | H | 26 | 28 | A-26-  | A-28-  | NIY 
+| 1km9 | A | albelig | 4 | 4 | E | 37 | 42 | A-37-  | A-42-  | VNTFII 
+| 1km9 | A | albelig | 5 | 5 | H | 45 | 52 | A-45-  | A-52-  | ATTVKAIC 
+| 1km9 | A | albelig | 6 | 6 | E | 57 | 61 | A-57-  | A-61-  | NMNVL 
+| 1km9 | A | albelig | 7 | 7 | E | 66 | 73 | A-66-  | A-73-  | FQLNTATR 
+| 1km9 | A | albelig | 8 | 8 | E | 83 | 90 | A-83-  | A-90-  | YSSRTETN 
+| 1km9 | A | albelig | 9 | 9 | E | 92 | 97 | A-92-  | A-97-  | IDVKCE 
+| 1km9 | A | albelig | 10 | 10 | E | 100 | 107 | A-100-  | A-107-  | YPVHFAGI 
+| 1km9 | A | albelig | 11 | 11 | L | 113 | 113 | A-501-  | A-501-  | J 
+| 1km9 | A | albelig | 12 | 12 | L | 114 | 114 | A-502-  | A-502-  | J 
+| 1km9 | A | albelig | 13 | 13 | L | 115 | 115 | A-503-  | A-503-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = p = 10
+= 1 = l = 11
+= 4 = a = 7
+= 4 = l = 11
+= 5 = m = 10
+= 6 = a = 9
+= 7 = a = 8
+= 7 = l = 13
+= 8 = l = 12
+= 9 = a = 10
+= 10 = l = 11
+# Listed 12 contacts. EOF.

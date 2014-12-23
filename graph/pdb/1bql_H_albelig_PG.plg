@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bql, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY/ANTIGEN COMPLEX, HYHEL-5, ANTI-LYSOZYME, BOBWHITEQUAIL
+> pdb_mol_name > HYHEL-5 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.6
+> date > 03-FEB-95
+> header > ANTIBODY/ANTIGEN
+> pdb_org_common > HOUSE MOUSE
+> title > STRUCTURE OF AN ANTI-HEL FAB FRAGMENT COMPLEXED WITHBOBWHITE QUAIL LYSOZYME
+> format_version > 2
+> pdbid > 1bql
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bql | H | albelig | 1 | 1 | E | 216 | 218 | H-4-  | H-6-  | LQQ 
+| 1bql | H | albelig | 2 | 2 | E | 222 | 224 | H-10-  | H-12-  | ELM 
+| 1bql | H | albelig | 3 | 3 | E | 230 | 236 | H-18-  | H-24-  | VKISCKA 
+| 1bql | H | albelig | 4 | 4 | H | 241 | 243 | H-29-  | H-31-  | FSD 
+| 1bql | H | albelig | 5 | 5 | E | 246 | 252 | H-34-  | H-40-  | IEWVKQR 
+| 1bql | H | albelig | 6 | 6 | E | 256 | 264 | H-44-  | H-52-  | GLEWIGEIL 
+| 1bql | H | albelig | 7 | 7 | E | 269 | 272 | H-57-  | H-60-  | STNY 
+| 1bql | H | albelig | 8 | 8 | H | 274 | 276 | H-62-  | H-64-  | ERF 
+| 1bql | H | albelig | 9 | 9 | E | 280 | 285 | H-68-  | H-73-  | ATFTAD 
+| 1bql | H | albelig | 10 | 10 | E | 290 | 295 | H-78-  | H-83-  | TAYMQL 
+| 1bql | H | albelig | 11 | 11 | H | 300 | 302 | H-88-  | H-90-  | SED 
+| 1bql | H | albelig | 12 | 12 | E | 304 | 309 | H-92-  | H-97-  | GVYYCL 
+| 1bql | H | albelig | 13 | 13 | E | 322 | 326 | H-110-  | H-114-  | TTLTV 
+| 1bql | H | albelig | 14 | 14 | E | 335 | 338 | H-123-  | H-126-  | SVYP 
+| 1bql | H | albelig | 15 | 15 | E | 350 | 360 | H-138-  | H-148-  | MVTLGDLVKGY 
+| 1bql | H | albelig | 16 | 16 | E | 366 | 369 | H-154-  | H-157-  | TVTW 
+| 1bql | H | albelig | 17 | 17 | H | 370 | 372 | H-158-  | H-160-  | NSG 
+| 1bql | H | albelig | 18 | 18 | E | 390 | 399 | H-178-  | H-187-  | YTLSSSVTVP 
+| 1bql | H | albelig | 19 | 19 | E | 409 | 414 | H-197-  | H-202-  | TDNVAH 
+| 1bql | H | albelig | 20 | 20 | H | 415 | 417 | H-203-  | H-205-  | PAS 
+| 1bql | H | albelig | 21 | 21 | E | 419 | 424 | H-207-  | H-212-  | TKVDKK 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 2 = p = 13
+= 3 = a = 5
+= 3 = a = 10
+= 3 = p = 12
+= 5 = a = 6
+= 5 = a = 10
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 9
+= 7 = a = 9
+= 9 = a = 10
+= 12 = a = 13
+= 14 = a = 15
+= 15 = a = 16
+= 15 = a = 18
+= 16 = m = 17
+= 16 = p = 18
+= 16 = a = 19
+= 19 = m = 20
+= 19 = a = 21
+# Listed 22 contacts. EOF.

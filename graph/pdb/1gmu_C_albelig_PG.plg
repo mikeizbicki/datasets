@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gmu, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METALLOCHAPERONE
+> pdb_mol_name > UREE
+> graphtype > albelig
+> resolution > 1.5
+> date > 24-SEP-01
+> header > METALLOCHAPERONE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF UREE
+> format_version > 2
+> pdbid > 1gmu
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA AEROGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gmu | C | albelig | 1 | 1 | E | 280 | 282 | C-2-  | C-4-  | LYL 
+| 1gmu | C | albelig | 2 | 2 | E | 294 | 298 | C-16-  | C-20-  | ASVTL 
+| 1gmu | C | albelig | 3 | 3 | H | 300 | 303 | C-22-  | C-25-  | IDVR 
+| 1gmu | C | albelig | 4 | 4 | E | 307 | 311 | C-29-  | C-33-  | RVKVT 
+| 1gmu | C | albelig | 5 | 5 | E | 317 | 321 | C-39-  | C-43-  | DAGLL 
+| 1gmu | C | albelig | 6 | 6 | E | 333 | 335 | C-55-  | C-57-  | VLS 
+| 1gmu | C | albelig | 7 | 7 | E | 342 | 347 | C-64-  | C-69-  | FVQVIA 
+| 1gmu | C | albelig | 8 | 8 | E | 349 | 356 | C-71-  | C-78-  | DEEVSVVR 
+| 1gmu | C | albelig | 9 | 9 | H | 360 | 372 | C-82-  | C-94-  | PFMLAKACYALGN 
+| 1gmu | C | albelig | 10 | 10 | E | 378 | 380 | C-100-  | C-102-  | QIM 
+| 1gmu | C | albelig | 11 | 11 | E | 383 | 387 | C-105-  | C-109-  | ELRYH 
+| 1gmu | C | albelig | 12 | 12 | H | 390 | 397 | C-112-  | C-119-  | HVLDDMLR 
+| 1gmu | C | albelig | 13 | 13 | E | 403 | 409 | C-125-  | C-131-  | VTFGQLP 
+| 1gmu | C | albelig | 14 | 14 | H | 414 | 416 | C-136-  | C-138-  | AGA 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 2 = p = 7
+= 4 = a = 5
+= 6 = a = 7
+= 8 = a = 11
+= 8 = a = 13
+= 10 = a = 11
+# Listed 7 contacts. EOF.

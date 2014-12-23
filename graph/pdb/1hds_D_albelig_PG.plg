@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hds, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN S (DEOXY) (BETA CHAIN)
+> graphtype > albelig
+> resolution > 1.98
+> date > 01-OCT-79
+> header > OXYGEN TRANSPORT
+> pdb_org_common > WHITE-TAILED DEER
+> title > MACROMOLECULAR STRUCTURE REFINEMENT BY RESTRAINED LEAST-SQUARES AND INTERACTIVE GRAPHICS AS APPLIED TO SICKLINGDEER TYPE III HEMOGLOBIN
+> format_version > 2
+> pdbid > 1hds
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ODOCOILEUS VIRGINIANUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hds | D | albelig | 1 | 1 | H | 451 | 463 | D-21-  | D-33-  | VVGAQALGRLLVV 
+| 1hds | D | albelig | 2 | 2 | H | 467 | 470 | D-37-  | D-40-  | TQRF 
+| 1hds | D | albelig | 3 | 3 | H | 481 | 485 | D-51-  | D-55-  | GAVMN 
+| 1hds | D | albelig | 4 | 4 | H | 488 | 500 | D-58-  | D-70-  | KVKAHGKRVLDAF 
+| 1hds | D | albelig | 5 | 5 | H | 510 | 513 | D-80-  | D-83-  | LKGA 
+| 1hds | D | albelig | 6 | 6 | H | 520 | 523 | D-90-  | D-93-  | LHCN 
+| 1hds | D | albelig | 7 | 7 | H | 529 | 540 | D-99-  | D-110-  | PQNFRLLGNVLA 
+| 1hds | D | albelig | 8 | 8 | H | 544 | 551 | D-114-  | D-121-  | ARNFGGQF 
+| 1hds | D | albelig | 9 | 9 | H | 553 | 560 | D-123-  | D-130-  | PNVQALFQ 
+| 1hds | D | albelig | 10 | 10 | H | 562 | 569 | D-132-  | D-139-  | VVAGVANA 
+| 1hds | D | albelig | 11 | 11 | L | 579 | 579 | D-146-  | D-146-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 4
+= 1 = m = 7
+= 1 = l = 11
+= 2 = l = 11
+= 4 = l = 11
+= 6 = l = 11
+= 7 = l = 11
+= 8 = m = 9
+= 10 = l = 11
+# Listed 10 contacts. EOF.

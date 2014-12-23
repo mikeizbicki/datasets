@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kq1, chain W.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HFQ, HEXAMER, RNA BINDING PROTEIN, TRANSLATIONAL REGULATOR,SM MOTIF
+> pdb_mol_name > HOST FACTOR FOR Q BETA
+> graphtype > albelig
+> resolution > 1.55
+> date > 03-JAN-02
+> header > TRANSLATION
+> pdb_org_common > UNKNOWN
+> title > 1.55 A CRYSTAL STRUCTURE OF THE PLEIOTROPIC TRANSLATIONALREGULATOR, HFQ
+> format_version > 2
+> pdbid > 1kq1
+> experiment > X-RAY DIFFRACTION
+> chainid > W
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kq1 | W | albelig | 1 | 1 | H | 686 | 696 | W-7-  | W-17-  | IQDKALENFKA 
+| 1kq1 | W | albelig | 2 | 2 | E | 700 | 705 | W-21-  | W-26-  | EVTVFF 
+| 1kq1 | W | albelig | 3 | 3 | E | 710 | 718 | W-31-  | W-39-  | QMKGVIEEY 
+| 1kq1 | W | albelig | 4 | 4 | E | 722 | 727 | W-43-  | W-48-  | VVSLNS 
+| 1kq1 | W | albelig | 5 | 5 | E | 730 | 735 | W-51-  | W-56-  | KQHLIY 
+| 1kq1 | W | albelig | 6 | 6 | H | 736 | 738 | W-57-  | W-59-  | KHA 
+| 1kq1 | W | albelig | 7 | 7 | E | 739 | 744 | W-60-  | W-65-  | ISTYTV 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = a = 3
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 6
+= 6 = m = 7
+# Listed 7 contacts. EOF.

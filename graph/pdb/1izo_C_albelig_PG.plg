@@ -1,0 +1,87 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1izo, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEME PROTEIN, PROTEIN-FATTY ACID COMPLEX, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,OXIDOREDUCTASE
+> pdb_mol_name > CYTOCHROME P450 152A1
+> graphtype > albelig
+> resolution > 2.1
+> date > 10-OCT-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CYTOCHROME P450 BS BETA COMPLEXED WITH FATTY ACID
+> format_version > 2
+> pdbid > 1izo
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1izo | C | albelig | 1 | 1 | H | 832 | 842 | C-13-  | C-23-  | NSLTLLKEGYL 
+| 1izo | C | albelig | 2 | 2 | H | 843 | 850 | C-24-  | C-31-  | FIKNRTER 
+| 1izo | C | albelig | 3 | 3 | E | 855 | 860 | C-36-  | C-41-  | LFQARL 
+| 1izo | C | albelig | 4 | 4 | E | 863 | 868 | C-44-  | C-49-  | KNFICM 
+| 1izo | C | albelig | 5 | 5 | H | 871 | 877 | C-52-  | C-58-  | AEAAKVF 
+| 1izo | C | albelig | 6 | 6 | H | 891 | 898 | C-72-  | C-79-  | KRVQKSLF 
+| 1izo | C | albelig | 7 | 7 | H | 903 | 905 | C-84-  | C-86-  | IQG 
+| 1izo | C | albelig | 8 | 8 | H | 908 | 919 | C-89-  | C-100-  | GSAHIHRKMLFL 
+| 1izo | C | albelig | 9 | 9 | H | 924 | 946 | C-105-  | C-127-  | PPHQKRLAELMTEEWKAAVTRWE 
+| 1izo | C | albelig | 10 | 10 | E | 950 | 952 | C-131-  | C-133-  | EVV 
+| 1izo | C | albelig | 11 | 11 | H | 953 | 969 | C-134-  | C-150-  | LFEEAKEILCRVACYWA 
+| 1izo | C | albelig | 12 | 12 | H | 978 | 989 | C-159-  | C-170-  | VKERADDFIDMV 
+| 1izo | C | albelig | 13 | 13 | H | 997 | 1021 | C-178-  | C-202-  | PRHWKGRRARPRAEEWIEVMIEDAR 
+| 1izo | C | albelig | 14 | 14 | H | 1032 | 1038 | C-213-  | C-219-  | ALHEMAF 
+| 1izo | C | albelig | 15 | 15 | H | 1049 | 1079 | C-230-  | C-260-  | SRMAAIELINVLRPIVAISYFLVFSALALHE 
+| 1izo | C | albelig | 16 | 16 | H | 1082 | 1086 | C-263-  | C-267-  | KYKEW 
+| 1izo | C | albelig | 17 | 17 | H | 1092 | 1105 | C-273-  | C-286-  | SREREMFVQEVRRY 
+| 1izo | C | albelig | 18 | 18 | E | 1111 | 1116 | C-292-  | C-297-  | FLGALV 
+| 1izo | C | albelig | 19 | 19 | E | 1120 | 1122 | C-301-  | C-303-  | FVW 
+| 1izo | C | albelig | 20 | 20 | E | 1125 | 1127 | C-306-  | C-308-  | CEF 
+| 1izo | C | albelig | 21 | 21 | E | 1132 | 1136 | C-313-  | C-317-  | SVLLD 
+| 1izo | C | albelig | 22 | 22 | H | 1138 | 1141 | C-319-  | C-322-  | YGTN 
+| 1izo | C | albelig | 23 | 23 | H | 1155 | 1158 | C-336-  | C-339-  | PERF 
+| 1izo | C | albelig | 24 | 24 | H | 1185 | 1201 | C-366-  | C-382-  | EGITIEVMKASLDFLVH 
+| 1izo | C | albelig | 25 | 25 | E | 1203 | 1206 | C-384-  | C-387-  | IEYD 
+| 1izo | C | albelig | 26 | 26 | E | 1228 | 1234 | C-409-  | C-415-  | VMSGIRR 
+| 1izo | C | albelig | 27 | 27 | L | 1240 | 1240 | C-501-  | C-501-  | J 
+| 1izo | C | albelig | 28 | 28 | L | 1241 | 1241 | C-2601-  | C-2601-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 28
+= 3 = a = 4
+= 4 = p = 21
+= 5 = m = 21
+= 6 = m = 13
+= 6 = l = 28
+= 7 = m = 8
+= 7 = l = 27
+= 8 = p = 15
+= 8 = l = 27
+= 9 = a = 11
+= 9 = p = 24
+= 9 = m = 26
+= 10 = m = 11
+= 10 = p = 26
+= 11 = m = 12
+= 11 = a = 15
+= 12 = a = 13
+= 12 = m = 15
+= 12 = l = 28
+= 13 = a = 15
+= 14 = m = 15
+= 15 = a = 17
+= 15 = p = 24
+= 15 = l = 27
+= 15 = l = 28
+= 17 = m = 23
+= 17 = a = 24
+= 18 = a = 21
+= 18 = l = 27
+= 18 = l = 28
+= 19 = a = 20
+= 21 = m = 22
+= 24 = m = 25
+= 24 = l = 27
+= 25 = a = 26
+= 27 = l = 28
+# Listed 38 contacts. EOF.

@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxd, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, METALLOPROTEASE, ZYMOGEN, COLLAGEN DEGRADATION,EXTRACELLULAR MATRIX, GELATINASE A, MATRIX METALLOPROTEINASE 2,PROTEINASE INHIBITOR
+> pdb_mol_name > METALLOPROTEINASE INHIBITOR 2
+> graphtype > albelig
+> resolution > 3.1
+> date > 02-APR-02
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > PROMMP-2/TIMP-2 COMPLEX
+> format_version > 2
+> pdbid > 1gxd
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxd | D | albelig | 1 | 1 | H | 1452 | 1458 | D-8-  | D-14-  | PQQAFYN 
+| 1gxd | D | albelig | 2 | 2 | E | 1461 | 1465 | D-17-  | D-21-  | VVIRA 
+| 1gxd | D | albelig | 3 | 3 | E | 1470 | 1478 | D-26-  | D-34-  | EKEVDSGND 
+| 1gxd | D | albelig | 4 | 4 | E | 1482 | 1490 | D-38-  | D-46-  | NPIKRIQYE 
+| 1gxd | D | albelig | 5 | 5 | E | 1506 | 1509 | D-62-  | D-65-  | FIYT 
+| 1gxd | D | albelig | 6 | 6 | H | 1513 | 1515 | D-69-  | D-71-  | SAV 
+| 1gxd | D | albelig | 7 | 7 | H | 1522 | 1524 | D-78-  | D-80-  | VGG 
+| 1gxd | D | albelig | 8 | 8 | E | 1528 | 1534 | D-84-  | D-90-  | YLIAGKA 
+| 1gxd | D | albelig | 9 | 9 | E | 1539 | 1541 | D-95-  | D-97-  | KMH 
+| 1gxd | D | albelig | 10 | 10 | H | 1556 | 1559 | D-112-  | D-115-  | TTQK 
+| 1gxd | D | albelig | 11 | 11 | H | 1567 | 1569 | D-123-  | D-125-  | QMG 
+| 1gxd | D | albelig | 12 | 12 | H | 1594 | 1596 | D-150-  | D-152-  | DWV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 8
+= 3 = a = 4
+= 4 = a = 5
+= 5 = p = 9
+= 8 = a = 9
+# Listed 5 contacts. EOF.

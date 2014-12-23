@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1klx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STRUCTURAL GENOMICS, HELIX-TURN-HELIX, RIGHT HANDED SUPERHELIX, MODULAR STRUCTURE', HYDROLASE
+> pdb_mol_name > CYSTEINE RICH PROTEIN B
+> graphtype > albelig
+> resolution > 1.95
+> date > 13-DEC-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > HELICOBACTER PYLORI CYSTEINE RICH PROTEIN B (HCPB)
+> format_version > 2
+> pdbid > 1klx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HELICOBACTER PYLORI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1klx | A | albelig | 1 | 1 | H | 5 | 21 | A-7-  | A-23-  | VKKDLKKAIQYYVKAAE 
+| 1klx | A | albelig | 2 | 2 | H | 27 | 32 | A-29-  | A-34-  | GALSLV 
+| 1klx | A | albelig | 3 | 3 | H | 39 | 51 | A-41-  | A-53-  | KQKLFQYLSKANE 
+| 1klx | A | albelig | 4 | 4 | H | 55 | 67 | A-57-  | A-69-  | GNGNRFLGDFYEN 
+| 1klx | A | albelig | 5 | 5 | H | 75 | 87 | A-77-  | A-89-  | LRKAAQYYSKACG 
+| 1klx | A | albelig | 6 | 6 | H | 91 | 103 | A-93-  | A-105-  | QDGCLILGYKQYA 
+| 1klx | A | albelig | 7 | 7 | H | 111 | 123 | A-113-  | A-125-  | EKQAVKTFEKADR 
+| 1klx | A | albelig | 8 | 8 | H | 127 | 132 | A-129-  | A-134-  | EDADGI 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 3 = a = 4
+= 4 = a = 5
+= 6 = a = 7
+# Listed 5 contacts. EOF.

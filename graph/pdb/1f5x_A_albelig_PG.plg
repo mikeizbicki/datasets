@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f5x, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > 11 ALPHA-HELICES, SIGNALING PROTEIN
+> pdb_mol_name > RHO-GEF VAV
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-JUN-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > NMR STRUCTURE OF THE Y174 AUTOINHIBITED DBL HOMOLOGY DOMAIN
+> format_version > 2
+> pdbid > 1f5x
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f5x | A | albelig | 1 | 1 | H | 3 | 10 | A-3-  | A-10-  | GDEIYEDL 
+| 1f5x | A | albelig | 2 | 2 | H | 24 | 46 | A-24-  | A-46-  | EYDKRCCCLREIQQTEEKYTDTL 
+| 1f5x | A | albelig | 3 | 3 | H | 54 | 57 | A-54-  | A-57-  | MKPL 
+| 1f5x | A | albelig | 4 | 4 | H | 63 | 69 | A-63-  | A-69-  | PQDMETI 
+| 1f5x | A | albelig | 5 | 5 | H | 73 | 92 | A-73-  | A-92-  | IEELFSVHTHFLKELKDALA 
+| 1f5x | A | albelig | 6 | 6 | H | 96 | 104 | A-96-  | A-104-  | ATTLYQVFI 
+| 1f5x | A | albelig | 7 | 7 | H | 107 | 110 | A-107-  | A-110-  | KERF 
+| 1f5x | A | albelig | 8 | 8 | H | 112 | 133 | A-112-  | A-133-  | VYGRYCSQVESASKHLDQVATA 
+| 1f5x | A | albelig | 9 | 9 | H | 135 | 145 | A-135-  | A-145-  | EDVQMKLEECS 
+| 1f5x | A | albelig | 10 | 10 | H | 162 | 177 | A-162-  | A-177-  | PMQRVLKYHLLLQELV 
+| 1f5x | A | albelig | 11 | 11 | H | 185 | 203 | A-185-  | A-203-  | EKENLRLALDAMRDLAQCV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 5
+= 2 = a = 10
+= 5 = a = 6
+= 5 = m = 8
+= 6 = p = 11
+= 8 = m = 10
+= 10 = a = 11
+# Listed 7 contacts. EOF.

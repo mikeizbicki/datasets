@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ghf, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY FAB FRAGMENT
+> pdb_mol_name > ANTI-ANTI-IDIOTYPE GH1002 FAB FRAGMENT
+> graphtype > albelig
+> resolution > 2.7
+> date > 30-NOV-95
+> header > ANTIBODY FAB FRAGMENT
+> pdb_org_common > HOUSE MOUSE
+> title > ANTI-ANTI-IDIOTYPE GH1002 FAB FRAGMENT
+> format_version > 2
+> pdbid > 1ghf
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ghf | L | albelig | 1 | 1 | E | 10 | 13 | L-10-  | L-13-  | SLSA 
+| 1ghf | L | albelig | 2 | 2 | E | 19 | 25 | L-19-  | L-25-  | VTISARE 
+| 1ghf | L | albelig | 3 | 3 | E | 33 | 38 | L-33-  | L-38-  | LNWYQQ 
+| 1ghf | L | albelig | 4 | 4 | E | 44 | 49 | L-44-  | L-49-  | VKLLIY 
+| 1ghf | L | albelig | 5 | 5 | E | 62 | 67 | L-62-  | L-67-  | FSGSGT 
+| 1ghf | L | albelig | 6 | 6 | E | 70 | 75 | L-70-  | L-75-  | DYSLTI 
+| 1ghf | L | albelig | 7 | 7 | E | 85 | 90 | L-85-  | L-90-  | TYFAQQ 
+| 1ghf | L | albelig | 8 | 8 | E | 102 | 106 | L-102-  | L-106-  | TKLEI 
+| 1ghf | L | albelig | 9 | 9 | E | 114 | 118 | L-114-  | L-118-  | TVSIF 
+| 1ghf | L | albelig | 10 | 10 | H | 122 | 125 | L-122-  | L-125-  | SEQL 
+| 1ghf | L | albelig | 11 | 11 | E | 131 | 139 | L-131-  | L-139-  | SVVNFLNNF 
+| 1ghf | L | albelig | 12 | 12 | E | 144 | 148 | L-144-  | L-148-  | INVKW 
+| 1ghf | L | albelig | 13 | 13 | E | 160 | 163 | L-160-  | L-163-  | LNSW 
+| 1ghf | L | albelig | 14 | 14 | E | 173 | 180 | L-173-  | L-180-  | YSMSSTLT 
+| 1ghf | L | albelig | 15 | 15 | H | 183 | 186 | L-183-  | L-186-  | KDEY 
+| 1ghf | L | albelig | 16 | 16 | E | 193 | 198 | L-193-  | L-198-  | TNEATH 
+| 1ghf | L | albelig | 17 | 17 | E | 205 | 208 | L-205-  | L-208-  | IVKS 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 4
+= 3 = p = 6
+= 3 = a = 7
+= 5 = a = 6
+= 7 = p = 8
+= 9 = a = 11
+= 9 = p = 17
+= 11 = a = 14
+= 11 = p = 16
+= 12 = p = 14
+= 12 = a = 16
+= 13 = a = 14
+= 16 = a = 17
+# Listed 16 contacts. EOF.

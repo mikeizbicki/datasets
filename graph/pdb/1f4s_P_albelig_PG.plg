@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f4s, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, ZINC BINUCLEAR CLUSTER PROTEIN,TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > ETHANOL REGULON TRANSCRIPTIONAL FACTOR
+> graphtype > albelig
+> resolution > -1.0
+> date > 09-JUN-00
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF TRANSCRIPTIONAL FACTOR ALCR IN COMPLEX WITH ATARGET DNA
+> format_version > 2
+> pdbid > 1f4s
+> experiment > SOLUTION NMR
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > EMERICELLA NIDULANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f4s | P | albelig | 1 | 1 | H | 15 | 20 | P-13-  | P-18-  | DPCRKG 
+| 1f4s | P | albelig | 2 | 2 | H | 30 | 35 | P-28-  | P-33-  | RNEANE 
+| 1f4s | P | albelig | 3 | 3 | H | 42 | 46 | P-40-  | P-44-  | SNCKR 
+| 1f4s | P | albelig | 4 | 4 | H | 54 | 59 | P-52-  | P-57-  | NWLSSQ 
+| 1f4s | P | albelig | 5 | 5 | L | 66 | 66 | P-64-  | P-64-  | J 
+| 1f4s | P | albelig | 6 | 6 | L | 67 | 67 | P-65-  | P-65-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 5
+= 1 = l = 6
+= 3 = l = 5
+= 3 = l = 6
+= 5 = l = 6
+# Listed 5 contacts. EOF.

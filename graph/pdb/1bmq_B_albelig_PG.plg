@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bmq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CASPASE, HYDROLASE
+> pdb_mol_name > PROTEIN (INTERLEUKIN-1 BETA CONVERTASE)
+> graphtype > albelig
+> resolution > 2.5
+> date > 24-JUL-98
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE COMPLEX OF INTERLEUKIN-1BETACONVERTING ENZYME (ICE) WITH A PEPTIDE BASED INHIBITOR,(3S )-N-METHANESULFONYL-3-({1-[N-(2-NAPHTOYL)-L-VALYL]-L-PROLYL }AMINO)-4-OXOBUTANAMIDE
+> format_version > 2
+> pdbid > 1bmq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bmq | B | albelig | 1 | 1 | E | 179 | 183 | B-327-  | B-331-  | FIAFC 
+| 1bmq | B | albelig | 2 | 2 | H | 200 | 212 | B-348-  | B-360-  | VFIGRLIEHMQEY 
+| 1bmq | B | albelig | 3 | 3 | H | 218 | 227 | B-366-  | B-375-  | VEEIFRKVRF 
+| 1bmq | B | albelig | 4 | 4 | E | 240 | 242 | B-388-  | B-390-  | TTE 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = m = 3
+# Listed 2 contacts. EOF.

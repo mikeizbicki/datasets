@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b56, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIPID-BINDING, FATTY ACID TRANSPORT, BETA BARREL, LIPIDBINDING PROTEIN
+> pdb_mol_name > FATTY ACID BINDING PROTEIN
+> graphtype > albelig
+> resolution > 2.05
+> date > 12-JAN-99
+> header > LIPID BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN RECOMBINANT EPIDERMAL FATTY ACID BINDING PROTEIN
+> format_version > 2
+> pdbid > 1b56
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b56 | A | albelig | 1 | 1 | H | 2 | 5 | A-4-  | A-7-  | VQQL 
+| 1b56 | A | albelig | 2 | 2 | E | 7 | 13 | A-9-  | A-15-  | GRWRLVD 
+| 1b56 | A | albelig | 3 | 3 | H | 17 | 24 | A-19-  | A-26-  | FDEYMKEL 
+| 1b56 | A | albelig | 4 | 4 | H | 28 | 36 | A-30-  | A-38-  | IALRKMGAM 
+| 1b56 | A | albelig | 5 | 5 | E | 40 | 46 | A-42-  | A-48-  | DCIITCD 
+| 1b56 | A | albelig | 6 | 6 | E | 49 | 55 | A-51-  | A-57-  | NLTIKTE 
+| 1b56 | A | albelig | 7 | 7 | E | 60 | 66 | A-62-  | A-68-  | TTQFSCT 
+| 1b56 | A | albelig | 8 | 8 | E | 71 | 74 | A-73-  | A-76-  | FEET 
+| 1b56 | A | albelig | 9 | 9 | E | 80 | 88 | A-82-  | A-90-  | KTQTVCNFT 
+| 1b56 | A | albelig | 10 | 10 | E | 91 | 98 | A-93-  | A-100-  | ALVQHQEW 
+| 1b56 | A | albelig | 11 | 11 | E | 101 | 110 | A-103-  | A-112-  | KESTITRKLK 
+| 1b56 | A | albelig | 12 | 12 | E | 113 | 120 | A-115-  | A-122-  | KLVVEAVM 
+| 1b56 | A | albelig | 13 | 13 | E | 123 | 131 | A-125-  | A-133-  | VTATRIYEK 
+| 1b56 | A | albelig | 14 | 14 | L | 134 | 134 | A-136-  | A-136-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 5
+= 2 = a = 13
+= 3 = m = 12
+= 3 = l = 14
+= 4 = l = 14
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+= 11 = a = 12
+= 11 = l = 14
+= 12 = a = 13
+= 12 = l = 14
+= 13 = l = 14
+# Listed 15 contacts. EOF.

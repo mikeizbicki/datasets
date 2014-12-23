@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f8y, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ACTIVE SITE, ALPHA/BETA PROTEIN, BIOCATALYST, NUCLEOSIDE, X-RAY CRYSTALLOGRAPHY, TRANSFERASE
+> pdb_mol_name > NUCLEOSIDE 2-DEOXYRIBOSYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 05-JUL-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF NUCLEOSIDE 2-DEOXYRIBOSYLTRANSFERASE COMPLEXED WITH 5-METHYL-2'-DEOXYPSEUDOURIDINE
+> format_version > 2
+> pdbid > 1f8y
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LACTOBACILLUS LEICHMANNII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f8y | A | albelig | 1 | 1 | E | 5 | 8 | A-6-  | A-9-  | IYFG 
+| 1f8y | A | albelig | 2 | 2 | H | 14 | 29 | A-15-  | A-30-  | DRQNKAYKEAMEALKE 
+| 1f8y | A | albelig | 3 | 3 | H | 41 | 43 | A-42-  | A-44-  | PLD 
+| 1f8y | A | albelig | 4 | 4 | H | 46 | 48 | A-47-  | A-49-  | YKG 
+| 1f8y | A | albelig | 5 | 5 | H | 55 | 59 | A-56-  | A-60-  | PEYLH 
+| 1f8y | A | albelig | 6 | 6 | H | 61 | 76 | A-62-  | A-77-  | KVWATATYNNDLNGIK 
+| 1f8y | A | albelig | 7 | 7 | E | 80 | 84 | A-81-  | A-85-  | IMLGV 
+| 1f8y | A | albelig | 8 | 8 | H | 87 | 89 | A-88-  | A-90-  | PDE 
+| 1f8y | A | albelig | 9 | 9 | H | 92 | 103 | A-93-  | A-104-  | VGLGMELGYALS 
+| 1f8y | A | albelig | 10 | 10 | E | 107 | 112 | A-108-  | A-113-  | YVLLVI 
+| 1f8y | A | albelig | 11 | 11 | H | 114 | 116 | A-115-  | A-117-  | DED 
+| 1f8y | A | albelig | 12 | 12 | H | 123 | 128 | A-124-  | A-129-  | LMSWGV 
+| 1f8y | A | albelig | 13 | 13 | E | 131 | 134 | A-132-  | A-135-  | NVIK 
+| 1f8y | A | albelig | 14 | 14 | H | 135 | 137 | A-136-  | A-138-  | MSQ 
+| 1f8y | A | albelig | 15 | 15 | L | 314 | 314 | A-158-  | A-158-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 1 = l = 15
+= 2 = m = 8
+= 3 = l = 15
+= 4 = m = 6
+= 6 = m = 9
+= 6 = l = 15
+= 7 = p = 10
+= 9 = l = 15
+= 10 = p = 13
+= 13 = m = 14
+# Listed 11 contacts. EOF.

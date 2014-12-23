@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1azm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DRUG INTERACTIONS, OXO-ACID LYASE, SULFONAMIDES,LYASE(OXO-ACID)
+> pdb_mol_name > CARBONIC ANHYDRASE I
+> graphtype > albelig
+> resolution > 2.0
+> date > 28-NOV-93
+> header > LYASE(OXO-ACID)
+> pdb_org_common > HUMAN
+> title > DRUG-PROTEIN INTERACTIONS: STRUCTURE OF SULFONAMIDE DRUGCOMPLEXED WITH HUMAN CARBONIC ANHYDRASE I
+> format_version > 2
+> pdbid > 1azm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1azm | A | albelig | 1 | 1 | H | 14 | 16 | A-16-  | A-18-  | WSK 
+| 1azm | A | albelig | 2 | 2 | H | 19 | 22 | A-21-  | A-24-  | PIAN 
+| 1azm | A | albelig | 3 | 3 | H | 33 | 35 | A-35-  | A-37-  | TSE 
+| 1azm | A | albelig | 4 | 4 | E | 45 | 48 | A-47-  | A-50-  | ISVS 
+| 1azm | A | albelig | 5 | 5 | H | 51 | 53 | A-53-  | A-55-  | PAT 
+| 1azm | A | albelig | 6 | 6 | E | 54 | 59 | A-56-  | A-61-  | AKEIIN 
+| 1azm | A | albelig | 7 | 7 | E | 64 | 68 | A-66-  | A-70-  | FHVNF 
+| 1azm | A | albelig | 8 | 8 | E | 76 | 79 | A-78-  | A-81-  | VLKG 
+| 1azm | A | albelig | 9 | 9 | E | 86 | 95 | A-88-  | A-97-  | YRLFQFHFHW 
+| 1azm | A | albelig | 10 | 10 | E | 114 | 122 | A-116-  | A-124-  | AELHVAHWN 
+| 1azm | A | albelig | 11 | 11 | H | 129 | 132 | A-131-  | A-134-  | LAEA 
+| 1azm | A | albelig | 12 | 12 | E | 139 | 148 | A-141-  | A-150-  | LAVIGVLMKV 
+| 1azm | A | albelig | 13 | 13 | H | 153 | 161 | A-155-  | A-163-  | PKLQKVLDA 
+| 1azm | A | albelig | 14 | 14 | H | 162 | 165 | A-164-  | A-167-  | LQAI 
+| 1azm | A | albelig | 15 | 15 | E | 171 | 173 | A-173-  | A-175-  | RAP 
+| 1azm | A | albelig | 16 | 16 | H | 179 | 182 | A-181-  | A-184-  | PSTL 
+| 1azm | A | albelig | 17 | 17 | E | 189 | 194 | A-191-  | A-196-  | FWTYPG 
+| 1azm | A | albelig | 18 | 18 | E | 205 | 210 | A-207-  | A-212-  | VTWIIC 
+| 1azm | A | albelig | 19 | 19 | E | 214 | 216 | A-216-  | A-218-  | ISV 
+| 1azm | A | albelig | 20 | 20 | H | 218 | 224 | A-220-  | A-226-  | SEQLAQF 
+| 1azm | A | albelig | 21 | 21 | L | 259 | 259 | A-261-  | A-261-  | J 
+| 1azm | A | albelig | 22 | 22 | L | 260 | 260 | A-262-  | A-262-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = a = 8
+= 5 = m = 6
+= 6 = a = 7
+= 6 = m = 14
+= 6 = a = 15
+= 7 = a = 9
+= 8 = a = 9
+= 9 = a = 10
+= 9 = l = 21
+= 9 = l = 22
+= 10 = a = 12
+= 10 = l = 21
+= 10 = l = 22
+= 11 = l = 22
+= 12 = p = 18
+= 12 = p = 19
+= 12 = l = 22
+= 13 = m = 20
+= 17 = a = 18
+= 18 = l = 22
+= 21 = l = 22
+# Listed 21 contacts. EOF.

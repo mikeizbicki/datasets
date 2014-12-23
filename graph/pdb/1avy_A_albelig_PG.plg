@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1avy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIOPHAGE T4, STRUCTURAL PROTEIN, CHAPERONE, BACTERIOPHAGEASSEMBLY, PROTEIN FOLDING
+> pdb_mol_name > FIBRITIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 22-SEP-97
+> header > COILED COIL
+> pdb_org_common > UNKNOWN
+> title > FIBRITIN DELETION MUTANT M (BACTERIOPHAGE T4)
+> format_version > 2
+> pdbid > 1avy
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1avy | A | albelig | 1 | 1 | H | 3 | 37 | A-421-  | A-455-  | KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQE 
+| 1avy | A | albelig | 2 | 2 | E | 51 | 54 | A-469-  | A-472-  | YVRK 
+| 1avy | A | albelig | 3 | 3 | E | 57 | 60 | A-475-  | A-478-  | EWVL 
+| 1avy | A | albelig | 4 | 4 | H | 61 | 64 | A-479-  | A-482-  | LSTF 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = m = 4
+# Listed 2 contacts. EOF.

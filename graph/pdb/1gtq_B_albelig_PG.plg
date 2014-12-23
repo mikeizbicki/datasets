@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gtq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHATE ELIMINATION, PTERINE SYNTHESIS,TETRAHYDROBIOPTERIN BIOSYNTHESIS
+> pdb_mol_name > 6-PYRUVOYL TETRAHYDROPTERIN SYNTHASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 16-SEP-95
+> header > TETRAHYDROBIOPTERIN BIOSYNTHESIS
+> pdb_org_common > BLACK RAT
+> title > 6-PYRUVOYL TETRAHYDROPTERIN SYNTHASE
+> format_version > 2
+> pdbid > 1gtq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS RATTUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gtq | B | albelig | 1 | 1 | E | 143 | 156 | B-10-  | B-23-  | RARLSRLVSFSASH 
+| 1gtq | B | albelig | 2 | 2 | H | 165 | 176 | B-32-  | B-43-  | AEENLKVFGKCN 
+| 1gtq | B | albelig | 3 | 3 | E | 181 | 194 | B-48-  | B-61-  | HGHNYKVVVTIHGE 
+| 1gtq | B | albelig | 4 | 4 | H | 205 | 217 | B-72-  | B-84-  | LTDLKEYMEEAIM 
+| 1gtq | B | albelig | 5 | 5 | H | 218 | 220 | B-85-  | B-87-  | KPL 
+| 1gtq | B | albelig | 6 | 6 | H | 225 | 228 | B-92-  | B-95-  | LDLD 
+| 1gtq | B | albelig | 7 | 7 | H | 230 | 233 | B-97-  | B-100-  | PYFA 
+| 1gtq | B | albelig | 8 | 8 | H | 239 | 253 | B-106-  | B-120-  | TENVAVYIWENLQRL 
+| 1gtq | B | albelig | 9 | 9 | E | 259 | 265 | B-126-  | B-132-  | LYKVKVY 
+| 1gtq | B | albelig | 10 | 10 | E | 271 | 274 | B-138-  | B-141-  | IVVY 
+| 1gtq | B | albelig | 11 | 11 | L | 279 | 279 | B-200-  | B-200-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 4
+= 1 = m = 5
+= 1 = m = 6
+= 1 = l = 11
+= 2 = l = 11
+= 3 = a = 9
+= 3 = l = 11
+= 4 = m = 5
+= 4 = m = 8
+= 5 = m = 8
+= 7 = m = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = a = 10
+# Listed 15 contacts. EOF.

@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g2o, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRIMER, TRANSITION-STATE COMPLEX, TRANSFERASE
+> pdb_mol_name > PURINE NUCLEOSIDE PHOSPHORYLASE
+> graphtype > albelig
+> resolution > 1.75
+> date > 20-OCT-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PURINE NUCLEOSIDE PHOSPHORYLASE FROMMYCOBACTERIUM TUBERCULOSIS IN COMPLEX WITH A TRANSITION-STATE INHIBITOR
+> format_version > 2
+> pdbid > 1g2o
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM TUBERCULOSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g2o | C | albelig | 1 | 1 | H | 528 | 543 | C-8-  | C-23-  | PDELARRAAQVIADRT 
+| 1g2o | C | albelig | 2 | 2 | E | 550 | 554 | C-30-  | C-34-  | VAVVL 
+| 1g2o | C | albelig | 3 | 3 | H | 559 | 565 | C-39-  | C-45-  | LPAVAAL 
+| 1g2o | C | albelig | 4 | 4 | E | 570 | 573 | C-50-  | C-53-  | TVLP 
+| 1g2o | C | albelig | 5 | 5 | H | 574 | 576 | C-54-  | C-56-  | QAE 
+| 1g2o | C | albelig | 6 | 6 | E | 591 | 597 | C-71-  | C-77-  | ELLSVPI 
+| 1g2o | C | albelig | 7 | 7 | E | 600 | 606 | C-80-  | C-86-  | HRVLVLA 
+| 1g2o | C | albelig | 8 | 8 | H | 611 | 613 | C-91-  | C-93-  | AYE 
+| 1g2o | C | albelig | 9 | 9 | H | 617 | 620 | C-97-  | C-100-  | LRYV 
+| 1g2o | C | albelig | 10 | 10 | H | 622 | 629 | C-102-  | C-109-  | HPVRAARA 
+| 1g2o | C | albelig | 11 | 11 | E | 634 | 643 | C-114-  | C-123-  | IMVLTNAAGG 
+| 1g2o | C | albelig | 12 | 12 | E | 653 | 661 | C-133-  | C-141-  | PVLISDHLN 
+| 1g2o | C | albelig | 13 | 13 | H | 682 | 691 | C-162-  | C-171-  | PRLRELARQS 
+| 1g2o | C | albelig | 14 | 14 | E | 696 | 702 | C-176-  | C-182-  | AEGVYAG 
+| 1g2o | C | albelig | 15 | 15 | H | 711 | 720 | C-191-  | C-200-  | PAEIRMLQTL 
+| 1g2o | C | albelig | 16 | 16 | E | 724 | 726 | C-204-  | C-206-  | LVG 
+| 1g2o | C | albelig | 17 | 17 | H | 730 | 738 | C-210-  | C-218-  | VHETIAARA 
+| 1g2o | C | albelig | 18 | 18 | E | 742 | 752 | C-222-  | C-232-  | EVLGVSLVTNL 
+| 1g2o | C | albelig | 19 | 19 | H | 763 | 786 | C-243-  | C-266-  | HAEVLAAGAASATRMGALLADVIA 
+| 1g2o | C | albelig | 20 | 20 | L | 793 | 793 | C-303-  | C-303-  | J 
+| 1g2o | C | albelig | 21 | 21 | L | 794 | 794 | C-353-  | C-353-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 10
+= 2 = p = 7
+= 2 = p = 11
+= 4 = m = 5
+= 4 = a = 6
+= 6 = a = 7
+= 8 = l = 20
+= 8 = l = 21
+= 11 = a = 16
+= 11 = p = 18
+= 11 = l = 20
+= 11 = l = 21
+= 12 = m = 13
+= 12 = p = 14
+= 12 = a = 18
+= 13 = m = 19
+= 14 = p = 16
+= 14 = l = 20
+= 14 = l = 21
+= 16 = l = 21
+= 18 = a = 19
+= 18 = l = 21
+= 19 = l = 21
+= 20 = l = 21
+# Listed 25 contacts. EOF.

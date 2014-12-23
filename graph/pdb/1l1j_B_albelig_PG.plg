@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l1j, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, SERINE PROTEINASE
+> pdb_mol_name > HEAT SHOCK PROTEASE HTRA
+> graphtype > albelig
+> resolution > 2.8
+> date > 18-FEB-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE PROTEASE DOMAIN OF AN ATP-INDEPENDENT HEAT SHOCK PROTEASE HTRA
+> format_version > 2
+> pdbid > 1l1j
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l1j | B | albelig | 1 | 1 | H | 233 | 244 | B-28-  | B-39-  | PIVNVVEACAPA 
+| 1l1j | B | albelig | 2 | 2 | E | 245 | 251 | B-40-  | B-46-  | VVKIDVV 
+| 1l1j | B | albelig | 3 | 3 | H | 262 | 269 | B-58-  | B-65-  | FEQFFKKW 
+| 1l1j | B | albelig | 4 | 4 | E | 281 | 289 | B-77-  | B-85-  | VASLGSGFI 
+| 1l1j | B | albelig | 5 | 5 | E | 295 | 298 | B-91-  | B-94-  | YILT 
+| 1l1j | B | albelig | 6 | 6 | H | 300 | 303 | B-96-  | B-99-  | YHVV 
+| 1l1j | B | albelig | 7 | 7 | E | 310 | 312 | B-106-  | B-108-  | TVT 
+| 1l1j | B | albelig | 8 | 8 | E | 318 | 320 | B-114-  | B-116-  | KYD 
+| 1l1j | B | albelig | 9 | 9 | E | 322 | 327 | B-118-  | B-123-  | EYIGGD 
+| 1l1j | B | albelig | 10 | 10 | E | 332 | 336 | B-128-  | B-132-  | IAVIK 
+| 1l1j | B | albelig | 11 | 11 | H | 352 | 354 | B-148-  | B-150-  | SDK 
+| 1l1j | B | albelig | 12 | 12 | E | 360 | 365 | B-156-  | B-161-  | WAIAIG 
+| 1l1j | B | albelig | 13 | 13 | E | 373 | 387 | B-169-  | B-183-  | TVTVGVVSATNRRIP 
+| 1l1j | B | albelig | 14 | 14 | E | 394 | 401 | B-190-  | B-197-  | YYVGLIQT 
+| 1l1j | B | albelig | 15 | 15 | E | 413 | 415 | B-209-  | B-211-  | PLL 
+| 1l1j | B | albelig | 16 | 16 | E | 420 | 426 | B-216-  | B-222-  | EVIGINT 
+| 1l1j | B | albelig | 17 | 17 | E | 438 | 442 | B-234-  | B-238-  | GFAIP 
+| 1l1j | B | albelig | 18 | 18 | H | 443 | 453 | B-239-  | B-249-  | INTVKKFLDTI 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 2 = a = 4
+= 2 = a = 7
+= 2 = a = 12
+= 3 = m = 4
+= 4 = a = 5
+= 5 = a = 10
+= 6 = m = 10
+= 7 = a = 8
+= 9 = a = 10
+= 11 = m = 18
+= 12 = a = 13
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 17
+= 15 = a = 16
+= 16 = a = 17
+= 16 = m = 18
+= 17 = m = 18
+# Listed 20 contacts. EOF.

@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hzz, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROSSMANN FOLD, ALPHA BETA REPEAT, NUCLEOTIDE-BINDING FOLD,OXIDOREDUCTASE
+> pdb_mol_name > PROTON-TRANSLOCATING NICOTINAMIDE NUCLEOTIDE
+> graphtype > albelig
+> resolution > 2.5
+> date > 27-JAN-01
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > THE ASYMMETRIC COMPLEX OF THE TWO NUCLEOTIDE-BINDINGCOMPONENTS (DI, DIII) OF PROTON-TRANSLOCATINGTRANSHYDROGENASE
+> format_version > 2
+> pdbid > 1hzz
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > RHODOSPIRILLUM RUBRUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hzz | C | albelig | 1 | 1 | H | 739 | 747 | C-36-  | C-44-  | AEDAAFIMK 
+| 1hzz | C | albelig | 2 | 2 | E | 751 | 754 | C-48-  | C-51-  | KVII 
+| 1hzz | C | albelig | 3 | 3 | H | 758 | 762 | C-55-  | C-59-  | YGMAV 
+| 1hzz | C | albelig | 4 | 4 | H | 766 | 774 | C-63-  | C-71-  | QHALREMAD 
+| 1hzz | C | albelig | 5 | 5 | E | 782 | 787 | C-79-  | C-84-  | EVSYAI 
+| 1hzz | C | albelig | 6 | 6 | H | 797 | 804 | C-94-  | C-101-  | HMNVLLAE 
+| 1hzz | C | albelig | 7 | 7 | H | 809 | 811 | C-106-  | C-108-  | YDE 
+| 1hzz | C | albelig | 8 | 8 | E | 812 | 814 | C-109-  | C-111-  | VFE 
+| 1hzz | C | albelig | 9 | 9 | H | 815 | 817 | C-112-  | C-114-  | LEE 
+| 1hzz | C | albelig | 10 | 10 | E | 827 | 829 | C-124-  | C-126-  | VAF 
+| 1hzz | C | albelig | 11 | 11 | H | 839 | 841 | C-136-  | C-138-  | PAA 
+| 1hzz | C | albelig | 12 | 12 | E | 862 | 867 | C-159-  | C-164-  | TVLFIK 
+| 1hzz | C | albelig | 13 | 13 | H | 880 | 882 | C-177-  | C-179-  | ELF 
+| 1hzz | C | albelig | 14 | 14 | E | 887 | 891 | C-184-  | C-188-  | TMMLF 
+| 1hzz | C | albelig | 15 | 15 | H | 894 | 903 | C-191-  | C-200-  | AKKMTEQIVQ 
+| 1hzz | C | albelig | 16 | 16 | L | 908 | 908 | C-300-  | C-300-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 5
+= 2 = p = 10
+= 3 = l = 16
+= 4 = m = 15
+= 5 = m = 7
+= 5 = a = 8
+= 7 = m = 8
+= 8 = m = 9
+= 10 = p = 12
+= 12 = p = 14
+= 12 = l = 16
+= 13 = m = 14
+= 15 = l = 16
+# Listed 13 contacts. EOF.

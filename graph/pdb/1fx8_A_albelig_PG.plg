@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fx8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCEROL-CONDUCTING MEMBRANE CHANNEL PROTEIN, MEMBRANE PROTEIN
+> pdb_mol_name > GLYCEROL UPTAKE FACILITATOR PROTEIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 25-SEP-00
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE E. COLI GLYCEROL FACILITATOR (GLPF) WITHSUBSTRATE GLYCEROL
+> format_version > 2
+> pdbid > 1fx8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fx8 | A | albelig | 1 | 1 | H | 2 | 29 | A-7-  | A-34-  | LKGQCIAEFLGTGLLIFFGVGCVAALKV 
+| 1fx8 | A | albelig | 2 | 2 | H | 36 | 58 | A-41-  | A-63-  | QWEISVIWGLGVAMAIYLTAGVS 
+| 1fx8 | A | albelig | 3 | 3 | H | 64 | 73 | A-69-  | A-78-  | PAVTIALWLF 
+| 1fx8 | A | albelig | 4 | 4 | H | 78 | 113 | A-83-  | A-118-  | KRKVIPFIVSQVAGAFCAAALVYGLYYNLFFDFEQT 
+| 1fx8 | A | albelig | 5 | 5 | H | 121 | 127 | A-126-  | A-132-  | VESVDLA 
+| 1fx8 | A | albelig | 6 | 6 | H | 140 | 162 | A-145-  | A-167-  | FVQAFAVEMVITAILMGLILALT 
+| 1fx8 | A | albelig | 7 | 7 | H | 171 | 193 | A-176-  | A-198-  | GPLAPLLIGLLIAVIGASMGPLT 
+| 1fx8 | A | albelig | 8 | 8 | H | 199 | 214 | A-204-  | A-219-  | PARDFGPKVFAWLAGW 
+| 1fx8 | A | albelig | 9 | 9 | H | 217 | 220 | A-222-  | A-225-  | VAFT 
+| 1fx8 | A | albelig | 10 | 10 | H | 229 | 233 | A-234-  | A-238-  | LVPLF 
+| 1fx8 | A | albelig | 11 | 11 | H | 236 | 249 | A-241-  | A-254-  | IVGAIVGAFAYRKL 
+| 1fx8 | A | albelig | 12 | 12 | H | 251 | 253 | A-256-  | A-258-  | GRH 
+| 1fx8 | A | albelig | 13 | 13 | L | 255 | 255 | A-473-  | A-473-  | J 
+| 1fx8 | A | albelig | 14 | 14 | L | 256 | 256 | A-474-  | A-474-  | J 
+| 1fx8 | A | albelig | 15 | 15 | L | 257 | 257 | A-475-  | A-475-  | J 
+| 1fx8 | A | albelig | 16 | 16 | L | 258 | 258 | A-662-  | A-662-  | J 
+| 1fx8 | A | albelig | 17 | 17 | L | 259 | 259 | A-661-  | A-661-  | J 
+| 1fx8 | A | albelig | 18 | 18 | L | 260 | 260 | A-663-  | A-663-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 1 = l = 18
+= 2 = a = 7
+= 2 = l = 16
+= 2 = l = 18
+= 3 = a = 4
+= 3 = p = 11
+= 3 = l = 18
+= 4 = p = 8
+= 4 = l = 13
+= 4 = l = 14
+= 4 = l = 15
+= 6 = a = 7
+= 6 = m = 10
+= 6 = p = 11
+= 6 = l = 18
+= 7 = l = 16
+= 7 = l = 17
+= 7 = l = 18
+= 8 = l = 13
+= 8 = l = 14
+= 8 = l = 15
+= 8 = l = 16
+= 9 = l = 14
+= 10 = l = 14
+= 13 = l = 15
+= 16 = l = 18
+# Listed 28 contacts. EOF.

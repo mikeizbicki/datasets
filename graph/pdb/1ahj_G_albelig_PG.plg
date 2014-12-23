@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahj, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NITRILE HYDRATASE, IRON CENTER, NON-HEME IRON, LYASE
+> pdb_mol_name > NITRILE HYDRATASE (SUBUNIT ALPHA)
+> graphtype > albelig
+> resolution > 2.65
+> date > 05-APR-97
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > NITRILE HYDRATASE
+> format_version > 2
+> pdbid > 1ahj
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > RHODOCOCCUS SP. R312
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahj | G | albelig | 1 | 1 | H | 1246 | 1258 | G-19-  | G-31-  | VSDRAWALFRALD 
+| 1ahj | G | albelig | 2 | 2 | H | 1267 | 1278 | G-40-  | G-51-  | YVEGWKKTFEED 
+| 1ahj | G | albelig | 3 | 3 | H | 1282 | 1293 | G-55-  | G-66-  | RRGAELVARAWT 
+| 1ahj | G | albelig | 4 | 4 | H | 1295 | 1303 | G-68-  | G-76-  | PEFRQLLLT 
+| 1ahj | G | albelig | 5 | 5 | H | 1305 | 1310 | G-78-  | G-83-  | GTAAVA 
+| 1ahj | G | albelig | 6 | 6 | E | 1322 | 1326 | G-95-  | G-99-  | IVAVE 
+| 1ahj | G | albelig | 7 | 7 | E | 1331 | 1336 | G-104-  | G-109-  | LKNVIV 
+| 1ahj | G | albelig | 8 | 8 | H | 1345 | 1348 | G-118-  | G-121-  | WPIL 
+| 1ahj | G | albelig | 9 | 9 | H | 1358 | 1366 | G-131-  | G-139-  | FEYRARVVR 
+| 1ahj | G | albelig | 10 | 10 | H | 1368 | 1375 | G-141-  | G-148-  | PRKVLSEM 
+| 1ahj | G | albelig | 11 | 11 | E | 1384 | 1389 | G-157-  | G-162-  | EIRVYD 
+| 1ahj | G | albelig | 12 | 12 | E | 1395 | 1399 | G-168-  | G-172-  | RYMVL 
+| 1ahj | G | albelig | 13 | 13 | H | 1411 | 1417 | G-184-  | G-190-  | QEQLQEI 
+| 1ahj | G | albelig | 14 | 14 | H | 1420 | 1424 | G-193-  | G-197-  | KDCLI 
+| 1ahj | G | albelig | 15 | 15 | L | 1651 | 1651 | G-208-  | G-208-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 4
+= 5 = m = 6
+= 6 = a = 7
+= 6 = p = 12
+= 7 = p = 11
+= 7 = a = 12
+= 7 = m = 14
+= 9 = a = 10
+= 12 = m = 14
+# Listed 9 contacts. EOF.

@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gk8, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, RUBISCO, PHOTOSYNTHESIS
+> pdb_mol_name > RIBULOSE BISPHOSPHATE CARBOXYLASE SMALL CHAIN 1
+> graphtype > albelig
+> resolution > 1.4
+> date > 09-AUG-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > RUBISCO FROM CHLAMYDOMONAS REINHARDTII
+> format_version > 2
+> pdbid > 1gk8
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > CHLAMYDOMONAS REINHARDTII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gk8 | I | albelig | 1 | 1 | H | 1897 | 1909 | I-23-  | I-35-  | DEQIAAQVDYIVA 
+| 1gk8 | I | albelig | 2 | 2 | E | 1913 | 1919 | I-39-  | I-45-  | IPCLEFA 
+| 1gk8 | I | albelig | 3 | 3 | H | 1921 | 1923 | I-47-  | I-49-  | ADK 
+| 1gk8 | I | albelig | 4 | 4 | H | 1929 | 1933 | I-55-  | I-59-  | ESAIR 
+| 1gk8 | I | albelig | 5 | 5 | E | 1948 | 1950 | I-74-  | I-76-  | TMW 
+| 1gk8 | I | albelig | 6 | 6 | H | 1960 | 1973 | I-86-  | I-99-  | PMQVLREIVACTKA 
+| 1gk8 | I | albelig | 7 | 7 | E | 1978 | 1985 | I-104-  | I-111-  | YVRLVAFD 
+| 1gk8 | I | albelig | 8 | 8 | E | 1990 | 1998 | I-116-  | I-124-  | VQIMGFLVQ 
+| 1gk8 | I | albelig | 9 | 9 | L | 2439 | 2439 | I-1127-  | I-1127-  | J 
+| 1gk8 | I | albelig | 10 | 10 | L | 2440 | 2440 | I-1128-  | I-1128-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 5
+= 2 = a = 7
+= 2 = l = 10
+= 3 = l = 9
+= 4 = l = 9
+= 7 = a = 8
+# Listed 7 contacts. EOF.

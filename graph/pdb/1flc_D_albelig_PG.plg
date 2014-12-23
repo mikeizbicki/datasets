@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1flc, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ESTERASE, RECEPTOR BINDING, MEMBRANE FUSION, VIRUS, INFLUENZA,HYDROLASE
+> pdb_mol_name > HAEMAGGLUTININ-ESTERASE-FUSION GLYCOPROTEIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 22-FEB-99
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > X-RAY STRUCTURE OF THE HAEMAGGLUTININ-ESTERASE-FUSION GLYCOPROTEIN OFINFLUENZA C VIRUS
+> format_version > 2
+> pdbid > 1flc
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > INFLUENZA C VIRUS (C/JOHANNESBURG/1/66)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1flc | D | albelig | 1 | 1 | E | 1030 | 1032 | D-14-  | D-16-  | VAI 
+| 1flc | D | albelig | 2 | 2 | E | 1039 | 1043 | D-23-  | D-27-  | GYLLG 
+| 1flc | D | albelig | 3 | 3 | H | 1061 | 1080 | D-45-  | D-64-  | FEKIGNDIQILKSSINIAIE 
+| 1flc | D | albelig | 4 | 4 | E | 1089 | 1091 | D-73-  | D-75-  | DEQ 
+| 1flc | D | albelig | 5 | 5 | H | 1098 | 1139 | D-82-  | D-123-  | LEIENARSEALLGELGIIRALLVGNISIGLQESLWELASEIT 
+| 1flc | D | albelig | 6 | 6 | H | 1163 | 1169 | D-147-  | D-153-  | QSQQNFI 
+| 1flc | D | albelig | 7 | 7 | L | 1800 | 1800 | D-2300-  | D-2300-  | J 
+| 1flc | D | albelig | 8 | 8 | L | 1801 | 1801 | D-2301-  | D-2301-  | J 
+| 1flc | D | albelig | 9 | 9 | L | 1802 | 1802 | D-2302-  | D-2302-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 5
+= 3 = l = 7
+= 3 = l = 8
+= 5 = l = 7
+= 7 = l = 8
+= 8 = l = 9
+# Listed 6 contacts. EOF.

@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a8q, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HALOPEROXIDASE, OXIDOREDUCTASE
+> pdb_mol_name > BROMOPEROXIDASE A1
+> graphtype > albelig
+> resolution > 1.75
+> date > 27-MAR-98
+> header > HALOPEROXIDASE
+> pdb_org_common > UNKNOWN
+> title > BROMOPEROXIDASE A1
+> format_version > 2
+> pdbid > 1a8q
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES AUREOFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a8q | A | albelig | 1 | 1 | E | 2 | 4 | A-2-  | A-4-  | ICT 
+| 1a8q | A | albelig | 2 | 2 | E | 10 | 16 | A-10-  | A-16-  | EIFYKDW 
+| 1a8q | A | albelig | 3 | 3 | E | 21 | 25 | A-21-  | A-25-  | PVVFI 
+| 1a8q | A | albelig | 4 | 4 | H | 32 | 44 | A-32-  | A-44-  | GDAWQDQLKAVVD 
+| 1a8q | A | albelig | 5 | 5 | E | 48 | 52 | A-48-  | A-52-  | RGIAH 
+| 1a8q | A | albelig | 6 | 6 | H | 69 | 82 | A-69-  | A-82-  | FDTFADDLNDLLTD 
+| 1a8q | A | albelig | 7 | 7 | E | 88 | 93 | A-88-  | A-93-  | VTLVAH 
+| 1a8q | A | albelig | 8 | 8 | H | 96 | 107 | A-96-  | A-107-  | GGGELARYVGRH 
+| 1a8q | A | albelig | 9 | 9 | E | 112 | 118 | A-112-  | A-118-  | LRSAVLL 
+| 1a8q | A | albelig | 10 | 10 | H | 137 | 162 | A-137-  | A-162-  | DEVFDALKNGVLTERSQFWKDTAEGF 
+| 1a8q | A | albelig | 11 | 11 | H | 174 | 184 | A-174-  | A-184-  | QGNKDAFWYMA 
+| 1a8q | A | albelig | 12 | 12 | H | 189 | 201 | A-189-  | A-201-  | IEGGVRCVDAFGY 
+| 1a8q | A | albelig | 13 | 13 | H | 205 | 208 | A-205-  | A-208-  | TEDL 
+| 1a8q | A | albelig | 14 | 14 | E | 215 | 220 | A-215-  | A-220-  | TLVVHG 
+| 1a8q | A | albelig | 15 | 15 | H | 228 | 230 | A-228-  | A-230-  | IDA 
+| 1a8q | A | albelig | 16 | 16 | H | 232 | 238 | A-232-  | A-238-  | GRKSAQI 
+| 1a8q | A | albelig | 17 | 17 | E | 243 | 247 | A-243-  | A-247-  | ELKVY 
+| 1a8q | A | albelig | 18 | 18 | H | 260 | 272 | A-260-  | A-272-  | DKEKFNRDLLEFL 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = m = 4
+= 2 = a = 5
+= 3 = p = 5
+= 3 = p = 7
+= 4 = p = 18
+= 6 = m = 8
+= 7 = m = 8
+= 7 = p = 9
+= 9 = p = 14
+= 9 = a = 18
+= 10 = m = 11
+= 10 = a = 12
+= 14 = p = 17
+= 17 = a = 18
+# Listed 15 contacts. EOF.

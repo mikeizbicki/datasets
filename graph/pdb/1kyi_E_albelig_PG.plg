@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyi, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROKARYOTIC PROTEASOME, PROTEASE, AAA-PROTEIN, ATP-DEPENDENTCHAPERONE; CLP/HSP100, VINYL SULFONE INHIBITOR, CHAPERONE-HYDROLASECOMPLEX
+> pdb_mol_name > ATP-DEPENDENT HSL PROTEASE ATP-BINDING SUBUNIT HSLU
+> graphtype > albelig
+> resolution > 3.1
+> date > 04-FEB-02
+> header > CHAPERONE/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > HSLUV (H. INFLUENZAE)-NLVS VINYL SULFONE INHIBITOR COMPLEX
+> format_version > 2
+> pdbid > 1kyi
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyi | E | albelig | 1 | 1 | H | 1305 | 1313 | E-6-  | E-14-  | PREIVSELD 
+| 1kyi | E | albelig | 2 | 2 | H | 1320 | 1335 | E-21-  | E-36-  | ADAKRAVAIALRNRWR 
+| 1kyi | E | albelig | 3 | 3 | H | 1342 | 1346 | E-43-  | E-47-  | PLRHE 
+| 1kyi | E | albelig | 4 | 4 | E | 1352 | 1355 | E-53-  | E-56-  | ILMI 
+| 1kyi | E | albelig | 5 | 5 | H | 1362 | 1373 | E-63-  | E-74-  | KTEIARRLAKLA 
+| 1kyi | E | albelig | 6 | 6 | E | 1377 | 1381 | E-78-  | E-82-  | FIKVE 
+| 1kyi | E | albelig | 7 | 7 | H | 1382 | 1385 | E-83-  | E-86-  | ATKF 
+| 1kyi | E | albelig | 8 | 8 | H | 1391 | 1408 | E-98-  | E-115-  | SIIRDLTDSAMKLVRQQE 
+| 1kyi | E | albelig | 9 | 9 | H | 1420 | 1434 | E-237-  | E-251-  | PEELKQKAIDAVEQN 
+| 1kyi | E | albelig | 10 | 10 | E | 1436 | 1440 | E-253-  | E-257-  | IVFID 
+| 1kyi | E | albelig | 11 | 11 | H | 1442 | 1445 | E-259-  | E-262-  | IDKI 
+| 1kyi | E | albelig | 12 | 12 | H | 1452 | 1467 | E-272-  | E-287-  | DVSREGVQRDLLPLVE 
+| 1kyi | E | albelig | 13 | 13 | E | 1470 | 1473 | E-290-  | E-293-  | TVST 
+| 1kyi | E | albelig | 14 | 14 | E | 1476 | 1479 | E-296-  | E-299-  | GMVK 
+| 1kyi | E | albelig | 15 | 15 | H | 1480 | 1482 | E-300-  | E-302-  | TDH 
+| 1kyi | E | albelig | 16 | 16 | E | 1484 | 1489 | E-304-  | E-309-  | LFIASG 
+| 1kyi | E | albelig | 17 | 17 | H | 1496 | 1498 | E-316-  | E-318-  | PSD 
+| 1kyi | E | albelig | 18 | 18 | H | 1501 | 1504 | E-321-  | E-324-  | PELQ 
+| 1kyi | E | albelig | 19 | 19 | E | 1509 | 1512 | E-329-  | E-332-  | IRVE 
+| 1kyi | E | albelig | 20 | 20 | H | 1518 | 1526 | E-338-  | E-346-  | AADFERILT 
+| 1kyi | E | albelig | 21 | 21 | H | 1532 | 1542 | E-352-  | E-362-  | LTEQYKALMAT 
+| 1kyi | E | albelig | 22 | 22 | E | 1546 | 1549 | E-366-  | E-369-  | NIAF 
+| 1kyi | E | albelig | 23 | 23 | H | 1551 | 1567 | E-371-  | E-387-  | TDAVKKIAEAAFRVNEK 
+| 1kyi | E | albelig | 24 | 24 | H | 1574 | 1583 | E-394-  | E-403-  | RRLHTVMERL 
+| 1kyi | E | albelig | 25 | 25 | H | 1585 | 1594 | E-405-  | E-414-  | DKISFSASDM 
+| 1kyi | E | albelig | 26 | 26 | E | 1598 | 1601 | E-418-  | E-421-  | TVNI 
+| 1kyi | E | albelig | 27 | 27 | H | 1603 | 1609 | E-423-  | E-429-  | AAYVADA 
+| 1kyi | E | albelig | 28 | 28 | H | 1620 | 1622 | E-440-  | E-442-  | SRF 
+| 1kyi | E | albelig | 29 | 29 | L | 5968 | 5968 | E-454-  | E-454-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = p = 5
+= 4 = p = 16
+= 4 = p = 19
+= 5 = l = 29
+= 6 = m = 7
+= 6 = p = 10
+= 6 = l = 29
+= 8 = a = 9
+= 9 = m = 14
+= 10 = p = 16
+= 10 = l = 29
+= 13 = a = 14
+= 14 = m = 15
+= 16 = l = 29
+= 20 = a = 23
+= 20 = l = 29
+= 21 = m = 22
+= 21 = m = 24
+= 22 = p = 26
+= 23 = a = 24
+= 24 = l = 29
+# Listed 22 contacts. EOF.

@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ge7, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ZINC COORDINATE,METALLOPROTEASE, HYDROLASE
+> pdb_mol_name > PEPTIDYL-LYS METALLOENDOPEPTIDASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 11-OCT-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > ZINC PEPTIDASE FROM GRIFOLA FRONDOSA
+> format_version > 2
+> pdbid > 1ge7
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GRIFOLA FRONDOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ge7 | B | albelig | 1 | 1 | H | 175 | 201 | B-7-  | B-33-  | SSEQSALAAAASAAQSYVAESLSYLQT 
+| 1ge7 | B | albelig | 2 | 2 | H | 207 | 213 | B-39-  | B-45-  | PRYTTWF 
+| 1ge7 | B | albelig | 3 | 3 | H | 218 | 232 | B-50-  | B-64-  | SSRHSTVLQHYTDMN 
+| 1ge7 | B | albelig | 4 | 4 | H | 236 | 238 | B-68-  | B-70-  | FSS 
+| 1ge7 | B | albelig | 5 | 5 | E | 240 | 242 | B-72-  | B-74-  | SFD 
+| 1ge7 | B | albelig | 6 | 6 | E | 261 | 264 | B-93-  | B-96-  | TVYL 
+| 1ge7 | B | albelig | 7 | 7 | H | 266 | 270 | B-98-  | B-102-  | GAFWK 
+| 1ge7 | B | albelig | 8 | 8 | H | 279 | 289 | B-111-  | B-121-  | QAGTLVHESSH 
+| 1ge7 | B | albelig | 9 | 9 | H | 291 | 293 | B-123-  | B-125-  | TRN 
+| 1ge7 | B | albelig | 10 | 10 | H | 303 | 312 | B-135-  | B-144-  | QAAAKSLATM 
+| 1ge7 | B | albelig | 11 | 11 | H | 314 | 317 | B-146-  | B-149-  | PDKA 
+| 1ge7 | B | albelig | 12 | 12 | H | 321 | 329 | B-153-  | B-161-  | ADNHEYFSE 
+| 1ge7 | B | albelig | 13 | 13 | L | 338 | 338 | B-900-  | B-900-  | J 
+| 1ge7 | B | albelig | 14 | 14 | L | 339 | 339 | B-200-  | B-200-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = m = 8
+= 1 = m = 12
+= 2 = m = 12
+= 2 = l = 13
+= 3 = m = 9
+= 3 = m = 12
+= 5 = p = 6
+= 8 = a = 12
+= 8 = l = 14
+= 10 = m = 11
+= 12 = l = 14
+# Listed 12 contacts. EOF.

@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fe8, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COLLAGEN BINDING, CONFORMATIONAL CHANGES, EPITOPE, VON WILLEBRANDFACTOR A-TYPE DOMAIN, IMMUNE SYSTEM
+> pdb_mol_name > IMMUNOGLOBULIN IGG RU5
+> graphtype > albelig
+> resolution > 2.03
+> date > 21-JUL-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE VON WILLEBRAND FACTOR A3 DOMAIN IN COMPLEXWITH A FAB FRAGMENT OF IGG RU5 THAT INHIBITS COLLAGEN BINDING
+> format_version > 2
+> pdbid > 1fe8
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fe8 | H | albelig | 1 | 1 | E | 194 | 198 | H-3-  | H-7-  | KLVQS 
+| 1fe8 | H | albelig | 2 | 2 | E | 209 | 216 | H-18-  | H-25-  | LSITNTVS 
+| 1fe8 | H | albelig | 3 | 3 | E | 224 | 230 | H-33-  | H-39-  | GVSWVRQ 
+| 1fe8 | H | albelig | 4 | 4 | E | 237 | 242 | H-46-  | H-51-  | EWLGVI 
+| 1fe8 | H | albelig | 5 | 5 | E | 248 | 250 | H-57-  | H-59-  | TTY 
+| 1fe8 | H | albelig | 6 | 6 | H | 252 | 254 | H-61-  | H-63-  | SAL 
+| 1fe8 | H | albelig | 7 | 7 | E | 258 | 263 | H-67-  | H-72-  | LSISKD 
+| 1fe8 | H | albelig | 8 | 8 | E | 268 | 273 | H-77-  | H-82-  | QVFLKL 
+| 1fe8 | H | albelig | 9 | 9 | H | 278 | 280 | H-87-  | H-89-  | TDD 
+| 1fe8 | H | albelig | 10 | 10 | E | 282 | 289 | H-91-  | H-98-  | ATYYNAGN 
+| 1fe8 | H | albelig | 11 | 11 | E | 300 | 304 | H-109-  | H-113-  | TSVTV 
+| 1fe8 | H | albelig | 12 | 12 | E | 313 | 317 | H-122-  | H-126-  | SVYKL 
+| 1fe8 | H | albelig | 13 | 13 | E | 323 | 333 | H-137-  | H-147-  | SVTLGCLVKGY 
+| 1fe8 | H | albelig | 14 | 14 | E | 339 | 342 | H-153-  | H-156-  | TLTW 
+| 1fe8 | H | albelig | 15 | 15 | H | 343 | 345 | H-157-  | H-159-  | NSG 
+| 1fe8 | H | albelig | 16 | 16 | E | 351 | 353 | H-165-  | H-167-  | VHT 
+| 1fe8 | H | albelig | 17 | 17 | E | 357 | 359 | H-171-  | H-173-  | VLQ 
+| 1fe8 | H | albelig | 18 | 18 | E | 362 | 372 | H-176-  | H-186-  | LYTLSSSVTVT 
+| 1fe8 | H | albelig | 19 | 19 | H | 373 | 375 | H-187-  | H-189-  | SST 
+| 1fe8 | H | albelig | 20 | 20 | E | 382 | 387 | H-196-  | H-201-  | TCNVAH 
+| 1fe8 | H | albelig | 21 | 21 | H | 388 | 390 | H-202-  | H-204-  | PAS 
+| 1fe8 | H | albelig | 22 | 22 | E | 392 | 397 | H-206-  | H-211-  | TKVDKK 
+| 1fe8 | H | albelig | 23 | 23 | L | 1858 | 1858 | H-551-  | H-551-  | J 
+| 1fe8 | H | albelig | 24 | 24 | L | 1859 | 1859 | H-552-  | H-552-  | J 
+| 1fe8 | H | albelig | 25 | 25 | L | 1860 | 1860 | H-553-  | H-553-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 8
+= 2 = p = 10
+= 3 = a = 4
+= 3 = p = 8
+= 3 = a = 10
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 5 = l = 23
+= 5 = l = 25
+= 7 = a = 8
+= 10 = a = 11
+= 12 = a = 13
+= 12 = p = 22
+= 13 = a = 18
+= 14 = m = 15
+= 14 = p = 18
+= 14 = a = 20
+= 16 = a = 18
+= 17 = a = 18
+= 18 = m = 19
+= 20 = m = 21
+= 20 = a = 22
+= 23 = l = 24
+= 23 = l = 25
+= 24 = l = 25
+# Listed 28 contacts. EOF.

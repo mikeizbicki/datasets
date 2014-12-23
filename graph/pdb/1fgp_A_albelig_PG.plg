@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fgp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHAGE COAT PROTEIN, SH3 DOMAIN, PH DOMAIN, PDZ DOMAIN, FDPHAGE, FILAMENTOUS PAHGE, PHAGE INFECTION, PTB DOMAIN,VIRAL PROTEIN
+> pdb_mol_name > FD GENE 3 PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 10-DEC-96
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > MEMBRANE PENETRATION DOMAIN OF THE MINOR COAT PROTEIN G3POF PHAGE FD, NMR, 15 STRUCTURES
+> format_version > 2
+> pdbid > 1fgp
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE FD
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fgp | A | albelig | 1 | 1 | H | 3 | 8 | A-3-  | A-8-  | VESALA 
+| 1fgp | A | albelig | 2 | 2 | E | 12 | 16 | A-12-  | A-16-  | TENSF 
+| 1fgp | A | albelig | 3 | 3 | E | 20 | 22 | A-20-  | A-22-  | WKD 
+| 1fgp | A | albelig | 4 | 4 | E | 27 | 32 | A-27-  | A-32-  | DRYANY 
+| 1fgp | A | albelig | 5 | 5 | E | 35 | 46 | A-35-  | A-46-  | ALWNATGVVVNT 
+| 1fgp | A | albelig | 6 | 6 | E | 51 | 60 | A-51-  | A-60-  | QNYGTWVPIG 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = a = 6
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+# Listed 5 contacts. EOF.

@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gun, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSPORT PROTEIN, MOLBINDIN, MOLYBDATE BINDING, MOP
+> pdb_mol_name > MOLYBDATE BINDING PROTEIN II
+> graphtype > albelig
+> resolution > 1.83
+> date > 28-JAN-02
+> header > TRANSPORT PROTEIN
+> pdb_org_common > UNKNOWN
+> title > MOPII FROM CLOSTRIDIUM PASTEURIANUM COMPLEXED WITHMOLYBDATE (PARTIAL)
+> format_version > 2
+> pdbid > 1gun
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM PASTEURIANUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gun | B | albelig | 1 | 1 | E | 74 | 85 | B-7-  | B-18-  | NQLKGKVVGLKK 
+| 1gun | B | albelig | 2 | 2 | E | 89 | 96 | B-22-  | B-29-  | TAEVVLEI 
+| 1gun | B | albelig | 3 | 3 | E | 101 | 107 | B-34-  | B-40-  | KITSIIS 
+| 1gun | B | albelig | 4 | 4 | H | 108 | 113 | B-41-  | B-46-  | LDSVEE 
+| 1gun | B | albelig | 5 | 5 | E | 121 | 126 | B-54-  | B-59-  | ELTAVV 
+| 1gun | B | albelig | 6 | 6 | H | 128 | 130 | B-61-  | B-63-  | STD 
+| 1gun | B | albelig | 7 | 7 | L | 411 | 411 | B-1069-  | B-1069-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = m = 4
+= 3 = l = 7
+= 4 = l = 7
+# Listed 6 contacts. EOF.

@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, ADP-RIBOSYLTRANSFERASE, IMMUNO-REGULATION
+> pdb_mol_name > T-CELL ECTO-ADP-RIBOSYLTRANSFERASE 2
+> graphtype > albelig
+> resolution > 2.1
+> date > 15-APR-02
+> header > TRANSFERASE
+> pdb_org_common > RAT
+> title > CRYSTAL STRUCTURE OF THE EUCARYOTICMONO-ADP-RIBOSYLTRANSFERASE ART2.2; CRYSTAL FORM B(P212121)
+> format_version > 2
+> pdbid > 1gxz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxz | B | albelig | 1 | 1 | H | 243 | 260 | B-22-  | B-39-  | VNKMEEKAPLLLQEDFNM 
+| 1gxz | B | albelig | 2 | 2 | H | 262 | 281 | B-41-  | B-60-  | AKLKVAWEEAKKRWNNIKPS 
+| 1gxz | B | albelig | 3 | 3 | H | 290 | 299 | B-69-  | B-78-  | DFHGTALVAY 
+| 1gxz | B | albelig | 4 | 4 | H | 304 | 312 | B-83-  | B-91-  | AVDFNRAVR 
+| 1gxz | B | albelig | 5 | 5 | H | 318 | 320 | B-97-  | B-99-  | PGQ 
+| 1gxz | B | albelig | 6 | 6 | H | 324 | 337 | B-103-  | B-116-  | KAFHYYLTRALQLL 
+| 1gxz | B | albelig | 7 | 7 | E | 343 | 348 | B-122-  | B-127-  | HSVYRG 
+| 1gxz | B | albelig | 8 | 8 | E | 367 | 370 | B-146-  | B-149-  | TSSS 
+| 1gxz | B | albelig | 9 | 9 | H | 373 | 376 | B-152-  | B-155-  | KKVA 
+| 1gxz | B | albelig | 10 | 10 | E | 388 | 393 | B-167-  | B-172-  | LFIIKT 
+| 1gxz | B | albelig | 11 | 11 | H | 406 | 408 | B-185-  | B-187-  | PDQ 
+| 1gxz | B | albelig | 12 | 12 | E | 410 | 413 | B-189-  | B-192-  | EVLI 
+| 1gxz | B | albelig | 13 | 13 | E | 417 | 425 | B-196-  | B-204-  | EVYQKVRTQ 
+| 1gxz | B | albelig | 14 | 14 | E | 429 | 437 | B-208-  | B-216-  | EIFLDSPKR 
+| 1gxz | B | albelig | 15 | 15 | L | 449 | 449 | B-1227-  | B-1227-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 6
+= 2 = m = 3
+= 3 = m = 6
+= 4 = m = 6
+= 7 = a = 8
+= 7 = m = 9
+= 7 = a = 10
+= 7 = l = 15
+= 8 = a = 12
+= 8 = l = 15
+= 9 = l = 15
+= 10 = p = 14
+= 11 = l = 15
+= 12 = l = 15
+= 13 = a = 14
+# Listed 16 contacts. EOF.

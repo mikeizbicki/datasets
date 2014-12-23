@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k6p, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INDINAVIR, INHIBITOR RECOGNITION, DRUG RESISTANCE, HIV-1PROTEASE, HYDROLASE
+> pdb_mol_name > POL POLYPROTEIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 16-OCT-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > LACK OF SYNERGY FOR INHIBITORS TARGETING A MULTI-DRUGRESISTANT HIV-1 PROTEASE
+> format_version > 2
+> pdbid > 1k6p
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k6p | B | albelig | 1 | 1 | E | 109 | 114 | B-10-  | B-15-  | LVTIRI 
+| 1k6p | B | albelig | 2 | 2 | E | 117 | 122 | B-18-  | B-23-  | QLKEAL 
+| 1k6p | B | albelig | 3 | 3 | E | 141 | 147 | B-42-  | B-48-  | WKPKMIG 
+| 1k6p | B | albelig | 4 | 4 | E | 151 | 164 | B-53-  | B-66-  | FIKVRQYDQIPIEI 
+| 1k6p | B | albelig | 5 | 5 | E | 167 | 175 | B-69-  | B-77-  | HKAIGTVLV 
+| 1k6p | B | albelig | 6 | 6 | H | 185 | 188 | B-87-  | B-90-  | RNLL 
+| 1k6p | B | albelig | 7 | 7 | E | 194 | 196 | B-96-  | B-98-  | TLN 
+| 1k6p | B | albelig | 8 | 8 | L | 204 | 204 | B-505-  | B-505-  | J 
+| 1k6p | B | albelig | 9 | 9 | L | 205 | 205 | B-507-  | B-507-  | J 
+| 1k6p | B | albelig | 10 | 10 | L | 206 | 206 | B-508-  | B-508-  | J 
+| 1k6p | B | albelig | 11 | 11 | L | 207 | 207 | B-807-  | B-807-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = l = 8
+= 3 = a = 4
+= 3 = l = 11
+= 4 = a = 5
+= 5 = l = 9
+= 5 = l = 10
+= 5 = l = 11
+= 6 = l = 9
+# Listed 10 contacts. EOF.

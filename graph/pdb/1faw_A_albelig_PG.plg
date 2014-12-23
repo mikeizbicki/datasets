@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1faw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT, HEME, RESPIRATORY PROTEIN, ERYTHROCYTE,OXYGEN STORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN (ALPHA SUBUNIT)
+> graphtype > albelig
+> resolution > 3.09
+> date > 13-JUL-00
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > DOMESTIC GOOSE
+> title > GRAYLAG GOOSE HEMOGLOBIN (OXY FORM)
+> format_version > 2
+> pdbid > 1faw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ANSER ANSER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1faw | A | albelig | 1 | 1 | H | 4 | 15 | A-4-  | A-15-  | AADKTNVKGVFS 
+| 1faw | A | albelig | 2 | 2 | H | 18 | 35 | A-18-  | A-35-  | GGHAEEYGAETLERMFTA 
+| 1faw | A | albelig | 3 | 3 | H | 37 | 42 | A-37-  | A-42-  | PQTKTY 
+| 1faw | A | albelig | 4 | 4 | H | 53 | 70 | A-53-  | A-70-  | AQIKAHGKKVAAALVEAV 
+| 1faw | A | albelig | 5 | 5 | H | 73 | 75 | A-73-  | A-75-  | IDD 
+| 1faw | A | albelig | 6 | 6 | H | 81 | 90 | A-81-  | A-90-  | SKLSDLHAQK 
+| 1faw | A | albelig | 7 | 7 | H | 96 | 112 | A-96-  | A-112-  | VNFKFLGHCFLVVVAIH 
+| 1faw | A | albelig | 8 | 8 | H | 114 | 116 | A-114-  | A-116-  | PSA 
+| 1faw | A | albelig | 9 | 9 | H | 119 | 136 | A-119-  | A-136-  | PEVHASLDKFLCAVGTVL 
+| 1faw | A | albelig | 10 | 10 | H | 138 | 140 | A-138-  | A-140-  | AKY 
+| 1faw | A | albelig | 11 | 11 | L | 578 | 578 | A-150-  | A-150-  | J 
+| 1faw | A | albelig | 12 | 12 | L | 579 | 579 | A-151-  | A-151-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 9
+= 2 = m = 3
+= 2 = a = 4
+= 2 = m = 7
+= 2 = l = 11
+= 2 = l = 12
+= 3 = l = 11
+= 4 = l = 11
+= 4 = l = 12
+= 6 = l = 11
+= 6 = l = 12
+= 7 = a = 9
+= 7 = l = 11
+= 7 = l = 12
+= 9 = l = 11
+= 11 = l = 12
+# Listed 16 contacts. EOF.

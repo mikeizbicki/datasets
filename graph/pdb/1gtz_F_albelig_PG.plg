@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gtz, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, TYPE II DEHYDROQUINASE, SHIKIMATE PATHWAY,DODECAMERIC QUATERNARY STRUCTURE, TETRAHEDRAL SYMMETRYAROMATIC AMINO ACID BIOSYNTHESIS
+> pdb_mol_name > 3-DEHYDROQUINATE DEHYDRATASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 22-JAN-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF STREPTOMYCES COELICOLOR TYPE II DEHYDROQUINASER23A MUTANT IN COMPLEX WITH DEHYDROSHIKIMATE
+> format_version > 2
+> pdbid > 1gtz
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES COELICOLOR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gtz | F | albelig | 1 | 1 | E | 758 | 762 | F-9-  | F-13-  | IMILN 
+| 1gtz | F | albelig | 2 | 2 | H | 766 | 768 | F-17-  | F-19-  | LNL 
+| 1gtz | F | albelig | 3 | 3 | H | 774 | 777 | F-25-  | F-28-  | PEIY 
+| 1gtz | F | albelig | 4 | 4 | H | 782 | 795 | F-33-  | F-46-  | LADVEALCVKAAAA 
+| 1gtz | F | albelig | 5 | 5 | E | 800 | 804 | F-51-  | F-55-  | VDFRQ 
+| 1gtz | F | albelig | 6 | 6 | H | 808 | 821 | F-59-  | F-72-  | EGELVDWIHEARLN 
+| 1gtz | F | albelig | 7 | 7 | E | 825 | 828 | F-76-  | F-79-  | IVIN 
+| 1gtz | F | albelig | 8 | 8 | H | 830 | 834 | F-81-  | F-85-  | AAYSH 
+| 1gtz | F | albelig | 9 | 9 | H | 837 | 844 | F-88-  | F-95-  | VAILDALN 
+| 1gtz | F | albelig | 10 | 10 | E | 851 | 855 | F-102-  | F-106-  | VVEVH 
+| 1gtz | F | albelig | 11 | 11 | H | 859 | 861 | F-110-  | F-112-  | IHQ 
+| 1gtz | F | albelig | 12 | 12 | H | 864 | 866 | F-115-  | F-117-  | PFR 
+| 1gtz | F | albelig | 13 | 13 | H | 871 | 873 | F-122-  | F-124-  | VSQ 
+| 1gtz | F | albelig | 14 | 14 | E | 877 | 880 | F-128-  | F-131-  | GVVA 
+| 1gtz | F | albelig | 15 | 15 | H | 885 | 898 | F-136-  | F-149-  | QGYVFGVERIAALA 
+| 1gtz | F | albelig | 16 | 16 | L | 1807 | 1807 | F-1162-  | F-1162-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 1 = p = 7
+= 2 = l = 16
+= 3 = l = 16
+= 4 = a = 5
+= 6 = m = 9
+= 7 = p = 10
+= 7 = m = 15
+= 7 = l = 16
+= 8 = l = 16
+= 10 = p = 14
+= 10 = l = 16
+= 11 = l = 16
+= 12 = l = 16
+# Listed 14 contacts. EOF.

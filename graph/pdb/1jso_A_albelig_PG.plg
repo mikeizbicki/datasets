@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jso, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INFLUENZA, RECEPTOR COMPLEX, FUSION PROTEIN, VIRAL PROTEIN
+> pdb_mol_name > HAEMAGGLUTININ (HA1 CHAIN)
+> graphtype > albelig
+> resolution > 2.4
+> date > 17-AUG-01
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF AVIAN H5 HAEMAGGLUTININ BOUND TO LSTC RECEPTOR ANALOG
+> format_version > 2
+> pdbid > 1jso
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > INFLUENZA A VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jso | A | albelig | 1 | 1 | E | 2 | 7 | A-2-  | A-7-  | QIAIGY 
+| 1jso | A | albelig | 2 | 2 | E | 29 | 31 | A-29-  | A-31-  | AQD 
+| 1jso | A | albelig | 3 | 3 | E | 41 | 44 | A-41-  | A-44-  | LNDL 
+| 1jso | A | albelig | 4 | 4 | H | 57 | 62 | A-57-  | A-62-  | VAGWLL 
+| 1jso | A | albelig | 5 | 5 | H | 65 | 70 | A-65-  | A-70-  | PMCDEF 
+| 1jso | A | albelig | 6 | 6 | E | 79 | 81 | A-79-  | A-81-  | IVE 
+| 1jso | A | albelig | 7 | 7 | E | 93 | 95 | A-93-  | A-95-  | ENF 
+| 1jso | A | albelig | 8 | 8 | H | 98 | 105 | A-98-  | A-105-  | YEELKHLL 
+| 1jso | A | albelig | 9 | 9 | E | 110 | 115 | A-110-  | A-115-  | HFEKIR 
+| 1jso | A | albelig | 10 | 10 | H | 119 | 121 | A-119-  | A-121-  | RSS 
+| 1jso | A | albelig | 11 | 11 | E | 132 | 137 | A-132-  | A-137-  | SSADPY 
+| 1jso | A | albelig | 12 | 12 | E | 140 | 142 | A-140-  | A-142-  | RSS 
+| 1jso | A | albelig | 13 | 13 | E | 147 | 149 | A-147-  | A-149-  | VVW 
+| 1jso | A | albelig | 14 | 14 | E | 160 | 165 | A-160-  | A-165-  | IKRSYN 
+| 1jso | A | albelig | 15 | 15 | E | 172 | 180 | A-172-  | A-180-  | LLILWGIHH 
+| 1jso | A | albelig | 16 | 16 | H | 184 | 191 | A-184-  | A-191-  | AAEQTKLY 
+| 1jso | A | albelig | 17 | 17 | E | 198 | 201 | A-198-  | A-201-  | VSVG 
+| 1jso | A | albelig | 18 | 18 | E | 206 | 209 | A-206-  | A-209-  | NQRS 
+| 1jso | A | albelig | 19 | 19 | E | 225 | 233 | A-225-  | A-233-  | RMEFFWTIL 
+| 1jso | A | albelig | 20 | 20 | E | 238 | 243 | A-238-  | A-243-  | AINFES 
+| 1jso | A | albelig | 21 | 21 | E | 247 | 250 | A-247-  | A-250-  | FIAP 
+| 1jso | A | albelig | 22 | 22 | E | 252 | 257 | A-252-  | A-257-  | YAYKIV 
+| 1jso | A | albelig | 23 | 23 | E | 264 | 266 | A-264-  | A-266-  | IMK 
+| 1jso | A | albelig | 24 | 24 | E | 271 | 276 | A-271-  | A-276-  | YGNNNT 
+| 1jso | A | albelig | 25 | 25 | E | 278 | 280 | A-278-  | A-280-  | EQT 
+| 1jso | A | albelig | 26 | 26 | E | 283 | 285 | A-283-  | A-285-  | GAI 
+| 1jso | A | albelig | 27 | 27 | E | 312 | 314 | A-312-  | A-314-  | VLA 
+| 1jso | A | albelig | 28 | 28 | L | 483 | 483 | A-326-  | A-326-  | J 
+| 1jso | A | albelig | 29 | 29 | L | 484 | 484 | A-327-  | A-327-  | J 
+| 1jso | A | albelig | 30 | 30 | L | 485 | 485 | A-328-  | A-328-  | J 
+| 1jso | A | albelig | 31 | 31 | L | 486 | 486 | A-329-  | A-329-  | J 
+| 1jso | A | albelig | 32 | 32 | L | 487 | 487 | A-331-  | A-331-  | J 
+| 1jso | A | albelig | 33 | 33 | L | 488 | 488 | A-401-  | A-401-  | J 
+# Printed info on 33 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 27
+= 3 = p = 24
+= 3 = a = 25
+= 4 = m = 8
+= 6 = p = 23
+= 7 = p = 19
+= 9 = a = 22
+= 11 = a = 12
+= 11 = l = 33
+= 12 = l = 33
+= 13 = a = 21
+= 13 = l = 33
+= 14 = a = 20
+= 14 = l = 30
+= 15 = a = 19
+= 15 = a = 21
+= 15 = a = 22
+= 15 = l = 33
+= 16 = l = 33
+= 17 = a = 18
+= 17 = a = 20
+= 20 = l = 30
+= 24 = l = 32
+= 25 = a = 26
+= 30 = l = 31
+# Listed 25 contacts. EOF.

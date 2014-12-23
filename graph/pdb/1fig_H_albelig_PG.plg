@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fig, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG1-KAPPA 1F7 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 3.0
+> date > 07-JAN-94
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > ROUTES TO CATALYSIS: STRUCTURE OF A CATALYTIC ANTIBODY ANDCOMPARISON WITH ITS NATURAL COUNTERPART
+> format_version > 2
+> pdbid > 1fig
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fig | H | albelig | 1 | 1 | E | 219 | 222 | H-3-  | H-6-  | QLQQ 
+| 1fig | H | albelig | 2 | 2 | E | 226 | 228 | H-10-  | H-12-  | ELE 
+| 1fig | H | albelig | 3 | 3 | E | 234 | 241 | H-18-  | H-25-  | VKISCKAS 
+| 1fig | H | albelig | 4 | 4 | E | 250 | 255 | H-34-  | H-39-  | INWIVQ 
+| 1fig | H | albelig | 5 | 5 | E | 261 | 267 | H-45-  | H-51-  | LEWIGNI 
+| 1fig | H | albelig | 6 | 6 | E | 274 | 276 | H-57-  | H-59-  | TNF 
+| 1fig | H | albelig | 7 | 7 | E | 286 | 288 | H-69-  | H-71-  | LTV 
+| 1fig | H | albelig | 8 | 8 | E | 294 | 299 | H-77-  | H-82-  | TLYMHL 
+| 1fig | H | albelig | 9 | 9 | E | 329 | 333 | H-107-  | H-111-  | TLVTV 
+| 1fig | H | albelig | 10 | 10 | E | 342 | 346 | H-120-  | H-124-  | SVYPL 
+| 1fig | H | albelig | 11 | 11 | E | 361 | 367 | H-141-  | H-147-  | GDLVKGY 
+| 1fig | H | albelig | 12 | 12 | E | 373 | 376 | H-153-  | H-157-  | TVTW 
+| 1fig | H | albelig | 13 | 13 | E | 386 | 388 | H-172-  | H-174-  | HTF 
+| 1fig | H | albelig | 14 | 14 | E | 397 | 402 | H-185-  | H-190-  | YTLSSS 
+| 1fig | H | albelig | 15 | 15 | E | 416 | 421 | H-206-  | H-212-  | TDNVAH 
+| 1fig | H | albelig | 16 | 16 | H | 422 | 424 | H-213-  | H-215-  | PAS 
+| 1fig | H | albelig | 17 | 17 | E | 426 | 431 | H-217-  | H-222-  | TKVDKK 
+| 1fig | H | albelig | 18 | 18 | L | 433 | 433 | H-224-  | H-224-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = p = 9
+= 3 = a = 8
+= 4 = a = 5
+= 4 = p = 8
+= 4 = l = 18
+= 5 = a = 6
+= 5 = p = 7
+= 5 = l = 18
+= 6 = l = 18
+= 7 = a = 8
+= 10 = a = 11
+= 11 = a = 14
+= 12 = a = 15
+= 13 = a = 14
+= 15 = m = 16
+= 15 = a = 17
+# Listed 17 contacts. EOF.

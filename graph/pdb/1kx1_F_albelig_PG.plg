@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kx1, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, C-TYPE LECTIN, CALCIUM-BINDING PROTEIN, IMMUNESYSTEM, SUGAR BINDING PROTEIN
+> pdb_mol_name > MANNOSE-BINDING PROTEIN A
+> graphtype > albelig
+> resolution > 2.8
+> date > 30-JAN-02
+> header > IMMUNE SYSTEM, SUGAR BINDING PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > RAT MANNOSE PROTEIN A COMPLEXED WITH MAN6-GLCNAC2-ASN
+> format_version > 2
+> pdbid > 1kx1
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kx1 | F | albelig | 1 | 1 | H | 753 | 780 | F-75-  | F-102-  | EVKLANMEAEINTLKSKLELTNKLHAFS 
+| 1kx1 | F | albelig | 2 | 2 | E | 789 | 791 | F-111-  | F-113-  | FFV 
+| 1kx1 | F | albelig | 3 | 3 | H | 799 | 808 | F-121-  | F-130-  | FSKVKALKSE 
+| 1kx1 | F | albelig | 4 | 4 | H | 819 | 829 | F-141-  | F-151-  | AEENKAIQEVA 
+| 1kx1 | F | albelig | 5 | 5 | E | 833 | 842 | F-155-  | F-164-  | AFLGITDEVT 
+| 1kx1 | F | albelig | 6 | 6 | E | 845 | 848 | F-167-  | F-170-  | QFMY 
+| 1kx1 | F | albelig | 7 | 7 | E | 873 | 876 | F-195-  | F-198-  | LVTI 
+| 1kx1 | F | albelig | 8 | 8 | E | 882 | 885 | F-204-  | F-207-  | WNDI 
+| 1kx1 | F | albelig | 9 | 9 | E | 895 | 897 | F-217-  | F-219-  | KEF 
+| 1kx1 | F | albelig | 10 | 10 | L | 923 | 923 | F-14-  | F-14-  | J 
+| 1kx1 | F | albelig | 11 | 11 | L | 924 | 924 | F-15-  | F-15-  | J 
+| 1kx1 | F | albelig | 12 | 12 | L | 925 | 925 | F-16-  | F-16-  | J 
+| 1kx1 | F | albelig | 13 | 13 | L | 926 | 926 | F-17-  | F-17-  | J 
+| 1kx1 | F | albelig | 14 | 14 | L | 927 | 927 | F-18-  | F-18-  | J 
+| 1kx1 | F | albelig | 15 | 15 | L | 928 | 928 | F-19-  | F-19-  | J 
+| 1kx1 | F | albelig | 16 | 16 | L | 929 | 929 | F-601-  | F-601-  | J 
+| 1kx1 | F | albelig | 17 | 17 | L | 930 | 930 | F-602-  | F-602-  | J 
+| 1kx1 | F | albelig | 18 | 18 | L | 931 | 931 | F-603-  | F-603-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 9
+= 5 = a = 6
+= 5 = a = 7
+= 5 = l = 16
+= 5 = l = 18
+= 6 = l = 16
+= 7 = a = 8
+= 8 = l = 12
+= 8 = l = 15
+= 8 = l = 16
+= 8 = l = 17
+= 10 = l = 11
+= 10 = l = 12
+= 10 = l = 13
+= 10 = l = 14
+= 10 = l = 15
+= 11 = l = 13
+= 11 = l = 14
+= 12 = l = 15
+= 15 = l = 17
+= 16 = l = 18
+# Listed 21 contacts. EOF.

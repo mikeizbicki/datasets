@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j5k, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SINGLE-STRANDED DNA BINDING PROTEIN, TRANSCRIPTION FACTOR,HNRNP K, CT ELEMENT, C-MYC ONCOGENE, TRANSCRIPTION/DNACOMPLEX
+> pdb_mol_name > HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K
+> graphtype > albelig
+> resolution > -1.0
+> date > 13-MAY-02
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HUMAN
+> title > COMPLEX OF THE KH3 DOMAIN OF HNRNP K WITH A SINGLE_STRANDED10MER DNA OLIGONUCLEOTIDE
+> format_version > 2
+> pdbid > 1j5k
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j5k | A | albelig | 1 | 1 | E | 4 | 12 | A-13-  | A-21-  | IITTQVTIP 
+| 1j5k | A | albelig | 2 | 2 | H | 13 | 20 | A-22-  | A-29-  | KDLAGSII 
+| 1j5k | A | albelig | 3 | 3 | H | 22 | 33 | A-31-  | A-42-  | KGGQRIKQIRHE 
+| 1j5k | A | albelig | 4 | 4 | E | 37 | 40 | A-46-  | A-49-  | SIKI 
+| 1j5k | A | albelig | 5 | 5 | E | 49 | 57 | A-58-  | A-66-  | DRIITITGT 
+| 1j5k | A | albelig | 6 | 6 | H | 58 | 75 | A-67-  | A-84-  | QDQIQNAQYLLQNSVKQY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 5
+= 1 = m = 6
+= 2 = m = 6
+= 4 = a = 5
+= 5 = m = 6
+# Listed 6 contacts. EOF.

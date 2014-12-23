@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k3l, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUTATHIONE S-TRANSFERASE, X-RAY STRUCTURE, S-HEXYLGLUTATHIONE, WATER STRUCTURE
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE A1
+> graphtype > albelig
+> resolution > 1.5
+> date > 03-OCT-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF S-HEXYL-GLUTATHIONE COMPLEXOF GLUTATHIONE TRANSFERASE AT 1.5 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1k3l
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k3l | A | albelig | 1 | 1 | E | 5 | 9 | A-6-  | A-10-  | KLHYF 
+| 1k3l | A | albelig | 2 | 2 | H | 16 | 25 | A-17-  | A-26-  | ESTRWLLAAA 
+| 1k3l | A | albelig | 3 | 3 | E | 30 | 34 | A-31-  | A-35-  | EEKFI 
+| 1k3l | A | albelig | 4 | 4 | H | 37 | 45 | A-38-  | A-46-  | AEDLDKLRN 
+| 1k3l | A | albelig | 5 | 5 | E | 56 | 59 | A-57-  | A-60-  | MVEI 
+| 1k3l | A | albelig | 6 | 6 | E | 62 | 65 | A-63-  | A-66-  | MKLV 
+| 1k3l | A | albelig | 7 | 7 | H | 67 | 77 | A-68-  | A-78-  | TRAILNYIASK 
+| 1k3l | A | albelig | 8 | 8 | H | 85 | 110 | A-86-  | A-111-  | IKERALIDMYIEGIADLGEMILLLPV 
+| 1k3l | A | albelig | 9 | 9 | H | 113 | 131 | A-114-  | A-132-  | PEEKDAKLALIKEKIKNRY 
+| 1k3l | A | albelig | 10 | 10 | H | 132 | 142 | A-133-  | A-143-  | FPAFEKVLKSH 
+| 1k3l | A | albelig | 11 | 11 | H | 154 | 169 | A-155-  | A-170-  | RADIHLVELLYYVEEL 
+| 1k3l | A | albelig | 12 | 12 | H | 178 | 189 | A-179-  | A-190-  | PLLKALKTRISN 
+| 1k3l | A | albelig | 13 | 13 | H | 191 | 197 | A-192-  | A-198-  | PTVKKFL 
+| 1k3l | A | albelig | 14 | 14 | H | 209 | 219 | A-210-  | A-220-  | EKSLEEARKIF 
+| 1k3l | A | albelig | 15 | 15 | L | 442 | 442 | A-5100-  | A-5100-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 1 = l = 15
+= 2 = m = 7
+= 2 = m = 11
+= 2 = m = 13
+= 4 = l = 15
+= 5 = a = 6
+= 7 = l = 15
+= 8 = a = 9
+= 8 = p = 11
+= 8 = l = 15
+= 9 = m = 10
+= 10 = m = 12
+= 11 = m = 12
+= 12 = m = 13
+= 14 = l = 15
+# Listed 17 contacts. EOF.

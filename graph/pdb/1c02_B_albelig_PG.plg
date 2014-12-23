@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c02, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HELIX-BUNDLE, TRANSFERASE
+> pdb_mol_name > PHOSPHOTRANSFERASE YPD1P
+> graphtype > albelig
+> resolution > 1.8
+> date > 14-JUL-99
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF YEAST YPD1P
+> format_version > 2
+> pdbid > 1c02
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c02 | B | albelig | 1 | 1 | H | 177 | 188 | B-11-  | B-22-  | WTILNEIISMDD 
+| 1c02 | B | albelig | 2 | 2 | H | 193 | 217 | B-27-  | B-51-  | FSKGLIIQFIDQAQTTFAQMQRQLD 
+| 1c02 | B | albelig | 3 | 3 | H | 222 | 238 | B-56-  | B-72-  | LTELDNLGHFLKGSSAA 
+| 1c02 | B | albelig | 4 | 4 | H | 242 | 255 | B-76-  | B-89-  | QRIAWVCERIQNLG 
+| 1c02 | B | albelig | 5 | 5 | H | 265 | 269 | B-99-  | B-103-  | KTELV 
+| 1c02 | B | albelig | 6 | 6 | H | 301 | 329 | B-135-  | B-163-  | SIYLILIAKALNQSRLEFKLARIELSKYY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 6
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 4
+= 4 = a = 6
+= 5 = m = 6
+# Listed 7 contacts. EOF.

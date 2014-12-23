@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gmc, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, SERINE PROTEASE
+> pdb_mol_name > GAMMA-CHYMOTRYPSIN A
+> graphtype > albelig
+> resolution > 2.2
+> date > 20-AUG-93
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > THE X-RAY CRYSTAL STRUCTURE OF THE TETRAHEDRAL INTERMEDIATE OF GAMMA-CHYMOTRYPSIN IN HEXANE
+> format_version > 2
+> pdbid > 1gmc
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gmc | G | albelig | 1 | 1 | E | 149 | 154 | G-156-  | G-161-  | QQASLP 
+| 1gmc | G | albelig | 2 | 2 | H | 158 | 168 | G-165-  | G-175-  | NTNDKKYWGTK 
+| 1gmc | G | albelig | 3 | 3 | E | 173 | 177 | G-180-  | G-184-  | MIDAG 
+| 1gmc | G | albelig | 4 | 4 | E | 191 | 196 | G-198-  | G-203-  | PLVCKK 
+| 1gmc | G | albelig | 5 | 5 | E | 199 | 208 | G-206-  | G-215-  | AWTLVGIVSW 
+| 1gmc | G | albelig | 6 | 6 | E | 218 | 223 | G-225-  | G-230-  | PGVYAR 
+| 1gmc | G | albelig | 7 | 7 | H | 224 | 226 | G-231-  | G-233-  | VTA 
+| 1gmc | G | albelig | 8 | 8 | H | 228 | 236 | G-235-  | G-243-  | VNWVQQTLA 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = m = 3
+= 2 = a = 6
+= 3 = a = 6
+= 4 = a = 5
+= 5 = a = 6
+= 5 = m = 7
+= 6 = m = 7
+# Listed 8 contacts. EOF.

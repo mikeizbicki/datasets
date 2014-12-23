@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j9c, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOBILE LOOP, BLOOD CLOTTING, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > TISSUE FACTOR
+> graphtype > albelig
+> resolution > 2.9
+> date > 24-MAY-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF TISSUE FACTOR-FACTOR VIIA COMPLEX
+> format_version > 2
+> pdbid > 1j9c
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j9c | T | albelig | 1 | 1 | E | 10 | 17 | T-10-  | T-17-  | YNLTWKST 
+| 1j9c | T | albelig | 2 | 2 | E | 20 | 26 | T-20-  | T-26-  | KTILEWE 
+| 1j9c | T | albelig | 3 | 3 | E | 32 | 40 | T-32-  | T-40-  | QVYTVQIST 
+| 1j9c | T | albelig | 4 | 4 | E | 46 | 52 | T-46-  | T-52-  | KSKAFYT 
+| 1j9c | T | albelig | 5 | 5 | E | 56 | 58 | T-56-  | T-58-  | EAD 
+| 1j9c | T | albelig | 6 | 6 | H | 60 | 66 | T-60-  | T-66-  | TDEIVKD 
+| 1j9c | T | albelig | 7 | 7 | E | 71 | 79 | T-71-  | T-79-  | YLARVFSYP 
+| 1j9c | T | albelig | 8 | 8 | E | 93 | 96 | T-93-  | T-96-  | LYEN 
+| 1j9c | T | albelig | 9 | 9 | H | 102 | 105 | T-102-  | T-105-  | PYLE 
+| 1j9c | T | albelig | 10 | 10 | E | 122 | 124 | T-122-  | T-124-  | KVN 
+| 1j9c | T | albelig | 11 | 11 | E | 131 | 136 | T-131-  | T-136-  | RTLVRR 
+| 1j9c | T | albelig | 12 | 12 | E | 139 | 142 | T-139-  | T-142-  | TFLS 
+| 1j9c | T | albelig | 13 | 13 | H | 143 | 146 | T-143-  | T-146-  | LRDV 
+| 1j9c | T | albelig | 14 | 14 | E | 152 | 157 | T-152-  | T-157-  | IYTLYY 
+| 1j9c | T | albelig | 15 | 15 | E | 166 | 168 | T-166-  | T-168-  | KTA 
+| 1j9c | T | albelig | 16 | 16 | E | 188 | 192 | T-188-  | T-192-  | SVQAV 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 5
+= 3 = a = 4
+= 3 = a = 7
+= 4 = p = 5
+= 7 = a = 8
+= 11 = a = 12
+= 12 = m = 13
+= 14 = a = 15
+= 14 = a = 16
+# Listed 10 contacts. EOF.

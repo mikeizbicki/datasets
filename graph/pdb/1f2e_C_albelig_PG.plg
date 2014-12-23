@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f2e, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GST COMPLEXED WITH GLUTATHIONE, THIOREDOXIN SUPERFAMILY FOLD,TRANSFERASE
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 24-MAY-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF SPHINGOMONAD, GLUTATHIONE S-TRANSFERASE COMPLEXED WITHGLUTATHIONE
+> format_version > 2
+> pdbid > 1f2e
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SPHINGOMONAS PAUCIMOBILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f2e | C | albelig | 1 | 1 | E | 406 | 409 | C-2-  | C-5-  | KLFI 
+| 1f2e | C | albelig | 2 | 2 | H | 416 | 425 | C-12-  | C-21-  | LAPHIALRET 
+| 1f2e | C | albelig | 3 | 3 | E | 430 | 435 | C-26-  | C-31-  | EAVKVD 
+| 1f2e | C | albelig | 4 | 4 | H | 447 | 449 | C-43-  | C-45-  | FLT 
+| 1f2e | C | albelig | 5 | 5 | E | 458 | 460 | C-54-  | C-56-  | ALT 
+| 1f2e | C | albelig | 6 | 6 | E | 466 | 468 | C-62-  | C-64-  | TLT 
+| 1f2e | C | albelig | 7 | 7 | H | 470 | 480 | C-66-  | C-76-  | NPAILLYIADQ 
+| 1f2e | C | albelig | 8 | 8 | H | 482 | 484 | C-78-  | C-80-  | PAS 
+| 1f2e | C | albelig | 9 | 9 | H | 494 | 509 | C-90-  | C-105-  | DRYRLLSRLSFLGSEF 
+| 1f2e | C | albelig | 10 | 10 | H | 510 | 517 | C-106-  | C-113-  | HKAFVPLF 
+| 1f2e | C | albelig | 11 | 11 | H | 523 | 544 | C-119-  | C-140-  | DEAKAAAAESVKNHLAALDKEL 
+| 1f2e | C | albelig | 12 | 12 | H | 557 | 565 | C-153-  | C-161-  | VADIYLYVM 
+| 1f2e | C | albelig | 13 | 13 | H | 568 | 571 | C-164-  | C-167-  | WPAY 
+| 1f2e | C | albelig | 14 | 14 | H | 576 | 578 | C-172-  | C-174-  | MAA 
+| 1f2e | C | albelig | 15 | 15 | H | 580 | 590 | C-176-  | C-186-  | PALGAYAGKIA 
+| 1f2e | C | albelig | 16 | 16 | H | 593 | 601 | C-189-  | C-197-  | PAVGAALKA 
+| 1f2e | C | albelig | 17 | 17 | L | 810 | 810 | C-210-  | C-210-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 2 = m = 7
+= 2 = m = 12
+= 2 = m = 16
+= 5 = a = 6
+= 7 = m = 9
+= 7 = l = 17
+= 9 = m = 10
+= 9 = m = 11
+= 9 = p = 12
+= 9 = l = 17
+= 10 = m = 11
+= 10 = m = 13
+= 10 = l = 17
+= 11 = m = 15
+= 12 = m = 15
+= 12 = l = 17
+= 13 = l = 17
+# Listed 19 contacts. EOF.

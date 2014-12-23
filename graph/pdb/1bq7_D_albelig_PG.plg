@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bq7, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DISULFIDE OXIDOREDUCTASE, PROTEIN DISULFIDE ISOMERASE,PROTEIN FOLDING, REDOX PROTEIN, REDOX-ACTIVE CENTER
+> pdb_mol_name > PROTEIN (DISULFIDE OXIDOREDUCTASE)
+> graphtype > albelig
+> resolution > 2.8
+> date > 21-AUG-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > DSBA MUTANT P151A, ROLE OF THE CIS-PROLINE IN THE ACTIVESITE OF DSBA
+> format_version > 2
+> pdbid > 1bq7
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bq7 | D | albelig | 1 | 1 | E | 569 | 571 | D-9-  | D-11-  | YTT 
+| 1bq7 | D | albelig | 2 | 2 | E | 582 | 586 | D-22-  | D-26-  | VLEFF 
+| 1bq7 | D | albelig | 3 | 3 | H | 591 | 600 | D-31-  | D-40-  | PHDYQFEEVL 
+| 1bq7 | D | albelig | 4 | 4 | H | 602 | 608 | D-42-  | D-48-  | ISDNVKK 
+| 1bq7 | D | albelig | 5 | 5 | E | 616 | 620 | D-56-  | D-60-  | MTKYH 
+| 1bq7 | D | albelig | 6 | 6 | H | 627 | 642 | D-67-  | D-82-  | DLGKDLTQAWAVAMAL 
+| 1bq7 | D | albelig | 7 | 7 | H | 645 | 658 | D-85-  | D-98-  | EDKVTVPLFEGVQK 
+| 1bq7 | D | albelig | 8 | 8 | H | 665 | 674 | D-105-  | D-114-  | ASDIRDVFIN 
+| 1bq7 | D | albelig | 9 | 9 | H | 679 | 686 | D-119-  | D-126-  | GEEYDAAW 
+| 1bq7 | D | albelig | 10 | 10 | H | 689 | 704 | D-129-  | D-144-  | FVVKSLVAQQEKAAAD 
+| 1bq7 | D | albelig | 11 | 11 | E | 712 | 715 | D-152-  | D-155-  | AMFV 
+| 1bq7 | D | albelig | 12 | 12 | E | 719 | 721 | D-159-  | D-161-  | YQL 
+| 1bq7 | D | albelig | 13 | 13 | H | 723 | 725 | D-163-  | D-165-  | PQG 
+| 1bq7 | D | albelig | 14 | 14 | H | 731 | 745 | D-171-  | D-185-  | MDVFVQQYADTVKYL 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 2 = p = 5
+= 2 = a = 11
+= 3 = a = 7
+= 4 = m = 14
+= 5 = m = 6
+= 6 = p = 8
+= 6 = m = 9
+= 6 = m = 10
+= 8 = m = 9
+= 11 = a = 12
+= 12 = m = 14
+# Listed 12 contacts. EOF.

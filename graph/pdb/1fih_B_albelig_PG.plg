@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fih, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, C-TYPE LECTIN, CALCIUM-BINDING PROTEIN, SUGARBINDING PROTEIN
+> pdb_mol_name > MANNOSE-BINDING PROTEIN A
+> graphtype > albelig
+> resolution > 1.95
+> date > 03-AUG-00
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > N-ACETYLGALACTOSAMINE BINDING MUTANT OF MANNOSE-BINDINGPROTEIN A (QPDWG-HDRPY), COMPLEX WITH N-ACETYLGALACTOSAMINE
+> format_version > 2
+> pdbid > 1fih
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fih | B | albelig | 1 | 1 | H | 157 | 185 | B-74-  | B-102-  | IEVKLANMEAEINTLKSKLELTNKLHAFS 
+| 1fih | B | albelig | 2 | 2 | E | 194 | 196 | B-111-  | B-113-  | FFV 
+| 1fih | B | albelig | 3 | 3 | E | 201 | 203 | B-118-  | B-120-  | RMP 
+| 1fih | B | albelig | 4 | 4 | H | 204 | 213 | B-121-  | B-130-  | FSKVKALCSE 
+| 1fih | B | albelig | 5 | 5 | H | 224 | 234 | B-141-  | B-151-  | AEENKAIQEVA 
+| 1fih | B | albelig | 6 | 6 | E | 239 | 243 | B-156-  | B-160-  | FLGIT 
+| 1fih | B | albelig | 7 | 7 | E | 283 | 286 | B-200-  | B-203-  | DVHI 
+| 1fih | B | albelig | 8 | 8 | E | 292 | 295 | B-209-  | B-212-  | WNDD 
+| 1fih | B | albelig | 9 | 9 | E | 300 | 302 | B-217-  | B-219-  | PYT 
+| 1fih | B | albelig | 10 | 10 | E | 305 | 307 | B-222-  | B-224-  | CEF 
+| 1fih | B | albelig | 11 | 11 | L | 470 | 470 | B-227-  | B-227-  | J 
+| 1fih | B | albelig | 12 | 12 | L | 471 | 471 | B-1-  | B-1-  | J 
+| 1fih | B | albelig | 13 | 13 | L | 472 | 472 | B-2-  | B-2-  | J 
+| 1fih | B | albelig | 14 | 14 | L | 473 | 473 | B-3-  | B-3-  | J 
+| 1fih | B | albelig | 15 | 15 | L | 474 | 474 | B-416-  | B-416-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 5
+= 2 = a = 10
+= 3 = m = 4
+= 3 = a = 9
+= 6 = a = 7
+= 7 = a = 8
+= 7 = l = 11
+= 7 = l = 15
+= 8 = l = 11
+= 8 = l = 12
+= 8 = l = 13
+= 8 = l = 15
+= 9 = l = 11
+= 11 = l = 13
+= 12 = l = 14
+# Listed 15 contacts. EOF.

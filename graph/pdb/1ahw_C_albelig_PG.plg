@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahw, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLOOD COAGULATION, TISSUE FACTOR, FAB, COMPLEX, ANTIBODY,COMPLEX (IMMUNOGLOBULIN/TISSUE FACTOR)
+> pdb_mol_name > TISSUE FACTOR
+> graphtype > albelig
+> resolution > 3.0
+> date > 10-APR-97
+> header > COMPLEX (IMMUNOGLOBULIN/TISSUE FACTOR)
+> pdb_org_common > HUMAN
+> title > A COMPLEX OF EXTRACELLULAR DOMAIN OF TISSUE FACTOR WITH ANINHIBITORY FAB (5G9)
+> format_version > 2
+> pdbid > 1ahw
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahw | C | albelig | 1 | 1 | E | 437 | 444 | C-10-  | C-17-  | YNLTWKST 
+| 1ahw | C | albelig | 2 | 2 | E | 447 | 453 | C-20-  | C-26-  | KTILEWE 
+| 1ahw | C | albelig | 3 | 3 | E | 459 | 466 | C-32-  | C-39-  | QVYTVQIS 
+| 1ahw | C | albelig | 4 | 4 | E | 483 | 485 | C-56-  | C-58-  | EED 
+| 1ahw | C | albelig | 5 | 5 | H | 487 | 490 | C-60-  | C-63-  | TDEI 
+| 1ahw | C | albelig | 6 | 6 | E | 499 | 506 | C-72-  | C-79-  | LARVFSYP 
+| 1ahw | C | albelig | 7 | 7 | E | 513 | 516 | C-93-  | C-96-  | LYEN 
+| 1ahw | C | albelig | 8 | 8 | H | 522 | 525 | C-102-  | C-105-  | PYLE 
+| 1ahw | C | albelig | 9 | 9 | E | 533 | 538 | C-113-  | C-118-  | IQSFEQ 
+| 1ahw | C | albelig | 10 | 10 | E | 542 | 547 | C-122-  | C-127-  | KVNVTV 
+| 1ahw | C | albelig | 11 | 11 | E | 551 | 556 | C-131-  | C-136-  | RTLVRR 
+| 1ahw | C | albelig | 12 | 12 | E | 559 | 562 | C-139-  | C-142-  | TFLS 
+| 1ahw | C | albelig | 13 | 13 | H | 563 | 567 | C-143-  | C-147-  | LRDVF 
+| 1ahw | C | albelig | 14 | 14 | E | 572 | 579 | C-152-  | C-159-  | IYTLYYWK 
+| 1ahw | C | albelig | 15 | 15 | E | 586 | 590 | C-166-  | C-170-  | KTAKT 
+| 1ahw | C | albelig | 16 | 16 | E | 594 | 598 | C-174-  | C-178-  | EFLID 
+| 1ahw | C | albelig | 17 | 17 | E | 605 | 612 | C-185-  | C-192-  | YFFSVQAV 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 3 = a = 6
+= 6 = a = 7
+= 9 = a = 10
+= 10 = a = 16
+= 11 = a = 12
+= 12 = m = 13
+= 14 = a = 15
+= 14 = a = 17
+= 15 = a = 16
+# Listed 11 contacts. EOF.

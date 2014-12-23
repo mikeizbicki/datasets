@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ilu, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSFER PROTEIN, METALLOPROTEIN
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 12-OCT-95
+> header > METALLOPROTEIN
+> pdb_org_common > UNKNOWN
+> title > X-RAY CRYSTAL STRUCTURE THE TWO SITE-SPECIFIC MUTANTSILE7SER AND PHE110SER OF AZURIN FROM PSEUDOMONAS AERUGINOSA
+> format_version > 2
+> pdbid > 1ilu
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ilu | F | albelig | 1 | 1 | E | 649 | 653 | F-4-  | F-8-  | SVDIQ 
+| 1ilu | F | albelig | 2 | 2 | E | 664 | 667 | F-19-  | F-22-  | AITV 
+| 1ilu | F | albelig | 3 | 3 | E | 673 | 679 | F-28-  | F-34-  | QFTVNLS 
+| 1ilu | F | albelig | 4 | 4 | H | 686 | 689 | F-41-  | F-44-  | KNVM 
+| 1ilu | F | albelig | 5 | 5 | E | 694 | 697 | F-49-  | F-52-  | VLST 
+| 1ilu | F | albelig | 6 | 6 | H | 698 | 711 | F-53-  | F-66-  | AADMQGVVTDGMAS 
+| 1ilu | F | albelig | 7 | 7 | H | 713 | 715 | F-68-  | F-70-  | LDK 
+| 1ilu | F | albelig | 8 | 8 | E | 737 | 743 | F-92-  | F-98-  | KDSVTFD 
+| 1ilu | F | albelig | 9 | 9 | H | 744 | 746 | F-99-  | F-101-  | VSK 
+| 1ilu | F | albelig | 10 | 10 | E | 753 | 756 | F-108-  | F-111-  | YMSF 
+| 1ilu | F | albelig | 11 | 11 | H | 762 | 764 | F-117-  | F-119-  | HSA 
+| 1ilu | F | albelig | 12 | 12 | E | 767 | 772 | F-122-  | F-127-  | KGTLTL 
+| 1ilu | F | albelig | 13 | 13 | L | 1553 | 1553 | F-129-  | F-129-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 12
+= 3 = a = 8
+= 5 = m = 6
+= 5 = a = 10
+= 6 = m = 10
+= 8 = m = 9
+= 10 = a = 12
+= 11 = l = 13
+# Listed 9 contacts. EOF.

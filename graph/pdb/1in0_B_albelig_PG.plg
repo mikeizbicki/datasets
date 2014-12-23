@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1in0, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA AND BETA SANDWICH, STRUCTURAL GENOMICS, STRUCTURE 2FUNCTION PROJECT, S2F, UNKNOWN FUNCTION
+> pdb_mol_name > YAJQ PROTEIN
+> graphtype > albelig
+> resolution > 2.14
+> date > 11-MAY-01
+> header > STRUCTURAL GENOMICS, UNKNOWN FUNCTION
+> pdb_org_common > UNKNOWN
+> title > YAJQ PROTEIN (HI1034)
+> format_version > 2
+> pdbid > 1in0
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1in0 | B | albelig | 1 | 1 | E | 165 | 169 | B-3-  | B-7-  | SFDIV 
+| 1in0 | B | albelig | 2 | 2 | H | 174 | 189 | B-12-  | B-27-  | LHEVRNAVENANRVLS 
+| 1in0 | B | albelig | 3 | 3 | H | 192 | 194 | B-30-  | B-32-  | YDF 
+| 1in0 | B | albelig | 4 | 4 | E | 199 | 204 | B-37-  | B-42-  | AVIELN 
+| 1in0 | B | albelig | 5 | 5 | E | 209 | 214 | B-47-  | B-52-  | TIKITT 
+| 1in0 | B | albelig | 6 | 6 | H | 217 | 233 | B-55-  | B-71-  | DFQLEQLIEILIGSCIK 
+| 1in0 | B | albelig | 7 | 7 | H | 238 | 240 | B-76-  | B-78-  | HSS 
+| 1in0 | B | albelig | 8 | 8 | E | 248 | 250 | B-86-  | B-88-  | EHH 
+| 1in0 | B | albelig | 9 | 9 | E | 253 | 260 | B-91-  | B-98-  | LYSKEIKL 
+| 1in0 | B | albelig | 10 | 10 | H | 266 | 279 | B-104-  | B-117-  | TEMAKKITKLVKDS 
+| 1in0 | B | albelig | 11 | 11 | E | 283 | 288 | B-121-  | B-126-  | VQTQIQ 
+| 1in0 | B | albelig | 12 | 12 | E | 291 | 296 | B-129-  | B-134-  | QVRVTG 
+| 1in0 | B | albelig | 13 | 13 | H | 299 | 311 | B-137-  | B-149-  | RDDLQAVIQLVKS 
+| 1in0 | B | albelig | 14 | 14 | E | 319 | 324 | B-157-  | B-162-  | QFNNFR 
+| 1in0 | B | albelig | 15 | 15 | L | 329 | 329 | B-201-  | B-201-  | J 
+| 1in0 | B | albelig | 16 | 16 | L | 330 | 330 | B-202-  | B-202-  | J 
+| 1in0 | B | albelig | 17 | 17 | L | 331 | 331 | B-203-  | B-203-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 1 = a = 14
+= 2 = a = 4
+= 2 = a = 6
+= 2 = l = 15
+= 3 = m = 6
+= 4 = a = 5
+= 5 = m = 6
+= 5 = a = 9
+= 5 = l = 15
+= 6 = l = 15
+= 6 = l = 16
+= 7 = m = 9
+= 8 = a = 9
+= 9 = l = 16
+= 11 = a = 12
+= 13 = m = 14
+= 15 = l = 16
+# Listed 18 contacts. EOF.

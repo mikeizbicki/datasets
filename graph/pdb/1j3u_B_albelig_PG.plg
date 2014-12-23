@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j3u, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTI-DOMAINS, LYASE
+> pdb_mol_name > ASPARTASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 16-FEB-03
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ASPARTASE FROM BACILLUS SP. YM55-1
+> format_version > 2
+> pdbid > 1j3u
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SP. YM55-1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j3u | B | albelig | 1 | 1 | E | 467 | 469 | B-8-  | B-10-  | EKD 
+| 1j3u | B | albelig | 2 | 2 | E | 472 | 474 | B-13-  | B-15-  | GEK 
+| 1j3u | B | albelig | 3 | 3 | H | 484 | 492 | B-25-  | B-33-  | VQTIRATEN 
+| 1j3u | B | albelig | 4 | 4 | H | 502 | 521 | B-43-  | B-62-  | PELIKSLGIVKKSAALANME 
+| 1j3u | B | albelig | 5 | 5 | H | 529 | 541 | B-70-  | B-82-  | VGQYIVKAADEVI 
+| 1j3u | B | albelig | 6 | 6 | H | 560 | 577 | B-101-  | B-118-  | TSINMNANEVIANRALEL 
+| 1j3u | B | albelig | 7 | 7 | H | 590 | 594 | B-131-  | B-135-  | PNSHV 
+| 1j3u | B | albelig | 8 | 8 | H | 600 | 636 | B-141-  | B-177-  | TNDAFPTATHIAVLSLLNQLIETTKYMQQEFMKKADE 
+| 1j3u | B | albelig | 9 | 9 | E | 641 | 646 | B-182-  | B-187-  | IKMGRT 
+| 1j3u | B | albelig | 10 | 10 | E | 649 | 655 | B-190-  | B-196-  | QDAVPIL 
+| 1j3u | B | albelig | 11 | 11 | H | 656 | 676 | B-197-  | B-217-  | LGQEFEAYARVIARDIERIAN 
+| 1j3u | B | albelig | 12 | 12 | H | 679 | 681 | B-220-  | B-222-  | NNL 
+| 1j3u | B | albelig | 13 | 13 | H | 699 | 713 | B-240-  | B-254-  | PEYISIVTEHLAKFS 
+| 1j3u | B | albelig | 14 | 14 | H | 723 | 728 | B-264-  | B-269-  | LVDATQ 
+| 1j3u | B | albelig | 15 | 15 | H | 731 | 757 | B-272-  | B-298-  | DCYTEVSSALKVCMINMSKIANDLRLM 
+| 1j3u | B | albelig | 16 | 16 | H | 787 | 811 | B-328-  | B-352-  | VMPEVMNQVAFQVFGNDLTITSASE 
+| 1j3u | B | albelig | 17 | 17 | H | 821 | 847 | B-362-  | B-388-  | EPVLFFNLIQSISIMTNVFKSFTENCL 
+| 1j3u | B | albelig | 18 | 18 | H | 854 | 862 | B-395-  | B-403-  | EERMKEYVE 
+| 1j3u | B | albelig | 19 | 19 | H | 868 | 874 | B-409-  | B-415-  | ITAINPH 
+| 1j3u | B | albelig | 20 | 20 | H | 876 | 890 | B-417-  | B-431-  | GYETAAKLAREAYLT 
+| 1j3u | B | albelig | 21 | 21 | H | 894 | 900 | B-435-  | B-441-  | IRELCIK 
+| 1j3u | B | albelig | 22 | 22 | H | 906 | 910 | B-447-  | B-451-  | EEQLN 
+| 1j3u | B | albelig | 23 | 23 | H | 915 | 918 | B-456-  | B-459-  | PYEM 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 3 = m = 6
+= 4 = a = 5
+= 4 = m = 6
+= 4 = a = 8
+= 4 = m = 13
+= 5 = m = 6
+= 6 = m = 7
+= 6 = m = 8
+= 8 = a = 11
+= 8 = p = 15
+= 8 = p = 17
+= 9 = a = 10
+= 9 = m = 18
+= 10 = m = 11
+= 11 = a = 15
+= 15 = a = 16
+= 15 = p = 17
+= 16 = a = 17
+= 19 = m = 20
+= 20 = m = 21
+= 21 = m = 22
+# Listed 23 contacts. EOF.

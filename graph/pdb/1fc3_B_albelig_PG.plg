@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fc3, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RESPONSE REGULATOR, SIGNALING PROTEIN
+> pdb_mol_name > SPO0A
+> graphtype > albelig
+> resolution > 2.0
+> date > 17-JUL-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF TRANS-ACTIVATION DOMAIN OF THESPORULATION RESPONSE REGULATOR, SPO0A
+> format_version > 2
+> pdbid > 1fc3
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GEOBACILLUS STEAROTHERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fc3 | B | albelig | 1 | 1 | H | 122 | 136 | B-142-  | B-156-  | PKNLDASITSIIHEI 
+| 1fc3 | B | albelig | 2 | 2 | H | 143 | 157 | B-163-  | B-177-  | KGYLYLREAIAMVYH 
+| 1fc3 | B | albelig | 3 | 3 | H | 159 | 169 | B-179-  | B-189-  | IELLGSITKVL 
+| 1fc3 | B | albelig | 4 | 4 | H | 170 | 176 | B-190-  | B-196-  | YPDIAKK 
+| 1fc3 | B | albelig | 5 | 5 | H | 181 | 198 | B-201-  | B-218-  | ASRVERAIRHAIEVAWSR 
+| 1fc3 | B | albelig | 6 | 6 | H | 208 | 220 | B-241-  | B-253-  | NSEFIAMVADKLR 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = m = 3
+= 2 = m = 6
+= 3 = m = 4
+= 4 = m = 5
+= 5 = m = 6
+# Listed 7 contacts. EOF.

@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gpc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SSB, SINGLE-STRANDED DNA-BINDING, ZINC BINDING DOMAIN, DNABINDING PROTEIN/DNA COMPLEX
+> pdb_mol_name > PROTEIN (CORE GP32)
+> graphtype > albelig
+> resolution > 2.2
+> date > 01-JUN-95
+> header > DNA BINDING PROTEIN/DNA
+> pdb_org_common > UNKNOWN
+> title > CORE GP32, DNA-BINDING PROTEIN
+> format_version > 2
+> pdbid > 1gpc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gpc | A | albelig | 1 | 1 | H | 5 | 7 | A-26-  | A-28-  | EDK 
+| 1gpc | A | albelig | 2 | 2 | E | 20 | 26 | A-41-  | A-47-  | GQAVIRF 
+| 1gpc | A | albelig | 3 | 3 | E | 38 | 47 | A-59-  | A-68-  | AILVNHGFKK 
+| 1gpc | A | albelig | 4 | 4 | E | 50 | 55 | A-71-  | A-76-  | KWYIET 
+| 1gpc | A | albelig | 5 | 5 | H | 57 | 60 | A-78-  | A-81-  | SSTH 
+| 1gpc | A | albelig | 6 | 6 | H | 67 | 74 | A-88-  | A-95-  | PVCQYISK 
+| 1gpc | A | albelig | 7 | 7 | H | 77 | 80 | A-98-  | A-101-  | LYNT 
+| 1gpc | A | albelig | 8 | 8 | H | 82 | 88 | A-103-  | A-109-  | NKEYSLV 
+| 1gpc | A | albelig | 9 | 9 | E | 91 | 102 | A-112-  | A-123-  | KTSYWANILVVK 
+| 1gpc | A | albelig | 10 | 10 | H | 107 | 109 | A-128-  | A-130-  | PEN 
+| 1gpc | A | albelig | 11 | 11 | E | 113 | 118 | A-134-  | A-139-  | VFKYRF 
+| 1gpc | A | albelig | 12 | 12 | H | 120 | 127 | A-141-  | A-148-  | KKIWDKIN 
+| 1gpc | A | albelig | 13 | 13 | H | 134 | 136 | A-155-  | A-157-  | VEM 
+| 1gpc | A | albelig | 14 | 14 | E | 152 | 159 | A-173-  | A-180-  | FVLKVKQV 
+| 1gpc | A | albelig | 15 | 15 | E | 162 | 164 | A-183-  | A-185-  | FSN 
+| 1gpc | A | albelig | 16 | 16 | H | 182 | 191 | A-203-  | A-212-  | ESFQKELFEQ 
+| 1gpc | A | albelig | 17 | 17 | H | 195 | 199 | A-216-  | A-220-  | LSEMT 
+| 1gpc | A | albelig | 18 | 18 | H | 207 | 217 | A-228-  | A-238-  | FEELNTKFGQV 
+| 1gpc | A | albelig | 19 | 19 | L | 219 | 219 | A-1-  | A-1-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 9
+= 2 = a = 14
+= 3 = a = 4
+= 3 = m = 5
+= 3 = m = 8
+= 3 = a = 9
+= 3 = l = 19
+= 4 = m = 18
+= 5 = l = 19
+= 6 = m = 8
+= 6 = m = 18
+= 6 = l = 19
+= 9 = a = 11
+= 14 = a = 15
+# Listed 14 contacts. EOF.

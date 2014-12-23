@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ix3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEMEPROTEIN, INHIBITOR COMPLEX, CO-ANALOG COMPLEX,OXIDOREDUCTASE
+> pdb_mol_name > HEME OXYGENASE-1
+> graphtype > albelig
+> resolution > 2.0
+> date > 10-JUN-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT HEME OXYGENASE-1 IN COMPLEX WITHHEME BOUND TO CYANIDE
+> format_version > 2
+> pdbid > 1ix3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ix3 | A | albelig | 1 | 1 | H | 3 | 19 | A-13-  | A-29-  | LSEALKEATKEVHIRAE 
+| 1ix3 | A | albelig | 2 | 2 | H | 22 | 28 | A-32-  | A-38-  | EFMRNFQ 
+| 1ix3 | A | albelig | 3 | 3 | H | 34 | 57 | A-44-  | A-67-  | REGFKLVMASLYHIYTALEEEIER 
+| 1ix3 | A | albelig | 4 | 4 | H | 65 | 67 | A-75-  | A-77-  | APL 
+| 1ix3 | A | albelig | 5 | 5 | H | 70 | 73 | A-80-  | A-83-  | PEEL 
+| 1ix3 | A | albelig | 6 | 6 | H | 76 | 87 | A-86-  | A-97-  | RAALEQDMAFWY 
+| 1ix3 | A | albelig | 7 | 7 | H | 91 | 93 | A-101-  | A-103-  | WQE 
+| 1ix3 | A | albelig | 8 | 8 | H | 99 | 114 | A-109-  | A-124-  | PATQHYVKRLHEVGGT 
+| 1ix3 | A | albelig | 9 | 9 | H | 116 | 123 | A-126-  | A-133-  | PELLVAHA 
+| 1ix3 | A | albelig | 10 | 10 | H | 124 | 128 | A-134-  | A-138-  | YTRYL 
+| 1ix3 | A | albelig | 11 | 11 | H | 133 | 145 | A-143-  | A-155-  | GGQVLKKIAQKAM 
+| 1ix3 | A | albelig | 12 | 12 | H | 155 | 157 | A-165-  | A-167-  | AFF 
+| 1ix3 | A | albelig | 13 | 13 | H | 165 | 176 | A-175-  | A-186-  | PTKFKQLYRARM 
+| 1ix3 | A | albelig | 14 | 14 | H | 183 | 211 | A-193-  | A-221-  | PEVKHRVTEEAKTAFLLNIELFEELQALL 
+| 1ix3 | A | albelig | 15 | 15 | L | 224 | 224 | A-1001-  | A-1001-  | J 
+| 1ix3 | A | albelig | 16 | 16 | L | 225 | 225 | A-300-  | A-300-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 14
+= 1 = l = 15
+= 1 = l = 16
+= 2 = m = 11
+= 2 = m = 14
+= 2 = l = 16
+= 3 = a = 6
+= 3 = p = 8
+= 3 = m = 10
+= 3 = m = 12
+= 3 = a = 14
+= 4 = m = 13
+= 8 = m = 9
+= 8 = a = 14
+= 9 = m = 14
+= 10 = l = 16
+= 11 = m = 12
+= 11 = l = 15
+= 11 = l = 16
+= 13 = l = 16
+= 14 = l = 16
+= 15 = l = 16
+# Listed 22 contacts. EOF.

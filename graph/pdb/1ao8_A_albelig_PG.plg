@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ao8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, INHIBITOR/ENZYME COMPLEX
+> pdb_mol_name > DIHYDROFOLATE REDUCTASE
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-JUL-97
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > DIHYDROFOLATE REDUCTASE COMPLEXED WITH METHOTREXATE, NMR,21 STRUCTURES
+> format_version > 2
+> pdbid > 1ao8
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LACTOBACILLUS CASEI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ao8 | A | albelig | 1 | 1 | E | 2 | 7 | A-2-  | A-7-  | AFLWAQ 
+| 1ao8 | A | albelig | 2 | 2 | E | 12 | 14 | A-12-  | A-14-  | LIG 
+| 1ao8 | A | albelig | 3 | 3 | H | 24 | 32 | A-24-  | A-32-  | PDDLHYFRA 
+| 1ao8 | A | albelig | 4 | 4 | E | 38 | 41 | A-38-  | A-41-  | IMVV 
+| 1ao8 | A | albelig | 5 | 5 | H | 43 | 48 | A-43-  | A-48-  | RRTYES 
+| 1ao8 | A | albelig | 6 | 6 | E | 58 | 62 | A-58-  | A-62-  | TNVVL 
+| 1ao8 | A | albelig | 7 | 7 | E | 74 | 76 | A-74-  | A-76-  | VVV 
+| 1ao8 | A | albelig | 8 | 8 | H | 79 | 88 | A-79-  | A-88-  | VAAVFAYAKQ 
+| 1ao8 | A | albelig | 9 | 9 | E | 94 | 98 | A-94-  | A-98-  | LVIAG 
+| 1ao8 | A | albelig | 10 | 10 | H | 100 | 105 | A-100-  | A-105-  | AQIFTA 
+| 1ao8 | A | albelig | 11 | 11 | E | 112 | 118 | A-112-  | A-118-  | TLLVTRL 
+| 1ao8 | A | albelig | 12 | 12 | E | 136 | 144 | A-136-  | A-144-  | FTKVSSRTV 
+| 1ao8 | A | albelig | 13 | 13 | E | 153 | 160 | A-153-  | A-160-  | HTYEVWQK 
+| 1ao8 | A | albelig | 14 | 14 | L | 163 | 163 | A-170-  | A-170-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 9
+= 1 = p = 11
+= 1 = l = 14
+= 3 = m = 13
+= 3 = l = 14
+= 4 = p = 6
+= 4 = p = 9
+= 5 = l = 14
+= 6 = p = 7
+= 9 = m = 10
+= 9 = l = 14
+= 11 = a = 13
+= 11 = l = 14
+= 12 = a = 13
+# Listed 15 contacts. EOF.

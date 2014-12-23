@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k94, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PENTA-EF-HAND PROTEIN, CALCIUM BINDING PROTEIN, METALBINDING PROTEIN
+> pdb_mol_name > GRANCALCIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 26-OCT-01
+> header > METAL BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF DES(1-52)GRANCALCIN WITH BOUND CALCIUM
+> format_version > 2
+> pdbid > 1k94
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k94 | B | albelig | 1 | 1 | H | 168 | 175 | B-354-  | B-361-  | VYTYFSAV 
+| 1k94 | B | albelig | 2 | 2 | H | 184 | 194 | B-370-  | B-380-  | AEELQRCLTQS 
+| 1k94 | B | albelig | 3 | 3 | H | 205 | 215 | B-391-  | B-401-  | LETCRIMIAML 
+| 1k94 | B | albelig | 4 | 4 | H | 225 | 245 | B-411-  | B-431-  | FNAFKELWAALNAWKENFMTV 
+| 1k94 | B | albelig | 5 | 5 | H | 255 | 264 | B-441-  | B-450-  | HHELRQAIGL 
+| 1k94 | B | albelig | 6 | 6 | H | 271 | 281 | B-457-  | B-467-  | PQTLTTIVKRY 
+| 1k94 | B | albelig | 7 | 7 | H | 289 | 309 | B-475-  | B-495-  | FDDYVACCVKLRALTDFFRKR 
+| 1k94 | B | albelig | 8 | 8 | E | 316 | 320 | B-502-  | B-506-  | SANFI 
+| 1k94 | B | albelig | 9 | 9 | H | 321 | 329 | B-507-  | B-515-  | YDDFLQGTM 
+| 1k94 | B | albelig | 10 | 10 | L | 334 | 334 | B-997-  | B-997-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = m = 3
+= 2 = m = 4
+= 3 = m = 4
+= 3 = p = 7
+= 4 = m = 5
+= 4 = a = 7
+= 5 = m = 6
+= 5 = l = 10
+= 6 = m = 7
+= 8 = m = 9
+# Listed 12 contacts. EOF.

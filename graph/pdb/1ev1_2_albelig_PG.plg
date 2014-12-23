@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ev1, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRAL COAT PROTEIN, CAPSID, PICORNAVIRUS, ECHOVIRUS,ICOSAHEDRAL VIRUS
+> pdb_mol_name > ECHOVIRUS 1
+> graphtype > albelig
+> resolution > 3.55
+> date > 02-DEC-97
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > ECHOVIRUS 1
+> format_version > 2
+> pdbid > 1ev1
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > HUMAN ECHOVIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ev1 | 2 | albelig | 1 | 1 | E | 289 | 292 | 2-14-  | 2-17-  | RSIT 
+| 1ev1 | 2 | albelig | 2 | 2 | E | 297 | 300 | 2-22-  | 2-25-  | TITT 
+| 1ev1 | 2 | albelig | 3 | 3 | H | 309 | 311 | 2-34-  | 2-36-  | GYG 
+| 1ev1 | 2 | albelig | 4 | 4 | H | 332 | 334 | 2-57-  | 2-59-  | DVA 
+| 1ev1 | 2 | albelig | 5 | 5 | E | 344 | 346 | 2-69-  | 2-71-  | VQW 
+| 1ev1 | 2 | albelig | 6 | 6 | E | 353 | 357 | 2-78-  | 2-82-  | WWWKF 
+| 1ev1 | 2 | albelig | 7 | 7 | H | 359 | 363 | 2-84-  | 2-88-  | DALRD 
+| 1ev1 | 2 | albelig | 8 | 8 | H | 365 | 373 | 2-90-  | 2-98-  | GLFGQNMYY 
+| 1ev1 | 2 | albelig | 9 | 9 | E | 374 | 386 | 2-99-  | 2-111-  | HYLGRAGYTIHVQ 
+| 1ev1 | 2 | albelig | 10 | 10 | E | 394 | 403 | 2-119-  | 2-128-  | QGCILVVCVP 
+| 1ev1 | 2 | albelig | 11 | 11 | H | 418 | 420 | 2-143-  | 2-145-  | YEH 
+| 1ev1 | 2 | albelig | 12 | 12 | H | 445 | 447 | 2-170-  | 2-172-  | VWN 
+| 1ev1 | 2 | albelig | 13 | 13 | H | 454 | 459 | 2-179-  | 2-184-  | VGNLTI 
+| 1ev1 | 2 | albelig | 14 | 14 | E | 462 | 466 | 2-187-  | 2-191-  | HQWIN 
+| 1ev1 | 2 | albelig | 15 | 15 | E | 472 | 477 | 2-197-  | 2-202-  | SATIVM 
+| 1ev1 | 2 | albelig | 16 | 16 | E | 494 | 505 | 2-219-  | 2-230-  | FTLMIIPFVPLD 
+| 1ev1 | 2 | albelig | 17 | 17 | E | 514 | 530 | 2-239-  | 2-255-  | VPITVTVAPMCAEYNGL 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 5 = a = 6
+= 5 = a = 10
+= 5 = a = 16
+= 5 = a = 17
+= 6 = m = 7
+= 6 = a = 16
+= 8 = a = 9
+= 8 = p = 17
+= 9 = a = 15
+= 9 = a = 17
+= 10 = a = 14
+= 10 = p = 15
+= 10 = a = 16
+= 14 = a = 15
+# Listed 15 contacts. EOF.

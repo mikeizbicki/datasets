@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kgs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA-BINDING PROTEIN, ALPH-BETA SANDWICH, WINGED-HELIX, HELIX-TURN-HELIX, RESPONSE REGULATOR, DNA BINDING PROTEIN
+> pdb_mol_name > DNA BINDING RESPONSE REGULATOR D
+> graphtype > albelig
+> resolution > 1.5
+> date > 28-NOV-01
+> header > DNA BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE AT 1.50 A OF AN OMPR/PHOB HOMOLOG FROM THERMOTOGAMARITIMA
+> format_version > 2
+> pdbid > 1kgs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMOTOGA MARITIMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kgs | A | albelig | 1 | 1 | E | 3 | 7 | A-4-  | A-8-  | RVLVV 
+| 1kgs | A | albelig | 2 | 2 | H | 11 | 23 | A-12-  | A-24-  | RDLADLITEALKK 
+| 1kgs | A | albelig | 3 | 3 | E | 27 | 31 | A-28-  | A-32-  | TVDVC 
+| 1kgs | A | albelig | 4 | 4 | H | 34 | 43 | A-35-  | A-44-  | GEEGXYXALN 
+| 1kgs | A | albelig | 5 | 5 | E | 48 | 52 | A-49-  | A-53-  | VVILD 
+| 1kgs | A | albelig | 6 | 6 | H | 60 | 69 | A-61-  | A-70-  | GWEILKSXRE 
+| 1kgs | A | albelig | 7 | 7 | E | 76 | 80 | A-77-  | A-81-  | VLXLT 
+| 1kgs | A | albelig | 8 | 8 | H | 84 | 90 | A-85-  | A-91-  | DVEYRVK 
+| 1kgs | A | albelig | 9 | 9 | E | 98 | 101 | A-99-  | A-102-  | DYLP 
+| 1kgs | A | albelig | 10 | 10 | H | 106 | 120 | A-107-  | A-121-  | LRELIARVRALIRRK 
+| 1kgs | A | albelig | 11 | 11 | E | 127 | 130 | A-128-  | A-131-  | KLVC 
+| 1kgs | A | albelig | 12 | 12 | E | 133 | 136 | A-134-  | A-137-  | LILD 
+| 1kgs | A | albelig | 13 | 13 | E | 141 | 144 | A-142-  | A-145-  | KAYR 
+| 1kgs | A | albelig | 14 | 14 | E | 147 | 149 | A-148-  | A-150-  | KEI 
+| 1kgs | A | albelig | 15 | 15 | H | 153 | 164 | A-154-  | A-165-  | KKEYQILEYLVX 
+| 1kgs | A | albelig | 16 | 16 | H | 172 | 178 | A-173-  | A-179-  | KEELQEH 
+| 1kgs | A | albelig | 17 | 17 | H | 183 | 199 | A-188-  | A-204-  | FSDVLRSHIKNLRKKVD 
+| 1kgs | A | albelig | 18 | 18 | E | 207 | 210 | A-212-  | A-215-  | IHTV 
+| 1kgs | A | albelig | 19 | 19 | E | 214 | 217 | A-219-  | A-222-  | GYVA 
+| 1kgs | A | albelig | 20 | 20 | L | 229 | 229 | A-301-  | A-301-  | J 
+| 1kgs | A | albelig | 21 | 21 | L | 230 | 230 | A-302-  | A-302-  | J 
+| 1kgs | A | albelig | 22 | 22 | L | 231 | 231 | A-303-  | A-303-  | J 
+| 1kgs | A | albelig | 23 | 23 | L | 232 | 232 | A-304-  | A-304-  | J 
+| 1kgs | A | albelig | 24 | 24 | L | 233 | 233 | A-305-  | A-305-  | J 
+| 1kgs | A | albelig | 25 | 25 | L | 234 | 234 | A-306-  | A-306-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 2 = l = 25
+= 4 = m = 6
+= 4 = l = 23
+= 5 = p = 7
+= 7 = p = 9
+= 8 = l = 21
+= 10 = l = 20
+= 10 = l = 25
+= 11 = a = 12
+= 12 = a = 13
+= 12 = l = 20
+= 13 = a = 14
+= 13 = l = 20
+= 14 = l = 20
+= 15 = m = 17
+= 16 = m = 17
+= 18 = a = 19
+= 18 = l = 24
+= 19 = l = 22
+= 22 = l = 24
+# Listed 23 contacts. EOF.

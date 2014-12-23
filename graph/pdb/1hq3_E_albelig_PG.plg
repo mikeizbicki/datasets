@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hq3, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HISTONE-CORE OCTAMER, NUCLEOSOME, CHROMATIN, STRUCTURALELEMENTS, HISTONE-TAIL GUIDE HELICES, TETHER STRUCTURES, CLAND PHOSPHATE IONS, WATERS, DNA BINDING PROTEIN
+> pdb_mol_name > HISTONE H2A-IV
+> graphtype > albelig
+> resolution > 2.15
+> date > 14-DEC-00
+> header > DNA BINDING PROTEIN
+> pdb_org_common > CHICKEN
+> title > CRYSTAL STRUCTURE OF THE HISTONE-CORE-OCTAMER INKCL/PHOSPHATE
+> format_version > 2
+> pdbid > 1hq3
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hq3 | E | albelig | 1 | 1 | H | 384 | 388 | E-17-  | E-21-  | RSSRA 
+| 1hq3 | E | albelig | 2 | 2 | H | 394 | 403 | E-27-  | E-36-  | VGRVHRLLRK 
+| 1hq3 | E | albelig | 3 | 3 | H | 413 | 438 | E-46-  | E-71-  | GAPVYLAAVLEYLTAEILELAGNAAR 
+| 1hq3 | E | albelig | 4 | 4 | H | 447 | 456 | E-80-  | E-89-  | PRHLQLAIRN 
+| 1hq3 | E | albelig | 5 | 5 | H | 458 | 463 | E-91-  | E-96-  | EELNKL 
+| 1hq3 | E | albelig | 6 | 6 | E | 467 | 469 | E-100-  | E-102-  | VTI 
+| 1hq3 | E | albelig | 7 | 7 | H | 480 | 482 | E-113-  | E-115-  | AVL 
+| 1hq3 | E | albelig | 8 | 8 | L | 778 | 778 | E-503-  | E-503-  | J 
+| 1hq3 | E | albelig | 9 | 9 | L | 779 | 779 | E-504-  | E-504-  | J 
+| 1hq3 | E | albelig | 10 | 10 | L | 780 | 780 | E-602-  | E-602-  | J 
+| 1hq3 | E | albelig | 11 | 11 | L | 781 | 781 | E-621-  | E-621-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = l = 11
+= 2 = m = 3
+= 2 = l = 8
+= 2 = l = 11
+= 3 = l = 10
+# Listed 6 contacts. EOF.

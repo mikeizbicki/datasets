@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hxd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LIGASE, REPRESSOR, BIOTIN, DNA-BINDING
+> pdb_mol_name > BIRA BIFUNCTIONAL PROTEIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 12-JAN-01
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF E. COLI BIOTIN REPRESSOR WITH BOUNDBIOTIN
+> format_version > 2
+> pdbid > 1hxd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hxd | A | albelig | 1 | 1 | H | 2 | 11 | A-5-  | A-14-  | TVPLKLIALL 
+| 1hxd | A | albelig | 2 | 2 | H | 19 | 25 | A-22-  | A-28-  | GEQLGET 
+| 1hxd | A | albelig | 3 | 3 | H | 30 | 41 | A-33-  | A-44-  | RAAINKHIQTLR 
+| 1hxd | A | albelig | 4 | 4 | E | 48 | 50 | A-51-  | A-53-  | FTV 
+| 1hxd | A | albelig | 5 | 5 | E | 54 | 56 | A-57-  | A-59-  | GYS 
+| 1hxd | A | albelig | 6 | 6 | H | 66 | 71 | A-69-  | A-74-  | AKQILG 
+| 1hxd | A | albelig | 7 | 7 | E | 78 | 80 | A-81-  | A-83-  | VAV 
+| 1hxd | A | albelig | 8 | 8 | H | 87 | 92 | A-90-  | A-95-  | TNQYLL 
+| 1hxd | A | albelig | 9 | 9 | E | 103 | 105 | A-106-  | A-108-  | ACI 
+| 1hxd | A | albelig | 10 | 10 | E | 128 | 136 | A-131-  | A-139-  | LYLSMFWRL 
+| 1hxd | A | albelig | 11 | 11 | H | 144 | 161 | A-147-  | A-164-  | IGLSLVIGIVMAEVLRKL 
+| 1hxd | A | albelig | 12 | 12 | E | 167 | 169 | A-170-  | A-172-  | RVK 
+| 1hxd | A | albelig | 13 | 13 | E | 173 | 176 | A-176-  | A-179-  | DLYL 
+| 1hxd | A | albelig | 14 | 14 | E | 179 | 189 | A-182-  | A-192-  | RKLAGILVELT 
+| 1hxd | A | albelig | 15 | 15 | E | 196 | 204 | A-199-  | A-207-  | AQIVIGAGI 
+| 1hxd | A | albelig | 16 | 16 | H | 216 | 218 | A-227-  | A-229-  | QEA 
+| 1hxd | A | albelig | 17 | 17 | H | 224 | 245 | A-235-  | A-256-  | RNTLAAMLIRELRAALELFEQE 
+| 1hxd | A | albelig | 18 | 18 | H | 252 | 257 | A-263-  | A-268-  | SRWEKL 
+| 1hxd | A | albelig | 19 | 19 | E | 264 | 269 | A-275-  | A-280-  | PVKLII 
+| 1hxd | A | albelig | 20 | 20 | E | 272 | 282 | A-283-  | A-293-  | KEIFGISRGID 
+| 1hxd | A | albelig | 21 | 21 | E | 286 | 290 | A-297-  | A-301-  | ALLLE 
+| 1hxd | A | albelig | 22 | 22 | E | 295 | 298 | A-306-  | A-309-  | IKPW 
+| 1hxd | A | albelig | 23 | 23 | E | 302 | 305 | A-313-  | A-316-  | EISL 
+| 1hxd | A | albelig | 24 | 24 | L | 614 | 614 | A-500-  | A-500-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = a = 5
+= 7 = p = 9
+= 8 = m = 10
+= 8 = m = 15
+= 8 = l = 24
+= 9 = a = 10
+= 10 = a = 15
+= 10 = p = 17
+= 10 = l = 24
+= 11 = a = 17
+= 11 = m = 18
+= 12 = a = 13
+= 12 = m = 18
+= 13 = a = 14
+= 13 = l = 24
+= 14 = a = 15
+= 14 = l = 24
+= 15 = l = 24
+= 19 = a = 20
+= 19 = a = 23
+= 20 = a = 21
+= 21 = a = 22
+# Listed 22 contacts. EOF.

@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1is8, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-REGULATORY PROTEIN COMPLEX, HYDROLASE/PROTEINBINDING COMPLEX
+> pdb_mol_name > GTP CYCLOHYDROLASE I FEEDBACK REGULATORY PROTEIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 18-NOV-01
+> header > HYDROLASE/PROTEIN BINDING
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT GTPCHI/GFRP STIMULATORY COMPLEXPLUS ZN
+> format_version > 2
+> pdbid > 1is8
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1is8 | N | albelig | 1 | 1 | E | 2198 | 2204 | N-3-  | N-9-  | YLLISTQ 
+| 1is8 | N | albelig | 2 | 2 | E | 2212 | 2216 | N-17-  | N-21-  | TMVGD 
+| 1is8 | N | albelig | 3 | 3 | H | 2221 | 2227 | N-26-  | N-32-  | PELMQQL 
+| 1is8 | N | albelig | 4 | 4 | E | 2230 | 2232 | N-35-  | N-37-  | SKR 
+| 1is8 | N | albelig | 5 | 5 | E | 2241 | 2244 | N-46-  | N-49-  | EYYV 
+| 1is8 | N | albelig | 6 | 6 | H | 2248 | 2257 | N-53-  | N-62-  | PRIVLDKLEC 
+| 1is8 | N | albelig | 7 | 7 | E | 2261 | 2268 | N-66-  | N-73-  | RVLSMTGV 
+| 1is8 | N | albelig | 8 | 8 | E | 2271 | 2277 | N-76-  | N-82-  | TLVWCLH 
+| 1is8 | N | albelig | 9 | 9 | L | 2805 | 2805 | N-2009-  | N-2009-  | J 
+| 1is8 | N | albelig | 10 | 10 | L | 2806 | 2806 | N-1006-  | N-1006-  | J 
+| 1is8 | N | albelig | 11 | 11 | L | 2807 | 2807 | N-1007-  | N-1007-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 8
+= 1 = l = 9
+= 1 = l = 10
+= 1 = l = 11
+= 2 = a = 5
+= 4 = a = 5
+= 6 = m = 8
+= 7 = a = 8
+= 7 = l = 10
+= 8 = l = 10
+= 8 = l = 11
+# Listed 12 contacts. EOF.

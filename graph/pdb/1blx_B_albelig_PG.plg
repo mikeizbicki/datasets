@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1blx, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INHIBITOR PROTEIN, CYCLIN-DEPENDENT KINASE, CELL CYCLECONTROL, ALPHA/BETA, COMPLEX (INHIBITOR PROTEIN/KINASE)
+> pdb_mol_name > P19INK4D
+> graphtype > albelig
+> resolution > 1.9
+> date > 21-JUL-98
+> header > COMPLEX (INHIBITOR PROTEIN/KINASE)
+> pdb_org_common > HOUSE MOUSE
+> title > P19INK4D/CDK6 COMPLEX
+> format_version > 2
+> pdbid > 1blx
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1blx | B | albelig | 1 | 1 | H | 308 | 318 | B-7-  | B-17-  | CVGDRLSGAAA 
+| 1blx | B | albelig | 2 | 2 | H | 322 | 331 | B-21-  | B-30-  | VQEVRRLLHR 
+| 1blx | B | albelig | 3 | 3 | H | 346 | 349 | B-45-  | B-48-  | ALQV 
+| 1blx | B | albelig | 4 | 4 | H | 355 | 363 | B-54-  | B-62-  | PAVALELLK 
+| 1blx | B | albelig | 5 | 5 | H | 378 | 385 | B-77-  | B-84-  | PVHDAART 
+| 1blx | B | albelig | 6 | 6 | H | 388 | 396 | B-87-  | B-95-  | LDTLKVLVE 
+| 1blx | B | albelig | 7 | 7 | H | 411 | 418 | B-110-  | B-117-  | PIHLAIRE 
+| 1blx | B | albelig | 8 | 8 | H | 421 | 430 | B-120-  | B-129-  | SSVVSFLAPE 
+| 1blx | B | albelig | 9 | 9 | H | 443 | 449 | B-142-  | B-148-  | PLELARQ 
+| 1blx | B | albelig | 10 | 10 | H | 453 | 461 | B-152-  | B-160-  | QNLMDILQG 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 4 = p = 6
+= 5 = m = 7
+= 6 = m = 8
+= 7 = m = 8
+= 7 = m = 9
+= 9 = m = 10
+# Listed 7 contacts. EOF.

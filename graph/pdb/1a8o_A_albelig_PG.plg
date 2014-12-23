@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a8o, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CAPSID, CORE PROTEIN, HIV, C-TERMINAL DOMAIN, VIRAL PROTEIN
+> pdb_mol_name > HIV CAPSID
+> graphtype > albelig
+> resolution > 1.7
+> date > 27-MAR-98
+> header > VIRAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > HIV CAPSID C-TERMINAL DOMAIN
+> format_version > 2
+> pdbid > 1a8o
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a8o | A | albelig | 1 | 1 | H | 11 | 23 | A-161-  | A-173-  | FRDYVDRFYKTLR 
+| 1a8o | A | albelig | 2 | 2 | H | 29 | 37 | A-179-  | A-187-  | QEVKNWXTE 
+| 1a8o | A | albelig | 3 | 3 | H | 39 | 42 | A-189-  | A-192-  | LLVQ 
+| 1a8o | A | albelig | 4 | 4 | H | 46 | 53 | A-196-  | A-203-  | PDAKTILK 
+| 1a8o | A | albelig | 5 | 5 | H | 61 | 67 | A-211-  | A-217-  | LEEXXTA 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+# Listed 1 contacts. EOF.

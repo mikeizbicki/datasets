@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a9b, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC CLASS I, HISTOCOMPATIBILITY COMPLEX, HLA B3501, COMPLEX(MHC CLASS I/PEPTIDE)
+> pdb_mol_name > BETA-2-MICROGLOBULIN
+> graphtype > albelig
+> resolution > 3.2
+> date > 03-APR-98
+> header > COMPLEX (MHC CLASS I/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > DECAMER-LIKE CONFORMATION OF A NANO-PEPTIDE BOUND TO HLA-B3501 DUE TO NONSTANDARD POSITIONING OF THE C-TERMINUS
+> format_version > 2
+> pdbid > 1a9b
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a9b | E | albelig | 1 | 1 | E | 674 | 679 | E-7-  | E-12-  | KIQVYS 
+| 1a9b | E | albelig | 2 | 2 | E | 689 | 698 | E-22-  | E-31-  | NFLNFYVSGF 
+| 1a9b | E | albelig | 3 | 3 | E | 703 | 709 | E-36-  | E-42-  | IEVDLLK 
+| 1a9b | E | albelig | 4 | 4 | E | 730 | 738 | E-63-  | E-71-  | FYLLYYTEF 
+| 1a9b | E | albelig | 5 | 5 | E | 746 | 752 | E-79-  | E-85-  | YAFRVNH 
+| 1a9b | E | albelig | 6 | 6 | E | 759 | 762 | E-92-  | E-95-  | KIVK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = p = 5
+= 3 = p = 4
+= 3 = a = 5
+= 5 = a = 6
+# Listed 6 contacts. EOF.

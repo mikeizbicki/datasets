@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1flt, chain X.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (GROWTH FACTOR-TRANSFERASE), FLT-1 RECEPTOR, CYSTINE KNOT,GLYCOPROTEIN, IMMUNOGLOBULIN-LIKE DOMAIN TRANSFERASE, COMPLEX(GROWTH FACTOR-TRANSFERASE) COMPLEX
+> pdb_mol_name > FMS-LIKE TYROSINE KINASE 1
+> graphtype > albelig
+> resolution > 1.7
+> date > 20-NOV-97
+> header > COMPLEX (GROWTH FACTOR/TRANSFERASE)
+> pdb_org_common > HUMAN
+> title > VEGF IN COMPLEX WITH DOMAIN 2 OF THE FLT-1 RECEPTOR
+> format_version > 2
+> pdbid > 1flt
+> experiment > X-RAY DIFFRACTION
+> chainid > X
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1flt | X | albelig | 1 | 1 | E | 208 | 212 | X-144-  | X-148-  | EIIHM 
+| 1flt | X | albelig | 2 | 2 | E | 218 | 220 | X-154-  | X-156-  | LVI 
+| 1flt | X | albelig | 3 | 3 | E | 232 | 235 | X-168-  | X-171-  | TLKK 
+| 1flt | X | albelig | 4 | 4 | E | 239 | 241 | X-175-  | X-177-  | DTL 
+| 1flt | X | albelig | 5 | 5 | E | 248 | 251 | X-184-  | X-187-  | IIWD 
+| 1flt | X | albelig | 6 | 6 | E | 255 | 258 | X-191-  | X-194-  | GFII 
+| 1flt | X | albelig | 7 | 7 | H | 263 | 265 | X-199-  | X-201-  | YKE 
+| 1flt | X | albelig | 8 | 8 | E | 267 | 275 | X-203-  | X-211-  | GLLTIEATV 
+| 1flt | X | albelig | 9 | 9 | E | 278 | 288 | X-214-  | X-224-  | HLYKTNYLTHR 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 9
+= 2 = a = 6
+= 3 = a = 4
+= 3 = a = 8
+= 5 = a = 6
+= 8 = a = 9
+# Listed 6 contacts. EOF.

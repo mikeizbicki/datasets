@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fuj, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, SERINE PROTEASE, GLYCOPROTEIN, ZYMOGEN, HYDROLASE (SERINEPROTEASE)
+> pdb_mol_name > PR3
+> graphtype > albelig
+> resolution > 2.2
+> date > 25-JAN-96
+> header > HYDROLASE (SERINE PROTEASE)
+> pdb_org_common > HUMAN
+> title > PR3 (MYELOBLASTIN)
+> format_version > 2
+> pdbid > 1fuj
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fuj | B | albelig | 1 | 1 | E | 237 | 242 | B-30-  | B-35-  | MASLQM 
+| 1fuj | B | albelig | 2 | 2 | E | 251 | 257 | B-42-  | B-48-  | EGGTLIH 
+| 1fuj | B | albelig | 3 | 3 | E | 260 | 263 | B-51-  | B-54-  | FVLT 
+| 1fuj | B | albelig | 4 | 4 | H | 273 | 275 | B-63-A | B-63-C | QRL 
+| 1fuj | B | albelig | 5 | 5 | E | 276 | 280 | B-64-  | B-68-  | VNVVL 
+| 1fuj | B | albelig | 6 | 6 | E | 293 | 302 | B-81-  | B-90-  | QHFSVAQVFL 
+| 1fuj | B | albelig | 7 | 7 | E | 315 | 319 | B-104-  | B-108-  | LLIQL 
+| 1fuj | B | albelig | 8 | 8 | E | 346 | 351 | B-135-  | B-140-  | QFLAMG 
+| 1fuj | B | albelig | 9 | 9 | E | 366 | 373 | B-156-  | B-163-  | QELNVTVV 
+| 1fuj | B | albelig | 10 | 10 | E | 381 | 385 | B-180-  | B-184-  | NIGTF 
+| 1fuj | B | albelig | 11 | 11 | E | 401 | 404 | B-198-  | B-201-  | PLIF 
+| 1fuj | B | albelig | 12 | 12 | E | 407 | 414 | B-208-  | B-215-  | IIQGIDSF 
+| 1fuj | B | albelig | 13 | 13 | E | 426 | 430 | B-226-  | B-230-  | DFFTR 
+| 1fuj | B | albelig | 14 | 14 | H | 431 | 441 | B-231-  | B-241-  | VALYVDWIRST 
+| 1fuj | B | albelig | 15 | 15 | L | 890 | 890 | B-244-  | B-244-  | J 
+| 1fuj | B | albelig | 16 | 16 | L | 891 | 891 | B-245-  | B-245-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 4 = m = 5
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 11
+= 8 = l = 15
+= 8 = l = 16
+= 9 = a = 10
+= 9 = l = 15
+= 10 = a = 13
+= 11 = a = 12
+= 11 = l = 16
+= 12 = a = 13
+= 12 = m = 14
+= 13 = m = 14
+= 15 = l = 16
+# Listed 21 contacts. EOF.

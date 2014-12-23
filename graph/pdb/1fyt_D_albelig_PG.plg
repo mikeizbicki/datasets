@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fyt, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-PROTEIN COMPLEX, IMMUNOGLOBULIN FOLD, IMMUNE SYSTEM
+> pdb_mol_name > T-CELL RECEPTOR ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 03-OCT-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A COMPLEX OF A HUMAN ALPHA/BETA-T CELL RECEPTOR,INFLUENZA HA ANTIGEN PEPTIDE, AND MHC CLASS II MOLECULE, HLA-DR1
+> format_version > 2
+> pdbid > 1fyt
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fyt | D | albelig | 1 | 1 | E | 378 | 380 | D-2-  | D-4-  | SVT 
+| 1fyt | D | albelig | 2 | 2 | E | 385 | 389 | D-9-  | D-13-  | HVSVS 
+| 1fyt | D | albelig | 3 | 3 | E | 394 | 396 | D-18-  | D-20-  | VLL 
+| 1fyt | D | albelig | 4 | 4 | E | 399 | 401 | D-23-  | D-25-  | NYS 
+| 1fyt | D | albelig | 5 | 5 | E | 407 | 413 | D-31-  | D-37-  | YLFWYVQ 
+| 1fyt | D | albelig | 6 | 6 | E | 420 | 425 | D-44-  | D-49-  | QLLLKY 
+| 1fyt | D | albelig | 7 | 7 | E | 431 | 433 | D-55-  | D-57-  | LVK 
+| 1fyt | D | albelig | 8 | 8 | H | 435 | 437 | D-59-  | D-61-  | ING 
+| 1fyt | D | albelig | 9 | 9 | E | 439 | 443 | D-63-  | D-67-  | EAEFK 
+| 1fyt | D | albelig | 10 | 10 | E | 448 | 453 | D-72-  | D-77-  | SFHLTK 
+| 1fyt | D | albelig | 11 | 11 | H | 458 | 460 | D-82-  | D-84-  | MSD 
+| 1fyt | D | albelig | 12 | 12 | E | 462 | 469 | D-86-  | D-93-  | AEYFDAVS 
+| 1fyt | D | albelig | 13 | 13 | E | 478 | 480 | D-104-  | D-106-  | LTF 
+| 1fyt | D | albelig | 14 | 14 | E | 484 | 489 | D-110-  | D-115-  | TRLTII 
+| 1fyt | D | albelig | 15 | 15 | E | 498 | 502 | D-124-  | D-128-  | AVYQL 
+| 1fyt | D | albelig | 16 | 16 | E | 509 | 514 | D-137-  | D-142-  | SVELFT 
+| 1fyt | D | albelig | 17 | 17 | E | 536 | 540 | D-164-  | D-168-  | TVLDM 
+| 1fyt | D | albelig | 18 | 18 | H | 541 | 543 | D-169-  | D-171-  | RSM 
+| 1fyt | D | albelig | 19 | 19 | E | 545 | 554 | D-173-  | D-182-  | FKSNSAVAWS 
+| 1fyt | D | albelig | 20 | 20 | H | 561 | 564 | D-189-  | D-192-  | EANA 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = p = 14
+= 3 = a = 10
+= 5 = a = 6
+= 5 = p = 10
+= 5 = a = 12
+= 6 = a = 7
+= 7 = a = 9
+= 9 = a = 10
+= 12 = a = 13
+= 12 = a = 14
+= 15 = a = 16
+= 16 = a = 19
+= 17 = m = 18
+= 17 = a = 19
+# Listed 15 contacts. EOF.

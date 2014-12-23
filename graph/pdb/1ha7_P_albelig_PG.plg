@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ha7, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOTOSYNTHESIS, CYANOBACTERIA, LIGHT-HARVESTING PROTEIN,PIGMENT PROTEIN, PHYCOCYANOBILIN, CHROMOPHORE
+> pdb_mol_name > C-PHYCOCYANIN BETA CHAIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 29-MAR-01
+> header > PHOTOSYNTHESIS
+> pdb_org_common > CYANOBACTERIUM, BLUE-GREEN ALGA
+> title > STRUCTURE OF A LIGHT-HARVESTING PHYCOBILIPROTEIN,C-PHYCOCYANIN FROM SPIRULINA PLATENSIS AT 2.2A RESOLUTION
+> format_version > 2
+> pdbid > 1ha7
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > SPIRULINA PLATENSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ha7 | P | albelig | 1 | 1 | H | 2519 | 2529 | P-4-  | P-14-  | AFTKVVSQADT 
+| 1ha7 | P | albelig | 2 | 2 | H | 2536 | 2547 | P-21-  | P-32-  | TAQIDALSQMVA 
+| 1ha7 | P | albelig | 3 | 3 | H | 2549 | 2560 | P-34-  | P-45-  | SNKRLDAVNRIT 
+| 1ha7 | P | albelig | 4 | 4 | H | 2563 | 2577 | P-48-  | P-62-  | ASTIVSNAARSLFAE 
+| 1ha7 | P | albelig | 5 | 5 | H | 2579 | 2581 | P-64-  | P-66-  | PQL 
+| 1ha7 | P | albelig | 6 | 6 | H | 2591 | 2614 | P-78-  | P-101-  | SRRMAACLRDMEIILRYVTYAVFA 
+| 1ha7 | P | albelig | 7 | 7 | H | 2618 | 2625 | P-105-  | P-112-  | SVLEDRCL 
+| 1ha7 | P | albelig | 8 | 8 | H | 2628 | 2635 | P-115-  | P-122-  | LRETYLAL 
+| 1ha7 | P | albelig | 9 | 9 | H | 2639 | 2658 | P-126-  | P-145-  | GSSVAVGVGKMKEAALAIVN 
+| 1ha7 | P | albelig | 10 | 10 | H | 2669 | 2686 | P-156-  | P-173-  | SALASEIASYFDRACAAV 
+| 1ha7 | P | albelig | 11 | 11 | L | 4066 | 4066 | P-184-  | P-184-  | J 
+| 1ha7 | P | albelig | 12 | 12 | L | 4067 | 4067 | P-255-  | P-255-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 12
+= 3 = a = 6
+= 3 = m = 10
+= 3 = l = 12
+= 4 = a = 6
+= 4 = a = 9
+= 4 = l = 11
+= 5 = l = 11
+= 6 = m = 7
+= 6 = a = 10
+= 6 = l = 11
+= 7 = p = 10
+= 7 = l = 11
+= 8 = l = 11
+= 9 = a = 10
+= 9 = l = 11
+= 9 = l = 12
+= 10 = l = 12
+# Listed 18 contacts. EOF.

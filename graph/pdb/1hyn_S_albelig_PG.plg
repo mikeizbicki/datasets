@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hyn, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MEMBRANE PROTEIN
+> pdb_mol_name > BAND 3 ANION TRANSPORT PROTEIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 20-JAN-01
+> header > MEMBRANE PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE CYTOPLASMIC DOMAIN OF HUMANERYTHROCYTE BAND-3 PROTEIN
+> format_version > 2
+> pdbid > 1hyn
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hyn | S | albelig | 1 | 1 | E | 901 | 910 | S-58-  | S-67-  | YVELQELVMD 
+| 1hyn | S | albelig | 2 | 2 | E | 916 | 925 | S-73-  | S-82-  | LRWMEAARWV 
+| 1hyn | S | albelig | 3 | 3 | E | 928 | 930 | S-85-  | S-87-  | EEN 
+| 1hyn | S | albelig | 4 | 4 | H | 947 | 958 | S-104-  | S-115-  | FWSLLELRRVFT 
+| 1hyn | S | albelig | 5 | 5 | E | 961 | 966 | S-118-  | S-123-  | TVLLDL 
+| 1hyn | S | albelig | 6 | 6 | H | 971 | 984 | S-128-  | S-141-  | LAGVANQLLDRFIF 
+| 1hyn | S | albelig | 7 | 7 | H | 990 | 1000 | S-147-  | S-157-  | PQDREELLRAL 
+| 1hyn | S | albelig | 8 | 8 | H | 1007 | 1013 | S-164-  | S-170-  | AGELEAL 
+| 1hyn | S | albelig | 9 | 9 | E | 1016 | 1018 | S-173-  | S-175-  | VKP 
+| 1hyn | S | albelig | 10 | 10 | H | 1040 | 1044 | S-197-  | S-201-  | TQLFC 
+| 1hyn | S | albelig | 11 | 11 | H | 1055 | 1062 | S-212-  | S-219-  | SPSGILEK 
+| 1hyn | S | albelig | 12 | 12 | E | 1069 | 1076 | S-226-  | S-233-  | ATLVLVGR 
+| 1hyn | S | albelig | 13 | 13 | E | 1084 | 1094 | S-241-  | S-251-  | VLGFVRLQEAA 
+| 1hyn | S | albelig | 14 | 14 | E | 1105 | 1113 | S-262-  | S-270-  | IRFLFVLLG 
+| 1hyn | S | albelig | 15 | 15 | H | 1121 | 1132 | S-278-  | S-289-  | YTQLGRAAATLM 
+| 1hyn | S | albelig | 16 | 16 | H | 1135 | 1143 | S-292-  | S-300-  | RVFRIDAYM 
+| 1hyn | S | albelig | 17 | 17 | H | 1147 | 1159 | S-304-  | S-316-  | RGELLHSLEGFLD 
+| 1hyn | S | albelig | 18 | 18 | E | 1162 | 1164 | S-319-  | S-321-  | LVL 
+| 1hyn | S | albelig | 19 | 19 | H | 1171 | 1176 | S-328-  | S-333-  | SEQALL 
+| 1hyn | S | albelig | 20 | 20 | H | 1178 | 1189 | S-335-  | S-346-  | LVPVQRELLRRR 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 9
+= 1 = p = 12
+= 2 = a = 3
+= 2 = m = 11
+= 4 = m = 15
+= 4 = a = 17
+= 5 = a = 6
+= 5 = p = 13
+= 6 = a = 7
+= 12 = p = 14
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 15 = m = 16
+= 16 = m = 17
+# Listed 16 contacts. EOF.

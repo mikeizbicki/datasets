@@ -1,0 +1,89 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1crz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TWO DOMAINS: BETA PROPELLER AND ALPHA/BETA FOLD, TOXINBINDING PROTEIN
+> pdb_mol_name > TOLB PROTEIN
+> graphtype > albelig
+> resolution > 1.95
+> date > 16-AUG-99
+> header > TOXIN BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE E. COLI TOLB PROTEIN
+> format_version > 2
+> pdbid > 1crz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1crz | A | albelig | 1 | 1 | E | 8 | 12 | A-14-  | A-18-  | RPIGV 
+| 1crz | A | albelig | 2 | 2 | H | 27 | 37 | A-33-  | A-43-  | IGGIVAADLRN 
+| 1crz | A | albelig | 3 | 3 | E | 41 | 43 | A-47-  | A-49-  | FNP 
+| 1crz | A | albelig | 4 | 4 | H | 46 | 48 | A-52-  | A-54-  | RAR 
+| 1crz | A | albelig | 5 | 5 | H | 61 | 65 | A-67-  | A-71-  | PAAWS 
+| 1crz | A | albelig | 6 | 6 | E | 71 | 79 | A-77-  | A-85-  | AVVVGQVTP 
+| 1crz | A | albelig | 7 | 7 | E | 85 | 93 | A-91-  | A-99-  | YNVAYQLVD 
+| 1crz | A | albelig | 8 | 8 | E | 101 | 109 | A-107-  | A-115-  | VLAQNSYKV 
+| 1crz | A | albelig | 9 | 9 | H | 111 | 130 | A-117-  | A-136-  | KQWLRYAGHTASDEVFEKLT 
+| 1crz | A | albelig | 10 | 10 | E | 139 | 145 | A-145-  | A-151-  | RIAYVVQ 
+| 1crz | A | albelig | 11 | 11 | E | 153 | 159 | A-159-  | A-165-  | YELRVSD 
+| 1crz | A | albelig | 12 | 12 | E | 166 | 171 | A-172-  | A-177-  | FVVHRS 
+| 1crz | A | albelig | 13 | 13 | E | 175 | 180 | A-181-  | A-186-  | LXSPAW 
+| 1crz | A | albelig | 14 | 14 | E | 186 | 191 | A-192-  | A-197-  | KLAYVT 
+| 1crz | A | albelig | 15 | 15 | E | 198 | 203 | A-204-  | A-209-  | ALVIQT 
+| 1crz | A | albelig | 16 | 16 | E | 209 | 213 | A-215-  | A-219-  | VRQVA 
+| 1crz | A | albelig | 17 | 17 | E | 230 | 235 | A-236-  | A-241-  | KLAFAL 
+| 1crz | A | albelig | 18 | 18 | E | 242 | 247 | A-248-  | A-253-  | NLYVXD 
+| 1crz | A | albelig | 19 | 19 | E | 253 | 255 | A-259-  | A-261-  | IRQ 
+| 1crz | A | albelig | 20 | 20 | E | 263 | 268 | A-269-  | A-274-  | NTEPTW 
+| 1crz | A | albelig | 21 | 21 | E | 274 | 279 | A-280-  | A-285-  | NLAFTS 
+| 1crz | A | albelig | 22 | 22 | E | 286 | 291 | A-292-  | A-297-  | QVYKVN 
+| 1crz | A | albelig | 23 | 23 | E | 306 | 312 | A-312-  | A-318-  | QNQDADV 
+| 1crz | A | albelig | 24 | 24 | E | 318 | 325 | A-324-  | A-331-  | FXVXVSSN 
+| 1crz | A | albelig | 25 | 25 | E | 328 | 335 | A-334-  | A-341-  | QQHIAKQD 
+| 1crz | A | albelig | 26 | 26 | E | 341 | 343 | A-347-  | A-349-  | VQV 
+| 1crz | A | albelig | 27 | 27 | E | 351 | 355 | A-357-  | A-361-  | ETPSL 
+| 1crz | A | albelig | 28 | 28 | E | 361 | 368 | A-367-  | A-374-  | XVIYSSSQ 
+| 1crz | A | albelig | 29 | 29 | E | 371 | 378 | A-377-  | A-384-  | GSVLNLVS 
+| 1crz | A | albelig | 30 | 30 | E | 384 | 386 | A-390-  | A-392-  | KAR 
+| 1crz | A | albelig | 31 | 31 | E | 393 | 399 | A-399-  | A-405-  | QVKFPAW 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 6
+= 2 = m = 3
+= 2 = p = 9
+= 6 = a = 7
+= 7 = a = 8
+= 7 = p = 9
+= 8 = a = 9
+= 10 = a = 11
+= 10 = a = 13
+= 10 = a = 31
+= 11 = a = 12
+= 11 = p = 13
+= 13 = a = 14
+= 13 = p = 31
+= 14 = a = 15
+= 15 = a = 16
+= 17 = a = 18
+= 17 = a = 20
+= 18 = a = 19
+= 18 = p = 20
+= 20 = a = 21
+= 20 = p = 23
+= 21 = a = 22
+= 21 = a = 23
+= 22 = p = 23
+= 23 = a = 24
+= 23 = p = 27
+= 24 = a = 25
+= 24 = a = 27
+= 25 = a = 26
+= 27 = a = 28
+= 27 = p = 31
+= 28 = a = 29
+= 28 = a = 31
+= 29 = a = 30
+= 29 = p = 31
+# Listed 37 contacts. EOF.

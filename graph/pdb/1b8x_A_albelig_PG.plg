@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b8x, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEAR MATRIX TARGETING SIGNAL PROTEIN, SIGNAL PROTEIN
+> pdb_mol_name > PROTEIN (AML-1B)
+> graphtype > albelig
+> resolution > 2.7
+> date > 03-FEB-99
+> header > SIGNAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > GLUTATHIONE S-TRANSFERASE FUSED WITH THE NUCLEAR MATRIX TARGETINGSIGNAL OF THE TRANSCRIPTION FACTOR AML-1
+> format_version > 2
+> pdbid > 1b8x
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b8x | A | albelig | 1 | 1 | E | 5 | 7 | A-5-  | A-7-  | GYW 
+| 1b8x | A | albelig | 2 | 2 | H | 14 | 22 | A-14-  | A-22-  | QPTRLLLEY 
+| 1b8x | A | albelig | 3 | 3 | E | 30 | 32 | A-30-  | A-32-  | HLY 
+| 1b8x | A | albelig | 4 | 4 | H | 67 | 77 | A-67-  | A-77-  | SMAIIRYIADK 
+| 1b8x | A | albelig | 5 | 5 | H | 85 | 108 | A-85-  | A-108-  | PKERAEISMLEGAVLDIRYGVSRI 
+| 1b8x | A | albelig | 6 | 6 | H | 114 | 121 | A-114-  | A-121-  | FETLKVDF 
+| 1b8x | A | albelig | 7 | 7 | H | 125 | 136 | A-125-  | A-136-  | LPEMLKMFEDRL 
+| 1b8x | A | albelig | 8 | 8 | H | 150 | 164 | A-150-  | A-164-  | PDFMLYDALDVVLYM 
+| 1b8x | A | albelig | 9 | 9 | H | 175 | 183 | A-175-  | A-183-  | LVCFKKRIE 
+| 1b8x | A | albelig | 10 | 10 | H | 186 | 189 | A-186-  | A-189-  | PQID 
+| 1b8x | A | albelig | 11 | 11 | H | 224 | 226 | A-224-  | A-226-  | GSR 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = m = 8
+= 2 = m = 10
+= 5 = a = 6
+= 5 = a = 7
+= 5 = p = 8
+= 8 = m = 9
+# Listed 7 contacts. EOF.

@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 169l, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE (O-GLYCOSYL)
+> pdb_mol_name > T4 LYSOZYME
+> graphtype > albelig
+> resolution > 3.0
+> date > 24-MAR-95
+> header > HYDROLASE (O-GLYCOSYL)
+> pdb_org_common > UNKNOWN
+> title > PROTEIN FLEXIBILITY AND ADAPTABILITY SEEN IN 25 CRYSTALFORMS OF T4 LYSOZYME
+> format_version > 2
+> pdbid > 169l
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 169l | A | albelig | 1 | 1 | H | 5 | 11 | A-5-  | A-11-  | EMLRIDE 
+| 169l | A | albelig | 2 | 2 | E | 14 | 18 | A-14-  | A-18-  | RLKIY 
+| 169l | A | albelig | 3 | 3 | E | 25 | 28 | A-25-  | A-28-  | YTIG 
+| 169l | A | albelig | 4 | 4 | E | 31 | 34 | A-31-  | A-34-  | HLLT 
+| 169l | A | albelig | 5 | 5 | H | 39 | 50 | A-39-  | A-50-  | LNAAKSELDKAI 
+| 169l | A | albelig | 6 | 6 | H | 60 | 79 | A-60-  | A-79-  | KDEAEKLFNQDVDAAVRGIL 
+| 169l | A | albelig | 7 | 7 | H | 84 | 90 | A-84-  | A-90-  | LKPVYDS 
+| 169l | A | albelig | 8 | 8 | H | 93 | 112 | A-93-  | A-112-  | AVRRCALINMVFQMGETGVA 
+| 169l | A | albelig | 9 | 9 | H | 115 | 122 | A-115-  | A-122-  | TNSLRMLQ 
+| 169l | A | albelig | 10 | 10 | H | 126 | 133 | A-126-  | A-133-  | WDAAAAAL 
+| 169l | A | albelig | 11 | 11 | H | 137 | 141 | A-137-  | A-141-  | AWAAA 
+| 169l | A | albelig | 12 | 12 | H | 143 | 154 | A-143-  | A-154-  | PNRAKRVITTFR 
+| 169l | A | albelig | 13 | 13 | H | 158 | 161 | A-158-  | A-161-  | WDAY 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 1 = m = 12
+= 1 = m = 13
+= 2 = a = 3
+= 3 = a = 4
+= 6 = m = 7
+= 7 = a = 8
+= 7 = m = 9
+= 8 = a = 12
+= 9 = a = 10
+= 10 = m = 12
+= 11 = m = 12
+= 12 = m = 13
+# Listed 13 contacts. EOF.

@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1com, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHORISMATE MUTASE
+> pdb_mol_name > CHORISMATE MUTASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 08-APR-94
+> header > CHORISMATE MUTASE
+> pdb_org_common > UNKNOWN
+> title > THE MONOFUNCTIONAL CHORISMATE MUTASE FROM BACILLUSSUBTILIS: STRUCTURE DETERMINATION OF CHORISMATE MUTASE ANDITS COMPLEXES WITH A TRANSITION STATE ANALOG ANDPREPHENATE, AND IMPLICATIONS ON THE MECHANISM OF ENZYMATICREACTION
+> format_version > 2
+> pdbid > 1com
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1com | A | albelig | 1 | 1 | E | 2 | 10 | A-3-  | A-11-  | IRGIRGATT 
+| 1com | A | albelig | 2 | 2 | H | 16 | 34 | A-17-  | A-35-  | EEEILQKTKQLLEKIIEEN 
+| 1com | A | albelig | 3 | 3 | H | 38 | 40 | A-39-  | A-41-  | PED 
+| 1com | A | albelig | 4 | 4 | E | 41 | 48 | A-42-  | A-49-  | VVQMLLSA 
+| 1com | A | albelig | 5 | 5 | H | 57 | 63 | A-58-  | A-64-  | PAKAVRE 
+| 1com | A | albelig | 6 | 6 | E | 72 | 76 | A-73-  | A-77-  | VTCMQ 
+| 1com | A | albelig | 7 | 7 | E | 87 | 95 | A-88-  | A-96-  | CIRVMMTVQ 
+| 1com | A | albelig | 8 | 8 | H | 100 | 102 | A-101-  | A-103-  | QDQ 
+| 1com | A | albelig | 9 | 9 | H | 109 | 113 | A-110-  | A-114-  | EKAVV 
+| 1com | A | albelig | 10 | 10 | L | 1398 | 1398 | A-223-  | A-223-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 1 = m = 9
+= 1 = l = 10
+= 2 = m = 5
+= 2 = m = 7
+= 3 = m = 4
+= 3 = m = 7
+= 4 = p = 6
+= 4 = a = 7
+= 7 = l = 10
+# Listed 11 contacts. EOF.

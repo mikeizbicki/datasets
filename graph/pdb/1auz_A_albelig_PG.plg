@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1auz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION REGULATOR, KINASE SUBSTRATE, ANTI-ANTI SIGMAFACTOR, NOVEL ALPHA/BETA FOLD
+> pdb_mol_name > SPOIIAA
+> graphtype > albelig
+> resolution > -1.0
+> date > 08-SEP-97
+> header > TRANSCRIPTION REGULATOR
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF SPOIIAA, A PHOSPHORYLATABLE COMPONENTOF THE SYSTEM THAT REGULATES TRANSCRIPTION FACTOR SIGMA-FOF BACILLUS SUBTILIS, NMR, 24 STRUCTURES
+> format_version > 2
+> pdbid > 1auz
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1auz | A | albelig | 1 | 1 | E | 6 | 9 | A-6-  | A-9-  | MNVK 
+| 1auz | A | albelig | 2 | 2 | E | 12 | 15 | A-12-  | A-15-  | VLCI 
+| 1auz | A | albelig | 3 | 3 | H | 25 | 37 | A-25-  | A-37-  | TAETLKQKVTQSL 
+| 1auz | A | albelig | 4 | 4 | E | 44 | 48 | A-44-  | A-48-  | HIVLN 
+| 1auz | A | albelig | 5 | 5 | H | 59 | 73 | A-59-  | A-73-  | GLGVILGRYKQIKQI 
+| 1auz | A | albelig | 6 | 6 | H | 88 | 93 | A-88-  | A-93-  | RLFDMS 
+| 1auz | A | albelig | 7 | 7 | H | 96 | 98 | A-96-  | A-98-  | FKI 
+| 1auz | A | albelig | 8 | 8 | H | 105 | 107 | A-105-  | A-107-  | EQQ 
+| 1auz | A | albelig | 9 | 9 | H | 109 | 111 | A-109-  | A-111-  | LLT 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = p = 4
+= 3 = p = 5
+= 4 = m = 9
+# Listed 4 contacts. EOF.

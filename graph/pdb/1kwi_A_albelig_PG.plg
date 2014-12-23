@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kwi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEGRIN, CATHELICIDIN MOTIF, DISULFIDE, MAD,SELENOCYSTINE, ANTIMICROBIAL PROTEIN
+> pdb_mol_name > PROTEGRIN-3 PRECURSOR
+> graphtype > albelig
+> resolution > 2.19
+> date > 29-JAN-02
+> header > ANTIMICROBIAL PROTEIN
+> pdb_org_common > PIG
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE CATHELICIDIN MOTIF OFPROTEGRINS
+> format_version > 2
+> pdbid > 1kwi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SUS SCROFA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kwi | A | albelig | 1 | 1 | H | 2 | 18 | A-32-  | A-48-  | LSYREAVLRAVDRLNEQ 
+| 1kwi | A | albelig | 2 | 2 | E | 23 | 30 | A-53-  | A-60-  | NLYRLLEL 
+| 1kwi | A | albelig | 3 | 3 | E | 36 | 48 | A-74-  | A-86-  | KPVSFTVKETVAP 
+| 1kwi | A | albelig | 4 | 4 | H | 55 | 57 | A-93-  | A-95-  | PEL 
+| 1kwi | A | albelig | 5 | 5 | E | 66 | 73 | A-104-  | A-111-  | VKQNVGTV 
+| 1kwi | A | albelig | 6 | 6 | E | 80 | 85 | A-121-  | A-126-  | DITNNE 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 2 = a = 3
+= 2 = m = 4
+= 3 = a = 5
+= 5 = a = 6
+# Listed 6 contacts. EOF.

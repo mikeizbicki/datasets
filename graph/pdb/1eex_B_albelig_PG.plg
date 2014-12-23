@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eex, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COENZYME B12, PROPANEDIOL, POTASSIUM ION, TIM BARREL, LYASE
+> pdb_mol_name > PROPANEDIOL DEHYDRATASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 04-FEB-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE DIOL DEHYDRATASE-ADENINYLPENTYLCOBALAMIN COMPLEX FROM KLEBSIELLA OXYTOCA
+> format_version > 2
+> pdbid > 1eex
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA OXYTOCA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eex | B | albelig | 1 | 1 | E | 555 | 560 | B-48-  | B-53-  | LTEVGE 
+| 1eex | B | albelig | 2 | 2 | E | 569 | 574 | B-62-  | B-67-  | EVIIAV 
+| 1eex | B | albelig | 3 | 3 | H | 591 | 604 | B-84-  | B-97-  | HKSILREVIAGIEE 
+| 1eex | B | albelig | 4 | 4 | E | 608 | 613 | B-101-  | B-106-  | KARVIR 
+| 1eex | B | albelig | 5 | 5 | H | 620 | 630 | B-113-  | B-123-  | VAFVAVEGNRL 
+| 1eex | B | albelig | 6 | 6 | E | 635 | 639 | B-128-  | B-132-  | ISIGI 
+| 1eex | B | albelig | 7 | 7 | E | 645 | 649 | B-138-  | B-142-  | TVIHQ 
+| 1eex | B | albelig | 8 | 8 | E | 659 | 661 | B-152-  | B-154-  | ELF 
+| 1eex | B | albelig | 9 | 9 | H | 664 | 666 | B-157-  | B-159-  | APL 
+| 1eex | B | albelig | 10 | 10 | H | 669 | 683 | B-162-  | B-176-  | LETYRQIGKNAARYA 
+| 1eex | B | albelig | 11 | 11 | H | 699 | 715 | B-192-  | B-208-  | ARPKYQAKSAILHIKET 
+| 1eex | B | albelig | 12 | 12 | E | 725 | 729 | B-218-  | B-222-  | QELRV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 12
+= 2 = p = 4
+= 2 = a = 5
+= 2 = p = 6
+= 3 = p = 10
+= 4 = a = 12
+= 5 = m = 6
+= 6 = a = 7
+= 6 = m = 10
+= 7 = a = 8
+# Listed 10 contacts. EOF.

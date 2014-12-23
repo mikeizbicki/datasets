@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bz5, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BOVINE PANCREATIC TRYPSIN INHIBITOR, PENTAMERIC MOLECULE, HYDROLASEINHIBITOR
+> pdb_mol_name > PANCREATIC TRYPSIN INHIBITOR
+> graphtype > albelig
+> resolution > 2.58
+> date > 05-NOV-98
+> header > HYDROLASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > EVIDENCE OF A COMMON DECAMER IN THREE CRYSTAL STRUCTURES OF BPTI,CRYSTALLIZE FROM THIOCYANATE, CHLORIDE OR SULFATE
+> format_version > 2
+> pdbid > 1bz5
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bz5 | D | albelig | 1 | 1 | H | 174 | 177 | D-3-  | D-6-  | DFJL 
+| 1bz5 | D | albelig | 2 | 2 | E | 189 | 195 | D-18-  | D-24-  | IIRYFYN 
+| 1bz5 | D | albelig | 3 | 3 | E | 200 | 206 | D-29-  | D-35-  | LLQTFVY 
+| 1bz5 | D | albelig | 4 | 4 | H | 219 | 226 | D-48-  | D-55-  | AEDLMRTJ 
+| 1bz5 | D | albelig | 5 | 5 | L | 287 | 287 | D-201-  | D-201-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 4
+= 2 = l = 5
+= 4 = l = 5
+# Listed 4 contacts. EOF.

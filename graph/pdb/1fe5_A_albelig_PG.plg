@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fe5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BUNGARUS CAERULEUS; PHOSPHOLIPASE A2 (PLA2); PRESYNAPTICNEUROTOXIN; NEUROTOXIC SITE; X-RAY STRUCTURE; MOLECULARREPLACEMENT
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 2.45
+> date > 21-JUL-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > SEQUENCE AND CRYSTAL STRUCTURE OF A BASIC PHOSPHOLIPASE A2FROM COMMON KRAIT (BUNGARUS CAERULEUS) AT 2.4 RESOLUTION:IDENTIFICATION AND CHARACTERIZATION OF ITS PHARMACOLOGICALSITES.
+> format_version > 2
+> pdbid > 1fe5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BUNGARUS CAERULEUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fe5 | A | albelig | 1 | 1 | H | 2 | 12 | A-2-  | A-12-  | LIQFKNMIQAA 
+| 1fe5 | A | albelig | 2 | 2 | H | 17 | 20 | A-19-  | A-22-  | WTAY 
+| 1fe5 | A | albelig | 3 | 3 | H | 38 | 53 | A-40-  | A-55-  | ELDRDCYTHDNEYNEA 
+| 1fe5 | A | albelig | 4 | 4 | E | 68 | 71 | A-70-  | A-73-  | YTAT 
+| 1fe5 | A | albelig | 5 | 5 | E | 74 | 77 | A-76-  | A-79-  | NLTG 
+| 1fe5 | A | albelig | 6 | 6 | H | 83 | 101 | A-85-  | A-103-  | TFARFLGNEDRTAAIDFAS 
+| 1fe5 | A | albelig | 7 | 7 | H | 106 | 108 | A-108-  | A-110-  | SNN 
+| 1fe5 | A | albelig | 8 | 8 | L | 119 | 119 | A-150-  | A-150-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 5
+= 1 = m = 6
+= 3 = a = 6
+= 3 = l = 8
+= 4 = a = 5
+= 5 = m = 6
+# Listed 7 contacts. EOF.

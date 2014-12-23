@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c9b, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, CYCLIN-LIKE FOLD, HELIX-TURN-HELIX,TATA-BOX, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > GENERAL TRANSCRIPTION FACTOR IIB
+> graphtype > albelig
+> resolution > 2.65
+> date > 01-AUG-99
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A HUMAN TBP CORE DOMAIN-HUMAN TFIIBCORE DOMAIN COMPLEX BOUND TO AN EXTENDED, MODIFIEDADENOVIRAL MAJOR LATE PROMOTER (ADMLP)
+> format_version > 2
+> pdbid > 1c9b
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c9b | M | albelig | 1 | 1 | H | 1169 | 1185 | M-111-  | M-127-  | DRAMMNAFKEITTMADR 
+| 1c9b | M | albelig | 2 | 2 | H | 1190 | 1206 | M-132-  | M-148-  | RNIVDRTNNLFKQVYEQ 
+| 1c9b | M | albelig | 3 | 3 | H | 1214 | 1228 | M-156-  | M-170-  | NDAIASACLYIACRQ 
+| 1c9b | M | albelig | 4 | 4 | H | 1235 | 1240 | M-177-  | M-182-  | FKEICA 
+| 1c9b | M | albelig | 5 | 5 | H | 1246 | 1259 | M-188-  | M-201-  | KKEIGRCFKLILKA 
+| 1c9b | M | albelig | 6 | 6 | H | 1270 | 1279 | M-212-  | M-221-  | GDFMSRFCSN 
+| 1c9b | M | albelig | 7 | 7 | H | 1284 | 1299 | M-226-  | M-241-  | KQVQMAATHIARKAVE 
+| 1c9b | M | albelig | 8 | 8 | H | 1308 | 1321 | M-250-  | M-263-  | PISVAAAAIYMASQ 
+| 1c9b | M | albelig | 9 | 9 | H | 1329 | 1336 | M-271-  | M-278-  | QKEIGDIA 
+| 1c9b | M | albelig | 10 | 10 | H | 1340 | 1353 | M-282-  | M-295-  | DVTIRQSYRLIYPR 
+| 1c9b | M | albelig | 11 | 11 | H | 1354 | 1357 | M-296-  | M-299-  | APDL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 2 = a = 3
+= 3 = m = 5
+= 6 = m = 7
+= 6 = m = 9
+= 7 = m = 11
+= 8 = a = 9
+= 8 = p = 10
+= 10 = m = 11
+# Listed 10 contacts. EOF.

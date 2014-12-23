@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnw, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EXOTOXIN A, SUPERANTIGEN
+> pdb_mol_name > EXOTOXIN TYPE A PRECURSOR (ALLELE 1)
+> graphtype > albelig
+> resolution > 3.9
+> date > 23-AUG-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF STREPTOCOCCAL PYROGENIC EXOTOXIN A
+> format_version > 2
+> pdbid > 1fnw
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES PHAGE T12
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnw | D | albelig | 1 | 1 | H | 685 | 692 | D-919-  | D-926-  | QNIYFLYE 
+| 1fnw | D | albelig | 2 | 2 | E | 696 | 701 | D-930-  | D-935-  | VTHENV 
+| 1fnw | D | albelig | 3 | 3 | E | 711 | 714 | D-945-  | D-948-  | DLIY 
+| 1fnw | D | albelig | 4 | 4 | E | 724 | 727 | D-958-  | D-961-  | LKTE 
+| 1fnw | D | albelig | 5 | 5 | H | 731 | 738 | D-965-  | D-972-  | QEMATLFK 
+| 1fnw | D | albelig | 6 | 6 | E | 742 | 746 | D-976-  | D-980-  | VDIYG 
+| 1fnw | D | albelig | 7 | 7 | E | 764 | 766 | D-998-  | D-1000-  | DIY 
+| 1fnw | D | albelig | 8 | 8 | E | 769 | 771 | D-1003-  | D-1005-  | VTN 
+| 1fnw | D | albelig | 9 | 9 | E | 783 | 789 | D-1017-  | D-1023-  | IVVKVSI 
+| 1fnw | D | albelig | 10 | 10 | E | 792 | 799 | D-1026-  | D-1033-  | IQSLSFDI 
+| 1fnw | D | albelig | 11 | 11 | E | 805 | 807 | D-1039-  | D-1041-  | MVT 
+| 1fnw | D | albelig | 12 | 12 | H | 808 | 822 | D-1042-  | D-1056-  | AQELDYKVRKYTIDN 
+| 1fnw | D | albelig | 13 | 13 | E | 835 | 841 | D-1069-  | D-1075-  | TGYIKFI 
+| 1fnw | D | albelig | 14 | 14 | E | 848 | 851 | D-1082-  | D-1085-  | FWFD 
+| 1fnw | D | albelig | 15 | 15 | H | 860 | 867 | D-1094-  | D-1101-  | QSKYLMIY 
+| 1fnw | D | albelig | 16 | 16 | E | 872 | 874 | D-1106-  | D-1108-  | TLD 
+| 1fnw | D | albelig | 17 | 17 | E | 879 | 885 | D-1113-  | D-1119-  | QIEVYLT 
+| 1fnw | D | albelig | 18 | 18 | L | 1782 | 1782 | D-524-  | D-524-  | J 
+| 1fnw | D | albelig | 19 | 19 | L | 1788 | 1788 | D-1122-  | D-1122-  | J 
+| 1fnw | D | albelig | 20 | 20 | L | 1789 | 1789 | D-1123-  | D-1123-  | J 
+| 1fnw | D | albelig | 21 | 21 | L | 1791 | 1791 | D-1125-  | D-1125-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 12
+= 2 = a = 6
+= 3 = a = 4
+= 3 = m = 5
+= 4 = p = 7
+= 6 = p = 8
+= 7 = m = 15
+= 9 = a = 10
+= 9 = p = 17
+= 10 = m = 12
+= 11 = m = 12
+= 11 = a = 16
+= 13 = a = 14
+= 13 = a = 17
+= 19 = l = 20
+= 19 = l = 21
+= 20 = l = 21
+# Listed 17 contacts. EOF.

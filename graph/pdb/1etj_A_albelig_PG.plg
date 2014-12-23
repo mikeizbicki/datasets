@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1etj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT, COPPER, PERIPLASMIC
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 11-JAN-97
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > AZURIN MUTANT WITH MET 121 REPLACED BY GLU
+> format_version > 2
+> pdbid > 1etj
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1etj | A | albelig | 1 | 1 | E | 4 | 8 | A-4-  | A-8-  | SVDIQ 
+| 1etj | A | albelig | 2 | 2 | E | 19 | 22 | A-19-  | A-22-  | AITV 
+| 1etj | A | albelig | 3 | 3 | E | 28 | 34 | A-28-  | A-34-  | QFTVNLS 
+| 1etj | A | albelig | 4 | 4 | H | 41 | 44 | A-41-  | A-44-  | KNVM 
+| 1etj | A | albelig | 5 | 5 | E | 49 | 52 | A-49-  | A-52-  | VLST 
+| 1etj | A | albelig | 6 | 6 | H | 56 | 66 | A-56-  | A-66-  | MQGVVTDGMAS 
+| 1etj | A | albelig | 7 | 7 | H | 68 | 70 | A-68-  | A-70-  | LDK 
+| 1etj | A | albelig | 8 | 8 | E | 92 | 98 | A-92-  | A-98-  | KDSVTFD 
+| 1etj | A | albelig | 9 | 9 | H | 99 | 101 | A-99-  | A-101-  | VSK 
+| 1etj | A | albelig | 10 | 10 | E | 108 | 111 | A-108-  | A-111-  | YMFF 
+| 1etj | A | albelig | 11 | 11 | H | 117 | 119 | A-117-  | A-119-  | HSA 
+| 1etj | A | albelig | 12 | 12 | E | 122 | 127 | A-122-  | A-127-  | KGTLTL 
+| 1etj | A | albelig | 13 | 13 | L | 516 | 516 | A-129-  | A-129-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 12
+= 3 = a = 8
+= 5 = a = 10
+= 6 = m = 10
+= 8 = m = 9
+= 10 = a = 12
+= 11 = l = 13
+# Listed 8 contacts. EOF.

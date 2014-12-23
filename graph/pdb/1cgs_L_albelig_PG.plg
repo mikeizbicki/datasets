@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cgs, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN
+> pdb_mol_name > IGG2B-KAPPA NC6.8 FAB (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 2.6
+> date > 06-OCT-93
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > LOCAL AND TRANSMITTED CONFORMATIONAL CHANGES ON COMPLEXATION OF ANANTI-SWEETENER FAB
+> format_version > 2
+> pdbid > 1cgs
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cgs | L | albelig | 1 | 1 | E | 4 | 6 | L-4-  | L-6-  | MTQ 
+| 1cgs | L | albelig | 2 | 2 | E | 10 | 13 | L-10-  | L-13-  | SLPV 
+| 1cgs | L | albelig | 3 | 3 | E | 23 | 25 | L-23-  | L-25-  | ARP 
+| 1cgs | L | albelig | 4 | 4 | E | 39 | 42 | L-39-  | L-42-  | HWYL 
+| 1cgs | L | albelig | 5 | 5 | E | 67 | 71 | L-67-  | L-71-  | FSGSG 
+| 1cgs | L | albelig | 6 | 6 | E | 76 | 80 | L-76-  | L-80-  | FTLKI 
+| 1cgs | L | albelig | 7 | 7 | E | 107 | 111 | L-107-  | L-111-  | TKLEL 
+| 1cgs | L | albelig | 8 | 8 | E | 119 | 123 | L-119-  | L-123-  | TVSIF 
+| 1cgs | L | albelig | 9 | 9 | H | 127 | 131 | L-127-  | L-131-  | SEQLT 
+| 1cgs | L | albelig | 10 | 10 | E | 134 | 144 | L-134-  | L-144-  | GASVVNFLNNF 
+| 1cgs | L | albelig | 11 | 11 | E | 150 | 152 | L-150-  | L-152-  | NVK 
+| 1cgs | L | albelig | 12 | 12 | E | 164 | 167 | L-164-  | L-167-  | VLNS 
+| 1cgs | L | albelig | 13 | 13 | E | 178 | 187 | L-178-  | L-187-  | YSMSSTLTLT 
+| 1cgs | L | albelig | 14 | 14 | H | 188 | 191 | L-188-  | L-191-  | KDEY 
+| 1cgs | L | albelig | 15 | 15 | E | 196 | 202 | L-196-  | L-202-  | SYTNEAT 
+| 1cgs | L | albelig | 16 | 16 | E | 210 | 215 | L-210-  | L-215-  | IVKSFN 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = p = 7
+= 4 = a = 6
+= 5 = a = 6
+= 8 = a = 10
+= 8 = p = 16
+= 9 = m = 10
+= 10 = a = 13
+= 10 = m = 14
+= 10 = p = 15
+= 11 = a = 15
+= 12 = a = 13
+= 13 = m = 14
+= 15 = a = 16
+# Listed 14 contacts. EOF.

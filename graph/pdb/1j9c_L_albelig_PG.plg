@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j9c, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOBILE LOOP, BLOOD CLOTTING, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > FACTOR VIIA LIGHT CHAIN
+> graphtype > albelig
+> resolution > 2.9
+> date > 24-MAY-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF TISSUE FACTOR-FACTOR VIIA COMPLEX
+> format_version > 2
+> pdbid > 1j9c
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j9c | L | albelig | 1 | 1 | H | 214 | 216 | L-50-  | L-52-  | CAS 
+| 1j9c | L | albelig | 2 | 2 | H | 255 | 261 | L-91-  | L-97-  | FVNENGG 
+| 1j9c | L | albelig | 3 | 3 | E | 265 | 269 | L-101-  | L-105-  | YFSDH 
+| 1j9c | L | albelig | 4 | 4 | E | 272 | 277 | L-108-  | L-113-  | TKRSGR 
+| 1j9c | L | albelig | 5 | 5 | E | 282 | 284 | L-118-  | L-120-  | YSL 
+| 1j9c | L | albelig | 6 | 6 | E | 291 | 293 | L-127-  | L-129-  | HTP 
+| 1j9c | L | albelig | 7 | 7 | L | 562 | 562 | L-352-  | L-352-  | J 
+| 1j9c | L | albelig | 8 | 8 | L | 563 | 563 | L-360-  | L-360-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 7
+= 2 = m = 3
+= 3 = a = 4
+= 5 = a = 6
+# Listed 4 contacts. EOF.

@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a0j, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEINASE, TRYPSIN, HYDROLASE, SERINE PROTEASE
+> pdb_mol_name > TRYPSIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 01-DEC-97
+> header > SERINE PROTEASE
+> pdb_org_common > ATLANTIC SALMON
+> title > CRYSTAL STRUCTURE OF A NON-PSYCHROPHILIC TRYPSIN FROM A COLD-ADAPTEDFISH SPECIES.
+> format_version > 2
+> pdbid > 1a0j
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SALMO SALAR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a0j | B | albelig | 1 | 1 | E | 239 | 243 | B-30-  | B-34-  | QASLQ 
+| 1a0j | B | albelig | 2 | 2 | E | 247 | 255 | B-40-  | B-48-  | HFHGGSLIS 
+| 1a0j | B | albelig | 3 | 3 | E | 258 | 261 | B-51-  | B-54-  | WVVS 
+| 1a0j | B | albelig | 4 | 4 | H | 263 | 265 | B-56-  | B-58-  | AHH 
+| 1a0j | B | albelig | 5 | 5 | E | 271 | 274 | B-64-  | B-67-  | QVRL 
+| 1a0j | B | albelig | 6 | 6 | E | 287 | 296 | B-81-  | B-90-  | QFIDSVKVIM 
+| 1a0j | B | albelig | 7 | 7 | E | 310 | 314 | B-104-  | B-108-  | MLIKL 
+| 1a0j | B | albelig | 8 | 8 | E | 339 | 344 | B-135-  | B-140-  | RJLVSG 
+| 1a0j | B | albelig | 9 | 9 | E | 360 | 365 | B-156-  | B-161-  | RGLDLP 
+| 1a0j | B | albelig | 10 | 10 | H | 369 | 375 | B-165-  | B-171-  | SSSKNSA 
+| 1a0j | B | albelig | 11 | 11 | E | 384 | 387 | B-180-  | B-183-  | MFKA 
+| 1a0j | B | albelig | 12 | 12 | E | 404 | 407 | B-198-  | B-201-  | PVVJ 
+| 1a0j | B | albelig | 13 | 13 | E | 410 | 417 | B-204-  | B-215-  | QLQGVVSW 
+| 1a0j | B | albelig | 14 | 14 | E | 428 | 432 | B-226-  | B-230-  | GVYTK 
+| 1a0j | B | albelig | 15 | 15 | H | 433 | 446 | B-231-  | B-244-  | VINYRSWISSTMSS 
+| 1a0j | B | albelig | 16 | 16 | L | 900 | 900 | B-248-  | B-248-  | J 
+| 1a0j | B | albelig | 17 | 17 | L | 901 | 901 | B-249-  | B-249-  | J 
+| 1a0j | B | albelig | 18 | 18 | L | 902 | 902 | B-246-  | B-246-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 2 = l = 16
+= 3 = a = 7
+= 4 = l = 16
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 12
+= 9 = l = 17
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 13 = l = 18
+= 14 = m = 15
+= 14 = l = 18
+= 16 = l = 18
+# Listed 19 contacts. EOF.

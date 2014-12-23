@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k3e, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, SECRETION, TYPE III, INTIMIN RECEPTOR
+> pdb_mol_name > CEST
+> graphtype > albelig
+> resolution > 2.8
+> date > 02-OCT-01
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > TYPE III SECRETION CHAPERONE CEST
+> format_version > 2
+> pdbid > 1k3e
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k3e | B | albelig | 1 | 1 | H | 147 | 157 | B-6-  | B-16-  | ELLLEKFAEKI 
+| 1k3e | B | albelig | 2 | 2 | E | 171 | 175 | B-30-  | B-34-  | SFAID 
+| 1k3e | B | albelig | 3 | 3 | E | 179 | 183 | B-38-  | B-42-  | YISLS 
+| 1k3e | B | albelig | 4 | 4 | E | 189 | 198 | B-48-  | B-57-  | YMMIYGVCGK 
+| 1k3e | B | albelig | 5 | 5 | H | 204 | 219 | B-63-  | B-78-  | SNFALEILNANLWFAE 
+| 1k3e | B | albelig | 6 | 6 | E | 224 | 228 | B-83-  | B-87-  | YLCYE 
+| 1k3e | B | albelig | 7 | 7 | E | 233 | 241 | B-92-  | B-100-  | SLLLALRFP 
+| 1k3e | B | albelig | 8 | 8 | H | 247 | 269 | B-106-  | B-128-  | PEKLENEIEVVVKSMENLYLVLH 
+| 1k3e | B | albelig | 9 | 9 | E | 281 | 285 | B-140-  | B-144-  | KIEEI 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 9
+= 3 = a = 4
+= 4 = a = 7
+= 4 = p = 8
+= 5 = m = 6
+= 6 = a = 7
+= 7 = a = 8
+# Listed 7 contacts. EOF.

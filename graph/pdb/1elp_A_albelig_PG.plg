@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1elp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EYE LENS PROTEIN
+> pdb_mol_name > GAMMA-D CRYSTALLIN
+> graphtype > albelig
+> resolution > 1.95
+> date > 20-DEC-95
+> header > EYE LENS PROTEIN
+> pdb_org_common > CATTLE
+> title > GAMMA-D CRYSTALLIN STRUCTURE AT 1.95 A RESOLUTION
+> format_version > 2
+> pdbid > 1elp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1elp | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | KITFYED 
+| 1elp | A | albelig | 2 | 2 | H | 9 | 11 | A-9-  | A-11-  | RGF 
+| 1elp | A | albelig | 3 | 3 | E | 12 | 18 | A-12-  | A-18-  | QGRHYEC 
+| 1elp | A | albelig | 4 | 4 | E | 34 | 39 | A-34-  | A-39-  | SVRVDS 
+| 1elp | A | albelig | 5 | 5 | E | 42 | 45 | A-42-  | A-45-  | WMIY 
+| 1elp | A | albelig | 6 | 6 | E | 54 | 57 | A-54-  | A-57-  | QYFL 
+| 1elp | A | albelig | 7 | 7 | E | 60 | 62 | A-60-  | A-62-  | GDY 
+| 1elp | A | albelig | 8 | 8 | H | 65 | 68 | A-65-  | A-68-  | YQQW 
+| 1elp | A | albelig | 9 | 9 | E | 77 | 80 | A-77-  | A-80-  | SCRL 
+| 1elp | A | albelig | 10 | 10 | E | 88 | 94 | A-89-  | A-95-  | RLRLYER 
+| 1elp | A | albelig | 11 | 11 | E | 98 | 104 | A-99-  | A-105-  | RGQMIEI 
+| 1elp | A | albelig | 12 | 12 | H | 111 | 114 | A-112-  | A-115-  | LQDR 
+| 1elp | A | albelig | 13 | 13 | E | 122 | 127 | A-123-  | A-128-  | SLNVLE 
+| 1elp | A | albelig | 14 | 14 | E | 130 | 135 | A-131-  | A-136-  | WVLYEL 
+| 1elp | A | albelig | 15 | 15 | E | 139 | 145 | A-140-  | A-146-  | RGRQYLL 
+| 1elp | A | albelig | 16 | 16 | E | 148 | 150 | A-149-  | A-151-  | GEY 
+| 1elp | A | albelig | 17 | 17 | H | 153 | 156 | A-154-  | A-157-  | YHDW 
+| 1elp | A | albelig | 18 | 18 | E | 165 | 168 | A-166-  | A-169-  | SLRR 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 3
+= 1 = a = 4
+= 2 = m = 3
+= 2 = m = 4
+= 4 = a = 7
+= 5 = a = 6
+= 5 = a = 9
+= 6 = a = 15
+= 7 = m = 8
+= 10 = a = 11
+= 10 = a = 13
+= 13 = a = 16
+= 14 = a = 15
+= 14 = a = 18
+= 16 = m = 17
+# Listed 16 contacts. EOF.

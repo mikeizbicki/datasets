@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1avg, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BOVINE THROMBIN, THROMBIN INHIBITOR, COMPLEX (BLOODCOAGULATION/INHIBITOR)
+> pdb_mol_name > THROMBIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 16-SEP-97
+> header > COMPLEX (BLOOD COAGULATION/INHIBITOR)
+> pdb_org_common > CATTLE
+> title > THROMBIN INHIBITOR FROM TRIATOMA PALLIDIPENNIS
+> format_version > 2
+> pdbid > 1avg
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1avg | H | albelig | 1 | 1 | E | 57 | 62 | H-30-  | H-35-  | QVMLFR 
+| 1avg | H | albelig | 2 | 2 | E | 67 | 74 | H-39-  | H-46-  | ELLNGASL 
+| 1avg | H | albelig | 3 | 3 | E | 79 | 82 | H-51-  | H-54-  | WVLT 
+| 1avg | H | albelig | 4 | 4 | H | 84 | 86 | H-56-  | H-58-  | AHN 
+| 1avg | H | albelig | 5 | 5 | H | 90 | 92 | H-60-B | H-60-D | PPW 
+| 1avg | H | albelig | 6 | 6 | E | 101 | 105 | H-64-  | H-68-  | LLVRI 
+| 1avg | H | albelig | 7 | 7 | E | 119 | 121 | H-81-  | H-83-  | KIS 
+| 1avg | H | albelig | 8 | 8 | E | 123 | 128 | H-85-  | H-90-  | LDKIYI 
+| 1avg | H | albelig | 9 | 9 | E | 143 | 147 | H-104-  | H-108-  | ALLKL 
+| 1avg | H | albelig | 10 | 10 | H | 165 | 171 | H-126-  | H-129-C | KQTAAKL 
+| 1avg | H | albelig | 11 | 11 | E | 177 | 182 | H-135-  | H-140-  | KGRVTG 
+| 1avg | H | albelig | 12 | 12 | H | 194 | 196 | H-149-C | H-149-E | VAE 
+| 1avg | H | albelig | 13 | 13 | E | 203 | 208 | H-156-  | H-161-  | QVVNLP 
+| 1avg | H | albelig | 14 | 14 | H | 212 | 217 | H-165-  | H-170-  | RPVCKA 
+| 1avg | H | albelig | 15 | 15 | E | 227 | 230 | H-180-  | H-183-  | MFCA 
+| 1avg | H | albelig | 16 | 16 | E | 250 | 254 | H-198-  | H-202-  | PFVMK 
+| 1avg | H | albelig | 17 | 17 | E | 261 | 269 | H-207-  | H-215-  | WYQMGIVSW 
+| 1avg | H | albelig | 18 | 18 | E | 280 | 284 | H-226-  | H-230-  | GFYTH 
+| 1avg | H | albelig | 19 | 19 | H | 286 | 296 | H-232-  | H-242-  | FRLKKWIQKVI 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 9
+= 6 = a = 7
+= 8 = a = 9
+= 11 = a = 13
+= 11 = a = 16
+= 15 = a = 18
+= 16 = a = 17
+= 17 = a = 18
+= 18 = m = 19
+# Listed 12 contacts. EOF.

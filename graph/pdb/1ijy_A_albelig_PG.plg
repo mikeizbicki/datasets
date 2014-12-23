@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ijy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > WNT RECEPTOR, FRIZZLED PROTEIN STRUCTURE, CYSTEINE-RICH, SIGNALINGPROTEIN
+> pdb_mol_name > FRIZZLED HOMOLOG 8
+> graphtype > albelig
+> resolution > 1.35
+> date > 01-MAY-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE CYSTEINE-RICH DOMAIN OF MOUSE FRIZZLED 8(MFZ8)
+> format_version > 2
+> pdbid > 1ijy
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ijy | A | albelig | 1 | 1 | H | 10 | 12 | A-14-  | A-16-  | PLN 
+| 1ijy | A | albelig | 2 | 2 | H | 31 | 41 | A-35-  | A-45-  | QDEAGLEVHQF 
+| 1ijy | A | albelig | 3 | 3 | H | 42 | 47 | A-46-  | A-51-  | WPLVEI 
+| 1ijy | A | albelig | 4 | 4 | H | 53 | 61 | A-57-  | A-65-  | LKFFLNSMY 
+| 1ijy | A | albelig | 5 | 5 | H | 77 | 93 | A-81-  | A-97-  | RSVEERAKAGCAPLMRQ 
+| 1ijy | A | albelig | 6 | 6 | H | 100 | 102 | A-104-  | A-106-  | DRM 
+| 1ijy | A | albelig | 7 | 7 | H | 104 | 106 | A-108-  | A-110-  | EDR 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 4
+= 4 = m = 6
+= 5 = m = 7
+# Listed 3 contacts. EOF.

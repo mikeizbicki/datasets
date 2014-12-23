@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a5a, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CARBON-OXYGEN LYASE, MUTATION AT POSITION 60 (ASP --> ASN) IN THE A-SUBUNIT, LYASE
+> pdb_mol_name > TRYPTOPHAN SYNTHASE (ALPHA CHAIN)
+> graphtype > albelig
+> resolution > 1.9
+> date > 12-FEB-98
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYO-CRYSTALLOGRAPHY OF A TRUE SUBSTRATE, INDOLE-3-GLYCEROL PHOSPHATE,BOUND TO A MUTANT (ALPHAD60N) TRYPTOPHAN SYNTHASE ALPHA2BETA2 COMPLEXREVEALS THE CORRECT ORIENTATION OF ACTIVE SITE ALPHA GLU 49
+> format_version > 2
+> pdbid > 1a5a
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SALMONELLA TYPHIMURIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a5a | A | albelig | 1 | 1 | H | 2 | 13 | A-2-  | A-13-  | ERYENLFAQLND 
+| 1a5a | A | albelig | 2 | 2 | E | 18 | 24 | A-18-  | A-24-  | AFVPFVT 
+| 1a5a | A | albelig | 3 | 3 | H | 30 | 43 | A-30-  | A-43-  | IEQSLKIIDTLIDA 
+| 1a5a | A | albelig | 4 | 4 | E | 48 | 51 | A-48-  | A-51-  | LELG 
+| 1a5a | A | albelig | 5 | 5 | H | 62 | 73 | A-62-  | A-73-  | PTIQNANLRAFA 
+| 1a5a | A | albelig | 6 | 6 | H | 78 | 91 | A-78-  | A-91-  | PAQCFEMLALIREK 
+| 1a5a | A | albelig | 7 | 7 | E | 97 | 101 | A-97-  | A-101-  | IGLLM 
+| 1a5a | A | albelig | 8 | 8 | H | 103 | 107 | A-103-  | A-107-  | ANLVF 
+| 1a5a | A | albelig | 9 | 9 | H | 111 | 121 | A-111-  | A-121-  | IDAFYARCEQV 
+| 1a5a | A | albelig | 10 | 10 | E | 125 | 128 | A-125-  | A-128-  | SVLV 
+| 1a5a | A | albelig | 11 | 11 | H | 133 | 135 | A-133-  | A-135-  | VEE 
+| 1a5a | A | albelig | 12 | 12 | H | 137 | 145 | A-137-  | A-145-  | APFRQAALR 
+| 1a5a | A | albelig | 13 | 13 | H | 160 | 169 | A-160-  | A-169-  | DDLLRQVASY 
+| 1a5a | A | albelig | 14 | 14 | H | 181 | 190 | A-193-  | A-202-  | LHHLIEKLKE 
+| 1a5a | A | albelig | 15 | 15 | E | 196 | 198 | A-208-  | A-210-  | ALQ 
+| 1a5a | A | albelig | 16 | 16 | H | 205 | 214 | A-217-  | A-226-  | PEQVSAAVRA 
+| 1a5a | A | albelig | 17 | 17 | E | 218 | 221 | A-230-  | A-233-  | GAIS 
+| 1a5a | A | albelig | 18 | 18 | H | 223 | 232 | A-235-  | A-244-  | SAIVKIIEKN 
+| 1a5a | A | albelig | 19 | 19 | H | 236 | 252 | A-248-  | A-264-  | PKQMLAELRSFVSAMKA 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 17
+= 3 = p = 6
+= 3 = p = 19
+= 4 = p = 7
+= 5 = m = 18
+= 6 = m = 9
+= 7 = p = 10
+= 9 = m = 12
+= 15 = p = 17
+= 18 = a = 19
+# Listed 11 contacts. EOF.

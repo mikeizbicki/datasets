@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kru, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LEFT-HANDED PARALLEL BETA HELIX, TRANSFERASE
+> pdb_mol_name > GALACTOSIDE O-ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 10-JAN-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > GALACTOSIDE ACETYLTRANSFERASE IN COMPLEX WITH IPTG ANDCOENZYME A
+> format_version > 2
+> pdbid > 1kru
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kru | A | albelig | 1 | 1 | H | 4 | 10 | A-5-  | A-11-  | MTERIRA 
+| 1kru | A | albelig | 2 | 2 | H | 21 | 36 | A-22-  | A-37-  | LPEKRLRGKTLMYEFN 
+| 1kru | A | albelig | 3 | 3 | H | 43 | 53 | A-44-  | A-54-  | VEKRESLIKEM 
+| 1kru | A | albelig | 4 | 4 | E | 67 | 69 | A-68-  | A-70-  | VYF 
+| 1kru | A | albelig | 5 | 5 | E | 75 | 77 | A-76-  | A-78-  | IHI 
+| 1kru | A | albelig | 6 | 6 | E | 87 | 90 | A-88-  | A-91-  | LTIV 
+| 1kru | A | albelig | 7 | 7 | E | 95 | 97 | A-96-  | A-98-  | VTI 
+| 1kru | A | albelig | 8 | 8 | E | 108 | 110 | A-109-  | A-111-  | TLS 
+| 1kru | A | albelig | 9 | 9 | H | 118 | 120 | A-119-  | A-121-  | HEL 
+| 1kru | A | albelig | 10 | 10 | E | 131 | 133 | A-132-  | A-134-  | ITI 
+| 1kru | A | albelig | 11 | 11 | E | 171 | 175 | A-172-  | A-176-  | VVAAG 
+| 1kru | A | albelig | 12 | 12 | E | 178 | 183 | A-179-  | A-184-  | CRVIRE 
+| 1kru | A | albelig | 13 | 13 | H | 186 | 189 | A-187-  | A-190-  | DRDK 
+| 1kru | A | albelig | 14 | 14 | E | 191 | 193 | A-192-  | A-194-  | YYF 
+| 1kru | A | albelig | 15 | 15 | L | 606 | 606 | A-204-  | A-204-  | J 
+| 1kru | A | albelig | 16 | 16 | L | 607 | 607 | A-209-  | A-209-  | J 
+| 1kru | A | albelig | 17 | 17 | L | 608 | 608 | A-210-  | A-210-  | J 
+| 1kru | A | albelig | 18 | 18 | L | 609 | 609 | A-212-  | A-212-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 4
+= 2 = l = 16
+= 2 = l = 18
+= 3 = l = 17
+= 4 = p = 6
+= 5 = p = 7
+= 6 = p = 8
+= 6 = l = 16
+= 7 = p = 10
+= 11 = a = 12
+= 11 = l = 15
+= 12 = l = 15
+= 13 = m = 14
+= 16 = l = 18
+# Listed 15 contacts. EOF.

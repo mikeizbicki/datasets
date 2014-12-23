@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bmo, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EXTRACELLULAR MODULE, GLYCOPROTEIN, ANTI-ADHESIVE PROTEIN
+> pdb_mol_name > BM-40
+> graphtype > albelig
+> resolution > 3.1
+> date > 25-MAR-97
+> header > EXTRACELLULAR MODULE
+> pdb_org_common > HUMAN
+> title > BM-40, FS/EC DOMAIN PAIR
+> format_version > 2
+> pdbid > 1bmo
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bmo | B | albelig | 1 | 1 | E | 245 | 249 | B-64-  | B-68-  | KVHEL 
+| 1bmo | B | albelig | 2 | 2 | E | 255 | 259 | B-74-  | B-78-  | PMIVJ 
+| 1bmo | B | albelig | 3 | 3 | H | 262 | 264 | B-81-  | B-83-  | PTS 
+| 1bmo | B | albelig | 4 | 4 | H | 271 | 273 | B-90-  | B-92-  | EFE 
+| 1bmo | B | albelig | 5 | 5 | E | 275 | 277 | B-94-  | B-96-  | VLS 
+| 1bmo | B | albelig | 6 | 6 | H | 286 | 294 | B-105-  | B-113-  | SKHFFATKJ 
+| 1bmo | B | albelig | 7 | 7 | H | 300 | 304 | B-119-  | B-123-  | KKGHK 
+| 1bmo | B | albelig | 8 | 8 | E | 307 | 310 | B-126-  | B-129-  | LDYI 
+| 1bmo | B | albelig | 9 | 9 | H | 321 | 345 | B-140-  | B-164-  | DSELTEFPLRMRDWLKNVLVTLYER 
+| 1bmo | B | albelig | 10 | 10 | H | 354 | 364 | B-173-  | B-183-  | EKQKLRVKKIH 
+| 1bmo | B | albelig | 11 | 11 | H | 377 | 386 | B-196-  | B-205-  | VELLARDFEK 
+| 1bmo | B | albelig | 12 | 12 | H | 389 | 402 | B-208-  | B-221-  | NMYIFPVHWQFGQL 
+| 1bmo | B | albelig | 13 | 13 | H | 417 | 420 | B-236-  | B-239-  | APLR 
+| 1bmo | B | albelig | 14 | 14 | H | 427 | 437 | B-246-  | B-256-  | EHMTTRFFETN 
+| 1bmo | B | albelig | 15 | 15 | H | 447 | 453 | B-266-  | B-272-  | LDEWAGN 
+| 1bmo | B | albelig | 16 | 16 | H | 458 | 460 | B-277-  | B-279-  | QKD 
+| 1bmo | B | albelig | 17 | 17 | H | 463 | 465 | B-282-  | B-284-  | KDL 
+| 1bmo | B | albelig | 18 | 18 | L | 470 | 470 | B-401-  | B-401-  | J 
+| 1bmo | B | albelig | 19 | 19 | L | 471 | 471 | B-402-  | B-402-  | J 
+| 1bmo | B | albelig | 20 | 20 | L | 474 | 474 | B-301-  | B-301-  | J 
+| 1bmo | B | albelig | 21 | 21 | L | 475 | 475 | B-302-  | B-302-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 5 = a = 8
+= 8 = m = 13
+= 9 = m = 10
+= 9 = p = 11
+= 9 = m = 12
+= 9 = m = 14
+= 10 = m = 12
+= 12 = m = 15
+= 15 = l = 21
+= 18 = l = 19
+# Listed 11 contacts. EOF.

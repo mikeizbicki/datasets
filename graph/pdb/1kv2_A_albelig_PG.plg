@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kv2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-INHIBITOR COMPLEX, TRANSFERASE
+> pdb_mol_name > P38 MAP KINASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 23-JAN-02
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > HUMAN P38 MAP KINASE IN COMPLEX WITH BIRB 796
+> format_version > 2
+> pdbid > 1kv2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kv2 | A | albelig | 1 | 1 | E | 4 | 9 | A-8-  | A-13-  | FYRQEL 
+| 1kv2 | A | albelig | 2 | 2 | E | 12 | 17 | A-16-  | A-21-  | TIWEVP 
+| 1kv2 | A | albelig | 3 | 3 | E | 20 | 27 | A-24-  | A-31-  | YQNLSPVG 
+| 1kv2 | A | albelig | 4 | 4 | E | 34 | 39 | A-38-  | A-43-  | VCAAFD 
+| 1kv2 | A | albelig | 5 | 5 | E | 45 | 50 | A-49-  | A-54-  | RVAVKK 
+| 1kv2 | A | albelig | 6 | 6 | H | 58 | 71 | A-62-  | A-75-  | IIHAKRTYRELRLL 
+| 1kv2 | A | albelig | 7 | 7 | E | 99 | 103 | A-103-  | A-107-  | YLVTH 
+| 1kv2 | A | albelig | 8 | 8 | H | 113 | 131 | A-124-  | A-142-  | DDHVQFLIYQILRGLKYIH 
+| 1kv2 | A | albelig | 9 | 9 | H | 142 | 144 | A-153-  | A-155-  | PSN 
+| 1kv2 | A | albelig | 10 | 10 | E | 145 | 147 | A-156-  | A-158-  | LAV 
+| 1kv2 | A | albelig | 11 | 11 | E | 153 | 155 | A-164-  | A-166-  | LKI 
+| 1kv2 | A | albelig | 12 | 12 | H | 166 | 168 | A-191-  | A-193-  | PEI 
+| 1kv2 | A | albelig | 13 | 13 | H | 179 | 193 | A-204-  | A-218-  | VDIWSVGCIMAELLT 
+| 1kv2 | A | albelig | 14 | 14 | H | 203 | 214 | A-228-  | A-239-  | HIDQLKLILRLV 
+| 1kv2 | A | albelig | 15 | 15 | H | 219 | 222 | A-244-  | A-247-  | AELL 
+| 1kv2 | A | albelig | 16 | 16 | H | 228 | 234 | A-253-  | A-259-  | ESARNYI 
+| 1kv2 | A | albelig | 17 | 17 | H | 245 | 248 | A-270-  | A-273-  | FANV 
+| 1kv2 | A | albelig | 18 | 18 | H | 254 | 263 | A-279-  | A-288-  | PLAVDLLEKM 
+| 1kv2 | A | albelig | 19 | 19 | H | 268 | 270 | A-293-  | A-295-  | SDK 
+| 1kv2 | A | albelig | 20 | 20 | H | 274 | 278 | A-299-  | A-303-  | AAQAL 
+| 1kv2 | A | albelig | 21 | 21 | H | 281 | 283 | A-306-  | A-308-  | AYF 
+| 1kv2 | A | albelig | 22 | 22 | H | 302 | 304 | A-327-  | A-329-  | FES 
+| 1kv2 | A | albelig | 23 | 23 | H | 309 | 321 | A-334-  | A-346-  | IDEWKSLTYDEVI 
+| 1kv2 | A | albelig | 24 | 24 | L | 328 | 328 | A-391-  | A-391-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 2 = a = 5
+= 3 = a = 4
+= 3 = l = 24
+= 4 = a = 5
+= 4 = l = 24
+= 5 = a = 7
+= 5 = l = 24
+= 6 = m = 22
+= 6 = p = 23
+= 6 = l = 24
+= 7 = l = 24
+= 8 = m = 11
+= 8 = a = 13
+= 8 = m = 20
+= 8 = m = 21
+= 8 = l = 24
+= 9 = m = 10
+= 10 = a = 11
+= 10 = l = 24
+= 11 = l = 24
+= 13 = m = 18
+= 18 = m = 21
+# Listed 24 contacts. EOF.

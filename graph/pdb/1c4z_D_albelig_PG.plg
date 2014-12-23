@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c4z, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BILOBAL STRUCTURE, ELONGATED SHAPE, E3 UBIQUITIN LIGASE, E2UBIQUITIN CONJUGATING ENZYME
+> pdb_mol_name > UBIQUITIN CONJUGATING ENZYME E2
+> graphtype > albelig
+> resolution > 2.6
+> date > 14-OCT-99
+> header > LIGASE
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF E6AP: INSIGHTS INTO UBIQUITINATION PATHWAY
+> format_version > 2
+> pdbid > 1c4z
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c4z | D | albelig | 1 | 1 | H | 1057 | 1061 | D-7-  | D-11-  | LMKEL 
+| 1c4z | D | albelig | 2 | 2 | E | 1073 | 1075 | D-23-  | D-25-  | RNI 
+| 1c4z | D | albelig | 3 | 3 | E | 1084 | 1089 | D-34-  | D-39-  | TWQGLI 
+| 1c4z | D | albelig | 4 | 4 | E | 1101 | 1106 | D-51-  | D-56-  | FRIEIN 
+| 1c4z | D | albelig | 5 | 5 | E | 1117 | 1120 | D-67-  | D-70-  | KITF 
+| 1c4z | D | albelig | 6 | 6 | H | 1151 | 1163 | D-101-  | D-113-  | TDQVIQSLIALVN 
+| 1c4z | D | albelig | 7 | 7 | H | 1173 | 1180 | D-123-  | D-130-  | ADLAEEYS 
+| 1c4z | D | albelig | 8 | 8 | H | 1187 | 1194 | D-137-  | D-144-  | CKNAEEFT 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 5
+# Listed 3 contacts. EOF.

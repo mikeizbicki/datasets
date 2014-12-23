@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fvp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FLAVIN-BINDING PROTEIN
+> pdb_mol_name > FLAVOPROTEIN 390
+> graphtype > albelig
+> resolution > 2.7
+> date > 07-JUL-95
+> header > FLAVIN-BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > FLAVOPROTEIN 390
+> format_version > 2
+> pdbid > 1fvp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PHOTOBACTERIUM PHOSPHOREUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fvp | A | albelig | 1 | 1 | E | 6 | 11 | A-6-  | A-11-  | YGVFFV 
+| 1fvp | A | albelig | 2 | 2 | H | 23 | 38 | A-23-  | A-38-  | KTMNNALETLRIIDED 
+| 1fvp | A | albelig | 3 | 3 | E | 42 | 48 | A-42-  | A-48-  | YDVINID 
+| 1fvp | A | albelig | 4 | 4 | E | 65 | 68 | A-65-  | A-68-  | FITL 
+| 1fvp | A | albelig | 5 | 5 | E | 71 | 75 | A-71-  | A-75-  | KLYVL 
+| 1fvp | A | albelig | 6 | 6 | H | 80 | 87 | A-80-  | A-87-  | NTVDIAAK 
+| 1fvp | A | albelig | 7 | 7 | E | 92 | 94 | A-92-  | A-94-  | LVF 
+| 1fvp | A | albelig | 8 | 8 | H | 100 | 116 | A-100-  | A-116-  | NEERLKLLSFYNASASK 
+| 1fvp | A | albelig | 9 | 9 | E | 126 | 130 | A-126-  | A-130-  | HQLML 
+| 1fvp | A | albelig | 10 | 10 | H | 138 | 155 | A-138-  | A-155-  | ETVAKEELKLYIENYVAC 
+| 1fvp | A | albelig | 11 | 11 | H | 166 | 171 | A-166-  | A-171-  | DSIIQS 
+| 1fvp | A | albelig | 12 | 12 | H | 178 | 190 | A-178-  | A-190-  | KDCLSYVANLAGK 
+| 1fvp | A | albelig | 13 | 13 | E | 195 | 199 | A-195-  | A-199-  | VDFLL 
+| 1fvp | A | albelig | 14 | 14 | H | 207 | 227 | A-207-  | A-227-  | QNKKKSVMIDLNNQVIKFRQD 
+| 1fvp | A | albelig | 15 | 15 | L | 464 | 464 | A-232-  | A-232-  | J 
+| 1fvp | A | albelig | 16 | 16 | L | 465 | 465 | A-233-  | A-233-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 13
+= 1 = l = 16
+= 2 = p = 14
+= 4 = a = 5
+= 4 = l = 15
+= 5 = p = 7
+= 5 = l = 15
+= 6 = m = 8
+= 6 = l = 15
+= 7 = p = 9
+= 9 = p = 13
+= 10 = m = 11
+= 12 = l = 16
+= 13 = l = 16
+= 14 = l = 16
+# Listed 16 contacts. EOF.

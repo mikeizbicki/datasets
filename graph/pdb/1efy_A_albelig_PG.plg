@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1efy, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CRYSTAL STRUCTURE, BENZIMIDAZOLE, INHIBITOR, CATALYTICFRAGMENT, POLYMERASE, TRANSFERASE
+> pdb_mol_name > POLY (ADP-RIBOSE) POLYMERASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 10-FEB-00
+> header > TRANSFERASE
+> pdb_org_common > CHICKEN
+> title > CRYSTAL STRUCTURE OF THE CATALYTIC FRAGMENT OF POLY (ADP-RIBOSE) POLYMERASE COMPLEXED WITH A BENZIMIDAZOLE INHIBITOR
+> format_version > 2
+> pdbid > 1efy
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > GALLUS GALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1efy | A | albelig | 1 | 1 | H | 6 | 15 | A-667-  | A-676-  | KPIQDLIKMI 
+| 1efy | A | albelig | 2 | 2 | H | 18 | 27 | A-679-  | A-688-  | VESMKKAMVE 
+| 1efy | A | albelig | 3 | 3 | H | 37 | 39 | A-698-  | A-700-  | LGK 
+| 1efy | A | albelig | 4 | 4 | H | 42 | 60 | A-703-  | A-721-  | KRQIQSAYSILNEVQQAVS 
+| 1efy | A | albelig | 5 | 5 | H | 65 | 78 | A-726-  | A-739-  | ESQILDLSNRFYTL 
+| 1efy | A | albelig | 6 | 6 | H | 94 | 118 | A-755-  | A-779-  | LEYIQAKVQMLDNLLDIEVAYSLLR 
+| 1efy | A | albelig | 7 | 7 | H | 128 | 135 | A-789-  | A-796-  | PIDINYEK 
+| 1efy | A | albelig | 8 | 8 | E | 138 | 142 | A-799-  | A-803-  | TDIKV 
+| 1efy | A | albelig | 9 | 9 | H | 148 | 159 | A-809-  | A-820-  | EEAKIIKQYVKN 
+| 1efy | A | albelig | 10 | 10 | H | 163 | 165 | A-824-  | A-826-  | ATH 
+| 1efy | A | albelig | 11 | 11 | E | 168 | 180 | A-829-  | A-841-  | YDLKVVEIFRIER 
+| 1efy | A | albelig | 12 | 12 | H | 183 | 192 | A-844-  | A-853-  | ESQRYKPFKQ 
+| 1efy | A | albelig | 13 | 13 | E | 196 | 203 | A-857-  | A-864-  | RQLLWHGS 
+| 1efy | A | albelig | 14 | 14 | H | 205 | 214 | A-866-  | A-875-  | TTNFAGILSQ 
+| 1efy | A | albelig | 15 | 15 | H | 225 | 227 | A-886-  | A-888-  | VTG 
+| 1efy | A | albelig | 16 | 16 | E | 234 | 236 | A-895-  | A-897-  | IYF 
+| 1efy | A | albelig | 17 | 17 | H | 240 | 247 | A-901-  | A-908-  | VSKSANYC 
+| 1efy | A | albelig | 18 | 18 | E | 255 | 264 | A-916-  | A-925-  | IGLILLGEVA 
+| 1efy | A | albelig | 19 | 19 | E | 268 | 271 | A-929-  | A-932-  | MYEL 
+| 1efy | A | albelig | 20 | 20 | E | 286 | 289 | A-947-  | A-950-  | SVKG 
+| 1efy | A | albelig | 21 | 21 | E | 293 | 295 | A-954-  | A-956-  | TAP 
+| 1efy | A | albelig | 22 | 22 | H | 297 | 299 | A-958-  | A-960-  | PTA 
+| 1efy | A | albelig | 23 | 23 | E | 301 | 303 | A-962-  | A-964-  | TTL 
+| 1efy | A | albelig | 24 | 24 | E | 306 | 308 | A-967-  | A-969-  | VEV 
+| 1efy | A | albelig | 25 | 25 | E | 313 | 315 | A-974-  | A-976-  | GIS 
+| 1efy | A | albelig | 26 | 26 | E | 327 | 330 | A-988-  | A-991-  | EYIV 
+| 1efy | A | albelig | 27 | 27 | H | 333 | 335 | A-994-  | A-996-  | VAQ 
+| 1efy | A | albelig | 28 | 28 | E | 336 | 348 | A-997-  | A-1009-  | VNLKYLLKLKFNY 
+| 1efy | A | albelig | 29 | 29 | L | 351 | 351 | A-201-  | A-201-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = a = 5
+= 4 = a = 6
+= 6 = p = 14
+= 6 = l = 29
+= 8 = a = 11
+= 11 = m = 14
+= 11 = a = 28
+= 12 = m = 27
+= 12 = m = 28
+= 13 = a = 16
+= 13 = p = 17
+= 13 = a = 18
+= 13 = a = 24
+= 13 = l = 29
+= 14 = p = 18
+= 15 = l = 29
+= 16 = a = 26
+= 16 = l = 29
+= 17 = l = 29
+= 18 = m = 27
+= 18 = a = 28
+= 19 = p = 20
+= 20 = a = 26
+= 21 = a = 25
+= 23 = a = 24
+= 26 = l = 29
+= 27 = m = 28
+# Listed 27 contacts. EOF.

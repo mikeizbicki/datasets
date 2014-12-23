@@ -1,0 +1,67 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jxn, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LEGUME LECTIN, FUCOSE-SPECIFIC LECTIN, UE-I, UEA-I, SUGARBINDING PROTEIN
+> pdb_mol_name > ANTI-H(O) LECTIN I
+> graphtype > albelig
+> resolution > 2.3
+> date > 07-SEP-01
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > FURZE
+> title > CRYSTAL STRUCTURE OF THE LECTIN I FROM ULEX EUROPAEUS INCOMPLEX WITH THE METHYL GLYCOSIDE OF ALPHA-L-FUCOSE
+> format_version > 2
+> pdbid > 1jxn
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ULEX EUROPAEUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jxn | A | albelig | 1 | 1 | E | 3 | 8 | A-3-  | A-8-  | DLSFKF 
+| 1jxn | A | albelig | 2 | 2 | E | 18 | 22 | A-18-  | A-22-  | LSFQG 
+| 1jxn | A | albelig | 3 | 3 | E | 44 | 51 | A-44-  | A-51-  | ETGGIARY 
+| 1jxn | A | albelig | 4 | 4 | E | 67 | 78 | A-67-  | A-78-  | SFITSFSFFMET 
+| 1jxn | A | albelig | 5 | 5 | E | 88 | 94 | A-88-  | A-94-  | GLTFFLA 
+| 1jxn | A | albelig | 6 | 6 | H | 104 | 106 | A-104-  | A-106-  | GGY 
+| 1jxn | A | albelig | 7 | 7 | H | 117 | 119 | A-117-  | A-119-  | SSY 
+| 1jxn | A | albelig | 8 | 8 | E | 122 | 127 | A-122-  | A-127-  | VAVEFD 
+| 1jxn | A | albelig | 9 | 9 | E | 142 | 147 | A-142-  | A-147-  | HIGIDV 
+| 1jxn | A | albelig | 10 | 10 | E | 154 | 157 | A-154-  | A-157-  | NAER 
+| 1jxn | A | albelig | 11 | 11 | H | 164 | 166 | A-164-  | A-166-  | LNN 
+| 1jxn | A | albelig | 12 | 12 | E | 168 | 175 | A-168-  | A-175-  | ANVEIIYE 
+| 1jxn | A | albelig | 13 | 13 | E | 180 | 187 | A-180-  | A-187-  | TLTASLTY 
+| 1jxn | A | albelig | 14 | 14 | E | 192 | 199 | A-192-  | A-199-  | TSISVTSI 
+| 1jxn | A | albelig | 15 | 15 | H | 202 | 205 | A-202-  | A-205-  | LKEI 
+| 1jxn | A | albelig | 16 | 16 | E | 209 | 219 | A-209-  | A-219-  | WVSVGFSGSTY 
+| 1jxn | A | albelig | 17 | 17 | E | 224 | 228 | A-224-  | A-228-  | ATHEV 
+| 1jxn | A | albelig | 18 | 18 | E | 231 | 236 | A-231-  | A-236-  | WYFTST 
+| 1jxn | A | albelig | 19 | 19 | L | 963 | 963 | A-501-  | A-501-  | J 
+| 1jxn | A | albelig | 20 | 20 | L | 964 | 964 | A-245-  | A-245-  | J 
+| 1jxn | A | albelig | 21 | 21 | L | 965 | 965 | A-246-  | A-246-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 18
+= 2 = a = 3
+= 3 = a = 16
+= 3 = l = 19
+= 4 = a = 12
+= 4 = a = 17
+= 4 = a = 18
+= 5 = a = 8
+= 5 = a = 16
+= 6 = m = 16
+= 6 = l = 19
+= 6 = l = 21
+= 8 = a = 9
+= 8 = l = 20
+= 8 = l = 21
+= 9 = a = 10
+= 9 = p = 14
+= 9 = l = 20
+= 9 = l = 21
+= 10 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 16 = l = 19
+= 19 = l = 21
+= 20 = l = 21
+# Listed 25 contacts. EOF.

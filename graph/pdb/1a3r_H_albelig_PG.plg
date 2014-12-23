@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a3r, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, ANTIBODY, RHINOVIRUS, NEUTRALIZATION,CONTINUOUS EPITOPE, COMPLEX (IMMUNOGLOBULIN/VIRAL PEPTIDE),VIRAL PROTEIN/IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > IGG2A 8F5 FAB (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.1
+> date > 23-JAN-98
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > FAB FRAGMENT (ANTIBODY 8F5) COMPLEXED WITH PEPTIDE FROMHUMAN RHINOVIRUS (SEROTYPE 2) VIRAL CAPSID PROTEIN VP2(RESIDUES 156-170)
+> format_version > 2
+> pdbid > 1a3r
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a3r | H | albelig | 1 | 1 | E | 230 | 232 | H-10-  | H-12-  | ELV 
+| 1a3r | H | albelig | 2 | 2 | E | 238 | 243 | H-18-  | H-23-  | VKLSDT 
+| 1a3r | H | albelig | 3 | 3 | H | 249 | 251 | H-29-  | H-31-  | IKD 
+| 1a3r | H | albelig | 4 | 4 | E | 253 | 259 | H-33-  | H-39-  | YIHWVKQ 
+| 1a3r | H | albelig | 5 | 5 | E | 265 | 271 | H-45-  | H-51-  | LEWIGRL 
+| 1a3r | H | albelig | 6 | 6 | E | 278 | 280 | H-57-  | H-59-  | TKY 
+| 1a3r | H | albelig | 7 | 7 | H | 282 | 284 | H-61-  | H-63-  | PKF 
+| 1a3r | H | albelig | 8 | 8 | E | 288 | 293 | H-67-  | H-72-  | ATITVD 
+| 1a3r | H | albelig | 9 | 9 | H | 294 | 296 | H-73-  | H-75-  | TSS 
+| 1a3r | H | albelig | 10 | 10 | E | 298 | 303 | H-77-  | H-82-  | TAYLHL 
+| 1a3r | H | albelig | 11 | 11 | H | 308 | 310 | H-84-  | H-86-  | SED 
+| 1a3r | H | albelig | 12 | 12 | E | 312 | 320 | H-88-  | H-96-  | AVYYDDGYY 
+| 1a3r | H | albelig | 13 | 13 | E | 325 | 328 | H-100-A | H-103-  | MDYW 
+| 1a3r | H | albelig | 14 | 14 | E | 332 | 336 | H-107-  | H-111-  | TSVTV 
+| 1a3r | H | albelig | 15 | 15 | E | 345 | 349 | H-120-  | H-124-  | SVYPL 
+| 1a3r | H | albelig | 16 | 16 | E | 356 | 366 | H-137-  | H-147-  | SVTLGELVKGY 
+| 1a3r | H | albelig | 17 | 17 | E | 372 | 375 | H-153-  | H-157-  | TLTW 
+| 1a3r | H | albelig | 18 | 18 | H | 376 | 378 | H-162-  | H-164-  | NSG 
+| 1a3r | H | albelig | 19 | 19 | E | 384 | 386 | H-171-  | H-173-  | VHT 
+| 1a3r | H | albelig | 20 | 20 | E | 396 | 405 | H-185-  | H-194-  | YTLSSSVTVT 
+| 1a3r | H | albelig | 21 | 21 | E | 415 | 420 | H-206-  | H-212-  | TENVAH 
+| 1a3r | H | albelig | 22 | 22 | H | 421 | 423 | H-213-  | H-215-  | PAS 
+| 1a3r | H | albelig | 23 | 23 | E | 425 | 430 | H-217-  | H-222-  | TKVDKK 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 14
+= 2 = a = 10
+= 2 = p = 12
+= 4 = a = 5
+= 4 = a = 12
+= 5 = a = 6
+= 5 = p = 8
+= 6 = a = 8
+= 8 = m = 9
+= 8 = a = 10
+= 12 = a = 13
+= 12 = a = 14
+= 15 = a = 16
+= 16 = a = 20
+= 17 = m = 18
+= 17 = a = 21
+= 19 = a = 20
+= 21 = m = 22
+= 21 = a = 23
+# Listed 19 contacts. EOF.

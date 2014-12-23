@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1btk, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, PH DOMAIN, BTK MOTIF, ZINC BINDING, X-LINKEDAGAMMAGLOBULINEMIA, TYROSINE-PROTEIN KINASE
+> pdb_mol_name > BRUTON'S TYROSINE KINASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 01-JUL-97
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > PH DOMAIN AND BTK MOTIF FROM BRUTON'S TYROSINE KINASEMUTANT R28C
+> format_version > 2
+> pdbid > 1btk
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1btk | A | albelig | 1 | 1 | E | 5 | 12 | A-6-  | A-13-  | LESIFLKR 
+| 1btk | A | albelig | 2 | 2 | E | 24 | 31 | A-25-  | A-32-  | FKKCLFLL 
+| 1btk | A | albelig | 3 | 3 | E | 35 | 42 | A-36-  | A-43-  | KLSYYEYD 
+| 1btk | A | albelig | 4 | 4 | E | 47 | 56 | A-48-  | A-57-  | RRGSKKGSID 
+| 1btk | A | albelig | 5 | 5 | H | 57 | 59 | A-58-  | A-60-  | VEK 
+| 1btk | A | albelig | 6 | 6 | E | 60 | 65 | A-61-  | A-66-  | ITCVET 
+| 1btk | A | albelig | 7 | 7 | H | 74 | 76 | A-75-  | A-77-  | PER 
+| 1btk | A | albelig | 8 | 8 | H | 84 | 87 | A-93-  | A-96-  | SIIE 
+| 1btk | A | albelig | 9 | 9 | E | 91 | 97 | A-100-  | A-106-  | YPFQVVY 
+| 1btk | A | albelig | 10 | 10 | E | 102 | 106 | A-111-  | A-115-  | LYVFS 
+| 1btk | A | albelig | 11 | 11 | H | 109 | 123 | A-118-  | A-132-  | EELRKRWIHQLKNVI 
+| 1btk | A | albelig | 12 | 12 | L | 332 | 332 | A-1-  | A-1-  | J 
+| 1btk | A | albelig | 13 | 13 | L | 333 | 333 | A-171-  | A-171-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 1 = m = 11
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+= 5 = m = 6
+= 6 = a = 9
+= 6 = a = 11
+= 8 = l = 13
+= 9 = a = 10
+= 9 = m = 11
+# Listed 12 contacts. EOF.

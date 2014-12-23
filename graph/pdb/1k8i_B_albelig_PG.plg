@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k8i, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC, IMMUNE SYSTEM
+> pdb_mol_name > MHC CLASS II H2-M BETA 2 CHAIN
+> graphtype > albelig
+> resolution > 3.1
+> date > 24-OCT-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF MOUSE H2-DM
+> format_version > 2
+> pdbid > 1k8i
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k8i | B | albelig | 1 | 1 | E | 185 | 195 | B-3-  | B-13-  | VAHVESTCVLN 
+| 1k8i | B | albelig | 2 | 2 | E | 200 | 203 | B-18-  | B-21-  | PQDF 
+| 1k8i | B | albelig | 3 | 3 | E | 206 | 209 | B-24-  | B-27-  | DVSF 
+| 1k8i | B | albelig | 4 | 4 | E | 215 | 218 | B-33-  | B-36-  | ADWD 
+| 1k8i | B | albelig | 5 | 5 | E | 223 | 226 | B-41-  | B-44-  | KIVP 
+| 1k8i | B | albelig | 6 | 6 | H | 233 | 244 | B-51-  | B-62-  | SRLAEIISNILN 
+| 1k8i | B | albelig | 7 | 7 | H | 247 | 255 | B-65-  | B-73-  | ESLIHRLQN 
+| 1k8i | B | albelig | 8 | 8 | H | 257 | 272 | B-75-  | B-90-  | LQDCATHTQPFWDVLT 
+| 1k8i | B | albelig | 9 | 9 | E | 279 | 285 | B-97-  | B-103-  | SVRVAQT 
+| 1k8i | B | albelig | 10 | 10 | E | 294 | 303 | B-112-  | B-121-  | VMLAEYVWGF 
+| 1k8i | B | albelig | 11 | 11 | E | 308 | 314 | B-126-  | B-132-  | VTITWMK 
+| 1k8i | B | albelig | 12 | 12 | E | 337 | 345 | B-155-  | B-163-  | YQTVSYLAL 
+| 1k8i | B | albelig | 13 | 13 | E | 353 | 359 | B-171-  | B-177-  | YTEVVQH 
+| 1k8i | B | albelig | 14 | 14 | E | 362 | 370 | B-180-  | B-188-  | TSEPIRGDW 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = m = 8
+= 2 = m = 8
+= 3 = a = 4
+= 4 = a = 5
+= 5 = m = 6
+= 9 = a = 10
+= 10 = a = 12
+= 10 = p = 13
+= 11 = p = 12
+= 11 = a = 13
+= 13 = a = 14
+# Listed 13 contacts. EOF.

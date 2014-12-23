@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvn, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOSYLTRANSFERASE, ALPHA-1, 4-GLUCAN-4-GLUCANOHYDROLASE,ALPHA-AMYLASE, PROTEINACEOUS ALPHA-AMYLASE INHIBITOR,HYDROLASE/HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > PROTEIN (TENDAMISTAT)
+> graphtype > albelig
+> resolution > 2.5
+> date > 16-SEP-98
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > PIG PANCREATIC ALPHA-AMYLASE IN COMPLEX WITH THEPROTEINACEOUS INHIBITOR TENDAMISTAT
+> format_version > 2
+> pdbid > 1bvn
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES TENDAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvn | T | albelig | 1 | 1 | E | 506 | 510 | T-812-  | T-816-  | VTLYQ 
+| 1bvn | T | albelig | 2 | 2 | E | 514 | 519 | T-820-  | T-825-  | YSQADN 
+| 1bvn | T | albelig | 3 | 3 | E | 525 | 531 | T-831-  | T-837-  | VTVKVVY 
+| 1bvn | T | albelig | 4 | 4 | E | 540 | 542 | T-846-  | T-848-  | YAV 
+| 1bvn | T | albelig | 5 | 5 | E | 547 | 552 | T-853-  | T-858-  | ITTVGD 
+| 1bvn | T | albelig | 6 | 6 | E | 561 | 566 | T-867-  | T-872-  | ARYLAR 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = a = 5
+= 3 = a = 4
+= 3 = p = 5
+= 3 = a = 6
+# Listed 6 contacts. EOF.

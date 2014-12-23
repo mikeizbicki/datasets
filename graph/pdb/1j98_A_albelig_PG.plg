@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j98, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AUTOINDUCER SYNTHESIS, SIGNALING PROTEIN
+> pdb_mol_name > AUTOINDUCER-2 PRODUCTION PROTEIN LUXS
+> graphtype > albelig
+> resolution > 1.2
+> date > 24-MAY-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THE 1.2 ANGSTROM STRUCTURE OF BACILLUS SUBTILIS LUXS
+> format_version > 2
+> pdbid > 1j98
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS SUBTILIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j98 | A | albelig | 1 | 1 | H | 2 | 5 | A-5-  | A-8-  | ESFE 
+| 1j98 | A | albelig | 2 | 2 | E | 15 | 24 | A-18-  | A-27-  | YVRHCGVHKV 
+| 1j98 | A | albelig | 3 | 3 | E | 28 | 36 | A-31-  | A-39-  | GVVNKFDIR 
+| 1j98 | A | albelig | 4 | 4 | H | 47 | 65 | A-50-  | A-68-  | PDTIHTLEHLLAFTIRSHA 
+| 1j98 | A | albelig | 5 | 5 | E | 71 | 78 | A-74-  | A-81-  | FDIIDISP 
+| 1j98 | A | albelig | 6 | 6 | E | 84 | 91 | A-87-  | A-94-  | GYYLVVSG 
+| 1j98 | A | albelig | 7 | 7 | H | 95 | 109 | A-98-  | A-112-  | SAEIVDLLEDTMKEA 
+| 1j98 | A | albelig | 8 | 8 | H | 131 | 142 | A-134-  | A-145-  | LEGAKRLMRFWL 
+| 1j98 | A | albelig | 9 | 9 | H | 146 | 149 | A-149-  | A-152-  | KEEL 
+| 1j98 | A | albelig | 10 | 10 | L | 156 | 156 | A-300-  | A-300-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 7
+= 2 = m = 9
+= 3 = a = 6
+= 4 = m = 7
+= 4 = m = 8
+= 4 = l = 10
+= 5 = a = 6
+# Listed 8 contacts. EOF.

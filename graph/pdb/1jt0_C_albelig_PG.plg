@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jt0, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTIDRUG BINDING PROTEIN, COOPERATIVE DNA BINDING, DIMEROF DIMERS, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > HYPOTHETICAL TRANSCRIPTIONAL REGULATOR IN QACA
+> graphtype > albelig
+> resolution > 2.9
+> date > 20-AUG-01
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A COOPERATIVE QACR-DNA COMPLEX
+> format_version > 2
+> pdbid > 1jt0
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jt0 | C | albelig | 1 | 1 | H | 380 | 395 | C-3-  | C-18-  | LKDKILGVAKELFIKN 
+| 1jt0 | C | albelig | 2 | 2 | H | 402 | 409 | C-25-  | C-32-  | TGEIVKLS 
+| 1jt0 | C | albelig | 3 | 3 | H | 413 | 419 | C-36-  | C-42-  | KGNLYYH 
+| 1jt0 | C | albelig | 4 | 4 | H | 423 | 445 | C-46-  | C-68-  | KENLFLEILNIEESKWQEQWKKE 
+| 1jt0 | C | albelig | 5 | 5 | H | 452 | 465 | C-75-  | C-88-  | NREKFYLYNELSLT 
+| 1jt0 | C | albelig | 6 | 6 | H | 470 | 483 | C-93-  | C-106-  | YPLQNAIIEFYTEY 
+| 1jt0 | C | albelig | 7 | 7 | H | 487 | 509 | C-110-  | C-132-  | NSINEKMNKLENKYIDAYHVIFK 
+| 1jt0 | C | albelig | 8 | 8 | H | 522 | 538 | C-145-  | C-161-  | VNAVSKIAANAVNGIVT 
+| 1jt0 | C | albelig | 9 | 9 | H | 545 | 561 | C-168-  | C-184-  | INERIKLMNKFSQIFLN 
+| 1jt0 | C | albelig | 10 | 10 | L | 756 | 756 | C-699-  | C-699-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 4 = m = 5
+= 4 = p = 7
+= 4 = l = 10
+= 5 = a = 7
+= 5 = a = 9
+= 6 = a = 7
+= 7 = m = 8
+= 8 = a = 9
+# Listed 10 contacts. EOF.

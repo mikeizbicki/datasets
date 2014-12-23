@@ -1,0 +1,87 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gxw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, THERMOLYSIN, METALLOENDOPEPTIDASE, THIOCYANATE,SALTING-IN, METALLOPROTEASE
+> pdb_mol_name > THERMOLYSIN
+> graphtype > albelig
+> resolution > 2.18
+> date > 12-APR-02
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > THE 2.2 A RESOLUTION STRUCTURE OF THERMOLYSIN CRYSTALLIZEDIN PRESENCE OF POTASSIUM THIOCYANATE
+> format_version > 2
+> pdbid > 1gxw
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS THERMOPROTEOLYTICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gxw | A | albelig | 1 | 1 | E | 4 | 11 | A-4-  | A-11-  | TSTVGVGR 
+| 1gxw | A | albelig | 2 | 2 | E | 17 | 24 | A-17-  | A-24-  | QKNINTTY 
+| 1gxw | A | albelig | 3 | 3 | E | 39 | 43 | A-39-  | A-43-  | IFTYD 
+| 1gxw | A | albelig | 4 | 4 | H | 68 | 88 | A-68-  | A-88-  | APAVDAHYYAGVTYDYYKNVH 
+| 1gxw | A | albelig | 5 | 5 | E | 100 | 106 | A-100-  | A-106-  | IRSSVHY 
+| 1gxw | A | albelig | 6 | 6 | E | 113 | 115 | A-113-  | A-115-  | AFW 
+| 1gxw | A | albelig | 7 | 7 | E | 120 | 123 | A-120-  | A-123-  | MVYG 
+| 1gxw | A | albelig | 8 | 8 | H | 133 | 135 | A-133-  | A-135-  | LSG 
+| 1gxw | A | albelig | 9 | 9 | H | 137 | 151 | A-137-  | A-151-  | IDVVAHELTHAVTDY 
+| 1gxw | A | albelig | 10 | 10 | H | 159 | 179 | A-159-  | A-179-  | NESGAINEAISDIFGTLVEFY 
+| 1gxw | A | albelig | 11 | 11 | H | 208 | 211 | A-208-  | A-211-  | PAKY 
+| 1gxw | A | albelig | 12 | 12 | H | 217 | 219 | A-217-  | A-219-  | YSK 
+| 1gxw | A | albelig | 13 | 13 | H | 225 | 229 | A-225-  | A-229-  | QDNGG 
+| 1gxw | A | albelig | 14 | 14 | H | 234 | 246 | A-234-  | A-246-  | SGIINKAAYLISQ 
+| 1gxw | A | albelig | 15 | 15 | E | 247 | 250 | A-247-  | A-250-  | GGTH 
+| 1gxw | A | albelig | 16 | 16 | E | 253 | 256 | A-253-  | A-256-  | VSVV 
+| 1gxw | A | albelig | 17 | 17 | H | 260 | 274 | A-260-  | A-274-  | RDKLGKIFYRALTQY 
+| 1gxw | A | albelig | 18 | 18 | H | 281 | 296 | A-281-  | A-296-  | FSQLRAAAVQSATDLY 
+| 1gxw | A | albelig | 19 | 19 | H | 301 | 312 | A-301-  | A-312-  | QEVASVKQAFDA 
+| 1gxw | A | albelig | 20 | 20 | L | 317 | 317 | A-322-  | A-322-  | J 
+| 1gxw | A | albelig | 21 | 21 | L | 318 | 318 | A-323-  | A-323-  | J 
+| 1gxw | A | albelig | 22 | 22 | L | 319 | 319 | A-1317-  | A-1317-  | J 
+| 1gxw | A | albelig | 23 | 23 | L | 320 | 320 | A-1318-  | A-1318-  | J 
+| 1gxw | A | albelig | 24 | 24 | L | 321 | 321 | A-1319-  | A-1319-  | J 
+| 1gxw | A | albelig | 25 | 25 | L | 322 | 322 | A-1320-  | A-1320-  | J 
+| 1gxw | A | albelig | 26 | 26 | L | 323 | 323 | A-1321-  | A-1321-  | J 
+| 1gxw | A | albelig | 27 | 27 | L | 324 | 324 | A-1322-  | A-1322-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = m = 4
+= 3 = m = 4
+= 3 = p = 5
+= 4 = m = 8
+= 4 = p = 9
+= 4 = m = 10
+= 5 = p = 7
+= 6 = a = 7
+= 6 = m = 9
+= 6 = l = 20
+= 8 = l = 20
+= 9 = a = 10
+= 9 = l = 20
+= 9 = l = 22
+= 9 = l = 26
+= 9 = l = 27
+= 10 = p = 14
+= 10 = a = 17
+= 10 = m = 18
+= 10 = l = 20
+= 10 = l = 22
+= 10 = l = 23
+= 10 = l = 26
+= 10 = l = 27
+= 13 = l = 21
+= 14 = a = 15
+= 15 = a = 16
+= 16 = m = 19
+= 17 = m = 18
+= 18 = a = 19
+= 20 = l = 21
+= 20 = l = 26
+= 20 = l = 27
+= 21 = l = 26
+= 21 = l = 27
+= 22 = l = 23
+= 26 = l = 27
+# Listed 39 contacts. EOF.

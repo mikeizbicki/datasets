@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kz1, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOFLAVIN BIOSYNTHESIS, LUMAZINE SYNTHASE, SCHIZOSACCHAROMYCESPOMBE, LIGAND BINDING, TRANSFERASE
+> pdb_mol_name > 6,7-DIMETHYL-8-RIBITYLLUMAZINE SYNTHASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 06-FEB-02
+> header > TRANSFERASE
+> pdb_org_common > FISSION YEAST
+> title > MUTANT ENZYME W27G LUMAZINE SYNTHASE FROM S.POMBE
+> format_version > 2
+> pdbid > 1kz1
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > SCHIZOSACCHAROMYCES POMBE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kz1 | C | albelig | 1 | 1 | H | 302 | 304 | C-10-  | C-12-  | PSD 
+| 1kz1 | C | albelig | 2 | 2 | E | 312 | 317 | C-20-  | C-25-  | ILIVHA 
+| 1kz1 | C | albelig | 3 | 3 | H | 321 | 339 | C-29-  | C-47-  | LQAIEPLVKGAVETMIEKH 
+| 1kz1 | C | albelig | 4 | 4 | H | 343 | 345 | C-51-  | C-53-  | LEN 
+| 1kz1 | C | albelig | 5 | 5 | E | 346 | 351 | C-54-  | C-59-  | IDIESV 
+| 1kz1 | C | albelig | 6 | 6 | H | 354 | 367 | C-62-  | C-75-  | SWELPQGIRASIAR 
+| 1kz1 | C | albelig | 7 | 7 | E | 372 | 380 | C-80-  | C-88-  | AVIGIGVLI 
+| 1kz1 | C | albelig | 8 | 8 | H | 386 | 405 | C-94-  | C-113-  | HFEYISEAVVHGLMRVGLDS 
+| 1kz1 | C | albelig | 9 | 9 | E | 409 | 416 | C-117-  | C-124-  | VILGLLTV 
+| 1kz1 | C | albelig | 10 | 10 | H | 419 | 425 | C-127-  | C-133-  | EEQALYR 
+| 1kz1 | C | albelig | 11 | 11 | H | 434 | 450 | C-142-  | C-158-  | HGNDWGSAAVEMGLKAL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = p = 5
+= 2 = a = 6
+= 2 = p = 7
+= 3 = m = 7
+= 3 = p = 11
+= 4 = m = 5
+= 6 = a = 7
+= 6 = p = 8
+= 7 = m = 8
+= 7 = p = 9
+= 8 = a = 9
+= 9 = m = 10
+= 9 = m = 11
+# Listed 14 contacts. EOF.

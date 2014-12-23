@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnt, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTICATALYTIC PROTEINASE, 20S PROTEASOME, PROTEINDEGRADATION, ANTIGEN PROCESSING, PROTEASE, PROTEASOMEACTIVATOR, CELL ADHESION, INTERFERON INDUCTION,HYDROLASE/HYDROLASE ACTIVATOR COMPLEX
+> pdb_mol_name > PROTEASOME COMPONENT PRE5
+> graphtype > albelig
+> resolution > 3.2
+> date > 23-AUG-00
+> header > HYDROLASE/HYDROLASE ACTIVATOR
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF THE 20S PROTEASOME FROM YEAST INCOMPLEX WITH THE PROTEASOME ACTIVATOR PA26 FROMTRYPANOSOME BRUCEI AT 3.2 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1fnt
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnt | T | albelig | 1 | 1 | H | 4416 | 4427 | T-20-  | T-31-  | FQVEYALEAIKQ 
+| 1fnt | T | albelig | 2 | 2 | E | 4431 | 4435 | T-35-  | T-39-  | TVGLR 
+| 1fnt | T | albelig | 3 | 3 | E | 4439 | 4445 | T-43-  | T-49-  | HAVLVAL 
+| 1fnt | T | albelig | 4 | 4 | E | 4459 | 4463 | T-63-  | T-67-  | IIKCD 
+| 1fnt | T | albelig | 5 | 5 | E | 4466 | 4472 | T-70-  | T-76-  | MGLSLAG 
+| 1fnt | T | albelig | 6 | 6 | H | 4474 | 4494 | T-78-  | T-98-  | APDARVLSNYLRQQCNYSSLV 
+| 1fnt | T | albelig | 7 | 7 | H | 4501 | 4514 | T-105-  | T-118-  | VERAGHLLCDKAQK 
+| 1fnt | T | albelig | 8 | 8 | E | 4526 | 4533 | T-130-  | T-137-  | VGLLIIGY 
+| 1fnt | T | albelig | 9 | 9 | E | 4538 | 4543 | T-142-  | T-147-  | AHLLEF 
+| 1fnt | T | albelig | 10 | 10 | E | 4549 | 4551 | T-153-  | T-155-  | VTE 
+| 1fnt | T | albelig | 11 | 11 | E | 4554 | 4557 | T-158-  | T-161-  | GTAI 
+| 1fnt | T | albelig | 12 | 12 | H | 4562 | 4575 | T-166-  | T-179-  | QGAKTYLERTLDTF 
+| 1fnt | T | albelig | 13 | 13 | H | 4582 | 4594 | T-186-  | T-198-  | PDELIKAGVEAIS 
+| 1fnt | T | albelig | 14 | 14 | E | 4607 | 4613 | T-211-  | T-217-  | LSIAIVG 
+| 1fnt | T | albelig | 15 | 15 | E | 4616 | 4622 | T-220-  | T-226-  | TPFTIYD 
+| 1fnt | T | albelig | 16 | 16 | H | 4623 | 4625 | T-227-  | T-229-  | GEA 
+| 1fnt | T | albelig | 17 | 17 | H | 4627 | 4629 | T-231-  | T-233-  | AKY 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 2 = a = 8
+= 2 = a = 9
+= 2 = a = 11
+= 3 = a = 8
+= 3 = a = 14
+= 4 = a = 5
+= 4 = m = 6
+= 4 = a = 15
+= 5 = a = 8
+= 8 = a = 9
+= 8 = a = 11
+= 9 = a = 10
+= 12 = m = 13
+= 13 = m = 17
+= 14 = a = 15
+= 15 = m = 16
+# Listed 18 contacts. EOF.

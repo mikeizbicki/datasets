@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ipw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SOLUBLE INORGANIC PYROPHOSPHATASE, HYDROLASE, MAGNESIUM
+> pdb_mol_name > SOLUBLE INORGANIC PYROPHOSPHATASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 04-MAR-96
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > INORGANIC PYROPHOSPHATASE FROM ESCHERICHIA COLI WITH THREE MAGNESIUMIONS
+> format_version > 2
+> pdbid > 1ipw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ipw | B | albelig | 1 | 1 | H | 173 | 175 | B-2-  | B-4-  | LLN 
+| 1ipw | B | albelig | 2 | 2 | E | 186 | 192 | B-15-  | B-21-  | IYVVIEI 
+| 1ipw | B | albelig | 3 | 3 | E | 199 | 203 | B-28-  | B-32-  | IKYEI 
+| 1ipw | B | albelig | 4 | 4 | E | 210 | 215 | B-39-  | B-44-  | LFVDRF 
+| 1ipw | B | albelig | 5 | 5 | E | 225 | 228 | B-54-  | B-57-  | NYGY 
+| 1ipw | B | albelig | 6 | 6 | E | 241 | 244 | B-70-  | B-73-  | DVLV 
+| 1ipw | B | albelig | 7 | 7 | E | 255 | 268 | B-84-  | B-97-  | VIRCRPVGVLKMTD 
+| 1ipw | B | albelig | 8 | 8 | E | 271 | 280 | B-100-  | B-109-  | GEDAKLVAVP 
+| 1ipw | B | albelig | 9 | 9 | H | 294 | 296 | B-123-  | B-125-  | VND 
+| 1ipw | B | albelig | 10 | 10 | H | 299 | 311 | B-128-  | B-140-  | ELLKAQIAHFFEH 
+| 1ipw | B | albelig | 11 | 11 | E | 321 | 327 | B-150-  | B-156-  | VKVEGWE 
+| 1ipw | B | albelig | 12 | 12 | H | 329 | 343 | B-158-  | B-172-  | AEAAKAEIVASFERA 
+| 1ipw | B | albelig | 13 | 13 | L | 346 | 346 | B-176-  | B-176-  | J 
+| 1ipw | B | albelig | 14 | 14 | L | 347 | 347 | B-177-  | B-177-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 2 = a = 7
+= 3 = a = 4
+= 5 = a = 6
+= 6 = p = 8
+= 6 = l = 13
+= 7 = a = 8
+= 7 = a = 11
+= 7 = m = 12
+= 8 = l = 13
+# Listed 11 contacts. EOF.

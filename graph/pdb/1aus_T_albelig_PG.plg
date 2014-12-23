@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aus, chain T.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE (CARBON-CARBON)
+> pdb_mol_name > RIBULOSE BISPHOSPHATE CARBOXYLASE/OXYGENASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 21-JUN-95
+> header > LYASE (CARBON-CARBON)
+> pdb_org_common > SPINACH
+> title > ACTIVATED UNLIGANDED SPINACH RUBISCO
+> format_version > 2
+> pdbid > 1aus
+> experiment > X-RAY DIFFRACTION
+> chainid > T
+> graphclass > protein graph
+> pdb_org_sci > SPINACIA OLERACEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aus | T | albelig | 1 | 1 | H | 1029 | 1042 | T-23-  | T-36-  | TDQLARQVDYLLNN 
+| 1aus | T | albelig | 2 | 2 | E | 1045 | 1051 | T-39-  | T-45-  | VPCLEFE 
+| 1aus | T | albelig | 3 | 3 | E | 1074 | 1076 | T-68-  | T-70-  | TMW 
+| 1aus | T | albelig | 4 | 4 | H | 1086 | 1099 | T-80-  | T-93-  | PAQVLNELEECKKE 
+| 1aus | T | albelig | 5 | 5 | E | 1104 | 1111 | T-98-  | T-105-  | FIRIIGFD 
+| 1aus | T | albelig | 6 | 6 | E | 1116 | 1124 | T-110-  | T-118-  | VQCISFIAY 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 3 = m = 4
+= 5 = a = 6
+# Listed 4 contacts. EOF.

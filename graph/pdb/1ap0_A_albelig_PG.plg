@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ap0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHROMATIN-BINDING, PROTEIN INTERACTION MOTIF, ALPHA+BETA
+> pdb_mol_name > MODIFIER PROTEIN 1
+> graphtype > albelig
+> resolution > -1.0
+> date > 22-JUL-97
+> header > CHROMATIN-BINDING
+> pdb_org_common > HOUSE MOUSE
+> title > STRUCTURE OF THE CHROMATIN BINDING (CHROMO) DOMAIN FROMMOUSE MODIFIER PROTEIN 1, NMR, 26 STRUCTURES
+> format_version > 2
+> pdbid > 1ap0
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ap0 | A | albelig | 1 | 1 | E | 15 | 24 | A-22-  | A-31-  | VVEKVLDRRV 
+| 1ap0 | A | albelig | 2 | 2 | E | 29 | 36 | A-36-  | A-43-  | VEYLLKWK 
+| 1ap0 | A | albelig | 3 | 3 | E | 44 | 47 | A-51-  | A-54-  | TWEP 
+| 1ap0 | A | albelig | 4 | 4 | H | 54 | 60 | A-61-  | A-67-  | PDLIAEF 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 2 = a = 3
+# Listed 3 contacts. EOF.

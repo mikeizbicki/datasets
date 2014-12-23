@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gmh, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE(SERINE PROTEINASE)
+> pdb_mol_name > GAMMA-CHYMOTRYPSIN A
+> graphtype > albelig
+> resolution > 2.1
+> date > 01-JUL-94
+> header > HYDROLASE(SERINE PROTEINASE)
+> pdb_org_common > CATTLE
+> title > REFINED CRYSTAL STRUCTURE OF "AGED" AND "NON-AGED"ORGANOPHOSPHORYL CONJUGATES OF GAMMA-CHYMOTRYPSIN
+> format_version > 2
+> pdbid > 1gmh
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gmh | G | albelig | 1 | 1 | E | 150 | 155 | G-156-  | G-161-  | QQASLP 
+| 1gmh | G | albelig | 2 | 2 | H | 159 | 169 | G-165-  | G-175-  | NTNDKKYWGTK 
+| 1gmh | G | albelig | 3 | 3 | E | 174 | 178 | G-180-  | G-184-  | MIDAG 
+| 1gmh | G | albelig | 4 | 4 | E | 192 | 197 | G-198-  | G-203-  | PLVCKK 
+| 1gmh | G | albelig | 5 | 5 | E | 200 | 209 | G-206-  | G-215-  | AWTLVGIVSW 
+| 1gmh | G | albelig | 6 | 6 | E | 219 | 224 | G-225-  | G-230-  | PGVYAR 
+| 1gmh | G | albelig | 7 | 7 | H | 225 | 227 | G-231-  | G-233-  | VTA 
+| 1gmh | G | albelig | 8 | 8 | H | 229 | 237 | G-235-  | G-243-  | VNWVQQTLA 
+| 1gmh | G | albelig | 9 | 9 | L | 241 | 241 | G-299-  | G-299-  | J 
+| 1gmh | G | albelig | 10 | 10 | L | 242 | 242 | G-290-  | G-290-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = l = 9
+= 2 = m = 3
+= 3 = a = 6
+= 4 = a = 5
+= 5 = a = 6
+= 5 = m = 7
+= 5 = l = 10
+= 6 = m = 7
+# Listed 9 contacts. EOF.

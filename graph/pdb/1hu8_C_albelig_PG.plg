@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hu8, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > P53, TUMOR SUPPRESSOR, DNA BINDING, DNA BINDING PROTEIN
+> pdb_mol_name > CELLULAR TUMOR ANTIGEN P53
+> graphtype > albelig
+> resolution > 2.7
+> date > 04-JAN-01
+> header > DNA BINDING PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE MOUSE P53 CORE DNA-BINDING DOMAINAT 2.7A RESOLUTION
+> format_version > 2
+> pdbid > 1hu8
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hu8 | C | albelig | 1 | 1 | E | 383 | 385 | C-107-  | C-109-  | HLG 
+| 1hu8 | C | albelig | 2 | 2 | E | 397 | 400 | C-121-  | C-124-  | CTYS 
+| 1hu8 | C | albelig | 3 | 3 | E | 405 | 408 | C-129-  | C-132-  | KLFC 
+| 1hu8 | C | albelig | 4 | 4 | E | 414 | 419 | C-138-  | C-143-  | CPVQLW 
+| 1hu8 | C | albelig | 5 | 5 | E | 429 | 436 | C-153-  | C-160-  | RVRAMAIY 
+| 1hu8 | C | albelig | 6 | 6 | H | 439 | 441 | C-163-  | C-165-  | SQH 
+| 1hu8 | C | albelig | 7 | 7 | H | 452 | 454 | C-176-  | C-178-  | HER 
+| 1hu8 | C | albelig | 8 | 8 | E | 468 | 471 | C-192-  | C-195-  | IRVE 
+| 1hu8 | C | albelig | 9 | 9 | E | 477 | 480 | C-201-  | C-204-  | EYLE 
+| 1hu8 | C | albelig | 10 | 10 | E | 487 | 492 | C-211-  | C-216-  | HSVVVP 
+| 1hu8 | C | albelig | 11 | 11 | E | 502 | 509 | C-226-  | C-233-  | YTTIHYKY 
+| 1hu8 | C | albelig | 12 | 12 | E | 524 | 528 | C-248-  | C-252-  | ILTII 
+| 1hu8 | C | albelig | 13 | 13 | E | 539 | 547 | C-263-  | C-271-  | GRDSFEVRV 
+| 1hu8 | C | albelig | 14 | 14 | H | 551 | 557 | C-275-  | C-281-  | PGRDRRT 
+| 1hu8 | C | albelig | 15 | 15 | L | 563 | 563 | C-503-  | C-503-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = a = 3
+= 3 = p = 13
+= 4 = a = 11
+= 5 = a = 10
+= 5 = a = 12
+= 7 = l = 15
+= 8 = a = 9
+= 8 = a = 11
+= 9 = a = 10
+= 12 = a = 13
+# Listed 11 contacts. EOF.

@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h2p, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNE SYSTEM PROTEIN, COMPLEMENT DECAY ACCELERATINGFACTOR, ENTEROVIRAL RECEPTOR, BACTERIAL RECEPTOR, LIGANDFOR CD97, COMPLEMENT PATHWAY, ALTERNATIVE SPLICING,GPI-ANCHOR
+> pdb_mol_name > COMPLEMENT DECAY-ACCELERATING FACTOR
+> graphtype > albelig
+> resolution > 2.8
+> date > 13-AUG-02
+> header > IMMUNE SYSTEM PROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN CD55 DOMAINS 3 & 4
+> format_version > 2
+> pdbid > 1h2p
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h2p | P | albelig | 1 | 1 | E | 12 | 15 | P-16-  | P-19-  | GQID 
+| 1h2p | P | albelig | 2 | 2 | E | 25 | 30 | P-29-  | P-34-  | TISFSN 
+| 1h2p | P | albelig | 3 | 3 | E | 34 | 37 | P-38-  | P-41-  | YKLF 
+| 1h2p | P | albelig | 4 | 4 | E | 41 | 45 | P-45-  | P-49-  | SSFAL 
+| 1h2p | P | albelig | 5 | 5 | E | 59 | 62 | P-63-  | P-66-  | ENRE 
+| 1h2p | P | albelig | 6 | 6 | E | 74 | 76 | P-78-  | P-80-  | GII 
+| 1h2p | P | albelig | 7 | 7 | E | 88 | 93 | P-92-  | P-97-  | SVTYAD 
+| 1h2p | P | albelig | 8 | 8 | E | 98 | 100 | P-102-  | P-104-  | TMI 
+| 1h2p | P | albelig | 9 | 9 | E | 104 | 109 | P-108-  | P-113-  | SIYCTV 
+| 1h2p | P | albelig | 10 | 10 | E | 114 | 116 | P-118-  | P-120-  | GEW 
+| 1h2p | P | albelig | 11 | 11 | E | 122 | 124 | P-126-  | P-128-  | EDR 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 2 = a = 5
+= 3 = a = 5
+= 6 = a = 7
+= 7 = a = 9
+= 7 = a = 11
+= 8 = a = 11
+= 9 = a = 10
+# Listed 9 contacts. EOF.

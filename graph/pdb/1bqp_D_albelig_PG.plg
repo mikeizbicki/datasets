@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bqp, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PEA LECTIN, D-MANNOPYRANOSE COMPLEX, CARBOHYDRATE BINDING, PLANTPROTEIN
+> pdb_mol_name > PROTEIN (LECTIN)
+> graphtype > albelig
+> resolution > 2.1
+> date > 17-AUG-98
+> header > PLANT PROTEIN
+> pdb_org_common > PEA
+> title > THE STRUCTURE OF THE PEA LECTIN-D-MANNOPYRANOSE COMPLEX
+> format_version > 2
+> pdbid > 1bqp
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > PISUM SATIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bqp | D | albelig | 1 | 1 | E | 414 | 421 | D-189-  | D-196-  | TSYTLSDV 
+| 1bqp | D | albelig | 2 | 2 | H | 424 | 427 | D-199-  | D-202-  | LKDV 
+| 1bqp | D | albelig | 3 | 3 | E | 431 | 439 | D-206-  | D-214-  | WVRIGFSAT 
+| 1bqp | D | albelig | 4 | 4 | E | 446 | 458 | D-221-  | D-233-  | AHEVLSWSFHSEL 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

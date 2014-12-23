@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g0b, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > EQUINE, HEMOGLOBIN, LIGANDED, CARBONMONOXY, PROTOPORPHYRIN IX, OXYGENSTORAGE-TRANSPORT COMPLEX
+> pdb_mol_name > HEMOGLOBIN BETA CHAIN
+> graphtype > albelig
+> resolution > 1.9
+> date > 05-OCT-00
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > HORSE
+> title > CARBONMONOXY LIGANDED EQUINE HEMOGLOBIN PH 8.5
+> format_version > 2
+> pdbid > 1g0b
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > EQUUS CABALLUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g0b | B | albelig | 1 | 1 | H | 147 | 157 | B-5-  | B-15-  | GEEKAAVLALW 
+| 1g0b | B | albelig | 2 | 2 | H | 162 | 176 | B-20-  | B-34-  | EEEVGGEALGRLLVV 
+| 1g0b | B | albelig | 3 | 3 | H | 178 | 183 | B-36-  | B-41-  | PWTQRF 
+| 1g0b | B | albelig | 4 | 4 | H | 185 | 187 | B-43-  | B-45-  | DSF 
+| 1g0b | B | albelig | 5 | 5 | H | 193 | 197 | B-51-  | B-55-  | PGAVM 
+| 1g0b | B | albelig | 6 | 6 | H | 200 | 218 | B-58-  | B-76-  | PKVKAHGKKVLHSFGEGVH 
+| 1g0b | B | albelig | 7 | 7 | H | 223 | 238 | B-81-  | B-96-  | LKGTFAALSELHCDKL 
+| 1g0b | B | albelig | 8 | 8 | H | 243 | 263 | B-101-  | B-121-  | ENFRLLGNVLVVVLARHFGKD 
+| 1g0b | B | albelig | 9 | 9 | H | 266 | 287 | B-124-  | B-145-  | PELQASYQKVVAGVANALAHKY 
+| 1g0b | B | albelig | 10 | 10 | L | 291 | 291 | B-147-  | B-147-  | J 
+| 1g0b | B | albelig | 11 | 11 | L | 292 | 292 | B-148-  | B-148-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 9
+= 2 = m = 3
+= 2 = m = 5
+= 2 = a = 6
+= 2 = m = 8
+= 2 = l = 10
+= 2 = l = 11
+= 3 = l = 10
+= 4 = l = 10
+= 6 = m = 7
+= 6 = l = 10
+= 6 = l = 11
+= 7 = p = 9
+= 7 = l = 10
+= 7 = l = 11
+= 8 = a = 9
+= 8 = l = 10
+= 8 = l = 11
+= 9 = l = 10
+= 10 = l = 11
+# Listed 21 contacts. EOF.

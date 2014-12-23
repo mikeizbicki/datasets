@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jrr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERPIN, PEPTIDE BINDING, PEPTIDE BINDING PROTEIN
+> pdb_mol_name > PLASMINOGEN ACTIVATOR INHIBITOR-2
+> graphtype > albelig
+> resolution > 1.6
+> date > 15-AUG-01
+> header > PEPTIDE BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > HUMAN PLASMINOGEN ACTIVATOR INHIBITOR-2.[LOOP (66-98)DELETIONMUTANT] COMPLEXED WITH PEPTIDE MIMICKING THEREACTIVE CENTER LOOP
+> format_version > 2
+> pdbid > 1jrr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jrr | A | albelig | 1 | 1 | H | 5 | 21 | A-6-  | A-22-  | VANTLFALNLFKHLAKA 
+| 1jrr | A | albelig | 2 | 2 | E | 27 | 29 | A-28-  | A-30-  | LFL 
+| 1jrr | A | albelig | 3 | 3 | H | 31 | 44 | A-32-  | A-45-  | PWSISSTMAMVYMG 
+| 1jrr | A | albelig | 4 | 4 | H | 47 | 57 | A-48-  | A-58-  | GSTEDQMAKVL 
+| 1jrr | A | albelig | 5 | 5 | H | 63 | 75 | A-103-  | A-115-  | IHSSFRSLSSAIN 
+| 1jrr | A | albelig | 6 | 6 | E | 82 | 92 | A-122-  | A-132-  | LLESVNKLFGE 
+| 1jrr | A | albelig | 7 | 7 | H | 99 | 109 | A-139-  | A-149-  | EEYIRLCQKYY 
+| 1jrr | A | albelig | 8 | 8 | E | 114 | 116 | A-154-  | A-156-  | QAV 
+| 1jrr | A | albelig | 9 | 9 | H | 118 | 136 | A-158-  | A-176-  | FLECAEEARKKINSWVKTQ 
+| 1jrr | A | albelig | 10 | 10 | E | 154 | 165 | A-194-  | A-205-  | TRMVLVNAVYFK 
+| 1jrr | A | albelig | 11 | 11 | E | 178 | 182 | A-221-  | A-225-  | PFRVN 
+| 1jrr | A | albelig | 12 | 12 | E | 185 | 188 | A-228-  | A-231-  | QRTP 
+| 1jrr | A | albelig | 13 | 13 | E | 191 | 203 | A-234-  | A-246-  | MMYLREKLNIGYI 
+| 1jrr | A | albelig | 14 | 14 | H | 204 | 206 | A-247-  | A-249-  | EDL 
+| 1jrr | A | albelig | 15 | 15 | E | 208 | 214 | A-251-  | A-257-  | AQILELP 
+| 1jrr | A | albelig | 16 | 16 | E | 219 | 226 | A-262-  | A-269-  | VSMFLLLP 
+| 1jrr | A | albelig | 17 | 17 | H | 235 | 240 | A-280-  | A-285-  | ELLESE 
+| 1jrr | A | albelig | 18 | 18 | H | 243 | 250 | A-288-  | A-295-  | YDKLNKWT 
+| 1jrr | A | albelig | 19 | 19 | E | 256 | 265 | A-301-  | A-310-  | AEDEVEVYIP 
+| 1jrr | A | albelig | 20 | 20 | E | 267 | 274 | A-312-  | A-319-  | FKLEEHYE 
+| 1jrr | A | albelig | 21 | 21 | H | 276 | 282 | A-321-  | A-327-  | RSILRSM 
+| 1jrr | A | albelig | 22 | 22 | H | 286 | 288 | A-331-  | A-333-  | DAF 
+| 1jrr | A | albelig | 23 | 23 | E | 304 | 317 | A-349-  | A-362-  | LFLSEVFHQAMVDV 
+| 1jrr | A | albelig | 24 | 24 | E | 333 | 335 | A-387-  | A-389-  | QFV 
+| 1jrr | A | albelig | 25 | 25 | E | 340 | 346 | A-394-  | A-400-  | FLFLIMH 
+| 1jrr | A | albelig | 26 | 26 | E | 351 | 358 | A-405-  | A-412-  | AILFFGRF 
+| 1jrr | A | albelig | 27 | 27 | L | 378 | 378 | A-561-  | A-561-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 21
+= 2 = a = 20
+= 2 = a = 23
+= 2 = a = 26
+= 3 = m = 4
+= 3 = a = 5
+= 3 = m = 7
+= 3 = m = 10
+= 3 = m = 26
+= 4 = m = 22
+= 5 = m = 6
+= 5 = m = 7
+= 6 = p = 8
+= 6 = a = 9
+= 6 = a = 10
+= 9 = p = 10
+= 9 = l = 27
+= 11 = a = 12
+= 13 = m = 14
+= 13 = a = 15
+= 13 = a = 19
+= 15 = a = 16
+= 15 = p = 24
+= 16 = p = 24
+= 16 = a = 25
+= 19 = p = 24
+= 20 = a = 23
+= 21 = m = 22
+= 22 = m = 23
+= 25 = a = 26
+# Listed 31 contacts. EOF.

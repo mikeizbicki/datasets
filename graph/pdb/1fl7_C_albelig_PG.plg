@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fl7, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYSTEINE KNOT, HETERODIMER, HORMONE-GROWTH FACTOR COMPLEX
+> pdb_mol_name > FOLLICLE STIMULATING PROTEIN ALPHA CHAIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 11-AUG-00
+> header > HORMONE/GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > HUMAN FOLLICLE STIMULATING HORMONE
+> format_version > 2
+> pdbid > 1fl7
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fl7 | C | albelig | 1 | 1 | E | 201 | 204 | C-11-  | C-14-  | TLQE 
+| 1fl7 | C | albelig | 2 | 2 | E | 216 | 228 | C-26-  | C-38-  | LQNMGLCFSRAYP 
+| 1fl7 | C | albelig | 3 | 3 | H | 231 | 235 | C-41-  | C-45-  | LRSKK 
+| 1fl7 | C | albelig | 4 | 4 | E | 243 | 247 | C-53-  | C-57-  | VTSES 
+| 1fl7 | C | albelig | 5 | 5 | E | 249 | 259 | C-59-  | C-69-  | PMVAKSYNRVT 
+| 1fl7 | C | albelig | 6 | 6 | H | 261 | 263 | C-71-  | C-73-  | MGG 
+| 1fl7 | C | albelig | 7 | 7 | E | 265 | 275 | C-75-  | C-85-  | KVENHTANHCS 
+| 1fl7 | C | albelig | 8 | 8 | L | 397 | 397 | C-152-  | C-152-  | J 
+| 1fl7 | C | albelig | 9 | 9 | L | 398 | 398 | C-252-  | C-252-  | J 
+| 1fl7 | C | albelig | 10 | 10 | L | 399 | 399 | C-178-  | C-178-  | J 
+| 1fl7 | C | albelig | 11 | 11 | L | 400 | 400 | C-278-  | C-278-  | J 
+| 1fl7 | C | albelig | 12 | 12 | L | 401 | 401 | C-378-  | C-378-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 7
+= 2 = a = 4
+= 2 = a = 5
+= 2 = p = 7
+= 2 = l = 10
+= 3 = l = 8
+= 5 = a = 7
+= 5 = l = 10
+= 7 = l = 10
+= 8 = l = 9
+= 10 = l = 11
+= 10 = l = 12
+= 11 = l = 12
+# Listed 14 contacts. EOF.

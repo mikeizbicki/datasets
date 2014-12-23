@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jyo, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SALMONELLA, BACTERIAL PATHOGENESIS, INFECTIOUS DISEASE,VIRULENCE FACTOR, TYPE III SECRETION, CHAPERONE, UNFOLDED,PROTEIN FOLDING, SPTP, SICP
+> pdb_mol_name > SICP
+> graphtype > albelig
+> resolution > 1.9
+> date > 12-SEP-01
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE SALMONELLA VIRULENCE EFFECTOR SPTP INCOMPLEX WITH ITS SECRETION CHAPERONE SICP
+> format_version > 2
+> pdbid > 1jyo
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > SALMONELLA TYPHIMURIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jyo | D | albelig | 1 | 1 | H | 395 | 408 | D-2-  | D-15-  | QAHQDIIANIGEKL 
+| 1jyo | D | albelig | 2 | 2 | E | 419 | 424 | D-26-  | D-31-  | QCLLLL 
+| 1jyo | D | albelig | 3 | 3 | E | 428 | 435 | D-35-  | D-42-  | IFTSIEAK 
+| 1jyo | D | albelig | 4 | 4 | E | 438 | 447 | D-45-  | D-54-  | IWLLNGMIIP 
+| 1jyo | D | albelig | 5 | 5 | H | 454 | 469 | D-61-  | D-76-  | DSIWRQIMVINGELAA 
+| 1jyo | D | albelig | 6 | 6 | E | 474 | 478 | D-81-  | D-85-  | TLAYI 
+| 1jyo | D | albelig | 7 | 7 | E | 483 | 490 | D-90-  | D-97-  | TLLLIHAI 
+| 1jyo | D | albelig | 8 | 8 | H | 496 | 520 | D-103-  | D-127-  | TYHIISQLESFVNQQEALKNILQEY 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 2 = a = 3
+= 3 = a = 4
+= 3 = m = 8
+= 4 = a = 7
+= 4 = p = 8
+= 5 = m = 6
+= 5 = a = 8
+= 6 = a = 7
+= 7 = a = 8
+# Listed 10 contacts. EOF.

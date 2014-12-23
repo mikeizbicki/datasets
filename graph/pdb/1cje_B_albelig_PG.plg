@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cje, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT PROTEIN, IRON SULFUR PROTEIN, 2FE-2SFERREDOXIN
+> pdb_mol_name > ADRENODOXIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 12-APR-99
+> header > ELECTRON TRANSPORT
+> pdb_org_common > CATTLE
+> title > ADRENODOXIN FROM BOVINE
+> format_version > 2
+> pdbid > 1cje
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cje | B | albelig | 1 | 1 | E | 110 | 115 | B-7-  | B-12-  | ITVHFI 
+| 1cje | B | albelig | 2 | 2 | E | 121 | 126 | B-18-  | B-23-  | TLTTKG 
+| 1cje | B | albelig | 3 | 3 | H | 132 | 138 | B-29-  | B-35-  | LLDVVVQ 
+| 1cje | B | albelig | 4 | 4 | E | 159 | 161 | B-56-  | B-58-  | HLI 
+| 1cje | B | albelig | 5 | 5 | H | 164 | 167 | B-61-  | B-64-  | QHIF 
+| 1cje | B | albelig | 6 | 6 | H | 175 | 181 | B-72-  | B-78-  | DEENDML 
+| 1cje | B | albelig | 7 | 7 | E | 191 | 193 | B-88-  | B-90-  | SRL 
+| 1cje | B | albelig | 8 | 8 | H | 194 | 196 | B-91-  | B-93-  | GCQ 
+| 1cje | B | albelig | 9 | 9 | H | 201 | 203 | B-98-  | B-100-  | KAM 
+| 1cje | B | albelig | 10 | 10 | E | 206 | 209 | B-103-  | B-106-  | MTVR 
+| 1cje | B | albelig | 11 | 11 | L | 431 | 431 | B-350-  | B-350-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 10
+= 3 = l = 11
+= 4 = a = 7
+= 4 = a = 10
+= 6 = m = 7
+= 6 = l = 11
+= 7 = m = 8
+= 7 = l = 11
+= 8 = l = 11
+# Listed 10 contacts. EOF.

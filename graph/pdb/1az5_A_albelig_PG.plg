@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1az5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HIV, AIDS, PROTEINASE, ASPARTYL PROTEASE, ENDONUCLEASE
+> pdb_mol_name > SIV PROTEASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 25-NOV-97
+> header > ASPARTYL PROTEASE
+> pdb_org_common > UNKNOWN
+> title > UNLIGANDED SIV PROTEASE STRUCTURE IN AN "OPEN" CONFORMATION
+> format_version > 2
+> pdbid > 1az5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SIMIAN IMMUNODEFICIENCY VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1az5 | A | albelig | 1 | 1 | E | 10 | 15 | A-10-  | A-15-  | VVTAHI 
+| 1az5 | A | albelig | 2 | 2 | E | 18 | 24 | A-18-  | A-24-  | QPVEVLL 
+| 1az5 | A | albelig | 3 | 3 | E | 43 | 46 | A-43-  | A-46-  | TPKI 
+| 1az5 | A | albelig | 4 | 4 | E | 52 | 63 | A-55-  | A-66-  | NTKEYKNVEVEV 
+| 1az5 | A | albelig | 5 | 5 | E | 66 | 74 | A-69-  | A-77-  | KRIKGTIMT 
+| 1az5 | A | albelig | 6 | 6 | H | 84 | 89 | A-87-  | A-92-  | RNLLTA 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 3 = a = 4
+= 4 = a = 5
+# Listed 4 contacts. EOF.

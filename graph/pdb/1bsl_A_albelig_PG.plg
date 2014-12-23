@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bsl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOTOPROTEIN, LUMINESCENCE, OXIDOREDUCTASE, MONOOXYGENASE,FLAVOPROTEIN, FMN
+> pdb_mol_name > BACTERIAL LUCIFERASE
+> graphtype > albelig
+> resolution > 1.95
+> date > 22-OCT-96
+> header > FLAVOPROTEIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF ALKANAL MONOOXYGENASE BETA CHAIN
+> format_version > 2
+> pdbid > 1bsl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > VIBRIO HARVEYI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bsl | A | albelig | 1 | 1 | E | 3 | 7 | A-3-  | A-7-  | FGLFF 
+| 1bsl | A | albelig | 2 | 2 | H | 17 | 32 | A-17-  | A-32-  | SDQVIEEMLDTAHYVD 
+| 1bsl | A | albelig | 3 | 3 | E | 38 | 41 | A-38-  | A-41-  | TLAV 
+| 1bsl | A | albelig | 4 | 4 | H | 55 | 64 | A-55-  | A-64-  | PLTVAGFLLG 
+| 1bsl | A | albelig | 5 | 5 | E | 70 | 77 | A-70-  | A-77-  | KVASLNHV 
+| 1bsl | A | albelig | 6 | 6 | H | 83 | 96 | A-83-  | A-96-  | PVRVAEEACLLDQM 
+| 1bsl | A | albelig | 7 | 7 | E | 101 | 106 | A-101-  | A-106-  | FAFGFS 
+| 1bsl | A | albelig | 8 | 8 | H | 112 | 115 | A-112-  | A-115-  | ADMR 
+| 1bsl | A | albelig | 9 | 9 | H | 124 | 141 | A-124-  | A-141-  | QFQLFSECHKIINDAFTT 
+| 1bsl | A | albelig | 10 | 10 | E | 170 | 173 | A-170-  | A-173-  | QFVN 
+| 1bsl | A | albelig | 11 | 11 | H | 177 | 185 | A-177-  | A-185-  | KEVVEWAAK 
+| 1bsl | A | albelig | 12 | 12 | E | 190 | 192 | A-190-  | A-192-  | LVF 
+| 1bsl | A | albelig | 13 | 13 | H | 198 | 214 | A-198-  | A-214-  | NAQRKEYAGLYHEVAQA 
+| 1bsl | A | albelig | 14 | 14 | H | 219 | 221 | A-219-  | A-221-  | VSQ 
+| 1bsl | A | albelig | 15 | 15 | E | 225 | 232 | A-225-  | A-232-  | KLTLLVNQ 
+| 1bsl | A | albelig | 16 | 16 | H | 236 | 254 | A-236-  | A-254-  | GEAARAEARVYLEEFVRES 
+| 1bsl | A | albelig | 17 | 17 | H | 260 | 270 | A-260-  | A-270-  | FEQKMGELLSE 
+| 1bsl | A | albelig | 18 | 18 | E | 272 | 274 | A-272-  | A-274-  | AIG 
+| 1bsl | A | albelig | 19 | 19 | H | 276 | 290 | A-276-  | A-290-  | YEESTQAARVAIECC 
+| 1bsl | A | albelig | 20 | 20 | E | 294 | 298 | A-294-  | A-298-  | DLLMS 
+| 1bsl | A | albelig | 21 | 21 | H | 305 | 322 | A-305-  | A-322-  | KAQQRAVIDVVNANIVKY 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 20
+= 3 = p = 5
+= 4 = m = 6
+= 5 = p = 7
+= 5 = p = 10
+= 6 = p = 9
+= 7 = p = 10
+= 9 = m = 11
+= 10 = a = 12
+= 11 = p = 13
+= 12 = m = 13
+= 12 = p = 15
+= 13 = m = 19
+= 15 = p = 18
+= 15 = p = 20
+= 16 = m = 17
+= 16 = m = 18
+= 17 = m = 18
+= 18 = m = 19
+# Listed 20 contacts. EOF.

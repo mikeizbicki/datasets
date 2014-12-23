@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bjj, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PRESYNAPTIC NEUROTOXIN, PHOSPHOLIPASE A2, HYDROLASE
+> pdb_mol_name > AGKISTRODOTOXIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 25-JUN-98
+> header > PRESYNAPTIC NEUROTOXIN
+> pdb_org_common > HALYS VIPER
+> title > AGKISTRODOTOXIN, A PHOSPHOLIPASE A2-TYPE PRESYNAPTICNEUROTOXIN FROM AGKISTRODON HALYS PALLAS
+> format_version > 2
+> pdbid > 1bjj
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > GLOYDIUS HALYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bjj | C | albelig | 1 | 1 | H | 248 | 259 | C-2-  | C-14-  | LLQFNKMIKEET 
+| 1bjj | C | albelig | 2 | 2 | H | 263 | 266 | C-18-  | C-21-  | AIPF 
+| 1bjj | C | albelig | 3 | 3 | H | 285 | 298 | C-40-  | C-53-  | GTDRQPFVHDRSYG 
+| 1bjj | C | albelig | 4 | 4 | E | 312 | 314 | C-75-  | C-77-  | YSL 
+| 1bjj | C | albelig | 5 | 5 | E | 319 | 321 | C-82-  | C-84-  | ITC 
+| 1bjj | C | albelig | 6 | 6 | H | 326 | 344 | C-90-  | C-108-  | NTEEQICESDRVAAEQFRR 
+| 1bjj | C | albelig | 7 | 7 | H | 346 | 348 | C-110-  | C-112-  | LDT 
+| 1bjj | C | albelig | 8 | 8 | H | 358 | 360 | C-122-  | C-125-  | DSK 
+| 1bjj | C | albelig | 9 | 9 | L | 741 | 741 | C-134-  | C-134-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 6
+= 3 = a = 6
+= 4 = a = 5
+= 5 = m = 6
+= 6 = l = 9
+# Listed 5 contacts. EOF.

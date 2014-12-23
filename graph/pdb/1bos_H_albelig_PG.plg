@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bos, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TOXIN, RECEPTOR BINDING, PROTEIN-CARBOHYDRATE RECOGNITION,OB-FOLD
+> pdb_mol_name > SHIGA-LIKE TOXIN I B SUBUNIT
+> graphtype > albelig
+> resolution > 2.8
+> date > 13-JAN-98
+> header > TOXIN
+> pdb_org_common > ,
+> title > SHIGA-LIKE TOXIN COMPLEXED WITH ITS RECEPTOR
+> format_version > 2
+> pdbid > 1bos
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > PHAGE H30, ENTEROBACTERIA PHAGE H-19B
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bos | H | albelig | 1 | 1 | E | 493 | 504 | H-2303-  | H-2314-  | DHVTGKVEYTKY 
+| 1bos | H | albelig | 2 | 2 | E | 510 | 514 | H-2320-  | H-2324-  | FTVKV 
+| 1bos | H | albelig | 3 | 3 | E | 517 | 521 | H-2327-  | H-2331-  | KELFT 
+| 1bos | H | albelig | 4 | 4 | H | 526 | 535 | H-2336-  | H-2345-  | LQSLLLSAQI 
+| 1bos | H | albelig | 5 | 5 | E | 539 | 543 | H-2349-  | H-2353-  | TVTIK 
+| 1bos | H | albelig | 6 | 6 | E | 555 | 558 | H-2365-  | H-2368-  | EVIF 
+| 1bos | H | albelig | 7 | 7 | L | 1451 | 1451 | H-2390-  | H-2390-  | J 
+| 1bos | H | albelig | 8 | 8 | L | 1452 | 1452 | H-2391-  | H-2391-  | J 
+| 1bos | H | albelig | 9 | 9 | L | 1453 | 1453 | H-2392-  | H-2392-  | J 
+| 1bos | H | albelig | 10 | 10 | L | 1454 | 1454 | H-2380-  | H-2380-  | J 
+| 1bos | H | albelig | 11 | 11 | L | 1455 | 1455 | H-2381-  | H-2381-  | J 
+| 1bos | H | albelig | 12 | 12 | L | 1456 | 1456 | H-2370-  | H-2370-  | J 
+| 1bos | H | albelig | 13 | 13 | L | 1457 | 1457 | H-2371-  | H-2371-  | J 
+| 1bos | H | albelig | 14 | 14 | L | 1458 | 1458 | H-2372-  | H-2372-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = a = 5
+= 1 = l = 12
+= 2 = a = 3
+= 2 = l = 12
+= 3 = l = 7
+= 3 = l = 12
+= 3 = l = 13
+= 4 = l = 10
+= 5 = a = 6
+= 7 = l = 8
+= 7 = l = 9
+= 8 = l = 9
+= 10 = l = 11
+= 12 = l = 13
+= 12 = l = 14
+= 13 = l = 14
+# Listed 18 contacts. EOF.

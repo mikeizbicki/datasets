@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hef, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > HIV-1 PROTEASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 21-SEP-92
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURES AT 2.2 ANGSTROMS RESOLUTION OF HYDROXYETHYLENE-BASED INHIBITORS BOUND TO HUMAN IMMUNODEFICIENCY VIRUS TYPE 1PROTEASE SHOW THAT THE INHIBITORS ARE PRESENT IN TWO DISTINCTORIENTATIONS
+> format_version > 2
+> pdbid > 1hef
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hef | E | albelig | 1 | 1 | E | 10 | 15 | E-10-  | E-15-  | LVTIKI 
+| 1hef | E | albelig | 2 | 2 | E | 18 | 24 | E-18-  | E-24-  | QLKEALL 
+| 1hef | E | albelig | 3 | 3 | E | 32 | 34 | E-32-  | E-34-  | VLE 
+| 1hef | E | albelig | 4 | 4 | E | 43 | 48 | E-43-  | E-48-  | KPKMIG 
+| 1hef | E | albelig | 5 | 5 | E | 53 | 66 | E-53-  | E-66-  | FIKVRQYDQILIEI 
+| 1hef | E | albelig | 6 | 6 | E | 69 | 78 | E-69-  | E-78-  | HKAIGTVLVG 
+| 1hef | E | albelig | 7 | 7 | H | 87 | 92 | E-87-  | E-92-  | RNLLTQ 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 3 = p = 6
+= 4 = a = 5
+= 5 = a = 6
+# Listed 5 contacts. EOF.

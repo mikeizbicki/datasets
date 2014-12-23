@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1azn, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT(COPPER BINDING)
+> pdb_mol_name > AZURIN
+> graphtype > albelig
+> resolution > 2.6
+> date > 27-MAY-94
+> header > ELECTRON TRANSPORT(COPPER BINDING)
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE AZURIN MUTANT PHE114ALA FROMPSEUDOMONAS AERUGINOSA AT 2.6 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1azn
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1azn | C | albelig | 1 | 1 | E | 262 | 266 | C-4-  | C-8-  | SVDIQ 
+| 1azn | C | albelig | 2 | 2 | E | 277 | 279 | C-19-  | C-21-  | AIT 
+| 1azn | C | albelig | 3 | 3 | E | 287 | 292 | C-29-  | C-34-  | FTVNLS 
+| 1azn | C | albelig | 4 | 4 | H | 299 | 302 | C-41-  | C-44-  | KNVM 
+| 1azn | C | albelig | 5 | 5 | E | 307 | 310 | C-49-  | C-52-  | VLST 
+| 1azn | C | albelig | 6 | 6 | H | 314 | 322 | C-56-  | C-64-  | MQGVVTDGM 
+| 1azn | C | albelig | 7 | 7 | H | 326 | 328 | C-68-  | C-70-  | LDK 
+| 1azn | C | albelig | 8 | 8 | E | 350 | 355 | C-92-  | C-97-  | KDSVTF 
+| 1azn | C | albelig | 9 | 9 | H | 357 | 359 | C-99-  | C-101-  | VSK 
+| 1azn | C | albelig | 10 | 10 | E | 366 | 369 | C-108-  | C-111-  | YMFF 
+| 1azn | C | albelig | 11 | 11 | E | 380 | 384 | C-122-  | C-126-  | KGTLT 
+| 1azn | C | albelig | 12 | 12 | L | 518 | 518 | C-200-  | C-200-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 11
+= 3 = a = 8
+= 5 = a = 10
+= 10 = a = 11
+# Listed 5 contacts. EOF.

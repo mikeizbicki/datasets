@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gtd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SYNTHETASE, FGAM SYNTHETASE, PURINE SYNTHESIS PATHWAY, PSI,PROTEIN STRUCTURE INITIATIVE, NESG, NORTHEAST STRUCTURALGENOMICS CONSORTIUM, LIGASE
+> pdb_mol_name > MTH169
+> graphtype > albelig
+> resolution > 2.56
+> date > 14-JAN-02
+> header > LIGASE
+> pdb_org_common > UNKNOWN
+> title > NORTHEAST STRUCTURAL GENOMICS CONSORTIUM (NESG ID TT50)STRUCTURE OF MTH169, THE PURS SUBUNIT OF FGAM SYNTHETASE
+> format_version > 2
+> pdbid > 1gtd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > METHANOBACTERIUM THERMOAUTOTROPHICUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gtd | A | albelig | 1 | 1 | E | 2 | 10 | A-3-  | A-11-  | FXVEVRIRL 
+| 1gtd | A | albelig | 2 | 2 | H | 17 | 29 | A-18-  | A-30-  | PEAATIERALALL 
+| 1gtd | A | albelig | 3 | 3 | E | 34 | 46 | A-35-  | A-47-  | EDTDTTDVITFTX 
+| 1gtd | A | albelig | 4 | 4 | H | 51 | 66 | A-52-  | A-67-  | LEAVEREVEDXCQRLL 
+| 1gtd | A | albelig | 5 | 5 | E | 72 | 80 | A-73-  | A-81-  | HDYDVSINE 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 4
+= 1 = a = 5
+= 2 = m = 3
+= 4 = a = 5
+# Listed 5 contacts. EOF.

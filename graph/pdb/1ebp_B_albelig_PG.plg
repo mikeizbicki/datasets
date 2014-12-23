@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ebp, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ERYTHROPOIETIN RECEPTOR, SIGNAL TRANSDUCTION, PROTEINMINIMIZATION, DRUG DESIGN, CYTOKINE RECEPTOR CLASS 1,COMPLEX (CYTOKINE RECEPTOR/PEPTIDE)
+> pdb_mol_name > EPO RECEPTOR
+> graphtype > albelig
+> resolution > 2.8
+> date > 07-MAY-96
+> header > COMPLEX (CYTOKINE RECEPTOR/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > COMPLEX BETWEEN THE EXTRACELLULAR DOMAIN OF ERYTHROPOIETIN(EPO) RECEPTOR [EBP] AND AN AGONIST PEPTIDE [EMP1]
+> format_version > 2
+> pdbid > 1ebp
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ebp | B | albelig | 1 | 1 | H | 214 | 221 | B-11-  | B-18-  | FESKAALL 
+| 1ebp | B | albelig | 2 | 2 | E | 230 | 232 | B-27-  | B-29-  | LCF 
+| 1ebp | B | albelig | 3 | 3 | E | 239 | 245 | B-36-  | B-42-  | LVCFWEE 
+| 1ebp | B | albelig | 4 | 4 | H | 253 | 255 | B-50-  | B-52-  | PGN 
+| 1ebp | B | albelig | 5 | 5 | E | 256 | 262 | B-53-  | B-59-  | YSFSYQL 
+| 1ebp | B | albelig | 6 | 6 | E | 268 | 270 | B-65-  | B-67-  | KLD 
+| 1ebp | B | albelig | 7 | 7 | E | 274 | 276 | B-71-  | B-73-  | QAP 
+| 1ebp | B | albelig | 8 | 8 | E | 282 | 288 | B-79-  | B-85-  | VRFWDSL 
+| 1ebp | B | albelig | 9 | 9 | H | 290 | 292 | B-87-  | B-89-  | TAD 
+| 1ebp | B | albelig | 10 | 10 | E | 298 | 305 | B-95-  | B-102-  | PLELRVTA 
+| 1ebp | B | albelig | 11 | 11 | E | 310 | 317 | B-107-  | B-114-  | PRYHRVIH 
+| 1ebp | B | albelig | 12 | 12 | H | 318 | 320 | B-115-  | B-117-  | INE 
+| 1ebp | B | albelig | 13 | 13 | E | 328 | 334 | B-125-  | B-131-  | VGLVARL 
+| 1ebp | B | albelig | 14 | 14 | E | 341 | 346 | B-138-  | B-143-  | VVLRWL 
+| 1ebp | B | albelig | 15 | 15 | H | 354 | 356 | B-151-  | B-153-  | TSH 
+| 1ebp | B | albelig | 16 | 16 | E | 357 | 365 | B-154-  | B-162-  | IRYEVDVSA 
+| 1ebp | B | albelig | 17 | 17 | E | 374 | 377 | B-171-  | B-174-  | RVEI 
+| 1ebp | B | albelig | 18 | 18 | E | 383 | 386 | B-180-  | B-183-  | ECVL 
+| 1ebp | B | albelig | 19 | 19 | E | 395 | 403 | B-192-  | B-200-  | YTFAVRARM 
+| 1ebp | B | albelig | 20 | 20 | E | 419 | 421 | B-216-  | B-218-  | VSL 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 8
+= 4 = m = 5
+= 5 = a = 6
+= 5 = a = 10
+= 7 = p = 8
+= 10 = a = 11
+= 11 = m = 12
+= 13 = a = 14
+= 13 = p = 20
+= 14 = a = 18
+= 15 = m = 16
+= 16 = a = 17
+= 16 = a = 19
+= 19 = a = 20
+# Listed 15 contacts. EOF.

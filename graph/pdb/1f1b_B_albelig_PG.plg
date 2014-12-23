@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f1b, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ASPARTATE TRANSCARBAMOYLASE, ASPARTATE CARBAMOYLTRANSFERASE, CIS-PROLINE, CIS-AMINO ACID, TRANSFERASE
+> pdb_mol_name > ASPARTATE CARBAMOYLTRANSFERASE REGULATORY CHAIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 18-MAY-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF E. COLI ASPARTATE TRANSCARBAMOYLASE P268A MUTANTIN THE R-STATE IN THE PRESENCE OF N-PHOSPHONACETYL-L-ASPARTATE
+> format_version > 2
+> pdbid > 1f1b
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f1b | B | albelig | 1 | 1 | E | 327 | 330 | B-16-  | B-19-  | TVID 
+| 1f1b | B | albelig | 2 | 2 | H | 336 | 343 | B-25-  | B-32-  | IGFKLLSL 
+| 1f1b | B | albelig | 3 | 3 | E | 353 | 357 | B-42-  | B-46-  | ITIGL 
+| 1f1b | B | albelig | 4 | 4 | E | 369 | 372 | B-58-  | B-61-  | LIKI 
+| 1f1b | B | albelig | 5 | 5 | H | 379 | 387 | B-68-  | B-76-  | EDQVDQLAL 
+| 1f1b | B | albelig | 6 | 6 | E | 393 | 396 | B-82-  | B-85-  | TVNR 
+| 1f1b | B | albelig | 7 | 7 | E | 413 | 415 | B-102-  | B-104-  | RID 
+| 1f1b | B | albelig | 8 | 8 | H | 426 | 429 | B-115-  | B-118-  | ISHA 
+| 1f1b | B | albelig | 9 | 9 | E | 435 | 441 | B-124-  | B-130-  | SFAVRKR 
+| 1f1b | B | albelig | 10 | 10 | E | 444 | 449 | B-133-  | B-138-  | DIALKC 
+| 1f1b | B | albelig | 11 | 11 | E | 455 | 457 | B-144-  | B-146-  | EFS 
+| 1f1b | B | albelig | 12 | 12 | L | 931 | 931 | B-313-  | B-313-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 3 = a = 4
+= 7 = a = 9
+= 8 = l = 12
+= 9 = a = 10
+= 10 = a = 11
+= 10 = l = 12
+= 11 = l = 12
+# Listed 9 contacts. EOF.

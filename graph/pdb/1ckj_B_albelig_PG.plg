@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ckj, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN KINASE, PHOSPHOTRANSFERASE
+> pdb_mol_name > RECOMBINANT CASEIN KINASE I DELTA
+> graphtype > albelig
+> resolution > 2.46
+> date > 25-AUG-95
+> header > PHOSPHOTRANSFERASE
+> pdb_org_common > NORWAY RAT
+> title > CASEIN KINASE I DELTA TRUNCATION MUTANT CONTAINING RESIDUES1-317 COMPLEX WITH BOUND TUNGSTATE
+> format_version > 2
+> pdbid > 1ckj
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ckj | B | albelig | 1 | 1 | E | 306 | 315 | B-12-  | B-21-  | YRLGRKIGSG 
+| 1ckj | B | albelig | 2 | 2 | E | 318 | 325 | B-24-  | B-31-  | GDIYLGTD 
+| 1ckj | B | albelig | 3 | 3 | E | 331 | 338 | B-37-  | B-44-  | EVAIKLEC 
+| 1ckj | B | albelig | 4 | 4 | H | 346 | 356 | B-52-  | B-62-  | LHIESKIYKMM 
+| 1ckj | B | albelig | 5 | 5 | E | 365 | 370 | B-71-  | B-76-  | IRWCGA 
+| 1ckj | B | albelig | 6 | 6 | E | 374 | 380 | B-80-  | B-86-  | YNVMVME 
+| 1ckj | B | albelig | 7 | 7 | H | 388 | 392 | B-94-  | B-98-  | DLFNF 
+| 1ckj | B | albelig | 8 | 8 | H | 399 | 418 | B-105-  | B-124-  | LKTVLLLADQMISRIEYIHS 
+| 1ckj | B | albelig | 9 | 9 | H | 428 | 430 | B-134-  | B-136-  | PDN 
+| 1ckj | B | albelig | 10 | 10 | E | 431 | 433 | B-137-  | B-139-  | FLM 
+| 1ckj | B | albelig | 11 | 11 | H | 436 | 438 | B-144-  | B-146-  | GKK 
+| 1ckj | B | albelig | 12 | 12 | E | 442 | 444 | B-150-  | B-152-  | VYI 
+| 1ckj | B | albelig | 13 | 13 | H | 479 | 482 | B-187-  | B-190-  | INTH 
+| 1ckj | B | albelig | 14 | 14 | H | 489 | 505 | B-197-  | B-213-  | RRDDLESLGYVLMYFNL 
+| 1ckj | B | albelig | 15 | 15 | H | 518 | 531 | B-226-  | B-239-  | KRQKYERISEKKMS 
+| 1ckj | B | albelig | 16 | 16 | H | 534 | 537 | B-242-  | B-245-  | IEVL 
+| 1ckj | B | albelig | 17 | 17 | H | 544 | 552 | B-252-  | B-260-  | EFATYLNFC 
+| 1ckj | B | albelig | 18 | 18 | H | 563 | 576 | B-271-  | B-284-  | YSYLRQLFRNLFHR 
+| 1ckj | B | albelig | 19 | 19 | H | 586 | 589 | B-294-  | B-297-  | DWNM 
+| 1ckj | B | albelig | 20 | 20 | L | 593 | 593 | B-400-  | B-400-  | J 
+| 1ckj | B | albelig | 21 | 21 | L | 594 | 594 | B-401-  | B-401-  | J 
+| 1ckj | B | albelig | 22 | 22 | L | 595 | 595 | B-402-  | B-402-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 6
+= 4 = m = 6
+= 5 = a = 6
+= 8 = a = 14
+= 8 = a = 18
+= 9 = m = 10
+= 9 = m = 12
+= 10 = a = 12
+= 13 = m = 15
+= 14 = m = 17
+= 15 = l = 20
+= 17 = a = 18
+# Listed 14 contacts. EOF.

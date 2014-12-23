@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k5d, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RAN, RANBP1, RANGAP, GAP, SIGNAL TRANSDUCTION, NUCLEARTRANSPORT, GTP HYDROLYSIS, GROUND STATE, COMPLEX (GTP-BINDING/GTPASE ACTIVATION), SIGNALING PROTEIN/SIGNALINGACTIVATOR COMPLEX
+> pdb_mol_name > RAN-SPECIFIC GTPASE-ACTIVATING PROTEIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 10-OCT-01
+> header > SIGNALING PROTEIN/SIGNALING ACTIVATOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF RAN-GPPNHP-RANBP1-RANGAP COMPLEX
+> format_version > 2
+> pdbid > 1k5d
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k5d | H | albelig | 1 | 1 | E | 1633 | 1642 | H-49-  | H-58-  | FKMRAKLFRF 
+| 1k5d | H | albelig | 2 | 2 | E | 1651 | 1663 | H-67-  | H-79-  | WKERGTGDVKLLK 
+| 1k5d | H | albelig | 3 | 3 | E | 1670 | 1676 | H-86-  | H-92-  | IRLLMRR 
+| 1k5d | H | albelig | 4 | 4 | E | 1682 | 1687 | H-98-  | H-103-  | ICANHY 
+| 1k5d | H | albelig | 5 | 5 | E | 1703 | 1711 | H-119-  | H-127-  | AWVWNTHAD 
+| 1k5d | H | albelig | 6 | 6 | E | 1718 | 1725 | H-134-  | H-141-  | KPELLAIR 
+| 1k5d | H | albelig | 7 | 7 | H | 1729 | 1749 | H-145-  | H-165-  | AENAQKFKTKFEECRKEIEER 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 7
+= 2 = a = 3
+= 2 = p = 6
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 6
+# Listed 8 contacts. EOF.

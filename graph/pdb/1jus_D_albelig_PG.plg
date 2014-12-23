@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jus, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTIDRUG RECOGNITION, S. AUREUS, QACR, RHODAMINE 6G,CATIONIC LIPOPHILIC DRUGS, TRANSCRIPTION
+> pdb_mol_name > HYPOTHETICAL TRANSCRIPTIONAL REGULATOR IN QACA
+> graphtype > albelig
+> resolution > 2.84
+> date > 27-AUG-01
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE MULTIDRUG BINDING TRANSCRIPTIONALREPRESSOR QACR BOUND TO RHODAMINE 6G
+> format_version > 2
+> pdbid > 1jus
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jus | D | albelig | 1 | 1 | H | 190 | 204 | D-4-  | D-18-  | KDKILGVAKELFIKN 
+| 1jus | D | albelig | 2 | 2 | H | 211 | 218 | D-25-  | D-32-  | TGEIVKLS 
+| 1jus | D | albelig | 3 | 3 | H | 222 | 228 | D-36-  | D-42-  | KGNLYYH 
+| 1jus | D | albelig | 4 | 4 | H | 232 | 255 | D-46-  | D-69-  | KENLFLEILNIEESKWQEQWKKEQ 
+| 1jus | D | albelig | 5 | 5 | H | 262 | 274 | D-76-  | D-88-  | REKFYLYNELSLT 
+| 1jus | D | albelig | 6 | 6 | H | 279 | 292 | D-93-  | D-106-  | YPLQNAIIEFYTEY 
+| 1jus | D | albelig | 7 | 7 | H | 296 | 321 | D-110-  | D-135-  | NSINEKXNKLENKYIDAYHVIFKEGN 
+| 1jus | D | albelig | 8 | 8 | H | 331 | 347 | D-145-  | D-161-  | VNAVSKIAANAVNGIVT 
+| 1jus | D | albelig | 9 | 9 | H | 354 | 370 | D-168-  | D-184-  | INERIKLXNKFSQIFLN 
+| 1jus | D | albelig | 10 | 10 | L | 762 | 762 | D-899-  | D-899-  | J 
+| 1jus | D | albelig | 11 | 11 | L | 763 | 763 | D-900-  | D-900-  | J 
+| 1jus | D | albelig | 12 | 12 | L | 764 | 764 | D-901-  | D-901-  | J 
+| 1jus | D | albelig | 13 | 13 | L | 765 | 765 | D-999-  | D-999-  | J 
+| 1jus | D | albelig | 14 | 14 | L | 766 | 766 | D-1000-  | D-1000-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 4
+= 1 = l = 11
+= 1 = l = 12
+= 1 = l = 13
+= 2 = l = 10
+= 3 = l = 10
+= 3 = l = 11
+= 4 = m = 5
+= 4 = a = 6
+= 4 = p = 7
+= 4 = l = 10
+= 4 = l = 12
+= 5 = m = 7
+= 5 = a = 9
+= 6 = a = 7
+= 6 = m = 8
+= 7 = a = 8
+= 8 = m = 9
+# Listed 19 contacts. EOF.

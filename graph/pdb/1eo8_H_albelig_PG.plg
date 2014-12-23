@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eo8, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (HEMAGGLUTININ-IMMMUNOGLOBULIN), HEMAGGLUTININ,IMMUNOGLOBULIN, VIRAL PROTEIN, IMMUNE SYSTEM COMPLEX, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > ANTIBODY (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.8
+> date > 22-MAR-00
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > INFLUENZA VIRUS HEMAGGLUTININ COMPLEXED WITH A NEUTRALIZING ANTIBODY
+> format_version > 2
+> pdbid > 1eo8
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eo8 | H | albelig | 1 | 1 | E | 710 | 713 | H-3-  | H-6-  | QLQQ 
+| 1eo8 | H | albelig | 2 | 2 | E | 717 | 719 | H-10-  | H-12-  | ELM 
+| 1eo8 | H | albelig | 3 | 3 | E | 725 | 732 | H-18-  | H-25-  | VKISIKAT 
+| 1eo8 | H | albelig | 4 | 4 | H | 736 | 738 | H-29-  | H-31-  | FST 
+| 1eo8 | H | albelig | 5 | 5 | E | 741 | 747 | H-34-  | H-40-  | IEWIRQR 
+| 1eo8 | H | albelig | 6 | 6 | E | 751 | 759 | H-44-  | H-52-  | GLEWIGEIL 
+| 1eo8 | H | albelig | 7 | 7 | E | 764 | 767 | H-56-  | H-59-  | NTNF 
+| 1eo8 | H | albelig | 8 | 8 | H | 769 | 771 | H-61-  | H-63-  | EKF 
+| 1eo8 | H | albelig | 9 | 9 | E | 775 | 780 | H-67-  | H-72-  | ATFTAD 
+| 1eo8 | H | albelig | 10 | 10 | E | 785 | 790 | H-77-  | H-82-  | TAYMQL 
+| 1eo8 | H | albelig | 11 | 11 | H | 795 | 797 | H-84-  | H-86-  | SED 
+| 1eo8 | H | albelig | 12 | 12 | E | 799 | 805 | H-88-  | H-94-  | AVYYIAR 
+| 1eo8 | H | albelig | 13 | 13 | H | 810 | 812 | H-99-  | H-100-A | LWF 
+| 1eo8 | H | albelig | 14 | 14 | E | 819 | 823 | H-107-  | H-111-  | TLVTV 
+| 1eo8 | H | albelig | 15 | 15 | E | 832 | 836 | H-120-  | H-124-  | SVYPL 
+| 1eo8 | H | albelig | 16 | 16 | E | 847 | 857 | H-135-  | H-145-  | MVTLGJLVKGY 
+| 1eo8 | H | albelig | 17 | 17 | H | 867 | 869 | H-155-  | H-157-  | NSG 
+| 1eo8 | H | albelig | 18 | 18 | E | 874 | 877 | H-162-  | H-165-  | GVHT 
+| 1eo8 | H | albelig | 19 | 19 | E | 881 | 883 | H-169-  | H-171-  | VLQ 
+| 1eo8 | H | albelig | 20 | 20 | E | 886 | 896 | H-174-  | H-184-  | LYTLSSSVTVP 
+| 1eo8 | H | albelig | 21 | 21 | E | 906 | 911 | H-194-  | H-199-  | TJNVAH 
+| 1eo8 | H | albelig | 22 | 22 | H | 912 | 914 | H-200-  | H-202-  | PAS 
+| 1eo8 | H | albelig | 23 | 23 | E | 916 | 921 | H-204-  | H-209-  | TKVDKK 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 2 = a = 3
+= 2 = p = 14
+= 3 = a = 10
+= 3 = p = 12
+= 5 = a = 6
+= 5 = p = 10
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 9
+= 9 = a = 10
+= 12 = a = 14
+= 15 = a = 16
+= 15 = a = 23
+= 16 = a = 20
+= 18 = a = 20
+= 19 = a = 20
+= 21 = m = 22
+= 21 = a = 23
+# Listed 20 contacts. EOF.

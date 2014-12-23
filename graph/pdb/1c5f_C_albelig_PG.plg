@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c5f, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ISOMERASE-IMMUNOSUPPRESSANT COMPLEX, CYCLOPHILIN-CYCLOSPORIN COMPLEX,CYCLOSPORIN A, IMMUNOSUPPRESSANT, CYCLOPHILIN
+> pdb_mol_name > PEPTIDYL-PROLYL CIS-TRANS ISOMERASE 1
+> graphtype > albelig
+> resolution > 2.47
+> date > 22-NOV-99
+> header > ISOMERASE/IMMUNOSUPPRESSANT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE CYCLOPHILIN-LIKE DOMAIN FROM BRUGIA MALAYICOMPLEXED WITH CYCLOSPORIN A
+> format_version > 2
+> pdbid > 1c5f
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BRUGIA MALAYI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c5f | C | albelig | 1 | 1 | H | 193 | 195 | C-3-  | C-5-  | KKD 
+| 1c5f | C | albelig | 2 | 2 | E | 198 | 205 | C-8-  | C-15-  | RVFLDVTI 
+| 1c5f | C | albelig | 3 | 3 | E | 208 | 217 | C-18-  | C-27-  | NLAGRIVMEL 
+| 1c5f | C | albelig | 4 | 4 | H | 223 | 234 | C-33-  | C-44-  | PRTCNNFLMLCT 
+| 1c5f | C | albelig | 5 | 5 | E | 254 | 258 | C-64-  | C-68-  | FHRVI 
+| 1c5f | C | albelig | 6 | 6 | E | 262 | 265 | C-72-  | C-75-  | MIQG 
+| 1c5f | C | albelig | 7 | 7 | E | 298 | 301 | C-108-  | C-111-  | VVSM 
+| 1c5f | C | albelig | 8 | 8 | E | 313 | 316 | C-123-  | C-126-  | FFIT 
+| 1c5f | C | albelig | 9 | 9 | H | 321 | 323 | C-131-  | C-133-  | PHL 
+| 1c5f | C | albelig | 10 | 10 | E | 329 | 335 | C-139-  | C-145-  | VFGKVVS 
+| 1c5f | C | albelig | 11 | 11 | H | 337 | 344 | C-147-  | C-154-  | QEVVTKIE 
+| 1c5f | C | albelig | 12 | 12 | E | 358 | 365 | C-168-  | C-175-  | VVILNCGE 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 12
+= 3 = a = 10
+= 3 = m = 11
+= 4 = m = 12
+= 5 = a = 6
+= 6 = a = 8
+= 7 = a = 8
+= 7 = a = 10
+# Listed 9 contacts. EOF.

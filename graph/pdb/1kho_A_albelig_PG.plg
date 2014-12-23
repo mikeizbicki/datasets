@@ -1,0 +1,82 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kho, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > N-TERMINAL ALPHA-HELIX, C-TERMINAL BETA-SHEET, TOXIN
+> pdb_mol_name > ALPHA-TOXIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 30-NOV-01
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF CLOSTRIDIUM PERFRINGENS ALPHA-TOXIN ISOLATED FROM AVIAN STRAIN SWCP
+> format_version > 2
+> pdbid > 1kho
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM PERFRINGENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kho | A | albelig | 1 | 1 | H | 10 | 25 | A-10-  | A-25-  | THAMIATQGVTILEND 
+| 1kho | A | albelig | 2 | 2 | H | 32 | 43 | A-32-  | A-43-  | EVIRNNLEILKQ 
+| 1kho | A | albelig | 3 | 3 | H | 45 | 56 | A-45-  | A-56-  | MHDLQLGSTYPD 
+| 1kho | A | albelig | 4 | 4 | H | 66 | 68 | A-66-  | A-68-  | QDH 
+| 1kho | A | albelig | 5 | 5 | H | 83 | 86 | A-83-  | A-86-  | KWYL 
+| 1kho | A | albelig | 6 | 6 | H | 94 | 110 | A-94-  | A-110-  | AESQIRKFSALARYEWK 
+| 1kho | A | albelig | 7 | 7 | H | 114 | 131 | A-114-  | A-131-  | YKQATFYLGEAMHYFGDA 
+| 1kho | A | albelig | 8 | 8 | H | 134 | 137 | A-134-  | A-137-  | PYHA 
+| 1kho | A | albelig | 9 | 9 | H | 147 | 157 | A-147-  | A-157-  | GHVKFETFAED 
+| 1kho | A | albelig | 10 | 10 | H | 159 | 162 | A-159-  | A-162-  | KDQY 
+| 1kho | A | albelig | 11 | 11 | H | 174 | 180 | A-174-  | A-180-  | AFYSNIL 
+| 1kho | A | albelig | 12 | 12 | H | 185 | 208 | A-185-  | A-208-  | FNSWSKEFARSFAKTAKDLYYSHA 
+| 1kho | A | albelig | 13 | 13 | H | 214 | 244 | A-214-  | A-244-  | WDEWDYAAKVALANSQKGTSGYIYRFLHDVS 
+| 1kho | A | albelig | 14 | 14 | E | 257 | 264 | A-257-  | A-264-  | ELVAYITT 
+| 1kho | A | albelig | 15 | 15 | E | 275 | 282 | A-275-  | A-282-  | YMYFGIKT 
+| 1kho | A | albelig | 16 | 16 | E | 287 | 291 | A-287-  | A-291-  | TQEWT 
+| 1kho | A | albelig | 17 | 17 | E | 304 | 310 | A-304-  | A-310-  | QDTYTFK 
+| 1kho | A | albelig | 18 | 18 | H | 318 | 320 | A-318-  | A-320-  | IDD 
+| 1kho | A | albelig | 19 | 19 | E | 321 | 329 | A-321-  | A-329-  | IQNMWIRKS 
+| 1kho | A | albelig | 20 | 20 | E | 340 | 347 | A-340-  | A-347-  | PANIKVIA 
+| 1kho | A | albelig | 21 | 21 | E | 350 | 356 | A-350-  | A-356-  | NVVLNKD 
+| 1kho | A | albelig | 22 | 22 | E | 365 | 368 | A-365-  | A-368-  | STYN 
+| 1kho | A | albelig | 23 | 23 | L | 742 | 742 | A-371-  | A-371-  | J 
+| 1kho | A | albelig | 24 | 24 | L | 743 | 743 | A-372-  | A-372-  | J 
+| 1kho | A | albelig | 25 | 25 | L | 744 | 744 | A-373-  | A-373-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 13
+= 1 = l = 23
+= 1 = l = 24
+= 2 = a = 13
+= 3 = p = 7
+= 3 = l = 23
+= 3 = l = 24
+= 4 = m = 7
+= 4 = l = 24
+= 6 = a = 7
+= 6 = a = 12
+= 6 = p = 13
+= 7 = a = 13
+= 7 = l = 23
+= 7 = l = 24
+= 8 = m = 9
+= 8 = l = 23
+= 8 = l = 24
+= 8 = l = 25
+= 9 = m = 13
+= 9 = l = 23
+= 9 = l = 25
+= 10 = m = 13
+= 11 = p = 13
+= 12 = a = 13
+= 14 = a = 17
+= 14 = a = 20
+= 15 = a = 16
+= 15 = a = 19
+= 16 = a = 17
+= 18 = m = 19
+= 19 = a = 22
+= 20 = a = 21
+= 23 = l = 24
+= 23 = l = 25
+# Listed 36 contacts. EOF.

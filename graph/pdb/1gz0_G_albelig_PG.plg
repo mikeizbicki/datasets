@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gz0, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, METHYLTRANSFERASE, 2'O-METHYLTRANSFERASE,KNOT, MONTREAL- KINGSTON BACTERIAL STRUCTURAL GENOMICSINITIATIVE, BSGI, STRUCTURAL GENOMICS
+> pdb_mol_name > HYPOTHETICAL TRNA/RRNA METHYLTRANSFERASE YJFH
+> graphtype > albelig
+> resolution > 2.5
+> date > 03-MAY-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > 23S RIBOSOMAL RNA G2251 2'O-METHYLTRANSFERASE RLMB
+> format_version > 2
+> pdbid > 1gz0
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gz0 | G | albelig | 1 | 1 | H | 1402 | 1410 | G-82-  | G-90-  | ENDLPDLIA 
+| 1gz0 | G | albelig | 2 | 2 | E | 1416 | 1421 | G-96-  | G-101-  | FLLILD 
+| 1gz0 | G | albelig | 3 | 3 | H | 1426 | 1439 | G-106-  | G-119-  | PHNLGACLRSADAA 
+| 1gz0 | G | albelig | 4 | 4 | E | 1443 | 1447 | G-123-  | G-127-  | AVIVP 
+| 1gz0 | G | albelig | 5 | 5 | H | 1456 | 1461 | G-136-  | G-141-  | ATAKKV 
+| 1gz0 | G | albelig | 6 | 6 | H | 1465 | 1468 | G-145-  | G-148-  | AAES 
+| 1gz0 | G | albelig | 7 | 7 | E | 1471 | 1474 | G-151-  | G-154-  | LIRV 
+| 1gz0 | G | albelig | 8 | 8 | H | 1477 | 1486 | G-157-  | G-166-  | LARTXRXLQE 
+| 1gz0 | G | albelig | 9 | 9 | E | 1490 | 1494 | G-170-  | G-174-  | WIVGT 
+| 1gz0 | G | albelig | 10 | 10 | H | 1502 | 1504 | G-182-  | G-184-  | LYQ 
+| 1gz0 | G | albelig | 11 | 11 | E | 1511 | 1516 | G-191-  | G-196-  | LALVXG 
+| 1gz0 | G | albelig | 12 | 12 | H | 1524 | 1528 | G-204-  | G-208-  | RLTRE 
+| 1gz0 | G | albelig | 13 | 13 | E | 1532 | 1534 | G-212-  | G-214-  | ELI 
+| 1gz0 | G | albelig | 14 | 14 | H | 1547 | 1561 | G-227-  | G-241-  | VSVATGICLFEAVRQ 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 8
+= 2 = p = 4
+= 2 = m = 8
+= 2 = p = 11
+= 3 = m = 5
+= 3 = p = 14
+= 4 = p = 7
+= 9 = p = 11
+= 9 = p = 13
+= 10 = m = 14
+= 11 = a = 14
+# Listed 11 contacts. EOF.

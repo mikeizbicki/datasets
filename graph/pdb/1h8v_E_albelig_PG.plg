@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h8v, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, CELLULASE, CELLULOSE DEGRADATION, GH FAMILY 12,GLYCOSYL HYDROLASE
+> pdb_mol_name > ENDO-BETA-1,4-GLUCANASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 16-FEB-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > THE X-RAY CRYSTAL STRUCTURE OF THE TRICHODERMA REESEIFAMILY 12 ENDOGLUCANASE 3, CEL12A, AT 1.9 A RESOLUTION
+> format_version > 2
+> pdbid > 1h8v
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > TRICHODERMA REESEI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h8v | E | albelig | 1 | 1 | E | 885 | 888 | E-9-  | E-12-  | TFTG 
+| 1h8v | E | albelig | 2 | 2 | E | 891 | 894 | E-15-  | E-18-  | YTVS 
+| 1h8v | E | albelig | 3 | 3 | H | 900 | 902 | E-24-  | E-26-  | ASA 
+| 1h8v | E | albelig | 4 | 4 | E | 904 | 913 | E-28-  | E-37-  | SGFGEVTAVS 
+| 1h8v | E | albelig | 5 | 5 | E | 918 | 927 | E-42-  | E-51-  | ASWHADWQWS 
+| 1h8v | E | albelig | 6 | 6 | E | 937 | 941 | E-61-  | E-65-  | QNSQI 
+| 1h8v | E | albelig | 7 | 7 | E | 956 | 979 | E-80-  | E-103-  | PTTASWSYSGSNIRANVAYDLFTA 
+| 1h8v | E | albelig | 8 | 8 | E | 991 | 1000 | E-115-  | E-124-  | YELMIWLGKY 
+| 1h8v | E | albelig | 9 | 9 | E | 1008 | 1015 | E-132-  | E-139-  | SSQGTVNV 
+| 1h8v | E | albelig | 10 | 10 | E | 1018 | 1027 | E-142-  | E-151-  | QSWTLYYGYN 
+| 1h8v | E | albelig | 11 | 11 | E | 1030 | 1037 | E-154-  | E-161-  | MQVYSFVA 
+| 1h8v | E | albelig | 12 | 12 | E | 1043 | 1047 | E-167-  | E-171-  | NYSGD 
+| 1h8v | E | albelig | 13 | 13 | H | 1048 | 1058 | E-172-  | E-182-  | VKNFFNYLRDN 
+| 1h8v | E | albelig | 14 | 14 | E | 1072 | 1075 | E-196-  | E-199-  | QFGT 
+| 1h8v | E | albelig | 15 | 15 | E | 1077 | 1091 | E-201-  | E-215-  | PFTGSGTLNVASWTA 
+| 1h8v | E | albelig | 16 | 16 | L | 1324 | 1324 | E-301-  | E-301-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 6
+= 2 = a = 15
+= 4 = a = 5
+= 4 = a = 6
+= 5 = a = 6
+= 5 = a = 15
+= 6 = a = 14
+= 6 = p = 15
+= 7 = a = 8
+= 7 = a = 12
+= 7 = a = 14
+= 7 = a = 15
+= 8 = p = 11
+= 8 = l = 16
+= 9 = a = 10
+= 9 = m = 13
+= 10 = a = 11
+= 11 = l = 16
+= 12 = m = 13
+= 14 = a = 15
+# Listed 21 contacts. EOF.

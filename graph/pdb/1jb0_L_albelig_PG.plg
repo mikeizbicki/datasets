@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jb0, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS
+> pdb_mol_name > PHOTOSYSTEM 1 REACTION CENTRE SUBUNIT XI
+> graphtype > albelig
+> resolution > 2.5
+> date > 01-JUN-01
+> header > PHOTOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PHOTOSYSTEM I: A PHOTOSYNTHETIC REACTION CENTERAND CORE ANTENNA SYSTEM FROM CYANOBACTERIA
+> format_version > 2
+> pdbid > 1jb0
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > SYNECHOCOCCUS ELONGATUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jb0 | L | albelig | 1 | 1 | H | 2049 | 2051 | L-8-  | L-10-  | YNG 
+| 1jb0 | L | albelig | 2 | 2 | H | 2061 | 2064 | L-20-  | L-23-  | PISD 
+| 1jb0 | L | albelig | 3 | 3 | H | 2066 | 2073 | L-25-  | L-32-  | GLVKTFIG 
+| 1jb0 | L | albelig | 4 | 4 | H | 2084 | 2099 | L-43-  | L-58-  | PILRGLEVGMAHGYFL 
+| 1jb0 | L | albelig | 5 | 5 | H | 2101 | 2106 | L-60-  | L-65-  | GPWVKL 
+| 1jb0 | L | albelig | 6 | 6 | H | 2115 | 2141 | L-74-  | L-100-  | ANLGGLISGIALILVATACLAAYGLVS 
+| 1jb0 | L | albelig | 7 | 7 | H | 2151 | 2153 | L-110-  | L-112-  | PLK 
+| 1jb0 | L | albelig | 8 | 8 | H | 2155 | 2181 | L-114-  | L-140-  | SEGWSQFTAGFFVGAMGSAFVAFFLLE 
+| 1jb0 | L | albelig | 9 | 9 | H | 2183 | 2191 | L-142-  | L-150-  | FLVVDGIMT 
+| 1jb0 | L | albelig | 10 | 10 | L | 2377 | 2377 | L-1001-  | L-1001-  | J 
+| 1jb0 | L | albelig | 11 | 11 | L | 2378 | 2378 | L-1501-  | L-1501-  | J 
+| 1jb0 | L | albelig | 12 | 12 | L | 2379 | 2379 | L-1502-  | L-1502-  | J 
+| 1jb0 | L | albelig | 13 | 13 | L | 2380 | 2380 | L-1503-  | L-1503-  | J 
+| 1jb0 | L | albelig | 14 | 14 | L | 2381 | 2381 | L-4019-  | L-4019-  | J 
+| 1jb0 | L | albelig | 15 | 15 | L | 2382 | 2382 | L-4022-  | L-4022-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 12
+= 3 = l = 11
+= 3 = l = 12
+= 4 = p = 8
+= 4 = l = 11
+= 4 = l = 12
+= 4 = l = 13
+= 4 = l = 14
+= 5 = l = 13
+= 6 = a = 8
+= 6 = l = 14
+= 6 = l = 15
+= 8 = l = 12
+= 8 = l = 13
+= 8 = l = 14
+= 8 = l = 15
+= 9 = l = 13
+= 11 = l = 12
+= 11 = l = 13
+= 12 = l = 13
+= 12 = l = 14
+# Listed 21 contacts. EOF.

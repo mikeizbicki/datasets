@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ifq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FIVE-STRANDED ANTI-PARALLEL BETA SHEET, ALPHA/BETA 3-LAYER SANDWICH,PROTEIN TRANSPORT
+> pdb_mol_name > VESICLE TRAFFICKING PROTEIN SEC22B
+> graphtype > albelig
+> resolution > 2.4
+> date > 13-APR-01
+> header > PROTEIN TRANSPORT
+> pdb_org_common > HOUSE MOUSE
+> title > SEC22B N-TERMINAL DOMAIN
+> format_version > 2
+> pdbid > 1ifq
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ifq | A | albelig | 1 | 1 | E | 4 | 9 | A-4-  | A-9-  | LTXIAR 
+| 1ifq | A | albelig | 2 | 2 | E | 15 | 19 | A-15-  | A-19-  | PLAAS 
+| 1ifq | A | albelig | 3 | 3 | H | 27 | 41 | A-27-  | A-41-  | GRDLQQYQSQAKQLF 
+| 1ifq | A | albelig | 4 | 4 | E | 51 | 56 | A-51-  | A-56-  | RCTLEA 
+| 1ifq | A | albelig | 5 | 5 | E | 59 | 66 | A-59-  | A-66-  | XTFHYIIE 
+| 1ifq | A | albelig | 6 | 6 | E | 69 | 76 | A-69-  | A-76-  | VCYLVLCE 
+| 1ifq | A | albelig | 7 | 7 | H | 81 | 99 | A-81-  | A-99-  | KKLAFAYLEDLHSEFDEQH 
+| 1ifq | A | albelig | 8 | 8 | H | 113 | 126 | A-113-  | A-126-  | IEFDTFIQKTKKLY 
+| 1ifq | A | albelig | 9 | 9 | L | 263 | 263 | A-128-  | A-128-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = m = 8
+= 3 = a = 6
+= 4 = a = 5
+= 4 = m = 7
+= 5 = a = 6
+= 5 = m = 7
+= 6 = m = 7
+= 7 = a = 8
+= 7 = l = 9
+# Listed 11 contacts. EOF.

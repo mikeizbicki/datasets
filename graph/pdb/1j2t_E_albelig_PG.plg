@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j2t, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CREATININE, CREATINE, HYDROLASE
+> pdb_mol_name > CREATININE AMIDOHYDROLASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 11-JAN-03
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CREATININASE MN
+> format_version > 2
+> pdbid > 1j2t
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS PUTIDA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j2t | E | albelig | 1 | 1 | H | 1037 | 1039 | E-7-  | E-9-  | VGE 
+| 1j2t | E | albelig | 2 | 2 | H | 1042 | 1050 | E-12-  | E-20-  | WKEYEARVA 
+| 1j2t | E | albelig | 3 | 3 | E | 1056 | 1060 | E-26-  | E-30-  | LMLPV 
+| 1j2t | E | albelig | 4 | 4 | H | 1074 | 1090 | E-44-  | E-60-  | VDVLLPTAVCKRVAERI 
+| 1j2t | E | albelig | 5 | 5 | H | 1106 | 1109 | E-76-  | E-79-  | QKSG 
+| 1j2t | E | albelig | 6 | 6 | H | 1122 | 1139 | E-92-  | E-109-  | GATLTGTVQDIIRELARH 
+| 1j2t | E | albelig | 7 | 7 | E | 1143 | 1148 | E-113-  | E-118-  | RLVLMN 
+| 1j2t | E | albelig | 8 | 8 | H | 1151 | 1170 | E-121-  | E-140-  | YENSMFIVEGIDLALRELRY 
+| 1j2t | E | albelig | 9 | 9 | E | 1177 | 1182 | E-147-  | E-152-  | KVVVLS 
+| 1j2t | E | albelig | 10 | 10 | H | 1183 | 1186 | E-153-  | E-156-  | YWDF 
+| 1j2t | E | albelig | 11 | 11 | H | 1190 | 1196 | E-160-  | E-166-  | PAVIQQL 
+| 1j2t | E | albelig | 12 | 12 | H | 1211 | 1220 | E-181-  | E-190-  | VFETSLMLAL 
+| 1j2t | E | albelig | 13 | 13 | H | 1222 | 1224 | E-192-  | E-194-  | PDL 
+| 1j2t | E | albelig | 14 | 14 | H | 1227 | 1229 | E-197-  | E-199-  | LDR 
+| 1j2t | E | albelig | 15 | 15 | E | 1242 | 1244 | E-212-  | E-214-  | DVF 
+| 1j2t | E | albelig | 16 | 16 | H | 1248 | 1250 | E-218-  | E-220-  | PAR 
+| 1j2t | E | albelig | 17 | 17 | H | 1265 | 1286 | E-235-  | E-256-  | REKGELILEVCVQGIADAIREE 
+| 1j2t | E | albelig | 18 | 18 | L | 1563 | 1563 | E-302-  | E-302-  | J 
+| 1j2t | E | albelig | 19 | 19 | L | 1564 | 1564 | E-301-  | E-301-  | J 
+| 1j2t | E | albelig | 20 | 20 | L | 1565 | 1565 | E-7003-  | E-7003-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 7
+= 4 = p = 12
+= 4 = m = 17
+= 4 = l = 18
+= 4 = l = 19
+= 4 = l = 20
+= 5 = l = 19
+= 6 = p = 8
+= 7 = m = 8
+= 7 = p = 9
+= 8 = l = 19
+= 9 = m = 10
+= 10 = m = 17
+= 12 = m = 17
+= 12 = l = 18
+= 12 = l = 20
+= 18 = l = 19
+# Listed 17 contacts. EOF.

@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k28, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRIPLE-STRANDED BETA-HELIX, OB FOLD, PSEUDOHEXAMER, T4 TAIL LYSOZYME,HUB, GP27-GP5*-GP5C, HYDROLASE-STRUCTURAL PROTEIN COMPLEX
+> pdb_mol_name > BASEPLATE STRUCTURAL PROTEIN GP27
+> graphtype > albelig
+> resolution > 2.9
+> date > 26-SEP-01
+> header > HYDROLASE/STRUCTURAL PROTEIN
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF THE BACTERIOPHAGE T4 CELL-PUNCTURING DEVICE
+> format_version > 2
+> pdbid > 1k28
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k28 | D | albelig | 1 | 1 | E | 570 | 574 | D-13-  | D-17-  | SVKLF 
+| 1k28 | D | albelig | 2 | 2 | H | 578 | 581 | D-21-  | D-24-  | DAWS 
+| 1k28 | D | albelig | 3 | 3 | H | 589 | 591 | D-32-  | D-34-  | AAT 
+| 1k28 | D | albelig | 4 | 4 | E | 592 | 600 | D-35-  | D-43-  | ITTLTXRDS 
+| 1k28 | D | albelig | 5 | 5 | E | 605 | 613 | D-48-  | D-56-  | NEGXLQFYD 
+| 1k28 | D | albelig | 6 | 6 | E | 626 | 630 | D-69-  | D-73-  | IIQIS 
+| 1k28 | D | albelig | 7 | 7 | E | 642 | 653 | D-85-  | D-96-  | TRIYGCKHFSVS 
+| 1k28 | D | albelig | 8 | 8 | E | 660 | 667 | D-103-  | D-110-  | NIIAIELG 
+| 1k28 | D | albelig | 9 | 9 | H | 669 | 672 | D-112-  | D-115-  | IHSI 
+| 1k28 | D | albelig | 10 | 10 | H | 685 | 696 | D-128-  | D-139-  | AGESIKEXLGVI 
+| 1k28 | D | albelig | 11 | 11 | H | 701 | 703 | D-144-  | D-146-  | TLL 
+| 1k28 | D | albelig | 12 | 12 | E | 706 | 708 | D-149-  | D-151-  | AIN 
+| 1k28 | D | albelig | 13 | 13 | H | 723 | 733 | D-166-  | D-176-  | FENYLSYVREV 
+| 1k28 | D | albelig | 14 | 14 | E | 743 | 747 | D-186-  | D-190-  | VFVWQ 
+| 1k28 | D | albelig | 15 | 15 | E | 751 | 756 | D-194-  | D-199-  | GVNXXD 
+| 1k28 | D | albelig | 16 | 16 | H | 757 | 761 | D-200-  | D-204-  | YDXXI 
+| 1k28 | D | albelig | 17 | 17 | H | 791 | 794 | D-242-  | D-245-  | PHKR 
+| 1k28 | D | albelig | 18 | 18 | E | 800 | 805 | D-251-  | D-256-  | ATIYAH 
+| 1k28 | D | albelig | 19 | 19 | E | 822 | 827 | D-273-  | D-278-  | NSIVVS 
+| 1k28 | D | albelig | 20 | 20 | H | 830 | 834 | D-281-  | D-285-  | GAYSE 
+| 1k28 | D | albelig | 21 | 21 | H | 841 | 847 | D-292-  | D-298-  | YEEAIRL 
+| 1k28 | D | albelig | 22 | 22 | H | 850 | 852 | D-301-  | D-303-  | XAQ 
+| 1k28 | D | albelig | 23 | 23 | E | 855 | 861 | D-306-  | D-312-  | GYAKCST 
+| 1k28 | D | albelig | 24 | 24 | E | 886 | 896 | D-337-  | D-347-  | FYVDEVIHELS 
+| 1k28 | D | albelig | 25 | 25 | E | 900 | 908 | D-351-  | D-359-  | SVTHLYXFT 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 3 = m = 4
+= 3 = m = 5
+= 4 = a = 5
+= 4 = a = 14
+= 4 = a = 24
+= 5 = a = 8
+= 6 = a = 7
+= 7 = a = 8
+= 7 = m = 9
+= 10 = a = 13
+= 12 = p = 15
+= 14 = a = 15
+= 15 = m = 16
+= 18 = p = 19
+= 23 = a = 25
+= 24 = a = 25
+# Listed 17 contacts. EOF.

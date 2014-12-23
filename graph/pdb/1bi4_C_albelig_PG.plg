@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bi4, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA INTEGRATION, AIDS, POLYPROTEIN, HYDROLASE, ENDONUCLEASE,POLYNUCLEOTIDYL TRANSFERASE, DNA BINDING (VIRAL)
+> pdb_mol_name > INTEGRASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 22-JUN-98
+> header > DNA INTEGRATION
+> pdb_org_common > UNKNOWN
+> title > CATALYTIC DOMAIN OF HIV-1 INTEGRASE
+> format_version > 2
+> pdbid > 1bi4
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bi4 | C | albelig | 1 | 1 | E | 300 | 308 | C-60-  | C-68-  | IWQLDCTHL 
+| 1bi4 | C | albelig | 2 | 2 | E | 311 | 318 | C-71-  | C-78-  | KVILVAVH 
+| 1bi4 | C | albelig | 3 | 3 | E | 324 | 329 | C-84-  | C-89-  | IEAEVI 
+| 1bi4 | C | albelig | 4 | 4 | H | 334 | 345 | C-94-  | C-105-  | GQETAYFLLKLA 
+| 1bi4 | C | albelig | 5 | 5 | E | 352 | 355 | C-112-  | C-115-  | TVHT 
+| 1bi4 | C | albelig | 6 | 6 | H | 359 | 362 | C-119-  | C-122-  | SNFT 
+| 1bi4 | C | albelig | 7 | 7 | H | 364 | 373 | C-124-  | C-133-  | TTVKAACWWA 
+| 1bi4 | C | albelig | 8 | 8 | E | 376 | 379 | C-136-  | C-139-  | KQEF 
+| 1bi4 | C | albelig | 9 | 9 | H | 390 | 404 | C-150-  | C-164-  | VIESMNKELKKIIGQ 
+| 1bi4 | C | albelig | 10 | 10 | H | 412 | 425 | C-172-  | C-185-  | LKTAVQMAVFIHNH 
+| 1bi4 | C | albelig | 11 | 11 | H | 429 | 431 | C-189-  | C-191-  | GGI 
+| 1bi4 | C | albelig | 12 | 12 | H | 436 | 448 | C-196-  | C-208-  | AGERIVDIIATDI 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 1 = p = 9
+= 2 = a = 3
+= 2 = m = 4
+= 2 = m = 9
+= 3 = a = 10
+= 5 = p = 8
+= 9 = m = 10
+# Listed 9 contacts. EOF.

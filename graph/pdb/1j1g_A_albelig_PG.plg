@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j1g, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, NUCLEIC ACID, RNA
+> pdb_mol_name > RIBONUCLEASE MC1
+> graphtype > albelig
+> resolution > 1.6
+> date > 04-DEC-02
+> header > HYDROLASE
+> pdb_org_common > BALSAM PEAR
+> title > CRYSTAL STRUCTURE OF THE RNASE MC1 MUTANT N71S IN COMPLEXWITH 5'-GMP
+> format_version > 2
+> pdbid > 1j1g
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MOMORDICA CHARANTIA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j1g | A | albelig | 1 | 1 | E | 3 | 9 | A-3-  | A-9-  | SFWFVQQ 
+| 1j1g | A | albelig | 2 | 2 | H | 11 | 16 | A-11-  | A-16-  | PPAVAS 
+| 1j1g | A | albelig | 3 | 3 | H | 24 | 27 | A-24-  | A-27-  | PGSG 
+| 1j1g | A | albelig | 4 | 4 | E | 32 | 40 | A-32-  | A-40-  | TIHGLWPQQ 
+| 1j1g | A | albelig | 5 | 5 | H | 55 | 68 | A-55-  | A-68-  | ITKISHLQSQLNTL 
+| 1j1g | A | albelig | 6 | 6 | H | 77 | 87 | A-77-  | A-87-  | NQQFWSHEWTK 
+| 1j1g | A | albelig | 7 | 7 | H | 89 | 92 | A-89-  | A-92-  | GTNS 
+| 1j1g | A | albelig | 8 | 8 | H | 98 | 110 | A-98-  | A-110-  | QAAYFKLAVDMRN 
+| 1j1g | A | albelig | 9 | 9 | H | 114 | 121 | A-114-  | A-121-  | IIGALRPH 
+| 1j1g | A | albelig | 10 | 10 | E | 129 | 131 | A-129-  | A-131-  | TKS 
+| 1j1g | A | albelig | 11 | 11 | H | 132 | 143 | A-132-  | A-143-  | RQAIKGFLKAKF 
+| 1j1g | A | albelig | 12 | 12 | E | 148 | 153 | A-148-  | A-153-  | GLRCRT 
+| 1j1g | A | albelig | 13 | 13 | E | 160 | 170 | A-160-  | A-170-  | SYLVEVVADFA 
+| 1j1g | A | albelig | 14 | 14 | E | 187 | 189 | A-187-  | A-189-  | NFI 
+| 1j1g | A | albelig | 15 | 15 | L | 191 | 191 | A-295-  | A-295-  | J 
+| 1j1g | A | albelig | 16 | 16 | L | 192 | 192 | A-296-  | A-296-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = m = 8
+= 1 = a = 13
+= 1 = l = 15
+= 2 = m = 3
+= 4 = m = 5
+= 4 = m = 6
+= 4 = l = 15
+= 5 = m = 6
+= 5 = p = 8
+= 5 = l = 16
+= 6 = m = 8
+= 6 = l = 15
+= 8 = l = 16
+= 9 = m = 11
+= 10 = m = 11
+= 10 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = l = 15
+# Listed 20 contacts. EOF.

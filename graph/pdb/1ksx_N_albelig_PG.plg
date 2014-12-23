@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ksx, chain N.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PAPILLOMAVIRUS, DNA-BINDING DOMAIN, REPLICATION, INITIATORPROTEIN, HELICASE, REPLICATION/DNA COMPLEX
+> pdb_mol_name > REPLICATION PROTEIN E1
+> graphtype > albelig
+> resolution > 3.2
+> date > 14-JAN-02
+> header > REPLICATION/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURES OF TWO INTERMEDIATES IN THE ASSEMBLY OFTHE PAPILLOMAVIRUS REPLICATION INITIATION COMPLEX
+> format_version > 2
+> pdbid > 1ksx
+> experiment > X-RAY DIFFRACTION
+> chainid > N
+> graphclass > protein graph
+> pdb_org_sci > BOVINE PAPILLOMAVIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ksx | N | albelig | 1 | 1 | H | 1024 | 1035 | N-160-  | N-171-  | TVFKLGLFKSLF 
+| 1ksx | N | albelig | 2 | 2 | H | 1039 | 1042 | N-175-  | N-178-  | FHDI 
+| 1ksx | N | albelig | 3 | 3 | E | 1052 | 1061 | N-188-  | N-197-  | TNQQWVLAVF 
+| 1ksx | N | albelig | 4 | 4 | H | 1065 | 1078 | N-201-  | N-214-  | EVFFEASFELLKKQ 
+| 1ksx | N | albelig | 5 | 5 | E | 1079 | 1089 | N-215-  | N-225-  | CSFLQMQKRSH 
+| 1ksx | N | albelig | 6 | 6 | E | 1092 | 1106 | N-228-  | N-242-  | GTCAVYLICFNTAKS 
+| 1ksx | N | albelig | 7 | 7 | H | 1107 | 1118 | N-243-  | N-254-  | RETVRNLMANML 
+| 1ksx | N | albelig | 8 | 8 | H | 1122 | 1124 | N-258-  | N-260-  | EEC 
+| 1ksx | N | albelig | 9 | 9 | E | 1125 | 1128 | N-261-  | N-264-  | LMLQ 
+| 1ksx | N | albelig | 10 | 10 | H | 1135 | 1144 | N-271-  | N-280-  | LSAALFWFKS 
+| 1ksx | N | albelig | 11 | 11 | E | 1151 | 1153 | N-287-  | N-289-  | LKH 
+| 1ksx | N | albelig | 12 | 12 | H | 1158 | 1162 | N-294-  | N-298-  | EWIRA 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 3 = a = 6
+= 3 = p = 7
+= 3 = m = 8
+= 3 = a = 9
+= 4 = a = 5
+= 4 = p = 6
+= 4 = m = 7
+= 5 = a = 6
+= 5 = a = 11
+= 6 = a = 7
+= 7 = m = 9
+= 8 = m = 9
+# Listed 13 contacts. EOF.

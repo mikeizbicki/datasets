@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1alx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC, GRAMICIDIN, ANTIFUNGAL, ANTIBACTERIAL, ABTIBIOTIC,MEMBRANE ION CHANNEL, LINEAR GRAMICIDIN
+> pdb_mol_name > GRAMICIDIN A
+> graphtype > albelig
+> resolution > 1.2
+> date > 05-JUN-97
+> header > ANTIBIOTIC
+> pdb_org_common > UNKNOWN
+> title > GRAMICIDIN D FROM BACILLUS BREVIS (METHANOL SOLVATE)
+> format_version > 2
+> pdbid > 1alx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BREVIBACILLUS BREVIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1alx | A | albelig | 1 | 1 | E | 2 | 14 | A-2-  | A-14-  | GAXAXVXWXYXWX 
+| 1alx | A | albelig | 2 | 2 | L | 39 | 39 | A-16-  | A-16-  | J 
+| 1alx | A | albelig | 3 | 3 | L | 48 | 48 | A-501-  | A-501-  | J 
+| 1alx | A | albelig | 4 | 4 | L | 49 | 49 | A-502-  | A-502-  | J 
+| 1alx | A | albelig | 5 | 5 | L | 50 | 50 | A-505-  | A-505-  | J 
+| 1alx | A | albelig | 6 | 6 | L | 51 | 51 | A-506-  | A-506-  | J 
+| 1alx | A | albelig | 7 | 7 | L | 52 | 52 | A-508-  | A-508-  | J 
+| 1alx | A | albelig | 8 | 8 | L | 53 | 53 | A-515-  | A-515-  | J 
+| 1alx | A | albelig | 9 | 9 | L | 54 | 54 | A-516-  | A-516-  | J 
+| 1alx | A | albelig | 10 | 10 | L | 55 | 55 | A-518-  | A-518-  | J 
+| 1alx | A | albelig | 11 | 11 | L | 56 | 56 | A-519-  | A-519-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 1 = l = 3
+= 1 = l = 4
+= 1 = l = 5
+= 1 = l = 6
+= 1 = l = 8
+= 1 = l = 9
+= 1 = l = 10
+= 2 = l = 9
+= 3 = l = 6
+= 3 = l = 10
+= 3 = l = 11
+= 6 = l = 10
+= 7 = l = 11
+# Listed 14 contacts. EOF.

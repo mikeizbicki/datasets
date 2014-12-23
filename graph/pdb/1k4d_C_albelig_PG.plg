@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k4d, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > K CHANNEL, PROTEIN-ANTIBODY FAB COMPLEX, MEMBRANE PROTEIN
+> pdb_mol_name > POTASSIUM CHANNEL KCSA
+> graphtype > albelig
+> resolution > 2.3
+> date > 07-OCT-01
+> header > MEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > POTASSIUM CHANNEL KCSA-FAB COMPLEX IN LOW CONCENTRATION OF K+
+> format_version > 2
+> pdbid > 1k4d
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES LIVIDANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k4d | C | albelig | 1 | 1 | H | 436 | 463 | C-24-  | C-51-  | LHWRAAGAATVLLVIVLLAGSYLAVLAE 
+| 1k4d | C | albelig | 2 | 2 | H | 474 | 486 | C-62-  | C-74-  | YPRALWWSVETAT 
+| 1k4d | C | albelig | 3 | 3 | H | 498 | 533 | C-86-  | C-121-  | LWGRCVAVVVMVAGITSFGLVTAALATWFVGREQER 
+| 1k4d | C | albelig | 4 | 4 | L | 537 | 537 | C-2001-  | C-2001-  | J 
+| 1k4d | C | albelig | 5 | 5 | L | 538 | 538 | C-2002-  | C-2002-  | J 
+| 1k4d | C | albelig | 6 | 6 | L | 539 | 539 | C-2003-  | C-2003-  | J 
+| 1k4d | C | albelig | 7 | 7 | L | 540 | 540 | C-1001-  | C-1001-  | J 
+| 1k4d | C | albelig | 8 | 8 | L | 541 | 541 | C-1002-  | C-1002-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = l = 8
+= 2 = m = 3
+= 2 = l = 5
+= 3 = l = 7
+= 3 = l = 8
+# Listed 7 contacts. EOF.

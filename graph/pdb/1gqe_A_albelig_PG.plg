@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gqe, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN SYNTHESIS, RIBOSOME, MACROMOLECULAR MIMICRY,TRANSLATION
+> pdb_mol_name > RELEASE FACTOR 2
+> graphtype > albelig
+> resolution > 1.81
+> date > 22-NOV-01
+> header > TRANSLATION
+> pdb_org_common > UNKNOWN
+> title > POLYPEPTIDE CHAIN RELEASE FACTOR 2 (RF2) FROM ESCHERICHIACOLI
+> format_version > 2
+> pdbid > 1gqe
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gqe | A | albelig | 1 | 1 | H | 3 | 21 | A-6-  | A-24-  | PVNNRIQDLTERSDVLRGY 
+| 1gqe | A | albelig | 2 | 2 | H | 24 | 39 | A-27-  | A-42-  | YDAKKERLEEVNAELE 
+| 1gqe | A | albelig | 3 | 3 | H | 41 | 45 | A-44-  | A-48-  | PDVWN 
+| 1gqe | A | albelig | 4 | 4 | H | 47 | 87 | A-50-  | A-90-  | PERAQALGKERSSLEAVVDTLDQXKQGLEDVSGLLELAVEA 
+| 1gqe | A | albelig | 5 | 5 | H | 90 | 115 | A-93-  | A-118-  | EETFNEAVAELDALEEKLAQLEFRRX 
+| 1gqe | A | albelig | 6 | 6 | E | 125 | 131 | A-128-  | A-134-  | CYLDIQA 
+| 1gqe | A | albelig | 7 | 7 | H | 135 | 155 | A-138-  | A-158-  | GTEAQDWASXLERXYLRWAES 
+| 1gqe | A | albelig | 8 | 8 | E | 159 | 167 | A-162-  | A-170-  | KTEIIEESE 
+| 1gqe | A | albelig | 9 | 9 | E | 173 | 181 | A-176-  | A-184-  | IKSVTIKIS 
+| 1gqe | A | albelig | 10 | 10 | H | 185 | 192 | A-188-  | A-195-  | AYGWLRTE 
+| 1gqe | A | albelig | 11 | 11 | E | 194 | 201 | A-197-  | A-204-  | GVHRLVRK 
+| 1gqe | A | albelig | 12 | 12 | E | 210 | 221 | A-213-  | A-224-  | RHTSFSSAFVYP 
+| 1gqe | A | albelig | 13 | 13 | H | 233 | 235 | A-236-  | A-238-  | PAD 
+| 1gqe | A | albelig | 14 | 14 | E | 236 | 241 | A-239-  | A-244-  | LRIDVY 
+| 1gqe | A | albelig | 15 | 15 | E | 257 | 262 | A-260-  | A-265-  | AVRITH 
+| 1gqe | A | albelig | 16 | 16 | E | 268 | 271 | A-271-  | A-274-  | VTQC 
+| 1gqe | A | albelig | 17 | 17 | H | 277 | 303 | A-280-  | A-306-  | QHKNKDQAXKQXKAKLYEVEXQKKNAE 
+| 1gqe | A | albelig | 18 | 18 | E | 319 | 324 | A-322-  | A-327-  | QIRSYV 
+| 1gqe | A | albelig | 19 | 19 | H | 325 | 327 | A-328-  | A-330-  | LDD 
+| 1gqe | A | albelig | 20 | 20 | E | 329 | 332 | A-332-  | A-335-  | RIKD 
+| 1gqe | A | albelig | 21 | 21 | H | 342 | 346 | A-345-  | A-349-  | TQAVL 
+| 1gqe | A | albelig | 22 | 22 | H | 351 | 359 | A-354-  | A-362-  | DQFIEASLK 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = p = 5
+= 2 = a = 4
+= 3 = m = 4
+= 4 = a = 5
+= 6 = a = 7
+= 6 = a = 9
+= 6 = a = 12
+= 7 = p = 9
+= 7 = a = 11
+= 7 = m = 12
+= 8 = a = 9
+= 8 = a = 16
+= 10 = a = 12
+= 11 = a = 12
+= 11 = p = 18
+= 11 = m = 19
+= 12 = m = 17
+= 13 = m = 14
+= 13 = m = 15
+= 14 = a = 15
+= 15 = a = 16
+= 15 = p = 17
+= 16 = m = 17
+= 18 = m = 19
+= 18 = a = 20
+# Listed 26 contacts. EOF.

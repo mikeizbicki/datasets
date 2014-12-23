@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1byz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HELICAL BILAYER; BIOMATERIAL, DE NOVO PROTEIN
+> pdb_mol_name > PROTEIN (SYNTHETIC DESIGNED PEPTIDE "ALPHA-1")
+> graphtype > albelig
+> resolution > 0.9
+> date > 20-OCT-98
+> header > DE NOVO PROTEIN
+> pdb_org_common > UNKNOWN
+> title > DESIGNED PEPTIDE ALPHA-1, P1 FORM
+> format_version > 2
+> pdbid > 1byz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1byz | A | albelig | 1 | 1 | H | 2 | 11 | A-102-  | A-111-  | LLKKLLEELK 
+| 1byz | A | albelig | 2 | 2 | L | 52 | 52 | A-100-  | A-100-  | J 
+| 1byz | A | albelig | 3 | 3 | L | 56 | 56 | A-502-  | A-502-  | J 
+| 1byz | A | albelig | 4 | 4 | L | 57 | 57 | A-513-  | A-513-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 2
+= 1 = l = 4
+= 3 = l = 4
+# Listed 3 contacts. EOF.

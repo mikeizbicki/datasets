@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ksm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LANTHANIDE IONS, CALCIUM-BINDING PROTEIN, PARAMAGNETIC NMR,PSEUDOCONTACT SHIFTS, RESIDUAL DIPOLAR COUPLINGS, METALBINDING PROTEIN
+> pdb_mol_name > VITAMIN D-DEPENDENT CALCIUM-BINDING PROTEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-JAN-02
+> header > METAL BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > AVERAGE NMR SOLUTION STRUCTURE OF CA LN CALBINDIN D9K
+> format_version > 2
+> pdbid > 1ksm
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ksm | A | albelig | 1 | 1 | H | 3 | 14 | A-3-  | A-14-  | PEELKGIFEKYA 
+| 1ksm | A | albelig | 2 | 2 | H | 25 | 34 | A-25-  | A-34-  | KEELKLLLQT 
+| 1ksm | A | albelig | 3 | 3 | H | 38 | 41 | A-38-  | A-41-  | SLLK 
+| 1ksm | A | albelig | 4 | 4 | H | 46 | 53 | A-46-  | A-53-  | LDELFEEL 
+| 1ksm | A | albelig | 5 | 5 | H | 63 | 66 | A-63-  | A-66-  | FEEF 
+| 1ksm | A | albelig | 6 | 6 | H | 69 | 72 | A-69-  | A-72-  | LVKK 
+| 1ksm | A | albelig | 7 | 7 | L | 76 | 76 | A-105-  | A-105-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = m = 4
+= 5 = l = 7
+# Listed 3 contacts. EOF.

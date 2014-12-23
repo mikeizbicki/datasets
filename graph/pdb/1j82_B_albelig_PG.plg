@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j82, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OSMOLYTE SOAKING, SARCOSINE, TRIMETHYLAMINE-N-OXIDE,BETAINE, TAURINE, HYDROLASE
+> pdb_mol_name > RIBONUCLEASE PANCREATIC
+> graphtype > albelig
+> resolution > 2.3
+> date > 19-MAY-01
+> header > HYDROLASE
+> pdb_org_common > CATTLE
+> title > OSMOLYTE STABILIZATION OF RNASE
+> format_version > 2
+> pdbid > 1j82
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j82 | B | albelig | 1 | 1 | H | 18 | 25 | B-25-  | B-32-  | YANQMMKS 
+| 1j82 | B | albelig | 2 | 2 | E | 36 | 40 | B-43-  | B-47-  | VNTFV 
+| 1j82 | B | albelig | 3 | 3 | H | 44 | 52 | B-51-  | B-59-  | LADVQAVCS 
+| 1j82 | B | albelig | 4 | 4 | E | 54 | 56 | B-61-  | B-63-  | KNV 
+| 1j82 | B | albelig | 5 | 5 | E | 65 | 67 | B-72-  | B-74-  | DYQ 
+| 1j82 | B | albelig | 6 | 6 | E | 72 | 79 | B-79-  | B-86-  | MSITDARE 
+| 1j82 | B | albelig | 7 | 7 | E | 90 | 97 | B-97-  | B-104-  | YKTTQANK 
+| 1j82 | B | albelig | 8 | 8 | E | 99 | 104 | B-106-  | B-111-  | IIVACE 
+| 1j82 | B | albelig | 9 | 9 | E | 109 | 116 | B-116-  | B-123-  | VPVHFDAS 
+| 1j82 | B | albelig | 10 | 10 | L | 119 | 119 | B-125-  | B-125-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 2 = a = 6
+= 3 = m = 8
+= 4 = a = 5
+= 5 = a = 8
+= 6 = a = 7
+= 8 = a = 9
+= 9 = l = 10
+# Listed 8 contacts. EOF.

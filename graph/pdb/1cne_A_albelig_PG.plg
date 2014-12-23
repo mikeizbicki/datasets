@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cne, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, NITROGENOUS ACCEPTOR, NITRATE ASSIMILATINGENZYME
+> pdb_mol_name > NITRATE REDUCTASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 01-FEB-95
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL STUDIES ON CORN NITRATE REDUCTASE: REFINEDSTRUCTURE OF THE CYTOCHROME B REDUCTASE FRAGMENT AT 2.5ANGSTROMS, ITS ADP COMPLEX AND AN ACTIVE SITE MUTANT ANDMODELING OF THE CYTOCHROME B DOMAIN
+> format_version > 2
+> pdbid > 1cne
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ZEA MAYS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cne | A | albelig | 1 | 1 | E | 6 | 10 | A-16-  | A-20-  | RLVAK 
+| 1cne | A | albelig | 2 | 2 | E | 17 | 23 | A-27-  | A-33-  | VRLFRFS 
+| 1cne | A | albelig | 3 | 3 | E | 65 | 71 | A-75-  | A-81-  | HFDLLVK 
+| 1cne | A | albelig | 4 | 4 | H | 86 | 93 | A-96-  | A-103-  | LMTQYLDS 
+| 1cne | A | albelig | 5 | 5 | E | 116 | 118 | A-126-  | A-128-  | SFV 
+| 1cne | A | albelig | 6 | 6 | E | 123 | 125 | A-133-  | A-135-  | QRN 
+| 1cne | A | albelig | 7 | 7 | E | 128 | 131 | A-138-  | A-141-  | RLAM 
+| 1cne | A | albelig | 8 | 8 | H | 139 | 150 | A-149-  | A-160-  | TPMYQIIQAVLR 
+| 1cne | A | albelig | 9 | 9 | E | 158 | 161 | A-168-  | A-171-  | EMHL 
+| 1cne | A | albelig | 10 | 10 | H | 175 | 178 | A-185-  | A-188-  | DELD 
+| 1cne | A | albelig | 11 | 11 | H | 180 | 183 | A-190-  | A-193-  | WAAE 
+| 1cne | A | albelig | 12 | 12 | H | 213 | 217 | A-223-  | A-227-  | EAVLR 
+| 1cne | A | albelig | 13 | 13 | H | 236 | 239 | A-246-  | A-249-  | PMIQ 
+| 1cne | A | albelig | 14 | 14 | H | 245 | 248 | A-255-  | A-258-  | NLEK 
+| 1cne | A | albelig | 15 | 15 | L | 261 | 261 | A-271-  | A-271-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = l = 15
+= 4 = l = 15
+= 5 = a = 6
+= 7 = p = 9
+= 8 = m = 9
+= 8 = l = 15
+# Listed 8 contacts. EOF.

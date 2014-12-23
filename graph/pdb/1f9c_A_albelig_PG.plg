@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f9c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THERMOSTABLE MUTANT, ISOMERASE
+> pdb_mol_name > PROTEIN (MUCONATE CYCLOISOMERASE I)
+> graphtype > albelig
+> resolution > 2.5
+> date > 10-JUL-00
+> header > ISOMERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF MLE D178N VARIANT
+> format_version > 2
+> pdbid > 1f9c
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS PUTIDA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f9c | A | albelig | 1 | 1 | E | 4 | 15 | A-6-  | A-17-  | IERIDAIIVDLP 
+| 1f9c | A | albelig | 2 | 2 | E | 20 | 30 | A-31-  | A-41-  | QQTLVVLRVRC 
+| 1f9c | A | albelig | 3 | 3 | E | 35 | 41 | A-46-  | A-52-  | EGIGEAT 
+| 1f9c | A | albelig | 4 | 4 | H | 53 | 64 | A-64-  | A-75-  | PEGIKANIDAHL 
+| 1f9c | A | albelig | 5 | 5 | H | 65 | 67 | A-76-  | A-78-  | APA 
+| 1f9c | A | albelig | 6 | 6 | H | 76 | 86 | A-87-  | A-97-  | INAAMLKLDAL 
+| 1f9c | A | albelig | 7 | 7 | H | 91 | 109 | A-102-  | A-120-  | TFAKSGIESALLDAQGKRL 
+| 1f9c | A | albelig | 8 | 8 | H | 113 | 116 | A-124-  | A-127-  | VSEL 
+| 1f9c | A | albelig | 9 | 9 | E | 124 | 126 | A-135-  | A-137-  | SLE 
+| 1f9c | A | albelig | 10 | 10 | E | 129 | 131 | A-140-  | A-142-  | WTL 
+| 1f9c | A | albelig | 11 | 11 | H | 136 | 148 | A-147-  | A-159-  | TARDIAEARHMLE 
+| 1f9c | A | albelig | 12 | 12 | E | 154 | 158 | A-165-  | A-169-  | VFKLK 
+| 1f9c | A | albelig | 13 | 13 | H | 164 | 181 | A-175-  | A-192-  | VEQNLKHVVTIKRELGDS 
+| 1f9c | A | albelig | 14 | 14 | E | 183 | 187 | A-194-  | A-198-  | SVRVD 
+| 1f9c | A | albelig | 15 | 15 | H | 194 | 205 | A-205-  | A-216-  | ESQAIRACQVLG 
+| 1f9c | A | albelig | 16 | 16 | E | 211 | 213 | A-222-  | A-224-  | LIE 
+| 1f9c | A | albelig | 17 | 17 | H | 221 | 230 | A-232-  | A-241-  | RGGQVRLNQR 
+| 1f9c | A | albelig | 18 | 18 | E | 235 | 237 | A-246-  | A-248-  | IMA 
+| 1f9c | A | albelig | 19 | 19 | H | 244 | 253 | A-255-  | A-264-  | VEDAFSLAAD 
+| 1f9c | A | albelig | 20 | 20 | E | 258 | 261 | A-269-  | A-272-  | IFAL 
+| 1f9c | A | albelig | 21 | 21 | H | 263 | 266 | A-274-  | A-277-  | IAKN 
+| 1f9c | A | albelig | 22 | 22 | H | 269 | 282 | A-280-  | A-293-  | PRAVLRTAQIAEAA 
+| 1f9c | A | albelig | 23 | 23 | E | 285 | 288 | A-296-  | A-299-  | GLYG 
+| 1f9c | A | albelig | 24 | 24 | H | 295 | 305 | A-306-  | A-316-  | SIGTLASAHAF 
+| 1f9c | A | albelig | 25 | 25 | H | 319 | 322 | A-330-  | A-333-  | GPLL 
+| 1f9c | A | albelig | 26 | 26 | E | 338 | 340 | A-349-  | A-351-  | QLH 
+| 1f9c | A | albelig | 27 | 27 | H | 353 | 359 | A-364-  | A-370-  | EARLARF 
+| 1f9c | A | albelig | 28 | 28 | L | 724 | 724 | A-374-  | A-374-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 1 = m = 27
+= 2 = a = 3
+= 2 = p = 7
+= 3 = a = 7
+= 3 = m = 24
+= 4 = m = 5
+= 4 = m = 7
+= 6 = a = 7
+= 7 = m = 8
+= 7 = m = 21
+= 7 = m = 22
+= 9 = a = 26
+= 10 = m = 11
+= 10 = p = 12
+= 11 = p = 13
+= 12 = p = 14
+= 12 = l = 28
+= 13 = m = 15
+= 14 = p = 16
+= 14 = l = 28
+= 16 = a = 18
+= 16 = l = 28
+= 17 = m = 19
+= 18 = p = 20
+= 19 = p = 22
+= 20 = m = 22
+= 20 = p = 23
+= 21 = m = 22
+# Listed 30 contacts. EOF.

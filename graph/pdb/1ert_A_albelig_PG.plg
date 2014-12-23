@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ert, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DIMER, THIOREDOXIN, X-RAY CRYSTALLOGRAPHY, OXIDOREDUCTASE
+> pdb_mol_name > THIOREDOXIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 07-FEB-96
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > HUMAN THIOREDOXIN (REDUCED FORM)
+> format_version > 2
+> pdbid > 1ert
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ert | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | VKQI 
+| 1ert | A | albelig | 2 | 2 | H | 8 | 17 | A-8-  | A-17-  | KTAFQEALDA 
+| 1ert | A | albelig | 3 | 3 | E | 22 | 28 | A-22-  | A-28-  | LVVVDFS 
+| 1ert | A | albelig | 4 | 4 | H | 33 | 48 | A-33-  | A-48-  | GPCKMIKPFFHSLSEK 
+| 1ert | A | albelig | 5 | 5 | E | 52 | 58 | A-52-  | A-58-  | VIFLEVD 
+| 1ert | A | albelig | 6 | 6 | H | 63 | 68 | A-63-  | A-68-  | QDVASE 
+| 1ert | A | albelig | 7 | 7 | E | 76 | 81 | A-76-  | A-81-  | TFQFFK 
+| 1ert | A | albelig | 8 | 8 | E | 84 | 90 | A-84-  | A-90-  | QKVGEFS 
+| 1ert | A | albelig | 9 | 9 | H | 94 | 104 | A-94-  | A-104-  | KEKLEATINEL 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 3 = p = 5
+= 3 = a = 7
+= 4 = m = 9
+= 7 = a = 8
+# Listed 5 contacts. EOF.

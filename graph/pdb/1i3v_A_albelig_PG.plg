@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i3v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY, DOMAIN VHH, LAMA, IMMUNE SYSTEM
+> pdb_mol_name > ANTIBODY VHH LAMA DOMAIN
+> graphtype > albelig
+> resolution > 2.03
+> date > 16-FEB-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > LLAMA
+> title > THREE-DIMENSIONAL STRUCTURE OF A LAMA VHH DOMAIN UNLIGANDED
+> format_version > 2
+> pdbid > 1i3v
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LAMA GLAMA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i3v | A | albelig | 1 | 1 | E | 3 | 7 | A-3-  | A-7-  | QLQES 
+| 1i3v | A | albelig | 2 | 2 | E | 11 | 13 | A-11-  | A-13-  | LVQ 
+| 1i3v | A | albelig | 3 | 3 | E | 18 | 25 | A-18-  | A-25-  | LKLSAEAS 
+| 1i3v | A | albelig | 4 | 4 | H | 29 | 31 | A-29-  | A-31-  | IGT 
+| 1i3v | A | albelig | 5 | 5 | E | 33 | 39 | A-33-  | A-39-  | VIGWFRQ 
+| 1i3v | A | albelig | 6 | 6 | E | 46 | 57 | A-46-  | A-57-  | IYLATIGRNLVG 
+| 1i3v | A | albelig | 7 | 7 | E | 60 | 65 | A-60-  | A-65-  | DFYTRY 
+| 1i3v | A | albelig | 8 | 8 | E | 73 | 78 | A-73-  | A-78-  | FAVSRD 
+| 1i3v | A | albelig | 9 | 9 | H | 79 | 81 | A-79-  | A-81-  | NAK 
+| 1i3v | A | albelig | 10 | 10 | E | 83 | 88 | A-83-  | A-88-  | TVNLQM 
+| 1i3v | A | albelig | 11 | 11 | H | 93 | 95 | A-93-  | A-95-  | PED 
+| 1i3v | A | albelig | 12 | 12 | E | 97 | 104 | A-97-  | A-104-  | AVYYAAAK 
+| 1i3v | A | albelig | 13 | 13 | E | 123 | 128 | A-123-  | A-128-  | TQVTVS 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 12
+= 2 = p = 13
+= 3 = a = 10
+= 3 = p = 12
+= 5 = a = 6
+= 5 = p = 10
+= 5 = a = 12
+= 6 = a = 7
+= 6 = p = 8
+= 7 = a = 8
+= 8 = m = 9
+= 8 = a = 10
+= 12 = a = 13
+# Listed 14 contacts. EOF.

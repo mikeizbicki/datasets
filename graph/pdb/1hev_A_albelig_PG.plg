@@ -1,0 +1,25 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hev, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN
+> pdb_mol_name > HEVEIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-JAN-93
+> header > LECTIN
+> pdb_org_common > UNKNOWN
+> title > HEVEIN: THE NMR ASSIGNMENT AND AN ASSESSMENT OF SOLUTION-STATE FOLDING FOR THE AGGLUTININ-TOXIN MOTIF
+> format_version > 2
+> pdbid > 1hev
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HEVEA BRASILIENSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hev | A | albelig | 1 | 1 | H | 5 | 7 | A-5-  | A-7-  | RQA 
+| 1hev | A | albelig | 2 | 2 | H | 13 | 15 | A-13-  | A-15-  | PNN 
+| 1hev | A | albelig | 3 | 3 | H | 28 | 31 | A-28-  | A-31-  | DEYC 
+| 1hev | A | albelig | 4 | 4 | H | 33 | 35 | A-33-  | A-35-  | PDH 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1glu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, DOUBLE HELIX, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > PROTEIN (GLUCOCORTICOID RECEPTOR)
+> graphtype > albelig
+> resolution > 2.9
+> date > 30-AUG-92
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > NORWAY RAT
+> title > CRYSTALLOGRAPHIC ANALYSIS OF THE INTERACTION OF THEGLUCOCORTICOID RECEPTOR WITH DNA
+> format_version > 2
+> pdbid > 1glu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1glu | A | albelig | 1 | 1 | H | 25 | 36 | A-458-  | A-469-  | GSCKVFFKRAVE 
+| 1glu | A | albelig | 2 | 2 | H | 55 | 57 | A-488-  | A-490-  | RRK 
+| 1glu | A | albelig | 3 | 3 | H | 60 | 70 | A-493-  | A-503-  | PACRYRKCLQA 
+| 1glu | A | albelig | 4 | 4 | L | 164 | 164 | A-515-  | A-515-  | J 
+| 1glu | A | albelig | 5 | 5 | L | 165 | 165 | A-516-  | A-516-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = l = 4
+= 3 = l = 4
+= 3 = l = 5
+# Listed 4 contacts. EOF.

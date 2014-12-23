@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bds, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTI-HYPERTENSIVE, ANTI-VIRAL PROTEIN
+> pdb_mol_name > BDS-I
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-NOV-88
+> header > ANTI-HYPERTENSIVE, ANTI-VIRAL PROTEIN
+> pdb_org_common > SNAKE-LOCKS SEA ANEMONE
+> title > DETERMINATION OF THE THREE-DIMENSIONAL SOLUTION STRUCTUREOF THE ANTIHYPERTENSIVE AND ANTIVIRAL PROTEIN BDS-I FROMTHE SEA ANEMONE ANEMONIA SULCATA. A STUDY USING NUCLEARMAGNETIC RESONANCE AND HYBRID DISTANCE GEOMETRY-DYNAMICALSIMULATED ANNEALING
+> format_version > 2
+> pdbid > 1bds
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ANEMONIA SULCATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bds | A | albelig | 1 | 1 | E | 14 | 16 | A-14-  | A-16-  | DLW 
+| 1bds | A | albelig | 2 | 2 | E | 31 | 34 | A-31-  | A-34-  | NNYK 
+| 1bds | A | albelig | 3 | 3 | E | 37 | 40 | A-37-  | A-40-  | NIAC 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 3
+# Listed 2 contacts. EOF.

@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gzc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, CARBOHYDRATE, SUGAR BINDING PROTEIN, SACCHARIDE,PROTEIN-CARBOHYDRATE INTERACTIONS, LACTOSE, GLYCOPROTEIN
+> pdb_mol_name > ERYTHRINA CRISTA-GALLI LECTIN
+> graphtype > albelig
+> resolution > 1.58
+> date > 17-MAY-02
+> header > SUGAR BINDING PROTEIN
+> pdb_org_common > COCKSPUR CORAL TREE
+> title > HIGH-RESOLUTION CRYSTAL STRUCTURE OF ERYTHRINA CRISTAGALLILECTIN IN COMPLEX WITH LACTOSE
+> format_version > 2
+> pdbid > 1gzc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ERYTHRINA CRISTA-GALLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gzc | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | ETISFSF 
+| 1gzc | A | albelig | 2 | 2 | E | 18 | 22 | A-18-  | A-22-  | LTLQG 
+| 1gzc | A | albelig | 3 | 3 | E | 48 | 53 | A-48-  | A-53-  | TGRTLY 
+| 1gzc | A | albelig | 4 | 4 | E | 69 | 77 | A-69-  | A-77-  | SFETRFSFS 
+| 1gzc | A | albelig | 5 | 5 | E | 89 | 96 | A-89-  | A-96-  | DGLVFFMG 
+| 1gzc | A | albelig | 6 | 6 | H | 106 | 108 | A-106-  | A-108-  | YGY 
+| 1gzc | A | albelig | 7 | 7 | H | 119 | 121 | A-119-  | A-121-  | NSY 
+| 1gzc | A | albelig | 8 | 8 | E | 124 | 129 | A-124-  | A-129-  | LAVEFD 
+| 1gzc | A | albelig | 9 | 9 | E | 142 | 147 | A-142-  | A-147-  | HIGIDV 
+| 1gzc | A | albelig | 10 | 10 | E | 154 | 157 | A-154-  | A-157-  | KTQP 
+| 1gzc | A | albelig | 11 | 11 | E | 165 | 173 | A-165-  | A-173-  | VANVVIKYD 
+| 1gzc | A | albelig | 12 | 12 | E | 178 | 184 | A-178-  | A-184-  | ILHVVLV 
+| 1gzc | A | albelig | 13 | 13 | E | 191 | 197 | A-191-  | A-197-  | IYTIAEI 
+| 1gzc | A | albelig | 14 | 14 | H | 200 | 203 | A-200-  | A-203-  | VKQV 
+| 1gzc | A | albelig | 15 | 15 | E | 207 | 216 | A-207-  | A-216-  | WVDVGLSGAT 
+| 1gzc | A | albelig | 16 | 16 | E | 227 | 237 | A-227-  | A-237-  | DVYSWSFQASL 
+| 1gzc | A | albelig | 17 | 17 | L | 240 | 240 | A-289-  | A-289-  | J 
+| 1gzc | A | albelig | 18 | 18 | L | 241 | 241 | A-290-  | A-290-  | J 
+| 1gzc | A | albelig | 19 | 19 | L | 242 | 242 | A-1559-  | A-1559-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 16
+= 2 = a = 3
+= 3 = a = 15
+= 4 = a = 11
+= 4 = a = 16
+= 5 = a = 8
+= 5 = a = 15
+= 5 = l = 18
+= 5 = l = 19
+= 6 = l = 18
+= 6 = l = 19
+= 8 = a = 9
+= 8 = l = 17
+= 8 = l = 18
+= 9 = a = 10
+= 9 = l = 17
+= 10 = a = 13
+= 11 = a = 12
+= 12 = a = 13
+= 15 = l = 19
+= 17 = l = 18
+= 18 = l = 19
+# Listed 22 contacts. EOF.

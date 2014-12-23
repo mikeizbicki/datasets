@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bry, chain Z.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBOSOME-INACTIVATING PROTEIN, IMMUNOTOXIN, BRYODIN
+> pdb_mol_name > BRYODIN I
+> graphtype > albelig
+> resolution > 2.1
+> date > 14-FEB-97
+> header > RIBOSOME-INACTIVATING PROTEIN
+> pdb_org_common > RED BRYONY
+> title > BRYODIN TYPE I RIP
+> format_version > 2
+> pdbid > 1bry
+> experiment > X-RAY DIFFRACTION
+> chainid > Z
+> graphclass > protein graph
+> pdb_org_sci > BRYONIA DIOICA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bry | Z | albelig | 1 | 1 | E | 250 | 253 | Z-2-  | Z-5-  | VSFR 
+| 1bry | Z | albelig | 2 | 2 | H | 259 | 271 | Z-11-  | Z-23-  | TTSYGVFIKNLRE 
+| 1bry | Z | albelig | 3 | 3 | E | 275 | 279 | Z-27-  | Z-31-  | YERKV 
+| 1bry | Z | albelig | 4 | 4 | E | 282 | 285 | Z-34-  | Z-37-  | IPLL 
+| 1bry | Z | albelig | 5 | 5 | H | 291 | 294 | Z-43-  | Z-46-  | GSGR 
+| 1bry | Z | albelig | 6 | 6 | E | 295 | 301 | Z-47-  | Z-53-  | YTLLHLT 
+| 1bry | Z | albelig | 7 | 7 | E | 307 | 313 | Z-59-  | Z-65-  | TISVAVD 
+| 1bry | Z | albelig | 8 | 8 | E | 318 | 324 | Z-70-  | Z-76-  | YIMGYLA 
+| 1bry | Z | albelig | 9 | 9 | E | 327 | 330 | Z-79-  | Z-82-  | VSYF 
+| 1bry | Z | albelig | 10 | 10 | H | 334 | 339 | Z-86-  | Z-91-  | ASATEA 
+| 1bry | Z | albelig | 11 | 11 | E | 349 | 352 | Z-101-  | Z-104-  | KKVT 
+| 1bry | Z | albelig | 12 | 12 | H | 359 | 366 | Z-111-  | Z-118-  | YERLQTAA 
+| 1bry | Z | albelig | 13 | 13 | H | 370 | 372 | Z-122-  | Z-124-  | REN 
+| 1bry | Z | albelig | 14 | 14 | H | 377 | 389 | Z-129-  | Z-141-  | LPALDSAITTLYY 
+| 1bry | Z | albelig | 15 | 15 | H | 392 | 408 | Z-144-  | Z-160-  | ASSAASALLVLIQSTAE 
+| 1bry | Z | albelig | 16 | 16 | H | 409 | 411 | Z-161-  | Z-163-  | SAR 
+| 1bry | Z | albelig | 17 | 17 | H | 413 | 420 | Z-165-  | Z-172-  | KFIEQQIG 
+| 1bry | Z | albelig | 18 | 18 | H | 431 | 438 | Z-183-  | Z-190-  | LATISLEN 
+| 1bry | Z | albelig | 19 | 19 | H | 440 | 451 | Z-192-  | Z-203-  | WSALSKQIQIAS 
+| 1bry | Z | albelig | 20 | 20 | E | 456 | 464 | Z-208-  | Z-216-  | QFESPVVLI 
+| 1bry | Z | albelig | 21 | 21 | E | 470 | 475 | Z-222-  | Z-227-  | RVSITN 
+| 1bry | Z | albelig | 22 | 22 | H | 479 | 483 | Z-231-  | Z-235-  | RVVTS 
+| 1bry | Z | albelig | 23 | 23 | H | 491 | 493 | Z-243-  | Z-245-  | RNN 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 6
+= 2 = m = 16
+= 2 = a = 17
+= 3 = a = 4
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = p = 11
+= 12 = a = 15
+= 13 = m = 18
+= 14 = a = 15
+= 18 = m = 20
+= 19 = a = 20
+= 20 = a = 21
+# Listed 18 contacts. EOF.

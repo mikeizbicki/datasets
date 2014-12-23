@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1icl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DE NOVO PROTEIN DESIGN THREE-STRANDED BETA-SHEET MINI-PROTEIN MOTIF TH MOTIF
+> pdb_mol_name > TH1OX
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-APR-01
+> header > DE NOVO PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF DESIGNED BETA-SHEET MINI-PROTEIN TH1OX
+> format_version > 2
+> pdbid > 1icl
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1icl | A | albelig | 1 | 1 | E | 3 | 6 | A-3-  | A-6-  | YEYT 
+| 1icl | A | albelig | 2 | 2 | E | 11 | 14 | A-11-  | A-14-  | TFRG 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

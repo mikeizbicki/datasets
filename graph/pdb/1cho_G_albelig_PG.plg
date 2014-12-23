@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cho, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX(SERINE PROTEINASE-INHIBITOR)
+> pdb_mol_name > ALPHA-CHYMOTRYPSIN A
+> graphtype > albelig
+> resolution > 1.8
+> date > 04-MAR-88
+> header > COMPLEX(SERINE PROTEINASE-INHIBITOR)
+> pdb_org_common > CATTLE
+> title > CRYSTAL AND MOLECULAR STRUCTURES OF THE COMPLEX OF ALPHA-*CHYMOTRYPSIN WITH ITS INHIBITOR TURKEY OVOMUCOID THIRDDOMAIN AT 1.8 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1cho
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cho | G | albelig | 1 | 1 | E | 151 | 156 | G-156-  | G-161-  | QQASLP 
+| 1cho | G | albelig | 2 | 2 | H | 160 | 170 | G-165-  | G-175-  | NTNDKKYWGTK 
+| 1cho | G | albelig | 3 | 3 | E | 175 | 179 | G-180-  | G-184-  | MIDAG 
+| 1cho | G | albelig | 4 | 4 | E | 193 | 198 | G-198-  | G-203-  | PLVCKK 
+| 1cho | G | albelig | 5 | 5 | E | 201 | 212 | G-206-  | G-217-  | AWTLVGIVSWGS 
+| 1cho | G | albelig | 6 | 6 | E | 220 | 225 | G-225-  | G-230-  | PGVYAR 
+| 1cho | G | albelig | 7 | 7 | H | 226 | 239 | G-231-  | G-244-  | VTALVNWVQQTLAA 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = m = 3
+= 3 = a = 6
+= 4 = a = 5
+= 5 = a = 6
+= 5 = m = 7
+= 6 = m = 7
+# Listed 7 contacts. EOF.

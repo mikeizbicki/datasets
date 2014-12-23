@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c0m, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTEGRASE, ROUS SARCOMA VIRUS, HIV, X-RAY CRYSTALLOGRAPHY,PROTEIN STRUCTURE, TRANSFERASE
+> pdb_mol_name > PROTEIN (INTEGRASE)
+> graphtype > albelig
+> resolution > 2.53
+> date > 16-JUL-99
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF RSV TWO-DOMAIN INTEGRASE
+> format_version > 2
+> pdbid > 1c0m
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ROUS SARCOMA VIRUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c0m | D | albelig | 1 | 1 | E | 669 | 676 | D-60-  | D-67-  | IWQTDFTL 
+| 1c0m | D | albelig | 2 | 2 | H | 678 | 680 | D-69-  | D-71-  | PRM 
+| 1c0m | D | albelig | 3 | 3 | E | 685 | 691 | D-76-  | D-82-  | WLAVTVD 
+| 1c0m | D | albelig | 4 | 4 | E | 697 | 702 | D-88-  | D-93-  | IVVTQH 
+| 1c0m | D | albelig | 5 | 5 | H | 707 | 721 | D-98-  | D-112-  | SVAVQHHWATAIAVL 
+| 1c0m | D | albelig | 6 | 6 | E | 726 | 730 | D-117-  | D-121-  | AIKTD 
+| 1c0m | D | albelig | 7 | 7 | H | 733 | 736 | D-124-  | D-127-  | SCFT 
+| 1c0m | D | albelig | 8 | 8 | H | 738 | 747 | D-129-  | D-138-  | KSTREWLARW 
+| 1c0m | D | albelig | 9 | 9 | E | 750 | 754 | D-141-  | D-145-  | AHTTG 
+| 1c0m | D | albelig | 10 | 10 | H | 759 | 782 | D-150-  | D-173-  | SQGQAMVERANRLLKDRIRVLAEG 
+| 1c0m | D | albelig | 11 | 11 | H | 791 | 807 | D-182-  | D-198-  | TSKQGELLAKAMYALNH 
+| 1c0m | D | albelig | 12 | 12 | H | 817 | 822 | D-208-  | D-213-  | PIQKHW 
+| 1c0m | D | albelig | 13 | 13 | E | 832 | 836 | D-223-  | D-227-  | PVKIR 
+| 1c0m | D | albelig | 14 | 14 | E | 842 | 852 | D-233-  | D-243-  | WEKGWNVLVWG 
+| 1c0m | D | albelig | 15 | 15 | E | 855 | 860 | D-246-  | D-251-  | YAAVKN 
+| 1c0m | D | albelig | 16 | 16 | E | 866 | 870 | D-257-  | D-261-  | VIWVP 
+| 1c0m | D | albelig | 17 | 17 | H | 871 | 873 | D-262-  | D-264-  | SRK 
+| 1c0m | D | albelig | 18 | 18 | E | 874 | 876 | D-265-  | D-267-  | VKP 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 6
+= 1 = p = 10
+= 3 = a = 4
+= 3 = m = 5
+= 3 = a = 10
+= 4 = a = 5
+= 4 = a = 11
+= 5 = p = 8
+= 6 = p = 9
+= 7 = m = 8
+= 10 = a = 11
+= 13 = a = 14
+= 13 = m = 17
+= 13 = a = 18
+= 14 = a = 15
+= 15 = a = 16
+= 16 = m = 17
+= 17 = m = 18
+# Listed 19 contacts. EOF.

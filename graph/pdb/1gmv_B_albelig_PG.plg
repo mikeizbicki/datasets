@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gmv, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METALLOCHAPERONE
+> pdb_mol_name > UREE
+> graphtype > albelig
+> resolution > 2.8
+> date > 24-SEP-01
+> header > METALLOCHAPERONE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF UREE
+> format_version > 2
+> pdbid > 1gmv
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA AEROGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gmv | B | albelig | 1 | 1 | E | 141 | 143 | B-2-  | B-4-  | LYL 
+| 1gmv | B | albelig | 2 | 2 | E | 155 | 159 | B-16-  | B-20-  | ASVTL 
+| 1gmv | B | albelig | 3 | 3 | H | 161 | 164 | B-22-  | B-25-  | IDVR 
+| 1gmv | B | albelig | 4 | 4 | E | 168 | 172 | B-29-  | B-33-  | RVKVT 
+| 1gmv | B | albelig | 5 | 5 | E | 178 | 182 | B-39-  | B-43-  | DAGLL 
+| 1gmv | B | albelig | 6 | 6 | E | 194 | 196 | B-55-  | B-57-  | VLS 
+| 1gmv | B | albelig | 7 | 7 | E | 203 | 208 | B-64-  | B-69-  | FVQVIA 
+| 1gmv | B | albelig | 8 | 8 | E | 210 | 217 | B-71-  | B-78-  | DEEVSVVR 
+| 1gmv | B | albelig | 9 | 9 | H | 221 | 233 | B-82-  | B-94-  | PFMLAKACYHLGN 
+| 1gmv | B | albelig | 10 | 10 | E | 239 | 241 | B-100-  | B-102-  | QIM 
+| 1gmv | B | albelig | 11 | 11 | E | 244 | 248 | B-105-  | B-109-  | ELRYH 
+| 1gmv | B | albelig | 12 | 12 | H | 251 | 259 | B-112-  | B-120-  | HVLDDMLRQ 
+| 1gmv | B | albelig | 13 | 13 | E | 263 | 270 | B-124-  | B-131-  | TVTFGQLP 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 5
+= 2 = p = 7
+= 4 = a = 5
+= 6 = a = 7
+= 8 = a = 11
+= 8 = a = 13
+= 10 = a = 11
+# Listed 7 contacts. EOF.

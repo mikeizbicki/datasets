@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c4p, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PLASMINOGEN ACTIVATOR, BLOOD CLOTTING
+> pdb_mol_name > PROTEIN (STREPTOKINASE)
+> graphtype > albelig
+> resolution > 2.4
+> date > 15-SEP-99
+> header > BLOOD CLOTTING
+> pdb_org_common > UNKNOWN
+> title > BETA DOMAIN OF STREPTOKINASE
+> format_version > 2
+> pdbid > 1c4p
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS DYSGALACTIAE SUBSP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c4p | C | albelig | 1 | 1 | E | 286 | 296 | C-158-  | C-168-  | VDVEYTVQFTP 
+| 1c4p | C | albelig | 2 | 2 | E | 311 | 316 | C-183-  | C-188-  | KLLKTL 
+| 1c4p | C | albelig | 3 | 3 | E | 321 | 323 | C-193-  | C-195-  | TIT 
+| 1c4p | C | albelig | 4 | 4 | H | 324 | 338 | C-196-  | C-210-  | SQELLAQAQSILNKT 
+| 1c4p | C | albelig | 5 | 5 | E | 343 | 354 | C-215-  | C-226-  | TIYERDSSIVTH 
+| 1c4p | C | albelig | 6 | 6 | E | 361 | 363 | C-233-  | C-235-  | TIL 
+| 1c4p | C | albelig | 7 | 7 | E | 370 | 372 | C-242-  | C-244-  | TYH 
+| 1c4p | C | albelig | 8 | 8 | E | 379 | 382 | C-251-  | C-254-  | AYEI 
+| 1c4p | C | albelig | 9 | 9 | E | 389 | 392 | C-261-  | C-264-  | NEEI 
+| 1c4p | C | albelig | 10 | 10 | E | 394 | 405 | C-266-  | C-277-  | NTDLISEKYYVL 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 1 = p = 10
+= 3 = m = 4
+= 3 = a = 7
+= 4 = a = 5
+= 4 = p = 10
+= 5 = a = 6
+= 5 = a = 10
+= 8 = a = 9
+# Listed 10 contacts. EOF.

@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j6t, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSPHOTRANSFERASE, TRANSFERASE, KINASE, SUGAR TRANSPORT,COMPLEX (TRANSFERASE/PHOSPHOCARRIER)
+> pdb_mol_name > PHOSPHOCARRIER PROTEIN HPR
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-AUG-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > COMPLEX OF ENZYME IIAMTL AND THE HISTIDINE-CONTAININGPHOSPHOCARRIER PROTEIN HPR FROM ESCHERICHIA COLI NMR,RESTRAINED REGULARIZED MEAN STRUCTURE
+> format_version > 2
+> pdbid > 1j6t
+> experiment > SOLUTION NMR
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j6t | B | albelig | 1 | 1 | E | 146 | 151 | B-302-  | B-307-  | FQQEVT 
+| 1j6t | B | albelig | 2 | 2 | H | 160 | 171 | B-316-  | B-327-  | TRPAAQFVKEAK 
+| 1j6t | B | albelig | 3 | 3 | E | 176 | 181 | B-332-  | B-337-  | EITVTS 
+| 1j6t | B | albelig | 4 | 4 | E | 184 | 187 | B-340-  | B-343-  | KSAS 
+| 1j6t | B | albelig | 5 | 5 | H | 191 | 194 | B-347-  | B-350-  | LFKL 
+| 1j6t | B | albelig | 6 | 6 | E | 204 | 210 | B-360-  | B-366-  | VVTISAE 
+| 1j6t | B | albelig | 7 | 7 | H | 214 | 227 | B-370-  | B-383-  | EQKAVEHLVKLMAE 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = p = 7
+= 2 = m = 7
+= 3 = a = 4
+= 3 = a = 6
+= 4 = m = 5
+= 6 = a = 7
+# Listed 7 contacts. EOF.

@@ -1,0 +1,29 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cnt, chain 4.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE, NEUROTROPHIC FACTOR, GROWTH FACTOR
+> pdb_mol_name > CILIARY NEUROTROPHIC FACTOR
+> graphtype > albelig
+> resolution > 2.4
+> date > 06-JUN-96
+> header > CYTOKINE
+> pdb_org_common > HUMAN
+> title > CILIARY NEUROTROPHIC FACTOR
+> format_version > 2
+> pdbid > 1cnt
+> experiment > X-RAY DIFFRACTION
+> chainid > 4
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cnt | 4 | albelig | 1 | 1 | H | 438 | 465 | 4-13-  | 4-40-  | RRDLCSRSIWLARKIRSDLTALTESYVK 
+| 1cnt | 4 | albelig | 2 | 2 | H | 474 | 499 | 4-69-  | 4-94-  | EAERLQENLQAYRTFHVLLARLLEDQ 
+| 1cnt | 4 | albelig | 3 | 3 | H | 503 | 529 | 4-103-  | 4-129-  | GDFHQAIHTLLLQVAAFAYQIEELMIL 
+| 1cnt | 4 | albelig | 4 | 4 | H | 540 | 564 | 4-155-  | 4-179-  | KLWGLKVLQELSQWTVRSIHDLRFI 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 4
+= 2 = a = 3
+= 2 = a = 4
+# Listed 4 contacts. EOF.

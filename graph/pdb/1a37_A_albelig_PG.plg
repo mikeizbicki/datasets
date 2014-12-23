@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a37, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNAL TRANSDUCTION, COMPLEX (SIGNAL TRANSDUCTION-PEPTIDE), COMPLEX(SIGNAL TRANSDUCTION-PEPTIDE) COMPLEX
+> pdb_mol_name > 14-3-3 PROTEIN ZETA
+> graphtype > albelig
+> resolution > 3.6
+> date > 28-JAN-98
+> header > COMPLEX (SIGNAL TRANSDUCTION/PEPTIDE)
+> pdb_org_common > CATTLE
+> title > 14-3-3 PROTEIN ZETA BOUND TO PS-RAF259 PEPTIDE
+> format_version > 2
+> pdbid > 1a37
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a37 | A | albelig | 1 | 1 | H | 3 | 14 | A-3-  | A-14-  | KNELVQKAKLAE 
+| 1a37 | A | albelig | 2 | 2 | H | 19 | 30 | A-19-  | A-30-  | YDDMAACMKSVT 
+| 1a37 | A | albelig | 3 | 3 | H | 38 | 66 | A-38-  | A-66-  | NEERNLLSVAYKNVVGARRSSWRVVSSIE 
+| 1a37 | A | albelig | 4 | 4 | H | 70 | 101 | A-74-  | A-105-  | KKQQMAREYREKIETELRDICNDVLSLLEKFL 
+| 1a37 | A | albelig | 5 | 5 | H | 109 | 127 | A-114-  | A-132-  | SKVFYLKMKGDYYRYLAEV 
+| 1a37 | A | albelig | 6 | 6 | H | 132 | 151 | A-137-  | A-156-  | DKKGIVDQSQQAYQEAFEIS 
+| 1a37 | A | albelig | 7 | 7 | H | 155 | 165 | A-167-  | A-177-  | RLGLALNFSVF 
+| 1a37 | A | albelig | 8 | 8 | H | 170 | 180 | A-189-  | A-199-  | CSLAKTAFDEA 
+| 1a37 | A | albelig | 9 | 9 | H | 185 | 199 | A-213-  | A-227-  | DSTLIMQLLRDNLTL 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 2 = m = 4
+= 3 = a = 4
+= 3 = p = 5
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+# Listed 9 contacts. EOF.

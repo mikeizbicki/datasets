@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hk7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEAT SHOCK PROTEIN, ATPASE, CHAPERONE
+> pdb_mol_name > HEAT SHOCK PROTEIN HSP82
+> graphtype > albelig
+> resolution > 2.5
+> date > 06-MAR-03
+> header > CHAPERONE
+> pdb_org_common > BAKER'S YEAST
+> title > MIDDLE DOMAIN OF HSP90
+> format_version > 2
+> pdbid > 1hk7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hk7 | A | albelig | 1 | 1 | H | 4 | 6 | A-276-  | A-278-  | LWT 
+| 1hk7 | A | albelig | 2 | 2 | H | 16 | 25 | A-288-  | A-297-  | EYNAFYKSIS 
+| 1hk7 | A | albelig | 3 | 3 | E | 33 | 39 | A-305-  | A-311-  | YVKHFSV 
+| 1hk7 | A | albelig | 4 | 4 | E | 45 | 51 | A-317-  | A-323-  | FRAILFI 
+| 1hk7 | A | albelig | 5 | 5 | E | 70 | 73 | A-342-  | A-345-  | KLYV 
+| 1hk7 | A | albelig | 6 | 6 | E | 76 | 79 | A-348-  | A-351-  | VFIT 
+| 1hk7 | A | albelig | 7 | 7 | H | 88 | 90 | A-360-  | A-362-  | EWL 
+| 1hk7 | A | albelig | 8 | 8 | E | 94 | 99 | A-366-  | A-371-  | KGVVDS 
+| 1hk7 | A | albelig | 9 | 9 | H | 109 | 129 | A-387-  | A-407-  | KIMKVIRKNIVKKLIEAFNEI 
+| 1hk7 | A | albelig | 10 | 10 | H | 133 | 153 | A-411-  | A-431-  | SEQFEKFYSAFSKNIKLGVHE 
+| 1hk7 | A | albelig | 11 | 11 | H | 158 | 162 | A-436-  | A-440-  | RAALA 
+| 1hk7 | A | albelig | 12 | 12 | H | 179 | 185 | A-457-  | A-463-  | LTDYVTR 
+| 1hk7 | A | albelig | 13 | 13 | E | 192 | 197 | A-470-  | A-475-  | NIYYIT 
+| 1hk7 | A | albelig | 14 | 14 | H | 201 | 205 | A-479-  | A-483-  | LKAVE 
+| 1hk7 | A | albelig | 15 | 15 | H | 208 | 214 | A-486-  | A-492-  | PFLDALK 
+| 1hk7 | A | albelig | 16 | 16 | E | 221 | 223 | A-499-  | A-501-  | LFL 
+| 1hk7 | A | albelig | 17 | 17 | H | 226 | 235 | A-504-  | A-513-  | PIDEYAFTQL 
+| 1hk7 | A | albelig | 18 | 18 | E | 241 | 245 | A-519-  | A-523-  | KTLVD 
+| 1hk7 | A | albelig | 19 | 19 | L | 499 | 499 | A-1528-  | A-1528-  | J 
+| 1hk7 | A | albelig | 20 | 20 | L | 500 | 500 | A-1529-  | A-1529-  | J 
+| 1hk7 | A | albelig | 21 | 21 | L | 501 | 501 | A-1530-  | A-1530-  | J 
+| 1hk7 | A | albelig | 22 | 22 | L | 502 | 502 | A-1531-  | A-1531-  | J 
+| 1hk7 | A | albelig | 23 | 23 | L | 503 | 503 | A-1532-  | A-1532-  | J 
+| 1hk7 | A | albelig | 24 | 24 | L | 504 | 504 | A-1533-  | A-1533-  | J 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = l = 24
+= 3 = a = 4
+= 3 = a = 9
+= 4 = a = 8
+= 5 = a = 6
+= 5 = p = 8
+= 9 = l = 19
+= 10 = m = 11
+= 10 = l = 20
+= 10 = l = 22
+= 13 = p = 16
+= 13 = p = 18
+= 13 = l = 21
+= 17 = l = 21
+# Listed 14 contacts. EOF.

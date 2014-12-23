@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fr5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRAL COAT PROTEIN, CAPSID, ICOSAHEDRAL VIRUS
+> pdb_mol_name > BACTERIOPHAGE FR CAPSID
+> graphtype > albelig
+> resolution > 3.5
+> date > 22-JUL-98
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > PHAGE FR CAPSIDS WITH A FOUR RESIDUE DELETION IN THE COATPROTEIN FG LOOP
+> format_version > 2
+> pdbid > 1fr5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE FR
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fr5 | A | albelig | 1 | 1 | E | 7 | 10 | A-7-  | A-10-  | FVLV 
+| 1fr5 | A | albelig | 2 | 2 | E | 18 | 24 | A-18-  | A-24-  | VKVAPSN 
+| 1fr5 | A | albelig | 3 | 3 | H | 26 | 28 | A-26-  | A-28-  | ANG 
+| 1fr5 | A | albelig | 4 | 4 | E | 30 | 33 | A-30-  | A-33-  | AEWI 
+| 1fr5 | A | albelig | 5 | 5 | H | 38 | 40 | A-38-  | A-40-  | RSQ 
+| 1fr5 | A | albelig | 6 | 6 | E | 43 | 49 | A-43-  | A-49-  | KVTCSVR 
+| 1fr5 | A | albelig | 7 | 7 | E | 55 | 67 | A-55-  | A-67-  | NRKYTVKVEVPKV 
+| 1fr5 | A | albelig | 8 | 8 | E | 76 | 89 | A-80-  | A-93-  | AAWRSYMNMELTIP 
+| 1fr5 | A | albelig | 9 | 9 | H | 94 | 107 | A-98-  | A-111-  | NDDCALIVKALQGT 
+| 1fr5 | A | albelig | 10 | 10 | H | 113 | 118 | A-117-  | A-122-  | PIATAI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 4 = a = 6
+= 6 = a = 7
+= 7 = a = 8
+# Listed 5 contacts. EOF.

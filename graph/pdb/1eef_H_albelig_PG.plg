@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eef, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENTEROTOXIN
+> pdb_mol_name > PROTEIN (HEAT-LABILE ENTEROTOXIN B CHAIN)
+> graphtype > albelig
+> resolution > 1.8
+> date > 31-JAN-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > HEAT-LABILE ENTEROTOXIN B-PENTAMER COMPLEXED WITH BOUNDLIGAND PEPG
+> format_version > 2
+> pdbid > 1eef
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eef | H | albelig | 1 | 1 | H | 421 | 425 | H-5-  | H-9-  | ITELE 
+| 1eef | H | albelig | 2 | 2 | E | 431 | 438 | H-15-  | H-22-  | TQIYTIND 
+| 1eef | H | albelig | 3 | 3 | E | 442 | 446 | H-26-  | H-30-  | SYTES 
+| 1eef | H | albelig | 4 | 4 | E | 453 | 457 | H-37-  | H-41-  | MVIIT 
+| 1eef | H | albelig | 5 | 5 | E | 463 | 466 | H-47-  | H-50-  | TFQV 
+| 1eef | H | albelig | 6 | 6 | H | 475 | 494 | H-59-  | H-78-  | DSQKKAIERMKDTLRITYLT 
+| 1eef | H | albelig | 7 | 7 | E | 498 | 504 | H-82-  | H-88-  | IDKLEVW 
+| 1eef | H | albelig | 8 | 8 | E | 510 | 518 | H-94-  | H-102-  | NSIAAISMK 
+| 1eef | H | albelig | 9 | 9 | L | 1045 | 1045 | H-109-  | H-109-  | J 
+| 1eef | H | albelig | 10 | 10 | L | 1046 | 1046 | H-110-  | H-110-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 7
+= 2 = a = 7
+= 3 = a = 4
+= 4 = a = 5
+= 5 = a = 8
+= 6 = l = 9
+= 6 = l = 10
+= 7 = a = 8
+= 7 = l = 9
+= 7 = l = 10
+= 8 = l = 9
+= 9 = l = 10
+# Listed 13 contacts. EOF.

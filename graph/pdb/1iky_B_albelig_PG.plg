@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iky, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HETERODIMER, PROTEIN-INHIBITOR COMPLEX, TRANSFERASE
+> pdb_mol_name > POL POLYPROTEIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 07-MAY-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH THE INHIBITORMSC194
+> format_version > 2
+> pdbid > 1iky
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iky | B | albelig | 1 | 1 | H | 582 | 597 | B-1028-  | B-1043-  | EEKIKALVEICTEMEK 
+| 1iky | B | albelig | 2 | 2 | E | 601 | 603 | B-1047-  | B-1049-  | ISK 
+| 1iky | B | albelig | 3 | 3 | E | 614 | 618 | B-1060-  | B-1064-  | VFAIK 
+| 1iky | B | albelig | 4 | 4 | E | 625 | 629 | B-1071-  | B-1075-  | WRKLV 
+| 1iky | B | albelig | 5 | 5 | H | 632 | 638 | B-1078-  | B-1084-  | RELNKRT 
+| 1iky | B | albelig | 6 | 6 | H | 641 | 645 | B-1087-  | B-1091-  | FWEVQ 
+| 1iky | B | albelig | 7 | 7 | H | 654 | 656 | B-1100-  | B-1102-  | LKK 
+| 1iky | B | albelig | 8 | 8 | E | 659 | 664 | B-1105-  | B-1110-  | SVTVLD 
+| 1iky | B | albelig | 9 | 9 | H | 667 | 671 | B-1113-  | B-1117-  | DAYFS 
+| 1iky | B | albelig | 10 | 10 | H | 676 | 682 | B-1122-  | B-1128-  | EDFRKYT 
+| 1iky | B | albelig | 11 | 11 | E | 684 | 686 | B-1130-  | B-1132-  | FTI 
+| 1iky | B | albelig | 12 | 12 | H | 689 | 691 | B-1135-  | B-1137-  | INN 
+| 1iky | B | albelig | 13 | 13 | E | 696 | 700 | B-1142-  | B-1146-  | IRYQY 
+| 1iky | B | albelig | 14 | 14 | H | 709 | 728 | B-1155-  | B-1174-  | GSPAIFQSSMTKILEPFKKQ 
+| 1iky | B | albelig | 15 | 15 | E | 733 | 737 | B-1179-  | B-1183-  | VIYQY 
+| 1iky | B | albelig | 16 | 16 | E | 740 | 745 | B-1186-  | B-1191-  | DLYVGS 
+| 1iky | B | albelig | 17 | 17 | H | 749 | 765 | B-1195-  | B-1211-  | IGQHRTKIEELRQHLLR 
+| 1iky | B | albelig | 18 | 18 | H | 778 | 780 | B-1236-  | B-1238-  | PDK 
+| 1iky | B | albelig | 19 | 19 | H | 796 | 808 | B-1254-  | B-1266-  | VNDIQKLVGKLNW 
+| 1iky | B | albelig | 20 | 20 | H | 839 | 853 | B-1297-  | B-1311-  | EEAELELAENREILK 
+| 1iky | B | albelig | 21 | 21 | E | 868 | 875 | B-1326-  | B-1333-  | IAEIQKQG 
+| 1iky | B | albelig | 22 | 22 | E | 878 | 884 | B-1336-  | B-1342-  | QWTYQIY 
+| 1iky | B | albelig | 23 | 23 | E | 890 | 896 | B-1348-  | B-1354-  | NLKTGKY 
+| 1iky | B | albelig | 24 | 24 | H | 902 | 921 | B-1364-  | B-1383-  | DVKQLTEAVQKITTESIVIW 
+| 1iky | B | albelig | 25 | 25 | E | 926 | 929 | B-1388-  | B-1391-  | KFKL 
+| 1iky | B | albelig | 26 | 26 | H | 933 | 942 | B-1395-  | B-1404-  | KETWETWWTE 
+| 1iky | B | albelig | 27 | 27 | E | 952 | 954 | B-1414-  | B-1416-  | WEF 
+| 1iky | B | albelig | 28 | 28 | H | 959 | 961 | B-1421-  | B-1423-  | PLV 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 13
+= 3 = a = 4
+= 8 = a = 16
+= 9 = m = 14
+= 10 = m = 13
+= 11 = a = 13
+= 14 = m = 15
+= 15 = a = 16
+= 16 = m = 17
+= 21 = a = 22
+= 21 = p = 25
+= 22 = a = 23
+= 22 = p = 24
+= 24 = m = 25
+= 25 = p = 27
+= 26 = m = 27
+# Listed 17 contacts. EOF.

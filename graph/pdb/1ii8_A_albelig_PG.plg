@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ii8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RAD50, MRE11, DNA DOUBLE-STRAND BREAK REPAIR, ATP,REPLICATION
+> pdb_mol_name > RAD50 ABC-ATPASE
+> graphtype > albelig
+> resolution > 3.02
+> date > 20-APR-01
+> header > REPLICATION
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE P. FURIOSUS RAD50 ATPASE DOMAIN
+> format_version > 2
+> pdbid > 1ii8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS FURIOSUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ii8 | A | albelig | 1 | 1 | E | 2 | 9 | A-2-  | A-9-  | KLERVTVK 
+| 1ii8 | A | albelig | 2 | 2 | E | 17 | 20 | A-17-  | A-20-  | TVVE 
+| 1ii8 | A | albelig | 3 | 3 | E | 24 | 29 | A-24-  | A-29-  | GINLII 
+| 1ii8 | A | albelig | 4 | 4 | H | 36 | 48 | A-36-  | A-48-  | KSSLLDAILVGLY 
+| 1ii8 | A | albelig | 5 | 5 | H | 59 | 62 | A-59-  | A-62-  | DEFT 
+| 1ii8 | A | albelig | 6 | 6 | E | 69 | 77 | A-69-  | A-77-  | TYIDLIFEK 
+| 1ii8 | A | albelig | 7 | 7 | E | 80 | 89 | A-80-  | A-89-  | TKYRITRRFL 
+| 1ii8 | A | albelig | 8 | 8 | E | 95 | 104 | A-95-  | A-104-  | GEIHAMKRLV 
+| 1ii8 | A | albelig | 9 | 9 | E | 107 | 109 | A-107-  | A-109-  | EWK 
+| 1ii8 | A | albelig | 10 | 10 | H | 116 | 126 | A-116-  | A-126-  | SKAISAFMEKL 
+| 1ii8 | A | albelig | 11 | 11 | H | 129 | 136 | A-129-  | A-136-  | YNIFLNAI 
+| 1ii8 | A | albelig | 12 | 12 | H | 144 | 146 | A-144-  | A-146-  | DAI 
+| 1ii8 | A | albelig | 13 | 13 | H | 151 | 160 | A-151-  | A-160-  | EAREKVVREV 
+| 1ii8 | A | albelig | 14 | 14 | H | 164 | 194 | A-164-  | A-194-  | DKFETAYKKLSELKKTINNRIKEYRDILART 
+| 1ii8 | A | albelig | 15 | 15 | L | 371 | 371 | A-1001-  | A-1001-  | J 
+| 1ii8 | A | albelig | 16 | 16 | L | 372 | 372 | A-1003-  | A-1003-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 4 = m = 11
+= 4 = l = 15
+= 4 = l = 16
+= 5 = l = 16
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+# Listed 10 contacts. EOF.

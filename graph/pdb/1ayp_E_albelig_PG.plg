@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ayp, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 2.57
+> date > 19-JUL-94
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > A PROBE MOLECULE COMPOSED OF SEVENTEEN PERCENT OF TOTALDIFFRACTING MATTER GIVES CORRECT SOLUTIONS IN MOLECULARREPLACEMENT
+> format_version > 2
+> pdbid > 1ayp
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ayp | E | albelig | 1 | 1 | H | 502 | 513 | E-2-  | E-13-  | LVNFHRMIKLTT 
+| 1ayp | E | albelig | 2 | 2 | H | 517 | 520 | E-17-  | E-20-  | AALS 
+| 1ayp | E | albelig | 3 | 3 | H | 539 | 555 | E-39-  | E-55-  | ATDREDVTHDFGYKRLE 
+| 1ayp | E | albelig | 4 | 4 | E | 568 | 571 | E-68-  | E-71-  | FSNS 
+| 1ayp | E | albelig | 5 | 5 | E | 574 | 577 | E-74-  | E-77-  | RITI 
+| 1ayp | E | albelig | 6 | 6 | H | 582 | 600 | E-82-  | E-100-  | SHRSQLIEGDKAAATEFAR 
+| 1ayp | E | albelig | 7 | 7 | H | 602 | 604 | E-102-  | E-104-  | KTT 
+| 1ayp | E | albelig | 8 | 8 | H | 607 | 609 | E-107-  | E-109-  | KKY 
+| 1ayp | E | albelig | 9 | 9 | H | 614 | 616 | E-114-  | E-116-  | NKH 
+| 1ayp | E | albelig | 10 | 10 | L | 762 | 762 | E-309-  | E-309-  | J 
+| 1ayp | E | albelig | 11 | 11 | L | 763 | 763 | E-310-  | E-310-  | J 
+| 1ayp | E | albelig | 12 | 12 | L | 764 | 764 | E-205-  | E-205-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 6
+= 1 = l = 12
+= 2 = l = 12
+= 3 = a = 6
+= 3 = l = 10
+= 3 = l = 12
+= 4 = a = 5
+= 5 = m = 6
+= 6 = l = 12
+= 9 = l = 11
+= 10 = l = 12
+# Listed 12 contacts. EOF.

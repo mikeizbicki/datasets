@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i3r, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MHC CLASSII, IMMUNE SYSTEM
+> pdb_mol_name > H-2 CLASS II HISTOCOMPATIBILITY ANTIGEN, E-K ALPHA CHAIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 15-FEB-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF A MUTANT IEK CLASS II MHC MOLECULE
+> format_version > 2
+> pdbid > 1i3r
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i3r | A | albelig | 1 | 1 | E | 5 | 15 | A-5-  | A-15-  | HTIIQAQFYLL 
+| 1i3r | A | albelig | 2 | 2 | E | 19 | 26 | A-19-  | A-26-  | RGEFMFDF 
+| 1i3r | A | albelig | 3 | 3 | E | 29 | 35 | A-29-  | A-35-  | DEIFHVD 
+| 1i3r | A | albelig | 4 | 4 | E | 40 | 43 | A-40-  | A-43-  | ETIW 
+| 1i3r | A | albelig | 5 | 5 | H | 46 | 50 | A-46-  | A-50-  | EEFAK 
+| 1i3r | A | albelig | 6 | 6 | H | 56 | 76 | A-56-  | A-76-  | AQGALANIAVNKANLDVMKER 
+| 1i3r | A | albelig | 7 | 7 | E | 88 | 93 | A-88-  | A-93-  | EVTVLS 
+| 1i3r | A | albelig | 8 | 8 | E | 103 | 112 | A-103-  | A-112-  | NILIAFIDKF 
+| 1i3r | A | albelig | 9 | 9 | E | 118 | 123 | A-118-  | A-123-  | NVTWLR 
+| 1i3r | A | albelig | 10 | 10 | E | 132 | 134 | A-132-  | A-134-  | VSE 
+| 1i3r | A | albelig | 11 | 11 | E | 145 | 153 | A-145-  | A-153-  | FRKFHYLTF 
+| 1i3r | A | albelig | 12 | 12 | E | 160 | 166 | A-160-  | A-166-  | FYDAEVD 
+| 1i3r | A | albelig | 13 | 13 | E | 174 | 179 | A-174-  | A-179-  | LRKHWE 
+| 1i3r | A | albelig | 14 | 14 | L | 1600 | 1600 | A-301-  | A-301-  | J 
+| 1i3r | A | albelig | 15 | 15 | L | 1601 | 1601 | A-302-  | A-302-  | J 
+| 1i3r | A | albelig | 16 | 16 | L | 1602 | 1602 | A-303-  | A-303-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 6
+= 2 = a = 3
+= 3 = a = 4
+= 7 = a = 8
+= 7 = p = 13
+= 8 = a = 9
+= 8 = a = 11
+= 8 = p = 12
+= 9 = p = 11
+= 9 = a = 12
+= 9 = l = 15
+= 10 = a = 11
+= 12 = a = 13
+= 12 = l = 15
+= 15 = l = 16
+# Listed 16 contacts. EOF.

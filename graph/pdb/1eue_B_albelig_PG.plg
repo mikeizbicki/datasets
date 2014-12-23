@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eue, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME, HEME, ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME B5
+> graphtype > albelig
+> resolution > 1.8
+> date > 19-APR-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > NORWAY RAT
+> title > RAT OUTER MITOCHONDRIAL MEMBRANE CYTOCHROME B5
+> format_version > 2
+> pdbid > 1eue
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eue | B | albelig | 1 | 1 | H | 96 | 100 | B-9-  | B-13-  | LEEVA 
+| 1eue | B | albelig | 2 | 2 | E | 107 | 112 | B-20-  | B-25-  | ETWMVI 
+| 1eue | B | albelig | 3 | 3 | E | 115 | 118 | B-28-  | B-31-  | RVYD 
+| 1eue | B | albelig | 4 | 4 | H | 120 | 122 | B-33-  | B-35-  | TRF 
+| 1eue | B | albelig | 5 | 5 | H | 131 | 135 | B-44-  | B-48-  | EILLE 
+| 1eue | B | albelig | 6 | 6 | H | 142 | 147 | B-55-  | B-60-  | TESFED 
+| 1eue | B | albelig | 7 | 7 | H | 152 | 161 | B-65-  | B-74-  | PDAREMLKQY 
+| 1eue | B | albelig | 8 | 8 | E | 162 | 166 | B-75-  | B-79-  | YIGDV 
+| 1eue | B | albelig | 9 | 9 | H | 168 | 170 | B-81-  | B-83-  | PND 
+| 1eue | B | albelig | 10 | 10 | L | 175 | 175 | B-201-  | B-201-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 6
+= 2 = l = 10
+= 3 = m = 7
+= 3 = a = 8
+= 4 = l = 10
+= 5 = l = 10
+= 6 = l = 10
+= 7 = m = 8
+= 7 = l = 10
+# Listed 10 contacts. EOF.

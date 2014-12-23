@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jw8, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANISOTROPIC REFINEMENT MYOGLOBIN, OXYGEN STORAGE-TRANSPORT COMPLEX
+> pdb_mol_name > MYOGLOBIN
+> graphtype > albelig
+> resolution > 1.3
+> date > 03-SEP-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > SPERM WHALE
+> title > 1.3 ANGSTROM RESOLUTION CRYSTAL STRUCTURE OF P6 FORM OF MYOGLOBIN
+> format_version > 2
+> pdbid > 1jw8
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PHYSETER CATODON
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jw8 | A | albelig | 1 | 1 | H | 5 | 18 | A-5-  | A-18-  | EGEWQLVLHVWAKV 
+| 1jw8 | A | albelig | 2 | 2 | H | 22 | 36 | A-22-  | A-36-  | VAGHGQDILIRLFKS 
+| 1jw8 | A | albelig | 3 | 3 | H | 38 | 43 | A-38-  | A-43-  | PETLEK 
+| 1jw8 | A | albelig | 4 | 4 | H | 53 | 58 | A-53-  | A-58-  | EAEMKA 
+| 1jw8 | A | albelig | 5 | 5 | H | 60 | 78 | A-60-  | A-78-  | EDLKKHGVTVLTALGAILK 
+| 1jw8 | A | albelig | 6 | 6 | H | 84 | 98 | A-84-  | A-98-  | EAELKPLAQSHATKH 
+| 1jw8 | A | albelig | 7 | 7 | H | 102 | 119 | A-102-  | A-119-  | IKYLEFISEAIIHVLHSR 
+| 1jw8 | A | albelig | 8 | 8 | H | 126 | 150 | A-126-  | A-150-  | ADAQGAMNKALELFRKDIAAKYKEL 
+| 1jw8 | A | albelig | 9 | 9 | L | 155 | 155 | A-157-  | A-157-  | J 
+| 1jw8 | A | albelig | 10 | 10 | L | 156 | 156 | A-158-  | A-158-  | J 
+| 1jw8 | A | albelig | 11 | 11 | L | 157 | 157 | A-159-  | A-159-  | J 
+| 1jw8 | A | albelig | 12 | 12 | L | 158 | 158 | A-155-  | A-155-  | J 
+| 1jw8 | A | albelig | 13 | 13 | L | 159 | 159 | A-156-  | A-156-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = m = 8
+= 1 = l = 10
+= 2 = m = 3
+= 2 = m = 4
+= 2 = m = 5
+= 2 = a = 7
+= 2 = l = 12
+= 2 = l = 13
+= 3 = m = 7
+= 3 = l = 12
+= 4 = l = 9
+= 5 = l = 12
+= 5 = l = 13
+= 6 = m = 8
+= 6 = l = 12
+= 6 = l = 13
+= 7 = a = 8
+= 7 = l = 12
+= 7 = l = 13
+= 8 = l = 11
+= 8 = l = 12
+= 12 = l = 13
+# Listed 23 contacts. EOF.

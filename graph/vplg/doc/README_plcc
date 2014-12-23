@@ -1,0 +1,163 @@
+This is the README for the *plcc* (Protein Ligand Contact Computation) program, which is part of *VPLG* (Visualization of Protein Ligand Graphs).
+
+
+Description
+===========
+
+The *plcc* program is the heart of the *VPGL* software package. It parses the PDB file and and the DSSP file of a protein and computes all atom, residue and SSE level contacts for each chain in the file. Optionally, the protein graph and its connected components (*folding graphs*) can then be computed and visualized.
+
+Contact information and statistics, meta data files and the protein graph (both as a PNG image file and as a text file in *plcc*'s own graph file format) are written to output files. Writing the SSE data and the SSE level contacts (and thus implicitely the protein graph) to a database is also supported.
+
+
+
+
+Installation and System Requirements
+====================================
+
+This program is written in Java so obviously, you need Java (the JRE will do, version >= 1.6 is required).
+
+You need the libraries (jar files) in the lib/ folder in order to run *plcc*, and they have to be in './lib/', relative to
+the path where *plcc.jar* is. (So if you copy *plcc.jar* elsewhere, you need to copy the *lib/* directory there as well.)
+
+Note that the *plcc* is a command line application. You can use the *vpg* frontend if you prefer a graphical user interface.
+
+
+Running the program
+===================
+
+To run *plcc*, you need a PDB file and a DSSP file of a protein. Get PDB files from the RCSB Protein Data Bank website. DSSP files are
+produced by running DSSP (the *dsspcmbi* program) on the PDB file or downloading them from the Structure Server at http://swift.cmbi.kun.nl/swift/servers/moddssp-submit.html. 
+
+DSSP only works for PDB-files that do NOT include multiple models, so NMR files will have to be split into several files. Use the *splitpdb* program that comes with *VPLG* for this task. Alternatively, another program for this task is available on the DSSP website.
+
+If you have *<pdbid>.pdb* and *<pdbid>.dssp* in the plcc directory, all you have to do is this:
+  
+  java -jar plcc.jar <pdbid>
+
+to calculate the atom and residue level contacts, but plcc supports many additional command line options. Run it without arguments to get a short usage info or try
+
+  java -jar plcc.jar --help
+
+to access the full built-in help.
+
+NOTE: If you are under Linux (or you have Cygwin/Bash installed under Windows), you can use the 'plcc' script (this allows you to omit the java part, i.e., type "./plcc --help" instead of "java -jar plcc.jar --help"). Note the "./" at the beginning, which is required. Depending on your security settings, you may have to allow execution of the script before using it for the first time ("chmod +x plcc").
+
+    
+    
+Setup and Configuration
+=======================
+
+
+The *plcc* program writes a config files with setting lines in 'key = value' format to the file "<USERHOME>/.plcc_settings".  You can change stuff like the collision sphere radius of atoms (default is 2 Angstroem) and the database credentials (only used with '-u') in there.
+
+Under UNIX systems, your <USERHOME> should be */home/john/* if you are logged in as *john* and it is shown when you type "echo $HOME". Under Windows it seems to differ with every version, for Windows XP it should be at *C:\Documents and Settings\john\*. Note that this is NOT within your *My Documents* directory (*My Documents* is a subdirectory of your USERHOME). You should be able to see it under Windows when you type "echo %UserProfile%".
+
+Options given on the command line overwrite settings in the config file.
+
+
+
+Output files
+============
+
+The *plcc* program writes a number of output files depending on the specified command line options. For a PDB input file named *1tst.pdb*, the following files can be requested:
+
+* 1tst.contactstats : Contains atom and residue level contact statistics for this PDB file.
+* 1tst.geolig       : Contains contact information on residue level, including ligand contacts. The file format is described in the documentation (see the *plcc/doc/file_formats/* directory).
+* 1tst.geo          : Contains contact information on residue level contacts in a reduced format (like above but the ligand fields are missing)
+* 1tst.dssplig      : A modified version of the DSSP file containing ligand residues.
+* 1tst.ligands      : A simple text file with a list of ligands found in the PDB file.
+* 1tst.chains       : A simple text file with a list of chains found in the PDB file, e.g. 'A B E G'.
+* 1tst.models       : A simple text file with a list of models found in the PDB file, e.g. '1 2 3 4 5 6 7 8 9 10'.
+* 1tst.pymol        : A script for PyMol that will create selections for ligands and the contacts that were computed for them. Allows for easy visual inspection of the results of this program. (You can copy & paste the lines into the PyMol console.)
+
+All files above are created by default but some of them can be suppressed. The files below are only created if requested on the command line (see command line options and *--help*).
+
+* 1tst_A_albelig_PG.plg     : A text file describing the protein graph of chain A of this PDB file in plcc's own graph format. An example file and explantion is shown below (see Section *The plcc graph format*).
+* 1tst_A_alpha_FG.svg : The visualization of the graph, an image file in Scalable Vector Graphics (SVG) format. The vertices are labeled with an SSE number that also appears in the .plg file (see above), so you can use that file to get more information on the depicted SSEs if required.
+* 1tst_A_alpha_FG.png : The visualization of the same graph, but in Portable Network Graphics (PNG) format.
+
+
+The *plcc* graph format
+=======================
+
+This is a plain text graph file format. There are 3 types of lines, identified by the first character:
+
+* Comment lines start with the number sign #
+* Meta data lines start with the greater than sign > and also use it as the field separator.
+* Vertex/SSE lines start with a vertical bar | and also use it as the field separator.
+* Edge/Contact lines start with the equal sign = and also use it as the field separator.
+
+
+Each meta data line contains the following fields in this order:
+
+* field name
+* field value
+
+Each vertex line contains the following fields in this order:
+
+* PDB ID
+* chain ID
+* graph type (alpha, beta, albe, alphalig, betalig or albelig)
+* SSE number in image and in this graph (starts with 1)
+* SSE number in the primary sequence of the chain, N- to C-terminus (starts with 1)
+* SSE type (H=alpha helix, E=beta strand, L=ligand)
+* DSSP start residue number
+* DSSP end residue number
+* PDB end residue ID (format: chain-residue_number-icode)
+* PDB start residue ID (see above for format)
+* AA sequence
+
+Each edge line contains the following fields in this order:
+
+* SSE number in image of first SSE
+* spatial relation between the SSE pair (m=mixed, p=parallel, a=antiparallel, l=ligand contact)
+* SSE number in image of second SSE
+
+
+FAQ                
+===
+Q: Where do I get PDB input files?
+A: You can download them at http://www.rcsb.org/pdb/ or from one of the FTP or RSYNC mirrors listed on that website.
+
+Q: Where do I get DSSP input files?
+A: These files are generated from a model in a PDB file. Two options exist to get them: 1.) You can download them at MRS (http://mrs.cmbi.ru.nl/mrs-5/), which is linked on the DSSP website. Make sure to select DSSP in the database dropdown menu. 2.) You can generate them from a PDB file using the DSSP program which is available at http://swift.cmbi.ru.nl/gv/dssp/.
+
+Q: I have downloaded a new version of VPLG. When I run it, I see INFO messages that tell me a certain setting is not defined in the config file. What's up?
+A: The new version introduces a new settings that is not in your old config file. You have several options now: 1.) You ignore this. This means that the internal default value of the setting will be used and the INFO message will keep appearing. 2.) You edit your config file and add the setting and a sane value to it. This way, the messages will disappear and you will keep any changes you made to the default config file. 3.) You delete your config file. The plcc program will create a new config file the next time you run it, and this config file will have the setting listed with its default value. You will loose any changes you made to the old config file, of course.
+
+Q: I need a list of all settings availbale in the config file and their defaults.
+A: The list should be in the file *doc/plcc_settings.txt* of your plcc distribution. If not, you can generate it by running 'java -jar plcc.jar --debug 1', it will then be saved to the file '<USERHOME>/.plcc_example_settings'. (Note that this file is NEVER parsed by plcc, so changing it has no effects.)
+
+Q: When using *-u* or *-r*, the database connection fails and I am 100% sure that the DB address (host, port, dbname) and credentials (user, password) are ok. What's wrong?
+
+A: You may need to get a newer JDBC driver for your JVM and PostgreSQL server version from http://jdbc.postgresql.org/. It should be a jar file and you need to copy/rename it to '<plcc_dir>/lib/postgresql-jdbc.jar', overwriting the current file. The current file is for Java 1.6 and Postgresql 8.4. The JDBC driver for Java 1.6 and PostgreSQL 9.0 is in that dir as well, all you have to
+do is rename it as described above.
+    
+    
+Q: I want to analyze protein-protein interactions. Is *plcc* the correct tool for this?
+A: No, *plcc* works on the chain level and does only consider contacts between protein residues (and SSEs) of a chain and ligand contacts to this chain. Contact between different macromolecular structures (quaternary protein structure, protein-protein interactions) are ignored.
+
+Q: Which molecules (PDB records) are considered to be a ligand by *plcc*?
+A: All molecules that have HETATM records, with the exception of the following solvents: water (HOH), deuterated water (DOD), methanol (MOH).
+
+
+Q: I want to analyze interactions between DNA/RNA and proteins. Is *plcc* the correct tool for this?
+A: No, these molecules have no HETATM records (see above).
+
+Q: I have a PDB file that cannot be processed by *plcc* properly. The program aborts or crashes. What should I do?
+A: If the file contains only DNA/RNA or has very few protein residues (<30), DSSP and/or *plcc* cannot handle the file because they were made to analyze *protein* secondary structure. If this is not the case for the file you can contact the author and send the file. Note that some PDB files contain funky stuff, like residues without atoms in the default location (i.e., all atoms are listed to be as 'alternate location', like the current version of 1o07.pdb, residue 400 of chain A). It may not be possible to support all exceptions and possibilities of the PDB format because my time is limited.
+
+Q: How can I tell which version of *plcc* I am running?
+A: The version is always printed when you run plcc, so running the software without any command line arguments will do.
+
+
+Author, Website and Contact
+============================
+
+*VPLG* was written by Tim Schaefer at the Molecular Bioinformatics group of Ina Koch at Goethe-University Frankfurt, Germany. It is based on earlier ideas by Ina Koch and Patrick May. See http://www.bioinformatik.uni-frankfurt.de for contact information. My personal website is at http://rcmd.org/.
+
+
+
+
+
+

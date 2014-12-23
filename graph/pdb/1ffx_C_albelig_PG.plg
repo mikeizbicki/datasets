@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffx, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA-TUBULIN, BETA-TUBULIN, STATHMIN, MICROTUBULE, TUBULIN,STRUCTURAL PROTEIN
+> pdb_mol_name > PROTEIN (TUBULIN)
+> graphtype > albelig
+> resolution > 3.95
+> date > 26-JUL-00
+> header > STRUCTURAL PROTEIN
+> pdb_org_common > CATTLE
+> title > TUBULIN:STATHMIN-LIKE DOMAIN COMPLEX
+> format_version > 2
+> pdbid > 1ffx
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffx | C | albelig | 1 | 1 | E | 842 | 846 | C-5-  | C-9-  | ISIHV 
+| 1ffx | C | albelig | 2 | 2 | H | 848 | 855 | C-11-  | C-18-  | QAGVQIGN 
+| 1ffx | C | albelig | 3 | 3 | E | 887 | 889 | C-66-  | C-68-  | VFV 
+| 1ffx | C | albelig | 4 | 4 | H | 895 | 897 | C-74-  | C-76-  | VID 
+| 1ffx | C | albelig | 5 | 5 | H | 925 | 928 | C-104-  | C-107-  | ARGH 
+| 1ffx | C | albelig | 6 | 6 | H | 939 | 947 | C-118-  | C-126-  | VLDRIRKLA 
+| 1ffx | C | albelig | 7 | 7 | E | 956 | 959 | C-135-  | C-138-  | FSVF 
+| 1ffx | C | albelig | 8 | 8 | H | 965 | 967 | C-144-  | C-146-  | GTG 
+| 1ffx | C | albelig | 9 | 9 | H | 971 | 978 | C-150-  | C-157-  | TSLLMERL 
+| 1ffx | C | albelig | 10 | 10 | E | 988 | 990 | C-167-  | C-169-  | LEF 
+| 1ffx | C | albelig | 11 | 11 | H | 1006 | 1011 | C-185-  | C-190-  | YNSILT 
+| 1ffx | C | albelig | 12 | 12 | H | 1030 | 1033 | C-209-  | C-212-  | IYDI 
+| 1ffx | C | albelig | 13 | 13 | H | 1045 | 1057 | C-224-  | C-236-  | YTNLNRLIGQIVS 
+| 1ffx | C | albelig | 14 | 14 | H | 1061 | 1063 | C-240-  | C-242-  | ASL 
+| 1ffx | C | albelig | 15 | 15 | H | 1073 | 1076 | C-252-  | C-255-  | LTEF 
+| 1ffx | C | albelig | 16 | 16 | E | 1090 | 1093 | C-269-  | C-272-  | LATY 
+| 1ffx | C | albelig | 17 | 17 | H | 1115 | 1117 | C-294-  | C-296-  | ACF 
+| 1ffx | C | albelig | 18 | 18 | H | 1119 | 1121 | C-298-  | C-300-  | PAN 
+| 1ffx | C | albelig | 19 | 19 | H | 1128 | 1130 | C-307-  | C-309-  | PRH 
+| 1ffx | C | albelig | 20 | 20 | E | 1139 | 1141 | C-318-  | C-320-  | LYR 
+| 1ffx | C | albelig | 21 | 21 | H | 1146 | 1157 | C-325-  | C-336-  | PKDVNAAIATIK 
+| 1ffx | C | albelig | 22 | 22 | E | 1195 | 1200 | C-374-  | C-379-  | AVCMLS 
+| 1ffx | C | albelig | 23 | 23 | H | 1205 | 1217 | C-384-  | C-396-  | IAEAWARLDHKFD 
+| 1ffx | C | albelig | 24 | 24 | H | 1224 | 1227 | C-403-  | C-406-  | AFVH 
+| 1ffx | C | albelig | 25 | 25 | H | 1248 | 1252 | C-427-  | C-431-  | ALEKD 
+| 1ffx | C | albelig | 26 | 26 | L | 1768 | 1768 | C-502-  | C-502-  | J 
+# Printed info on 26 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 1 = m = 9
+= 2 = m = 13
+= 2 = l = 26
+= 7 = p = 10
+= 8 = l = 26
+= 12 = m = 13
+= 12 = l = 26
+= 13 = l = 26
+= 16 = m = 18
+= 16 = a = 22
+= 20 = a = 22
+# Listed 13 contacts. EOF.

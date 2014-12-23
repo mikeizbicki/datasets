@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALLERGEN, IMMUNOGLOBULIN FOLD
+> pdb_mol_name > DER F 2
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-APR-97
+> header > ALLERGEN
+> pdb_org_common > AMERICAN HOUSE DUST MITE
+> title > DER F 2, THE MAJOR MITE ALLERGEN FROM DERMATOPHAGOIDESFARINAE, NMR, 10 STRUCTURES
+> format_version > 2
+> pdbid > 1ahm
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DERMATOPHAGOIDES FARINAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahm | A | albelig | 1 | 1 | E | 55 | 57 | A-55-  | A-57-  | KAS 
+| 1ahm | A | albelig | 2 | 2 | E | 105 | 107 | A-105-  | A-107-  | VVT 
+| 1ahm | A | albelig | 3 | 3 | E | 109 | 111 | A-109-  | A-111-  | KLI 
+| 1ahm | A | albelig | 4 | 4 | E | 116 | 119 | A-116-  | A-119-  | VLAA 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = a = 4
+# Listed 2 contacts. EOF.

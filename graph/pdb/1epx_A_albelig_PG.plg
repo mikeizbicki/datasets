@@ -1,0 +1,71 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1epx, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, PTS SIGNAL, ALDOLASE, LEISHMANIA, FRUCTOSE-1,6-BISPHOSPHATE, LYASE
+> pdb_mol_name > FRUCTOSE-1,6-BISPHOSPHATE ALDOLASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 29-MAR-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF ALDOLASE FROM L. MEXICANA
+> format_version > 2
+> pdbid > 1epx
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > LEISHMANIA MEXICANA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1epx | A | albelig | 1 | 1 | E | 3 | 7 | A-3-  | A-7-  | RVTVL 
+| 1epx | A | albelig | 2 | 2 | H | 8 | 10 | A-8-  | A-10-  | QSQ 
+| 1epx | A | albelig | 3 | 3 | H | 12 | 14 | A-12-  | A-14-  | PAY 
+| 1epx | A | albelig | 4 | 4 | H | 22 | 32 | A-22-  | A-32-  | ESELIATVKKL 
+| 1epx | A | albelig | 5 | 5 | E | 38 | 42 | A-38-  | A-42-  | GLLAA 
+| 1epx | A | albelig | 6 | 6 | H | 46 | 56 | A-46-  | A-56-  | IGSCTKRFQPI 
+| 1epx | A | albelig | 7 | 7 | H | 62 | 73 | A-62-  | A-73-  | EEHRRQYRALML 
+| 1epx | A | albelig | 8 | 8 | H | 78 | 80 | A-78-  | A-80-  | FEQ 
+| 1epx | A | albelig | 9 | 9 | E | 82 | 87 | A-82-  | A-87-  | ISGVIL 
+| 1epx | A | albelig | 10 | 10 | H | 89 | 92 | A-89-  | A-92-  | DETV 
+| 1epx | A | albelig | 11 | 11 | H | 102 | 108 | A-102-  | A-108-  | FPEYLTA 
+| 1epx | A | albelig | 12 | 12 | E | 112 | 116 | A-112-  | A-116-  | VPGIK 
+| 1epx | A | albelig | 13 | 13 | E | 121 | 123 | A-121-  | A-123-  | LCP 
+| 1epx | A | albelig | 14 | 14 | E | 132 | 134 | A-132-  | A-134-  | QMT 
+| 1epx | A | albelig | 15 | 15 | H | 140 | 149 | A-140-  | A-149-  | YVKRASAYYK 
+| 1epx | A | albelig | 16 | 16 | E | 154 | 161 | A-154-  | A-161-  | FCKWRNVY 
+| 1epx | A | albelig | 17 | 17 | H | 170 | 190 | A-170-  | A-190-  | ESAVRFNAETLARYAILSQMS 
+| 1epx | A | albelig | 18 | 18 | E | 193 | 200 | A-193-  | A-200-  | VPIVEPEV 
+| 1epx | A | albelig | 19 | 19 | H | 208 | 228 | A-208-  | A-228-  | IDTCQRVSEHVWREVVAALQR 
+| 1epx | A | albelig | 20 | 20 | H | 233 | 235 | A-233-  | A-235-  | WEG 
+| 1epx | A | albelig | 21 | 21 | H | 255 | 269 | A-255-  | A-269-  | PEQVAHYTVMTLART 
+| 1epx | A | albelig | 22 | 22 | E | 276 | 279 | A-276-  | A-279-  | GVMF 
+| 1epx | A | albelig | 23 | 23 | H | 286 | 296 | A-286-  | A-296-  | EVQASEYLNAI 
+| 1epx | A | albelig | 24 | 24 | E | 306 | 311 | A-306-  | A-311-  | FLSFSY 
+| 1epx | A | albelig | 25 | 25 | H | 313 | 323 | A-313-  | A-323-  | RALQSSALKAW 
+| 1epx | A | albelig | 26 | 26 | H | 327 | 348 | A-327-  | A-348-  | ESGLAAGRRAFLHRARMNSMAQ 
+| 1epx | A | albelig | 27 | 27 | H | 354 | 356 | A-354-  | A-356-  | RSD 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 5 = p = 9
+= 5 = p = 24
+= 6 = m = 7
+= 8 = m = 9
+= 9 = p = 12
+= 12 = p = 16
+= 13 = a = 14
+= 14 = a = 16
+= 14 = m = 17
+= 15 = p = 17
+= 16 = a = 17
+= 16 = p = 18
+= 17 = a = 18
+= 17 = p = 19
+= 18 = a = 19
+= 19 = p = 21
+= 22 = p = 24
+= 23 = a = 24
+= 23 = m = 25
+= 23 = p = 26
+= 24 = a = 26
+= 25 = a = 26
+# Listed 23 contacts. EOF.

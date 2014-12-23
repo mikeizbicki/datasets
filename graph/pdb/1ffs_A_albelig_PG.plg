@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffs, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DOUBLY WOUND (BETA/ALPHA)5 FOLD, TRANSFERASE/SIGNALINGPROTEIN COMPLEX
+> pdb_mol_name > CHEMOTAXIS PROTEIN CHEY
+> graphtype > albelig
+> resolution > 2.4
+> date > 26-JUL-00
+> header > TRANSFERASE/SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CHEY-BINDING DOMAIN OF CHEA IN COMPLEX WITH CHEY FROMCRYSTALS SOAKED IN ACETYL PHOSPHATE
+> format_version > 2
+> pdbid > 1ffs
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffs | A | albelig | 1 | 1 | E | 7 | 10 | A-8-  | A-11-  | FLVV 
+| 1ffs | A | albelig | 2 | 2 | H | 14 | 26 | A-15-  | A-27-  | STMRRIVRNLLKE 
+| 1ffs | A | albelig | 3 | 3 | E | 32 | 35 | A-33-  | A-36-  | VEEA 
+| 1ffs | A | albelig | 4 | 4 | H | 38 | 45 | A-39-  | A-46-  | GVDALNKL 
+| 1ffs | A | albelig | 5 | 5 | E | 52 | 56 | A-53-  | A-57-  | FVISD 
+| 1ffs | A | albelig | 6 | 6 | H | 64 | 73 | A-65-  | A-74-  | GLELLKTIRA 
+| 1ffs | A | albelig | 7 | 7 | E | 82 | 86 | A-83-  | A-87-  | VLMVT 
+| 1ffs | A | albelig | 8 | 8 | H | 91 | 99 | A-92-  | A-100-  | KENIIAAAQ 
+| 1ffs | A | albelig | 9 | 9 | E | 104 | 107 | A-105-  | A-108-  | GYVV 
+| 1ffs | A | albelig | 10 | 10 | H | 112 | 126 | A-113-  | A-127-  | AATLEEKLNKIFEKL 
+| 1ffs | A | albelig | 11 | 11 | L | 396 | 396 | A-301-  | A-301-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 5
+= 2 = m = 3
+= 5 = p = 7
+= 5 = l = 11
+= 7 = p = 9
+# Listed 6 contacts. EOF.

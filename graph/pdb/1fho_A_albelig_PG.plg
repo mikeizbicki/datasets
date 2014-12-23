@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fho, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PLECKSTRIN HOMOLOGY DOMAIN, ELECTROSTATICS, MUSCLE, SIGNALTRANSDUCTION, SIGNALING PROTEIN
+> pdb_mol_name > UNC-89
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-AUG-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF THE PH DOMAIN FROM THE C. ELEGANSMUSCLE PROTEIN UNC-89
+> format_version > 2
+> pdbid > 1fho
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CAENORHABDITIS ELEGANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fho | A | albelig | 1 | 1 | E | 12 | 18 | A-12-  | A-18-  | RHDAFQV 
+| 1fho | A | albelig | 2 | 2 | E | 26 | 33 | A-26-  | A-33-  | KLRYVFLF 
+| 1fho | A | albelig | 3 | 3 | E | 36 | 42 | A-36-  | A-42-  | KIMFTEQ 
+| 1fho | A | albelig | 4 | 4 | E | 56 | 58 | A-56-  | A-58-  | SIR 
+| 1fho | A | albelig | 5 | 5 | E | 63 | 67 | A-63-  | A-67-  | NIRQH 
+| 1fho | A | albelig | 6 | 6 | E | 73 | 77 | A-73-  | A-77-  | TIVLQ 
+| 1fho | A | albelig | 7 | 7 | H | 98 | 108 | A-98-  | A-108-  | YVRKAWLRDIA 
+| 1fho | A | albelig | 8 | 8 | H | 112 | 115 | A-112-  | A-115-  | EKYA 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 7
+= 2 = a = 3
+= 3 = a = 4
+= 5 = a = 6
+# Listed 5 contacts. EOF.

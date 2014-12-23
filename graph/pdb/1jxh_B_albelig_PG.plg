@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jxh, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THID, RIBOKINASE FAMILY, PHOPHORYLATION, KINASE, TRANSFERASE
+> pdb_mol_name > PHOSPHOMETHYLPYRIMIDINE KINASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 07-SEP-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > 4-AMINO-5-HYDROXYMETHYL-2-METHYLPYRIMIDINE PHOSPHATE KINASEFROM SALMONELLA TYPHIMURIUM
+> format_version > 2
+> pdbid > 1jxh
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SALMONELLA TYPHIMURIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jxh | B | albelig | 1 | 1 | E | 257 | 263 | B-5-  | B-11-  | NALTIAG 
+| 1jxh | B | albelig | 2 | 2 | H | 271 | 281 | B-19-  | B-29-  | GIQADLKTFSA 
+| 1jxh | B | albelig | 3 | 3 | E | 285 | 297 | B-33-  | B-45-  | YGCSVITALVAEN 
+| 1jxh | B | albelig | 4 | 4 | E | 300 | 306 | B-48-  | B-54-  | GVQSVYR 
+| 1jxh | B | albelig | 5 | 5 | H | 309 | 320 | B-57-  | B-68-  | PDFVAAQLDSVF 
+| 1jxh | B | albelig | 6 | 6 | E | 327 | 330 | B-75-  | B-78-  | TTKI 
+| 1jxh | B | albelig | 7 | 7 | H | 336 | 348 | B-84-  | B-96-  | TDIVEAVAERLQR 
+| 1jxh | B | albelig | 8 | 8 | E | 354 | 357 | B-102-  | B-105-  | VVLD 
+| 1jxh | B | albelig | 9 | 9 | H | 366 | 376 | B-119-  | B-129-  | PSAIETLRVRL 
+| 1jxh | B | albelig | 10 | 10 | H | 377 | 379 | B-130-  | B-132-  | LPQ 
+| 1jxh | B | albelig | 11 | 11 | E | 382 | 384 | B-135-  | B-137-  | LIT 
+| 1jxh | B | albelig | 12 | 12 | H | 387 | 394 | B-140-  | B-147-  | LPEAAALL 
+| 1jxh | B | albelig | 13 | 13 | H | 402 | 414 | B-155-  | B-167-  | EQEMLAQGRALLA 
+| 1jxh | B | albelig | 14 | 14 | E | 419 | 422 | B-172-  | B-175-  | AVLM 
+| 1jxh | B | albelig | 15 | 15 | E | 427 | 429 | B-188-  | B-190-  | WLF 
+| 1jxh | B | albelig | 16 | 16 | E | 434 | 436 | B-195-  | B-197-  | EQR 
+| 1jxh | B | albelig | 17 | 17 | H | 448 | 462 | B-211-  | B-225-  | TGCTLSAALAALRPR 
+| 1jxh | B | albelig | 18 | 18 | H | 466 | 481 | B-229-  | B-244-  | WGETVNEAKAWLSAAL 
+| 1jxh | B | albelig | 19 | 19 | H | 484 | 486 | B-247-  | B-249-  | ADT 
+| 1jxh | B | albelig | 20 | 20 | L | 506 | 506 | B-2002-  | B-2002-  | J 
+| 1jxh | B | albelig | 21 | 21 | L | 507 | 507 | B-2004-  | B-2004-  | J 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 1 = p = 6
+= 1 = l = 21
+= 2 = p = 17
+= 2 = l = 21
+= 3 = a = 4
+= 3 = m = 5
+= 3 = l = 21
+= 5 = p = 7
+= 6 = p = 8
+= 6 = m = 17
+= 7 = p = 9
+= 8 = p = 11
+= 8 = m = 17
+= 8 = l = 20
+= 9 = m = 10
+= 11 = p = 14
+= 11 = l = 20
+= 12 = l = 20
+= 13 = m = 14
+= 13 = m = 15
+= 14 = a = 15
+= 15 = a = 16
+= 17 = a = 18
+= 17 = l = 20
+= 17 = l = 21
+# Listed 27 contacts. EOF.

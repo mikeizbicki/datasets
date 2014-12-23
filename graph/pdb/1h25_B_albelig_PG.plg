@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h25, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, CELL CYCLE, PROTEIN KINASE, CYCLIN, CDK2,RECRUITMENT, PEPTIDE SPECIFICITY
+> pdb_mol_name > CYCLIN A2
+> graphtype > albelig
+> resolution > 2.5
+> date > 31-JUL-02
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CDK2/CYCLIN A IN COMPLEX WITH AN 11-RESIDUE RECRUITMENTPEPTIDE FROM RETINOBLASTOMA-ASSOCIATED PROTEIN
+> format_version > 2
+> pdbid > 1h25
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h25 | B | albelig | 1 | 1 | H | 297 | 311 | B-176-  | B-190-  | PDYHEDIHTYLREME 
+| 1h25 | B | albelig | 2 | 2 | H | 321 | 323 | B-200-  | B-202-  | MKK 
+| 1h25 | B | albelig | 3 | 3 | H | 329 | 345 | B-208-  | B-224-  | NSMRAILVDWLVEVGEE 
+| 1h25 | B | albelig | 4 | 4 | H | 350 | 366 | B-229-  | B-245-  | NETLHLAVNYIDRFLSS 
+| 1h25 | B | albelig | 5 | 5 | H | 371 | 389 | B-250-  | B-268-  | RGKLQLVGTAAMLLASKFE 
+| 1h25 | B | albelig | 6 | 6 | H | 396 | 401 | B-275-  | B-280-  | VAEFVY 
+| 1h25 | B | albelig | 7 | 7 | H | 409 | 422 | B-288-  | B-301-  | KKQVLRMEHLVLKV 
+| 1h25 | B | albelig | 8 | 8 | H | 432 | 440 | B-311-  | B-319-  | VNQFLTQYF 
+| 1h25 | B | albelig | 9 | 9 | H | 448 | 461 | B-327-  | B-340-  | CKVESLAMFLGELS 
+| 1h25 | B | albelig | 10 | 10 | H | 465 | 468 | B-344-  | B-347-  | ADPY 
+| 1h25 | B | albelig | 11 | 11 | H | 473 | 489 | B-352-  | B-368-  | PSVIAGAAFHLALYTVT 
+| 1h25 | B | albelig | 12 | 12 | H | 495 | 501 | B-374-  | B-380-  | ESLIRKT 
+| 1h25 | B | albelig | 13 | 13 | H | 505 | 524 | B-384-  | B-403-  | LESLKPCLMDLHQTYLKAPQ 
+| 1h25 | B | albelig | 14 | 14 | H | 529 | 533 | B-408-  | B-412-  | SIREK 
+| 1h25 | B | albelig | 15 | 15 | H | 537 | 539 | B-416-  | B-418-  | SKY 
+| 1h25 | B | albelig | 16 | 16 | H | 542 | 544 | B-421-  | B-423-  | VSL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 8
+= 3 = m = 4
+= 3 = p = 5
+= 3 = m = 14
+= 4 = a = 5
+= 4 = m = 7
+= 5 = m = 7
+= 8 = m = 11
+= 9 = a = 11
+= 9 = m = 14
+= 10 = m = 13
+= 11 = p = 13
+# Listed 12 contacts. EOF.

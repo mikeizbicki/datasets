@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c9t, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (HYDROLASE/INHIBITOR), HYDROLASE, INHIBITOR,ANTISTASIN, PLASMIN, HYDROLASE/HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > TRYPSIN
+> graphtype > albelig
+> resolution > 3.3
+> date > 03-AUG-99
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > COMPLEX OF BDELLASTASIN WITH BOVINE TRYPSIN
+> format_version > 2
+> pdbid > 1c9t
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c9t | E | albelig | 1 | 1 | E | 911 | 915 | E-30-  | E-34-  | QVSLN 
+| 1c9t | E | albelig | 2 | 2 | E | 919 | 927 | E-40-  | E-48-  | HFZGGSLIN 
+| 1c9t | E | albelig | 3 | 3 | E | 930 | 933 | E-51-  | E-54-  | WVVS 
+| 1c9t | E | albelig | 4 | 4 | H | 935 | 937 | E-56-  | E-58-  | AHZ 
+| 1c9t | E | albelig | 5 | 5 | E | 943 | 946 | E-64-  | E-67-  | QVRL 
+| 1c9t | E | albelig | 6 | 6 | E | 959 | 968 | E-81-  | E-90-  | QFISASKSIV 
+| 1c9t | E | albelig | 7 | 7 | E | 982 | 986 | E-104-  | E-108-  | MLIKL 
+| 1c9t | E | albelig | 8 | 8 | E | 1011 | 1016 | E-135-  | E-140-  | QNLISG 
+| 1c9t | E | albelig | 9 | 9 | E | 1032 | 1037 | E-156-  | E-161-  | KYLKAP 
+| 1c9t | E | albelig | 10 | 10 | H | 1041 | 1047 | E-165-  | E-171-  | DSSCKSA 
+| 1c9t | E | albelig | 11 | 11 | E | 1056 | 1059 | E-180-  | E-183-  | MFCA 
+| 1c9t | E | albelig | 12 | 12 | E | 1076 | 1079 | E-198-  | E-201-  | PVVN 
+| 1c9t | E | albelig | 13 | 13 | E | 1082 | 1091 | E-204-  | E-217-  | KLQGIVSWGS 
+| 1c9t | E | albelig | 14 | 14 | E | 1100 | 1104 | E-226-  | E-230-  | GVYTK 
+| 1c9t | E | albelig | 15 | 15 | H | 1105 | 1118 | E-231-  | E-244-  | VANYVSWIKQTIAS 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 12
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+# Listed 13 contacts. EOF.

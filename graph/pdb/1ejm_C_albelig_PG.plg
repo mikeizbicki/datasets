@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ejm, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX, HYDROLASE/INHIBITOR COMPLEX
+> pdb_mol_name > BETA-TRYPSIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 03-MAR-00
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE BPTI ALA16LEU MUTANT IN COMPLEXWITH BOVINE TRYPSIN
+> format_version > 2
+> pdbid > 1ejm
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ejm | C | albelig | 1 | 1 | E | 298 | 302 | C-30-  | C-34-  | QVSLN 
+| 1ejm | C | albelig | 2 | 2 | E | 306 | 314 | C-40-  | C-48-  | HFKGGSLIN 
+| 1ejm | C | albelig | 3 | 3 | E | 317 | 320 | C-51-  | C-54-  | WVVS 
+| 1ejm | C | albelig | 4 | 4 | H | 322 | 324 | C-56-  | C-58-  | AHK 
+| 1ejm | C | albelig | 5 | 5 | E | 330 | 333 | C-64-  | C-67-  | QVRL 
+| 1ejm | C | albelig | 6 | 6 | E | 346 | 355 | C-81-  | C-90-  | QFISASKSIV 
+| 1ejm | C | albelig | 7 | 7 | E | 369 | 373 | C-104-  | C-108-  | MLIKL 
+| 1ejm | C | albelig | 8 | 8 | E | 398 | 403 | C-135-  | C-140-  | QMLISG 
+| 1ejm | C | albelig | 9 | 9 | E | 419 | 424 | C-156-  | C-161-  | KJLKAP 
+| 1ejm | C | albelig | 10 | 10 | H | 428 | 434 | C-165-  | C-171-  | DSSNKSA 
+| 1ejm | C | albelig | 11 | 11 | E | 443 | 446 | C-180-  | C-183-  | MFNA 
+| 1ejm | C | albelig | 12 | 12 | E | 463 | 466 | C-198-  | C-201-  | PVVM 
+| 1ejm | C | albelig | 13 | 13 | E | 469 | 476 | C-204-  | C-215-  | KLQGIVSW 
+| 1ejm | C | albelig | 14 | 14 | E | 487 | 491 | C-226-  | C-230-  | GVYTK 
+| 1ejm | C | albelig | 15 | 15 | H | 492 | 494 | C-231-  | C-233-  | VLN 
+| 1ejm | C | albelig | 16 | 16 | H | 496 | 505 | C-235-  | C-244-  | VSWIKQTIAS 
+| 1ejm | C | albelig | 17 | 17 | L | 853 | 853 | C-3612-  | C-3612-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 12
+= 10 = l = 17
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+# Listed 14 contacts. EOF.

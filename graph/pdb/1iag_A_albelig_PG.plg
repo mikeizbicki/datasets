@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iag, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METALLOPROTEASE
+> pdb_mol_name > ADAMALYSIN II
+> graphtype > albelig
+> resolution > 2.0
+> date > 09-MAY-94
+> header > METALLOPROTEASE
+> pdb_org_common > EASTERN DIAMONDBACK RATTLESNAKE
+> title > FIRST STRUCTURE OF A SNAKE VENOM METALLOPROTEINASE: APROTOTYPE FOR MATRIX METALLOPROTEINASES(SLASH)COLLAGENASES
+> format_version > 2
+> pdbid > 1iag
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CROTALUS ADAMANTEUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iag | A | albelig | 1 | 1 | E | 5 | 13 | A-6-  | A-14-  | RYIELVVVA 
+| 1iag | A | albelig | 2 | 2 | H | 15 | 20 | A-16-  | A-21-  | RRVFMK 
+| 1iag | A | albelig | 3 | 3 | H | 25 | 46 | A-26-  | A-47-  | LNIIRTRVHEIVNIINKFYRSL 
+| 1iag | A | albelig | 4 | 4 | E | 48 | 57 | A-49-  | A-58-  | IRVSLTDLEI 
+| 1iag | A | albelig | 5 | 5 | H | 70 | 85 | A-71-  | A-86-  | SSNTLNSFGEWRERVL 
+| 1iag | A | albelig | 6 | 6 | E | 93 | 98 | A-94-  | A-99-  | NAQLLT 
+| 1iag | A | albelig | 7 | 7 | H | 103 | 105 | A-104-  | A-106-  | EGK 
+| 1iag | A | albelig | 8 | 8 | E | 108 | 110 | A-109-  | A-111-  | GKA 
+| 1iag | A | albelig | 9 | 9 | E | 122 | 126 | A-123-  | A-127-  | VGIVK 
+| 1iag | A | albelig | 10 | 10 | H | 132 | 146 | A-133-  | A-147-  | NLLVAVTMAHELGHN 
+| 1iag | A | albelig | 11 | 11 | E | 161 | 163 | A-162-  | A-164-  | SLN 
+| 1iag | A | albelig | 12 | 12 | H | 179 | 192 | A-180-  | A-193-  | DDSMGYYQKFLNQY 
+| 1iag | A | albelig | 13 | 13 | L | 202 | 202 | A-999-  | A-999-  | J 
+| 1iag | A | albelig | 14 | 14 | L | 203 | 203 | A-250-  | A-250-  | J 
+| 1iag | A | albelig | 15 | 15 | L | 204 | 204 | A-260-  | A-260-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 1 = l = 14
+= 1 = l = 15
+= 3 = a = 4
+= 3 = p = 10
+= 5 = m = 6
+= 5 = m = 9
+= 6 = p = 9
+= 6 = a = 10
+= 8 = a = 9
+= 8 = m = 10
+= 10 = l = 13
+# Listed 13 contacts. EOF.

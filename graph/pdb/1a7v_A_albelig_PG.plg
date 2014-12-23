@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a7v, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT
+> pdb_mol_name > CYTOCHROME C'
+> graphtype > albelig
+> resolution > 2.3
+> date > 18-MAR-98
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CYTOCHROME C' FROM RHODOPSEUDOMONAS PALUSTRIS
+> format_version > 2
+> pdbid > 1a7v
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RHODOPSEUDOMONAS PALUSTRIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a7v | A | albelig | 1 | 1 | H | 4 | 26 | A-4-  | A-26-  | VIAQRKAILKQMGEATKPIAAML 
+| 1a7v | A | albelig | 2 | 2 | H | 34 | 54 | A-34-  | A-54-  | QAVVQKSLAAIADDSKKLPAL 
+| 1a7v | A | albelig | 3 | 3 | H | 57 | 59 | A-57-  | A-59-  | ADS 
+| 1a7v | A | albelig | 4 | 4 | H | 70 | 73 | A-70-  | A-73-  | KIWE 
+| 1a7v | A | albelig | 5 | 5 | H | 75 | 95 | A-75-  | A-95-  | KAKFDDLFAKLAAAATAAQGT 
+| 1a7v | A | albelig | 6 | 6 | H | 99 | 120 | A-99-  | A-120-  | EASLKANIGGVLGNCKSCHDDF 
+| 1a7v | A | albelig | 7 | 7 | L | 252 | 252 | A-150-  | A-150-  | J 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 6
+= 1 = l = 7
+= 2 = a = 5
+= 2 = l = 7
+= 4 = l = 7
+= 5 = a = 6
+= 5 = l = 7
+= 6 = l = 7
+# Listed 9 contacts. EOF.

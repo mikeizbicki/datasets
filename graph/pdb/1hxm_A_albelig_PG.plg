@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hxm, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IG DOMAIN, T CELL RECEPTOR, TCR, GDTCR, IMMUNE SYSTEM
+> pdb_mol_name > GAMMA-DELTA T-CELL RECEPTOR
+> graphtype > albelig
+> resolution > 3.12
+> date > 16-JAN-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A HUMAN VGAMMA9/VDELTA2 T CELL RECEPTOR
+> format_version > 2
+> pdbid > 1hxm
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hxm | A | albelig | 1 | 1 | E | 4 | 6 | A-4-  | A-6-  | LVP 
+| 1hxm | A | albelig | 2 | 2 | E | 10 | 14 | A-10-  | A-14-  | TVPVS 
+| 1hxm | A | albelig | 3 | 3 | E | 19 | 25 | A-19-  | A-25-  | ATLRASM 
+| 1hxm | A | albelig | 4 | 4 | H | 30 | 32 | A-30-  | A-32-  | IGN 
+| 1hxm | A | albelig | 5 | 5 | E | 34 | 41 | A-34-  | A-41-  | YINWYRKT 
+| 1hxm | A | albelig | 6 | 6 | E | 47 | 51 | A-47-  | A-51-  | TFIYR 
+| 1hxm | A | albelig | 7 | 7 | E | 64 | 69 | A-64-  | A-69-  | FQGDID 
+| 1hxm | A | albelig | 8 | 8 | H | 70 | 72 | A-70-  | A-72-  | IAK 
+| 1hxm | A | albelig | 9 | 9 | E | 74 | 79 | A-74-  | A-79-  | LAVLKI 
+| 1hxm | A | albelig | 10 | 10 | H | 84 | 86 | A-84-  | A-86-  | ERD 
+| 1hxm | A | albelig | 11 | 11 | E | 88 | 95 | A-88-  | A-95-  | GSYYAACD 
+| 1hxm | A | albelig | 12 | 12 | E | 113 | 118 | A-113-  | A-118-  | TRVTVE 
+| 1hxm | A | albelig | 13 | 13 | E | 128 | 134 | A-128-  | A-134-  | SVFVMKN 
+| 1hxm | A | albelig | 14 | 14 | E | 137 | 143 | A-137-  | A-143-  | NVANLVK 
+| 1hxm | A | albelig | 15 | 15 | E | 151 | 155 | A-151-  | A-155-  | RINLV 
+| 1hxm | A | albelig | 16 | 16 | E | 159 | 162 | A-159-  | A-162-  | KITE 
+| 1hxm | A | albelig | 17 | 17 | E | 166 | 169 | A-166-  | A-169-  | AIVI 
+| 1hxm | A | albelig | 18 | 18 | E | 175 | 183 | A-175-  | A-183-  | YNAVKLGKY 
+| 1hxm | A | albelig | 19 | 19 | E | 190 | 195 | A-190-  | A-195-  | TNSVQH 
+| 1hxm | A | albelig | 20 | 20 | E | 198 | 201 | A-198-  | A-201-  | KTVH 
+| 1hxm | A | albelig | 21 | 21 | H | 202 | 205 | A-202-  | A-205-  | STDF 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 11
+= 2 = p = 12
+= 3 = a = 9
+= 3 = p = 11
+= 5 = a = 6
+= 5 = p = 9
+= 5 = a = 11
+= 7 = m = 8
+= 7 = a = 9
+= 11 = a = 12
+= 13 = a = 14
+= 13 = m = 21
+= 14 = a = 18
+= 15 = p = 18
+= 15 = a = 19
+= 16 = a = 18
+= 17 = a = 18
+= 19 = a = 20
+= 20 = m = 21
+# Listed 20 contacts. EOF.

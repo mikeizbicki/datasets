@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cmi, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PIN, LC8, NNOS, DYNEIN LIGHT CHAIN,OXIDOREDUCTASE/OXIDOREDUCTASE INHIBITOR COMPLEX
+> pdb_mol_name > PROTEIN INHIBITOR OF NEURONAL NITRIC OXIDE
+> graphtype > albelig
+> resolution > 2.5
+> date > 06-MAY-99
+> header > OXIDOREDUCTASE/OXIDOREDUCTASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE HUMAN PIN/LC8 DIMER WITH A BOUND PEPTIDE
+> format_version > 2
+> pdbid > 1cmi
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cmi | B | albelig | 1 | 1 | E | 88 | 93 | B-6-  | B-11-  | AVIKNA 
+| 1cmi | B | albelig | 2 | 2 | H | 99 | 113 | B-17-  | B-31-  | MQQDSVECATQALEK 
+| 1cmi | B | albelig | 3 | 3 | H | 117 | 132 | B-35-  | B-50-  | EKDIAAHIKKEFDKKY 
+| 1cmi | B | albelig | 4 | 4 | E | 136 | 141 | B-54-  | B-59-  | WHCIVG 
+| 1cmi | B | albelig | 5 | 5 | E | 143 | 151 | B-61-  | B-69-  | NFGSYVTHE 
+| 1cmi | B | albelig | 6 | 6 | E | 155 | 160 | B-73-  | B-78-  | FIYFYL 
+| 1cmi | B | albelig | 7 | 7 | E | 163 | 169 | B-81-  | B-87-  | VAILLFK 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 2 = a = 3
+= 2 = p = 6
+= 3 = a = 4
+= 4 = a = 7
+= 5 = p = 7
+= 6 = a = 7
+# Listed 7 contacts. EOF.

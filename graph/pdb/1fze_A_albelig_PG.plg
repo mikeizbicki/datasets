@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fze, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BLOOD COAGULATION, PLASMA, PLATELET, FIBRINOGEN, FIBRIN
+> pdb_mol_name > FIBRINOGEN
+> graphtype > albelig
+> resolution > 3.0
+> date > 23-DEC-98
+> header > BLOOD COAGULATION
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF FRAGMENT DOUBLE-D FROM HUMAN FIBRIN
+> format_version > 2
+> pdbid > 1fze
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fze | A | albelig | 1 | 1 | H | 3 | 49 | A-116-  | A-162-  | RSRIEVLKRKVIEKVQHIQLLQKNVRAQLVDMKRLEVDIDIKIRSAR 
+| 1fze | A | albelig | 2 | 2 | H | 62 | 73 | A-175-  | A-186-  | LKDYEDQQKQLE 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

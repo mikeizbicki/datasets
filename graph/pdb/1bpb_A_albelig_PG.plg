@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bpb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOTIDYLTRANSFERASE
+> pdb_mol_name > DNA POLYMERASE BETA
+> graphtype > albelig
+> resolution > 2.3
+> date > 12-APR-94
+> header > NUCLEOTIDYLTRANSFERASE
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT DNA POLYMERASE BETA: EVIDENCE FOR A COMMONPOLYMERASE MECHANISM
+> format_version > 2
+> pdbid > 1bpb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bpb | A | albelig | 1 | 1 | H | 4 | 10 | A-94-  | A-100-  | SSSINFL 
+| 1bpb | A | albelig | 2 | 2 | H | 18 | 24 | A-108-  | A-114-  | PSAARKL 
+| 1bpb | A | albelig | 3 | 3 | H | 32 | 37 | A-122-  | A-127-  | LEDLRK 
+| 1bpb | A | albelig | 4 | 4 | H | 39 | 41 | A-129-  | A-131-  | EDK 
+| 1bpb | A | albelig | 5 | 5 | H | 44 | 51 | A-134-  | A-141-  | HHQRIGLK 
+| 1bpb | A | albelig | 6 | 6 | H | 55 | 57 | A-145-  | A-147-  | DFE 
+| 1bpb | A | albelig | 7 | 7 | H | 62 | 79 | A-152-  | A-169-  | REEMLQMQDIVLNEVKKL 
+| 1bpb | A | albelig | 8 | 8 | E | 84 | 87 | A-174-  | A-177-  | IATV 
+| 1bpb | A | albelig | 9 | 9 | H | 89 | 92 | A-179-  | A-182-  | GSFR 
+| 1bpb | A | albelig | 10 | 10 | E | 101 | 106 | A-191-  | A-196-  | MDVLLT 
+| 1bpb | A | albelig | 11 | 11 | H | 118 | 131 | A-208-  | A-221-  | PKLLHRVVEQLQKV 
+| 1bpb | A | albelig | 12 | 12 | E | 134 | 140 | A-224-  | A-230-  | ITDTLSK 
+| 1bpb | A | albelig | 13 | 13 | E | 144 | 149 | A-234-  | A-239-  | KFMGVC 
+| 1bpb | A | albelig | 14 | 14 | E | 161 | 167 | A-253-  | A-259-  | RRIDIRL 
+| 1bpb | A | albelig | 15 | 15 | H | 170 | 181 | A-262-  | A-273-  | KDQYYCGVLYFT 
+| 1bpb | A | albelig | 16 | 16 | H | 184 | 196 | A-276-  | A-288-  | DIFNKNMRAHALE 
+| 1bpb | A | albelig | 17 | 17 | E | 199 | 201 | A-291-  | A-293-  | FTI 
+| 1bpb | A | albelig | 18 | 18 | E | 206 | 208 | A-298-  | A-300-  | IRP 
+| 1bpb | A | albelig | 19 | 19 | H | 224 | 230 | A-316-  | A-322-  | EQDIFDY 
+| 1bpb | A | albelig | 20 | 20 | H | 238 | 240 | A-330-  | A-332-  | PKD 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 5 = m = 12
+= 7 = m = 10
+= 7 = a = 11
+= 8 = a = 10
+= 10 = p = 14
+= 10 = m = 15
+= 11 = a = 12
+= 12 = a = 13
+= 13 = a = 14
+= 15 = m = 19
+= 16 = m = 17
+= 17 = a = 18
+# Listed 12 contacts. EOF.

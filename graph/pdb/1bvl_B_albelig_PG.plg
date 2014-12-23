@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bvl, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HUMANIZED ANTIBODY, FV, ANTI-LYSOZYME
+> pdb_mol_name > HULYS11
+> graphtype > albelig
+> resolution > 2.87
+> date > 16-SEP-98
+> header > HUMANIZED ANTIBODY
+> pdb_org_common > HUMAN, HOUSE MOUSE
+> title > HUMANIZED ANTI-LYSOZYME FV
+> format_version > 2
+> pdbid > 1bvl
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS, MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bvl | B | albelig | 1 | 1 | E | 121 | 124 | B-4-  | B-7-  | MTQS 
+| 1bvl | B | albelig | 2 | 2 | E | 127 | 130 | B-10-  | B-13-  | SLSA 
+| 1bvl | B | albelig | 3 | 3 | E | 136 | 142 | B-19-  | B-25-  | VTITNRA 
+| 1bvl | B | albelig | 4 | 4 | E | 150 | 155 | B-33-  | B-38-  | LAWYQQ 
+| 1bvl | B | albelig | 5 | 5 | E | 162 | 166 | B-45-  | B-49-  | KLLIY 
+| 1bvl | B | albelig | 6 | 6 | E | 179 | 184 | B-62-  | B-67-  | FSGSGS 
+| 1bvl | B | albelig | 7 | 7 | E | 187 | 192 | B-70-  | B-75-  | DYTFTI 
+| 1bvl | B | albelig | 8 | 8 | H | 197 | 199 | B-80-  | B-82-  | PED 
+| 1bvl | B | albelig | 9 | 9 | E | 202 | 207 | B-85-  | B-90-  | TYYNQH 
+| 1bvl | B | albelig | 10 | 10 | E | 219 | 223 | B-102-  | B-106-  | TKVEI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 4
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = p = 10
+# Listed 11 contacts. EOF.

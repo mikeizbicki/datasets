@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bzd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THYROID HORMONE, LIVER, PLASMA, CEREBROSPINAL FLUID, POLYNEUROPATHY,DISEASE MUTATION, TRANSPORT, THYROXINE, BINDING PROTEIN
+> pdb_mol_name > PROTEIN (TRANSTHYRETIN)
+> graphtype > albelig
+> resolution > 1.9
+> date > 28-OCT-98
+> header > BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > TERTIARY STRUCTURES OF THREE AMYLOIDOGENIC TRANSTHYRETIN VARIANTS ANDIMPLICATIONS FOR AMYLOID FIBRIL FORMATION
+> format_version > 2
+> pdbid > 1bzd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bzd | A | albelig | 1 | 1 | E | 12 | 18 | A-12-  | A-18-  | LMVKVLD 
+| 1bzd | A | albelig | 2 | 2 | E | 29 | 36 | A-29-  | A-36-  | AVHVFRKA 
+| 1bzd | A | albelig | 3 | 3 | E | 40 | 48 | A-40-  | A-48-  | TWEPFASGK 
+| 1bzd | A | albelig | 4 | 4 | E | 67 | 73 | A-67-  | A-73-  | GIYKVEI 
+| 1bzd | A | albelig | 5 | 5 | H | 75 | 81 | A-75-  | A-81-  | TKSYWKA 
+| 1bzd | A | albelig | 6 | 6 | E | 88 | 97 | A-88-  | A-97-  | HEHAEVVFTA 
+| 1bzd | A | albelig | 7 | 7 | E | 104 | 112 | A-104-  | A-112-  | RYTIAALLS 
+| 1bzd | A | albelig | 8 | 8 | E | 115 | 123 | A-115-  | A-123-  | SYSTTAVVT 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 2 = a = 3
+= 2 = a = 4
+= 4 = a = 6
+= 5 = m = 6
+= 7 = a = 8
+# Listed 6 contacts. EOF.

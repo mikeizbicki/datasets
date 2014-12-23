@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eax, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, SERINE PROTEINASE, MATRIX DEGRADATION
+> pdb_mol_name > SUPPRESSOR OF TUMORIGENICITY 14
+> graphtype > albelig
+> resolution > 1.3
+> date > 17-JUL-01
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF MTSP1 (MATRIPTASE)
+> format_version > 2
+> pdbid > 1eax
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eax | A | albelig | 1 | 1 | E | 15 | 20 | A-30-  | A-35-  | QVSLHA 
+| 1eax | A | albelig | 2 | 2 | E | 24 | 31 | A-39-  | A-46-  | GHIAGASL 
+| 1eax | A | albelig | 3 | 3 | E | 36 | 39 | A-51-  | A-54-  | WLVS 
+| 1eax | A | albelig | 4 | 4 | H | 41 | 44 | A-56-  | A-59-  | AHAY 
+| 1eax | A | albelig | 5 | 5 | H | 55 | 57 | A-61-  | A-63-  | PTQ 
+| 1eax | A | albelig | 6 | 6 | E | 58 | 62 | A-64-  | A-68-  | WTAFL 
+| 1eax | A | albelig | 7 | 7 | E | 76 | 85 | A-81-  | A-90-  | QERRLKRIIS 
+| 1eax | A | albelig | 8 | 8 | E | 99 | 103 | A-104-  | A-108-  | ALLEL 
+| 1eax | A | albelig | 9 | 9 | E | 130 | 135 | A-135-  | A-140-  | AIWVTG 
+| 1eax | A | albelig | 10 | 10 | E | 150 | 156 | A-156-  | A-162-  | QKGEIRV 
+| 1eax | A | albelig | 11 | 11 | H | 159 | 165 | A-165-  | A-171-  | QTTNENL 
+| 1eax | A | albelig | 12 | 12 | E | 174 | 178 | A-180-  | A-184-  | MMNVG 
+| 1eax | A | albelig | 13 | 13 | E | 194 | 198 | A-198-  | A-202-  | PLSSV 
+| 1eax | A | albelig | 14 | 14 | E | 204 | 212 | A-207-  | A-215-  | IFQAGVVSW 
+| 1eax | A | albelig | 15 | 15 | E | 223 | 227 | A-226-  | A-230-  | GVYTR 
+| 1eax | A | albelig | 16 | 16 | H | 229 | 239 | A-232-  | A-242-  | PLFRDWIKENT 
+| 1eax | A | albelig | 17 | 17 | L | 242 | 242 | A-717-  | A-717-  | J 
+| 1eax | A | albelig | 18 | 18 | L | 243 | 243 | A-818-  | A-818-  | J 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 5
+= 1 = a = 6
+= 2 = a = 3
+= 2 = l = 17
+= 3 = a = 8
+= 4 = l = 17
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 7 = a = 8
+= 9 = a = 10
+= 9 = a = 13
+= 10 = a = 12
+= 11 = m = 12
+= 12 = a = 15
+= 13 = a = 14
+= 14 = a = 15
+= 14 = l = 18
+= 15 = l = 18
+= 17 = l = 18
+# Listed 21 contacts. EOF.

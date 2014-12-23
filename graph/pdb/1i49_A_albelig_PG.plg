@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i49, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNALING PROTEIN
+> pdb_mol_name > ARFAPTIN 2
+> graphtype > albelig
+> resolution > 2.8
+> date > 20-FEB-01
+> header > SIGNALING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF ARFAPTIN
+> format_version > 2
+> pdbid > 1i49
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i49 | A | albelig | 1 | 1 | H | 6 | 56 | A-28-  | A-78-  | LELELQIELLRETKRKYESVLQLGRALTAHLYSLLQTQHALGDAFADLSQK 
+| 1i49 | A | albelig | 2 | 2 | H | 61 | 100 | A-83-  | A-122-  | QEEFGYNAETQKLLCKNGETLLGAVNFFVSSINTLVTKTM 
+| 1i49 | A | albelig | 3 | 3 | H | 101 | 127 | A-123-  | A-149-  | EDTLMTVKQYEAARLEYDAYRTDLEEL 
+| 1i49 | A | albelig | 4 | 4 | H | 136 | 198 | A-158-  | A-220-  | TRGRLESAQATFQAHRDKYEKLRGDVAIKLKFLEENKIKVMHKQLLLFHNAVSAYFAGNQKQL 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 3
+= 1 = p = 4
+= 2 = a = 4
+= 3 = a = 4
+# Listed 5 contacts. EOF.

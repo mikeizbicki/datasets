@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fhg, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN FOLD, BETA BARREL, CONTRACTILE PROTEIN
+> pdb_mol_name > TELOKIN
+> graphtype > albelig
+> resolution > 2.0
+> date > 01-AUG-00
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > TURKEY
+> title > HIGH RESOLUTION REFINEMENT OF TELOKIN
+> format_version > 2
+> pdbid > 1fhg
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MELEAGRIS GALLOPAVO
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fhg | A | albelig | 1 | 1 | E | 7 | 13 | A-40-  | A-46-  | VKPYFTK 
+| 1fhg | A | albelig | 2 | 2 | E | 18 | 21 | A-51-  | A-54-  | MEVV 
+| 1fhg | A | albelig | 3 | 3 | E | 26 | 35 | A-59-  | A-68-  | ARFDCKVEGY 
+| 1fhg | A | albelig | 4 | 4 | E | 39 | 44 | A-72-  | A-77-  | EVMWFK 
+| 1fhg | A | albelig | 5 | 5 | E | 55 | 59 | A-88-  | A-92-  | FQIDY 
+| 1fhg | A | albelig | 6 | 6 | E | 64 | 69 | A-97-  | A-102-  | NCSLTI 
+| 1fhg | A | albelig | 7 | 7 | H | 74 | 76 | A-107-  | A-109-  | GDD 
+| 1fhg | A | albelig | 8 | 8 | E | 78 | 86 | A-111-  | A-119-  | AKYTCKAVN 
+| 1fhg | A | albelig | 9 | 9 | E | 89 | 100 | A-122-  | A-133-  | GEATCTAELLVE 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 8
+= 1 = p = 9
+= 2 = p = 9
+= 3 = a = 6
+= 3 = p = 8
+= 3 = a = 9
+= 4 = a = 6
+= 4 = a = 8
+= 5 = a = 6
+= 8 = a = 9
+# Listed 11 contacts. EOF.

@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cir, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE INHIBITOR
+> pdb_mol_name > CHYMOTRYPSIN INHIBITOR 2
+> graphtype > albelig
+> resolution > -1.0
+> date > 02-OCT-95
+> header > SERINE PROTEASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > COMPLEX OF TWO FRAGMENTS OF CI2 [(1-40)(DOT)(41-64)]
+> format_version > 2
+> pdbid > 1cir
+> experiment > SOLUTION NMR
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HORDEUM VULGARE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cir | B | albelig | 1 | 1 | E | 48 | 50 | B-48-  | B-50-  | RLF 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

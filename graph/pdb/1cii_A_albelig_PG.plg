@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cii, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COLICIN, BACTERIOCIN, ION CHANNEL FORMATION, TRANSMEMBRANEPROTEIN
+> pdb_mol_name > COLICIN IA
+> graphtype > albelig
+> resolution > 3.0
+> date > 08-JAN-97
+> header > TRANSMEMBRANE PROTEIN
+> pdb_org_common > UNKNOWN
+> title > COLICIN IA
+> format_version > 2
+> pdbid > 1cii
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cii | A | albelig | 1 | 1 | H | 26 | 29 | A-48-  | A-51-  | SFGN 
+| 1cii | A | albelig | 2 | 2 | H | 45 | 99 | A-67-  | A-121-  | RSDIEKRDKEITAYKNTLSAQQKENENKRTEAGKRLSAAIAAREKDENTLKTLRA 
+| 1cii | A | albelig | 3 | 3 | H | 104 | 146 | A-126-  | A-168-  | AADITRQEFRLLQAELREYGFRTEIAGYDALRLHTESRMLFAD 
+| 1cii | A | albelig | 4 | 4 | H | 154 | 260 | A-176-  | A-282-  | PREARSLIEQAEKRQKDAQNADKKAADMLAEYERRKGILDTRLSELEKNGGAALAVLDAQQARLLGQQTRNDRAISEARNKLSSVTESLNTARNALTRAEQQLTQQK 
+| 1cii | A | albelig | 5 | 5 | H | 263 | 269 | A-285-  | A-291-  | PDGKTIV 
+| 1cii | A | albelig | 6 | 6 | E | 276 | 285 | A-298-  | A-307-  | GRSSTNDSIV 
+| 1cii | A | albelig | 7 | 7 | E | 295 | 304 | A-317-  | A-326-  | TIKITTSAVI 
+| 1cii | A | albelig | 8 | 8 | H | 307 | 314 | A-329-  | A-336-  | RANLNYLL 
+| 1cii | A | albelig | 9 | 9 | H | 318 | 324 | A-340-  | A-346-  | GLDYKRN 
+| 1cii | A | albelig | 10 | 10 | H | 337 | 445 | A-359-  | A-467-  | VEGDKKIYNAEVAEWDKLRQRLLDARNKITSAESAVNSARNNLSARTNEQKHANDALNALLKEKENIRNQLSGINQKIAEEKRKQDELKATKDAINFTTEFLKSVSEKY 
+| 1cii | A | albelig | 11 | 11 | H | 448 | 458 | A-470-  | A-480-  | KAEQLAREMAG 
+| 1cii | A | albelig | 12 | 12 | H | 468 | 477 | A-490-  | A-499-  | VEEALKTYEK 
+| 1cii | A | albelig | 13 | 13 | H | 479 | 482 | A-501-  | A-504-  | RADI 
+| 1cii | A | albelig | 14 | 14 | H | 489 | 499 | A-511-  | A-521-  | KDRAAIAAALE 
+| 1cii | A | albelig | 15 | 15 | H | 503 | 517 | A-525-  | A-539-  | LSDISSNLNRFSRGL 
+| 1cii | A | albelig | 16 | 16 | H | 526 | 538 | A-548-  | A-560-  | LADWITEFGKAVR 
+| 1cii | A | albelig | 17 | 17 | H | 543 | 549 | A-565-  | A-571-  | RPLFVKT 
+| 1cii | A | albelig | 18 | 18 | H | 558 | 569 | A-580-  | A-591-  | ATALVALVFSIL 
+| 1cii | A | albelig | 19 | 19 | H | 575 | 590 | A-597-  | A-612-  | GIIGYGLLMAVTGALI 
+| 1cii | A | albelig | 20 | 20 | H | 592 | 599 | A-614-  | A-621-  | ESLVEKAN 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 10
+= 5 = m = 8
+= 5 = m = 10
+= 6 = a = 7
+= 6 = a = 10
+= 7 = p = 10
+= 8 = m = 9
+= 8 = m = 10
+= 9 = m = 10
+= 10 = m = 11
+= 10 = m = 15
+= 11 = m = 20
+= 12 = m = 17
+= 14 = m = 16
+= 15 = m = 18
+= 16 = m = 17
+= 16 = m = 18
+= 18 = a = 19
+= 19 = m = 20
+# Listed 22 contacts. EOF.

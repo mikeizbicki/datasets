@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gav, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIOPHAGE, CAPSID, COAT PROTEIN, ICOSAHEDRAL VIRUS, VIRUS
+> pdb_mol_name > BACTERIOPHAGE GA PROTEIN CAPSID
+> graphtype > albelig
+> resolution > 3.4
+> date > 28-JAN-97
+> header > VIRUS
+> pdb_org_common > UNKNOWN
+> title > BACTERIOPHAGE GA PROTEIN CAPSID
+> format_version > 2
+> pdbid > 1gav
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE GA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gav | P | albelig | 1 | 1 | E | 1956 | 1959 | P-7-  | P-10-  | FVLV 
+| 1gav | P | albelig | 2 | 2 | E | 1967 | 1973 | P-18-  | P-24-  | VTVVPVS 
+| 1gav | P | albelig | 3 | 3 | H | 1975 | 1977 | P-26-  | P-28-  | ANG 
+| 1gav | P | albelig | 4 | 4 | E | 1979 | 1983 | P-30-  | P-34-  | AEWLS 
+| 1gav | P | albelig | 5 | 5 | H | 1987 | 1989 | P-38-  | P-40-  | RSQ 
+| 1gav | P | albelig | 6 | 6 | E | 1992 | 2000 | P-43-  | P-51-  | RVTASYRAS 
+| 1gav | P | albelig | 7 | 7 | E | 2004 | 2021 | P-55-  | P-72-  | KRKYTIKLEVPKIVTQVV 
+| 1gav | P | albelig | 8 | 8 | E | 2024 | 2042 | P-75-  | P-93-  | VELPVSAWKAYASIDLTIP 
+| 1gav | P | albelig | 9 | 9 | H | 2047 | 2061 | P-98-  | P-112-  | TDDVTVISKSLAGLF 
+| 1gav | P | albelig | 10 | 10 | H | 2066 | 2071 | P-117-  | P-122-  | PIAEAI 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 4
+= 3 = m = 6
+= 4 = a = 6
+= 5 = m = 8
+= 6 = a = 7
+= 7 = a = 8
+# Listed 7 contacts. EOF.

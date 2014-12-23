@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gbr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SIGNAL TRANSDUCTION PROTEIN
+> pdb_mol_name > GROWTH FACTOR RECEPTOR-BOUND PROTEIN 2
+> graphtype > albelig
+> resolution > -1.0
+> date > 12-AUG-94
+> header > SIGNAL TRANSDUCTION PROTEIN
+> pdb_org_common > HOUSE MOUSE
+> title > ORIENTATION OF PEPTIDE FRAGMENTS FROM SOS PROTEINS BOUND TOTHE N-TERMINAL SH3 DOMAIN OF GRB2 DETERMINED BY NMRSPECTROSCOPY
+> format_version > 2
+> pdbid > 1gbr
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gbr | A | albelig | 1 | 1 | E | 10 | 12 | A-1-  | A-3-  | MEA 
+| 1gbr | A | albelig | 2 | 2 | E | 34 | 38 | A-25-  | A-29-  | LKVLN 
+| 1gbr | A | albelig | 3 | 3 | E | 45 | 50 | A-36-  | A-41-  | WYKAEL 
+| 1gbr | A | albelig | 4 | 4 | E | 53 | 58 | A-44-  | A-49-  | KDGFIP 
+| 1gbr | A | albelig | 5 | 5 | H | 59 | 61 | A-50-  | A-52-  | KNY 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+# Listed 4 contacts. EOF.

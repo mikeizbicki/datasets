@@ -1,0 +1,47 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jq7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HERPESVIRUS, CYTOMEGALOVIRUS, SERINE PROTEASE, DIMERIZATION, ENZYMEACTIVITY REGULATION, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > ASSEMBLIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 03-AUG-01
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN CYTOMEGALOVIRUS
+> title > HCMV PROTEASE DIMER-INTERFACE MUTANT, S225Y COMPLEXED TO INHIBITORBILC 408
+> format_version > 2
+> pdbid > 1jq7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN HERPESVIRUS 5
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jq7 | A | albelig | 1 | 1 | E | 8 | 13 | A-1014-  | A-1019-  | VYVGGF 
+| 1jq7 | A | albelig | 2 | 2 | H | 30 | 36 | A-1036-  | A-1042-  | RDVVEHW 
+| 1jq7 | A | albelig | 3 | 3 | E | 43 | 46 | A-1058-  | A-1061-  | PLNI 
+| 1jq7 | A | albelig | 4 | 4 | E | 53 | 56 | A-1068-  | A-1071-  | VVGH 
+| 1jq7 | A | albelig | 5 | 5 | E | 68 | 73 | A-1083-  | A-1088-  | FCLGCV 
+| 1jq7 | A | albelig | 6 | 6 | H | 78 | 86 | A-1093-  | A-1101-  | FLEIVRRAS 
+| 1jq7 | A | albelig | 7 | 7 | H | 104 | 112 | A-1119-  | A-1127-  | KVVEFLSGS 
+| 1jq7 | A | albelig | 8 | 8 | E | 115 | 119 | A-1130-  | A-1134-  | GLSLS 
+| 1jq7 | A | albelig | 9 | 9 | E | 125 | 129 | A-1157-  | A-1161-  | HVALC 
+| 1jq7 | A | albelig | 10 | 10 | E | 140 | 142 | A-1172-  | A-1174-  | VYG 
+| 1jq7 | A | albelig | 11 | 11 | H | 145 | 149 | A-1177-  | A-1181-  | PEWVT 
+| 1jq7 | A | albelig | 12 | 12 | H | 158 | 163 | A-1190-  | A-1195-  | ADRDGL 
+| 1jq7 | A | albelig | 13 | 13 | H | 175 | 185 | A-1218-  | A-1228-  | SYGLLGNYVDA 
+| 1jq7 | A | albelig | 14 | 14 | H | 191 | 201 | A-1234-  | A-1244-  | RLPKLRYDKQL 
+| 1jq7 | A | albelig | 15 | 15 | H | 206 | 208 | A-1249-  | A-1251-  | ERE 
+| 1jq7 | A | albelig | 16 | 16 | L | 435 | 435 | A-261-  | A-261-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 10
+= 3 = a = 4
+= 3 = p = 9
+= 4 = a = 5
+= 6 = m = 7
+= 8 = a = 9
+= 8 = l = 16
+= 9 = l = 16
+= 10 = m = 11
+# Listed 10 contacts. EOF.

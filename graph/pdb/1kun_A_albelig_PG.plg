@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kun, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COLLAGEN TYPE VI FRAGMENT, KUNITZ-TYPE DOMAIN,EXTRACELLULAR MATRIX, CONNECTIVE TISSUE
+> pdb_mol_name > ALPHA3-CHAIN TYPE VI COLLAGEN
+> graphtype > albelig
+> resolution > -1.0
+> date > 04-MAR-97
+> header > EXTRACELLULAR MATRIX
+> pdb_org_common > HUMAN
+> title > SOLUTION STRUCTURE OF THE HUMAN ALPHA3-CHAIN TYPE VICOLLAGEN C-TERMINAL KUNITZ DOMAIN, NMR, 20 STRUCTURES
+> format_version > 2
+> pdbid > 1kun
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kun | A | albelig | 1 | 1 | H | 4 | 6 | A-4-  | A-6-  | IAK 
+| 1kun | A | albelig | 2 | 2 | E | 18 | 24 | A-18-  | A-24-  | ILKWYYD 
+| 1kun | A | albelig | 3 | 3 | E | 29 | 35 | A-29-  | A-35-  | SCARFWY 
+| 1kun | A | albelig | 4 | 4 | H | 48 | 54 | A-48-  | A-54-  | QKECEKV 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+# Listed 1 contacts. EOF.

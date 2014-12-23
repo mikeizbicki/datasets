@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kyo, chain R.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MULTISUBUNIT MEMBRANE PROTEIN COMPLEX, ENZYME SUBSTRATECOMPLEX, ELECTRON TRANSFER COMPLEX, ANTIBODY FV FRAGMENTMEDIATED CRYSTALLIZATION, OXIDOREDUCTASE/ELECTRON TRANSPORTCOMPLEX
+> pdb_mol_name > UBIQUINOL-CYTOCHROME C REDUCTASE COMPLEX 14 KD
+> graphtype > albelig
+> resolution > 2.97
+> date > 05-FEB-02
+> header > OXIDOREDUCTASE/ELECTRON TRANSPORT
+> pdb_org_common > BAKER'S YEAST
+> title > YEAST CYTOCHROME BC1 COMPLEX WITH BOUND SUBSTRATECYTOCHROME C
+> format_version > 2
+> pdbid > 1kyo
+> experiment > X-RAY DIFFRACTION
+> chainid > R
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kyo | R | albelig | 1 | 1 | H | 3867 | 3879 | R-5-  | R-17-  | FTSIARIGDYILK 
+| 1kyo | R | albelig | 2 | 2 | H | 3881 | 3898 | R-19-  | R-36-  | PVLSKLCVPVANQFINLA 
+| 1kyo | R | albelig | 3 | 3 | H | 3900 | 3903 | R-38-  | R-41-  | YKKL 
+| 1kyo | R | albelig | 4 | 4 | H | 3907 | 3910 | R-45-  | R-48-  | FDDL 
+| 1kyo | R | albelig | 5 | 5 | H | 3916 | 3924 | R-54-  | R-62-  | PIMQTALRR 
+| 1kyo | R | albelig | 6 | 6 | H | 3927 | 3946 | R-65-  | R-84-  | EDESYARAYRIIRAHQTELT 
+| 1kyo | R | albelig | 7 | 7 | H | 3952 | 3954 | R-90-  | R-92-  | RNE 
+| 1kyo | R | albelig | 8 | 8 | H | 3966 | 3982 | R-104-  | R-120-  | LPYILEAEAAAKEKDEL 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 8
+= 5 = a = 8
+# Listed 3 contacts. EOF.

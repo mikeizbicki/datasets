@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fj1, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OSPA, LYME DISEASE, ANTIBODY FAB FRAGMENT, NEUTRALIZING EPITOPE,IMMUNE SYSTEM
+> pdb_mol_name > HYBRIDOMA ANTIBODY LA2 (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.68
+> date > 07-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > LYME DISEASE ANTIGEN OSPA IN COMPLEX WITH NEUTRALIZING ANTIBODY FABLA-2
+> format_version > 2
+> pdbid > 1fj1
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fj1 | D | albelig | 1 | 1 | E | 645 | 648 | D-3-  | D-6-  | QLVQ 
+| 1fj1 | D | albelig | 2 | 2 | E | 652 | 654 | D-10-  | D-12-  | ELK 
+| 1fj1 | D | albelig | 3 | 3 | E | 660 | 667 | D-18-  | D-25-  | VKISGKAS 
+| 1fj1 | D | albelig | 4 | 4 | H | 671 | 673 | D-29-  | D-31-  | FTD 
+| 1fj1 | D | albelig | 5 | 5 | E | 677 | 681 | D-35-  | D-39-  | YWVKQ 
+| 1fj1 | D | albelig | 6 | 6 | E | 688 | 693 | D-46-  | D-51-  | KRMGWI 
+| 1fj1 | D | albelig | 7 | 7 | E | 700 | 702 | D-58-  | D-60-  | PTY 
+| 1fj1 | D | albelig | 8 | 8 | H | 704 | 706 | D-62-  | D-64-  | DDF 
+| 1fj1 | D | albelig | 9 | 9 | E | 710 | 715 | D-68-  | D-73-  | FALSLD 
+| 1fj1 | D | albelig | 10 | 10 | H | 716 | 718 | D-74-  | D-76-  | TSA 
+| 1fj1 | D | albelig | 11 | 11 | E | 720 | 725 | D-78-  | D-83-  | TAYLHI 
+| 1fj1 | D | albelig | 12 | 12 | H | 730 | 732 | D-88-  | D-90-  | NED 
+| 1fj1 | D | albelig | 13 | 13 | E | 734 | 740 | D-92-  | D-98-  | ATYFGAR 
+| 1fj1 | D | albelig | 14 | 14 | E | 749 | 753 | D-107-  | D-111-  | TSVTV 
+| 1fj1 | D | albelig | 15 | 15 | E | 762 | 766 | D-120-  | D-124-  | SVYPL 
+| 1fj1 | D | albelig | 16 | 16 | E | 777 | 787 | D-135-  | D-145-  | SVTLGHLVKGY 
+| 1fj1 | D | albelig | 17 | 17 | E | 793 | 797 | D-151-  | D-155-  | TVTWN 
+| 1fj1 | D | albelig | 18 | 18 | E | 805 | 813 | D-163-  | D-171-  | VHTFPALLQ 
+| 1fj1 | D | albelig | 19 | 19 | E | 816 | 826 | D-174-  | D-184-  | LYTMSSSVTVP 
+| 1fj1 | D | albelig | 20 | 20 | E | 836 | 841 | D-194-  | D-199-  | THSVAH 
+| 1fj1 | D | albelig | 21 | 21 | E | 846 | 851 | D-204-  | D-209-  | TTVDKK 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 13
+= 2 = p = 14
+= 3 = a = 11
+= 3 = p = 13
+= 5 = a = 6
+= 5 = a = 11
+= 5 = a = 13
+= 6 = a = 7
+= 6 = p = 9
+= 7 = m = 8
+= 7 = a = 9
+= 9 = m = 10
+= 9 = a = 11
+= 13 = a = 14
+= 15 = a = 16
+= 15 = p = 21
+= 16 = a = 19
+= 17 = a = 20
+= 18 = a = 19
+= 20 = a = 21
+# Listed 21 contacts. EOF.

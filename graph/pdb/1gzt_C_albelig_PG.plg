@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gzt, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, SUGAR-BINDING PROTEIN, FUCOSE
+> pdb_mol_name > FUCOSE-SPECIFIC LECTIN
+> graphtype > albelig
+> resolution > 1.3
+> date > 06-JUN-02
+> header > LECTIN
+> pdb_org_common > UNKNOWN
+> title > PSEUDOMONAS AERUGINOSA LECTIN II (PA-IIL) TOGETHER WITHFUCOSE
+> format_version > 2
+> pdbid > 1gzt
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gzt | C | albelig | 1 | 1 | E | 235 | 237 | C-5-  | C-7-  | VFT 
+| 1gzt | C | albelig | 2 | 2 | E | 243 | 250 | C-13-  | C-20-  | RFGVTAFA 
+| 1gzt | C | albelig | 3 | 3 | E | 256 | 262 | C-26-  | C-32-  | QTVNVLV 
+| 1gzt | C | albelig | 4 | 4 | E | 265 | 272 | C-35-  | C-42-  | ETAATFSG 
+| 1gzt | C | albelig | 5 | 5 | E | 278 | 286 | C-48-  | C-56-  | AVIGTQVLN 
+| 1gzt | C | albelig | 6 | 6 | E | 292 | 299 | C-62-  | C-69-  | KVQVQVSV 
+| 1gzt | C | albelig | 7 | 7 | E | 305 | 313 | C-75-  | C-83-  | DLVSAQVIL 
+| 1gzt | C | albelig | 8 | 8 | E | 317 | 325 | C-87-  | C-95-  | LNFALVGSE 
+| 1gzt | C | albelig | 9 | 9 | E | 335 | 341 | C-105-  | C-111-  | AVVVINW 
+| 1gzt | C | albelig | 10 | 10 | L | 466 | 466 | C-201-  | C-201-  | J 
+| 1gzt | C | albelig | 11 | 11 | L | 467 | 467 | C-301-  | C-301-  | J 
+| 1gzt | C | albelig | 12 | 12 | L | 468 | 468 | C-302-  | C-302-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 2 = a = 5
+= 2 = a = 9
+= 3 = a = 4
+= 3 = a = 6
+= 4 = a = 5
+= 7 = a = 8
+= 8 = a = 9
+= 8 = l = 10
+= 8 = l = 11
+= 10 = l = 11
+= 10 = l = 12
+= 11 = l = 12
+# Listed 13 contacts. EOF.

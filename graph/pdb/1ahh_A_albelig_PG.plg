@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ahh, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE, SHORT-CHAIN DEHYDROGENASE/REDUCTASE, COLON BACILLUS
+> pdb_mol_name > 7 ALPHA-HYDROXYSTEROID DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 25-AUG-95
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > 7 ALPHA-HYDROXYSTEROID DEHYDROGENASE COMPLEXED WITH NAD+
+> format_version > 2
+> pdbid > 1ahh
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ahh | A | albelig | 1 | 1 | H | 4 | 7 | A-4-  | A-7-  | SDNL 
+| 1ahh | A | albelig | 2 | 2 | E | 13 | 16 | A-13-  | A-16-  | CAII 
+| 1ahh | A | albelig | 3 | 3 | H | 23 | 32 | A-23-  | A-32-  | IGKEIAITFA 
+| 1ahh | A | albelig | 4 | 4 | E | 37 | 42 | A-37-  | A-42-  | SVVVSD 
+| 1ahh | A | albelig | 5 | 5 | H | 45 | 56 | A-45-  | A-56-  | ADAANHVVDEIQ 
+| 1ahh | A | albelig | 6 | 6 | E | 62 | 66 | A-62-  | A-66-  | AFACR 
+| 1ahh | A | albelig | 7 | 7 | H | 72 | 86 | A-72-  | A-86-  | EQELSALADFAISKL 
+| 1ahh | A | albelig | 8 | 8 | E | 91 | 94 | A-91-  | A-94-  | ILVN 
+| 1ahh | A | albelig | 9 | 9 | H | 108 | 120 | A-108-  | A-120-  | MADFRRAYELNVF 
+| 1ahh | A | albelig | 10 | 10 | H | 121 | 135 | A-121-  | A-135-  | SFFHLSQLVAPEMEK 
+| 1ahh | A | albelig | 11 | 11 | E | 139 | 144 | A-139-  | A-144-  | GVILTI 
+| 1ahh | A | albelig | 12 | 12 | H | 147 | 149 | A-147-  | A-149-  | MAA 
+| 1ahh | A | albelig | 13 | 13 | H | 157 | 178 | A-157-  | A-178-  | TSYASSKAAASHLVRNMAFDLG 
+| 1ahh | A | albelig | 14 | 14 | E | 182 | 189 | A-182-  | A-189-  | IRVNGIAP 
+| 1ahh | A | albelig | 15 | 15 | H | 195 | 200 | A-195-  | A-200-  | DALKSV 
+| 1ahh | A | albelig | 16 | 16 | H | 203 | 212 | A-203-  | A-212-  | PEIEQKMLQH 
+| 1ahh | A | albelig | 17 | 17 | H | 221 | 232 | A-221-  | A-232-  | PQDIANAALFLC 
+| 1ahh | A | albelig | 18 | 18 | H | 234 | 236 | A-234-  | A-236-  | PAA 
+| 1ahh | A | albelig | 19 | 19 | E | 243 | 246 | A-243-  | A-246-  | ILTV 
+| 1ahh | A | albelig | 20 | 20 | L | 508 | 508 | A-256-  | A-256-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 4
+= 2 = p = 8
+= 3 = m = 5
+= 3 = m = 17
+= 3 = l = 20
+= 4 = p = 6
+= 4 = l = 20
+= 5 = m = 6
+= 7 = p = 10
+= 8 = m = 10
+= 8 = p = 11
+= 9 = p = 13
+= 9 = l = 20
+= 10 = m = 11
+= 11 = p = 14
+= 11 = l = 20
+= 12 = l = 20
+= 13 = m = 14
+= 13 = l = 20
+= 14 = a = 17
+= 14 = p = 19
+= 14 = l = 20
+= 15 = l = 20
+# Listed 23 contacts. EOF.

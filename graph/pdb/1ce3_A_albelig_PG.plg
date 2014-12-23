@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ce3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEASE INHIBITOR, CIRCULAR PERMUTATION, NICOTIANA ALATA
+> pdb_mol_name > PROTEIN (API)
+> graphtype > albelig
+> resolution > -1.0
+> date > 14-MAR-99
+> header > PROTEASE INHIBITOR
+> pdb_org_common > PERSIAN TOBACCO
+> title > PUTATIVE ANCESTRAL PROTEIN ENCODED BY A SINGLE SEQUENCEREPEAT OF THE MULTIDOMAIN PROTEINASE INHIBITOR FROMNICOTIANA ALATA
+> format_version > 2
+> pdbid > 1ce3
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > NICOTIANA ALATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ce3 | A | albelig | 1 | 1 | E | 14 | 16 | A-14-  | A-16-  | YGV 
+| 1ce3 | A | albelig | 2 | 2 | E | 40 | 42 | A-40-  | A-42-  | KYF 
+| 1ce3 | A | albelig | 3 | 3 | E | 48 | 50 | A-48-  | A-50-  | FVD 
+# Printed info on 3 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+# Listed 2 contacts. EOF.

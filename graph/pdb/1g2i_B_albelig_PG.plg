@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g2i, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > INTRACELLULAR PROTEASE, ATP-INDEPENDENT INTRACELLULARPROTEASE, PROTEASE, CATALYTICAL TRIAD, PFPI, CYSTEINEPROTEASE, NUCLEOPHILE ELBOW, STRUCTURAL GENOMICS, BSGCSTRUCTURE FUNDED BY NIH, PROTEIN STRUCTURE INITIATIVE, PSI,BERKELEY STRUCTURAL GENOMICS CENTER, HYDROLASE
+> pdb_mol_name > PROTEASE I
+> graphtype > albelig
+> resolution > 2.0
+> date > 19-OCT-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A NOVEL INTRACELLULAR PROTEASE FROMPYROCOCCUS HORIKOSHII AT 2 A RESOLUTION
+> format_version > 2
+> pdbid > 1g2i
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PYROCOCCUS HORIKOSHII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g2i | B | albelig | 1 | 1 | E | 169 | 173 | B-202-  | B-206-  | KVLFL 
+| 1g2i | B | albelig | 2 | 2 | H | 180 | 192 | B-213-  | B-225-  | DVELIYPYHRLKE 
+| 1g2i | B | albelig | 3 | 3 | E | 196 | 201 | B-229-  | B-234-  | EVYIAS 
+| 1g2i | B | albelig | 4 | 4 | E | 205 | 208 | B-238-  | B-241-  | GTIT 
+| 1g2i | B | albelig | 5 | 5 | E | 214 | 217 | B-247-  | B-250-  | SVKV 
+| 1g2i | B | albelig | 6 | 6 | H | 221 | 223 | B-254-  | B-256-  | FDK 
+| 1g2i | B | albelig | 7 | 7 | H | 226 | 228 | B-259-  | B-261-  | PEE 
+| 1g2i | B | albelig | 8 | 8 | E | 231 | 234 | B-264-  | B-267-  | ALVL 
+| 1g2i | B | albelig | 9 | 9 | H | 240 | 243 | B-273-  | B-276-  | PERV 
+| 1g2i | B | albelig | 10 | 10 | H | 247 | 258 | B-280-  | B-291-  | EKAVSIARKXFS 
+| 1g2i | B | albelig | 11 | 11 | E | 263 | 266 | B-296-  | B-299-  | VASI 
+| 1g2i | B | albelig | 12 | 12 | H | 271 | 276 | B-304-  | B-309-  | QILISA 
+| 1g2i | B | albelig | 13 | 13 | H | 288 | 296 | B-321-  | B-329-  | PGIKDDXIN 
+| 1g2i | B | albelig | 14 | 14 | E | 307 | 309 | B-340-  | B-342-  | VVD 
+| 1g2i | B | albelig | 15 | 15 | E | 312 | 315 | B-345-  | B-348-  | WVSS 
+| 1g2i | B | albelig | 16 | 16 | H | 318 | 332 | B-351-  | B-365-  | PADLYAWXREFVKLL 
+| 1g2i | B | albelig | 17 | 17 | L | 513 | 513 | B-600-  | B-600-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 2 = p = 16
+= 3 = p = 5
+= 4 = a = 5
+= 8 = p = 11
+= 10 = m = 12
+= 11 = p = 15
+= 11 = m = 16
+= 13 = l = 17
+= 14 = a = 15
+= 15 = m = 16
+# Listed 12 contacts. EOF.

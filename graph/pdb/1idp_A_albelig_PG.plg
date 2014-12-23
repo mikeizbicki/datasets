@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1idp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, MELANINE BIOSYNTHESIS
+> pdb_mol_name > SCYTALONE DEHYDRATASE
+> graphtype > albelig
+> resolution > 1.45
+> date > 04-APR-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF SCYTALONE DEHYDRATASE F162A MUTANT INTHE UNLIGATED STATE
+> format_version > 2
+> pdbid > 1idp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MAGNAPORTHE GRISEA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1idp | A | albelig | 1 | 1 | H | 5 | 24 | A-13-  | A-32-  | FSDYLGLMTCVYEWADSYDS 
+| 1idp | A | albelig | 2 | 2 | H | 27 | 31 | A-35-  | A-39-  | WDRLR 
+| 1idp | A | albelig | 3 | 3 | E | 34 | 41 | A-42-  | A-49-  | IAPTLRID 
+| 1idp | A | albelig | 4 | 4 | H | 43 | 46 | A-51-  | A-54-  | RSFL 
+| 1idp | A | albelig | 5 | 5 | E | 49 | 54 | A-57-  | A-62-  | LWEAMP 
+| 1idp | A | albelig | 6 | 6 | H | 55 | 63 | A-63-  | A-71-  | AEEFVGMVS 
+| 1idp | A | albelig | 7 | 7 | E | 73 | 75 | A-81-  | A-83-  | LRT 
+| 1idp | A | albelig | 8 | 8 | E | 78 | 88 | A-86-  | A-96-  | FIGGTRWEKVS 
+| 1idp | A | albelig | 9 | 9 | E | 91 | 105 | A-99-  | A-113-  | EVIGYHQLRVPHQRY 
+| 1idp | A | albelig | 10 | 10 | E | 113 | 130 | A-121-  | A-138-  | VTMKGHAHSANLHWYKKI 
+| 1idp | A | albelig | 11 | 11 | E | 133 | 146 | A-141-  | A-154-  | VWKFAGLKPDIRWG 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 10
+= 2 = m = 3
+= 3 = a = 5
+= 3 = m = 6
+= 3 = p = 11
+= 5 = m = 6
+= 7 = a = 9
+= 8 = a = 9
+= 9 = a = 10
+= 10 = a = 11
+# Listed 11 contacts. EOF.

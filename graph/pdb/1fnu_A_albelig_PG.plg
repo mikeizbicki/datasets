@@ -1,0 +1,65 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fnu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SUPERANTIGEN, EXOTOXIN A
+> pdb_mol_name > EXOTOXIN TYPE A PRECURSOR (ALLELE 1)
+> graphtype > albelig
+> resolution > 1.94
+> date > 23-AUG-00
+> header > TOXIN
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF STREPTOCOCCAL PYROGENIC EXOTOXIN A
+> format_version > 2
+> pdbid > 1fnu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES PHAGE T12
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fnu | A | albelig | 1 | 1 | H | 6 | 8 | A-6-  | A-8-  | PSQ 
+| 1fnu | A | albelig | 2 | 2 | H | 12 | 14 | A-12-  | A-14-  | SSL 
+| 1fnu | A | albelig | 3 | 3 | H | 19 | 26 | A-19-  | A-26-  | QNIYFLYE 
+| 1fnu | A | albelig | 4 | 4 | E | 30 | 36 | A-30-  | A-36-  | VTHENVK 
+| 1fnu | A | albelig | 5 | 5 | E | 45 | 48 | A-45-  | A-48-  | DLIY 
+| 1fnu | A | albelig | 6 | 6 | E | 57 | 61 | A-57-  | A-61-  | KLKTE 
+| 1fnu | A | albelig | 7 | 7 | H | 65 | 72 | A-65-  | A-72-  | QEMATLFK 
+| 1fnu | A | albelig | 8 | 8 | E | 75 | 80 | A-75-  | A-80-  | NVDIYG 
+| 1fnu | A | albelig | 9 | 9 | E | 96 | 100 | A-96-  | A-100-  | SAAIY 
+| 1fnu | A | albelig | 10 | 10 | E | 103 | 105 | A-103-  | A-105-  | VTN 
+| 1fnu | A | albelig | 11 | 11 | E | 110 | 123 | A-110-  | A-123-  | HLEIPKKIVVKVSI 
+| 1fnu | A | albelig | 12 | 12 | E | 126 | 137 | A-126-  | A-137-  | IQSLSFDIETNK 
+| 1fnu | A | albelig | 13 | 13 | E | 139 | 141 | A-139-  | A-141-  | MVT 
+| 1fnu | A | albelig | 14 | 14 | H | 142 | 157 | A-142-  | A-157-  | AQELDYKVRKYTIDNK 
+| 1fnu | A | albelig | 15 | 15 | E | 169 | 176 | A-169-  | A-176-  | TGYIKFIP 
+| 1fnu | A | albelig | 16 | 16 | E | 182 | 185 | A-182-  | A-185-  | FWFD 
+| 1fnu | A | albelig | 17 | 17 | H | 194 | 201 | A-194-  | A-201-  | QSKYLMIY 
+| 1fnu | A | albelig | 18 | 18 | E | 206 | 208 | A-206-  | A-208-  | TLD 
+| 1fnu | A | albelig | 19 | 19 | E | 212 | 219 | A-212-  | A-219-  | SQIEVYLT 
+| 1fnu | A | albelig | 20 | 20 | L | 888 | 888 | A-222-  | A-222-  | J 
+| 1fnu | A | albelig | 21 | 21 | L | 889 | 889 | A-223-  | A-223-  | J 
+| 1fnu | A | albelig | 22 | 22 | L | 890 | 890 | A-225-  | A-225-  | J 
+| 1fnu | A | albelig | 23 | 23 | L | 891 | 891 | A-824-  | A-824-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = m = 14
+= 3 = m = 17
+= 4 = a = 8
+= 5 = a = 6
+= 6 = p = 9
+= 8 = a = 10
+= 8 = m = 14
+= 9 = m = 17
+= 11 = a = 12
+= 11 = p = 19
+= 12 = a = 13
+= 12 = a = 14
+= 13 = m = 14
+= 13 = a = 18
+= 14 = m = 17
+= 15 = a = 16
+= 15 = a = 19
+= 18 = a = 19
+= 20 = l = 21
+= 20 = l = 22
+= 21 = l = 22
+# Listed 21 contacts. EOF.

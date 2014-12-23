@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1au7, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (DNA-BINDING PROTEIN/DNA), PITUITARY, CPHD, POUDOMAIN, TRANSCRIPTION FACTOR, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > PROTEIN PIT-1
+> graphtype > albelig
+> resolution > 2.3
+> date > 12-SEP-97
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > NORWAY RAT
+> title > PIT-1 MUTANT/DNA COMPLEX
+> format_version > 2
+> pdbid > 1au7
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1au7 | A | albelig | 1 | 1 | H | 2 | 19 | A-6-  | A-23-  | MRALEQFANEFKVRRIKL 
+| 1au7 | A | albelig | 2 | 2 | H | 23 | 32 | A-27-  | A-36-  | QTNVGEALAA 
+| 1au7 | A | albelig | 3 | 3 | H | 40 | 47 | A-44-  | A-51-  | QTTICRFE 
+| 1au7 | A | albelig | 4 | 4 | H | 53 | 69 | A-57-  | A-73-  | FKNACKLKAILSKWLEE 
+| 1au7 | A | albelig | 5 | 5 | H | 81 | 93 | A-110-  | A-122-  | IAAKDALERHFGE 
+| 1au7 | A | albelig | 6 | 6 | H | 99 | 109 | A-128-  | A-138-  | SQEIMRMAEEL 
+| 1au7 | A | albelig | 7 | 7 | H | 113 | 126 | A-142-  | A-155-  | KEVVRVWFCNRRQR 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = p = 4
+= 2 = m = 3
+= 2 = m = 4
+= 5 = m = 7
+= 6 = m = 7
+# Listed 6 contacts. EOF.

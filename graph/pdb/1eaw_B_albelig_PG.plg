@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eaw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE/INHIBITOR, COMPLEX (SERINE PROTEASE INHIBITOR),SERINE PROTEINASE, MATRIX DEGRADATION, INHIBITOR,GLYCOPROTE HYDROLASE
+> pdb_mol_name > PANCREATIC TRYPSIN INHIBITOR
+> graphtype > albelig
+> resolution > 2.93
+> date > 17-JUL-01
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > BOVINE
+> title > CRYSTAL STRUCTURE OF THE MTSP1 (MATRIPTASE)-BPTI(APROTININ) COMPLEX
+> format_version > 2
+> pdbid > 1eaw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eaw | B | albelig | 1 | 1 | H | 245 | 248 | B-3-  | B-6-  | DFDL 
+| 1eaw | B | albelig | 2 | 2 | E | 260 | 265 | B-18-  | B-23-  | IIRYFY 
+| 1eaw | B | albelig | 3 | 3 | H | 267 | 269 | B-25-  | B-27-  | AKA 
+| 1eaw | B | albelig | 4 | 4 | E | 272 | 277 | B-30-  | B-35-  | FQTFVY 
+| 1eaw | B | albelig | 5 | 5 | H | 290 | 296 | B-48-  | B-54-  | AEDFMRT 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 4
+= 2 = m = 5
+# Listed 2 contacts. EOF.

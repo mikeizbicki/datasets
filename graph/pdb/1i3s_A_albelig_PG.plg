@@ -1,0 +1,68 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i3s, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HAIRPIN LOOP, HELIX-TURN-HELIX, REACTIVE SITE LOOP,APOPTOSIS
+> pdb_mol_name > EARLY 35 KDA PROTEIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 15-FEB-01
+> header > APOPTOSIS
+> pdb_org_common > UNKNOWN
+> title > THE 2.7 ANGSTROM RESOLUTION CRYSTAL STRUCTURE OF A MUTATEDBACULOVIRUS P35 AFTER CASPASE CLEAVAGE
+> format_version > 2
+> pdbid > 1i3s
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AUTOGRAPHA CALIFORNICA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i3s | A | albelig | 1 | 1 | E | 3 | 11 | A-14-  | A-22-  | TIIRDCQVD 
+| 1i3s | A | albelig | 2 | 2 | E | 14 | 20 | A-25-  | A-31-  | TRELVYI 
+| 1i3s | A | albelig | 3 | 3 | H | 23 | 25 | A-34-  | A-36-  | IMN 
+| 1i3s | A | albelig | 4 | 4 | E | 32 | 38 | A-43-  | A-49-  | VLMMFNI 
+| 1i3s | A | albelig | 5 | 5 | E | 42 | 47 | A-53-  | A-58-  | IRSVTR 
+| 1i3s | A | albelig | 6 | 6 | H | 51 | 65 | A-62-  | A-76-  | NLRDRIKSKPDEQFD 
+| 1i3s | A | albelig | 7 | 7 | E | 80 | 83 | A-94-  | A-97-  | KYFK 
+| 1i3s | A | albelig | 8 | 8 | E | 87 | 93 | A-101-  | A-107-  | YSVSCQN 
+| 1i3s | A | albelig | 9 | 9 | H | 94 | 99 | A-108-  | A-113-  | GSVLKS 
+| 1i3s | A | albelig | 10 | 10 | H | 101 | 107 | A-115-  | A-121-  | FAKILKS 
+| 1i3s | A | albelig | 11 | 11 | H | 113 | 122 | A-127-  | A-136-  | KKSIEAYEKY 
+| 1i3s | A | albelig | 12 | 12 | H | 124 | 127 | A-138-  | A-141-  | LPKL 
+| 1i3s | A | albelig | 13 | 13 | E | 135 | 141 | A-149-  | A-155-  | YVAVCVL 
+| 1i3s | A | albelig | 14 | 14 | E | 153 | 157 | A-167-  | A-171-  | LSFEY 
+| 1i3s | A | albelig | 15 | 15 | E | 163 | 166 | A-177-  | A-180-  | KVIV 
+| 1i3s | A | albelig | 16 | 16 | E | 178 | 187 | A-192-  | A-201-  | YEYDVVAYVD 
+| 1i3s | A | albelig | 17 | 17 | H | 193 | 202 | A-207-  | A-216-  | GEQFEEFVQS 
+| 1i3s | A | albelig | 18 | 18 | E | 214 | 221 | A-228-  | A-235-  | KVLYYNEA 
+| 1i3s | A | albelig | 19 | 19 | E | 225 | 236 | A-239-  | A-250-  | KSMIYKALEFTT 
+| 1i3s | A | albelig | 20 | 20 | E | 246 | 258 | A-260-  | A-272-  | YNWKIFCNGFIYD 
+| 1i3s | A | albelig | 21 | 21 | E | 263 | 273 | A-277-  | A-287-  | VLYVKLHNVTS 
+| 1i3s | A | albelig | 22 | 22 | E | 279 | 282 | A-293-  | A-296-  | VILN 
+| 1i3s | A | albelig | 23 | 23 | L | 852 | 852 | A-1137-  | A-1137-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 16
+= 2 = a = 14
+= 4 = m = 12
+= 4 = a = 13
+= 4 = l = 23
+= 5 = p = 7
+= 5 = a = 8
+= 5 = a = 14
+= 6 = m = 20
+= 6 = m = 21
+= 7 = a = 8
+= 8 = m = 9
+= 8 = a = 13
+= 11 = l = 23
+= 12 = l = 23
+= 15 = a = 22
+= 16 = a = 21
+= 17 = m = 18
+= 17 = m = 19
+= 17 = p = 21
+= 18 = a = 19
+= 19 = a = 20
+= 20 = a = 21
+# Listed 24 contacts. EOF.

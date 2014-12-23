@@ -1,0 +1,61 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g4u, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > VIRULENCE FACTOR, GAP, TYROSINE PHOSPHATASE, 4-HELIX BUNDLE,GTPASE, SIGNALING PROTEIN
+> pdb_mol_name > PROTEIN TYROSINE PHOSPHATASE SPTP
+> graphtype > albelig
+> resolution > 2.3
+> date > 28-OCT-00
+> header > SIGNALING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE SALMONELLA TYROSINE PHOSPHATASEAND GTPASE ACTIVATING PROTEIN SPTP BOUND TO RAC1
+> format_version > 2
+> pdbid > 1g4u
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > SALMONELLA TYPHIMURIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g4u | S | albelig | 1 | 1 | H | 2 | 21 | S-168-  | S-187-  | KQPLLDIALKGLKRTLPQLE 
+| 1g4u | S | albelig | 2 | 2 | H | 25 | 29 | S-191-  | S-195-  | GNSLR 
+| 1g4u | S | albelig | 3 | 3 | H | 32 | 35 | S-198-  | S-201-  | FQEM 
+| 1g4u | S | albelig | 4 | 4 | H | 41 | 54 | S-207-  | S-220-  | PLRSLMTNLQNLNK 
+| 1g4u | S | albelig | 5 | 5 | H | 56 | 69 | S-222-  | S-235-  | PEAKQLNDYVTTLT 
+| 1g4u | S | albelig | 6 | 6 | H | 78 | 82 | S-244-  | S-248-  | FSQWG 
+| 1g4u | S | albelig | 7 | 7 | H | 87 | 94 | S-253-  | S-260-  | EVERWVDK 
+| 1g4u | S | albelig | 8 | 8 | H | 97 | 113 | S-263-  | S-279-  | THELTQAVKKIHVIAKE 
+| 1g4u | S | albelig | 9 | 9 | H | 115 | 125 | S-281-  | S-291-  | KNVTAELEKIE 
+| 1g4u | S | albelig | 10 | 10 | E | 156 | 158 | S-322-  | S-324-  | QVK 
+| 1g4u | S | albelig | 11 | 11 | E | 164 | 172 | S-330-  | S-338-  | PVPVNTLTF 
+| 1g4u | S | albelig | 12 | 12 | E | 175 | 181 | S-341-  | S-347-  | KPVALAG 
+| 1g4u | S | albelig | 13 | 13 | H | 188 | 201 | S-354-  | S-367-  | PDALEAHMKMLLEK 
+| 1g4u | S | albelig | 14 | 14 | E | 205 | 208 | S-371-  | S-374-  | CLVV 
+| 1g4u | S | albelig | 15 | 15 | H | 212 | 217 | S-378-  | S-383-  | EDQMQA 
+| 1g4u | S | albelig | 16 | 16 | E | 227 | 230 | S-393-  | S-396-  | SYTF 
+| 1g4u | S | albelig | 17 | 17 | E | 233 | 239 | S-399-  | S-405-  | VHTNSQK 
+| 1g4u | S | albelig | 18 | 18 | E | 249 | 258 | S-415-  | S-424-  | IDQYNMQLSC 
+| 1g4u | S | albelig | 19 | 19 | E | 261 | 270 | S-427-  | S-436-  | KRYTIPVLHV 
+| 1g4u | S | albelig | 20 | 20 | H | 282 | 293 | S-448-  | S-459-  | TDQLEYLADRVK 
+| 1g4u | S | albelig | 21 | 21 | E | 299 | 302 | S-477-  | S-480-  | PMIH 
+| 1g4u | S | albelig | 22 | 22 | H | 309 | 321 | S-487-  | S-499-  | RTGTMAAALVLKD 
+| 1g4u | S | albelig | 23 | 23 | H | 327 | 335 | S-505-  | S-513-  | LEQVRADFR 
+| 1g4u | S | albelig | 24 | 24 | H | 346 | 360 | S-524-  | S-538-  | ASQFVQLKAMQAQLL 
+# Printed info on 24 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 9
+= 2 = m = 8
+= 10 = a = 11
+= 11 = a = 12
+= 12 = p = 21
+= 13 = m = 16
+= 14 = p = 19
+= 14 = p = 21
+= 16 = a = 17
+= 17 = a = 18
+= 18 = a = 19
+= 20 = m = 22
+= 20 = m = 24
+= 22 = p = 24
+= 23 = m = 24
+# Listed 16 contacts. EOF.

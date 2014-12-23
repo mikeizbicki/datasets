@@ -1,0 +1,66 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k4e, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-LACTAMASE, HYDROLASE, MAD PHASING, SELENOMETHIONINE,CARBAMYLATED LYSINE
+> pdb_mol_name > BETA-LACTAMASE PSE-2
+> graphtype > albelig
+> resolution > 2.0
+> date > 08-OCT-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE CLASS D BETA-LACTAMASES OXA-10DETERMINED BY MAD PHASING WITH SELENOMETHIONINE
+> format_version > 2
+> pdbid > 1k4e
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > PSEUDOMONAS AERUGINOSA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k4e | B | albelig | 1 | 1 | E | 250 | 253 | B-21-  | B-24-  | SITE 
+| 1k4e | B | albelig | 2 | 2 | H | 255 | 262 | B-26-  | B-33-  | TSWNKEFS 
+| 1k4e | B | albelig | 3 | 3 | E | 268 | 274 | B-39-  | B-45-  | GVFVLNK 
+| 1k4e | B | albelig | 4 | 4 | E | 279 | 282 | B-50-  | B-53-  | SNAT 
+| 1k4e | B | albelig | 5 | 5 | H | 285 | 288 | B-56-  | B-59-  | LARA 
+| 1k4e | B | albelig | 6 | 6 | H | 295 | 309 | B-66-  | B-80-  | ASTFXIPNAIIGLET 
+| 1k4e | B | albelig | 7 | 7 | H | 329 | 331 | B-100-  | B-102-  | KQW 
+| 1k4e | B | albelig | 8 | 8 | H | 337 | 342 | B-108-  | B-113-  | LRGAIQ 
+| 1k4e | B | albelig | 9 | 9 | H | 346 | 356 | B-117-  | B-127-  | VPVFQQIAREV 
+| 1k4e | B | albelig | 10 | 10 | H | 358 | 368 | B-129-  | B-139-  | EVRXQKYLKKF 
+| 1k4e | B | albelig | 11 | 11 | H | 382 | 385 | B-153-  | B-156-  | FWLE 
+| 1k4e | B | albelig | 12 | 12 | H | 392 | 403 | B-163-  | B-174-  | AVNQVEFLESLY 
+| 1k4e | B | albelig | 13 | 13 | H | 411 | 420 | B-182-  | B-191-  | KENQLIVKEA 
+| 1k4e | B | albelig | 14 | 14 | E | 422 | 426 | B-193-  | B-197-  | VTEAA 
+| 1k4e | B | albelig | 15 | 15 | E | 429 | 437 | B-200-  | B-208-  | YLVHSKTGF 
+| 1k4e | B | albelig | 16 | 16 | E | 447 | 457 | B-218-  | B-228-  | GVAWWVGWVEK 
+| 1k4e | B | albelig | 17 | 17 | E | 460 | 470 | B-231-  | B-241-  | EVYFFAFNXDI 
+| 1k4e | B | albelig | 18 | 18 | H | 473 | 475 | B-244-  | B-246-  | ESK 
+| 1k4e | B | albelig | 19 | 19 | H | 478 | 488 | B-249-  | B-259-  | LRKSIPTKIXE 
+| 1k4e | B | albelig | 20 | 20 | L | 507 | 507 | B-402-  | B-402-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 2 = m = 3
+= 3 = a = 4
+= 3 = m = 5
+= 3 = a = 17
+= 6 = p = 9
+= 6 = m = 10
+= 6 = m = 11
+= 6 = p = 12
+= 6 = m = 13
+= 6 = m = 15
+= 6 = l = 20
+= 8 = m = 13
+= 9 = m = 10
+= 12 = m = 13
+= 12 = p = 16
+= 12 = a = 17
+= 13 = m = 14
+= 14 = a = 15
+= 15 = a = 16
+= 15 = l = 20
+= 16 = a = 17
+= 16 = m = 19
+= 17 = m = 19
+= 19 = l = 20
+# Listed 25 contacts. EOF.

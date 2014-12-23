@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kzb, chain 2.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-CARBOHYDRATE COMPLEX, IMMUNE SYSTEM, SUGAR BINDINGPROTEIN
+> pdb_mol_name > MANNOSE-BINDING PROTEIN C
+> graphtype > albelig
+> resolution > 1.8
+> date > 06-FEB-02
+> header > IMMUNE SYSTEM, SUGAR BINDING PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > COMPLEX OF MBP-C AND TRIMANNOSYL CORE
+> format_version > 2
+> pdbid > 1kzb
+> experiment > X-RAY DIFFRACTION
+> chainid > 2
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kzb | 2 | albelig | 1 | 1 | E | 114 | 117 | 2-111-  | 2-114-  | YFMS 
+| 1kzb | 2 | albelig | 2 | 2 | H | 124 | 133 | 2-121-  | 2-130-  | LNRAKALCSE 
+| 1kzb | 2 | albelig | 3 | 3 | H | 144 | 153 | 2-141-  | 2-150-  | AEENRAIQNV 
+| 1kzb | 2 | albelig | 4 | 4 | E | 158 | 163 | 2-155-  | 2-160-  | AFLGIT 
+| 1kzb | 2 | albelig | 5 | 5 | E | 198 | 201 | 2-195-  | 2-198-  | DVVL 
+| 1kzb | 2 | albelig | 6 | 6 | E | 207 | 210 | 2-204-  | 2-207-  | WNDV 
+| 1kzb | 2 | albelig | 7 | 7 | E | 217 | 222 | 2-214-  | 2-219-  | LVVCEF 
+| 1kzb | 2 | albelig | 8 | 8 | L | 227 | 227 | 2-1601-  | 2-1601-  | J 
+| 1kzb | 2 | albelig | 9 | 9 | L | 228 | 228 | 2-601-  | 2-601-  | J 
+| 1kzb | 2 | albelig | 10 | 10 | L | 229 | 229 | 2-602-  | 2-602-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 2 = m = 7
+= 4 = a = 5
+= 4 = a = 7
+= 5 = a = 6
+= 6 = l = 8
+= 6 = l = 9
+= 6 = l = 10
+= 8 = l = 10
+# Listed 9 contacts. EOF.

@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gdv, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOCHROME C6, CRYSTAL STRUCTURE, RED ALGA, ELECTRONTRANSPORT
+> pdb_mol_name > CYTOCHROME C6
+> graphtype > albelig
+> resolution > 1.57
+> date > 06-OCT-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CYTOCHROME C6 FROM RED ALGA PORPHYRAYEZOENSIS AT 1.57 A RESOLUTION
+> format_version > 2
+> pdbid > 1gdv
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > PORPHYRA YEZOENSIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gdv | A | albelig | 1 | 1 | H | 2 | 13 | A-2-  | A-13-  | DLDNGEKVFSAN 
+| 1gdv | A | albelig | 2 | 2 | H | 15 | 21 | A-15-  | A-21-  | AACHAGG 
+| 1gdv | A | albelig | 3 | 3 | H | 33 | 38 | A-33-  | A-38-  | KDVLEA 
+| 1gdv | A | albelig | 4 | 4 | H | 44 | 53 | A-44-  | A-53-  | IDAITYQVQN 
+| 1gdv | A | albelig | 5 | 5 | H | 67 | 83 | A-67-  | A-83-  | DEDIEDAANYVLSQSEK 
+| 1gdv | A | albelig | 6 | 6 | L | 86 | 86 | A-101-  | A-101-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = l = 6
+= 2 = l = 6
+= 3 = l = 6
+= 4 = a = 5
+= 4 = l = 6
+= 5 = l = 6
+# Listed 7 contacts. EOF.

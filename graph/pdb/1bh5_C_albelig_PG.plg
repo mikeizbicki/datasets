@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bh5, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, LACTOYLGLUTATHIONE LYASE, GLYOXALASE I
+> pdb_mol_name > LACTOYLGLUTATHIONE LYASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 13-JUN-98
+> header > LYASE
+> pdb_org_common > HUMAN
+> title > HUMAN GLYOXALASE I Q33E, E172Q DOUBLE MUTANT
+> format_version > 2
+> pdbid > 1bh5
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bh5 | C | albelig | 1 | 1 | H | 367 | 372 | C-12-  | C-17-  | DEAALS 
+| 1bh5 | C | albelig | 2 | 2 | H | 379 | 381 | C-24-  | C-26-  | PST 
+| 1bh5 | C | albelig | 3 | 3 | E | 385 | 392 | C-30-  | C-37-  | LLQETMLR 
+| 1bh5 | C | albelig | 4 | 4 | H | 396 | 406 | C-41-  | C-51-  | PKKSLDFYTRV 
+| 1bh5 | C | albelig | 5 | 5 | E | 410 | 417 | C-55-  | C-62-  | TLIQKCDF 
+| 1bh5 | C | albelig | 6 | 6 | E | 422 | 428 | C-67-  | C-73-  | FSLYFLA 
+| 1bh5 | C | albelig | 7 | 7 | H | 432 | 434 | C-77-  | C-79-  | KND 
+| 1bh5 | C | albelig | 8 | 8 | H | 439 | 446 | C-84-  | C-91-  | KDEKIAWA 
+| 1bh5 | C | albelig | 9 | 9 | E | 452 | 458 | C-97-  | C-103-  | TLELTHN 
+| 1bh5 | C | albelig | 10 | 10 | H | 461 | 463 | C-106-  | C-108-  | TED 
+| 1bh5 | C | albelig | 11 | 11 | E | 479 | 485 | C-124-  | C-130-  | FGHIGIA 
+| 1bh5 | C | albelig | 12 | 12 | H | 489 | 498 | C-134-  | C-143-  | VYSACKRFEE 
+| 1bh5 | C | albelig | 13 | 13 | E | 503 | 505 | C-148-  | C-150-  | FVK 
+| 1bh5 | C | albelig | 14 | 14 | E | 516 | 519 | C-161-  | C-164-  | AFIQ 
+| 1bh5 | C | albelig | 15 | 15 | E | 525 | 529 | C-170-  | C-174-  | WIQIL 
+| 1bh5 | C | albelig | 16 | 16 | L | 726 | 726 | C-201-  | C-201-  | J 
+| 1bh5 | C | albelig | 17 | 17 | L | 727 | 727 | C-200-  | C-200-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = p = 9
+= 5 = a = 6
+= 5 = m = 8
+= 6 = a = 9
+= 11 = p = 15
+= 11 = l = 16
+= 11 = l = 17
+= 13 = a = 14
+= 13 = l = 17
+= 14 = a = 15
+= 14 = l = 17
+= 15 = l = 16
+= 15 = l = 17
+= 16 = l = 17
+# Listed 14 contacts. EOF.

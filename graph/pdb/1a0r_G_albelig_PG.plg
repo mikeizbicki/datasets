@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a0r, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSDUCIN, TRANSDUCIN, BETA-GAMMA, SIGNAL TRANSDUCTION,REGULATION, PHOSPHORYLATION, G PROTEINS, THIOREDOXIN,VISION, MEKA, COMPLEX (TRANSDUCER/TRANSDUCTION), POST-TRANSLATIONAL MODIFICATION, FARNESYL, FARNESYLATION
+> pdb_mol_name > TRANSDUCIN (GAMMA SUBUNIT)
+> graphtype > albelig
+> resolution > 2.8
+> date > 05-DEC-97
+> header > COMPLEX (TRANSDUCER/TRANSDUCTION)
+> pdb_org_common > CATTLE
+> title > HETEROTRIMERIC COMPLEX OF PHOSDUCIN/TRANSDUCIN BETA-GAMMA
+> format_version > 2
+> pdbid > 1a0r
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a0r | G | albelig | 1 | 1 | H | 345 | 347 | G-6-  | G-8-  | IED 
+| 1a0r | G | albelig | 2 | 2 | H | 350 | 365 | G-11-  | G-26-  | EKDKLKMEVDQLKKEV 
+| 1a0r | G | albelig | 3 | 3 | H | 372 | 387 | G-33-  | G-48-  | VSKCCEEFRDYVEERS 
+| 1a0r | G | albelig | 4 | 4 | H | 391 | 394 | G-52-  | G-55-  | PLVK 
+| 1a0r | G | albelig | 5 | 5 | L | 597 | 597 | G-72-  | G-72-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

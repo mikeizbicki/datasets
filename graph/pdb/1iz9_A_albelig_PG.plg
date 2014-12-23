@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iz9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ROSSMANN FOLD, RIKEN STRUCTURAL GENOMICS/PROTEOMICS INITIATIVE, RSGI,STRUCTURAL GENOMICS, OXIDOREDUCTASE
+> pdb_mol_name > MALATE DEHYDROGENASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 01-OCT-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF MALATE DEHYDROGENASE FROM THERMUS THERMOPHILUSHB8
+> format_version > 2
+> pdbid > 1iz9
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iz9 | A | albelig | 1 | 1 | E | 5 | 10 | A-5-  | A-10-  | VRVAVT 
+| 1iz9 | A | albelig | 2 | 2 | H | 15 | 25 | A-15-  | A-25-  | QIGYSLLFRIA 
+| 1iz9 | A | albelig | 3 | 3 | E | 36 | 41 | A-36-  | A-41-  | VILQLL 
+| 1iz9 | A | albelig | 4 | 4 | H | 44 | 58 | A-44-  | A-58-  | PQAMKALEGVVMELE 
+| 1iz9 | A | albelig | 5 | 5 | E | 65 | 71 | A-65-  | A-71-  | LAGLEAT 
+| 1iz9 | A | albelig | 6 | 6 | H | 74 | 77 | A-74-  | A-77-  | PKVA 
+| 1iz9 | A | albelig | 7 | 7 | E | 83 | 86 | A-83-  | A-86-  | YALL 
+| 1iz9 | A | albelig | 8 | 8 | H | 98 | 119 | A-98-  | A-119-  | RRDLLQVNGKIFTEQGRALAEV 
+| 1iz9 | A | albelig | 9 | 9 | E | 125 | 128 | A-125-  | A-128-  | KVLV 
+| 1iz9 | A | albelig | 10 | 10 | H | 133 | 142 | A-133-  | A-142-  | ANTNALIAYK 
+| 1iz9 | A | albelig | 11 | 11 | H | 149 | 151 | A-149-  | A-151-  | PRN 
+| 1iz9 | A | albelig | 12 | 12 | E | 152 | 154 | A-152-  | A-154-  | FTA 
+| 1iz9 | A | albelig | 13 | 13 | H | 157 | 171 | A-157-  | A-171-  | RLDHNRAKAQLAKKT 
+| 1iz9 | A | albelig | 14 | 14 | H | 175 | 177 | A-175-  | A-177-  | VDR 
+| 1iz9 | A | albelig | 15 | 15 | E | 182 | 184 | A-182-  | A-184-  | TVW 
+| 1iz9 | A | albelig | 16 | 16 | E | 192 | 194 | A-192-  | A-194-  | FPD 
+| 1iz9 | A | albelig | 17 | 17 | H | 205 | 207 | A-205-  | A-207-  | ALE 
+| 1iz9 | A | albelig | 18 | 18 | H | 211 | 218 | A-211-  | A-218-  | MEWYEKVF 
+| 1iz9 | A | albelig | 19 | 19 | H | 219 | 233 | A-219-  | A-233-  | IPTVAQRGAAIIQAR 
+| 1iz9 | A | albelig | 20 | 20 | H | 238 | 254 | A-238-  | A-254-  | AASAANAAIEHIRDWAL 
+| 1iz9 | A | albelig | 21 | 21 | E | 262 | 267 | A-262-  | A-267-  | VSMAVP 
+| 1iz9 | A | albelig | 22 | 22 | H | 271 | 273 | A-271-  | A-273-  | EYG 
+| 1iz9 | A | albelig | 23 | 23 | E | 279 | 287 | A-279-  | A-287-  | VYSFPVTAK 
+| 1iz9 | A | albelig | 24 | 24 | E | 290 | 293 | A-290-  | A-293-  | AYRV 
+| 1iz9 | A | albelig | 25 | 25 | H | 301 | 323 | A-301-  | A-323-  | EFARKRMEITAQELLDEMEQVKA 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 7
+= 2 = p = 20
+= 3 = p = 5
+= 3 = m = 6
+= 4 = a = 5
+= 7 = p = 9
+= 9 = m = 11
+= 9 = p = 12
+= 9 = m = 20
+= 10 = m = 12
+= 10 = m = 23
+= 10 = m = 25
+= 11 = m = 12
+= 12 = a = 21
+= 13 = m = 20
+= 13 = m = 21
+= 15 = a = 16
+= 15 = a = 23
+= 18 = m = 19
+= 20 = m = 23
+= 21 = a = 23
+= 23 = a = 24
+# Listed 23 contacts. EOF.

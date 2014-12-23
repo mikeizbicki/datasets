@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1avw, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (PROTEINASE/INHIBITOR), PORCINE TRYPSIN, SOYBEANTRYPSIN INHIBITOR, KUNITZ-TYPE, BETA-TREFOIL FOLD
+> pdb_mol_name > TRYPSIN INHIBITOR
+> graphtype > albelig
+> resolution > 1.75
+> date > 21-SEP-97
+> header > COMPLEX (PROTEINASE/INHIBITOR)
+> pdb_org_common > SOYBEAN
+> title > COMPLEX PORCINE PANCREATIC TRYPSIN/SOYBEAN TRYPSININHIBITOR, ORTHORHOMBIC CRYSTAL FORM
+> format_version > 2
+> pdbid > 1avw
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > GLYCINE MAX
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1avw | B | albelig | 1 | 1 | E | 239 | 245 | B-515-  | B-521-  | GTYYILS 
+| 1avw | B | albelig | 2 | 2 | E | 253 | 256 | B-529-  | B-532-  | IRAA 
+| 1avw | B | albelig | 3 | 3 | E | 266 | 269 | B-542-  | B-545-  | TVVQ 
+| 1avw | B | albelig | 4 | 4 | E | 280 | 283 | B-556-  | B-559-  | TIIS 
+| 1avw | B | albelig | 5 | 5 | E | 298 | 301 | B-574-  | B-577-  | SLKF 
+| 1avw | B | albelig | 6 | 6 | H | 308 | 310 | B-584-  | B-586-  | MLG 
+| 1avw | B | albelig | 7 | 7 | E | 318 | 320 | B-594-  | B-596-  | SVV 
+| 1avw | B | albelig | 8 | 8 | E | 328 | 330 | B-604-  | B-606-  | AVK 
+| 1avw | B | albelig | 9 | 9 | E | 340 | 346 | B-616-  | B-622-  | GWFRLER 
+| 1avw | B | albelig | 10 | 10 | E | 354 | 360 | B-631-  | B-637-  | YKLVFHP 
+| 1avw | B | albelig | 11 | 11 | E | 366 | 372 | B-646-  | B-652-  | GDIGISI 
+| 1avw | B | albelig | 12 | 12 | E | 379 | 383 | B-659-  | B-663-  | RRLVV 
+| 1avw | B | albelig | 13 | 13 | E | 390 | 395 | B-670-  | B-675-  | VVQFQK 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 13
+= 2 = a = 3
+= 3 = a = 8
+= 3 = a = 12
+= 4 = a = 5
+= 7 = a = 8
+= 8 = a = 12
+= 9 = a = 10
+= 10 = a = 11
+= 10 = a = 13
+= 11 = a = 12
+# Listed 12 contacts. EOF.

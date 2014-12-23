@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a0r, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOSDUCIN, TRANSDUCIN, BETA-GAMMA, SIGNAL TRANSDUCTION,REGULATION, PHOSPHORYLATION, G PROTEINS, THIOREDOXIN,VISION, MEKA, COMPLEX (TRANSDUCER/TRANSDUCTION), POST-TRANSLATIONAL MODIFICATION, FARNESYL, FARNESYLATION
+> pdb_mol_name > PHOSDUCIN
+> graphtype > albelig
+> resolution > 2.8
+> date > 05-DEC-97
+> header > COMPLEX (TRANSDUCER/TRANSDUCTION)
+> pdb_org_common > CATTLE
+> title > HETEROTRIMERIC COMPLEX OF PHOSDUCIN/TRANSDUCIN BETA-GAMMA
+> format_version > 2
+> pdbid > 1a0r
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a0r | P | albelig | 1 | 1 | H | 415 | 429 | P-21-  | P-35-  | GPKGVINDWRKFKLE 
+| 1a0r | P | albelig | 2 | 2 | H | 439 | 445 | P-74-  | P-80-  | VQEYELI 
+| 1a0r | P | albelig | 3 | 3 | H | 452 | 470 | P-87-  | P-105-  | ENCLRKYRRQCMQDMHQKL 
+| 1a0r | P | albelig | 4 | 4 | E | 479 | 481 | P-114-  | P-116-  | VYE 
+| 1a0r | P | albelig | 5 | 5 | H | 485 | 493 | P-120-  | P-128-  | GEQFLETIE 
+| 1a0r | P | albelig | 6 | 6 | E | 500 | 506 | P-135-  | P-141-  | TIVVHIY 
+| 1a0r | P | albelig | 7 | 7 | H | 513 | 526 | P-148-  | P-161-  | CDALNSSLICLAAE 
+| 1a0r | P | albelig | 8 | 8 | E | 531 | 536 | P-166-  | P-171-  | KFCKIK 
+| 1a0r | P | albelig | 9 | 9 | H | 537 | 540 | P-172-  | P-175-  | ASNT 
+| 1a0r | P | albelig | 10 | 10 | E | 553 | 558 | P-188-  | P-193-  | TLLVYK 
+| 1a0r | P | albelig | 11 | 11 | E | 561 | 566 | P-196-  | P-201-  | ELLSNF 
+| 1a0r | P | albelig | 12 | 12 | H | 569 | 572 | P-204-  | P-207-  | VTEQ 
+| 1a0r | P | albelig | 13 | 13 | H | 579 | 587 | P-214-  | P-222-  | TGDVESFLN 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 4 = a = 8
+= 6 = m = 7
+= 6 = p = 8
+= 6 = a = 10
+= 7 = m = 13
+= 8 = m = 9
+= 10 = a = 11
+# Listed 8 contacts. EOF.

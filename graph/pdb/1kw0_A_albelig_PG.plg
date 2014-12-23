@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kw0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BASKET-ARRANGEMENT 13 ALPHA-HELICES AND 6 BETA-STRANDS,FERROUS IRON, OXIDOREDUCTASE
+> pdb_mol_name > PHENYLALANINE-4-HYDROXYLASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 28-JAN-02
+> header > OXIDOREDUCTASE
+> pdb_org_common > HUMAN
+> title > CATALYTIC DOMAIN OF HUMAN PHENYLALANINE HYDROXYLASE (FE(II)) IN COMPLEX WITH TETRAHYDROBIOPTERIN AND THIENYLALANINE
+> format_version > 2
+> pdbid > 1kw0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kw0 | A | albelig | 1 | 1 | H | 11 | 14 | A-128-  | A-131-  | LDRF 
+| 1kw0 | A | albelig | 2 | 2 | H | 30 | 33 | A-147-  | A-150-  | PGFK 
+| 1kw0 | A | albelig | 3 | 3 | H | 35 | 49 | A-152-  | A-166-  | PVYRARRKQFADIAY 
+| 1kw0 | A | albelig | 4 | 4 | H | 64 | 84 | A-181-  | A-201-  | EEEKKTWGTVFKTLKSLYKTH 
+| 1kw0 | A | albelig | 5 | 5 | H | 87 | 100 | A-204-  | A-217-  | YEYNHIFPLLEKYC 
+| 1kw0 | A | albelig | 6 | 6 | H | 110 | 121 | A-227-  | A-238-  | LEDVSQFLQTCT 
+| 1kw0 | A | albelig | 7 | 7 | E | 124 | 127 | A-241-  | A-244-  | RLRP 
+| 1kw0 | A | albelig | 8 | 8 | H | 134 | 143 | A-251-  | A-260-  | SRDFLGGLAF 
+| 1kw0 | A | albelig | 9 | 9 | E | 145 | 148 | A-262-  | A-265-  | VFHC 
+| 1kw0 | A | albelig | 10 | 10 | H | 168 | 177 | A-285-  | A-294-  | HELLGHVPLF 
+| 1kw0 | A | albelig | 11 | 11 | H | 180 | 193 | A-297-  | A-310-  | RSFAQFSQEIGLAS 
+| 1kw0 | A | albelig | 12 | 12 | H | 198 | 213 | A-315-  | A-330-  | DEYIEKLATIYWFTVE 
+| 1kw0 | A | albelig | 13 | 13 | H | 228 | 231 | A-345-  | A-348-  | AGLL 
+| 1kw0 | A | albelig | 14 | 14 | H | 234 | 240 | A-351-  | A-357-  | FGELQYC 
+| 1kw0 | A | albelig | 15 | 15 | E | 246 | 249 | A-363-  | A-366-  | KLLP 
+| 1kw0 | A | albelig | 16 | 16 | H | 252 | 255 | A-369-  | A-372-  | LEKT 
+| 1kw0 | A | albelig | 17 | 17 | E | 268 | 272 | A-385-  | A-389-  | LYYVA 
+| 1kw0 | A | albelig | 18 | 18 | H | 275 | 286 | A-392-  | A-403-  | FNDAKEKVRNFA 
+| 1kw0 | A | albelig | 19 | 19 | E | 295 | 298 | A-412-  | A-415-  | VRYD 
+| 1kw0 | A | albelig | 20 | 20 | E | 303 | 306 | A-420-  | A-423-  | RIEV 
+| 1kw0 | A | albelig | 21 | 21 | L | 308 | 308 | A-428-  | A-428-  | J 
+| 1kw0 | A | albelig | 22 | 22 | L | 309 | 309 | A-429-  | A-429-  | J 
+| 1kw0 | A | albelig | 23 | 23 | L | 310 | 310 | A-430-  | A-430-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 4 = m = 5
+= 4 = m = 14
+= 5 = m = 6
+= 5 = m = 10
+= 6 = m = 7
+= 7 = p = 9
+= 8 = m = 9
+= 8 = m = 11
+= 8 = l = 22
+= 9 = m = 10
+= 9 = l = 22
+= 10 = m = 12
+= 10 = l = 21
+= 10 = l = 22
+= 10 = l = 23
+= 11 = p = 18
+= 12 = l = 21
+= 12 = l = 22
+= 12 = l = 23
+= 13 = l = 21
+= 13 = l = 23
+= 14 = l = 23
+= 15 = p = 17
+= 19 = a = 20
+= 21 = l = 22
+= 21 = l = 23
+= 22 = l = 23
+# Listed 28 contacts. EOF.

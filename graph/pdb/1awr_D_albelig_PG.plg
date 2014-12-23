@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1awr, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ISOMERASE/PEPTIDE), CYCLOPHILIN A, HIV-1 CAPSID,PSEUDO-SYMMETRY
+> pdb_mol_name > CYCLOPHILIN A
+> graphtype > albelig
+> resolution > 1.58
+> date > 04-OCT-97
+> header > COMPLEX (ISOMERASE/PEPTIDE)
+> pdb_org_common > HUMAN
+> title > CYPA COMPLEXED WITH HAGPIA
+> format_version > 2
+> pdbid > 1awr
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1awr | D | albelig | 1 | 1 | E | 499 | 506 | D-1005-  | D-1012-  | TVFFDIAV 
+| 1awr | D | albelig | 2 | 2 | E | 509 | 518 | D-1015-  | D-1024-  | EPLGRVSFEL 
+| 1awr | D | albelig | 3 | 3 | H | 524 | 535 | D-1030-  | D-1041-  | PKTAENFRALST 
+| 1awr | D | albelig | 4 | 4 | E | 549 | 551 | D-1055-  | D-1057-  | RII 
+| 1awr | D | albelig | 5 | 5 | E | 555 | 558 | D-1061-  | D-1064-  | MCQG 
+| 1awr | D | albelig | 6 | 6 | E | 591 | 594 | D-1097-  | D-1100-  | ILSM 
+| 1awr | D | albelig | 7 | 7 | E | 606 | 609 | D-1112-  | D-1115-  | FFIC 
+| 1awr | D | albelig | 8 | 8 | H | 614 | 616 | D-1120-  | D-1122-  | EWL 
+| 1awr | D | albelig | 9 | 9 | E | 622 | 628 | D-1128-  | D-1134-  | VFGKVKE 
+| 1awr | D | albelig | 10 | 10 | H | 630 | 637 | D-1136-  | D-1143-  | MNIVEAME 
+| 1awr | D | albelig | 11 | 11 | E | 650 | 657 | D-1156-  | D-1163-  | ITIADCGQ 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 1 = a = 11
+= 2 = a = 9
+= 2 = m = 10
+= 3 = m = 9
+= 3 = m = 11
+= 4 = a = 5
+= 5 = a = 7
+= 6 = a = 7
+= 6 = a = 9
+# Listed 11 contacts. EOF.

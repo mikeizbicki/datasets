@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jv5, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > IMMUNOGLOBULIN, IMMUNE SYSTEM, SUGAR BINDING PROTEIN
+> pdb_mol_name > IG CHAIN HEAVY CHAIN PRECURSOR V REGION
+> graphtype > albelig
+> resolution > 2.2
+> date > 28-AUG-01
+> header > IMMUNE SYSTEM, SUGAR BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > ANTI-BLOOD GROUP A FV
+> format_version > 2
+> pdbid > 1jv5
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jv5 | B | albelig | 1 | 1 | E | 117 | 120 | B-309-  | B-312-  | AELV 
+| 1jv5 | B | albelig | 2 | 2 | E | 126 | 132 | B-318-  | B-324-  | VKLSNKA 
+| 1jv5 | B | albelig | 3 | 3 | H | 137 | 139 | B-329-  | B-331-  | FTS 
+| 1jv5 | B | albelig | 4 | 4 | E | 142 | 147 | B-334-  | B-339-  | INWVKL 
+| 1jv5 | B | albelig | 5 | 5 | E | 153 | 159 | B-345-  | B-351-  | LEWIGDI 
+| 1jv5 | B | albelig | 6 | 6 | E | 166 | 168 | B-358-  | B-360-  | TNY 
+| 1jv5 | B | albelig | 7 | 7 | E | 176 | 181 | B-368-  | B-373-  | ATLTVD 
+| 1jv5 | B | albelig | 8 | 8 | E | 186 | 191 | B-378-  | B-383-  | TAYMQL 
+| 1jv5 | B | albelig | 9 | 9 | H | 196 | 198 | B-388-  | B-390-  | SED 
+| 1jv5 | B | albelig | 10 | 10 | E | 200 | 208 | B-392-  | B-400-  | ALYYNAGQY 
+| 1jv5 | B | albelig | 11 | 11 | E | 211 | 216 | B-403-  | B-408-  | LWFAYW 
+| 1jv5 | B | albelig | 12 | 12 | E | 220 | 224 | B-412-  | B-416-  | TLVTV 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 12
+= 2 = a = 8
+= 2 = p = 10
+= 4 = a = 5
+= 4 = p = 8
+= 4 = a = 10
+= 5 = a = 6
+= 5 = p = 7
+= 6 = a = 7
+= 7 = a = 8
+= 10 = a = 11
+= 10 = a = 12
+# Listed 12 contacts. EOF.

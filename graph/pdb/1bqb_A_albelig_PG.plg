@@ -1,0 +1,74 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bqb, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, METALLOPROTEINASE
+> pdb_mol_name > PROTEIN (AUREOLYSIN)
+> graphtype > albelig
+> resolution > 1.72
+> date > 14-JUL-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > AUREOLYSIN, STAPHYLOCOCCUS AUREUS METALLOPROTEINASE
+> format_version > 2
+> pdbid > 1bqb
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STAPHYLOCOCCUS AUREUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bqb | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | AATGTGK 
+| 1bqb | A | albelig | 2 | 2 | E | 14 | 22 | A-14-  | A-22-  | TKDININSI 
+| 1bqb | A | albelig | 3 | 3 | E | 25 | 27 | A-25-  | A-27-  | GFS 
+| 1bqb | A | albelig | 4 | 4 | E | 37 | 42 | A-37-  | A-42-  | LSAYNF 
+| 1bqb | A | albelig | 5 | 5 | E | 49 | 51 | A-49-  | A-51-  | ATL 
+| 1bqb | A | albelig | 6 | 6 | H | 62 | 85 | A-62-  | A-85-  | DDQRAGVDANYYAKQTYDYYKNTF 
+| 1bqb | A | albelig | 7 | 7 | E | 97 | 101 | A-97-  | A-101-  | IVSLT 
+| 1bqb | A | albelig | 8 | 8 | E | 115 | 117 | A-115-  | A-117-  | AAW 
+| 1bqb | A | albelig | 9 | 9 | E | 122 | 124 | A-122-  | A-124-  | MIY 
+| 1bqb | A | albelig | 10 | 10 | H | 135 | 137 | A-135-  | A-137-  | LSG 
+| 1bqb | A | albelig | 11 | 11 | H | 139 | 153 | A-139-  | A-153-  | NDVVAHEITHGVTQQ 
+| 1bqb | A | albelig | 12 | 12 | H | 161 | 178 | A-161-  | A-178-  | DQSGALNESFSDVFGYFV 
+| 1bqb | A | albelig | 13 | 13 | H | 205 | 208 | A-205-  | A-208-  | PEQF 
+| 1bqb | A | albelig | 14 | 14 | H | 214 | 216 | A-214-  | A-216-  | MKD 
+| 1bqb | A | albelig | 15 | 15 | H | 222 | 230 | A-222-  | A-230-  | KDNGGVHTN 
+| 1bqb | A | albelig | 16 | 16 | H | 232 | 245 | A-232-  | A-245-  | GIPNKAAYNVIQAI 
+| 1bqb | A | albelig | 17 | 17 | H | 247 | 261 | A-247-  | A-261-  | KSKSEQIYYRALTEY 
+| 1bqb | A | albelig | 18 | 18 | H | 268 | 282 | A-268-  | A-282-  | FKDLKDALYQAAKDL 
+| 1bqb | A | albelig | 19 | 19 | H | 285 | 296 | A-285-  | A-296-  | QQTAEQVYEAWN 
+| 1bqb | A | albelig | 20 | 20 | L | 302 | 302 | A-350-  | A-350-  | J 
+| 1bqb | A | albelig | 21 | 21 | L | 303 | 303 | A-351-  | A-351-  | J 
+| 1bqb | A | albelig | 22 | 22 | L | 304 | 304 | A-352-  | A-352-  | J 
+| 1bqb | A | albelig | 23 | 23 | L | 305 | 305 | A-353-  | A-353-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 6
+= 2 = a = 3
+= 2 = m = 6
+= 4 = a = 5
+= 4 = a = 6
+= 4 = p = 7
+= 6 = m = 7
+= 6 = m = 10
+= 6 = p = 11
+= 6 = a = 12
+= 6 = m = 17
+= 7 = p = 9
+= 8 = a = 9
+= 8 = m = 11
+= 11 = a = 12
+= 11 = l = 20
+= 11 = l = 21
+= 11 = l = 22
+= 12 = m = 15
+= 12 = p = 16
+= 12 = a = 17
+= 12 = m = 18
+= 12 = l = 20
+= 15 = l = 20
+= 16 = m = 17
+= 16 = a = 19
+= 17 = m = 18
+= 18 = a = 19
+= 21 = l = 22
+# Listed 30 contacts. EOF.

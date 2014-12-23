@@ -1,0 +1,22 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ba4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOPROTEIN, AMYLOID BETA-PEPTIDE, ALZHEIMER'S DISEASE,SDS-MICELLES
+> pdb_mol_name > AMYLOID BETA-PEPTIDE
+> graphtype > albelig
+> resolution > -1.0
+> date > 07-APR-98
+> header > GLYCOPROTEIN
+> pdb_org_common > HUMAN
+> title > THE SOLUTION STRUCTURE OF AMYLOID BETA-PEPTIDE (1-40) IN AWATER-MICELLE ENVIRONMENT. IS THE MEMBRANE-SPANNING DOMAINWHERE WE THINK IT IS? NMR, 10 STRUCTURES
+> format_version > 2
+> pdbid > 1ba4
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ba4 | A | albelig | 1 | 1 | H | 15 | 36 | A-15-  | A-36-  | QKLVFFAEDVGSNKGAIIGLMV 
+# Printed info on 1 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

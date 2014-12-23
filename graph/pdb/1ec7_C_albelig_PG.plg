@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ec7, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLUCARATE DEHYDRATASE ENOLASE ENZYME SUPERFAMILY TIM BARREL(BETA/ALPHA)7BETA BARREL, LYASE
+> pdb_mol_name > GLUCARATE DEHYDRATASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 25-JAN-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > E. COLI GLUCARATE DEHYDRATASE NATIVE ENZYME
+> format_version > 2
+> pdbid > 1ec7
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ec7 | C | albelig | 1 | 1 | E | 879 | 890 | C-10-  | C-21-  | VTEMQVIPVAGH 
+| 1ec7 | C | albelig | 2 | 2 | E | 904 | 914 | C-35-  | C-45-  | FFTRNIVIIKD 
+| 1ec7 | C | albelig | 3 | 3 | E | 919 | 925 | C-50-  | C-56-  | TGVGEIP 
+| 1ec7 | C | albelig | 4 | 4 | H | 928 | 941 | C-59-  | C-72-  | EKIRKTLEDAIPLV 
+| 1ec7 | C | albelig | 5 | 5 | H | 946 | 959 | C-77-  | C-90-  | LGEYKNVLTLVRNT 
+| 1ec7 | C | albelig | 6 | 6 | H | 964 | 984 | C-108-  | C-128-  | TTIHVVTGIEAAMLDLLGQHL 
+| 1ec7 | C | albelig | 7 | 7 | H | 988 | 991 | C-132-  | C-135-  | VASL 
+| 1ec7 | C | albelig | 8 | 8 | E | 1000 | 1002 | C-144-  | C-146-  | EVE 
+| 1ec7 | C | albelig | 9 | 9 | E | 1005 | 1007 | C-149-  | C-151-  | GYL 
+| 1ec7 | C | albelig | 10 | 10 | H | 1013 | 1015 | C-157-  | C-159-  | RKA 
+| 1ec7 | C | albelig | 11 | 11 | H | 1029 | 1033 | C-173-  | C-177-  | DWYRL 
+| 1ec7 | C | albelig | 12 | 12 | H | 1041 | 1055 | C-185-  | C-199-  | PDAVVRLAEAAYEKY 
+| 1ec7 | C | albelig | 13 | 13 | E | 1059 | 1063 | C-203-  | C-207-  | DFKLK 
+| 1ec7 | C | albelig | 14 | 14 | H | 1069 | 1082 | C-213-  | C-226-  | GEEEAESIVALAQR 
+| 1ec7 | C | albelig | 15 | 15 | E | 1087 | 1091 | C-231-  | C-235-  | RITLD 
+| 1ec7 | C | albelig | 16 | 16 | H | 1098 | 1107 | C-242-  | C-251-  | LNEAIKIGKY 
+| 1ec7 | C | albelig | 17 | 17 | E | 1114 | 1116 | C-258-  | C-260-  | YAE 
+| 1ec7 | C | albelig | 18 | 18 | H | 1127 | 1138 | C-271-  | C-282-  | GREVMAEFRRAT 
+| 1ec7 | C | albelig | 19 | 19 | E | 1142 | 1144 | C-286-  | C-288-  | TAT 
+| 1ec7 | C | albelig | 20 | 20 | H | 1151 | 1160 | C-295-  | C-304-  | WRQMGHTLSL 
+| 1ec7 | C | albelig | 21 | 21 | H | 1170 | 1173 | C-314-  | C-317-  | PHFW 
+| 1ec7 | C | albelig | 22 | 22 | H | 1175 | 1188 | C-319-  | C-332-  | MQGSVRVAQMCHEF 
+| 1ec7 | C | albelig | 23 | 23 | H | 1201 | 1213 | C-345-  | C-357-  | DISLAMFTHVAAA 
+| 1ec7 | C | albelig | 24 | 24 | H | 1225 | 1228 | C-369-  | C-372-  | WIWQ 
+| 1ec7 | C | albelig | 25 | 25 | E | 1245 | 1247 | C-389-  | C-391-  | LVQ 
+| 1ec7 | C | albelig | 26 | 26 | H | 1260 | 1272 | C-404-  | C-416-  | MDQVMKAHELYQK 
+| 1ec7 | C | albelig | 27 | 27 | H | 1281 | 1287 | C-425-  | C-431-  | AMGMQYL 
+| 1ec7 | C | albelig | 28 | 28 | L | 1739 | 1739 | C-498-  | C-498-  | J 
+| 1ec7 | C | albelig | 29 | 29 | L | 1740 | 1740 | C-601-  | C-601-  | J 
+# Printed info on 29 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 1 = m = 26
+= 2 = a = 3
+= 3 = a = 6
+= 3 = m = 23
+= 4 = m = 6
+= 5 = a = 6
+= 6 = m = 21
+= 8 = a = 25
+= 9 = p = 13
+= 9 = l = 28
+= 11 = m = 12
+= 12 = p = 14
+= 13 = p = 15
+= 13 = l = 28
+= 15 = p = 17
+= 15 = l = 28
+= 16 = p = 18
+= 17 = a = 19
+= 17 = l = 28
+= 18 = m = 20
+= 20 = p = 22
+= 20 = l = 29
+= 22 = m = 23
+# Listed 25 contacts. EOF.

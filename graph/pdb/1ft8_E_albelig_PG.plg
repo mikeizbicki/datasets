@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ft8, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RIBONUCLEOPROTEIN (RNP, RRM, RBD) AND LEUCINE-RICH-REPEAT(LRR) DOMAINS, RNA BINDING PROTEIN
+> pdb_mol_name > TIP ASSOCIATING PROTEIN
+> graphtype > albelig
+> resolution > 3.15
+> date > 12-SEP-00
+> header > RNA BINDING PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE RNA-BINDING DOMAIN OF THE MRNAEXPORT FACTOR TAP
+> format_version > 2
+> pdbid > 1ft8
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ft8 | E | albelig | 1 | 1 | E | 821 | 823 | E-120-  | E-122-  | FKI 
+| 1ft8 | E | albelig | 2 | 2 | H | 827 | 837 | E-132-  | E-142-  | KAWLLSMIQSK 
+| 1ft8 | E | albelig | 3 | 3 | E | 851 | 853 | E-161-  | E-163-  | FFV 
+| 1ft8 | E | albelig | 4 | 4 | H | 856 | 863 | E-166-  | E-173-  | ASTASALK 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+# Listed 1 contacts. EOF.

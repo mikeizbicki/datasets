@@ -1,0 +1,79 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gjp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LYASE, DEHYDRATASE, ALDOLASE, TIM BARREL, TETRAPYRROLESYNTHESIS
+> pdb_mol_name > 5-AMINOLAEVULINIC ACID DEHYDRATASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 01-AUG-01
+> header > DEHYDRATASE
+> pdb_org_common > BAKER'S YEAST
+> title > SCHIFF-BASE COMPLEX OF YEAST 5-AMINOLAEVULINIC ACIDDEHYDRATASE WITH 4-OXOSEBACIC ACID
+> format_version > 2
+> pdbid > 1gjp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gjp | A | albelig | 1 | 1 | H | 14 | 16 | A-14-  | A-16-  | ISS 
+| 1gjp | A | albelig | 2 | 2 | H | 19 | 21 | A-19-  | A-21-  | AGG 
+| 1gjp | A | albelig | 3 | 3 | H | 27 | 30 | A-27-  | A-30-  | LRQW 
+| 1gjp | A | albelig | 4 | 4 | H | 38 | 40 | A-38-  | A-40-  | KNM 
+| 1gjp | A | albelig | 5 | 5 | E | 41 | 48 | A-41-  | A-48-  | LIFPLFIS 
+| 1gjp | A | albelig | 6 | 6 | E | 54 | 56 | A-54-  | A-56-  | FTE 
+| 1gjp | A | albelig | 7 | 7 | E | 64 | 66 | A-64-  | A-66-  | NRI 
+| 1gjp | A | albelig | 8 | 8 | H | 68 | 79 | A-68-  | A-79-  | VNRLKDYLKPLV 
+| 1gjp | A | albelig | 9 | 9 | E | 85 | 91 | A-85-  | A-91-  | SVILFGV 
+| 1gjp | A | albelig | 10 | 10 | H | 103 | 106 | A-103-  | A-106-  | TAAD 
+| 1gjp | A | albelig | 11 | 11 | H | 111 | 122 | A-111-  | A-122-  | PVIQGIKFIREY 
+| 1gjp | A | albelig | 12 | 12 | E | 127 | 132 | A-127-  | A-132-  | YIICDV 
+| 1gjp | A | albelig | 13 | 13 | H | 154 | 171 | A-154-  | A-171-  | RERSVSRLAAVAVNYAKA 
+| 1gjp | A | albelig | 14 | 14 | E | 175 | 178 | A-175-  | A-178-  | CVAP 
+| 1gjp | A | albelig | 15 | 15 | H | 185 | 195 | A-185-  | A-195-  | RIRDIKRGLIN 
+| 1gjp | A | albelig | 16 | 16 | E | 203 | 210 | A-203-  | A-210-  | FVLSYAAK 
+| 1gjp | A | albelig | 17 | 17 | H | 217 | 220 | A-217-  | A-220-  | GPFR 
+| 1gjp | A | albelig | 18 | 18 | H | 242 | 254 | A-242-  | A-254-  | RGLARRALERDMS 
+| 1gjp | A | albelig | 19 | 19 | E | 259 | 263 | A-259-  | A-263-  | GIIVK 
+| 1gjp | A | albelig | 20 | 20 | H | 266 | 278 | A-266-  | A-278-  | TFYLDIMRDASEI 
+| 1gjp | A | albelig | 21 | 21 | E | 284 | 287 | A-284-  | A-287-  | ICAY 
+| 1gjp | A | albelig | 22 | 22 | H | 290 | 301 | A-290-  | A-301-  | SGEYAMLHAAAE 
+| 1gjp | A | albelig | 23 | 23 | H | 307 | 320 | A-307-  | A-320-  | LKTIAFESHQGFLR 
+| 1gjp | A | albelig | 24 | 24 | E | 325 | 327 | A-325-  | A-327-  | LII 
+| 1gjp | A | albelig | 25 | 25 | H | 331 | 337 | A-331-  | A-337-  | APEFLDW 
+| 1gjp | A | albelig | 26 | 26 | L | 341 | 341 | A-363-  | A-363-  | J 
+| 1gjp | A | albelig | 27 | 27 | L | 342 | 342 | A-400-  | A-400-  | J 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 5
+= 4 = m = 24
+= 5 = a = 7
+= 5 = a = 8
+= 5 = p = 9
+= 5 = m = 11
+= 5 = p = 24
+= 6 = a = 7
+= 8 = m = 11
+= 9 = p = 12
+= 9 = l = 26
+= 10 = m = 13
+= 11 = m = 13
+= 12 = p = 14
+= 12 = l = 26
+= 13 = p = 15
+= 14 = p = 16
+= 16 = m = 18
+= 16 = p = 19
+= 16 = l = 26
+= 17 = m = 22
+= 17 = l = 26
+= 18 = p = 20
+= 19 = p = 21
+= 19 = l = 26
+= 20 = p = 23
+= 21 = p = 24
+= 21 = l = 26
+= 22 = l = 26
+= 23 = m = 25
+= 26 = l = 27
+# Listed 31 contacts. EOF.

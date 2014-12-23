@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ffi, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HIV-1 PROTEASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > PROTEASE RETROPEPSIN
+> graphtype > albelig
+> resolution > 1.7
+> date > 25-JUL-00
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > UNKNOWN
+> title > STRUCTURAL IMPLICATIONS OF DRUG RESISTANT MUTANTS OF HIV-1 PROTEASE:HIGH RESOLUTION CRYSTAL STRUCTURES OF THE MUTANT PROTEASE/SUBSTRATEANALOG COMPLEXES
+> format_version > 2
+> pdbid > 1ffi
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ffi | D | albelig | 1 | 1 | E | 110 | 115 | D-110-  | D-115-  | LVTIKI 
+| 1ffi | D | albelig | 2 | 2 | E | 118 | 124 | D-118-  | D-124-  | QLKEALL 
+| 1ffi | D | albelig | 3 | 3 | E | 143 | 149 | D-143-  | D-149-  | KPKMIGG 
+| 1ffi | D | albelig | 4 | 4 | E | 152 | 166 | D-152-  | D-166-  | GFIKVRQYDQIIIEI 
+| 1ffi | D | albelig | 5 | 5 | E | 169 | 177 | D-169-  | D-177-  | HKAIGTVLV 
+| 1ffi | D | albelig | 6 | 6 | H | 187 | 190 | D-187-  | D-190-  | RNLL 
+| 1ffi | D | albelig | 7 | 7 | E | 196 | 198 | D-196-  | D-198-  | TLN 
+| 1ffi | D | albelig | 8 | 8 | L | 200 | 200 | D-300-  | D-300-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = l = 8
+= 3 = a = 4
+= 3 = l = 8
+= 4 = a = 5
+= 4 = l = 8
+= 5 = l = 8
+# Listed 8 contacts. EOF.

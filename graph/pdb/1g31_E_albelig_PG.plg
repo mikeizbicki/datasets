@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g31, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, CO-CHAPERONIN, GROES, IN VIVO PROTEIN FOLDING,BACTERIOPHAGE T4
+> pdb_mol_name > GP31
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-MAR-98
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > GP31 CO-CHAPERONIN FROM BACTERIOPHAGE T4
+> format_version > 2
+> pdbid > 1g31
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g31 | E | albelig | 1 | 1 | E | 443 | 448 | E-15-  | E-20-  | YVILVS 
+| 1g31 | E | albelig | 2 | 2 | H | 467 | 472 | E-39-  | E-44-  | KRVQGE 
+| 1g31 | E | albelig | 3 | 3 | E | 474 | 482 | E-46-  | E-54-  | PELCVVHSV 
+| 1g31 | E | albelig | 4 | 4 | E | 496 | 500 | E-68-  | E-72-  | LTSLP 
+| 1g31 | E | albelig | 5 | 5 | H | 501 | 503 | E-73-  | E-75-  | VGQ 
+| 1g31 | E | albelig | 6 | 6 | E | 505 | 507 | E-77-  | E-79-  | RNV 
+| 1g31 | E | albelig | 7 | 7 | H | 510 | 513 | E-82-  | E-85-  | PFVA 
+| 1g31 | E | albelig | 8 | 8 | H | 519 | 521 | E-91-  | E-93-  | PKE 
+| 1g31 | E | albelig | 9 | 9 | E | 526 | 530 | E-98-  | E-102-  | FVTCH 
+| 1g31 | E | albelig | 10 | 10 | H | 531 | 533 | E-103-  | E-105-  | YKA 
+| 1g31 | E | albelig | 11 | 11 | L | 775 | 775 | E-151-  | E-151-  | J 
+| 1g31 | E | albelig | 12 | 12 | L | 776 | 776 | E-181-  | E-181-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = l = 11
+= 3 = a = 4
+= 4 = m = 5
+= 6 = a = 9
+= 9 = m = 10
+# Listed 7 contacts. EOF.

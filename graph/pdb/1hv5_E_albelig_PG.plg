@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hv5, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > STROMELYSIN-3, INHIBITION, PHOSPHINIC INHIBITOR, HYDROLASE
+> pdb_mol_name > STROMELYSIN 3
+> graphtype > albelig
+> resolution > 2.6
+> date > 08-JAN-01
+> header > HYDROLASE
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF THE STROMELYSIN-3 (MMP-11) CATALYTICDOMAIN COMPLEXED WITH A PHOSPHINIC INHIBITOR
+> format_version > 2
+> pdbid > 1hv5
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hv5 | E | albelig | 1 | 1 | E | 656 | 659 | E-102-  | E-105-  | FVLS 
+| 1hv5 | E | albelig | 2 | 2 | E | 662 | 665 | E-108-  | E-111-  | RWEK 
+| 1hv5 | E | albelig | 3 | 3 | E | 667 | 672 | E-113-  | E-118-  | DLTYRI 
+| 1hv5 | E | albelig | 4 | 4 | H | 681 | 696 | E-127-  | E-142-  | REQVRQTVAEALQVWS 
+| 1hv5 | E | albelig | 5 | 5 | E | 702 | 705 | E-148-  | E-151-  | TFTE 
+| 1hv5 | E | albelig | 6 | 6 | E | 713 | 718 | E-159-  | E-164-  | IMIDFA 
+| 1hv5 | E | albelig | 7 | 7 | E | 736 | 739 | E-182-  | E-185-  | AHAF 
+| 1hv5 | E | albelig | 8 | 8 | E | 747 | 752 | E-193-  | E-198-  | GDVHFD 
+| 1hv5 | E | albelig | 9 | 9 | H | 767 | 778 | E-213-  | E-224-  | LLQVAAHEFGHV 
+| 1hv5 | E | albelig | 10 | 10 | H | 805 | 815 | E-251-  | E-261-  | PDDRRGIQHLY 
+| 1hv5 | E | albelig | 11 | 11 | L | 1007 | 1007 | E-5513-  | E-5513-  | J 
+| 1hv5 | E | albelig | 12 | 12 | L | 1008 | 1008 | E-5514-  | E-5514-  | J 
+| 1hv5 | E | albelig | 13 | 13 | L | 1009 | 1009 | E-5515-  | E-5515-  | J 
+| 1hv5 | E | albelig | 14 | 14 | L | 1010 | 1010 | E-5005-  | E-5005-  | J 
+| 1hv5 | E | albelig | 15 | 15 | L | 1011 | 1011 | E-5010-  | E-5010-  | J 
+| 1hv5 | E | albelig | 16 | 16 | L | 1012 | 1012 | E-6005-  | E-6005-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = l = 15
+= 3 = m = 4
+= 3 = p = 5
+= 3 = p = 6
+= 3 = l = 15
+= 4 = m = 9
+= 6 = p = 8
+= 6 = l = 15
+= 7 = a = 8
+= 7 = m = 9
+= 7 = l = 11
+= 7 = l = 16
+= 8 = a = 9
+= 8 = l = 11
+= 8 = l = 13
+= 8 = l = 15
+= 9 = l = 12
+= 9 = l = 14
+= 9 = l = 15
+= 9 = l = 16
+= 10 = l = 15
+= 12 = l = 14
+= 12 = l = 16
+= 14 = l = 16
+# Listed 25 contacts. EOF.

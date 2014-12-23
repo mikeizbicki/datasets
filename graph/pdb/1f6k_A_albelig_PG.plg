@@ -1,0 +1,82 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f6k, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA BARREL, LYASE
+> pdb_mol_name > N-ACETYLNEURAMINATE LYASE
+> graphtype > albelig
+> resolution > 1.6
+> date > 21-JUN-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF N-ACETYLNEURAMINATE LYASE FROMHAEMOPHILUS INFLUENZAE: CRYSTAL FORM II
+> format_version > 2
+> pdbid > 1f6k
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f6k | A | albelig | 1 | 1 | E | 6 | 10 | A-6-  | A-10-  | GIFSA 
+| 1f6k | A | albelig | 2 | 2 | H | 23 | 35 | A-23-  | A-35-  | EKGLRQIIRHNID 
+| 1f6k | A | albelig | 3 | 3 | E | 41 | 44 | A-41-  | A-44-  | GLYV 
+| 1f6k | A | albelig | 4 | 4 | H | 47 | 49 | A-47-  | A-49-  | STG 
+| 1f6k | A | albelig | 5 | 5 | H | 51 | 53 | A-51-  | A-53-  | NFM 
+| 1f6k | A | albelig | 6 | 6 | H | 56 | 70 | A-56-  | A-70-  | TEEKKEIFRIAKDEA 
+| 1f6k | A | albelig | 7 | 7 | E | 75 | 79 | A-75-  | A-79-  | ALIAQ 
+| 1f6k | A | albelig | 8 | 8 | H | 85 | 98 | A-85-  | A-98-  | LKEAVELGKYATEL 
+| 1f6k | A | albelig | 9 | 9 | E | 102 | 106 | A-102-  | A-106-  | CLSAV 
+| 1f6k | A | albelig | 10 | 10 | H | 115 | 129 | A-115-  | A-129-  | FPEIKHYYDTIIAET 
+| 1f6k | A | albelig | 11 | 11 | E | 133 | 137 | A-133-  | A-137-  | MIVYS 
+| 1f6k | A | albelig | 12 | 12 | H | 139 | 142 | A-139-  | A-142-  | PFLT 
+| 1f6k | A | albelig | 13 | 13 | H | 148 | 155 | A-148-  | A-155-  | IEQFGELY 
+| 1f6k | A | albelig | 14 | 14 | E | 160 | 165 | A-160-  | A-165-  | VLGVKF 
+| 1f6k | A | albelig | 15 | 15 | H | 170 | 179 | A-170-  | A-179-  | FYLLERLKKA 
+| 1f6k | A | albelig | 16 | 16 | E | 184 | 187 | A-184-  | A-187-  | LIWA 
+| 1f6k | A | albelig | 17 | 17 | H | 190 | 198 | A-190-  | A-198-  | DEMMLPAAS 
+| 1f6k | A | albelig | 18 | 18 | E | 203 | 206 | A-203-  | A-206-  | GAIG 
+| 1f6k | A | albelig | 19 | 19 | H | 209 | 224 | A-209-  | A-224-  | FNVNGVRARQIFELTK 
+| 1f6k | A | albelig | 20 | 20 | H | 228 | 248 | A-228-  | A-248-  | LKEALEIQHVTNDLIEGILAN 
+| 1f6k | A | albelig | 21 | 21 | H | 250 | 260 | A-250-  | A-260-  | LYLTIKELLKL 
+| 1f6k | A | albelig | 22 | 22 | H | 278 | 291 | A-278-  | A-291-  | AEQVAKAKDLKAKF 
+| 1f6k | A | albelig | 23 | 23 | L | 581 | 581 | A-2001-  | A-2001-  | J 
+| 1f6k | A | albelig | 24 | 24 | L | 582 | 582 | A-2004-  | A-2004-  | J 
+| 1f6k | A | albelig | 25 | 25 | L | 583 | 583 | A-2005-  | A-2005-  | J 
+| 1f6k | A | albelig | 26 | 26 | L | 584 | 584 | A-1001-  | A-1001-  | J 
+| 1f6k | A | albelig | 27 | 27 | L | 585 | 585 | A-1003-  | A-1003-  | J 
+| 1f6k | A | albelig | 28 | 28 | L | 586 | 586 | A-1004-  | A-1004-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 18
+= 1 = m = 19
+= 1 = l = 23
+= 2 = p = 6
+= 3 = p = 7
+= 3 = l = 23
+= 4 = l = 23
+= 6 = p = 8
+= 6 = l = 27
+= 7 = p = 9
+= 8 = p = 10
+= 9 = m = 10
+= 9 = p = 11
+= 10 = m = 11
+= 10 = m = 13
+= 11 = p = 14
+= 11 = l = 23
+= 13 = m = 14
+= 14 = p = 16
+= 14 = l = 23
+= 15 = l = 25
+= 16 = p = 18
+= 17 = p = 19
+= 17 = m = 20
+= 18 = m = 19
+= 18 = l = 23
+= 19 = a = 20
+= 20 = m = 21
+= 20 = a = 22
+= 20 = l = 28
+= 21 = m = 22
+= 21 = l = 26
+# Listed 33 contacts. EOF.

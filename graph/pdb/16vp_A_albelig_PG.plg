@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 16vp, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTIONAL REGULATORY PROTEIN
+> pdb_mol_name > PROTEIN (VP16, VMW65, ATIF)
+> graphtype > albelig
+> resolution > 2.1
+> date > 11-FEB-99
+> header > TRANSCRIPTIONAL REGULATORY PROTEIN
+> pdb_org_common > HERPES SIMPLEX VIRUS TYPE 1
+> title > CONSERVED CORE OF THE HERPES SIMPLEX VIRUS TRANSCRIPTIONALREGULATORY PROTEIN VP16
+> format_version > 2
+> pdbid > 16vp
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HUMAN HERPESVIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 16vp | A | albelig | 1 | 1 | H | 12 | 23 | A-58-  | A-69-  | PAALFNRLLDDL 
+| 16vp | A | albelig | 2 | 2 | H | 28 | 37 | A-74-  | A-83-  | GPALCTMLDT 
+| 16vp | A | albelig | 3 | 3 | H | 50 | 53 | A-96-  | A-99-  | ADLY 
+| 16vp | A | albelig | 4 | 4 | H | 57 | 59 | A-103-  | A-105-  | KFL 
+| 16vp | A | albelig | 5 | 5 | H | 63 | 72 | A-109-  | A-118-  | PSDVVEWGDA 
+| 16vp | A | albelig | 6 | 6 | H | 97 | 150 | A-143-  | A-196-  | RDGLGLYYEALSRFFHAELRAREESYRTVLANFCSALYRYLRASVRQLHRQAHM 
+| 16vp | A | albelig | 7 | 7 | H | 157 | 169 | A-203-  | A-215-  | LGEMLRATIADRY 
+| 16vp | A | albelig | 8 | 8 | H | 170 | 201 | A-216-  | A-247-  | YRETARLARVLFLHLYLFLTREILWAAYAEQM 
+| 16vp | A | albelig | 9 | 9 | H | 204 | 207 | A-250-  | A-253-  | PDLF 
+| 16vp | A | albelig | 10 | 10 | E | 210 | 214 | A-256-  | A-260-  | LCCDL 
+| 16vp | A | albelig | 11 | 11 | H | 218 | 221 | A-264-  | A-267-  | RQLA 
+| 16vp | A | albelig | 12 | 12 | E | 233 | 236 | A-279-  | A-282-  | ALTV 
+| 16vp | A | albelig | 13 | 13 | H | 243 | 255 | A-289-  | A-301-  | ARRLRELNHIREH 
+| 16vp | A | albelig | 14 | 14 | H | 286 | 298 | A-332-  | A-344-  | ASGYFMVLIRAKL 
+| 16vp | A | albelig | 15 | 15 | E | 308 | 311 | A-398-  | A-401-  | RLSF 
+| 16vp | A | albelig | 16 | 16 | L | 313 | 313 | A-413-  | A-413-  | J 
+| 16vp | A | albelig | 17 | 17 | L | 314 | 314 | A-414-  | A-414-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 6
+= 1 = p = 8
+= 2 = m = 8
+= 3 = m = 6
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 6 = a = 8
+= 6 = m = 15
+= 6 = l = 16
+= 7 = m = 8
+= 8 = m = 14
+= 9 = m = 10
+= 10 = p = 12
+= 10 = a = 15
+= 13 = l = 17
+# Listed 16 contacts. EOF.

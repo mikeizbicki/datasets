@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iwb, chain G.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA-BARRELS, LYASE
+> pdb_mol_name > DIOL DEHYDRATASE GAMMA CHAIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 01-MAY-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF DIOL DEHYDRATASE
+> format_version > 2
+> pdbid > 1iwb
+> experiment > X-RAY DIFFRACTION
+> chainid > G
+> graphclass > protein graph
+> pdb_org_sci > KLEBSIELLA OXYTOCA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iwb | G | albelig | 1 | 1 | H | 734 | 736 | G-40-  | G-42-  | VSD 
+| 1iwb | G | albelig | 2 | 2 | H | 739 | 742 | G-45-  | G-48-  | LANK 
+| 1iwb | G | albelig | 3 | 3 | H | 744 | 746 | G-50-  | G-52-  | PEW 
+| 1iwb | G | albelig | 4 | 4 | H | 755 | 757 | G-61-  | G-63-  | LDD 
+| 1iwb | G | albelig | 5 | 5 | H | 760 | 764 | G-66-  | G-70-  | LENVL 
+| 1iwb | G | albelig | 6 | 6 | H | 770 | 772 | G-76-  | G-78-  | AQD 
+| 1iwb | G | albelig | 7 | 7 | H | 777 | 789 | G-83-  | G-95-  | PETLRLQASIAKD 
+| 1iwb | G | albelig | 8 | 8 | H | 793 | 805 | G-99-  | G-111-  | DRLAMNFERAAEL 
+| 1iwb | G | albelig | 9 | 9 | H | 810 | 819 | G-116-  | G-125-  | DDRILEIYNA 
+| 1iwb | G | albelig | 10 | 10 | H | 827 | 839 | G-133-  | G-145-  | KEELLAIADDLES 
+| 1iwb | G | albelig | 11 | 11 | H | 844 | 859 | G-150-  | G-165-  | KICAAFVREAATLYVE 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 7 = a = 8
+= 8 = m = 11
+= 9 = m = 10
+= 10 = a = 11
+# Listed 4 contacts. EOF.

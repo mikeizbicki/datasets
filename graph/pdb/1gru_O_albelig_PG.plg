@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gru, chain O.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, CHAPERONIN, HSP60, GROEL-GROES, MOLECULARCHAPERONE, ATP, ADP
+> pdb_mol_name > GROES
+> graphtype > albelig
+> resolution > 12.5
+> date > 16-DEC-01
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > SOLUTION STRUCTURE OF GROES-ADP7-GROEL-ATP7 COMPLEX BYCRYO-EM
+> format_version > 2
+> pdbid > 1gru
+> experiment > ELECTRON MICROSCOPY
+> chainid > O
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gru | O | albelig | 1 | 1 | E | 7367 | 7369 | O-3-  | O-5-  | IRP 
+| 1gru | O | albelig | 2 | 2 | E | 7373 | 7378 | O-9-  | O-14-  | RVIVKR 
+| 1gru | O | albelig | 3 | 3 | E | 7401 | 7407 | O-37-  | O-43-  | RGEVLAV 
+| 1gru | O | albelig | 4 | 4 | E | 7428 | 7431 | O-64-  | O-67-  | IVIF 
+| 1gru | O | albelig | 5 | 5 | E | 7438 | 7441 | O-74-  | O-77-  | KSEK 
+| 1gru | O | albelig | 6 | 6 | E | 7446 | 7451 | O-82-  | O-87-  | EVLIMS 
+| 1gru | O | albelig | 7 | 7 | E | 7455 | 7459 | O-91-  | O-95-  | ILAIV 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 2 = a = 3
+= 2 = a = 6
+= 3 = a = 4
+= 4 = a = 7
+= 5 = a = 6
+# Listed 6 contacts. EOF.

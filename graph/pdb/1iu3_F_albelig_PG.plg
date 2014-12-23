@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iu3, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, RECOGNITION OF HEMIMETHYLATED DNA,RIKEN STRUCTURAL GENOMICS/PROTEOMICS INITIATIVE, RSGI,STRUCTURAL GENOMICS, REPLICATION INHIBITOR/DNA COMPLEX
+> pdb_mol_name > SEQA PROTEIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 26-FEB-02
+> header > REPLICATION INHIBITOR/DNA
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE E.COLI SEQA PROTEIN COMPLEXED WITHHEMIMETHYLATED DNA
+> format_version > 2
+> pdbid > 1iu3
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iu3 | F | albelig | 1 | 1 | H | 120 | 127 | F-5-  | F-12-  | SAMRELLL 
+| 1iu3 | F | albelig | 2 | 2 | H | 129 | 133 | F-14-  | F-18-  | DEYAE 
+| 1iu3 | F | albelig | 3 | 3 | H | 137 | 151 | F-22-  | F-36-  | AVNRFMLLLSTLYSL 
+| 1iu3 | F | albelig | 4 | 4 | H | 153 | 161 | F-38-  | F-46-  | AQAFAEATE 
+| 1iu3 | F | albelig | 5 | 5 | H | 175 | 180 | F-60-  | F-65-  | EQTLLK 
+| 1iu3 | F | albelig | 6 | 6 | H | 203 | 215 | F-88-  | F-100-  | TGRKCSMIEHIMQ 
+| 1iu3 | F | albelig | 7 | 7 | H | 221 | 230 | F-106-  | F-115-  | AELIEKVCGT 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 7
+= 6 = m = 7
+# Listed 3 contacts. EOF.

@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j1d, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > THIN FILAMENT, MUSCLE REGULATION, CA2+ BINDING PROTEIN, EF-HAND, COILED-COIL, CONTRACTILE PROTEIN
+> pdb_mol_name > TROPONIN C
+> graphtype > albelig
+> resolution > 2.61
+> date > 03-DEC-02
+> header > CONTRACTILE PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE 46KDA DOMAIN OF HUMAN CARDIACTROPONIN IN THE CA2+ SATURATED FORM
+> format_version > 2
+> pdbid > 1j1d
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j1d | A | albelig | 1 | 1 | H | 6 | 10 | A-6-  | A-10-  | KAAVE 
+| 1j1d | A | albelig | 2 | 2 | H | 14 | 27 | A-14-  | A-27-  | EEQKNEFKAAFDIF 
+| 1j1d | A | albelig | 3 | 3 | H | 38 | 47 | A-38-  | A-47-  | TKELGKVMRM 
+| 1j1d | A | albelig | 4 | 4 | H | 54 | 62 | A-54-  | A-62-  | PEELQEMID 
+| 1j1d | A | albelig | 5 | 5 | H | 74 | 83 | A-74-  | A-83-  | FDEFLVMMVR 
+| 1j1d | A | albelig | 6 | 6 | H | 93 | 103 | A-94-  | A-104-  | EEELSDLFRMF 
+| 1j1d | A | albelig | 7 | 7 | H | 113 | 122 | A-114-  | A-123-  | LEELKIMLQA 
+| 1j1d | A | albelig | 8 | 8 | H | 129 | 139 | A-130-  | A-140-  | EDDIEELMKDG 
+| 1j1d | A | albelig | 9 | 9 | H | 149 | 156 | A-150-  | A-157-  | YDEFLEFM 
+| 1j1d | A | albelig | 10 | 10 | L | 707 | 707 | A-201-  | A-201-  | J 
+| 1j1d | A | albelig | 11 | 11 | L | 708 | 708 | A-202-  | A-202-  | J 
+| 1j1d | A | albelig | 12 | 12 | L | 709 | 709 | A-203-  | A-203-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 5
+= 3 = m = 4
+= 5 = l = 10
+= 6 = m = 9
+= 7 = m = 8
+= 7 = l = 11
+= 9 = l = 12
+# Listed 8 contacts. EOF.

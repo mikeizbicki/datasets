@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jao, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > METALLOPROTEASE, ZINC-ENDOPEPTIDASE, METZINCINS, HYDROLASE-HYDROLASEINHIBITOR COMPLEX
+> pdb_mol_name > MATRIX METALLO PROTEINASE-8 (MET80 FORM)
+> graphtype > albelig
+> resolution > 2.4
+> date > 11-MAR-96
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > COMPLEX OF 3-MERCAPTO-2-BENZYLPROPANOYL-ALA-GLY-NH2 WITH THE CATALYTICDOMAIN OF MATRIX METALLO PROTEINASE-8 (MET80 FORM)
+> format_version > 2
+> pdbid > 1jao
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jao | A | albelig | 1 | 1 | E | 8 | 13 | A-92-  | A-97-  | NLTYRI 
+| 1jao | A | albelig | 2 | 2 | H | 22 | 37 | A-106-  | A-121-  | EAEVERAIKDAFELWS 
+| 1jao | A | albelig | 3 | 3 | E | 43 | 46 | A-127-  | A-130-  | IFTR 
+| 1jao | A | albelig | 4 | 4 | E | 54 | 59 | A-138-  | A-143-  | INIAFY 
+| 1jao | A | albelig | 5 | 5 | E | 77 | 79 | A-161-  | A-163-  | AHA 
+| 1jao | A | albelig | 6 | 6 | E | 90 | 93 | A-174-  | A-177-  | AHFD 
+| 1jao | A | albelig | 7 | 7 | H | 107 | 118 | A-191-  | A-202-  | LFLVAAHEFGHS 
+| 1jao | A | albelig | 8 | 8 | H | 147 | 156 | A-231-  | A-240-  | QDDIDGIQAI 
+| 1jao | A | albelig | 9 | 9 | L | 159 | 159 | A-1-  | A-1-  | J 
+| 1jao | A | albelig | 10 | 10 | L | 160 | 160 | A-996-  | A-996-  | J 
+| 1jao | A | albelig | 11 | 11 | L | 161 | 161 | A-997-  | A-997-  | J 
+| 1jao | A | albelig | 12 | 12 | L | 162 | 162 | A-998-  | A-998-  | J 
+| 1jao | A | albelig | 13 | 13 | L | 163 | 163 | A-999-  | A-999-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 4
+= 2 = m = 7
+= 4 = p = 6
+= 4 = l = 10
+= 5 = a = 6
+= 5 = m = 7
+= 5 = l = 9
+= 5 = l = 12
+= 6 = l = 11
+= 6 = l = 12
+= 7 = l = 9
+= 7 = l = 13
+= 9 = l = 13
+# Listed 14 contacts. EOF.

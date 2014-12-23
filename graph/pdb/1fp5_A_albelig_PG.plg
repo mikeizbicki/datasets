@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fp5, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY, FC, IMMUNOGLOBIN FOLD, "CLOSED" IGE-FC, IMMUNESYSTEM
+> pdb_mol_name > IGE HEAVY CHAIN EPSILON-1
+> graphtype > albelig
+> resolution > 2.3
+> date > 30-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE ANALYSIS OF THE HUMAN IGE-FC CEPSILON3-CEPSILON4 FRAGMENT.
+> format_version > 2
+> pdbid > 1fp5
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fp5 | A | albelig | 1 | 1 | E | 2 | 6 | A-337-  | A-341-  | SAYLS 
+| 1fp5 | A | albelig | 2 | 2 | H | 11 | 16 | A-346-  | A-351-  | FDLFIR 
+| 1fp5 | A | albelig | 3 | 3 | E | 20 | 27 | A-355-  | A-362-  | TITALVVD 
+| 1fp5 | A | albelig | 4 | 4 | E | 36 | 41 | A-371-  | A-376-  | NLTWSR 
+| 1fp5 | A | albelig | 5 | 5 | E | 51 | 57 | A-386-  | A-392-  | TRKEEKQ 
+| 1fp5 | A | albelig | 6 | 6 | E | 61 | 69 | A-396-  | A-404-  | TLTVTSTLP 
+| 1fp5 | A | albelig | 7 | 7 | H | 72 | 76 | A-407-  | A-411-  | TRDWI 
+| 1fp5 | A | albelig | 8 | 8 | E | 81 | 86 | A-416-  | A-421-  | YQARVT 
+| 1fp5 | A | albelig | 9 | 9 | E | 94 | 98 | A-429-  | A-433-  | LMRST 
+| 1fp5 | A | albelig | 10 | 10 | E | 109 | 114 | A-444-  | A-449-  | EVYAFA 
+| 1fp5 | A | albelig | 11 | 11 | E | 125 | 134 | A-460-  | A-469-  | RTLANLIQNF 
+| 1fp5 | A | albelig | 12 | 12 | E | 140 | 145 | A-475-  | A-480-  | SVQWLH 
+| 1fp5 | A | albelig | 13 | 13 | H | 152 | 154 | A-487-  | A-489-  | DAR 
+| 1fp5 | A | albelig | 14 | 14 | E | 155 | 157 | A-490-  | A-492-  | HST 
+| 1fp5 | A | albelig | 15 | 15 | E | 168 | 176 | A-503-  | A-511-  | FFVFSRLEV 
+| 1fp5 | A | albelig | 16 | 16 | H | 178 | 181 | A-513-  | A-516-  | RAEW 
+| 1fp5 | A | albelig | 17 | 17 | H | 184 | 186 | A-519-  | A-521-  | KDE 
+| 1fp5 | A | albelig | 18 | 18 | E | 187 | 192 | A-522-  | A-527-  | FINRAV 
+| 1fp5 | A | albelig | 19 | 19 | E | 201 | 205 | A-536-  | A-540-  | TVQRA 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 9
+= 3 = a = 4
+= 3 = a = 6
+= 3 = p = 8
+= 4 = p = 6
+= 4 = a = 8
+= 5 = a = 6
+= 8 = a = 9
+= 10 = a = 11
+= 11 = a = 15
+= 11 = p = 18
+= 12 = a = 15
+= 12 = m = 17
+= 12 = a = 18
+= 13 = m = 14
+= 14 = a = 15
+= 17 = m = 18
+= 18 = a = 19
+# Listed 19 contacts. EOF.

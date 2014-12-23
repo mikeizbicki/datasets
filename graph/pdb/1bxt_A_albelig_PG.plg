@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bxt, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIAL SUPERANTIGEN, MHC CLASS II INTERACTION, T CELLACTIVATION, TOXIC SHOCK-LIKE SYNDROME, IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (STREPTOCOCCAL SUPERANTIGEN)
+> graphtype > albelig
+> resolution > 1.85
+> date > 08-OCT-98
+> header > IMMUNE SYSTEM
+> pdb_org_common > UNKNOWN
+> title > STREPTOCOCCAL SUPERANTIGEN (SSA) FROM STREPTOCOCCUS PYOGENES
+> format_version > 2
+> pdbid > 1bxt
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOCOCCUS PYOGENES
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bxt | A | albelig | 1 | 1 | H | 8 | 10 | A-8-  | A-10-  | PEQ 
+| 1bxt | A | albelig | 2 | 2 | H | 14 | 16 | A-14-  | A-16-  | SSQ 
+| 1bxt | A | albelig | 3 | 3 | H | 22 | 25 | A-22-  | A-25-  | GNLR 
+| 1bxt | A | albelig | 4 | 4 | E | 33 | 38 | A-33-  | A-38-  | VEGTNV 
+| 1bxt | A | albelig | 5 | 5 | E | 48 | 51 | A-48-  | A-51-  | DLIF 
+| 1bxt | A | albelig | 6 | 6 | E | 64 | 67 | A-64-  | A-67-  | VKTE 
+| 1bxt | A | albelig | 7 | 7 | H | 71 | 77 | A-71-  | A-77-  | KDLATKY 
+| 1bxt | A | albelig | 8 | 8 | E | 82 | 86 | A-82-  | A-86-  | VDIFG 
+| 1bxt | A | albelig | 9 | 9 | E | 97 | 99 | A-108-  | A-110-  | NMY 
+| 1bxt | A | albelig | 10 | 10 | E | 102 | 104 | A-113-  | A-115-  | VTE 
+| 1bxt | A | albelig | 11 | 11 | E | 117 | 123 | A-128-  | A-134-  | ITVKVYE 
+| 1bxt | A | albelig | 12 | 12 | E | 126 | 133 | A-137-  | A-144-  | ENILSFDI 
+| 1bxt | A | albelig | 13 | 13 | E | 139 | 141 | A-150-  | A-152-  | QVT 
+| 1bxt | A | albelig | 14 | 14 | H | 142 | 157 | A-153-  | A-168-  | VQELDCKTRKILVSRK 
+| 1bxt | A | albelig | 15 | 15 | E | 167 | 176 | A-178-  | A-187-  | YETGYIKFIE 
+| 1bxt | A | albelig | 16 | 16 | E | 181 | 185 | A-192-  | A-196-  | SFWYD 
+| 1bxt | A | albelig | 17 | 17 | H | 196 | 203 | A-207-  | A-214-  | QSKYLMLY 
+| 1bxt | A | albelig | 18 | 18 | E | 208 | 210 | A-219-  | A-221-  | TVS 
+| 1bxt | A | albelig | 19 | 19 | E | 214 | 222 | A-225-  | A-233-  | IAIEVHLTK 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 15
+= 4 = a = 8
+= 5 = a = 6
+= 6 = p = 9
+= 8 = a = 10
+= 8 = m = 14
+= 9 = m = 17
+= 11 = a = 12
+= 11 = p = 19
+= 12 = a = 14
+= 13 = m = 14
+= 13 = a = 18
+= 14 = a = 15
+= 14 = p = 19
+= 15 = a = 16
+= 15 = a = 19
+# Listed 16 contacts. EOF.

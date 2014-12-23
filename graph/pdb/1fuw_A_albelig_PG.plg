@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fuw, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-SHEET, ALPHA-HELIX, LOOP, PLANT PROTEIN
+> pdb_mol_name > MONELLIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 18-SEP-00
+> header > PLANT PROTEIN
+> pdb_org_common > SERENDIPITY BERRY
+> title > SOLUTION STRUCTURE AND BACKBONE DYNAMICS OF A DOUBLE MUTANTSINGLE-CHAIN MONELLIN(SCM) DETERMINED BY NUCLEAR MAGNETICRESONANCE SPECTROSCOPY
+> format_version > 2
+> pdbid > 1fuw
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > DIOSCOREOPHYLLUM CUMMINSII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fuw | A | albelig | 1 | 1 | H | 10 | 22 | A-10-  | A-22-  | PFTQNLGKFAVDE 
+| 1fuw | A | albelig | 2 | 2 | E | 37 | 46 | A-37-  | A-46-  | VIKPCMKKTI 
+| 1fuw | A | albelig | 3 | 3 | E | 55 | 62 | A-55-  | A-62-  | GYEYQLYV 
+| 1fuw | A | albelig | 4 | 4 | E | 71 | 75 | A-71-  | A-75-  | ADISE 
+| 1fuw | A | albelig | 5 | 5 | E | 82 | 84 | A-82-  | A-84-  | RKL 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 3
+= 2 = a = 3
+= 3 = a = 4
+= 4 = a = 5
+# Listed 5 contacts. EOF.

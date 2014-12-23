@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kzy, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TANDEM-BRCT AND LINKER COMPLEXED WITH NON-BRCT PROTEIN,THREE-HELIX BUNDLE, PARALLEL BETA SHEET, DNA BINDINGPROTEIN, PROTEIN BINDING
+> pdb_mol_name > CELLULAR TUMOR ANTIGEN P53
+> graphtype > albelig
+> resolution > 2.5
+> date > 08-FEB-02
+> header > DNA BINDING PROTEIN, PROTEIN BINDING
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE 53BP1 BRCT REGION COMPLEXED TOTUMOR SUPPRESSOR P53
+> format_version > 2
+> pdbid > 1kzy
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kzy | B | albelig | 1 | 1 | E | 212 | 214 | B-110-  | B-112-  | RLG 
+| 1kzy | B | albelig | 2 | 2 | E | 226 | 229 | B-124-  | B-127-  | CTYS 
+| 1kzy | B | albelig | 3 | 3 | E | 234 | 237 | B-132-  | B-135-  | KMFC 
+| 1kzy | B | albelig | 4 | 4 | E | 243 | 248 | B-141-  | B-146-  | CPVQLW 
+| 1kzy | B | albelig | 5 | 5 | E | 258 | 265 | B-156-  | B-163-  | RVRAMAIY 
+| 1kzy | B | albelig | 6 | 6 | H | 268 | 270 | B-166-  | B-168-  | SQH 
+| 1kzy | B | albelig | 7 | 7 | H | 279 | 282 | B-177-  | B-180-  | PHHE 
+| 1kzy | B | albelig | 8 | 8 | E | 297 | 300 | B-195-  | B-198-  | IRVE 
+| 1kzy | B | albelig | 9 | 9 | E | 306 | 308 | B-204-  | B-206-  | EYL 
+| 1kzy | B | albelig | 10 | 10 | E | 317 | 321 | B-215-  | B-219-  | SVVVP 
+| 1kzy | B | albelig | 11 | 11 | E | 332 | 338 | B-230-  | B-236-  | TTIHYNY 
+| 1kzy | B | albelig | 12 | 12 | E | 353 | 360 | B-251-  | B-258-  | ILTIITLE 
+| 1kzy | B | albelig | 13 | 13 | E | 366 | 376 | B-264-  | B-274-  | LLGRNSFEVRV 
+| 1kzy | B | albelig | 14 | 14 | H | 380 | 389 | B-278-  | B-287-  | PGRDRRTEEE 
+| 1kzy | B | albelig | 15 | 15 | L | 861 | 861 | B-1-  | B-1-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = a = 3
+= 2 = m = 14
+= 3 = a = 4
+= 3 = p = 13
+= 3 = m = 14
+= 4 = a = 11
+= 5 = a = 10
+= 5 = a = 12
+= 7 = l = 15
+= 8 = a = 9
+= 8 = a = 11
+= 9 = a = 10
+= 12 = a = 13
+# Listed 14 contacts. EOF.

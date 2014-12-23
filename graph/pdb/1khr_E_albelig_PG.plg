@@ -1,0 +1,57 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1khr, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC RESISTANCE, ACYLTRANSFERASE
+> pdb_mol_name > STREPTOGRAMIN A ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.8
+> date > 30-NOV-01
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF VAT(D) IN COMPLEX WITH VIRGINIAMYCINAND COENZYME A
+> format_version > 2
+> pdbid > 1khr
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > ENTEROCOCCUS FAECIUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1khr | E | albelig | 1 | 1 | E | 843 | 845 | E-17-  | E-19-  | VQF 
+| 1khr | E | albelig | 2 | 2 | H | 846 | 849 | E-20-  | E-23-  | IKPI 
+| 1khr | E | albelig | 3 | 3 | E | 856 | 858 | E-30-  | E-32-  | VEV 
+| 1khr | E | albelig | 4 | 4 | E | 863 | 865 | E-37-  | E-39-  | YYD 
+| 1khr | E | albelig | 5 | 5 | H | 872 | 875 | E-46-  | E-49-  | FDKQ 
+| 1khr | E | albelig | 6 | 6 | H | 881 | 883 | E-55-  | E-57-  | PIL 
+| 1khr | E | albelig | 7 | 7 | E | 887 | 889 | E-61-  | E-63-  | LKI 
+| 1khr | E | albelig | 8 | 8 | E | 900 | 902 | E-74-  | E-76-  | TII 
+| 1khr | E | albelig | 9 | 9 | H | 904 | 906 | E-78-  | E-80-  | NGA 
+| 1khr | E | albelig | 10 | 10 | H | 917 | 920 | E-91-  | E-94-  | FNLF 
+| 1khr | E | albelig | 11 | 11 | H | 925 | 927 | E-99-  | E-101-  | EKH 
+| 1khr | E | albelig | 12 | 12 | H | 931 | 933 | E-105-  | E-107-  | LDQ 
+| 1khr | E | albelig | 13 | 13 | E | 940 | 942 | E-114-  | E-116-  | TII 
+| 1khr | E | albelig | 14 | 14 | E | 980 | 983 | E-154-  | E-157-  | MLAG 
+| 1khr | E | albelig | 15 | 15 | E | 988 | 992 | E-162-  | E-166-  | NEIKQ 
+| 1khr | E | albelig | 16 | 16 | H | 996 | 1005 | E-170-  | E-179-  | QDTINQLLDI 
+| 1khr | E | albelig | 17 | 17 | H | 1007 | 1009 | E-181-  | E-183-  | WWN 
+| 1khr | E | albelig | 18 | 18 | H | 1012 | 1016 | E-186-  | E-190-  | IDIIN 
+| 1khr | E | albelig | 19 | 19 | H | 1019 | 1023 | E-193-  | E-197-  | IDKIL 
+| 1khr | E | albelig | 20 | 20 | H | 1027 | 1030 | E-201-  | E-204-  | IIRE 
+| 1khr | E | albelig | 21 | 21 | L | 1245 | 1245 | E-403-  | E-403-  | J 
+| 1khr | E | albelig | 22 | 22 | L | 1246 | 1246 | E-305-  | E-305-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 3 = p = 7
+= 4 = l = 22
+= 5 = m = 8
+= 6 = l = 21
+= 7 = p = 13
+= 9 = l = 21
+= 10 = l = 21
+= 12 = l = 21
+= 14 = a = 15
+= 14 = l = 22
+= 15 = l = 22
+= 16 = m = 20
+# Listed 14 contacts. EOF.

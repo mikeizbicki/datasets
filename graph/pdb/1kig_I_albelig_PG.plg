@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1kig, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GLYCOPROTEIN, SERINE PROTEASE, PLASMA, BLOOD COAGULATION,COMPLEX (PROTEASE/INHIBITOR)
+> pdb_mol_name > ANTICOAGULANT PEPTIDE
+> graphtype > albelig
+> resolution > 3.0
+> date > 24-APR-97
+> header > COMPLEX (PROTEASE/INHIBITOR)
+> pdb_org_common > UNKNOWN
+> title > BOVINE FACTOR XA
+> format_version > 2
+> pdbid > 1kig
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > ORNITHODOROS MOUBATA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1kig | I | albelig | 1 | 1 | H | 297 | 299 | I-503-  | I-505-  | RLI 
+| 1kig | I | albelig | 2 | 2 | E | 316 | 318 | I-522-  | I-524-  | ERA 
+| 1kig | I | albelig | 3 | 3 | E | 330 | 332 | I-536-  | I-538-  | FWI 
+| 1kig | I | albelig | 4 | 4 | H | 350 | 353 | I-556-  | I-559-  | FNAI 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+# Listed 1 contacts. EOF.

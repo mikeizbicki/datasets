@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hjj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLYBDOPTERIN NUCLEOTIDYL-TRANSFERASE, MOLYBDENUM COFACTORBIOSYNTHESIS, GTP-BINDING
+> pdb_mol_name > MOLYBDOPTERIN-GUANINE DINUCLEOTIDE BIOSYNTHESIS
+> graphtype > albelig
+> resolution > 1.65
+> date > 27-FEB-03
+> header > MOLYBDENUM COFACTOR BIOSYNTHESIS
+> pdb_org_common > UNKNOWN
+> title > BIOCHEMICAL AND STRUCTURAL ANALYSIS OF THE MOLYBDENUMCOFACTOR BIOSYNTHESIS PROTEIN MOBA
+> format_version > 2
+> pdbid > 1hjj
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hjj | A | albelig | 1 | 1 | E | 4 | 9 | A-7-  | A-12-  | ITGVVL 
+| 1hjj | A | albelig | 2 | 2 | H | 22 | 24 | A-25-  | A-27-  | KGL 
+| 1hjj | A | albelig | 3 | 3 | H | 32 | 43 | A-35-  | A-46-  | LWQHVADALMTQ 
+| 1hjj | A | albelig | 4 | 4 | E | 47 | 50 | A-50-  | A-53-  | VVVN 
+| 1hjj | A | albelig | 5 | 5 | H | 55 | 59 | A-58-  | A-62-  | QEIYQ 
+| 1hjj | A | albelig | 6 | 6 | H | 76 | 86 | A-79-  | A-89-  | PLAGMLSVMQQ 
+| 1hjj | A | albelig | 7 | 7 | E | 91 | 96 | A-94-  | A-99-  | WFLFCP 
+| 1hjj | A | albelig | 8 | 8 | H | 106 | 112 | A-109-  | A-115-  | LAARLNH 
+| 1hjj | A | albelig | 9 | 9 | E | 119 | 123 | A-122-  | A-126-  | VVWVH 
+| 1hjj | A | albelig | 10 | 10 | E | 128 | 136 | A-131-  | A-139-  | DHPTIALVN 
+| 1hjj | A | albelig | 11 | 11 | H | 137 | 148 | A-140-  | A-151-  | RAIEPLLLEYLQ 
+| 1hjj | A | albelig | 12 | 12 | H | 154 | 160 | A-157-  | A-163-  | VMVFMRL 
+| 1hjj | A | albelig | 13 | 13 | E | 164 | 167 | A-167-  | A-170-  | HAVD 
+| 1hjj | A | albelig | 14 | 14 | H | 181 | 185 | A-184-  | A-188-  | PEELA 
+| 1hjj | A | albelig | 15 | 15 | L | 189 | 189 | A-301-  | A-301-  | J 
+| 1hjj | A | albelig | 16 | 16 | L | 190 | 190 | A-302-  | A-302-  | J 
+| 1hjj | A | albelig | 17 | 17 | L | 191 | 191 | A-303-  | A-303-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 3 = m = 4
+= 6 = a = 11
+= 7 = a = 10
+= 9 = a = 10
+= 9 = p = 13
+= 10 = m = 11
+= 10 = m = 12
+= 11 = m = 12
+= 15 = l = 16
+= 15 = l = 17
+= 16 = l = 17
+# Listed 13 contacts. EOF.

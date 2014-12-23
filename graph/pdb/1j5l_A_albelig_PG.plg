@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1j5l, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-DOMAIN, METALLOPROTEIN, CADMIUM-SULFUR-CLUSTER, METALBINDING PROTEIN
+> pdb_mol_name > METALLOTHIONEIN-1
+> graphtype > albelig
+> resolution > -1.0
+> date > 16-MAY-02
+> header > METAL BINDING PROTEIN
+> pdb_org_common > UNKNOWN
+> title > NMR STRUCTURE OF THE ISOLATED BETA_C DOMAIN OF LOBSTERMETALLOTHIONEIN-1
+> format_version > 2
+> pdbid > 1j5l
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1j5l | A | albelig | 1 | 1 | H | 3 | 5 | A-4-  | A-6-  | EKC 
+| 1j5l | A | albelig | 2 | 2 | H | 17 | 20 | A-18-  | A-21-  | CAKT 
+| 1j5l | A | albelig | 3 | 3 | L | 31 | 31 | A-32-  | A-32-  | J 
+| 1j5l | A | albelig | 4 | 4 | L | 32 | 32 | A-33-  | A-33-  | J 
+| 1j5l | A | albelig | 5 | 5 | L | 33 | 33 | A-34-  | A-34-  | J 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 3
+= 1 = l = 4
+= 1 = l = 5
+= 2 = l = 3
+= 2 = l = 5
+= 3 = l = 4
+= 3 = l = 5
+= 4 = l = 5
+# Listed 8 contacts. EOF.

@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gl0, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE/INHIBITOR, COMPLEX (PROTEASE/INHIBITOR),HYDROLASE, SERINE PROTEASE, SERINE PROTEASE INHIBITOR
+> pdb_mol_name > CHYMOTRYPSINOGEN A
+> graphtype > albelig
+> resolution > 3.0
+> date > 22-AUG-01
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > BOVINE
+> title > STRUCTURE OF THE COMPLEX BETWEEN BOVINE ALPHA-CHYMOTRYPSINAND PMP-D2V, AN INHIBITOR FROM THE INSECT LOCUSTAMIGRATORIA
+> format_version > 2
+> pdbid > 1gl0
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gl0 | E | albelig | 1 | 1 | E | 27 | 31 | E-30-  | E-34-  | QVSLQ 
+| 1gl0 | E | albelig | 2 | 2 | E | 37 | 43 | E-40-  | E-46-  | HFNGGSL 
+| 1gl0 | E | albelig | 3 | 3 | E | 48 | 51 | E-51-  | E-54-  | WVVT 
+| 1gl0 | E | albelig | 4 | 4 | H | 53 | 55 | E-56-  | E-58-  | AHN 
+| 1gl0 | E | albelig | 5 | 5 | E | 62 | 65 | E-65-  | E-68-  | VVVA 
+| 1gl0 | E | albelig | 6 | 6 | E | 78 | 87 | E-81-  | E-90-  | QKLKIAKVFK 
+| 1gl0 | E | albelig | 7 | 7 | E | 101 | 105 | E-104-  | E-108-  | TLLKL 
+| 1gl0 | E | albelig | 8 | 8 | E | 132 | 137 | E-135-  | E-140-  | TCVTTG 
+| 1gl0 | E | albelig | 9 | 9 | E | 153 | 160 | E-156-  | E-163-  | QQASLPLL 
+| 1gl0 | E | albelig | 10 | 10 | H | 162 | 172 | E-165-  | E-175-  | NTNDKKYWGTK 
+| 1gl0 | E | albelig | 11 | 11 | E | 177 | 181 | E-180-  | E-184-  | MIDAG 
+| 1gl0 | E | albelig | 12 | 12 | E | 195 | 200 | E-198-  | E-203-  | PLVCKK 
+| 1gl0 | E | albelig | 13 | 13 | E | 203 | 214 | E-206-  | E-217-  | AWTLVGIVSWGS 
+| 1gl0 | E | albelig | 14 | 14 | E | 222 | 227 | E-225-  | E-230-  | PGVYAR 
+| 1gl0 | E | albelig | 15 | 15 | H | 228 | 230 | E-231-  | E-233-  | VTA 
+| 1gl0 | E | albelig | 16 | 16 | H | 232 | 241 | E-235-  | E-244-  | VNWVQQTLAA 
+| 1gl0 | E | albelig | 17 | 17 | L | 276 | 276 | E-1246-  | E-1246-  | J 
+| 1gl0 | E | albelig | 18 | 18 | L | 277 | 277 | E-1247-  | E-1247-  | J 
+| 1gl0 | E | albelig | 19 | 19 | L | 278 | 278 | E-1248-  | E-1248-  | J 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 3 = l = 19
+= 5 = a = 6
+= 6 = a = 7
+= 7 = l = 19
+= 8 = a = 9
+= 8 = a = 12
+= 9 = a = 11
+= 10 = m = 11
+= 10 = a = 14
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+= 16 = l = 19
+# Listed 19 contacts. EOF.

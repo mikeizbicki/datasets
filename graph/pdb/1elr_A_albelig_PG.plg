@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1elr, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HOP, TPR-DOMAIN, PEPTIDE-COMPLEX, HELICAL REPEAT, HSP90,PROTEIN BINDING, CHAPERONE
+> pdb_mol_name > TPR2A-DOMAIN OF HOP
+> graphtype > albelig
+> resolution > 1.9
+> date > 14-MAR-00
+> header > CHAPERONE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE TPR2A DOMAIN OF HOP IN COMPLEXWITH THE HSP90 PEPTIDE MEEVD
+> format_version > 2
+> pdbid > 1elr
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1elr | A | albelig | 1 | 1 | H | 2 | 16 | A-223-  | A-237-  | KQALKEKELGNDAYK 
+| 1elr | A | albelig | 2 | 2 | H | 20 | 33 | A-241-  | A-254-  | FDTALKHYDKAKEL 
+| 1elr | A | albelig | 3 | 3 | H | 38 | 51 | A-259-  | A-272-  | MTYITNQAAVYFEK 
+| 1elr | A | albelig | 4 | 4 | H | 54 | 70 | A-275-  | A-291-  | YNKCRELCEKAIEVGRE 
+| 1elr | A | albelig | 5 | 5 | H | 75 | 91 | A-296-  | A-312-  | YRQIAKAYARIGNSYFK 
+| 1elr | A | albelig | 6 | 6 | H | 95 | 108 | A-316-  | A-329-  | YKDAIHFYNKSLAE 
+| 1elr | A | albelig | 7 | 7 | H | 112 | 127 | A-333-  | A-348-  | PDVLKKCQQAEKILKE 
+| 1elr | A | albelig | 8 | 8 | L | 136 | 136 | A-200-  | A-200-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 3
+= 2 = a = 3
+= 2 = l = 8
+= 3 = a = 4
+= 3 = p = 5
+= 4 = a = 5
+= 5 = a = 6
+= 6 = a = 7
+# Listed 9 contacts. EOF.

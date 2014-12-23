@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1esi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PENICILLIN-BINDING, DD-TRANSPEPTIDASE, SERINE PEPTIDASE, BETA-LACTAMASE, HYDROLASE CARBOXYPEPTIDASE, HYDROLASE
+> pdb_mol_name > DD-TRANSPEPTIDASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 10-APR-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > R248L MUTANT OF STREPTOMYCES K15 DD-TRANSPEPTIDASE
+> format_version > 2
+> pdbid > 1esi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES SP.
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1esi | A | albelig | 1 | 1 | E | 8 | 13 | A-10-  | A-15-  | GGYAMN 
+| 1esi | A | albelig | 2 | 2 | E | 19 | 23 | A-21-  | A-25-  | TLYTK 
+| 1esi | A | albelig | 3 | 3 | H | 32 | 45 | A-34-  | A-47-  | GSTTKIMTAKVVLA 
+| 1esi | A | albelig | 4 | 4 | E | 54 | 56 | A-56-  | A-58-  | KVT 
+| 1esi | A | albelig | 5 | 5 | H | 59 | 68 | A-61-  | A-70-  | KAYSDYVVAN 
+| 1esi | A | albelig | 6 | 6 | E | 80 | 82 | A-82-  | A-84-  | KVT 
+| 1esi | A | albelig | 7 | 7 | H | 83 | 91 | A-85-  | A-93-  | VRQLLYGLM 
+| 1esi | A | albelig | 8 | 8 | H | 96 | 106 | A-98-  | A-108-  | CDAAYALADKY 
+| 1esi | A | albelig | 9 | 9 | H | 112 | 129 | A-114-  | A-131-  | RAARVKSFIGKMNTAATN 
+| 1esi | A | albelig | 10 | 10 | H | 152 | 162 | A-154-  | A-164-  | PRDLTKIASSA 
+| 1esi | A | albelig | 11 | 11 | H | 166 | 172 | A-168-  | A-174-  | STFRTVV 
+| 1esi | A | albelig | 12 | 12 | E | 180 | 182 | A-182-  | A-184-  | KTV 
+| 1esi | A | albelig | 13 | 13 | E | 188 | 190 | A-190-  | A-192-  | IRT 
+| 1esi | A | albelig | 14 | 14 | H | 200 | 203 | A-202-  | A-205-  | LLSS 
+| 1esi | A | albelig | 15 | 15 | E | 207 | 215 | A-209-  | A-217-  | AIGVKTGSG 
+| 1esi | A | albelig | 16 | 16 | E | 219 | 228 | A-221-  | A-230-  | KYCLVFAATR 
+| 1esi | A | albelig | 17 | 17 | E | 231 | 238 | A-233-  | A-240-  | KTVIGTVL 
+| 1esi | A | albelig | 18 | 18 | H | 243 | 259 | A-245-  | A-261-  | IPALESDATKIMNYGFA 
+# Printed info on 18 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 10
+= 1 = a = 17
+= 3 = m = 9
+= 3 = p = 10
+= 3 = m = 15
+= 4 = a = 6
+= 5 = m = 8
+= 6 = m = 7
+= 6 = a = 12
+= 8 = p = 9
+= 10 = a = 17
+= 11 = m = 15
+= 12 = a = 13
+= 14 = m = 15
+= 15 = a = 16
+= 16 = a = 17
+= 16 = p = 18
+= 17 = a = 18
+# Listed 19 contacts. EOF.

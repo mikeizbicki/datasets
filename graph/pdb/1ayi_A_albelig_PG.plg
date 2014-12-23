@@ -1,0 +1,28 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ayi, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BACTERIOCIN, E COLICINS, PROTEIN-PROTEIN INTERACTIONS,DNASE INHIBITOR
+> pdb_mol_name > COLICIN E IMMUNITY PROTEIN 7
+> graphtype > albelig
+> resolution > 2.0
+> date > 04-NOV-97
+> header > BACTERIOCIN
+> pdb_org_common > UNKNOWN
+> title > COLICIN E7 IMMUNITY PROTEIN IM7
+> format_version > 2
+> pdbid > 1ayi
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ayi | A | albelig | 1 | 1 | H | 7 | 9 | A-7-  | A-9-  | ISD 
+| 1ayi | A | albelig | 2 | 2 | H | 12 | 26 | A-12-  | A-26-  | EAEFVQLLKEIEKEN 
+| 1ayi | A | albelig | 3 | 3 | H | 32 | 45 | A-32-  | A-45-  | DVLDVLLEHFVKIT 
+| 1ayi | A | albelig | 4 | 4 | H | 52 | 55 | A-52-  | A-55-  | DLIY 
+| 1ayi | A | albelig | 5 | 5 | H | 65 | 78 | A-65-  | A-78-  | PEGIVKEIKEWRAA 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+# Listed 2 contacts. EOF.

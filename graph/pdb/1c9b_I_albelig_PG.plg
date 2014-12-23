@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c9b, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PROTEIN-DNA COMPLEX, CYCLIN-LIKE FOLD, HELIX-TURN-HELIX,TATA-BOX, TRANSCRIPTION/DNA COMPLEX
+> pdb_mol_name > GENERAL TRANSCRIPTION FACTOR IIB
+> graphtype > albelig
+> resolution > 2.65
+> date > 01-AUG-99
+> header > TRANSCRIPTION/DNA
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A HUMAN TBP CORE DOMAIN-HUMAN TFIIBCORE DOMAIN COMPLEX BOUND TO AN EXTENDED, MODIFIEDADENOVIRAL MAJOR LATE PROMOTER (ADMLP)
+> format_version > 2
+> pdbid > 1c9b
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c9b | I | albelig | 1 | 1 | H | 780 | 796 | I-111-  | I-127-  | DRAMMNAFKEITTMADR 
+| 1c9b | I | albelig | 2 | 2 | H | 801 | 817 | I-132-  | I-148-  | RNIVDRTNNLFKQVYEQ 
+| 1c9b | I | albelig | 3 | 3 | H | 825 | 839 | I-156-  | I-170-  | NDAIASACLYIACRQ 
+| 1c9b | I | albelig | 4 | 4 | H | 846 | 851 | I-177-  | I-182-  | FKEICA 
+| 1c9b | I | albelig | 5 | 5 | H | 857 | 870 | I-188-  | I-201-  | KKEIGRCFKLILKA 
+| 1c9b | I | albelig | 6 | 6 | H | 881 | 890 | I-212-  | I-221-  | GDFMSRFCSN 
+| 1c9b | I | albelig | 7 | 7 | H | 895 | 910 | I-226-  | I-241-  | KQVQMAATHIARKAVE 
+| 1c9b | I | albelig | 8 | 8 | H | 919 | 933 | I-250-  | I-264-  | PISVAAAAIYMASQA 
+| 1c9b | I | albelig | 9 | 9 | H | 940 | 947 | I-271-  | I-278-  | QKEIGDIA 
+| 1c9b | I | albelig | 10 | 10 | H | 951 | 964 | I-282-  | I-295-  | DVTIRQSYRLIYPR 
+| 1c9b | I | albelig | 11 | 11 | H | 965 | 968 | I-296-  | I-299-  | APDL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 2 = a = 3
+= 3 = m = 5
+= 4 = m = 5
+= 6 = m = 7
+= 6 = m = 8
+= 7 = m = 8
+= 7 = m = 11
+= 8 = a = 9
+= 8 = p = 10
+= 10 = m = 11
+# Listed 11 contacts. EOF.

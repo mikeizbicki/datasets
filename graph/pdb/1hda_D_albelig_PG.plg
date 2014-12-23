@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hda, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXYGEN TRANSPORT
+> pdb_mol_name > HEMOGLOBIN (DEOXY) (BETA CHAIN)
+> graphtype > albelig
+> resolution > 2.2
+> date > 06-MAY-93
+> header > OXYGEN TRANSPORT
+> pdb_org_common > CATTLE
+> title > A NOVEL ALLOSTERIC MECHANISM IN HAEMOGLOBIN. STRUCTURE OFBOVINE DEOXYHAEMOGLOBIN, ABSENCE OF SPECIFIC CHLORIDE-BINDING SITES AND ORIGIN OF THE CHLORIDE-LINKED BOHREFFECT IN BOVINE AND HUMAN HAEMOGLOBIN
+> format_version > 2
+> pdbid > 1hda
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hda | D | albelig | 1 | 1 | H | 434 | 444 | D-5-  | D-15-  | AEEKAAVTAFW 
+| 1hda | D | albelig | 2 | 2 | H | 449 | 463 | D-20-  | D-34-  | VDEVGGEALGRLLVV 
+| 1hda | D | albelig | 3 | 3 | H | 465 | 470 | D-36-  | D-41-  | PWTQRF 
+| 1hda | D | albelig | 4 | 4 | H | 472 | 474 | D-43-  | D-45-  | ESF 
+| 1hda | D | albelig | 5 | 5 | H | 480 | 485 | D-51-  | D-56-  | ADAVMN 
+| 1hda | D | albelig | 6 | 6 | H | 487 | 504 | D-58-  | D-75-  | PKVKAHGKKVLDSFSNGM 
+| 1hda | D | albelig | 7 | 7 | H | 510 | 525 | D-81-  | D-96-  | LKGTFAALSELHCDKL 
+| 1hda | D | albelig | 8 | 8 | H | 530 | 550 | D-101-  | D-121-  | ENFKLLGNVLVVVLARNFGKE 
+| 1hda | D | albelig | 9 | 9 | H | 553 | 571 | D-124-  | D-142-  | PVLQADFQKVVAGVANALA 
+| 1hda | D | albelig | 10 | 10 | L | 579 | 579 | D-148-  | D-148-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 6
+= 1 = m = 9
+= 2 = m = 3
+= 2 = m = 5
+= 2 = a = 6
+= 2 = m = 8
+= 2 = l = 10
+= 3 = l = 10
+= 4 = m = 6
+= 4 = l = 10
+= 6 = l = 10
+= 7 = m = 9
+= 7 = l = 10
+= 8 = l = 10
+= 9 = l = 10
+# Listed 15 contacts. EOF.

@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h6f, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION FACTOR, TBX3, T-BOX TRANSCRIPTION FACTOR,ULNAR-MAMMARY SYNDROME, HOLT-ORAM-SYNDROME, IG-FOLD,DNA-BINDING, REPRESSOR, NUCLEAR PROTEIN, DEVELOPMENTALPROTEIN
+> pdb_mol_name > T-BOX TRANSCRIPTION FACTOR TBX3
+> graphtype > albelig
+> resolution > 1.7
+> date > 13-JUN-01
+> header > TRANSCRIPTION FACTOR
+> pdb_org_common > HUMAN
+> title > HUMAN TBX3, A TRANSCRIPTION FACTOR RESPONSIBLE FORULNAR-MAMMARY SYNDROME , BOUND TO A PALINDROMIC DNA SITE
+> format_version > 2
+> pdbid > 1h6f
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h6f | B | albelig | 1 | 1 | E | 190 | 193 | B-104-  | B-107-  | KVHL 
+| 1h6f | B | albelig | 2 | 2 | H | 196 | 205 | B-110-  | B-119-  | KELWDQFHKR 
+| 1h6f | B | albelig | 3 | 3 | E | 208 | 210 | B-122-  | B-124-  | EMV 
+| 1h6f | B | albelig | 4 | 4 | E | 223 | 227 | B-137-  | B-141-  | KVRCS 
+| 1h6f | B | albelig | 5 | 5 | E | 234 | 252 | B-148-  | B-166-  | KYILLMDIIAADDCRYKFH 
+| 1h6f | B | albelig | 6 | 6 | E | 255 | 261 | B-169-  | B-175-  | RWMVAGK 
+| 1h6f | B | albelig | 7 | 7 | H | 280 | 284 | B-194-  | B-198-  | GEQWM 
+| 1h6f | B | albelig | 8 | 8 | E | 312 | 321 | B-226-  | B-235-  | HKYQPRFHIV 
+| 1h6f | B | albelig | 9 | 9 | H | 326 | 328 | B-240-  | B-242-  | ILK 
+| 1h6f | B | albelig | 10 | 10 | E | 335 | 338 | B-249-  | B-252-  | RTYL 
+| 1h6f | B | albelig | 11 | 11 | H | 340 | 342 | B-254-  | B-256-  | PET 
+| 1h6f | B | albelig | 12 | 12 | E | 344 | 347 | B-258-  | B-261-  | FIAV 
+| 1h6f | B | albelig | 13 | 13 | H | 353 | 362 | B-267-  | B-276-  | DKITQLKIDN 
+| 1h6f | B | albelig | 14 | 14 | H | 364 | 369 | B-278-  | B-283-  | PFAKGF 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = m = 11
+= 2 = m = 13
+= 3 = a = 12
+= 5 = a = 6
+= 5 = a = 8
+= 8 = a = 10
+= 8 = a = 12
+# Listed 8 contacts. EOF.

@@ -1,0 +1,32 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bgs, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDONUCLEASE
+> pdb_mol_name > BARSTAR
+> graphtype > albelig
+> resolution > 2.6
+> date > 02-NOV-93
+> header > ENDONUCLEASE
+> pdb_org_common > UNKNOWN
+> title > RECOGNITION BETWEEN A BACTERIAL RIBONUCLEASE, BARNASE, ANDITS NATURAL INHIBITOR, BARSTAR
+> format_version > 2
+> pdbid > 1bgs
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BACILLUS AMYLOLIQUEFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bgs | E | albelig | 1 | 1 | E | 335 | 339 | E-2-  | E-6-  | KAVIN 
+| 1bgs | E | albelig | 2 | 2 | H | 346 | 357 | E-13-  | E-24-  | ISDLHQTLKKEL 
+| 1bgs | E | albelig | 3 | 3 | H | 367 | 376 | E-34-  | E-43-  | LDALWDALTG 
+| 1bgs | E | albelig | 4 | 4 | E | 382 | 387 | E-49-  | E-54-  | LVLEWR 
+| 1bgs | E | albelig | 5 | 5 | H | 389 | 395 | E-56-  | E-62-  | FEQSKQL 
+| 1bgs | E | albelig | 6 | 6 | H | 400 | 412 | E-67-  | E-79-  | AESVLQVFREAKA 
+| 1bgs | E | albelig | 7 | 7 | E | 417 | 421 | E-84-  | E-88-  | ITIIL 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 3 = m = 6
+= 4 = p = 7
+= 6 = m = 7
+# Listed 4 contacts. EOF.

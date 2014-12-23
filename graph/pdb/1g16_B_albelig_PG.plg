@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g16, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > G PROTEIN RAB, SIGNALING PROTEIN, ENDOCYTOSIS/EXOCYTOSISCOMPLEX, SIGNALING PROTEIN,ENDOCYTOSIS/EXOCYTOSIS COMPLEX
+> pdb_mol_name > RAS-RELATED PROTEIN SEC4
+> graphtype > albelig
+> resolution > 1.8
+> date > 10-OCT-00
+> header > SIGNALING PROTEIN,ENDOCYTOSIS/EXOCYTOSIS
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF SEC4-GDP
+> format_version > 2
+> pdbid > 1g16
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g16 | B | albelig | 1 | 1 | E | 164 | 169 | B-21-  | B-26-  | XKILLI 
+| 1g16 | B | albelig | 2 | 2 | H | 176 | 184 | B-33-  | B-41-  | KSCLLVRFV 
+| 1g16 | B | albelig | 3 | 3 | E | 194 | 200 | B-57-  | B-63-  | FKIKTVD 
+| 1g16 | B | albelig | 4 | 4 | E | 205 | 212 | B-68-  | B-75-  | KVKLQIWD 
+| 1g16 | B | albelig | 5 | 5 | H | 224 | 227 | B-87-  | B-90-  | TAYY 
+| 1g16 | B | albelig | 6 | 6 | E | 230 | 238 | B-93-  | B-101-  | AXGIILVYD 
+| 1g16 | B | albelig | 7 | 7 | H | 242 | 246 | B-105-  | B-109-  | ERTFT 
+| 1g16 | B | albelig | 8 | 8 | H | 248 | 256 | B-111-  | B-119-  | IKQWFKTVN 
+| 1g16 | B | albelig | 9 | 9 | E | 264 | 270 | B-127-  | B-133-  | QLLLVGN 
+| 1g16 | B | albelig | 10 | 10 | H | 281 | 291 | B-144-  | B-154-  | ADQGEALAKEL 
+| 1g16 | B | albelig | 11 | 11 | E | 295 | 297 | B-158-  | B-160-  | FIE 
+| 1g16 | B | albelig | 12 | 12 | H | 306 | 322 | B-169-  | B-185-  | VNEIFFTLAKLIQEKID 
+| 1g16 | B | albelig | 13 | 13 | L | 669 | 669 | B-304-  | B-304-  | J 
+| 1g16 | B | albelig | 14 | 14 | L | 670 | 670 | B-202-  | B-202-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = p = 4
+= 1 = p = 6
+= 2 = a = 4
+= 2 = m = 12
+= 2 = l = 13
+= 2 = l = 14
+= 3 = a = 4
+= 4 = l = 13
+= 4 = l = 14
+= 6 = m = 7
+= 6 = p = 9
+= 8 = m = 10
+= 9 = p = 11
+= 9 = a = 12
+= 9 = l = 14
+= 10 = m = 11
+= 13 = l = 14
+# Listed 18 contacts. EOF.

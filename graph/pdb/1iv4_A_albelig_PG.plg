@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iv4, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ISOPRENOID, NON-MEVALONATE, SYNTHASE, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,LYASE
+> pdb_mol_name > 2-C-METHYL-D-ERYTHRITOL 2,4-CYCLODIPHOSPHATE
+> graphtype > albelig
+> resolution > 1.55
+> date > 11-MAR-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF 2C-METHYL-D-ERYTHRITOL-2,4-CYCLODIPHOSPHATESYNTHASE (BOUND FORM SUBSTRATE)
+> format_version > 2
+> pdbid > 1iv4
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iv4 | A | albelig | 1 | 1 | E | 2 | 13 | A-3-  | A-14-  | IGYGEDSHRLEE 
+| 1iv4 | A | albelig | 2 | 2 | E | 17 | 19 | A-18-  | A-20-  | LYL 
+| 1iv4 | A | albelig | 3 | 3 | E | 22 | 24 | A-23-  | A-25-  | LLI 
+| 1iv4 | A | albelig | 4 | 4 | E | 28 | 30 | A-29-  | A-31-  | VGA 
+| 1iv4 | A | albelig | 5 | 5 | H | 38 | 49 | A-39-  | A-50-  | AAMHALTDALLS 
+| 1iv4 | A | albelig | 6 | 6 | H | 56 | 59 | A-57-  | A-60-  | IGLL 
+| 1iv4 | A | albelig | 7 | 7 | H | 72 | 84 | A-73-  | A-85-  | SEVFLREAMRLVE 
+| 1iv4 | A | albelig | 8 | 8 | E | 90 | 98 | A-91-  | A-99-  | LLQASLVLT 
+| 1iv4 | A | albelig | 9 | 9 | H | 105 | 119 | A-106-  | A-120-  | GPHRKALVDSLSRLM 
+| 1iv4 | A | albelig | 10 | 10 | H | 123 | 125 | A-124-  | A-126-  | QDR 
+| 1iv4 | A | albelig | 11 | 11 | E | 126 | 131 | A-127-  | A-132-  | IGLTFK 
+| 1iv4 | A | albelig | 12 | 12 | E | 140 | 149 | A-141-  | A-150-  | HVQARAVVLL 
+| 1iv4 | A | albelig | 13 | 13 | L | 906 | 906 | A-1561-  | A-1561-  | J 
+| 1iv4 | A | albelig | 14 | 14 | L | 907 | 907 | A-1571-  | A-1571-  | J 
+| 1iv4 | A | albelig | 15 | 15 | L | 908 | 908 | A-1572-  | A-1572-  | J 
+| 1iv4 | A | albelig | 16 | 16 | L | 909 | 909 | A-1602-  | A-1602-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 5
+= 1 = a = 12
+= 1 = l = 13
+= 1 = l = 14
+= 2 = a = 3
+= 2 = a = 4
+= 5 = m = 6
+= 5 = p = 7
+= 5 = m = 9
+= 5 = p = 12
+= 5 = l = 13
+= 5 = l = 14
+= 6 = l = 13
+= 6 = l = 14
+= 8 = m = 10
+= 8 = p = 11
+= 8 = a = 12
+= 9 = a = 11
+= 9 = l = 16
+= 10 = m = 11
+= 11 = l = 15
+= 11 = l = 16
+= 13 = l = 14
+= 15 = l = 16
+# Listed 25 contacts. EOF.

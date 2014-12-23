@@ -1,0 +1,35 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b7t, chain Y.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MYOSIN MOTOR
+> pdb_mol_name > MYOSIN REGULATORY LIGHT CHAIN
+> graphtype > albelig
+> resolution > 2.5
+> date > 15-JAN-99
+> header > MYOSIN
+> pdb_org_common > UNKNOWN
+> title > MYOSIN DIGESTED BY PAPAIN
+> format_version > 2
+> pdbid > 1b7t
+> experiment > X-RAY DIFFRACTION
+> chainid > Y
+> graphclass > protein graph
+> pdb_org_sci > ARGOPECTEN IRRADIANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b7t | Y | albelig | 1 | 1 | H | 777 | 789 | Y-15-  | Y-27-  | KQIQEMKEAFSMI 
+| 1b7t | Y | albelig | 2 | 2 | H | 799 | 807 | Y-37-  | Y-45-  | KEDIKAISE 
+| 1b7t | Y | albelig | 3 | 3 | H | 815 | 822 | Y-53-  | Y-60-  | DKELTAML 
+| 1b7t | Y | albelig | 4 | 4 | H | 831 | 839 | Y-69-  | Y-77-  | FTMFLSIFS 
+| 1b7t | Y | albelig | 5 | 5 | H | 848 | 856 | Y-86-  | Y-94-  | EETIRNAFA 
+| 1b7t | Y | albelig | 6 | 6 | H | 868 | 877 | Y-106-  | Y-115-  | IEYIKDLLEN 
+| 1b7t | Y | albelig | 7 | 7 | H | 884 | 891 | Y-122-  | Y-129-  | KDEMRMTF 
+| 1b7t | Y | albelig | 8 | 8 | H | 903 | 910 | Y-141-  | Y-148-  | YVKFTAMI 
+| 1b7t | Y | albelig | 9 | 9 | L | 1069 | 1069 | Y-502-  | Y-502-  | J 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = m = 3
+= 2 = l = 9
+= 5 = a = 8
+= 6 = m = 7
+# Listed 5 contacts. EOF.

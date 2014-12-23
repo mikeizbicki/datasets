@@ -1,0 +1,53 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1apx, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PEROXIDASE
+> pdb_mol_name > CYTOSOLIC ASCORBATE PEROXIDASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 01-FEB-95
+> header > PEROXIDASE
+> pdb_org_common > PEA
+> title > CRYSTAL STRUCTURE OF RECOMBINANT ASCORBATE PEROXIDASE
+> format_version > 2
+> pdbid > 1apx
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PISUM SATIVUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1apx | C | albelig | 1 | 1 | H | 509 | 529 | C-10-  | C-30-  | PDYQKAIEKAKRKLRGFIAEK 
+| 1apx | C | albelig | 2 | 2 | H | 532 | 543 | C-33-  | C-44-  | APLILRLAWHSA 
+| 1apx | C | albelig | 3 | 3 | H | 558 | 560 | C-59-  | C-61-  | TIK 
+| 1apx | C | albelig | 4 | 4 | H | 562 | 565 | C-63-  | C-66-  | QAEL 
+| 1apx | C | albelig | 5 | 5 | H | 568 | 570 | C-69-  | C-71-  | GAN 
+| 1apx | C | albelig | 6 | 6 | H | 573 | 584 | C-74-  | C-85-  | LDIAVRLLEPIK 
+| 1apx | C | albelig | 7 | 7 | H | 592 | 606 | C-93-  | C-107-  | YADFYQLAGVVAVEI 
+| 1apx | C | albelig | 8 | 8 | H | 637 | 647 | C-138-  | C-148-  | SDHLRDVFGKA 
+| 1apx | C | albelig | 9 | 9 | H | 652 | 663 | C-153-  | C-164-  | DQDIVALSGGHT 
+| 1apx | C | albelig | 10 | 10 | H | 669 | 672 | C-170-  | C-173-  | KERS 
+| 1apx | C | albelig | 11 | 11 | H | 688 | 694 | C-189-  | C-195-  | SYFTELL 
+| 1apx | C | albelig | 12 | 12 | H | 705 | 708 | C-206-  | C-209-  | PSDK 
+| 1apx | C | albelig | 13 | 13 | H | 716 | 725 | C-217-  | C-226-  | FRPLVEKYAA 
+| 1apx | C | albelig | 14 | 14 | H | 727 | 742 | C-228-  | C-243-  | EDVFFADYAEAHLKLS 
+| 1apx | C | albelig | 15 | 15 | L | 1004 | 1004 | C-252-  | C-252-  | J 
+| 1apx | C | albelig | 16 | 16 | L | 1005 | 1005 | C-251-  | C-251-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 7
+= 2 = m = 5
+= 2 = m = 6
+= 2 = l = 16
+= 6 = m = 7
+= 8 = l = 16
+= 9 = m = 11
+= 9 = m = 13
+= 9 = m = 14
+= 9 = l = 15
+= 9 = l = 16
+= 10 = l = 16
+= 11 = m = 13
+= 11 = l = 15
+= 12 = l = 16
+= 14 = l = 16
+# Listed 16 contacts. EOF.

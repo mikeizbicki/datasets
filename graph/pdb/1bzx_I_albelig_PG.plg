@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bzx, chain I.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRYPSIN, SERINE PROTEINASES, COLD ADAPTATION, INHIBITOR,SUBSTRATE SPECIFICITY, HYDROLASE/HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > PROTEIN (BOVINE PANCREATIC TRYPSIN INHIBITOR)
+> graphtype > albelig
+> resolution > 2.1
+> date > 05-NOV-98
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > CATTLE
+> title > THE CRYSTAL STRUCTURE OF ANIONIC SALMON TRYPSIN IN COMPLEXWITH BOVINE PANCREATIC TRYPSIN INHIBITOR
+> format_version > 2
+> pdbid > 1bzx
+> experiment > X-RAY DIFFRACTION
+> chainid > I
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bzx | I | albelig | 1 | 1 | H | 226 | 229 | I-503-  | I-506-  | DFGL 
+| 1bzx | I | albelig | 2 | 2 | E | 241 | 247 | I-518-  | I-524-  | IIRYFYN 
+| 1bzx | I | albelig | 3 | 3 | E | 252 | 258 | I-529-  | I-535-  | LIQTFVY 
+| 1bzx | I | albelig | 4 | 4 | H | 271 | 278 | I-548-  | I-555-  | AEDIMRTG 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = m = 4
+# Listed 2 contacts. EOF.

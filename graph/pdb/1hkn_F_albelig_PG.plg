@@ -1,0 +1,49 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hkn, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > GROWTH FACTOR, MITOGEN, ANGIOGENESIS, HEPARIN-BINDING
+> pdb_mol_name > HEPARIN-BINDING GROWTH FACTOR 1
+> graphtype > albelig
+> resolution > 2.0
+> date > 10-MAR-03
+> header > GROWTH FACTOR
+> pdb_org_common > HUMAN
+> title > A COMPLEX BETWEEN ACIDIC FIBROBLAST GROWTH FACTOR AND5-AMINO-2-NAPHTHALENESULFONATE
+> format_version > 2
+> pdbid > 1hkn
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hkn | F | albelig | 1 | 1 | E | 652 | 656 | F-6012-  | F-6016-  | KLLYC 
+| 1hkn | F | albelig | 2 | 2 | E | 661 | 665 | F-6021-  | F-6025-  | HFLRI 
+| 1hkn | F | albelig | 3 | 3 | E | 671 | 674 | F-6031-  | F-6034-  | VDGT 
+| 1hkn | F | albelig | 4 | 4 | H | 680 | 682 | F-6040-  | F-6042-  | QHI 
+| 1hkn | F | albelig | 5 | 5 | E | 684 | 687 | F-6044-  | F-6047-  | LQLS 
+| 1hkn | F | albelig | 6 | 6 | E | 693 | 698 | F-6053-  | F-6058-  | EVYIKS 
+| 1hkn | F | albelig | 7 | 7 | E | 704 | 707 | F-6064-  | F-6067-  | YLAM 
+| 1hkn | F | albelig | 8 | 8 | E | 713 | 716 | F-6073-  | F-6076-  | LYGS 
+| 1hkn | F | albelig | 9 | 9 | H | 721 | 723 | F-6081-  | F-6083-  | EEC 
+| 1hkn | F | albelig | 10 | 10 | E | 725 | 729 | F-6085-  | F-6089-  | FLERL 
+| 1hkn | F | albelig | 11 | 11 | E | 735 | 739 | F-6095-  | F-6099-  | NTYIS 
+| 1hkn | F | albelig | 12 | 12 | H | 743 | 745 | F-6103-  | F-6105-  | AEK 
+| 1hkn | F | albelig | 13 | 13 | H | 760 | 762 | F-6120-  | F-6122-  | GPR 
+| 1hkn | F | albelig | 14 | 14 | H | 768 | 770 | F-6128-  | F-6130-  | KAI 
+| 1hkn | F | albelig | 15 | 15 | E | 772 | 776 | F-6132-  | F-6136-  | FLPLP 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 4
+= 1 = a = 15
+= 2 = a = 3
+= 2 = m = 4
+= 3 = a = 8
+= 5 = a = 6
+= 6 = a = 7
+= 6 = a = 10
+= 7 = a = 8
+= 7 = m = 9
+= 10 = a = 11
+= 11 = m = 14
+# Listed 13 contacts. EOF.

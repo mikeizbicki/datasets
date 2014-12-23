@@ -1,0 +1,38 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1aip, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELONGATION FACTOR, NUCLEOTIDE EXCHANGE, GTP-BINDING,COMPLEX OF TWO ELONGATION FACTORS
+> pdb_mol_name > ELONGATION FACTOR TS
+> graphtype > albelig
+> resolution > 3.0
+> date > 22-APR-97
+> header > COMPLEX OF TWO ELONGATION FACTORS
+> pdb_org_common > UNKNOWN
+> title > EF-TU EF-TS COMPLEX FROM THERMUS THERMOPHILUS
+> format_version > 2
+> pdbid > 1aip
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1aip | H | albelig | 1 | 1 | H | 2094 | 2098 | H-10-  | H-14-  | LREAT 
+| 1aip | H | albelig | 2 | 2 | H | 2102 | 2111 | H-18-  | H-27-  | MMDVKRALED 
+| 1aip | H | albelig | 3 | 3 | H | 2120 | 2134 | H-36-  | H-50-  | VQLLRERGAMKAAKK 
+| 1aip | H | albelig | 4 | 4 | E | 2143 | 2148 | H-59-  | H-64-  | IIGHYI 
+| 1aip | H | albelig | 5 | 5 | E | 2154 | 2161 | H-70-  | H-77-  | VGVLVELN 
+| 1aip | H | albelig | 6 | 6 | H | 2165 | 2168 | H-81-  | H-84-  | DFVA 
+| 1aip | H | albelig | 7 | 7 | H | 2171 | 2187 | H-87-  | H-103-  | ELFQNLAKDLAMHIAMM 
+| 1aip | H | albelig | 8 | 8 | H | 2199 | 2211 | H-115-  | H-127-  | AEELEKERQIYIQ 
+| 1aip | H | albelig | 9 | 9 | H | 2223 | 2226 | H-139-  | H-142-  | AEKI 
+| 1aip | H | albelig | 10 | 10 | H | 2231 | 2238 | H-147-  | H-154-  | LKKYLEEV 
+| 1aip | H | albelig | 11 | 11 | H | 2253 | 2264 | H-169-  | H-180-  | VKELIQQAIAKI 
+| 1aip | H | albelig | 12 | 12 | E | 2269 | 2277 | H-185-  | H-193-  | VVRRFNRFE 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 4 = a = 5
+= 4 = p = 7
+= 5 = a = 7
+= 5 = a = 12
+# Listed 5 contacts. EOF.

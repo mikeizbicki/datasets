@@ -1,0 +1,62 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1afv, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (VIRAL CAPSID/IMMUNOGLOBULIN), HIV, CAPSID PROTEIN,P24, VIRAL PROTEIN/IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > ANTIBODY FAB25.3 FRAGMENT (LIGHT CHAIN)
+> graphtype > albelig
+> resolution > 3.7
+> date > 14-MAR-97
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > HIV-1 CAPSID PROTEIN (P24) COMPLEX WITH FAB25.3
+> format_version > 2
+> pdbid > 1afv
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1afv | M | albelig | 1 | 1 | E | 747 | 749 | M-4-  | M-6-  | LTQ 
+| 1afv | M | albelig | 2 | 2 | E | 753 | 757 | M-10-  | M-14-  | SLAVS 
+| 1afv | M | albelig | 3 | 3 | E | 762 | 768 | M-19-  | M-25-  | ATISERA 
+| 1afv | M | albelig | 4 | 4 | E | 780 | 785 | M-37-  | M-42-  | MNWFQQ 
+| 1afv | M | albelig | 5 | 5 | E | 792 | 796 | M-49-  | M-53-  | KLLIY 
+| 1afv | M | albelig | 6 | 6 | E | 809 | 814 | M-66-  | M-71-  | FSGSGS 
+| 1afv | M | albelig | 7 | 7 | E | 817 | 822 | M-74-  | M-79-  | DFSLNI 
+| 1afv | M | albelig | 8 | 8 | H | 827 | 829 | M-84-  | M-86-  | EED 
+| 1afv | M | albelig | 9 | 9 | E | 831 | 837 | M-88-  | M-94-  | AMYFEQQ 
+| 1afv | M | albelig | 10 | 10 | E | 849 | 854 | M-106-  | M-111-  | TKVELK 
+| 1afv | M | albelig | 11 | 11 | E | 861 | 865 | M-118-  | M-122-  | TVSIF 
+| 1afv | M | albelig | 12 | 12 | H | 869 | 873 | M-126-  | M-130-  | SEQLT 
+| 1afv | M | albelig | 13 | 13 | E | 876 | 886 | M-133-  | M-143-  | GASVVFFLNNF 
+| 1afv | M | albelig | 14 | 14 | E | 892 | 895 | M-149-  | M-152-  | NVKW 
+| 1afv | M | albelig | 15 | 15 | E | 906 | 910 | M-163-  | M-167-  | VLNSW 
+| 1afv | M | albelig | 16 | 16 | E | 920 | 929 | M-177-  | M-186-  | YSMSSTLTLT 
+| 1afv | M | albelig | 17 | 17 | H | 930 | 934 | M-187-  | M-191-  | KDEYE 
+| 1afv | M | albelig | 18 | 18 | E | 938 | 945 | M-195-  | M-202-  | SYTFEATH 
+| 1afv | M | albelig | 19 | 19 | E | 948 | 957 | M-205-  | M-214-  | STSPIVKSFN 
+| 1afv | M | albelig | 20 | 20 | L | 1183 | 1183 | M-218-  | M-218-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 4
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 11 = p = 19
+= 12 = m = 13
+= 13 = a = 16
+= 13 = p = 18
+= 14 = p = 16
+= 14 = a = 18
+= 15 = a = 16
+= 16 = m = 17
+= 18 = a = 19
+# Listed 21 contacts. EOF.

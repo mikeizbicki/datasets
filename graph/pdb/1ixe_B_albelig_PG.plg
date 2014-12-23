@@ -1,0 +1,94 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ixe, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-PRODUCTS COMPLEX, RIKEN STRUCTURAL GENOMICS/PROTEOMICSINITIATIVE, RSGI, STRUCTURAL GENOMICS, LYASE
+> pdb_mol_name > CITRATE SYNTHASE
+> graphtype > albelig
+> resolution > 2.3
+> date > 20-JUN-02
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CITRATE SYNTHASE FROM THERMUS THERMOPHILUS HB8
+> format_version > 2
+> pdbid > 1ixe
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ixe | B | albelig | 1 | 1 | H | 376 | 378 | B-5-  | B-7-  | RGL 
+| 1ixe | B | albelig | 2 | 2 | E | 382 | 386 | B-11-  | B-15-  | LFTES 
+| 1ixe | B | albelig | 3 | 3 | E | 389 | 392 | B-18-  | B-21-  | CYID 
+| 1ixe | B | albelig | 4 | 4 | E | 397 | 400 | B-26-  | B-29-  | KLYY 
+| 1ixe | B | albelig | 5 | 5 | H | 405 | 411 | B-34-  | B-40-  | IQELAEK 
+| 1ixe | B | albelig | 6 | 6 | H | 414 | 423 | B-43-  | B-52-  | FEETTFLLLH 
+| 1ixe | B | albelig | 7 | 7 | H | 429 | 441 | B-58-  | B-70-  | RQELEEFSAALAR 
+| 1ixe | B | albelig | 8 | 8 | H | 447 | 453 | B-76-  | B-82-  | AHLLESF 
+| 1ixe | B | albelig | 9 | 9 | H | 462 | 476 | B-91-  | B-105-  | PMSFLRTAVSEFGML 
+| 1ixe | B | albelig | 10 | 10 | H | 485 | 510 | B-114-  | B-139-  | REALYEKGLDLIAKFATIVAANKRLK 
+| 1ixe | B | albelig | 11 | 11 | H | 524 | 533 | B-153-  | B-162-  | HAANFLYMAN 
+| 1ixe | B | albelig | 12 | 12 | H | 539 | 552 | B-168-  | B-181-  | PEQARLMDAALILH 
+| 1ixe | B | albelig | 13 | 13 | H | 559 | 568 | B-188-  | B-197-  | ASTFTAIAAF 
+| 1ixe | B | albelig | 14 | 14 | H | 574 | 585 | B-203-  | B-214-  | LYSAITAAVASL 
+| 1ixe | B | albelig | 15 | 15 | H | 593 | 604 | B-222-  | B-233-  | ANEAVMRMIQEI 
+| 1ixe | B | albelig | 16 | 16 | H | 607 | 619 | B-236-  | B-248-  | PERAREWVREKLA 
+| 1ixe | B | albelig | 17 | 17 | H | 637 | 650 | B-266-  | B-279-  | PRAGVLEKLARLVA 
+| 1ixe | B | albelig | 18 | 18 | H | 654 | 673 | B-286-  | B-305-  | KEYQILKIVEEEAGKVLNPR 
+| 1ixe | B | albelig | 19 | 19 | H | 679 | 689 | B-311-  | B-321-  | VDFYSGVVYSD 
+| 1ixe | B | albelig | 20 | 20 | H | 694 | 719 | B-326-  | B-351-  | LEFFTPIFAVARISGWVGHILEYQEL 
+| 1ixe | B | albelig | 21 | 21 | E | 727 | 730 | B-359-  | B-362-  | GAKY 
+| 1ixe | B | albelig | 22 | 22 | H | 741 | 743 | B-373-  | B-375-  | LEA 
+| 1ixe | B | albelig | 23 | 23 | L | 1486 | 1486 | B-382-  | B-382-  | J 
+| 1ixe | B | albelig | 24 | 24 | L | 1487 | 1487 | B-383-  | B-383-  | J 
+| 1ixe | B | albelig | 25 | 25 | L | 1488 | 1488 | B-385-  | B-385-  | J 
+| 1ixe | B | albelig | 26 | 26 | L | 1489 | 1489 | B-402-  | B-402-  | J 
+| 1ixe | B | albelig | 27 | 27 | L | 1490 | 1490 | B-406-  | B-406-  | J 
+| 1ixe | B | albelig | 28 | 28 | L | 1491 | 1491 | B-412-  | B-412-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = l = 24
+= 6 = m = 7
+= 6 = a = 10
+= 6 = p = 20
+= 6 = l = 28
+= 8 = a = 9
+= 9 = a = 10
+= 9 = a = 14
+= 9 = m = 20
+= 10 = p = 11
+= 10 = p = 14
+= 10 = a = 20
+= 10 = l = 25
+= 10 = l = 28
+= 11 = m = 12
+= 11 = l = 25
+= 12 = a = 17
+= 12 = a = 19
+= 13 = m = 14
+= 13 = p = 20
+= 13 = l = 27
+= 14 = a = 20
+= 15 = m = 16
+= 15 = m = 18
+= 15 = m = 19
+= 15 = a = 20
+= 15 = l = 26
+= 15 = l = 27
+= 16 = p = 18
+= 16 = l = 26
+= 17 = m = 18
+= 17 = p = 19
+= 17 = l = 26
+= 17 = l = 27
+= 18 = m = 19
+= 18 = l = 26
+= 19 = m = 20
+= 19 = l = 26
+= 19 = l = 27
+= 20 = l = 27
+= 20 = l = 28
+= 21 = l = 23
+= 24 = l = 27
+= 26 = l = 27
+# Listed 45 contacts. EOF.

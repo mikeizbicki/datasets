@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f5c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-SHEET, PROTEIN MONOMER, IRON SULFUR PROTEIN,FERREDOXIN, ELECTRON TRANSPORT
+> pdb_mol_name > FERREDOXIN 1
+> graphtype > albelig
+> resolution > 1.75
+> date > 13-JUN-00
+> header > ELECTRON TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF F25H FERREDOXIN 1 MUTANT FROMAZOTOBACTER VINELANDII AT 1.75 ANGSTROM RESOLUTION
+> format_version > 2
+> pdbid > 1f5c
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AZOTOBACTER VINELANDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f5c | A | albelig | 1 | 1 | E | 2 | 4 | A-2-  | A-4-  | FVV 
+| 1f5c | A | albelig | 2 | 2 | H | 6 | 8 | A-6-  | A-8-  | DNC 
+| 1f5c | A | albelig | 3 | 3 | E | 25 | 28 | A-25-  | A-28-  | HYEG 
+| 1f5c | A | albelig | 4 | 4 | E | 31 | 34 | A-31-  | A-34-  | FLVI 
+| 1f5c | A | albelig | 5 | 5 | H | 46 | 48 | A-46-  | A-48-  | EPE 
+| 1f5c | A | albelig | 6 | 6 | E | 54 | 56 | A-54-  | A-56-  | IFS 
+| 1f5c | A | albelig | 7 | 7 | H | 57 | 59 | A-57-  | A-59-  | EDE 
+| 1f5c | A | albelig | 8 | 8 | H | 62 | 64 | A-62-  | A-64-  | EDM 
+| 1f5c | A | albelig | 9 | 9 | H | 66 | 74 | A-66-  | A-74-  | EFIQLNAEL 
+| 1f5c | A | albelig | 10 | 10 | H | 91 | 94 | A-91-  | A-94-  | AEDW 
+| 1f5c | A | albelig | 11 | 11 | H | 100 | 103 | A-100-  | A-103-  | KLQH 
+| 1f5c | A | albelig | 12 | 12 | L | 107 | 107 | A-300-  | A-300-  | J 
+| 1f5c | A | albelig | 13 | 13 | L | 108 | 108 | A-200-  | A-200-  | J 
+| 1f5c | A | albelig | 14 | 14 | L | 109 | 109 | A-201-  | A-201-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 6
+= 1 = m = 9
+= 1 = l = 13
+= 1 = l = 14
+= 2 = m = 11
+= 2 = l = 13
+= 3 = a = 4
+= 3 = l = 12
+= 3 = l = 14
+= 4 = m = 9
+= 4 = l = 13
+= 4 = l = 14
+= 5 = l = 13
+= 6 = m = 7
+= 6 = l = 13
+# Listed 16 contacts. EOF.

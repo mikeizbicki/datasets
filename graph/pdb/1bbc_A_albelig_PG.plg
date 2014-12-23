@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bbc, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CARBOXYLIC ESTER HYDROLASE, HYDROLASE
+> pdb_mol_name > PHOSPHOLIPASE A2
+> graphtype > albelig
+> resolution > 2.2
+> date > 04-MAY-92
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF RECOMBINANT HUMAN RHEUMATOID ARTHRITIC SYNOVIAL FLUIDPHOSPHOLIPASE A2 AT 2.2 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1bbc
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bbc | A | albelig | 1 | 1 | H | 2 | 13 | A-2-  | A-13-  | LVNFHRMIKLTT 
+| 1bbc | A | albelig | 2 | 2 | H | 17 | 21 | A-17-  | A-22-  | AALSY 
+| 1bbc | A | albelig | 3 | 3 | H | 39 | 53 | A-40-  | A-54-  | ATDRCNVTHDDEYKR 
+| 1bbc | A | albelig | 4 | 4 | E | 68 | 71 | A-75-  | A-78-  | FSNS 
+| 1bbc | A | albelig | 5 | 5 | E | 74 | 77 | A-81-  | A-84-  | RITG 
+| 1bbc | A | albelig | 6 | 6 | H | 82 | 100 | A-90-  | A-108-  | SFRSQLGEEDKAAATCFAR 
+| 1bbc | A | albelig | 7 | 7 | H | 114 | 116 | A-122-  | A-124-  | NKH 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 1 = m = 6
+= 3 = a = 6
+= 4 = a = 5
+= 5 = a = 6
+# Listed 5 contacts. EOF.

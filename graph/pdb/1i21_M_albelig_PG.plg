@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i21, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA, DOMAIN SWAPPING, GNAT, TRANSFERASE
+> pdb_mol_name > GLUCOSAMINE-PHOSPHATE N-ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 05-FEB-01
+> header > TRANSFERASE
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF YEAST GNA1
+> format_version > 2
+> pdbid > 1i21
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i21 | M | albelig | 1 | 1 | E | 323 | 327 | M-7-  | M-11-  | FYIRR 
+| 1i21 | M | albelig | 2 | 2 | H | 330 | 340 | M-14-  | M-24-  | EGDLEQVTETL 
+| 1i21 | M | albelig | 3 | 3 | H | 351 | 361 | M-35-  | M-45-  | PESFCKLIKYW 
+| 1i21 | M | albelig | 4 | 4 | E | 379 | 384 | M-64-  | M-69-  | PXVIVD 
+| 1i21 | M | albelig | 5 | 5 | E | 389 | 400 | M-74-  | M-85-  | TVAATGNIIIER 
+| 1i21 | M | albelig | 6 | 6 | H | 403 | 406 | M-88-  | M-91-  | IHEL 
+| 1i21 | M | albelig | 7 | 7 | E | 408 | 417 | M-93-  | M-102-  | LCGHIEDIAV 
+| 1i21 | M | albelig | 8 | 8 | H | 419 | 421 | M-104-  | M-106-  | SKY 
+| 1i21 | M | albelig | 9 | 9 | H | 426 | 441 | M-111-  | M-126-  | LGKLLIDQLVTIGFDY 
+| 1i21 | M | albelig | 10 | 10 | E | 445 | 450 | M-130-  | M-135-  | KIILDC 
+| 1i21 | M | albelig | 11 | 11 | H | 452 | 460 | M-137-  | M-145-  | EKNVKFYEK 
+| 1i21 | M | albelig | 12 | 12 | E | 464 | 472 | M-149-  | M-157-  | SNAGVEXQI 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = m = 3
+= 2 = m = 5
+= 4 = a = 5
+= 5 = a = 7
+= 5 = p = 9
+= 7 = a = 9
+= 7 = p = 10
+# Listed 8 contacts. EOF.

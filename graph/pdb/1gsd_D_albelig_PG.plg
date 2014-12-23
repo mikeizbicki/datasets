@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gsd, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE (GLUTATHIONE)
+> pdb_mol_name > GLUTATHIONE TRANSFERASE A1-1
+> graphtype > albelig
+> resolution > 2.5
+> date > 09-JUN-95
+> header > TRANSFERASE (GLUTATHIONE)
+> pdb_org_common > HUMAN
+> title > GLUTATHIONE TRANSFERASE A1-1 IN UNLIGANDED FORM
+> format_version > 2
+> pdbid > 1gsd
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gsd | D | albelig | 1 | 1 | E | 632 | 635 | D-6-  | D-9-  | KLHY 
+| 1gsd | D | albelig | 2 | 2 | H | 643 | 652 | D-17-  | D-26-  | ESTRWLLAAA 
+| 1gsd | D | albelig | 3 | 3 | E | 657 | 660 | D-31-  | D-34-  | EEKF 
+| 1gsd | D | albelig | 4 | 4 | H | 664 | 672 | D-38-  | D-46-  | AEDLDKLRN 
+| 1gsd | D | albelig | 5 | 5 | E | 683 | 686 | D-57-  | D-60-  | MVEI 
+| 1gsd | D | albelig | 6 | 6 | E | 689 | 692 | D-63-  | D-66-  | MKLV 
+| 1gsd | D | albelig | 7 | 7 | H | 694 | 704 | D-68-  | D-78-  | TRAILNYIASK 
+| 1gsd | D | albelig | 8 | 8 | H | 712 | 737 | D-86-  | D-111-  | IKERALIDMYIEGIADLGEMILLLPV 
+| 1gsd | D | albelig | 9 | 9 | H | 743 | 758 | D-117-  | D-132-  | KDAKLALIKEKIKNRY 
+| 1gsd | D | albelig | 10 | 10 | H | 759 | 769 | D-133-  | D-143-  | FPAFEKVLKSH 
+| 1gsd | D | albelig | 11 | 11 | H | 781 | 796 | D-155-  | D-170-  | RADIHLVELLYYVEEL 
+| 1gsd | D | albelig | 12 | 12 | H | 800 | 803 | D-174-  | D-177-  | LISS 
+| 1gsd | D | albelig | 13 | 13 | H | 805 | 815 | D-179-  | D-189-  | PLLKALKTRIS 
+| 1gsd | D | albelig | 14 | 14 | H | 818 | 824 | D-192-  | D-198-  | PTVKKFL 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 2 = m = 7
+= 2 = m = 11
+= 2 = m = 14
+= 5 = a = 6
+= 8 = a = 9
+= 8 = p = 11
+= 9 = m = 10
+= 10 = m = 13
+= 11 = m = 13
+= 12 = m = 13
+= 13 = m = 14
+# Listed 13 contacts. EOF.

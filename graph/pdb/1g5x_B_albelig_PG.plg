@@ -1,0 +1,77 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g5x, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME, GENE DUPLICATION, TRANSFERASE
+> pdb_mol_name > BETA-KETOACYL ACYL CARRIER PROTEIN SYNTHASE I
+> graphtype > albelig
+> resolution > 2.45
+> date > 02-NOV-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > THE STRUCTURE OF BETA-KETOACYL-[ACYL CARRIER PROTEIN]SYNTHASE I
+> format_version > 2
+> pdbid > 1g5x
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g5x | B | albelig | 1 | 1 | E | 407 | 415 | B-4-  | B-12-  | AVITGLGIV 
+| 1g5x | B | albelig | 2 | 2 | H | 422 | 431 | B-19-  | B-28-  | QQEVLASLRE 
+| 1g5x | B | albelig | 3 | 3 | H | 440 | 445 | B-37-  | B-42-  | QELKDS 
+| 1g5x | B | albelig | 4 | 4 | H | 465 | 468 | B-62-  | B-65-  | RKVV 
+| 1g5x | B | albelig | 5 | 5 | H | 473 | 488 | B-70-  | B-85-  | DASIYAFLSMEQAIAD 
+| 1g5x | B | albelig | 6 | 6 | H | 493 | 496 | B-90-  | B-93-  | PEAY 
+| 1g5x | B | albelig | 7 | 7 | E | 502 | 507 | B-99-  | B-104-  | VGLIAG 
+| 1g5x | B | albelig | 8 | 8 | H | 513 | 523 | B-110-  | B-120-  | PRFQVFGADAM 
+| 1g5x | B | albelig | 9 | 9 | H | 528 | 531 | B-125-  | B-128-  | GLKA 
+| 1g5x | B | albelig | 10 | 10 | H | 536 | 540 | B-133-  | B-137-  | VVTKA 
+| 1g5x | B | albelig | 11 | 11 | H | 544 | 550 | B-141-  | B-147-  | GVSACLA 
+| 1g5x | B | albelig | 12 | 12 | E | 559 | 563 | B-156-  | B-160-  | NYSIS 
+| 1g5x | B | albelig | 13 | 13 | H | 565 | 581 | B-162-  | B-178-  | ACATSAHCIGNAVEQIQ 
+| 1g5x | B | albelig | 14 | 14 | E | 587 | 594 | B-184-  | B-191-  | IVFAGGGE 
+| 1g5x | B | albelig | 15 | 15 | H | 598 | 606 | B-195-  | B-203-  | WEMACEFDA 
+| 1g5x | B | albelig | 16 | 16 | H | 618 | 620 | B-215-  | B-217-  | PEK 
+| 1g5x | B | albelig | 17 | 17 | E | 637 | 645 | B-234-  | B-242-  | GGGMVVVEE 
+| 1g5x | B | albelig | 18 | 18 | H | 646 | 651 | B-243-  | B-248-  | LEHALA 
+| 1g5x | B | albelig | 19 | 19 | E | 658 | 667 | B-255-  | B-264-  | AEIVGYGATS 
+| 1g5x | B | albelig | 20 | 20 | H | 677 | 688 | B-274-  | B-285-  | GEGAVRCMKMAM 
+| 1g5x | B | albelig | 21 | 21 | E | 697 | 699 | B-294-  | B-296-  | YLN 
+| 1g5x | B | albelig | 22 | 22 | H | 706 | 720 | B-303-  | B-317-  | PVGDVKELAAIREVF 
+| 1g5x | B | albelig | 23 | 23 | E | 726 | 728 | B-323-  | B-325-  | AIS 
+| 1g5x | B | albelig | 24 | 24 | H | 731 | 734 | B-328-  | B-331-  | KAMT 
+| 1g5x | B | albelig | 25 | 25 | H | 738 | 754 | B-335-  | B-351-  | LGAAGVQEAIYSLLMLE 
+| 1g5x | B | albelig | 26 | 26 | H | 769 | 771 | B-366-  | B-368-  | EQA 
+| 1g5x | B | albelig | 27 | 27 | E | 787 | 794 | B-384-  | B-391-  | TVMSNSFG 
+| 1g5x | B | albelig | 28 | 28 | E | 798 | 805 | B-395-  | B-402-  | TNATLVMR 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 5
+= 1 = a = 17
+= 1 = a = 19
+= 5 = m = 11
+= 5 = a = 14
+= 5 = p = 17
+= 7 = p = 12
+= 7 = m = 13
+= 7 = p = 14
+= 11 = m = 12
+= 12 = m = 13
+= 13 = a = 14
+= 13 = m = 19
+= 13 = p = 25
+= 13 = m = 27
+= 13 = p = 28
+= 14 = a = 17
+= 14 = a = 25
+= 17 = m = 18
+= 17 = p = 25
+= 19 = a = 20
+= 19 = a = 28
+= 20 = p = 22
+= 20 = p = 28
+= 21 = p = 23
+= 21 = p = 27
+= 22 = m = 26
+= 27 = a = 28
+# Listed 28 contacts. EOF.

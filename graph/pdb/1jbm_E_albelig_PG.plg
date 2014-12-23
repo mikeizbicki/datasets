@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jbm, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > RING-SHAPED HOMOHEPTAMER, ALL BETA-STRAND, STRUCTURALGENOMICS
+> pdb_mol_name > PUTATIVE SNRNP SM-LIKE PROTEIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 06-JUN-01
+> header > STRUCTURAL GENOMICS
+> pdb_org_common > UNKNOWN
+> title > HEPTAMERIC CRYSTAL STRUCTURE OF MTH649, AN SM-LIKE ARCHAEALPROTEIN FROM METHANOBACTERIUM THERMAUTOTROPHICUM
+> format_version > 2
+> pdbid > 1jbm
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jbm | E | albelig | 1 | 1 | H | 311 | 314 | E-16-  | E-19-  | DALG 
+| 1jbm | E | albelig | 2 | 2 | E | 320 | 325 | E-25-  | E-30-  | PVIIKL 
+| 1jbm | E | albelig | 3 | 3 | H | 326 | 328 | E-31-  | E-33-  | KGD 
+| 1jbm | E | albelig | 4 | 4 | E | 330 | 338 | E-35-  | E-43-  | EFRGVLKSF 
+| 1jbm | E | albelig | 5 | 5 | E | 344 | 353 | E-49-  | E-58-  | LVLNDAEELE 
+| 1jbm | E | albelig | 6 | 6 | E | 356 | 366 | E-61-  | E-71-  | EVTRRLGTVLI 
+| 1jbm | E | albelig | 7 | 7 | H | 368 | 370 | E-73-  | E-75-  | GDN 
+| 1jbm | E | albelig | 8 | 8 | E | 371 | 375 | E-76-  | E-80-  | IVYIS 
+| 1jbm | E | albelig | 9 | 9 | L | 535 | 535 | E-2005-  | E-2005-  | J 
+| 1jbm | E | albelig | 10 | 10 | L | 536 | 536 | E-2008-  | E-2008-  | J 
+| 1jbm | E | albelig | 11 | 11 | L | 537 | 537 | E-1003-  | E-1003-  | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = a = 4
+= 2 = a = 8
+= 2 = l = 10
+= 2 = l = 11
+= 3 = l = 10
+= 3 = l = 11
+= 4 = a = 5
+= 5 = a = 6
+= 7 = m = 8
+= 7 = l = 10
+= 8 = l = 11
+# Listed 12 contacts. EOF.

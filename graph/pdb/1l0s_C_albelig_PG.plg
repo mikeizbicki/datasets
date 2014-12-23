@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1l0s, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LEFT-HANDED BETA-HELIX, ANTIFREEZE PROTEIN, IODINATION
+> pdb_mol_name > THERMAL HYSTERESIS PROTEIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 12-FEB-02
+> header > ANTIFREEZE PROTEIN
+> pdb_org_common > SPRUCE BUDWORM
+> title > CHORISTONEURA FUMIFERANA (SPRUCE BUDWORM) ANTIFREEZEPROTEIN ISOFORM 337
+> format_version > 2
+> pdbid > 1l0s
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > CHORISTONEURA FUMIFERANA
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1l0s | C | albelig | 1 | 1 | E | 180 | 183 | C-4-  | C-7-  | ITNT 
+| 1l0s | C | albelig | 2 | 2 | E | 192 | 194 | C-16-  | C-18-  | KIE 
+| 1l0s | C | albelig | 3 | 3 | E | 196 | 199 | C-20-  | C-23-  | STLT 
+| 1l0s | C | albelig | 4 | 4 | E | 202 | 209 | C-26-  | C-33-  | XVDKSEVF 
+| 1l0s | C | albelig | 5 | 5 | E | 212 | 214 | C-36-  | C-38-  | TJT 
+| 1l0s | C | albelig | 6 | 6 | E | 217 | 224 | C-41-  | C-48-  | RFDGVTIT 
+| 1l0s | C | albelig | 7 | 7 | E | 227 | 229 | C-51-  | C-53-  | TST 
+| 1l0s | C | albelig | 8 | 8 | E | 231 | 241 | C-55-  | C-65-  | SRISGPGKKIS 
+| 1l0s | C | albelig | 9 | 9 | E | 244 | 246 | C-68-  | C-70-  | IIT 
+| 1l0s | C | albelig | 10 | 10 | E | 257 | 259 | C-81-  | C-83-  | KIS 
+| 1l0s | C | albelig | 11 | 11 | E | 262 | 265 | C-86-  | C-89-  | TFSA 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = p = 4
+= 3 = a = 4
+= 3 = p = 5
+= 4 = p = 6
+= 5 = p = 7
+= 6 = p = 8
+= 7 = p = 9
+= 8 = a = 9
+= 8 = a = 10
+= 8 = a = 11
+# Listed 11 contacts. EOF.

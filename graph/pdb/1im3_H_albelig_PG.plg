@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1im3, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA SHEET, BETA SANDWHICH, IMMUNOGLOBULIN (IG) FOLD,IMMUNOGLOBULIN (IG)-LIKE DOMAIN, PROTEIN COMPLEX, ALPHAHELIX, VIRAL PROTEIN/IMMUNE SYSTEM COMPLEX
+> pdb_mol_name > CYTOMEGALOVIRUS PROTEIN US2
+> graphtype > albelig
+> resolution > 2.2
+> date > 09-MAY-01
+> header > VIRAL PROTEIN/IMMUNE SYSTEM
+> pdb_org_common > HUMAN CYTOMEGALOVIRUS
+> title > CRYSTAL STRUCTURE OF THE HUMAN CYTOMEGALOVIRUS PROTEIN US2BOUND TO THE MHC CLASS I MOLECULE HLA-A2/TAX
+> format_version > 2
+> pdbid > 1im3
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > HUMAN HERPESVIRUS 5
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1im3 | H | albelig | 1 | 1 | E | 873 | 882 | H-45-  | H-54-  | FQIEDNRHYI 
+| 1im3 | H | albelig | 2 | 2 | E | 886 | 895 | H-58-  | H-67-  | KLFARGSIVG 
+| 1im3 | H | albelig | 3 | 3 | E | 900 | 907 | H-72-  | H-79-  | FVFDPKAD 
+| 1im3 | H | albelig | 4 | 4 | E | 912 | 914 | H-84-  | H-86-  | GEN 
+| 1im3 | H | albelig | 5 | 5 | H | 919 | 921 | H-91-  | H-93-  | ADD 
+| 1im3 | H | albelig | 6 | 6 | E | 922 | 925 | H-94-  | H-97-  | VEFV 
+| 1im3 | H | albelig | 7 | 7 | E | 929 | 938 | H-101-  | H-110-  | SLKWNVRNLD 
+| 1im3 | H | albelig | 8 | 8 | E | 945 | 952 | H-117-  | H-124-  | TLALRLVL 
+| 1im3 | H | albelig | 9 | 9 | E | 955 | 961 | H-127-  | H-133-  | DVIWLRH 
+# Printed info on 9 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 9
+= 2 = a = 7
+= 3 = a = 4
+= 3 = a = 8
+= 5 = m = 6
+= 5 = m = 7
+= 6 = a = 7
+= 8 = a = 9
+# Listed 9 contacts. EOF.

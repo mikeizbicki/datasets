@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bjz, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION REGULATION, DNA-BINDING PROTEIN, HTH-MOTIF
+> pdb_mol_name > TETRACYCLINE REPRESSOR
+> graphtype > albelig
+> resolution > 2.2
+> date > 29-JUN-98
+> header > TRANSCRIPTION REGULATION
+> pdb_org_common > UNKNOWN
+> title > TETRACYCLINE CHELATED MG2+-ION INITIATES HELIX UNWINDING FOR TETREPRESSOR INDUCTION
+> format_version > 2
+> pdbid > 1bjz
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bjz | A | albelig | 1 | 1 | H | 5 | 23 | A-6-  | A-24-  | RESVIDAALELLNETGIDG 
+| 1bjz | A | albelig | 2 | 2 | H | 26 | 33 | A-27-  | A-34-  | TRKLAQKL 
+| 1bjz | A | albelig | 3 | 3 | H | 37 | 43 | A-38-  | A-44-  | QPTLYWH 
+| 1bjz | A | albelig | 4 | 4 | H | 47 | 62 | A-48-  | A-63-  | KRALLDALAVEILARH 
+| 1bjz | A | albelig | 5 | 5 | H | 74 | 90 | A-75-  | A-91-  | WQSFLRNNAMSFRRALL 
+| 1bjz | A | albelig | 6 | 6 | H | 95 | 100 | A-96-  | A-101-  | GAKVHL 
+| 1bjz | A | albelig | 7 | 7 | H | 106 | 121 | A-107-  | A-122-  | EKQYDTVETQLRFMTE 
+| 1bjz | A | albelig | 8 | 8 | H | 126 | 149 | A-127-  | A-150-  | LRDGLYAISAVSHFTLGAVLEQQE 
+| 1bjz | A | albelig | 9 | 9 | H | 155 | 164 | A-168-  | A-177-  | PLLREALQIM 
+| 1bjz | A | albelig | 10 | 10 | H | 170 | 188 | A-183-  | A-201-  | EQAFLHGLESLIRGFEVQL 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 4
+= 5 = p = 8
+= 5 = a = 10
+= 6 = m = 8
+= 8 = a = 10
+# Listed 6 contacts. EOF.

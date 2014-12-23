@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fb1, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, ALLOSTERIC ENZYME, PHOSPHORYLATION
+> pdb_mol_name > GTP CYCLOHYDROLASE I
+> graphtype > albelig
+> resolution > 3.1
+> date > 14-JUL-00
+> header > HYDROLASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HUMAN GTP CYCLOHYDROLASE I
+> format_version > 2
+> pdbid > 1fb1
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fb1 | D | albelig | 1 | 1 | H | 605 | 618 | D-68-  | D-81-  | LPNLAAAYSSILSS 
+| 1fb1 | D | albelig | 2 | 2 | H | 631 | 642 | D-94-  | D-105-  | TPWRAASAMQFF 
+| 1fb1 | D | albelig | 3 | 3 | H | 650 | 653 | D-113-  | D-116-  | ISDV 
+| 1fb1 | D | albelig | 4 | 4 | E | 667 | 678 | D-130-  | D-141-  | VIVKDIDMFSMC 
+| 1fb1 | D | albelig | 5 | 5 | E | 684 | 693 | D-147-  | D-156-  | PFVGKVHIGY 
+| 1fb1 | D | albelig | 6 | 6 | H | 702 | 705 | D-165-  | D-168-  | LSKL 
+| 1fb1 | D | albelig | 7 | 7 | H | 707 | 713 | D-170-  | D-176-  | RIVEIYS 
+| 1fb1 | D | albelig | 8 | 8 | H | 719 | 734 | D-182-  | D-197-  | QERLTKQIAVAITEAL 
+| 1fb1 | D | albelig | 9 | 9 | E | 738 | 747 | D-201-  | D-210-  | GVGVVVEATH 
+| 1fb1 | D | albelig | 10 | 10 | H | 748 | 751 | D-211-  | D-214-  | MCMV 
+| 1fb1 | D | albelig | 11 | 11 | E | 762 | 769 | D-225-  | D-232-  | TVTSTMLG 
+| 1fb1 | D | albelig | 12 | 12 | H | 770 | 773 | D-233-  | D-236-  | VFRE 
+| 1fb1 | D | albelig | 13 | 13 | H | 775 | 781 | D-238-  | D-244-  | PKTREEF 
+| 1fb1 | D | albelig | 14 | 14 | L | 988 | 988 | D-300-  | D-300-  | J 
+| 1fb1 | D | albelig | 15 | 15 | L | 992 | 992 | D-304-  | D-304-  | J 
+| 1fb1 | D | albelig | 16 | 16 | L | 993 | 993 | D-305-  | D-305-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 4 = a = 5
+= 4 = m = 7
+= 4 = l = 14
+= 4 = l = 16
+= 5 = a = 9
+= 6 = l = 15
+= 7 = m = 8
+= 8 = a = 9
+= 8 = p = 11
+= 9 = m = 10
+= 9 = a = 11
+= 9 = m = 12
+= 9 = l = 16
+= 10 = l = 14
+= 10 = l = 16
+= 11 = m = 12
+= 12 = m = 13
+= 14 = l = 16
+# Listed 19 contacts. EOF.

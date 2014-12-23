@@ -1,0 +1,83 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1iqu, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DNA REPAIR, CYCLOBUTANE PYRIMIDINE DIMER (CPD), FAD,PHOTOREACTIVATING ENZYME, DNA-BINDING, RIKEN STRUCTURALGENOMICS/PROTEOMICS INITIATIVE, RSGI, STRUCTURAL GENOMICS,LYASE
+> pdb_mol_name > PHOTOLYASE
+> graphtype > albelig
+> resolution > 2.2
+> date > 03-AUG-01
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF PHOTOLYASE-THYMINE COMPLEX
+> format_version > 2
+> pdbid > 1iqu
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > THERMUS THERMOPHILUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1iqu | A | albelig | 1 | 1 | E | 3 | 6 | A-4-  | A-7-  | LLVW 
+| 1iqu | A | albelig | 2 | 2 | H | 17 | 23 | A-18-  | A-24-  | PALLEAL 
+| 1iqu | A | albelig | 3 | 3 | E | 28 | 34 | A-29-  | A-35-  | VVGLVVL 
+| 1iqu | A | albelig | 4 | 4 | H | 36 | 39 | A-37-  | A-40-  | PNNL 
+| 1iqu | A | albelig | 5 | 5 | H | 43 | 62 | A-44-  | A-63-  | PRRRAWFLENVRALREAYRA 
+| 1iqu | A | albelig | 6 | 6 | E | 67 | 71 | A-68-  | A-72-  | LWVLE 
+| 1iqu | A | albelig | 7 | 7 | H | 74 | 85 | A-75-  | A-86-  | PWEKVPEAARRL 
+| 1iqu | A | albelig | 8 | 8 | E | 89 | 93 | A-90-  | A-94-  | AVYAL 
+| 1iqu | A | albelig | 9 | 9 | H | 98 | 110 | A-99-  | A-111-  | PYGRYRDGRVREA 
+| 1iqu | A | albelig | 10 | 10 | E | 115 | 118 | A-116-  | A-119-  | LHLL 
+| 1iqu | A | albelig | 11 | 11 | H | 135 | 139 | A-136-  | A-140-  | YTPFS 
+| 1iqu | A | albelig | 12 | 12 | H | 178 | 192 | A-179-  | A-193-  | EEAALAGLRAFLEAK 
+| 1iqu | A | albelig | 13 | 13 | H | 193 | 199 | A-194-  | A-200-  | LPRYAEE 
+| 1iqu | A | albelig | 14 | 14 | H | 212 | 216 | A-213-  | A-217-  | SPYFA 
+| 1iqu | A | albelig | 15 | 15 | H | 222 | 232 | A-223-  | A-233-  | PRLAAWEAERR 
+| 1iqu | A | albelig | 16 | 16 | H | 234 | 256 | A-235-  | A-257-  | GEGARKWVAELLWRDFSYHLLYH 
+| 1iqu | A | albelig | 17 | 17 | H | 258 | 261 | A-259-  | A-262-  | PWMA 
+| 1iqu | A | albelig | 18 | 18 | H | 267 | 269 | A-268-  | A-270-  | PRF 
+| 1iqu | A | albelig | 19 | 19 | H | 278 | 286 | A-279-  | A-287-  | EALFQAWYE 
+| 1iqu | A | albelig | 20 | 20 | H | 292 | 304 | A-293-  | A-305-  | PLVDAAMRELHAT 
+| 1iqu | A | albelig | 21 | 21 | H | 309 | 322 | A-310-  | A-323-  | NRARMNAAQFAVKH 
+| 1iqu | A | albelig | 22 | 22 | H | 327 | 337 | A-328-  | A-338-  | WKRCEEAFRHL 
+| 1iqu | A | albelig | 23 | 23 | H | 343 | 353 | A-344-  | A-354-  | RAVNLQGWQWA 
+| 1iqu | A | albelig | 24 | 24 | H | 358 | 360 | A-359-  | A-361-  | VDA 
+| 1iqu | A | albelig | 25 | 25 | H | 369 | 375 | A-370-  | A-376-  | PVLQGER 
+| 1iqu | A | albelig | 26 | 26 | H | 381 | 386 | A-382-  | A-387-  | RWLKRW 
+| 1iqu | A | albelig | 27 | 27 | H | 402 | 413 | A-403-  | A-414-  | LEEARRRYLRLA 
+| 1iqu | A | albelig | 28 | 28 | L | 416 | 416 | A-422-  | A-422-  | J 
+| 1iqu | A | albelig | 29 | 29 | L | 417 | 417 | A-500-  | A-500-  | J 
+| 1iqu | A | albelig | 30 | 30 | L | 418 | 418 | A-421-  | A-421-  | J 
+# Printed info on 30 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 8
+= 2 = m = 8
+= 3 = p = 6
+= 4 = l = 28
+= 5 = m = 6
+= 7 = m = 9
+= 8 = p = 10
+= 8 = l = 28
+= 9 = l = 28
+= 11 = m = 16
+= 12 = p = 15
+= 12 = l = 30
+= 13 = m = 16
+= 13 = l = 30
+= 14 = l = 30
+= 15 = a = 16
+= 16 = m = 17
+= 16 = m = 23
+= 16 = l = 29
+= 16 = l = 30
+= 17 = m = 23
+= 19 = p = 22
+= 20 = m = 26
+= 21 = l = 29
+= 21 = l = 30
+= 22 = m = 23
+= 22 = l = 30
+= 23 = m = 24
+= 23 = l = 29
+= 23 = l = 30
+= 29 = l = 30
+# Listed 32 contacts. EOF.

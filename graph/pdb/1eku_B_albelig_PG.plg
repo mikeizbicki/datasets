@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1eku, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CYTOKINE, PROTEIN ENGINEERING, INTERFERON, IMMUNE SYSTEM
+> pdb_mol_name > INTERFERON GAMMA
+> graphtype > albelig
+> resolution > 2.9
+> date > 09-MAR-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF A BIOLOGICALLY ACTIVE SINGLE CHAINMUTANT OF HUMAN IFN-GAMMA
+> format_version > 2
+> pdbid > 1eku
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1eku | B | albelig | 1 | 1 | H | 258 | 269 | B-3-  | B-14-  | PYVKEAENLKKY 
+| 1eku | B | albelig | 2 | 2 | H | 285 | 289 | B-30-  | B-34-  | LGILK 
+| 1eku | B | albelig | 3 | 3 | H | 294 | 315 | B-39-  | B-60-  | ESDRKIMQSQIVSFYFKLFKNF 
+| 1eku | B | albelig | 4 | 4 | H | 319 | 337 | B-64-  | B-82-  | QSIQKSVETIKEDMNVKFF 
+| 1eku | B | albelig | 5 | 5 | H | 341 | 351 | B-86-  | B-96-  | KKKRDDFEKLT 
+| 1eku | B | albelig | 6 | 6 | H | 358 | 374 | B-103-  | B-119-  | LNVQRKAIDELIQVMAE 
+| 1eku | B | albelig | 7 | 7 | H | 386 | 395 | B-125-  | B-134-  | VKEAENLKKY 
+| 1eku | B | albelig | 8 | 8 | H | 411 | 415 | B-150-  | B-154-  | LGILK 
+| 1eku | B | albelig | 9 | 9 | H | 420 | 441 | B-159-  | B-180-  | ESDRKIMQSQIVSFYFKLFKNF 
+| 1eku | B | albelig | 10 | 10 | H | 445 | 463 | B-184-  | B-202-  | QSIQKSVETIKEDMNVKFF 
+| 1eku | B | albelig | 11 | 11 | H | 467 | 478 | B-206-  | B-217-  | KKKRDDFEKLTN 
+| 1eku | B | albelig | 12 | 12 | H | 484 | 499 | B-223-  | B-238-  | LNVQRKAIHELIQVMA 
+| 1eku | B | albelig | 13 | 13 | L | 510 | 510 | B-501-  | B-501-  | J 
+| 1eku | B | albelig | 14 | 14 | L | 512 | 512 | B-503-  | B-503-  | J 
+| 1eku | B | albelig | 15 | 15 | L | 513 | 513 | B-504-  | B-504-  | J 
+| 1eku | B | albelig | 16 | 16 | L | 514 | 514 | B-505-  | B-505-  | J 
+| 1eku | B | albelig | 17 | 17 | L | 516 | 516 | B-507-  | B-507-  | J 
+# Printed info on 17 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 12
+= 2 = m = 12
+= 2 = l = 16
+= 3 = a = 4
+= 3 = p = 9
+= 3 = p = 11
+= 3 = a = 12
+= 3 = l = 13
+= 4 = m = 5
+= 4 = m = 12
+= 4 = l = 17
+= 5 = p = 9
+= 5 = l = 17
+= 6 = m = 7
+= 6 = m = 8
+= 6 = a = 9
+= 6 = m = 10
+= 7 = m = 10
+= 8 = l = 14
+= 9 = a = 10
+= 10 = m = 11
+= 10 = l = 13
+= 10 = l = 15
+= 11 = l = 13
+= 11 = l = 15
+# Listed 26 contacts. EOF.

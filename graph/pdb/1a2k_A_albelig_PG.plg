@@ -1,0 +1,42 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a2k, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (TRANSPORT/NUCLEAR PROTEIN), GTP-BINDING
+> pdb_mol_name > NUCLEAR TRANSPORT FACTOR 2
+> graphtype > albelig
+> resolution > 2.5
+> date > 06-JAN-98
+> header > TRANSPORT/NUCLEAR PROTEIN
+> pdb_org_common > NORWAY RAT
+> title > GDPRAN-NTF2 COMPLEX
+> format_version > 2
+> pdbid > 1a2k
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a2k | A | albelig | 1 | 1 | H | 3 | 21 | A-6-  | A-24-  | IWEQIGSSFIQHYYQLFDN 
+| 1a2k | A | albelig | 2 | 2 | H | 23 | 25 | A-26-  | A-28-  | RTQ 
+| 1a2k | A | albelig | 3 | 3 | H | 27 | 29 | A-30-  | A-32-  | GAI 
+| 1a2k | A | albelig | 4 | 4 | E | 30 | 38 | A-33-  | A-41-  | YIDASCLTW 
+| 1a2k | A | albelig | 5 | 5 | E | 41 | 44 | A-44-  | A-47-  | QQFQ 
+| 1a2k | A | albelig | 6 | 6 | H | 46 | 55 | A-49-  | A-58-  | KAAIVEKLSS 
+| 1a2k | A | albelig | 7 | 7 | E | 61 | 72 | A-64-  | A-75-  | IQHSITAQDHQP 
+| 1a2k | A | albelig | 8 | 8 | E | 78 | 88 | A-81-  | A-91-  | IISMVVGQLKA 
+| 1a2k | A | albelig | 9 | 9 | E | 94 | 104 | A-97-  | A-107-  | MGFHQMFLLKN 
+| 1a2k | A | albelig | 10 | 10 | E | 109 | 118 | A-112-  | A-121-  | WVCTNDMFRL 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 7
+= 1 = a = 9
+= 2 = m = 6
+= 3 = m = 4
+= 3 = m = 10
+= 4 = a = 5
+= 4 = p = 6
+= 4 = p = 10
+= 7 = a = 8
+= 8 = a = 9
+= 9 = a = 10
+# Listed 11 contacts. EOF.

@@ -1,0 +1,70 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fc6, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > D1 C-TERMINAL PROCESSING PROTEASE, SERINE PROTEASE, SERINE-LYSINE CATALYTIC DYAD, PDZ DOMAIN, PHOTOSYSTEM II,PHOTOSYNTHESIS, X-RAY CRYSTAL STRUCTURE, HYDROLASE
+> pdb_mol_name > PHOTOSYSTEM II D1 PROTEASE
+> graphtype > albelig
+> resolution > 1.8
+> date > 18-JUL-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > PHOTOSYSTEM II D1 C-TERMINAL PROCESSING PROTEASE
+> format_version > 2
+> pdbid > 1fc6
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SCENEDESMUS OBLIQUUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fc6 | A | albelig | 1 | 1 | H | 3 | 18 | A-80-  | A-95-  | SEQLLFLEAWRAVDRA 
+| 1fc6 | A | albelig | 2 | 2 | H | 24 | 26 | A-101-  | A-103-  | FNG 
+| 1fc6 | A | albelig | 3 | 3 | H | 29 | 39 | A-106-  | A-116-  | WFKLRETYLKK 
+| 1fc6 | A | albelig | 4 | 4 | H | 45 | 57 | A-122-  | A-134-  | RAQTYDAIRKXLA 
+| 1fc6 | A | albelig | 5 | 5 | E | 65 | 67 | A-142-  | A-144-  | RFL 
+| 1fc6 | A | albelig | 6 | 6 | H | 69 | 77 | A-146-  | A-154-  | PSRLAALRR 
+| 1fc6 | A | albelig | 7 | 7 | E | 88 | 92 | A-165-  | A-169-  | LEITY 
+| 1fc6 | A | albelig | 8 | 8 | E | 100 | 105 | A-177-  | A-182-  | VVVLTP 
+| 1fc6 | A | albelig | 9 | 9 | H | 110 | 113 | A-187-  | A-190-  | PAEK 
+| 1fc6 | A | albelig | 10 | 10 | E | 121 | 125 | A-198-  | A-202-  | VIVTV 
+| 1fc6 | A | albelig | 11 | 11 | H | 135 | 142 | A-212-  | A-219-  | LYDVSDLL 
+| 1fc6 | A | albelig | 12 | 12 | E | 149 | 156 | A-226-  | A-233-  | QVEVVLHA 
+| 1fc6 | A | albelig | 13 | 13 | E | 159 | 169 | A-236-  | A-246-  | APSNTRTLQLT 
+| 1fc6 | A | albelig | 14 | 14 | E | 178 | 183 | A-255-  | A-260-  | VTFTTC 
+| 1fc6 | A | albelig | 15 | 15 | H | 188 | 190 | A-265-  | A-267-  | AAA 
+| 1fc6 | A | albelig | 16 | 16 | E | 200 | 205 | A-277-  | A-282-  | LGYVRL 
+| 1fc6 | A | albelig | 17 | 17 | H | 212 | 225 | A-289-  | A-302-  | TTAAAQQAFTELSK 
+| 1fc6 | A | albelig | 18 | 18 | E | 230 | 234 | A-307-  | A-311-  | GLVLD 
+| 1fc6 | A | albelig | 19 | 19 | H | 243 | 253 | A-320-  | A-330-  | FPAGVNVARXL 
+| 1fc6 | A | albelig | 20 | 20 | E | 258 | 264 | A-335-  | A-341-  | DLVLIAD 
+| 1fc6 | A | albelig | 21 | 21 | E | 267 | 273 | A-344-  | A-350-  | GIRDIYS 
+| 1fc6 | A | albelig | 22 | 22 | E | 285 | 289 | A-362-  | A-366-  | LVVLV 
+| 1fc6 | A | albelig | 23 | 23 | H | 296 | 306 | A-373-  | A-383-  | ASEVLAGALKD 
+| 1fc6 | A | albelig | 24 | 24 | E | 310 | 314 | A-387-  | A-391-  | GLIAG 
+| 1fc6 | A | albelig | 25 | 25 | E | 322 | 328 | A-399-  | A-405-  | LIQTVVD 
+| 1fc6 | A | albelig | 26 | 26 | E | 334 | 343 | A-411-  | A-420-  | GVAVTVARYQ 
+| 1fc6 | A | albelig | 27 | 27 | H | 370 | 378 | A-447-  | A-455-  | LEGVCRVLG 
+# Printed info on 27 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = p = 4
+= 3 = m = 4
+= 4 = m = 5
+= 5 = a = 26
+= 6 = m = 25
+= 7 = a = 8
+= 7 = m = 11
+= 8 = p = 10
+= 10 = a = 12
+= 12 = a = 13
+= 14 = a = 16
+= 14 = p = 17
+= 14 = p = 27
+= 16 = p = 18
+= 17 = m = 19
+= 18 = p = 22
+= 20 = a = 21
+= 20 = a = 26
+= 22 = p = 24
+= 23 = m = 24
+= 25 = a = 26
+# Listed 22 contacts. EOF.

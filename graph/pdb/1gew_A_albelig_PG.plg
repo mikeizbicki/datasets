@@ -1,0 +1,72 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gew, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA-STRUCTURE, AMINOTRANSFERASE, PYRIDOXAL-5'-PHOSPHATE,COMPLEX, TRANSFERASE
+> pdb_mol_name > HISTIDINOL-PHOSPHATE AMINOTRANSFERASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 30-NOV-00
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF HISTIDINOL-PHOSPHATE AMINOTRANSFERASE COMPLEXEDWITH PYRIDOXAL 5'-PHOSPHATE
+> format_version > 2
+> pdbid > 1gew
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gew | A | albelig | 1 | 1 | H | 3 | 5 | A-7-  | A-9-  | TDL 
+| 1gew | A | albelig | 2 | 2 | H | 8 | 11 | A-12-  | A-15-  | ENVR 
+| 1gew | A | albelig | 3 | 3 | H | 44 | 54 | A-61-  | A-71-  | KAVIENYAQYA 
+| 1gew | A | albelig | 4 | 4 | H | 58 | 60 | A-75-  | A-77-  | PEQ 
+| 1gew | A | albelig | 5 | 5 | E | 61 | 64 | A-78-  | A-81-  | VLVS 
+| 1gew | A | albelig | 6 | 6 | H | 66 | 78 | A-83-  | A-95-  | GADEGIELLIRAF 
+| 1gew | A | albelig | 7 | 7 | E | 85 | 88 | A-102-  | A-105-  | AILY 
+| 1gew | A | albelig | 8 | 8 | H | 95 | 103 | A-112-  | A-120-  | MYSVSAETI 
+| 1gew | A | albelig | 9 | 9 | E | 106 | 109 | A-123-  | A-126-  | ECRT 
+| 1gew | A | albelig | 10 | 10 | H | 120 | 125 | A-137-  | A-142-  | LQGISD 
+| 1gew | A | albelig | 11 | 11 | E | 130 | 136 | A-147-  | A-153-  | VKVVYVC 
+| 1gew | A | albelig | 12 | 12 | H | 148 | 158 | A-165-  | A-175-  | PQDFRTLLELT 
+| 1gew | A | albelig | 13 | 13 | E | 163 | 167 | A-180-  | A-184-  | IVVAD 
+| 1gew | A | albelig | 14 | 14 | H | 171 | 173 | A-188-  | A-190-  | IEF 
+| 1gew | A | albelig | 15 | 15 | H | 175 | 177 | A-192-  | A-194-  | PQA 
+| 1gew | A | albelig | 16 | 16 | H | 180 | 182 | A-197-  | A-199-  | AGW 
+| 1gew | A | albelig | 17 | 17 | E | 189 | 194 | A-206-  | A-211-  | LAILRT 
+| 1gew | A | albelig | 18 | 18 | H | 202 | 204 | A-219-  | A-221-  | AGL 
+| 1gew | A | albelig | 19 | 19 | E | 207 | 211 | A-224-  | A-228-  | GFTLA 
+| 1gew | A | albelig | 20 | 20 | H | 213 | 220 | A-230-  | A-237-  | EEVINLLM 
+| 1gew | A | albelig | 21 | 21 | H | 230 | 239 | A-247-  | A-256-  | TPVADIAAQA 
+| 1gew | A | albelig | 22 | 22 | H | 242 | 266 | A-259-  | A-283-  | PQGIVAMRERVAQIIAEREYLIAAL 
+| 1gew | A | albelig | 23 | 23 | E | 272 | 275 | A-289-  | A-292-  | VEQV 
+| 1gew | A | albelig | 24 | 24 | E | 282 | 287 | A-299-  | A-304-  | YILARF 
+| 1gew | A | albelig | 25 | 25 | H | 290 | 299 | A-307-  | A-316-  | SSAVFKSLWD 
+| 1gew | A | albelig | 26 | 26 | E | 316 | 320 | A-333-  | A-337-  | CLRIT 
+| 1gew | A | albelig | 27 | 27 | H | 324 | 333 | A-341-  | A-350-  | REESQRVIDA 
+| 1gew | A | albelig | 28 | 28 | L | 335 | 335 | A-413-  | A-413-  | J 
+# Printed info on 28 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 4 = m = 5
+= 4 = m = 19
+= 5 = m = 6
+= 5 = a = 19
+= 6 = p = 8
+= 6 = m = 11
+= 6 = m = 19
+= 6 = l = 28
+= 7 = p = 9
+= 7 = p = 11
+= 8 = l = 28
+= 11 = p = 13
+= 11 = l = 28
+= 13 = p = 17
+= 13 = l = 28
+= 14 = m = 15
+= 17 = a = 19
+= 17 = l = 28
+= 19 = m = 20
+= 19 = l = 28
+= 22 = m = 27
+= 23 = a = 24
+= 24 = a = 26
+# Listed 23 contacts. EOF.

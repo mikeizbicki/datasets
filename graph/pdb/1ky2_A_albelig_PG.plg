@@ -1,0 +1,52 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ky2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > G PROTEIN, VESICULAR TRAFFIC, GTP HYDROLYSIS, YPT/RABPROTEIN, ENDOCYTOSIS, HYDROLASE, ENDOCYTOSIS/EXOCYTOSISCOMPLEX
+> pdb_mol_name > GTP-BINDING PROTEIN YPT7P
+> graphtype > albelig
+> resolution > 1.6
+> date > 02-FEB-02
+> header > ENDOCYTOSIS/EXOCYTOSIS
+> pdb_org_common > BAKER'S YEAST
+> title > GPPNHP-BOUND YPT7P AT 1.6 A RESOLUTION
+> format_version > 2
+> pdbid > 1ky2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ky2 | A | albelig | 1 | 1 | E | 7 | 12 | A-9-  | A-14-  | LKVIIL 
+| 1ky2 | A | albelig | 2 | 2 | H | 19 | 28 | A-21-  | A-30-  | KTSLMHRYVN 
+| 1ky2 | A | albelig | 3 | 3 | E | 41 | 50 | A-43-  | A-52-  | ADFLTKEVTV 
+| 1ky2 | A | albelig | 4 | 4 | E | 54 | 63 | A-56-  | A-65-  | KVATMQVWDT 
+| 1ky2 | A | albelig | 5 | 5 | H | 67 | 69 | A-69-  | A-71-  | ERF 
+| 1ky2 | A | albelig | 6 | 6 | H | 75 | 77 | A-77-  | A-79-  | AFY 
+| 1ky2 | A | albelig | 7 | 7 | E | 82 | 88 | A-84-  | A-90-  | CCVLVYD 
+| 1ky2 | A | albelig | 8 | 8 | H | 92 | 96 | A-94-  | A-98-  | ASSFE 
+| 1ky2 | A | albelig | 9 | 9 | H | 98 | 108 | A-100-  | A-110-  | IKSWRDEFLVH 
+| 1ky2 | A | albelig | 10 | 10 | E | 119 | 124 | A-121-  | A-126-  | FVILGN 
+| 1ky2 | A | albelig | 11 | 11 | H | 137 | 146 | A-139-  | A-148-  | EKSAQELAKS 
+| 1ky2 | A | albelig | 12 | 12 | E | 152 | 155 | A-154-  | A-157-  | LFLT 
+| 1ky2 | A | albelig | 13 | 13 | H | 163 | 179 | A-165-  | A-181-  | VDTAFEEIARSALQQNQ 
+| 1ky2 | A | albelig | 14 | 14 | L | 181 | 181 | A-401-  | A-401-  | J 
+| 1ky2 | A | albelig | 15 | 15 | L | 182 | 182 | A-400-  | A-400-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 7
+= 2 = m = 3
+= 2 = m = 4
+= 2 = l = 14
+= 2 = l = 15
+= 3 = a = 4
+= 4 = l = 14
+= 4 = l = 15
+= 7 = m = 8
+= 7 = a = 9
+= 7 = p = 10
+= 10 = p = 12
+= 10 = l = 15
+= 12 = l = 15
+= 14 = l = 15
+# Listed 16 contacts. EOF.

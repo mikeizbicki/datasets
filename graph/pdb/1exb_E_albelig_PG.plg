@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1exb, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ION CHANNEL, OXIDOREDUCTASE, BETA SUBUNIT, METAL TRANSPORT
+> pdb_mol_name > POTASSIUM CHANNEL KV1.1
+> graphtype > albelig
+> resolution > 2.1
+> date > 02-MAY-00
+> header > METAL TRANSPORT
+> pdb_org_common > NORWAY RAT
+> title > STRUCTURE OF THE CYTOPLASMIC BETA SUBUNIT-T1 ASSEMBLY OFVOLTAGE-DEPENDENT K CHANNELS
+> format_version > 2
+> pdbid > 1exb
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1exb | E | albelig | 1 | 1 | E | 330 | 335 | E-38-  | E-43-  | RVVINI 
+| 1exb | E | albelig | 2 | 2 | E | 338 | 343 | E-46-  | E-51-  | LRFETQ 
+| 1exb | E | albelig | 3 | 3 | H | 344 | 348 | E-52-  | E-56-  | LKTLA 
+| 1exb | E | albelig | 4 | 4 | H | 358 | 364 | E-66-  | E-72-  | PKKRMRY 
+| 1exb | E | albelig | 5 | 5 | E | 371 | 374 | E-79-  | E-82-  | EYFF 
+| 1exb | E | albelig | 6 | 6 | H | 378 | 389 | E-86-  | E-97-  | RPSFDAILYYYQ 
+| 1exb | E | albelig | 7 | 7 | H | 402 | 411 | E-110-  | E-119-  | LDMFSEEIKF 
+# Printed info on 7 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 5
+= 2 = m = 3
+= 2 = p = 6
+= 3 = m = 6
+= 4 = m = 5
+# Listed 6 contacts. EOF.

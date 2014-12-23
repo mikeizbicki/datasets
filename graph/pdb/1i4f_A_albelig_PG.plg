@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i4f, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MAJOR HISTOCOMPATIBILITY COMPLEX, HUMAN LEUKOCYTE ANTIGEN,MELANOMA-ASSOCIATED ANTIGEN, IMMUNE SYSTEM
+> pdb_mol_name > HLA CLASS I HISTOCOMPATIBILITY ANTIGEN, A-2
+> graphtype > albelig
+> resolution > 1.4
+> date > 21-FEB-01
+> header > IMMUNE SYSTEM
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF HLA-A*0201/MAGE-A4-PEPTIDE COMPLEX
+> format_version > 2
+> pdbid > 1i4f
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i4f | A | albelig | 1 | 1 | E | 3 | 12 | A-3-  | A-12-  | HSMRYFFTSV 
+| 1i4f | A | albelig | 2 | 2 | E | 21 | 28 | A-21-  | A-28-  | RFIAVGYV 
+| 1i4f | A | albelig | 3 | 3 | E | 31 | 37 | A-31-  | A-37-  | TQFVRFD 
+| 1i4f | A | albelig | 4 | 4 | H | 50 | 52 | A-50-  | A-52-  | PWI 
+| 1i4f | A | albelig | 5 | 5 | H | 57 | 84 | A-57-  | A-84-  | PEYWDGETRKVKAHSQTHRVDLGTLRGY 
+| 1i4f | A | albelig | 6 | 6 | E | 94 | 103 | A-94-  | A-103-  | TVQRMYGADV 
+| 1i4f | A | albelig | 7 | 7 | E | 109 | 118 | A-109-  | A-118-  | FLRGYHQYAY 
+| 1i4f | A | albelig | 8 | 8 | E | 121 | 126 | A-121-  | A-126-  | KDYIAL 
+| 1i4f | A | albelig | 9 | 9 | E | 133 | 135 | A-133-  | A-135-  | WTA 
+| 1i4f | A | albelig | 10 | 10 | H | 138 | 149 | A-138-  | A-149-  | MAAQTTKHKWEA 
+| 1i4f | A | albelig | 11 | 11 | H | 152 | 163 | A-152-  | A-163-  | VAEQLRAYLEGT 
+| 1i4f | A | albelig | 12 | 12 | H | 164 | 174 | A-164-  | A-174-  | AVEWLRRYLEN 
+| 1i4f | A | albelig | 13 | 13 | H | 176 | 179 | A-176-  | A-179-  | KETL 
+| 1i4f | A | albelig | 14 | 14 | E | 186 | 193 | A-186-  | A-193-  | KTHMTHHA 
+| 1i4f | A | albelig | 15 | 15 | E | 198 | 208 | A-198-  | A-208-  | EATLRNWALSF 
+| 1i4f | A | albelig | 16 | 16 | E | 214 | 219 | A-214-  | A-219-  | TLTWQR 
+| 1i4f | A | albelig | 17 | 17 | E | 222 | 224 | A-222-  | A-224-  | EDQ 
+| 1i4f | A | albelig | 18 | 18 | E | 228 | 230 | A-228-  | A-230-  | TEL 
+| 1i4f | A | albelig | 19 | 19 | E | 241 | 250 | A-241-  | A-250-  | FQKWAAVVVP 
+| 1i4f | A | albelig | 20 | 20 | H | 254 | 256 | A-254-  | A-256-  | EQR 
+| 1i4f | A | albelig | 21 | 21 | E | 257 | 262 | A-257-  | A-262-  | YTNHVQ 
+| 1i4f | A | albelig | 22 | 22 | E | 270 | 273 | A-270-  | A-273-  | LTLR 
+| 1i4f | A | albelig | 23 | 23 | L | 388 | 388 | A-502-  | A-502-  | J 
+# Printed info on 23 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 12
+= 2 = a = 3
+= 5 = l = 23
+= 6 = a = 7
+= 6 = m = 12
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+= 11 = l = 23
+= 12 = l = 23
+= 14 = a = 15
+= 14 = p = 22
+= 15 = a = 16
+= 15 = a = 19
+= 16 = a = 17
+= 16 = p = 19
+= 16 = m = 20
+= 16 = a = 21
+= 18 = a = 19
+= 20 = m = 21
+= 21 = a = 22
+# Listed 25 contacts. EOF.

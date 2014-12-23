@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ic4, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIGEN-ANTIBODY COMPLEX, HYHEL-10, ANTI-HEN EGG WHITELYSOZYME ANTIBODY, PROTEIN BINDING/HYDROLASE COMPLEX
+> pdb_mol_name > IGG1 FAB CHAIN H
+> graphtype > albelig
+> resolution > 2.5
+> date > 30-MAR-01
+> header > PROTEIN BINDING/HYDROLASE
+> pdb_org_common > HOUSE MOUSE
+> title > CRYSTAL STRUCTURE OF HYHEL-10 FV MUTANT(HD32A)-HEN LYSOZYMECOMPLEX
+> format_version > 2
+> pdbid > 1ic4
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ic4 | H | albelig | 1 | 1 | E | 111 | 115 | H-3-  | H-7-  | QLQES 
+| 1ic4 | H | albelig | 2 | 2 | E | 126 | 133 | H-18-  | H-25-  | LSLTNSVT 
+| 1ic4 | H | albelig | 3 | 3 | E | 142 | 147 | H-34-  | H-39-  | WSWIRK 
+| 1ic4 | H | albelig | 4 | 4 | E | 153 | 159 | H-45-  | H-51-  | LEYMGYV 
+| 1ic4 | H | albelig | 5 | 5 | E | 165 | 167 | H-57-  | H-59-  | TYY 
+| 1ic4 | H | albelig | 6 | 6 | H | 169 | 171 | H-61-  | H-63-  | PSL 
+| 1ic4 | H | albelig | 7 | 7 | E | 175 | 180 | H-67-  | H-72-  | ISITRD 
+| 1ic4 | H | albelig | 8 | 8 | E | 185 | 190 | H-77-  | H-82-  | QYYLDL 
+| 1ic4 | H | albelig | 9 | 9 | H | 195 | 197 | H-87-  | H-89-  | TED 
+| 1ic4 | H | albelig | 10 | 10 | E | 199 | 205 | H-91-  | H-97-  | ATYYNAN 
+| 1ic4 | H | albelig | 11 | 11 | E | 215 | 219 | H-107-  | H-111-  | TLVTV 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 10
+= 2 = a = 3
+= 2 = a = 8
+= 2 = p = 10
+= 3 = a = 4
+= 3 = p = 8
+= 3 = a = 10
+= 4 = a = 5
+= 5 = a = 7
+= 7 = a = 8
+= 10 = a = 11
+# Listed 12 contacts. EOF.

@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g1q, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > LECTIN, EGF, ADHESION MOLECULE, IMMUNE SYSTEM, MEMBRANEPROTEIN
+> pdb_mol_name > P-SELECTIN
+> graphtype > albelig
+> resolution > 2.4
+> date > 13-OCT-00
+> header > IMMUNE SYSTEM, MEMBRANE PROTEIN
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF P-SELECTIN LECTIN/EGF DOMAINS
+> format_version > 2
+> pdbid > 1g1q
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g1q | D | albelig | 1 | 1 | E | 484 | 492 | D-2-  | D-10-  | TYHYSTKAY 
+| 1g1q | D | albelig | 2 | 2 | H | 494 | 504 | D-12-  | D-22-  | WNISRKYPQNR 
+| 1g1q | D | albelig | 3 | 3 | H | 514 | 523 | D-32-  | D-41-  | KNEIDYLNKV 
+| 1g1q | D | albelig | 4 | 4 | E | 535 | 537 | D-53-  | D-55-  | IRK 
+| 1g1q | D | albelig | 5 | 5 | E | 542 | 544 | D-60-  | D-62-  | WTW 
+| 1g1q | D | albelig | 6 | 6 | E | 572 | 575 | D-90-  | D-93-  | QVEI 
+| 1g1q | D | albelig | 7 | 7 | E | 586 | 589 | D-104-  | D-107-  | WNDE 
+| 1g1q | D | albelig | 8 | 8 | E | 595 | 601 | D-113-  | D-119-  | KHALPYT 
+| 1g1q | D | albelig | 9 | 9 | H | 608 | 611 | D-126-  | D-129-  | SSSK 
+| 1g1q | D | albelig | 10 | 10 | E | 613 | 618 | D-131-  | D-136-  | GERLET 
+| 1g1q | D | albelig | 11 | 11 | E | 621 | 626 | D-139-  | D-144-  | NYTSST 
+| 1g1q | D | albelig | 12 | 12 | L | 648 | 648 | D-804-  | D-804-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 8
+= 2 = m = 8
+= 4 = a = 5
+= 6 = a = 7
+= 7 = l = 12
+= 9 = m = 10
+= 9 = m = 11
+= 10 = a = 11
+# Listed 8 contacts. EOF.

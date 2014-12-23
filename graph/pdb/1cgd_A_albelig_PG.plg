@@ -1,0 +1,26 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cgd, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COLLAGEN, COLLAGEN HYDRATION, HYDROXYPROLINE, CONNECTIVETISSUE, EXTRACELLULAR MATRIX
+> pdb_mol_name > COLLAGEN-LIKE PEPTIDE
+> graphtype > albelig
+> resolution > 1.85
+> date > 09-JUN-95
+> header > COLLAGEN
+> pdb_org_common > UNKNOWN
+> title > HYDRATION STRUCTURE OF A COLLAGEN PEPTIDE
+> format_version > 2
+> pdbid > 1cgd
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > UNKNOWN
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cgd | A | albelig | 1 | 1 | L | 123 | 123 | A-303-  | A-303-  | J 
+| 1cgd | A | albelig | 2 | 2 | L | 124 | 124 | A-304-  | A-304-  | J 
+| 1cgd | A | albelig | 3 | 3 | L | 125 | 125 | A-306-  | A-306-  | J 
+| 1cgd | A | albelig | 4 | 4 | L | 126 | 126 | A-307-  | A-307-  | J 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = l = 3
+# Listed 1 contacts. EOF.

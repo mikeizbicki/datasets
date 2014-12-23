@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bdq, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HYDROLASE, AIDS, POLYPROTEIN, ASPARTYL PROTEASE, ACIDPROTEASE, HYDROXYETHYLENE ISOSTERE INHIBITOR, SUBSTRATEANALOGUE INHIBITOR
+> pdb_mol_name > HIV-1 PROTEASE
+> graphtype > albelig
+> resolution > 2.5
+> date > 10-MAY-98
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > HIV-1 (2:31-37, 47, 82) PROTEASE COMPLEXED WITH INHIBITORSB203386
+> format_version > 2
+> pdbid > 1bdq
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HUMAN IMMUNODEFICIENCY VIRUS 1
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bdq | B | albelig | 1 | 1 | E | 102 | 104 | B-2-  | B-4-  | QIT 
+| 1bdq | B | albelig | 2 | 2 | E | 110 | 115 | B-10-  | B-15-  | LVTIKI 
+| 1bdq | B | albelig | 3 | 3 | E | 118 | 124 | B-18-  | B-24-  | QLKEALL 
+| 1bdq | B | albelig | 4 | 4 | E | 131 | 134 | B-31-  | B-34-  | SIVA 
+| 1bdq | B | albelig | 5 | 5 | E | 143 | 149 | B-43-  | B-49-  | KPKMVGG 
+| 1bdq | B | albelig | 6 | 6 | E | 152 | 166 | B-52-  | B-66-  | GFIKVRQYDQILIEI 
+| 1bdq | B | albelig | 7 | 7 | E | 169 | 178 | B-69-  | B-78-  | HKAIGTVLVG 
+| 1bdq | B | albelig | 8 | 8 | H | 187 | 190 | B-87-  | B-90-  | RNLL 
+| 1bdq | B | albelig | 9 | 9 | E | 196 | 198 | B-96-  | B-98-  | TLN 
+| 1bdq | B | albelig | 10 | 10 | L | 200 | 200 | B-400-  | B-400-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 6
+= 3 = l = 10
+= 4 = p = 7
+= 4 = l = 10
+= 5 = a = 6
+= 5 = l = 10
+= 6 = a = 7
+# Listed 8 contacts. EOF.

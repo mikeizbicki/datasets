@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gg0, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BETA-ALPHA-BARREL, LYASE
+> pdb_mol_name > 3-DEOXY-D-MANNO-OCTULOSONATE 8-PHOSPHATE SYNTHASE
+> graphtype > albelig
+> resolution > 3.0
+> date > 04-AUG-00
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE ANALYSIS OF KDOP SYNTHASE AT 3.0 A
+> format_version > 2
+> pdbid > 1gg0
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gg0 | A | albelig | 1 | 1 | E | 5 | 8 | A-5-  | A-8-  | VVSI 
+| 1gg0 | A | albelig | 2 | 2 | E | 11 | 14 | A-11-  | A-14-  | INVA 
+| 1gg0 | A | albelig | 3 | 3 | E | 20 | 27 | A-20-  | A-27-  | VLFGGMNV 
+| 1gg0 | A | albelig | 4 | 4 | H | 31 | 48 | A-31-  | A-48-  | RDLAMRICEHYVTVTQKL 
+| 1gg0 | A | albelig | 5 | 5 | E | 52 | 57 | A-52-  | A-57-  | YVFKAS 
+| 1gg0 | A | albelig | 6 | 6 | H | 73 | 88 | A-73-  | A-88-  | GLEEGMKIFQELKQTF 
+| 1gg0 | A | albelig | 7 | 7 | E | 91 | 95 | A-91-  | A-95-  | KIITD 
+| 1gg0 | A | albelig | 8 | 8 | H | 99 | 106 | A-99-  | A-106-  | PSQAQPVA 
+| 1gg0 | A | albelig | 9 | 9 | E | 111 | 114 | A-111-  | A-114-  | VIQL 
+| 1gg0 | A | albelig | 10 | 10 | H | 116 | 118 | A-116-  | A-118-  | AFL 
+| 1gg0 | A | albelig | 11 | 11 | H | 122 | 130 | A-122-  | A-130-  | TDLVEAMAK 
+| 1gg0 | A | albelig | 12 | 12 | E | 134 | 138 | A-134-  | A-138-  | VINVK 
+| 1gg0 | A | albelig | 13 | 13 | H | 145 | 157 | A-145-  | A-157-  | PGQMGNIVDKFKE 
+| 1gg0 | A | albelig | 14 | 14 | E | 163 | 167 | A-163-  | A-167-  | VILCD 
+| 1gg0 | A | albelig | 15 | 15 | H | 183 | 190 | A-183-  | A-190-  | GFSIMKKV 
+| 1gg0 | A | albelig | 16 | 16 | E | 196 | 199 | A-196-  | A-199-  | VIFD 
+| 1gg0 | A | albelig | 17 | 17 | H | 200 | 203 | A-200-  | A-203-  | VTHA 
+| 1gg0 | A | albelig | 18 | 18 | H | 213 | 223 | A-221-  | A-231-  | VAELARAGMAV 
+| 1gg0 | A | albelig | 19 | 19 | E | 227 | 233 | A-235-  | A-241-  | GLFIEAH 
+| 1gg0 | A | albelig | 20 | 20 | H | 249 | 267 | A-257-  | A-275-  | LAKLEPFLKQMKAIDDLVK 
+| 1gg0 | A | albelig | 21 | 21 | L | 277 | 277 | A-290-  | A-290-  | J 
+| 1gg0 | A | albelig | 22 | 22 | L | 278 | 278 | A-291-  | A-291-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = m = 4
+= 3 = p = 5
+= 3 = p = 19
+= 4 = m = 5
+= 4 = p = 6
+= 4 = m = 19
+= 4 = p = 20
+= 5 = p = 7
+= 7 = p = 9
+= 7 = l = 21
+= 9 = m = 11
+= 9 = p = 12
+= 9 = l = 21
+= 10 = l = 21
+= 11 = m = 13
+= 12 = p = 14
+= 12 = l = 21
+= 13 = m = 15
+= 14 = p = 16
+= 16 = m = 17
+= 16 = p = 19
+= 16 = l = 21
+= 17 = m = 18
+= 17 = l = 21
+= 18 = p = 20
+# Listed 26 contacts. EOF.

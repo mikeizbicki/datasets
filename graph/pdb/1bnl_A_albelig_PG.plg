@@ -1,0 +1,44 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bnl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDOSTATIN, COLLAGEN XVIII, COLLAGEN, ANTIANGIOGENIC,ANGIOGENIC, ANGIOGENISIS, CANCER, ZINC, EXTRACELLULAR MATRIX
+> pdb_mol_name > COLLAGEN XVIII
+> graphtype > albelig
+> resolution > 2.9
+> date > 30-JUL-98
+> header > EXTRACELLULAR MATRIX
+> pdb_org_common > HUMAN
+> title > ZINC DEPENDENT DIMERS OBSERVED IN CRYSTALS OF HUMANENDOSTATIN
+> format_version > 2
+> pdbid > 1bnl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bnl | A | albelig | 1 | 1 | E | 10 | 14 | A-10-  | A-14-  | LHLVA 
+| 1bnl | A | albelig | 2 | 2 | H | 26 | 39 | A-26-  | A-39-  | IRGADFQAFQQARA 
+| 1bnl | A | albelig | 3 | 3 | E | 46 | 49 | A-46-  | A-49-  | FRAF 
+| 1bnl | A | albelig | 4 | 4 | H | 58 | 60 | A-58-  | A-60-  | YSI 
+| 1bnl | A | albelig | 5 | 5 | H | 63 | 65 | A-63-  | A-65-  | RAD 
+| 1bnl | A | albelig | 6 | 6 | E | 78 | 80 | A-78-  | A-80-  | LLF 
+| 1bnl | A | albelig | 7 | 7 | H | 83 | 86 | A-83-  | A-86-  | WEAL 
+| 1bnl | A | albelig | 8 | 8 | H | 108 | 110 | A-108-  | A-110-  | VLR 
+| 1bnl | A | albelig | 9 | 9 | E | 118 | 120 | A-118-  | A-120-  | SVW 
+| 1bnl | A | albelig | 10 | 10 | H | 135 | 138 | A-135-  | A-138-  | NETW 
+| 1bnl | A | albelig | 11 | 11 | E | 146 | 151 | A-146-  | A-151-  | TGQASS 
+| 1bnl | A | albelig | 12 | 12 | H | 152 | 154 | A-152-  | A-154-  | LLG 
+| 1bnl | A | albelig | 13 | 13 | E | 161 | 164 | A-161-  | A-164-  | SAAS 
+| 1bnl | A | albelig | 14 | 14 | E | 172 | 175 | A-172-  | A-175-  | LAIE 
+| 1bnl | A | albelig | 15 | 15 | L | 716 | 716 | A-179-  | A-179-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 14
+= 1 = l = 15
+= 2 = m = 3
+= 3 = a = 14
+= 9 = a = 11
+= 10 = m = 11
+= 11 = m = 12
+= 11 = a = 13
+# Listed 8 contacts. EOF.

@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g27, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > BB-3497, INHIBITION, POLYPEPTIDE DEFORMYLASE, HYDROLASE
+> pdb_mol_name > POLYPEPTIDE DEFORMYLASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 17-OCT-00
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF E.COLI POLYPEPTIDE DEFORMYLASECOMPLEXED WITH THE INHIBITOR BB-3497
+> format_version > 2
+> pdbid > 1g27
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g27 | A | albelig | 1 | 1 | H | 11 | 14 | A-11-  | A-14-  | ERLR 
+| 1g27 | A | albelig | 2 | 2 | H | 25 | 41 | A-25-  | A-41-  | AEIQRIVDDMFETMYAE 
+| 1g27 | A | albelig | 3 | 3 | E | 45 | 47 | A-45-  | A-47-  | GLA 
+| 1g27 | A | albelig | 4 | 4 | H | 48 | 51 | A-48-  | A-51-  | ATQV 
+| 1g27 | A | albelig | 5 | 5 | E | 57 | 60 | A-57-  | A-60-  | IIVI 
+| 1g27 | A | albelig | 6 | 6 | E | 70 | 81 | A-70-  | A-81-  | LVLINPELLEKS 
+| 1g27 | A | albelig | 7 | 7 | E | 87 | 89 | A-87-  | A-89-  | EEG 
+| 1g27 | A | albelig | 8 | 8 | E | 97 | 99 | A-97-  | A-99-  | RAL 
+| 1g27 | A | albelig | 9 | 9 | E | 105 | 111 | A-105-  | A-111-  | KVKIRAL 
+| 1g27 | A | albelig | 10 | 10 | E | 117 | 122 | A-117-  | A-122-  | PFELEA 
+| 1g27 | A | albelig | 11 | 11 | H | 124 | 136 | A-124-  | A-136-  | GLLAICIQHEMDH 
+| 1g27 | A | albelig | 12 | 12 | H | 142 | 145 | A-142-  | A-145-  | FMDY 
+| 1g27 | A | albelig | 13 | 13 | H | 148 | 163 | A-148-  | A-163-  | PLKQQRIRQKVEKLDR 
+| 1g27 | A | albelig | 14 | 14 | L | 495 | 495 | A-9001-  | A-9001-  | J 
+| 1g27 | A | albelig | 15 | 15 | L | 496 | 496 | A-1001-  | A-1001-  | J 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 2 = m = 5
+= 3 = m = 4
+= 3 = a = 5
+= 3 = m = 11
+= 3 = l = 15
+= 4 = l = 14
+= 4 = l = 15
+= 5 = a = 6
+= 5 = m = 11
+= 6 = a = 9
+= 7 = a = 8
+= 7 = l = 14
+= 7 = l = 15
+= 8 = l = 15
+= 9 = a = 10
+= 11 = l = 14
+= 11 = l = 15
+= 14 = l = 15
+# Listed 19 contacts. EOF.

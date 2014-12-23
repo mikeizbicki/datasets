@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k6k, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CLPA, CHAPERONE, ATPASE, ADAPTOR BINDING, X-RAY, STRUCTURE,N-DOMAIN, HYDROLASE
+> pdb_mol_name > ATP-DEPENDENT CLP PROTEASE ATP-BINDING SUBUNIT
+> graphtype > albelig
+> resolution > 1.8
+> date > 16-OCT-01
+> header > HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF CLPA, AN AAA+ CHAPERONE-LIKE REGULATOROF CLPAP PROTEASE IMPLICATION TO THE FUNCTIONAL DIFFERENCEOF TWO ATPASE DOMAINS
+> format_version > 2
+> pdbid > 1k6k
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k6k | A | albelig | 1 | 1 | H | 4 | 20 | A-4-  | A-20-  | QELELSLNMAFARAREH 
+| 1k6k | A | albelig | 2 | 2 | H | 27 | 34 | A-27-  | A-34-  | VEHLLLAL 
+| 1k6k | A | albelig | 3 | 3 | H | 38 | 46 | A-38-  | A-46-  | PSAREALEA 
+| 1k6k | A | albelig | 4 | 4 | H | 51 | 65 | A-51-  | A-65-  | LVALRQELEAFIEQT 
+| 1k6k | A | albelig | 5 | 5 | H | 82 | 96 | A-82-  | A-96-  | LSFQRVLQRAVFHVQ 
+| 1k6k | A | albelig | 6 | 6 | H | 105 | 112 | A-105-  | A-112-  | GANVLVAI 
+| 1k6k | A | albelig | 7 | 7 | H | 119 | 126 | A-119-  | A-126-  | QAAYLLRK 
+| 1k6k | A | albelig | 8 | 8 | H | 131 | 139 | A-131-  | A-139-  | RLDVVNFIS 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 4
+= 2 = m = 6
+= 4 = a = 7
+= 5 = m = 6
+# Listed 4 contacts. EOF.

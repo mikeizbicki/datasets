@@ -1,0 +1,40 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f6s, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM BINDING PROTEIN, METAL BINDING PROTEIN
+> pdb_mol_name > ALPHA-LACTALBUMIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 23-JUN-00
+> header > METAL BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF BOVINE ALPHA-LACTALBUMIN
+> format_version > 2
+> pdbid > 1f6s
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f6s | F | albelig | 1 | 1 | H | 618 | 624 | F-5-  | F-11-  | KCEVFRE 
+| 1f6s | F | albelig | 2 | 2 | H | 626 | 628 | F-13-  | F-15-  | KDL 
+| 1f6s | F | albelig | 3 | 3 | H | 631 | 633 | F-18-  | F-20-  | YGG 
+| 1f6s | F | albelig | 4 | 4 | H | 636 | 647 | F-23-  | F-34-  | LPEWVVTTFHTS 
+| 1f6s | F | albelig | 5 | 5 | E | 654 | 656 | F-41-  | F-43-  | IVQ 
+| 1f6s | F | albelig | 6 | 6 | E | 661 | 663 | F-48-  | F-50-  | TEY 
+| 1f6s | F | albelig | 7 | 7 | H | 690 | 693 | F-77-  | F-80-  | WDKF 
+| 1f6s | F | albelig | 8 | 8 | H | 699 | 712 | F-86-  | F-99-  | TDDIMXVKKILDKV 
+| 1f6s | F | albelig | 9 | 9 | H | 714 | 716 | F-101-  | F-103-  | INY 
+| 1f6s | F | albelig | 10 | 10 | H | 718 | 723 | F-105-  | F-110-  | LAHKAL 
+| 1f6s | F | albelig | 11 | 11 | H | 728 | 731 | F-115-  | F-118-  | LDQW 
+| 1f6s | F | albelig | 12 | 12 | L | 741 | 741 | F-206-  | F-206-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 4 = m = 10
+= 4 = m = 11
+= 5 = a = 6
+= 7 = m = 8
+= 7 = l = 12
+= 8 = l = 12
+# Listed 7 contacts. EOF.

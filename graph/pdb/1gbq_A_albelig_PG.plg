@@ -1,0 +1,33 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gbq, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (SIGNAL TRANSDUCTION/PEPTIDE), SH3 DOMAIN
+> pdb_mol_name > GRB2
+> graphtype > albelig
+> resolution > -1.0
+> date > 23-DEC-96
+> header > COMPLEX (SIGNAL TRANSDUCTION/PEPTIDE)
+> pdb_org_common > HOUSE MOUSE
+> title > SOLUTION NMR STRUCTURE OF THE GRB2 N-TERMINAL SH3 DOMAINCOMPLEXED WITH A TEN-RESIDUE PEPTIDE DERIVED FROM SOSDIRECT REFINEMENT AGAINST NOES, J-COUPLINGS, AND 1H AND13C CHEMICAL SHIFTS, MINIMIZED AVERAGE STRUCTURE
+> format_version > 2
+> pdbid > 1gbq
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gbq | A | albelig | 1 | 1 | E | 2 | 5 | A-2-  | A-5-  | EAIA 
+| 1gbq | A | albelig | 2 | 2 | E | 24 | 26 | A-24-  | A-26-  | ILK 
+| 1gbq | A | albelig | 3 | 3 | E | 36 | 41 | A-36-  | A-41-  | WYKAEL 
+| 1gbq | A | albelig | 4 | 4 | E | 44 | 49 | A-44-  | A-49-  | KDGFIP 
+| 1gbq | A | albelig | 5 | 5 | H | 50 | 52 | A-50-  | A-52-  | KNY 
+| 1gbq | A | albelig | 6 | 6 | E | 53 | 56 | A-53-  | A-56-  | IEMK 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 4
+= 4 = m = 5
+= 5 = m = 6
+# Listed 6 contacts. EOF.

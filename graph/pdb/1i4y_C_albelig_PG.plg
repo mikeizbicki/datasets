@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i4y, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HEMERYTHRIN, OXYGEN BINDING, DIIRON, FOUR-HELIX BUNDLE,OXYGEN STORAGE/TRANSPORT COMPLEX
+> pdb_mol_name > METHEMERYTHRIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 23-FEB-01
+> header > OXYGEN STORAGE/TRANSPORT
+> pdb_org_common > UNKNOWN
+> title > THE CRYSTAL STRUCTURE OF PHASCOLOPSIS GOULDII WILD TYPEMETHEMERYTHRIN
+> format_version > 2
+> pdbid > 1i4y
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > PHASCOLOPSIS GOULDII
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i4y | C | albelig | 1 | 1 | H | 240 | 242 | C-12-  | C-14-  | PSF 
+| 1i4y | C | albelig | 2 | 2 | H | 247 | 265 | C-19-  | C-37-  | SIIDDEHKTLFNGIFHLAI 
+| 1i4y | C | albelig | 3 | 3 | H | 269 | 292 | C-41-  | C-64-  | ADNLGELRRCTGKHFLNEQVLMQA 
+| 1i4y | C | albelig | 4 | 4 | H | 298 | 313 | C-70-  | C-85-  | YDEHKKEHETFIHALD 
+| 1i4y | C | albelig | 5 | 5 | H | 319 | 334 | C-91-  | C-106-  | VKWAKSWLVNHIKTID 
+| 1i4y | C | albelig | 6 | 6 | H | 335 | 337 | C-107-  | C-109-  | FKY 
+| 1i4y | C | albelig | 7 | 7 | L | 916 | 916 | C-114-  | C-114-  | J 
+| 1i4y | C | albelig | 8 | 8 | L | 917 | 917 | C-603-  | C-603-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 2 = l = 7
+= 2 = l = 8
+= 3 = a = 4
+= 3 = l = 7
+= 3 = l = 8
+= 4 = a = 5
+= 4 = l = 8
+= 5 = m = 6
+= 5 = l = 7
+= 5 = l = 8
+= 6 = l = 8
+= 7 = l = 8
+# Listed 14 contacts. EOF.

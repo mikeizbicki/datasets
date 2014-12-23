@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cc1, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NI-FE-SE HYDROGENASE, OXIDOREDUCTASE
+> pdb_mol_name > HYDROGENASE (SMALL SUBUNIT)
+> graphtype > albelig
+> resolution > 2.15
+> date > 03-MAR-99
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF A REDUCED, ACTIVE FORM OF THE NI-FE-SEHYDROGENASE FROM DESULFOMICROBIUM BACULATUM
+> format_version > 2
+> pdbid > 1cc1
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > DESULFOMICROBIUM BACULATUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cc1 | S | albelig | 1 | 1 | E | 3 | 9 | S-8-  | S-14-  | APVIWVQ 
+| 1cc1 | S | albelig | 2 | 2 | H | 15 | 21 | S-20-  | S-26-  | GCSVSLL 
+| 1cc1 | S | albelig | 3 | 3 | H | 28 | 35 | S-33-  | S-40-  | IKEILLDV 
+| 1cc1 | S | albelig | 4 | 4 | E | 36 | 40 | S-41-  | S-45-  | ISLEF 
+| 1cc1 | S | albelig | 5 | 5 | H | 49 | 62 | S-54-  | S-67-  | GEMALAHMYEIAEK 
+| 1cc1 | S | albelig | 6 | 6 | E | 68 | 72 | S-73-  | S-77-  | FLLVE 
+| 1cc1 | S | albelig | 7 | 7 | H | 78 | 81 | S-83-  | S-86-  | AKEG 
+| 1cc1 | S | albelig | 8 | 8 | E | 85 | 87 | S-90-  | S-92-  | IVG 
+| 1cc1 | S | albelig | 9 | 9 | H | 99 | 109 | S-106-  | S-116-  | MMELIRDLAPK 
+| 1cc1 | S | albelig | 10 | 10 | E | 112 | 116 | S-119-  | S-123-  | ATVAV 
+| 1cc1 | S | albelig | 11 | 11 | H | 118 | 122 | S-125-  | S-129-  | TCSAY 
+| 1cc1 | S | albelig | 12 | 12 | H | 125 | 127 | S-132-  | S-134-  | IPA 
+| 1cc1 | S | albelig | 13 | 13 | H | 138 | 145 | S-145-  | S-152-  | VRDFFADE 
+| 1cc1 | S | albelig | 14 | 14 | E | 151 | 154 | S-158-  | S-161-  | LVNV 
+| 1cc1 | S | albelig | 15 | 15 | H | 161 | 176 | S-168-  | S-183-  | PDWMVGTLVAAWSHVL 
+| 1cc1 | S | albelig | 16 | 16 | H | 193 | 196 | S-200-  | S-203-  | LLFF 
+| 1cc1 | S | albelig | 17 | 17 | H | 207 | 211 | S-214-  | S-218-  | LDKYD 
+| 1cc1 | S | albelig | 18 | 18 | H | 226 | 228 | S-233-  | S-235-  | AEL 
+| 1cc1 | S | albelig | 19 | 19 | H | 232 | 234 | S-239-  | S-241-  | GPS 
+| 1cc1 | S | albelig | 20 | 20 | H | 239 | 242 | S-246-  | S-249-  | CAKR 
+| 1cc1 | S | albelig | 21 | 21 | H | 251 | 254 | S-258-  | S-261-  | CVEN 
+| 1cc1 | S | albelig | 22 | 22 | H | 267 | 269 | S-274-  | S-276-  | DGK 
+| 1cc1 | S | albelig | 23 | 23 | L | 765 | 765 | S-284-  | S-284-  | J 
+| 1cc1 | S | albelig | 24 | 24 | L | 766 | 766 | S-285-  | S-285-  | J 
+| 1cc1 | S | albelig | 25 | 25 | L | 767 | 767 | S-286-  | S-286-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 4
+= 1 = p = 6
+= 2 = m = 15
+= 2 = l = 25
+= 3 = m = 4
+= 6 = p = 10
+= 6 = l = 25
+= 10 = m = 11
+= 10 = p = 14
+= 11 = l = 25
+= 15 = m = 16
+= 15 = l = 24
+= 17 = l = 23
+= 18 = l = 23
+= 19 = l = 23
+= 20 = l = 24
+= 21 = l = 23
+= 21 = l = 24
+# Listed 18 contacts. EOF.

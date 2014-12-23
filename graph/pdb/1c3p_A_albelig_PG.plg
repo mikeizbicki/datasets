@@ -1,0 +1,69 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1c3p, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALPHA/BETA FOLD, LYASE
+> pdb_mol_name > PROTEIN (HDLP (HISTONE DEACETYLASE-LIKE PROTEIN)
+> graphtype > albelig
+> resolution > 1.8
+> date > 28-JUL-99
+> header > LYASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF AN HDAC HOMOLOG FROM AQUIFEX AEOLICUS
+> format_version > 2
+> pdbid > 1c3p
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > AQUIFEX AEOLICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1c3p | A | albelig | 1 | 1 | E | 3 | 7 | A-4-  | A-8-  | VKLIG 
+| 1c3p | A | albelig | 2 | 2 | H | 9 | 13 | A-10-  | A-14-  | LDYGK 
+| 1c3p | A | albelig | 3 | 3 | H | 21 | 23 | A-22-  | A-24-  | PLK 
+| 1c3p | A | albelig | 4 | 4 | H | 27 | 36 | A-28-  | A-37-  | VSLLLRFKDA 
+| 1c3p | A | albelig | 5 | 5 | H | 42 | 44 | A-43-  | A-45-  | EKE 
+| 1c3p | A | albelig | 6 | 6 | E | 45 | 47 | A-46-  | A-48-  | LIK 
+| 1c3p | A | albelig | 7 | 7 | H | 53 | 56 | A-54-  | A-57-  | KEEL 
+| 1c3p | A | albelig | 8 | 8 | H | 62 | 74 | A-63-  | A-75-  | EDYINTLMEAERC 
+| 1c3p | A | albelig | 9 | 9 | H | 81 | 85 | A-82-  | A-86-  | AREKY 
+| 1c3p | A | albelig | 10 | 10 | H | 97 | 117 | A-98-  | A-118-  | AMFTGSSLATGSTVQAIEEFL 
+| 1c3p | A | albelig | 11 | 11 | E | 121 | 124 | A-122-  | A-125-  | VAFN 
+| 1c3p | A | albelig | 12 | 12 | H | 145 | 155 | A-146-  | A-156-  | NPAVGIEYLRK 
+| 1c3p | A | albelig | 13 | 13 | E | 161 | 165 | A-162-  | A-166-  | ILYID 
+| 1c3p | A | albelig | 14 | 14 | H | 172 | 178 | A-173-  | A-179-  | DGVQEAF 
+| 1c3p | A | albelig | 15 | 15 | E | 184 | 191 | A-185-  | A-192-  | VFVLSLHQ 
+| 1c3p | A | albelig | 16 | 16 | H | 210 | 212 | A-211-  | A-213-  | GKG 
+| 1c3p | A | albelig | 17 | 17 | E | 216 | 221 | A-217-  | A-222-  | NLNIPL 
+| 1c3p | A | albelig | 18 | 18 | H | 227 | 244 | A-228-  | A-245-  | DNEFLFALEKSLEIVKEV 
+| 1c3p | A | albelig | 19 | 19 | E | 249 | 253 | A-250-  | A-254-  | VYLLQ 
+| 1c3p | A | albelig | 20 | 20 | H | 271 | 285 | A-272-  | A-286-  | NVAFLKAFNIVREVF 
+| 1c3p | A | albelig | 21 | 21 | E | 289 | 291 | A-290-  | A-292-  | VYL 
+| 1c3p | A | albelig | 22 | 22 | H | 298 | 313 | A-299-  | A-314-  | PYALARAWTLIWCELS 
+| 1c3p | A | albelig | 23 | 23 | H | 323 | 331 | A-324-  | A-332-  | NKAKELLKS 
+| 1c3p | A | albelig | 24 | 24 | H | 344 | 348 | A-345-  | A-349-  | SYMLE 
+| 1c3p | A | albelig | 25 | 25 | H | 361 | 371 | A-362-  | A-372-  | KEVKDTLEKAK 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 5
+= 1 = p = 6
+= 1 = p = 11
+= 1 = m = 22
+= 2 = m = 4
+= 2 = m = 10
+= 4 = m = 22
+= 4 = m = 23
+= 5 = m = 6
+= 8 = m = 9
+= 8 = m = 10
+= 10 = m = 11
+= 10 = p = 12
+= 11 = p = 21
+= 12 = m = 13
+= 13 = p = 15
+= 13 = p = 19
+= 15 = p = 17
+= 15 = a = 18
+= 18 = p = 20
+= 18 = p = 25
+= 19 = p = 21
+= 20 = p = 22
+# Listed 23 contacts. EOF.

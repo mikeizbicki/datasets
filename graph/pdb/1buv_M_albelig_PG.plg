@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1buv, chain M.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MATRIX METALLOPROTEINASE, TISSUE INHIBITOR OFMETALLOPROTEINASES, PROTEINASE COMPLEX, PRO-GELATINASE AACTIVATOR, CRYSTAL STRUCTURE, HYDROLASE/HYDROLASE INHIBITORCOMPLEX
+> pdb_mol_name > PROTEIN (MEMBRANE-TYPE MATRIX METALLOPROTEINASE
+> graphtype > albelig
+> resolution > 2.75
+> date > 07-SEP-98
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE MT1-MMP-TIMP-2 COMPLEX
+> format_version > 2
+> pdbid > 1buv
+> experiment > X-RAY DIFFRACTION
+> chainid > M
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1buv | M | albelig | 1 | 1 | E | 10 | 12 | M-123-  | M-125-  | EIT 
+| 1buv | M | albelig | 2 | 2 | H | 24 | 41 | M-137-  | M-154-  | EYATYEAIRKAFRVWESA 
+| 1buv | M | albelig | 3 | 3 | E | 45 | 47 | M-158-  | M-160-  | RFR 
+| 1buv | M | albelig | 4 | 4 | E | 65 | 69 | M-178-  | M-182-  | MIFFA 
+| 1buv | M | albelig | 5 | 5 | E | 85 | 89 | M-198-  | M-202-  | FLAHA 
+| 1buv | M | albelig | 6 | 6 | E | 100 | 103 | M-213-  | M-216-  | THFD 
+| 1buv | M | albelig | 7 | 7 | H | 120 | 130 | M-233-  | M-243-  | IFLVAVHELGH 
+| 1buv | M | albelig | 8 | 8 | H | 160 | 163 | M-273-  | M-276-  | DDDR 
+| 1buv | M | albelig | 9 | 9 | H | 167 | 172 | M-280-  | M-285-  | QQLYGG 
+| 1buv | M | albelig | 10 | 10 | L | 360 | 360 | M-1185-  | M-1185-  | J 
+| 1buv | M | albelig | 11 | 11 | L | 361 | 361 | M-1186-  | M-1186-  | J 
+| 1buv | M | albelig | 12 | 12 | L | 362 | 362 | M-1187-  | M-1187-  | J 
+| 1buv | M | albelig | 13 | 13 | L | 363 | 363 | M-1188-  | M-1188-  | J 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 2 = m = 3
+= 2 = p = 7
+= 4 = p = 6
+= 5 = a = 6
+= 5 = m = 7
+= 5 = l = 12
+= 5 = l = 13
+= 6 = l = 12
+= 6 = l = 13
+= 7 = l = 11
+# Listed 11 contacts. EOF.

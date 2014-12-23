@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gv2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION, MYB, C-MYB, DNA BINDING, ION BINDING
+> pdb_mol_name > MYB PROTO-ONCOGENE PROTEIN
+> graphtype > albelig
+> resolution > 1.68
+> date > 05-FEB-02
+> header > TRANSCRIPTION
+> pdb_org_common > MOUSE
+> title > CRYSTAL STRUCTURE OF C-MYB R2R3
+> format_version > 2
+> pdbid > 1gv2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gv2 | A | albelig | 1 | 1 | H | 9 | 22 | A-97-  | A-110-  | KEEDQRVIKLVQKY 
+| 1gv2 | A | albelig | 2 | 2 | H | 27 | 31 | A-115-  | A-119-  | WSVIA 
+| 1gv2 | A | albelig | 3 | 3 | H | 39 | 50 | A-127-  | A-138-  | GKQCRERWHNHL 
+| 1gv2 | A | albelig | 4 | 4 | H | 61 | 74 | A-149-  | A-162-  | EEEDRIIYQAHKRL 
+| 1gv2 | A | albelig | 5 | 5 | H | 78 | 82 | A-166-  | A-170-  | WAEIA 
+| 1gv2 | A | albelig | 6 | 6 | H | 90 | 101 | A-178-  | A-189-  | DNAIKNHWNSTM 
+| 1gv2 | A | albelig | 7 | 7 | L | 103 | 103 | A-1191-  | A-1191-  | J 
+| 1gv2 | A | albelig | 8 | 8 | L | 104 | 104 | A-1192-  | A-1192-  | J 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = m = 3
+= 2 = l = 8
+= 3 = l = 7
+= 4 = m = 6
+= 5 = m = 6
+= 5 = l = 7
+# Listed 7 contacts. EOF.

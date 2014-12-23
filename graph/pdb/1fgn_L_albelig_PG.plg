@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fgn, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBODY, FAB, ANTI-TF, MONOCLONAL, MURINE, IMMUNOGLOBULIN
+> pdb_mol_name > IMMUNOGLOBULIN FAB 5G9
+> graphtype > albelig
+> resolution > 2.5
+> date > 10-APR-97
+> header > IMMUNOGLOBULIN
+> pdb_org_common > HOUSE MOUSE
+> title > MONOCLONAL MURINE ANTIBODY 5G9-ANTI-HUMAN TISSUE FACTOR
+> format_version > 2
+> pdbid > 1fgn
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fgn | L | albelig | 1 | 1 | E | 4 | 7 | L-4-  | L-7-  | MTQS 
+| 1fgn | L | albelig | 2 | 2 | E | 10 | 14 | L-10-  | L-14-  | SMYAS 
+| 1fgn | L | albelig | 3 | 3 | E | 19 | 25 | L-19-  | L-25-  | VTITAKA 
+| 1fgn | L | albelig | 4 | 4 | E | 33 | 38 | L-33-  | L-38-  | LNWYQQ 
+| 1fgn | L | albelig | 5 | 5 | E | 45 | 49 | L-45-  | L-49-  | KTLIY 
+| 1fgn | L | albelig | 6 | 6 | E | 62 | 67 | L-62-  | L-67-  | FSGSGS 
+| 1fgn | L | albelig | 7 | 7 | E | 70 | 75 | L-70-  | L-75-  | DYSLTI 
+| 1fgn | L | albelig | 8 | 8 | H | 80 | 82 | L-80-  | L-82-  | SDD 
+| 1fgn | L | albelig | 9 | 9 | E | 84 | 90 | L-84-  | L-90-  | ATYYALQ 
+| 1fgn | L | albelig | 10 | 10 | E | 102 | 107 | L-102-  | L-107-  | TKLEIN 
+| 1fgn | L | albelig | 11 | 11 | E | 114 | 118 | L-114-  | L-118-  | TVSIF 
+| 1fgn | L | albelig | 12 | 12 | H | 122 | 125 | L-122-  | L-125-  | SEQL 
+| 1fgn | L | albelig | 13 | 13 | E | 129 | 139 | L-129-  | L-139-  | GASVVNFLNNF 
+| 1fgn | L | albelig | 14 | 14 | E | 145 | 150 | L-145-  | L-150-  | NVKWKI 
+| 1fgn | L | albelig | 15 | 15 | E | 159 | 163 | L-159-  | L-163-  | VLNSW 
+| 1fgn | L | albelig | 16 | 16 | E | 173 | 182 | L-173-  | L-182-  | YSMSSTLTLT 
+| 1fgn | L | albelig | 17 | 17 | H | 183 | 186 | L-183-  | L-186-  | KDEY 
+| 1fgn | L | albelig | 18 | 18 | E | 191 | 197 | L-191-  | L-197-  | SYTNEAT 
+| 1fgn | L | albelig | 19 | 19 | E | 205 | 210 | L-205-  | L-210-  | IVKSFN 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = p = 7
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 11 = p = 19
+= 12 = m = 13
+= 13 = a = 16
+= 13 = m = 17
+= 13 = p = 18
+= 14 = a = 18
+= 15 = a = 16
+= 16 = m = 17
+= 18 = a = 19
+# Listed 20 contacts. EOF.

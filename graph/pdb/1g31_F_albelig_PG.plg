@@ -1,0 +1,43 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g31, chain F.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE, CO-CHAPERONIN, GROES, IN VIVO PROTEIN FOLDING,BACTERIOPHAGE T4
+> pdb_mol_name > GP31
+> graphtype > albelig
+> resolution > 2.3
+> date > 27-MAR-98
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > GP31 CO-CHAPERONIN FROM BACTERIOPHAGE T4
+> format_version > 2
+> pdbid > 1g31
+> experiment > X-RAY DIFFRACTION
+> chainid > F
+> graphclass > protein graph
+> pdb_org_sci > ENTEROBACTERIA PHAGE T4
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g31 | F | albelig | 1 | 1 | E | 551 | 556 | F-15-  | F-20-  | YVILVS 
+| 1g31 | F | albelig | 2 | 2 | H | 561 | 563 | F-25-  | F-27-  | AGD 
+| 1g31 | F | albelig | 3 | 3 | H | 575 | 580 | F-39-  | F-44-  | KRVQGE 
+| 1g31 | F | albelig | 4 | 4 | E | 582 | 590 | F-46-  | F-54-  | PELCVVHSV 
+| 1g31 | F | albelig | 5 | 5 | E | 604 | 608 | F-68-  | F-72-  | LTSLP 
+| 1g31 | F | albelig | 6 | 6 | H | 609 | 611 | F-73-  | F-75-  | VGQ 
+| 1g31 | F | albelig | 7 | 7 | E | 613 | 615 | F-77-  | F-79-  | RNV 
+| 1g31 | F | albelig | 8 | 8 | H | 618 | 621 | F-82-  | F-85-  | PFVA 
+| 1g31 | F | albelig | 9 | 9 | H | 627 | 629 | F-91-  | F-93-  | PKE 
+| 1g31 | F | albelig | 10 | 10 | E | 634 | 638 | F-98-  | F-102-  | FVTCH 
+| 1g31 | F | albelig | 11 | 11 | H | 639 | 641 | F-103-  | F-105-  | YKA 
+| 1g31 | F | albelig | 12 | 12 | L | 777 | 777 | F-151-  | F-151-  | J 
+| 1g31 | F | albelig | 13 | 13 | L | 778 | 778 | F-181-  | F-181-  | J 
+| 1g31 | F | albelig | 14 | 14 | L | 779 | 779 | F-1181-  | F-1181-  | J 
+# Printed info on 14 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = a = 10
+= 3 = l = 12
+= 3 = l = 14
+= 4 = a = 5
+= 5 = m = 6
+= 7 = a = 10
+= 10 = m = 11
+# Listed 8 contacts. EOF.

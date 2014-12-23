@@ -1,0 +1,30 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h3l, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION, DNA-BINDING, TRANSCRIPTION REGULATION
+> pdb_mol_name > RNA POLYMERASE SIGMA FACTOR
+> graphtype > albelig
+> resolution > 2.37
+> date > 10-SEP-02
+> header > TRANSCRIPTION
+> pdb_org_common > UNKNOWN
+> title > N-TERMINAL FRAGMENT OF SIGR FROM STREPTOMYCES COELICOLOR
+> format_version > 2
+> pdbid > 1h3l
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES COELICOLOR A3(2)
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h3l | B | albelig | 1 | 1 | H | 81 | 94 | B-29-  | B-42-  | TAERSARFERDALE 
+| 1h3l | B | albelig | 2 | 2 | H | 96 | 107 | B-44-  | B-55-  | LDQMYSAALRMT 
+| 1h3l | B | albelig | 3 | 3 | H | 110 | 126 | B-58-  | B-74-  | PADAEDLVQETYAKAYA 
+| 1h3l | B | albelig | 4 | 4 | H | 128 | 130 | B-76-  | B-78-  | FHQ 
+| 1h3l | B | albelig | 5 | 5 | H | 137 | 152 | B-85-  | B-100-  | LKAWLYRILTNTFINS 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 4
+= 2 = a = 3
+= 2 = p = 5
+= 3 = m = 5
+# Listed 4 contacts. EOF.

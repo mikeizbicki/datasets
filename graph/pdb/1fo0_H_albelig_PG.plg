@@ -1,0 +1,60 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fo0, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > T CELL RECEPTOR, CLASS I MHC, H-2KB, TCR-PMHC COMPLEX,IMMUNE SYSTEM
+> pdb_mol_name > PROTEIN (ALLOGENEIC H-2KB MHC CLASS I MOLECULE)
+> graphtype > albelig
+> resolution > 2.5
+> date > 24-AUG-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > MURINE ALLOREACTIVE SCFV TCR-PEPTIDE-MHC CLASS I MOLECULECOMPLEX
+> format_version > 2
+> pdbid > 1fo0
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fo0 | H | albelig | 1 | 1 | E | 4 | 13 | H-3-  | H-12-  | HSLRYFVTAV 
+| 1fo0 | H | albelig | 2 | 2 | E | 22 | 29 | H-21-  | H-28-  | RYMEVGYV 
+| 1fo0 | H | albelig | 3 | 3 | E | 32 | 38 | H-31-  | H-37-  | TEFVRFD 
+| 1fo0 | H | albelig | 4 | 4 | H | 51 | 55 | H-50-  | H-54-  | RWMEQ 
+| 1fo0 | H | albelig | 5 | 5 | H | 58 | 85 | H-57-  | H-84-  | PEYWERETQKAKGNEQSFRVDLRTLLGY 
+| 1fo0 | H | albelig | 6 | 6 | E | 95 | 104 | H-94-  | H-103-  | TIQVISGCEV 
+| 1fo0 | H | albelig | 7 | 7 | E | 110 | 119 | H-109-  | H-118-  | LLRGYQQYAY 
+| 1fo0 | H | albelig | 8 | 8 | E | 122 | 127 | H-121-  | H-126-  | CDYIAL 
+| 1fo0 | H | albelig | 9 | 9 | E | 134 | 136 | H-133-  | H-135-  | WTA 
+| 1fo0 | H | albelig | 10 | 10 | H | 139 | 151 | H-138-  | H-150-  | MAALITKHKWEQA 
+| 1fo0 | H | albelig | 11 | 11 | H | 153 | 165 | H-152-  | H-164-  | EAERLRAYLEGTC 
+| 1fo0 | H | albelig | 12 | 12 | H | 166 | 180 | H-165-  | H-179-  | VEWLRRYLKNGNATL 
+| 1fo0 | H | albelig | 13 | 13 | E | 187 | 193 | H-186-  | H-192-  | KAHVTHH 
+| 1fo0 | H | albelig | 14 | 14 | E | 199 | 209 | H-198-  | H-208-  | KVTLRAWALGF 
+| 1fo0 | H | albelig | 15 | 15 | E | 215 | 219 | H-214-  | H-218-  | TLTWQ 
+| 1fo0 | H | albelig | 16 | 16 | E | 229 | 231 | H-228-  | H-230-  | MEL 
+| 1fo0 | H | albelig | 17 | 17 | E | 242 | 251 | H-241-  | H-250-  | FQKWASVVVP 
+| 1fo0 | H | albelig | 18 | 18 | H | 255 | 257 | H-254-  | H-256-  | EQY 
+| 1fo0 | H | albelig | 19 | 19 | E | 259 | 263 | H-258-  | H-262-  | TAHVY 
+| 1fo0 | H | albelig | 20 | 20 | E | 271 | 273 | H-270-  | H-272-  | LTL 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = m = 12
+= 2 = a = 3
+= 2 = m = 5
+= 4 = m = 12
+= 6 = a = 7
+= 7 = a = 8
+= 8 = a = 9
+= 8 = m = 10
+= 9 = m = 10
+= 11 = m = 12
+= 13 = a = 14
+= 14 = a = 15
+= 14 = a = 17
+= 15 = p = 17
+= 15 = a = 19
+= 16 = a = 17
+= 19 = a = 20
+# Listed 19 contacts. EOF.

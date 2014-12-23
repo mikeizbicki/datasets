@@ -1,0 +1,36 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fbz, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SH2 DOMAIN, NONPEPTIDE INHIBITOR, TRANSFERASE
+> pdb_mol_name > PROTO-ONCOGENE TYROSINE-PROTEIN KINASE LCK
+> graphtype > albelig
+> resolution > 2.4
+> date > 17-JUL-00
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > STRUCTURE-BASED DESIGN OF A NOVEL, OSTEOCLAST-SELECTIVE,NONPEPTIDE SRC SH2 INHIBITOR WITH IN VIVO ANTI-RESORPTIVEACTIVITY
+> format_version > 2
+> pdbid > 1fbz
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fbz | B | albelig | 1 | 1 | H | 117 | 125 | B-212-  | B-220-  | RKDAERQLL 
+| 1fbz | B | albelig | 2 | 2 | E | 134 | 138 | B-229-  | B-233-  | FLIRE 
+| 1fbz | B | albelig | 3 | 3 | E | 146 | 151 | B-241-  | B-246-  | FCLSVR 
+| 1fbz | B | albelig | 4 | 4 | E | 161 | 168 | B-256-  | B-263-  | VKHYKIRN 
+| 1fbz | B | albelig | 5 | 5 | H | 185 | 194 | B-280-  | B-289-  | LHELVRHYTN 
+| 1fbz | B | albelig | 6 | 6 | L | 211 | 211 | B-350-  | B-350-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 4
+= 1 = l = 6
+= 2 = a = 3
+= 2 = l = 6
+= 3 = a = 4
+= 3 = l = 6
+= 4 = l = 6
+= 5 = l = 6
+# Listed 9 contacts. EOF.

@@ -1,0 +1,75 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bwl, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > FLAVOENZYME, NADPH OXIDOREDUCTASE, TIM BARREL
+> pdb_mol_name > PROTEIN (NADPH DEHYDROGENASE 1)
+> graphtype > albelig
+> resolution > 2.7
+> date > 24-SEP-98
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > OLD YELLOW ENZYME (OYE1) DOUBLE MUTANT H191N:N194H
+> format_version > 2
+> pdbid > 1bwl
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CANDIDA ALBICANS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bwl | A | albelig | 1 | 1 | H | 15 | 17 | A-15-  | A-17-  | NLF 
+| 1bwl | A | albelig | 2 | 2 | E | 20 | 22 | A-20-  | A-22-  | IKI 
+| 1bwl | A | albelig | 3 | 3 | E | 25 | 27 | A-25-  | A-27-  | NEL 
+| 1bwl | A | albelig | 4 | 4 | H | 53 | 60 | A-53-  | A-60-  | AVEYYTQR 
+| 1bwl | A | albelig | 5 | 5 | E | 67 | 69 | A-67-  | A-69-  | MII 
+| 1bwl | A | albelig | 6 | 6 | H | 91 | 106 | A-91-  | A-106-  | EEQMVEWTKIFNAIHE 
+| 1bwl | A | albelig | 7 | 7 | E | 110 | 116 | A-110-  | A-116-  | FVWVQLW 
+| 1bwl | A | albelig | 8 | 8 | H | 119 | 121 | A-119-  | A-121-  | GWA 
+| 1bwl | A | albelig | 9 | 9 | H | 124 | 129 | A-124-  | A-129-  | PDNLAR 
+| 1bwl | A | albelig | 10 | 10 | E | 134 | 136 | A-134-  | A-136-  | YDS 
+| 1bwl | A | albelig | 11 | 11 | H | 145 | 153 | A-145-  | A-153-  | AEQEAKAKK 
+| 1bwl | A | albelig | 12 | 12 | E | 158 | 160 | A-158-  | A-160-  | QHS 
+| 1bwl | A | albelig | 13 | 13 | H | 163 | 182 | A-163-  | A-182-  | KDEIKQYIKEYVQAAKNSIA 
+| 1bwl | A | albelig | 14 | 14 | E | 187 | 191 | A-187-  | A-191-  | GVEIN 
+| 1bwl | A | albelig | 15 | 15 | H | 197 | 202 | A-197-  | A-202-  | LLNQFL 
+| 1bwl | A | albelig | 16 | 16 | H | 217 | 220 | A-217-  | A-220-  | IENR 
+| 1bwl | A | albelig | 17 | 17 | H | 222 | 235 | A-222-  | A-235-  | RFTLEVVDALVEAI 
+| 1bwl | A | albelig | 18 | 18 | H | 237 | 239 | A-237-  | A-239-  | HEK 
+| 1bwl | A | albelig | 19 | 19 | E | 240 | 244 | A-240-  | A-244-  | VGLRL 
+| 1bwl | A | albelig | 20 | 20 | H | 255 | 257 | A-255-  | A-257-  | GGA 
+| 1bwl | A | albelig | 21 | 21 | H | 261 | 277 | A-261-  | A-277-  | IVAQYAYVAGELEKRAK 
+| 1bwl | A | albelig | 22 | 22 | E | 284 | 288 | A-284-  | A-288-  | FVHLV 
+| 1bwl | A | albelig | 23 | 23 | H | 312 | 315 | A-312-  | A-315-  | VYSI 
+| 1bwl | A | albelig | 24 | 24 | E | 320 | 323 | A-320-  | A-323-  | VIRA 
+| 1bwl | A | albelig | 25 | 25 | H | 330 | 336 | A-330-  | A-336-  | PEVVREE 
+| 1bwl | A | albelig | 26 | 26 | E | 342 | 345 | A-342-  | A-345-  | TLIG 
+| 1bwl | A | albelig | 27 | 27 | H | 348 | 352 | A-348-  | A-352-  | RFFIS 
+| 1bwl | A | albelig | 28 | 28 | H | 356 | 362 | A-356-  | A-362-  | LVDRLEK 
+| 1bwl | A | albelig | 29 | 29 | H | 371 | 373 | A-371-  | A-373-  | RDT 
+| 1bwl | A | albelig | 30 | 30 | H | 388 | 394 | A-388-  | A-394-  | YEEALKL 
+| 1bwl | A | albelig | 31 | 31 | L | 400 | 400 | A-401-  | A-401-  | J 
+# Printed info on 31 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 3 = a = 7
+= 5 = p = 7
+= 7 = p = 14
+= 7 = l = 31
+= 8 = m = 10
+= 10 = p = 12
+= 13 = p = 17
+= 14 = m = 18
+= 14 = p = 19
+= 15 = m = 17
+= 16 = m = 21
+= 17 = m = 18
+= 18 = m = 19
+= 19 = p = 22
+= 19 = l = 31
+= 21 = m = 23
+= 22 = p = 24
+= 22 = l = 31
+= 24 = p = 26
+= 24 = l = 31
+= 26 = l = 31
+= 27 = l = 31
+# Listed 23 contacts. EOF.

@@ -1,0 +1,37 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fpo, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MOLECULAR CHAPERONE
+> pdb_mol_name > CHAPERONE PROTEIN HSCB
+> graphtype > albelig
+> resolution > 1.8
+> date > 31-AUG-00
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > HSC20 (HSCB), A J-TYPE CO-CHAPERONE FROM E. COLI
+> format_version > 2
+> pdbid > 1fpo
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fpo | C | albelig | 1 | 1 | H | 347 | 350 | C-3-  | C-6-  | YFTL 
+| 1fpo | C | albelig | 2 | 2 | H | 361 | 373 | C-17-  | C-29-  | TQALSLRFQDLQR 
+| 1fpo | C | albelig | 3 | 3 | H | 377 | 393 | C-46-  | C-62-  | AAVQQSATINQAWQTLR 
+| 1fpo | C | albelig | 4 | 4 | H | 395 | 405 | C-64-  | C-74-  | PLMRAEYLLSL 
+| 1fpo | C | albelig | 5 | 5 | H | 413 | 415 | C-82-  | C-84-  | EQH 
+| 1fpo | C | albelig | 6 | 6 | H | 420 | 439 | C-89-  | C-108-  | TAFLMEQLELREELDEIEQA 
+| 1fpo | C | albelig | 7 | 7 | H | 442 | 468 | C-111-  | C-137-  | EARLESFIKRVKKMFDTRHQLMVEQLD 
+| 1fpo | C | albelig | 8 | 8 | H | 472 | 499 | C-141-  | C-168-  | WDAAADTCRKLRFLDKLRSSAEQLEEKL 
+# Printed info on 8 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 2 = m = 3
+= 3 = m = 4
+= 4 = a = 8
+= 5 = m = 8
+= 6 = a = 7
+= 6 = p = 8
+= 7 = a = 8
+# Listed 8 contacts. EOF.

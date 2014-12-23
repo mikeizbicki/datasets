@@ -1,0 +1,39 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gp1, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > OXIDOREDUCTASE(H2O2(A))
+> pdb_mol_name > GLUTATHIONE PEROXIDASE
+> graphtype > albelig
+> resolution > 2.0
+> date > 11-JUN-85
+> header > OXIDOREDUCTASE(H2O2(A))
+> pdb_org_common > BOVINE
+> title > THE REFINED STRUCTURE OF THE SELENOENZYME GLUTATHIONE PEROXIDASE AT0.2-NM RESOLUTION
+> format_version > 2
+> pdbid > 1gp1
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gp1 | A | albelig | 1 | 1 | H | 3 | 5 | A-12-  | A-14-  | VYA 
+| 1gp1 | A | albelig | 2 | 2 | H | 19 | 22 | A-28-  | A-31-  | LSSL 
+| 1gp1 | A | albelig | 3 | 3 | E | 26 | 32 | A-35-  | A-41-  | VLLIENV 
+| 1gp1 | A | albelig | 4 | 4 | H | 39 | 56 | A-48-  | A-65-  | TVRDYTQMNDLQRRLGPR 
+| 1gp1 | A | albelig | 5 | 5 | E | 58 | 64 | A-67-  | A-73-  | LVVLGFP 
+| 1gp1 | A | albelig | 6 | 6 | H | 76 | 85 | A-85-  | A-94-  | NEEILNCLKY 
+| 1gp1 | A | albelig | 7 | 7 | H | 111 | 119 | A-120-  | A-128-  | PLFAFLREV 
+| 1gp1 | A | albelig | 8 | 8 | H | 134 | 136 | A-143-  | A-145-  | PKF 
+| 1gp1 | A | albelig | 9 | 9 | E | 153 | 156 | A-162-  | A-165-  | KFLV 
+| 1gp1 | A | albelig | 10 | 10 | E | 162 | 166 | A-171-  | A-175-  | PVRRY 
+| 1gp1 | A | albelig | 11 | 11 | H | 172 | 183 | A-181-  | A-192-  | TIDIEPDIETLL 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 3 = a = 4
+= 3 = p = 5
+= 3 = a = 9
+= 4 = m = 5
+= 4 = p = 11
+= 9 = a = 10
+= 9 = m = 11
+# Listed 7 contacts. EOF.

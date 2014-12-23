@@ -1,0 +1,59 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1f90, chain L.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MONOCLONAL ANTIBODY, ANTIGEN-BINDING FRAGMENT, INTERLEUKIN-2, ANTIGENIC PEPTIDE, IMMUNE SYSTEM
+> pdb_mol_name > FAB FRAGMENT OF MONOCLONAL ANTIBODY
+> graphtype > albelig
+> resolution > 2.6
+> date > 06-JUL-00
+> header > IMMUNE SYSTEM
+> pdb_org_common > HOUSE MOUSE
+> title > FAB FRAGMENT OF MONOCLONAL ANTIBODY (LNKB-2) AGAINST HUMANINTERLEUKIN-2 IN COMPLEX WITH ANTIGENIC PEPTIDE
+> format_version > 2
+> pdbid > 1f90
+> experiment > X-RAY DIFFRACTION
+> chainid > L
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1f90 | L | albelig | 1 | 1 | E | 4 | 7 | L-4-  | L-7-  | MTQT 
+| 1f90 | L | albelig | 2 | 2 | E | 10 | 14 | L-10-  | L-14-  | TLSVT 
+| 1f90 | L | albelig | 3 | 3 | E | 19 | 25 | L-19-  | L-25-  | ASISAES 
+| 1f90 | L | albelig | 4 | 4 | E | 38 | 43 | L-33-  | L-38-  | LNWLLQ 
+| 1f90 | L | albelig | 5 | 5 | E | 50 | 54 | L-45-  | L-49-  | KRLIY 
+| 1f90 | L | albelig | 6 | 6 | E | 67 | 72 | L-62-  | L-67-  | FTGSGS 
+| 1f90 | L | albelig | 7 | 7 | E | 75 | 80 | L-70-  | L-75-  | DFTLRI 
+| 1f90 | L | albelig | 8 | 8 | H | 85 | 87 | L-80-  | L-82-  | AED 
+| 1f90 | L | albelig | 9 | 9 | E | 89 | 95 | L-84-  | L-90-  | GVYYAVQ 
+| 1f90 | L | albelig | 10 | 10 | E | 107 | 112 | L-102-  | L-107-  | TKLEIK 
+| 1f90 | L | albelig | 11 | 11 | E | 119 | 123 | L-114-  | L-118-  | TVSIF 
+| 1f90 | L | albelig | 12 | 12 | H | 127 | 131 | L-122-  | L-126-  | SEQLT 
+| 1f90 | L | albelig | 13 | 13 | E | 134 | 144 | L-129-  | L-139-  | GASVVNFLNNF 
+| 1f90 | L | albelig | 14 | 14 | E | 150 | 155 | L-145-  | L-150-  | NVKWKI 
+| 1f90 | L | albelig | 15 | 15 | E | 164 | 168 | L-159-  | L-163-  | VLNSW 
+| 1f90 | L | albelig | 16 | 16 | E | 178 | 187 | L-173-  | L-182-  | YSMSSTLTLT 
+| 1f90 | L | albelig | 17 | 17 | H | 188 | 191 | L-183-  | L-186-  | KDEY 
+| 1f90 | L | albelig | 18 | 18 | E | 196 | 202 | L-191-  | L-197-  | SYTNEAT 
+| 1f90 | L | albelig | 19 | 19 | E | 210 | 215 | L-205-  | L-210-  | IVKSFN 
+# Printed info on 19 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 3
+= 1 = a = 9
+= 2 = p = 10
+= 3 = a = 7
+= 3 = p = 9
+= 4 = a = 5
+= 4 = a = 9
+= 6 = a = 7
+= 9 = a = 10
+= 11 = a = 13
+= 11 = p = 19
+= 12 = m = 13
+= 13 = a = 16
+= 13 = m = 17
+= 13 = p = 18
+= 14 = a = 18
+= 15 = a = 16
+= 16 = m = 17
+= 18 = a = 19
+# Listed 19 contacts. EOF.

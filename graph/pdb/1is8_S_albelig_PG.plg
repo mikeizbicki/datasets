@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1is8, chain S.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENZYME-REGULATORY PROTEIN COMPLEX, HYDROLASE/PROTEINBINDING COMPLEX
+> pdb_mol_name > GTP CYCLOHYDROLASE I FEEDBACK REGULATORY PROTEIN
+> graphtype > albelig
+> resolution > 2.7
+> date > 18-NOV-01
+> header > HYDROLASE/PROTEIN BINDING
+> pdb_org_common > NORWAY RAT
+> title > CRYSTAL STRUCTURE OF RAT GTPCHI/GFRP STIMULATORY COMPLEXPLUS ZN
+> format_version > 2
+> pdbid > 1is8
+> experiment > X-RAY DIFFRACTION
+> chainid > S
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1is8 | S | albelig | 1 | 1 | E | 2623 | 2629 | S-3-  | S-9-  | YLLISTQ 
+| 1is8 | S | albelig | 2 | 2 | E | 2637 | 2641 | S-17-  | S-21-  | TMVGD 
+| 1is8 | S | albelig | 3 | 3 | H | 2646 | 2652 | S-26-  | S-32-  | PELMQQL 
+| 1is8 | S | albelig | 4 | 4 | E | 2655 | 2657 | S-35-  | S-37-  | SKR 
+| 1is8 | S | albelig | 5 | 5 | E | 2666 | 2669 | S-46-  | S-49-  | EYYV 
+| 1is8 | S | albelig | 6 | 6 | H | 2673 | 2682 | S-53-  | S-62-  | PRIVLDKLEC 
+| 1is8 | S | albelig | 7 | 7 | E | 2686 | 2693 | S-66-  | S-73-  | RVLSMTGV 
+| 1is8 | S | albelig | 8 | 8 | E | 2696 | 2702 | S-76-  | S-82-  | TLVWCLH 
+| 1is8 | S | albelig | 9 | 9 | L | 2816 | 2816 | S-2002-  | S-2002-  | J 
+| 1is8 | S | albelig | 10 | 10 | L | 2817 | 2817 | S-1004-  | S-1004-  | J 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 1 = a = 8
+= 1 = l = 9
+= 1 = l = 10
+= 2 = a = 5
+= 4 = a = 5
+= 6 = m = 8
+= 7 = a = 8
+= 8 = l = 10
+# Listed 10 contacts. EOF.

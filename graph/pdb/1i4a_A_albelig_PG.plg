@@ -1,0 +1,73 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1i4a, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CALCIUM-BINDING, MEMBRANE-BINDING, PHOSPHORYLATION MUTANT, METALBINDING PROTEIN
+> pdb_mol_name > ANNEXIN IV
+> graphtype > albelig
+> resolution > 2.0
+> date > 20-FEB-01
+> header > METAL BINDING PROTEIN
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF PHOSPHORYLATION-MIMICKING MUTANT T6D OF ANNEXINIV
+> format_version > 2
+> pdbid > 1i4a
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1i4a | A | albelig | 1 | 1 | H | 6 | 17 | A-15-  | A-26-  | AAEDAQTLRKAM 
+| 1i4a | A | albelig | 2 | 2 | H | 24 | 31 | A-33-  | A-40-  | EDAIINVL 
+| 1i4a | A | albelig | 3 | 3 | H | 36 | 50 | A-45-  | A-59-  | TAQRQEIRTAYKTTI 
+| 1i4a | A | albelig | 4 | 4 | H | 54 | 61 | A-63-  | A-70-  | LMDDLKSE 
+| 1i4a | A | albelig | 5 | 5 | H | 64 | 74 | A-73-  | A-83-  | GNFEQVILGMM 
+| 1i4a | A | albelig | 6 | 6 | H | 77 | 89 | A-86-  | A-98-  | TVLYDVQELRKAM 
+| 1i4a | A | albelig | 7 | 7 | H | 96 | 105 | A-105-  | A-114-  | EGCLIEILAS 
+| 1i4a | A | albelig | 8 | 8 | H | 108 | 122 | A-117-  | A-131-  | PEEIRRINQTYQLQY 
+| 1i4a | A | albelig | 9 | 9 | H | 126 | 133 | A-135-  | A-142-  | LEDDIRSD 
+| 1i4a | A | albelig | 10 | 10 | H | 136 | 146 | A-145-  | A-155-  | FMFQRVLVSLS 
+| 1i4a | A | albelig | 11 | 11 | H | 158 | 171 | A-167-  | A-180-  | DALMRQDAQDLYEA 
+| 1i4a | A | albelig | 12 | 12 | H | 180 | 189 | A-189-  | A-198-  | EVKFLTVLCS 
+| 1i4a | A | albelig | 13 | 13 | H | 192 | 206 | A-201-  | A-215-  | RNHLLHVFDEYKRIA 
+| 1i4a | A | albelig | 14 | 14 | H | 210 | 217 | A-219-  | A-226-  | IEQSIKSE 
+| 1i4a | A | albelig | 15 | 15 | H | 220 | 248 | A-229-  | A-257-  | GSFEDALLAIVKCMRNKSAYFAERLYKSM 
+| 1i4a | A | albelig | 16 | 16 | H | 255 | 265 | A-264-  | A-274-  | DDTLIRVMVSR 
+| 1i4a | A | albelig | 17 | 17 | H | 270 | 281 | A-279-  | A-290-  | MLDIRANFKRLY 
+| 1i4a | A | albelig | 18 | 18 | H | 285 | 292 | A-294-  | A-301-  | LYSFIKGD 
+| 1i4a | A | albelig | 19 | 19 | H | 295 | 305 | A-304-  | A-314-  | GDYRKVLLILC 
+| 1i4a | A | albelig | 20 | 20 | L | 310 | 310 | A-401-  | A-401-  | J 
+| 1i4a | A | albelig | 21 | 21 | L | 311 | 311 | A-410-  | A-410-  | J 
+| 1i4a | A | albelig | 22 | 22 | L | 312 | 312 | A-450-  | A-450-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 3
+= 1 = m = 4
+= 1 = l = 20
+= 1 = l = 22
+= 2 = p = 5
+= 3 = m = 4
+= 3 = m = 5
+= 3 = l = 22
+= 4 = m = 5
+= 4 = l = 20
+= 5 = p = 16
+= 5 = m = 19
+= 6 = m = 7
+= 6 = m = 8
+= 6 = a = 16
+= 7 = p = 10
+= 7 = m = 15
+= 7 = m = 16
+= 10 = p = 12
+= 10 = m = 15
+= 11 = p = 13
+= 13 = m = 15
+= 14 = a = 15
+= 15 = a = 16
+= 15 = m = 17
+= 15 = m = 18
+= 15 = l = 21
+= 16 = p = 19
+= 18 = a = 19
+= 18 = l = 21
+# Listed 30 contacts. EOF.

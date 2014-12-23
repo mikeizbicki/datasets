@@ -1,0 +1,48 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1at9, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PHOTORECEPTOR, PROTON PUMP, MEMBRANE PROTEIN, RETINAL PROTEIN, TWO-DIMENSIONAL CRYSTAL
+> pdb_mol_name > BACTERIORHODOPSIN
+> graphtype > albelig
+> resolution > 3.0
+> date > 20-AUG-97
+> header > PHOTORECEPTOR
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF BACTERIORHODOPSIN AT 3.0 ANGSTROM DETERMINED BY ELECTRONCRYSTALLOGRAPHY
+> format_version > 2
+> pdbid > 1at9
+> experiment > ELECTRON CRYSTALLOGRAPHY
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HALOBACTERIUM SALINARUM
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1at9 | A | albelig | 1 | 1 | H | 9 | 30 | A-10-  | A-31-  | WIWLALGTALMGLGTLYFLVKG 
+| 1at9 | A | albelig | 2 | 2 | H | 36 | 60 | A-37-  | A-61-  | PDAKKFYAITTLVPAIAFTMYLSML 
+| 1at9 | A | albelig | 3 | 3 | H | 80 | 100 | A-81-  | A-101-  | ARYADWLFTTPLLLLDLALLV 
+| 1at9 | A | albelig | 4 | 4 | H | 104 | 126 | A-105-  | A-127-  | QGTILALVGADGIMIGTGLVGAL 
+| 1at9 | A | albelig | 5 | 5 | H | 130 | 156 | A-131-  | A-157-  | YSYRFVWWAISTAAMLYILYVLFFGFT 
+| 1at9 | A | albelig | 6 | 6 | H | 164 | 190 | A-165-  | A-191-  | PEVASTFKVLRNVTVVLWSAYPVVWLI 
+| 1at9 | A | albelig | 7 | 7 | H | 192 | 195 | A-193-  | A-196-  | SEGA 
+| 1at9 | A | albelig | 8 | 8 | H | 200 | 217 | A-201-  | A-218-  | LNIETLLFMVLDVSAKVG 
+| 1at9 | A | albelig | 9 | 9 | H | 218 | 224 | A-219-  | A-225-  | FGLILLR 
+| 1at9 | A | albelig | 10 | 10 | H | 226 | 228 | A-227-  | A-229-  | RAI 
+| 1at9 | A | albelig | 11 | 11 | L | 231 | 231 | A-249-A | A-249-A | J 
+# Printed info on 11 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 8
+= 2 = a = 3
+= 3 = a = 4
+= 3 = a = 6
+= 3 = m = 8
+= 3 = m = 9
+= 3 = l = 11
+= 4 = a = 5
+= 4 = l = 11
+= 5 = a = 6
+= 5 = m = 7
+= 5 = l = 11
+= 6 = a = 8
+= 6 = l = 11
+= 8 = l = 11
+# Listed 16 contacts. EOF.

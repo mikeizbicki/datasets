@@ -1,0 +1,63 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1jsw, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > AMINO ACID AMMONIA-LYASE
+> pdb_mol_name > L-ASPARTATE AMMONIA-LYASE
+> graphtype > albelig
+> resolution > 2.7
+> date > 19-FEB-97
+> header > AMINO ACID AMMONIA-LYASE
+> pdb_org_common > UNKNOWN
+> title > NATIVE L-ASPARTATE AMMONIA LYASE
+> format_version > 2
+> pdbid > 1jsw
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1jsw | D | albelig | 1 | 1 | E | 1341 | 1344 | D-6-  | D-9-  | RIEE 
+| 1jsw | D | albelig | 2 | 2 | E | 1349 | 1352 | D-14-  | D-17-  | TREV 
+| 1jsw | D | albelig | 3 | 3 | H | 1360 | 1368 | D-25-  | D-33-  | VHTLRAIEN 
+| 1jsw | D | albelig | 4 | 4 | H | 1383 | 1400 | D-48-  | D-65-  | VRGMVMVKKAAAMANKEL 
+| 1jsw | D | albelig | 5 | 5 | H | 1405 | 1419 | D-70-  | D-84-  | KSVANAIIAACDEVL 
+| 1jsw | D | albelig | 6 | 6 | H | 1424 | 1426 | D-89-  | D-91-  | CMD 
+| 1jsw | D | albelig | 7 | 7 | H | 1436 | 1457 | D-101-  | D-122-  | GAGTSVNMNTNEVLANIGLELM 
+| 1jsw | D | albelig | 8 | 8 | H | 1469 | 1473 | D-134-  | D-138-  | PNDHV 
+| 1jsw | D | albelig | 9 | 9 | H | 1479 | 1515 | D-144-  | D-180-  | TNDAYPTGFRIAVYSSLIKLVDAINQLREGFERKAVE 
+| 1jsw | D | albelig | 10 | 10 | E | 1520 | 1525 | D-185-  | D-190-  | LKMGRT 
+| 1jsw | D | albelig | 11 | 11 | E | 1528 | 1534 | D-193-  | D-199-  | QDAVPMT 
+| 1jsw | D | albelig | 12 | 12 | H | 1535 | 1560 | D-200-  | D-225-  | LGQEFRAFSILLKEEVKNIQRTAELL 
+| 1jsw | D | albelig | 13 | 13 | H | 1580 | 1592 | D-245-  | D-257-  | YSPLAVKKLAEVT 
+| 1jsw | D | albelig | 14 | 14 | H | 1611 | 1636 | D-276-  | D-301-  | AYVMVHGALKRLAVKMSKICNDLRLL 
+| 1jsw | D | albelig | 15 | 15 | H | 1666 | 1690 | D-331-  | D-355-  | VVPEVVNQVCFKVIGNDTTVTMAAE 
+| 1jsw | D | albelig | 16 | 16 | H | 1700 | 1723 | D-365-  | D-388-  | EPVIGQAMFESVHILTNACYNLLE 
+| 1jsw | D | albelig | 17 | 17 | H | 1733 | 1742 | D-398-  | D-407-  | KEVCEGYVYN 
+| 1jsw | D | albelig | 18 | 18 | H | 1744 | 1754 | D-409-  | D-419-  | IGIVTYLNPFI 
+| 1jsw | D | albelig | 19 | 19 | H | 1756 | 1769 | D-421-  | D-434-  | HHNGDIVGKICAET 
+| 1jsw | D | albelig | 20 | 20 | H | 1773 | 1779 | D-438-  | D-444-  | VREVVLE 
+| 1jsw | D | albelig | 21 | 21 | H | 1785 | 1789 | D-450-  | D-454-  | EAELD 
+# Printed info on 21 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 3 = m = 7
+= 4 = a = 5
+= 4 = m = 7
+= 4 = a = 13
+= 5 = a = 7
+= 7 = m = 9
+= 9 = a = 12
+= 9 = p = 14
+= 9 = p = 16
+= 10 = a = 11
+= 10 = m = 17
+= 11 = m = 12
+= 12 = a = 14
+= 14 = a = 15
+= 14 = p = 16
+= 15 = a = 16
+= 18 = a = 19
+= 18 = m = 20
+= 19 = m = 20
+= 20 = m = 21
+# Listed 21 contacts. EOF.

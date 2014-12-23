@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fxk, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ARCHAEAL PROTEIN, CHAPERONE
+> pdb_mol_name > PREFOLDIN
+> graphtype > albelig
+> resolution > 2.3
+> date > 26-SEP-00
+> header > CHAPERONE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF ARCHAEAL PREFOLDIN (GIMC).
+> format_version > 2
+> pdbid > 1fxk
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > METHANOTHERMOBACTER THERMAUTOTROPHICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fxk | B | albelig | 1 | 1 | H | 111 | 150 | B-8-  | B-47-  | QHQLAQFQQLQQQAQAISVQKQTVEXQINETQKALEELSR 
+| 1fxk | B | albelig | 2 | 2 | E | 157 | 161 | B-54-  | B-58-  | VYKSS 
+| 1fxk | B | albelig | 3 | 3 | E | 164 | 168 | B-61-  | B-65-  | ILIRV 
+| 1fxk | B | albelig | 4 | 4 | H | 170 | 212 | B-67-  | B-109-  | KDELTEELQEKLETLQLREKTIERQEERVXKKLQEXQVNIQEA 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 2 = a = 3
+# Listed 2 contacts. EOF.

@@ -1,0 +1,54 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ev9, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > DISORDERED C-TERMINAL HELICES, TRANSFERASE
+> pdb_mol_name > GLUTATHIONE S-TRANSFERASE A1-1
+> graphtype > albelig
+> resolution > 2.2
+> date > 19-APR-00
+> header > TRANSFERASE
+> pdb_org_common > NORWAY RAT
+> title > RAT GLUTATHIONE S-TRANSFERASE A1-1 MUTANT W21F WITH GSO3 BOUND
+> format_version > 2
+> pdbid > 1ev9
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ev9 | D | albelig | 1 | 1 | E | 433 | 437 | D-6-  | D-10-  | VLHYF 
+| 1ev9 | D | albelig | 2 | 2 | H | 444 | 453 | D-17-  | D-26-  | ECIRFLLAAA 
+| 1ev9 | D | albelig | 3 | 3 | E | 458 | 462 | D-31-  | D-35-  | DEKFI 
+| 1ev9 | D | albelig | 4 | 4 | H | 465 | 476 | D-38-  | D-49-  | PEDLEKLKKDGN 
+| 1ev9 | D | albelig | 5 | 5 | E | 484 | 487 | D-57-  | D-60-  | MVEI 
+| 1ev9 | D | albelig | 6 | 6 | E | 490 | 493 | D-63-  | D-66-  | MKLA 
+| 1ev9 | D | albelig | 7 | 7 | H | 495 | 505 | D-68-  | D-78-  | TRAILNYIATK 
+| 1ev9 | D | albelig | 8 | 8 | H | 513 | 536 | D-86-  | D-109-  | MKERALIDMYSEGILDLTEMIMQL 
+| 1ev9 | D | albelig | 9 | 9 | H | 541 | 559 | D-114-  | D-132-  | PDQKEAKTALAKDRTKNRY 
+| 1ev9 | D | albelig | 10 | 10 | H | 560 | 570 | D-133-  | D-143-  | LPAFEKVLKSH 
+| 1ev9 | D | albelig | 11 | 11 | H | 582 | 601 | D-155-  | D-174-  | RVDIHLLELLLYVEEFDASL 
+| 1ev9 | D | albelig | 12 | 12 | H | 606 | 616 | D-179-  | D-189-  | PLLKAFKSRIS 
+| 1ev9 | D | albelig | 13 | 13 | H | 619 | 625 | D-192-  | D-198-  | PNVKKFL 
+| 1ev9 | D | albelig | 14 | 14 | H | 637 | 641 | D-210-  | D-214-  | AKQIE 
+| 1ev9 | D | albelig | 15 | 15 | L | 649 | 649 | D-262-  | D-262-  | J 
+| 1ev9 | D | albelig | 16 | 16 | L | 650 | 650 | D-250-  | D-250-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = a = 5
+= 1 = l = 16
+= 2 = m = 7
+= 2 = a = 11
+= 3 = m = 4
+= 4 = l = 16
+= 5 = a = 6
+= 6 = l = 16
+= 7 = l = 16
+= 8 = a = 9
+= 8 = p = 11
+= 8 = l = 15
+= 9 = m = 10
+= 9 = m = 11
+= 10 = m = 12
+= 11 = m = 12
+# Listed 17 contacts. EOF.

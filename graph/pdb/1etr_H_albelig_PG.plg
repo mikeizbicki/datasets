@@ -1,0 +1,56 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1etr, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEINASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+> pdb_mol_name > EPSILON-THROMBIN
+> graphtype > albelig
+> resolution > 2.2
+> date > 06-JUL-92
+> header > HYDROLASE/HYDROLASE INHIBITOR
+> pdb_org_common > COW
+> title > REFINED 2.3 ANGSTROMS X-RAY CRYSTAL STRUCTURE OF BOVINE THROMBINCOMPLEXES FORMED WITH THE BENZAMIDINE AND ARGININE-BASED THROMBININHIBITORS NAPAP, 4-TAPAP AND MQPA: A STARTING POINT FOR IMPROVINGANTITHROMBOTICS
+> format_version > 2
+> pdbid > 1etr
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1etr | H | albelig | 1 | 1 | E | 52 | 57 | H-30-  | H-35-  | QVMLFR 
+| 1etr | H | albelig | 2 | 2 | E | 62 | 71 | H-39-  | H-48-  | ELLNGASLIS 
+| 1etr | H | albelig | 3 | 3 | E | 74 | 77 | H-51-  | H-54-  | WVLT 
+| 1etr | H | albelig | 4 | 4 | H | 79 | 81 | H-56-  | H-58-  | AHN 
+| 1etr | H | albelig | 5 | 5 | H | 85 | 87 | H-60-B | H-60-D | PPW 
+| 1etr | H | albelig | 6 | 6 | E | 96 | 100 | H-64-  | H-68-  | LLVRI 
+| 1etr | H | albelig | 7 | 7 | E | 114 | 116 | H-81-  | H-83-  | KIS 
+| 1etr | H | albelig | 8 | 8 | E | 118 | 123 | H-85-  | H-90-  | LDKIYI 
+| 1etr | H | albelig | 9 | 9 | E | 138 | 142 | H-104-  | H-108-  | ALLKL 
+| 1etr | H | albelig | 10 | 10 | H | 160 | 166 | H-126-  | H-129-C | KQTAAKL 
+| 1etr | H | albelig | 11 | 11 | E | 172 | 177 | H-135-  | H-140-  | KGRVTG 
+| 1etr | H | albelig | 12 | 12 | E | 198 | 203 | H-156-  | H-161-  | QVVNLP 
+| 1etr | H | albelig | 13 | 13 | H | 207 | 212 | H-165-  | H-170-  | RPVCKA 
+| 1etr | H | albelig | 14 | 14 | E | 222 | 225 | H-180-  | H-183-  | MFCA 
+| 1etr | H | albelig | 15 | 15 | H | 229 | 231 | H-186-  | H-186-B | PGE 
+| 1etr | H | albelig | 16 | 16 | E | 245 | 249 | H-198-  | H-202-  | PFVMK 
+| 1etr | H | albelig | 17 | 17 | E | 256 | 262 | H-207-  | H-213-  | WYQMGIV 
+| 1etr | H | albelig | 18 | 18 | E | 275 | 279 | H-226-  | H-230-  | GFYTH 
+| 1etr | H | albelig | 19 | 19 | H | 284 | 292 | H-235-  | H-243-  | KKWIQKVID 
+| 1etr | H | albelig | 20 | 20 | L | 297 | 297 | H-1-  | H-1-  | J 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 6
+= 2 = a = 3
+= 3 = a = 9
+= 4 = l = 20
+= 5 = l = 20
+= 6 = a = 7
+= 8 = a = 9
+= 11 = a = 12
+= 11 = a = 16
+= 14 = a = 18
+= 16 = a = 17
+= 17 = a = 18
+= 17 = l = 20
+= 18 = l = 20
+# Listed 15 contacts. EOF.

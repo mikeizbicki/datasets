@@ -1,0 +1,46 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1a14, chain H.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX (ANTIBODY-ANTIGEN), SINGLE-CHAIN ANTIBODY, GLYCOSYLATEDPROTEIN, COMPLEX (ANTIBODY-ANTIGEN) COMPLEX
+> pdb_mol_name > NC10 FV (HEAVY CHAIN)
+> graphtype > albelig
+> resolution > 2.5
+> date > 21-DEC-97
+> header > COMPLEX (ANTIBODY/ANTIGEN)
+> pdb_org_common > HOUSE MOUSE
+> title > COMPLEX BETWEEN NC10 ANTI-INFLUENZA VIRUS NEURAMINIDASE SINGLE CHAINANTIBODY WITH A 5 RESIDUE LINKER AND INFLUENZA VIRUS NEURAMINIDASE
+> format_version > 2
+> pdbid > 1a14
+> experiment > X-RAY DIFFRACTION
+> chainid > H
+> graphclass > protein graph
+> pdb_org_sci > MUS MUSCULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1a14 | H | albelig | 1 | 1 | E | 392 | 395 | H-3-  | H-6-  | QLQQ 
+| 1a14 | H | albelig | 2 | 2 | E | 408 | 414 | H-19-  | H-25-  | RMSJKAS 
+| 1a14 | H | albelig | 3 | 3 | H | 418 | 420 | H-29-  | H-31-  | FTN 
+| 1a14 | H | albelig | 4 | 4 | E | 423 | 429 | H-34-  | H-40-  | MYWVKQS 
+| 1a14 | H | albelig | 5 | 5 | E | 433 | 441 | H-44-  | H-52-  | GLEWIGIFY 
+| 1a14 | H | albelig | 6 | 6 | E | 446 | 449 | H-56-  | H-59-  | DTSY 
+| 1a14 | H | albelig | 7 | 7 | H | 451 | 453 | H-61-  | H-63-  | QKF 
+| 1a14 | H | albelig | 8 | 8 | E | 459 | 462 | H-69-  | H-72-  | LTAD 
+| 1a14 | H | albelig | 9 | 9 | E | 467 | 471 | H-77-  | H-81-  | TAYMQ 
+| 1a14 | H | albelig | 10 | 10 | H | 477 | 479 | H-84-  | H-86-  | SED 
+| 1a14 | H | albelig | 11 | 11 | E | 481 | 488 | H-88-  | H-95-  | AVYYJARS 
+| 1a14 | H | albelig | 12 | 12 | E | 498 | 501 | H-100-E | H-103-  | FDYW 
+| 1a14 | H | albelig | 13 | 13 | E | 506 | 508 | H-108-  | H-110-  | TVT 
+# Printed info on 13 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 11
+= 2 = a = 9
+= 2 = p = 11
+= 4 = a = 5
+= 4 = p = 9
+= 4 = a = 11
+= 5 = a = 6
+= 5 = p = 8
+= 8 = a = 9
+= 11 = a = 12
+= 11 = p = 13
+# Listed 12 contacts. EOF.

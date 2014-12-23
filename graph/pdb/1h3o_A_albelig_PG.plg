@@ -1,0 +1,23 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1h3o, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSCRIPTION/TBP-ASSOCIATED FACTORS, TBP-ASSOCIATEDFACTORS, TFIID, RNA POLYMERASE II TRANSCRIPTION, HISTONEFOLD DOMAINS, NUCLEAR PROTEIN
+> pdb_mol_name > TRANSCRIPTION INITIATION FACTOR TFIID 135 KDA
+> graphtype > albelig
+> resolution > 2.3
+> date > 12-SEP-02
+> header > TRANSCRIPTION/TBP-ASSOCIATED FACTORS
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE HUMAN TAF4-TAF12(TAFII135-TAFII20) COMPLEX
+> format_version > 2
+> pdbid > 1h3o
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1h3o | A | albelig | 1 | 1 | H | 5 | 17 | A-873-  | A-885-  | QAPLQRRILEIGK 
+| 1h3o | A | albelig | 2 | 2 | H | 28 | 48 | A-896-  | A-916-  | VVSYVSHATQQRLQNLVEKIS 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+# Listed 0 contacts. EOF.

@@ -1,0 +1,50 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ejm, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > COMPLEX, HYDROLASE/INHIBITOR COMPLEX
+> pdb_mol_name > BETA-TRYPSIN
+> graphtype > albelig
+> resolution > 1.85
+> date > 03-MAR-00
+> header > HYDROLASE/INHIBITOR
+> pdb_org_common > CATTLE
+> title > CRYSTAL STRUCTURE OF THE BPTI ALA16LEU MUTANT IN COMPLEXWITH BOVINE TRYPSIN
+> format_version > 2
+> pdbid > 1ejm
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ejm | E | albelig | 1 | 1 | E | 581 | 585 | E-30-  | E-34-  | QVSLN 
+| 1ejm | E | albelig | 2 | 2 | E | 589 | 597 | E-40-  | E-48-  | HFTGGSLIN 
+| 1ejm | E | albelig | 3 | 3 | E | 600 | 603 | E-51-  | E-54-  | WVVS 
+| 1ejm | E | albelig | 4 | 4 | H | 605 | 607 | E-56-  | E-58-  | AHT 
+| 1ejm | E | albelig | 5 | 5 | E | 613 | 616 | E-64-  | E-67-  | QVRL 
+| 1ejm | E | albelig | 6 | 6 | E | 629 | 638 | E-81-  | E-90-  | QFISASKSIV 
+| 1ejm | E | albelig | 7 | 7 | E | 652 | 656 | E-104-  | E-108-  | MLIKL 
+| 1ejm | E | albelig | 8 | 8 | E | 681 | 686 | E-135-  | E-140-  | QVLISG 
+| 1ejm | E | albelig | 9 | 9 | E | 702 | 707 | E-156-  | E-161-  | KSLKAP 
+| 1ejm | E | albelig | 10 | 10 | H | 711 | 717 | E-165-  | E-171-  | DSSWKSA 
+| 1ejm | E | albelig | 11 | 11 | E | 726 | 729 | E-180-  | E-183-  | MFWA 
+| 1ejm | E | albelig | 12 | 12 | E | 746 | 749 | E-198-  | E-201-  | PVVV 
+| 1ejm | E | albelig | 13 | 13 | E | 752 | 759 | E-204-  | E-215-  | KLQGIVSW 
+| 1ejm | E | albelig | 14 | 14 | E | 770 | 774 | E-226-  | E-230-  | GVYTK 
+| 1ejm | E | albelig | 15 | 15 | H | 775 | 788 | E-231-  | E-244-  | VCNYVSWIKQTIAS 
+| 1ejm | E | albelig | 16 | 16 | L | 858 | 858 | E-3608-  | E-3608-  | J 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 5
+= 2 = a = 3
+= 3 = a = 7
+= 5 = a = 6
+= 6 = a = 7
+= 8 = a = 9
+= 8 = a = 12
+= 11 = a = 14
+= 12 = a = 13
+= 13 = a = 14
+= 13 = m = 15
+= 14 = m = 15
+# Listed 13 contacts. EOF.

@@ -1,0 +1,58 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1bro, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ANTIBIOTIC BIOSYNTHESIS, OXIDOREDUCTASE, PEROXIDASE,ALPHA/BETA HYDROLASE FOLD, HALOPEROXIDASE
+> pdb_mol_name > BROMOPEROXIDASE A2
+> graphtype > albelig
+> resolution > 2.05
+> date > 01-JUN-96
+> header > HALOPEROXIDASE
+> pdb_org_common > UNKNOWN
+> title > BROMOPEROXIDASE A2
+> format_version > 2
+> pdbid > 1bro
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > STREPTOMYCES AUREOFACIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1bro | A | albelig | 1 | 1 | E | 2 | 8 | A-2-  | A-8-  | FITVGQE 
+| 1bro | A | albelig | 2 | 2 | E | 11 | 20 | A-11-  | A-20-  | TSIDLYYEDH 
+| 1bro | A | albelig | 3 | 3 | E | 25 | 29 | A-25-  | A-29-  | PVVLI 
+| 1bro | A | albelig | 4 | 4 | H | 36 | 48 | A-36-  | A-48-  | GHSWERQSAALLD 
+| 1bro | A | albelig | 5 | 5 | E | 52 | 56 | A-52-  | A-56-  | RVITY 
+| 1bro | A | albelig | 6 | 6 | H | 73 | 87 | A-73-  | A-87-  | YDTFAADLNTVLETL 
+| 1bro | A | albelig | 7 | 7 | E | 92 | 97 | A-92-  | A-97-  | AVLVGF 
+| 1bro | A | albelig | 8 | 8 | H | 99 | 111 | A-99-  | A-111-  | MGTGEVARYVSSY 
+| 1bro | A | albelig | 9 | 9 | E | 116 | 122 | A-116-  | A-122-  | IAKVAFL 
+| 1bro | A | albelig | 10 | 10 | H | 142 | 154 | A-142-  | A-154-  | QEFFDGIVAAVKA 
+| 1bro | A | albelig | 11 | 11 | H | 156 | 168 | A-156-  | A-168-  | RYAFYTGFFNDFY 
+| 1bro | A | albelig | 12 | 12 | H | 170 | 173 | A-170-  | A-173-  | LDEN 
+| 1bro | A | albelig | 13 | 13 | H | 180 | 191 | A-180-  | A-191-  | EEAVRNSWNTAA 
+| 1bro | A | albelig | 14 | 14 | H | 195 | 204 | A-195-  | A-204-  | FFAAAAAPTT 
+| 1bro | A | albelig | 15 | 15 | H | 213 | 215 | A-213-  | A-215-  | IPR 
+| 1bro | A | albelig | 16 | 16 | E | 220 | 225 | A-220-  | A-225-  | ALILHG 
+| 1bro | A | albelig | 17 | 17 | H | 237 | 243 | A-237-  | A-243-  | ARVFHKA 
+| 1bro | A | albelig | 18 | 18 | E | 248 | 252 | A-248-  | A-252-  | EYVEV 
+| 1bro | A | albelig | 19 | 19 | H | 259 | 262 | A-259-  | A-262-  | LLWT 
+| 1bro | A | albelig | 20 | 20 | H | 264 | 276 | A-264-  | A-276-  | AEEVNTALLAFLA 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = m = 6
+= 2 = a = 5
+= 3 = p = 5
+= 3 = p = 7
+= 4 = m = 5
+= 4 = p = 20
+= 6 = p = 8
+= 7 = a = 8
+= 7 = p = 9
+= 8 = a = 9
+= 9 = p = 16
+= 10 = m = 14
+= 11 = m = 12
+= 11 = m = 13
+= 16 = p = 18
+= 17 = m = 18
+# Listed 17 contacts. EOF.

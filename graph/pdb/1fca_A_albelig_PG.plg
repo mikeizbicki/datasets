@@ -1,0 +1,34 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fca, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ELECTRON TRANSPORT (CYTOCHROME)
+> pdb_mol_name > FERREDOXIN
+> graphtype > albelig
+> resolution > 1.8
+> date > 23-SEP-94
+> header > ELECTRON TRANSPORT (CYTOCHROME)
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE FERREDOXIN FROM CLOSTRIDIUM ACIDURICI: MODEL AT 1.8ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1fca
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > CLOSTRIDIUM ACIDURICI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fca | A | albelig | 1 | 1 | E | 2 | 4 | A-2-  | A-4-  | YVI 
+| 1fca | A | albelig | 2 | 2 | H | 15 | 17 | A-15-  | A-17-  | EPE 
+| 1fca | A | albelig | 3 | 3 | H | 42 | 45 | A-42-  | A-45-  | ACAG 
+| 1fca | A | albelig | 4 | 4 | E | 52 | 54 | A-52-  | A-54-  | PVQ 
+| 1fca | A | albelig | 5 | 5 | L | 56 | 56 | A-56-  | A-56-  | J 
+| 1fca | A | albelig | 6 | 6 | L | 57 | 57 | A-57-  | A-57-  | J 
+# Printed info on 6 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 4
+= 1 = l = 5
+= 1 = l = 6
+= 2 = l = 6
+= 3 = l = 5
+= 3 = l = 6
+= 4 = l = 5
+# Listed 7 contacts. EOF.

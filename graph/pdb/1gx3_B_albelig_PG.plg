@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1gx3, chain B.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > TRANSFERASE, DRUG METABOLISM, MYCOBACTERIA, ISONIAZID,ARYLAMINE N- ACETYLTRANSFERASE, NAT
+> pdb_mol_name > ARYLAMINE N-ACETYLTRANSFERASE
+> graphtype > albelig
+> resolution > 1.7
+> date > 26-MAR-02
+> header > TRANSFERASE
+> pdb_org_common > UNKNOWN
+> title > M. SMEGMATIS ARYLAMINE N-ACETYL TRANSFERASE
+> format_version > 2
+> pdbid > 1gx3
+> experiment > X-RAY DIFFRACTION
+> chainid > B
+> graphclass > protein graph
+> pdb_org_sci > MYCOBACTERIUM SMEGMATIS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1gx3 | B | albelig | 1 | 1 | H | 282 | 288 | B-6-  | B-12-  | GGYLTRI 
+| 1gx3 | B | albelig | 2 | 2 | H | 298 | 311 | B-22-  | B-35-  | LGTLHAIVAAHNRS 
+| 1gx3 | B | albelig | 3 | 3 | H | 317 | 320 | B-41-  | B-44-  | LDPL 
+| 1gx3 | B | albelig | 4 | 4 | H | 330 | 339 | B-54-  | B-63-  | AEALFAKLVD 
+| 1gx3 | B | albelig | 5 | 5 | H | 346 | 360 | B-70-  | B-84-  | CYEHNGLLGYVLEEL 
+| 1gx3 | B | albelig | 6 | 6 | E | 363 | 371 | B-87-  | B-95-  | EVERLSGRV 
+| 1gx3 | B | albelig | 7 | 7 | E | 384 | 392 | B-108-  | B-116-  | QTHNVLSVA 
+| 1gx3 | B | albelig | 8 | 8 | E | 399 | 402 | B-123-  | B-126-  | RYLV 
+| 1gx3 | B | albelig | 9 | 9 | E | 430 | 435 | B-154-  | B-159-  | YRLTRH 
+| 1gx3 | B | albelig | 10 | 10 | E | 438 | 445 | B-162-  | B-169-  | DHTLAAQV 
+| 1gx3 | B | albelig | 11 | 11 | E | 448 | 455 | B-172-  | B-179-  | EWQPLYTF 
+| 1gx3 | B | albelig | 12 | 12 | H | 462 | 474 | B-186-  | B-198-  | RIDLEVGSWYVST 
+| 1gx3 | B | albelig | 13 | 13 | H | 479 | 482 | B-203-  | B-206-  | HFVT 
+| 1gx3 | B | albelig | 14 | 14 | E | 485 | 489 | B-209-  | B-213-  | TVAVV 
+| 1gx3 | B | albelig | 15 | 15 | E | 494 | 498 | B-218-  | B-222-  | RYNLR 
+| 1gx3 | B | albelig | 16 | 16 | E | 501 | 506 | B-225-  | B-230-  | NLAVHR 
+| 1gx3 | B | albelig | 17 | 17 | E | 509 | 515 | B-233-  | B-239-  | ATEHIRF 
+| 1gx3 | B | albelig | 18 | 18 | H | 518 | 528 | B-242-  | B-252-  | AAQVLDAIVNR 
+| 1gx3 | B | albelig | 19 | 19 | H | 534 | 536 | B-258-  | B-260-  | GDL 
+| 1gx3 | B | albelig | 20 | 20 | H | 541 | 547 | B-265-  | B-271-  | VQARVAE 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 2 = a = 5
+= 2 = m = 14
+= 4 = m = 5
+= 5 = m = 6
+= 5 = p = 7
+= 6 = a = 7
+= 6 = a = 11
+= 7 = a = 8
+= 9 = a = 10
+= 10 = a = 11
+= 14 = a = 15
+= 15 = a = 16
+= 16 = a = 17
+# Listed 14 contacts. EOF.

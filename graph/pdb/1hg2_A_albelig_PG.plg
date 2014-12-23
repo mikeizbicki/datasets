@@ -1,0 +1,45 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1hg2, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ENDOCYTOSIS, ADAPTOR
+> pdb_mol_name > CLATHRIN ASSEMBLY PROTEIN SHORT FORM
+> graphtype > albelig
+> resolution > 2.0
+> date > 12-DEC-00
+> header > ENDOCYTOSIS
+> pdb_org_common > NORWAY RAT
+> title > CALM-N N-TERMINAL DOMAIN OF CLATHRIN ASSEMBLY LYMPHOIDMYELOID LEUKAEMIA PROTEIN, INOSITOL(4,5)P2 COMPLEX
+> format_version > 2
+> pdbid > 1hg2
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1hg2 | A | albelig | 1 | 1 | H | 2 | 11 | A-20-  | A-29-  | SAVSKTVCKA 
+| 1hg2 | A | albelig | 2 | 2 | H | 21 | 31 | A-39-  | A-49-  | KKHLDYLIQCT 
+| 1hg2 | A | albelig | 3 | 3 | H | 38 | 48 | A-56-  | A-66-  | IPQLADSLFER 
+| 1hg2 | A | albelig | 4 | 4 | H | 54 | 70 | A-72-  | A-88-  | WVVVFKSLITTHHLMVY 
+| 1hg2 | A | albelig | 5 | 5 | H | 74 | 81 | A-92-  | A-99-  | RFIQYLAS 
+| 1hg2 | A | albelig | 6 | 6 | H | 97 | 123 | A-115-  | A-141-  | LQGYDMSTFIRRYSRYLNEKAVSYRQV 
+| 1hg2 | A | albelig | 7 | 7 | H | 143 | 161 | A-161-  | A-179-  | TEKLLKTVPIIQNQMDALL 
+| 1hg2 | A | albelig | 8 | 8 | H | 167 | 169 | A-185-  | A-187-  | SNE 
+| 1hg2 | A | albelig | 9 | 9 | H | 173 | 204 | A-191-  | A-222-  | GVINAAFMLLFKDAIRLFAAYNEGIINLLEKY 
+| 1hg2 | A | albelig | 10 | 10 | H | 209 | 239 | A-227-  | A-257-  | KNQCKEGLDIYKKFLTRMTRISEFLKVAEQV 
+| 1hg2 | A | albelig | 11 | 11 | H | 243 | 245 | A-261-  | A-263-  | RGD 
+| 1hg2 | A | albelig | 12 | 12 | L | 264 | 264 | A-1282-  | A-1282-  | J 
+# Printed info on 12 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = l = 12
+= 2 = m = 4
+= 2 = l = 12
+= 3 = m = 4
+= 4 = p = 6
+= 4 = p = 9
+= 6 = a = 7
+= 6 = p = 9
+= 7 = a = 9
+= 7 = p = 10
+= 9 = a = 10
+# Listed 12 contacts. EOF.

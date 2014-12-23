@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1brl, chain D.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > MONOOXYGENASE, LUMINESCENCE
+> pdb_mol_name > BACTERIAL LUCIFERASE
+> graphtype > albelig
+> resolution > 2.4
+> date > 20-MAR-95
+> header > LUMINESCENCE
+> pdb_org_common > UNKNOWN
+> title > THREE-DIMENSIONAL STRUCTURE OF BACTERIAL LUCIFERASE FROMVIBRIO HARVEYI AT 2.4 ANGSTROMS RESOLUTION
+> format_version > 2
+> pdbid > 1brl
+> experiment > X-RAY DIFFRACTION
+> chainid > D
+> graphclass > protein graph
+> pdb_org_sci > VIBRIO HARVEYI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1brl | D | albelig | 1 | 1 | E | 1006 | 1011 | D-2-  | D-7-  | KFGLFF 
+| 1brl | D | albelig | 2 | 2 | H | 1021 | 1036 | D-17-  | D-32-  | SDQVIEEMLDTAHYVD 
+| 1brl | D | albelig | 3 | 3 | E | 1042 | 1045 | D-38-  | D-41-  | TLAV 
+| 1brl | D | albelig | 4 | 4 | H | 1059 | 1069 | D-55-  | D-65-  | PLTVAGFLLGM 
+| 1brl | D | albelig | 5 | 5 | E | 1074 | 1081 | D-70-  | D-77-  | KVASLNHV 
+| 1brl | D | albelig | 6 | 6 | H | 1087 | 1101 | D-83-  | D-97-  | PVRVAEEACLLDQMS 
+| 1brl | D | albelig | 7 | 7 | E | 1105 | 1110 | D-101-  | D-106-  | FAFGFS 
+| 1brl | D | albelig | 8 | 8 | H | 1115 | 1120 | D-111-  | D-116-  | SADMRF 
+| 1brl | D | albelig | 9 | 9 | H | 1128 | 1145 | D-124-  | D-141-  | QFQLFSECHKIINDAFTT 
+| 1brl | D | albelig | 10 | 10 | E | 1173 | 1178 | D-169-  | D-174-  | AQFVNA 
+| 1brl | D | albelig | 11 | 11 | H | 1181 | 1189 | D-177-  | D-185-  | KEVVEWAAK 
+| 1brl | D | albelig | 12 | 12 | E | 1194 | 1196 | D-190-  | D-192-  | LVF 
+| 1brl | D | albelig | 13 | 13 | H | 1202 | 1219 | D-198-  | D-215-  | NAQRKEYAGLYHEVAQAH 
+| 1brl | D | albelig | 14 | 14 | E | 1229 | 1236 | D-225-  | D-232-  | KLTLLVNQ 
+| 1brl | D | albelig | 15 | 15 | H | 1240 | 1258 | D-236-  | D-254-  | GEAARAEARVYLEEFVRES 
+| 1brl | D | albelig | 16 | 16 | H | 1264 | 1274 | D-260-  | D-270-  | FEQKMGELLSE 
+| 1brl | D | albelig | 17 | 17 | E | 1276 | 1278 | D-272-  | D-274-  | AIG 
+| 1brl | D | albelig | 18 | 18 | H | 1280 | 1294 | D-276-  | D-290-  | YEESTQAARVAIECC 
+| 1brl | D | albelig | 19 | 19 | E | 1298 | 1302 | D-294-  | D-298-  | DLLMS 
+| 1brl | D | albelig | 20 | 20 | H | 1309 | 1322 | D-305-  | D-318-  | KAQQRAVIDVVNAN 
+# Printed info on 20 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = p = 3
+= 1 = p = 19
+= 3 = p = 5
+= 4 = a = 5
+= 4 = p = 6
+= 5 = p = 7
+= 7 = p = 10
+= 9 = m = 11
+= 10 = a = 12
+= 11 = m = 13
+= 12 = p = 14
+= 14 = p = 17
+= 14 = p = 19
+= 15 = a = 16
+# Listed 14 contacts. EOF.

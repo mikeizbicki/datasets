@@ -1,0 +1,41 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1ff3, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > PEPTIDE METHIONINE SULFOXIDE REDUCTASE, ALPHA BETA ROLL,PMSR, MSRA, OXIDOREDUCTASE
+> pdb_mol_name > PEPTIDE METHIONINE SULFOXIDE REDUCTASE
+> graphtype > albelig
+> resolution > 1.9
+> date > 25-JUL-00
+> header > OXIDOREDUCTASE
+> pdb_org_common > UNKNOWN
+> title > STRUCTURE OF THE PEPTIDE METHIONINE SULFOXIDE REDUCTASEFROM ESCHERICHIA COLI
+> format_version > 2
+> pdbid > 1ff3
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > ESCHERICHIA COLI
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1ff3 | C | albelig | 1 | 1 | E | 443 | 449 | C-43-  | C-49-  | EIAIFAM 
+| 1ff3 | C | albelig | 2 | 2 | H | 452 | 460 | C-52-  | C-60-  | FWGVERLFW 
+| 1ff3 | C | albelig | 3 | 3 | E | 465 | 473 | C-65-  | C-73-  | VYSTAAGYT 
+| 1ff3 | C | albelig | 4 | 4 | H | 482 | 487 | C-82-  | C-87-  | YREVCS 
+| 1ff3 | C | albelig | 5 | 5 | E | 493 | 500 | C-93-  | C-100-  | AEAVRIVY 
+| 1ff3 | C | albelig | 6 | 6 | H | 507 | 516 | C-107-  | C-116-  | YEQLLQVFWE 
+| 1ff3 | C | albelig | 7 | 7 | H | 532 | 534 | C-132-  | C-134-  | TQY 
+| 1ff3 | C | albelig | 8 | 8 | E | 536 | 538 | C-136-  | C-138-  | SAI 
+| 1ff3 | C | albelig | 9 | 9 | H | 543 | 562 | C-143-  | C-162-  | PEQDAAARASLERFQAAMLA 
+| 1ff3 | C | albelig | 10 | 10 | H | 584 | 586 | C-184-  | C-186-  | DDH 
+# Printed info on 10 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = m = 2
+= 1 = a = 5
+= 1 = m = 6
+= 1 = a = 8
+= 2 = a = 3
+= 2 = p = 5
+= 3 = a = 5
+= 5 = m = 7
+= 6 = m = 8
+= 6 = p = 9
+# Listed 10 contacts. EOF.

@@ -1,0 +1,64 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1b47, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CBL, SIGNAL TRANSDUCTION, SH2, PROTO-ONCOGENE
+> pdb_mol_name > CBL
+> graphtype > albelig
+> resolution > 2.2
+> date > 06-JAN-99
+> header > SIGNAL TRANSDUCTION
+> pdb_org_common > HUMAN
+> title > STRUCTURE OF THE N-TERMINAL DOMAIN OF CBL IN COMPLEX WITHITS BINDING SITE IN ZAP-70
+> format_version > 2
+> pdbid > 1b47
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1b47 | C | albelig | 1 | 1 | H | 617 | 634 | C-53-  | C-70-  | KKMVEKCWKLMDKVVRLC 
+| 1b47 | C | albelig | 2 | 2 | H | 648 | 665 | C-84-  | C-101-  | ILDLLPDTYQHLRTILSR 
+| 1b47 | C | albelig | 3 | 3 | H | 670 | 674 | C-106-  | C-110-  | METLG 
+| 1b47 | C | albelig | 4 | 4 | H | 677 | 705 | C-113-  | C-141-  | EYFRVFMENLMKKTKQTISLFKEGKERMY 
+| 1b47 | C | albelig | 5 | 5 | H | 710 | 732 | C-146-  | C-168-  | QPRRNLTKLSLIFSHMLAELKGI 
+| 1b47 | C | albelig | 6 | 6 | H | 734 | 736 | C-170-  | C-172-  | PSG 
+| 1b47 | C | albelig | 7 | 7 | H | 740 | 742 | C-176-  | C-178-  | GDT 
+| 1b47 | C | albelig | 8 | 8 | H | 748 | 758 | C-184-  | C-194-  | ADAAEFWRKAF 
+| 1b47 | C | albelig | 9 | 9 | E | 763 | 765 | C-199-  | C-201-  | IVP 
+| 1b47 | C | albelig | 10 | 10 | H | 766 | 776 | C-202-  | C-212-  | WKSFRQALHEV 
+| 1b47 | C | albelig | 11 | 11 | H | 782 | 792 | C-218-  | C-228-  | GLEAMALKSTI 
+| 1b47 | C | albelig | 12 | 12 | E | 799 | 801 | C-235-  | C-237-  | YIS 
+| 1b47 | C | albelig | 13 | 13 | H | 802 | 811 | C-238-  | C-247-  | VFEFDIFTRL 
+| 1b47 | C | albelig | 14 | 14 | H | 815 | 822 | C-251-  | C-258-  | WSSLLRNW 
+| 1b47 | C | albelig | 15 | 15 | H | 823 | 827 | C-259-  | C-263-  | NSLAV 
+| 1b47 | C | albelig | 16 | 16 | E | 832 | 835 | C-268-  | C-271-  | YMAF 
+| 1b47 | C | albelig | 17 | 17 | H | 838 | 848 | C-274-  | C-284-  | YDEVKARLQKF 
+| 1b47 | C | albelig | 18 | 18 | E | 854 | 859 | C-290-  | C-295-  | SYIFRL 
+| 1b47 | C | albelig | 19 | 19 | E | 867 | 872 | C-303-  | C-308-  | WAIGYV 
+| 1b47 | C | albelig | 20 | 20 | E | 878 | 881 | C-314-  | C-317-  | ILQT 
+| 1b47 | C | albelig | 21 | 21 | H | 888 | 897 | C-324-  | C-333-  | LFQALIDGFR 
+| 1b47 | C | albelig | 22 | 22 | L | 917 | 917 | C-351-  | C-351-  | J 
+# Printed info on 22 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = p = 4
+= 2 = p = 5
+= 4 = a = 5
+= 8 = m = 10
+= 8 = m = 13
+= 9 = m = 10
+= 9 = a = 12
+= 10 = m = 11
+= 11 = m = 14
+= 12 = m = 13
+= 12 = l = 22
+= 13 = m = 14
+= 13 = l = 22
+= 14 = m = 15
+= 16 = p = 18
+= 17 = a = 18
+= 17 = m = 19
+= 17 = m = 20
+= 18 = a = 19
+= 19 = a = 20
+# Listed 21 contacts. EOF.

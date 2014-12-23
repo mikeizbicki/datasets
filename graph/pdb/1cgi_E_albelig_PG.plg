@@ -1,0 +1,51 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1cgi, chain E.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > SERINE PROTEASE/INHIBITOR COMPLEX
+> pdb_mol_name > ALPHA-CHYMOTRYPSINOGEN
+> graphtype > albelig
+> resolution > 2.3
+> date > 08-OCT-91
+> header > SERINE PROTEASE/INHIBITOR COMPLEX
+> pdb_org_common > CATTLE
+> title > THREE-DIMENSIONAL STRUCTURE OF THE COMPLEXES BETWEEN BOVINECHYMOTRYPSINOGEN*A AND TWO RECOMBINANT VARIANTS OF HUMANPANCREATIC SECRETORY TRYPSIN INHIBITOR (KAZAL-TYPE)
+> format_version > 2
+> pdbid > 1cgi
+> experiment > X-RAY DIFFRACTION
+> chainid > E
+> graphclass > protein graph
+> pdb_org_sci > BOS TAURUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1cgi | E | albelig | 1 | 1 | E | 30 | 34 | E-30-  | E-34-  | QVSLQ 
+| 1cgi | E | albelig | 2 | 2 | E | 40 | 46 | E-40-  | E-46-  | HFNGGSL 
+| 1cgi | E | albelig | 3 | 3 | E | 51 | 54 | E-51-  | E-54-  | WVVT 
+| 1cgi | E | albelig | 4 | 4 | E | 65 | 68 | E-65-  | E-68-  | VVVA 
+| 1cgi | E | albelig | 5 | 5 | E | 81 | 90 | E-81-  | E-90-  | QKLKIAKVFK 
+| 1cgi | E | albelig | 6 | 6 | E | 104 | 108 | E-104-  | E-108-  | TLLKL 
+| 1cgi | E | albelig | 7 | 7 | E | 135 | 140 | E-135-  | E-140-  | TCVTTG 
+| 1cgi | E | albelig | 8 | 8 | E | 156 | 163 | E-156-  | E-163-  | QQASLPLL 
+| 1cgi | E | albelig | 9 | 9 | H | 165 | 175 | E-165-  | E-175-  | NTNDKKYWGTK 
+| 1cgi | E | albelig | 10 | 10 | E | 180 | 184 | E-180-  | E-184-  | MIDAG 
+| 1cgi | E | albelig | 11 | 11 | E | 198 | 203 | E-198-  | E-203-  | PLVCKK 
+| 1cgi | E | albelig | 12 | 12 | E | 206 | 216 | E-206-  | E-216-  | AWTLVGIVSWG 
+| 1cgi | E | albelig | 13 | 13 | E | 225 | 230 | E-225-  | E-230-  | PGVYAR 
+| 1cgi | E | albelig | 14 | 14 | H | 231 | 233 | E-231-  | E-233-  | VTA 
+| 1cgi | E | albelig | 15 | 15 | H | 235 | 243 | E-235-  | E-243-  | VNWVQQTLA 
+# Printed info on 15 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 4
+= 2 = a = 3
+= 3 = a = 6
+= 4 = a = 5
+= 5 = a = 6
+= 7 = a = 8
+= 7 = a = 11
+= 8 = a = 10
+= 9 = m = 10
+= 10 = a = 13
+= 11 = a = 12
+= 12 = a = 13
+= 12 = m = 14
+= 13 = m = 14
+# Listed 15 contacts. EOF.

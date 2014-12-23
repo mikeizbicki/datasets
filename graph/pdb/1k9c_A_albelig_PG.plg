@@ -1,0 +1,24 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k9c, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > HAIRPIN, METAL TRANSPORT
+> pdb_mol_name > CALRETICULIN
+> graphtype > albelig
+> resolution > -1.0
+> date > 29-OCT-01
+> header > METAL TRANSPORT
+> pdb_org_common > NORWAY RAT
+> title > SOLUTION STRUCTURE OF CALRETICULIN P-DOMAIN SUBDOMAIN(RESIDUES 189-261)
+> format_version > 2
+> pdbid > 1k9c
+> experiment > SOLUTION NMR
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > RATTUS NORVEGICUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k9c | A | albelig | 1 | 1 | E | 37 | 39 | A-224-  | A-226-  | HIP 
+| 1k9c | A | albelig | 2 | 2 | E | 61 | 63 | A-248-  | A-250-  | VIQ 
+# Printed info on 2 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+# Listed 1 contacts. EOF.

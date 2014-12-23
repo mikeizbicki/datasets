@@ -1,0 +1,27 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1id3, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > NUCLEOSOME CORE PARTICLE, CHROMATIN, HISTONE, PROTEIN/DNAINTERACTION, NUCLEOPROTEIN, SUPERCOILED DNA, COMPLEX(NUCLEOSOME CORE/DNA), STRUCTURAL PROTEIN/DNA COMPLEX
+> pdb_mol_name > HISTONE H3
+> graphtype > albelig
+> resolution > 3.1
+> date > 03-APR-01
+> header > STRUCTURAL PROTEIN/DNA
+> pdb_org_common > BAKER'S YEAST
+> title > CRYSTAL STRUCTURE OF THE YEAST NUCLEOSOME CORE PARTICLEREVEALS FUNDAMENTAL DIFFERENCES IN INTER-NUCLEOSOMEINTERACTIONS
+> format_version > 2
+> pdbid > 1id3
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > SACCHAROMYCES CEREVISIAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1id3 | A | albelig | 1 | 1 | H | 8 | 19 | A-45-  | A-56-  | TVALREIRRFQK 
+| 1id3 | A | albelig | 2 | 2 | H | 27 | 39 | A-64-  | A-76-  | KLPFQRLVREIAQ 
+| 1id3 | A | albelig | 3 | 3 | H | 49 | 76 | A-86-  | A-113-  | SSAIGALQESVEAYLVSLFEDTNLAAIH 
+| 1id3 | A | albelig | 4 | 4 | H | 84 | 92 | A-121-  | A-129-  | KKEIKLARR 
+# Printed info on 4 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = m = 3
+= 3 = a = 4
+# Listed 2 contacts. EOF.

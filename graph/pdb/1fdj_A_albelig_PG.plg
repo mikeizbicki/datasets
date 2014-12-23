@@ -1,0 +1,76 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1fdj, chain A.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > ALDOLASE, LYASE (ALDEHYDE), SCHIFF BASE, GLYCOLYSIS
+> pdb_mol_name > FRUCTOSE 1,6-BISPHOSPHATE ALDOLASE
+> graphtype > albelig
+> resolution > 2.1
+> date > 20-JUL-00
+> header > LYASE
+> pdb_org_common > RABBIT
+> title > FRUCTOSE 1,6-BISPHOSPHATE ALDOLASE FROM RABBIT LIVER
+> format_version > 2
+> pdbid > 1fdj
+> experiment > X-RAY DIFFRACTION
+> chainid > A
+> graphclass > protein graph
+> pdb_org_sci > ORYCTOLAGUS CUNICULUS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1fdj | A | albelig | 1 | 1 | H | 9 | 26 | A-1009-  | A-1026-  | PEQKKELSDIAQRIVANG 
+| 1fdj | A | albelig | 2 | 2 | E | 28 | 32 | A-1028-  | A-1032-  | GILAA 
+| 1fdj | A | albelig | 3 | 3 | H | 36 | 45 | A-1036-  | A-1045-  | VGTMGNRLQR 
+| 1fdj | A | albelig | 4 | 4 | H | 52 | 63 | A-1052-  | A-1063-  | EENRRQFREILF 
+| 1fdj | A | albelig | 5 | 5 | H | 67 | 71 | A-1067-  | A-1071-  | NSINQ 
+| 1fdj | A | albelig | 6 | 6 | E | 73 | 78 | A-1073-  | A-1078-  | IGGVIL 
+| 1fdj | A | albelig | 7 | 7 | H | 80 | 83 | A-1080-  | A-1083-  | HETL 
+| 1fdj | A | albelig | 8 | 8 | H | 93 | 99 | A-1093-  | A-1099-  | FRNILKE 
+| 1fdj | A | albelig | 9 | 9 | E | 103 | 107 | A-1103-  | A-1107-  | VVGIK 
+| 1fdj | A | albelig | 10 | 10 | E | 112 | 114 | A-1112-  | A-1114-  | GAP 
+| 1fdj | A | albelig | 11 | 11 | E | 122 | 124 | A-1122-  | A-1124-  | TTI 
+| 1fdj | A | albelig | 12 | 12 | H | 130 | 139 | A-1130-  | A-1139-  | LSERCAQYKK 
+| 1fdj | A | albelig | 13 | 13 | E | 144 | 151 | A-1144-  | A-1151-  | FGKWRAVL 
+| 1fdj | A | albelig | 14 | 14 | H | 160 | 179 | A-1160-  | A-1179-  | SLAIQENANTLARYASICQQ 
+| 1fdj | A | albelig | 15 | 15 | E | 183 | 190 | A-1183-  | A-1190-  | VPIVEPEV 
+| 1fdj | A | albelig | 16 | 16 | H | 198 | 218 | A-1198-  | A-1218-  | LEHCQYVTEKVLAAVYKALND 
+| 1fdj | A | albelig | 17 | 17 | H | 223 | 225 | A-1223-  | A-1225-  | LEG 
+| 1fdj | A | albelig | 18 | 18 | H | 245 | 257 | A-1245-  | A-1257-  | PEQVAMATVTALH 
+| 1fdj | A | albelig | 19 | 19 | E | 266 | 269 | A-1266-  | A-1269-  | GICF 
+| 1fdj | A | albelig | 20 | 20 | H | 276 | 288 | A-1276-  | A-1288-  | EEDATLNLNAINL 
+| 1fdj | A | albelig | 21 | 21 | E | 296 | 301 | A-1296-  | A-1301-  | KLSFSY 
+| 1fdj | A | albelig | 22 | 22 | H | 303 | 313 | A-1303-  | A-1313-  | RALQASALAAW 
+| 1fdj | A | albelig | 23 | 23 | H | 317 | 337 | A-1317-  | A-1337-  | AENKKATQEAFMKRAVVNCQA 
+| 1fdj | A | albelig | 24 | 24 | L | 1456 | 1456 | A-5000-  | A-5000-  | J 
+| 1fdj | A | albelig | 25 | 25 | L | 1457 | 1457 | A-5001-  | A-5001-  | J 
+# Printed info on 25 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = p = 6
+= 2 = p = 21
+= 2 = m = 22
+= 3 = l = 25
+= 4 = m = 8
+= 4 = m = 22
+= 4 = p = 23
+= 5 = m = 6
+= 6 = p = 9
+= 9 = p = 13
+= 9 = l = 25
+= 10 = a = 11
+= 11 = a = 13
+= 11 = m = 14
+= 13 = a = 14
+= 13 = p = 15
+= 13 = l = 25
+= 14 = m = 15
+= 14 = p = 16
+= 15 = l = 25
+= 16 = p = 18
+= 16 = l = 24
+= 18 = l = 24
+= 19 = p = 21
+= 20 = a = 21
+= 20 = m = 22
+= 20 = p = 23
+= 21 = l = 25
+= 22 = a = 23
+= 22 = l = 25
+# Listed 30 contacts. EOF.

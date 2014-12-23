@@ -1,0 +1,31 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1k05, chain C.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > UP-DOWN-UP-DOWN FOUR HELICAL BUNDLE, TRANSFERASE
+> pdb_mol_name > FOCAL ADHESION KINASE 1
+> graphtype > albelig
+> resolution > 2.9
+> date > 18-SEP-01
+> header > TRANSFERASE
+> pdb_org_common > HUMAN
+> title > CRYSTAL STRUCTURE OF THE FOCAL ADHESION TARGETING DOMAIN OFFOCAL ADHESION KINASE
+> format_version > 2
+> pdbid > 1k05
+> experiment > X-RAY DIFFRACTION
+> chainid > C
+> graphclass > protein graph
+> pdb_org_sci > HOMO SAPIENS
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1k05 | C | albelig | 1 | 1 | H | 292 | 294 | C-919-  | C-921-  | RSN 
+| 1k05 | C | albelig | 2 | 2 | H | 296 | 315 | C-923-  | C-942-  | KVYENVTGLVKAVIEMSSKI 
+| 1k05 | C | albelig | 3 | 3 | H | 320 | 344 | C-947-  | C-971-  | PEEYVPMVKEVGLALRTLLATVDET 
+| 1k05 | C | albelig | 4 | 4 | H | 350 | 379 | C-977-  | C-1006-  | ASTHREIEMAQKLLNSDLGELINKMKLAQQ 
+| 1k05 | C | albelig | 5 | 5 | H | 384 | 418 | C-1011-  | C-1045-  | SLQQEYKKQMLTAAHALAVDAKNLLDVIDQARLKM 
+# Printed info on 5 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 2 = a = 3
+= 2 = a = 5
+= 3 = a = 4
+= 3 = p = 5
+= 4 = a = 5
+# Listed 5 contacts. EOF.

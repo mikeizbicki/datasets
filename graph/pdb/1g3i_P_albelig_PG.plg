@@ -1,0 +1,55 @@
+# This is the plcc format protein graph file for the albelig graph of PDB entry 1g3i, chain P.
+# First character in a line indicates the line type ('#' => comment, '>' => meta data, '|' => SSE, '=' => contact).
+# The graph meta data follows in format '> key > value'.
+> keywords > CHAPERONE/HYDROLASE
+> pdb_mol_name > ATP-DEPENDENT PROTEASE HSLV
+> graphtype > albelig
+> resolution > 3.41
+> date > 24-OCT-00
+> header > CHAPERONE/HYDROLASE
+> pdb_org_common > UNKNOWN
+> title > CRYSTAL STRUCTURE OF THE HSLUV PROTEASE-CHAPERONE COMPLEX
+> format_version > 2
+> pdbid > 1g3i
+> experiment > X-RAY DIFFRACTION
+> chainid > P
+> graphclass > protein graph
+> pdb_org_sci > HAEMOPHILUS INFLUENZAE
+# SSEs follow in format '| PDB ID | chain ID | graph type | sequential SSE number in chain | SSE number in graph and image | SSE type | DSSP start residue # | DSSP end residue # | PDB end residue ID (format: chain-res#-icode) | PDB start residue ID | AA sequence'
+| 1g3i | P | albelig | 1 | 1 | E | 3519 | 3523 | P-3-  | P-7-  | IVSVR 
+| 1g3i | P | albelig | 2 | 2 | E | 3528 | 3532 | P-12-  | P-16-  | VVVGG 
+| 1g3i | P | albelig | 3 | 3 | E | 3536 | 3538 | P-20-  | P-22-  | VSL 
+| 1g3i | P | albelig | 4 | 4 | E | 3541 | 3544 | P-25-  | P-28-  | TVMK 
+| 1g3i | P | albelig | 5 | 5 | E | 3550 | 3553 | P-34-  | P-37-  | VRRL 
+| 1g3i | P | albelig | 6 | 6 | H | 3554 | 3556 | P-38-  | P-40-  | YNG 
+| 1g3i | P | albelig | 7 | 7 | E | 3558 | 3564 | P-42-  | P-48-  | VLAGFAG 
+| 1g3i | P | albelig | 8 | 8 | H | 3566 | 3581 | P-50-  | P-65-  | TADAFTLFELFERKLE 
+| 1g3i | P | albelig | 9 | 9 | H | 3587 | 3596 | P-71-  | P-80-  | LLKSAVELAK 
+| 1g3i | P | albelig | 10 | 10 | E | 3607 | 3615 | P-91-  | P-99-  | LEAMLIVAD 
+| 1g3i | P | albelig | 11 | 11 | E | 3619 | 3624 | P-103-  | P-108-  | SLIITG 
+| 1g3i | P | albelig | 12 | 12 | E | 3627 | 3629 | P-111-  | P-113-  | DVV 
+| 1g3i | P | albelig | 13 | 13 | E | 3636 | 3639 | P-120-  | P-123-  | ILAI 
+| 1g3i | P | albelig | 14 | 14 | H | 3643 | 3656 | P-127-  | P-140-  | GNYALSAARALVEN 
+| 1g3i | P | albelig | 15 | 15 | H | 3661 | 3673 | P-145-  | P-157-  | AHEIVEKSLRIAG 
+| 1g3i | P | albelig | 16 | 16 | E | 3684 | 3688 | P-168-  | P-172-  | TIEEL 
+# Printed info on 16 SSEs.
+# The contacts between the SSEs follow in format '= SSE1 = contact_type = SSE2'. The SSEs are labeled by their position in this graph.
+= 1 = a = 2
+= 1 = a = 13
+= 1 = m = 15
+= 2 = a = 5
+= 2 = m = 15
+= 2 = a = 16
+= 3 = a = 4
+= 5 = m = 6
+= 5 = a = 7
+= 7 = a = 10
+= 8 = m = 9
+= 8 = p = 10
+= 9 = m = 10
+= 10 = a = 11
+= 10 = a = 13
+= 11 = a = 12
+= 14 = a = 15
+= 15 = m = 16
+# Listed 18 contacts. EOF.
