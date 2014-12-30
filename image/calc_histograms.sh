@@ -6,7 +6,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-make all
+make all || exit
 
 for file in $(find "$1"); do
     echo "$file"
