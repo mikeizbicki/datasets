@@ -13,6 +13,9 @@
 #include <string>
 #include <stdio.h>
 
+#include <vector>
+#include <algorithm>
+
 using namespace std;
 using namespace cv;
 
@@ -34,19 +37,50 @@ void make_sig3d_file(const char *filename, const char *color, const Mat &all_his
 
     ofstream out((string(filename)+".sig."+string(color)).c_str());
 
+    // create vector of signature entries
+    vector<vector<float> > vec;
     for (int x=0; x<histSize[0]; x++) {
         for (int y=0; y<histSize[1]; y++) {
             for (int z=0; z<histSize[2]; z++) {
-                int val = cvRound(all_hist.at<float>(x,y,z));
+                vector<float> tmp(4);
+                tmp[0]=all_hist.at<float>(x,y,z);
+                tmp[1]=x*255.0/(histSize[0]-1);
+                tmp[2]=y*255.0/(histSize[1]-1);
+                tmp[3]=z*255.0/(histSize[2]-1);
+                vec.push_back(tmp);
 
-                if (val>0) {
-                    out << cvRound(x*255.0/(histSize[0]-1)) << ","
-                        << cvRound(y*255.0/(histSize[0]-1)) << ","
-                        << cvRound(z*255.0/(histSize[0]-1)) << ","
-                        << val
-                        << endl;
-                }
+                //int val = cvRound(all_hist.at<float>(x,y,z));
+                //
+                //if (val>0) {
+                //out << cvRound(x*255.0/(histSize[0]-1)) << ","
+                //<< cvRound(y*255.0/(histSize[0]-1)) << ","
+                //<< cvRound(z*255.0/(histSize[0]-1)) << ","
+                //<< val
+                //<< endl;
+                //}
             }
+        }
+    }
+
+    // sorting lets us display only the siglen largest entries
+    sort(vec.begin(),vec.end());
+    reverse(vec.begin(),vec.end());
+
+    const int siglen=20;
+    const float totalweight=1.0f;
+
+    // normalize so that our entries sum to totalweight
+    float tot=0;
+    for (int i=0; i<siglen; i++) {
+        tot+=vec[i][0];
+    }
+
+    for (int i=0; i<siglen; i++) {
+        if (vec[i][0] > 0) {
+            out << (vec[i][1]) << ","
+                << (vec[i][2]) << ","
+                << (vec[i][3]) << ","
+                << (vec[i][0]*totalweight/tot) << endl;
         }
     }
 
@@ -92,25 +126,22 @@ int main( int, char** argv )
     Mat b_hist, g_hist, r_hist, all_hist;
 
 
-    /// Compute the histograms:
+    /// 1d histograms
     calcHist( &bgr_planes[0], 1, 0, Mat(), b_hist, 1, histSize+0, histRange, uniform, accumulate );
     calcHist( &bgr_planes[1], 1, 0, Mat(), g_hist, 1, histSize+1, histRange, uniform, accumulate );
     calcHist( &bgr_planes[2], 1, 0, Mat(), r_hist, 1, histSize+2, histRange, uniform, accumulate );
 
-    int all_channels[]={0,1,2};
-    calcHist( &src, 1, all_channels, Mat(), all_hist, 3, histSize, histRange, uniform, accumulate );
-
-    /// Normalize the result to [ 0, histImage.rows ]
     normalize(b_hist, b_hist, 0, 255, NORM_MINMAX, -1, Mat() );
     normalize(g_hist, g_hist, 0, 255, NORM_MINMAX, -1, Mat() );
     normalize(r_hist, r_hist, 0, 255, NORM_MINMAX, -1, Mat() );
 
-    normalize(all_hist, all_hist, 255, 0, NORM_L2);
+    //make_histogram_file(argv[1],"blue",b_hist,histSize[0]);
+    //make_histogram_file(argv[1],"green",g_hist,histSize[1]);
+    //make_histogram_file(argv[1],"red",r_hist,histSize[2]);
 
-    /// create histogram files
-    make_histogram_file(argv[1],"blue",b_hist,histSize[0]);
-    make_histogram_file(argv[1],"green",g_hist,histSize[1]);
-    make_histogram_file(argv[1],"red",r_hist,histSize[2]);
+    // 3d histograms
+    int all_channels[]={0,1,2};
+    calcHist( &src, 1, all_channels, Mat(), all_hist, 3, histSize, histRange, uniform, accumulate );
 
     make_sig3d_file(argv[1],"all",all_hist,histSize);
 
